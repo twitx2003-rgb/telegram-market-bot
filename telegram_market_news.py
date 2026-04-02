@@ -104,13 +104,18 @@ def is_market_relevant(title):
     return matches >= 2
 
 def send_telegram(message):
+    if not BOT_TOKEN or not CHAT_ID:
+        print("ERROR: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID is missing!")
+        return
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    requests.post(url, json={
+    r = requests.post(url, json={
         "chat_id": CHAT_ID,
         "text": message,
         "parse_mode": "HTML",
         "disable_web_page_preview": True
     })
+    if r.status_code != 200:
+        print(f"ERROR sending message: {r.text}")
 
 def check_alerts():
     seen = load_seen()

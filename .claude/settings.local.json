@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show feedparser requests)",
+      "Bash(pip install feedparser -q)"
+    ]
+  }
+}

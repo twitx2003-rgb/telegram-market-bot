@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Morning Briefing — 4 מרץ 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+  :root {
+    --bg:       #070b0f;
+    --surface:  #0e1419;
+    --card:     #131a22;
+    --border:   #1e2a35;
+    --accent:   #0ea5e9;
+    --green:    #22c55e;
+    --red:      #ef4444;
+    --gold:     #f59e0b;
+    --purple:   #a855f7;
+    --text:     #cbd5e1;
+    --muted:    #64748b;
+    --white:    #f1f5f9;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    min-height: 100vh;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(160deg, #070b0f 0%, #0c1929 50%, #070b0f 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem 2.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; left: 50%;
+    transform: translateX(-50%);
+    width: 600px; height: 200px;
+    background: radial-gradient(ellipse, rgba(14,165,233,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-label {
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .35em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: .7rem;
+  }
+  .hero h1 {
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: var(--white);
+    letter-spacing: -.03em;
+    line-height: 1.1;
+  }
+  .hero h1 span { color: var(--accent); }
+  .hero-sub {
+    margin-top: .6rem;
+    font-size: .88rem;
+    color: var(--muted);
+    font-weight: 400;
+  }
+  .hero-date {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 1.4rem;
+    background: rgba(14,165,233,.1);
+    border: 1px solid rgba(14,165,233,.25);
+    color: var(--accent);
+    padding: .4rem 1.2rem;
+    border-radius: 999px;
+    font-size: .8rem;
+    font-weight: 600;
+  }
+  .dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--green);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%,100% { opacity: 1; transform: scale(1); }
+    50%      { opacity: .5; transform: scale(1.4); }
+  }
+
+  /* ── LAYOUT ── */
+  .page { max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
+
+  .section-label {
+    font-size: .65rem;
+    font-weight: 700;
+    letter-spacing: .28em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-bottom: .6rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.2rem;
+  }
+
+  section { margin-bottom: 2.8rem; }
+
+  /* ── MARKET STRIP ── */
+  .market-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+    gap: .85rem;
+  }
+  .mkt-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.1rem 1.3rem;
+    transition: border-color .2s, transform .2s;
+  }
+  .mkt-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .mkt-label { font-size: .65rem; font-weight: 700; color: var(--muted); letter-spacing: .12em; text-transform: uppercase; margin-bottom: .4rem; }
+  .mkt-val { font-size: 1.45rem; font-weight: 800; color: var(--white); font-variant-numeric: tabular-nums; }
+  .mkt-chg { font-size: .85rem; font-weight: 700; margin-top: .2rem; }
+  .up   { color: var(--green); }
+  .down { color: var(--red);   }
+  .flat { color: var(--muted); }
+
+  /* ── NEWS ── */
+  .news-grid { display: flex; flex-direction: column; gap: 1rem; }
+  .news-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.4rem 1.6rem;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 1.1rem;
+    align-items: start;
+    transition: border-color .2s;
+  }
+  .news-card:hover { border-color: rgba(14,165,233,.4); }
+  .news-num {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--border);
+    line-height: 1;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    padding-top: .2rem;
+  }
+  .news-tag {
+    display: inline-block;
+    font-size: .62rem;
+    font-weight: 800;
+    letter-spacing: .1em;
+    padding: .18rem .6rem;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+  }
+  .tag-oil    { background: rgba(245,158,11,.15); color: var(--gold);   }
+  .tag-earn   { background: rgba(34,197,94,.12);  color: var(--green);  }
+  .tag-macro  { background: rgba(14,165,233,.12); color: var(--accent); }
+  .tag-tech   { background: rgba(168,85,247,.12); color: var(--purple); }
+  .tag-fed    { background: rgba(239,68,68,.12);  color: var(--red);    }
+  .news-title { font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: .4rem; line-height: 1.35; }
+  .news-body  { font-size: .86rem; color: var(--text); }
+  .news-meta  { font-size: .72rem; color: var(--muted); margin-top: .55rem; }
+
+  /* ── MOVERS ── */
+  .movers-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  @media (max-width:600px) { .movers-wrap { grid-template-columns: 1fr; } }
+  .movers-panel {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .movers-head {
+    padding: .75rem 1.2rem;
+    font-size: .7rem;
+    font-weight: 800;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .movers-head.g { background: rgba(34,197,94,.1);  color: var(--green); }
+  .movers-head.l { background: rgba(239,68,68,.1);  color: var(--red);   }
+  .mover-row {
+    display: flex;
+    align-items: center;
+    padding: .8rem 1.2rem;
+    border-top: 1px solid var(--border);
+    gap: .8rem;
+  }
+  .mover-tick  { font-weight: 800; font-size: .95rem; color: var(--white); min-width: 52px; }
+  .mover-name  { font-size: .78rem; color: var(--muted); flex: 1; }
+  .mover-pct   { font-weight: 700; font-size: .9rem; font-variant-numeric: tabular-nums; }
+
+  /* ── SUMMARY ── */
+  .summary-card {
+    background: var(--card);
+    border: 1px solid var(--gold);
+    border-radius: 14px;
+    padding: 1.6rem 1.8rem;
+  }
+  .summary-card p { font-size: .92rem; margin-bottom: .7rem; color: var(--text); }
+  .summary-card p:last-child { margin: 0; }
+  .summary-card strong { color: var(--white); }
+
+  /* ── CALENDAR ── */
+  .cal-list { display: flex; flex-direction: column; gap: .6rem; }
+  .cal-item {
+    display: flex;
+    align-items: center;
+    gap: .9rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: .75rem 1.1rem;
+  }
+  .cal-time { font-size: .72rem; font-weight: 700; color: var(--accent); min-width: 70px; }
+  .cal-desc { font-size: .87rem; color: var(--text); }
+  .cal-imp  { font-size: .65rem; font-weight: 800; padding: .15rem .55rem; border-radius: 4px; background: rgba(239,68,68,.13); color: var(--red); }
+
+  /* ── FOOTER ── */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: .72rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+  footer strong { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-label">Wall Street Intelligence</div>
+  <h1>Morning <span>Briefing</span></h1>
+  <p class="hero-sub">הדוח היומי המקצועי שלך לשוקי ההון האמריקאיים</p>
+  <div class="hero-date">
+    <span class="dot"></span>
+    יום רביעי, 4 במרץ 2026 &nbsp;·&nbsp; עדכון בוקר
+  </div>
+</div>
+
+<div class="page">
+
+  <!-- MARKET OVERVIEW -->
+  <section>
+    <div class="section-label">שוקי היום</div>
+    <div class="market-strip">
+      <div class="mkt-card">
+        <div class="mkt-label">S&amp;P 500</div>
+        <div class="mkt-val">6,851</div>
+        <div class="mkt-chg up">▲ +0.50%</div>
+      </div>
+      <div class="mkt-card">
+        <div class="mkt-label">Nasdaq</div>
+        <div class="mkt-val">22,720</div>
+        <div class="mkt-chg up">▲ +0.90%</div>
+      </div>
+      <div class="mkt-card">
+        <div class="mkt-label">Dow Jones</div>
+        <div class="mkt-val">48,694</div>
+        <div class="mkt-chg up">▲ +0.40%</div>
+      </div>
+      <div class="mkt-card">
+        <div class="mkt-label">VIX</div>
+        <div class="mkt-val">15.2</div>
+        <div class="mkt-chg flat">– נמוך</div>
+      </div>
+      <div class="mkt-card">
+        <div class="mkt-label">Brent Crude</div>
+        <div class="mkt-val">$82.76</div>
+        <div class="mkt-chg up">▲ +1.60%</div>
+      </div>
+      <div class="mkt-card">
+        <div class="mkt-label">Gold</div>
+        <div class="mkt-val">$5,162</div>
+        <div class="mkt-chg up">▲ +0.98%</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP NEWS -->
+  <section>
+    <div class="section-label">5 הכותרות המרכזיות</div>
+    <div class="news-grid">
+
+      <div class="news-card">
+        <div class="news-num">01</div>
+        <div>
+          <div class="news-tag tag-oil">OIL</div>
+          <div class="news-title">מצר הורמוז בסגירה דה-פקטו — הנפט מזנק ל-$82.76</div>
+          <div class="news-body">כ-20% מאספקת הנפט העולמית עוברת דרך מצר הורמוז. חברות ביטוח נסוגו, מכליות עצרו תנועה. אנליסטים מזהירים ממחיר מעל $100 אם המשבר יימשך. מחירי הדלק בארה"ב צפויים לעלות 10–30 סנט לגלון.</div>
+          <div class="news-meta">Reuters · 04/03/2026</div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-num">02</div>
+        <div>
+          <div class="news-tag tag-earn">EARNINGS</div>
+          <div class="news-title">Target הכתה תחזיות ברבעון ד׳ — מנייה זינקה</div>
+          <div class="news-body">EPS מתואם $2.44 מעל הקונצנזוס. תחזית שנתית: EPS $7.50–$8.50 עם צמיחת מכירות ~2%. המנכ"ל: "פברואר פתח חזק". סימן חיובי לסקטור הקמעונאות ולביטחון הצרכן האמריקאי.</div>
+          <div class="news-meta">CNBC · 04/03/2026</div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-num">03</div>
+        <div>
+          <div class="news-tag tag-tech">TECH</div>
+          <div class="news-title">Broadcom מדווחת הערב — אנליסטים מצפים ל-$1.88 EPS</div>
+          <div class="news-body">שחקנית מפתח בתשתיות AI ומוליכים למחצה. התוצאות ישפיעו על כל סקטור השבבים. אנליסטים מובילים עדכנו כלפי מעלה לפני הדוח. הכל עיניים על הדרכת ההנהלה לרבעון הבא.</div>
+          <div class="news-meta">Bloomberg · 04/03/2026</div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-num">04</div>
+        <div>
+          <div class="news-tag tag-fed">FED</div>
+          <div class="news-title">זעזוע הנפט מסבך את ה-Fed — "Higher for Longer" חוזר</div>
+          <div class="news-body">עלייה חדה במחירי האנרגיה מאיימת להחיות את האינפלציה בדיוק כשה-Fed שקל הורדות ריבית. מדד DXY עלה ~1.5% מאז החמרת הסכסוך. השוק מתמחר מחדש את תרחיש הריבית הגבוהה.</div>
+          <div class="news-meta">WSJ · 04/03/2026</div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-num">05</div>
+        <div>
+          <div class="news-tag tag-tech">MAG-7</div>
+          <div class="news-title">פיצול ב"שבעת המפוארות" — Nvidia עולה, Tesla צוללת</div>
+          <div class="news-body">Nvidia +1.2%, Amazon +2.8%, Microsoft +1.4% מובילות ריבאונד ב-Nasdaq. לעומת זאת Tesla -2.7%, Alphabet -1.0% בלחץ. המשקיעים הופכים סלקטיביים יותר — AI infrastructure wins.</div>
+          <div class="news-meta">Financial Times · 04/03/2026</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MOVERS -->
+  <section>
+    <div class="section-label">מניות בולטות</div>
+    <div class="movers-wrap">
+      <div class="movers-panel">
+        <div class="movers-head g">▲ Top Gainers</div>
+        <div class="mover-row">
+          <span class="mover-tick">AMZN</span>
+          <span class="mover-name">Amazon</span>
+          <span class="mover-pct up">+2.8%</span>
+        </div>
+        <div class="mover-row">
+          <span class="mover-tick">MSFT</span>
+          <span class="mover-name">Microsoft</span>
+          <span class="mover-pct up">+1.4%</span>
+        </div>
+        <div class="mover-row">
+          <span class="mover-tick">NVDA</span>
+          <span class="mover-name">NVIDIA</span>
+          <span class="mover-pct up">+1.2%</span>
+        </div>
+        <div class="mover-row">
+          <span class="mover-tick">TGT</span>
+          <span class="mover-name">Target</span>
+          <span class="mover-pct up">+4.1%</span>
+        </div>
+      </div>
+      <div class="movers-panel">
+        <div class="movers-head l">▼ Top Losers</div>
+        <div class="mover-row">
+          <span class="mover-tick">TSLA</span>
+          <span class="mover-name">Tesla</span>
+          <span class="mover-pct down">-2.7%</span>
+        </div>
+        <div class="mover-row">
+          <span class="mover-tick">GOOGL</span>
+          <span class="mover-name">Alphabet</span>
+          <span class="mover-pct down">-1.0%</span>
+        </div>
+        <div class="mover-row">
+          <span class="mover-tick">AVAV</span>
+          <span class="mover-name">AeroVironment</span>
+          <span class="mover-pct down">-3.2%</span>
+        </div>
+        <div class="mover-row">
+          <span class="mover-tick">IEA</span>
+          <span class="mover-name">Airlines ETF</span>
+          <span class="mover-pct down">-1.8%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALENDAR -->
+  <section>
+    <div class="section-label">לוח אירועים — 24 שעות הקרובות</div>
+    <div class="cal-list">
+      <div class="cal-item">
+        <span class="cal-time">היום אחה"צ</span>
+        <span class="cal-desc">דוח רווחים — <strong>Broadcom (AVGO)</strong> אחרי הסגירה</span>
+        <span class="cal-imp">HIGH</span>
+      </div>
+      <div class="cal-item">
+        <span class="cal-time">היום אחה"צ</span>
+        <span class="cal-desc">דוח רווחים — <strong>Okta (OKTA)</strong>, <strong>American Eagle (AEO)</strong></span>
+        <span class="cal-imp">MED</span>
+      </div>
+      <div class="cal-item">
+        <span class="cal-time">מחר 08:30</span>
+        <span class="cal-desc">תביעות אבטלה שבועיות — Initial Jobless Claims</span>
+        <span class="cal-imp">MED</span>
+      </div>
+      <div class="cal-item">
+        <span class="cal-time">שוטף</span>
+        <span class="cal-desc">עדכונים ממצר הורמוז — Wildcard מרכזי לשוק</span>
+        <span class="cal-imp">HIGH</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section>
+    <div class="section-label">סיכום מנהלים</div>
+    <div class="summary-card">
+      <p>
+        <strong>טון כללי: מעורב עם נטייה שורית.</strong>
+        השוק מתאושש מירידות מוקדמות השבוע, כשמשקיעים מנצלים ירידות בטכנולוגיה — אך המתיחות הגיאופולטית סביב מצר הורמוז מגבילה את עוצמת העלייה.
+      </p>
+      <p>
+        <strong>הסיכון המרכזי היום</strong> הוא מחירי הנפט: עלייה מעל $90–$100 עלולה להחיות את האינפלציה ולאלץ את ה-Fed לדחות הורדות ריבית — תרחיש שלא מתומחר כרגע בשוק.
+      </p>
+      <p>
+        <strong>הזדמנות:</strong> פיצול ה-Mag-7 יוצר סלקטיביות — AI Infrastructure (NVDA, MSFT, AMZN) ממשיך להוביל בעוד מניות חשופות לצרכן (TSLA, GOOGL) נחלשות. Broadcom הערב יכתוב את הטון לכל סקטור הטכנולוגיה.
+      </p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <strong>Wall Street Morning Briefing</strong> &nbsp;·&nbsp; 4 במרץ 2026 &nbsp;·&nbsp;
+  נוצר על-ידי AI · למטרות מידע בלבד · אינו מהווה ייעוץ השקעות
+</footer>
+
+</body>
+</html>
