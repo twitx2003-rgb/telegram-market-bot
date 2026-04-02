@@ -1,0 +1,48 @@
+name: Market Alerts
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'   # כל 20 דקות - התראות
+    - cron: '0 10 * * *'     # כל יום 12:00 שעון ישראל (10:00 UTC)
+  workflow_dispatch:          # אפשרות להרצה ידנית
+
+jobs:
+  alerts:
+    if: github.event.schedule == '*/20 * * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run alerts
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python telegram_market_news.py alert
+
+  daily_summary:
+    if: github.event.schedule == '0 10 * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send daily summary
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python telegram_market_news.py summary
