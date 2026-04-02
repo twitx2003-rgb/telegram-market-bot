@@ -1,13 +1,9 @@
-name: Market Alerts
+name: Daily Summary
 
 on:
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '0 10 * * *'
   workflow_dispatch:
-    inputs:
-      mode:
-        description: 'alert or summary'
-        default: 'alert'
 
 jobs:
   run:
@@ -21,8 +17,8 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Run bot
+      - name: Send daily summary
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python telegram_market_news.py ${{ github.event.inputs.mode || 'alert' }}
+        run: python telegram_market_news.py summary
