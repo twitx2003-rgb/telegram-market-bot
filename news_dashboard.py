@@ -2,17 +2,19 @@
 """
 לוח חדשות יומי — שוק ההון האמריקאי + חדשות ישראל
 Personal News Dashboard: Wall Street + Israel News
+v3 — Ticker Tape, Fear & Greed, Heatmap, Calendar, Sparklines, WhatsApp, Dark Mode
 """
 
 import anthropic
 import concurrent.futures
 import json
+import math
 import os
 import re
 import sys
 import urllib.request
 import urllib.parse
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, date, timezone, timedelta
 from pathlib import Path
 
 try:
@@ -42,8 +44,6 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 
-# Auto-detect environment: GitHub Actions writes to docs/index.html (relative),
-# local Windows writes to the full OneDrive path.
 if os.environ.get("GITHUB_ACTIONS"):
     OUTPUT_PATH = Path("docs/index.html")
     MODEL       = os.environ.get("DASHBOARD_MODEL", "claude-haiku-4-5-20251001")
@@ -52,7 +52,7 @@ else:
     OUTPUT_PATH = IDOP_DIR / "reports/docs/index.html"
     MODEL       = os.environ.get("DASHBOARD_MODEL", "claude-opus-4-6")
 
-MAX_TOKENS  = 12000
+MAX_TOKENS = 12000
 
 _now   = datetime.now()
 TODAY  = _now.strftime("%d.%m.%Y")
@@ -67,165 +67,157 @@ TODAY_HE = f"{_now.day} ב{HEBREW_MONTHS[_now.month]} {_now.year}"
 # ── RSS Feed Definitions ───────────────────────────────────────────────────────
 
 US_FEEDS = [
-    {"name": "Reuters Business",  "url": "https://feeds.reuters.com/reuters/businessNews"},
-    {"name": "CNBC Markets",      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"},
-    {"name": "MarketWatch",       "url": "https://feeds.marketwatch.com/marketwatch/topstories/"},
-    {"name": "Yahoo Finance",     "url": "https://finance.yahoo.com/news/rssindex"},
+    {"name": "Reuters Business", "url": "https://feeds.reuters.com/reuters/businessNews"},
+    {"name": "CNBC Markets",     "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"},
+    {"name": "MarketWatch",      "url": "https://feeds.marketwatch.com/marketwatch/topstories/"},
+    {"name": "Yahoo Finance",    "url": "https://finance.yahoo.com/news/rssindex"},
 ]
 
 ISRAEL_FEEDS = [
-    {"name": "Jerusalem Post",    "url": "https://www.jpost.com/Rss/RssFeedsHeadlines.aspx"},
-    {"name": "Times of Israel",   "url": "https://www.timesofisrael.com/feed/"},
-    {"name": "Haaretz",           "url": "https://www.haaretz.com/cmlink/1.628765"},
-    {"name": "Walla News",        "url": "https://rss.walla.co.il/feed/1"},
+    {"name": "Jerusalem Post",  "url": "https://www.jpost.com/Rss/RssFeedsHeadlines.aspx"},
+    {"name": "Times of Israel", "url": "https://www.timesofisrael.com/feed/"},
+    {"name": "Haaretz",         "url": "https://www.haaretz.com/cmlink/1.628765"},
+    {"name": "Walla News",      "url": "https://rss.walla.co.il/feed/1"},
 ]
 
-# ── Relevance Filters (from market_news.py) ────────────────────────────────────
+# ── Relevance Filters ──────────────────────────────────────────────────────────
 
 US_HIGH_IMPACT = [
-    "federal reserve", "rate hike", "rate cut", "interest rate", "fomc",
-    "merger", "acquisition", "buyout", "takeover",
-    "ipo", "bankruptcy", "bankrupt", "default",
-    "earnings beat", "earnings miss", "beats estimates", "misses estimates",
-    "layoffs", "crash", "plunge", "surge", "soar",
-    "trade war", "tariff", "sanctions", "jobs report", "gdp",
+    "federal reserve","rate hike","rate cut","interest rate","fomc",
+    "merger","acquisition","buyout","takeover",
+    "ipo","bankruptcy","bankrupt","default",
+    "earnings beat","earnings miss","beats estimates","misses estimates",
+    "layoffs","crash","plunge","surge","soar",
+    "trade war","tariff","sanctions","jobs report","gdp",
 ]
 US_MEDIUM_IMPACT = [
-    "earnings", "revenue", "profit", "loss", "guidance",
-    "fed ", "inflation", "recession",
-    "s&p 500", "nasdaq", "dow jones",
-    "apple", "microsoft", "google", "alphabet", "amazon", "tesla",
-    "meta", "nvidia", "openai", "jpmorgan", "goldman sachs",
-    "oil", "gold", "bitcoin", "rally", "drop",
-    "netflix", "amd", "intel", "visa", "mastercard", "paypal", "salesforce",
-    "pfizer", "moderna", "disney", "boeing", "bank of america", "wells fargo",
+    "earnings","revenue","profit","loss","guidance",
+    "fed ","inflation","recession",
+    "s&p 500","nasdaq","dow jones",
+    "apple","microsoft","google","alphabet","amazon","tesla",
+    "meta","nvidia","openai","jpmorgan","goldman sachs",
+    "oil","gold","bitcoin","rally","drop",
+    "netflix","amd","intel","visa","mastercard","paypal","salesforce",
+    "pfizer","moderna","disney","boeing","bank of america","wells fargo",
 ]
 US_NOISE = [
-    "should i", "what do you think", "advice", "help me", "my portfolio",
-    "is it worth", "eli5", "how do i", "first time", "noob", "beginner",
-    "what should", "anyone else", "opinion",
+    "should i","what do you think","advice","help me","my portfolio",
+    "is it worth","eli5","how do i","first time","noob","beginner",
+    "what should","anyone else","opinion",
 ]
-
 IL_KEYWORDS_EN = [
-    "israel", "gaza", "hamas", "netanyahu", "knesset", "idf", "hezbollah",
-    "tel aviv", "jerusalem", "hostage", "ceasefire", "war", "operation",
-    "shekel", "bank of israel", "economy", "government", "coalition",
-    "west bank", "iran", "biden", "trump", "minister", "protest", "reform",
-    "judicial", "democracy", "election", "security",
+    "israel","gaza","hamas","netanyahu","knesset","idf","hezbollah",
+    "tel aviv","jerusalem","hostage","ceasefire","war","operation",
+    "shekel","bank of israel","economy","government","coalition",
+    "west bank","iran","trump","minister","protest","reform",
+    "judicial","democracy","election","security",
 ]
 IL_KEYWORDS_HE = [
-    "ממשלה", "ביטחון", "כלכלה", "מלחמה", "בורסה", "שקל", "נתניהו",
-    "כנסת", "צבא", "חרב", "עזה", "חמאס", "חטופים", "הפגנה", "רפורמה",
-    "משפטית", "איראן", "בנק", "ריבית", "אינפלציה", "תקציב",
+    "ממשלה","ביטחון","כלכלה","מלחמה","בורסה","שקל","נתניהו",
+    "כנסת","צבא","עזה","חמאס","חטופים","הפגנה","רפורמה",
+    "משפטית","איראן","בנק","ריבית","אינפלציה","תקציב",
 ]
 
 
 def is_us_relevant(title: str) -> bool:
     t = title.lower()
-    if any(n in t for n in US_NOISE):
-        return False
-    if any(kw in t for kw in US_HIGH_IMPACT):
-        return True
+    if any(n in t for n in US_NOISE): return False
+    if any(kw in t for kw in US_HIGH_IMPACT): return True
     return sum(1 for kw in US_MEDIUM_IMPACT if kw in t) >= 2
-
 
 def is_il_relevant(title: str) -> bool:
     t = title.lower()
     return any(kw in t for kw in IL_KEYWORDS_EN) or any(kw in title for kw in IL_KEYWORDS_HE)
 
-
 # ── RSS Fetching ────────────────────────────────────────────────────────────────
 
 def fetch_rss(feeds: list, max_per_feed: int = 10) -> list:
-    """Fetch headlines from RSS feeds (last 36 hours)."""
     if not HAS_FEEDPARSER:
-        print("⚠  feedparser not installed — skipping RSS fetch")
-        return []
-
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=36)
+        print("⚠  feedparser not installed"); return []
+    cutoff  = datetime.now(timezone.utc) - timedelta(hours=36)
     results = []
-
     for feed in feeds:
         try:
             parsed = feedparser.parse(feed["url"])
-            count = 0
+            count  = 0
             for entry in parsed.entries:
-                if count >= max_per_feed:
-                    break
+                if count >= max_per_feed: break
                 title = (entry.get("title") or "").strip()
                 link  = entry.get("link", "")
-                if not title:
-                    continue
-                # date filter (best-effort)
+                if not title: continue
                 pub = entry.get("published_parsed") or entry.get("updated_parsed")
                 if pub:
                     pub_dt = datetime(*pub[:6], tzinfo=timezone.utc)
-                    if pub_dt < cutoff:
-                        continue
+                    if pub_dt < cutoff: continue
                 results.append({"title": title, "link": link, "source": feed["name"]})
                 count += 1
             print(f"  ✓ {feed['name']}: {count} articles")
         except Exception as e:
             print(f"  ✗ {feed['name']}: {e}")
-
     return results
 
-
 def filter_headlines(items: list, filter_fn, max_out: int) -> list:
-    """Apply relevance filter and return up to max_out items."""
     relevant = [i for i in items if filter_fn(i["title"])]
-    if len(relevant) < 4:
-        relevant = items  # fallback: skip filtering if too few
+    if len(relevant) < 4: relevant = items
     return relevant[:max_out]
 
+# ── Yahoo Finance — Market Data ────────────────────────────────────────────────
 
-# ── Yahoo Finance Market Data ──────────────────────────────────────────────────
-
-# Symbol definitions: (symbol, display_name, group, format_type)
 _YF_SYMBOLS = [
+    # Main indices
     ("^GSPC",   "S&P 500",           "market_us",   "index"),
     ("^IXIC",   "Nasdaq",            "market_us",   "index"),
     ("^DJI",    "Dow Jones",         "market_us",   "index"),
     ("^RUT",    "Russell 2000",      "market_us",   "index"),
     ("^VIX",    "VIX",               "market_us",   "vix"),
+    # Commodities
     ("GC=F",    "זהב",               "commodities", "commodity"),
     ("BZ=F",    "נפט ברנט",          "commodities", "commodity"),
     ("BTC-USD", "ביטקוין",           "commodities", "btc"),
     ("^TNX",    'אג"ח ארה"ב 10Y',   "commodities", "tnx"),
+    # Israel
     ("TA35.TA", 'ת"א 35',            "market_il",   "index"),
     ("ILS=X",   "דולר/שקל",          "market_il",   "ils"),
+    # Sector ETFs
+    ("XLK",  "טכנולוגיה",     "sectors", "sector"),
+    ("XLF",  "פיננסים",       "sectors", "sector"),
+    ("XLE",  "אנרגיה",        "sectors", "sector"),
+    ("XLV",  "בריאות",        "sectors", "sector"),
+    ("XLI",  "תעשייה",        "sectors", "sector"),
+    ("XLY",  "צריכה שיקולית", "sectors", "sector"),
+    ("XLP",  "צריכה בסיסית",  "sectors", "sector"),
+    ("XLRE", 'נדל"ן',         "sectors", "sector"),
+    ("XLU",  "תשתיות",        "sectors", "sector"),
+    ("XLB",  "חומרים",        "sectors", "sector"),
+    ("XLC",  "תקשורת",        "sectors", "sector"),
 ]
-_YF_BASE = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?interval=1d&range=1d"
+
+# Sparkline: fetch 5-day data for main indices only
+_SPARKLINE_SYMS = ["^GSPC", "^IXIC", "^DJI", "^RUT", "GC=F", "BTC-USD"]
+
+_YF_BASE    = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?interval=1d&range=1d"
+_YF_5D_BASE = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?interval=1d&range=5d"
 _YF_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
 
 def _format_yf(price: float, pct: float, fmt: str) -> tuple:
-    """Format price + pct into (value_str, change_str, direction)."""
     direction = "up" if pct > 0 else "down" if pct < 0 else "flat"
     change = f"{pct:+.2f}%"
-    if fmt == "index":
-        value = f"{price:,.0f}"
-    elif fmt == "vix":
-        value = f"{price:.2f}"
-    elif fmt == "commodity":
-        value = f"${price:,.1f}"
-    elif fmt == "btc":
-        value = f"${price:,.0f}"
-    elif fmt == "tnx":
-        value = f"{price:.2f}%"
-    elif fmt == "ils":
-        value = f"{price:.3f}"
-    else:
-        value = f"{price:,.2f}"
+    if fmt == "index":   value = f"{price:,.0f}"
+    elif fmt == "vix":   value = f"{price:.2f}"
+    elif fmt == "commodity": value = f"${price:,.1f}"
+    elif fmt == "btc":   value = f"${price:,.0f}"
+    elif fmt == "tnx":   value = f"{price:.2f}%"
+    elif fmt == "ils":   value = f"{price:.3f}"
+    elif fmt == "sector":value = f"{price:.2f}"
+    else:                value = f"{price:,.2f}"
     return value, change, direction
 
 
 def _fetch_yf_one(args: tuple) -> dict:
-    """Fetch a single Yahoo Finance symbol. Returns market card dict."""
     sym, name, group, fmt = args
-    placeholder = {"name": name, "value": "—", "change": "—", "direction": "flat", "group": group}
-    if not HAS_REQUESTS:
-        return placeholder
+    placeholder = {"name": name, "value": "—", "change": "—", "direction": "flat", "group": group, "pct_raw": 0.0}
+    if not HAS_REQUESTS: return placeholder
     try:
         url  = _YF_BASE.format(sym=urllib.parse.quote(sym))
         resp = _requests.get(url, headers=_YF_HEADERS, timeout=8)
@@ -234,70 +226,189 @@ def _fetch_yf_one(args: tuple) -> dict:
         price = float(meta["regularMarketPrice"])
         pct   = float(meta.get("regularMarketChangePercent", 0.0))
         value, change, direction = _format_yf(price, pct, fmt)
-        return {"name": name, "value": value, "change": change, "direction": direction, "group": group}
+        return {"name": name, "value": value, "change": change, "direction": direction, "group": group, "pct_raw": pct}
     except Exception as e:
         print(f"  ✗ {sym}: {e}")
         return placeholder
 
 
+def _fetch_sparkline_one(sym: str) -> tuple:
+    """Fetch 5-day closing prices. Returns (sym, [prices])."""
+    if not HAS_REQUESTS: return sym, []
+    try:
+        url  = _YF_5D_BASE.format(sym=urllib.parse.quote(sym))
+        resp = _requests.get(url, headers=_YF_HEADERS, timeout=8)
+        resp.raise_for_status()
+        result = resp.json()["chart"]["result"][0]
+        closes = result.get("indicators", {}).get("quote", [{}])[0].get("close", [])
+        prices = [p for p in closes if p is not None][-5:]
+        return sym, prices
+    except Exception:
+        return sym, []
+
+
 def fetch_market_data() -> dict:
-    """
-    Fetch live market data from Yahoo Finance (free, no API key needed).
-    Returns dict with keys: market_us, commodities, market_il
-    """
+    """Fetch all market data from Yahoo Finance in parallel."""
     if not HAS_REQUESTS:
-        print("  ⚠ requests לא זמין — מדדים לא זמינים")
-        na = lambda n: {"name": n, "value": "N/A", "change": "—", "direction": "flat"}
+        na = lambda n, g: {"name": n, "value": "N/A", "change": "—", "direction": "flat", "group": g, "pct_raw": 0.0}
         return {
-            "market_us":   [na(n) for _, n, g, _ in _YF_SYMBOLS if g == "market_us"],
-            "commodities": [na(n) for _, n, g, _ in _YF_SYMBOLS if g == "commodities"],
-            "market_il":   [na(n) for _, n, g, _ in _YF_SYMBOLS if g == "market_il"],
+            "market_us":   [na(n, "market_us")   for _, n, g, _ in _YF_SYMBOLS if g == "market_us"],
+            "commodities": [na(n, "commodities")  for _, n, g, _ in _YF_SYMBOLS if g == "commodities"],
+            "market_il":   [na(n, "market_il")    for _, n, g, _ in _YF_SYMBOLS if g == "market_il"],
+            "sectors":     [na(n, "sectors")      for _, n, g, _ in _YF_SYMBOLS if g == "sectors"],
         }
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
         results = list(ex.map(_fetch_yf_one, _YF_SYMBOLS))
-
-    market_us   = [r for r in results if r["group"] == "market_us"]
-    commodities = [r for r in results if r["group"] == "commodities"]
-    market_il   = [r for r in results if r["group"] == "market_il"]
 
     ok = sum(1 for r in results if r["value"] != "—")
     print(f"  ✓ שוק: {ok}/{len(_YF_SYMBOLS)} סמלים נטענו")
-    return {"market_us": market_us, "commodities": commodities, "market_il": market_il}
+    return {
+        "market_us":   [r for r in results if r["group"] == "market_us"],
+        "commodities": [r for r in results if r["group"] == "commodities"],
+        "market_il":   [r for r in results if r["group"] == "market_il"],
+        "sectors":     [r for r in results if r["group"] == "sectors"],
+    }
 
+
+def fetch_sparklines() -> dict:
+    """Fetch 5-day price history for main symbols. Returns {sym: [prices]}."""
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
+        results = list(ex.map(_fetch_sparkline_one, _SPARKLINE_SYMS))
+    ok = sum(1 for _, p in results if len(p) >= 2)
+    print(f"  ✓ sparklines: {ok}/{len(_SPARKLINE_SYMS)} נטענו")
+    return {sym: prices for sym, prices in results}
+
+
+# ── Fear & Greed Index ─────────────────────────────────────────────────────────
+
+def fetch_fear_greed() -> dict:
+    """Fetch Fear & Greed Index from alternative.me (crypto/stock sentiment).
+    Returns {'score': int, 'rating': str} or None."""
+    if not HAS_REQUESTS: return None
+    he_labels = {
+        "extreme fear": "פחד קיצוני",
+        "fear":         "פחד",
+        "neutral":      "ניטרלי",
+        "greed":        "חמדנות",
+        "extreme greed":"חמדנות קיצונית",
+    }
+    # Try alternative.me (crypto F&G — widely used as general market sentiment)
+    try:
+        url  = "https://api.alternative.me/fng/"
+        resp = _requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=8)
+        resp.raise_for_status()
+        item   = resp.json()["data"][0]
+        score  = int(item["value"])
+        rating = item["value_classification"]
+        rating_he = he_labels.get(rating.lower(), rating)
+        print(f"  ✓ Fear & Greed: {score} ({rating_he})")
+        return {"score": score, "rating": rating_he, "rating_en": rating.lower()}
+    except Exception as e:
+        print(f"  ✗ Fear & Greed: {e}")
+        return None
+
+# ── Economic Calendar ──────────────────────────────────────────────────────────
+
+ECONOMIC_EVENTS = [
+    # ── אפריל 2026 ──
+    {"date": "2026-04-09", "name": "CPI מרץ",          "type": "CPI",      "emoji": "📊"},
+    {"date": "2026-04-10", "name": "פרוטוקול Fed",      "type": "FED",      "emoji": "🏦"},
+    {"date": "2026-04-17", "name": "NFP / תעסוקה",      "type": "NFP",      "emoji": "💼"},
+    {"date": "2026-04-23", "name": "PMI אפריל",         "type": "PMI",      "emoji": "🏭"},
+    {"date": "2026-04-29", "name": "GDP Q1 2026",       "type": "GDP",      "emoji": "📈"},
+    {"date": "2026-04-30", "name": "ישיבת FOMC",        "type": "FED",      "emoji": "🏦"},
+    # ── מאי 2026 ──
+    {"date": "2026-05-08", "name": "NFP אפריל",         "type": "NFP",      "emoji": "💼"},
+    {"date": "2026-05-12", "name": "CPI אפריל",         "type": "CPI",      "emoji": "📊"},
+    {"date": "2026-05-27", "name": "PMI מאי",           "type": "PMI",      "emoji": "🏭"},
+    # ── יוני 2026 ──
+    {"date": "2026-06-05", "name": "NFP מאי",           "type": "NFP",      "emoji": "💼"},
+    {"date": "2026-06-10", "name": "CPI מאי",           "type": "CPI",      "emoji": "📊"},
+    {"date": "2026-06-17", "name": "ישיבת FOMC",        "type": "FED",      "emoji": "🏦"},
+    # ── יולי 2026 ──
+    {"date": "2026-07-02", "name": "NFP יוני",          "type": "NFP",      "emoji": "💼"},
+    {"date": "2026-07-10", "name": "CPI יוני",          "type": "CPI",      "emoji": "📊"},
+    {"date": "2026-07-14", "name": "עונת דוחות Q2",     "type": "EARNINGS", "emoji": "💹"},
+    {"date": "2026-07-29", "name": "ישיבת FOMC",        "type": "FED",      "emoji": "🏦"},
+    # ── אוגוסט 2026 ──
+    {"date": "2026-08-07", "name": "NFP יולי",          "type": "NFP",      "emoji": "💼"},
+    {"date": "2026-08-12", "name": "CPI יולי",          "type": "CPI",      "emoji": "📊"},
+    # ── ספטמבר 2026 ──
+    {"date": "2026-09-04", "name": "NFP אוגוסט",        "type": "NFP",      "emoji": "💼"},
+    {"date": "2026-09-10", "name": "CPI אוגוסט",        "type": "CPI",      "emoji": "📊"},
+    {"date": "2026-09-16", "name": "ישיבת FOMC",        "type": "FED",      "emoji": "🏦"},
+    # ── אוקטובר 2026 ──
+    {"date": "2026-10-02", "name": "NFP ספטמבר",        "type": "NFP",      "emoji": "💼"},
+    {"date": "2026-10-13", "name": "CPI ספטמבר",        "type": "CPI",      "emoji": "📊"},
+    {"date": "2026-10-14", "name": "עונת דוחות Q3",     "type": "EARNINGS", "emoji": "💹"},
+    {"date": "2026-11-05", "name": "ישיבת FOMC",        "type": "FED",      "emoji": "🏦"},
+    {"date": "2026-12-16", "name": "ישיבת FOMC",        "type": "FED",      "emoji": "🏦"},
+]
+
+EVENT_COLORS = {
+    "FED":      ("var(--red)",    "rgba(239,68,68,0.15)"),
+    "CPI":      ("var(--accent)", "rgba(14,165,233,0.15)"),
+    "NFP":      ("var(--gold)",   "rgba(245,158,11,0.15)"),
+    "EARNINGS": ("var(--green)",  "rgba(34,197,94,0.15)"),
+    "GDP":      ("var(--purple)", "rgba(168,85,247,0.15)"),
+    "PMI":      ("var(--muted)",  "rgba(100,116,139,0.15)"),
+}
+
+def get_upcoming_events(n: int = 5) -> list:
+    today = date.today()
+    upcoming = []
+    for e in ECONOMIC_EVENTS:
+        d = date.fromisoformat(e["date"])
+        if d >= today:
+            delta = (d - today).days
+            e = dict(e)
+            e["days_left"]  = delta
+            e["days_label"] = "היום!" if delta == 0 else ("מחר" if delta == 1 else f"בעוד {delta} ימים")
+            upcoming.append(e)
+    return upcoming[:n]
+
+# ── Sparkline SVG ──────────────────────────────────────────────────────────────
+
+def sparkline_svg(prices: list, direction: str) -> str:
+    """Render a tiny 52×22px sparkline SVG from a list of prices."""
+    if len(prices) < 2:
+        return ""
+    mn, mx = min(prices), max(prices)
+    if mx == mn: mx = mn + 1
+    W, H, PAD = 52, 22, 2
+    def px(i): return PAD + i * (W - 2*PAD) / (len(prices) - 1)
+    def py(p): return H - PAD - (p - mn) / (mx - mn) * (H - 2*PAD)
+    pts = " ".join(f"{px(i):.1f},{py(p):.1f}" for i, p in enumerate(prices))
+    color = "#22c55e" if direction == "up" else "#ef4444"
+    return (
+        f'<svg viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
+        f'style="display:block;overflow:visible">'
+        f'<polyline points="{pts}" fill="none" stroke="{color}" '
+        f'stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>'
+        f'</svg>'
+    )
 
 # ── Image Fetching ─────────────────────────────────────────────────────────────
 
 def _picsum_url(seed_text: str) -> str:
-    """Return a deterministic placeholder image URL based on seed text."""
     h = abs(hash(seed_text)) % 1000
     return f"https://picsum.photos/seed/{h}/400/200"
 
-
 def fetch_og_image(url: str) -> str:
-    """
-    Try to scrape og:image from the article URL.
-    Reads only the first 50 KB to avoid large downloads.
-    Returns image URL or a picsum placeholder.
-    """
     if not HAS_REQUESTS or not url or url == "#":
         return _picsum_url(url or "default")
     try:
         resp = _requests.get(
             url,
             headers={"User-Agent": "Mozilla/5.0 (compatible; NewsDashbot/1.0)"},
-            timeout=5,
-            stream=True,
+            timeout=5, stream=True,
         )
-        # Read only first 50 KB
         html = b""
         for chunk in resp.iter_content(chunk_size=4096):
             html += chunk
-            if len(html) >= 51200:
-                break
+            if len(html) >= 51200: break
         html_str = html.decode("utf-8", errors="replace")
-
-        # Try both attribute orders (property before content, OR content before property)
         patterns = [
             r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
             r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
@@ -307,33 +418,23 @@ def fetch_og_image(url: str) -> str:
             m = re.search(pat, html_str, re.IGNORECASE)
             if m:
                 img = m.group(1).strip()
-                if img.startswith("http"):
-                    return img
+                if img.startswith("http"): return img
     except Exception:
         pass
     return _picsum_url(url)
 
-
 def fetch_all_images(news_items: list) -> list:
-    """Fetch og:image for all items in parallel. Returns list of image URLs."""
-    if not news_items:
-        return []
+    if not news_items: return []
     links = [item.get("link", "") for item in news_items]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
         results = list(ex.map(fetch_og_image, links))
     original = sum(1 for r in results if "picsum" not in r)
-    print(f"  ✓ תמונות: {original}/{len(results)} מקוריות (שאר — picsum)")
+    print(f"  ✓ תמונות: {original}/{len(results)} מקוריות")
     return results
-
 
 # ── Claude Enrichment Agent ────────────────────────────────────────────────────
 
 def run_enrichment_agent(client: anthropic.Anthropic, us_raw: list, il_raw: list) -> dict:
-    """
-    Single Claude API call (NO web search — market data handled by Yahoo Finance).
-    Tasks: translate + summarize US headlines in Hebrew + category tagging for Israel news.
-    Returns dict with keys: us_news, israel_news (no market data keys).
-    """
     us_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(us_raw))
     il_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
 
@@ -342,54 +443,20 @@ def run_enrichment_agent(client: anthropic.Anthropic, us_raw: list, il_raw: list
 החזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
 
 עליך לבצע:
-1. לכל כותרת US: כתוב כותרת בעברית (תרגום חופשי ותמציתי) + סיכום 2-3 משפטים בעברית + תגית מהרשימה: EARNINGS/MACRO/FED/TECH/M&A/ENERGY/CRYPTO/BANKS
-2. לכל כותרת ישראלית: כתוב כותרת בעברית + סיכום 2-3 משפטים בעברית + תגית מהרשימה: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה
+1. לכל כותרת US: כתוב כותרת בעברית + סיכום 2-3 משפטים בעברית + תגית: EARNINGS/MACRO/FED/TECH/M&A/ENERGY/CRYPTO/BANKS
+2. לכל כותרת ישראלית: כתוב כותרת בעברית + סיכום 2-3 משפטים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה
 
-החזר JSON בדיוק במבנה הבא:
 {{
-  "us_news": [
-    {{
-      "title_he": "כותרת בעברית",
-      "summary_he": "סיכום בעברית 2-3 משפטים.",
-      "source": "Reuters",
-      "link": "https://...",
-      "tag": "EARNINGS"
-    }}
-  ],
-  "israel_news": [
-    {{
-      "title_he": "כותרת בעברית",
-      "summary_he": "סיכום בעברית 2-3 משפטים.",
-      "source": "Jerusalem Post",
-      "link": "https://...",
-      "tag": "ביטחון"
-    }}
-  ]
+  "us_news": [{{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"EARNINGS"}}],
+  "israel_news": [{{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}]
 }}
+JSON בלבד."""
 
-כתוב את כל הכותרות והסיכומים בעברית בלבד.
-אל תכלול הערות, אל תוסיף markdown. JSON בלבד."""
+    messages = [{"role": "user", "content":
+        f"עבד כותרות ל-{TODAY_HE}.\n\nUS ({len(us_raw)}):\n{us_titles}\n\nישראל ({len(il_raw)}):\n{il_titles}\n\nהחזר JSON."}]
 
-    user_msg = f"""עבד את כותרות החדשות הבאות ל-{TODAY_HE}.
-
-כותרות US לתרגום וסיכום ({len(us_raw)} כותרות):
-{us_titles}
-
-כותרות ישראל לתרגום וסיכום ({len(il_raw)} כותרות):
-{il_titles}
-
-צרף כותרת בעברית + סיכום קצר + תגית לכל כותרת. החזר JSON מלא."""
-
-    messages = [{"role": "user", "content": user_msg}]
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל agent העשרה (ללא web search)...")
-
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=MAX_TOKENS,
-        system=system,
-        messages=messages,
-    )
-
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude...")
+    response = client.messages.create(model=MODEL, max_tokens=MAX_TOKENS, system=system, messages=messages)
     print(f"[{datetime.now().strftime('%H:%M:%S')}] stop_reason={response.stop_reason}")
 
     text_blocks = [b for b in response.content if b.type == "text"]
@@ -397,56 +464,26 @@ def run_enrichment_agent(client: anthropic.Anthropic, us_raw: list, il_raw: list
         raw = text_blocks[-1].text.strip()
         if raw.startswith("```"):
             raw = raw.split("```")[1]
-            if raw.startswith("json"):
-                raw = raw[4:]
+            if raw.startswith("json"): raw = raw[4:]
         return json.loads(raw.strip())
-    raise ValueError("לא התקבלה תגובת טקסט מה-agent")
-
+    raise ValueError("לא התקבלה תגובה")
 
 # ── Fallback: RSS-only mode ────────────────────────────────────────────────────
 
 def fallback_data(us_raw: list, il_raw: list) -> dict:
-    """Build minimal data dict without Claude API (RSS + Google Translate fallback)."""
     def tr(text):
         if HAS_TRANSLATOR:
-            try:
-                return GoogleTranslator(source="en", target="iw").translate(text)
-            except Exception:
-                pass
+            try: return GoogleTranslator(source="en", target="iw").translate(text)
+            except Exception: pass
         return text
-
-    us_news = []
-    for item in us_raw:
-        us_news.append({
-            "title_he": tr(item["title"]),
-            "summary_he": "",
-            "source": item["source"],
-            "link": item["link"],
-            "tag": "NEWS",
-        })
-
-    il_news = []
-    for item in il_raw:
-        il_news.append({
-            "title_he": tr(item["title"]),
-            "summary_he": "",
-            "source": item["source"],
-            "link": item["link"],
-            "tag": "כללי",
-        })
-
-    mkt = fetch_market_data()
-
     return {
-        "market_us":   mkt["market_us"],
-        "commodities": mkt["commodities"],
-        "market_il":   mkt["market_il"],
-        "us_news":     us_news,
-        "israel_news": il_news,
+        "us_news": [{"title_he": tr(i["title"]), "summary_he": "", "source": i["source"],
+                     "link": i["link"], "tag": "NEWS"} for i in us_raw],
+        "israel_news": [{"title_he": tr(i["title"]), "summary_he": "", "source": i["source"],
+                         "link": i["link"], "tag": "כללי"} for i in il_raw],
     }
 
-
-# ── HTML Builder ───────────────────────────────────────────────────────────────
+# ── Tag Colors ─────────────────────────────────────────────────────────────────
 
 TAG_COLORS_US = {
     "EARNINGS": ("var(--green)",  "rgba(34,197,94,0.12)"),
@@ -460,45 +497,172 @@ TAG_COLORS_US = {
     "NEWS":     ("var(--muted)",  "rgba(100,116,139,0.12)"),
 }
 TAG_COLORS_IL = {
-    "ביטחון":     ("var(--red)",    "rgba(239,68,68,0.12)"),
-    "פוליטיקה":   ("var(--accent)", "rgba(14,165,233,0.12)"),
-    "כלכלה":      ("var(--green)",  "rgba(34,197,94,0.12)"),
-    "חברה":       ("var(--purple)", "rgba(168,85,247,0.12)"),
-    "דיפלומטיה":  ("var(--gold)",   "rgba(245,158,11,0.12)"),
-    "כללי":       ("var(--muted)",  "rgba(100,116,139,0.12)"),
+    "ביטחון":    ("var(--red)",    "rgba(239,68,68,0.12)"),
+    "פוליטיקה":  ("var(--accent)", "rgba(14,165,233,0.12)"),
+    "כלכלה":     ("var(--green)",  "rgba(34,197,94,0.12)"),
+    "חברה":      ("var(--purple)", "rgba(168,85,247,0.12)"),
+    "דיפלומטיה": ("var(--gold)",   "rgba(245,158,11,0.12)"),
+    "כללי":      ("var(--muted)",  "rgba(100,116,139,0.12)"),
 }
 
+_WA_ICON = ('<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" '
+            'fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099'
+            '-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.'
+            '255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134'
+            '-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149'
+            '-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-'
+            '.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.'
+            '198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571'
+            '-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347'
+            'z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.121 1.533 5.851L.057 23.215a.75'
+            '.75 0 00.921.921l5.404-1.476A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 '
+            '12 0zm0 21.75a9.732 9.732 0 01-5.1-1.439l-.366-.217-3.795 1.035 1.027-3.706-.238-.38'
+            'A9.75 9.75 0 1112 21.75z"/></svg>')
 
-def _arrow(direction: str) -> str:
-    return "▲" if direction == "up" else "▼" if direction == "down" else "–"
+def _arrow(d): return "▲" if d == "up" else "▼" if d == "down" else "–"
+def _css(d):   return "up" if d == "up" else "down" if d == "down" else "flat"
+
+# ── HTML Builders ──────────────────────────────────────────────────────────────
+
+def build_ticker_items(data: dict) -> str:
+    parts = []
+    all_items = (data.get("market_us", []) + data.get("commodities", []) +
+                 data.get("market_il", []))
+    for m in all_items:
+        d = m.get("direction", "flat")
+        css = _css(d)
+        parts.append(
+            f'<span class="tick-item">'
+            f'<span class="tick-name">{m["name"]}</span>'
+            f'<span class="tick-val">{m["value"]}</span>'
+            f'<span class="tick-chg {css}">{_arrow(d)} {m["change"]}</span>'
+            f'</span>'
+        )
+    items_html = "".join(parts)
+    # Double for seamless loop
+    return items_html + items_html
 
 
-def _css(direction: str) -> str:
-    return "up" if direction == "up" else "down" if direction == "down" else "flat"
-
-
-def build_market_card(m: dict) -> str:
+def build_market_card(m: dict, sparkline: str = "") -> str:
     css = _css(m.get("direction", "flat"))
     arrow = _arrow(m.get("direction", "flat"))
+    spark_html = f'<div class="spark">{sparkline}</div>' if sparkline else ""
     return (
         f'<div class="mkt-card">'
         f'<div class="mkt-name">{m["name"]}</div>'
         f'<div class="mkt-value">{m["value"]}</div>'
+        f'<div class="mkt-row">'
         f'<div class="mkt-change {css}">{arrow} {m["change"]}</div>'
+        f'{spark_html}'
         f'</div>'
+        f'</div>'
+    )
+
+
+def build_fear_greed_card(fg: dict) -> str:
+    if not fg: return ""
+    score = fg["score"]
+    label = fg["rating"]
+    rating_en = fg.get("rating_en", "neutral")
+
+    # Color based on rating
+    if score <= 25:   needle_color, fill_color = "#ef4444", "rgba(239,68,68,0.15)"
+    elif score <= 45: needle_color, fill_color = "#f97316", "rgba(249,115,22,0.15)"
+    elif score <= 55: needle_color, fill_color = "#eab308", "rgba(234,179,8,0.15)"
+    elif score <= 75: needle_color, fill_color = "#84cc16", "rgba(132,204,22,0.15)"
+    else:             needle_color, fill_color = "#22c55e", "rgba(34,197,94,0.15)"
+
+    # SVG gauge: half-circle arc, needle at angle
+    # Score 0=left(-180deg), 100=right(0deg)
+    # Angle: -180 + score*1.8 degrees from positive x-axis
+    angle_deg = -180 + score * 1.8
+    angle_rad = math.radians(angle_deg)
+    cx, cy, r = 60, 55, 42
+    nx = cx + (r - 8) * math.cos(angle_rad)
+    ny = cy + (r - 8) * math.sin(angle_rad)
+
+    svg = (
+        f'<svg viewBox="0 0 120 65" width="120" height="65">'
+        # Background arc segments
+        f'<path d="M 18 55 A 42 42 0 0 1 102 55" fill="none" stroke="rgba(239,68,68,0.3)" stroke-width="8" stroke-linecap="round"/>'
+        f'<path d="M 18 55 A 42 42 0 0 1 60 13" fill="none" stroke="rgba(234,179,8,0.3)" stroke-width="8" stroke-linecap="round"/>'
+        f'<path d="M 60 13 A 42 42 0 0 1 102 55" fill="none" stroke="rgba(34,197,94,0.3)" stroke-width="8" stroke-linecap="round"/>'
+        # Active needle
+        f'<line x1="{cx}" y1="{cy}" x2="{nx:.1f}" y2="{ny:.1f}" '
+        f'stroke="{needle_color}" stroke-width="2.5" stroke-linecap="round"/>'
+        f'<circle cx="{cx}" cy="{cy}" r="3" fill="{needle_color}"/>'
+        # Score text
+        f'<text x="{cx}" y="{cy+14}" text-anchor="middle" font-size="13" font-weight="700" '
+        f'fill="#f1f5f9">{score}</text>'
+        f'</svg>'
+    )
+
+    return (
+        f'<div class="fg-card" style="background:{fill_color};border-color:{needle_color}40">'
+        f'<div class="fg-title">😱 פחד &amp; חמדנות</div>'
+        f'{svg}'
+        f'<div class="fg-label" style="color:{needle_color}">{label}</div>'
+        f'</div>'
+    )
+
+
+def build_heatmap(sectors: list) -> str:
+    if not sectors: return ""
+    cells = []
+    for s in sectors:
+        pct = s.get("pct_raw", 0.0)
+        # Color intensity
+        if pct >= 2:    bg, tc = "rgba(34,197,94,0.45)",  "#bbf7d0"
+        elif pct >= 1:  bg, tc = "rgba(34,197,94,0.25)",  "#86efac"
+        elif pct >= 0:  bg, tc = "rgba(34,197,94,0.10)",  "#4ade80"
+        elif pct >= -1: bg, tc = "rgba(239,68,68,0.10)",  "#fca5a5"
+        elif pct >= -2: bg, tc = "rgba(239,68,68,0.25)",  "#f87171"
+        else:           bg, tc = "rgba(239,68,68,0.45)",  "#ef4444"
+        chg_css = "up" if pct >= 0 else "down"
+        cells.append(
+            f'<div class="heat-cell" style="background:{bg}">'
+            f'<div class="heat-name">{s["name"]}</div>'
+            f'<div class="heat-chg {chg_css}">{s["change"]}</div>'
+            f'</div>'
+        )
+    return "".join(cells)
+
+
+def build_calendar_strip(events: list) -> str:
+    if not events: return ""
+    pills = []
+    for e in events:
+        color, bg = EVENT_COLORS.get(e["type"], ("var(--muted)", "rgba(100,116,139,0.15)"))
+        urgent = ' style="border-color:currentColor;opacity:1"' if e["days_left"] <= 1 else ""
+        pills.append(
+            f'<div class="cal-pill"{urgent} style="color:{color};background:{bg}">'
+            f'<span class="cal-emoji">{e["emoji"]}</span>'
+            f'<div class="cal-info">'
+            f'<div class="cal-name">{e["name"]}</div>'
+            f'<div class="cal-days">{e["days_label"]}</div>'
+            f'</div>'
+            f'</div>'
+        )
+    return "".join(pills)
+
+
+def _wa_link(title: str, link: str) -> str:
+    text = urllib.parse.quote(f"{title}\n{link}")
+    return (
+        f'<a href="https://wa.me/?text={text}" target="_blank" class="wa-btn" title="שתף ב-WhatsApp">'
+        f'{_WA_ICON}</a>'
     )
 
 
 def build_us_news_card(n: dict, idx: int) -> str:
     tag = n.get("tag", "NEWS")
     color, bg = TAG_COLORS_US.get(tag, TAG_COLORS_US["NEWS"])
-    link = n.get("link", "#")
+    link  = n.get("link", "#")
     image = n.get("image", "")
-    img_html = (
-        f'<img class="news-img" src="{image}" alt="" '
-        f'onerror="this.style.display=\'none\'" loading="lazy"/>'
-    ) if image else ""
+    img_html  = (f'<img class="news-img" src="{image}" alt="" onerror="this.style.display=\'none\'" loading="lazy"/>'
+                 if image else "")
     read_more = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
+    wa        = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
     return (
         f'<div class="news-card">'
         f'<div class="news-num">{idx:02d}</div>'
@@ -507,7 +671,7 @@ def build_us_news_card(n: dict, idx: int) -> str:
         + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
         f'<div class="news-title">{n["title_he"]}</div>'
         + (f'<div class="news-summary">{n["summary_he"]}</div>' if n.get("summary_he") else "")
-        + f'<div class="news-meta">{n.get("source","")} {read_more}</div>'
+        + f'<div class="news-meta">{n.get("source","")} {read_more} {wa}</div>'
         f'</div>'
         f'</div>'
     )
@@ -516,13 +680,12 @@ def build_us_news_card(n: dict, idx: int) -> str:
 def build_il_news_card(n: dict) -> str:
     tag = n.get("tag", "כללי")
     color, bg = TAG_COLORS_IL.get(tag, TAG_COLORS_IL["כללי"])
-    link = n.get("link", "#")
+    link  = n.get("link", "#")
     image = n.get("image", "")
-    img_html = (
-        f'<img class="news-img" src="{image}" alt="" '
-        f'onerror="this.style.display=\'none\'" loading="lazy"/>'
-    ) if image else ""
+    img_html  = (f'<img class="news-img" src="{image}" alt="" onerror="this.style.display=\'none\'" loading="lazy"/>'
+                 if image else "")
     read_more = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
+    wa        = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
     return (
         f'<div class="news-card il-card">'
         f'<div class="news-body">'
@@ -530,18 +693,32 @@ def build_il_news_card(n: dict) -> str:
         + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
         f'<div class="news-title">{n["title_he"]}</div>'
         + (f'<div class="news-summary">{n["summary_he"]}</div>' if n.get("summary_he") else "")
-        + f'<div class="news-meta">{n.get("source","")} {read_more}</div>'
+        + f'<div class="news-meta">{n.get("source","")} {read_more} {wa}</div>'
         f'</div>'
         f'</div>'
     )
 
 
 def build_html(data: dict) -> str:
-    us_market_cards  = "".join(build_market_card(m) for m in data.get("market_us", []))
-    comm_cards       = "".join(build_market_card(m) for m in data.get("commodities", []))
-    il_market_cards  = "".join(build_market_card(m) for m in data.get("market_il", []))
-    us_news_cards    = "".join(build_us_news_card(n, i+1) for i, n in enumerate(data.get("us_news", [])))
-    il_news_cards    = "".join(build_il_news_card(n) for n in data.get("israel_news", []))
+    sparks    = data.get("sparklines", {})
+    sym_map   = {"S&P 500": "^GSPC", "Nasdaq": "^IXIC", "Dow Jones": "^DJI",
+                 "Russell 2000": "^RUT", "זהב": "GC=F", "ביטקוין": "BTC-USD"}
+
+    def mkt_card(m):
+        sym    = sym_map.get(m["name"], "")
+        prices = sparks.get(sym, [])
+        svg    = sparkline_svg(prices, m.get("direction","flat"))
+        return build_market_card(m, svg)
+
+    us_market_cards = "".join(mkt_card(m) for m in data.get("market_us", []))
+    comm_cards      = "".join(mkt_card(m) for m in data.get("commodities", []))
+    il_market_cards = "".join(build_market_card(m) for m in data.get("market_il", []))
+    us_news_cards   = "".join(build_us_news_card(n, i+1) for i, n in enumerate(data.get("us_news", [])))
+    il_news_cards   = "".join(build_il_news_card(n) for n in data.get("israel_news", []))
+    ticker_items    = build_ticker_items(data)
+    fg_card         = build_fear_greed_card(data.get("fear_greed"))
+    heatmap_cells   = build_heatmap(data.get("sectors", []))
+    cal_strip       = build_calendar_strip(data.get("events", []))
 
     return f"""<!DOCTYPE html>
 <html lang="he" dir="rtl">
@@ -566,121 +743,164 @@ def build_html(data: dict) -> str:
     --muted:   #64748b;
     --white:   #f1f5f9;
   }}
+  body.light {{
+    --bg:      #f8fafc;
+    --surface: #f1f5f9;
+    --card:    #ffffff;
+    --border:  #e2e8f0;
+    --accent:  #0284c7;
+    --green:   #16a34a;
+    --red:     #dc2626;
+    --gold:    #d97706;
+    --purple:  #9333ea;
+    --text:    #334155;
+    --muted:   #94a3b8;
+    --white:   #0f172a;
+  }}
   *{{box-sizing:border-box;margin:0;padding:0}}
-  body{{font-family:'Inter','Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;min-height:100vh}}
+  body{{font-family:'Inter','Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;min-height:100vh;transition:background .3s,color .3s}}
 
   /* ── Sticky Nav ── */
   .nav{{
     position:sticky;top:0;z-index:100;
-    background:rgba(7,11,15,0.92);
-    backdrop-filter:blur(12px);
+    background:rgba(7,11,15,0.93);
+    backdrop-filter:blur(14px);
     border-bottom:1px solid var(--border);
-    padding:.6rem 1.5rem;
-    display:flex;gap:.8rem;align-items:center;justify-content:center;
+    padding:.5rem 1.2rem;
+    display:flex;gap:.6rem;align-items:center;justify-content:center;
   }}
-  .nav a{{
-    color:var(--muted);text-decoration:none;font-size:.8rem;font-weight:600;
-    padding:.35rem .85rem;border-radius:6px;border:1px solid transparent;
+  body.light .nav{{background:rgba(248,250,252,0.93)}}
+  .nav a{{color:var(--muted);text-decoration:none;font-size:.78rem;font-weight:600;
+    padding:.3rem .75rem;border-radius:6px;border:1px solid transparent;transition:all .2s}}
+  .nav a:hover{{color:var(--accent);border-color:var(--accent);background:rgba(14,165,233,.08)}}
+  .nav-sep{{color:var(--border);font-size:.85rem}}
+  .theme-btn{{
+    margin-right:auto;background:none;border:1px solid var(--border);border-radius:6px;
+    color:var(--muted);cursor:pointer;font-size:.85rem;padding:.28rem .6rem;
     transition:all .2s;
   }}
-  .nav a:hover{{color:var(--accent);border-color:var(--accent);background:rgba(14,165,233,.08)}}
-  .nav-sep{{color:var(--border);font-size:.9rem}}
+  body[dir=rtl] .theme-btn{{margin-right:0;margin-left:auto}}
+  .theme-btn:hover{{border-color:var(--accent);color:var(--accent)}}
+
+  /* ── Ticker Tape ── */
+  .ticker-wrap{{
+    overflow:hidden;white-space:nowrap;
+    background:rgba(14,165,233,.04);
+    border-bottom:1px solid var(--border);
+    height:34px;display:flex;align-items:center;
+    cursor:default;
+  }}
+  .ticker-track{{
+    display:inline-flex;align-items:center;
+    animation:ticker-scroll 55s linear infinite;
+    will-change:transform;
+  }}
+  .ticker-wrap:hover .ticker-track{{animation-play-state:paused}}
+  @keyframes ticker-scroll{{0%{{transform:translateX(0)}}100%{{transform:translateX(-50%)}}}}
+  .tick-item{{padding:0 1.4rem;display:inline-flex;align-items:center;gap:.45rem;font-size:.75rem;font-weight:500;border-right:1px solid var(--border)}}
+  .tick-name{{color:var(--muted)}}
+  .tick-val{{color:var(--white);font-weight:700;font-variant-numeric:tabular-nums}}
+  .tick-chg{{font-weight:600;font-size:.72rem}}
 
   /* ── Hero ── */
   .hero{{
     background:linear-gradient(160deg,#070b0f 0%,#0c1929 50%,#070b0f 100%);
     border-bottom:1px solid var(--border);
-    padding:3rem 2rem 2.5rem;text-align:center;position:relative;overflow:hidden;
+    padding:2.5rem 2rem 2rem;text-align:center;position:relative;overflow:hidden;
   }}
-  .hero::before{{
-    content:'';position:absolute;top:-60px;left:50%;transform:translateX(-50%);
-    width:600px;height:200px;
-    background:radial-gradient(ellipse,rgba(14,165,233,.12) 0%,transparent 70%);
-    pointer-events:none;
-  }}
-  .hero-label{{font-size:.68rem;font-weight:700;letter-spacing:.35em;color:var(--accent);text-transform:uppercase;margin-bottom:.7rem}}
-  .hero h1{{font-size:2.4rem;font-weight:900;color:var(--white);letter-spacing:-.03em;line-height:1.1}}
+  body.light .hero{{background:linear-gradient(160deg,#f8fafc 0%,#e0f2fe 50%,#f8fafc 100%)}}
+  .hero::before{{content:'';position:absolute;top:-60px;left:50%;transform:translateX(-50%);
+    width:600px;height:200px;background:radial-gradient(ellipse,rgba(14,165,233,.12) 0%,transparent 70%);pointer-events:none}}
+  .hero-label{{font-size:.65rem;font-weight:700;letter-spacing:.35em;color:var(--accent);text-transform:uppercase;margin-bottom:.6rem}}
+  .hero h1{{font-size:2.2rem;font-weight:900;color:var(--white);letter-spacing:-.03em;line-height:1.1}}
   .hero h1 span{{color:var(--accent)}}
-  .hero-sub{{color:var(--muted);font-size:.9rem;margin-top:.6rem}}
-  .hero-date{{
-    display:inline-flex;align-items:center;gap:.5rem;margin-top:1.2rem;
+  .hero-sub{{color:var(--muted);font-size:.88rem;margin-top:.5rem}}
+  .hero-date{{display:inline-flex;align-items:center;gap:.5rem;margin-top:1rem;
     background:rgba(14,165,233,.1);border:1px solid rgba(14,165,233,.3);
-    color:var(--accent);padding:.4rem 1.2rem;border-radius:999px;font-size:.82rem;font-weight:600;
-  }}
-  .pulse{{width:7px;height:7px;background:var(--green);border-radius:50%;animation:pulse 2s infinite}}
-  @keyframes pulse{{0%,100%{{opacity:1;transform:scale(1)}}50%{{opacity:.4;transform:scale(1.4)}}}}
+    color:var(--accent);padding:.35rem 1.1rem;border-radius:999px;font-size:.8rem;font-weight:600}}
+  .pulse{{width:6px;height:6px;background:var(--green);border-radius:50%;animation:pulse 2s infinite}}
+  @keyframes pulse{{0%,100%{{opacity:1;transform:scale(1)}}50%{{opacity:.4;transform:scale(1.5)}}}}
 
   /* ── Layout ── */
-  .container{{max-width:1140px;margin:0 auto;padding:2rem 1.5rem 5rem}}
-  .section{{margin-bottom:3rem}}
-  .section-label{{
-    font-size:.68rem;font-weight:700;letter-spacing:.3em;text-transform:uppercase;
-    color:var(--accent);margin-bottom:1.2rem;padding-bottom:.6rem;
-    border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.5rem;
-  }}
+  .container{{max-width:1140px;margin:0 auto;padding:1.8rem 1.4rem 5rem}}
+  .section{{margin-bottom:2.6rem}}
+  .section-label{{font-size:.65rem;font-weight:700;letter-spacing:.28em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:1.1rem;padding-bottom:.55rem;
+    border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.5rem}}
+
+  /* ── Calendar Strip ── */
+  .cal-strip{{display:flex;gap:.7rem;flex-wrap:wrap;margin-bottom:2rem}}
+  .cal-pill{{display:flex;align-items:center;gap:.6rem;padding:.55rem .9rem;
+    border-radius:10px;border:1px solid transparent;min-width:140px;flex:1;}}
+  .cal-emoji{{font-size:1.1rem}}
+  .cal-name{{font-size:.8rem;font-weight:600;color:var(--white)}}
+  .cal-days{{font-size:.7rem;color:var(--muted);margin-top:.1rem}}
 
   /* ── Market Strips ── */
-  .mkt-strip{{display:flex;flex-wrap:wrap;gap:.85rem;margin-bottom:.5rem}}
-  .mkt-card{{
-    background:var(--card);border:1px solid var(--border);border-radius:10px;
-    padding:1rem 1.3rem;min-width:130px;flex:1;transition:border-color .2s;
-  }}
+  .mkt-strip{{display:flex;flex-wrap:wrap;gap:.8rem;margin-bottom:.5rem}}
+  .mkt-card{{background:var(--card);border:1px solid var(--border);border-radius:10px;
+    padding:.9rem 1.1rem;min-width:120px;flex:1;transition:border-color .2s}}
   .mkt-card:hover{{border-color:var(--accent)}}
-  .mkt-name{{font-size:.7rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.3rem}}
-  .mkt-value{{font-size:1.5rem;font-weight:700;color:var(--white);font-variant-numeric:tabular-nums}}
-  .mkt-change{{font-size:.85rem;font-weight:600;margin-top:.2rem}}
+  .mkt-name{{font-size:.68rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.25rem}}
+  .mkt-value{{font-size:1.4rem;font-weight:700;color:var(--white);font-variant-numeric:tabular-nums}}
+  .mkt-row{{display:flex;align-items:center;justify-content:space-between;margin-top:.2rem}}
+  .mkt-change{{font-size:.82rem;font-weight:600}}
+  .spark{{opacity:.8}}
   .up{{color:var(--green)}}.down{{color:var(--red)}}.flat{{color:var(--muted)}}
 
+  /* ── Fear & Greed + IL row ── */
+  .fg-il-row{{display:flex;gap:.8rem;flex-wrap:wrap;margin-bottom:2.6rem;align-items:stretch}}
+  .fg-card{{background:var(--card);border:1px solid var(--border);border-radius:10px;
+    padding:.9rem 1.1rem;display:flex;flex-direction:column;align-items:center;gap:.3rem;
+    min-width:150px;flex:0 0 auto}}
+  .fg-title{{font-size:.65rem;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}}
+  .fg-label{{font-size:.8rem;font-weight:700;margin-top:.2rem}}
+  .il-strip{{display:flex;gap:.8rem;flex:1;flex-wrap:wrap}}
+
+  /* ── Heatmap ── */
+  .heatmap-grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem}}
+  @media(max-width:500px){{.heatmap-grid{{grid-template-columns:repeat(3,1fr)}}}}
+  .heat-cell{{border-radius:8px;padding:.7rem .5rem;text-align:center;transition:opacity .2s}}
+  .heat-cell:hover{{opacity:.85}}
+  .heat-name{{font-size:.72rem;font-weight:600;color:var(--white);margin-bottom:.2rem}}
+  .heat-chg{{font-size:.78rem;font-weight:700}}
+
   /* ── News Cards ── */
-  .news-list{{display:flex;flex-direction:column;gap:.9rem}}
-  .news-card{{
-    background:var(--card);border:1px solid var(--border);border-radius:12px;
-    padding:1.3rem 1.5rem;display:grid;grid-template-columns:48px 1fr;gap:1rem;align-items:start;
-    transition:border-color .2s;
-  }}
+  .news-list{{display:flex;flex-direction:column;gap:.85rem}}
+  .news-card{{background:var(--card);border:1px solid var(--border);border-radius:12px;
+    padding:1.2rem 1.4rem;display:grid;grid-template-columns:44px 1fr;gap:.9rem;align-items:start;
+    transition:border-color .2s}}
   .news-card:hover{{border-color:var(--accent)}}
   .il-card{{grid-template-columns:1fr}}
-  .news-num{{
-    font-size:1.6rem;font-weight:800;color:var(--border);line-height:1;
-    font-variant-numeric:tabular-nums;text-align:center;padding-top:.1rem;
-  }}
-  .news-tag{{
-    display:inline-block;padding:.15rem .6rem;border-radius:4px;
-    font-size:.68rem;font-weight:700;letter-spacing:.05em;margin-left:.5rem;
-  }}
-  .news-title{{font-size:1.02rem;font-weight:600;color:var(--white);margin:.4rem 0}}
-  .news-summary{{font-size:.87rem;color:var(--text);margin-bottom:.5rem;line-height:1.6}}
-  .news-meta{{font-size:.74rem;color:var(--muted);display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}}
-  .read-more{{color:var(--accent);text-decoration:none;font-weight:600;font-size:.74rem}}
+  .news-num{{font-size:1.5rem;font-weight:800;color:var(--border);line-height:1;
+    font-variant-numeric:tabular-nums;text-align:center;padding-top:.15rem}}
+  .news-tag{{display:inline-block;padding:.12rem .55rem;border-radius:4px;
+    font-size:.65rem;font-weight:700;letter-spacing:.05em;margin-left:.4rem}}
+  .news-title{{font-size:1rem;font-weight:600;color:var(--white);margin:.35rem 0}}
+  .news-summary{{font-size:.86rem;color:var(--text);margin-bottom:.45rem;line-height:1.6}}
+  .news-meta{{font-size:.72rem;color:var(--muted);display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}}
+  .read-more{{color:var(--accent);text-decoration:none;font-weight:600;font-size:.72rem}}
   .read-more:hover{{text-decoration:underline}}
-
-  /* ── News Images ── */
-  .news-img{{
-    width:100%;
-    height:180px;
-    object-fit:cover;
-    border-radius:8px;
-    margin-bottom:.75rem;
-    display:block;
-    background:var(--border);
-  }}
+  .wa-btn{{color:#25d366;display:inline-flex;align-items:center;opacity:.8;transition:opacity .2s}}
+  .wa-btn:hover{{opacity:1}}
+  .news-img{{width:100%;height:175px;object-fit:cover;border-radius:8px;
+    margin-bottom:.7rem;display:block;background:var(--border)}}
 
   /* ── IL strip card (smaller) ── */
-  .mkt-strip.il .mkt-card{{min-width:140px;max-width:200px;flex:0 0 auto}}
+  .mkt-strip.il .mkt-card{{min-width:130px;max-width:190px;flex:0 0 auto}}
 
   /* ── Footer ── */
-  footer{{
-    text-align:center;padding:2rem;font-size:.74rem;color:var(--muted);
-    border-top:1px solid var(--border);
-  }}
+  footer{{text-align:center;padding:2rem;font-size:.72rem;color:var(--muted);border-top:1px solid var(--border)}}
   footer a{{color:var(--accent);text-decoration:none}}
   footer a:hover{{text-decoration:underline}}
 
   @media(max-width:600px){{
-    .hero h1{{font-size:1.7rem}}
-    .mkt-card{{min-width:110px}}
+    .hero h1{{font-size:1.65rem}}
+    .mkt-card{{min-width:105px}}
     .news-card{{grid-template-columns:1fr}}
     .news-num{{display:none}}
+    .heatmap-grid{{grid-template-columns:repeat(3,1fr)}}
+    .fg-il-row{{flex-direction:column}}
   }}
 </style>
 </head>
@@ -688,18 +908,26 @@ def build_html(data: dict) -> str:
 
 <!-- Sticky Nav -->
 <nav class="nav">
+  <button class="theme-btn" onclick="toggleTheme()" id="themeBtn" title="החלף מצב">🌙</button>
   <a href="#us">🇺🇸 שוק ההון</a>
+  <span class="nav-sep">|</span>
+  <a href="#heatmap">🌡 מגזרים</a>
   <span class="nav-sep">|</span>
   <a href="#israel">🇮🇱 ישראל</a>
   <span class="nav-sep">|</span>
-  <a href="report.html">לדוח המלא</a>
+  <a href="report.html">דוח מלא</a>
 </nav>
+
+<!-- Ticker Tape -->
+<div class="ticker-wrap">
+  <div class="ticker-track">{ticker_items}</div>
+</div>
 
 <!-- Hero -->
 <div class="hero">
   <div class="hero-label">לוח חדשות אישי</div>
   <h1>שוק ההון <span>&</span> ישראל</h1>
-  <div class="hero-sub">חדשות וול סטריט · חברות אמריקאיות · חדשות ישראל</div>
+  <div class="hero-sub">וול סטריט · חברות אמריקאיות · חדשות ישראל</div>
   <div class="hero-date">
     <span class="pulse"></span>
     {TODAY_HE} &nbsp;|&nbsp; עודכן {TIME}
@@ -708,37 +936,38 @@ def build_html(data: dict) -> str:
 
 <div class="container">
 
+  <!-- Calendar Strip -->
+  {f'<div class="section-label">📅 אירועים כלכליים קרובים</div><div class="cal-strip">{cal_strip}</div>' if cal_strip else ""}
+
   <!-- US Markets -->
   <section class="section" id="us">
     <div class="section-label">📈 מדדים אמריקאיים</div>
-    <div class="mkt-strip">
-      {us_market_cards}
-    </div>
-    <div class="mkt-strip" style="margin-top:.85rem">
-      {comm_cards}
-    </div>
+    <div class="mkt-strip">{us_market_cards}</div>
+    <div class="mkt-strip" style="margin-top:.75rem">{comm_cards}</div>
   </section>
 
-  <!-- Israel Markets -->
-  <div class="mkt-strip il" style="margin-bottom:2rem">
-    <div class="section-label" style="width:100%;border-bottom:none;margin-bottom:.5rem">🏦 שוק ישראלי</div>
-    {il_market_cards}
+  <!-- Fear & Greed + IL Markets -->
+  <div class="fg-il-row">
+    {fg_card}
+    <div style="flex:1">
+      <div class="section-label" style="margin-bottom:.7rem">🏦 שוק ישראלי</div>
+      <div class="mkt-strip il">{il_market_cards}</div>
+    </div>
   </div>
+
+  <!-- Sector Heatmap -->
+  {f'<section class="section" id="heatmap"><div class="section-label">🌡 מפת מגזרים — S&P 500</div><div class="heatmap-grid">{heatmap_cells}</div></section>' if heatmap_cells else ""}
 
   <!-- US News -->
   <section class="section" id="us-news">
     <div class="section-label">📰 חדשות וול סטריט</div>
-    <div class="news-list">
-      {us_news_cards}
-    </div>
+    <div class="news-list">{us_news_cards}</div>
   </section>
 
   <!-- Israel News -->
   <section class="section" id="israel">
     <div class="section-label">🇮🇱 חדשות ישראל</div>
-    <div class="news-list">
-      {il_news_cards}
-    </div>
+    <div class="news-list">{il_news_cards}</div>
   </section>
 
 </div>
@@ -749,169 +978,151 @@ def build_html(data: dict) -> str:
   אינו מהווה ייעוץ השקעות
 </footer>
 
+<script>
+  // ── Dark/Light Mode ──
+  (function(){{
+    var saved = localStorage.getItem('theme');
+    if(saved === 'light'){{
+      document.body.classList.add('light');
+      document.getElementById('themeBtn').textContent = '☀️';
+    }}
+  }})();
+
+  function toggleTheme(){{
+    var light = document.body.classList.toggle('light');
+    document.getElementById('themeBtn').textContent = light ? '☀️' : '🌙';
+    localStorage.setItem('theme', light ? 'light' : 'dark');
+  }}
+</script>
 </body>
 </html>"""
 
 
 # ── Telegram ──────────────────────────────────────────────────────────────────
 
-def _tg_arrow(direction: str) -> str:
-    return "🟢" if direction == "up" else "🔴" if direction == "down" else "⚪"
-
+def _tg_arrow(d): return "🟢" if d == "up" else "🔴" if d == "down" else "⚪"
 
 def build_telegram_message(data: dict) -> str:
     lines = [f"📊 <b>לוח חדשות — {TODAY}</b>\n"]
-
-    # US markets compact
     for m in data.get("market_us", [])[:4]:
         lines.append(f"{_tg_arrow(m.get('direction',''))} <b>{m['name']}</b> {m['value']} {m['change']}")
-
-    # Commodities
     comms = data.get("commodities", [])
     if comms:
-        parts = [f"{_tg_arrow(c.get('direction',''))}{c['name']} {c['change']}" for c in comms]
-        lines.append("\n" + "  |  ".join(parts))
-
-    # Israel markets
+        lines.append("\n" + "  |  ".join(f"{_tg_arrow(c.get('direction',''))}{c['name']} {c['change']}" for c in comms))
     il_mkt = data.get("market_il", [])
     if il_mkt:
         lines.append("\n🇮🇱 " + "  |  ".join(f"{m['name']} {m['value']} {m['change']}" for m in il_mkt))
-
+    fg = data.get("fear_greed")
+    if fg:
+        lines.append(f"\n😱 פחד &amp; חמדנות: <b>{fg['score']}</b> — {fg['rating']}")
     lines.append("")
-
-    # Top US headlines
     us_news = data.get("us_news", [])[:3]
     if us_news:
         lines.append("🇺🇸 <b>וול סטריט:</b>")
-        for n in us_news:
-            lines.append(f"• {n['title_he']}")
-
+        for n in us_news: lines.append(f"• {n['title_he']}")
     lines.append("")
-
-    # Top Israel headlines
     il_news = data.get("israel_news", [])[:4]
     if il_news:
         lines.append("🇮🇱 <b>ישראל:</b>")
-        for n in il_news:
-            lines.append(f"• {n['title_he']}")
-
+        for n in il_news: lines.append(f"• {n['title_he']}")
     return "\n".join(lines)
-
 
 def send_telegram(message: str) -> bool:
     token   = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
-
     if not token or not chat_id:
-        print("⚠  Telegram: TELEGRAM_BOT_TOKEN או TELEGRAM_CHAT_ID לא מוגדרים — דילוג.")
-        return False
-
+        print("⚠  Telegram: credentials לא מוגדרים"); return False
     url  = f"https://api.telegram.org/bot{token}/sendMessage"
-    data = urllib.parse.urlencode({
-        "chat_id":    chat_id,
-        "text":       message,
-        "parse_mode": "HTML",
-    }).encode("utf-8")
-
+    data = urllib.parse.urlencode({"chat_id": chat_id, "text": message, "parse_mode": "HTML"}).encode("utf-8")
     try:
         req    = urllib.request.Request(url, data=data, method="POST")
         resp   = urllib.request.urlopen(req, timeout=15)
         result = json.loads(resp.read())
         if result.get("ok"):
-            print(f"✓ Telegram: הודעה נשלחה ל-chat_id {chat_id}")
-            return True
-        print(f"✗ Telegram error: {result}")
-        return False
+            print(f"✓ Telegram: נשלח ל-{chat_id}"); return True
+        print(f"✗ Telegram: {result}"); return False
     except Exception as e:
-        print(f"✗ Telegram connection error: {e}")
-        return False
-
+        print(f"✗ Telegram error: {e}"); return False
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
     print(f"\n{'='*55}")
-    print(f"  לוח חדשות יומי — {TODAY_HE}")
+    print(f"  לוח חדשות יומי v3 — {TODAY_HE}")
     print(f"{'='*55}\n")
 
-    # 1. Fetch RSS
-    print("[ שלב 1 ] שולף כותרות RSS...")
-    print("  US:")
-    us_raw_all = fetch_rss(US_FEEDS, max_per_feed=12)
-    print("  ישראל:")
-    il_raw_all = fetch_rss(ISRAEL_FEEDS, max_per_feed=12)
-
+    # 1. RSS
+    print("[ 1 ] שולף כותרות RSS...")
+    print("  US:"); us_raw_all = fetch_rss(US_FEEDS, max_per_feed=12)
+    print("  ישראל:"); il_raw_all = fetch_rss(ISRAEL_FEEDS, max_per_feed=12)
     us_raw = filter_headlines(us_raw_all, is_us_relevant, 8)
     il_raw = filter_headlines(il_raw_all, is_il_relevant, 10)
-    print(f"\n  נבחרו: {len(us_raw)} כותרות US, {len(il_raw)} כותרות ישראל")
+    print(f"\n  נבחרו: {len(us_raw)} US, {len(il_raw)} ישראל")
 
-    # 2. Claude Enrichment
+    # 2. Market data (Yahoo Finance) + Sparklines + Fear&Greed — in parallel
+    print("\n[ 2 ] שולף נתוני שוק, sparklines ו-Fear & Greed במקביל...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
+        fut_mkt  = ex.submit(fetch_market_data)
+        fut_spark= ex.submit(fetch_sparklines)
+        fut_fg   = ex.submit(fetch_fear_greed)
+        mkt    = fut_mkt.result()
+        sparks = fut_spark.result()
+        fg     = fut_fg.result()
+
+    # 3. Claude Enrichment
     api_key = os.environ.get("ANTHROPIC_API_KEY")
-    data = None
-
-    # 2. Fetch live market data (always — independent of Claude API)
-    print("\n[ שלב 2 ] שולף נתוני שוק מ-Yahoo Finance...")
-    mkt = fetch_market_data()
-
-    # 3. Claude Enrichment (news summaries + Hebrew translation)
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    data = None
-
+    news_data = None
     if api_key:
         try:
-            print("\n[ שלב 3 ] מעשיר כותרות עם Claude API...")
+            print("\n[ 3 ] מעשיר כותרות עם Claude API...")
             client = anthropic.Anthropic(api_key=api_key)
-            data = run_enrichment_agent(client, us_raw, il_raw)
-            # Attach original links to enriched items (Claude may return empty links)
-            for i, n in enumerate(data.get("us_news", [])):
-                if i < len(us_raw) and not n.get("link"):
-                    n["link"] = us_raw[i]["link"]
-            for i, n in enumerate(data.get("israel_news", [])):
-                if i < len(il_raw) and not n.get("link"):
-                    n["link"] = il_raw[i]["link"]
+            news_data = run_enrichment_agent(client, us_raw, il_raw)
+            for i, n in enumerate(news_data.get("us_news", [])):
+                if i < len(us_raw) and not n.get("link"): n["link"] = us_raw[i]["link"]
+            for i, n in enumerate(news_data.get("israel_news", [])):
+                if i < len(il_raw) and not n.get("link"): n["link"] = il_raw[i]["link"]
             print("✓ העשרה הושלמה")
         except Exception as e:
-            print(f"✗ Claude API נכשל: {e}")
-            print("  עובר למצב RSS-only fallback...")
+            print(f"✗ Claude נכשל: {e} — עובר ל-RSS fallback")
     else:
-        print("⚠  ANTHROPIC_API_KEY לא מוגדר — מצב RSS-only")
+        print("⚠  ANTHROPIC_API_KEY לא מוגדר — RSS-only")
 
-    if data is None:
-        data = fallback_data(us_raw, il_raw)
+    if news_data is None:
+        news_data = fallback_data(us_raw, il_raw)
 
-    # Always overwrite market data with Yahoo Finance results
-    data["market_us"]   = mkt["market_us"]
-    data["commodities"] = mkt["commodities"]
-    data["market_il"]   = mkt["market_il"]
+    # 4. Assemble full data dict
+    data = {
+        **news_data,
+        "market_us":   mkt["market_us"],
+        "commodities": mkt["commodities"],
+        "market_il":   mkt["market_il"],
+        "sectors":     mkt["sectors"],
+        "sparklines":  sparks,
+        "fear_greed":  fg,
+        "events":      get_upcoming_events(5),
+    }
 
-    # 4. Fetch images for news items (parallel)
-    print("\n[ שלב 4 ] שולף תמונות לכתבות...")
-    print("  US:")
-    us_images = fetch_all_images(data.get("us_news", []))
-    for i, img in enumerate(us_images):
-        if i < len(data["us_news"]):
-            data["us_news"][i]["image"] = img
-    print("  ישראל:")
-    il_images = fetch_all_images(data.get("israel_news", []))
-    for i, img in enumerate(il_images):
-        if i < len(data["israel_news"]):
-            data["israel_news"][i]["image"] = img
+    # 5. Fetch images
+    print("\n[ 4 ] שולף תמונות לכתבות...")
+    print("  US:");   us_imgs = fetch_all_images(data.get("us_news", []))
+    print("  ישראל:"); il_imgs = fetch_all_images(data.get("israel_news", []))
+    for i, img in enumerate(us_imgs):
+        if i < len(data["us_news"]): data["us_news"][i]["image"] = img
+    for i, img in enumerate(il_imgs):
+        if i < len(data["israel_news"]): data["israel_news"][i]["image"] = img
 
-    # 5. Build HTML
-    print("\n[ שלב 5 ] בונה HTML...")
+    # 6. Build & Save HTML
+    print("\n[ 5 ] בונה HTML...")
     html = build_html(data)
-
-    # 6. Save
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(html, encoding="utf-8")
     print(f"✓ HTML נשמר → {OUTPUT_PATH}")
-    print(f"  פתח בדפדפן: file:///{OUTPUT_PATH.as_posix()}")
 
     # 7. Telegram
-    print("\n[ שלב 6 ] שולח ל-Telegram...")
+    print("\n[ 6 ] שולח ל-Telegram...")
     send_telegram(build_telegram_message(data))
 
-    print(f"\n✓ הושלם בהצלחה — {TODAY} {TIME}\n")
+    print(f"\n✓ הושלם — {TODAY} {TIME}\n")
 
 
 if __name__ == "__main__":
