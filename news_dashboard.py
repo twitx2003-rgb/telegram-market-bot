@@ -5,8 +5,10 @@ Personal News Dashboard: Wall Street + Israel News
 """
 
 import anthropic
+import concurrent.futures
 import json
 import os
+import re
 import sys
 import urllib.request
 import urllib.parse
@@ -24,6 +26,12 @@ try:
     HAS_TRANSLATOR = True
 except ImportError:
     HAS_TRANSLATOR = False
+
+try:
+    import requests as _requests
+    HAS_REQUESTS = True
+except ImportError:
+    HAS_REQUESTS = False
 
 # תמיכה בעברית ב-Windows terminal
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
@@ -171,49 +179,174 @@ def filter_headlines(items: list, filter_fn, max_out: int) -> list:
     return relevant[:max_out]
 
 
+# ── Yahoo Finance Market Data ──────────────────────────────────────────────────
+
+# Symbol definitions: (symbol, display_name, group, format_type)
+_YF_SYMBOLS = [
+    ("^GSPC",   "S&P 500",           "market_us",   "index"),
+    ("^IXIC",   "Nasdaq",            "market_us",   "index"),
+    ("^DJI",    "Dow Jones",         "market_us",   "index"),
+    ("^RUT",    "Russell 2000",      "market_us",   "index"),
+    ("^VIX",    "VIX",               "market_us",   "vix"),
+    ("GC=F",    "זהב",               "commodities", "commodity"),
+    ("BZ=F",    "נפט ברנט",          "commodities", "commodity"),
+    ("BTC-USD", "ביטקוין",           "commodities", "btc"),
+    ("^TNX",    'אג"ח ארה"ב 10Y',   "commodities", "tnx"),
+    ("TA35.TA", 'ת"א 35',            "market_il",   "index"),
+    ("ILS=X",   "דולר/שקל",          "market_il",   "ils"),
+]
+_YF_BASE = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?interval=1d&range=1d"
+_YF_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+
+def _format_yf(price: float, pct: float, fmt: str) -> tuple:
+    """Format price + pct into (value_str, change_str, direction)."""
+    direction = "up" if pct > 0 else "down" if pct < 0 else "flat"
+    change = f"{pct:+.2f}%"
+    if fmt == "index":
+        value = f"{price:,.0f}"
+    elif fmt == "vix":
+        value = f"{price:.2f}"
+    elif fmt == "commodity":
+        value = f"${price:,.1f}"
+    elif fmt == "btc":
+        value = f"${price:,.0f}"
+    elif fmt == "tnx":
+        value = f"{price:.2f}%"
+    elif fmt == "ils":
+        value = f"{price:.3f}"
+    else:
+        value = f"{price:,.2f}"
+    return value, change, direction
+
+
+def _fetch_yf_one(args: tuple) -> dict:
+    """Fetch a single Yahoo Finance symbol. Returns market card dict."""
+    sym, name, group, fmt = args
+    placeholder = {"name": name, "value": "—", "change": "—", "direction": "flat", "group": group}
+    if not HAS_REQUESTS:
+        return placeholder
+    try:
+        url  = _YF_BASE.format(sym=urllib.parse.quote(sym))
+        resp = _requests.get(url, headers=_YF_HEADERS, timeout=8)
+        resp.raise_for_status()
+        meta  = resp.json()["chart"]["result"][0]["meta"]
+        price = float(meta["regularMarketPrice"])
+        pct   = float(meta.get("regularMarketChangePercent", 0.0))
+        value, change, direction = _format_yf(price, pct, fmt)
+        return {"name": name, "value": value, "change": change, "direction": direction, "group": group}
+    except Exception as e:
+        print(f"  ✗ {sym}: {e}")
+        return placeholder
+
+
+def fetch_market_data() -> dict:
+    """
+    Fetch live market data from Yahoo Finance (free, no API key needed).
+    Returns dict with keys: market_us, commodities, market_il
+    """
+    if not HAS_REQUESTS:
+        print("  ⚠ requests לא זמין — מדדים לא זמינים")
+        na = lambda n: {"name": n, "value": "N/A", "change": "—", "direction": "flat"}
+        return {
+            "market_us":   [na(n) for _, n, g, _ in _YF_SYMBOLS if g == "market_us"],
+            "commodities": [na(n) for _, n, g, _ in _YF_SYMBOLS if g == "commodities"],
+            "market_il":   [na(n) for _, n, g, _ in _YF_SYMBOLS if g == "market_il"],
+        }
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
+        results = list(ex.map(_fetch_yf_one, _YF_SYMBOLS))
+
+    market_us   = [r for r in results if r["group"] == "market_us"]
+    commodities = [r for r in results if r["group"] == "commodities"]
+    market_il   = [r for r in results if r["group"] == "market_il"]
+
+    ok = sum(1 for r in results if r["value"] != "—")
+    print(f"  ✓ שוק: {ok}/{len(_YF_SYMBOLS)} סמלים נטענו")
+    return {"market_us": market_us, "commodities": commodities, "market_il": market_il}
+
+
+# ── Image Fetching ─────────────────────────────────────────────────────────────
+
+def _picsum_url(seed_text: str) -> str:
+    """Return a deterministic placeholder image URL based on seed text."""
+    h = abs(hash(seed_text)) % 1000
+    return f"https://picsum.photos/seed/{h}/400/200"
+
+
+def fetch_og_image(url: str) -> str:
+    """
+    Try to scrape og:image from the article URL.
+    Reads only the first 50 KB to avoid large downloads.
+    Returns image URL or a picsum placeholder.
+    """
+    if not HAS_REQUESTS or not url or url == "#":
+        return _picsum_url(url or "default")
+    try:
+        resp = _requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; NewsDashbot/1.0)"},
+            timeout=5,
+            stream=True,
+        )
+        # Read only first 50 KB
+        html = b""
+        for chunk in resp.iter_content(chunk_size=4096):
+            html += chunk
+            if len(html) >= 51200:
+                break
+        html_str = html.decode("utf-8", errors="replace")
+
+        # Try both attribute orders (property before content, OR content before property)
+        patterns = [
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content="([^"]+)"',
+        ]
+        for pat in patterns:
+            m = re.search(pat, html_str, re.IGNORECASE)
+            if m:
+                img = m.group(1).strip()
+                if img.startswith("http"):
+                    return img
+    except Exception:
+        pass
+    return _picsum_url(url)
+
+
+def fetch_all_images(news_items: list) -> list:
+    """Fetch og:image for all items in parallel. Returns list of image URLs."""
+    if not news_items:
+        return []
+    links = [item.get("link", "") for item in news_items]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
+        results = list(ex.map(fetch_og_image, links))
+    original = sum(1 for r in results if "picsum" not in r)
+    print(f"  ✓ תמונות: {original}/{len(results)} מקוריות (שאר — picsum)")
+    return results
+
+
 # ── Claude Enrichment Agent ────────────────────────────────────────────────────
 
 def run_enrichment_agent(client: anthropic.Anthropic, us_raw: list, il_raw: list) -> dict:
     """
-    Single Claude API call with web_search to:
-    - Fetch live market data (US indices, commodities, TA-35, USD/ILS)
-    - Translate + summarize US headlines in Hebrew
-    - Translate + summarize Israel headlines in Hebrew with category tags
-    Returns structured JSON dict.
+    Single Claude API call (NO web search — market data handled by Yahoo Finance).
+    Tasks: translate + summarize US headlines in Hebrew + category tagging for Israel news.
+    Returns dict with keys: us_news, israel_news (no market data keys).
     """
     us_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(us_raw))
     il_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
 
     system = f"""אתה עיתונאי פיננסי בכיר ומומחה לחדשות ישראל.
 היום: {TODAY_HE} ({TODAY}).
-חפש מידע עדכני ברשת והחזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
+החזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
 
 עליך לבצע:
-1. חיפוש ערכי מדדים עדכניים: S&P 500, Nasdaq, Dow Jones, Russell 2000, VIX
-2. חיפוש סחורות: Gold, Brent Oil, Bitcoin, US 10Y Yield
-3. חיפוש מדדים ישראליים: ת"א 35 (TA-35), שקל/דולר (USD/ILS)
-4. לכל כותרת US: כתוב כותרת בעברית (תרגום חופשי) + סיכום 2-3 משפטים בעברית + תגית (EARNINGS/MACRO/FED/TECH/M&A/ENERGY/CRYPTO/BANKS)
-5. לכל כותרת ישראלית: כתוב כותרת בעברית + סיכום 2-3 משפטים בעברית + תגית מהרשימה: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה
+1. לכל כותרת US: כתוב כותרת בעברית (תרגום חופשי ותמציתי) + סיכום 2-3 משפטים בעברית + תגית מהרשימה: EARNINGS/MACRO/FED/TECH/M&A/ENERGY/CRYPTO/BANKS
+2. לכל כותרת ישראלית: כתוב כותרת בעברית + סיכום 2-3 משפטים בעברית + תגית מהרשימה: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה
 
 החזר JSON בדיוק במבנה הבא:
 {{
-  "market_us": [
-    {{"name": "S&P 500", "value": "5,500", "change": "+0.5%", "direction": "up"}},
-    {{"name": "Nasdaq", "value": "17,200", "change": "-0.3%", "direction": "down"}},
-    {{"name": "Dow Jones", "value": "41,000", "change": "+0.2%", "direction": "up"}},
-    {{"name": "Russell 2000", "value": "2,100", "change": "+0.1%", "direction": "up"}},
-    {{"name": "VIX", "value": "18.5", "change": "-1.2%", "direction": "down"}}
-  ],
-  "commodities": [
-    {{"name": "זהב", "value": "$3,100", "change": "+0.8%", "direction": "up"}},
-    {{"name": "נפט ברנט", "value": "$74.5", "change": "-0.3%", "direction": "down"}},
-    {{"name": "ביטקוין", "value": "$85,000", "change": "+2.1%", "direction": "up"}},
-    {{"name": "אג\"ח ארה\"ב 10Y", "value": "4.25%", "change": "+0.02", "direction": "up"}}
-  ],
-  "market_il": [
-    {{"name": "ת\"א 35", "value": "1,950", "change": "+0.4%", "direction": "up"}},
-    {{"name": "דולר/שקל", "value": "3.68", "change": "+0.1%", "direction": "up"}}
-  ],
   "us_news": [
     {{
       "title_he": "כותרת בעברית",
@@ -237,53 +370,37 @@ def run_enrichment_agent(client: anthropic.Anthropic, us_raw: list, il_raw: list
 כתוב את כל הכותרות והסיכומים בעברית בלבד.
 אל תכלול הערות, אל תוסיף markdown. JSON בלבד."""
 
-    user_msg = f"""חיפוש ושליפת חדשות ל-{TODAY_HE}.
+    user_msg = f"""עבד את כותרות החדשות הבאות ל-{TODAY_HE}.
 
-כותרות US לעיבוד ({len(us_raw)} כותרות):
+כותרות US לתרגום וסיכום ({len(us_raw)} כותרות):
 {us_titles}
 
-כותרות ישראל לעיבוד ({len(il_raw)} כותרות):
+כותרות ישראל לתרגום וסיכום ({len(il_raw)} כותרות):
 {il_titles}
 
-אנא בצע את כל החיפושים הנדרשים (מדדים, חדשות), צרף סיכומים בעברית לכל כותרת, והחזר JSON מלא."""
+צרף כותרת בעברית + סיכום קצר + תגית לכל כותרת. החזר JSON מלא."""
 
     messages = [{"role": "user", "content": user_msg}]
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל agent העשרה...")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל agent העשרה (ללא web search)...")
 
-    while True:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=MAX_TOKENS,
-            system=system,
-            tools=[{"type": "web_search_20250305", "name": "web_search"}],
-            messages=messages,
-        )
+    response = client.messages.create(
+        model=MODEL,
+        max_tokens=MAX_TOKENS,
+        system=system,
+        messages=messages,
+    )
 
-        print(f"[{datetime.now().strftime('%H:%M:%S')}] stop_reason={response.stop_reason}")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] stop_reason={response.stop_reason}")
 
-        text_blocks = [b for b in response.content if b.type == "text"]
-        tool_blocks = [b for b in response.content if b.type == "tool_use"]
-
-        if response.stop_reason == "end_turn" or not tool_blocks:
-            if text_blocks:
-                raw = text_blocks[-1].text.strip()
-                if raw.startswith("```"):
-                    raw = raw.split("```")[1]
-                    if raw.startswith("json"):
-                        raw = raw[4:]
-                return json.loads(raw.strip())
-            raise ValueError("לא התקבלה תגובת טקסט מה-agent")
-
-        messages.append({"role": "assistant", "content": response.content})
-        tool_results = []
-        for tb in tool_blocks:
-            print(f"[{datetime.now().strftime('%H:%M:%S')}] חיפוש: {tb.input}")
-            tool_results.append({
-                "type": "tool_result",
-                "tool_use_id": tb.id,
-                "content": "",
-            })
-        messages.append({"role": "user", "content": tool_results})
+    text_blocks = [b for b in response.content if b.type == "text"]
+    if text_blocks:
+        raw = text_blocks[-1].text.strip()
+        if raw.startswith("```"):
+            raw = raw.split("```")[1]
+            if raw.startswith("json"):
+                raw = raw[4:]
+        return json.loads(raw.strip())
+    raise ValueError("לא התקבלה תגובת טקסט מה-agent")
 
 
 # ── Fallback: RSS-only mode ────────────────────────────────────────────────────
@@ -318,18 +435,13 @@ def fallback_data(us_raw: list, il_raw: list) -> dict:
             "tag": "כללי",
         })
 
-    placeholder = [{"name": n, "value": "N/A", "change": "—", "direction": "flat"} for n in
-                   ["S&P 500", "Nasdaq", "Dow Jones", "Russell 2000", "VIX"]]
-    commodities = [{"name": n, "value": "N/A", "change": "—", "direction": "flat"} for n in
-                   ["זהב", "נפט ברנט", "ביטקוין", "אג\"ח ארה\"ב 10Y"]]
-    market_il = [{"name": n, "value": "N/A", "change": "—", "direction": "flat"} for n in
-                 ["ת\"א 35", "דולר/שקל"]]
+    mkt = fetch_market_data()
 
     return {
-        "market_us": placeholder,
-        "commodities": commodities,
-        "market_il": market_il,
-        "us_news": us_news,
+        "market_us":   mkt["market_us"],
+        "commodities": mkt["commodities"],
+        "market_il":   mkt["market_il"],
+        "us_news":     us_news,
         "israel_news": il_news,
     }
 
@@ -381,12 +493,18 @@ def build_us_news_card(n: dict, idx: int) -> str:
     tag = n.get("tag", "NEWS")
     color, bg = TAG_COLORS_US.get(tag, TAG_COLORS_US["NEWS"])
     link = n.get("link", "#")
+    image = n.get("image", "")
+    img_html = (
+        f'<img class="news-img" src="{image}" alt="" '
+        f'onerror="this.style.display=\'none\'" loading="lazy"/>'
+    ) if image else ""
     read_more = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
     return (
         f'<div class="news-card">'
         f'<div class="news-num">{idx:02d}</div>'
         f'<div class="news-body">'
-        f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
+        + img_html
+        + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
         f'<div class="news-title">{n["title_he"]}</div>'
         + (f'<div class="news-summary">{n["summary_he"]}</div>' if n.get("summary_he") else "")
         + f'<div class="news-meta">{n.get("source","")} {read_more}</div>'
@@ -399,11 +517,17 @@ def build_il_news_card(n: dict) -> str:
     tag = n.get("tag", "כללי")
     color, bg = TAG_COLORS_IL.get(tag, TAG_COLORS_IL["כללי"])
     link = n.get("link", "#")
+    image = n.get("image", "")
+    img_html = (
+        f'<img class="news-img" src="{image}" alt="" '
+        f'onerror="this.style.display=\'none\'" loading="lazy"/>'
+    ) if image else ""
     read_more = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
     return (
         f'<div class="news-card il-card">'
         f'<div class="news-body">'
-        f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
+        + img_html
+        + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
         f'<div class="news-title">{n["title_he"]}</div>'
         + (f'<div class="news-summary">{n["summary_he"]}</div>' if n.get("summary_he") else "")
         + f'<div class="news-meta">{n.get("source","")} {read_more}</div>'
@@ -529,6 +653,17 @@ def build_html(data: dict) -> str:
   .news-meta{{font-size:.74rem;color:var(--muted);display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}}
   .read-more{{color:var(--accent);text-decoration:none;font-weight:600;font-size:.74rem}}
   .read-more:hover{{text-decoration:underline}}
+
+  /* ── News Images ── */
+  .news-img{{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+    margin-bottom:.75rem;
+    display:block;
+    background:var(--border);
+  }}
 
   /* ── IL strip card (smaller) ── */
   .mkt-strip.il .mkt-card{{min-width:140px;max-width:200px;flex:0 0 auto}}
@@ -714,12 +849,20 @@ def main():
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     data = None
 
+    # 2. Fetch live market data (always — independent of Claude API)
+    print("\n[ שלב 2 ] שולף נתוני שוק מ-Yahoo Finance...")
+    mkt = fetch_market_data()
+
+    # 3. Claude Enrichment (news summaries + Hebrew translation)
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    data = None
+
     if api_key:
         try:
-            print("\n[ שלב 2 ] מעשיר עם Claude API...")
+            print("\n[ שלב 3 ] מעשיר כותרות עם Claude API...")
             client = anthropic.Anthropic(api_key=api_key)
             data = run_enrichment_agent(client, us_raw, il_raw)
-            # Attach original links to enriched items
+            # Attach original links to enriched items (Claude may return empty links)
             for i, n in enumerate(data.get("us_news", [])):
                 if i < len(us_raw) and not n.get("link"):
                     n["link"] = us_raw[i]["link"]
@@ -736,18 +879,36 @@ def main():
     if data is None:
         data = fallback_data(us_raw, il_raw)
 
-    # 3. Build HTML
-    print("\n[ שלב 3 ] בונה HTML...")
+    # Always overwrite market data with Yahoo Finance results
+    data["market_us"]   = mkt["market_us"]
+    data["commodities"] = mkt["commodities"]
+    data["market_il"]   = mkt["market_il"]
+
+    # 4. Fetch images for news items (parallel)
+    print("\n[ שלב 4 ] שולף תמונות לכתבות...")
+    print("  US:")
+    us_images = fetch_all_images(data.get("us_news", []))
+    for i, img in enumerate(us_images):
+        if i < len(data["us_news"]):
+            data["us_news"][i]["image"] = img
+    print("  ישראל:")
+    il_images = fetch_all_images(data.get("israel_news", []))
+    for i, img in enumerate(il_images):
+        if i < len(data["israel_news"]):
+            data["israel_news"][i]["image"] = img
+
+    # 5. Build HTML
+    print("\n[ שלב 5 ] בונה HTML...")
     html = build_html(data)
 
-    # 4. Save
+    # 6. Save
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(html, encoding="utf-8")
     print(f"✓ HTML נשמר → {OUTPUT_PATH}")
     print(f"  פתח בדפדפן: file:///{OUTPUT_PATH.as_posix()}")
 
-    # 5. Telegram
-    print("\n[ שלב 4 ] שולח ל-Telegram...")
+    # 7. Telegram
+    print("\n[ שלב 6 ] שולח ל-Telegram...")
     send_telegram(build_telegram_message(data))
 
     print(f"\n✓ הושלם בהצלחה — {TODAY} {TIME}\n")
