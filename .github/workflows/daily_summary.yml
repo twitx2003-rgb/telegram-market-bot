@@ -2,14 +2,19 @@ name: Daily Summary
 
 on:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '0 9 * * *'   # 12:00 שעון ישראל (קיץ UTC+3)
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
         with:
@@ -17,9 +22,17 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Send daily summary
+      - name: Generate report and send email
         env:
           EMAIL_FROM:     ${{ secrets.EMAIL_FROM }}
           EMAIL_TO:       ${{ secrets.EMAIL_TO }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
         run: python market_news.py summary
+
+      - name: Push report to GitHub Pages
+        run: |
+          git config user.email "github-actions@github.com"
+          git config user.name "GitHub Actions"
+          git add docs/report.html
+          git diff --staged --quiet || git commit -m "Update daily report $(date +%Y-%m-%d)"
+          git push
