@@ -51,6 +51,25 @@ MEDIUM_IMPACT = [
     "apple", "microsoft", "google", "alphabet", "amazon", "tesla",
     "meta", "nvidia", "openai", "jpmorgan", "goldman sachs", "berkshire",
     "oil", "gold", "bitcoin", "dollar", "rally", "drop", "cut",
+    # חברות US נוספות
+    "netflix", "amd", "intel", "qualcomm", "broadcom", "visa", "mastercard",
+    "paypal", "salesforce", "adobe", "palantir", "snowflake", "coinbase",
+    "exxon", "chevron", "pfizer", "moderna", "disney", "boeing",
+    "bank of america", "wells fargo", "citigroup", "morgan stanley",
+    "qqq", "spy", "russell", "vix", "uber", "lyft", "airbnb",
+    "shopify", "arm", "asml", "tsmc", "micron", "applied materials",
+]
+
+# תבניות טכניות — פריצות תבנית לטווח שבועות
+TECHNICAL_PATTERNS = [
+    "breakout", "breakdown", "breaks out", "breaks above", "breaks below",
+    "support", "resistance", "moving average", "52-week high", "52-week low",
+    "all-time high", "golden cross", "death cross",
+    "rsi", "macd", "oversold", "overbought",
+    "cup and handle", "head and shoulders", "double top", "double bottom",
+    "bullish flag", "bearish flag", "triangle", "wedge", "channel",
+    "trend reversal", "swing high", "swing low", "momentum",
+    "technical", "chart pattern", "key level", "price target",
 ]
 
 NOISE_PHRASES = [
@@ -86,6 +105,15 @@ def is_market_relevant(title):
     if any(n in t for n in NOISE_PHRASES): return False
     if any(kw in t for kw in HIGH_IMPACT): return True
     return sum(1 for kw in MEDIUM_IMPACT if kw in t) >= 2
+
+def is_summary_relevant(title):
+    """סינון לסיכום היומי: רק פריצות טכניות על חברות US משמעותיות"""
+    t = title.lower()
+    if any(n in t for n in NOISE_PHRASES): return False
+    has_us      = any(c in t for c in MEDIUM_IMPACT)
+    has_tech    = any(p in t for p in TECHNICAL_PATTERNS)
+    has_high    = any(kw in t for kw in HIGH_IMPACT)
+    return has_us and (has_tech or has_high)
 
 def is_today(entry):
     """בדוק אם הכתבה פורסמה ב-24 שעות האחרונות"""
@@ -212,9 +240,9 @@ def build_report_html(all_items, date_str):
 <style>
   * {{ box-sizing:border-box; margin:0; padding:0; }}
   body {{ font-family:'Segoe UI',Arial,sans-serif; background:#0f172a; color:#e2e8f0; min-height:100vh; }}
-  header {{ background:linear-gradient(135deg,#1e3a5f,#0f172a); padding:32px 24px; text-align:center; border-bottom:1px solid #1e293b; }}
-  header h1 {{ font-size:28px; color:#fff; margin-bottom:6px; }}
-  header p  {{ color:#94a3b8; font-size:15px; }}
+  header {{ background:linear-gradient(135deg,#1e3a5f,#0f172a); padding:32px 24px; text-align:right; border-bottom:1px solid #1e293b; }}
+  header h1 {{ font-size:28px; color:#fff; margin-bottom:6px; text-align:right; }}
+  header p  {{ color:#94a3b8; font-size:15px; text-align:right; }}
   .container {{ max-width:900px; margin:0 auto; padding:24px 16px; }}
   .grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; }}
   .card {{ background:#1e293b; border-radius:12px; padding:18px; border:1px solid #334155; transition:transform .15s; }}
@@ -224,9 +252,9 @@ def build_report_html(all_items, date_str):
   .badge {{ font-size:11px; font-weight:600; padding:2px 8px; border-radius:999px; }}
   .card-title {{ display:block; font-size:15px; font-weight:700; color:#f1f5f9; text-decoration:none; line-height:1.4; margin-bottom:8px; }}
   .card-title:hover {{ color:#60a5fa; }}
-  .card-sub {{ font-size:12px; color:#64748b; line-height:1.5; margin-bottom:12px; direction:ltr; text-align:left; }}
+  .card-sub {{ font-size:12px; color:#64748b; line-height:1.5; margin-bottom:12px; text-align:right; }}
   .read-link {{ font-size:12px; color:#3b82f6; text-decoration:none; font-weight:600; }}
-  footer {{ text-align:center; padding:24px; color:#475569; font-size:13px; border-top:1px solid #1e293b; margin-top:24px; }}
+  footer {{ text-align:right; padding:24px; color:#475569; font-size:13px; border-top:1px solid #1e293b; margin-top:24px; }}
   @media(max-width:600px) {{ .grid {{ grid-template-columns:1fr; }} }}
 </style>
 </head>
@@ -265,10 +293,10 @@ def build_email_html(top_items, date_str):
 <div style="max-width:600px;margin:0 auto;background:#0f172a;">
 
   <!-- Header -->
-  <div style="background:linear-gradient(135deg,#1e3a5f,#0f172a);padding:32px 24px;text-align:center;">
+  <div style="background:linear-gradient(135deg,#1e3a5f,#0f172a);padding:32px 24px;text-align:right;">
     <div style="font-size:36px;margin-bottom:8px;">📊</div>
-    <h1 style="color:#fff;font-size:22px;margin:0 0 6px;">סיכום Wall Street</h1>
-    <p style="color:#94a3b8;font-size:14px;margin:0;">{date_str}</p>
+    <h1 style="color:#fff;font-size:22px;margin:0 0 6px;text-align:right;">סיכום Wall Street</h1>
+    <p style="color:#94a3b8;font-size:14px;margin:0;text-align:right;">{date_str}</p>
   </div>
 
   <!-- Preview news -->
@@ -280,7 +308,7 @@ def build_email_html(top_items, date_str):
   </div>
 
   <!-- CTA Button -->
-  <div style="background:#0f172a;padding:28px;text-align:center;">
+  <div style="background:#0f172a;padding:28px;text-align:right;">
     <a href="{REPORT_URL}"
        style="display:inline-block;background:linear-gradient(135deg,#3b82f6,#1d4ed8);
               color:#fff;font-size:15px;font-weight:700;text-decoration:none;
@@ -293,7 +321,7 @@ def build_email_html(top_items, date_str):
   </div>
 
   <!-- Footer -->
-  <div style="background:#0a0f1e;padding:16px;text-align:center;">
+  <div style="background:#0a0f1e;padding:16px;text-align:right;">
     <p style="color:#334155;font-size:11px;margin:0;">🤖 נוצר אוטומטית • הסיכום הבא מחר ב-12:00</p>
   </div>
 
@@ -312,6 +340,7 @@ def daily_summary():
                 link  = entry.get("link", "")
                 if not title or not link or link in seen: continue
                 if not is_today(entry): continue
+                if not is_summary_relevant(title): continue
                 seen.add(link)
                 title_he = translate(title)
                 time.sleep(0.3)  # מניעת rate limit בתרגום
