@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>לוח חדשות — 04.04.2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg:      #070b0f;
+    --surface: #0e1419;
+    --card:    #131a22;
+    --border:  #1e2a35;
+    --accent:  #0ea5e9;
+    --green:   #22c55e;
+    --red:     #ef4444;
+    --gold:    #f59e0b;
+    --purple:  #a855f7;
+    --text:    #cbd5e1;
+    --muted:   #64748b;
+    --white:   #f1f5f9;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter','Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;min-height:100vh}
+
+  /* ── Sticky Nav ── */
+  .nav{
+    position:sticky;top:0;z-index:100;
+    background:rgba(7,11,15,0.92);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--border);
+    padding:.6rem 1.5rem;
+    display:flex;gap:.8rem;align-items:center;justify-content:center;
+  }
+  .nav a{
+    color:var(--muted);text-decoration:none;font-size:.8rem;font-weight:600;
+    padding:.35rem .85rem;border-radius:6px;border:1px solid transparent;
+    transition:all .2s;
+  }
+  .nav a:hover{color:var(--accent);border-color:var(--accent);background:rgba(14,165,233,.08)}
+  .nav-sep{color:var(--border);font-size:.9rem}
+
+  /* ── Hero ── */
+  .hero{
+    background:linear-gradient(160deg,#070b0f 0%,#0c1929 50%,#070b0f 100%);
+    border-bottom:1px solid var(--border);
+    padding:3rem 2rem 2.5rem;text-align:center;position:relative;overflow:hidden;
+  }
+  .hero::before{
+    content:'';position:absolute;top:-60px;left:50%;transform:translateX(-50%);
+    width:600px;height:200px;
+    background:radial-gradient(ellipse,rgba(14,165,233,.12) 0%,transparent 70%);
+    pointer-events:none;
+  }
+  .hero-label{font-size:.68rem;font-weight:700;letter-spacing:.35em;color:var(--accent);text-transform:uppercase;margin-bottom:.7rem}
+  .hero h1{font-size:2.4rem;font-weight:900;color:var(--white);letter-spacing:-.03em;line-height:1.1}
+  .hero h1 span{color:var(--accent)}
+  .hero-sub{color:var(--muted);font-size:.9rem;margin-top:.6rem}
+  .hero-date{
+    display:inline-flex;align-items:center;gap:.5rem;margin-top:1.2rem;
+    background:rgba(14,165,233,.1);border:1px solid rgba(14,165,233,.3);
+    color:var(--accent);padding:.4rem 1.2rem;border-radius:999px;font-size:.82rem;font-weight:600;
+  }
+  .pulse{width:7px;height:7px;background:var(--green);border-radius:50%;animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.4)}}
+
+  /* ── Layout ── */
+  .container{max-width:1140px;margin:0 auto;padding:2rem 1.5rem 5rem}
+  .section{margin-bottom:3rem}
+  .section-label{
+    font-size:.68rem;font-weight:700;letter-spacing:.3em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:1.2rem;padding-bottom:.6rem;
+    border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.5rem;
+  }
+
+  /* ── Market Strips ── */
+  .mkt-strip{display:flex;flex-wrap:wrap;gap:.85rem;margin-bottom:.5rem}
+  .mkt-card{
+    background:var(--card);border:1px solid var(--border);border-radius:10px;
+    padding:1rem 1.3rem;min-width:130px;flex:1;transition:border-color .2s;
+  }
+  .mkt-card:hover{border-color:var(--accent)}
+  .mkt-name{font-size:.7rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.3rem}
+  .mkt-value{font-size:1.5rem;font-weight:700;color:var(--white);font-variant-numeric:tabular-nums}
+  .mkt-change{font-size:.85rem;font-weight:600;margin-top:.2rem}
+  .up{color:var(--green)}.down{color:var(--red)}.flat{color:var(--muted)}
+
+  /* ── News Cards ── */
+  .news-list{display:flex;flex-direction:column;gap:.9rem}
+  .news-card{
+    background:var(--card);border:1px solid var(--border);border-radius:12px;
+    padding:1.3rem 1.5rem;display:grid;grid-template-columns:48px 1fr;gap:1rem;align-items:start;
+    transition:border-color .2s;
+  }
+  .news-card:hover{border-color:var(--accent)}
+  .il-card{grid-template-columns:1fr}
+  .news-num{
+    font-size:1.6rem;font-weight:800;color:var(--border);line-height:1;
+    font-variant-numeric:tabular-nums;text-align:center;padding-top:.1rem;
+  }
+  .news-tag{
+    display:inline-block;padding:.15rem .6rem;border-radius:4px;
+    font-size:.68rem;font-weight:700;letter-spacing:.05em;margin-left:.5rem;
+  }
+  .news-title{font-size:1.02rem;font-weight:600;color:var(--white);margin:.4rem 0}
+  .news-summary{font-size:.87rem;color:var(--text);margin-bottom:.5rem;line-height:1.6}
+  .news-meta{font-size:.74rem;color:var(--muted);display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+  .read-more{color:var(--accent);text-decoration:none;font-weight:600;font-size:.74rem}
+  .read-more:hover{text-decoration:underline}
+
+  /* ── IL strip card (smaller) ── */
+  .mkt-strip.il .mkt-card{min-width:140px;max-width:200px;flex:0 0 auto}
+
+  /* ── Footer ── */
+  footer{
+    text-align:center;padding:2rem;font-size:.74rem;color:var(--muted);
+    border-top:1px solid var(--border);
+  }
+  footer a{color:var(--accent);text-decoration:none}
+  footer a:hover{text-decoration:underline}
+
+  @media(max-width:600px){
+    .hero h1{font-size:1.7rem}
+    .mkt-card{min-width:110px}
+    .news-card{grid-template-columns:1fr}
+    .news-num{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- Sticky Nav -->
+<nav class="nav">
+  <a href="#us">🇺🇸 שוק ההון</a>
+  <span class="nav-sep">|</span>
+  <a href="#israel">🇮🇱 ישראל</a>
+  <span class="nav-sep">|</span>
+  <a href="report.html">לדוח המלא</a>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+  <div class="hero-label">לוח חדשות אישי</div>
+  <h1>שוק ההון <span>&</span> ישראל</h1>
+  <div class="hero-sub">חדשות וול סטריט · חברות אמריקאיות · חדשות ישראל</div>
+  <div class="hero-date">
+    <span class="pulse"></span>
+    4 באפריל 2026 &nbsp;|&nbsp; עודכן 13:25
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- US Markets -->
+  <section class="section" id="us">
+    <div class="section-label">📈 מדדים אמריקאיים</div>
+    <div class="mkt-strip">
+      <div class="mkt-card"><div class="mkt-name">S&P 500</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div><div class="mkt-card"><div class="mkt-name">Nasdaq</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div><div class="mkt-card"><div class="mkt-name">Dow Jones</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div><div class="mkt-card"><div class="mkt-name">Russell 2000</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div><div class="mkt-card"><div class="mkt-name">VIX</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div>
+    </div>
+    <div class="mkt-strip" style="margin-top:.85rem">
+      <div class="mkt-card"><div class="mkt-name">זהב</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div><div class="mkt-card"><div class="mkt-name">נפט ברנט</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div><div class="mkt-card"><div class="mkt-name">ביטקוין</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div><div class="mkt-card"><div class="mkt-name">אג"ח ארה"ב 10Y</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div>
+    </div>
+  </section>
+
+  <!-- Israel Markets -->
+  <div class="mkt-strip il" style="margin-bottom:2rem">
+    <div class="section-label" style="width:100%;border-bottom:none;margin-bottom:.5rem">🏦 שוק ישראלי</div>
+    <div class="mkt-card"><div class="mkt-name">ת"א 35</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div><div class="mkt-card"><div class="mkt-name">דולר/שקל</div><div class="mkt-value">N/A</div><div class="mkt-change flat">– —</div></div>
+  </div>
+
+  <!-- US News -->
+  <section class="section" id="us-news">
+    <div class="section-label">📰 חדשות וול סטריט</div>
+    <div class="news-list">
+      <div class="news-card"><div class="news-num">01</div><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">NEWS</span><div class="news-title">נפילת מכסים של טראמפ: חלק מהתעשיות מתמודדות עם השפעות מתמשכות שנה לאחר מכן</div><div class="news-meta">CNBC Markets <a href="https://www.cnbc.com/2026/04/03/trump-tariffs-trade-war-impact.html" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card"><div class="news-num">02</div><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">NEWS</span><div class="news-title">Meta, גוגל מותקפת כאשר תיקי בית משפט עוקפים מגן משפטי בן 30 שנה</div><div class="news-meta">CNBC Markets <a href="https://www.cnbc.com/2026/04/03/meta-google-under-attack-court-cases-bypass-30-year-old-legal-shield.html" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card"><div class="news-num">03</div><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">NEWS</span><div class="news-title">עלות הטיסה הפרטית עולה ב-20% עם מחירי הדלק מזנקים</div><div class="news-meta">CNBC Markets <a href="https://www.cnbc.com/2026/04/03/private-jet-travel-costs-rise-fuel-prices.html" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card"><div class="news-num">04</div><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">NEWS</span><div class="news-title">איך TBPN הפכה מתוכנית אירוח מקוונת חנונית לרכישה מרהיבה של OpenAI</div><div class="news-meta">MarketWatch <a href="https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e?mod=mw_rss_topstories" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card"><div class="news-num">05</div><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">NEWS</span><div class="news-title">Samsung Elec עשויה לדווח על עלייה מדהימה ברווח הרבעוני לרמת שיא</div><div class="news-meta">Yahoo Finance <a href="https://finance.yahoo.com/markets/stocks/articles/samsung-elec-likely-report-stupendous-080411493.html" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card"><div class="news-num">06</div><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">NEWS</span><div class="news-title">מה מקבל Vertiv Holdings (VRT) ברכישת ThermoKey?</div><div class="news-meta">Yahoo Finance <a href="https://finance.yahoo.com/markets/stocks/articles/vertiv-holdings-vrt-getting-thermokey-090604398.html" target="_blank" class="read-more">קרא עוד ←</a></div></div></div>
+    </div>
+  </section>
+
+  <!-- Israel News -->
+  <section class="section" id="israel">
+    <div class="section-label">🇮🇱 חדשות ישראל</div>
+    <div class="news-list">
+      <div class="news-card il-card"><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">כללי</span><div class="news-title">משפיען ישראלי מהימין הקיצוני נאסר מ-TikTok בגלל הפרת כללי הטרדה</div><div class="news-meta">Times of Israel <a href="https://www.timesofisrael.com/far-right-israeli-influencer-banned-from-tiktok-for-breaking-harassment-rules/" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card il-card"><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">כללי</span><div class="news-title">איראן מסרה כי היא משחזרת בונקרים של טילים מופצצים תוך שעות לאחר הפגיעה</div><div class="news-meta">Times of Israel <a href="https://www.timesofisrael.com/iran-said-restoring-bombed-missile-bunkers-within-hours-after-being-struck/" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card il-card"><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">כללי</span><div class="news-title">איראן הוציאה להורג שני חברים בארגון האופוזיציה האסור</div><div class="news-meta">Times of Israel <a href="https://www.timesofisrael.com/iran-executes-two-members-of-banned-opposition-group/" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card il-card"><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">כללי</span><div class="news-title">האם רכישת פרמאונט של CNN יכולה לשנות את הסיקור של ישראל?</div><div class="news-meta">Times of Israel <a href="https://www.timesofisrael.com/could-paramount-acquisition-of-cnn-shift-coverage-of-israel/" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card il-card"><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">כללי</span><div class="news-title">צה"ל מאריך את זמן חיי המילואים לשרת השנה, על רקע מלחמות איראן וחיזבאללה</div><div class="news-meta">Times of Israel <a href="https://www.timesofisrael.com/idf-extends-time-reservists-must-serve-this-year-amid-iran-and-hezbollah-wars/" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card il-card"><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">כללי</span><div class="news-title">התקפות חיזבאללה פוגעות בבתים בצפון; צה"ל אמר להרוס את גשר מזרח לבנון</div><div class="news-meta">Times of Israel <a href="https://www.timesofisrael.com/hezbollah-attacks-damage-homes-in-north-idf-said-to-destroy-east-lebanon-bridge/" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card il-card"><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">כללי</span><div class="news-title">על פי הדיווחים, המאמץ האזורי לתיווך הפסקת אש בין ארה"ב לאיראן הגיע למבוי סתום</div><div class="news-meta">Times of Israel <a href="https://www.timesofisrael.com/regional-effort-to-broker-ceasefire-between-us-and-iran-reportedly-hits-dead-end/" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card il-card"><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">כללי</span><div class="news-title">תחמושת מצרר איראנית גורמת נזק כבד למבנים בבני ברק וברמת גן</div><div class="news-meta">Times of Israel <a href="https://www.timesofisrael.com/liveblog-april-4-2026/" target="_blank" class="read-more">קרא עוד ←</a></div></div></div><div class="news-card il-card"><div class="news-body"><span class="news-tag" style="color:var(--muted);background:rgba(100,116,139,0.12)">כללי</span><div class="news-title">בג"ץ הבהיר למשטרה: "חופש המחאה הפוליטי קיים גם בזמן מלחמה - וזקוק להגנה מוגברת"</div><div class="news-meta">Walla News <a href="https://news.walla.co.il/item/3828288" target="_blank" class="read-more">קרא עוד ←</a></div></div></div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  נוצר ב-04.04.2026 בשעה 13:25 &nbsp;·&nbsp;
+  <a href="report.html">דוח שוק ההון המלא</a> &nbsp;·&nbsp;
+  אינו מהווה ייעוץ השקעות
+</footer>
+
+</body>
+</html>

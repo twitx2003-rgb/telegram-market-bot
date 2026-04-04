@@ -1,3 +1,4 @@
 feedparser
 requests
 deep-translator
+anthropic>=0.40.0
