@@ -2,7 +2,7 @@ name: Hourly News Dashboard
 
 on:
   schedule:
-    - cron: '0 * * * *'   # כל שעה עגולה (UTC) = כל שעה
+    - cron: '*/30 * * * *'   # כל 30 דקות
   workflow_dispatch:        # אפשרות להרצה ידנית
 
 permissions:
