@@ -2,7 +2,7 @@
 """
 לוח חדשות יומי — שוק ההון האמריקאי + חדשות ישראל
 Personal News Dashboard: Wall Street + Israel News
-v3 — Ticker Tape, Fear & Greed, Heatmap, Calendar, Sparklines, WhatsApp, Dark Mode
+v4 — StockTwits Wall Street news, Ticker Tape, Fear & Greed, Heatmap, Calendar, Sparklines, WhatsApp, Dark Mode
 """
 
 import anthropic
@@ -432,10 +432,95 @@ def fetch_all_images(news_items: list) -> list:
     print(f"  ✓ תמונות: {original}/{len(results)} מקוריות")
     return results
 
+# ── StockTwits & Ticker News ───────────────────────────────────────────────────
+
+_ST_FALLBACK = ["AAPL","NVDA","TSLA","MSFT","AMZN","META","GOOGL","JPM","AMD","NFLX"]
+
+def fetch_stocktwits_trending() -> list:
+    """Get trending tickers from StockTwits. Falls back to popular list."""
+    if not HAS_REQUESTS:
+        return _ST_FALLBACK
+    try:
+        url  = "https://api.stocktwits.com/api/2/streams/trending.json"
+        resp = _requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=8)
+        resp.raise_for_status()
+        symbols = [s["symbol"] for s in resp.json().get("symbols", [])][:10]
+        if symbols:
+            print(f"  ✓ StockTwits trending: {', '.join(symbols)}")
+            return symbols
+    except Exception as e:
+        print(f"  ✗ StockTwits trending: {e}")
+    return _ST_FALLBACK
+
+
+def _fetch_st_posts_one(ticker: str) -> list:
+    if not HAS_REQUESTS:
+        return []
+    try:
+        url  = f"https://api.stocktwits.com/api/2/streams/symbol/{ticker}.json"
+        resp = _requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=8)
+        resp.raise_for_status()
+        messages = resp.json().get("messages", [])
+        messages.sort(key=lambda m: m.get("likes", {}).get("total", 0), reverse=True)
+        posts = []
+        for msg in messages[:3]:
+            body = (msg.get("body") or "").strip()
+            if body and len(body) > 20:
+                posts.append({
+                    "ticker": f"${ticker}",
+                    "body":   body[:300],
+                    "url":    f"https://stocktwits.com/message/{msg.get('id','')}",
+                    "source": "StockTwits",
+                })
+        return posts
+    except Exception:
+        return []
+
+
+def fetch_stocktwits_posts(tickers: list) -> list:
+    """Fetch StockTwits posts for multiple tickers in parallel."""
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
+        results = list(ex.map(_fetch_st_posts_one, tickers))
+    all_posts = [p for sub in results for p in sub]
+    print(f"  ✓ StockTwits posts: {len(all_posts)} פוסטים")
+    return all_posts
+
+
+def _fetch_ticker_news_one(ticker: str) -> list:
+    if not HAS_FEEDPARSER:
+        return []
+    try:
+        url    = f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US"
+        parsed = feedparser.parse(url)
+        news   = []
+        for entry in parsed.entries[:2]:
+            title = (entry.get("title") or "").strip()
+            link  = entry.get("link", "")
+            if title:
+                news.append({
+                    "ticker":    f"${ticker}",
+                    "title":     title,
+                    "url":       link,
+                    "published": entry.get("published", ""),
+                    "source":    "Yahoo Finance",
+                })
+        return news
+    except Exception:
+        return []
+
+
+def fetch_ticker_news(tickers: list) -> list:
+    """Fetch Yahoo Finance RSS headlines for specific tickers in parallel."""
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
+        results = list(ex.map(_fetch_ticker_news_one, tickers))
+    all_news = [n for sub in results for n in sub]
+    print(f"  ✓ Ticker news: {len(all_news)} כתבות")
+    return all_news
+
+
 # ── Claude Enrichment Agent ────────────────────────────────────────────────────
 
-def run_enrichment_agent(client: anthropic.Anthropic, us_raw: list, il_raw: list) -> dict:
-    us_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(us_raw))
+def run_enrichment_agent(client: anthropic.Anthropic, st_posts: list, ticker_news: list, il_raw: list) -> dict:
     il_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
 
     system = f"""אתה עיתונאי פיננסי בכיר ומומחה לחדשות ישראל.
@@ -443,17 +528,33 @@ def run_enrichment_agent(client: anthropic.Anthropic, us_raw: list, il_raw: list
 החזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
 
 עליך לבצע:
-1. לכל כותרת US: כתוב כותרת בעברית + סיכום 2-3 משפטים בעברית + תגית: EARNINGS/MACRO/FED/TECH/M&A/ENERGY/CRYPTO/BANKS
-2. לכל כותרת ישראלית: כתוב כותרת בעברית + סיכום 2-3 משפטים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה
+1. קבל פוסטים מ-StockTwits וכותרות מ-Yahoo Finance לפי טיקר ספציפי.
+2. שלב אותם לרשימה של עד 8 פריטים מעניינים — העדף כתבות עובדתיות על פני ספקולציות.
+3. אמת כל פריט: האם מדובר בעובדה אמיתית ומהימנה? סמן verified: true או false.
+   פריטים עם verified: false אל תכלול בפלט.
+4. תרגם לעברית — כותרת + סיכום 2-3 משפטים.
+5. הוסף תגית: EARNINGS/MACRO/FED/TECH/M&A/ENERGY/CRYPTO/BANKS/NEWS.
+6. שמור את הטיקר הרלוונטי בשדה ticker (כמו "$AAPL"). אם אין טיקר ספציפי — השאר ריק.
+7. לכל כותרת ישראלית: כותרת בעברית + סיכום 2-3 משפטים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה
 
 {{
-  "us_news": [{{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"EARNINGS"}}],
-  "israel_news": [{{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}]
+  "us_news": [
+    {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"TECH","ticker":"$AAPL","verified":true}}
+  ],
+  "israel_news": [
+    {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
+  ]
 }}
 JSON בלבד."""
 
+    st_sample     = st_posts[:20]
+    ticker_sample = ticker_news[:20]
+
     messages = [{"role": "user", "content":
-        f"עבד כותרות ל-{TODAY_HE}.\n\nUS ({len(us_raw)}):\n{us_titles}\n\nישראל ({len(il_raw)}):\n{il_titles}\n\nהחזר JSON."}]
+        f"עבד נתונים ל-{TODAY_HE}.\n\n"
+        f"StockTwits posts ({len(st_sample)}):\n{json.dumps(st_sample, ensure_ascii=False)}\n\n"
+        f"Ticker news ({len(ticker_sample)}):\n{json.dumps(ticker_sample, ensure_ascii=False)}\n\n"
+        f"ישראל ({len(il_raw)}):\n{il_titles}\n\nהחזר JSON."}]
 
     print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude...")
     response = client.messages.create(model=MODEL, max_tokens=MAX_TOKENS, system=system, messages=messages)
@@ -470,7 +571,7 @@ JSON בלבד."""
 
 # ── Fallback: RSS-only mode ────────────────────────────────────────────────────
 
-def fallback_data(us_raw: list, il_raw: list) -> dict:
+def fallback_data(ticker_news: list, il_raw: list) -> dict:
     def tr(text):
         if HAS_TRANSLATOR:
             try: return GoogleTranslator(source="en", target="iw").translate(text)
@@ -478,7 +579,8 @@ def fallback_data(us_raw: list, il_raw: list) -> dict:
         return text
     return {
         "us_news": [{"title_he": tr(i["title"]), "summary_he": "", "source": i["source"],
-                     "link": i["link"], "tag": "NEWS"} for i in us_raw],
+                     "link": i.get("url", i.get("link", "#")), "tag": "NEWS",
+                     "ticker": i.get("ticker", "")} for i in ticker_news],
         "israel_news": [{"title_he": tr(i["title"]), "summary_he": "", "source": i["source"],
                          "link": i["link"], "tag": "כללי"} for i in il_raw],
     }
@@ -657,19 +759,22 @@ def _wa_link(title: str, link: str) -> str:
 def build_us_news_card(n: dict, idx: int) -> str:
     tag = n.get("tag", "NEWS")
     color, bg = TAG_COLORS_US.get(tag, TAG_COLORS_US["NEWS"])
-    link  = n.get("link", "#")
-    image = n.get("image", "")
-    img_html  = (f'<img class="news-img" src="{image}" alt="" onerror="this.style.display=\'none\'" loading="lazy"/>'
-                 if image else "")
-    read_more = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
-    wa        = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
+    link   = n.get("link", "#")
+    image  = n.get("image", "")
+    ticker = n.get("ticker", "")
+    img_html     = (f'<img class="news-img" src="{image}" alt="" onerror="this.style.display=\'none\'" loading="lazy"/>'
+                    if image else "")
+    ticker_badge = f'<span class="ticker-badge">{ticker}</span>' if ticker else ""
+    read_more    = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
+    wa           = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
     return (
         f'<div class="news-card">'
         f'<div class="news-num">{idx:02d}</div>'
         f'<div class="news-body">'
         + img_html
         + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
-        f'<div class="news-title">{n["title_he"]}</div>'
+        + ticker_badge
+        + f'<div class="news-title">{n["title_he"]}</div>'
         + (f'<div class="news-summary">{n["summary_he"]}</div>' if n.get("summary_he") else "")
         + f'<div class="news-meta">{n.get("source","")} {read_more} {wa}</div>'
         f'</div>'
@@ -885,6 +990,20 @@ def build_html(data: dict) -> str:
   .wa-btn:hover{{opacity:1}}
   .news-img{{width:100%;height:175px;object-fit:cover;border-radius:8px;
     margin-bottom:.7rem;display:block;background:var(--border)}}
+  .ticker-badge{{
+    display:inline-block;
+    background:rgba(14,165,233,.15);
+    color:#38bdf8;
+    border:1px solid rgba(56,189,248,.3);
+    border-radius:4px;
+    padding:.12rem .45rem;
+    font-size:.68rem;
+    font-weight:700;
+    font-family:monospace;
+    letter-spacing:.03em;
+    margin-right:.4rem;
+    vertical-align:middle;
+  }}
 
   /* ── IL strip card (smaller) ── */
   .mkt-strip.il .mkt-card{{min-width:130px;max-width:190px;flex:0 0 auto}}
@@ -1048,47 +1167,59 @@ def send_telegram(message: str) -> bool:
 
 def main():
     print(f"\n{'='*55}")
-    print(f"  לוח חדשות יומי v3 — {TODAY_HE}")
+    print(f"  לוח חדשות יומי v4 — {TODAY_HE}")
     print(f"{'='*55}\n")
 
-    # 1. RSS
-    print("[ 1 ] שולף כותרות RSS...")
-    print("  US:"); us_raw_all = fetch_rss(US_FEEDS, max_per_feed=12)
-    print("  ישראל:"); il_raw_all = fetch_rss(ISRAEL_FEEDS, max_per_feed=12)
-    us_raw = filter_headlines(us_raw_all, is_us_relevant, 8)
+    # 1. RSS — Israel only (US news comes from StockTwits)
+    print("[ 1 ] שולף כותרות RSS ישראל...")
+    il_raw_all = fetch_rss(ISRAEL_FEEDS, max_per_feed=12)
     il_raw = filter_headlines(il_raw_all, is_il_relevant, 10)
-    print(f"\n  נבחרו: {len(us_raw)} US, {len(il_raw)} ישראל")
+    print(f"\n  נבחרו: {len(il_raw)} ישראל")
 
-    # 2. Market data (Yahoo Finance) + Sparklines + Fear&Greed — in parallel
-    print("\n[ 2 ] שולף נתוני שוק, sparklines ו-Fear & Greed במקביל...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
-        fut_mkt  = ex.submit(fetch_market_data)
-        fut_spark= ex.submit(fetch_sparklines)
-        fut_fg   = ex.submit(fetch_fear_greed)
+    # 2. Market data + Sparklines + Fear&Greed + StockTwits — in parallel
+    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed ו-StockTwits במקביל...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
+        fut_mkt   = ex.submit(fetch_market_data)
+        fut_spark = ex.submit(fetch_sparklines)
+        fut_fg    = ex.submit(fetch_fear_greed)
+        fut_st    = ex.submit(fetch_stocktwits_trending)
         mkt    = fut_mkt.result()
         sparks = fut_spark.result()
         fg     = fut_fg.result()
+        tickers = fut_st.result()
+
+    print("\n[ 2b ] שולף פוסטים וחדשות לפי טיקר...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:
+        fut_posts = ex.submit(fetch_stocktwits_posts, tickers)
+        fut_tnews = ex.submit(fetch_ticker_news, tickers)
+        st_posts    = fut_posts.result()
+        ticker_news = fut_tnews.result()
 
     # 3. Claude Enrichment
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     news_data = None
     if api_key:
         try:
-            print("\n[ 3 ] מעשיר כותרות עם Claude API...")
+            print("\n[ 3 ] מעשיר עם Claude API (StockTwits + אימות עובדות)...")
             client = anthropic.Anthropic(api_key=api_key)
-            news_data = run_enrichment_agent(client, us_raw, il_raw)
-            for i, n in enumerate(news_data.get("us_news", [])):
-                if i < len(us_raw) and not n.get("link"): n["link"] = us_raw[i]["link"]
+            news_data = run_enrichment_agent(client, st_posts, ticker_news, il_raw)
+            # Fill in links from ticker_news where missing
+            tn_by_ticker = {}
+            for item in ticker_news:
+                tn_by_ticker.setdefault(item.get("ticker",""), item.get("url",""))
+            for n in news_data.get("us_news", []):
+                if not n.get("link") and n.get("ticker"):
+                    n["link"] = tn_by_ticker.get(n["ticker"], "#")
             for i, n in enumerate(news_data.get("israel_news", [])):
                 if i < len(il_raw) and not n.get("link"): n["link"] = il_raw[i]["link"]
             print("✓ העשרה הושלמה")
         except Exception as e:
-            print(f"✗ Claude נכשל: {e} — עובר ל-RSS fallback")
+            print(f"✗ Claude נכשל: {e} — עובר ל-fallback")
     else:
         print("⚠  ANTHROPIC_API_KEY לא מוגדר — RSS-only")
 
     if news_data is None:
-        news_data = fallback_data(us_raw, il_raw)
+        news_data = fallback_data(ticker_news, il_raw)
 
     # 4. Assemble full data dict
     data = {
