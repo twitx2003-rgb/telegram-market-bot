@@ -64,6 +64,24 @@ HEBREW_MONTHS = [
 ]
 TODAY_HE = f"{_now.day} ב{HEBREW_MONTHS[_now.month]} {_now.year}"
 
+# ── Twitter Handles to Follow ─────────────────────────────────────────────────
+# הוסף כאן את שמות המשתמש שאתה עוקב אחריהם (ללא @)
+TWITTER_HANDLES = [
+    "unusual_whales",
+    "DeItaone",
+    "zerohedge",
+    "markets",
+    "WSJmarkets",
+]
+
+NITTER_INSTANCES = [
+    "https://nitter.net",
+    "https://nitter.privacydev.net",
+    "https://nitter.poast.org",
+    "https://nitter.1d4.us",
+    "https://nitter.unixfox.eu",
+]
+
 # ── RSS Feed Definitions ───────────────────────────────────────────────────────
 
 US_FEEDS = [
@@ -431,6 +449,55 @@ def fetch_all_images(news_items: list) -> list:
     original = sum(1 for r in results if "picsum" not in r)
     print(f"  ✓ תמונות: {original}/{len(results)} מקוריות")
     return results
+
+# ── Twitter / Nitter RSS ──────────────────────────────────────────────────────
+
+def _try_nitter_feed(handle: str, instance: str) -> list:
+    """Try fetching RSS for one handle from one Nitter instance. Returns [] on failure."""
+    if not HAS_FEEDPARSER:
+        return []
+    try:
+        url    = f"{instance}/{handle}/rss"
+        parsed = feedparser.parse(url)
+        if not parsed.entries:
+            return []
+        tweets = []
+        for entry in parsed.entries[:3]:
+            body = (entry.get("title") or "").strip()
+            link = entry.get("link", "")
+            date = entry.get("published", "")
+            if body and len(body) > 5:
+                tweets.append({
+                    "handle": handle,
+                    "body":   body[:500],
+                    "url":    link,
+                    "date":   date,
+                })
+        return tweets
+    except Exception:
+        return []
+
+
+def _fetch_one_handle(handle: str) -> list:
+    """Try all Nitter instances for a handle until one succeeds."""
+    for instance in NITTER_INSTANCES:
+        tweets = _try_nitter_feed(handle, instance)
+        if tweets:
+            return tweets
+    return []
+
+
+def fetch_twitter_feeds(handles: list) -> list:
+    """Fetch tweets for all handles in parallel via Nitter RSS."""
+    if not handles:
+        return []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
+        results = list(ex.map(_fetch_one_handle, handles))
+    all_tweets = [t for sub in results for t in sub]
+    ok = sum(1 for sub in results if sub)
+    print(f"  ✓ Twitter/Nitter: {ok}/{len(handles)} חשבונות · {len(all_tweets)} ציוצים")
+    return all_tweets
+
 
 # ── StockTwits & Ticker News ───────────────────────────────────────────────────
 
@@ -804,6 +871,26 @@ def build_il_news_card(n: dict) -> str:
     )
 
 
+def build_twitter_card(tweet: dict) -> str:
+    handle = tweet.get("handle", "")
+    body   = tweet.get("body", "")
+    url    = tweet.get("url", "#")
+    date   = tweet.get("date", "")
+    # Shorten date: keep only first part (e.g. "Mon, 05 Apr 2026 14:30:00")
+    date_short = date[:16] if date else ""
+    read_more  = f'<a href="{url}" target="_blank" class="read-more">X ←</a>' if url and url != "#" else ""
+    wa         = _wa_link(body, url) if url and url != "#" else ""
+    return (
+        f'<div class="news-card il-card tw-card">'
+        f'<div class="news-body">'
+        f'<span class="tw-handle">@{handle}</span>'
+        f'<div class="news-title">{body}</div>'
+        f'<div class="news-meta">{date_short} {read_more} {wa}</div>'
+        f'</div>'
+        f'</div>'
+    )
+
+
 def build_html(data: dict) -> str:
     sparks    = data.get("sparklines", {})
     sym_map   = {"S&P 500": "^GSPC", "Nasdaq": "^IXIC", "Dow Jones": "^DJI",
@@ -820,6 +907,7 @@ def build_html(data: dict) -> str:
     il_market_cards = "".join(build_market_card(m) for m in data.get("market_il", []))
     us_news_cards   = "".join(build_us_news_card(n, i+1) for i, n in enumerate(data.get("us_news", [])))
     il_news_cards   = "".join(build_il_news_card(n) for n in data.get("israel_news", []))
+    twitter_cards   = "".join(build_twitter_card(t) for t in data.get("twitter_feed", []))
     ticker_items    = build_ticker_items(data)
     fg_card         = build_fear_greed_card(data.get("fear_greed"))
     heatmap_cells   = build_heatmap(data.get("sectors", []))
@@ -1004,6 +1092,17 @@ def build_html(data: dict) -> str:
     margin-right:.4rem;
     vertical-align:middle;
   }}
+  /* ── Twitter Cards ── */
+  .tw-card{{border-right:3px solid rgba(14,165,233,.35)}}
+  .tw-handle{{
+    display:inline-block;
+    color:var(--accent);
+    font-weight:700;
+    font-size:.75rem;
+    font-family:monospace;
+    margin-bottom:.3rem;
+    letter-spacing:.02em;
+  }}
 
   /* ── IL strip card (smaller) ── */
   .mkt-strip.il .mkt-card{{min-width:130px;max-width:190px;flex:0 0 auto}}
@@ -1033,6 +1132,8 @@ def build_html(data: dict) -> str:
   <a href="#heatmap">🌡 מגזרים</a>
   <span class="nav-sep">|</span>
   <a href="#israel">🇮🇱 ישראל</a>
+  <span class="nav-sep">|</span>
+  <a href="#twitter">🐦 Twitter</a>
   <span class="nav-sep">|</span>
   <a href="report.html">דוח מלא</a>
 </nav>
@@ -1088,6 +1189,9 @@ def build_html(data: dict) -> str:
     <div class="section-label">🇮🇱 חדשות ישראל</div>
     <div class="news-list">{il_news_cards}</div>
   </section>
+
+  <!-- Twitter Feed -->
+  {f'<section class="section" id="twitter"><div class="section-label">🐦 Twitter — עדכוני שוק</div><div class="news-list">{twitter_cards}</div></section>' if twitter_cards else ""}
 
 </div>
 
@@ -1176,17 +1280,19 @@ def main():
     il_raw = filter_headlines(il_raw_all, is_il_relevant, 10)
     print(f"\n  נבחרו: {len(il_raw)} ישראל")
 
-    # 2. Market data + Sparklines + Fear&Greed + StockTwits — in parallel
-    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed ו-StockTwits במקביל...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
+    # 2. Market data + Sparklines + Fear&Greed + StockTwits + Twitter — in parallel
+    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed, StockTwits ו-Twitter במקביל...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
         fut_mkt   = ex.submit(fetch_market_data)
         fut_spark = ex.submit(fetch_sparklines)
         fut_fg    = ex.submit(fetch_fear_greed)
         fut_st    = ex.submit(fetch_stocktwits_trending)
-        mkt    = fut_mkt.result()
-        sparks = fut_spark.result()
-        fg     = fut_fg.result()
-        tickers = fut_st.result()
+        fut_tw    = ex.submit(fetch_twitter_feeds, TWITTER_HANDLES)
+        mkt       = fut_mkt.result()
+        sparks    = fut_spark.result()
+        fg        = fut_fg.result()
+        tickers   = fut_st.result()
+        tw_feed   = fut_tw.result()
 
     print("\n[ 2b ] שולף פוסטים וחדשות לפי טיקר...")
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:
@@ -1228,9 +1334,10 @@ def main():
         "commodities": mkt["commodities"],
         "market_il":   mkt["market_il"],
         "sectors":     mkt["sectors"],
-        "sparklines":  sparks,
-        "fear_greed":  fg,
-        "events":      get_upcoming_events(5),
+        "sparklines":   sparks,
+        "fear_greed":   fg,
+        "events":       get_upcoming_events(5),
+        "twitter_feed": tw_feed,
     }
 
     # 5. Fetch images
