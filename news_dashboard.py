@@ -249,6 +249,11 @@ def _fetch_yf_one(args: tuple) -> dict:
         meta  = resp.json()["chart"]["result"][0]["meta"]
         price = float(meta["regularMarketPrice"])
         pct   = float(meta.get("regularMarketChangePercent", 0.0))
+        # If API returns 0, calculate from previous close
+        if abs(pct) < 0.001:
+            prev = float(meta.get("chartPreviousClose") or meta.get("previousClose") or 0)
+            if prev > 0:
+                pct = (price - prev) / prev * 100
         value, change, direction = _format_yf(price, pct, fmt)
         return {"name": name, "value": value, "change": change, "direction": direction, "group": group, "pct_raw": pct}
     except Exception as e:
@@ -593,7 +598,7 @@ def fetch_ticker_news(tickers: list) -> list:
 
 # ── Claude Enrichment Agent ────────────────────────────────────────────────────
 
-def run_enrichment_agent(client: anthropic.Anthropic, st_posts: list, ticker_news: list, il_raw: list) -> dict:
+def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: list) -> dict:
     il_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
 
     system = f"""אתה עיתונאי פיננסי בכיר ומומחה לחדשות ישראל.
@@ -601,18 +606,22 @@ def run_enrichment_agent(client: anthropic.Anthropic, st_posts: list, ticker_new
 החזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
 
 עליך לבצע:
-1. קבל פוסטים מ-StockTwits וכותרות מ-Yahoo Finance לפי טיקר ספציפי.
-2. שלב אותם לרשימה של עד 8 פריטים מעניינים — העדף כתבות עובדתיות על פני ספקולציות.
-3. אמת כל פריט: האם מדובר בעובדה אמיתית ומהימנה? סמן verified: true או false.
-   פריטים עם verified: false אל תכלול בפלט.
-4. תרגם לעברית — כותרת + סיכום 2-3 משפטים.
+
+חלק א — ציוצי Twitter (us_news):
+1. קבל רשימת ציוצים מאנשי שוק ההון בטוויטר.
+2. בחר עד 10 הציוצים המעניינים והמשמעותיים ביותר מבחינה פיננסית.
+3. תרגם כל ציוץ לעברית — כותרת ממוקדת + סיכום קצר (1-2 משפטים).
+4. זהה את הטיקר הרלוונטי ($AAPL, $NVDA וכד׳). אם אין טיקר ספציפי — השאר ריק.
 5. הוסף תגית: EARNINGS/MACRO/FED/TECH/M&A/ENERGY/CRYPTO/BANKS/NEWS.
-6. שמור את הטיקר הרלוונטי בשדה ticker (כמו "$AAPL"). אם אין טיקר ספציפי — השאר ריק.
-7. לכל כותרת ישראלית: כותרת בעברית + סיכום 2-3 משפטים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה
+6. שמור את כתובת הציוץ המקורי בשדה link.
+7. source = "@" + שם המשתמש.
+
+חלק ב — חדשות ישראל (israel_news):
+כותרת בעברית + סיכום 2-3 משפטים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה.
 
 {{
   "us_news": [
-    {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"TECH","ticker":"$AAPL","verified":true}}
+    {{"title_he":"...","summary_he":"...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
   ],
   "israel_news": [
     {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
@@ -620,13 +629,10 @@ def run_enrichment_agent(client: anthropic.Anthropic, st_posts: list, ticker_new
 }}
 JSON בלבד."""
 
-    st_sample     = st_posts[:20]
-    ticker_sample = ticker_news[:20]
-
+    tw_sample = tw_tweets[:30]
     messages = [{"role": "user", "content":
         f"עבד נתונים ל-{TODAY_HE}.\n\n"
-        f"StockTwits posts ({len(st_sample)}):\n{json.dumps(st_sample, ensure_ascii=False)}\n\n"
-        f"Ticker news ({len(ticker_sample)}):\n{json.dumps(ticker_sample, ensure_ascii=False)}\n\n"
+        f"Twitter ({len(tw_sample)} ציוצים):\n{json.dumps(tw_sample, ensure_ascii=False)}\n\n"
         f"ישראל ({len(il_raw)}):\n{il_titles}\n\nהחזר JSON."}]
 
     print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude...")
@@ -644,16 +650,16 @@ JSON בלבד."""
 
 # ── Fallback: RSS-only mode ────────────────────────────────────────────────────
 
-def fallback_data(ticker_news: list, il_raw: list) -> dict:
+def fallback_data(tw_tweets: list, il_raw: list) -> dict:
     def tr(text):
         if HAS_TRANSLATOR:
             try: return GoogleTranslator(source="en", target="iw").translate(text)
             except Exception: pass
         return text
     return {
-        "us_news": [{"title_he": tr(i["title"]), "summary_he": "", "source": i["source"],
-                     "link": i.get("url", i.get("link", "#")), "tag": "NEWS",
-                     "ticker": i.get("ticker", "")} for i in ticker_news],
+        "us_news": [{"title_he": tr(t["body"][:120]), "summary_he": "", "ticker": "",
+                     "source": f'@{t["handle"]}', "link": t.get("url", "#"), "tag": "NEWS"}
+                    for t in tw_tweets],
         "israel_news": [{"title_he": tr(i["title"]), "summary_he": "", "source": i["source"],
                          "link": i["link"], "tag": "כללי"} for i in il_raw],
     }
@@ -913,7 +919,6 @@ def build_html(data: dict) -> str:
     il_market_cards = "".join(build_market_card(m) for m in data.get("market_il", []))
     us_news_cards   = "".join(build_us_news_card(n, i+1) for i, n in enumerate(data.get("us_news", [])))
     il_news_cards   = "".join(build_il_news_card(n) for n in data.get("israel_news", []))
-    twitter_cards   = "".join(build_twitter_card(t) for t in data.get("twitter_feed", []))
     ticker_items    = build_ticker_items(data)
     fg_card         = build_fear_greed_card(data.get("fear_greed"))
     heatmap_cells   = build_heatmap(data.get("sectors", []))
@@ -1086,17 +1091,17 @@ def build_html(data: dict) -> str:
     margin-bottom:.7rem;display:block;background:var(--border)}}
   .ticker-badge{{
     display:inline-block;
-    background:rgba(14,165,233,.15);
+    background:rgba(14,165,233,.18);
     color:#38bdf8;
-    border:1px solid rgba(56,189,248,.3);
-    border-radius:4px;
-    padding:.12rem .45rem;
-    font-size:.68rem;
-    font-weight:700;
+    border:1px solid rgba(56,189,248,.45);
+    border-radius:6px;
+    padding:.25rem .75rem;
+    font-size:.95rem;
+    font-weight:800;
     font-family:monospace;
-    letter-spacing:.03em;
-    margin-right:.4rem;
-    vertical-align:middle;
+    letter-spacing:.04em;
+    margin-bottom:.4rem;
+    margin-right:.3rem;
   }}
   /* ── Twitter Cards ── */
   .tw-card{{border-right:3px solid rgba(14,165,233,.35)}}
@@ -1138,8 +1143,6 @@ def build_html(data: dict) -> str:
   <a href="#heatmap">🌡 מגזרים</a>
   <span class="nav-sep">|</span>
   <a href="#israel">🇮🇱 ישראל</a>
-  <span class="nav-sep">|</span>
-  <a href="#twitter">🐦 Twitter</a>
   <span class="nav-sep">|</span>
   <a href="report.html">דוח מלא</a>
 </nav>
@@ -1196,8 +1199,6 @@ def build_html(data: dict) -> str:
     <div class="news-list">{il_news_cards}</div>
   </section>
 
-  <!-- Twitter Feed -->
-  {f'<section class="section" id="twitter"><div class="section-label">🐦 Twitter — עדכוני שוק</div><div class="news-list">{twitter_cards}</div></section>' if twitter_cards else ""}
 
 </div>
 
@@ -1286,52 +1287,36 @@ def main():
     il_raw = filter_headlines(il_raw_all, is_il_relevant, 10)
     print(f"\n  נבחרו: {len(il_raw)} ישראל")
 
-    # 2. Market data + Sparklines + Fear&Greed + StockTwits + Twitter — in parallel
-    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed, StockTwits ו-Twitter במקביל...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
+    # 2. Market data + Sparklines + Fear&Greed + Twitter — in parallel
+    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed ו-Twitter במקביל...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
         fut_mkt   = ex.submit(fetch_market_data)
         fut_spark = ex.submit(fetch_sparklines)
         fut_fg    = ex.submit(fetch_fear_greed)
-        fut_st    = ex.submit(fetch_stocktwits_trending)
         fut_tw    = ex.submit(fetch_twitter_feeds, TWITTER_HANDLES)
-        mkt       = fut_mkt.result()
-        sparks    = fut_spark.result()
-        fg        = fut_fg.result()
-        tickers   = fut_st.result()
-        tw_feed   = fut_tw.result()
+        mkt      = fut_mkt.result()
+        sparks   = fut_spark.result()
+        fg       = fut_fg.result()
+        tw_feed  = fut_tw.result()
 
-    print("\n[ 2b ] שולף פוסטים וחדשות לפי טיקר...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:
-        fut_posts = ex.submit(fetch_stocktwits_posts, tickers)
-        fut_tnews = ex.submit(fetch_ticker_news, tickers)
-        st_posts    = fut_posts.result()
-        ticker_news = fut_tnews.result()
-
-    # 3. Claude Enrichment
+    # 3. Claude Enrichment — translate Twitter → Hebrew news
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     news_data = None
     if api_key:
         try:
-            print("\n[ 3 ] מעשיר עם Claude API (StockTwits + אימות עובדות)...")
+            print("\n[ 3 ] מתרגם ציוצים לעברית עם Claude...")
             client = anthropic.Anthropic(api_key=api_key)
-            news_data = run_enrichment_agent(client, st_posts, ticker_news, il_raw)
-            # Fill in links from ticker_news where missing
-            tn_by_ticker = {}
-            for item in ticker_news:
-                tn_by_ticker.setdefault(item.get("ticker",""), item.get("url",""))
-            for n in news_data.get("us_news", []):
-                if not n.get("link") and n.get("ticker"):
-                    n["link"] = tn_by_ticker.get(n["ticker"], "#")
+            news_data = run_enrichment_agent(client, tw_feed, il_raw)
             for i, n in enumerate(news_data.get("israel_news", [])):
                 if i < len(il_raw) and not n.get("link"): n["link"] = il_raw[i]["link"]
-            print("✓ העשרה הושלמה")
+            print("✓ תרגום הושלם")
         except Exception as e:
             print(f"✗ Claude נכשל: {e} — עובר ל-fallback")
     else:
-        print("⚠  ANTHROPIC_API_KEY לא מוגדר — RSS-only")
+        print("⚠  ANTHROPIC_API_KEY לא מוגדר — fallback")
 
     if news_data is None:
-        news_data = fallback_data(ticker_news, il_raw)
+        news_data = fallback_data(tw_feed, il_raw)
 
     # 4. Assemble full data dict
     data = {
@@ -1340,10 +1325,9 @@ def main():
         "commodities": mkt["commodities"],
         "market_il":   mkt["market_il"],
         "sectors":     mkt["sectors"],
-        "sparklines":   sparks,
-        "fear_greed":   fg,
-        "events":       get_upcoming_events(5),
-        "twitter_feed": tw_feed,
+        "sparklines": sparks,
+        "fear_greed": fg,
+        "events":     get_upcoming_events(5),
     }
 
     # 5. Fetch images
