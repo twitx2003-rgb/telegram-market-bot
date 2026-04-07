@@ -596,6 +596,34 @@ def fetch_ticker_news(tickers: list) -> list:
     return all_news
 
 
+# ── Finance Relevance Filter ───────────────────────────────────────────────────
+
+_FINANCE_KW = [
+    # מניות / וול סטריט
+    "stock","stocks","share","shares","market","markets","wall street","nasdaq","s&p","dow",
+    "nyse","ipo","earnings","revenue","profit","loss","guidance","dividend","buyback",
+    "short","long","rally","crash","surge","plunge","bull","bear","volatility","vix",
+    "etf","fund","index","sector","upgrade","downgrade","price target","analyst",
+    # טיקרים — סימן $
+    "$",
+    # קריפטו
+    "bitcoin","btc","ethereum","eth","crypto","blockchain","defi","altcoin","coinbase","binance",
+    "solana","sol","xrp","ripple","token","nft","web3",
+    # מאקרו ארה"ב
+    "fed","federal reserve","fomc","interest rate","rate hike","rate cut","inflation","cpi",
+    "gdp","recession","unemployment","jobs report","nfp","payroll","treasury","yield","bond",
+    "deficit","debt ceiling","tariff","trade war","sanctions","economy","economic",
+    # מיקרו / חברות
+    "merger","acquisition","m&a","ipo","spinoff","layoffs","ceo","cfo","earnings beat",
+    "earnings miss","quarterly","revenue","forecast","outlook","guidance",
+]
+
+def is_finance_tweet(body: str) -> bool:
+    """Return True if tweet is related to markets, stocks, crypto, or US macro/micro."""
+    t = body.lower()
+    return any(kw in t for kw in _FINANCE_KW)
+
+
 # ── Claude Enrichment Agent ────────────────────────────────────────────────────
 
 def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: list) -> dict:
@@ -605,16 +633,18 @@ def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: l
 היום: {TODAY_HE} ({TODAY}).
 החזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
 
-עליך לבצע:
-
 חלק א — ציוצי Twitter (us_news):
-1. קבל רשימת ציוצים מאנשי שוק ההון בטוויטר.
-2. בחר עד 10 הציוצים המעניינים והמשמעותיים ביותר מבחינה פיננסית.
-3. תרגם כל ציוץ לעברית — כותרת ממוקדת + סיכום קצר (1-2 משפטים).
-4. זהה את הטיקר הרלוונטי ($AAPL, $NVDA וכד׳). אם אין טיקר ספציפי — השאר ריק.
-5. הוסף תגית: EARNINGS/MACRO/FED/TECH/M&A/ENERGY/CRYPTO/BANKS/NEWS.
-6. שמור את כתובת הציוץ המקורי בשדה link.
-7. source = "@" + שם המשתמש.
+1. סנן: כלול רק ציוצים הקשורים ישירות ל:
+   • מניות / וול סטריט (ביצועי מניות, דוחות, IPO, M&A, טיקרים כמו $AAPL)
+   • קריפטו (Bitcoin, Ethereum, DeFi, altcoins)
+   • מאקרו כלכלי ארה"ב (Fed, ריבית, אינפלציה, CPI, GDP, NFP, תשואות)
+   • מיקרו כלכלי (הכנסות, רווחים, צמיחה, פיטורים, מיזוגים)
+   ציוצים שאינם קשורים לאף אחד מאלה — דלג עליהם לחלוטין.
+2. בחר עד 10 הציוצים הרלוונטיים והמשמעותיים ביותר.
+3. תרגם לעברית — כותרת ממוקדת + סיכום קצר (1-2 משפטים).
+4. זהה טיקר ($AAPL, $BTC וכד׳). אם אין — השאר ריק.
+5. תגית: EARNINGS / MACRO / FED / TECH / M&A / ENERGY / CRYPTO / BANKS / NEWS
+6. link = כתובת הציוץ המקורי. source = "@handle".
 
 חלק ב — חדשות ישראל (israel_news):
 כותרת בעברית + סיכום 2-3 משפטים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה.
@@ -629,7 +659,12 @@ def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: l
 }}
 JSON בלבד."""
 
-    tw_sample = tw_tweets[:30]
+    # Pre-filter: keep only finance-relevant tweets before sending to Claude
+    finance_tweets = [t for t in tw_tweets if is_finance_tweet(t.get("body", ""))]
+    if not finance_tweets:
+        finance_tweets = tw_tweets  # fallback: send all if filter is too aggressive
+    tw_sample = finance_tweets[:30]
+    print(f"  ✓ פילטר פיננסי: {len(finance_tweets)}/{len(tw_tweets)} ציוצים רלוונטיים")
     messages = [{"role": "user", "content":
         f"עבד נתונים ל-{TODAY_HE}.\n\n"
         f"Twitter ({len(tw_sample)} ציוצים):\n{json.dumps(tw_sample, ensure_ascii=False)}\n\n"
@@ -659,7 +694,7 @@ def fallback_data(tw_tweets: list, il_raw: list) -> dict:
     return {
         "us_news": [{"title_he": tr(t["body"][:120]), "summary_he": "", "ticker": "",
                      "source": f'@{t["handle"]}', "link": t.get("url", "#"), "tag": "NEWS"}
-                    for t in tw_tweets],
+                    for t in tw_tweets if is_finance_tweet(t.get("body", ""))],
         "israel_news": [{"title_he": tr(i["title"]), "summary_he": "", "source": i["source"],
                          "link": i["link"], "tag": "כללי"} for i in il_raw],
     }
