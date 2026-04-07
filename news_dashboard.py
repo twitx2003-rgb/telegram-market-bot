@@ -68,10 +68,16 @@ TODAY_HE = f"{_now.day} ב{HEBREW_MONTHS[_now.month]} {_now.year}"
 # הוסף כאן את שמות המשתמש שאתה עוקב אחריהם (ללא @)
 TWITTER_HANDLES = [
     "unusual_whales",
+    "RyanDetrick",
+    "wallstengine",
+    "StockSavvyShay",
+    "cperruna",
+    "bespokeinvest",
+    "MikeZaccardi",
     "DeItaone",
-    "zerohedge",
-    "markets",
-    "WSJmarkets",
+    "gurgavin",
+    "DivesTech",
+    "garyblack00",
 ]
 
 NITTER_INSTANCES = [
