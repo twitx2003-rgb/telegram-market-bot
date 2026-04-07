@@ -1263,51 +1263,6 @@ def build_html(data: dict) -> str:
 </html>"""
 
 
-# ── Telegram ──────────────────────────────────────────────────────────────────
-
-def _tg_arrow(d): return "🟢" if d == "up" else "🔴" if d == "down" else "⚪"
-
-def build_telegram_message(data: dict) -> str:
-    lines = [f"📊 <b>לוח חדשות — {TODAY}</b>\n"]
-    for m in data.get("market_us", [])[:4]:
-        lines.append(f"{_tg_arrow(m.get('direction',''))} <b>{m['name']}</b> {m['value']} {m['change']}")
-    comms = data.get("commodities", [])
-    if comms:
-        lines.append("\n" + "  |  ".join(f"{_tg_arrow(c.get('direction',''))}{c['name']} {c['change']}" for c in comms))
-    il_mkt = data.get("market_il", [])
-    if il_mkt:
-        lines.append("\n🇮🇱 " + "  |  ".join(f"{m['name']} {m['value']} {m['change']}" for m in il_mkt))
-    fg = data.get("fear_greed")
-    if fg:
-        lines.append(f"\n😱 פחד &amp; חמדנות: <b>{fg['score']}</b> — {fg['rating']}")
-    lines.append("")
-    us_news = data.get("us_news", [])[:3]
-    if us_news:
-        lines.append("🇺🇸 <b>וול סטריט:</b>")
-        for n in us_news: lines.append(f"• {n['title_he']}")
-    lines.append("")
-    il_news = data.get("israel_news", [])[:4]
-    if il_news:
-        lines.append("🇮🇱 <b>ישראל:</b>")
-        for n in il_news: lines.append(f"• {n['title_he']}")
-    return "\n".join(lines)
-
-def send_telegram(message: str) -> bool:
-    token   = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
-    if not token or not chat_id:
-        print("⚠  Telegram: credentials לא מוגדרים"); return False
-    url  = f"https://api.telegram.org/bot{token}/sendMessage"
-    data = urllib.parse.urlencode({"chat_id": chat_id, "text": message, "parse_mode": "HTML"}).encode("utf-8")
-    try:
-        req    = urllib.request.Request(url, data=data, method="POST")
-        resp   = urllib.request.urlopen(req, timeout=15)
-        result = json.loads(resp.read())
-        if result.get("ok"):
-            print(f"✓ Telegram: נשלח ל-{chat_id}"); return True
-        print(f"✗ Telegram: {result}"); return False
-    except Exception as e:
-        print(f"✗ Telegram error: {e}"); return False
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
@@ -1380,10 +1335,6 @@ def main():
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(html, encoding="utf-8")
     print(f"✓ HTML נשמר → {OUTPUT_PATH}")
-
-    # 7. Telegram
-    print("\n[ 6 ] שולח ל-Telegram...")
-    send_telegram(build_telegram_message(data))
 
     print(f"\n✓ הושלם — {TODAY} {TIME}\n")
 
