@@ -633,25 +633,26 @@ def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: l
 היום: {TODAY_HE} ({TODAY}).
 החזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
 
+אתה כתב פיננסי בכיר — סגנונך: ה-Wall Street Journal בעברית.
+
 חלק א — ציוצי Twitter (us_news):
-1. סנן: כלול רק ציוצים הקשורים ישירות ל:
-   • מניות / וול סטריט (ביצועי מניות, דוחות, IPO, M&A, טיקרים כמו $AAPL)
-   • קריפטו (Bitcoin, Ethereum, DeFi, altcoins)
-   • מאקרו כלכלי ארה"ב (Fed, ריבית, אינפלציה, CPI, GDP, NFP, תשואות)
-   • מיקרו כלכלי (הכנסות, רווחים, צמיחה, פיטורים, מיזוגים)
-   ציוצים שאינם קשורים לאף אחד מאלה — דלג עליהם לחלוטין.
-2. בחר עד 10 הציוצים הרלוונטיים והמשמעותיים ביותר.
-3. תרגם לעברית — כותרת ממוקדת + סיכום קצר (1-2 משפטים).
+1. סנן: כלול רק ציוצים על מניות, קריפטו, מאקרו/מיקרו כלכלי בארה"ב. דלג על כל השאר.
+2. בחר עד 10 ציוצים משמעותיים.
+3. לכל ציוץ — אל תתרגם ישירות. במקום זאת:
+   • הבן את המסר הכלכלי/פיננסי של הציוץ
+   • כתוב כותרת עברית חדה וקצרה כפי שכתב WSJ היה כותב (title_he)
+   • כתוב סיכום מקצועי של 1-2 משפטים בעברית שמסביר את המשמעות הפיננסית (summary_he)
+   • שמור את הטקסט האנגלי המקורי של הציוץ ב-body_en (עד 200 תווים)
 4. זהה טיקר ($AAPL, $BTC וכד׳). אם אין — השאר ריק.
 5. תגית: EARNINGS / MACRO / FED / TECH / M&A / ENERGY / CRYPTO / BANKS / NEWS
 6. link = כתובת הציוץ המקורי. source = "@handle".
 
 חלק ב — חדשות ישראל (israel_news):
-כותרת בעברית + סיכום 2-3 משפטים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה.
+כותרת עברית + סיכום 2-3 משפטים מקצועיים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה.
 
 {{
   "us_news": [
-    {{"title_he":"...","summary_he":"...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
+    {{"title_he":"כותרת מקצועית בעברית","summary_he":"הסבר פיננסי קצר","body_en":"original tweet text...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
   ],
   "israel_news": [
     {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
@@ -873,23 +874,21 @@ def _wa_link(title: str, link: str) -> str:
 def build_us_news_card(n: dict, idx: int) -> str:
     tag = n.get("tag", "NEWS")
     color, bg = TAG_COLORS_US.get(tag, TAG_COLORS_US["NEWS"])
-    link   = n.get("link", "#")
-    image  = n.get("image", "")
-    ticker = n.get("ticker", "")
-    img_html     = (f'<img class="news-img" src="{image}" alt="" onerror="this.style.display=\'none\'" loading="lazy"/>'
-                    if image else "")
+    link    = n.get("link", "#")
+    ticker  = n.get("ticker", "")
+    body_en = n.get("body_en", "")
     ticker_badge = f'<span class="ticker-badge">{ticker}</span>' if ticker else ""
-    read_more    = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
+    en_block     = (f'<div class="news-en" dir="ltr">{body_en}</div>' if body_en else "")
+    read_more    = f'<a href="{link}" target="_blank" class="read-more">מקור ←</a>' if link and link != "#" else ""
     wa           = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
     return (
         f'<div class="news-card">'
         f'<div class="news-num">{idx:02d}</div>'
         f'<div class="news-body">'
-        + img_html
-        + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
-        + ticker_badge
-        + f'<div class="news-title">{n["title_he"]}</div>'
-        + (f'<div class="news-summary">{n["summary_he"]}</div>' if n.get("summary_he") else "")
+        + f'<div class="news-top-row"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{ticker_badge}</div>'
+        + f'<div class="news-title" dir="rtl">{n["title_he"]}</div>'
+        + (f'<div class="news-summary" dir="rtl">{n["summary_he"]}</div>' if n.get("summary_he") else "")
+        + en_block
         + f'<div class="news-meta">{n.get("source","")} {read_more} {wa}</div>'
         f'</div>'
         f'</div>'
@@ -1113,10 +1112,18 @@ def build_html(data: dict) -> str:
   .il-card{{grid-template-columns:1fr}}
   .news-num{{font-size:1.5rem;font-weight:800;color:var(--border);line-height:1;
     font-variant-numeric:tabular-nums;text-align:center;padding-top:.15rem}}
+  .news-top-row{{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-bottom:.2rem}}
   .news-tag{{display:inline-block;padding:.12rem .55rem;border-radius:4px;
-    font-size:.65rem;font-weight:700;letter-spacing:.05em;margin-left:.4rem}}
-  .news-title{{font-size:1rem;font-weight:600;color:var(--white);margin:.35rem 0}}
-  .news-summary{{font-size:.86rem;color:var(--text);margin-bottom:.45rem;line-height:1.6}}
+    font-size:.65rem;font-weight:700;letter-spacing:.05em}}
+  .news-title{{font-size:1.05rem;font-weight:700;color:var(--white);margin:.3rem 0 .4rem;line-height:1.45}}
+  .news-summary{{font-size:.86rem;color:var(--text);margin-bottom:.5rem;line-height:1.65}}
+  .news-en{{
+    font-size:.78rem;color:var(--muted);font-style:italic;
+    border-right:3px solid var(--border);
+    padding:.35rem .7rem;margin:.4rem 0;
+    line-height:1.55;font-family:'Inter',sans-serif;
+    text-align:left;
+  }}
   .news-meta{{font-size:.72rem;color:var(--muted);display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}}
   .read-more{{color:var(--accent);text-decoration:none;font-weight:600;font-size:.72rem}}
   .read-more:hover{{text-decoration:underline}}
