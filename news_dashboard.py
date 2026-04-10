@@ -420,9 +420,29 @@ def sparkline_svg(prices: list, direction: str) -> str:
 
 # ── Image Fetching ─────────────────────────────────────────────────────────────
 
+_FINANCE_IMG_KW = {
+    "EARNINGS": "stock-market,earnings,finance",
+    "MACRO":    "economy,federal-reserve,finance",
+    "FED":      "federal-reserve,interest-rate,economy",
+    "TECH":     "technology,nasdaq,silicon-valley",
+    "M&A":      "business,merger,corporate",
+    "ENERGY":   "energy,oil,pipeline",
+    "CRYPTO":   "bitcoin,cryptocurrency,blockchain",
+    "BANKS":    "bank,finance,wall-street",
+    "NEWS":     "wall-street,stock-market,trading",
+}
+
+def _finance_img(tag: str = "", ticker: str = "") -> str:
+    """Return a relevant finance image URL based on tag or ticker."""
+    kw = _FINANCE_IMG_KW.get(tag, "wall-street,finance,stock-market")
+    seed = abs(hash(ticker or tag or "finance")) % 9000 + 1000
+    return f"https://loremflickr.com/400/200/{kw}?random={seed}"
+
 def _picsum_url(seed_text: str) -> str:
     h = abs(hash(seed_text)) % 1000
     return f"https://picsum.photos/seed/{h}/400/200"
+
+_URL_RE = re.compile(r'https?://(?!nitter\.|twitter\.com|t\.co)[^\s\])"\']+', re.IGNORECASE)
 
 def fetch_og_image(url: str) -> str:
     if not HAS_REQUESTS or not url or url == "#":
@@ -452,14 +472,29 @@ def fetch_og_image(url: str) -> str:
         pass
     return _picsum_url(url)
 
+def _best_image_url(item: dict) -> str:
+    """Pick the best URL to fetch an image from for a news item."""
+    # Prefer article URL extracted from tweet body
+    article = item.get("article_url", "")
+    if article:
+        return article
+    # Fall back to item link (works well for IL news from RSS)
+    return item.get("link", "")
+
 def fetch_all_images(news_items: list) -> list:
     if not news_items: return []
-    links = [item.get("link", "") for item in news_items]
+    urls = [_best_image_url(item) for item in news_items]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
-        results = list(ex.map(fetch_og_image, links))
-    original = sum(1 for r in results if "picsum" not in r)
-    print(f"  ✓ תמונות: {original}/{len(results)} מקוריות")
-    return results
+        results = list(ex.map(fetch_og_image, urls))
+    # Replace picsum fallbacks with finance-themed images
+    final = []
+    for item, img in zip(news_items, results):
+        if "picsum" in img or not img:
+            img = _finance_img(item.get("tag",""), item.get("ticker",""))
+        final.append(img)
+    original = sum(1 for r in final if "loremflickr" not in r and "picsum" not in r)
+    print(f"  ✓ תמונות: {original} מאמרים + {len(final)-original} finance")
+    return final
 
 # ── Twitter / Nitter RSS ──────────────────────────────────────────────────────
 
@@ -478,11 +513,17 @@ def _try_nitter_feed(handle: str, instance: str) -> list:
             link = entry.get("link", "")
             date = entry.get("published", "")
             if body and len(body) > 5:
+                # Extract article URL from tweet body or summary (not twitter/nitter links)
+                summary_html = entry.get("summary", "") or entry.get("description", "")
+                combined = body + " " + summary_html
+                article_urls = _URL_RE.findall(combined)
+                article_url = article_urls[0][:300] if article_urls else ""
                 tweets.append({
-                    "handle": handle,
-                    "body":   body[:500],
-                    "url":    link,
-                    "date":   date,
+                    "handle":      handle,
+                    "body":        body[:500],
+                    "url":         link,
+                    "date":        date,
+                    "article_url": article_url,
                 })
         return tweets
     except Exception:
