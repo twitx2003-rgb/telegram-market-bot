@@ -2,7 +2,8 @@ name: Daily AI Dashboard Improvement
 
 on:
   schedule:
-    - cron: '30 12 * * *'   # כל יום בשעה 12:30 UTC (לאחר ריצת הדשבורד)
+    - cron: '30 9 * * *'   # 12:30 שעון ישראל קיץ (IDT = UTC+3) / 11:30 חורף (IST = UTC+2)
+    #                        רץ 30 דקות אחרי הסיכום היומי (09:00 UTC)
   workflow_dispatch:         # הרצה ידנית מה-Actions tab
 
 permissions:
@@ -34,7 +35,7 @@ jobs:
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "AI Improvement Agent"
-          git add docs/index.html
+          git add docs/index.html docs/brief.json
           git diff --staged --quiet || \
-            git commit -m "AI improvement: $(date +'%Y-%m-%d') — daily enhancement"
+            git commit -m "AI improvement: $(date +'%Y-%m-%d %H:%M' --utc) UTC"
           git push
