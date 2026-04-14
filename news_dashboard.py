@@ -949,14 +949,16 @@ def build_us_news_card(n: dict, idx: int) -> str:
     read_more    = f'<a href="{link}" target="_blank" class="read-more">מקור ←</a>' if link and link != "#" else ""
     wa           = _wa_link(n.get("title_he", ""), link) if link and link != "#" else ""
 
+    source    = n.get("source", "")
+    byline    = f'<div class="news-byline">{source}</div>' if source else ""
     return (
+        f'<div class="news-item">'
         f'<div class="news-card il-card">'
         f'<div class="news-body">'
         # ── Header: context row ──
         + f'<div class="news-header">'
         + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
         + ticker_badge
-        + f'<span class="news-source-top">{n.get("source","")}</span>'
         + f'<span class="news-num-badge">#{idx:02d}</span>'
         + f'</div>'
         # ── Main content ──
@@ -966,7 +968,10 @@ def build_us_news_card(n: dict, idx: int) -> str:
         # ── Footer: actions ──
         + f'<div class="news-footer">{read_more} {wa}</div>'
         + f'</div>'
-        f'</div>'
+        + f'</div>'
+        # ── Byline below card ──
+        + byline
+        + f'</div>'
     )
 
 
@@ -979,22 +984,27 @@ def build_il_news_card(n: dict) -> str:
                  if image else "")
     read_more = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
     wa        = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
+    source = n.get("source", "")
+    byline = f'<div class="news-byline">{source}</div>' if source else ""
     return (
+        f'<div class="news-item">'
         f'<div class="news-card il-card">'
         f'<div class="news-body">'
         + img_html
         # ── Header: context row ──
         + f'<div class="news-header">'
         + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
-        + f'<span class="news-source-top">{n.get("source","")}</span>'
         + f'</div>'
         # ── Main content ──
         + f'<div class="news-title">{n["title_he"]}</div>'
         + (f'<div class="news-summary">{n["summary_he"]}</div>' if n.get("summary_he") else "")
         # ── Footer: actions ──
         + f'<div class="news-footer">{read_more} {wa}</div>'
-        f'</div>'
-        f'</div>'
+        + f'</div>'
+        + f'</div>'
+        # ── Byline below card ──
+        + byline
+        + f'</div>'
     )
 
 
@@ -1186,6 +1196,8 @@ def build_html(data: dict) -> str:
 
   /* ── News Cards ── */
   .news-list{{display:flex;flex-direction:column;gap:.85rem}}
+  .news-item{{display:flex;flex-direction:column}}
+  .news-byline{{font-size:.68rem;color:var(--muted);padding:.28rem .6rem;text-align:right;letter-spacing:.01em}}
   .news-card{{background:var(--card);border:1px solid var(--border);border-radius:12px;
     padding:1.2rem 1.4rem;transition:border-color .2s}}
   .news-card:hover{{border-color:var(--accent)}}
@@ -1244,7 +1256,6 @@ def build_html(data: dict) -> str:
     padding:.1rem .45rem;font-variant-numeric:tabular-nums;
     margin-right:auto;
   }}
-  .news-source-top{{font-size:.7rem;color:var(--muted);font-style:italic}}
   .news-footer{{
     display:flex;align-items:center;gap:.5rem;
     padding-top:.65rem;
