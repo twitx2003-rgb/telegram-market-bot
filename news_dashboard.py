@@ -442,7 +442,13 @@ def _picsum_url(seed_text: str) -> str:
     h = abs(hash(seed_text)) % 1000
     return f"https://picsum.photos/seed/{h}/400/200"
 
-_URL_RE = re.compile(r'https?://(?!nitter\.|twitter\.com|t\.co)[^\s\])"\']+', re.IGNORECASE)
+_URL_RE    = re.compile(r'https?://(?!nitter\.|twitter\.com|t\.co)[^\s\])"\']+', re.IGNORECASE)
+_TICKER_RE = re.compile(r'(\$[A-Z]{1,5})\b')
+
+
+def bold_tickers(text: str) -> str:
+    """Wrap $TICKER symbols with a highlighted <strong> span."""
+    return _TICKER_RE.sub(r'<strong class="ticker-hl">\1</strong>', text)
 
 def fetch_og_image(url: str) -> str:
     if not HAS_REQUESTS or not url or url == "#":
@@ -667,8 +673,16 @@ def is_finance_tweet(body: str) -> bool:
 
 # ── Claude Enrichment Agent ────────────────────────────────────────────────────
 
-def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: list) -> dict:
+def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: list,
+                          ticker_news_raw: list = None) -> dict:
     il_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
+
+    ticker_section = ""
+    if ticker_news_raw:
+        tn_lines = "\n".join(
+            f"- [{n['ticker']}] {n['title']} ({n['source']})" for n in ticker_news_raw[:15]
+        )
+        ticker_section = f"\n\nחדשות מניות ספציפיות ({len(ticker_news_raw[:15])}):\n{tn_lines}"
 
     system = f"""אתה עיתונאי פיננסי בכיר ומומחה לחדשות ישראל.
 היום: {TODAY_HE} ({TODAY}).
@@ -676,24 +690,27 @@ def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: l
 
 אתה כתב פיננסי בכיר — סגנונך: ה-Wall Street Journal בעברית.
 
-חלק א — ציוצי Twitter (us_news):
-1. סנן: כלול רק ציוצים על מניות, קריפטו, מאקרו/מיקרו כלכלי בארה"ב. דלג על כל השאר.
-2. בחר עד 10 ציוצים משמעותיים.
-3. לכל ציוץ — אל תתרגם ישירות. במקום זאת:
-   • הבן את המסר הכלכלי/פיננסי של הציוץ
-   • כתוב כותרת עברית חדה וקצרה כפי שכתב WSJ היה כותב (title_he)
-   • כתוב סיכום מקצועי של 1-2 משפטים בעברית שמסביר את המשמעות הפיננסית (summary_he)
-   • שמור את הטקסט האנגלי המקורי של הציוץ ב-body_en (עד 200 תווים)
+חלק א — ציוצי Twitter + חדשות טיקרים (us_news):
+1. סנן אגרסיבי: כלול רק ציוצים ישירות על מניות ספציפיות, קריפטו, נתוני מאקרו קריטיים.
+   העדף ציוצים עם: % שינוי, מחיר יעד, EPS, הכנסות, דוחות רבעוניים, שדרוגים/שנמוכים, M&A.
+   דלג על דעות כלליות, שאלות, "מה דעתכם", ניתוחים מעורפלים.
+2. בחר עד 10 פריטים משמעותיים.
+3. לכל פריט — אל תתרגם ישירות. במקום זאת:
+   • כותרת עברית (title_he): חדה, ממוקדת. אם יש טיקר ספציפי — פתח בו (לדוג': "$NVDA: רווח Q1 עקף ציפיות ב-18%").
+     כלול נתונים כמותיים בכותרת עצמה בכל הזדמנות (%, $, מחיר יעד).
+   • סיכום (summary_he): 2-3 משפטים מקצועיים. חובה לחלץ ולכלול כל מספר/סטטיסטיקה מהציוץ
+     (EPS, הכנסות, מחיר יעד, % שינוי, שווי שוק, תחזית). הסבר את המשמעות למשקיע.
+   • body_en: הטקסט האנגלי המקורי, עד 200 תווים.
 4. זהה טיקר ($AAPL, $BTC וכד׳). אם אין — השאר ריק.
 5. תגית: EARNINGS / MACRO / FED / TECH / M&A / ENERGY / CRYPTO / BANKS / NEWS
-6. link = כתובת הציוץ המקורי. source = "@handle".
+6. link = כתובת המקור. source = "@handle" או שם המקור.
 
 חלק ב — חדשות ישראל (israel_news):
 כותרת עברית + סיכום 2-3 משפטים מקצועיים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה.
 
 {{
   "us_news": [
-    {{"title_he":"כותרת מקצועית בעברית","summary_he":"הסבר פיננסי קצר","body_en":"original tweet text...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
+    {{"title_he":"כותרת עם נתונים","summary_he":"סיכום עם סטטיסטיקות","body_en":"original text...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
   ],
   "israel_news": [
     {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
@@ -710,7 +727,9 @@ JSON בלבד."""
     messages = [{"role": "user", "content":
         f"עבד נתונים ל-{TODAY_HE}.\n\n"
         f"Twitter ({len(tw_sample)} ציוצים):\n{json.dumps(tw_sample, ensure_ascii=False)}\n\n"
-        f"ישראל ({len(il_raw)}):\n{il_titles}\n\nהחזר JSON."}]
+        f"ישראל ({len(il_raw)}):\n{il_titles}"
+        + (f"\n\nחדשות מניות ספציפיות:{ticker_section}" if ticker_section else "")
+        + "\n\nהחזר JSON."}]
 
     print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude...")
     response = client.messages.create(model=MODEL, max_tokens=MAX_TOKENS, system=system, messages=messages)
@@ -913,25 +932,40 @@ def _wa_link(title: str, link: str) -> str:
 
 
 def build_us_news_card(n: dict, idx: int) -> str:
-    tag = n.get("tag", "NEWS")
+    tag    = n.get("tag", "NEWS")
     color, bg = TAG_COLORS_US.get(tag, TAG_COLORS_US["NEWS"])
-    link    = n.get("link", "#")
-    ticker  = n.get("ticker", "")
-    body_en = n.get("body_en", "")
-    ticker_badge = f'<span class="ticker-badge">{ticker}</span>' if ticker else ""
-    en_block     = (f'<div class="news-en" dir="ltr">{body_en}</div>' if body_en else "")
+    link       = n.get("link", "#")
+    ticker     = n.get("ticker", "")
+    body_en    = n.get("body_en", "")
+    summary_he = n.get("summary_he", "")
+
+    # Bold $TICKER symbols in all text fields
+    title_rendered   = bold_tickers(n.get("title_he", ""))
+    summary_rendered = bold_tickers(summary_he) if summary_he else ""
+    body_rendered    = bold_tickers(body_en) if body_en else ""
+
+    ticker_badge = f'<span class="ticker-badge">{bold_tickers(ticker)}</span>' if ticker else ""
+    en_block     = (f'<div class="news-en" dir="ltr">{body_rendered}</div>' if body_en else "")
     read_more    = f'<a href="{link}" target="_blank" class="read-more">מקור ←</a>' if link and link != "#" else ""
-    wa           = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
+    wa           = _wa_link(n.get("title_he", ""), link) if link and link != "#" else ""
+
     return (
-        f'<div class="news-card">'
-        f'<div class="news-num">{idx:02d}</div>'
+        f'<div class="news-card il-card">'
         f'<div class="news-body">'
-        + f'<div class="news-top-row"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{ticker_badge}</div>'
-        + f'<div class="news-title" dir="rtl">{n["title_he"]}</div>'
-        + (f'<div class="news-summary" dir="rtl">{n["summary_he"]}</div>' if n.get("summary_he") else "")
+        # ── Header: context row ──
+        + f'<div class="news-header">'
+        + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
+        + ticker_badge
+        + f'<span class="news-source-top">{n.get("source","")}</span>'
+        + f'<span class="news-num-badge">#{idx:02d}</span>'
+        + f'</div>'
+        # ── Main content ──
+        + f'<div class="news-title" dir="rtl">{title_rendered}</div>'
+        + (f'<div class="news-summary" dir="rtl">{summary_rendered}</div>' if summary_he else "")
         + en_block
-        + f'<div class="news-meta">{n.get("source","")} {read_more} {wa}</div>'
-        f'</div>'
+        # ── Footer: actions ──
+        + f'<div class="news-footer">{read_more} {wa}</div>'
+        + f'</div>'
         f'</div>'
     )
 
@@ -949,10 +983,16 @@ def build_il_news_card(n: dict) -> str:
         f'<div class="news-card il-card">'
         f'<div class="news-body">'
         + img_html
+        # ── Header: context row ──
+        + f'<div class="news-header">'
         + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
-        f'<div class="news-title">{n["title_he"]}</div>'
+        + f'<span class="news-source-top">{n.get("source","")}</span>'
+        + f'</div>'
+        # ── Main content ──
+        + f'<div class="news-title">{n["title_he"]}</div>'
         + (f'<div class="news-summary">{n["summary_he"]}</div>' if n.get("summary_he") else "")
-        + f'<div class="news-meta">{n.get("source","")} {read_more} {wa}</div>'
+        # ── Footer: actions ──
+        + f'<div class="news-footer">{read_more} {wa}</div>'
         f'</div>'
         f'</div>'
     )
@@ -1147,12 +1187,8 @@ def build_html(data: dict) -> str:
   /* ── News Cards ── */
   .news-list{{display:flex;flex-direction:column;gap:.85rem}}
   .news-card{{background:var(--card);border:1px solid var(--border);border-radius:12px;
-    padding:1.2rem 1.4rem;display:grid;grid-template-columns:44px 1fr;gap:.9rem;align-items:start;
-    transition:border-color .2s}}
+    padding:1.2rem 1.4rem;transition:border-color .2s}}
   .news-card:hover{{border-color:var(--accent)}}
-  .il-card{{grid-template-columns:1fr}}
-  .news-num{{font-size:1.5rem;font-weight:800;color:var(--border);line-height:1;
-    font-variant-numeric:tabular-nums;text-align:center;padding-top:.15rem}}
   .news-top-row{{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-bottom:.2rem}}
   .news-tag{{display:inline-block;padding:.12rem .55rem;border-radius:4px;
     font-size:.65rem;font-weight:700;letter-spacing:.05em}}
@@ -1186,6 +1222,37 @@ def build_html(data: dict) -> str:
     margin-bottom:.4rem;
     margin-right:.3rem;
   }}
+  /* ── Ticker highlight inside text ── */
+  .ticker-hl{{
+    color:#38bdf8;
+    font-weight:800;
+    font-family:monospace;
+    font-style:normal;
+    letter-spacing:.02em;
+  }}
+
+  /* ── News card header / footer ── */
+  .news-header{{
+    display:flex;align-items:center;gap:.45rem;flex-wrap:wrap;
+    padding-bottom:.7rem;
+    border-bottom:1px solid var(--border);
+    margin-bottom:.65rem;
+  }}
+  .news-num-badge{{
+    font-size:.7rem;font-weight:800;color:var(--muted);
+    background:rgba(100,116,139,.12);border-radius:4px;
+    padding:.1rem .45rem;font-variant-numeric:tabular-nums;
+    margin-right:auto;
+  }}
+  .news-source-top{{font-size:.7rem;color:var(--muted);font-style:italic}}
+  .news-footer{{
+    display:flex;align-items:center;gap:.5rem;
+    padding-top:.65rem;
+    border-top:1px solid var(--border);
+    margin-top:.65rem;
+    font-size:.72rem;
+  }}
+
   /* ── Twitter Cards ── */
   .tw-card{{border-right:3px solid rgba(14,165,233,.35)}}
   .tw-handle{{
@@ -1325,26 +1392,34 @@ def main():
     il_raw = filter_headlines(il_raw_all, is_il_relevant, 10)
     print(f"\n  נבחרו: {len(il_raw)} ישראל")
 
-    # 2. Market data + Sparklines + Fear&Greed + Twitter — in parallel
-    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed ו-Twitter במקביל...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
-        fut_mkt   = ex.submit(fetch_market_data)
-        fut_spark = ex.submit(fetch_sparklines)
-        fut_fg    = ex.submit(fetch_fear_greed)
-        fut_tw    = ex.submit(fetch_twitter_feeds, TWITTER_HANDLES)
-        mkt      = fut_mkt.result()
-        sparks   = fut_spark.result()
-        fg       = fut_fg.result()
-        tw_feed  = fut_tw.result()
+    # 2. Market data + Sparklines + Fear&Greed + Twitter + StockTwits trending — in parallel
+    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed, Twitter ו-StockTwits במקביל...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
+        fut_mkt     = ex.submit(fetch_market_data)
+        fut_spark   = ex.submit(fetch_sparklines)
+        fut_fg      = ex.submit(fetch_fear_greed)
+        fut_tw      = ex.submit(fetch_twitter_feeds, TWITTER_HANDLES)
+        fut_st_tick = ex.submit(fetch_stocktwits_trending)
+        mkt             = fut_mkt.result()
+        sparks          = fut_spark.result()
+        fg              = fut_fg.result()
+        tw_feed         = fut_tw.result()
+        trending_tickers = fut_st_tick.result()
 
-    # 3. Claude Enrichment — translate Twitter → Hebrew news
+    # 2b. Fetch ticker-specific news for trending stocks
+    print(f"\n[ 2b ] שולף חדשות מניות ספציפיות עבור: {', '.join(trending_tickers[:8])}...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:
+        fut_tk_news = ex.submit(fetch_ticker_news, trending_tickers[:8])
+        tk_news     = fut_tk_news.result()
+
+    # 3. Claude Enrichment — translate Twitter + ticker news → Hebrew news
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     news_data = None
     if api_key:
         try:
-            print("\n[ 3 ] מתרגם ציוצים לעברית עם Claude...")
+            print("\n[ 3 ] מתרגם ציוצים וחדשות מניות לעברית עם Claude...")
             client = anthropic.Anthropic(api_key=api_key)
-            news_data = run_enrichment_agent(client, tw_feed, il_raw)
+            news_data = run_enrichment_agent(client, tw_feed, il_raw, ticker_news_raw=tk_news)
             for i, n in enumerate(news_data.get("israel_news", [])):
                 if i < len(il_raw) and not n.get("link"): n["link"] = il_raw[i]["link"]
             print("✓ תרגום הושלם")
