@@ -1,16 +1,25 @@
 #!/usr/bin/env python3
 """
-AI Improvement Agent — Daily Dashboard Enhancer
-================================================
-Reads docs/index.html every day, analyzes it with a professional eye,
-and optionally injects ONE high-value improvement section.
+AI Improvement Agent — Daily Dashboard Brief & Enhancement
+==========================================================
+Two-phase pipeline:
 
-Each injected section includes a dismiss button (stored in localStorage)
-so the user can remove an improvement from view without rerunning the script.
+  Phase 1 — BRIEF
+    Claude reads the full dashboard context and writes a structured
+    professional assessment: what works, what's weak, what's missing.
+    The brief is printed to the console (GitHub Actions log) and saved
+    to docs/brief.json for reference.
+
+  Phase 2 — IMPLEMENT
+    Based on the brief, Claude generates up to 3 concrete HTML
+    improvements. Each is injected into docs/index.html with:
+      • A labeled section header ("AI ✦ <title>")
+      • A "✕ הסר" dismiss button (persisted in localStorage)
+    Previous day's improvements are stripped before analysis.
 
 Usage:
-  python improvement_agent.py          # analyze + inject if worthwhile
-  python improvement_agent.py --dry    # print suggestion only, don't write
+  python improvement_agent.py           # full run
+  python improvement_agent.py --dry     # brief only, no file writes
 """
 
 import anthropic
@@ -25,133 +34,218 @@ from pathlib import Path
 
 if os.environ.get("GITHUB_ACTIONS"):
     INDEX_PATH = Path("docs/index.html")
+    BRIEF_PATH = Path("docs/brief.json")
 else:
-    IDOP_DIR   = Path("C:/Users/idoph/OneDrive/IDOP")
-    INDEX_PATH = IDOP_DIR / "reports/docs/index.html"
+    _BASE       = Path("C:/Users/idoph/OneDrive/IDOP/reports/docs")
+    INDEX_PATH  = _BASE / "index.html"
+    BRIEF_PATH  = _BASE / "brief.json"
 
 TODAY = date.today().isoformat()
 MODEL = os.environ.get("DASHBOARD_MODEL", "claude-opus-4-6")
 
-# ── Previous-improvement cleanup ───────────────────────────────────────────────
+# ── Strip previous improvements ────────────────────────────────────────────────
 
-_IMP_BLOCK_RE = re.compile(
+_IMP_RE = re.compile(
     r'\n?<!-- AI-IMPROVEMENT:[\w-]+ -->.*?<!-- /AI-IMPROVEMENT:[\w-]+ -->',
     re.DOTALL,
 )
 
 def strip_old_improvements(html: str) -> str:
-    return _IMP_BLOCK_RE.sub("", html)
+    return _IMP_RE.sub("", html)
 
-# ── Dashboard context extractor ────────────────────────────────────────────────
+# ── Context extractor ──────────────────────────────────────────────────────────
 
 def extract_context(html: str) -> str:
     """
-    Produce a compact, text-only summary of what's currently on the dashboard.
-    Sent to Claude so it knows what already exists.
+    Produce a rich text summary of the current dashboard state.
+    Includes sections, widgets, market symbols, news, and any data gaps.
     """
-    def find_all(cls: str) -> list[str]:
-        return [s.strip() for s in re.findall(
-            rf'class="{re.escape(cls)}"[^>]*>([^<]+)', html
-        ) if s.strip()]
 
-    sections  = find_all("section-label")
-    mkt_names = list(dict.fromkeys(find_all("mkt-name")))  # preserve order, dedupe
-    headlines = find_all("news-title")[:8]
-    tickers   = find_all("tick-name")[:14]
+    def find(cls: str) -> list[str]:
+        return [s.strip() for s in
+                re.findall(rf'class="{re.escape(cls)}"[^>]*>([^<]+)', html)
+                if s.strip()]
+
+    sections  = find("section-label")
+    mkt_names = list(dict.fromkeys(find("mkt-name")))
+    headlines = find("news-title")[:10]
+    tickers   = find("tick-name")[:16]
+    summaries = find("news-summary")[:5]
+    tags      = list(dict.fromkeys(find("news-tag")))
 
     widgets = []
-    if "fg-card"       in html: widgets.append("Fear & Greed gauge")
-    if "heatmap-grid"  in html: widgets.append("Sector heatmap (S&P 500 ETFs)")
-    if "cal-strip"     in html: widgets.append("Economic calendar strip")
-    if "ticker-wrap"   in html: widgets.append("Live ticker tape")
-    if "spark"         in html: widgets.append("5-day sparklines")
-    if "tw-card"       in html: widgets.append("Twitter/X insight cards")
-    if "StockTwits"    in html: widgets.append("StockTwits posts")
+    if "fg-card"        in html: widgets.append("Fear & Greed gauge")
+    if "heatmap-grid"   in html: widgets.append("Sector heatmap (11 S&P ETFs)")
+    if "cal-strip"      in html: widgets.append("Economic calendar")
+    if "ticker-wrap"    in html: widgets.append("Animated ticker tape")
+    if "sparkline"      in html: widgets.append("5-day sparklines")
+    if "tw-card"        in html: widgets.append("Twitter/X cards")
+    if "StockTwits"     in html: widgets.append("StockTwits posts")
+    if "news-en"        in html: widgets.append("Original English tweet quotes")
+    if "ticker-badge"   in html: widgets.append("Ticker badges in news cards")
+    if "ticker-hl"      in html: widgets.append("Inline $TICKER bold highlights")
     if "ai-improvement" in html: widgets.append("AI improvement block (prev day)")
 
-    news_count = len(re.findall(r'class="news-title"', html))
-    il_count   = len(re.findall(r'class="il-card"', html))
+    us_news_count = len(re.findall(r'id="us-news"', html))
+    il_news_count = len(re.findall(r'class="il-card"', html))
+    card_count    = len(re.findall(r'class="news-card', html))
 
-    lines = [
+    # Check for notable absences
+    absent = []
+    if "top-movers"    not in html: absent.append("no top-movers table")
+    if "yield"         not in html: absent.append("no yield curve data")
+    if "put.*call"     not in html: absent.append("no put/call ratio")
+    if "dominance"     not in html: absent.append("no crypto dominance")
+    if "sentiment"     not in html: absent.append("no sentiment summary")
+    if "earnings-week" not in html: absent.append("no weekly earnings preview")
+
+    return "\n".join([
         f"DATE: {TODAY}",
-        f"SECTIONS:  {' | '.join(sections)}",
-        f"MARKET DATA: {', '.join(mkt_names)}",
-        f"WIDGETS PRESENT: {', '.join(widgets) or 'none'}",
-        f"TICKER TAPE ITEMS: {', '.join(tickers)}",
-        f"US NEWS CARDS: {news_count}   IL NEWS CARDS: {il_count}",
-        f"SAMPLE HEADLINES: {' / '.join(headlines)}",
-    ]
-    return "\n".join(lines)
+        f"SECTIONS:       {' | '.join(sections)}",
+        f"WIDGETS:        {', '.join(widgets) or 'none listed'}",
+        f"MARKET SYMBOLS: {', '.join(mkt_names)}",
+        f"TICKER TAPE:    {', '.join(tickers)}",
+        f"NEWS TAGS SEEN: {', '.join(tags)}",
+        f"CARD COUNT:     {card_count} total  (US section: {us_news_count}, IL: {il_news_count})",
+        f"SAMPLE HEADLINES:",
+        *[f"  • {h}" for h in headlines],
+        f"SAMPLE SUMMARIES:",
+        *[f"  – {s[:120]}" for s in summaries],
+        f"NOTABLE ABSENCES: {', '.join(absent) or 'none detected'}",
+    ])
 
-# ── Claude Agent ───────────────────────────────────────────────────────────────
+# ── Phase 1: Brief ─────────────────────────────────────────────────────────────
 
-_SYSTEM = """\
-You are a senior financial dashboard designer with deep expertise in:
-- Bloomberg Terminal / Refinitiv Eikon UX patterns
-- Real-time market-data visualization
-- Professional trader/investor workflows
-- Hebrew RTL web layouts
+_BRIEF_SYSTEM = """\
+You are a senior financial dashboard analyst — Bloomberg/Refinitiv level.
+Your task: write a structured professional brief about a Hebrew financial news dashboard.
 
-Your job: review a daily Hebrew financial news dashboard and decide whether to add
-ONE high-value improvement today.
-
-Return a single JSON object — no markdown, no extra text:
-
-If you have a good improvement:
+Return ONLY a JSON object, no markdown:
 {
-  "improvement_id": "descriptive-slug-YYYY-MM-DD",
-  "title_he": "קצר בעברית",
-  "reason_he": "1-2 משפטים בעברית למה זה מוסיף ערך למשתמש מקצועי",
-  "inject_after": "#heatmap",
-  "html": "<complete self-contained HTML>"
+  "overall_score": <1–10>,
+  "professional_assessment": "<2-3 sentences in English summarising the dashboard>",
+  "strengths": ["<strength 1>", "<strength 2>", ...],
+  "weaknesses": ["<weakness 1>", ...],
+  "missing_high_priority": ["<item 1>", ...],
+  "missing_medium_priority": ["<item 1>", ...],
+  "improvement_plan": [
+    {
+      "priority": "high"|"medium"|"low",
+      "title_he": "<short Hebrew section title>",
+      "description": "<what to build and why — 1-2 sentences>",
+      "inject_after": "#heatmap"|"#us-news"|"#israel"|"#us",
+      "tag": "DATA"|"VISUAL"|"UX"|"CONTENT"
+    }
+  ]
 }
 
-If the dashboard is already excellent and nothing meaningful to add:
-{ "improvement_id": null }
+Be honest and precise. Score 1-10 based on:
+- Data completeness (indices, sectors, macro, crypto, IL)
+- Visualization quality (charts, heatmaps, gauges)
+- News quality and depth
+- Professional usefulness for a trader/investor
+- Missing standard Bloomberg/terminal features
 
-═══════════════════════════════════════════════════
-HTML RULES (strictly enforced):
-• Use ONLY these existing CSS variables:
-    var(--bg)  var(--surface)  var(--card)  var(--border)
-    var(--accent)  var(--green)  var(--red)  var(--gold)
-    var(--purple)  var(--text)  var(--muted)  var(--white)
-• RTL layout — dir="rtl" on any container div
-• Hebrew labels for all UI text
-• Vanilla JS/CSS only — zero external libraries
-• Compact and data-dense — Bloomberg style, not decorative
-• If you need extra styles, embed a <style> block inside the html field
-• inject_after = CSS id of an existing section, e.g. "#heatmap", "#us-news", "#israel"
-═══════════════════════════════════════════════════
-HIGH-VALUE IDEAS (pick whichever fits best, avoid what's already there):
-- Top movers table: biggest % gainers / losers from the ticker tape today
-- Weekly earnings preview: companies reporting this week (date + ticker + consensus EPS)
-- VIX regime card: current VIX level vs 30-day avg + simple regime label
-- Bond yield curve mini-strip: 2Y / 5Y / 10Y / 30Y with change arrows
-- Currency strength meter: DXY + EUR/USD + GBP/USD + USD/JPY in a small row
-- Crypto dominance bar: BTC vs ETH vs others as a thin percentage bar
-- News sentiment summary: count of positive / negative / neutral from today's headlines
-- Analyst activity summary: upgrades / downgrades / initiations (if visible in headlines)
-- Options flow note: unusual options activity signals from StockTwits headlines
-═══════════════════════════════════════════════════
-Be honest: if nothing adds clear value, return null. Quality > quantity.
+Limit improvement_plan to the 3 most impactful items.
 """
 
-
-def run_agent(client: anthropic.Anthropic, context: str) -> dict | None:
+def run_brief_phase(client: anthropic.Anthropic, context: str) -> dict:
     resp = client.messages.create(
         model=MODEL,
-        max_tokens=4096,
-        system=_SYSTEM,
+        max_tokens=2048,
+        system=_BRIEF_SYSTEM,
         messages=[{"role": "user", "content":
-            f"Analyze this dashboard and suggest one improvement (or none).\n\n{context}"}],
+            f"Analyze this financial dashboard:\n\n{context}"}],
     )
-    raw = resp.content[0].text.strip()
-    if raw.startswith("```"):
-        raw = raw.split("```", 2)[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-    result = json.loads(raw.strip())
-    return result if result.get("improvement_id") else None
+    raw = _clean_json(resp.content[0].text)
+    return json.loads(raw)
+
+# ── Phase 2: Implement ─────────────────────────────────────────────────────────
+
+_IMPLEMENT_SYSTEM = """\
+You are a senior financial dashboard developer. You receive a professional brief
+about a Hebrew financial dashboard and your job is to BUILD the improvements as
+self-contained HTML.
+
+Return ONLY a JSON array of improvements (can be empty []):
+[
+  {
+    "improvement_id": "slug-YYYY-MM-DD",
+    "title_he": "<Hebrew section title>",
+    "reason_he": "<1-2 Hebrew sentences: why this helps a professional investor>",
+    "inject_after": "<CSS id of existing section, e.g. #heatmap>",
+    "html": "<complete self-contained HTML with inline styles/script if needed>"
+  }
+]
+
+STRICT HTML RULES:
+• CSS variables available: var(--bg) var(--surface) var(--card) var(--border)
+  var(--accent) var(--green) var(--red) var(--gold) var(--purple)
+  var(--text) var(--muted) var(--white)
+• RTL layout — add dir="rtl" to container divs
+• All labels in Hebrew
+• Vanilla JS/CSS only — no external libraries, no CDN imports
+• Bloomberg/WSJ compact style — data-dense, no decorative padding
+• Include <style> block inside html field if you need custom styles
+• Simulated/placeholder data is fine for structural components — the next
+  dashboard run will populate them with real data via news_dashboard.py
+
+BUILD only from the improvement_plan items marked high/medium priority.
+Skip low-priority items or if the improvement_plan is empty return [].
+Maximum 3 items. Quality > quantity.
+"""
+
+def run_implement_phase(client: anthropic.Anthropic,
+                        brief: dict, context: str) -> list[dict]:
+    plan_text = json.dumps(brief.get("improvement_plan", []), ensure_ascii=False, indent=2)
+    resp = client.messages.create(
+        model=MODEL,
+        max_tokens=6000,
+        system=_IMPLEMENT_SYSTEM,
+        messages=[{"role": "user", "content":
+            f"Date: {TODAY}\n\n"
+            f"Dashboard context:\n{context}\n\n"
+            f"Professional brief assessment:\n"
+            f"Score: {brief.get('overall_score')}/10\n"
+            f"Assessment: {brief.get('professional_assessment','')}\n"
+            f"Weaknesses: {', '.join(brief.get('weaknesses',[]))}\n"
+            f"Missing (high): {', '.join(brief.get('missing_high_priority',[]))}\n\n"
+            f"Improvement plan:\n{plan_text}\n\n"
+            "Build the HTML for the high/medium priority improvements. Return JSON array."}],
+    )
+    raw = _clean_json(resp.content[0].text)
+    result = json.loads(raw)
+    return result if isinstance(result, list) else []
+
+# ── Helpers ────────────────────────────────────────────────────────────────────
+
+def _clean_json(text: str) -> str:
+    text = text.strip()
+    if text.startswith("```"):
+        text = text.split("```", 2)[1]
+        if text.startswith("json"):
+            text = text[4:]
+    return text.strip()
+
+def _print_brief(brief: dict) -> None:
+    print("\n" + "─" * 52)
+    print("  PROFESSIONAL DASHBOARD BRIEF")
+    print("─" * 52)
+    print(f"  Score : {brief.get('overall_score')}/10")
+    print(f"  Assessment: {brief.get('professional_assessment','')}")
+    print(f"\n  Strengths:")
+    for s in brief.get("strengths", []):
+        print(f"    ✓ {s}")
+    print(f"\n  Weaknesses:")
+    for w in brief.get("weaknesses", []):
+        print(f"    ✗ {w}")
+    print(f"\n  Missing (high priority):")
+    for m in brief.get("missing_high_priority", []):
+        print(f"    ! {m}")
+    print(f"\n  Improvement plan:")
+    for p in brief.get("improvement_plan", []):
+        print(f"    [{p['priority'].upper()}] {p['title_he']} — {p['description']}")
+    print("─" * 52 + "\n")
 
 # ── HTML injection ─────────────────────────────────────────────────────────────
 
@@ -166,75 +260,73 @@ _DISMISS_JS = """
 function dismissImprovement(id){
   localStorage.setItem('ai_dismissed_'+id,'1');
   var el=document.querySelector('[data-improvement-id="'+id+'"]');
-  if(el){el.style.transition='opacity .35s';el.style.opacity='0';
-    setTimeout(function(){el.style.display='none'},380);}
+  if(el){el.style.transition='opacity .3s';el.style.opacity='0';
+    setTimeout(function(){el.style.display='none'},320);}
 }
 </script>"""
 
 _IMP_CSS = """
-  /* ── AI Improvement ── */
-  .imp-badge{font-size:.6rem;font-weight:700;letter-spacing:.08em;
+  /* ── AI Improvement blocks ── */
+  .imp-badge{font-size:.58rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
     color:var(--accent);background:rgba(14,165,233,.13);
     border:1px solid rgba(14,165,233,.3);border-radius:999px;
-    padding:.1rem .55rem;margin-left:.4rem}
+    padding:.1rem .55rem}
   .imp-reason{font-size:.78rem;color:var(--muted);font-style:italic;
-    line-height:1.55;margin-bottom:.9rem}
+    line-height:1.55;margin:.3rem 0 .9rem}
   .imp-dismiss{
-    margin-right:auto;background:none;
-    border:1px solid var(--border);border-radius:6px;
+    background:none;border:1px solid var(--border);border-radius:6px;
     color:var(--muted);cursor:pointer;font-size:.68rem;
-    padding:.22rem .6rem;transition:all .2s;white-space:nowrap;
+    padding:.22rem .65rem;transition:all .2s;white-space:nowrap;
+    margin-right:auto;
   }
   body[dir=rtl] .imp-dismiss{margin-right:0;margin-left:auto}
   .imp-dismiss:hover{border-color:var(--red);color:var(--red)}
 """
 
-
-def _inject_block(html: str, after_id: str, block: str) -> str:
-    """Insert block after the closing </section> of the element with id=after_id."""
-    needle = f'id="{after_id}"'
+def _inject_after_section(html: str, section_id: str, block: str) -> str:
+    needle = f'id="{section_id}"'
     idx = html.find(needle)
     if idx != -1:
         close = html.find("</section>", idx)
         if close != -1:
             pos = close + len("</section>")
             return html[:pos] + block + html[pos:]
-    # Fallback: before </div> that wraps the main container
     return html.replace("<footer>", block + "\n<footer>", 1)
 
 
-def inject_improvement(html: str, imp: dict) -> str:
-    imp_id   = imp["improvement_id"]
-    title    = imp["title_he"]
-    reason   = imp.get("reason_he", "")
-    content  = imp["html"]
-    after_id = imp.get("inject_after", "#us-news").lstrip("#")
+def inject_all_improvements(html: str, improvements: list[dict]) -> str:
+    for imp in improvements:
+        imp_id   = imp["improvement_id"]
+        title    = imp["title_he"]
+        reason   = imp.get("reason_he", "")
+        content  = imp["html"]
+        after_id = imp.get("inject_after", "#us-news").lstrip("#")
 
-    dismiss = (
-        f'<button class="imp-dismiss" '
-        f'onclick="dismissImprovement(\'{imp_id}\')" '
-        f'title="הסר תוסף זה מהתצוגה">✕ הסר</button>'
-    )
-    badge = '<span class="imp-badge">AI ✦</span>'
+        dismiss = (
+            f'<button class="imp-dismiss" '
+            f'onclick="dismissImprovement(\'{imp_id}\')" '
+            f'title="הסר מהתצוגה">✕ הסר</button>'
+        )
 
-    block = (
-        f'\n<!-- AI-IMPROVEMENT:{imp_id} -->\n'
-        f'<section class="section ai-improvement" '
-        f'data-improvement-id="{imp_id}" id="ai-{imp_id}">\n'
-        f'  <div class="section-label">{badge} {title} {dismiss}</div>\n'
-        + (f'  <p class="imp-reason">{reason}</p>\n' if reason else "")
-        + f'  {content}\n'
-        f'</section>\n'
-        f'<!-- /AI-IMPROVEMENT:{imp_id} -->\n'
-    )
-
-    html = _inject_block(html, after_id, block)
+        block = (
+            f'\n<!-- AI-IMPROVEMENT:{imp_id} -->\n'
+            f'<section class="section ai-improvement" '
+            f'data-improvement-id="{imp_id}" id="ai-{imp_id}">\n'
+            f'  <div class="section-label">'
+            f'<span class="imp-badge">AI ✦</span> {title} {dismiss}'
+            f'</div>\n'
+            + (f'  <p class="imp-reason">{reason}</p>\n' if reason else "")
+            + f'  {content}\n'
+            f'</section>\n'
+            f'<!-- /AI-IMPROVEMENT:{imp_id} -->\n'
+        )
+        html = _inject_after_section(html, after_id, block)
 
     # CSS — inject once
     if ".imp-dismiss" not in html:
         html = html.replace("</style>", _IMP_CSS + "</style>", 1)
 
-    # JS dismiss script — replace or append
+    # JS — replace or append once
     js_re = re.compile(
         r'<script id="ai-improvement-script">.*?</script>', re.DOTALL
     )
@@ -253,68 +345,88 @@ def main():
     print(f"\n{'='*52}")
     print(f"  AI Improvement Agent — {TODAY}")
     if dry_run:
-        print("  (dry-run mode — no files written)")
+        print("  (dry-run: analysis only, no files written)")
     print(f"{'='*52}\n")
 
-    # Validate env
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
-        print("✗  ANTHROPIC_API_KEY not set — aborting")
-        sys.exit(1)
+        print("✗  ANTHROPIC_API_KEY not set — aborting"); sys.exit(1)
 
     if not INDEX_PATH.exists():
-        print(f"✗  Dashboard not found: {INDEX_PATH}")
-        sys.exit(1)
+        print(f"✗  Not found: {INDEX_PATH}"); sys.exit(1)
 
-    # Read current dashboard
+    # ── Read & clean ──────────────────────────────────────────────────────────
     html = INDEX_PATH.read_text(encoding="utf-8")
     print(f"  Read {len(html):,} chars from {INDEX_PATH}")
 
-    # Remove yesterday's improvement
     clean_html = strip_old_improvements(html)
-    removed_chars = len(html) - len(clean_html)
-    if removed_chars > 0:
-        print(f"  ✓ Stripped previous improvement ({removed_chars} chars)")
+    removed = len(html) - len(clean_html)
+    if removed > 0:
+        print(f"  ✓ Stripped previous improvements ({removed} chars)")
 
-    # Extract what's on the page now
+    # ── Extract context ───────────────────────────────────────────────────────
     context = extract_context(clean_html)
-    print(f"\n  Dashboard context:\n  " + context.replace("\n", "\n  "))
+    print(f"\n  Dashboard context extracted:")
+    for line in context.splitlines()[:6]:
+        print(f"    {line}")
 
-    # Ask Claude
-    print("\n[ Claude ] Analyzing dashboard with professional eye...")
+    # ── Phase 1: Brief ────────────────────────────────────────────────────────
     client = anthropic.Anthropic(api_key=api_key)
-    try:
-        improvement = run_agent(client, context)
-    except Exception as e:
-        print(f"✗  Agent error: {e}")
-        sys.exit(1)
 
-    if not improvement:
-        print("\n  ✓ Dashboard looks complete — no improvement needed today.")
+    print("\n[ Phase 1 ] Writing professional brief...")
+    try:
+        brief = run_brief_phase(client, context)
+    except Exception as e:
+        print(f"✗  Brief phase failed: {e}"); sys.exit(1)
+
+    _print_brief(brief)
+
+    if not dry_run:
+        BRIEF_PATH.parent.mkdir(parents=True, exist_ok=True)
+        BRIEF_PATH.write_text(
+            json.dumps({"date": TODAY, **brief}, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        print(f"  ✓ Brief saved → {BRIEF_PATH}")
+
+    # ── Phase 2: Implement ────────────────────────────────────────────────────
+    plan = brief.get("improvement_plan", [])
+    actionable = [p for p in plan if p.get("priority") in ("high", "medium")]
+
+    if not actionable:
+        print("\n[ Phase 2 ] No high/medium-priority improvements — dashboard looks complete.")
         if not dry_run:
             INDEX_PATH.write_text(clean_html, encoding="utf-8")
-            print(f"  (saved cleaned html → {INDEX_PATH})")
         return
 
-    # Print suggestion
-    print(f"\n  ✦ Improvement suggested:")
-    print(f"    ID     : {improvement['improvement_id']}")
-    print(f"    Title  : {improvement['title_he']}")
-    print(f"    Reason : {improvement.get('reason_he', '')}")
-    print(f"    After  : {improvement.get('inject_after', '?')}")
+    print(f"\n[ Phase 2 ] Building {len(actionable)} improvement(s)...")
+    try:
+        improvements = run_implement_phase(client, brief, context)
+    except Exception as e:
+        print(f"✗  Implement phase failed: {e}"); sys.exit(1)
+
+    if not improvements:
+        print("  ✓ No HTML improvements generated — dashboard is complete.")
+        if not dry_run:
+            INDEX_PATH.write_text(clean_html, encoding="utf-8")
+        return
+
+    print(f"\n  ✦ {len(improvements)} improvement(s) ready:")
+    for imp in improvements:
+        print(f"    [{imp.get('improvement_id')}]  {imp.get('title_he')}")
+        print(f"     → {imp.get('reason_he','')}")
 
     if dry_run:
-        print("\n  [dry-run] HTML preview:")
-        print("  " + "-"*48)
-        print(improvement["html"][:800])
-        print("  " + "-"*48)
+        print("\n  [dry-run] Skipping file write. HTML preview of first block:")
+        print("  " + "─" * 48)
+        print(improvements[0]["html"][:800])
         return
 
-    # Inject and save
-    final_html = inject_improvement(clean_html, improvement)
+    # ── Inject & save ─────────────────────────────────────────────────────────
+    final_html = inject_all_improvements(clean_html, improvements)
     INDEX_PATH.write_text(final_html, encoding="utf-8")
     print(f"\n  ✓ Dashboard updated → {INDEX_PATH}")
-    print(f"  ✓ Dismiss button injected (uses localStorage)")
+    print(f"  ✓ {len(improvements)} section(s) injected, each with '✕ הסר' dismiss button\n")
 
 
 if __name__ == "__main__":
