@@ -432,17 +432,44 @@ _FINANCE_IMG_KW = {
     "NEWS":     "wall-street,stock-market,trading",
 }
 
-def _finance_img(tag: str = "", ticker: str = "") -> str:
-    """Return a relevant finance image URL based on tag or ticker."""
+def _finance_img(tag: str = "", ticker: str = "", seed_text: str = "") -> str:
+    """Return a relevant, unique finance image URL based on tag/ticker/title."""
     kw = _FINANCE_IMG_KW.get(tag, "wall-street,finance,stock-market")
-    seed = abs(hash(ticker or tag or "finance")) % 9000 + 1000
-    return f"https://loremflickr.com/400/200/{kw}?random={seed}"
+    # Use full seed_text (title) for uniqueness — each article gets a different image
+    seed = abs(hash(seed_text or ticker or tag or "finance")) % 9000 + 1000
+    return f"https://loremflickr.com/400/220/{kw}?random={seed}"
 
 def _picsum_url(seed_text: str) -> str:
     h = abs(hash(seed_text)) % 1000
     return f"https://picsum.photos/seed/{h}/400/200"
 
 _URL_RE = re.compile(r'https?://(?!nitter\.|twitter\.com|t\.co)[^\s\])"\']+', re.IGNORECASE)
+_IMG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
+_ORIG_RE = re.compile(r'href=["\'](/pic/orig/[^"\']+)["\']', re.IGNORECASE)
+
+def _extract_nitter_images(summary_html: str, instance: str) -> list:
+    """Extract media image URLs from Nitter RSS entry HTML.
+    Prefers /pic/orig/ (full-res) links; falls back to <img src>.
+    Returns list of absolute URLs (may be empty)."""
+    result = []
+    # 1. Try full-resolution links first (/pic/orig/...)
+    for path in _ORIG_RE.findall(summary_html):
+        url = instance + path
+        if url not in result:
+            result.append(url)
+    if result:
+        return result
+    # 2. Fall back to <img src="...">
+    for src in _IMG_RE.findall(summary_html):
+        # Skip profile avatars and tiny icons
+        low = src.lower()
+        if any(skip in low for skip in ("avatar", "profile_image", "emoji", "icon")):
+            continue
+        if src.startswith("/"):
+            src = instance + src
+        if src.startswith("http") and src not in result:
+            result.append(src)
+    return result
 
 def fetch_og_image(url: str) -> str:
     if not HAS_REQUESTS or not url or url == "#":
@@ -473,7 +500,7 @@ def fetch_og_image(url: str) -> str:
     return _picsum_url(url)
 
 def _best_image_url(item: dict) -> str:
-    """Pick the best URL to fetch an image from for a news item."""
+    """Pick the best URL to fetch an og:image from (used when no direct tweet_image)."""
     # Prefer article URL extracted from tweet body
     article = item.get("article_url", "")
     if article:
@@ -482,18 +509,53 @@ def _best_image_url(item: dict) -> str:
     return item.get("link", "")
 
 def fetch_all_images(news_items: list) -> list:
-    if not news_items: return []
-    urls = [_best_image_url(item) for item in news_items]
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
-        results = list(ex.map(fetch_og_image, urls))
-    # Replace picsum fallbacks with finance-themed images
+    """Fetch images for all news items.
+    Priority: (1) tweet_image (actual photo from tweet), (2) og:image from article,
+    (3) unique finance fallback based on title+tag+ticker.
+    """
+    if not news_items:
+        return []
+
+    # Separate items that already have a direct tweet image from those that need fetching
+    need_fetch_idx = []
+    need_fetch_urls = []
+    for i, item in enumerate(news_items):
+        if not item.get("tweet_image"):
+            need_fetch_idx.append(i)
+            need_fetch_urls.append(_best_image_url(item))
+
+    # Parallel og:image fetch only for items without tweet_image
+    fetched_map: dict = {}
+    if need_fetch_urls:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
+            og_results = list(ex.map(fetch_og_image, need_fetch_urls))
+        fetched_map = dict(zip(need_fetch_idx, og_results))
+
     final = []
-    for item, img in zip(news_items, results):
-        if "picsum" in img or not img:
-            img = _finance_img(item.get("tag",""), item.get("ticker",""))
-        final.append(img)
-    original = sum(1 for r in final if "loremflickr" not in r and "picsum" not in r)
-    print(f"  ✓ תמונות: {original} מאמרים + {len(final)-original} finance")
+    tweet_img_count = 0
+    article_img_count = 0
+    fallback_count = 0
+
+    for i, item in enumerate(news_items):
+        tweet_img = item.get("tweet_image", "")
+        if tweet_img:
+            # Use the actual photo/chart from the tweet
+            final.append(tweet_img)
+            tweet_img_count += 1
+        else:
+            img = fetched_map.get(i, "")
+            if img and "picsum" not in img:
+                final.append(img)
+                article_img_count += 1
+            else:
+                # Unique fallback: combine title + ticker + tag as seed
+                seed_text = (item.get("title_he") or item.get("title") or
+                             item.get("ticker") or item.get("body", ""))[:120]
+                img = _finance_img(item.get("tag", ""), item.get("ticker", ""), seed_text)
+                final.append(img)
+                fallback_count += 1
+
+    print(f"  ✓ תמונות: {tweet_img_count} tweet · {article_img_count} מאמרים · {fallback_count} fallback")
     return final
 
 # ── Twitter / Nitter RSS ──────────────────────────────────────────────────────
@@ -541,22 +603,28 @@ def _try_nitter_feed(handle: str, instance: str) -> list:
         if not parsed.entries:
             return []
         tweets = []
+        tweets = []
         for entry in parsed.entries[:5]:
             body = (entry.get("title") or "").strip()
             link = entry.get("link", "")
             date = entry.get("published", "")
             if body and len(body) > 5:
-                # Extract article URL from tweet body or summary (not twitter/nitter links)
+                # Extract article URL and tweet images from summary HTML
                 summary_html = entry.get("summary", "") or entry.get("description", "")
                 combined = body + " " + summary_html
+                # Article URL (non-twitter/nitter links in tweet body)
                 article_urls = _URL_RE.findall(combined)
                 article_url = article_urls[0][:300] if article_urls else ""
+                # Tweet media images (charts, tables, photos)
+                tweet_images = _extract_nitter_images(summary_html, instance)
+                tweet_image = tweet_images[0] if tweet_images else ""
                 tweets.append({
                     "handle":        handle,
                     "body":          body[:500],
                     "url":           link,
                     "date":          date,
                     "article_url":   article_url,
+                    "tweet_image":   tweet_image,
                     "relative_time": _relative_time(date),
                 })
         return tweets
@@ -786,9 +854,21 @@ def fallback_data(tw_tweets: list, il_raw: list) -> dict:
             except Exception: pass
         return text
     return {
-        "us_news": [{"title_he": tr(t["body"][:120]), "summary_he": "", "ticker": "",
-                     "source": f'@{t["handle"]}', "link": t.get("url", "#"), "tag": "NEWS"}
-                    for t in tw_tweets if is_finance_tweet(t.get("body", ""))],
+        "us_news": [
+            {
+                "title_he":    tr(t["body"][:120]),
+                "summary_he":  "",
+                "ticker":      "",
+                "source":      f'@{t["handle"]}',
+                "link":        t.get("url", "#"),
+                "tag":         "NEWS",
+                "article_url": t.get("article_url", ""),
+                "tweet_image": t.get("tweet_image", ""),
+                "relative_time": t.get("relative_time", ""),
+                "sentiment":   "neutral",
+            }
+            for t in tw_tweets if is_finance_tweet(t.get("body", ""))
+        ],
         "israel_news": [{"title_he": tr(i["title"]), "summary_he": "", "source": i["source"],
                          "link": i["link"], "tag": "כללי"} for i in il_raw],
     }
@@ -1451,17 +1531,35 @@ def main():
             news_data = run_enrichment_agent(client, tw_feed, il_raw)
             for i, n in enumerate(news_data.get("israel_news", [])):
                 if i < len(il_raw) and not n.get("link"): n["link"] = il_raw[i]["link"]
-            # Inject relative_time from original tweets by matching source handle
+            # Build lookup maps from original tweets: url → tweet_image, handle → relative_time
+            url_to_img = {}
             handle_to_rt = {}
             for t in tw_feed:
+                tw_url = t.get("url", "")
+                if tw_url and t.get("tweet_image") and tw_url not in url_to_img:
+                    url_to_img[tw_url] = t["tweet_image"]
                 h = f'@{t["handle"]}'.lower()
                 if h not in handle_to_rt and t.get("relative_time"):
                     handle_to_rt[h] = t["relative_time"]
+
             for n in news_data.get("us_news", []):
                 src = n.get("source", "").lower()
+                link = n.get("link", "")
+                # Inject tweet_image: prefer exact URL match, else match article_url
+                if not n.get("tweet_image"):
+                    if link in url_to_img:
+                        n["tweet_image"] = url_to_img[link]
+                    else:
+                        # Try matching any tweet whose article_url matches
+                        for t in tw_feed:
+                            if t.get("article_url") and t["article_url"] == link and t.get("tweet_image"):
+                                n["tweet_image"] = t["tweet_image"]
+                                break
+                # Inject relative_time
                 if not n.get("relative_time") and src in handle_to_rt:
                     n["relative_time"] = handle_to_rt[src]
-            print("✓ תרגום הושלם")
+            has_img = sum(1 for n in news_data.get("us_news", []) if n.get("tweet_image"))
+            print(f"✓ תרגום הושלם — {has_img} ציוצים עם תמונה מקורית")
         except Exception as e:
             print(f"✗ Claude נכשל: {e} — עובר ל-fallback")
     else:
