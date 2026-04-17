@@ -442,13 +442,7 @@ def _picsum_url(seed_text: str) -> str:
     h = abs(hash(seed_text)) % 1000
     return f"https://picsum.photos/seed/{h}/400/200"
 
-_URL_RE    = re.compile(r'https?://(?!nitter\.|twitter\.com|t\.co)[^\s\])"\']+', re.IGNORECASE)
-_TICKER_RE = re.compile(r'(\$[A-Z]{1,5})\b')
-
-
-def bold_tickers(text: str) -> str:
-    """Wrap $TICKER symbols with a highlighted <strong> span."""
-    return _TICKER_RE.sub(r'<strong class="ticker-hl">\1</strong>', text)
+_URL_RE = re.compile(r'https?://(?!nitter\.|twitter\.com|t\.co)[^\s\])"\']+', re.IGNORECASE)
 
 def fetch_og_image(url: str) -> str:
     if not HAS_REQUESTS or not url or url == "#":
@@ -504,6 +498,39 @@ def fetch_all_images(news_items: list) -> list:
 
 # ── Twitter / Nitter RSS ──────────────────────────────────────────────────────
 
+def _parse_tweet_date(date_str: str):
+    """Parse Nitter RSS date string to an aware UTC datetime. Returns None on failure."""
+    if not date_str:
+        return None
+    for fmt in ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT"]:
+        try:
+            dt = datetime.strptime(date_str, fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt
+        except ValueError:
+            pass
+    return None
+
+
+def _relative_time(date_str: str) -> str:
+    """Convert a date string to a Hebrew relative time label."""
+    dt = _parse_tweet_date(date_str)
+    if not dt:
+        return ""
+    diff = datetime.now(timezone.utc) - dt
+    total_sec = diff.total_seconds()
+    if total_sec < 0:
+        return "עכשיו"
+    h = int(total_sec // 3600)
+    m = int((total_sec % 3600) // 60)
+    if h == 0:
+        return f"לפני {m}ד׳" if m > 0 else "עכשיו"
+    if h < 24:
+        return f"לפני {h}ש׳"
+    return f"לפני {h // 24}י׳"
+
+
 def _try_nitter_feed(handle: str, instance: str) -> list:
     """Try fetching RSS for one handle from one Nitter instance. Returns [] on failure."""
     if not HAS_FEEDPARSER:
@@ -514,7 +541,7 @@ def _try_nitter_feed(handle: str, instance: str) -> list:
         if not parsed.entries:
             return []
         tweets = []
-        for entry in parsed.entries[:3]:
+        for entry in parsed.entries[:5]:
             body = (entry.get("title") or "").strip()
             link = entry.get("link", "")
             date = entry.get("published", "")
@@ -525,11 +552,12 @@ def _try_nitter_feed(handle: str, instance: str) -> list:
                 article_urls = _URL_RE.findall(combined)
                 article_url = article_urls[0][:300] if article_urls else ""
                 tweets.append({
-                    "handle":      handle,
-                    "body":        body[:500],
-                    "url":         link,
-                    "date":        date,
-                    "article_url": article_url,
+                    "handle":        handle,
+                    "body":          body[:500],
+                    "url":           link,
+                    "date":          date,
+                    "article_url":   article_url,
+                    "relative_time": _relative_time(date),
                 })
         return tweets
     except Exception:
@@ -546,15 +574,30 @@ def _fetch_one_handle(handle: str) -> list:
 
 
 def fetch_twitter_feeds(handles: list) -> list:
-    """Fetch tweets for all handles in parallel via Nitter RSS."""
+    """Fetch tweets for all handles in parallel via Nitter RSS. Filters to last 24h, sorted newest first."""
     if not handles:
         return []
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
         results = list(ex.map(_fetch_one_handle, handles))
     all_tweets = [t for sub in results for t in sub]
     ok = sum(1 for sub in results if sub)
-    print(f"  ✓ Twitter/Nitter: {ok}/{len(handles)} חשבונות · {len(all_tweets)} ציוצים")
-    return all_tweets
+
+    # Filter: keep only tweets from last 24 hours
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    recent = []
+    for t in all_tweets:
+        dt = _parse_tweet_date(t.get("date", ""))
+        if dt is None or dt >= cutoff:
+            recent.append(t)
+
+    # Sort newest first
+    def _dt_key(t):
+        dt = _parse_tweet_date(t.get("date", ""))
+        return dt if dt is not None else datetime.min.replace(tzinfo=timezone.utc)
+    recent.sort(key=_dt_key, reverse=True)
+
+    print(f"  ✓ Twitter/Nitter: {ok}/{len(handles)} חשבונות · {len(recent)}/{len(all_tweets)} ציוצים (24ש׳)")
+    return recent
 
 
 # ── StockTwits & Ticker News ───────────────────────────────────────────────────
@@ -673,44 +716,36 @@ def is_finance_tweet(body: str) -> bool:
 
 # ── Claude Enrichment Agent ────────────────────────────────────────────────────
 
-def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: list,
-                          ticker_news_raw: list = None) -> dict:
+def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: list) -> dict:
     il_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
-
-    ticker_section = ""
-    if ticker_news_raw:
-        tn_lines = "\n".join(
-            f"- [{n['ticker']}] {n['title']} ({n['source']})" for n in ticker_news_raw[:15]
-        )
-        ticker_section = f"\n\nחדשות מניות ספציפיות ({len(ticker_news_raw[:15])}):\n{tn_lines}"
 
     system = f"""אתה עיתונאי פיננסי בכיר ומומחה לחדשות ישראל.
 היום: {TODAY_HE} ({TODAY}).
 החזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
 
-אתה כתב פיננסי בכיר — סגנונך: ה-Wall Street Journal בעברית.
+אתה כתב פיננסי בכיר — סגנונך: ה-Wall Street Journal בעברית, עם חדות Bloomberg.
 
-חלק א — ציוצי Twitter + חדשות טיקרים (us_news):
-1. סנן אגרסיבי: כלול רק ציוצים ישירות על מניות ספציפיות, קריפטו, נתוני מאקרו קריטיים.
-   העדף ציוצים עם: % שינוי, מחיר יעד, EPS, הכנסות, דוחות רבעוניים, שדרוגים/שנמוכים, M&A.
-   דלג על דעות כלליות, שאלות, "מה דעתכם", ניתוחים מעורפלים.
-2. בחר עד 10 פריטים משמעותיים.
-3. לכל פריט — אל תתרגם ישירות. במקום זאת:
-   • כותרת עברית (title_he): חדה, ממוקדת. אם יש טיקר ספציפי — פתח בו (לדוג': "$NVDA: רווח Q1 עקף ציפיות ב-18%").
-     כלול נתונים כמותיים בכותרת עצמה בכל הזדמנות (%, $, מחיר יעד).
-   • סיכום (summary_he): 2-3 משפטים מקצועיים. חובה לחלץ ולכלול כל מספר/סטטיסטיקה מהציוץ
-     (EPS, הכנסות, מחיר יעד, % שינוי, שווי שוק, תחזית). הסבר את המשמעות למשקיע.
-   • body_en: הטקסט האנגלי המקורי, עד 200 תווים.
+חלק א — ציוצי Twitter (us_news):
+1. סנן: כלול רק ציוצים על מניות, קריפטו, מאקרו/מיקרו כלכלי בארה"ב. דלג על כל השאר.
+2. בחר עד 10 ציוצים המשמעותיים ביותר — תעדף ציוצים עדכניים (מוקדמים ברשימה).
+3. לכל ציוץ — אל תתרגם ישירות. במקום זאת:
+   • הבן את המסר הכלכלי/פיננסי של הציוץ
+   • כתוב כותרת עברית חדה עד 80 תווים כפי שבלומברג היה כותב — לא משפט שלם, כותרת!
+     דוגמאות טובות: "נבידיה מכה תחזיות ב-12% — הכנסות AI מכפילות" / "Fed מותיר ריבית ב-4.5% בהחלטה פה אחד"
+     דוגמאות רעות: "נבידיה פרסמה את הדוח הרבעוני שלה" / "הבנק הפדרלי קיים ישיבה"
+   • כתוב סיכום מקצועי של 1-2 משפטים בעברית שמסביר את המשמעות הפיננסית (summary_he)
+   • שמור את הטקסט האנגלי המקורי של הציוץ ב-body_en (עד 200 תווים)
 4. זהה טיקר ($AAPL, $BTC וכד׳). אם אין — השאר ריק.
 5. תגית: EARNINGS / MACRO / FED / TECH / M&A / ENERGY / CRYPTO / BANKS / NEWS
-6. link = כתובת המקור. source = "@handle" או שם המקור.
+6. link = כתובת הציוץ המקורי. source = "@handle".
+7. sentiment: "bullish" אם הידיעה חיובית לשוק, "bearish" אם שלילית, "neutral" אם ניטרלי.
 
 חלק ב — חדשות ישראל (israel_news):
 כותרת עברית + סיכום 2-3 משפטים מקצועיים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה.
 
 {{
   "us_news": [
-    {{"title_he":"כותרת עם נתונים","summary_he":"סיכום עם סטטיסטיקות","body_en":"original text...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
+    {{"title_he":"כותרת בלומברג חדה עד 80 תווים","summary_he":"הסבר פיננסי קצר","body_en":"original tweet text...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL","sentiment":"bullish"}}
   ],
   "israel_news": [
     {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
@@ -727,9 +762,7 @@ JSON בלבד."""
     messages = [{"role": "user", "content":
         f"עבד נתונים ל-{TODAY_HE}.\n\n"
         f"Twitter ({len(tw_sample)} ציוצים):\n{json.dumps(tw_sample, ensure_ascii=False)}\n\n"
-        f"ישראל ({len(il_raw)}):\n{il_titles}"
-        + (f"\n\nחדשות מניות ספציפיות:{ticker_section}" if ticker_section else "")
-        + "\n\nהחזר JSON."}]
+        f"ישראל ({len(il_raw)}):\n{il_titles}\n\nהחזר JSON."}]
 
     print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude...")
     response = client.messages.create(model=MODEL, max_tokens=MAX_TOKENS, system=system, messages=messages)
@@ -932,46 +965,42 @@ def _wa_link(title: str, link: str) -> str:
 
 
 def build_us_news_card(n: dict, idx: int) -> str:
-    tag    = n.get("tag", "NEWS")
+    tag       = n.get("tag", "NEWS")
     color, bg = TAG_COLORS_US.get(tag, TAG_COLORS_US["NEWS"])
-    link       = n.get("link", "#")
-    ticker     = n.get("ticker", "")
-    body_en    = n.get("body_en", "")
-    summary_he = n.get("summary_he", "")
+    link      = n.get("link", "#")
+    ticker    = n.get("ticker", "")
+    body_en   = n.get("body_en", "")
+    sentiment = n.get("sentiment", "neutral")
+    image     = n.get("image", "")
+    rel_time  = n.get("relative_time", "")
 
-    # Bold $TICKER symbols in all text fields
-    title_rendered   = bold_tickers(n.get("title_he", ""))
-    summary_rendered = bold_tickers(summary_he) if summary_he else ""
-    body_rendered    = bold_tickers(body_en) if body_en else ""
-
-    ticker_badge = f'<span class="ticker-badge">{bold_tickers(ticker)}</span>' if ticker else ""
-    en_block     = (f'<div class="news-en" dir="ltr">{body_rendered}</div>' if body_en else "")
+    ticker_badge = f'<span class="ticker-badge">{ticker}</span>' if ticker else ""
+    en_block     = (f'<blockquote class="news-en" dir="ltr">{body_en[:200]}</blockquote>' if body_en else "")
     read_more    = f'<a href="{link}" target="_blank" class="read-more">מקור ←</a>' if link and link != "#" else ""
-    wa           = _wa_link(n.get("title_he", ""), link) if link and link != "#" else ""
+    wa           = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
+    time_span    = f'<span class="card-time">{rel_time}</span>' if rel_time else ""
 
-    source    = n.get("source", "")
-    byline    = f'<div class="news-byline">{source}</div>' if source else ""
+    img_html = ""
+    if image:
+        img_html = (
+            f'<div class="card-img-wrap">'
+            f'<img class="news-img" src="{image}" alt="" onerror="this.style.display=\'none\'" loading="lazy"/>'
+            f'<div class="card-img-overlay"></div>'
+            f'<span class="card-num">{idx:02d}</span>'
+            f'</div>'
+        )
+
     return (
-        f'<div class="news-item">'
-        f'<div class="news-card il-card">'
-        f'<div class="news-body">'
-        # ── Header: context row ──
-        + f'<div class="news-header">'
-        + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
-        + ticker_badge
-        + f'<span class="news-num-badge">#{idx:02d}</span>'
-        + f'</div>'
-        # ── Main content ──
-        + f'<div class="news-title" dir="rtl">{title_rendered}</div>'
-        + (f'<div class="news-summary" dir="rtl">{summary_rendered}</div>' if summary_he else "")
+        f'<article class="news-card" data-sentiment="{sentiment}">'
+        + img_html
+        + f'<div class="card-content">'
+        + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{ticker_badge}<span class="sentiment-dot {sentiment}"></span></div>'
+        + f'<h3 class="news-title" dir="rtl">{n["title_he"]}</h3>'
+        + (f'<p class="news-summary" dir="rtl">{n["summary_he"]}</p>' if n.get("summary_he") else "")
         + en_block
-        # ── Footer: actions ──
-        + f'<div class="news-footer">{read_more} {wa}</div>'
+        + f'<div class="card-meta"><span class="card-source">{n.get("source","")}</span>{time_span}{read_more}{wa}</div>'
         + f'</div>'
-        + f'</div>'
-        # ── Byline below card ──
-        + byline
-        + f'</div>'
+        + f'</article>'
     )
 
 
@@ -980,49 +1009,43 @@ def build_il_news_card(n: dict) -> str:
     color, bg = TAG_COLORS_IL.get(tag, TAG_COLORS_IL["כללי"])
     link  = n.get("link", "#")
     image = n.get("image", "")
-    img_html  = (f'<img class="news-img" src="{image}" alt="" onerror="this.style.display=\'none\'" loading="lazy"/>'
-                 if image else "")
+    img_html = ""
+    if image:
+        img_html = (
+            f'<div class="card-img-wrap">'
+            f'<img class="news-img" src="{image}" alt="" onerror="this.style.display=\'none\'" loading="lazy"/>'
+            f'<div class="card-img-overlay"></div>'
+            f'</div>'
+        )
     read_more = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
     wa        = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
-    source = n.get("source", "")
-    byline = f'<div class="news-byline">{source}</div>' if source else ""
     return (
-        f'<div class="news-item">'
         f'<div class="news-card il-card">'
-        f'<div class="news-body">'
         + img_html
-        # ── Header: context row ──
-        + f'<div class="news-header">'
-        + f'<span class="news-tag" style="color:{color};background:{bg}">{tag}</span>'
+        + f'<div class="card-content">'
+        + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span></div>'
+        + f'<h3 class="news-title">{n["title_he"]}</h3>'
+        + (f'<p class="news-summary">{n["summary_he"]}</p>' if n.get("summary_he") else "")
+        + f'<div class="card-meta"><span class="card-source">{n.get("source","")}</span>{read_more}{wa}</div>'
         + f'</div>'
-        # ── Main content ──
-        + f'<div class="news-title">{n["title_he"]}</div>'
-        + (f'<div class="news-summary">{n["summary_he"]}</div>' if n.get("summary_he") else "")
-        # ── Footer: actions ──
-        + f'<div class="news-footer">{read_more} {wa}</div>'
-        + f'</div>'
-        + f'</div>'
-        # ── Byline below card ──
-        + byline
         + f'</div>'
     )
 
 
 def build_twitter_card(tweet: dict) -> str:
-    handle = tweet.get("handle", "")
-    body   = tweet.get("body", "")
-    url    = tweet.get("url", "#")
-    date   = tweet.get("date", "")
-    # Shorten date: keep only first part (e.g. "Mon, 05 Apr 2026 14:30:00")
-    date_short = date[:16] if date else ""
-    read_more  = f'<a href="{url}" target="_blank" class="read-more">X ←</a>' if url and url != "#" else ""
-    wa         = _wa_link(body, url) if url and url != "#" else ""
+    handle   = tweet.get("handle", "")
+    body     = tweet.get("body", "")
+    url      = tweet.get("url", "#")
+    rel_time = tweet.get("relative_time", "")
+    read_more = f'<a href="{url}" target="_blank" class="read-more">X ←</a>' if url and url != "#" else ""
+    wa        = _wa_link(body, url) if url and url != "#" else ""
+    time_span = f'<span class="card-time">{rel_time}</span>' if rel_time else ""
     return (
-        f'<div class="news-card il-card tw-card">'
-        f'<div class="news-body">'
-        f'<span class="tw-handle">@{handle}</span>'
-        f'<div class="news-title">{body}</div>'
-        f'<div class="news-meta">{date_short} {read_more} {wa}</div>'
+        f'<div class="news-card tw-card">'
+        f'<div class="card-content">'
+        f'<div class="card-top"><span class="tw-handle">@{handle}</span></div>'
+        f'<h3 class="news-title" dir="ltr">{body}</h3>'
+        f'<div class="card-meta">{time_span}{read_more}{wa}</div>'
         f'</div>'
         f'</div>'
     )
@@ -1056,21 +1079,22 @@ def build_html(data: dict) -> str:
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>לוח חדשות — {TODAY}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 <style>
   :root {{
-    --bg:      #070b0f;
-    --surface: #0e1419;
-    --card:    #131a22;
-    --border:  #1e2a35;
-    --accent:  #0ea5e9;
-    --green:   #22c55e;
-    --red:     #ef4444;
+    --bg:      #080c10;
+    --surface: #0d1117;
+    --card:    #111820;
+    --border:  #1c2a38;
+    --accent:  #06b6d4;
+    --green:   #10b981;
+    --red:     #f43f5e;
     --gold:    #f59e0b;
-    --purple:  #a855f7;
-    --text:    #cbd5e1;
-    --muted:   #64748b;
-    --white:   #f1f5f9;
+    --purple:  #8b5cf6;
+    --text:    #94a3b8;
+    --muted:   #475569;
+    --white:   #f0f6ff;
   }}
   body.light {{
     --bg:      #f8fafc;
@@ -1078,10 +1102,10 @@ def build_html(data: dict) -> str:
     --card:    #ffffff;
     --border:  #e2e8f0;
     --accent:  #0284c7;
-    --green:   #16a34a;
-    --red:     #dc2626;
+    --green:   #059669;
+    --red:     #e11d48;
     --gold:    #d97706;
-    --purple:  #9333ea;
+    --purple:  #7c3aed;
     --text:    #334155;
     --muted:   #94a3b8;
     --white:   #0f172a;
@@ -1141,7 +1165,7 @@ def build_html(data: dict) -> str:
   .hero::before{{content:'';position:absolute;top:-60px;left:50%;transform:translateX(-50%);
     width:600px;height:200px;background:radial-gradient(ellipse,rgba(14,165,233,.12) 0%,transparent 70%);pointer-events:none}}
   .hero-label{{font-size:.65rem;font-weight:700;letter-spacing:.35em;color:var(--accent);text-transform:uppercase;margin-bottom:.6rem}}
-  .hero h1{{font-size:2.2rem;font-weight:900;color:var(--white);letter-spacing:-.03em;line-height:1.1}}
+  .hero h1{{font-family:'Heebo',sans-serif;font-size:clamp(1.8rem,5vw,3rem);font-weight:900;color:var(--white);letter-spacing:-.04em;line-height:1.1}}
   .hero h1 span{{color:var(--accent)}}
   .hero-sub{{color:var(--muted);font-size:.88rem;margin-top:.5rem}}
   .hero-date{{display:inline-flex;align-items:center;gap:.5rem;margin-top:1rem;
@@ -1168,10 +1192,10 @@ def build_html(data: dict) -> str:
   /* ── Market Strips ── */
   .mkt-strip{{display:flex;flex-wrap:wrap;gap:.8rem;margin-bottom:.5rem}}
   .mkt-card{{background:var(--card);border:1px solid var(--border);border-radius:10px;
-    padding:.9rem 1.1rem;min-width:120px;flex:1;transition:border-color .2s}}
-  .mkt-card:hover{{border-color:var(--accent)}}
+    padding:.9rem 1.1rem;min-width:120px;flex:1;transition:border-color .2s,background .2s}}
+  .mkt-card:hover{{border-color:var(--accent);background:linear-gradient(135deg,var(--card),rgba(6,182,212,.04))}}
   .mkt-name{{font-size:.68rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.25rem}}
-  .mkt-value{{font-size:1.4rem;font-weight:700;color:var(--white);font-variant-numeric:tabular-nums}}
+  .mkt-value{{font-size:1.4rem;font-weight:700;color:var(--white);font-variant-numeric:tabular-nums;font-family:'Inter',monospace}}
   .mkt-row{{display:flex;align-items:center;justify-content:space-between;margin-top:.2rem}}
   .mkt-change{{font-size:.82rem;font-weight:600}}
   .spark{{opacity:.8}}
@@ -1195,75 +1219,76 @@ def build_html(data: dict) -> str:
   .heat-chg{{font-size:.78rem;font-weight:700}}
 
   /* ── News Cards ── */
-  .news-list{{display:flex;flex-direction:column;gap:.85rem}}
-  .news-item{{display:flex;flex-direction:column}}
-  .news-byline{{font-size:.68rem;color:var(--muted);padding:.28rem .6rem;text-align:right;letter-spacing:.01em}}
-  .news-card{{background:var(--card);border:1px solid var(--border);border-radius:12px;
-    padding:1.2rem 1.4rem;transition:border-color .2s}}
-  .news-card:hover{{border-color:var(--accent)}}
-  .news-top-row{{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-bottom:.2rem}}
+  .news-list{{display:flex;flex-direction:column;gap:1rem}}
+  .news-card{{
+    background:var(--card);border:1px solid var(--border);border-radius:14px;
+    overflow:hidden;
+    transition:transform .2s,border-color .2s,box-shadow .2s;
+  }}
+  .news-card:hover{{
+    transform:translateY(-2px);
+    border-color:var(--accent);
+    box-shadow:0 8px 32px rgba(6,182,212,.08);
+  }}
+  /* Sentiment left border (RTL = border-right) */
+  .news-card[data-sentiment="bullish"]{{border-right:3px solid var(--green)}}
+  .news-card[data-sentiment="bearish"]{{border-right:3px solid var(--red)}}
+  .news-card[data-sentiment="neutral"]{{border-right:3px solid var(--border)}}
+
+  .il-card{{border-right:3px solid var(--border)}}
+
+  /* Image with gradient overlay */
+  .card-img-wrap{{position:relative;height:165px;overflow:hidden;flex-shrink:0}}
+  .news-img{{width:100%;height:100%;object-fit:cover;display:block;background:var(--border)}}
+  .card-img-overlay{{
+    position:absolute;inset:0;
+    background:linear-gradient(to bottom,transparent 40%,var(--card) 100%);
+  }}
+  .card-num{{
+    position:absolute;top:.7rem;left:.8rem;
+    font-size:.65rem;font-weight:800;color:rgba(240,246,255,.35);
+    font-family:'Inter',monospace;letter-spacing:.12em;
+  }}
+  .card-content{{padding:1rem 1.3rem 1.1rem}}
+  .card-top{{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-bottom:.45rem}}
   .news-tag{{display:inline-block;padding:.12rem .55rem;border-radius:4px;
     font-size:.65rem;font-weight:700;letter-spacing:.05em}}
-  .news-title{{font-size:1.05rem;font-weight:700;color:var(--white);margin:.3rem 0 .4rem;line-height:1.45}}
+  .ticker-badge{{
+    display:inline-block;
+    background:rgba(6,182,212,.15);
+    color:#22d3ee;
+    border:1px solid rgba(6,182,212,.35);
+    border-radius:5px;
+    padding:.12rem .55rem;
+    font-size:.75rem;
+    font-weight:800;
+    font-family:'Inter',monospace;
+    letter-spacing:.04em;
+  }}
+  /* Sentiment dot */
+  .sentiment-dot{{width:7px;height:7px;border-radius:50%;margin-right:auto;flex-shrink:0}}
+  .sentiment-dot.bullish{{background:var(--green);box-shadow:0 0 6px var(--green)}}
+  .sentiment-dot.bearish{{background:var(--red);box-shadow:0 0 6px var(--red)}}
+  .sentiment-dot.neutral{{background:var(--muted)}}
+
+  .news-title{{font-family:'Heebo',sans-serif;font-size:1.06rem;font-weight:800;
+    color:var(--white);line-height:1.42;margin-bottom:.35rem}}
   .news-summary{{font-size:.86rem;color:var(--text);margin-bottom:.5rem;line-height:1.65}}
   .news-en{{
-    font-size:.78rem;color:var(--muted);font-style:italic;
-    border-right:3px solid var(--border);
-    padding:.35rem .7rem;margin:.4rem 0;
-    line-height:1.55;font-family:'Inter',sans-serif;
+    font-size:.74rem;color:var(--muted);font-style:italic;
+    border-right:2px solid var(--border);
+    padding:.3rem .65rem;margin:.4rem 0 .55rem;
+    line-height:1.5;font-family:'Inter',sans-serif;
     text-align:left;
   }}
-  .news-meta{{font-size:.72rem;color:var(--muted);display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}}
+  .card-meta{{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.72rem;color:var(--muted)}}
+  .card-source{{font-weight:600;color:var(--accent)}}
+  .card-time{{font-variant-numeric:tabular-nums;color:var(--muted)}}
+  .news-meta{{font-size:.72rem;color:var(--muted);display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;padding:.9rem 1.3rem}}
   .read-more{{color:var(--accent);text-decoration:none;font-weight:600;font-size:.72rem}}
   .read-more:hover{{text-decoration:underline}}
   .wa-btn{{color:#25d366;display:inline-flex;align-items:center;opacity:.8;transition:opacity .2s}}
   .wa-btn:hover{{opacity:1}}
-  .news-img{{width:100%;height:175px;object-fit:cover;border-radius:8px;
-    margin-bottom:.7rem;display:block;background:var(--border)}}
-  .ticker-badge{{
-    display:inline-block;
-    background:rgba(14,165,233,.18);
-    color:#38bdf8;
-    border:1px solid rgba(56,189,248,.45);
-    border-radius:6px;
-    padding:.25rem .75rem;
-    font-size:.95rem;
-    font-weight:800;
-    font-family:monospace;
-    letter-spacing:.04em;
-    margin-bottom:.4rem;
-    margin-right:.3rem;
-  }}
-  /* ── Ticker highlight inside text ── */
-  .ticker-hl{{
-    color:#38bdf8;
-    font-weight:800;
-    font-family:monospace;
-    font-style:normal;
-    letter-spacing:.02em;
-  }}
-
-  /* ── News card header / footer ── */
-  .news-header{{
-    display:flex;align-items:center;gap:.45rem;flex-wrap:wrap;
-    padding-bottom:.7rem;
-    border-bottom:1px solid var(--border);
-    margin-bottom:.65rem;
-  }}
-  .news-num-badge{{
-    font-size:.7rem;font-weight:800;color:var(--muted);
-    background:rgba(100,116,139,.12);border-radius:4px;
-    padding:.1rem .45rem;font-variant-numeric:tabular-nums;
-    margin-right:auto;
-  }}
-  .news-footer{{
-    display:flex;align-items:center;gap:.5rem;
-    padding-top:.65rem;
-    border-top:1px solid var(--border);
-    margin-top:.65rem;
-    font-size:.72rem;
-  }}
-
   /* ── Twitter Cards ── */
   .tw-card{{border-right:3px solid rgba(14,165,233,.35)}}
   .tw-handle{{
@@ -1287,10 +1312,11 @@ def build_html(data: dict) -> str:
   @media(max-width:600px){{
     .hero h1{{font-size:1.65rem}}
     .mkt-card{{min-width:105px}}
-    .news-card{{grid-template-columns:1fr}}
-    .news-num{{display:none}}
+    .card-img-wrap{{height:130px}}
     .heatmap-grid{{grid-template-columns:repeat(3,1fr)}}
     .fg-il-row{{flex-direction:column}}
+    .cal-strip{{gap:.5rem}}
+    .cal-pill{{min-width:120px}}
   }}
 </style>
 </head>
@@ -1403,36 +1429,38 @@ def main():
     il_raw = filter_headlines(il_raw_all, is_il_relevant, 10)
     print(f"\n  נבחרו: {len(il_raw)} ישראל")
 
-    # 2. Market data + Sparklines + Fear&Greed + Twitter + StockTwits trending — in parallel
-    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed, Twitter ו-StockTwits במקביל...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
-        fut_mkt     = ex.submit(fetch_market_data)
-        fut_spark   = ex.submit(fetch_sparklines)
-        fut_fg      = ex.submit(fetch_fear_greed)
-        fut_tw      = ex.submit(fetch_twitter_feeds, TWITTER_HANDLES)
-        fut_st_tick = ex.submit(fetch_stocktwits_trending)
-        mkt             = fut_mkt.result()
-        sparks          = fut_spark.result()
-        fg              = fut_fg.result()
-        tw_feed         = fut_tw.result()
-        trending_tickers = fut_st_tick.result()
+    # 2. Market data + Sparklines + Fear&Greed + Twitter — in parallel
+    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed ו-Twitter במקביל...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
+        fut_mkt   = ex.submit(fetch_market_data)
+        fut_spark = ex.submit(fetch_sparklines)
+        fut_fg    = ex.submit(fetch_fear_greed)
+        fut_tw    = ex.submit(fetch_twitter_feeds, TWITTER_HANDLES)
+        mkt      = fut_mkt.result()
+        sparks   = fut_spark.result()
+        fg       = fut_fg.result()
+        tw_feed  = fut_tw.result()
 
-    # 2b. Fetch ticker-specific news for trending stocks
-    print(f"\n[ 2b ] שולף חדשות מניות ספציפיות עבור: {', '.join(trending_tickers[:8])}...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:
-        fut_tk_news = ex.submit(fetch_ticker_news, trending_tickers[:8])
-        tk_news     = fut_tk_news.result()
-
-    # 3. Claude Enrichment — translate Twitter + ticker news → Hebrew news
+    # 3. Claude Enrichment — translate Twitter → Hebrew news
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     news_data = None
     if api_key:
         try:
-            print("\n[ 3 ] מתרגם ציוצים וחדשות מניות לעברית עם Claude...")
+            print("\n[ 3 ] מתרגם ציוצים לעברית עם Claude...")
             client = anthropic.Anthropic(api_key=api_key)
-            news_data = run_enrichment_agent(client, tw_feed, il_raw, ticker_news_raw=tk_news)
+            news_data = run_enrichment_agent(client, tw_feed, il_raw)
             for i, n in enumerate(news_data.get("israel_news", [])):
                 if i < len(il_raw) and not n.get("link"): n["link"] = il_raw[i]["link"]
+            # Inject relative_time from original tweets by matching source handle
+            handle_to_rt = {}
+            for t in tw_feed:
+                h = f'@{t["handle"]}'.lower()
+                if h not in handle_to_rt and t.get("relative_time"):
+                    handle_to_rt[h] = t["relative_time"]
+            for n in news_data.get("us_news", []):
+                src = n.get("source", "").lower()
+                if not n.get("relative_time") and src in handle_to_rt:
+                    n["relative_time"] = handle_to_rt[src]
             print("✓ תרגום הושלם")
         except Exception as e:
             print(f"✗ Claude נכשל: {e} — עובר ל-fallback")
