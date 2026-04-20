@@ -784,36 +784,66 @@ def is_finance_tweet(body: str) -> bool:
 
 # ── Claude Enrichment Agent ────────────────────────────────────────────────────
 
-def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: list) -> dict:
+def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: list,
+                          ticker_news_raw: list = None) -> dict:
     il_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
 
-    system = f"""אתה עיתונאי פיננסי בכיר ומומחה לחדשות ישראל.
+    ticker_section = ""
+    if ticker_news_raw:
+        tn_lines = "\n".join(
+            f"- [{n['ticker']}] {n['title']} ({n['source']})" for n in ticker_news_raw[:15]
+        )
+        ticker_section = f"\n\nחדשות מניות ספציפיות ({len(ticker_news_raw[:15])}):\n{tn_lines}"
+
+    system = f"""אתה אנליסט שוק הון בכיר עם ניסיון של 20 שנה ב-Goldman Sachs ו-Morgan Stanley.
 היום: {TODAY_HE} ({TODAY}).
 החזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
 
-אתה כתב פיננסי בכיר — סגנונך: ה-Wall Street Journal בעברית, עם חדות Bloomberg.
+══════════════════════════════════════════════════
+חלק א — ניתוח ציוצים פיננסיים (us_news)
+══════════════════════════════════════════════════
 
-חלק א — ציוצי Twitter (us_news):
-1. סנן: כלול רק ציוצים על מניות, קריפטו, מאקרו/מיקרו כלכלי בארה"ב. דלג על כל השאר.
-2. בחר עד 10 ציוצים המשמעותיים ביותר — תעדף ציוצים עדכניים (מוקדמים ברשימה).
-3. לכל ציוץ — אל תתרגם ישירות. במקום זאת:
-   • הבן את המסר הכלכלי/פיננסי של הציוץ
-   • כתוב כותרת עברית חדה עד 80 תווים כפי שבלומברג היה כותב — לא משפט שלם, כותרת!
-     דוגמאות טובות: "נבידיה מכה תחזיות ב-12% — הכנסות AI מכפילות" / "Fed מותיר ריבית ב-4.5% בהחלטה פה אחד"
-     דוגמאות רעות: "נבידיה פרסמה את הדוח הרבעוני שלה" / "הבנק הפדרלי קיים ישיבה"
-   • כתוב סיכום מקצועי של 1-2 משפטים בעברית שמסביר את המשמעות הפיננסית (summary_he)
-   • שמור את הטקסט האנגלי המקורי של הציוץ ב-body_en (עד 200 תווים)
-4. זהה טיקר ($AAPL, $BTC וכד׳). אם אין — השאר ריק.
-5. תגית: EARNINGS / MACRO / FED / TECH / M&A / ENERGY / CRYPTO / BANKS / NEWS
-6. link = כתובת הציוץ המקורי. source = "@handle".
-7. sentiment: "bullish" אם הידיעה חיובית לשוק, "bearish" אם שלילית, "neutral" אם ניטרלי.
+תפקידך: לא לתרגם — לנתח ולפרש.
 
-חלק ב — חדשות ישראל (israel_news):
-כותרת עברית + סיכום 2-3 משפטים מקצועיים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה.
+לכל ציוץ שאתה בוחר לכלול, ענה על השאלה: "מה המשמעות של זה לשוק ולמשקיעים?"
+
+כללי סינון:
+• כלול: ציוצים על מניות ספציפיות, דוחות, שדרוגים/שנמוכים, M&A, מאקרו קריטי, קריפטו
+• כלול: כל ציוץ עם מספרים קונקרטיים (%, EPS, מחיר יעד, הכנסות, תחזית)
+• דלג: דעות עמומות, שאלות לקהל, "מה אתם חושבים", ניתוחים ללא עובדות
+
+בחר עד 10 פריטים. לכל אחד:
+
+1. title_he — כותרת ניתוחית בעברית:
+   • ענה על "מה זה אומר?" לא על "מה קרה?"
+   • אם יש טיקר — פתח בו. אם יש נתון — כלול אותו.
+   • דוגמאות לסגנון נכון:
+     "$NVDA: דוח חזק מאשר שהביקוש לשבבי AI לא מאט"
+     "Fed נשמע יוני — שוק האג\"ח מגלם כבר 2 הורדות ריבית ברבעון"
+     "$TSLA: אכזבה בשוליים — לחץ על מניות הרכב החשמלי בפתיחה"
+     "ביטקוין שובר $70K — תנועת מוסדיים מאחורי הפריצה"
+   • הימנע מכותרות שרק מתארות: "חברה X הכריזה על Y" — זה עיתון, לא אנליזה.
+
+2. summary_he — פרשנות אנליטית, 2-3 משפטים:
+   • כלול את כל הנתונים המספריים (EPS, הכנסות, % שינוי, מחיר יעד)
+   • הסבר את ההשלכות: "זה אומר ש...", "המשקיעים צריכים לשים לב ש...", "הסיכון הוא..."
+   • ציין מה צפוי להשפיע על מחיר המניה/שוק בטווח הקצר
+   • אל תחזור על מה שכתבת בכותרת — הרחב והוסף עומק
+
+3. body_en — הציוץ המקורי, עד 200 תווים. ציטוט — לא תרגום.
+4. ticker — טיקר אם מזוהה ($AAPL וכד׳). ריק אם אין.
+5. tag — EARNINGS / MACRO / FED / TECH / M&A / ENERGY / CRYPTO / BANKS / NEWS
+6. link, source — כתובת המקור + "@handle"
+
+══════════════════════════════════════════════════
+חלק ב — חדשות ישראל (israel_news)
+══════════════════════════════════════════════════
+כותרת עברית עיתונאית + סיכום 2-3 משפטים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה.
+לחדשות ישראל — לא נדרשת פרשנות פיננסית, עיתונאות רגילה.
 
 {{
   "us_news": [
-    {{"title_he":"כותרת בלומברג חדה עד 80 תווים","summary_he":"הסבר פיננסי קצר","body_en":"original tweet text...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL","sentiment":"bullish"}}
+    {{"title_he":"פרשנות ניתוחית","summary_he":"השלכות + נתונים","body_en":"original tweet...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
   ],
   "israel_news": [
     {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
@@ -824,13 +854,15 @@ JSON בלבד."""
     # Pre-filter: keep only finance-relevant tweets before sending to Claude
     finance_tweets = [t for t in tw_tweets if is_finance_tweet(t.get("body", ""))]
     if not finance_tweets:
-        finance_tweets = tw_tweets  # fallback: send all if filter is too aggressive
+        finance_tweets = tw_tweets
     tw_sample = finance_tweets[:30]
     print(f"  ✓ פילטר פיננסי: {len(finance_tweets)}/{len(tw_tweets)} ציוצים רלוונטיים")
     messages = [{"role": "user", "content":
         f"עבד נתונים ל-{TODAY_HE}.\n\n"
         f"Twitter ({len(tw_sample)} ציוצים):\n{json.dumps(tw_sample, ensure_ascii=False)}\n\n"
-        f"ישראל ({len(il_raw)}):\n{il_titles}\n\nהחזר JSON."}]
+        f"ישראל ({len(il_raw)}):\n{il_titles}"
+        + (f"\n\nחדשות מניות ספציפיות:{ticker_section}" if ticker_section else "")
+        + "\n\nהחזר JSON."}]
 
     print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude...")
     response = client.messages.create(model=MODEL, max_tokens=MAX_TOKENS, system=system, messages=messages)
