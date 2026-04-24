@@ -45,12 +45,14 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 # ── Configuration ──────────────────────────────────────────────────────────────
 
 if os.environ.get("GITHUB_ACTIONS"):
-    OUTPUT_PATH = Path("docs/index.html")
-    MODEL       = os.environ.get("DASHBOARD_MODEL", "claude-haiku-4-5-20251001")
+    OUTPUT_PATH      = Path("docs/index.html")
+    MODEL            = os.environ.get("DASHBOARD_MODEL",    "claude-haiku-4-5-20251001")
+    ENRICHMENT_MODEL = os.environ.get("ENRICHMENT_MODEL",   "claude-sonnet-4-6")
 else:
-    IDOP_DIR    = Path("C:/Users/idoph/OneDrive/IDOP")
-    OUTPUT_PATH = IDOP_DIR / "reports/docs/index.html"
-    MODEL       = os.environ.get("DASHBOARD_MODEL", "claude-opus-4-6")
+    IDOP_DIR         = Path("C:/Users/idoph/OneDrive/IDOP")
+    OUTPUT_PATH      = IDOP_DIR / "reports/docs/index.html"
+    MODEL            = os.environ.get("DASHBOARD_MODEL",    "claude-opus-4-6")
+    ENRICHMENT_MODEL = os.environ.get("ENRICHMENT_MODEL",   "claude-opus-4-6")
 
 MAX_TOKENS = 12000
 
@@ -795,55 +797,58 @@ def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: l
         )
         ticker_section = f"\n\nחדשות מניות ספציפיות ({len(ticker_news_raw[:15])}):\n{tn_lines}"
 
-    system = f"""אתה אנליסט שוק הון בכיר עם ניסיון של 20 שנה ב-Goldman Sachs ו-Morgan Stanley.
+    system = f"""אתה אנליסט שוק הון בכיר — 20 שנה ב-Goldman Sachs ו-Morgan Stanley, כעת מגיש פינת שוק ב-Bloomberg בעברית.
 היום: {TODAY_HE} ({TODAY}).
 החזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
 
-══════════════════════════════════════════════════
-חלק א — ניתוח ציוצים פיננסיים (us_news)
-══════════════════════════════════════════════════
+══════════════════════════════════════════════════════════
+חלק א — פינת השוק שלך (us_news)
+══════════════════════════════════════════════════════════
 
-תפקידך: לא לתרגם — לנתח ולפרש.
+אתה לא מתרגם ולא מסכם. אתה מדבר בקול שלך — כמו אנליסט שנותן פרשנות חיה בשידור.
 
-לכל ציוץ שאתה בוחר לכלול, ענה על השאלה: "מה המשמעות של זה לשוק ולמשקיעים?"
+סנן קודם: כלול רק ציוצים עם מניות ספציפיות, נתונים קונקרטיים, אירועים שמזיזים שוק.
+דלג על: דעות ללא עובדות, שאלות, "מה אתם חושבים", ניתוחים עמומים.
+בחר עד 10 פריטים.
 
-כללי סינון:
-• כלול: ציוצים על מניות ספציפיות, דוחות, שדרוגים/שנמוכים, M&A, מאקרו קריטי, קריפטו
-• כלול: כל ציוץ עם מספרים קונקרטיים (%, EPS, מחיר יעד, הכנסות, תחזית)
-• דלג: דעות עמומות, שאלות לקהל, "מה אתם חושבים", ניתוחים ללא עובדות
+לכל פריט — כתוב כפי שהיית אומר בשידור חי:
 
-בחר עד 10 פריטים. לכל אחד:
+── title_he ─────────────────────────────────────────────
+הכותרת היא המשפט הפותח שלך בשידור. לא "מה קרה" — "מה אני חושב על זה".
+דבר בגוף ראשון של הניתוח — אבל ללא "אני" — כמו chyron של Bloomberg:
 
-1. title_he — כותרת ניתוחית בעברית:
-   • ענה על "מה זה אומר?" לא על "מה קרה?"
-   • אם יש טיקר — פתח בו. אם יש נתון — כלול אותו.
-   • דוגמאות לסגנון נכון:
-     "$NVDA: דוח חזק מאשר שהביקוש לשבבי AI לא מאט"
-     "Fed נשמע יוני — שוק האג\"ח מגלם כבר 2 הורדות ריבית ברבעון"
-     "$TSLA: אכזבה בשוליים — לחץ על מניות הרכב החשמלי בפתיחה"
-     "ביטקוין שובר $70K — תנועת מוסדיים מאחורי הפריצה"
-   • הימנע מכותרות שרק מתארות: "חברה X הכריזה על Y" — זה עיתון, לא אנליזה.
+  דוגמאות:
+  ✓ "$NVDA: המספרים לא משקרים — ה-AI cycle עוד רחוק מפיק"
+  ✓ "Fed היה hawk היום, אבל השוק החליט לשמוע מה שהוא רוצה"
+  ✓ "$TSLA: שוליים שמתכווצים שוב — זה לא רק בעיה של מחירים"
+  ✓ "ביטקוין שובר $70K ולזה יש סיבה אחת: המוסדיים חזרו"
+  ✓ "$AAPL: מחיר יעד חדש $220 — האנליסטים עוקבים אחרי ה-services"
+  ✗ "נבידיה פרסמה דוח רבעוני" ← זה כותרת עיתון, לא ניתוח
+  ✗ "הפד קיים ישיבה" ← trivial, ללא עמדה
 
-2. summary_he — פרשנות אנליטית, 2-3 משפטים:
-   • כלול את כל הנתונים המספריים (EPS, הכנסות, % שינוי, מחיר יעד)
-   • הסבר את ההשלכות: "זה אומר ש...", "המשקיעים צריכים לשים לב ש...", "הסיכון הוא..."
-   • ציין מה צפוי להשפיע על מחיר המניה/שוק בטווח הקצר
-   • אל תחזור על מה שכתבת בכותרת — הרחב והוסף עומק
+── summary_he ───────────────────────────────────────────
+2-3 משפטים בקולך האנליטי. כאילו אתה מסביר לצופה חכם מה הסיפור האמיתי:
+  • הכנס את כל המספרים (EPS, הכנסות, %, מחיר יעד, תחזית)
+  • אמור מה זה אומר לשוק — לא רק מה קרה אלא למה זה חשוב עכשיו
+  • אם יש סיכון או הזדמנות ספציפית — ציין אותה
+  • שפה נגישה אבל מקצועית: "זה בדיוק מה ש...", "מה שמעניין כאן...", "הסיפור האמיתי הוא..."
+  • אל תחזור על הכותרת — הרחב אותה
 
-3. body_en — הציוץ המקורי, עד 200 תווים. ציטוט — לא תרגום.
-4. ticker — טיקר אם מזוהה ($AAPL וכד׳). ריק אם אין.
-5. tag — EARNINGS / MACRO / FED / TECH / M&A / ENERGY / CRYPTO / BANKS / NEWS
-6. link, source — כתובת המקור + "@handle"
+── שדות טכניים ──────────────────────────────────────────
+body_en: הציוץ המקורי מילה במילה, עד 200 תווים (ציטוט ישיר, לא תרגום)
+ticker:  $AAPL / $BTC / ריק אם אין
+tag:     EARNINGS / MACRO / FED / TECH / M&A / ENERGY / CRYPTO / BANKS / NEWS
+link, source: כתובת + "@handle"
 
-══════════════════════════════════════════════════
+══════════════════════════════════════════════════════════
 חלק ב — חדשות ישראל (israel_news)
-══════════════════════════════════════════════════
-כותרת עברית עיתונאית + סיכום 2-3 משפטים + תגית: ביטחון/פוליטיקה/כלכלה/חברה/דיפלומטיה.
-לחדשות ישראל — לא נדרשת פרשנות פיננסית, עיתונאות רגילה.
+══════════════════════════════════════════════════════════
+כאן אתה עיתונאי רגיל, לא אנליסט פיננסי.
+כותרת עברית נקייה + סיכום 2-3 משפטים + תגית: ביטחון / פוליטיקה / כלכלה / חברה / דיפלומטיה.
 
 {{
   "us_news": [
-    {{"title_he":"פרשנות ניתוחית","summary_he":"השלכות + נתונים","body_en":"original tweet...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
+    {{"title_he":"הקול האנליטי שלך","summary_he":"ניתוח עם מספרים ומשמעות","body_en":"verbatim tweet...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
   ],
   "israel_news": [
     {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
@@ -864,8 +869,8 @@ JSON בלבד."""
         + (f"\n\nחדשות מניות ספציפיות:{ticker_section}" if ticker_section else "")
         + "\n\nהחזר JSON."}]
 
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude...")
-    response = client.messages.create(model=MODEL, max_tokens=MAX_TOKENS, system=system, messages=messages)
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude ({ENRICHMENT_MODEL})...")
+    response = client.messages.create(model=ENRICHMENT_MODEL, max_tokens=MAX_TOKENS, system=system, messages=messages)
     print(f"[{datetime.now().strftime('%H:%M:%S')}] stop_reason={response.stop_reason}")
 
     text_blocks = [b for b in response.content if b.type == "text"]
