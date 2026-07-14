@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T20:37:34.298360+00:00",
+  "generated_at": "2026-07-14T21:57:31.848843+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -146,27 +146,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,060.6",
-      "change": "+1.37%",
-      "direction": "up",
+      "value": "$4,058.3",
+      "change": "-0.28%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 1.3705469705669444
+      "pct_raw": -0.28011892768507846
     },
     {
       "name": "נפט ברנט",
-      "value": "$85.6",
-      "change": "+2.73%",
+      "value": "$85.3",
+      "change": "+0.72%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 2.725090036014401
+      "pct_raw": 0.7199339077068327
     },
     {
       "name": "ביטקוין",
-      "value": "$64,399",
-      "change": "+3.44%",
+      "value": "$64,625",
+      "change": "+3.80%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 3.4364742473236016
+      "pct_raw": 3.7992321129934856
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -192,7 +192,7 @@
       "change": "-0.64%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.6350466362373521
+      "pct_raw": -0.6449692399285669
     }
   ],
   "sectors": [
@@ -292,6 +292,90 @@
   },
   "us_news": [
     {
+      "title_he": "יש כמה דוברי הפד על לוח הזמנים מחר, יחד עם יציאת הספר בז' בשעה 14:00 ET.",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2077144857856843912#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNMQz-6WgAAu5rv.png",
+      "relative_time": "לפני 22ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מספר חברות מפתח מדווחות על רווחים מחר, כמו ASML $ASML, BlackRock $BLK, Johnson & Johnson $JNJ ומורגן",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2077143725528973811#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNMQw5XW4AAm_MA.png",
+      "relative_time": "לפני 26ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אתמול אמר ג'ים קרימר לצופים שלו לקנות היום מניות IBM בדולר צנחו ב-25% הירידה הגדולה ביותר ביום אחד בחברה",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2077141598870097978#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNN9RoRWAAAFIaj.jpg",
+      "relative_time": "לפני 35ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @RyanDetrick: ה-S&P 500 החזיר 10.2% במחצית הראשונה. שמן עלה. הייתה מלחמה. המניות ירדו קרוב ל",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/CarsonResearch/status/2077133462180352045#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "SHMD $ העלה את הנחיית כניסת ההזמנות לשנת 2026 ל-125-150 מיליון אירו, עלייה מכ-114 מיליון אירו, לאחר מומנטום הזמנות חזק יותר. הזמנה ברבעון 2 אינט",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077130251797418380#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אומרים ש-DeepSeek מתכוננת להגשת הנפקה כבר השנה, לפי בלומברג",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077128751637221572#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@StockSavvyShay: $AEHR חזר להיות כמות גדולה של עשרה נרשמים 🙃",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077128404755980427#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNNwzk8bcAAxQ9K.png",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מערכות הבדיקה של $AEHR ראות לפני 27 $130 מיליון עד $150 מיליון לעומת $85 מיליון EST.",
       "summary_he": "",
       "ticker": "",
@@ -300,7 +384,19 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNwQIsaUAApUF0.jpg",
-      "relative_time": "לפני 11ד׳",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "לפי נתוני לשכת הפרסום האינטראקטיבי, הכלכלה הדיגיטלית של ארה\"ב הגיעה ל-4.9 טריליון דולר, המהווה 18%",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077126497253695638#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077065220279656448%2Fimg%2Ft67se2eQ4gjfFWZi.jpg",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -312,7 +408,31 @@
       "tag": "NEWS",
       "article_url": "https://savvytrader.com/StockSavvyShay/shays-growth-portfolio?s=MTY5OTM6MzgxOA==",
       "tweet_image": "https://nitter.net/pic/card_img%2F2076431776009142272%2FW-WI4REN%3Fformat%3Djpg%26name%3D420x420_2",
-      "relative_time": "לפני 19ד׳",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "יבמ יורדת ב-25%; הירידה הגדולה ביותר ביום אחד אי פעם https://open.substack.com/pub/bespokeinvest/p/ibm-falls-25-biggest-one-day-drop",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2077125255152226414#m",
+      "tag": "NEWS",
+      "article_url": "https://open.substack.com/pub/bespokeinvest/p/ibm-falls-25-biggest-one-day-drop?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @RyanDetrick: S&P 500 עלייה של כ-0.4% מספיק טובה ליום המדד הטוב ביותר מאז דצמבר 2025, לפי שוק דאון ג'ונס",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/_JoshSchafer/status/2077125163217285411#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNNuR35XEAE-GoZ.jpg",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -324,7 +444,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNtmDPbQAAWgSr.png",
-      "relative_time": "לפני 21ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -336,31 +456,67 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNtQ27aAAAqosA.jpg",
-      "relative_time": "לפני 24ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$CBRS 👀",
+      "title_he": "SK Hynix $SKHY +27% היום",
       "summary_he": "",
       "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077117534298640450#m",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2077123521369534673#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNNs1fWXEAA_9Es.png",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מדד המחירים לצרכן מגיע לקרח קר https://open.substack.com/pub/bespokeinvest/p/cpi-comes-in-ice-cold?r=826dn&utm_campaign=post&utm_",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2077123252376248553#m",
+      "tag": "NEWS",
+      "article_url": "https://open.substack.com/pub/bespokeinvest/p/cpi-comes-in-ice-cold?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "היום הגרוע ביותר של $IBM מאז ההנפקה שלה בעידן המודרני ב-1962 -25.4%... שווי שוק של 69 מיליארד דולר נמחק",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2077122433048338436#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNNr2JBXoAIK27B.png",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$GS הזוכה בבנק הגדול היום. דוח $MS $BNY מחר. @CNBC",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2077116939399303613#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNNm2TLXQAAJAq6.jpg",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שיהיה ברור, ללא ספק ל-$IBM היו ימים גרועים יותר, כשהיא הייתה Computing-Tabulating-Recording Co (IPO בנובמבר 1915",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2077115920053354507#m",
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 50ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "לפי הדיווחים, Apple $AAPL מעריכה את PrismML, סטארט-אפ שאומר שהוא יכול לכווץ דגמי AI חזקים מספיק כדי להפעיל ישירות",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077115633515610166#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNNlp7QbcAAoQaJ.jpg",
-      "relative_time": "לפני 58ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -372,7 +528,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/tnEGWlBPzMw?si=h3KOTfrQMPaBrxFO",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077113748624670720%2FGUMJzEDq%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -384,19 +540,19 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077112613482483712%2Fimg%2FDlsIOB7a5Lz2xAZ6.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "ניו יורק הופכת למדינה הראשונה בארה\"ב שעוצרת מרכזי נתונים חדשים בהיקף של 50MW או יותר של כוח. $NBIS, $CRWV, $IR",
+      "title_he": "$LCID צנח ב-45% ל-2.98 דולר לאחר שניוזלטר לרכב חשמלי (http://eletric-vehicles.com) הציע שהחברה",
       "summary_he": "",
       "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077102546897010778#m",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2077107932399853889#m",
       "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNNZtuxaUAAxpYo.png",
-      "relative_time": "לפני 1ש׳",
+      "article_url": "http://eletric-vehicles.com",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2075799923363389440%2FcOpZgRYa%3Fformat%3Dpng%26name%3D600x314",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -408,19 +564,19 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "תשואת הדיבידנד של IBM חזרה מעל 3% לאחר תספורת של 25% היום במחיר המניה. $IBM",
+      "title_he": "R אל @garyblack00: $LCID",
       "summary_he": "",
       "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2077088522108817433#m",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2077089745172152432#m",
       "tag": "NEWS",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNNM3_JXMAAOn-p.png",
-      "relative_time": "לפני 2ש׳",
+      "tweet_image": "https://nitter.net/pic/media%2FHNNOHcLXIAA98wJ.jpg",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -432,7 +588,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNI-1sXsAAw20Y.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -444,67 +600,31 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מדד S&P 500 ירד אתמול, אבל שוב עולים יותר מאשר יורדים. 272 מול 228.",
+      "title_he": "מדד המחירים לצרכן בארה\"ב ביוני הגיע חלש בהרבה מהצפוי ביוני, כולל הירידה של החודש הראשון מזה שש שנים, טאקי",
       "summary_he": "",
       "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2077045960782356976#m",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2077010683854532978#m",
       "tag": "NEWS",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNMmMMIWwAALUwq.png",
-      "relative_time": "לפני 5ש׳",
+      "tweet_image": "https://nitter.net/pic/media%2FHNMGNcyWYAAtx-H.jpg",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "רכיבי S&P 500 מעל MA של 20 יום ו-50 יום קרוב לתמיכה פוטנציאלית בקו מגמה.",
+      "title_he": "RT מאת @cperruna: $IBM דיווחה זה עתה על רווחים ראשוניים ברבעון השני ועל ירידה של 15% 🔴 IBM הרגע אמרה לרבעון השני שהיא הביאה - Reve",
       "summary_he": "",
       "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2077045392210792753#m",
+      "source": "@cperruna",
+      "link": "https://nitter.net/StockMKTNewz/status/2076986594553217227#m",
       "tag": "NEWS",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNMloa6XIAAMfOH.png",
-      "relative_time": "לפני 5ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "עוד שיא חדש בהתקדמות/ירידה של S&P 500 אתמול, למרות שהמדד ירד. רוחב מוביל מחיר והוא an",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2077044816399958180#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNMlGSIWYAAeqx7.png",
-      "relative_time": "לפני 5ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT @NickTimiraos: מחירים מגניבים מאוד במדד המחירים לצרכן של יוני היו בכל רחבי הלוח. מוצרי הליבה ירדו בחודש השני ברציפות",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2077013320171725019#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "והם יוצאים - הערת שוק הבוקר - 14/7/26 https://open.substack.com/pub/bespokeinvest/p/and-theyre-off-morning-mar",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2077012604594110474#m",
-      "tag": "NEWS",
-      "article_url": "https://open.substack.com/pub/bespokeinvest/p/and-theyre-off-morning-market-note?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
-      "tweet_image": "",
-      "relative_time": "לפני 7ש׳",
+      "tweet_image": "https://nitter.net/pic/media%2FHNLwRToXkAARrIn.jpg",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -516,18 +636,18 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNLvAV9bwAAFBVx.png",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מדד המחירים לצרכן יוצא מחר ב-8:30 בבוקר מדד המחירים לצרכן צפוי להיות 3.8% בשנה לקלשי שזו תהיה ההאטה הראשונה",
+      "title_he": "$MSFT ארוך",
       "summary_he": "",
       "ticker": "",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2076823285551997009#m",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2076834767769612460#m",
       "tag": "NEWS",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNJbxarXAAIN6vL.jpg",
+      "tweet_image": "https://nitter.net/pic/media%2FHNHEadFa0AAXYAk.png",
       "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     }
