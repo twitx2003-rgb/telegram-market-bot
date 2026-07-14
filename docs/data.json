@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T21:57:31.848843+00:00",
+  "generated_at": "2026-07-14T22:59:36.817969+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -146,27 +146,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,058.3",
-      "change": "-0.28%",
+      "value": "$4,055.8",
+      "change": "-0.34%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.28011892768507846
+      "pct_raw": -0.34154851708970285
     },
     {
       "name": "נפט ברנט",
-      "value": "$85.3",
-      "change": "+0.72%",
+      "value": "$85.4",
+      "change": "+0.84%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.7199339077068327
+      "pct_raw": 0.8379558597899135
     },
     {
       "name": "ביטקוין",
-      "value": "$64,625",
-      "change": "+3.80%",
+      "value": "$64,831",
+      "change": "+4.13%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 3.7992321129934856
+      "pct_raw": 4.130139243767502
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -188,11 +188,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.004",
-      "change": "-0.64%",
+      "value": "3.003",
+      "change": "-0.66%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.6449692399285669
+      "pct_raw": -0.6615069127472388
     }
   ],
   "sectors": [
@@ -292,6 +292,78 @@
   },
   "us_news": [
     {
+      "title_he": "R ל-@unusual_whales: לפי Fortune, חלקם של האמריקאים המובטלים שהם מצטרפים חדשים לכוח עבודה הגיע לשיא ל-1",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077158950932213883#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/entry-level-job-market-37-year-low-13-3-percent",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2076787378275184640%2F7qc63YqD%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 27ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "השוק מצפה כעת להפחתת ריבית אחת בשנת 2026 לאחר הדפסת מדד המחירים לצרכן היום בקלשי לפני שוק ההדפסה למדד המחירים לצפוי בלבד",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2077156775845843330#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNOLFBRXsAAcnD8.jpg",
+      "relative_time": "לפני 36ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "והשווקים מתמחרים העלאות ריבית?",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2077156155176992934#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNNl8JdWwAAd8bD.jpg",
+      "relative_time": "לפני 39ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "להוקס בפד יש כמה הרהורים לעשות...",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2077154890908910027#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNOJXK9XIAEYft0.jpg",
+      "relative_time": "לפני 44ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: מנכ\"ל XBOX, אשה שארמה, ציטט את הבריאות הפיננסית של החברה עבור הפיטורים. קרא עוד: https://unus",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077150645895807234#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/microsoft-layoffs-xbox-h1b-backlash",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2076786873553629184%2FqTvXBq1V%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$AEHR הוא מיקום חמישייה עבורי מאז 10 $ כי ראיתי אותו מתפתח מציוד סיליקון קרביד מתקשה",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077147720201146629#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNOCPHmbgAAm0cm.jpg",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "יש כמה דוברי הפד על לוח הזמנים מחר, יחד עם יציאת הספר בז' בשעה 14:00 ET.",
       "summary_he": "",
       "ticker": "",
@@ -300,7 +372,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNMQz-6WgAAu5rv.png",
-      "relative_time": "לפני 22ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -312,7 +384,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNMQw5XW4AAm_MA.png",
-      "relative_time": "לפני 26ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -324,7 +396,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNN9RoRWAAAFIaj.jpg",
-      "relative_time": "לפני 35ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -336,11 +408,11 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "SHMD $ העלה את הנחיית כניסת ההזמנות לשנת 2026 ל-125-150 מיליון אירו, עלייה מכ-114 מיליון אירו, לאחר מומנטום הזמנות חזק יותר. הזמנה ברבעון 2 אינט",
+      "title_he": "$SHMD העלה את הנחיית כמות ההזמנות לשנת 2026 ל-125-150 מיליון אירו, עלייה מכ-114 מיליון אירו, לאחר מומנטום הזמנות חזק יותר. הזמנה ברבעון 2 אינט",
       "summary_he": "",
       "ticker": "",
       "source": "@wallstengine",
@@ -348,23 +420,11 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אומרים ש-DeepSeek מתכוננת להגשת הנפקה כבר השנה, לפי בלומברג",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077128751637221572#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: $AEHR חזר להיות כמות גדולה של עשרה נרשמים 🙃",
+      "title_he": "R ל-@StockSavvyShay: $AEHR חזר להיות כמות גדולה של עשרה באגר למנויים 🙃",
       "summary_he": "",
       "ticker": "",
       "source": "@StockSavvyShay",
@@ -372,7 +432,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNwzk8bcAAxQ9K.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -384,19 +444,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNwQIsaUAApUF0.jpg",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "לפי נתוני לשכת הפרסום האינטראקטיבי, הכלכלה הדיגיטלית של ארה\"ב הגיעה ל-4.9 טריליון דולר, המהווה 18%",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077126497253695638#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077065220279656448%2Fimg%2Ft67se2eQ4gjfFWZi.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -408,19 +456,7 @@
       "tag": "NEWS",
       "article_url": "https://savvytrader.com/StockSavvyShay/shays-growth-portfolio?s=MTY5OTM6MzgxOA==",
       "tweet_image": "https://nitter.net/pic/card_img%2F2076431776009142272%2FW-WI4REN%3Fformat%3Djpg%26name%3D420x420_2",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "יבמ יורדת ב-25%; הירידה הגדולה ביותר ביום אחד אי פעם https://open.substack.com/pub/bespokeinvest/p/ibm-falls-25-biggest-one-day-drop",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2077125255152226414#m",
-      "tag": "NEWS",
-      "article_url": "https://open.substack.com/pub/bespokeinvest/p/ibm-falls-25-biggest-one-day-drop?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
-      "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -432,7 +468,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNuR35XEAE-GoZ.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -444,7 +480,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNtmDPbQAAWgSr.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -456,7 +492,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNtQ27aAAAqosA.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -468,19 +504,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNs1fWXEAA_9Es.png",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מדד המחירים לצרכן מגיע לקרח קר https://open.substack.com/pub/bespokeinvest/p/cpi-comes-in-ice-cold?r=826dn&utm_campaign=post&utm_",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2077123252376248553#m",
-      "tag": "NEWS",
-      "article_url": "https://open.substack.com/pub/bespokeinvest/p/cpi-comes-in-ice-cold?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
-      "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -492,7 +516,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNr2JBXoAIK27B.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -504,7 +528,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNm2TLXQAAJAq6.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -516,31 +540,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@FuturumEquities: אתה יכול לצפות בפירוט המלא שלי ב-$IBM כאן: https://youtu.be/tnEGWlBPzMw?si=h3KOTfrQMPaBrxFO",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077113748263985440#m",
-      "tag": "NEWS",
-      "article_url": "https://youtu.be/tnEGWlBPzMw?si=h3KOTfrQMPaBrxFO",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2077113748624670720%2FGUMJzEDq%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ל-$IBM יש את היום הגרוע ביותר מזה כמעט שישה עשורים לאחר שהמנכ\"ל שלה אמר שהלקוחות הפנו את ההוצאות הרבעוניות לכיוון",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077112676556366331#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077112613482483712%2Fimg%2FDlsIOB7a5Lz2xAZ6.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -551,8 +551,8 @@
       "link": "https://nitter.net/garyblack00/status/2077107932399853889#m",
       "tag": "NEWS",
       "article_url": "http://eletric-vehicles.com",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2075799923363389440%2FcOpZgRYa%3Fformat%3Dpng%26name%3D600x314",
-      "relative_time": "לפני 2ש׳",
+      "tweet_image": "",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -564,11 +564,11 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R אל @garyblack00: $LCID",
+      "title_he": "R ל-@garyblack00: $LCID",
       "summary_he": "",
       "ticker": "",
       "source": "@garyblack00",
@@ -576,7 +576,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNOHcLXIAA98wJ.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -588,23 +588,11 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNI-1sXsAAw20Y.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מוקדם יותר היום מדד המחירים לצרכן בארה\"ב הגיע ל-3.5% ב-2020 מתחת ל-3.8% בשווקים הצפויים לירידת M/M הראשונה במדד המדד מאז 2020.",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2077082085018190087#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מדד המחירים לצרכן בארה\"ב ביוני הגיע חלש בהרבה מהצפוי ביוני, כולל הירידה של החודש הראשון מזה שש שנים, טאקי",
+      "title_he": "יוני מדד המחירים לצרכן בארה\"ב חלש בהרבה מהצפוי ביוני, כולל הירידה של החודש הראשון מזה שש שנים, טאקי",
       "summary_he": "",
       "ticker": "",
       "source": "@garyblack00",
@@ -612,7 +600,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNMGNcyWYAAtx-H.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -624,11 +612,11 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNLwRToXkAARrIn.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @DivesTech: מנכ\"ל $JPM ג'יימי דימון: \"הכלכלה האמריקאית הפגינה חוסן ניכר השנה... להיות תמיכה",
+      "title_he": "RT מאת @DivesTech: מנכ\"ל $JPM, ג'יימי דימון: \"הכלכלה האמריקאית הפגינה חוסן ניכר השנה... להיות תמיכה",
       "summary_he": "",
       "ticker": "",
       "source": "@DivesTech",
@@ -636,7 +624,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNLvAV9bwAAFBVx.png",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -648,11 +636,18 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNHEadFa0AAXYAk.png",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "ירי, מרדף ונטרול: שלח נורה למוות בידי שוטרים בסולם",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3853553",
+      "tag": "כללי"
+    },
     {
       "title_he": "מהומה בתחנת נבון: אוהדי כדורגל פרצו למתחם ותקפו מאבטחים",
       "summary_he": "",
@@ -714,13 +709,6 @@
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3853442",
-      "tag": "כללי"
-    },
-    {
-      "title_he": "פרסום ראשון: קטין נעצר בחשד להחזקת נשק",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853438",
       "tag": "כללי"
     }
   ],
