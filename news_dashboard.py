@@ -46,13 +46,17 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 
 if os.environ.get("GITHUB_ACTIONS"):
     OUTPUT_PATH      = Path("docs/index.html")
+    DATA_PATH        = Path("docs/data.json")
     MODEL            = os.environ.get("DASHBOARD_MODEL",    "claude-haiku-4-5-20251001")
     ENRICHMENT_MODEL = os.environ.get("ENRICHMENT_MODEL",   "claude-sonnet-4-6")
 else:
     IDOP_DIR         = Path("C:/Users/idoph/OneDrive/IDOP")
     OUTPUT_PATH      = IDOP_DIR / "reports/docs/index.html"
+    DATA_PATH        = IDOP_DIR / "reports/docs/data.json"
     MODEL            = os.environ.get("DASHBOARD_MODEL",    "claude-opus-4-6")
     ENRICHMENT_MODEL = os.environ.get("ENRICHMENT_MODEL",   "claude-opus-4-6")
+
+FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY", "")
 
 MAX_TOKENS = 12000
 
@@ -445,7 +449,13 @@ def _picsum_url(seed_text: str) -> str:
     h = abs(hash(seed_text)) % 1000
     return f"https://picsum.photos/seed/{h}/400/200"
 
-_URL_RE = re.compile(r'https?://(?!nitter\.|twitter\.com|t\.co)[^\s\])"\']+', re.IGNORECASE)
+_URL_RE    = re.compile(r'https?://(?!nitter\.|twitter\.com|t\.co)[^\s\])"\']+', re.IGNORECASE)
+_TICKER_RE = re.compile(r'(\$[A-Z]{1,5})\b')
+
+
+def bold_tickers(text: str) -> str:
+    """Wrap $TICKER patterns in a highlighted span."""
+    return _TICKER_RE.sub(r'<strong class="ticker-hl">\1</strong>', text)
 _IMG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
 _ORIG_RE = re.compile(r'href=["\'](/pic/orig/[^"\']+)["\']', re.IGNORECASE)
 
@@ -754,6 +764,56 @@ def fetch_ticker_news(tickers: list) -> list:
     all_news = [n for sub in results for n in sub]
     print(f"  ✓ Ticker news: {len(all_news)} כתבות")
     return all_news
+
+
+# ── Watchlist (Finnhub) ────────────────────────────────────────────────────────
+
+def load_watchlist() -> dict:
+    """Load watchlist config from watchlist.json. Returns empty config on failure."""
+    wl_path = Path(__file__).parent / "watchlist.json"
+    try:
+        with open(wl_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"stocks": [], "il_stocks": [], "alerts": {"price_move_pct": 5, "on_earnings_day": True}}
+
+
+def _fetch_finnhub_one(stock: dict) -> dict:
+    """Fetch real-time quote from Finnhub for one ticker. Returns stock dict enriched with price data."""
+    ticker = stock.get("ticker", "")
+    if not FINNHUB_KEY or not ticker or not HAS_REQUESTS:
+        return {**stock, "price": 0, "change_pct": 0, "direction": "flat",
+                "change_str": "N/A", "earnings_date": "", "is_earnings_today": False, "alert_triggered": False}
+    try:
+        r = _requests.get(
+            "https://finnhub.io/api/v1/quote",
+            params={"symbol": ticker, "token": FINNHUB_KEY},
+            timeout=5,
+        )
+        d = r.json()
+        price     = d.get("c", 0) or 0
+        prev      = d.get("pc", 0) or 0
+        pct       = round((price - prev) / prev * 100, 2) if prev else 0
+        direction = "up" if pct > 0 else ("down" if pct < 0 else "flat")
+        change_str = f"+{pct:.1f}%" if pct >= 0 else f"{pct:.1f}%"
+        return {**stock, "price": round(price, 2), "change_pct": pct,
+                "direction": direction, "change_str": change_str,
+                "earnings_date": "", "is_earnings_today": False, "alert_triggered": False}
+    except Exception as e:
+        print(f"  ✗ Finnhub {ticker}: {e}")
+        return {**stock, "price": 0, "change_pct": 0, "direction": "flat",
+                "change_str": "N/A", "earnings_date": "", "is_earnings_today": False, "alert_triggered": False}
+
+
+def fetch_watchlist_data(stocks: list) -> list:
+    """Parallel Finnhub quote fetch for all watchlist tickers."""
+    if not stocks:
+        return []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
+        results = list(ex.map(_fetch_finnhub_one, stocks))
+    ok = sum(1 for r in results if r.get("price", 0) > 0)
+    print(f"  ✓ Watchlist: {ok}/{len(results)} ציטוטים מ-Finnhub")
+    return results
 
 
 # ── Finance Relevance Filter ───────────────────────────────────────────────────
@@ -1107,13 +1167,16 @@ def build_us_news_card(n: dict, idx: int) -> str:
             f'</div>'
         )
 
+    title_rendered   = bold_tickers(n.get("title_he", ""))
+    summary_rendered = bold_tickers(n.get("summary_he", "")) if n.get("summary_he") else ""
+
     return (
         f'<article class="news-card" data-sentiment="{sentiment}">'
         + img_html
         + f'<div class="card-content">'
         + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{ticker_badge}<span class="sentiment-dot {sentiment}"></span></div>'
-        + f'<h3 class="news-title" dir="rtl">{n["title_he"]}</h3>'
-        + (f'<p class="news-summary" dir="rtl">{n["summary_he"]}</p>' if n.get("summary_he") else "")
+        + f'<h3 class="news-title" dir="rtl">{title_rendered}</h3>'
+        + (f'<p class="news-summary" dir="rtl">{summary_rendered}</p>' if summary_rendered else "")
         + en_block
         + f'<div class="card-meta"><span class="card-source">{n.get("source","")}</span>{time_span}{read_more}{wa}</div>'
         + f'</div>'
@@ -1168,6 +1231,56 @@ def build_twitter_card(tweet: dict) -> str:
     )
 
 
+def build_watchlist_card(stock: dict) -> str:
+    ticker     = stock.get("ticker", "")
+    name       = stock.get("name", ticker)
+    price      = stock.get("price", 0)
+    change_pct = stock.get("change_pct", 0)
+    change_str = stock.get("change_str", "N/A")
+    direction  = stock.get("direction", "flat")
+    is_earn    = stock.get("is_earnings_today", False)
+    earn_date  = stock.get("earnings_date", "")
+    alerted    = stock.get("alert_triggered", False)
+
+    css      = _css(direction)
+    arrow    = _arrow(direction)
+    price_str = f"${price:,.2f}" if price else "—"
+
+    earnings_badge = ""
+    if is_earn:
+        earnings_badge = '<span class="earn-badge earn-today">דוח היום</span>'
+    elif earn_date:
+        try:
+            ed = datetime.strptime(earn_date, "%Y-%m-%d").date()
+            days = (ed - date.today()).days
+            if 0 < days <= 14:
+                earnings_badge = f'<span class="earn-badge">דוח בעוד {days} ימים</span>'
+        except Exception:
+            pass
+
+    alert_dot = '<span class="alert-dot" title="התראה הופעלה"></span>' if alerted else ""
+
+    return (
+        f'<div class="wl-card">'
+        f'<div class="wl-top">'
+        f'<span class="wl-ticker">{ticker}</span>'
+        f'{alert_dot}'
+        f'<span class="wl-name">{name}</span>'
+        f'</div>'
+        f'<div class="wl-price">{price_str}</div>'
+        f'<div class="wl-change {css}">{arrow} {change_str}</div>'
+        f'{earnings_badge}'
+        f'</div>'
+    )
+
+
+def build_watchlist_tab(watchlist: list) -> str:
+    if not watchlist:
+        return '<div class="wl-empty">הגדר מניות ב-watchlist.json כדי לראות נתונים כאן</div>'
+    cards = "".join(build_watchlist_card(s) for s in watchlist)
+    return f'<div class="wl-grid">{cards}</div>'
+
+
 def build_html(data: dict) -> str:
     sparks    = data.get("sparklines", {})
     sym_map   = {"S&P 500": "^GSPC", "Nasdaq": "^IXIC", "Dow Jones": "^DJI",
@@ -1188,6 +1301,7 @@ def build_html(data: dict) -> str:
     fg_card         = build_fear_greed_card(data.get("fear_greed"))
     heatmap_cells   = build_heatmap(data.get("sectors", []))
     cal_strip       = build_calendar_strip(data.get("events", []))
+    watchlist_tab   = build_watchlist_tab(data.get("watchlist", []))
 
     return f"""<!DOCTYPE html>
 <html lang="he" dir="rtl">
@@ -1195,6 +1309,10 @@ def build_html(data: dict) -> str:
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>לוח חדשות — {TODAY}</title>
+<link rel="manifest" href="manifest.json"/>
+<meta name="theme-color" content="#080c10"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
@@ -1421,6 +1539,40 @@ def build_html(data: dict) -> str:
   /* ── IL strip card (smaller) ── */
   .mkt-strip.il .mkt-card{{min-width:130px;max-width:190px;flex:0 0 auto}}
 
+  /* ── Ticker highlight ── */
+  .ticker-hl{{color:#38bdf8;font-weight:800;font-family:'Inter',monospace;font-style:normal}}
+
+  /* ── Tab Navigation ── */
+  .tab-nav{{display:flex;gap:.5rem;margin:1.5rem 0 1rem;border-bottom:1px solid var(--border);padding-bottom:0}}
+  .tab-btn{{background:none;border:none;padding:.65rem 1.3rem;font-size:.95rem;font-weight:700;
+    color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;
+    transition:color .2s,border-color .2s;font-family:'Heebo',sans-serif}}
+  .tab-btn.active{{color:var(--accent);border-bottom-color:var(--accent)}}
+  .tab-btn:hover:not(.active){{color:var(--white)}}
+  .tab-pane{{display:none}}
+  .tab-pane.active{{display:block}}
+
+  /* ── Watchlist Grid ── */
+  .wl-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.85rem;padding:.5rem 0 1.5rem}}
+  .wl-card{{background:var(--card);border:1px solid var(--border);border-radius:12px;
+    padding:1.1rem 1.2rem;transition:border-color .2s;position:relative}}
+  .wl-card:hover{{border-color:var(--accent)}}
+  .wl-top{{display:flex;align-items:center;gap:.5rem;margin-bottom:.55rem}}
+  .wl-ticker{{font-family:'Inter',monospace;font-weight:900;font-size:.95rem;color:var(--white)}}
+  .wl-name{{font-size:.72rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+  .wl-price{{font-size:1.45rem;font-weight:800;color:var(--white);font-family:'Inter',monospace;
+    letter-spacing:-.02em;margin-bottom:.3rem}}
+  .wl-change{{font-size:.82rem;font-weight:700}}
+  .wl-change.up{{color:var(--green)}}
+  .wl-change.down{{color:var(--red)}}
+  .wl-change.flat{{color:var(--muted)}}
+  .earn-badge{{display:inline-block;margin-top:.5rem;font-size:.67rem;font-weight:700;
+    padding:.15rem .5rem;border-radius:4px;background:rgba(245,158,11,.15);color:var(--gold)}}
+  .earn-badge.earn-today{{background:rgba(239,68,68,.15);color:var(--red)}}
+  .alert-dot{{display:inline-block;width:8px;height:8px;border-radius:50%;
+    background:var(--red);box-shadow:0 0 6px var(--red);flex-shrink:0}}
+  .wl-empty{{color:var(--muted);text-align:center;padding:2rem;font-size:.9rem}}
+
   /* ── Footer ── */
   footer{{text-align:center;padding:2rem;font-size:.72rem;color:var(--muted);border-top:1px solid var(--border)}}
   footer a{{color:var(--accent);text-decoration:none}}
@@ -1434,6 +1586,7 @@ def build_html(data: dict) -> str:
     .fg-il-row{{flex-direction:column}}
     .cal-strip{{gap:.5rem}}
     .cal-pill{{min-width:120px}}
+    .wl-grid{{grid-template-columns:repeat(2,1fr)}}
   }}
 </style>
 </head>
@@ -1469,40 +1622,56 @@ def build_html(data: dict) -> str:
 
 <div class="container">
 
-  <!-- Calendar Strip -->
-  {f'<div class="section-label">📅 אירועים כלכליים קרובים</div><div class="cal-strip">{cal_strip}</div>' if cal_strip else ""}
-
-  <!-- US Markets -->
-  <section class="section" id="us">
-    <div class="section-label">📈 מדדים אמריקאיים</div>
-    <div class="mkt-strip">{us_market_cards}</div>
-    <div class="mkt-strip" style="margin-top:.75rem">{comm_cards}</div>
-  </section>
-
-  <!-- Fear & Greed + IL Markets -->
-  <div class="fg-il-row">
-    {fg_card}
-    <div style="flex:1">
-      <div class="section-label" style="margin-bottom:.7rem">🏦 שוק ישראלי</div>
-      <div class="mkt-strip il">{il_market_cards}</div>
-    </div>
+  <!-- Tab Navigation -->
+  <div class="tab-nav">
+    <button class="tab-btn active" id="tab-wl-btn" onclick="showTab('watchlist')">📊 המניות שלי</button>
+    <button class="tab-btn" id="tab-macro-btn" onclick="showTab('macro')">🌐 מאקרו</button>
   </div>
 
-  <!-- Sector Heatmap -->
-  {f'<section class="section" id="heatmap"><div class="section-label">🌡 מפת מגזרים — S&P 500</div><div class="heatmap-grid">{heatmap_cells}</div></section>' if heatmap_cells else ""}
+  <!-- ── Watchlist Tab ── -->
+  <div class="tab-pane active" id="tab-watchlist">
+    <div class="section-label">📊 תיק המעקב שלי</div>
+    {watchlist_tab}
+  </div>
 
-  <!-- US News -->
-  <section class="section" id="us-news">
-    <div class="section-label">📰 חדשות וול סטריט</div>
-    <div class="news-list">{us_news_cards}</div>
-  </section>
+  <!-- ── Macro Tab ── -->
+  <div class="tab-pane" id="tab-macro">
 
-  <!-- Israel News -->
-  <section class="section" id="israel">
-    <div class="section-label">🇮🇱 חדשות ישראל</div>
-    <div class="news-list">{il_news_cards}</div>
-  </section>
+    <!-- Calendar Strip -->
+    {f'<div class="section-label">📅 אירועים כלכליים קרובים</div><div class="cal-strip">{cal_strip}</div>' if cal_strip else ""}
 
+    <!-- US Markets -->
+    <section class="section" id="us">
+      <div class="section-label">📈 מדדים אמריקאיים</div>
+      <div class="mkt-strip">{us_market_cards}</div>
+      <div class="mkt-strip" style="margin-top:.75rem">{comm_cards}</div>
+    </section>
+
+    <!-- Fear & Greed + IL Markets -->
+    <div class="fg-il-row">
+      {fg_card}
+      <div style="flex:1">
+        <div class="section-label" style="margin-bottom:.7rem">🏦 שוק ישראלי</div>
+        <div class="mkt-strip il">{il_market_cards}</div>
+      </div>
+    </div>
+
+    <!-- Sector Heatmap -->
+    {f'<section class="section" id="heatmap"><div class="section-label">🌡 מפת מגזרים — S&P 500</div><div class="heatmap-grid">{heatmap_cells}</div></section>' if heatmap_cells else ""}
+
+    <!-- US News -->
+    <section class="section" id="us-news">
+      <div class="section-label">📰 חדשות וול סטריט</div>
+      <div class="news-list">{us_news_cards}</div>
+    </section>
+
+    <!-- Israel News -->
+    <section class="section" id="israel">
+      <div class="section-label">🇮🇱 חדשות ישראל</div>
+      <div class="news-list">{il_news_cards}</div>
+    </section>
+
+  </div><!-- /tab-macro -->
 
 </div>
 
@@ -1527,6 +1696,24 @@ def build_html(data: dict) -> str:
     document.getElementById('themeBtn').textContent = light ? '☀️' : '🌙';
     localStorage.setItem('theme', light ? 'light' : 'dark');
   }}
+
+  // ── Tab Navigation ──
+  function showTab(name) {{
+    document.querySelectorAll('.tab-pane').forEach(function(p) {{ p.classList.remove('active'); }});
+    document.querySelectorAll('.tab-btn').forEach(function(b) {{ b.classList.remove('active'); }});
+    document.getElementById('tab-' + name).classList.add('active');
+    document.getElementById('tab-' + name + '-btn').classList.add('active');
+    localStorage.setItem('activeTab', name);
+  }}
+  (function() {{
+    var t = localStorage.getItem('activeTab') || 'watchlist';
+    if (t !== 'watchlist') showTab(t);
+  }})();
+
+  // ── PWA Service Worker ──
+  if ('serviceWorker' in navigator) {{
+    navigator.serviceWorker.register('sw.js').catch(function() {{}});
+  }}
 </script>
 </body>
 </html>"""
@@ -1537,8 +1724,13 @@ def build_html(data: dict) -> str:
 
 def main():
     print(f"\n{'='*55}")
-    print(f"  לוח חדשות יומי v4 — {TODAY_HE}")
+    print(f"  לוח חדשות יומי v5 — {TODAY_HE}")
     print(f"{'='*55}\n")
+
+    # 0. Load watchlist config
+    wl_config = load_watchlist()
+    all_wl_stocks = wl_config.get("stocks", []) + wl_config.get("il_stocks", [])
+    print(f"[ 0 ] Watchlist: {len(all_wl_stocks)} מניות")
 
     # 1. RSS — Israel only (US news comes from StockTwits)
     print("[ 1 ] שולף כותרות RSS ישראל...")
@@ -1546,26 +1738,34 @@ def main():
     il_raw = filter_headlines(il_raw_all, is_il_relevant, 10)
     print(f"\n  נבחרו: {len(il_raw)} ישראל")
 
-    # 2. Market data + Sparklines + Fear&Greed + Twitter — in parallel
-    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed ו-Twitter במקביל...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
+    # 2. Market data + Sparklines + Fear&Greed + Twitter + StockTwits + Watchlist — in parallel
+    print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed, Twitter, StockTwits ו-Watchlist במקביל...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
         fut_mkt   = ex.submit(fetch_market_data)
         fut_spark = ex.submit(fetch_sparklines)
         fut_fg    = ex.submit(fetch_fear_greed)
         fut_tw    = ex.submit(fetch_twitter_feeds, TWITTER_HANDLES)
-        mkt      = fut_mkt.result()
-        sparks   = fut_spark.result()
-        fg       = fut_fg.result()
-        tw_feed  = fut_tw.result()
+        fut_st    = ex.submit(fetch_stocktwits_trending)
+        fut_wl    = ex.submit(fetch_watchlist_data, all_wl_stocks)
+        mkt       = fut_mkt.result()
+        sparks    = fut_spark.result()
+        fg        = fut_fg.result()
+        tw_feed   = fut_tw.result()
+        trending  = fut_st.result()
+        watchlist = fut_wl.result()
 
-    # 3. Claude Enrichment — translate Twitter → Hebrew news
+    # 2b. Ticker-specific news for StockTwits trending
+    print("\n[ 2b ] שולף חדשות מניות ספציפיות...")
+    tk_news = fetch_ticker_news(trending[:8])
+
+    # 3. Claude Enrichment — analyst-voice interpretation of tweets
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     news_data = None
     if api_key:
         try:
-            print("\n[ 3 ] מתרגם ציוצים לעברית עם Claude...")
+            print("\n[ 3 ] מנתח ציוצים עם Claude (analyst voice)...")
             client = anthropic.Anthropic(api_key=api_key)
-            news_data = run_enrichment_agent(client, tw_feed, il_raw)
+            news_data = run_enrichment_agent(client, tw_feed, il_raw, ticker_news_raw=tk_news)
             for i, n in enumerate(news_data.get("israel_news", [])):
                 if i < len(il_raw) and not n.get("link"): n["link"] = il_raw[i]["link"]
             # Build lookup maps from original tweets: url → tweet_image, handle → relative_time
@@ -1582,21 +1782,18 @@ def main():
             for n in news_data.get("us_news", []):
                 src = n.get("source", "").lower()
                 link = n.get("link", "")
-                # Inject tweet_image: prefer exact URL match, else match article_url
                 if not n.get("tweet_image"):
                     if link in url_to_img:
                         n["tweet_image"] = url_to_img[link]
                     else:
-                        # Try matching any tweet whose article_url matches
                         for t in tw_feed:
                             if t.get("article_url") and t["article_url"] == link and t.get("tweet_image"):
                                 n["tweet_image"] = t["tweet_image"]
                                 break
-                # Inject relative_time
                 if not n.get("relative_time") and src in handle_to_rt:
                     n["relative_time"] = handle_to_rt[src]
             has_img = sum(1 for n in news_data.get("us_news", []) if n.get("tweet_image"))
-            print(f"✓ תרגום הושלם — {has_img} ציוצים עם תמונה מקורית")
+            print(f"✓ ניתוח הושלם — {has_img} ציוצים עם תמונה מקורית")
         except Exception as e:
             print(f"✗ Claude נכשל: {e} — עובר ל-fallback")
     else:
@@ -1608,13 +1805,14 @@ def main():
     # 4. Assemble full data dict
     data = {
         **news_data,
+        "watchlist":   watchlist,
         "market_us":   mkt["market_us"],
         "commodities": mkt["commodities"],
         "market_il":   mkt["market_il"],
         "sectors":     mkt["sectors"],
-        "sparklines": sparks,
-        "fear_greed": fg,
-        "events":     get_upcoming_events(5),
+        "sparklines":  sparks,
+        "fear_greed":  fg,
+        "events":      get_upcoming_events(5),
     }
 
     # 5. Fetch images
@@ -1626,8 +1824,27 @@ def main():
     for i, img in enumerate(il_imgs):
         if i < len(data["israel_news"]): data["israel_news"][i]["image"] = img
 
-    # 6. Build & Save HTML
-    print("\n[ 5 ] בונה HTML...")
+    # 6. Write data.json (intermediate data layer)
+    print("\n[ 5 ] כותב data.json...")
+    import datetime as _dt
+    data_export = {
+        "generated_at": _dt.datetime.now(_dt.timezone.utc).isoformat(),
+        "watchlist":    watchlist,
+        "market_us":    mkt["market_us"],
+        "commodities":  mkt["commodities"],
+        "market_il":    mkt["market_il"],
+        "sectors":      mkt["sectors"],
+        "fear_greed":   fg,
+        "us_news":      [{k: v for k, v in n.items() if k != "image"} for n in data.get("us_news", [])],
+        "il_news":      [{k: v for k, v in n.items() if k != "image"} for n in data.get("israel_news", [])],
+        "alert_config": wl_config.get("alerts", {}),
+    }
+    DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    DATA_PATH.write_text(json.dumps(data_export, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"✓ data.json נשמר → {DATA_PATH}")
+
+    # 7. Build & Save HTML
+    print("\n[ 6 ] בונה HTML...")
     html = build_html(data)
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(html, encoding="utf-8")

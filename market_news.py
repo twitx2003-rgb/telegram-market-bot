@@ -187,7 +187,111 @@ def alert_html(title_he, title_en, link, source, tone, color, icon, tone_text):
 </div>
 </body></html>"""
 
+def watchlist_alert_html(ticker, name, price, change_pct, change_str, reason):
+    now = datetime.now().strftime('%H:%M')
+    color = "#ef4444" if change_pct < 0 else "#22c55e"
+    arrow = "▼" if change_pct < 0 else "▲"
+    return f"""
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:16px;background:#f1f5f9;font-family:Arial,sans-serif;">
+<div style="max-width:480px;margin:0 auto;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.12);">
+  <div style="background:#0f172a;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;">
+    <span style="color:#fff;font-size:16px;font-weight:700;">📊 התראת תיק מעקב</span>
+    <span style="color:#94a3b8;font-size:12px;">{now}</span>
+  </div>
+  <div style="background:#fff;padding:20px;text-align:center;">
+    <div style="font-size:28px;font-weight:900;color:#0f172a;letter-spacing:-.02em;">{ticker}</div>
+    <div style="font-size:14px;color:#64748b;margin-bottom:14px;">{name}</div>
+    <div style="font-size:32px;font-weight:800;color:{color};">{arrow} {change_str}</div>
+    <div style="font-size:18px;color:#0f172a;margin-top:4px;">${price:,.2f}</div>
+    <div style="margin-top:14px;padding:10px 14px;background:{color}15;border-radius:8px;
+         font-size:13px;color:{color};font-weight:600;">{reason}</div>
+  </div>
+  <div style="background:#f8fafc;padding:10px 20px;text-align:center;">
+    <a href="https://twitx2003-rgb.github.io/telegram-market-bot/" style="font-size:12px;color:#3b82f6;text-decoration:none;font-weight:600;">פתח לוח הבקרה ←</a>
+  </div>
+</div>
+</body></html>"""
+
+
+ALERTS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seen_alerts.json")
+DATA_FILE   = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "data.json")
+
+
+def load_alerts():
+    if os.path.exists(ALERTS_FILE):
+        with open(ALERTS_FILE, "r") as f:
+            return set(json.load(f))
+    return set()
+
+
+def save_alerts(seen):
+    with open(ALERTS_FILE, "w") as f:
+        json.dump(list(seen)[-200:], f)
+
+
+def check_watchlist_alerts():
+    if not os.path.exists(DATA_FILE):
+        print("data.json לא נמצא — דלג על התראות watchlist")
+        return
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"שגיאה בקריאת data.json: {e}")
+        return
+
+    watchlist    = data.get("watchlist", [])
+    alert_config = data.get("alert_config", {})
+    threshold    = float(alert_config.get("price_move_pct", 5))
+    on_earnings  = alert_config.get("on_earnings_day", True)
+
+    if not watchlist:
+        return
+
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    seen = load_alerts()
+    sent = 0
+
+    for stock in watchlist:
+        ticker     = stock.get("ticker", "")
+        name       = stock.get("name", ticker)
+        price      = stock.get("price", 0)
+        change_pct = stock.get("change_pct", 0)
+        change_str = stock.get("change_str", "N/A")
+        is_earn    = stock.get("is_earnings_today", False)
+
+        alert_key = f"{ticker}:{today_str}"
+        if alert_key in seen:
+            continue
+
+        reason = None
+        if abs(change_pct) >= threshold:
+            direction = "ירידה" if change_pct < 0 else "עלייה"
+            reason = f"{direction} של {change_str} ביום אחד (סף: {threshold:.0f}%)"
+        elif on_earnings and is_earn:
+            reason = "יום פרסום דוח רווחים"
+
+        if reason:
+            html = watchlist_alert_html(ticker, name, price, change_pct, change_str, reason)
+            send_email(f"📊 התראה: {ticker} — {change_str}", html)
+            seen.add(alert_key)
+            sent += 1
+            print(f"  ✓ התראה נשלחה: {ticker} ({reason})")
+
+    save_alerts(seen)
+    if sent == 0:
+        print("  אין התראות watchlist חדשות.")
+
+
 def check_alerts():
+    # First: check personal watchlist price alerts
+    print("בודק התראות watchlist...")
+    check_watchlist_alerts()
+
+    # Then: check RSS feeds for market news alerts
     seen = load_seen()
     new_alerts = []
     for feed_info in FEEDS:

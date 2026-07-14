@@ -26,12 +26,13 @@ jobs:
       - name: Generate news dashboard
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: python news_dashboard.py
 
       - name: Push to GitHub Pages
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "GitHub Actions"
-          git add docs/index.html
+          git add docs/index.html docs/data.json
           git diff --staged --quiet || git commit -m "Dashboard update $(date +'%Y-%m-%d %H:%M UTC')"
           git push

@@ -1,0 +1,20 @@
+{
+  "stocks": [
+    {"ticker": "AAPL",  "name": "Apple"},
+    {"ticker": "NVDA",  "name": "Nvidia"},
+    {"ticker": "MSFT",  "name": "Microsoft"},
+    {"ticker": "GOOGL", "name": "Alphabet"},
+    {"ticker": "AMZN",  "name": "Amazon"},
+    {"ticker": "META",  "name": "Meta"},
+    {"ticker": "TSLA",  "name": "Tesla"},
+    {"ticker": "JPM",   "name": "JPMorgan"}
+  ],
+  "il_stocks": [
+    {"ticker": "TEVA",  "name": "טבע"}
+  ],
+  "alerts": {
+    "price_move_pct": 5,
+    "on_earnings_day": true,
+    "macro_keywords": ["FOMC", "CPI", "NFP", "Fed"]
+  }
+}
