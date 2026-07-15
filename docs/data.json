@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T03:21:08.183270+00:00",
+  "generated_at": "2026-07-15T05:52:32.679771+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -146,27 +146,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,042.6",
-      "change": "-0.67%",
+      "value": "$4,040.6",
+      "change": "-0.72%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6658967491461265
+      "pct_raw": -0.715040420669826
     },
     {
       "name": "נפט ברנט",
-      "value": "$85.8",
-      "change": "+1.29%",
+      "value": "$85.2",
+      "change": "+0.61%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.2864392777056404
+      "pct_raw": 0.61371415083205
     },
     {
       "name": "ביטקוין",
-      "value": "$64,569",
-      "change": "-0.62%",
+      "value": "$64,717",
+      "change": "-0.40%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6246025956481537
+      "pct_raw": -0.3966986931570388
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -188,11 +188,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.995",
-      "change": "-0.35%",
+      "value": "2.996",
+      "change": "-0.31%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.3460207612456662
+      "pct_raw": -0.31274953420281654
     }
   ],
   "sectors": [
@@ -292,6 +292,42 @@
   },
   "us_news": [
     {
+      "title_he": "Stripe ו-Advent International הציעו לרכוש $PYPL תמורת $60.50 למניה. ההצעה מגובה בכ-50 מיליארד דולר",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077235654539493770#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNPS0BnaoAAlxKs.jpg",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שבירה: כלכלת סין האטה ברבעון השני של השנה, והתרחבה בקצב שנתי של 4.3%, לפי AP.",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077235070247797188#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: וויליאמס גילה שהתיק של טראמפ בסך 10 מיליארד דולר נגד מס הכנסה הובא למטרה לא ראויה,",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077234448123498774#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/judge-voids-trump-irs-settlement",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2076867830189015040%2FQ7R_R9rs%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "R ל-@unusual_whales: היו\"ר בן ה-95 של ברקשייר האת'ווי אמר שמטרתו היא להיפטר מכל שאר ברקשייר שלו",
       "summary_he": "",
       "ticker": "",
@@ -300,7 +336,7 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/buffett-exit-berkshire-stake-2034",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077178110022488064%2FyBW8Baqo%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 22ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -312,7 +348,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -324,7 +360,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNOu0qJb0AAsNj0.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -336,7 +372,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNOtQbVbwAAmvSj.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -348,7 +384,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNOgfbvbYAAew4_.png",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -360,7 +396,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNOLFBRXsAAcnD8.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -372,7 +408,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNl8JdWwAAd8bD.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -384,7 +420,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNOJXK9XIAEYft0.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -396,7 +432,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNMQz-6WgAAu5rv.png",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -408,11 +444,11 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNMQw5XW4AAm_MA.png",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אתמול אמר ג'ים קרימר לצופים שלו לקנות היום מניות IBM בדולרים נפלו ב-25% הירידה הגדולה ביותר ביום אחד בחברה",
+      "title_he": "אתמול אמר ג'ים קרימר לצופים שלו לקנות היום מניות IBM בדולר צנחו ב-25% הירידה הגדולה ביותר ביום אחד בחברה",
       "summary_he": "",
       "ticker": "",
       "source": "@gurgavin",
@@ -420,7 +456,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNN9RoRWAAAFIaj.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -432,7 +468,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -444,31 +480,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNuR35XEAE-GoZ.jpg",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "SK Hynix $SKHY +27% היום",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2077123521369534673#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNNs1fWXEAA_9Es.png",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "היום הגרוע ביותר של $IBM מאז ההנפקה שלה בעידן המודרני ב-1962 -25.4%... שווי שוק של 69 מיליארד דולר נמחק",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2077122433048338436#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNNr2JBXoAIK27B.png",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -480,7 +492,7 @@
       "tag": "NEWS",
       "article_url": "http://eletric-vehicles.com",
       "tweet_image": "https://nitter.net/pic/card_img%2F2075799923363389440%2FcOpZgRYa%3Fformat%3Dpng%26name%3D600x314",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -492,7 +504,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -504,7 +516,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNOHcLXIAA98wJ.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -516,7 +528,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNI-1sXsAAw20Y.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     },
     {
@@ -528,7 +540,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     },
     {
@@ -540,7 +552,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077068401051373570%2Fimg%2FdKQLkPJkUCuh1DB8.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     },
     {
@@ -552,7 +564,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077059659173855232%2Fimg%2FEwsETD8PCr8fUXYy.jpg",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     },
     {
@@ -564,7 +576,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077018645918863360%2Fimg%2FvMVd7vO0rTGcpiGP.jpg",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
@@ -576,7 +588,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNMGNcyWYAAtx-H.jpg",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     },
     {
@@ -588,7 +600,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNLwRToXkAARrIn.jpg",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     },
     {
@@ -600,11 +612,18 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNLvAV9bwAAFBVx.png",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "מלחמת הפשע ממשיכה: רימון הושלך לעבר סניף ג'פניקה בראש פינה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3853585",
+      "tag": "כללי"
+    },
     {
       "title_he": "ירי, מרדף ונטרול: שלח נורה למוות בידי שוטרים בסולם",
       "summary_he": "",
@@ -666,13 +685,6 @@
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3853445",
-      "tag": "כללי"
-    },
-    {
-      "title_he": "נתניהו: \"דימונה הייתה עיירה שכוחת אל, ואז הגיעו הממשלות שלנו והכל התהפך\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853442",
       "tag": "כללי"
     }
   ],
