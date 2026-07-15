@@ -1747,56 +1747,6 @@ def build_opportunities_tab(data: dict, ta_cards_html: str = "") -> str:
     )
 
 
-def build_watchlist_card(stock: dict) -> str:
-    ticker     = stock.get("ticker", "")
-    name       = stock.get("name", ticker)
-    price      = stock.get("price", 0)
-    change_pct = stock.get("change_pct", 0)
-    change_str = stock.get("change_str", "N/A")
-    direction  = stock.get("direction", "flat")
-    is_earn    = stock.get("is_earnings_today", False)
-    earn_date  = stock.get("earnings_date", "")
-    alerted    = stock.get("alert_triggered", False)
-
-    css      = _css(direction)
-    arrow    = _arrow(direction)
-    price_str = f"${price:,.2f}" if price else "—"
-
-    earnings_badge = ""
-    if is_earn:
-        earnings_badge = '<span class="earn-badge earn-today">דוח היום</span>'
-    elif earn_date:
-        try:
-            ed = datetime.strptime(earn_date, "%Y-%m-%d").date()
-            days = (ed - date.today()).days
-            if 0 < days <= 14:
-                earnings_badge = f'<span class="earn-badge">דוח בעוד {days} ימים</span>'
-        except Exception:
-            pass
-
-    alert_dot = '<span class="alert-dot" title="התראה הופעלה"></span>' if alerted else ""
-
-    return (
-        f'<div class="wl-card">'
-        f'<div class="wl-top">'
-        f'<span class="wl-ticker">{ticker}</span>'
-        f'{alert_dot}'
-        f'<span class="wl-name">{name}</span>'
-        f'</div>'
-        f'<div class="wl-price">{price_str}</div>'
-        f'<div class="wl-change {css}">{arrow} {change_str}</div>'
-        f'{earnings_badge}'
-        f'</div>'
-    )
-
-
-def build_watchlist_tab(watchlist: list) -> str:
-    if not watchlist:
-        return '<div class="wl-empty">הגדר מניות ב-watchlist.json כדי לראות נתונים כאן</div>'
-    cards = "".join(build_watchlist_card(s) for s in watchlist)
-    return f'<div class="wl-grid">{cards}</div>'
-
-
 def build_html(data: dict) -> str:
     ticker_items = build_ticker_items(data)
     news_tab     = build_news_feed_tab(data.get("us_news", []), data.get("israel_news", []))
@@ -2103,27 +2053,6 @@ def build_html(data: dict) -> str:
   .tab-pane{{display:none}}
   .tab-pane.active{{display:block}}
 
-  /* ── Watchlist Grid ── */
-  .wl-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.85rem;padding:.5rem 0 1.5rem}}
-  .wl-card{{background:var(--card);border:1px solid var(--border);border-radius:12px;
-    padding:1.1rem 1.2rem;transition:border-color .2s;position:relative}}
-  .wl-card:hover{{border-color:var(--accent)}}
-  .wl-top{{display:flex;align-items:center;gap:.5rem;margin-bottom:.55rem}}
-  .wl-ticker{{font-family:'Inter',monospace;font-weight:900;font-size:.95rem;color:var(--white)}}
-  .wl-name{{font-size:.72rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
-  .wl-price{{font-size:1.45rem;font-weight:800;color:var(--white);font-family:'Inter',monospace;
-    letter-spacing:-.02em;margin-bottom:.3rem}}
-  .wl-change{{font-size:.82rem;font-weight:700}}
-  .wl-change.up{{color:var(--green)}}
-  .wl-change.down{{color:var(--red)}}
-  .wl-change.flat{{color:var(--muted)}}
-  .earn-badge{{display:inline-block;margin-top:.5rem;font-size:.67rem;font-weight:700;
-    padding:.15rem .5rem;border-radius:4px;background:rgba(245,158,11,.15);color:var(--gold)}}
-  .earn-badge.earn-today{{background:rgba(239,68,68,.15);color:var(--red)}}
-  .alert-dot{{display:inline-block;width:8px;height:8px;border-radius:50%;
-    background:var(--red);box-shadow:0 0 6px var(--red);flex-shrink:0}}
-  .wl-empty{{color:var(--muted);text-align:center;padding:2rem;font-size:.9rem}}
-
   /* ── Footer ── */
   footer{{text-align:center;padding:2rem;font-size:.72rem;color:var(--muted);border-top:1px solid var(--border)}}
   footer a{{color:var(--accent);text-decoration:none}}
@@ -2137,7 +2066,6 @@ def build_html(data: dict) -> str:
     .fg-il-row{{flex-direction:column}}
     .cal-strip{{gap:.5rem}}
     .cal-pill{{min-width:120px}}
-    .wl-grid{{grid-template-columns:repeat(2,1fr)}}
     .ta-grid{{grid-template-columns:1fr}}
   }}
 </style>
@@ -2161,9 +2089,9 @@ def build_html(data: dict) -> str:
 
 <!-- Hero -->
 <div class="hero">
-  <div class="hero-label">לוח חדשות אישי</div>
-  <h1>שוק ההון <span>&</span> ישראל</h1>
-  <div class="hero-sub">וול סטריט · חברות אמריקאיות · חדשות ישראל</div>
+  <div class="hero-label">לוח שוק אישי</div>
+  <h1>חדשות <span>&</span> הזדמנויות</h1>
+  <div class="hero-sub">פיד חדשות חי · ניתוח טכני · וול סטריט וישראל</div>
   <div class="hero-date">
     <span class="pulse"></span>
     {TODAY_HE} &nbsp;|&nbsp; עודכן {TIME}
