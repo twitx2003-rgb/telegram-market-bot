@@ -176,10 +176,13 @@ def fetch_rss(feeds: list, max_per_feed: int = 10) -> list:
                 link  = entry.get("link", "")
                 if not title: continue
                 pub = entry.get("published_parsed") or entry.get("updated_parsed")
+                published_at = ""
                 if pub:
                     pub_dt = datetime(*pub[:6], tzinfo=timezone.utc)
                     if pub_dt < cutoff: continue
-                results.append({"title": title, "link": link, "source": feed["name"]})
+                    published_at = pub_dt.isoformat()
+                results.append({"title": title, "link": link, "source": feed["name"],
+                                "published_at": published_at})
                 count += 1
             print(f"  ✓ {feed['name']}: {count} articles")
         except Exception as e:
@@ -588,8 +591,15 @@ def _parse_tweet_date(date_str: str):
 
 
 def _relative_time(date_str: str) -> str:
-    """Convert a date string to a Hebrew relative time label."""
+    """Convert a date string (RFC-2822 or ISO-8601) to a Hebrew relative time label."""
     dt = _parse_tweet_date(date_str)
+    if not dt and date_str:
+        try:
+            dt = datetime.fromisoformat(date_str)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+        except ValueError:
+            pass
     if not dt:
         return ""
     diff = datetime.now(timezone.utc) - dt
@@ -615,7 +625,6 @@ def _try_nitter_feed(handle: str, instance: str) -> list:
         if not parsed.entries:
             return []
         tweets = []
-        tweets = []
         for entry in parsed.entries[:5]:
             body = (entry.get("title") or "").strip()
             link = entry.get("link", "")
@@ -630,11 +639,13 @@ def _try_nitter_feed(handle: str, instance: str) -> list:
                 # Tweet media images (charts, tables, photos)
                 tweet_images = _extract_nitter_images(summary_html, instance)
                 tweet_image = tweet_images[0] if tweet_images else ""
+                pub_dt = _parse_tweet_date(date)
                 tweets.append({
                     "handle":        handle,
                     "body":          body[:500],
                     "url":           link,
                     "date":          date,
+                    "published_at":  pub_dt.isoformat() if pub_dt else "",
                     "article_url":   article_url,
                     "tweet_image":   tweet_image,
                     "relative_time": _relative_time(date),
@@ -745,12 +756,14 @@ def _fetch_ticker_news_one(ticker: str) -> list:
             title = (entry.get("title") or "").strip()
             link  = entry.get("link", "")
             if title:
+                pub_dt = _parse_tweet_date(entry.get("published", ""))
                 news.append({
-                    "ticker":    f"${ticker}",
-                    "title":     title,
-                    "url":       link,
-                    "published": entry.get("published", ""),
-                    "source":    "Yahoo Finance",
+                    "ticker":       f"${ticker}",
+                    "title":        title,
+                    "url":          link,
+                    "published":    entry.get("published", ""),
+                    "published_at": pub_dt.isoformat() if pub_dt else "",
+                    "source":       "Yahoo Finance",
                 })
         return news
     except Exception:
@@ -816,6 +829,264 @@ def fetch_watchlist_data(stocks: list) -> list:
     return results
 
 
+# ── Technical Analysis Engine ──────────────────────────────────────────────────
+
+_YF_1Y_BASE  = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?interval=1d&range=1y"
+_TICKER_OK_RE = re.compile(r'^[A-Z][A-Z0-9.\-]{0,6}$')
+
+
+def build_ta_universe(watchlist_stocks: list, trending: list, cap: int = 15) -> list:
+    """Watchlist tickers first, then StockTwits trending, deduped, junk filtered, capped."""
+    universe, seen = [], set()
+    for s in watchlist_stocks:
+        t = s.get("ticker", "").upper()
+        if t and t not in seen and _TICKER_OK_RE.match(t):
+            universe.append(t); seen.add(t)
+    for t in trending:
+        t = (t or "").upper()
+        # Skip crypto pairs / OTC junk StockTwits sometimes returns
+        if t and t not in seen and _TICKER_OK_RE.match(t) and "." not in t and len(t) <= 5:
+            universe.append(t); seen.add(t)
+        if len(universe) >= cap:
+            break
+    return universe[:cap]
+
+
+def _fetch_history_one(ticker: str) -> tuple:
+    """Yahoo v8 chart, 1y daily. Returns (ticker, {closes, highs, lows, volumes}) or (ticker, None)."""
+    if not HAS_REQUESTS:
+        return ticker, None
+    try:
+        url  = _YF_1Y_BASE.format(sym=urllib.parse.quote(ticker))
+        resp = _requests.get(url, headers=_YF_HEADERS, timeout=10)
+        resp.raise_for_status()
+        result = resp.json()["chart"]["result"][0]
+        quote  = result.get("indicators", {}).get("quote", [{}])[0]
+        rows = [
+            (c, h, l, v) for c, h, l, v in zip(
+                quote.get("close", []), quote.get("high", []),
+                quote.get("low", []),   quote.get("volume", []))
+            if c is not None
+        ]
+        if len(rows) < 60:
+            return ticker, None
+        return ticker, {
+            "closes":  [r[0] for r in rows],
+            "highs":   [r[1] if r[1] is not None else r[0] for r in rows],
+            "lows":    [r[2] if r[2] is not None else r[0] for r in rows],
+            "volumes": [r[3] or 0 for r in rows],
+        }
+    except Exception as e:
+        print(f"  ✗ היסטוריה {ticker}: {e}")
+        return ticker, None
+
+
+def fetch_ta_history(tickers: list) -> dict:
+    """Parallel 1y history fetch. Failures silently dropped."""
+    if not tickers:
+        return {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
+        results = list(ex.map(_fetch_history_one, tickers))
+    hist = {t: h for t, h in results if h}
+    print(f"  ✓ היסטוריה: {len(hist)}/{len(tickers)} טיקרים")
+    return hist
+
+
+def _sma(values: list, n: int):
+    return round(sum(values[-n:]) / n, 2) if len(values) >= n else None
+
+
+def _rsi14(closes: list):
+    """Wilder-smoothed RSI(14)."""
+    if len(closes) < 15:
+        return None
+    deltas = [closes[i] - closes[i-1] for i in range(1, len(closes))]
+    gains  = [max(d, 0) for d in deltas]
+    losses = [max(-d, 0) for d in deltas]
+    avg_g, avg_l = sum(gains[:14]) / 14, sum(losses[:14]) / 14
+    for i in range(14, len(deltas)):
+        avg_g = (avg_g * 13 + gains[i]) / 14
+        avg_l = (avg_l * 13 + losses[i]) / 14
+    if avg_l == 0:
+        return 100.0
+    return round(100 - 100 / (1 + avg_g / avg_l), 1)
+
+
+def _swing_levels(highs: list, lows: list, price: float, window: int = 5, lookback: int = 126):
+    """Nearest swing-low support below price and swing-high resistance above price
+    from local extrema over the last ~6 months."""
+    highs, lows = highs[-lookback:], lows[-lookback:]
+    swing_highs, swing_lows = [], []
+    for i in range(window, len(highs) - window):
+        seg_h = highs[i-window:i+window+1]
+        seg_l = lows[i-window:i+window+1]
+        if highs[i] == max(seg_h):
+            swing_highs.append(highs[i])
+        if lows[i] == min(seg_l):
+            swing_lows.append(lows[i])
+    supports    = [s for s in swing_lows  if s < price]
+    resistances = [r for r in swing_highs if r > price]
+    support     = round(max(supports), 2)    if supports    else round(min(lows), 2)
+    resistance  = round(min(resistances), 2) if resistances else round(max(highs), 2)
+    return support, resistance
+
+
+def compute_indicators(ticker: str, hist: dict, quote_price: float = None) -> dict:
+    """Pure computation — every number Claude sees comes from here."""
+    closes, highs, lows, vols = hist["closes"], hist["highs"], hist["lows"], hist["volumes"]
+    price = quote_price or closes[-1]
+    support, resistance = _swing_levels(highs, lows, price)
+    high_52w, low_52w = max(highs), min(lows)
+    vol_10d = sum(vols[-10:]) / 10 if len(vols) >= 10 else 0
+    vol_3m  = sum(vols[-63:]) / min(63, len(vols)) if vols else 0
+    return {
+        "ticker":            ticker,
+        "price":             round(price, 2),
+        "sma20":             _sma(closes, 20),
+        "sma50":             _sma(closes, 50),
+        "sma200":            _sma(closes, 200),
+        "rsi14":             _rsi14(closes),
+        "support":           support,
+        "resistance":        resistance,
+        "high_52w":          round(high_52w, 2),
+        "low_52w":           round(low_52w, 2),
+        "pct_from_52w_high": round((price - high_52w) / high_52w * 100, 1) if high_52w else 0,
+        "vol_ratio":         round(vol_10d / vol_3m, 2) if vol_3m else 1.0,
+        "change_1w_pct":     round((closes[-1] - closes[-6])  / closes[-6]  * 100, 1) if len(closes) > 6  else 0,
+        "change_1m_pct":     round((closes[-1] - closes[-22]) / closes[-22] * 100, 1) if len(closes) > 22 else 0,
+    }
+
+
+TA_MODEL = os.environ.get("TA_MODEL", "")  # empty → use ENRICHMENT_MODEL
+
+
+def run_ta_agent(client: anthropic.Anthropic, indicator_rows: list) -> list:
+    """Second Claude call: technical-analyst interpretation of the computed indicators.
+    Claude only interprets — every level it cites comes from the input table."""
+    if not indicator_rows:
+        return []
+    system = f"""אתה אנליסט טכני בכיר — 15 שנה בדסק המסחר של Morgan Stanley, מתמחה ב-swing trading.
+היום: {TODAY_HE} ({TODAY}).
+תקבל טבלת אינדיקטורים מחושבים. המספרים סופיים — אל תמציא ואל תשנה אותם.
+החזר אובייקט JSON בלבד — ללא markdown, ללא טקסט נוסף.
+
+── כללי ניתוח ─────────────────────────────────────────
+setup_type — בחר אחד:
+  פריצה   — מחיר קרוב להתנגדות (עד 3%) עם מומנטום (change_1w חיובי, vol_ratio>1)
+  תמיכה   — מחיר קרוב לתמיכה (עד 3%) עם RSI מתחת ל-45
+  מומנטום — מחיר מעל SMA20>SMA50, RSI בין 50-70
+  תיקון   — ירידה מ-52w high מעל 10%, RSI מתקרר
+  טווח    — שום דבר מהנ"ל, המחיר באמצע הטווח
+
+recommendation:
+  קנייה  — רק כשלפחות 3 אינדיקטורים תומכים באותו כיוון
+  מעקב   — תמונה מעורבת אבל יש סטאפ מתפתח
+  המתנה  — אין יתרון סטטיסטי כרגע
+  לעולם אל תמליץ קנייה כש-RSI>75 או כשהמחיר מתחת לכל שלושת הממוצעים.
+
+confidence: 1-5 — כמה אינדיקטורים מיישרים קו. 5 נדיר מאוד.
+
+entry: מחיר כניסה הגיוני ביחס לתמיכה/פריצה מהטבלה (קרוב לתמיכה או מעל התנגדות).
+stop:  מתחת לתמיכה הקרובה (1-3% מתחתיה).
+
+rationale_he: 2-3 משפטים בעברית, קול אנליסט, מצטט את המספרים במפורש:
+  "RSI ב-38 עם מחיר 2% מעל תמיכה ב-$182 — הסיכון-סיכוי כאן מוטה לונג"
+
+── סכמה ───────────────────────────────────────────────
+{{"opportunities":[
+  {{"ticker":"AAPL","setup_type":"תמיכה","levels":{{"support":182.5,"resistance":198.0,"entry":184.0,"stop":178.0}},"recommendation":"קנייה","confidence":3,"rationale_he":"..."}}
+]}}
+נתח את כל הטיקרים שבטבלה. JSON בלבד."""
+
+    table = "\n".join(json.dumps(r, ensure_ascii=False) for r in indicator_rows)
+    messages = [{"role": "user", "content": f"טבלת אינדיקטורים ({len(indicator_rows)} טיקרים):\n{table}\n\nנתח את כולם. החזר JSON."}]
+
+    model = TA_MODEL or ENRICHMENT_MODEL
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude TA ({model})...")
+    response = client.messages.create(model=model, max_tokens=8000, system=system, messages=messages)
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] TA stop_reason={response.stop_reason}")
+
+    text_blocks = [b for b in response.content if b.type == "text"]
+    if not text_blocks:
+        raise ValueError("TA: לא התקבלה תגובה")
+    raw = text_blocks[-1].text.strip()
+    if raw.startswith("```"):
+        raw = raw.split("```")[1]
+        if raw.startswith("json"): raw = raw[4:]
+    parsed = json.loads(raw.strip())
+    return parsed.get("opportunities", [])
+
+
+def merge_ta_results(claude_ops: list, indicators: dict) -> list:
+    """Join Claude's interpretation back to Python-computed numbers.
+    Python's support/resistance/price always win; entry/stop clamped to ±25% of price."""
+    ops = []
+    claude_by_ticker = {op.get("ticker", "").upper().lstrip("$"): op for op in claude_ops}
+    for ticker, ind in indicators.items():
+        cop = claude_by_ticker.get(ticker)
+        price = ind["price"]
+
+        def _clamp(v):
+            try:
+                v = float(v)
+                return round(v, 2) if 0.75 * price <= v <= 1.25 * price else None
+            except (TypeError, ValueError):
+                return None
+
+        entry = stop = None
+        setup, rec, conf, rationale = "טווח", "המתנה", 0, ""
+        if cop:
+            levels    = cop.get("levels", {}) or {}
+            entry     = _clamp(levels.get("entry"))
+            stop      = _clamp(levels.get("stop"))
+            setup     = cop.get("setup_type", "טווח")
+            rec       = cop.get("recommendation", "המתנה")
+            conf      = min(max(int(cop.get("confidence", 0) or 0), 0), 5)
+            rationale = (cop.get("rationale_he", "") or "")[:400]
+        ops.append({
+            "ticker":         ticker,
+            "price":          price,
+            "setup_type":     setup,
+            "levels": {
+                "support":    ind["support"],
+                "resistance": ind["resistance"],
+                "entry":      entry,
+                "stop":       stop,
+            },
+            "recommendation": rec,
+            "confidence":     conf,
+            "rationale_he":   rationale,
+            "indicators": {
+                "rsi14":             ind["rsi14"],
+                "sma20":             ind["sma20"],
+                "sma50":             ind["sma50"],
+                "sma200":            ind["sma200"],
+                "pct_from_52w_high": ind["pct_from_52w_high"],
+                "vol_ratio":         ind["vol_ratio"],
+                "change_1w_pct":     ind["change_1w_pct"],
+                "change_1m_pct":     ind["change_1m_pct"],
+            },
+            "analyzed":       cop is not None,
+            "stale":          False,
+        })
+    # Buy recommendations first, then by confidence
+    rec_order = {"קנייה": 0, "מעקב": 1, "המתנה": 2}
+    ops.sort(key=lambda o: (rec_order.get(o["recommendation"], 3), -o["confidence"]))
+    return ops
+
+
+def load_previous_opportunities() -> list:
+    """Stale fallback: carry forward the last committed data.json's opportunities."""
+    try:
+        prev = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+        ops = prev.get("opportunities", [])
+        for op in ops:
+            op["stale"] = True
+        return ops
+    except Exception:
+        return []
+
+
 # ── Finance Relevance Filter ───────────────────────────────────────────────────
 
 _FINANCE_KW = [
@@ -844,16 +1115,26 @@ def is_finance_tweet(body: str) -> bool:
     return any(kw in t for kw in _FINANCE_KW)
 
 
+def select_finance_tweets(tw_tweets: list, limit: int = 30) -> list:
+    """Deterministic finance filter + cap. Used by both enrichment and source merging
+    so [tN] ids in the prompt always refer to the same items."""
+    finance = [t for t in tw_tweets if is_finance_tweet(t.get("body", ""))]
+    if not finance:
+        finance = tw_tweets
+    return finance[:limit]
+
+
 # ── Claude Enrichment Agent ────────────────────────────────────────────────────
 
 def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: list,
                           ticker_news_raw: list = None) -> dict:
-    il_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
+    il_titles = "\n".join(f"[il{i+1}] [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
 
     ticker_section = ""
     if ticker_news_raw:
         tn_lines = "\n".join(
-            f"- [{n['ticker']}] {n['title']} ({n['source']})" for n in ticker_news_raw[:15]
+            f"[n{i+1}] [{n['ticker']}] {n['title']} ({n['source']})"
+            for i, n in enumerate(ticker_news_raw[:15])
         )
         ticker_section = f"\n\nחדשות מניות ספציפיות ({len(ticker_news_raw[:15])}):\n{tn_lines}"
 
@@ -895,6 +1176,7 @@ def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: l
   • אל תחזור על הכותרת — הרחב אותה
 
 ── שדות טכניים ──────────────────────────────────────────
+src_id:  חובה! ה-id של פריט המקור ([t3] / [n2] / [il1]) — העתק אותו בדיוק
 body_en: הציוץ המקורי מילה במילה, עד 200 תווים (ציטוט ישיר, לא תרגום)
 ticker:  $AAPL / $BTC / ריק אם אין
 tag:     EARNINGS / MACRO / FED / TECH / M&A / ENERGY / CRYPTO / BANKS / NEWS
@@ -908,25 +1190,27 @@ link, source: כתובת + "@handle"
 
 {{
   "us_news": [
-    {{"title_he":"הקול האנליטי שלך","summary_he":"ניתוח עם מספרים ומשמעות","body_en":"verbatim tweet...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
+    {{"src_id":"t3","title_he":"הקול האנליטי שלך","summary_he":"ניתוח עם מספרים ומשמעות","body_en":"verbatim tweet...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
   ],
   "israel_news": [
-    {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
+    {{"src_id":"il1","title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
   ]
 }}
 JSON בלבד."""
 
     # Pre-filter: keep only finance-relevant tweets before sending to Claude
-    finance_tweets = [t for t in tw_tweets if is_finance_tweet(t.get("body", ""))]
-    if not finance_tweets:
-        finance_tweets = tw_tweets
-    tw_sample = finance_tweets[:30]
-    print(f"  ✓ פילטר פיננסי: {len(finance_tweets)}/{len(tw_tweets)} ציוצים רלוונטיים")
+    tw_sample = select_finance_tweets(tw_tweets)
+    print(f"  ✓ פילטר פיננסי: {len(tw_sample)}/{len(tw_tweets)} ציוצים רלוונטיים")
+    # Compact tweet lines with stable ids Claude must echo back as src_id
+    tw_lines = "\n".join(
+        f"[t{i+1}] @{t.get('handle','')}: {t.get('body','')} | link: {t.get('url','')}"
+        for i, t in enumerate(tw_sample)
+    )
     messages = [{"role": "user", "content":
-        f"עבד נתונים ל-{TODAY_HE}.\n\n"
-        f"Twitter ({len(tw_sample)} ציוצים):\n{json.dumps(tw_sample, ensure_ascii=False)}\n\n"
+        f"עבד נתונים ל-{TODAY_HE}. לכל פריט יש id בסוגריים — החזר אותו כ-src_id.\n\n"
+        f"Twitter ({len(tw_sample)} ציוצים):\n{tw_lines}\n\n"
         f"ישראל ({len(il_raw)}):\n{il_titles}"
-        + (f"\n\nחדשות מניות ספציפיות:{ticker_section}" if ticker_section else "")
+        + (ticker_section if ticker_section else "")
         + "\n\nהחזר JSON."}]
 
     print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude ({ENRICHMENT_MODEL})...")
@@ -941,6 +1225,59 @@ JSON בלבד."""
             if raw.startswith("json"): raw = raw[4:]
         return json.loads(raw.strip())
     raise ValueError("לא התקבלה תגובה")
+
+
+def merge_enriched_with_sources(news_data: dict, tw_sample: list, il_raw: list,
+                                 ticker_news_raw: list = None) -> dict:
+    """Join Claude's enriched items back to their source items by src_id.
+    Recovers published_at, tweet_image, article_url, relative_time, link.
+    Falls back to legacy URL/handle matching when src_id is missing/unknown."""
+    source_index = {}
+    for i, t in enumerate(tw_sample):
+        source_index[f"t{i+1}"] = t
+    for i, n in enumerate((ticker_news_raw or [])[:15]):
+        source_index[f"n{i+1}"] = n
+    for i, item in enumerate(il_raw):
+        source_index[f"il{i+1}"] = item
+
+    # Legacy fallback maps (url → tweet, handle → most recent tweet)
+    url_to_tweet, handle_to_tweet = {}, {}
+    for t in tw_sample:
+        if t.get("url") and t["url"] not in url_to_tweet:
+            url_to_tweet[t["url"]] = t
+        h = f'@{t.get("handle","")}'.lower()
+        if h not in handle_to_tweet:
+            handle_to_tweet[h] = t
+
+    matched = 0
+    for n in news_data.get("us_news", []):
+        src = source_index.get(n.get("src_id", ""))
+        if not src:
+            # Legacy matching by link/handle
+            src = url_to_tweet.get(n.get("link", "")) or handle_to_tweet.get(n.get("source", "").lower())
+        if src:
+            matched += 1
+            if not n.get("published_at"):  n["published_at"]  = src.get("published_at", "")
+            if not n.get("tweet_image"):   n["tweet_image"]   = src.get("tweet_image", "")
+            if not n.get("article_url"):   n["article_url"]   = src.get("article_url", "")
+            if not n.get("relative_time"): n["relative_time"] = src.get("relative_time", "") or _relative_time(src.get("published_at", ""))
+            if not n.get("link") or n["link"] == "#":
+                n["link"] = src.get("url", "") or src.get("link", "")
+
+    for n in news_data.get("israel_news", []):
+        src = source_index.get(n.get("src_id", ""))
+        if src:
+            if not n.get("published_at"): n["published_at"] = src.get("published_at", "")
+            if not n.get("link"):         n["link"]         = src.get("link", "")
+    # Positional fallback for Israel items without src_id (legacy behavior)
+    for i, n in enumerate(news_data.get("israel_news", [])):
+        if not n.get("link") and i < len(il_raw):
+            n["link"] = il_raw[i].get("link", "")
+            if not n.get("published_at"):
+                n["published_at"] = il_raw[i].get("published_at", "")
+
+    print(f"  ✓ שיוך מקורות: {matched}/{len(news_data.get('us_news', []))} פריטי US")
+    return news_data
 
 # ── Fallback: RSS-only mode ────────────────────────────────────────────────────
 
@@ -962,12 +1299,14 @@ def fallback_data(tw_tweets: list, il_raw: list) -> dict:
                 "article_url": t.get("article_url", ""),
                 "tweet_image": t.get("tweet_image", ""),
                 "relative_time": t.get("relative_time", ""),
+                "published_at": t.get("published_at", ""),
                 "sentiment":   "neutral",
             }
             for t in tw_tweets if is_finance_tweet(t.get("body", ""))
         ],
         "israel_news": [{"title_he": tr(i["title"]), "summary_he": "", "source": i["source"],
-                         "link": i["link"], "tag": "כללי"} for i in il_raw],
+                         "link": i["link"], "tag": "כללי",
+                         "published_at": i.get("published_at", "")} for i in il_raw],
     }
 
 # ── Tag Colors ─────────────────────────────────────────────────────────────────
@@ -1231,77 +1570,188 @@ def build_twitter_card(tweet: dict) -> str:
     )
 
 
-def build_watchlist_card(stock: dict) -> str:
-    ticker     = stock.get("ticker", "")
-    name       = stock.get("name", ticker)
-    price      = stock.get("price", 0)
-    change_pct = stock.get("change_pct", 0)
-    change_str = stock.get("change_str", "N/A")
-    direction  = stock.get("direction", "flat")
-    is_earn    = stock.get("is_earnings_today", False)
-    earn_date  = stock.get("earnings_date", "")
-    alerted    = stock.get("alert_triggered", False)
+def _news_sort_key(n: dict) -> str:
+    """Sort key: ISO published_at desc; items without a timestamp sink to the bottom."""
+    return n.get("published_at") or "0000"
 
-    css      = _css(direction)
-    arrow    = _arrow(direction)
-    price_str = f"${price:,.2f}" if price else "—"
 
-    earnings_badge = ""
-    if is_earn:
-        earnings_badge = '<span class="earn-badge earn-today">דוח היום</span>'
-    elif earn_date:
-        try:
-            ed = datetime.strptime(earn_date, "%Y-%m-%d").date()
-            days = (ed - date.today()).days
-            if 0 < days <= 14:
-                earnings_badge = f'<span class="earn-badge">דוח בעוד {days} ימים</span>'
-        except Exception:
-            pass
-
-    alert_dot = '<span class="alert-dot" title="התראה הופעלה"></span>' if alerted else ""
-
+def build_news_feed_tab(us_news: list, il_news: list) -> str:
+    """Tab 1: merged news feed sorted newest-first + Israel secondary section."""
+    feed = sorted(us_news, key=_news_sort_key, reverse=True)
+    feed_cards = "".join(build_us_news_card(n, i + 1) for i, n in enumerate(feed))
+    il_sorted  = sorted(il_news, key=_news_sort_key, reverse=True)
+    il_cards   = "".join(build_il_news_card(n) for n in il_sorted)
+    il_section = (
+        f'<section class="section il-section" id="israel">'
+        f'<div class="section-label">🇮🇱 חדשות ישראל</div>'
+        f'<div class="news-list">{il_cards}</div>'
+        f'</section>'
+    ) if il_cards else ""
+    empty = '<div class="feed-empty">אין חדשות זמינות כרגע — נסה שוב בריצה הבאה</div>'
     return (
-        f'<div class="wl-card">'
-        f'<div class="wl-top">'
-        f'<span class="wl-ticker">{ticker}</span>'
-        f'{alert_dot}'
-        f'<span class="wl-name">{name}</span>'
+        f'<section class="section" id="feed">'
+        f'<div class="section-label">📰 פיד חדשות — מהחדש לישן</div>'
+        f'<div class="news-list feed-list">{feed_cards or empty}</div>'
+        f'</section>'
+        + il_section
+    )
+
+
+_SETUP_COLORS = {
+    "פריצה":  ("var(--accent)", "rgba(6,182,212,.12)"),
+    "תמיכה":  ("var(--green)",  "rgba(16,185,129,.12)"),
+    "מומנטום": ("var(--purple)", "rgba(139,92,246,.12)"),
+    "תיקון":  ("var(--gold)",   "rgba(245,158,11,.12)"),
+    "טווח":   ("var(--muted)",  "rgba(100,116,139,.12)"),
+}
+_REC_CLASS = {"קנייה": "rec-buy", "מעקב": "rec-watch", "המתנה": "rec-wait"}
+
+
+def build_levels_bar(support: float, price: float, resistance: float,
+                     entry=None, stop=None) -> str:
+    """LTR horizontal track: support → resistance with price/entry/stop markers."""
+    if not support or not resistance or resistance <= support:
+        return ""
+    span = resistance - support
+    def pos(v):
+        return max(0, min(100, (v - support) / span * 100))
+    price_pos = pos(price)
+    markers = f'<div class="level-marker mk-price" style="left:{price_pos:.1f}%" title="מחיר נוכחי ${price:,.2f}"></div>'
+    if entry:
+        markers += f'<div class="level-marker mk-entry" style="left:{pos(entry):.1f}%" title="כניסה ${entry:,.2f}"></div>'
+    if stop and stop >= support:
+        markers += f'<div class="level-marker mk-stop" style="left:{pos(stop):.1f}%" title="סטופ ${stop:,.2f}"></div>'
+    return (
+        f'<div class="levels-bar" dir="ltr">'
+        f'<div class="levels-track"><div class="levels-fill" style="width:{price_pos:.1f}%"></div>{markers}</div>'
+        f'<div class="level-labels">'
+        f'<span class="lvl-s">${support:,.2f}</span>'
+        f'<span class="lvl-cur">${price:,.2f}</span>'
+        f'<span class="lvl-r">${resistance:,.2f}</span>'
         f'</div>'
-        f'<div class="wl-price">{price_str}</div>'
-        f'<div class="wl-change {css}">{arrow} {change_str}</div>'
-        f'{earnings_badge}'
         f'</div>'
     )
 
 
-def build_watchlist_tab(watchlist: list) -> str:
-    if not watchlist:
-        return '<div class="wl-empty">הגדר מניות ב-watchlist.json כדי לראות נתונים כאן</div>'
-    cards = "".join(build_watchlist_card(s) for s in watchlist)
-    return f'<div class="wl-grid">{cards}</div>'
+def _ind_chip(label: str, value, state: str = "neutral") -> str:
+    return f'<span class="ind-chip {state}" dir="ltr">{label} {value}</span>'
+
+
+def build_ta_card(op: dict) -> str:
+    ticker  = op.get("ticker", "")
+    price   = op.get("price", 0)
+    setup   = op.get("setup_type", "טווח")
+    rec     = op.get("recommendation", "המתנה")
+    conf    = op.get("confidence", 0)
+    lv      = op.get("levels", {}) or {}
+    ind     = op.get("indicators", {}) or {}
+    stale   = op.get("stale", False)
+
+    s_color, s_bg = _SETUP_COLORS.get(setup, _SETUP_COLORS["טווח"])
+    rec_cls = _REC_CLASS.get(rec, "rec-wait")
+
+    dots = "".join(
+        f'<span class="conf-dot{" filled" if i < conf else ""}"></span>' for i in range(5)
+    )
+
+    chips = ""
+    rsi = ind.get("rsi14")
+    if rsi is not None:
+        rsi_state = "bad" if rsi > 70 else ("good" if rsi < 35 else "neutral")
+        chips += _ind_chip("RSI", rsi, rsi_state)
+    sma20, sma50 = ind.get("sma20"), ind.get("sma50")
+    if sma20 and sma50:
+        trend_up = price > sma20 > sma50
+        chips += _ind_chip("SMA20", f"${sma20:,.0f}", "good" if price > sma20 else "bad")
+    p52 = ind.get("pct_from_52w_high")
+    if p52 is not None:
+        chips += _ind_chip("מ-52w", f"{p52:+.1f}%", "neutral")
+    w1 = ind.get("change_1w_pct")
+    if w1 is not None:
+        chips += _ind_chip("שבוע", f"{w1:+.1f}%", "good" if w1 > 0 else ("bad" if w1 < 0 else "neutral"))
+
+    levels_bar = build_levels_bar(lv.get("support"), price, lv.get("resistance"),
+                                  lv.get("entry"), lv.get("stop"))
+
+    entry_stop = ""
+    if lv.get("entry") or lv.get("stop"):
+        parts = []
+        if lv.get("entry"): parts.append(f'<span class="es-item" dir="ltr">כניסה <b>${lv["entry"]:,.2f}</b></span>')
+        if lv.get("stop"):  parts.append(f'<span class="es-item es-stop" dir="ltr">סטופ <b>${lv["stop"]:,.2f}</b></span>')
+        entry_stop = f'<div class="entry-stop">{"".join(parts)}</div>'
+
+    rationale = op.get("rationale_he", "")
+    rationale_html = f'<p class="ta-rationale" dir="rtl">{rationale}</p>' if rationale else ""
+    stale_badge = '<span class="stale-badge">נכון לריצה קודמת</span>' if stale else ""
+
+    return (
+        f'<div class="ta-card">'
+        f'<div class="ta-head">'
+        f'<span class="ta-ticker" dir="ltr">{ticker}</span>'
+        f'<span class="ta-price" dir="ltr">${price:,.2f}</span>'
+        f'<span class="ta-setup-badge" style="color:{s_color};background:{s_bg}">{setup}</span>'
+        f'<span class="ta-rec {rec_cls}">{rec}</span>'
+        f'</div>'
+        f'<div class="ta-conf-row"><span class="conf-label">ביטחון</span><span class="confidence-dots">{dots}</span>{stale_badge}</div>'
+        f'{levels_bar}'
+        f'{entry_stop}'
+        f'<div class="ind-chips">{chips}</div>'
+        f'{rationale_html}'
+        f'</div>'
+    )
+
+
+def build_ta_grid(opportunities: list) -> str:
+    if not opportunities:
+        return ""
+    cards = "".join(build_ta_card(op) for op in opportunities)
+    return f'<div class="ta-grid">{cards}</div>'
+
+
+def build_opportunities_tab(data: dict, ta_cards_html: str = "") -> str:
+    """Tab 2: technical opportunities + macro widgets (calendar, markets, F&G, heatmap)."""
+    sparks  = data.get("sparklines", {})
+    sym_map = {"S&P 500": "^GSPC", "Nasdaq": "^IXIC", "Dow Jones": "^DJI",
+               "Russell 2000": "^RUT", "זהב": "GC=F", "ביטקוין": "BTC-USD"}
+
+    def mkt_card(m):
+        svg = sparkline_svg(sparks.get(sym_map.get(m["name"], ""), []), m.get("direction", "flat"))
+        return build_market_card(m, svg)
+
+    us_cards   = "".join(mkt_card(m) for m in data.get("market_us", []))
+    comm_cards = "".join(mkt_card(m) for m in data.get("commodities", []))
+    il_cards   = "".join(build_market_card(m) for m in data.get("market_il", []))
+    fg_card    = build_fear_greed_card(data.get("fear_greed"))
+    heat       = build_heatmap(data.get("sectors", []))
+    cal        = build_calendar_strip(data.get("events", []))
+
+    ta_section = (
+        f'<section class="section" id="ta">'
+        f'<div class="section-label">🎯 הזדמנויות טכניות</div>'
+        f'{ta_cards_html}'
+        f'</section>'
+    ) if ta_cards_html else ""
+
+    return (
+        ta_section
+        + (f'<div class="section-label">📅 אירועים כלכליים קרובים</div><div class="cal-strip">{cal}</div>' if cal else "")
+        + f'<section class="section" id="us">'
+        + f'<div class="section-label">📈 מדדים אמריקאיים</div>'
+        + f'<div class="mkt-strip">{us_cards}</div>'
+        + f'<div class="mkt-strip" style="margin-top:.75rem">{comm_cards}</div>'
+        + f'</section>'
+        + f'<div class="fg-il-row">{fg_card}'
+        + f'<div style="flex:1"><div class="section-label" style="margin-bottom:.7rem">🏦 שוק ישראלי</div>'
+        + f'<div class="mkt-strip il">{il_cards}</div></div></div>'
+        + (f'<section class="section" id="heatmap"><div class="section-label">🌡 מפת מגזרים — S&P 500</div><div class="heatmap-grid">{heat}</div></section>' if heat else "")
+    )
 
 
 def build_html(data: dict) -> str:
-    sparks    = data.get("sparklines", {})
-    sym_map   = {"S&P 500": "^GSPC", "Nasdaq": "^IXIC", "Dow Jones": "^DJI",
-                 "Russell 2000": "^RUT", "זהב": "GC=F", "ביטקוין": "BTC-USD"}
-
-    def mkt_card(m):
-        sym    = sym_map.get(m["name"], "")
-        prices = sparks.get(sym, [])
-        svg    = sparkline_svg(prices, m.get("direction","flat"))
-        return build_market_card(m, svg)
-
-    us_market_cards = "".join(mkt_card(m) for m in data.get("market_us", []))
-    comm_cards      = "".join(mkt_card(m) for m in data.get("commodities", []))
-    il_market_cards = "".join(build_market_card(m) for m in data.get("market_il", []))
-    us_news_cards   = "".join(build_us_news_card(n, i+1) for i, n in enumerate(data.get("us_news", [])))
-    il_news_cards   = "".join(build_il_news_card(n) for n in data.get("israel_news", []))
-    ticker_items    = build_ticker_items(data)
-    fg_card         = build_fear_greed_card(data.get("fear_greed"))
-    heatmap_cells   = build_heatmap(data.get("sectors", []))
-    cal_strip       = build_calendar_strip(data.get("events", []))
-    watchlist_tab   = build_watchlist_tab(data.get("watchlist", []))
+    ticker_items = build_ticker_items(data)
+    news_tab     = build_news_feed_tab(data.get("us_news", []), data.get("israel_news", []))
+    ta_grid      = build_ta_grid(data.get("opportunities", []))
+    opps_tab     = build_opportunities_tab(data, ta_grid)
 
     return f"""<!DOCTYPE html>
 <html lang="he" dir="rtl">
@@ -1542,6 +1992,57 @@ def build_html(data: dict) -> str:
   /* ── Ticker highlight ── */
   .ticker-hl{{color:#38bdf8;font-weight:800;font-family:'Inter',monospace;font-style:normal}}
 
+  /* ── News feed ── */
+  .feed-empty{{color:var(--muted);text-align:center;padding:2.5rem 1rem;font-size:.9rem;
+    background:var(--card);border:1px dashed var(--border);border-radius:14px}}
+  .il-section{{margin-top:2.6rem;padding-top:1.4rem;border-top:1px solid var(--border)}}
+
+  /* ── TA cards ── */
+  .ta-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}}
+  .ta-card{{background:var(--card);border:1px solid var(--border);border-radius:14px;
+    padding:1rem 1.3rem;transition:border-color .2s,transform .2s}}
+  .ta-card:hover{{border-color:var(--accent);transform:translateY(-2px)}}
+  .ta-head{{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin-bottom:.5rem}}
+  .ta-ticker{{font-family:'Inter',sans-serif;font-weight:800;font-size:1.05rem;
+    letter-spacing:.04em;color:var(--white)}}
+  .ta-price{{font-family:'Inter',sans-serif;font-weight:700;font-size:.92rem;
+    color:var(--text);font-variant-numeric:tabular-nums}}
+  .ta-setup-badge{{font-size:.68rem;font-weight:700;padding:.14rem .55rem;border-radius:5px}}
+  .ta-rec{{font-size:.72rem;font-weight:800;padding:.16rem .7rem;border-radius:999px;margin-right:auto}}
+  .rec-buy{{color:var(--green);background:rgba(16,185,129,.12);border:1px solid rgba(16,185,129,.35)}}
+  .rec-watch{{color:var(--gold);background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.35)}}
+  .rec-wait{{color:var(--muted);background:rgba(100,116,139,.12);border:1px solid var(--border)}}
+  .ta-conf-row{{display:flex;align-items:center;gap:.5rem;margin-bottom:.7rem}}
+  .conf-label{{font-size:.65rem;color:var(--muted);letter-spacing:.08em}}
+  .confidence-dots{{display:inline-flex;gap:.22rem}}
+  .conf-dot{{width:7px;height:7px;border-radius:50%;background:var(--border)}}
+  .conf-dot.filled{{background:var(--accent)}}
+  .stale-badge{{font-size:.62rem;color:var(--gold);background:rgba(245,158,11,.12);
+    padding:.1rem .5rem;border-radius:4px;margin-right:auto}}
+  /* Levels bar (LTR) */
+  .levels-bar{{margin:.4rem 0 .6rem}}
+  .levels-track{{position:relative;height:8px;background:var(--surface);border:1px solid var(--border);
+    border-radius:999px;overflow:visible}}
+  .levels-fill{{position:absolute;top:0;left:0;bottom:0;border-radius:999px;
+    background:linear-gradient(90deg,rgba(16,185,129,.35),rgba(6,182,212,.45))}}
+  .level-marker{{position:absolute;top:-3px;width:3px;height:14px;border-radius:2px;transform:translateX(-50%)}}
+  .mk-price{{background:var(--white)}}
+  .mk-entry{{background:var(--accent)}}
+  .mk-stop{{background:var(--red)}}
+  .level-labels{{display:flex;justify-content:space-between;font-size:.66rem;color:var(--muted);
+    font-variant-numeric:tabular-nums;margin-top:.3rem;font-family:'Inter',sans-serif}}
+  .lvl-cur{{color:var(--white);font-weight:700}}
+  .entry-stop{{display:flex;gap:.8rem;font-size:.72rem;color:var(--text);margin-bottom:.5rem}}
+  .es-item b{{color:var(--accent);font-variant-numeric:tabular-nums}}
+  .es-item.es-stop b{{color:var(--red)}}
+  .ind-chips{{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.55rem}}
+  .ind-chip{{font-size:.66rem;font-weight:600;padding:.14rem .5rem;border-radius:10px;
+    font-variant-numeric:tabular-nums;font-family:'Inter',sans-serif;
+    color:var(--muted);background:rgba(100,116,139,.12)}}
+  .ind-chip.good{{color:var(--green);background:rgba(16,185,129,.12)}}
+  .ind-chip.bad{{color:var(--red);background:rgba(244,63,94,.12)}}
+  .ta-rationale{{font-size:.8rem;color:var(--text);line-height:1.6;margin:0}}
+
   /* ── Tab Navigation ── */
   .tab-nav{{display:flex;gap:.5rem;margin:1.5rem 0 1rem;border-bottom:1px solid var(--border);padding-bottom:0}}
   .tab-btn{{background:none;border:none;padding:.65rem 1.3rem;font-size:.95rem;font-weight:700;
@@ -1551,27 +2052,6 @@ def build_html(data: dict) -> str:
   .tab-btn:hover:not(.active){{color:var(--white)}}
   .tab-pane{{display:none}}
   .tab-pane.active{{display:block}}
-
-  /* ── Watchlist Grid ── */
-  .wl-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.85rem;padding:.5rem 0 1.5rem}}
-  .wl-card{{background:var(--card);border:1px solid var(--border);border-radius:12px;
-    padding:1.1rem 1.2rem;transition:border-color .2s;position:relative}}
-  .wl-card:hover{{border-color:var(--accent)}}
-  .wl-top{{display:flex;align-items:center;gap:.5rem;margin-bottom:.55rem}}
-  .wl-ticker{{font-family:'Inter',monospace;font-weight:900;font-size:.95rem;color:var(--white)}}
-  .wl-name{{font-size:.72rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
-  .wl-price{{font-size:1.45rem;font-weight:800;color:var(--white);font-family:'Inter',monospace;
-    letter-spacing:-.02em;margin-bottom:.3rem}}
-  .wl-change{{font-size:.82rem;font-weight:700}}
-  .wl-change.up{{color:var(--green)}}
-  .wl-change.down{{color:var(--red)}}
-  .wl-change.flat{{color:var(--muted)}}
-  .earn-badge{{display:inline-block;margin-top:.5rem;font-size:.67rem;font-weight:700;
-    padding:.15rem .5rem;border-radius:4px;background:rgba(245,158,11,.15);color:var(--gold)}}
-  .earn-badge.earn-today{{background:rgba(239,68,68,.15);color:var(--red)}}
-  .alert-dot{{display:inline-block;width:8px;height:8px;border-radius:50%;
-    background:var(--red);box-shadow:0 0 6px var(--red);flex-shrink:0}}
-  .wl-empty{{color:var(--muted);text-align:center;padding:2rem;font-size:.9rem}}
 
   /* ── Footer ── */
   footer{{text-align:center;padding:2rem;font-size:.72rem;color:var(--muted);border-top:1px solid var(--border)}}
@@ -1586,7 +2066,7 @@ def build_html(data: dict) -> str:
     .fg-il-row{{flex-direction:column}}
     .cal-strip{{gap:.5rem}}
     .cal-pill{{min-width:120px}}
-    .wl-grid{{grid-template-columns:repeat(2,1fr)}}
+    .ta-grid{{grid-template-columns:1fr}}
   }}
 </style>
 </head>
@@ -1595,11 +2075,9 @@ def build_html(data: dict) -> str:
 <!-- Sticky Nav -->
 <nav class="nav">
   <button class="theme-btn" onclick="toggleTheme()" id="themeBtn" title="החלף מצב">🌙</button>
-  <a href="#us">🇺🇸 שוק ההון</a>
+  <a href="#feed" onclick="showTab('news')">📰 חדשות</a>
   <span class="nav-sep">|</span>
-  <a href="#heatmap">🌡 מגזרים</a>
-  <span class="nav-sep">|</span>
-  <a href="#israel">🇮🇱 ישראל</a>
+  <a href="#ta" onclick="showTab('opps')">🎯 הזדמנויות</a>
   <span class="nav-sep">|</span>
   <a href="report.html">דוח מלא</a>
 </nav>
@@ -1611,9 +2089,9 @@ def build_html(data: dict) -> str:
 
 <!-- Hero -->
 <div class="hero">
-  <div class="hero-label">לוח חדשות אישי</div>
-  <h1>שוק ההון <span>&</span> ישראל</h1>
-  <div class="hero-sub">וול סטריט · חברות אמריקאיות · חדשות ישראל</div>
+  <div class="hero-label">לוח שוק אישי</div>
+  <h1>חדשות <span>&</span> הזדמנויות</h1>
+  <div class="hero-sub">פיד חדשות חי · ניתוח טכני · וול סטריט וישראל</div>
   <div class="hero-date">
     <span class="pulse"></span>
     {TODAY_HE} &nbsp;|&nbsp; עודכן {TIME}
@@ -1624,54 +2102,19 @@ def build_html(data: dict) -> str:
 
   <!-- Tab Navigation -->
   <div class="tab-nav">
-    <button class="tab-btn active" id="tab-wl-btn" onclick="showTab('watchlist')">📊 המניות שלי</button>
-    <button class="tab-btn" id="tab-macro-btn" onclick="showTab('macro')">🌐 מאקרו</button>
+    <button class="tab-btn active" id="tab-news-btn" onclick="showTab('news')">📰 חדשות</button>
+    <button class="tab-btn" id="tab-opps-btn" onclick="showTab('opps')">🎯 הזדמנויות</button>
   </div>
 
-  <!-- ── Watchlist Tab ── -->
-  <div class="tab-pane active" id="tab-watchlist">
-    <div class="section-label">📊 תיק המעקב שלי</div>
-    {watchlist_tab}
+  <!-- ── News Tab ── -->
+  <div class="tab-pane active" id="tab-news">
+    {news_tab}
   </div>
 
-  <!-- ── Macro Tab ── -->
-  <div class="tab-pane" id="tab-macro">
-
-    <!-- Calendar Strip -->
-    {f'<div class="section-label">📅 אירועים כלכליים קרובים</div><div class="cal-strip">{cal_strip}</div>' if cal_strip else ""}
-
-    <!-- US Markets -->
-    <section class="section" id="us">
-      <div class="section-label">📈 מדדים אמריקאיים</div>
-      <div class="mkt-strip">{us_market_cards}</div>
-      <div class="mkt-strip" style="margin-top:.75rem">{comm_cards}</div>
-    </section>
-
-    <!-- Fear & Greed + IL Markets -->
-    <div class="fg-il-row">
-      {fg_card}
-      <div style="flex:1">
-        <div class="section-label" style="margin-bottom:.7rem">🏦 שוק ישראלי</div>
-        <div class="mkt-strip il">{il_market_cards}</div>
-      </div>
-    </div>
-
-    <!-- Sector Heatmap -->
-    {f'<section class="section" id="heatmap"><div class="section-label">🌡 מפת מגזרים — S&P 500</div><div class="heatmap-grid">{heatmap_cells}</div></section>' if heatmap_cells else ""}
-
-    <!-- US News -->
-    <section class="section" id="us-news">
-      <div class="section-label">📰 חדשות וול סטריט</div>
-      <div class="news-list">{us_news_cards}</div>
-    </section>
-
-    <!-- Israel News -->
-    <section class="section" id="israel">
-      <div class="section-label">🇮🇱 חדשות ישראל</div>
-      <div class="news-list">{il_news_cards}</div>
-    </section>
-
-  </div><!-- /tab-macro -->
+  <!-- ── Opportunities Tab ── -->
+  <div class="tab-pane" id="tab-opps">
+    {opps_tab}
+  </div>
 
 </div>
 
@@ -1698,7 +2141,9 @@ def build_html(data: dict) -> str:
   }}
 
   // ── Tab Navigation ──
+  var TABS = ['news', 'opps'];
   function showTab(name) {{
+    if (TABS.indexOf(name) === -1) name = 'news';
     document.querySelectorAll('.tab-pane').forEach(function(p) {{ p.classList.remove('active'); }});
     document.querySelectorAll('.tab-btn').forEach(function(b) {{ b.classList.remove('active'); }});
     document.getElementById('tab-' + name).classList.add('active');
@@ -1706,8 +2151,8 @@ def build_html(data: dict) -> str:
     localStorage.setItem('activeTab', name);
   }}
   (function() {{
-    var t = localStorage.getItem('activeTab') || 'watchlist';
-    if (t !== 'watchlist') showTab(t);
+    var t = localStorage.getItem('activeTab');
+    if (t && t !== 'news' && TABS.indexOf(t) !== -1) showTab(t);
   }})();
 
   // ── PWA Service Worker ──
@@ -1758,40 +2203,29 @@ def main():
     print("\n[ 2b ] שולף חדשות מניות ספציפיות...")
     tk_news = fetch_ticker_news(trending[:8])
 
+    # 2c. Technical analysis — 1y history + indicators for watchlist + trending
+    print("\n[ 2c ] מחשב אינדיקטורים טכניים...")
+    ta_universe = build_ta_universe(all_wl_stocks, trending)
+    ta_hist     = fetch_ta_history(ta_universe)
+    quote_by_ticker = {w.get("ticker", "").upper(): w.get("price") for w in watchlist if w.get("price")}
+    indicators = {}
+    for t in ta_universe:
+        if t in ta_hist:
+            try:
+                indicators[t] = compute_indicators(t, ta_hist[t], quote_by_ticker.get(t))
+            except Exception as e:
+                print(f"  ✗ אינדיקטורים {t}: {e}")
+
     # 3. Claude Enrichment — analyst-voice interpretation of tweets
     api_key = os.environ.get("ANTHROPIC_API_KEY")
+    client = anthropic.Anthropic(api_key=api_key) if api_key else None
     news_data = None
-    if api_key:
+    if client:
         try:
             print("\n[ 3 ] מנתח ציוצים עם Claude (analyst voice)...")
-            client = anthropic.Anthropic(api_key=api_key)
+            tw_sample = select_finance_tweets(tw_feed)
             news_data = run_enrichment_agent(client, tw_feed, il_raw, ticker_news_raw=tk_news)
-            for i, n in enumerate(news_data.get("israel_news", [])):
-                if i < len(il_raw) and not n.get("link"): n["link"] = il_raw[i]["link"]
-            # Build lookup maps from original tweets: url → tweet_image, handle → relative_time
-            url_to_img = {}
-            handle_to_rt = {}
-            for t in tw_feed:
-                tw_url = t.get("url", "")
-                if tw_url and t.get("tweet_image") and tw_url not in url_to_img:
-                    url_to_img[tw_url] = t["tweet_image"]
-                h = f'@{t["handle"]}'.lower()
-                if h not in handle_to_rt and t.get("relative_time"):
-                    handle_to_rt[h] = t["relative_time"]
-
-            for n in news_data.get("us_news", []):
-                src = n.get("source", "").lower()
-                link = n.get("link", "")
-                if not n.get("tweet_image"):
-                    if link in url_to_img:
-                        n["tweet_image"] = url_to_img[link]
-                    else:
-                        for t in tw_feed:
-                            if t.get("article_url") and t["article_url"] == link and t.get("tweet_image"):
-                                n["tweet_image"] = t["tweet_image"]
-                                break
-                if not n.get("relative_time") and src in handle_to_rt:
-                    n["relative_time"] = handle_to_rt[src]
+            news_data = merge_enriched_with_sources(news_data, tw_sample, il_raw, ticker_news_raw=tk_news)
             has_img = sum(1 for n in news_data.get("us_news", []) if n.get("tweet_image"))
             print(f"✓ ניתוח הושלם — {has_img} ציוצים עם תמונה מקורית")
         except Exception as e:
@@ -1802,17 +2236,34 @@ def main():
     if news_data is None:
         news_data = fallback_data(tw_feed, il_raw)
 
+    # 3b. Claude TA — independent of the news call; stale-fallback on failure
+    opportunities = []
+    if client and indicators:
+        try:
+            print("\n[ 3b ] מנתח הזדמנויות טכניות עם Claude...")
+            claude_ops = run_ta_agent(client, list(indicators.values()))
+            opportunities = merge_ta_results(claude_ops, indicators)
+            buys = sum(1 for o in opportunities if o["recommendation"] == "קנייה")
+            print(f"✓ ניתוח טכני: {len(opportunities)} טיקרים, {buys} המלצות קנייה")
+        except Exception as e:
+            print(f"✗ Claude TA נכשל: {e} — טוען ניתוח קודם")
+            opportunities = load_previous_opportunities()
+    elif indicators:
+        # No Claude: indicators-only cards (no recommendations)
+        opportunities = merge_ta_results([], indicators)
+
     # 4. Assemble full data dict
     data = {
         **news_data,
-        "watchlist":   watchlist,
-        "market_us":   mkt["market_us"],
-        "commodities": mkt["commodities"],
-        "market_il":   mkt["market_il"],
-        "sectors":     mkt["sectors"],
-        "sparklines":  sparks,
-        "fear_greed":  fg,
-        "events":      get_upcoming_events(5),
+        "watchlist":     watchlist,
+        "opportunities": opportunities,
+        "market_us":     mkt["market_us"],
+        "commodities":   mkt["commodities"],
+        "market_il":     mkt["market_il"],
+        "sectors":       mkt["sectors"],
+        "sparklines":    sparks,
+        "fear_greed":    fg,
+        "events":        get_upcoming_events(5),
     }
 
     # 5. Fetch images
@@ -1828,16 +2279,18 @@ def main():
     print("\n[ 5 ] כותב data.json...")
     import datetime as _dt
     data_export = {
-        "generated_at": _dt.datetime.now(_dt.timezone.utc).isoformat(),
-        "watchlist":    watchlist,
-        "market_us":    mkt["market_us"],
-        "commodities":  mkt["commodities"],
-        "market_il":    mkt["market_il"],
-        "sectors":      mkt["sectors"],
-        "fear_greed":   fg,
-        "us_news":      [{k: v for k, v in n.items() if k != "image"} for n in data.get("us_news", [])],
-        "il_news":      [{k: v for k, v in n.items() if k != "image"} for n in data.get("israel_news", [])],
-        "alert_config": wl_config.get("alerts", {}),
+        "generated_at":    _dt.datetime.now(_dt.timezone.utc).isoformat(),
+        "watchlist":       watchlist,
+        "opportunities":   opportunities,
+        "ta_generated_at": _dt.datetime.now(_dt.timezone.utc).isoformat() if opportunities and not any(o.get("stale") for o in opportunities) else "",
+        "market_us":       mkt["market_us"],
+        "commodities":     mkt["commodities"],
+        "market_il":       mkt["market_il"],
+        "sectors":         mkt["sectors"],
+        "fear_greed":      fg,
+        "us_news":         [{k: v for k, v in n.items() if k != "image"} for n in data.get("us_news", [])],
+        "il_news":         [{k: v for k, v in n.items() if k != "image"} for n in data.get("israel_news", [])],
+        "alert_config":    wl_config.get("alerts", {}),
     }
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(json.dumps(data_export, ensure_ascii=False, indent=2), encoding="utf-8")

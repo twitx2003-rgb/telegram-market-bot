@@ -1,7 +1,11 @@
 # telegram-market-bot — Project Guide
 
 ## What This Is
-A personal stock market news dashboard. It runs on GitHub Actions and publishes a Hebrew-language PWA to GitHub Pages every 30 minutes.
+A personal stock market dashboard. It runs on GitHub Actions and publishes a Hebrew-language PWA to GitHub Pages every 30 minutes. Two tabs:
+- **📰 חדשות** — live news feed sorted newest-first (market/stock news + Israel section)
+- **🎯 הזדמנויות** — technical analysis: support/resistance levels, indicators, Hebrew recommendations with rationale (watchlist + StockTwits trending, max 15 tickers), plus macro widgets (indices, Fear & Greed, sector heatmap)
+
+**Design system:** `.claude/skills/dashboard-design/SKILL.md` — read it before touching any HTML/CSS in `build_html()` or the builder functions.
 
 ## Required GitHub Secrets
 
@@ -42,8 +46,9 @@ To get a Finnhub API key: sign up free at https://finnhub.io (60 req/min, no dai
 ## Model Strategy (cost vs quality)
 
 - **Claude Sonnet** (`ENRICHMENT_MODEL`) — analyst-voice interpretation of market tweets. High quality, runs once per 30-min cycle.
+- **Claude Sonnet** (`TA_MODEL`, defaults to `ENRICHMENT_MODEL`) — second independent call: technical-analysis interpretation of Python-computed indicators. Claude never invents numbers — Python computes SMA/RSI/support/resistance and always wins on levels.
 - **Claude Haiku** (`MODEL`) — HTML template generation in `improvement_agent.py`. Fast and cheap.
-- Override via env vars: `ENRICHMENT_MODEL=claude-opus-4-8` or `DASHBOARD_MODEL=claude-haiku-4-5-20251001`
+- Override via env vars: `ENRICHMENT_MODEL=claude-opus-4-8`, `TA_MODEL=...`, `DASHBOARD_MODEL=claude-haiku-4-5-20251001`
 
 ## How to Edit Your Watchlist
 
@@ -84,12 +89,26 @@ Edit `watchlist.json` — no code changes needed:
       "alert_triggered": false
     }
   ],
+  "opportunities": [
+    {
+      "ticker": "NVDA", "price": 208.51, "setup_type": "מומנטום",
+      "levels": {"support": 195.0, "resistance": 220.0, "entry": 198.0, "stop": 191.0},
+      "recommendation": "קנייה", "confidence": 4,
+      "rationale_he": "...", "indicators": {"rsi14": 61.2, "sma20": 201.3},
+      "analyzed": true, "stale": false
+    }
+  ],
+  "ta_generated_at": "2026-07-15T12:00:00Z",
   "market_us": [], "commodities": [], "market_il": [], "sectors": [],
   "fear_greed": {"score": 65, "rating": "Greed"},
   "us_news": [], "il_news": [],
   "alert_config": {"price_move_pct": 5, "on_earnings_day": true}
 }
 ```
+
+Notes:
+- `us_news`/`il_news` items carry `published_at` (ISO-8601) and `src_id` for source traceability.
+- The watchlist prices are still fetched (the email alert bot needs them) even though they're no longer displayed as cards.
 
 ## PWA — Install on Mobile
 
