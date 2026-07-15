@@ -350,7 +350,9 @@ def main():
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
-        print("✗  ANTHROPIC_API_KEY not set — aborting"); sys.exit(1)
+        # Free mode: the improvement agent needs an LLM — skip gracefully (green no-op run)
+        print("⏭  ANTHROPIC_API_KEY not set — improvement agent skipped (free mode)")
+        sys.exit(0)
 
     if not INDEX_PATH.exists():
         print(f"✗  Not found: {INDEX_PATH}"); sys.exit(1)

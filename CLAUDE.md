@@ -7,19 +7,32 @@ A personal stock market dashboard. It runs on GitHub Actions and publishes a Heb
 
 **Design system:** `.claude/skills/dashboard-design/SKILL.md` — read it before touching any HTML/CSS in `build_html()` or the builder functions.
 
-## Required GitHub Secrets
+## GitHub Secrets — Free vs Premium Mode
+
+The system runs **100% free by default**. `ANTHROPIC_API_KEY` is optional:
 
 | Secret | Required | Purpose |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | Yes | Claude enrichment (analyst-voice commentary) |
-| `FINNHUB_API_KEY` | Yes | Real-time stock quotes for watchlist tab |
+| `FINNHUB_API_KEY` | Yes (free tier) | Real-time stock quotes — sign up free at https://finnhub.io |
 | `EMAIL_FROM` | Yes | Gmail address to send alerts from |
 | `EMAIL_TO` | Yes | Email address to receive alerts |
 | `EMAIL_PASSWORD` | Yes | Gmail app password (not your login password) |
+| `ANTHROPIC_API_KEY` | **Optional (paid)** | Premium mode — see below |
 
-Set these at: **Settings → Secrets and variables → Actions → New repository secret**
+**Free mode (no ANTHROPIC_API_KEY):**
+- Opportunities tab: rule-based recommendations (`rule_based_analysis()` — same rulebook, deterministic, Hebrew rationale templates citing real numbers)
+- News: keyword tags + sentiment + Google translation (`fallback_data()`)
+- Daily improvement agent: skips gracefully (green no-op)
 
-To get a Finnhub API key: sign up free at https://finnhub.io (60 req/min, no daily cap).
+**Premium mode (with ANTHROPIC_API_KEY):**
+- Analyst-voice Hebrew news commentary (Claude Sonnet)
+- Claude interpretation of the technical indicators (richer rationale)
+- Daily AI improvement agent active
+- Approximate cost at 30-min cadence: $2-4/day
+
+Switching modes = adding/removing the secret. No code changes.
+
+Set secrets at: **Settings → Secrets and variables → Actions → New repository secret**
 
 ## Workflow Schedule (all times in UTC)
 
