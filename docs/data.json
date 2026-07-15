@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T20:08:05.813391+00:00",
+  "generated_at": "2026-07-15T21:29:48.554842+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -70,10 +70,10 @@
     {
       "ticker": "TSLA",
       "name": "Tesla",
-      "price": 394.35,
-      "change_pct": -0.46,
+      "price": 394.46,
+      "change_pct": -0.43,
       "direction": "down",
-      "change_str": "-0.5%",
+      "change_str": "-0.4%",
       "earnings_date": "",
       "is_earnings_today": false,
       "alert_triggered": false
@@ -267,16 +267,16 @@
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $346.91 נמצא 1.2% מתחת להתנגדות ב-$351.24 עם מומנטום שבועי של +5.0%. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
+      "rationale_he": "המחיר $346.91 נמצא 1.2% מתחת להתנגדות ב-$351.24 עם מומנטום שבועי של +4.9%. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
-        "rsi14": 67.6,
+        "rsi14": 67.5,
         "sma20": 334.11,
         "sma50": 316.87,
         "sma200": 309.5,
         "pct_from_52w_high": -1.2,
-        "vol_ratio": 1.18,
-        "change_1d_pct": 1.2,
-        "change_1w_pct": 5.0,
+        "vol_ratio": 1.21,
+        "change_1d_pct": 1.17,
+        "change_1w_pct": 4.9,
         "change_1m_pct": 8.2,
         "spark_3m": [
           305.93,
@@ -478,7 +478,7 @@
         "sma50": 493.09,
         "sma200": 293.31,
         "pct_from_52w_high": -9.5,
-        "vol_ratio": 0.71,
+        "vol_ratio": 0.72,
         "change_1d_pct": -3.46,
         "change_1w_pct": 2.3,
         "change_1m_pct": 3.4,
@@ -512,7 +512,7 @@
     },
     {
       "ticker": "TSLA",
-      "price": 394.35,
+      "price": 394.46,
       "setup_type": "תיקון",
       "levels": {
         "support": 393.63,
@@ -580,7 +580,7 @@
         "sma50": 34.07,
         "sma200": 29.97,
         "pct_from_52w_high": -15.5,
-        "vol_ratio": 0.78,
+        "vol_ratio": 0.8,
         "change_1d_pct": -0.82,
         "change_1w_pct": -5.1,
         "change_1m_pct": -8.9,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-15T20:08:05.813414+00:00",
+  "ta_generated_at": "2026-07-15T21:29:48.554864+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -692,45 +692,45 @@
     },
     {
       "name": "Russell 2000",
-      "value": "2,975",
-      "change": "+0.35%",
+      "value": "2,976",
+      "change": "+0.39%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.34684042304884644
+      "pct_raw": 0.3877205740490606
     },
     {
       "name": "VIX",
-      "value": "15.69",
-      "change": "-4.91%",
+      "value": "15.67",
+      "change": "-5.03%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -4.909090909090912
+      "pct_raw": -5.030303030303031
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,060.7",
-      "change": "-0.22%",
+      "value": "$4,066.9",
+      "change": "-0.07%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.22114652185664793
+      "pct_raw": -0.06880114013317265
     },
     {
       "name": "נפט ברנט",
-      "value": "$85.8",
-      "change": "+1.27%",
+      "value": "$85.6",
+      "change": "+1.06%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.2746370824973425
+      "pct_raw": 1.062197568747777
     },
     {
       "name": "ביטקוין",
-      "value": "$64,933",
-      "change": "-0.06%",
+      "value": "$64,846",
+      "change": "-0.20%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.06483133433641539
+      "pct_raw": -0.19766754330459044
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,61 +752,61 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.988",
-      "change": "-0.58%",
+      "value": "2.990",
+      "change": "-0.52%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.5755922278413511
+      "pct_raw": -0.5223582645727917
     }
   ],
   "sectors": [
     {
       "name": "טכנולוגיה",
-      "value": "181.64",
-      "change": "-1.08%",
+      "value": "181.58",
+      "change": "-1.11%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.078313909160232
+      "pct_raw": -1.1109900882256791
     },
     {
       "name": "פיננסים",
-      "value": "56.55",
-      "change": "+0.65%",
+      "value": "56.56",
+      "change": "+0.68%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.6496974012103987
+      "pct_raw": 0.6763972944108269
     },
     {
       "name": "אנרגיה",
-      "value": "56.48",
-      "change": "-0.83%",
+      "value": "56.50",
+      "change": "-0.79%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.8252853380158138
+      "pct_raw": -0.7901668129938592
     },
     {
       "name": "בריאות",
-      "value": "158.33",
-      "change": "+0.03%",
-      "direction": "up",
+      "value": "158.29",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "sectors",
-      "pct_raw": 0.02527007391497913
+      "pct_raw": 0.0
     },
     {
       "name": "תעשייה",
-      "value": "180.07",
-      "change": "-0.21%",
+      "value": "180.06",
+      "change": "-0.22%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.2105846494873901
+      "pct_raw": -0.21612635078968487
     },
     {
       "name": "צריכה שיקולית",
-      "value": "116.98",
-      "change": "+0.93%",
+      "value": "117.00",
+      "change": "+0.95%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.9318377911993083
+      "pct_raw": 0.9490940465918847
     },
     {
       "name": "צריכה בסיסית",
@@ -818,19 +818,19 @@
     },
     {
       "name": "נדל\"ן",
-      "value": "44.55",
-      "change": "+0.16%",
+      "value": "44.56",
+      "change": "+0.18%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.15737410071942512
+      "pct_raw": 0.17985611510792582
     },
     {
       "name": "תשתיות",
       "value": "45.22",
-      "change": "-1.04%",
+      "change": "-1.03%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.0396147953600225
+      "pct_raw": -1.0286714817246638
     },
     {
       "name": "חומרים",
@@ -846,7 +846,7 @@
       "change": "+1.73%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 1.7272319425751432
+      "pct_raw": 1.7317182593091003
     }
   ],
   "fear_greed": {
@@ -856,32 +856,172 @@
   },
   "us_news": [
     {
-      "title_he": "UNITED AIRLINES $UAL Q2'26 שירי רווחים 🔹 הכנסות: $17.7B (הערכה. $17.60B) 🟡; +16% YoY 🔹 התאמה EPS: $1.99 (הערכה. $1.84) 🟢; -49% משנה לשנה 🔹 הכנסות נוסעים:...",
+      "title_he": "$EOSE השיגה חוזה הגנה של כיפת הזהב בהיקף של מיליוני דולרים לאספקת מערכות אחסון אנרגיה מבוססות אבץ לטווח ארוך עבור צבא ארה\"ב...",
       "summary_he": "",
-      "body_en": "UNITED AIRLINES $UAL Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $17.7B (Est. $17.60B) 🟡; +16% YoY 🔹 Adj. EPS: $1.99 (Est. $1.84) 🟢; -49% YoY 🔹 Passenger Revenue: $16.1B (Est. $16.12B) 🟡; +16.4% YoY 🔹 Load F",
-      "ticker": "$UAL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077484259414269988#m",
-      "tag": "EARNINGS",
+      "body_en": "$EOSE secured a multi-million-dollar Golden Dome defense contract to supply its zinc-based long-duration energy storage systems for U.S. military infrastructure. Initial deployment will use Eos’ U.S.-",
+      "ticker": "$EOSE",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077500685328007305#m",
+      "tag": "ENERGY",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNS06hvaIAATO3N.jpg",
-      "relative_time": "לפני 4ד׳",
-      "published_at": "2026-07-15T20:03:39+00:00",
-      "sentiment": "bullish"
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077500666336194560%2Fimg%2Fh9L6eR499l9Jo8nV.jpg",
+      "relative_time": "לפני 20ד׳",
+      "published_at": "2026-07-15T21:08:56+00:00",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "מוכרי החסר של SpaceX עומדים על רווחי נייר של כמעט 3.9 מיליארד דולר כאשר המניות נסחרות ליד מחיר ההנפקה של 135 דולר. ריבית השורט טיפסה לכ-181 מיליון מניות, או...",
+      "title_he": "$EOSE זכתה בחוזה הגנה של כיפת הזהב בהיקף של מיליוני דולרים לאספקת אחסון אנרגיה ארוך טווח מבוסס אבץ לתשתיות הגנה בארה\"ב. הַתחָלַתִי…",
       "summary_he": "",
-      "body_en": "SpaceX short sellers are sitting on nearly $3.9B in paper profits as shares trade near the $135 IPO price. Short interest has climbed to about 181M shares, or 28% of the tradable float. $SPCX is down ",
-      "ticker": "$SPCX",
+      "body_en": "$EOSE won a multi-million-dollar Golden Dome defense contract to supply zinc-based long-duration energy storage for U.S. defense infrastructure. Initial deployment will use Eos’ Z3 system as a prototy",
+      "ticker": "$EOSE",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077482840812626358#m",
+      "link": "https://nitter.net/wallstengine/status/2077500231621673062#m",
+      "tag": "ENERGY",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 22ד׳",
+      "published_at": "2026-07-15T21:07:07+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: נהדר להיות ב-@CNBCClosingBell עם @TheJudgeCNBC לדון ב-Big Tech והשקת בנק הסוחרים המודרני החדש שלי Yorkville Ives 🏆🔥📺🐂👇...",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: Great to be on @CNBCClosingBell with @TheJudgeCNBC discussing Big Tech and the launch of my new modern merchant bank Yorkville Ives 🏆🔥📺🐂👇 https://www.cnbc.com/video/2026/07/15/dan-iv",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/DivesTech/status/2077499331263791457#m",
+      "tag": "EARNINGS",
+      "article_url": "https://www.cnbc.com/video/2026/07/15/dan-ives-q2-earnings-will-be-the-driver-for-mega-cap-stocks.html",
+      "tweet_image": "https://nitter.net/pic/media%2FHNTCnslW0AAM3kb.jpg",
+      "relative_time": "לפני 25ד׳",
+      "published_at": "2026-07-15T21:03:33+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@StockSavvyShay: התזמון כמובן יכול היה להיות הרבה יותר טוב עם $ASTS כעת ירד כמעט 50% מלפני כמה חודשים בלבד, אבל אני משקיע עם 3+ שנים...",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: The timing obviously could have been much better with $ASTS now down nearly 50% from just a few months ago but I invest with a 3+ year horizon so short-term timing issues do not ",
+      "ticker": "$ASTS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077494030536200467#m",
       "tag": "NEWS",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNSzoEza4AA2tR4.png",
-      "relative_time": "לפני 9ד׳",
-      "published_at": "2026-07-15T19:58:01+00:00",
-      "sentiment": "bullish"
+      "tweet_image": "",
+      "relative_time": "לפני 46ד׳",
+      "published_at": "2026-07-15T20:42:29+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$ASTS הנפיקה 3.5 מיליארד דולר של שטרות הניתנים להמרה במהלך השנה האחרונה ומוסדות ממשיכים להופיע בגלל צבר ההזמנות שלה ו-60 רשתות סלולריות...",
+      "summary_he": "",
+      "body_en": "$ASTS has issued ~$3.5B of convertible notes over the past year and institutions keep showing up because its contracted backlog and 60 mobile network partnerships cover more than 3B subscribers. That ",
+      "ticker": "$ASTS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077493081142915503#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNS87pxaIAAD0GP.jpg",
+      "relative_time": "לפני 50ד׳",
+      "published_at": "2026-07-15T20:38:43+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "נגיד הבנק המרכזי של אנגליה, אנדרו ביילי, מזהיר כי הנשורת של בועת בינה מלאכותית שמתפוצצת תגיע לכלכלת בריטניה ועלולה לעורר תגובה בעניין...",
+      "summary_he": "",
+      "body_en": "Bank of England Governor Andrew Bailey warns that the fallout from an AI bubble bursting would reach the UK economy and could prompt a response in interest rates",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077491139532497073#m",
+      "tag": "FED",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 58ד׳",
+      "published_at": "2026-07-15T20:31:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מדד Mag 7 $MAGS עלה היום ב-2.3% לעומת ירידה של 0.4% במניה הממוצעת ב-S&P 500. עוד יום שבו המחיר והרוחב הלכו בכיוונים מנוגדים.…",
+      "summary_he": "",
+      "body_en": "The Mag 7 $MAGS gained 2.3% today versus a drop of 0.4% for the average stock in the S&P 500. Another day where price and breadth went in opposite directions. The norm for 2026.",
+      "ticker": "$MAGS",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2077489818448110006#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-15T20:25:45+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "JABIL $JBL אישר תוכנית חדשה לרכישה חוזרת של מניות בסך 1.5 מיליארד דולר.",
+      "summary_he": "",
+      "body_en": "JABIL $JBL AUTHORIZED A NEW $1.5B SHARE REPURCHASE PROGRAM.",
+      "ticker": "$JBL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077486599571648727#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-15T20:12:57+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "J.B. HUNT $JBHT Q2'26 שירי רווחים 🔹 הכנסות: $3.50B (הערכה. $3.17B) ; +19% YoY 🔹 EPS: $1.91 (הערכה. $1.71) ; +45% משנה לשנה 🔹 הכנסה בין-מודאלית: $1.75B (הערכה...",
+      "summary_he": "",
+      "body_en": "J.B. HUNT $JBHT Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $3.50B (Est. $3.17B) 🟢; +19% YoY 🔹 EPS: $1.91 (Est. $1.71) 🟢; +45% YoY 🔹 Intermodal Revenue: $1.75B (Est. $1.49B) 🟢; +22% YoY FY26 Guide: 🔹 Annual ",
+      "ticker": "$JBHT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077486211053350995#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-15T20:11:25+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$UAL רואה ~$6B בהוצאות דלק נוספות לשנת 2026",
+      "summary_he": "",
+      "body_en": "$UAL SEES ~$6B IN ADDED FUEL EXPENSE FOR 2026",
+      "ticker": "$UAL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077484684653765042#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-15T20:05:21+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$ASTS מכריזה על שטרות ניתנים להמרה בסך 1B דולרים ב-2034.",
+      "summary_he": "",
+      "body_en": "$ASTS announces $1B convertible notes offering due 2034.",
+      "ticker": "$ASTS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077484584896466979#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNS1N-PbQAAsSE_.jpg",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-15T20:04:57+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$ASTS מתכננת הנפקה של שטרות בכירים להמרה בסך 1B דולר ב-2034, עם אופציה לרוכשים לרכוש עוד 150 מיליון דולר. החברה מתכננת להשתמש בחלק מה...",
+      "summary_he": "",
+      "body_en": "$ASTS plans a $1B convertible senior notes offering due 2034, with an option for buyers to purchase another $150M. The company plans to use part of the proceeds for capped call transactions to reduce ",
+      "ticker": "$ASTS",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077484518878122423#m",
+      "tag": "M&A",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNS1J5Ya4AAyBcK.png",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-15T20:04:41+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "שבירה: אנתרופית להנפקה כבר באוקטובר, לפי בלומברג.",
@@ -893,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 15ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-15T19:51:52+00:00",
       "sentiment": "neutral"
     },
@@ -907,7 +1047,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSx7L6W4AEs_WX.jpg",
-      "relative_time": "לפני 17ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-15T19:50:37+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +1061,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSxA3SWQAAQ3bb.png",
-      "relative_time": "לפני 21ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-15T19:46:34+00:00",
       "sentiment": "neutral"
     },
@@ -935,22 +1075,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSw1HaW4AABOE-.png",
-      "relative_time": "לפני 21ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-15T19:45:46+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ: אני איש המכירות הגדול ביותר בהיסטוריה של $BA BOEING, אם הייתי במגזר הפרטי, הייתי מבקש חלק מהחברה",
-      "summary_he": "",
-      "body_en": "TRUMP: I'M THE GREATEST SALESMAN IN THE HISTORY OF $BA BOEING, IF I WAS IN THE PRIVATE SECTOR I'D ASK FOR A PIECE OF THE COMPANY",
-      "ticker": "$BA",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077479254854668318#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 23ד׳",
-      "published_at": "2026-07-15T19:43:46+00:00",
       "sentiment": "neutral"
     },
     {
@@ -963,22 +1089,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSvn3lWQAAH6aB.png",
-      "relative_time": "לפני 27ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-15T19:40:29+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "יום כואב לבעלי המניות של $PYPL כשהחברה מאפשרת ל-Stripe לרכוש נכסים יקרי ערך כמו Venmo ו-Braintree בשווי נמוך בכל הזמנים של פי 10 בלבד קדימה...",
-      "summary_he": "",
-      "body_en": "Painful day for $PYPL shareholders as the company lets Stripe acquire valuable assets like Venmo and Braintree at an all-time-low valuation of just 10x forward earnings.",
-      "ticker": "$PYPL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077478388642803819#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNSvbnVaAAEx2gv.jpg",
-      "relative_time": "לפני 27ד׳",
-      "published_at": "2026-07-15T19:40:20+00:00",
       "sentiment": "neutral"
     },
     {
@@ -991,36 +1103,8 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSvW8gXMAEgjMR.png",
-      "relative_time": "לפני 28ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-15T19:39:20+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שובר: פיט הגסת' ממשרד המלחמה אמר שחיילים מעל גיל 30 יעברו בדיקה לאיתור מחסור בטסטוסטרון, לפי הגרדיאן",
-      "summary_he": "",
-      "body_en": "BREAKING: Department of War's Pete Hegseth has said that soldiers over age 30 to be screened for testosterone deficiency, per the Guardian",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077477549748507048#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 30ד׳",
-      "published_at": "2026-07-15T19:37:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ה-AWS של $AMZN הפסיקה למכור שתי גרסאות קטנות יותר של Outposts, מוצר החומרה של מרכז הנתונים הפרטי שלה, לפי The Information. המוצרים שהופסקו הם…",
-      "summary_he": "",
-      "body_en": "$AMZN's AWS has stopped selling two smaller versions of Outposts, its private data center hardware product, per The Information. The discontinued products are the 1U version powered by AWS Graviton ch",
-      "ticker": "$AMZN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077473436797219265#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNSrExTbIAATJO_.png",
-      "relative_time": "לפני 47ד׳",
-      "published_at": "2026-07-15T19:20:39+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1033,92 +1117,8 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSqhoLWAAAnYP9.jpg",
-      "relative_time": "לפני 49ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T19:18:13+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "זה עתה השקנו ניסיון חינם של ממשק ה-API של לוויתנים יוצאי דופן. ממשק ה-API של לוויתנים יוצאי דופן נותן גישה מלאה לאופציות חיות, מניות, נתוני שוק חיזוי ו...",
-      "summary_he": "",
-      "body_en": "We have just launched a free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, and much more. Check it out here: https://unus",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077472768434622495#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/public-api",
-      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077465871124185088%2Fimg%2F1x0qRLiRiZedujCM.jpg",
-      "relative_time": "לפני 49ד׳",
-      "published_at": "2026-07-15T19:18:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$ASML ו-$INTC Foundry הופכים לראשונים להשתמש ב-High-NA EUV בייצור בנפח גבוה עבור מעבדי Panther Lake נבחרים. אבן הדרך מאמתת את High-NA ב...",
-      "summary_he": "",
-      "body_en": "$ASML and $INTC Foundry become the first to use High-NA EUV in high-volume manufacturing for select Panther Lake processors. The milestone validates High-NA in production and marks an important step b",
-      "ticker": "$ASML",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077471360767701083#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNSpJuQasAAdrGA.png",
-      "relative_time": "לפני 55ד׳",
-      "published_at": "2026-07-15T19:12:24+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "פראי לחלוטין שחברת בינה מלאכותית ששולחת לך פיצה הצליחה לגייס 6 מיליון דולר 😅",
-      "summary_he": "",
-      "body_en": "Absolutely wild that an AI company that sends you pizza was able to raise $6M 😅",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077470322404770177#m",
-      "tag": "TECH",
-      "article_url": "http://Atomik.vc",
-      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077438196854706176%2Fimg%2FltYwlfbL2cBvl5DL.jpg",
-      "relative_time": "לפני 59ד׳",
-      "published_at": "2026-07-15T19:08:17+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "קָדוֹשׁ. תראה את זה. מישהו ידע על הצעת הרכישה של Stripe לגבי Paypal, $PYPL. סוחר תקע 300 אלף דולר לשיחות של PYPL 50 דולר שפג תוקפם ב-08/07/2026 לפני...",
-      "summary_he": "",
-      "body_en": "Holy. Look at this. Someone knew about Stripe's acquisition offer about Paypal, $PYPL. A trader slammed $300k into $PYPL 50 calls expiring 08/07/2026 before the news last week (and other strikes). The",
-      "ticker": "$PYPL",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077465391761445279#m",
-      "tag": "M&A",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNShnKqbAAAeoOm.jpg",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-15T18:48:41+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "יו\"ר הפד Warsh: אין גבול לכמה מהר הכלכלה יכולה לצמוח.",
-      "summary_he": "",
-      "body_en": "Fed's Chair Warsh: There is no limit to how fast the economy can grow.",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077462198587105639#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-15T18:36:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$PENG מביאה את שרת המטמון MemoryAI KV שלה ליפן שמוריד את מטמון ה-KV מזיכרון ה-GPU, כך שאשכולות מסקנות מפסיקים לקנות מעבדי GPU רק כדי לקבל יותר HBM.…",
-      "summary_he": "",
-      "body_en": "$PENG is bringing its MemoryAI KV cache server to Japan that offloads the KV cache from GPU memory so inference clusters stop buying GPUs just to get more HBM. Worth noting that the system runs on $NV",
-      "ticker": "$PENG",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077456508691038265#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNSbr5JbMAAUkFe.png",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-15T18:13:23+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1131,7 +1131,7 @@
       "tag": "NEWS",
       "article_url": "https://open.substack.com/pub/bespokeinvest/p/financials-now-overbought-22-for?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-15T17:36:30+00:00",
       "sentiment": "neutral"
     },
@@ -1145,7 +1145,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNP33IvbYAAUHtx.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-15T16:15:59+00:00",
       "sentiment": "bearish"
     },
@@ -1159,7 +1159,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-15T16:08:32+00:00",
       "sentiment": "neutral"
     },
@@ -1173,7 +1173,7 @@
       "tag": "ENERGY",
       "article_url": "https://www.cnbc.com/video/2026/07/15/this-has-been-a-bull-market-centered-on-ai-says-bespokes-paul-hickey.html",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077404637443887104%2FQP7OK2yB%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-15T15:22:58+00:00",
       "sentiment": "bullish"
     },
@@ -1187,7 +1187,7 @@
       "tag": "NEWS",
       "article_url": "https://www.prnewswire.com/news-releases/dan-ives-and-yorkville-securities-form-yorkville-ives-a-reimagined-modern-merchant-bank-302825821.html?tc=eml_cleartime",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077370222160306177%2Fm1hxY6yk%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-15T15:12:59+00:00",
       "sentiment": "neutral"
     },
@@ -1201,22 +1201,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-15T15:01:33+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "חצי כרך ממשיך. תעודת הסל $SMH semis ירדה ישר ב-3.7% מאז הפתיחה מעט בעלייה הבוקר.",
-      "summary_he": "",
-      "body_en": "Semis vol continues. The $SMH semis ETF has gone straight down by 3.7% since opening slightly higher this morning.",
-      "ticker": "$SMH",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2077403961229722047#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNRr13gWYAAdzT5.png",
-      "relative_time": "לפני 5ש׳",
-      "published_at": "2026-07-15T14:44:35+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1229,7 +1215,7 @@
       "tag": "NEWS",
       "article_url": "https://www.carsongroup.com/insights/blog/our-favorite-charts-from-the-first-half-of-2026/",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077381851195244544%2FdU4ez_Qn%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T13:17:15+00:00",
       "sentiment": "neutral"
     },
@@ -1243,7 +1229,7 @@
       "tag": "FED",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T13:13:26+00:00",
       "sentiment": "neutral"
     },
@@ -1257,7 +1243,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRTnu1bsAAYtl1.png",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T12:58:32+00:00",
       "sentiment": "neutral"
     },
@@ -1271,7 +1257,7 @@
       "tag": "NEWS",
       "article_url": "https://www.prnewswire.com/news-releases/dan-ives-and-yorkville-securities-form-yorkville-ives-a-reimagined-modern-merchant-bank-302825821.html?tc=eml_cleartime",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077370222160306177%2Fm1hxY6yk%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T12:34:27+00:00",
       "sentiment": "neutral"
     },
@@ -1285,22 +1271,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRHl8tWoAEEaqS.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-15T12:05:59+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: דן איבס, אחד האנליסטים הטכנולוגיים הידועים ביותר בוול סטריט, חובר ל-Yorkville Securities כדי להשיק חברת בנקאות מסחרית חדשה...",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: Dan Ives, one of Wall Street’s best-known technology analysts, is teaming up with Yorkville Securities to launch a new merchant banking firm \"The new firm, Yorkville Ives & Co., will",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/StockMKTNewz/status/2077363637895774286#m",
-      "tag": "ENERGY",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNRHMOEXEAAcKsM.jpg",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-15T12:04:21+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1313,7 +1285,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRGJBEWEAAYGLc.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-15T11:59:38+00:00",
       "sentiment": "neutral"
     },
@@ -1327,23 +1299,9 @@
       "tag": "NEWS",
       "article_url": "https://www.cnbc.com/2026/07/15/star-analyst-dan-ives-forms-yorkville-ives-merchant-bank-after-leaving-wedbush.html?__source=androidappshare",
       "tweet_image": "https://nitter.net/pic/card_img%2F2076896770442043392%2Fxt7CdzBu%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-15T11:59:19+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @wallstengine: $ASML Q2'26 שירי רווחים 🔹 מכירות נטו: €9.33B (אומדן €8.85B) 🟢; +6.4% QoQ 🔹 EPS: €7.59 (הערכה. €6.9) 🔹 שולי רווח גולמי: 54.0% (הערכה 52%)...",
-      "summary_he": "",
-      "body_en": "RT by @wallstengine: $ASML Q2'26 EARNINGS HIGHLIGHTS 🔹 Net Sales: €9.33B (Est. €8.85B) 🟢; +6.4% QoQ 🔹 EPS: €7.59 (Est. €6.9) 🟢 🔹 Gross Margin: 54.0% (Est. 52%) 🟢 🔸 Nearly all required 2027 EUV orders ",
-      "ticker": "$ASML",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077308597797810515#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNQUxceaMAEwT_S.jpg",
-      "relative_time": "לפני 11ש׳",
-      "published_at": "2026-07-15T08:25:38+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "עדיין לא בטוח מה אנשים רואים ב-$SPCX כהשקעה. זה כבר מגה-קאפ (שווי שוק של $1.8T) כך שהאפסייד מוגבל. זה לא יניב רווחים עד 2027.…",
@@ -1355,23 +1313,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNP33IvbYAAUHtx.jpg",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-15T06:31:21+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "השוק צופה כעת הפחתת ריבית אחת בשנת 2026 בעקבות הדפסת מדד המחירים לצרכן היום בקלשי לפני מדד המחירים לצרכן שוק ההדפסה למדד צפי להורדת ריבית של 0.3 בלבד השנה",
-      "summary_he": "",
-      "body_en": "THE MARKET NOW EXPECTS 1 RATE CUT IN 2026 FOLLOWING TODAYS CPI PRINT ON KALSHI BEFORE THE CPI PRINT MARKET ONLY EXPECTED 0.3 RATE CUTS THIS YEAR",
-      "ticker": "",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2077156775845843330#m",
-      "tag": "FED",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNOLFBRXsAAcnD8.jpg",
-      "relative_time": "לפני 21ש׳",
-      "published_at": "2026-07-14T22:22:21+00:00",
-      "sentiment": "bearish"
     }
   ],
   "il_news": [
