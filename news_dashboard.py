@@ -176,10 +176,13 @@ def fetch_rss(feeds: list, max_per_feed: int = 10) -> list:
                 link  = entry.get("link", "")
                 if not title: continue
                 pub = entry.get("published_parsed") or entry.get("updated_parsed")
+                published_at = ""
                 if pub:
                     pub_dt = datetime(*pub[:6], tzinfo=timezone.utc)
                     if pub_dt < cutoff: continue
-                results.append({"title": title, "link": link, "source": feed["name"]})
+                    published_at = pub_dt.isoformat()
+                results.append({"title": title, "link": link, "source": feed["name"],
+                                "published_at": published_at})
                 count += 1
             print(f"  ✓ {feed['name']}: {count} articles")
         except Exception as e:
@@ -588,8 +591,15 @@ def _parse_tweet_date(date_str: str):
 
 
 def _relative_time(date_str: str) -> str:
-    """Convert a date string to a Hebrew relative time label."""
+    """Convert a date string (RFC-2822 or ISO-8601) to a Hebrew relative time label."""
     dt = _parse_tweet_date(date_str)
+    if not dt and date_str:
+        try:
+            dt = datetime.fromisoformat(date_str)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+        except ValueError:
+            pass
     if not dt:
         return ""
     diff = datetime.now(timezone.utc) - dt
@@ -615,7 +625,6 @@ def _try_nitter_feed(handle: str, instance: str) -> list:
         if not parsed.entries:
             return []
         tweets = []
-        tweets = []
         for entry in parsed.entries[:5]:
             body = (entry.get("title") or "").strip()
             link = entry.get("link", "")
@@ -630,11 +639,13 @@ def _try_nitter_feed(handle: str, instance: str) -> list:
                 # Tweet media images (charts, tables, photos)
                 tweet_images = _extract_nitter_images(summary_html, instance)
                 tweet_image = tweet_images[0] if tweet_images else ""
+                pub_dt = _parse_tweet_date(date)
                 tweets.append({
                     "handle":        handle,
                     "body":          body[:500],
                     "url":           link,
                     "date":          date,
+                    "published_at":  pub_dt.isoformat() if pub_dt else "",
                     "article_url":   article_url,
                     "tweet_image":   tweet_image,
                     "relative_time": _relative_time(date),
@@ -745,12 +756,14 @@ def _fetch_ticker_news_one(ticker: str) -> list:
             title = (entry.get("title") or "").strip()
             link  = entry.get("link", "")
             if title:
+                pub_dt = _parse_tweet_date(entry.get("published", ""))
                 news.append({
-                    "ticker":    f"${ticker}",
-                    "title":     title,
-                    "url":       link,
-                    "published": entry.get("published", ""),
-                    "source":    "Yahoo Finance",
+                    "ticker":       f"${ticker}",
+                    "title":        title,
+                    "url":          link,
+                    "published":    entry.get("published", ""),
+                    "published_at": pub_dt.isoformat() if pub_dt else "",
+                    "source":       "Yahoo Finance",
                 })
         return news
     except Exception:
@@ -844,16 +857,26 @@ def is_finance_tweet(body: str) -> bool:
     return any(kw in t for kw in _FINANCE_KW)
 
 
+def select_finance_tweets(tw_tweets: list, limit: int = 30) -> list:
+    """Deterministic finance filter + cap. Used by both enrichment and source merging
+    so [tN] ids in the prompt always refer to the same items."""
+    finance = [t for t in tw_tweets if is_finance_tweet(t.get("body", ""))]
+    if not finance:
+        finance = tw_tweets
+    return finance[:limit]
+
+
 # ── Claude Enrichment Agent ────────────────────────────────────────────────────
 
 def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: list,
                           ticker_news_raw: list = None) -> dict:
-    il_titles = "\n".join(f"{i+1}. [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
+    il_titles = "\n".join(f"[il{i+1}] [{item['source']}] {item['title']}" for i, item in enumerate(il_raw))
 
     ticker_section = ""
     if ticker_news_raw:
         tn_lines = "\n".join(
-            f"- [{n['ticker']}] {n['title']} ({n['source']})" for n in ticker_news_raw[:15]
+            f"[n{i+1}] [{n['ticker']}] {n['title']} ({n['source']})"
+            for i, n in enumerate(ticker_news_raw[:15])
         )
         ticker_section = f"\n\nחדשות מניות ספציפיות ({len(ticker_news_raw[:15])}):\n{tn_lines}"
 
@@ -895,6 +918,7 @@ def run_enrichment_agent(client: anthropic.Anthropic, tw_tweets: list, il_raw: l
   • אל תחזור על הכותרת — הרחב אותה
 
 ── שדות טכניים ──────────────────────────────────────────
+src_id:  חובה! ה-id של פריט המקור ([t3] / [n2] / [il1]) — העתק אותו בדיוק
 body_en: הציוץ המקורי מילה במילה, עד 200 תווים (ציטוט ישיר, לא תרגום)
 ticker:  $AAPL / $BTC / ריק אם אין
 tag:     EARNINGS / MACRO / FED / TECH / M&A / ENERGY / CRYPTO / BANKS / NEWS
@@ -908,25 +932,27 @@ link, source: כתובת + "@handle"
 
 {{
   "us_news": [
-    {{"title_he":"הקול האנליטי שלך","summary_he":"ניתוח עם מספרים ומשמעות","body_en":"verbatim tweet...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
+    {{"src_id":"t3","title_he":"הקול האנליטי שלך","summary_he":"ניתוח עם מספרים ומשמעות","body_en":"verbatim tweet...","source":"@handle","link":"...","tag":"TECH","ticker":"$AAPL"}}
   ],
   "israel_news": [
-    {{"title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
+    {{"src_id":"il1","title_he":"...","summary_he":"...","source":"...","link":"...","tag":"ביטחון"}}
   ]
 }}
 JSON בלבד."""
 
     # Pre-filter: keep only finance-relevant tweets before sending to Claude
-    finance_tweets = [t for t in tw_tweets if is_finance_tweet(t.get("body", ""))]
-    if not finance_tweets:
-        finance_tweets = tw_tweets
-    tw_sample = finance_tweets[:30]
-    print(f"  ✓ פילטר פיננסי: {len(finance_tweets)}/{len(tw_tweets)} ציוצים רלוונטיים")
+    tw_sample = select_finance_tweets(tw_tweets)
+    print(f"  ✓ פילטר פיננסי: {len(tw_sample)}/{len(tw_tweets)} ציוצים רלוונטיים")
+    # Compact tweet lines with stable ids Claude must echo back as src_id
+    tw_lines = "\n".join(
+        f"[t{i+1}] @{t.get('handle','')}: {t.get('body','')} | link: {t.get('url','')}"
+        for i, t in enumerate(tw_sample)
+    )
     messages = [{"role": "user", "content":
-        f"עבד נתונים ל-{TODAY_HE}.\n\n"
-        f"Twitter ({len(tw_sample)} ציוצים):\n{json.dumps(tw_sample, ensure_ascii=False)}\n\n"
+        f"עבד נתונים ל-{TODAY_HE}. לכל פריט יש id בסוגריים — החזר אותו כ-src_id.\n\n"
+        f"Twitter ({len(tw_sample)} ציוצים):\n{tw_lines}\n\n"
         f"ישראל ({len(il_raw)}):\n{il_titles}"
-        + (f"\n\nחדשות מניות ספציפיות:{ticker_section}" if ticker_section else "")
+        + (ticker_section if ticker_section else "")
         + "\n\nהחזר JSON."}]
 
     print(f"[{datetime.now().strftime('%H:%M:%S')}] מפעיל Claude ({ENRICHMENT_MODEL})...")
@@ -941,6 +967,59 @@ JSON בלבד."""
             if raw.startswith("json"): raw = raw[4:]
         return json.loads(raw.strip())
     raise ValueError("לא התקבלה תגובה")
+
+
+def merge_enriched_with_sources(news_data: dict, tw_sample: list, il_raw: list,
+                                 ticker_news_raw: list = None) -> dict:
+    """Join Claude's enriched items back to their source items by src_id.
+    Recovers published_at, tweet_image, article_url, relative_time, link.
+    Falls back to legacy URL/handle matching when src_id is missing/unknown."""
+    source_index = {}
+    for i, t in enumerate(tw_sample):
+        source_index[f"t{i+1}"] = t
+    for i, n in enumerate((ticker_news_raw or [])[:15]):
+        source_index[f"n{i+1}"] = n
+    for i, item in enumerate(il_raw):
+        source_index[f"il{i+1}"] = item
+
+    # Legacy fallback maps (url → tweet, handle → most recent tweet)
+    url_to_tweet, handle_to_tweet = {}, {}
+    for t in tw_sample:
+        if t.get("url") and t["url"] not in url_to_tweet:
+            url_to_tweet[t["url"]] = t
+        h = f'@{t.get("handle","")}'.lower()
+        if h not in handle_to_tweet:
+            handle_to_tweet[h] = t
+
+    matched = 0
+    for n in news_data.get("us_news", []):
+        src = source_index.get(n.get("src_id", ""))
+        if not src:
+            # Legacy matching by link/handle
+            src = url_to_tweet.get(n.get("link", "")) or handle_to_tweet.get(n.get("source", "").lower())
+        if src:
+            matched += 1
+            if not n.get("published_at"):  n["published_at"]  = src.get("published_at", "")
+            if not n.get("tweet_image"):   n["tweet_image"]   = src.get("tweet_image", "")
+            if not n.get("article_url"):   n["article_url"]   = src.get("article_url", "")
+            if not n.get("relative_time"): n["relative_time"] = src.get("relative_time", "") or _relative_time(src.get("published_at", ""))
+            if not n.get("link") or n["link"] == "#":
+                n["link"] = src.get("url", "") or src.get("link", "")
+
+    for n in news_data.get("israel_news", []):
+        src = source_index.get(n.get("src_id", ""))
+        if src:
+            if not n.get("published_at"): n["published_at"] = src.get("published_at", "")
+            if not n.get("link"):         n["link"]         = src.get("link", "")
+    # Positional fallback for Israel items without src_id (legacy behavior)
+    for i, n in enumerate(news_data.get("israel_news", [])):
+        if not n.get("link") and i < len(il_raw):
+            n["link"] = il_raw[i].get("link", "")
+            if not n.get("published_at"):
+                n["published_at"] = il_raw[i].get("published_at", "")
+
+    print(f"  ✓ שיוך מקורות: {matched}/{len(news_data.get('us_news', []))} פריטי US")
+    return news_data
 
 # ── Fallback: RSS-only mode ────────────────────────────────────────────────────
 
@@ -962,12 +1041,14 @@ def fallback_data(tw_tweets: list, il_raw: list) -> dict:
                 "article_url": t.get("article_url", ""),
                 "tweet_image": t.get("tweet_image", ""),
                 "relative_time": t.get("relative_time", ""),
+                "published_at": t.get("published_at", ""),
                 "sentiment":   "neutral",
             }
             for t in tw_tweets if is_finance_tweet(t.get("body", ""))
         ],
         "israel_news": [{"title_he": tr(i["title"]), "summary_he": "", "source": i["source"],
-                         "link": i["link"], "tag": "כללי"} for i in il_raw],
+                         "link": i["link"], "tag": "כללי",
+                         "published_at": i.get("published_at", "")} for i in il_raw],
     }
 
 # ── Tag Colors ─────────────────────────────────────────────────────────────────
@@ -1760,38 +1841,14 @@ def main():
 
     # 3. Claude Enrichment — analyst-voice interpretation of tweets
     api_key = os.environ.get("ANTHROPIC_API_KEY")
+    client = anthropic.Anthropic(api_key=api_key) if api_key else None
     news_data = None
-    if api_key:
+    if client:
         try:
             print("\n[ 3 ] מנתח ציוצים עם Claude (analyst voice)...")
-            client = anthropic.Anthropic(api_key=api_key)
+            tw_sample = select_finance_tweets(tw_feed)
             news_data = run_enrichment_agent(client, tw_feed, il_raw, ticker_news_raw=tk_news)
-            for i, n in enumerate(news_data.get("israel_news", [])):
-                if i < len(il_raw) and not n.get("link"): n["link"] = il_raw[i]["link"]
-            # Build lookup maps from original tweets: url → tweet_image, handle → relative_time
-            url_to_img = {}
-            handle_to_rt = {}
-            for t in tw_feed:
-                tw_url = t.get("url", "")
-                if tw_url and t.get("tweet_image") and tw_url not in url_to_img:
-                    url_to_img[tw_url] = t["tweet_image"]
-                h = f'@{t["handle"]}'.lower()
-                if h not in handle_to_rt and t.get("relative_time"):
-                    handle_to_rt[h] = t["relative_time"]
-
-            for n in news_data.get("us_news", []):
-                src = n.get("source", "").lower()
-                link = n.get("link", "")
-                if not n.get("tweet_image"):
-                    if link in url_to_img:
-                        n["tweet_image"] = url_to_img[link]
-                    else:
-                        for t in tw_feed:
-                            if t.get("article_url") and t["article_url"] == link and t.get("tweet_image"):
-                                n["tweet_image"] = t["tweet_image"]
-                                break
-                if not n.get("relative_time") and src in handle_to_rt:
-                    n["relative_time"] = handle_to_rt[src]
+            news_data = merge_enriched_with_sources(news_data, tw_sample, il_raw, ticker_news_raw=tk_news)
             has_img = sum(1 for n in news_data.get("us_news", []) if n.get("tweet_image"))
             print(f"✓ ניתוח הושלם — {has_img} ציוצים עם תמונה מקורית")
         except Exception as e:
