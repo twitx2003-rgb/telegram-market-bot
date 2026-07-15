@@ -1087,6 +1087,107 @@ def load_previous_opportunities() -> list:
         return []
 
 
+# ── Rule-Based TA (free mode — no LLM) ─────────────────────────────────────────
+
+def rule_based_analysis(ind: dict) -> dict:
+    """Deterministic Hebrew analysis from computed indicators — same rulebook as the
+    Claude TA prompt. Free mode: runs when no ANTHROPIC_API_KEY is available."""
+    price      = ind["price"]
+    support    = ind["support"]
+    resistance = ind["resistance"]
+    rsi        = ind.get("rsi14")
+    sma20      = ind.get("sma20")
+    sma50      = ind.get("sma50")
+    sma200     = ind.get("sma200")
+    w1         = ind.get("change_1w_pct") or 0
+    vol_r      = ind.get("vol_ratio") or 1.0
+    p52        = ind.get("pct_from_52w_high") or 0
+
+    pct_above_support    = (price - support) / support * 100 if support else 999
+    pct_below_resistance = (resistance - price) / price * 100 if resistance else 999
+
+    # ── setup_type ──
+    if pct_below_resistance <= 3 and w1 > 0 and vol_r > 1:
+        setup = "פריצה"
+    elif pct_above_support <= 3 and rsi is not None and rsi < 45:
+        setup = "תמיכה"
+    elif sma20 and sma50 and price > sma20 > sma50 and rsi is not None and 50 <= rsi <= 70:
+        setup = "מומנטום"
+    elif p52 < -10 and rsi is not None and rsi < 50:
+        setup = "תיקון"
+    else:
+        setup = "טווח"
+
+    # ── aligned bullish signals ──
+    signals = []
+    if sma20 and price > sma20:            signals.append("מחיר מעל SMA20")
+    if sma20 and sma50 and sma20 > sma50:  signals.append("SMA20 מעל SMA50")
+    if sma200 and price > sma200:          signals.append("מחיר מעל SMA200")
+    if rsi is not None and 40 <= rsi <= 70: signals.append(f"RSI בריא ({rsi})")
+    if w1 > 0:                             signals.append(f"מומנטום שבועי {w1:+.1f}%")
+    if vol_r > 1.1:                        signals.append(f"נפח מוגבר (פי {vol_r})")
+    if pct_above_support <= 5:             signals.append("קרוב לתמיכה")
+    n = len(signals)
+
+    below_all_smas = all(s and price < s for s in (sma20, sma50, sma200) if s) and any((sma20, sma50, sma200))
+    overbought     = rsi is not None and rsi > 75
+
+    if n >= 4 and not overbought and not below_all_smas:
+        rec = "קנייה"
+    elif n >= 2:
+        rec = "מעקב"
+    else:
+        rec = "המתנה"
+
+    conf = max(0, min(4, n - 1))  # rule engine never claims 5/5
+
+    # ── entry / stop ──
+    entry = stop = None
+    if setup == "תמיכה":
+        entry = round(support * 1.01, 2)
+    elif setup == "פריצה":
+        entry = round(resistance * 1.005, 2)
+    if rec in ("קנייה", "מעקב") and support:
+        stop = round(support * 0.98, 2)
+
+    # ── Hebrew rationale (templates per setup) ──
+    top_signals = " · ".join(signals[:3]) if signals else "אין אינדיקטורים תומכים"
+    rsi_txt = f"RSI ב-{rsi}" if rsi is not None else "RSI לא זמין"
+    if setup == "פריצה":
+        rationale = (f"המחיר ${price:,.2f} נמצא {pct_below_resistance:.1f}% מתחת להתנגדות ב-${resistance:,.2f} "
+                     f"עם מומנטום שבועי של {w1:+.1f}%. {top_signals}. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.")
+    elif setup == "תמיכה":
+        rationale = (f"{rsi_txt} כשהמחיר ${price:,.2f} רק {pct_above_support:.1f}% מעל תמיכה ב-${support:,.2f} — "
+                     f"יחס סיכון-סיכוי נוח ללונג. {top_signals}.")
+    elif setup == "מומנטום":
+        rationale = (f"מבנה עולה מסודר: מחיר מעל SMA20 (${sma20:,.2f}) שמעל SMA50 (${sma50:,.2f}), {rsi_txt}. "
+                     f"{top_signals}. כל עוד המחיר מעל הממוצעים — המגמה בעדך.")
+    elif setup == "תיקון":
+        rationale = (f"ירידה של {p52:.1f}% מהשיא השנתי עם {rsi_txt} — התיקון בעיצומו. "
+                     f"תמיכה קרובה ב-${support:,.2f}. {top_signals}.")
+    else:
+        rationale = (f"המחיר ${price:,.2f} באמצע הטווח בין ${support:,.2f} ל-${resistance:,.2f}, {rsi_txt}. "
+                     f"{n} אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.")
+
+    return {
+        "ticker":         ind["ticker"],
+        "setup_type":     setup,
+        "levels":         {"support": support, "resistance": resistance, "entry": entry, "stop": stop},
+        "recommendation": rec,
+        "confidence":     conf,
+        "rationale_he":   rationale,
+    }
+
+
+def run_rule_based_ta(indicators: dict) -> list:
+    """Free-mode TA: rule engine over all computed indicators."""
+    ops = [rule_based_analysis(ind) for ind in indicators.values()]
+    merged = merge_ta_results(ops, indicators)
+    for op in merged:
+        op["engine"] = "rules"
+    return merged
+
+
 # ── Finance Relevance Filter ───────────────────────────────────────────────────
 
 _FINANCE_KW = [
@@ -1279,28 +1380,73 @@ def merge_enriched_with_sources(news_data: dict, tw_sample: list, il_raw: list,
     print(f"  ✓ שיוך מקורות: {matched}/{len(news_data.get('us_news', []))} פריטי US")
     return news_data
 
-# ── Fallback: RSS-only mode ────────────────────────────────────────────────────
+# ── Fallback: RSS-only mode (free — no LLM) ────────────────────────────────────
+
+_TAG_KEYWORDS = [
+    ("EARNINGS", ["earnings", "eps", "revenue", "guidance", "beats", "misses", "quarterly", "q1 ", "q2 ", "q3 ", "q4 "]),
+    ("FED",      ["fed ", "fomc", "powell", "rate cut", "rate hike", "interest rate", "federal reserve"]),
+    ("CRYPTO",   ["bitcoin", "btc", "ethereum", "crypto", "coinbase", "blockchain"]),
+    ("M&A",      ["merger", "acquisition", "acquire", "buyout", "takeover", "deal"]),
+    ("ENERGY",   ["oil", "crude", "energy", "opec", "gas prices", "brent"]),
+    ("BANKS",    ["jpmorgan", "goldman", "bank of america", "wells fargo", "citigroup", "morgan stanley"]),
+    ("MACRO",    ["inflation", "cpi", "gdp", "jobs report", "unemployment", "recession", "treasury", "yield"]),
+    ("TECH",     ["nvidia", "apple", "microsoft", "google", "meta", "amazon", "tesla", "amd", "intel", "ai ", "chip"]),
+]
+_POS_SIGNALS = ["beat", "beats", "surge", "soar", "rally", "record", "raise", "upgrade", "jumps", "gains", "profit"]
+_NEG_SIGNALS = ["miss", "misses", "plunge", "drop", "crash", "layoffs", "cuts", "downgrade", "falls", "loss", "bankrupt"]
+_HEBREW_RE   = re.compile('[\\u0590-\\u05FF]')
+
+
+def classify_tag(text: str) -> str:
+    t = text.lower()
+    for tag, kws in _TAG_KEYWORDS:
+        if any(kw in t for kw in kws):
+            return tag
+    return "NEWS"
+
+
+def classify_sentiment(text: str) -> str:
+    t = text.lower()
+    pos = sum(1 for w in _POS_SIGNALS if w in t)
+    neg = sum(1 for w in _NEG_SIGNALS if w in t)
+    return "bullish" if pos > neg else ("bearish" if neg > pos else "neutral")
+
+
+def _extract_ticker(text: str) -> str:
+    m = _TICKER_RE.search(text)
+    return m.group(1) if m else ""
+
 
 def fallback_data(tw_tweets: list, il_raw: list) -> dict:
+    """Free news path: keyword tags + sentiment + Google translation (no LLM)."""
     def tr(text):
+        if _HEBREW_RE.search(text):  # already Hebrew — skip translation
+            return text
         if HAS_TRANSLATOR:
             try: return GoogleTranslator(source="en", target="iw").translate(text)
             except Exception: pass
         return text
+
+    def clean_cut(text, limit=160):
+        if len(text) <= limit:
+            return text
+        return text[:limit].rsplit(" ", 1)[0] + "…"
+
     return {
         "us_news": [
             {
-                "title_he":    tr(t["body"][:120]),
+                "title_he":    tr(clean_cut(t["body"])),
                 "summary_he":  "",
-                "ticker":      "",
+                "body_en":     t["body"][:200],
+                "ticker":      _extract_ticker(t.get("body", "")),
                 "source":      f'@{t["handle"]}',
                 "link":        t.get("url", "#"),
-                "tag":         "NEWS",
+                "tag":         classify_tag(t.get("body", "")),
                 "article_url": t.get("article_url", ""),
                 "tweet_image": t.get("tweet_image", ""),
                 "relative_time": t.get("relative_time", ""),
                 "published_at": t.get("published_at", ""),
-                "sentiment":   "neutral",
+                "sentiment":   classify_sentiment(t.get("body", "")),
             }
             for t in tw_tweets if is_finance_tweet(t.get("body", ""))
         ],
@@ -2236,21 +2382,27 @@ def main():
     if news_data is None:
         news_data = fallback_data(tw_feed, il_raw)
 
-    # 3b. Claude TA — independent of the news call; stale-fallback on failure
+    # 3b. TA — Claude when available, otherwise the free rule engine
     opportunities = []
     if client and indicators:
         try:
             print("\n[ 3b ] מנתח הזדמנויות טכניות עם Claude...")
             claude_ops = run_ta_agent(client, list(indicators.values()))
             opportunities = merge_ta_results(claude_ops, indicators)
-            buys = sum(1 for o in opportunities if o["recommendation"] == "קנייה")
-            print(f"✓ ניתוח טכני: {len(opportunities)} טיקרים, {buys} המלצות קנייה")
+            for op in opportunities:
+                op["engine"] = "claude"
         except Exception as e:
-            print(f"✗ Claude TA נכשל: {e} — טוען ניתוח קודם")
-            opportunities = load_previous_opportunities()
+            print(f"✗ Claude TA נכשל: {e} — עובר למנוע חוקים")
+            opportunities = run_rule_based_ta(indicators)
     elif indicators:
-        # No Claude: indicators-only cards (no recommendations)
-        opportunities = merge_ta_results([], indicators)
+        print("\n[ 3b ] מנתח הזדמנויות עם מנוע חוקים (מצב חינמי)...")
+        opportunities = run_rule_based_ta(indicators)
+    if not opportunities:
+        # Yahoo history failed entirely — carry forward the previous run's analysis
+        opportunities = load_previous_opportunities()
+    if opportunities:
+        buys = sum(1 for o in opportunities if o["recommendation"] == "קנייה")
+        print(f"✓ ניתוח טכני ({opportunities[0].get('engine','?')}): {len(opportunities)} טיקרים, {buys} המלצות קנייה")
 
     # 4. Assemble full data dict
     data = {
