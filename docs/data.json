@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T22:32:49.804098+00:00",
+  "generated_at": "2026-07-15T23:57:43.618241+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-15T22:32:49.804120+00:00",
+  "ta_generated_at": "2026-07-15T23:57:43.618262+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,068.7",
-      "change": "+0.42%",
+      "value": "$4,064.4",
+      "change": "+0.31%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4170985734735089
+      "pct_raw": 0.31097290093291646
     },
     {
       "name": "נפט ברנט",
       "value": "$85.5",
-      "change": "+0.65%",
+      "change": "+0.64%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.6474396703943462
+      "pct_raw": 0.6356680400235338
     },
     {
       "name": "ביטקוין",
-      "value": "$64,900",
-      "change": "-0.12%",
+      "value": "$64,740",
+      "change": "-0.36%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.11505083959225273
+      "pct_raw": -0.3606231429517971
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.987",
-      "change": "-0.61%",
-      "direction": "down",
+      "value": "2.992",
+      "change": "+0.21%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.6055363321799232
+      "pct_raw": 0.20766345123258995
     }
   ],
   "sectors": [
@@ -856,7 +856,133 @@
   },
   "us_news": [
     {
-      "title_he": "הנה כל תרשים שחלקנו בתחזית אמצע השנה שלנו, עם סיכום מהיר.…",
+      "title_he": "R ל-@StockSavvyShay: $NVDA גם חתך את גודל מחשב הרובוטיקה Thor שלה לשניים מבלי להקריב את הביצועים:",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: $NVDA also cut the size of its Thor robotics computer in half without sacrificing performance:",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077539869715501325#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNTngElbUAAhByx.jpg",
+      "relative_time": "לפני 12ד׳",
+      "published_at": "2026-07-15T23:44:38+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NVDA פשוט חתכה את מחשב ה-THOR ROBOTICS שלו לחצי מהגודל והעוצמה המודול T3000 החדש הוא בערך חצי מהגודל והעוצמה של ה-T5000 של NVIDIA, בעוד...",
+      "summary_he": "",
+      "body_en": "$NVDA JUST CUT ITS THOR ROBOTICS COMPUTER TO HALF THE SIZE AND POWER The new T3000 module is roughly half the size and power of NVIDIA’s T5000, while delivering similar inference performance on multim",
+      "ticker": "$NVDA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077538492989759789#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNTmOr4aAAA7kpL.jpg",
+      "relative_time": "לפני 17ד׳",
+      "published_at": "2026-07-15T23:39:10+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "עונת רווחים מרכזית של 2Q לפני שמות טכנולוגיה ובינה מלאכותית @CNBCClosingBell 🏆🍿👇🐂📺",
+      "summary_he": "",
+      "body_en": "A pivotal 2Q earnings season ahead for tech and AI names @CNBCClosingBell 🏆🍿👇🐂📺",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/DivesTech/status/2077537865173512599#m",
+      "tag": "EARNINGS",
+      "article_url": "https://www.cnbc.com/video/2026/07/15/dan-ives-q2-earnings-will-be-the-driver-for-mega-cap-stocks.html",
+      "tweet_image": "https://nitter.net/pic/media%2FHNTCnslW0AAM3kb.jpg",
+      "relative_time": "לפני 20ד׳",
+      "published_at": "2026-07-15T23:36:40+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NVDA חשפה שני מודולים חדשים המופעלים על ידי Blackwell בשם T2000 ו-T3000 כדי להביא רובוטיקה ובינה מלאכותית קצה לשוק ההמוני. חברות רובוטיקה מובילות הן...",
+      "summary_he": "",
+      "body_en": "$NVDA unveiled two new Blackwell-powered modules called T2000 and T3000 to bring robotics and edge AI to the mass market. Leading robotics companies are already adopting Jetson Thor including $AMZN Ro",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077537407482970334#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNTlEwIb0AAdO3m.png",
+      "relative_time": "לפני 22ד׳",
+      "published_at": "2026-07-15T23:34:51+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "גוגנהיים משדרגת $NXT לקנייה מ-Netral, מעמידה PT על $125 הערות אנליסטים: \"אנחנו משדרגים את Nextracker ל-Buy ומקים PT של $125, שערך...",
+      "summary_he": "",
+      "body_en": "Guggenheim Upgrades $NXT to Buy from Neutral, Sets PT at $125 Analyst comments: \"We are upgrading Nextracker to Buy establishing a $125 PT, which would value the company at approximately 18x our calen",
+      "ticker": "$NXT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077536969261998538#m",
+      "tag": "NEWS",
+      "article_url": "https://gamestock.onelink.me/lWtY/g527hpgn",
+      "tweet_image": "",
+      "relative_time": "לפני 24ד׳",
+      "published_at": "2026-07-15T23:33:06+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "R ל-@sonusvarghese: 🎧 🍎 https://podcasts.apple.com/us/podcast/heres-our-midyear-outlook-2026-fvf-ep-196/id1651235114?i=1000776884457 Spotify…",
+      "summary_he": "",
+      "body_en": "R to @sonusvarghese: 🎧 🍎 https://podcasts.apple.com/us/podcast/heres-our-midyear-outlook-2026-fvf-ep-196/id1651235114?i=1000776884457 Spotify https://open.spotify.com/episode/03WmE5kUCUc1IScPRn0HmA?si",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2077524314396713036#m",
+      "tag": "TECH",
+      "article_url": "https://podcasts.apple.com/us/podcast/heres-our-midyear-outlook-2026-fvf-ep-196/id1651235114?i=1000776884457",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-15T22:42:49+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "עובדות לעומת רגשות 🎙️ תחזית אמצע השנה 2026: עדיין רוכבת על הגל 🌊 🌊 @sonusvarghese ואני דיברנו על העלאת יעד SPX שלנו, השקעה של AI כסיפור מאקרו, ועל...",
+      "summary_he": "",
+      "body_en": "Facts vs Feelings 🎙️ Midyear Outlook 2026: Still Riding The Wave 🌊 🌊 @sonusvarghese and I discussed our SPX target raise, AI capex as a macro story, and the inflation problem nobody seems to mention: ",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2077523287513706503#m",
+      "tag": "MACRO",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-15T22:38:44+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "למומנטום הטכנולוגיה היה הרגע החד ביותר של 17 יום זה 27 שנים. קצב השינוי של 17 יום בגורם MS Tech Momentum ירד בכ-35%, הקריאה הגרועה ביותר ב...",
+      "summary_he": "",
+      "body_en": "Tech momentum just had its sharpest 17-day unwind in 27 years. The 17-day rate of change in the MS Tech Momentum factor is down about 35%, the worst reading in the data back to 1999. h/t @jvisserlabs",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077522070096023761#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNTXTVNaIAAyVUk.jpg",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-15T22:33:54+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: תחנות קרקע ספציפיות של Starlink בקטאר, ירדן, איחוד האמירויות, עומאן וישראל נקראו במפורש כמטרות פוטנציאליות. Read more:…",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: Specific Starlink ground stations in Qatar, Jordan, the UAE, Oman, and Israel were explicitly named as potential targets. Read more: https://unusualwhales.com/news/iran-musk-star",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077521338927919610#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/iran-musk-starlink-military-targets-spacex-ipo",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2077176044369641472%2FuWL5WSp0%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-15T22:31:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הנה כל תרשים שחלקנו בתחזית אמצע השנה שלנו, עם סיכום מהיר...",
       "summary_he": "",
       "body_en": "Here is every single chart we shared in our Midyear Outlook, complete with a quick summary. https://www.carsongroup.com/insights/blog/still-riding-the-wave-our-2026-midyear-outlook-in-charts/",
       "ticker": "",
@@ -865,7 +991,7 @@
       "tag": "NEWS",
       "article_url": "https://www.carsongroup.com/insights/blog/still-riding-the-wave-our-2026-midyear-outlook-in-charts/",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077517923598659584%2FHixOVO77%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 14ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-15T22:17:25+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +1005,7 @@
       "tag": "M&A",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTMgmaakAAGUNV.png",
-      "relative_time": "לפני 45ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T21:46:44+00:00",
       "sentiment": "neutral"
     },
@@ -893,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTLoijbkAATg3f.jpg",
-      "relative_time": "לפני 49ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T21:43:00+00:00",
       "sentiment": "bullish"
     },
@@ -907,7 +1033,7 @@
       "tag": "EARNINGS",
       "article_url": "https://www.cnbc.com/video/2026/07/15/dan-ives-q2-earnings-will-be-the-driver-for-mega-cap-stocks.html",
       "tweet_image": "https://nitter.net/pic/media%2FHNTCnslW0AAM3kb.jpg",
-      "relative_time": "לפני 55ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T21:36:41+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +1047,7 @@
       "tag": "FED",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRXbHOWsAEchDJ.png",
-      "relative_time": "לפני 57ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T21:35:00+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +1061,7 @@
       "tag": "NEWS",
       "article_url": "https://schrts.co/aAcjPwEJ",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077463372409245697%2FmawPL73F%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T21:31:00+00:00",
       "sentiment": "neutral"
     },
@@ -949,7 +1075,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRXXmWWgAAkzSp.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T21:30:00+00:00",
       "sentiment": "neutral"
     },
@@ -963,7 +1089,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/gtAt2vY0qVQ?si=ud7oWcZIT6DYDX9D",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077505914232508416%2FP5qRuyke%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T21:29:42+00:00",
       "sentiment": "neutral"
     },
@@ -977,7 +1103,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077505678755999745%2Fimg%2F0LhDxhvgEg9CSwf7.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T21:28:56+00:00",
       "sentiment": "bullish"
     },
@@ -991,22 +1117,8 @@
       "tag": "ENERGY",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077500666336194560%2Fimg%2Fh9L6eR499l9Jo8nV.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T21:08:56+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$EOSE זכתה בחוזה הגנה של \"כיפת הזהב\" בהיקף של מיליוני דולרים לאספקת אחסון אנרגיה לטווח ארוך מבוסס אבץ לתשתיות הגנה בארה\"ב. הַתחָלַתִי…",
-      "summary_he": "",
-      "body_en": "$EOSE won a multi-million-dollar Golden Dome defense contract to supply zinc-based long-duration energy storage for U.S. defense infrastructure. Initial deployment will use Eos’ Z3 system as a prototy",
-      "ticker": "$EOSE",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077500231621673062#m",
-      "tag": "ENERGY",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-15T21:07:07+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1019,54 +1131,12 @@
       "tag": "EARNINGS",
       "article_url": "https://www.cnbc.com/video/2026/07/15/dan-ives-q2-earnings-will-be-the-driver-for-mega-cap-stocks.html",
       "tweet_image": "https://nitter.net/pic/media%2FHNTCnslW0AAM3kb.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-15T21:03:33+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R ל-@StockSavvyShay: התזמון כמובן יכול היה להיות הרבה יותר טוב עם $ASTS כעת ירד כמעט 50% מלפני כמה חודשים בלבד, אבל אני משקיע עם 3+ שנים...",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: The timing obviously could have been much better with $ASTS now down nearly 50% from just a few months ago but I invest with a 3+ year horizon so short-term timing issues do not ",
-      "ticker": "$ASTS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077494030536200467#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-15T20:42:29+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$ASTS הנפיקה 3.5 מיליארד דולר של שטרות הניתנים להמרה במהלך השנה האחרונה ומוסדות ממשיכים להופיע בגלל צבר ההזמנות שלה ו-60 רשתות סלולריות...",
-      "summary_he": "",
-      "body_en": "$ASTS has issued ~$3.5B of convertible notes over the past year and institutions keep showing up because its contracted backlog and 60 mobile network partnerships cover more than 3B subscribers. That ",
-      "ticker": "$ASTS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077493081142915503#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNS87pxaIAAD0GP.jpg",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-15T20:38:43+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "נגיד בנק אנגליה, אנדרו ביילי, מזהיר כי הנשורת של בועת בינה מלאכותית שמתפוצצת תגיע לכלכלת בריטניה ועלולה לעורר תגובה בעניין...",
-      "summary_he": "",
-      "body_en": "Bank of England Governor Andrew Bailey warns that the fallout from an AI bubble bursting would reach the UK economy and could prompt a response in interest rates",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077491139532497073#m",
-      "tag": "FED",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-15T20:31:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מדד Mag 7 $MAGS עלה היום ב-2.3% לעומת ירידה של 0.4% במניה הממוצעת ב-S&P 500. עוד יום שבו המחיר והרוחב הלכו בכיוונים מנוגדים.…",
+      "title_he": "Mag 7 $MAGS עלה היום ב-2.3% לעומת ירידה של 0.4% במניה הממוצעת ב-S&P 500. עוד יום שבו המחיר והרוחב הלכו בכיוונים מנוגדים.…",
       "summary_he": "",
       "body_en": "The Mag 7 $MAGS gained 2.3% today versus a drop of 0.4% for the average stock in the S&P 500. Another day where price and breadth went in opposite directions. The norm for 2026.",
       "ticker": "$MAGS",
@@ -1075,37 +1145,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-15T20:25:45+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "JABIL $JBL אישרה תוכנית חדשה לרכישה חוזרת של מניות בסך 1.5 מיליארד דולר.",
-      "summary_he": "",
-      "body_en": "JABIL $JBL AUTHORIZED A NEW $1.5B SHARE REPURCHASE PROGRAM.",
-      "ticker": "$JBL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077486599571648727#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-15T20:12:57+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "J.B. HUNT $JBHT Q2'26 שירי רווחים 🔹 הכנסות: $3.50B (הערכה. $3.17B) ; +19% YoY 🔹 EPS: $1.91 (הערכה. $1.71) ; +45% משנה לשנה 🔹 הכנסה בין-מודאלית: $1.75B (הערכה...",
-      "summary_he": "",
-      "body_en": "J.B. HUNT $JBHT Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $3.50B (Est. $3.17B) 🟢; +19% YoY 🔹 EPS: $1.91 (Est. $1.71) 🟢; +45% YoY 🔹 Intermodal Revenue: $1.75B (Est. $1.49B) 🟢; +22% YoY FY26 Guide: 🔹 Annual ",
-      "ticker": "$JBHT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077486211053350995#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-15T20:11:25+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "רווחי הבנק... נקיון @CNBC",
@@ -1117,7 +1159,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSx7L6W4AEs_WX.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-15T19:50:37+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1173,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSxA3SWQAAQ3bb.png",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-15T19:46:34+00:00",
       "sentiment": "neutral"
     },
@@ -1145,7 +1187,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSw1HaW4AABOE-.png",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-15T19:45:46+00:00",
       "sentiment": "neutral"
     },
@@ -1159,7 +1201,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSqhoLWAAAnYP9.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-15T19:18:13+00:00",
       "sentiment": "neutral"
     },
@@ -1173,7 +1215,7 @@
       "tag": "NEWS",
       "article_url": "https://open.substack.com/pub/bespokeinvest/p/financials-now-overbought-22-for?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
       "tweet_image": "",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-15T17:36:30+00:00",
       "sentiment": "neutral"
     },
@@ -1187,7 +1229,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNP33IvbYAAUHtx.jpg",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-15T16:15:59+00:00",
       "sentiment": "bearish"
     },
@@ -1201,22 +1243,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 6ש׳",
-      "published_at": "2026-07-15T16:08:32+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: מצפה לדון בהשקת הבנק החדשה שלי ובמניות הטכנולוגיה ב-@CNBCClosingBell בשעה 15:20 עם @TheJudgeCNBC @CNBC 🏆📺🐂🔥👇",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: Look forward to discussing my new bank launch and tech stocks on @CNBCClosingBell at 3:20 pm with @TheJudgeCNBC @CNBC 🏆📺🐂🔥👇",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/DivesTech/status/2077411107166154870#m",
-      "tag": "NEWS",
-      "article_url": "https://www.prnewswire.com/news-releases/dan-ives-and-yorkville-securities-form-yorkville-ives-a-reimagined-modern-merchant-bank-302825821.html?tc=eml_cleartime",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2077370222160306177%2Fm1hxY6yk%3Fformat%3Djpg%26name%3D800x419",
       "relative_time": "לפני 7ש׳",
-      "published_at": "2026-07-15T15:12:59+00:00",
+      "published_at": "2026-07-15T16:08:32+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1229,22 +1257,8 @@
       "tag": "NEWS",
       "article_url": "https://www.carsongroup.com/insights/blog/our-favorite-charts-from-the-first-half-of-2026/",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077381851195244544%2FdU4ez_Qn%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-15T13:17:15+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "PPI כנראה מסיים את הדיון \"הפד עשוי לעלות ביולי\". מצאנו שזה קצת מגוחך שזה אפילו נחשב ואנחנו נשארים במחנה שהפד נמצא בהפסקה...",
-      "summary_he": "",
-      "body_en": "PPI likely ends the \"Fed might hike in July\" talk. We found it somewhat ridiculous it even was considered and we remain in the camp the Fed is on pause the rest of 2026.",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2077381023344574661#m",
-      "tag": "FED",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 9ש׳",
-      "published_at": "2026-07-15T13:13:26+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1257,7 +1271,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRHl8tWoAEEaqS.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-15T12:05:59+00:00",
       "sentiment": "neutral"
     },
@@ -1271,7 +1285,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNP33IvbYAAUHtx.jpg",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-15T06:31:21+00:00",
       "sentiment": "bullish"
     }
