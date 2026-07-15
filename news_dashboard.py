@@ -1312,6 +1312,72 @@ def build_twitter_card(tweet: dict) -> str:
     )
 
 
+def _news_sort_key(n: dict) -> str:
+    """Sort key: ISO published_at desc; items without a timestamp sink to the bottom."""
+    return n.get("published_at") or "0000"
+
+
+def build_news_feed_tab(us_news: list, il_news: list) -> str:
+    """Tab 1: merged news feed sorted newest-first + Israel secondary section."""
+    feed = sorted(us_news, key=_news_sort_key, reverse=True)
+    feed_cards = "".join(build_us_news_card(n, i + 1) for i, n in enumerate(feed))
+    il_sorted  = sorted(il_news, key=_news_sort_key, reverse=True)
+    il_cards   = "".join(build_il_news_card(n) for n in il_sorted)
+    il_section = (
+        f'<section class="section il-section" id="israel">'
+        f'<div class="section-label">🇮🇱 חדשות ישראל</div>'
+        f'<div class="news-list">{il_cards}</div>'
+        f'</section>'
+    ) if il_cards else ""
+    empty = '<div class="feed-empty">אין חדשות זמינות כרגע — נסה שוב בריצה הבאה</div>'
+    return (
+        f'<section class="section" id="feed">'
+        f'<div class="section-label">📰 פיד חדשות — מהחדש לישן</div>'
+        f'<div class="news-list feed-list">{feed_cards or empty}</div>'
+        f'</section>'
+        + il_section
+    )
+
+
+def build_opportunities_tab(data: dict, ta_cards_html: str = "") -> str:
+    """Tab 2: technical opportunities + macro widgets (calendar, markets, F&G, heatmap)."""
+    sparks  = data.get("sparklines", {})
+    sym_map = {"S&P 500": "^GSPC", "Nasdaq": "^IXIC", "Dow Jones": "^DJI",
+               "Russell 2000": "^RUT", "זהב": "GC=F", "ביטקוין": "BTC-USD"}
+
+    def mkt_card(m):
+        svg = sparkline_svg(sparks.get(sym_map.get(m["name"], ""), []), m.get("direction", "flat"))
+        return build_market_card(m, svg)
+
+    us_cards   = "".join(mkt_card(m) for m in data.get("market_us", []))
+    comm_cards = "".join(mkt_card(m) for m in data.get("commodities", []))
+    il_cards   = "".join(build_market_card(m) for m in data.get("market_il", []))
+    fg_card    = build_fear_greed_card(data.get("fear_greed"))
+    heat       = build_heatmap(data.get("sectors", []))
+    cal        = build_calendar_strip(data.get("events", []))
+
+    ta_section = (
+        f'<section class="section" id="ta">'
+        f'<div class="section-label">🎯 הזדמנויות טכניות</div>'
+        f'{ta_cards_html}'
+        f'</section>'
+    ) if ta_cards_html else ""
+
+    return (
+        ta_section
+        + (f'<div class="section-label">📅 אירועים כלכליים קרובים</div><div class="cal-strip">{cal}</div>' if cal else "")
+        + f'<section class="section" id="us">'
+        + f'<div class="section-label">📈 מדדים אמריקאיים</div>'
+        + f'<div class="mkt-strip">{us_cards}</div>'
+        + f'<div class="mkt-strip" style="margin-top:.75rem">{comm_cards}</div>'
+        + f'</section>'
+        + f'<div class="fg-il-row">{fg_card}'
+        + f'<div style="flex:1"><div class="section-label" style="margin-bottom:.7rem">🏦 שוק ישראלי</div>'
+        + f'<div class="mkt-strip il">{il_cards}</div></div></div>'
+        + (f'<section class="section" id="heatmap"><div class="section-label">🌡 מפת מגזרים — S&P 500</div><div class="heatmap-grid">{heat}</div></section>' if heat else "")
+    )
+
+
 def build_watchlist_card(stock: dict) -> str:
     ticker     = stock.get("ticker", "")
     name       = stock.get("name", ticker)
@@ -1363,26 +1429,9 @@ def build_watchlist_tab(watchlist: list) -> str:
 
 
 def build_html(data: dict) -> str:
-    sparks    = data.get("sparklines", {})
-    sym_map   = {"S&P 500": "^GSPC", "Nasdaq": "^IXIC", "Dow Jones": "^DJI",
-                 "Russell 2000": "^RUT", "זהב": "GC=F", "ביטקוין": "BTC-USD"}
-
-    def mkt_card(m):
-        sym    = sym_map.get(m["name"], "")
-        prices = sparks.get(sym, [])
-        svg    = sparkline_svg(prices, m.get("direction","flat"))
-        return build_market_card(m, svg)
-
-    us_market_cards = "".join(mkt_card(m) for m in data.get("market_us", []))
-    comm_cards      = "".join(mkt_card(m) for m in data.get("commodities", []))
-    il_market_cards = "".join(build_market_card(m) for m in data.get("market_il", []))
-    us_news_cards   = "".join(build_us_news_card(n, i+1) for i, n in enumerate(data.get("us_news", [])))
-    il_news_cards   = "".join(build_il_news_card(n) for n in data.get("israel_news", []))
-    ticker_items    = build_ticker_items(data)
-    fg_card         = build_fear_greed_card(data.get("fear_greed"))
-    heatmap_cells   = build_heatmap(data.get("sectors", []))
-    cal_strip       = build_calendar_strip(data.get("events", []))
-    watchlist_tab   = build_watchlist_tab(data.get("watchlist", []))
+    ticker_items = build_ticker_items(data)
+    news_tab     = build_news_feed_tab(data.get("us_news", []), data.get("israel_news", []))
+    opps_tab     = build_opportunities_tab(data, data.get("ta_cards_html", ""))
 
     return f"""<!DOCTYPE html>
 <html lang="he" dir="rtl">
@@ -1623,6 +1672,11 @@ def build_html(data: dict) -> str:
   /* ── Ticker highlight ── */
   .ticker-hl{{color:#38bdf8;font-weight:800;font-family:'Inter',monospace;font-style:normal}}
 
+  /* ── News feed ── */
+  .feed-empty{{color:var(--muted);text-align:center;padding:2.5rem 1rem;font-size:.9rem;
+    background:var(--card);border:1px dashed var(--border);border-radius:14px}}
+  .il-section{{margin-top:2.6rem;padding-top:1.4rem;border-top:1px solid var(--border)}}
+
   /* ── Tab Navigation ── */
   .tab-nav{{display:flex;gap:.5rem;margin:1.5rem 0 1rem;border-bottom:1px solid var(--border);padding-bottom:0}}
   .tab-btn{{background:none;border:none;padding:.65rem 1.3rem;font-size:.95rem;font-weight:700;
@@ -1676,11 +1730,9 @@ def build_html(data: dict) -> str:
 <!-- Sticky Nav -->
 <nav class="nav">
   <button class="theme-btn" onclick="toggleTheme()" id="themeBtn" title="החלף מצב">🌙</button>
-  <a href="#us">🇺🇸 שוק ההון</a>
+  <a href="#feed" onclick="showTab('news')">📰 חדשות</a>
   <span class="nav-sep">|</span>
-  <a href="#heatmap">🌡 מגזרים</a>
-  <span class="nav-sep">|</span>
-  <a href="#israel">🇮🇱 ישראל</a>
+  <a href="#ta" onclick="showTab('opps')">🎯 הזדמנויות</a>
   <span class="nav-sep">|</span>
   <a href="report.html">דוח מלא</a>
 </nav>
@@ -1705,54 +1757,19 @@ def build_html(data: dict) -> str:
 
   <!-- Tab Navigation -->
   <div class="tab-nav">
-    <button class="tab-btn active" id="tab-wl-btn" onclick="showTab('watchlist')">📊 המניות שלי</button>
-    <button class="tab-btn" id="tab-macro-btn" onclick="showTab('macro')">🌐 מאקרו</button>
+    <button class="tab-btn active" id="tab-news-btn" onclick="showTab('news')">📰 חדשות</button>
+    <button class="tab-btn" id="tab-opps-btn" onclick="showTab('opps')">🎯 הזדמנויות</button>
   </div>
 
-  <!-- ── Watchlist Tab ── -->
-  <div class="tab-pane active" id="tab-watchlist">
-    <div class="section-label">📊 תיק המעקב שלי</div>
-    {watchlist_tab}
+  <!-- ── News Tab ── -->
+  <div class="tab-pane active" id="tab-news">
+    {news_tab}
   </div>
 
-  <!-- ── Macro Tab ── -->
-  <div class="tab-pane" id="tab-macro">
-
-    <!-- Calendar Strip -->
-    {f'<div class="section-label">📅 אירועים כלכליים קרובים</div><div class="cal-strip">{cal_strip}</div>' if cal_strip else ""}
-
-    <!-- US Markets -->
-    <section class="section" id="us">
-      <div class="section-label">📈 מדדים אמריקאיים</div>
-      <div class="mkt-strip">{us_market_cards}</div>
-      <div class="mkt-strip" style="margin-top:.75rem">{comm_cards}</div>
-    </section>
-
-    <!-- Fear & Greed + IL Markets -->
-    <div class="fg-il-row">
-      {fg_card}
-      <div style="flex:1">
-        <div class="section-label" style="margin-bottom:.7rem">🏦 שוק ישראלי</div>
-        <div class="mkt-strip il">{il_market_cards}</div>
-      </div>
-    </div>
-
-    <!-- Sector Heatmap -->
-    {f'<section class="section" id="heatmap"><div class="section-label">🌡 מפת מגזרים — S&P 500</div><div class="heatmap-grid">{heatmap_cells}</div></section>' if heatmap_cells else ""}
-
-    <!-- US News -->
-    <section class="section" id="us-news">
-      <div class="section-label">📰 חדשות וול סטריט</div>
-      <div class="news-list">{us_news_cards}</div>
-    </section>
-
-    <!-- Israel News -->
-    <section class="section" id="israel">
-      <div class="section-label">🇮🇱 חדשות ישראל</div>
-      <div class="news-list">{il_news_cards}</div>
-    </section>
-
-  </div><!-- /tab-macro -->
+  <!-- ── Opportunities Tab ── -->
+  <div class="tab-pane" id="tab-opps">
+    {opps_tab}
+  </div>
 
 </div>
 
@@ -1779,7 +1796,9 @@ def build_html(data: dict) -> str:
   }}
 
   // ── Tab Navigation ──
+  var TABS = ['news', 'opps'];
   function showTab(name) {{
+    if (TABS.indexOf(name) === -1) name = 'news';
     document.querySelectorAll('.tab-pane').forEach(function(p) {{ p.classList.remove('active'); }});
     document.querySelectorAll('.tab-btn').forEach(function(b) {{ b.classList.remove('active'); }});
     document.getElementById('tab-' + name).classList.add('active');
@@ -1787,8 +1806,8 @@ def build_html(data: dict) -> str:
     localStorage.setItem('activeTab', name);
   }}
   (function() {{
-    var t = localStorage.getItem('activeTab') || 'watchlist';
-    if (t !== 'watchlist') showTab(t);
+    var t = localStorage.getItem('activeTab');
+    if (t && t !== 'news' && TABS.indexOf(t) !== -1) showTab(t);
   }})();
 
   // ── PWA Service Worker ──
