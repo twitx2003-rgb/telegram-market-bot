@@ -1636,10 +1636,13 @@ def build_us_news_card(n: dict, idx: int) -> str:
     image     = n.get("image", "")
     rel_time  = n.get("relative_time", "")
 
+    if not rel_time and n.get("published_at"):
+        rel_time = _relative_time(n["published_at"])
     ticker_badge = f'<span class="ticker-badge">{ticker}</span>' if ticker else ""
     en_block     = (f'<blockquote class="news-en" dir="ltr">{body_en[:200]}</blockquote>' if body_en else "")
     read_more    = f'<a href="{link}" target="_blank" class="read-more">מקור ←</a>' if link and link != "#" else ""
     wa           = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
+    time_chip    = f'<span class="feed-time">{rel_time}</span>' if rel_time else ""
     time_span    = f'<span class="card-time">{rel_time}</span>' if rel_time else ""
 
     img_html = ""
@@ -1659,7 +1662,7 @@ def build_us_news_card(n: dict, idx: int) -> str:
         f'<article class="news-card" data-sentiment="{sentiment}">'
         + img_html
         + f'<div class="card-content">'
-        + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{ticker_badge}<span class="sentiment-dot {sentiment}"></span></div>'
+        + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{ticker_badge}{time_chip}<span class="sentiment-dot {sentiment}"></span></div>'
         + f'<h3 class="news-title" dir="rtl">{title_rendered}</h3>'
         + (f'<p class="news-summary" dir="rtl">{summary_rendered}</p>' if summary_rendered else "")
         + en_block
@@ -1831,7 +1834,7 @@ def build_ta_card(op: dict) -> str:
     stale_badge = '<span class="stale-badge">נכון לריצה קודמת</span>' if stale else ""
 
     return (
-        f'<div class="ta-card">'
+        f'<div class="ta-card" style="border-top:3px solid {s_color}">'
         f'<div class="ta-head">'
         f'<span class="ta-ticker" dir="ltr">{ticker}</span>'
         f'<span class="ta-price" dir="ltr">${price:,.2f}</span>'
@@ -1898,6 +1901,23 @@ def build_html(data: dict) -> str:
     news_tab     = build_news_feed_tab(data.get("us_news", []), data.get("israel_news", []))
     ta_grid      = build_ta_grid(data.get("opportunities", []))
     opps_tab     = build_opportunities_tab(data, ta_grid)
+
+    # Hero market-mood chip from Fear & Greed
+    fg = data.get("fear_greed") or {}
+    mood_chip = ""
+    if fg.get("score") is not None:
+        score = fg["score"]
+        mood_color = "var(--red)" if score <= 45 else ("var(--green)" if score >= 55 else "var(--gold)")
+        mood_chip = (f'<span class="mood-chip" style="color:{mood_color};border-color:currentColor">'
+                     f'מצב שוק: {fg.get("rating", "")} <b>{score}</b></span>')
+
+    # Footer engine badge
+    ops = data.get("opportunities", [])
+    engine_badge = ""
+    if ops and ops[0].get("engine") == "rules":
+        engine_badge = ' &nbsp;·&nbsp; מנוע חוקים (מצב חינמי)'
+    elif ops and ops[0].get("engine") == "claude":
+        engine_badge = ' &nbsp;·&nbsp; ניתוח Claude AI'
 
     return f"""<!DOCTYPE html>
 <html lang="he" dir="rtl">
@@ -1990,8 +2010,13 @@ def build_html(data: dict) -> str:
   .hero{{
     background:linear-gradient(160deg,#070b0f 0%,#0c1929 50%,#070b0f 100%);
     border-bottom:1px solid var(--border);
-    padding:2.5rem 2rem 2rem;text-align:center;position:relative;overflow:hidden;
+    padding:1.9rem 2rem 1.5rem;text-align:center;position:relative;overflow:hidden;
   }}
+  .hero-chips{{display:flex;justify-content:center;gap:.6rem;flex-wrap:wrap;margin-top:.9rem}}
+  .mood-chip{{display:inline-flex;align-items:center;gap:.45rem;padding:.35rem 1rem;
+    border-radius:999px;font-size:.78rem;font-weight:700;border:1px solid var(--border);
+    background:var(--card);color:var(--text)}}
+  .mood-chip b{{font-variant-numeric:tabular-nums;font-family:'Inter',sans-serif}}
   body.light .hero{{background:linear-gradient(160deg,#f8fafc 0%,#e0f2fe 50%,#f8fafc 100%)}}
   .hero::before{{content:'';position:absolute;top:-60px;left:50%;transform:translateX(-50%);
     width:600px;height:200px;background:radial-gradient(ellipse,rgba(14,165,233,.12) 0%,transparent 70%);pointer-events:none}}
@@ -1999,7 +2024,7 @@ def build_html(data: dict) -> str:
   .hero h1{{font-family:'Heebo',sans-serif;font-size:clamp(1.8rem,5vw,3rem);font-weight:900;color:var(--white);letter-spacing:-.04em;line-height:1.1}}
   .hero h1 span{{color:var(--accent)}}
   .hero-sub{{color:var(--muted);font-size:.88rem;margin-top:.5rem}}
-  .hero-date{{display:inline-flex;align-items:center;gap:.5rem;margin-top:1rem;
+  .hero-date{{display:inline-flex;align-items:center;gap:.5rem;
     background:rgba(14,165,233,.1);border:1px solid rgba(14,165,233,.3);
     color:var(--accent);padding:.35rem 1.1rem;border-radius:999px;font-size:.8rem;font-weight:600}}
   .pulse{{width:6px;height:6px;background:var(--green);border-radius:50%;animation:pulse 2s infinite}}
@@ -2142,6 +2167,9 @@ def build_html(data: dict) -> str:
   .feed-empty{{color:var(--muted);text-align:center;padding:2.5rem 1rem;font-size:.9rem;
     background:var(--card);border:1px dashed var(--border);border-radius:14px}}
   .il-section{{margin-top:2.6rem;padding-top:1.4rem;border-top:1px solid var(--border)}}
+  .feed-time{{font-size:.68rem;font-weight:600;color:var(--muted);background:var(--surface);
+    border:1px solid var(--border);border-radius:10px;padding:.12rem .55rem;
+    font-variant-numeric:tabular-nums}}
 
   /* ── TA cards ── */
   .ta-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}}
@@ -2149,7 +2177,7 @@ def build_html(data: dict) -> str:
     padding:1rem 1.3rem;transition:border-color .2s,transform .2s}}
   .ta-card:hover{{border-color:var(--accent);transform:translateY(-2px)}}
   .ta-head{{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin-bottom:.5rem}}
-  .ta-ticker{{font-family:'Inter',sans-serif;font-weight:800;font-size:1.05rem;
+  .ta-ticker{{font-family:'Inter',sans-serif;font-weight:800;font-size:1.15rem;
     letter-spacing:.04em;color:var(--white)}}
   .ta-price{{font-family:'Inter',sans-serif;font-weight:700;font-size:.92rem;
     color:var(--text);font-variant-numeric:tabular-nums}}
@@ -2189,15 +2217,20 @@ def build_html(data: dict) -> str:
   .ind-chip.bad{{color:var(--red);background:rgba(244,63,94,.12)}}
   .ta-rationale{{font-size:.8rem;color:var(--text);line-height:1.6;margin:0}}
 
-  /* ── Tab Navigation ── */
-  .tab-nav{{display:flex;gap:.5rem;margin:1.5rem 0 1rem;border-bottom:1px solid var(--border);padding-bottom:0}}
-  .tab-btn{{background:none;border:none;padding:.65rem 1.3rem;font-size:.95rem;font-weight:700;
-    color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;
-    transition:color .2s,border-color .2s;font-family:'Heebo',sans-serif}}
-  .tab-btn.active{{color:var(--accent);border-bottom-color:var(--accent)}}
+  /* ── Tab Navigation — pill segmented control ── */
+  .tab-nav{{display:flex;gap:.35rem;margin:1.4rem auto 1.6rem;padding:.3rem;
+    background:var(--card);border:1px solid var(--border);border-radius:999px;
+    width:fit-content;max-width:100%}}
+  .tab-btn{{background:none;border:none;padding:.55rem 1.6rem;font-size:.95rem;font-weight:800;
+    color:var(--muted);cursor:pointer;border-radius:999px;
+    transition:color .2s,background .2s;font-family:'Heebo',sans-serif}}
+  .tab-btn.active{{color:var(--white);background:rgba(6,182,212,.16);
+    box-shadow:inset 0 0 0 1px rgba(6,182,212,.4)}}
   .tab-btn:hover:not(.active){{color:var(--white)}}
   .tab-pane{{display:none}}
-  .tab-pane.active{{display:block}}
+  .tab-pane.active{{display:block;animation:fadein .25s ease}}
+  @keyframes fadein{{from{{opacity:0;transform:translateY(4px)}}to{{opacity:1;transform:none}}}}
+  body.light .tab-btn.active{{background:rgba(2,132,199,.12);box-shadow:inset 0 0 0 1px rgba(2,132,199,.4)}}
 
   /* ── Footer ── */
   footer{{text-align:center;padding:2rem;font-size:.72rem;color:var(--muted);border-top:1px solid var(--border)}}
@@ -2238,9 +2271,12 @@ def build_html(data: dict) -> str:
   <div class="hero-label">לוח שוק אישי</div>
   <h1>חדשות <span>&</span> הזדמנויות</h1>
   <div class="hero-sub">פיד חדשות חי · ניתוח טכני · וול סטריט וישראל</div>
-  <div class="hero-date">
-    <span class="pulse"></span>
-    {TODAY_HE} &nbsp;|&nbsp; עודכן {TIME}
+  <div class="hero-chips">
+    <div class="hero-date">
+      <span class="pulse"></span>
+      {TODAY_HE} &nbsp;|&nbsp; עודכן {TIME}
+    </div>
+    {mood_chip}
   </div>
 </div>
 
@@ -2265,7 +2301,7 @@ def build_html(data: dict) -> str:
 </div>
 
 <footer>
-  נוצר ב-{TODAY} בשעה {TIME} &nbsp;·&nbsp;
+  נוצר ב-{TODAY} בשעה {TIME}{engine_badge} &nbsp;·&nbsp;
   <a href="report.html">דוח שוק ההון המלא</a> &nbsp;·&nbsp;
   אינו מהווה ייעוץ השקעות
 </footer>
@@ -2304,6 +2340,13 @@ def build_html(data: dict) -> str:
   // ── PWA Service Worker ──
   if ('serviceWorker' in navigator) {{
     navigator.serviceWorker.register('sw.js').catch(function() {{}});
+    // One-time reload when a new SW takes control (so deploys show up immediately)
+    var reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', function() {{
+      if (reloaded) return;
+      reloaded = true;
+      location.reload();
+    }});
   }}
 </script>
 </body>
