@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T23:59:37.592435+00:00",
+  "generated_at": "2026-07-15T03:21:08.183270+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -132,7 +132,7 @@
       "change": "+0.39%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.3927208569324477
+      "pct_raw": 0.3925950757999049
     },
     {
       "name": "VIX",
@@ -146,27 +146,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,058.5",
-      "change": "-0.28%",
+      "value": "$4,042.6",
+      "change": "-0.67%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.2752045605327129
+      "pct_raw": -0.6658967491461265
     },
     {
       "name": "נפט ברנט",
-      "value": "$85.3",
-      "change": "+0.67%",
+      "value": "$85.8",
+      "change": "+1.29%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.6727251268735904
+      "pct_raw": 1.2864392777056404
     },
     {
       "name": "ביטקוין",
-      "value": "$64,960",
-      "change": "+4.34%",
-      "direction": "up",
+      "value": "$64,569",
+      "change": "-0.62%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 4.337289484792267
+      "pct_raw": -0.6246025956481537
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -188,11 +188,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.008",
-      "change": "+0.07%",
-      "direction": "up",
+      "value": "2.995",
+      "change": "-0.35%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.07319669949428408
+      "pct_raw": -0.3460207612456662
     }
   ],
   "sectors": [
@@ -286,49 +286,73 @@
     }
   ],
   "fear_greed": {
-    "score": 22,
+    "score": 25,
     "rating": "פחד קיצוני",
     "rating_en": "extreme fear"
   },
   "us_news": [
     {
-      "title_he": "ה-SEMICAP הגדול הראשון, $ASML, מדווח מחר. ICYMI, בניתי לוח רווחים כדי לעקוב אחר החברות שאהיה cov",
+      "title_he": "R ל-@unusual_whales: היו\"ר בן ה-95 של ברקשייר האת'ווי אמר שמטרתו היא להיפטר מכל שאר ברקשייר שלו",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077226143325778202#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/buffett-exit-berkshire-stake-2034",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2077178110022488064%2FyBW8Baqo%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 22ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סין 🇨🇳 התמ\"ג ברבעון השני צמח ב-4.3% בשנה שעברה, מתחת ל-4.5% משוער וירידה מ-5.0% ברבעון הראשון, מסמן את הקצב החלש ביותר מאז 2022. יוני רטאי",
       "summary_he": "",
       "ticker": "",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077172411305443508#m",
+      "link": "https://nitter.net/wallstengine/status/2077214806063620102#m",
       "tag": "NEWS",
-      "article_url": "http://earnings.wallstengine.com",
-      "tweet_image": "https://nitter.net/pic/media%2FHNOYgoSbgAA_77t.jpg",
-      "relative_time": "לפני 34ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: \"אנו מאמינים שמומנטום ההכנסות הנוכחי צריך להישאר בר-קיימא גם אם מחירי הדלק מתונים\",",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077165745193287897#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/delta-ceo-fares-stay-high-fuel-falls",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2076787773059874816%2FVerDwUeq%3Fformat%3Djpg%26name%3D800x419",
+      "article_url": "",
+      "tweet_image": "",
       "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R ל-@unusual_whales: לפי Fortune, חלקם של האמריקאים המובטלים שהם מצטרפים חדשים לכוח עבודה הגיע לשיא ל-1",
+      "title_he": "$MU פשוט נשבר מעל $1,000",
       "summary_he": "",
       "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077158950932213883#m",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077196075249942881#m",
       "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/entry-level-job-market-37-year-low-13-3-percent",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2076787378275184640%2F7qc63YqD%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNOu0qJb0AAsNj0.jpg",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "השוק מצפה כעת להפחתת ריבית אחת בשנת 2026 לאחר הדפסת מדד המחירים לצרכן היום בקלשי לפני שוק ההדפסה לצרכן הצפוי בלבד",
+      "title_he": "CoreWeave $CRWV בוחנת גידור פיננסי נגד ירידה עתידית במחירי הזיכרון ושבבי האחסון. רויטרס אומר לשים",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077194360429654512#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNOtQbVbwAAmvSj.jpg",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Neros זכה בחוזה צבאי בשווי של עד 500 מיליון דולר לאספקת מל\"טים בעלות נמוכה מגוף ראשון, לפי WSJ. הסטארט-אפ בונה את בריטניה",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077180326762463378#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNOgfbvbYAAew4_.png",
+      "relative_time": "לפני 3ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "השוק מצפה כעת להפחתת ריבית אחת בשנת 2026 לאחר הדפסת מדד המחירים לצרכן היום בקלשי לפני שוק ההדפסה למדד המחירים לצפוי בלבד",
       "summary_he": "",
       "ticker": "",
       "source": "@gurgavin",
@@ -336,7 +360,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNOLFBRXsAAcnD8.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -348,7 +372,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNl8JdWwAAd8bD.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -360,31 +384,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNOJXK9XIAEYft0.jpg",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: מנכ\"ל XBOX, אשה שארמה, ציטט את הבריאות הפיננסית של החברה עבור הפיטורים. קרא עוד: https://unus",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077150645895807234#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/microsoft-layoffs-xbox-h1b-backlash",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2076786873553629184%2FqTvXBq1V%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$AEHR הוא מיקום חמישייה עבורי מאז 10 $ כי ראיתי אותו מתפתח מציוד סיליקון קרביד מתקשה",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077147720201146629#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNOCPHmbgAAm0cm.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -396,7 +396,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNMQz-6WgAAu5rv.png",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -408,11 +408,11 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNMQw5XW4AAm_MA.png",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אתמול אמר ג'ים קרימר לצופים שלו לקנות היום מניות IBM בדולר צנחו ב-25% הירידה הגדולה ביותר ביום אחד בחברה",
+      "title_he": "אתמול אמר ג'ים קרימר לצופים שלו לקנות היום מניות IBM בדולרים נפלו ב-25% הירידה הגדולה ביותר ביום אחד בחברה",
       "summary_he": "",
       "ticker": "",
       "source": "@gurgavin",
@@ -420,7 +420,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNN9RoRWAAAFIaj.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -432,43 +432,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "SHMD $ העלה את הנחיית כניסת ההזמנות לשנת 2026 ל-125-150 מיליון אירו, עלייה מכ-114 מיליון אירו, לאחר מומנטום הזמנות חזק יותר. הזמנה ברבעון 2 אינט",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077130251797418380#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: $AEHR חזר להיות כמות גדולה של עשרה נרשמים 🙃",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077128404755980427#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNNwzk8bcAAxQ9K.png",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מערכות הבדיקה של $AEHR ראות לפני 27 $130 מיליון עד $150 מיליון לעומת $85 מיליון EST.",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077127289931018419#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNNwQIsaUAApUF0.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -480,19 +444,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNuR35XEAE-GoZ.jpg",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$AEHR קיבלה הזמנות חדשות של 8 מיליון דולר ברמת פרוסות סיליקון קרביד כאשר תוכניות EV מתגברות. ההזמנות כוללות Wa המשך",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077124055887745364#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNNtQ27aAAAqosA.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -504,7 +456,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNs1fWXEAA_9Es.png",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -516,19 +468,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNr2JBXoAIK27B.png",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$GS הזוכה בבנק הגדול היום. דוח $MS $BNY מחר. @CNBC",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2077116939399303613#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNNm2TLXQAAJAq6.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -540,7 +480,7 @@
       "tag": "NEWS",
       "article_url": "http://eletric-vehicles.com",
       "tweet_image": "https://nitter.net/pic/card_img%2F2075799923363389440%2FcOpZgRYa%3Fformat%3Dpng%26name%3D600x314",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -552,11 +492,11 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R אל @garyblack00: $LCID",
+      "title_he": "R ל-@garyblack00: $LCID",
       "summary_he": "",
       "ticker": "",
       "source": "@garyblack00",
@@ -564,7 +504,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNOHcLXIAA98wJ.jpg",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -576,7 +516,19 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNNI-1sXsAAw20Y.jpg",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @wallstengine: SK HYNIX ADR $SKHY נסחרת כעת בכמעט 50% פרמיה למניות קוריאניות",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077083151164457012#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -588,7 +540,19 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077068401051373570%2Fimg%2FdKQLkPJkUCuh1DB8.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @StockSavvyShay: Chamath אומר למנכ\"ל $PLTR אלכס קארפ \"מגיעה מדליה\" על היותו \"בצד הנכון של ההיסטוריה\"",
+      "summary_he": "",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077059772113944693#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077059659173855232%2Fimg%2FEwsETD8PCr8fUXYy.jpg",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -600,11 +564,11 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077018645918863360%2Fimg%2FvMVd7vO0rTGcpiGP.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מדד המחירים לצרכן בארה\"ב ביוני הגיע חלש בהרבה מהצפוי ביוני, כולל הירידה של החודש הראשון מזה שש שנים, טאקי",
+      "title_he": "יוני מדד המחירים לצרכן בארה\"ב חלש בהרבה מהצפוי ביוני, כולל הירידה של החודש הראשון מזה שש שנים, טאקי",
       "summary_he": "",
       "ticker": "",
       "source": "@garyblack00",
@@ -612,7 +576,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNMGNcyWYAAtx-H.jpg",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -624,11 +588,11 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNLwRToXkAARrIn.jpg",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @DivesTech: מנכ\"ל $JPM ג'יימי דימון: \"הכלכלה האמריקאית הפגינה חוסן ניכר השנה... להיות תמיכה",
+      "title_he": "RT מאת @DivesTech: מנכ\"ל $JPM, ג'יימי דימון: \"הכלכלה האמריקאית הפגינה חוסן ניכר השנה... להיות תמיכה",
       "summary_he": "",
       "ticker": "",
       "source": "@DivesTech",
@@ -636,19 +600,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNLvAV9bwAAFBVx.png",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$MSFT ארוך",
-      "summary_he": "",
-      "ticker": "",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2076834767769612460#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNHEadFa0AAXYAk.png",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     }
   ],
