@@ -1,0 +1,68 @@
+{
+ "entries": [
+  {
+   "ticker": "AAPL",
+   "rec_date": "2026-07-15",
+   "price_at_rec": 327.8,
+   "confidence": 4,
+   "engine": "rules",
+   "last_pnl": 0.0
+  },
+  {
+   "ticker": "NVDA",
+   "rec_date": "2026-07-15",
+   "price_at_rec": 211.21,
+   "confidence": 4,
+   "engine": "rules",
+   "last_pnl": 0.0
+  },
+  {
+   "ticker": "META",
+   "rec_date": "2026-07-15",
+   "price_at_rec": 677.74,
+   "confidence": 4,
+   "engine": "rules",
+   "last_pnl": 0.0
+  },
+  {
+   "ticker": "JPM",
+   "rec_date": "2026-07-15",
+   "price_at_rec": 346.66,
+   "confidence": 4,
+   "engine": "rules",
+   "last_pnl": 0.0
+  },
+  {
+   "ticker": "MSFT",
+   "rec_date": "2026-07-15",
+   "price_at_rec": 395.8,
+   "confidence": 3,
+   "engine": "rules",
+   "last_pnl": 0.0
+  },
+  {
+   "ticker": "GOOGL",
+   "rec_date": "2026-07-15",
+   "price_at_rec": 370.76,
+   "confidence": 3,
+   "engine": "rules",
+   "last_pnl": 0.0
+  },
+  {
+   "ticker": "AMZN",
+   "rec_date": "2026-07-15",
+   "price_at_rec": 254.7,
+   "confidence": 3,
+   "engine": "rules",
+   "last_pnl": 0.0
+  },
+  {
+   "ticker": "AMD",
+   "rec_date": "2026-07-15",
+   "price_at_rec": 527.39,
+   "confidence": 3,
+   "engine": "rules",
+   "last_pnl": 0.0
+  }
+ ]
+}
