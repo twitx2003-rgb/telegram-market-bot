@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '*/30 * * * *'   # כל 30 דקות
   workflow_dispatch:        # אפשרות להרצה ידנית
+  push:                     # ריצה אוטומטית כשהקוד משתנה
+    branches: [master]
+    paths:
+      - 'news_dashboard.py'
+      - 'watchlist.json'
+      - '.github/workflows/hourly_dashboard.yml'
 
 permissions:
   contents: write
