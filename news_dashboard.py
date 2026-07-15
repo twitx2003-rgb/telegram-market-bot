@@ -47,12 +47,14 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 if os.environ.get("GITHUB_ACTIONS"):
     OUTPUT_PATH      = Path("docs/index.html")
     DATA_PATH        = Path("docs/data.json")
+    TRACK_PATH       = Path("docs/track_record.json")
     MODEL            = os.environ.get("DASHBOARD_MODEL",    "claude-haiku-4-5-20251001")
     ENRICHMENT_MODEL = os.environ.get("ENRICHMENT_MODEL",   "claude-sonnet-4-6")
 else:
     IDOP_DIR         = Path("C:/Users/idoph/OneDrive/IDOP")
     OUTPUT_PATH      = IDOP_DIR / "reports/docs/index.html"
     DATA_PATH        = IDOP_DIR / "reports/docs/data.json"
+    TRACK_PATH       = IDOP_DIR / "reports/docs/track_record.json"
     MODEL            = os.environ.get("DASHBOARD_MODEL",    "claude-opus-4-6")
     ENRICHMENT_MODEL = os.environ.get("ENRICHMENT_MODEL",   "claude-opus-4-6")
 
@@ -939,6 +941,8 @@ def compute_indicators(ticker: str, hist: dict, quote_price: float = None) -> di
     high_52w, low_52w = max(highs), min(lows)
     vol_10d = sum(vols[-10:]) / 10 if len(vols) >= 10 else 0
     vol_3m  = sum(vols[-63:]) / min(63, len(vols)) if vols else 0
+    spark_src = closes[-63:]
+    spark_3m  = [round(c, 2) for c in spark_src[::3]][-21:]
     return {
         "ticker":            ticker,
         "price":             round(price, 2),
@@ -952,8 +956,10 @@ def compute_indicators(ticker: str, hist: dict, quote_price: float = None) -> di
         "low_52w":           round(low_52w, 2),
         "pct_from_52w_high": round((price - high_52w) / high_52w * 100, 1) if high_52w else 0,
         "vol_ratio":         round(vol_10d / vol_3m, 2) if vol_3m else 1.0,
+        "change_1d_pct":     round((closes[-1] - closes[-2])  / closes[-2]  * 100, 2) if len(closes) > 1  else 0,
         "change_1w_pct":     round((closes[-1] - closes[-6])  / closes[-6]  * 100, 1) if len(closes) > 6  else 0,
         "change_1m_pct":     round((closes[-1] - closes[-22]) / closes[-22] * 100, 1) if len(closes) > 22 else 0,
+        "spark_3m":          spark_3m,
     }
 
 
@@ -1063,8 +1069,10 @@ def merge_ta_results(claude_ops: list, indicators: dict) -> list:
                 "sma200":            ind["sma200"],
                 "pct_from_52w_high": ind["pct_from_52w_high"],
                 "vol_ratio":         ind["vol_ratio"],
+                "change_1d_pct":     ind.get("change_1d_pct", 0),
                 "change_1w_pct":     ind["change_1w_pct"],
                 "change_1m_pct":     ind["change_1m_pct"],
+                "spark_3m":          ind.get("spark_3m", []),
             },
             "analyzed":       cop is not None,
             "stale":          False,
@@ -1186,6 +1194,100 @@ def run_rule_based_ta(indicators: dict) -> list:
     for op in merged:
         op["engine"] = "rules"
     return merged
+
+
+# ── Recommendation Track Record ────────────────────────────────────────────────
+
+TRACK_CLOSE_DAYS = 14   # a buy rec's PnL is frozen after this many days
+TRACK_MAX_ENTRIES = 200
+
+
+def update_track_record(opportunities: list, today_str: str = None) -> dict:
+    """Log new buy recommendations, evaluate open ones against current prices,
+    freeze PnL after TRACK_CLOSE_DAYS. Returns a summary dict for display/data.json."""
+    today = today_str or date.today().isoformat()
+    try:
+        record = json.loads(TRACK_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        record = {"entries": []}
+    entries = record.get("entries", [])
+
+    price_now = {op["ticker"]: op.get("price") for op in opportunities if op.get("price")}
+
+    # 1. Log new buy recs (one per ticker per day)
+    logged_keys = {(e["ticker"], e["rec_date"]) for e in entries}
+    open_tickers = {e["ticker"] for e in entries if "closed_pnl" not in e}
+    for op in opportunities:
+        if op.get("recommendation") != "קנייה" or op.get("stale"):
+            continue
+        t = op["ticker"]
+        if (t, today) in logged_keys or t in open_tickers:
+            continue
+        entries.append({
+            "ticker":       t,
+            "rec_date":     today,
+            "price_at_rec": op.get("price"),
+            "confidence":   op.get("confidence", 0),
+            "engine":       op.get("engine", "rules"),
+        })
+
+    # 2. Evaluate open entries; freeze after TRACK_CLOSE_DAYS
+    for e in entries:
+        if "closed_pnl" in e:
+            continue
+        p_now = price_now.get(e["ticker"])
+        if p_now and e.get("price_at_rec"):
+            e["last_pnl"] = round((p_now - e["price_at_rec"]) / e["price_at_rec"] * 100, 2)
+        try:
+            age = (date.fromisoformat(today) - date.fromisoformat(e["rec_date"])).days
+        except ValueError:
+            age = 0
+        if age >= TRACK_CLOSE_DAYS and "last_pnl" in e:
+            e["closed_pnl"]  = e["last_pnl"]
+            e["closed_date"] = today
+
+    entries = entries[-TRACK_MAX_ENTRIES:]
+    record["entries"] = entries
+    try:
+        TRACK_PATH.parent.mkdir(parents=True, exist_ok=True)
+        TRACK_PATH.write_text(json.dumps(record, ensure_ascii=False, indent=1), encoding="utf-8")
+    except Exception as e:
+        print(f"  ✗ track_record: {e}")
+
+    closed = [e for e in entries if "closed_pnl" in e]
+    wins   = [e for e in closed if e["closed_pnl"] > 0]
+    open_e = [e for e in entries if "closed_pnl" not in e]
+    summary = {
+        "closed":   len(closed),
+        "wins":     len(wins),
+        "hit_rate": round(len(wins) / len(closed) * 100) if closed else 0,
+        "avg_pnl":  round(sum(e["closed_pnl"] for e in closed) / len(closed), 2) if closed else 0,
+        "open":     len(open_e),
+    }
+    print(f"  ✓ מעקב המלצות: {summary['closed']} סגורות ({summary['hit_rate']}% מוצלחות) · {summary['open']} פתוחות")
+    return summary
+
+
+def build_track_card(summary: dict) -> str:
+    if not summary:
+        return ""
+    if summary.get("closed", 0) < 3:
+        n_open = summary.get("open", 0)
+        if n_open == 0:
+            return ""
+        return (f'<div class="track-card"><span class="track-pending">'
+                f'📊 מעקב ביצועים: {n_open} המלצות קנייה פתוחות — סטטיסטיקה תוצג אחרי 3 המלצות שנסגרו (14 יום)'
+                f'</span></div>')
+    avg = summary["avg_pnl"]
+    avg_css = "up" if avg > 0 else ("down" if avg < 0 else "")
+    return (
+        f'<div class="track-card">'
+        f'<span class="track-stat">📊 ביצועי המלצות:</span>'
+        f'<span class="track-stat"><b>{summary["wins"]}/{summary["closed"]}</b> רווחיות (<b>{summary["hit_rate"]}%</b>)</span>'
+        f'<span class="track-stat">תשואה ממוצעת <b class="{avg_css}" dir="ltr">{avg:+.1f}%</b></span>'
+        f'<span class="track-stat"><b>{summary["open"]}</b> פתוחות</span>'
+        f'</div>'
+    )
 
 
 # ── Finance Relevance Filter ───────────────────────────────────────────────────
@@ -1658,8 +1760,16 @@ def build_us_news_card(n: dict, idx: int) -> str:
     title_rendered   = bold_tickers(n.get("title_he", ""))
     summary_rendered = bold_tickers(n.get("summary_he", "")) if n.get("summary_he") else ""
 
+    ts_epoch = ""
+    if n.get("published_at"):
+        try:
+            dt = datetime.fromisoformat(n["published_at"])
+            ts_epoch = str(int(dt.timestamp()))
+        except ValueError:
+            pass
+
     return (
-        f'<article class="news-card" data-sentiment="{sentiment}">'
+        f'<article class="news-card" data-sentiment="{sentiment}" data-tag="{tag}" data-ts="{ts_epoch}">'
         + img_html
         + f'<div class="card-content">'
         + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{ticker_badge}{time_chip}<span class="sentiment-dot {sentiment}"></span></div>'
@@ -1719,15 +1829,113 @@ def build_twitter_card(tweet: dict) -> str:
     )
 
 
+def load_previous_data() -> dict:
+    """Read the previous run's data.json (before this run overwrites it)."""
+    try:
+        return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def build_morning_brief(data: dict) -> str:
+    """Rule-generated TL;DR card — 3-5 Hebrew bullets from data already fetched."""
+    bullets = []
+
+    # Indices line
+    idx_parts = []
+    for m in data.get("market_us", []):
+        if m.get("name") in ("S&P 500", "Nasdaq", "Dow Jones") and m.get("change") not in ("—", ""):
+            arrow = _arrow(m.get("direction", "flat"))
+            idx_parts.append(f'{m["name"]} <b dir="ltr">{arrow}{m["change"]}</b>')
+    if idx_parts:
+        bullets.append("מדדים: " + " · ".join(idx_parts))
+
+    # Biggest daily mover from the TA universe
+    ops = data.get("opportunities", [])
+    movers = [(o["ticker"], o.get("indicators", {}).get("change_1d_pct") or 0) for o in ops]
+    movers = [m for m in movers if abs(m[1]) >= 0.5]
+    if movers:
+        t, chg = max(movers, key=lambda m: abs(m[1]))
+        direction = "מזנקת" if chg > 0 else "יורדת"
+        bullets.append(f'המניה הבולטת: <b dir="ltr">{t}</b> {direction} <b dir="ltr">{chg:+.1f}%</b> היום')
+
+    # Fear & Greed with delta vs previous run
+    fg = data.get("fear_greed") or {}
+    if fg.get("score") is not None:
+        line = f'מדד פחד וחמדנות: <b>{fg["score"]}</b> ({fg.get("rating", "")})'
+        prev_fg = (data.get("prev_fear_greed") or {}).get("score")
+        if prev_fg is not None and prev_fg != fg["score"]:
+            delta = fg["score"] - prev_fg
+            line += f' — {"עלייה" if delta > 0 else "ירידה"} של {abs(delta)} מהריצה הקודמת'
+        bullets.append(line)
+
+    # Today's economic events
+    today_events = [e for e in data.get("events", []) if e.get("days_left") == 0]
+    if today_events:
+        names = " · ".join(e["name"] for e in today_events[:3])
+        bullets.append(f'📌 היום בלוח: {names}')
+
+    # Active buy recommendations
+    buys = sum(1 for o in ops if o.get("recommendation") == "קנייה")
+    if buys:
+        bullets.append(f'{buys} המלצות קנייה פעילות בטאב ההזדמנויות')
+
+    if not bullets:
+        return ""
+    items = "".join(f'<li>{b}</li>' for b in bullets)
+    return (
+        f'<div class="brief-card">'
+        f'<div class="brief-title">☀️ תמונת מצב — {TODAY_HE}, {TIME}</div>'
+        f'<ul class="brief-list">{items}</ul>'
+        f'</div>'
+    )
+
+
+def build_movers_strip(opportunities: list) -> str:
+    """Top 3 gainers + top 3 losers by daily change across the TA universe."""
+    rows = [(o["ticker"], o.get("indicators", {}).get("change_1d_pct") or 0) for o in opportunities]
+    rows = [r for r in rows if r[1] != 0]
+    if len(rows) < 3:
+        return ""
+    rows.sort(key=lambda r: r[1], reverse=True)
+    gainers, losers = rows[:3], [r for r in rows[-3:] if r[1] < 0]
+    pills = []
+    for t, chg in gainers + losers[::-1]:
+        css = "up" if chg > 0 else "down"
+        pills.append(f'<span class="mover-pill {css}" dir="ltr">{t} {chg:+.1f}%</span>')
+    return (
+        f'<div class="movers-strip">'
+        f'<span class="movers-label">מובילי היום</span>'
+        + "".join(pills)
+        + f'</div>'
+    )
+
+
 def _news_sort_key(n: dict) -> str:
     """Sort key: ISO published_at desc; items without a timestamp sink to the bottom."""
     return n.get("published_at") or "0000"
 
 
-def build_news_feed_tab(us_news: list, il_news: list) -> str:
-    """Tab 1: merged news feed sorted newest-first + Israel secondary section."""
+def build_news_feed_tab(data: dict) -> str:
+    """Tab 1: morning brief + movers + merged news feed sorted newest-first + Israel section."""
+    us_news = data.get("us_news", [])
+    il_news = data.get("israel_news", [])
+    brief   = build_morning_brief(data)
+    movers  = build_movers_strip(data.get("opportunities", []))
+
     feed = sorted(us_news, key=_news_sort_key, reverse=True)
     feed_cards = "".join(build_us_news_card(n, i + 1) for i, n in enumerate(feed))
+
+    # Tag filter chips from tags actually present
+    tags = sorted({n.get("tag", "NEWS") for n in feed if n.get("tag")})
+    chips = ""
+    if len(tags) > 1:
+        chip_items = '<button class="filter-chip active" onclick="filterFeed(\'*\',this)">הכל</button>'
+        chip_items += "".join(
+            f'<button class="filter-chip" onclick="filterFeed(\'{t}\',this)">{t}</button>' for t in tags
+        )
+        chips = f'<div class="filter-chips">{chip_items}</div>'
+
     il_sorted  = sorted(il_news, key=_news_sort_key, reverse=True)
     il_cards   = "".join(build_il_news_card(n) for n in il_sorted)
     il_section = (
@@ -1738,10 +1946,13 @@ def build_news_feed_tab(us_news: list, il_news: list) -> str:
     ) if il_cards else ""
     empty = '<div class="feed-empty">אין חדשות זמינות כרגע — נסה שוב בריצה הבאה</div>'
     return (
-        f'<section class="section" id="feed">'
-        f'<div class="section-label">📰 פיד חדשות — מהחדש לישן</div>'
-        f'<div class="news-list feed-list">{feed_cards or empty}</div>'
-        f'</section>'
+        brief
+        + movers
+        + f'<section class="section" id="feed">'
+        + f'<div class="section-label">📰 פיד חדשות — מהחדש לישן</div>'
+        + chips
+        + f'<div class="news-list feed-list" id="feedList">{feed_cards or empty}</div>'
+        + f'</section>'
         + il_section
     )
 
@@ -1822,6 +2033,14 @@ def build_ta_card(op: dict) -> str:
     levels_bar = build_levels_bar(lv.get("support"), price, lv.get("resistance"),
                                   lv.get("entry"), lv.get("stop"))
 
+    spark = ind.get("spark_3m", [])
+    spark_html = ""
+    if len(spark) >= 5:
+        m1 = ind.get("change_1m_pct") or 0
+        svg = sparkline_svg(spark, "up" if m1 >= 0 else "down")
+        spark_html = (f'<div class="ta-spark" dir="ltr">{svg}'
+                      f'<span class="ta-spark-label">3 חודשים {m1:+.1f}%</span></div>')
+
     entry_stop = ""
     if lv.get("entry") or lv.get("stop"):
         parts = []
@@ -1841,7 +2060,7 @@ def build_ta_card(op: dict) -> str:
         f'<span class="ta-setup-badge" style="color:{s_color};background:{s_bg}">{setup}</span>'
         f'<span class="ta-rec {rec_cls}">{rec}</span>'
         f'</div>'
-        f'<div class="ta-conf-row"><span class="conf-label">ביטחון</span><span class="confidence-dots">{dots}</span>{stale_badge}</div>'
+        f'<div class="ta-conf-row"><span class="conf-label">ביטחון</span><span class="confidence-dots">{dots}</span>{spark_html}{stale_badge}</div>'
         f'{levels_bar}'
         f'{entry_stop}'
         f'<div class="ind-chips">{chips}</div>'
@@ -1874,9 +2093,11 @@ def build_opportunities_tab(data: dict, ta_cards_html: str = "") -> str:
     heat       = build_heatmap(data.get("sectors", []))
     cal        = build_calendar_strip(data.get("events", []))
 
+    track_card = build_track_card(data.get("track_record", {}))
     ta_section = (
         f'<section class="section" id="ta">'
         f'<div class="section-label">🎯 הזדמנויות טכניות</div>'
+        f'{track_card}'
         f'{ta_cards_html}'
         f'</section>'
     ) if ta_cards_html else ""
@@ -1898,7 +2119,7 @@ def build_opportunities_tab(data: dict, ta_cards_html: str = "") -> str:
 
 def build_html(data: dict) -> str:
     ticker_items = build_ticker_items(data)
-    news_tab     = build_news_feed_tab(data.get("us_news", []), data.get("israel_news", []))
+    news_tab     = build_news_feed_tab(data)
     ta_grid      = build_ta_grid(data.get("opportunities", []))
     opps_tab     = build_opportunities_tab(data, ta_grid)
 
@@ -2171,6 +2392,52 @@ def build_html(data: dict) -> str:
     border:1px solid var(--border);border-radius:10px;padding:.12rem .55rem;
     font-variant-numeric:tabular-nums}}
 
+  /* ── Morning brief ── */
+  .brief-card{{background:var(--card);border:1px solid var(--border);border-right:3px solid var(--accent);
+    border-radius:14px;padding:1rem 1.3rem;margin-bottom:1rem}}
+  .brief-title{{font-family:'Heebo',sans-serif;font-weight:800;font-size:.95rem;
+    color:var(--white);margin-bottom:.6rem}}
+  .brief-list{{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.45rem}}
+  .brief-list li{{font-size:.86rem;color:var(--text);line-height:1.55;padding-right:1rem;position:relative}}
+  .brief-list li::before{{content:'';position:absolute;right:0;top:.55em;width:5px;height:5px;
+    border-radius:50%;background:var(--accent)}}
+  .brief-list b{{color:var(--white);font-variant-numeric:tabular-nums;font-family:'Inter',sans-serif}}
+
+  /* ── Movers strip ── */
+  .movers-strip{{display:flex;align-items:center;gap:.45rem;flex-wrap:wrap;margin-bottom:1.6rem}}
+  .movers-label{{font-size:.68rem;font-weight:700;letter-spacing:.14em;color:var(--muted)}}
+  .mover-pill{{font-size:.74rem;font-weight:800;font-family:'Inter',sans-serif;
+    font-variant-numeric:tabular-nums;padding:.2rem .65rem;border-radius:10px}}
+  .mover-pill.up{{color:var(--green);background:rgba(16,185,129,.12)}}
+  .mover-pill.down{{color:var(--red);background:rgba(244,63,94,.12)}}
+
+  /* ── Feed filter chips ── */
+  .filter-chips{{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1rem}}
+  .filter-chip{{background:var(--card);border:1px solid var(--border);color:var(--muted);
+    font-size:.72rem;font-weight:700;padding:.3rem .85rem;border-radius:999px;cursor:pointer;
+    transition:color .2s,border-color .2s;font-family:'Heebo',sans-serif}}
+  .filter-chip:hover{{color:var(--white)}}
+  .filter-chip.active{{color:var(--accent);border-color:var(--accent);background:rgba(6,182,212,.1)}}
+
+  /* ── New-since-visit divider ── */
+  .new-divider{{display:flex;align-items:center;gap:.8rem;color:var(--accent);
+    font-size:.72rem;font-weight:700;margin:.4rem 0}}
+  .new-divider::before,.new-divider::after{{content:'';flex:1;height:1px;background:var(--accent);opacity:.35}}
+
+  /* ── TA sparkline ── */
+  .ta-spark{{display:inline-flex;align-items:center;gap:.4rem;margin-right:auto}}
+  .ta-spark-label{{font-size:.64rem;color:var(--muted);font-variant-numeric:tabular-nums}}
+
+  /* ── Track record ── */
+  .track-card{{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;
+    background:var(--card);border:1px solid var(--border);border-radius:14px;
+    padding:.8rem 1.3rem;margin-bottom:1.6rem;font-size:.82rem;color:var(--text)}}
+  .track-stat{{display:inline-flex;align-items:center;gap:.35rem}}
+  .track-stat b{{color:var(--white);font-variant-numeric:tabular-nums;font-family:'Inter',sans-serif}}
+  .track-stat b.up{{color:var(--green)}}
+  .track-stat b.down{{color:var(--red)}}
+  .track-pending{{color:var(--muted);font-size:.78rem}}
+
   /* ── TA cards ── */
   .ta-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}}
   .ta-card{{background:var(--card);border:1px solid var(--border);border-radius:14px;
@@ -2277,6 +2544,7 @@ def build_html(data: dict) -> str:
       {TODAY_HE} &nbsp;|&nbsp; עודכן {TIME}
     </div>
     {mood_chip}
+    <span class="mood-chip" id="mktStatus" style="display:none"></span>
   </div>
 </div>
 
@@ -2348,6 +2616,69 @@ def build_html(data: dict) -> str:
       location.reload();
     }});
   }}
+
+  // ── US Market Status (live, Israel-friendly) ──
+  function updateMarketStatus() {{
+    var el = document.getElementById('mktStatus');
+    if (!el) return;
+    try {{
+      var now = new Date();
+      var et = new Date(now.toLocaleString('en-US', {{timeZone: 'America/New_York'}}));
+      var day = et.getDay(), mins = et.getHours() * 60 + et.getMinutes();
+      var open = 9 * 60 + 30, close = 16 * 60, pre = 4 * 60, after = 20 * 60;
+      var label, color;
+      if (day === 0 || day === 6) {{
+        label = 'וול סטריט: סגור (סופ"ש)'; color = 'var(--muted)';
+      }} else if (mins >= open && mins < close) {{
+        label = 'וול סטריט: שוק פתוח'; color = 'var(--green)';
+      }} else if (mins >= pre && mins < open) {{
+        var left = open - mins;
+        label = 'פרי-מרקט · נפתח בעוד ' + Math.floor(left / 60) + ':' + String(left % 60).padStart(2, '0');
+        color = 'var(--gold)';
+      }} else if (mins >= close && mins < after) {{
+        label = 'אפטר-מרקט'; color = 'var(--gold)';
+      }} else {{
+        label = 'וול סטריט: סגור'; color = 'var(--muted)';
+      }}
+      el.textContent = label;
+      el.style.color = color;
+      el.style.borderColor = 'currentColor';
+      el.style.display = 'inline-flex';
+    }} catch (e) {{}}
+  }}
+  updateMarketStatus();
+  setInterval(updateMarketStatus, 60000);
+
+  // ── Feed tag filter ──
+  function filterFeed(tag, btn) {{
+    document.querySelectorAll('.filter-chip').forEach(function(c) {{ c.classList.remove('active'); }});
+    if (btn) btn.classList.add('active');
+    document.querySelectorAll('#feedList .news-card').forEach(function(card) {{
+      card.style.display = (tag === '*' || card.getAttribute('data-tag') === tag) ? '' : 'none';
+    }});
+  }}
+
+  // ── New-since-last-visit divider ──
+  (function() {{
+    try {{
+      var last = parseInt(localStorage.getItem('lastVisit') || '0', 10);
+      var cards = document.querySelectorAll('#feedList .news-card');
+      if (last > 0 && cards.length > 1) {{
+        var lastNew = null;
+        cards.forEach(function(card) {{
+          var ts = parseInt(card.getAttribute('data-ts') || '0', 10);
+          if (ts > last) lastNew = card;
+        }});
+        if (lastNew && lastNew !== cards[cards.length - 1]) {{
+          var div = document.createElement('div');
+          div.className = 'new-divider';
+          div.textContent = '— חדש מאז הביקור הקודם —';
+          lastNew.parentNode.insertBefore(div, lastNew.nextSibling);
+        }}
+      }}
+      localStorage.setItem('lastVisit', String(Math.floor(Date.now() / 1000)));
+    }} catch (e) {{}}
+  }})();
 </script>
 </body>
 </html>"""
@@ -2447,18 +2778,24 @@ def main():
         buys = sum(1 for o in opportunities if o["recommendation"] == "קנייה")
         print(f"✓ ניתוח טכני ({opportunities[0].get('engine','?')}): {len(opportunities)} טיקרים, {buys} המלצות קנייה")
 
+    # 3c. Track record — log buys, evaluate open positions (reads prev data.json first)
+    prev_data = load_previous_data()
+    track_summary = update_track_record(opportunities)
+
     # 4. Assemble full data dict
     data = {
         **news_data,
-        "watchlist":     watchlist,
-        "opportunities": opportunities,
-        "market_us":     mkt["market_us"],
-        "commodities":   mkt["commodities"],
-        "market_il":     mkt["market_il"],
-        "sectors":       mkt["sectors"],
-        "sparklines":    sparks,
-        "fear_greed":    fg,
-        "events":        get_upcoming_events(5),
+        "watchlist":       watchlist,
+        "opportunities":   opportunities,
+        "track_record":    track_summary,
+        "prev_fear_greed": prev_data.get("fear_greed"),
+        "market_us":       mkt["market_us"],
+        "commodities":     mkt["commodities"],
+        "market_il":       mkt["market_il"],
+        "sectors":         mkt["sectors"],
+        "sparklines":      sparks,
+        "fear_greed":      fg,
+        "events":          get_upcoming_events(5),
     }
 
     # 5. Fetch images
@@ -2485,6 +2822,7 @@ def main():
         "fear_greed":      fg,
         "us_news":         [{k: v for k, v in n.items() if k != "image"} for n in data.get("us_news", [])],
         "il_news":         [{k: v for k, v in n.items() if k != "image"} for n in data.get("israel_news", [])],
+        "track_record":    track_summary,
         "alert_config":    wl_config.get("alerts", {}),
     }
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
