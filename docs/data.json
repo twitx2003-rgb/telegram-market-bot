@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T05:40:38.341231+00:00",
+  "generated_at": "2026-07-16T08:11:57.376061+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-16T05:40:38.341252+00:00",
+  "ta_generated_at": "2026-07-16T08:11:57.376082+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -680,7 +680,7 @@
       "change": "+0.62%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.621361896391947
+      "pct_raw": 0.6213927299191748
     },
     {
       "name": "Dow Jones",
@@ -688,7 +688,7 @@
       "change": "+0.29%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.28637393690556295
+      "pct_raw": 0.2863166394646113
     },
     {
       "name": "Russell 2000",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.67",
-      "change": "-5.03%",
-      "direction": "down",
+      "value": "15.96",
+      "change": "+1.85%",
+      "direction": "up",
       "group": "market_us",
-      "pct_raw": -5.030303030303031
+      "pct_raw": 1.8506700701978362
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,032.8",
-      "change": "-0.47%",
+      "value": "$4,035.8",
+      "change": "-0.39%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.468927390295671
+      "pct_raw": -0.39488622340688084
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.5",
-      "change": "-0.57%",
+      "value": "$84.4",
+      "change": "-0.66%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.5650382577987099
+      "pct_raw": -0.6592113007651587
     },
     {
       "name": "ביטקוין",
-      "value": "$64,881",
-      "change": "+0.25%",
-      "direction": "up",
+      "value": "$64,018",
+      "change": "-1.09%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.2477195930090264
+      "pct_raw": -1.0854467655500415
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,196",
-      "change": "+2.69%",
-      "direction": "up",
+      "value": "4,164",
+      "change": "-0.77%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 2.6938194135124194
+      "pct_raw": -0.7702408670929296
     },
     {
       "name": "דולר/שקל",
-      "value": "2.981",
-      "change": "-0.14%",
-      "direction": "down",
+      "value": "2.994",
+      "change": "+0.26%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.14067524115755567
+      "pct_raw": 0.2646034297963639
     }
   ],
   "sectors": [
@@ -856,6 +856,20 @@
   },
   "us_news": [
     {
+      "title_he": "BREAKING: רווחי $TSM: - EPS: $4.31, משוער: $3.77 - הכנסה: $40.20 מיליארד, משוער: $39.7 מיליארד",
+      "summary_he": "",
+      "body_en": "BREAKING: $TSM earnings: - EPS: $4.31, est: $3.77 - Revenue: $40.20 billion, est: $39.7 billion",
+      "ticker": "$TSM",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077644495764758555#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-16T06:40:23+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "סיכוי של 78% להנפקות אנתרופיות ב-31 בדצמבר 2026, לפי פולימרקט:",
       "summary_he": "",
       "body_en": "78% chance Anthropic IPOs on December 31, 2026, per Polymarket:",
@@ -865,50 +879,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNU1W45bEAAo1ub.jpg",
-      "relative_time": "לפני 14ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-16T05:25:19+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "יש סיכוי של 74% ש-Stripe תרכוש חלק כלשהו ב-Paypal ב-20206, לפי Polymarket:",
-      "summary_he": "",
-      "body_en": "There is a 74% chance Stripe will acquire any part of Paypal in 20206, per Polymarket:",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077619451550405047#m",
-      "tag": "M&A",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNR1_h5bgAAKQG0.jpg",
-      "relative_time": "לפני 39ד׳",
-      "published_at": "2026-07-16T05:00:52+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: התובעים, שקיבלו הודעה בחודש מאי כי משרותיהם יבוטלו החל מה-22 ביולי, מבקשים פסק דין מקדמי מ...",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: The plaintiffs, who were notified in May that their jobs would be eliminated starting on July 22, are seeking a preliminary ruling from the court blocking Meta from completing th",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077611935395107268#m",
-      "tag": "TECH",
-      "article_url": "https://unusualwhales.com/news/meta-ai-layoffs-medical-conditions-lawsuit",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2077178431255851008%2FLoQZ5YMk%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-16T04:31:00+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: התמ\"ג הריאלי הואט מצמיחה של כ-3.3% ב-2023 לכ-1.9% עד כה השנה. קרא עוד:…",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: Real GDP has slowed from roughly 3.3% growth in 2023 to about 1.9% so far this year. Read more: https://unusualwhales.com/news/stock-market-economy-out-of-sync-ai",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077603378901770270#m",
-      "tag": "MACRO",
-      "article_url": "https://unusualwhales.com/news/stock-market-economy-out-of-sync-ai",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2077176296032043008%2Ff8lF1hRU%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-16T03:57:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -921,7 +893,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077550764747300864%2Fimg%2FJl0cMrZNlOHemAax.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-16T00:28:30+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +907,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTw0lcbcAAsqkW.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-16T00:25:24+00:00",
       "sentiment": "neutral"
     },
@@ -949,7 +921,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTtlPVbAAAx0oV.png",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-16T00:11:18+00:00",
       "sentiment": "neutral"
     },
@@ -963,7 +935,7 @@
       "tag": "M&A",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTqqj8a8AE9cCu.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-16T00:00:31+00:00",
       "sentiment": "neutral"
     },
@@ -977,7 +949,7 @@
       "tag": "NEWS",
       "article_url": "https://kalshi.com/markets/kxpgatour/pga-tour/kxpgatour-thoc26",
       "tweet_image": "https://nitter.net/pic/media%2FHNTqSfTW4AAoXyN.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T23:56:48+00:00",
       "sentiment": "neutral"
     },
@@ -991,7 +963,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTpiuMasAAwPlp.png",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T23:53:33+00:00",
       "sentiment": "neutral"
     },
@@ -1005,7 +977,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTpNokXQAAf_Fp.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T23:52:44+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +991,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTngElbUAAhByx.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T23:44:38+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1005,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTmOr4aAAA7kpL.jpg",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T23:39:10+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1019,7 @@
       "tag": "EARNINGS",
       "article_url": "https://www.cnbc.com/video/2026/07/15/dan-ives-q2-earnings-will-be-the-driver-for-mega-cap-stocks.html",
       "tweet_image": "https://nitter.net/pic/media%2FHNTCnslW0AAM3kb.jpg",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T23:36:40+00:00",
       "sentiment": "neutral"
     },
@@ -1061,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "https://gamestock.onelink.me/lWtY/g527hpgn",
       "tweet_image": "",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-15T23:33:06+00:00",
       "sentiment": "bullish"
     },
@@ -1075,7 +1047,7 @@
       "tag": "TECH",
       "article_url": "https://podcasts.apple.com/us/podcast/heres-our-midyear-outlook-2026-fvf-ep-196/id1651235114?i=1000776884457",
       "tweet_image": "",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-15T22:42:49+00:00",
       "sentiment": "neutral"
     },
@@ -1089,7 +1061,7 @@
       "tag": "MACRO",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-15T22:38:44+00:00",
       "sentiment": "bullish"
     },
@@ -1103,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTXTVNaIAAyVUk.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-15T22:33:54+00:00",
       "sentiment": "neutral"
     },
@@ -1117,7 +1089,7 @@
       "tag": "EARNINGS",
       "article_url": "https://www.cnbc.com/video/2026/07/15/dan-ives-q2-earnings-will-be-the-driver-for-mega-cap-stocks.html",
       "tweet_image": "https://nitter.net/pic/media%2FHNTCnslW0AAM3kb.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-15T21:36:41+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1103,7 @@
       "tag": "FED",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRXbHOWsAEchDJ.png",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-15T21:35:00+00:00",
       "sentiment": "neutral"
     },
@@ -1145,7 +1117,7 @@
       "tag": "NEWS",
       "article_url": "https://schrts.co/aAcjPwEJ",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077463372409245697%2FmawPL73F%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-15T21:31:00+00:00",
       "sentiment": "neutral"
     },
@@ -1159,7 +1131,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRXXmWWgAAkzSp.png",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-15T21:30:00+00:00",
       "sentiment": "neutral"
     },
@@ -1173,7 +1145,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077505678755999745%2Fimg%2F0LhDxhvgEg9CSwf7.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-15T21:28:56+00:00",
       "sentiment": "bullish"
     },
@@ -1187,7 +1159,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-15T20:25:45+00:00",
       "sentiment": "bearish"
     },
@@ -1201,7 +1173,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSx7L6W4AEs_WX.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-15T19:50:37+00:00",
       "sentiment": "neutral"
     },
@@ -1215,7 +1187,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSxA3SWQAAQ3bb.png",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-15T19:46:34+00:00",
       "sentiment": "neutral"
     },
@@ -1229,8 +1201,22 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSqhoLWAAAnYP9.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-15T19:18:13+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "קָדוֹשׁ. תראה את זה. מישהו ידע על הצעת הרכישה של Stripe לגבי Paypal, $PYPL. סוחר תקע 300 אלף דולר לשיחות של PYPL 50 דולר שפג תוקפם ב-08/07/2026 לפני...",
+      "summary_he": "",
+      "body_en": "Holy. Look at this. Someone knew about Stripe's acquisition offer about Paypal, $PYPL. A trader slammed $300k into $PYPL 50 calls expiring 08/07/2026 before the news last week (and other strikes). The",
+      "ticker": "$PYPL",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077465391761445279#m",
+      "tag": "M&A",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNShnKqbAAAeoOm.jpg",
+      "relative_time": "לפני 13ש׳",
+      "published_at": "2026-07-15T18:48:41+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1243,7 +1229,7 @@
       "tag": "NEWS",
       "article_url": "https://open.substack.com/pub/bespokeinvest/p/financials-now-overbought-22-for?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
       "tweet_image": "",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-15T17:36:30+00:00",
       "sentiment": "neutral"
     },
@@ -1257,7 +1243,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNP33IvbYAAUHtx.jpg",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-15T16:15:59+00:00",
       "sentiment": "bearish"
     },
@@ -1271,7 +1257,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-15T16:08:32+00:00",
       "sentiment": "neutral"
     },
@@ -1285,26 +1271,44 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRHl8tWoAEEaqS.jpg",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-15T12:05:59+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "עדיין לא בטוח מה אנשים רואים ב-$SPCX כהשקעה. זה כבר מגה-קאפ (שווי שוק של $1.8T) כך שהאפסייד מוגבל. זה לא יניב רווחים עד 2027.…",
-      "summary_he": "",
-      "body_en": "Still not sure what people see in $SPCX as an investment. It’s already a megacap ($1.8T market cap) so upside is limited. It won’t generate profits until 2027. It trades at 2026 EV/Rev of 47x ( $TSLA ",
-      "ticker": "$SPCX",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2077279834796126457#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNP33IvbYAAUHtx.jpg",
-      "relative_time": "לפני 23ש׳",
-      "published_at": "2026-07-15T06:31:21+00:00",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "המאבק בפרוטקשן: זינוק של עשרות אחוזים בתיקי החקירה ובכתבי האישום",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3853940",
+      "tag": "כללי",
+      "published_at": "2026-07-16T10:19:00+00:00"
+    },
+    {
+      "title_he": "רופא ילדים מלוד נאשם: ביצע שורת מעשים מגונים בעובדת מרפאה בתל אביב | מיד כל הפרטים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3853931",
+      "tag": "כללי",
+      "published_at": "2026-07-16T10:05:00+00:00"
+    },
+    {
+      "title_he": "אחרי אישור חוק ההפרדה באקדמיה: גל מחאה, איומי התנגדות ועתירה לבג\"ץ",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3853928",
+      "tag": "כללי",
+      "published_at": "2026-07-16T09:43:00+00:00"
+    },
+    {
+      "title_he": "חשד: מורה למתמטיקה מלוד אנס את תלמידתו בת ה-12 | פרסום ראשון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3853910",
+      "tag": "כללי",
+      "published_at": "2026-07-16T08:47:00+00:00"
+    },
     {
       "title_he": "פיצוץ נוסף הלילה בצפון ת\"א: האם מעצר החייל הוביל את המשטרה למקור הרימונים בסכסוך מוסלי - ג'רושי?",
       "summary_he": "",
@@ -1352,38 +1356,6 @@
       "link": "https://news.walla.co.il/item/3853807",
       "tag": "כללי",
       "published_at": "2026-07-15T18:54:00+00:00"
-    },
-    {
-      "title_he": "מסמנים \"מעל 18\" - וקונים: הזינוק ברכישת מוצרי עישון ברשת בקרב בני נוער",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853802",
-      "tag": "כללי",
-      "published_at": "2026-07-15T18:44:00+00:00"
-    },
-    {
-      "title_he": "בגלל ויכוח על תרסיס ריחני: הורשע בדקירת בן זוגה של אחותו למוות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853789",
-      "tag": "כללי",
-      "published_at": "2026-07-15T17:50:00+00:00"
-    },
-    {
-      "title_he": "ההרוגה השניה ביממה: נקבע מותה של ילדה כבת 5 שנפגעה מרכב בירושלים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853787",
-      "tag": "כללי",
-      "published_at": "2026-07-15T17:26:00+00:00"
-    },
-    {
-      "title_he": "הערר נותר ללא הכרעה: כסיף דורש מבג\"ץ לחייב החלטה בתיק אלימות השוטרים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853784",
-      "tag": "כללי",
-      "published_at": "2026-07-15T17:26:00+00:00"
     }
   ],
   "track_record": {
