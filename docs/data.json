@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T20:26:30.260376+00:00",
+  "generated_at": "2026-07-16T21:32:53.391430+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -223,7 +223,7 @@
         "sma50": 317.58,
         "sma200": 309.64,
         "pct_from_52w_high": -2.3,
-        "vol_ratio": 1.11,
+        "vol_ratio": 1.17,
         "change_1d_pct": -1.08,
         "change_1w_pct": 2.3,
         "change_1m_pct": 7.4,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-16T20:26:30.260425+00:00",
+  "ta_generated_at": "2026-07-16T21:32:53.391456+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "16.72",
-      "change": "+6.70%",
+      "value": "16.73",
+      "change": "+6.76%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 6.700701978302483
+      "pct_raw": 6.764518187619658
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$3,978.7",
-      "change": "-1.80%",
+      "value": "$3,979.9",
+      "change": "-1.77%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.8041364331901961
+      "pct_raw": -1.774519966434673
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.3",
-      "change": "-0.71%",
+      "value": "$84.9",
+      "change": "-0.11%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.7062978222483914
+      "pct_raw": -0.10594467333726121
     },
     {
       "name": "ביטקוין",
-      "value": "$64,142",
-      "change": "-0.89%",
+      "value": "$64,111",
+      "change": "-0.94%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.8932506627938076
+      "pct_raw": -0.9422306166274926
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,21 +752,21 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.022",
-      "change": "+1.23%",
+      "value": "3.020",
+      "change": "+1.17%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 1.232583065380506
+      "pct_raw": 1.1655948553054718
     }
   ],
   "sectors": [
     {
       "name": "טכנולוגיה",
-      "value": "177.46",
-      "change": "-2.27%",
+      "value": "177.52",
+      "change": "-2.24%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -2.2689723537834587
+      "pct_raw": -2.235929067077873
     },
     {
       "name": "פיננסים",
@@ -778,11 +778,11 @@
     },
     {
       "name": "אנרגיה",
-      "value": "57.01",
-      "change": "+0.90%",
+      "value": "57.02",
+      "change": "+0.92%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.9026548672566337
+      "pct_raw": 0.9203539823008904
     },
     {
       "name": "בריאות",
@@ -826,11 +826,11 @@
     },
     {
       "name": "תשתיות",
-      "value": "45.48",
-      "change": "+0.57%",
+      "value": "45.47",
+      "change": "+0.55%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.5749668288367935
+      "pct_raw": 0.5528527200353825
     },
     {
       "name": "חומרים",
@@ -856,6 +856,146 @@
   },
   "us_news": [
     {
+      "title_he": "הבנקים הגדולים פרסמו את תוצאות הרבעון השני של 2026. קרא את תקצירי שיחת הועידה שלנו עבור JPMorgan $JPM, Bank of America $BAC, Citigroup $C ו-WFC $WFC בוולס פארגו ב...",
+      "summary_he": "",
+      "body_en": "The major banks have published Q2 2026 results. Read our Conference Call Recaps for JPMorgan $JPM, Bank of America $BAC, Citigroup $C, and Wells Fargo $WFC at https://www.bespokepremium.com/interactiv",
+      "ticker": "$JPM",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2077867299277570370#m",
+      "tag": "EARNINGS",
+      "article_url": "https://www.bespokepremium.com/interactive/research/conference-call-recaps",
+      "tweet_image": "https://nitter.net/pic/media%2FHNYQM0jXgAAqDtl.png",
+      "relative_time": "לפני 6ד׳",
+      "published_at": "2026-07-16T21:25:43+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ה-1% העשירים ביותר מחזיק במחצית משוק המניות המחצית התחתון מחזיק ב-1.1% @reuters @augurinfinity https://augurdigest.com/p/augur-digest-282",
+      "summary_he": "",
+      "body_en": "The wealthiest 1% owns half the stock market The bottom half owns 1.1% @reuters @augurinfinity https://augurdigest.com/p/augur-digest-282",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2077864853880877195#m",
+      "tag": "NEWS",
+      "article_url": "https://augurdigest.com/p/augur-digest-282",
+      "tweet_image": "https://nitter.net/pic/media%2FHNYPEvaXgAAhNqB.png",
+      "relative_time": "לפני 16ד׳",
+      "published_at": "2026-07-16T21:16:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "לוגאן של הפד: לא נראה שהאינפלציה חוזרת באופן בר-קיימא ל-2% בעצמה.",
+      "summary_he": "",
+      "body_en": "Fed's Logan: Inflation does not appear to be heading sustainably back to 2% on its own.",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077860322128368121#m",
+      "tag": "MACRO",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 34ד׳",
+      "published_at": "2026-07-16T20:58:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שוק המניות חזר ל\"פחד\".",
+      "summary_he": "",
+      "body_en": "The stock market has fallen back into “fear.”",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077858671791624666#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNYJcMmakAAAc1_.png",
+      "relative_time": "לפני 40ד׳",
+      "published_at": "2026-07-16T20:51:26+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NFLX -7.7% AH לאחר פרסום תוצאות ברבעון השני בקנה אחד עם קונצנזוס, אך מציע הנחיית 3Q ו-FY'26 שהחמיצו את הציפיות. Mgmt מאשימה את חורף 2026...",
+      "summary_he": "",
+      "body_en": "$NFLX -7.7% AH after posting 2Q results in line with consensus but offering 3Q and FY’26 guidance that missed expectations. Mgmt is blaming the 2026 Winter Olympics and World Cup for its misses but in",
+      "ticker": "$NFLX",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2077858084597490126#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 43ד׳",
+      "published_at": "2026-07-16T20:49:06+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "REGENXBIO ירדה ב-15% לאחר שהכריזה על הנפקה חיתום של 100 מיליון דולר מתוכננת לציבור של מניות רגילות. ההכנסות יתמכו בטיפול הגנטי בשלב הקליני...",
+      "summary_he": "",
+      "body_en": "REGENXBIO fell 15% after announcing a planned $100M underwritten public offering of common stock. Proceeds will support its clinical-stage gene therapy pipeline, but the stock reaction reflects near-t",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077857565254594904#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNYIb03aYAAmeaK.jpg",
+      "relative_time": "לפני 45ד׳",
+      "published_at": "2026-07-16T20:47:02+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Coca-Cola $KO חשפה תקרית אבטחת סייבר בחברה הבת שלה fairlife. fairlife זיהתה התקפת תוכנת כופר שכללה גישה לא מורשית של צד שלישי...",
+      "summary_he": "",
+      "body_en": "Coca-Cola $KO disclosed a cybersecurity incident at its fairlife subsidiary. fairlife identified a ransomware attack involving unauthorized third-party access to part of its production-related and adm",
+      "ticker": "$KO",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077857254162976953#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNYIJ7MaAAAIg3e.jpg",
+      "relative_time": "לפני 46ד׳",
+      "published_at": "2026-07-16T20:45:48+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ממשל טראמפ יגביל את משך הזמן שסטודנט זר יכול להישאר בארה\"ב על אשרת סטודנט במסגרת תקנה חדשה",
+      "summary_he": "",
+      "body_en": "The Trump administration will limit how long a foreign student can remain in the U.S. on a student visa under a new regulation",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2077853527284588550#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-16T20:31:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סוף 2024 זו הפעם האחרונה ש-Netflix $NFLX ירד ברמות האלה. כעת ירידה של 8% לאחר שעות העבודה בעקבות הרווחים ברבעון השני.",
+      "summary_he": "",
+      "body_en": "Late 2024 is the last time Netflix $NFLX was down at these levels. Now down 8% after hours following Q2 earnings.",
+      "ticker": "$NFLX",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2077853522746380351#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNYExKhWQAAR0nk.jpg",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-16T20:30:59+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שירי רווחים של ALCOA $AA Q2'26 🔹 הכנסות: $3.97B (הערכה. $3.99B) 🔴 🔹 התאמה EPS: $2.12 (הערכה. $2.32) 🔴 מוריד FY26 Alumina Outlook: 🔹 ייצור: 9.5M-9.6M...",
+      "summary_he": "",
+      "body_en": "ALCOA $AA Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $3.97B (Est. $3.99B) 🔴 🔹 Adj. EPS: $2.12 (Est. $2.32) 🔴 Lowers FY26 Alumina Outlook: 🔹 Production: 9.5M-9.6M tons; cut by 0.2M-0.3M tons 🔹 Shipments: 11.",
+      "ticker": "$AA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077853072114729369#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNYEWPlbcAA-EFN.jpg",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-16T20:29:11+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "$SPCX עם הסגירה הראשונה שלו מתחת למחיר ההנפקה של $135 - הנפקה: $135 - פתיחה: $150 - גבוה: $225 - נמוך: $130 - סגירה: $131 ללא עמדה",
       "summary_he": "",
       "body_en": "$SPCX with its 1st close below the IPO price of $135 - IPO: $135 - Open: $150 - High: $225 - Low: $130 - Close: $131 No position",
@@ -865,7 +1005,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYC8ixXgAEVDWO.png",
-      "relative_time": "לפני 2ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-16T20:23:11+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYBDbqbkAA7jmA.jpg",
-      "relative_time": "לפני 11ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-16T20:14:46+00:00",
       "sentiment": "neutral"
     },
@@ -893,7 +1033,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYApLwacAEsHEz.jpg",
-      "relative_time": "לפני 12ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-16T20:13:00+00:00",
       "sentiment": "neutral"
     },
@@ -907,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 14ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-16T20:11:32+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +1061,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 15ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-16T20:10:48+00:00",
       "sentiment": "neutral"
     },
@@ -935,36 +1075,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYACTlWsAAMZz3.png",
-      "relative_time": "לפני 15ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-16T20:10:18+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שירי רווחים של NETFLIX $NFLX Q2'26 🔹 הכנסות: $12.56B (הערכה. $12.59B) 🔴; +13% YoY 🔹 EPS: $0.80 (אומדן $0.79) 🟢; +11% YoY 🔹 מרווח תפעול: 33.4%; -70 bps YoY 🔹…",
-      "summary_he": "",
-      "body_en": "NETFLIX $NFLX Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $12.56B (Est. $12.59B) 🔴; +13% YoY 🔹 EPS: $0.80 (Est. $0.79) 🟢; +11% YoY 🔹 Oper Margin: 33.4%; -70 bps YoY 🔹 FCF: $1.53B (Est. $2.72B) 🔴; -33% YoY Q3",
-      "ticker": "$NFLX",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077848150338056551#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNX_3UsaQAAgYAZ.jpg",
-      "relative_time": "לפני 16ד׳",
-      "published_at": "2026-07-16T20:09:38+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$NFLX -6%",
-      "summary_he": "",
-      "body_en": "$NFLX -6%",
-      "ticker": "$NFLX",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2077848021589471309#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNX_w6MXgAAW_Jl.jpg",
-      "relative_time": "לפני 16ד׳",
-      "published_at": "2026-07-16T20:09:07+00:00",
       "sentiment": "neutral"
     },
     {
@@ -977,64 +1089,8 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNX9GG-bgAACXLj.png",
-      "relative_time": "לפני 20ד׳",
-      "published_at": "2026-07-16T20:05:23+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$KRE עכשיו +20% YTD",
-      "summary_he": "",
-      "body_en": "$KRE now +20% YTD",
-      "ticker": "$KRE",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2077845302585770152#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNX9SrwXEAAXIF3.jpg",
-      "relative_time": "לפני 27ד׳",
-      "published_at": "2026-07-16T19:58:19+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "נדל\"ן $XLRE $VNQ $IYR שיא של 4 שנים... קרוב ליום הטוב ביותר מאז אפריל 2025",
-      "summary_he": "",
-      "body_en": "Real Estate $XLRE $VNQ $IYR 4yr highs... close to the best day since April 2025",
-      "ticker": "$XLRE",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2077843881144594499#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNX7_9yXcAAyMYg.png",
-      "relative_time": "לפני 33ד׳",
-      "published_at": "2026-07-16T19:52:40+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שמועות על מיזוג ורכישה באמצעות RTRS: לפי הדיווחים פרסונליס בוחנת מכירה פוטנציאלית לאחר השתלטות מ-Merk $MRK ולפחות שני מחזרים נוספים. החברה היא…",
-      "summary_he": "",
-      "body_en": "M&A RUMOR via RTRS: Personalis is reportedly exploring a potential sale after takeover interest from Merck $MRK and at least two other suitors. The company is said to have hired Centerview, TD Securit",
-      "ticker": "$MRK",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077838420358148483#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 54ד׳",
-      "published_at": "2026-07-16T19:30:58+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "נטפליקס מדווחת על רווחים ברבעון השני לאחר הסגירה. הערכות רחוב: EPS: $0.86 הכנסה: $12.58B אופציות מתמחרות במהלך של ±8% לאחר רווחים. הנה מלא…",
-      "summary_he": "",
-      "body_en": "Netflix reports Q2 earnings after the close. Street estimates: EPS: $0.86 Revenue: $12.58B Options are pricing in an ±8% post-earnings move. Here’s a full preview of $NFLX earnings from @PPLXfinance:",
-      "ticker": "$NFLX",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077836500411306043#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNX0x2YakAAvFRW.jpg",
       "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-16T19:23:20+00:00",
+      "published_at": "2026-07-16T20:05:23+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1047,22 +1103,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-16T19:19:59+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ פיטר את התובע העליון החדש של ארה\"ב בסיאטל פחות משעה לאחר שעורך הדין מונה פה אחד על ידי השופטים הפדרליים במחוז, לפי ABC",
-      "summary_he": "",
-      "body_en": "Trump fired the new top U.S. prosecutor in Seattle less than an hour after the attorney was unanimously appointed by the federal judges in the district, per ABC",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077834904566739011#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-16T19:17:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1075,7 +1117,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXwbV6bYAAEFuZ.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-16T19:02:07+00:00",
       "sentiment": "neutral"
     },
@@ -1089,12 +1131,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-16T18:47:32+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מוצמד: גמר גביע העולם: 🇪🇸 ספרד VS. 🇦🇷 ארגנטינה ספרד עלתה לפייבוריטית של 58.4% על 42.3% של ארגנטינה לפני הגמר ביום ראשון. ספרד נכנסת ל…",
+      "title_he": "מוצמד: גמר גביע העולם: 🇪🇸 ספרד VS. 🇦🇷 ארגנטינה ספרד עלתה לפייבוריטית של 58.4% על 42.3% של ארגנטינה לפני הגמר ביום ראשון. ספרד נכנסת ל...",
       "summary_he": "",
       "body_en": "Pinned: WORLD CUP FINAL: 🇪🇸 SPAIN VS. 🇦🇷 ARGENTINA Spain has surged to a 58.4% favorite over Argentina’s 42.3% ahead of Sunday’s final. Spain enters on a 37-match unbeaten streak. Argentina is unbeate",
       "ticker": "",
@@ -1103,7 +1145,7 @@
       "tag": "NEWS",
       "article_url": "https://kalshi.com/markets/kxmenworldcup/mens-world-cup-winner/kxmenworldcup-26",
       "tweet_image": "https://nitter.net/pic/media%2FHNXk9tyXUAAYu0e.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-16T18:12:04+00:00",
       "sentiment": "bullish"
     },
@@ -1117,7 +1159,7 @@
       "tag": "CRYPTO",
       "article_url": "http://CRYPTO.COM",
       "tweet_image": "https://nitter.net/pic/card_img%2F2074909059292233728%2FI8vztGP9%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-16T18:01:55+00:00",
       "sentiment": "neutral"
     },
@@ -1131,12 +1173,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-16T17:55:06+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "סמי החצי מתפרקים, כעת מתחת לשיאים ההתחלתיים של מאי, ירידה של עוד 5% היום. עדיין עלייה של 53% בששת החודשים האחרונים.",
+      "title_he": "סמי החצי מתפרקים, כעת מתחת לשיאים ההתחלתיים של מאי, ירידה נוספת של 5% היום. עדיין עלייה של 53% בששת החודשים האחרונים.",
       "summary_he": "",
       "body_en": "The semis are breaking down, now below Initial May highs, down another 5% today. Still up 53% over the last six months.",
       "ticker": "",
@@ -1145,7 +1187,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXex35W4AAyNz2.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-16T17:45:00+00:00",
       "sentiment": "neutral"
     },
@@ -1159,7 +1201,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXLcz1WgAAZoIc.png",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-16T16:24:31+00:00",
       "sentiment": "neutral"
     },
@@ -1173,36 +1215,22 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXLV0dWcAEYdkx.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-16T16:20:05+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "כך נראו סמי החצי הגדול ביותר הן בשבוע האחרון והן מהשנה עד היום לקראת היום. לא מעט עברו הרבה מתחת ל-50-DMAs שלהם לאחרונה, אבל...",
+      "title_he": "RT מאת @wallstengine: SHARKNINJA NINJA $SN פשוט בנה מיקרוגל שמטגן את האוכל שלך באוויר לאחר שחיממת אותו המיקרוגל החדש Ninja Crispi מחמם אוכל עם...",
       "summary_he": "",
-      "body_en": "Here's how the biggest semis looked both over the last week and year-to-date heading into today. Quite a few have moved well below their 50-DMAs recently, but others, like $ASML and $NVDA, have been r",
-      "ticker": "$ASML",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2077759642365460916#m",
-      "tag": "NEWS",
+      "body_en": "RT by @wallstengine: SHARKNINJA NINJA $SN JUST BUILT A MICROWAVE THAT AIR FRIES YOUR FOOD AFTER HEATING IT The new Ninja Crispi Microwave heats food with microwave energy, then automatically finishes ",
+      "ticker": "$SN",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077760655558656268#m",
+      "tag": "ENERGY",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNWvMeMWsAAerwF.png",
-      "relative_time": "לפני 6ש׳",
-      "published_at": "2026-07-16T14:17:56+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "R ל-@bespokeinvest: עשינו צלילה עמוקה בנטפליקס $NFLX בטבלת היום של אתמול, שתוכל לקרוא על ידי התחלת ניסיון לכל אחד מחברי Bespoke...",
-      "summary_he": "",
-      "body_en": "R to @bespokeinvest: We did a deep dive on Netflix $NFLX in yesterday's Chart of the Day, which you can read by starting a trial to any of Bespoke's member plans: https://bespokepremium.com/bespoke-me",
-      "ticker": "$NFLX",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2077759193482760657#m",
-      "tag": "NEWS",
-      "article_url": "https://bespokepremium.com/bespoke-member-plans",
-      "tweet_image": "",
-      "relative_time": "לפני 6ש׳",
-      "published_at": "2026-07-16T14:16:09+00:00",
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077759197224308737%2Fimg%2Fy9XX-h2mSyqQSZxA.jpg",
+      "relative_time": "לפני 7ש׳",
+      "published_at": "2026-07-16T14:21:57+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1215,7 +1243,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNWOlWfXYAASXp1.png",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-16T11:54:37+00:00",
       "sentiment": "neutral"
     },
@@ -1229,7 +1257,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTpNokXQAAf_Fp.jpg",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-15T23:52:44+00:00",
       "sentiment": "neutral"
     },
@@ -1243,7 +1271,7 @@
       "tag": "EARNINGS",
       "article_url": "https://www.cnbc.com/video/2026/07/15/dan-ives-q2-earnings-will-be-the-driver-for-mega-cap-stocks.html",
       "tweet_image": "https://nitter.net/pic/media%2FHNTCnslW0AAM3kb.jpg",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-15T23:36:40+00:00",
       "sentiment": "neutral"
     },
@@ -1257,7 +1285,7 @@
       "tag": "EARNINGS",
       "article_url": "https://www.cnbc.com/video/2026/07/15/dan-ives-q2-earnings-will-be-the-driver-for-mega-cap-stocks.html",
       "tweet_image": "https://nitter.net/pic/media%2FHNTCnslW0AAM3kb.jpg",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "published_at": "2026-07-15T21:36:41+00:00",
       "sentiment": "neutral"
     }
