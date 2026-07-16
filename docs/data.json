@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T08:11:57.376061+00:00",
+  "generated_at": "2026-07-16T10:26:28.671320+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-16T08:11:57.376082+00:00",
+  "ta_generated_at": "2026-07-16T10:26:28.671339+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.96",
-      "change": "+1.85%",
+      "value": "15.92",
+      "change": "+1.60%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.8506700701978362
+      "pct_raw": 1.595405232929164
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,035.8",
-      "change": "-0.39%",
+      "value": "$4,037.8",
+      "change": "-0.35%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.39488622340688084
+      "pct_raw": -0.34552544548102077
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.4",
-      "change": "-0.66%",
+      "value": "$84.7",
+      "change": "-0.26%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6592113007651587
+      "pct_raw": -0.2589758681577385
     },
     {
       "name": "ביטקוין",
-      "value": "$64,018",
-      "change": "-1.09%",
+      "value": "$64,143",
+      "change": "-0.89%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.0854467655500415
+      "pct_raw": -0.8926635213913776
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,164",
-      "change": "-0.77%",
+      "value": "4,187",
+      "change": "-0.21%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.7702408670929296
+      "pct_raw": -0.2080508282710922
     },
     {
       "name": "דולר/שקל",
-      "value": "2.994",
-      "change": "+0.26%",
+      "value": "3.004",
+      "change": "+0.60%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.2646034297963639
+      "pct_raw": 0.6028938906752492
     }
   ],
   "sectors": [
@@ -856,6 +856,202 @@
   },
   "us_news": [
     {
+      "title_he": "$UNH רווחים ברבעון השני • הכנסה $112.0B לעומת משוער $110.8B • EPS $6.38 לעומת משוער $4.85 • יחס טיפול רפואי 86.7% לעומת משוער. 88.6% הנחיות ל-FY26 • EPS $19.75 לעומת משוער...",
+      "summary_he": "",
+      "body_en": "$UNH Q2 EARNINGS • Revenue $112.0B vs Est. $110.8B • EPS $6.38 vs Est. $4.85 • Medical Care Ratio 86.7% vs. Est. 88.6% FY26 Guidance • EPS $19.75 vs Est. $18.32 • Medical Care Ratio: 88.1% vs. Est. 88",
+      "ticker": "$UNH",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077698995108114686#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNV3mViaMAAw-oX.png",
+      "relative_time": "לפני 9ד׳",
+      "published_at": "2026-07-16T10:16:56+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בהתאמה להזדקנות הדמוגרפית, השתתפות כוח העבודה בארה\"ב נמצאת בשיא @markets @soberlook https://thedailyshot.com/subscribe/",
+      "summary_he": "",
+      "body_en": "Adjusting for demographic aging, US labor force participation is at a record high @markets @soberlook https://thedailyshot.com/subscribe/",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2077697805150302613#m",
+      "tag": "NEWS",
+      "article_url": "https://thedailyshot.com/subscribe/",
+      "tweet_image": "https://nitter.net/pic/media%2FHNV3JNbWQAAbu2P.jpg",
+      "relative_time": "לפני 13ד׳",
+      "published_at": "2026-07-16T10:12:13+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "UNITEDHEALTH GROUP $UNH Q2'26 שירי רווחים 🔹 הכנסות: $112.0B (הערכה. $110.8B) ; שטוח YoY 🔹 Adj. EPS: $6.38 (הערכה. $4.85) 🟢; +56% YoY 🔹 MCR: 86.7% (הערכה...",
+      "summary_he": "",
+      "body_en": "UNITEDHEALTH GROUP $UNH Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $112.0B (Est. $110.8B) 🟢; flat YoY 🔹 Adj. EPS: $6.38 (Est. $4.85) 🟢; +56% YoY 🔹 MCR: 86.7% (Est. 88.6%) 🟢; -270 bps YoY 🔹 UnitedHealthcare ",
+      "ticker": "$UNH",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077697456918425914#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNV20Mna8AAfsaE.png",
+      "relative_time": "לפני 15ד׳",
+      "published_at": "2026-07-16T10:10:50+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "דרום קוריאה משעה רישומים חדשים של תעודות סל ממונפות במניות בודדות לאחר יותר מתריסר קרנות שהושקו סביב $SKHY וסמסונג. המהלך מגיע מיד אחרי…",
+      "summary_he": "",
+      "body_en": "South Korea is suspending new single-stock leveraged ETF listings after more than a dozen funds launched around $SKHY and Samsung. The move comes just after the central bank raised rates to 2.75% for ",
+      "ticker": "$SKHY",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077696179975172125#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNV1qlMbkAA8tS4.png",
+      "relative_time": "לפני 20ד׳",
+      "published_at": "2026-07-16T10:05:45+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "הטכנולוגיה עלתה שוב... אבל עוד שיא של $AAPL $SPY -0.1% $QQQ -0.5% $SMH -2.1% $XLK -0.8% $EWY -2.1% $EEM -1.2% @finviz_com זהב, ביטקוין, נפט נמוך יותר",
+      "summary_he": "",
+      "body_en": "Tech roughed up again... but more $AAPL record highs $SPY -0.1% $QQQ -0.5% $SMH -2.1% $XLK -0.8% $EWY -2.1% $EEM -1.2% @finviz_com Gold, bitcoin, oil lower",
+      "ticker": "$AAPL",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2077694384879935729#m",
+      "tag": "CRYPTO",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNV0CFmWEAAeJq6.jpg",
+      "relative_time": "לפני 27ד׳",
+      "published_at": "2026-07-16T09:58:37+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מחירי הגז AAA של 3.943 דולר, עלייה של כניקל מאתמול",
+      "summary_he": "",
+      "body_en": "$3.943 AAA gas prices, up about a nickel from yesterday",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2077693890962878963#m",
+      "tag": "ENERGY",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNVzlXpWAAAtWym.jpg",
+      "relative_time": "לפני 29ד׳",
+      "published_at": "2026-07-16T09:56:39+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NVDA משתפת פעולה עם Noetra היפנית כדי לבנות מפעל AI של 140MW המופעל על ידי 13,750 מעבדי Vera ו-27,500 מעבדי Rubin GPU. המתקן יתמוך…",
+      "summary_he": "",
+      "body_en": "$NVDA is partnering with Japan’s Noetra to build a 140MW AI factory powered by 13,750 Vera CPUs & 27,500 Rubin GPUs. The facility will support trillion-parameter models, AI agents, digital twins & rob",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077693417992364533#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNVzJzuaUAATntb.png",
+      "relative_time": "לפני 31ד׳",
+      "published_at": "2026-07-16T09:54:47+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$TSM מכריזה על השקעה נוספת של 100 מיליארד דולר באריזונה עבור יצרנים חדשים של מוליכים למחצה ומתקני אריזה מתקדמים. ההתחייבות מרימה את ארה\"ב המתוכננת של TSMC...",
+      "summary_he": "",
+      "body_en": "$TSM announces another $100B investment in Arizona for new semiconductor fabs and advanced-packaging facilities. The commitment lifts TSMC’s planned U.S. investment to $265B and could support up to 10",
+      "ticker": "$TSM",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077691338372567443#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNVwvOBaMAA7T43.png",
+      "relative_time": "לפני 39ד׳",
+      "published_at": "2026-07-16T09:46:31+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "BofA חוזר על דירוג קנייה ב-$GOOGL, PT $430; ER Preview Analyst אומר: \"אלפבית דוחות ב-22 ביולי. בדיקות מצביעות על צמיחה חזקה בחיפוש הקמעונאי, עם כמה...",
+      "summary_he": "",
+      "body_en": "BofA Reiterates Buy Rating on $GOOGL, PT $430; ER Preview Analyst comments: \"Alphabet reports on July 22. Checks suggest strong retail search growth, with some softness in consumer packaged goods and ",
+      "ticker": "$GOOGL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077690424827990073#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNVwbPZaIAAB_Ge.png",
+      "relative_time": "לפני 43ד׳",
+      "published_at": "2026-07-16T09:42:53+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ביירד יוזם סיקור על $FPS עם דירוג ביצועים גבוהים, PT $55 הערות אנליסטים: \"Forgent נבנה ייעודי עבור תשתית הבינה המלאכותית...",
+      "summary_he": "",
+      "body_en": "Baird Initiates Coverage on $FPS with Outperform Rating, PT $55 Analyst comments: \"Forgent was purpose-built for the artificial intelligence infrastructure build-out, embracing a strong growth and mar",
+      "ticker": "$FPS",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077689096080859577#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 48ד׳",
+      "published_at": "2026-07-16T09:37:36+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אנליסט קפיטלון קונור מרפי שדרג $OKTA, $PANW לעודף משקל.",
+      "summary_he": "",
+      "body_en": "CAPITALONE ANALYST CONNOR MURPHY UPGRADED $OKTA, $PANW TO OVERWEIGHT.",
+      "ticker": "$OKTA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077688761992069498#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 49ד׳",
+      "published_at": "2026-07-16T09:36:17+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$TSM רווחים ברבעון 2 • הכנסות $40.2B לעומת משוער $39.3B • EPS $4.31 לעומת משוער $3.83 • שיעור רווח גולמי 68% לעומת משוער. 67% • רווח נקי 22.4 מיליארד דולר לעומת משוער $19.7B • צמתים מתקדמים...",
+      "summary_he": "",
+      "body_en": "$TSM Q2 EARNINGS • Revenue $40.2B vs Est. $39.3B • EPS $4.31 vs Est. $3.83 • Gross margin 68% vs Est. 67% • Net income $22.4B vs Est. $19.7B • Advanced nodes (≤7nm) were 77% of wafer revenue Q3 Guidan",
+      "ticker": "$TSM",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077688749761454335#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNVt_SOa0AA0QXh.png",
+      "relative_time": "לפני 49ד׳",
+      "published_at": "2026-07-16T09:36:14+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מזל\"ט התנגש לתוך מיכלית נפט בטרמינל בסרה בעיראק, ללא נזקים או שריפה - ארבעה מקורות נפט וביטחון עיראקים",
+      "summary_he": "",
+      "body_en": "DRONE CRASHED INTO OIL TANKER IN IRAQ'S BASRA TERMINAL, NO DAMAGES OR FIRE - FOUR IRAQI OIL AND SECURITY SOURCES",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2077688279319658899#m",
+      "tag": "ENERGY",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 51ד׳",
+      "published_at": "2026-07-16T09:34:22+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "ריימונד ג'יימס משדרג $AVAV לביצועים טובים יותר מביצועי השוק, מציב את PT על $210 הערות אנליסטים: \"מאז מרץ, המניות ירדו ב-55% לעומת S&P 500...",
+      "summary_he": "",
+      "body_en": "Raymond James Upgrades $AVAV to Outperform from Market Perform, Sets PT at $210 Analyst comments: \"Since March, shares have declined 55% versus the S&P 500’s approximately 10% return, while forward EB",
+      "ticker": "$AVAV",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2077687771486147003#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNVuAzYaoAAfAGp.png",
+      "relative_time": "לפני 53ד׳",
+      "published_at": "2026-07-16T09:32:20+00:00",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "BREAKING: רווחי $TSM: - EPS: $4.31, משוער: $3.77 - הכנסה: $40.20 מיליארד, משוער: $39.7 מיליארד",
       "summary_he": "",
       "body_en": "BREAKING: $TSM earnings: - EPS: $4.31, est: $3.77 - Revenue: $40.20 billion, est: $39.7 billion",
@@ -865,12 +1061,12 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-16T06:40:23+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "סיכוי של 78% להנפקות אנתרופיות ב-31 בדצמבר 2026, לפי פולימרקט:",
+      "title_he": "סיכוי של 78% להנפקות אנתרופיות ב-31 בדצמבר 2026, לכל Polymarket:",
       "summary_he": "",
       "body_en": "78% chance Anthropic IPOs on December 31, 2026, per Polymarket:",
       "ticker": "",
@@ -879,92 +1075,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNU1W45bEAAo1ub.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-16T05:25:19+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$RKLB אמור לזכות בשבב PNT של אירידיום שעבר לזמינות מסחרית היום ומספק אותות מיקום ותזמון LEO מאומתים ~1,000x...",
-      "summary_he": "",
-      "body_en": "$RKLB is set to gain Iridium’s PNT chip which moved to commercial availability today and delivers authenticated LEO positioning and timing signals ~1,000x stronger than GPS. The technology already has",
-      "ticker": "$RKLB",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077550909803102256#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077550764747300864%2Fimg%2FJl0cMrZNlOHemAax.jpg",
-      "relative_time": "לפני 7ש׳",
-      "published_at": "2026-07-16T00:28:30+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$NVDA מרחיבה את השותפות שלה בטויוטה מעבר לנהיגה אוטונומית, ומספקת חומרה ותוכנה של בינה מלאכותית לערים חכמות, מערכות תנועה ומפעלים. טויוטה…",
-      "summary_he": "",
-      "body_en": "$NVDA is expanding its Toyota partnership beyond autonomous driving, supplying AI hardware and software for smart cities, traffic systems and factories. Toyota will use Nvidia tech in Woven City, plus",
-      "ticker": "$NVDA",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077550130899939700#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNTw0lcbcAAsqkW.jpg",
-      "relative_time": "לפני 7ש׳",
-      "published_at": "2026-07-16T00:25:24+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Cathie Wood קנתה ~17 מיליון דולר של SPCX היום.",
-      "summary_he": "",
-      "body_en": "Cathie Wood bought ~$17M of $SPCX today.",
-      "ticker": "$SPCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077546580455116960#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNTtlPVbAAAx0oV.png",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-16T00:11:18+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "על פי הדיווחים, אלי לילי $LLY מנהל מגעים לרכישת יצרנית הסמים הפסיכדלית AtaiBeckley $ATAI, לפי בלומברג. עסקה עשויה להתפרסם כבר השבוע.…",
-      "summary_he": "",
-      "body_en": "Eli Lilly $LLY is reportedly in talks to acquire psychedelic drugmaker AtaiBeckley $ATAI, per Bloomberg. A deal could be announced as soon as this week. AtaiBeckley has a market value of about $2B, an",
-      "ticker": "$LLY",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077543866316808555#m",
-      "tag": "M&A",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNTqqj8a8AE9cCu.jpg",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-16T00:00:31+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "פתוח מאוד @OpenChampionship ... סקוטי 12% סיכוי לזכות, רורי 8% @kalshi https://kalshi.com/markets/kxpgatour/pga-tour/kxpgatour-thoc26",
-      "summary_he": "",
-      "body_en": "Very wide open @OpenChampionship ... Scottie 12% chance to win, Rory 8% @kalshi https://kalshi.com/markets/kxpgatour/pga-tour/kxpgatour-thoc26",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2077542933222367649#m",
-      "tag": "NEWS",
-      "article_url": "https://kalshi.com/markets/kxpgatour/pga-tour/kxpgatour-thoc26",
-      "tweet_image": "https://nitter.net/pic/media%2FHNTqSfTW4AAoXyN.jpg",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-15T23:56:48+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$NVDA וטויוטה מרחיבות את השותפות שלהן לרובוטיקה, מפעלי תאומים דיגיטליים ותשתית עיר חכמה. טויוטה תשתמש ב-Nvidia Drive עבור...",
-      "summary_he": "",
-      "body_en": "$NVDA and Toyota are expanding their partnership into robotics, digital-twin factories and smart-city infrastructure. Toyota will use Nvidia Drive for next-generation L2+ vehicles while deploying Omni",
-      "ticker": "$NVDA",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077542113290731624#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNTpiuMasAAwPlp.png",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-15T23:53:33+00:00",
       "sentiment": "neutral"
     },
     {
@@ -977,36 +1089,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNTpNokXQAAf_Fp.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-15T23:52:44+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: $NVDA גם חתך את הגודל של מחשב הרובוטיקה Thor שלה לשניים מבלי להקריב את הביצועים:",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: $NVDA also cut the size of its Thor robotics computer in half without sacrificing performance:",
-      "ticker": "$NVDA",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077539869715501325#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNTngElbUAAhByx.jpg",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-15T23:44:38+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$NVDA פשוט חתכה את מחשב ה-THOR ROBOTICS שלו לחצי מהגודל והעוצמה המודול T3000 החדש הוא בערך חצי מהגודל והעוצמה של ה-T5000 של NVIDIA, בעוד...",
-      "summary_he": "",
-      "body_en": "$NVDA JUST CUT ITS THOR ROBOTICS COMPUTER TO HALF THE SIZE AND POWER The new T3000 module is roughly half the size and power of NVIDIA’s T5000, while delivering similar inference performance on multim",
-      "ticker": "$NVDA",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077538492989759789#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNTmOr4aAAA7kpL.jpg",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-15T23:39:10+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1019,23 +1103,9 @@
       "tag": "EARNINGS",
       "article_url": "https://www.cnbc.com/video/2026/07/15/dan-ives-q2-earnings-will-be-the-driver-for-mega-cap-stocks.html",
       "tweet_image": "https://nitter.net/pic/media%2FHNTCnslW0AAM3kb.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-15T23:36:40+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "גוגנהיים משדרגת $NXT לקנייה מ-Netral, מעמידה PT על $125 הערות אנליסטים: \"אנחנו משדרגים את Nextracker ל-Buy ומקים PT של $125, שערך...",
-      "summary_he": "",
-      "body_en": "Guggenheim Upgrades $NXT to Buy from Neutral, Sets PT at $125 Analyst comments: \"We are upgrading Nextracker to Buy establishing a $125 PT, which would value the company at approximately 18x our calen",
-      "ticker": "$NXT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077536969261998538#m",
-      "tag": "NEWS",
-      "article_url": "https://gamestock.onelink.me/lWtY/g527hpgn",
-      "tweet_image": "",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-15T23:33:06+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "R ל-@sonusvarghese: 🎧 🍎 https://podcasts.apple.com/us/podcast/heres-our-midyear-outlook-2026-fvf-ep-196/id1651235114?i=1000776884457 Spotify…",
@@ -1047,7 +1117,7 @@
       "tag": "TECH",
       "article_url": "https://podcasts.apple.com/us/podcast/heres-our-midyear-outlook-2026-fvf-ep-196/id1651235114?i=1000776884457",
       "tweet_image": "",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-15T22:42:49+00:00",
       "sentiment": "neutral"
     },
@@ -1061,23 +1131,9 @@
       "tag": "MACRO",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-15T22:38:44+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "למומנטום הטכנולוגיה היה הרגע החד ביותר של 17 יום זה 27 שנים. קצב השינוי של 17 יום בגורם MS Tech Momentum ירד בכ-35%, הקריאה הגרועה ביותר ב...",
-      "summary_he": "",
-      "body_en": "Tech momentum just had its sharpest 17-day unwind in 27 years. The 17-day rate of change in the MS Tech Momentum factor is down about 35%, the worst reading in the data back to 1999. h/t @jvisserlabs",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077522070096023761#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNTXTVNaIAAyVUk.jpg",
-      "relative_time": "לפני 9ש׳",
-      "published_at": "2026-07-15T22:33:54+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "RT מאת @DivesTech: מהפכת הבינה המלאכותית והטכנולוגיה נותנת מוקד מרכזי עבור השווקים לקראת עונת הרווחים של 2Q, מכיוון שהמונטיזציה נמצאת בראש ובמרכז @CNBCClosingBell...",
@@ -1089,7 +1145,7 @@
       "tag": "EARNINGS",
       "article_url": "https://www.cnbc.com/video/2026/07/15/dan-ives-q2-earnings-will-be-the-driver-for-mega-cap-stocks.html",
       "tweet_image": "https://nitter.net/pic/media%2FHNTCnslW0AAM3kb.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-15T21:36:41+00:00",
       "sentiment": "neutral"
     },
@@ -1103,22 +1159,8 @@
       "tag": "FED",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRXbHOWsAEchDJ.png",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-15T21:35:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @MikeZaccardi: מעבר ל-IBM: איך לזהות את ההתמוטטות הטכנית הגדולה הבאה של השוק רוצה לזהות את המפסידים הגדולים הבאים של השוק לפני שהם מגיעים לכותרות?...",
-      "summary_he": "",
-      "body_en": "RT by @MikeZaccardi: Beyond IBM: How to Spot the Market’s Next Major Technical Breakdown Want to spot the market's next big losers before they make headlines? Using $IBM as a case study, see how @Mike",
-      "ticker": "$IBM",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/StockCharts/status/2077506240897269982#m",
-      "tag": "NEWS",
-      "article_url": "https://schrts.co/aAcjPwEJ",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2077463372409245697%2FmawPL73F%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 10ש׳",
-      "published_at": "2026-07-15T21:31:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1131,26 +1173,12 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRXXmWWgAAkzSp.png",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-15T21:30:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @StockSavvyShay: $ASML מייצרת את המכונות שכל שבב בינה מלאכותית מתקדם תלוי בהן ופשוט העלו את תחזית 2026 שלו בפעם השנייה השנה. כַּאֲשֵׁר…",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $ASML makes the machines that every advanced AI chip depends on and just raised its 2026 outlook for the second time this year. When $TSM $INTC $SKHY and $MU place orders with A",
-      "ticker": "$ASML",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077505718295666902#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077505678755999745%2Fimg%2F0LhDxhvgEg9CSwf7.jpg",
-      "relative_time": "לפני 10ש׳",
-      "published_at": "2026-07-15T21:28:56+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מדד Mag 7 $MAGS עלה היום ב-2.3% לעומת ירידה של 0.4% במניה הממוצעת ב-S&P 500. עוד יום שבו המחיר והרוחב הלכו בכיוונים מנוגדים.…",
+      "title_he": "Mag 7 $MAGS עלה היום ב-2.3% לעומת ירידה של 0.4% במניה הממוצעת ב-S&P 500. עוד יום שבו המחיר והרוחב הלכו בכיוונים מנוגדים.…",
       "summary_he": "",
       "body_en": "The Mag 7 $MAGS gained 2.3% today versus a drop of 0.4% for the average stock in the S&P 500. Another day where price and breadth went in opposite directions. The norm for 2026.",
       "ticker": "$MAGS",
@@ -1159,37 +1187,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-15T20:25:45+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "רווחי הבנק... נקיון @CNBC",
-      "summary_he": "",
-      "body_en": "Bank earnings... clean sweep @CNBC",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2077480977190859180#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNSx7L6W4AEs_WX.jpg",
-      "relative_time": "לפני 12ש׳",
-      "published_at": "2026-07-15T19:50:37+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הבנקים האזוריים של $KRE ממש ליד שיא של 52 שבועות",
-      "summary_he": "",
-      "body_en": "$KRE Regional Banks right near 52wk highs",
-      "ticker": "$KRE",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2077479958406942763#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNSxA3SWQAAQ3bb.png",
-      "relative_time": "לפני 12ש׳",
-      "published_at": "2026-07-15T19:46:34+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "מניות PAYPAL עולות היום בהצעת השתלטות פוטנציאלית של 53 מיליארד דולר מ-Stripe PAYPAL -> מרוויחים 5 מיליארד דולר+ בשנה וגדלים -> קונים בחזרה 7% מה...",
@@ -1201,26 +1201,12 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSqhoLWAAAnYP9.jpg",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-15T19:18:13+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "קָדוֹשׁ. תראה את זה. מישהו ידע על הצעת הרכישה של Stripe לגבי Paypal, $PYPL. סוחר תקע 300 אלף דולר לשיחות של PYPL 50 דולר שפג תוקפם ב-08/07/2026 לפני...",
-      "summary_he": "",
-      "body_en": "Holy. Look at this. Someone knew about Stripe's acquisition offer about Paypal, $PYPL. A trader slammed $300k into $PYPL 50 calls expiring 08/07/2026 before the news last week (and other strikes). The",
-      "ticker": "$PYPL",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077465391761445279#m",
-      "tag": "M&A",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNShnKqbAAAeoOm.jpg",
-      "relative_time": "לפני 13ש׳",
-      "published_at": "2026-07-15T18:48:41+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Financials רכשה עכשיו יתר על המידה 22 לימים ישרים...",
+      "title_he": "Financials רכשה כעת יתר על המידה 22 לימים רצופים...",
       "summary_he": "",
       "body_en": "Financials Now Overbought 22 for Straight Days https://open.substack.com/pub/bespokeinvest/p/financials-now-overbought-22-for?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
       "ticker": "",
@@ -1229,7 +1215,7 @@
       "tag": "NEWS",
       "article_url": "https://open.substack.com/pub/bespokeinvest/p/financials-now-overbought-22-for?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
       "tweet_image": "",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-15T17:36:30+00:00",
       "sentiment": "neutral"
     },
@@ -1243,7 +1229,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNP33IvbYAAUHtx.jpg",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-15T16:15:59+00:00",
       "sentiment": "bearish"
     },
@@ -1257,7 +1243,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-15T16:08:32+00:00",
       "sentiment": "neutral"
     },
@@ -1271,12 +1257,44 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNRHl8tWoAEEaqS.jpg",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 22ש׳",
       "published_at": "2026-07-15T12:05:59+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "תאונת דרכים קטלנית בכביש 65: עצרה בצד לבדיקת שוטר - ונדרסה למוות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854005",
+      "tag": "כללי",
+      "published_at": "2026-07-16T13:05:00+00:00"
+    },
+    {
+      "title_he": "פרשת הרצח בנחלאות: הוארך מעצרה של בת הזוג לשעבר של בניהו רזי",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3853807",
+      "tag": "כללי",
+      "published_at": "2026-07-16T11:54:00+00:00"
+    },
+    {
+      "title_he": "אחרי שבועיים של שתיקה: תרגיל החקירה שגרם לחשוד ברצח הרב עמוס גואטה להתחיל לדבר",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3853982",
+      "tag": "כללי",
+      "published_at": "2026-07-16T11:51:00+00:00"
+    },
+    {
+      "title_he": "אושרה תוכנית השיקום לפצועי צה\"ל - בארגון נכי צה\"ל בירכו, משפחות הפצועים: \"המענה אינו מספק\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3853952",
+      "tag": "כללי",
+      "published_at": "2026-07-16T10:40:00+00:00"
+    },
     {
       "title_he": "המאבק בפרוטקשן: זינוק של עשרות אחוזים בתיקי החקירה ובכתבי האישום",
       "summary_he": "",
@@ -1286,7 +1304,7 @@
       "published_at": "2026-07-16T10:19:00+00:00"
     },
     {
-      "title_he": "רופא ילדים מלוד נאשם: ביצע שורת מעשים מגונים בעובדת מרפאה בתל אביב | מיד כל הפרטים",
+      "title_he": "רופא ילדים מלוד נאשם: ביצע שורת מעשים מגונים בעובדת מרפאה בתל אביב | כל הפרטים",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3853931",
@@ -1324,38 +1342,6 @@
       "link": "https://news.walla.co.il/item/3853878",
       "tag": "כללי",
       "published_at": "2026-07-16T06:00:00+00:00"
-    },
-    {
-      "title_he": "פעילת המשט לעזה טוענת לגרדיאן: \"נאנסתי במהלך מעצרי בישראל\"; תלונה הוגשה לרשויות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853874",
-      "tag": "כללי",
-      "published_at": "2026-07-16T06:00:00+00:00"
-    },
-    {
-      "title_he": "הממשלה אישרה: השב\"כ יצטרף למלחמה בארגוני הפשיעה בחברה הערבית",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853853",
-      "tag": "כללי",
-      "published_at": "2026-07-15T22:43:00+00:00"
-    },
-    {
-      "title_he": "מעל 70 ראשי רשויות נגד חוקי ההשתמטות: \"פגיעה קשה בחוסן הלאומי\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853820",
-      "tag": "כללי",
-      "published_at": "2026-07-15T20:02:00+00:00"
-    },
-    {
-      "title_he": "רצח בניהו רזי בנחלאות: שוטרת נחקרה בחשד לשיבוש הליכים והפרת אמונים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853807",
-      "tag": "כללי",
-      "published_at": "2026-07-15T18:54:00+00:00"
     }
   ],
   "track_record": {
