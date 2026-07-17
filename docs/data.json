@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T22:20:54.043189+00:00",
+  "generated_at": "2026-07-17T23:23:41.456280+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-17T22:20:54.043211+00:00",
+  "ta_generated_at": "2026-07-17T23:23:41.456299+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,977",
-      "change": "+0.30%",
+      "value": "$63,899",
+      "change": "+0.17%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.29534623336551813
+      "pct_raw": 0.17356884090261332
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,48 @@
   },
   "us_news": [
     {
+      "title_he": "R ל-@unusual_whales: מחיר המכירה החציוני בארה\"ב עלה ב-1.8% ביוני לעומת שנה קודם ל-440,600 דולר, שיא של כל הזמנים בנתונים משנת 1999, אמר NAR...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: The U.S. median sales price increased 1.8% in June from a year earlier to $440,600, an all-time high on data going back to 1999, NAR said Read more: https://unusualwhales.com/new",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078252908768879045#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/us-home-prices-36-straight-months-record-high",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078217241091563520%2F6HPjkq_Y%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 25ד׳",
+      "published_at": "2026-07-17T22:58:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "35% חוק הבהירות נחתם לחוק בשנת 2026, לפי Polymarket:",
+      "summary_he": "",
+      "body_en": "35% the Clarity Act is signed into law in 2026, per Polymarket:",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078249174945214596#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNdsjxcbwAAddi5.jpg",
+      "relative_time": "לפני 40ד׳",
+      "published_at": "2026-07-17T22:43:09+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: טראמפ שלח יותר מ-6,000 פוסטים של Truth Social בשנה שעברה ומנהליו ביצעו יותר מ-20,000 רכישות או מכירות של מניות באותו זמן...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: Trump sent more than 6,000 Truth Social posts last year and his managers made more than 20,000 stock purchases or sales in that same time frame. Read more: https://unusualwhales.",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078246114269282724#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/trump-truth-social-stock-promotion-cnn",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078246156623400960%2FzPF8ZmS6%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 52ד׳",
+      "published_at": "2026-07-17T22:31:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "R ל-@StockSavvyShay: תיקון בורי אמר \"אני שומר על חשיפה קצרה כאן על ידי שמירה על חצי.\"",
       "summary_he": "",
       "body_en": "R to @StockSavvyShay: Correction Burry said “I maintain short exposure here by retaining half.”",
@@ -865,7 +907,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 56ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-17T21:24:20+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +921,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-17T21:17:39+00:00",
       "sentiment": "neutral"
     },
@@ -893,22 +935,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNdVi_YbcAA8xxC.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-17T21:03:56+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "המעיל של Jensen Huang מ-Nvidia, $NVDA, נמכר זה עתה במכירה פומבית של כמעט מיליון דולר בסותביס.",
-      "summary_he": "",
-      "body_en": "Jensen Huang's of Nvidia, $NVDA, jacket just auctioned for nearly $1 million at Sotheby's.",
-      "ticker": "$NVDA",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078222709922894303#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-17T20:58:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -921,23 +949,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-17T20:34:49+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "טראמפ אומר שקנדה תעמוד בפני מכסים על עשן שריפות בטענה \"רשלנות מכוונת\"",
-      "summary_he": "",
-      "body_en": "Trump says Canada will face tariffs over wildfire smoke, claiming ‘willful negligence’",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078215915292823609#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-17T20:31:00+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "הנפט הגולמי מסוג ברנט זינק השבוע ב-16%. 88 דולר",
@@ -949,9 +963,23 @@
       "tag": "ENERGY",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNdMxTkXgAE3fyk.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-17T20:24:02+00:00",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "טראמפ מאיים על קנדה על שריפות יער הנשיא טראמפ האשים את קנדה באי ניהול יערותיה ופסולת השריפות שלה, והאשים את המדינה במעבר גבולות...",
+      "summary_he": "",
+      "body_en": "TRUMP THREATENS CANADA OVER WILDFIRES President Trump accused Canada of failing to manage its forests and wildfire debris, blaming the country for cross-border smoke pollution. He said he would speak ",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078199755977736263#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 3ש׳",
+      "published_at": "2026-07-17T19:26:47+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "*טראמפ: מחזיקה בקנדה באחריות לעובדה שהם לא שומרים כראוי על היערות שלהם *טראמפ: יש להוסיף עלויות של זיהום אוויר קנדי ​​ל...",
@@ -963,12 +991,26 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T19:25:55+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$SPCX מנהל מגעים לספק כוח מחשוב לפנטגון. ההסכם הפוטנציאלי עשוי להיות שווה \"כמה מיליארדי דולרים\".",
+      "title_he": "$SPCX - SPACEX בשיחות עם פנטגון, לפי הדיווחים, SpaceX מנהלת משא ומתן עם משרד ההגנה האמריקני כדי לספק מיליארדי דולרים בקיבולת מרכזי נתונים...",
+      "summary_he": "",
+      "body_en": "$SPCX - SPACEX IN TALKS WITH PENTAGON SpaceX is reportedly negotiating with the U.S. Defense Department to provide billions of dollars in data-center capacity for AI workloads. The deal would support ",
+      "ticker": "$SPCX",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078199221929288038#m",
+      "tag": "M&A",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 3ש׳",
+      "published_at": "2026-07-17T19:24:40+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SPCX מנהל מגעים לספק כוח מחשוב לפנטגון. ההסכם הפוטנציאלי עשוי להיות בשווי של \"כמה מיליארדי דולרים\".",
       "summary_he": "",
       "body_en": "$SPCX is in talks to provide computing power to the Pentagon. The potential agreement could be worth “several billion dollars.”",
       "ticker": "$SPCX",
@@ -977,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNc7rFKbcAAhsTW.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T19:09:21+00:00",
       "sentiment": "neutral"
     },
@@ -991,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T19:06:44+00:00",
       "sentiment": "neutral"
     },
@@ -1005,7 +1047,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T19:02:21+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +1061,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNc2VNbXoAAkiul.png",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T18:46:00+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcy65gaUAAjf2B.png",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T18:32:18+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1089,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078176518375612416%2Fimg%2FQF2hnlZvawjetjhX.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T18:30:00+00:00",
       "sentiment": "neutral"
     },
@@ -1061,12 +1103,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcw8y8WYAAm6db.png",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T18:22:29+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "יום שישי האדום הזה מפריע לך? רוצה חדשות טובות? בעקבות ביקוש פופולרי במיוחד, יש לנו את @JC_ParetsX להצטרף אלינו בשבוע הבא ב-Facts vs Feelings 🥳...",
+      "title_he": "יום שישי האדום הזה מפריע לך? רוצה חדשות טובות? בחזרה לפי ביקוש פופולרי במיוחד, יש לנו את @JC_ParetsX להצטרף אלינו בשבוע הבא ב-Facts vs Feelings 🥳...",
       "summary_he": "",
       "body_en": "Does this red Friday have you down? Want some good news? Back by extremely popular demand, we have @JC_ParetsX set to join us next week on Facts vs Feelings 🥳 🎉 ⌛ 💥",
       "ticker": "",
@@ -1075,23 +1117,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNctpduW4AA3Vp9.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T18:08:05+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "$SPCX צפוי להכפיל כמעט פי ארבעה את הכנסותיו במהלך שלוש השנים הקרובות. הוא כבר שולט בהשקה, מדרג את אחד מהחשובים בעולם...",
-      "summary_he": "",
-      "body_en": "$SPCX is expected to nearly quadruple its revenue over the next three years. It already dominates launch, is scaling one of the world’s most important connectivity networks, is building AI compute at ",
-      "ticker": "$SPCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078175566952587714#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNco5fMbkAAyE1g.png",
-      "relative_time": "לפני 4ש׳",
-      "published_at": "2026-07-17T17:50:40+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "תודה לחבר שלי @Lawrence_Sprung מ- @MitlinFinancial על שחזרתי ל- @MitlinMoney! זה תמיד כבוד והמון כיף. שוחחנו על אמצע השנה שלנו...",
@@ -1103,7 +1131,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/wNbznrmosic?is=yTOmM_7N04tPOhi4",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078173509402968064%2FxUpvwnPk%3Fformat%3Djpg%26name%3D800x320_1",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T17:42:28+00:00",
       "sentiment": "neutral"
     },
@@ -1117,7 +1145,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNck1aHXIAAA9-b.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T17:39:40+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1159,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T17:27:43+00:00",
       "sentiment": "bearish"
     },
@@ -1145,7 +1173,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcjBW5XYAA-bjR.png",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T17:21:51+00:00",
       "sentiment": "neutral"
     },
@@ -1159,7 +1187,7 @@
       "tag": "TECH",
       "article_url": "https://www.bloomberg.com/news/videos/2026-07-17/we-re-in-third-inning-of-ai-revolution-ives-says-video",
       "tweet_image": "https://nitter.net/pic/media%2FHNb7IPSWYAA9a5h.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T16:36:01+00:00",
       "sentiment": "neutral"
     },
@@ -1173,12 +1201,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcK7FFWwAAzh55.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-17T15:38:49+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "SanDisk (SNDK) עלתה ב-10% מהשפל התוך-יומי שלה, והשוק עוד לא נפתח אפילו שעה. $SNDK",
+      "title_he": "SanDisk (SNDK) עלתה ב-10% מהשפל התוך-יומי שלה, והשוק עדיין לא נפתח שעה. $SNDK",
       "summary_he": "",
       "body_en": "SanDisk (SNDK) up 10% from its intraday low, and the market hasn't even been open an hour yet. $SNDK",
       "ticker": "$SNDK",
@@ -1187,7 +1215,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNb7Kw7XQAAJVFK.png",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T14:27:44+00:00",
       "sentiment": "neutral"
     },
@@ -1201,12 +1229,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbvozeaYAEsqbm.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-17T13:45:29+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$NFLX, המניה, תסתובב ותפעל במהירות כשתעשה זאת. זה מוכה עכשיו אבל ההגנה הזו עושה קאמבק. זה צריך לשבור את הבמה התלולה...",
+      "title_he": "$NFLX, המניה, תסתובב ותפעל במהירות כשתעשה זאת. זה מובס כרגע אבל ההגנה הזו עושה קאמבק. זה צריך לשבור את השלב התלול...",
       "summary_he": "",
       "body_en": "$NFLX, the stock, will turnaround and run quickly when it does. It's beaten down right now but this one def makes a comeback. It needs to break the steep stage 4 decline. No position.",
       "ticker": "$NFLX",
@@ -1215,12 +1243,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbngUpWQAAZyXj.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T13:01:37+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "$RDDT - $185.26, בונה באופן פעיל בסיס בצורת גביע של שבעה חודשים ליד ה-200d ma. פריצה, עם או בלי מבנה ידית (פעם בצד ימין...",
+      "title_he": "$RDDT - $185.26, בונה באופן פעיל בסיס בצורת כוס של שבעה חודשים ליד ה-200d ma. פריצה, עם או בלי היווצרות ידית (פעם בצד ימין...",
       "summary_he": "",
       "body_en": "$RDDT - $185.26, is actively building a seven month cup shaped base near the 200d ma. A breakout, with or without a handle formation (once the right side completes), likely takes the stock to $250+ A ",
       "ticker": "$RDDT",
@@ -1229,7 +1257,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbbD0OWIAA1nYj.png",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-17T12:08:59+00:00",
       "sentiment": "neutral"
     },
@@ -1243,7 +1271,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-17T10:07:44+00:00",
       "sentiment": "bearish"
     },
@@ -1257,22 +1285,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-17T08:17:57+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "רק ב: SPACEX ביטל את משימת המבחן העיקרית של STARSHIP ROCKET ברגע האחרון $SPCX",
-      "summary_he": "",
-      "body_en": "JUST IN : SPACEX HAS JUST CALLED OFF IT’S MAJOR TEST MISSION OF STARSHIP ROCKET AT THE LAST MOMENT $SPCX",
-      "ticker": "$SPCX",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2077889217858798031#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNYlO1UW0AAQfs1.jpg",
-      "relative_time": "לפני 23ש׳",
-      "published_at": "2026-07-16T22:52:49+00:00",
       "sentiment": "bearish"
     }
   ],
