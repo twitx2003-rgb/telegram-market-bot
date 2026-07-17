@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T06:14:57.486207+00:00",
+  "generated_at": "2026-07-17T08:34:29.226293+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-17T06:14:57.486225+00:00",
+  "ta_generated_at": "2026-07-17T08:34:29.226317+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "16.73",
-      "change": "+6.76%",
+      "value": "18.52",
+      "change": "+10.70%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 6.764518187619658
+      "pct_raw": 10.699342498505674
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$3,994.6",
-      "change": "+0.06%",
+      "value": "$3,995.0",
+      "change": "+0.07%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.06262368177149871
+      "pct_raw": 0.07264347085494079
     },
     {
       "name": "נפט ברנט",
-      "value": "$83.9",
-      "change": "-0.40%",
-      "direction": "down",
+      "value": "$84.6",
+      "change": "+0.39%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.4036566543986744
+      "pct_raw": 0.3917843998575309
     },
     {
       "name": "ביטקוין",
-      "value": "$62,747",
-      "change": "-1.63%",
+      "value": "$62,666",
+      "change": "-1.76%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.6324770523374537
+      "pct_raw": -1.759584557240807
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,156",
-      "change": "-0.95%",
+      "value": "4,123",
+      "change": "-0.80%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.9451656184686184
+      "pct_raw": -0.8040554033148656
     },
     {
       "name": "דולר/שקל",
-      "value": "3.035",
-      "change": "+0.50%",
+      "value": "3.049",
+      "change": "+0.94%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.49662296384585236
+      "pct_raw": 0.936961991789174
     }
   ],
   "sectors": [
@@ -856,6 +856,160 @@
   },
   "us_news": [
     {
+      "title_he": "$NFLX - מניות נטפליקס יורדות ב-9.2% לפני השוק לאחר תחזיות שיתוף פעולה ברבעון השלישי, הרווח מתחת לאומדנים",
+      "summary_he": "",
+      "body_en": "$NFLX - NETFLIX SHARES DROP 9.2% PREMARKET AFTER CO FORECASTS Q3 REVENUE, PROFIT BELOW ESTIMATES",
+      "ticker": "$NFLX",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078033997964165520#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 5ד׳",
+      "published_at": "2026-07-17T08:28:07+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SPCX - מניות SPACEX נופלות ב-4.7% לפני השוק; רקטת הכוכבים של CO מפסיקה לפני ההרמה",
+      "summary_he": "",
+      "body_en": "$SPCX - SPACEX SHARES FALL 4.7% PREMARKET; CO'S STARSHIP ROCKET ABORTS BEFORE LIFTOFF",
+      "ticker": "$SPCX",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078033817185427535#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 6ד׳",
+      "published_at": "2026-07-17T08:27:24+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אפל עלתה ב-0.6% לפני השוק לאחר העלאת HSBC לקנייה מ-HOLD",
+      "summary_he": "",
+      "body_en": "APPLE SHARES UP 0.6% PREMARKET AFTER HSBC RAISES TO BUY FROM HOLD",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078033423151604149#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 8ד׳",
+      "published_at": "2026-07-17T08:25:50+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$AAPL - APPLE INC: HSBC מעלה לקנייה מ-Hold; מעלה את מחיר היעד ל-$366 מ-$260",
+      "summary_he": "",
+      "body_en": "$AAPL - APPLE INC: HSBC RAISES TO BUY FROM HOLD; RAISES TARGET PRICE TO $366 FROM $260",
+      "ticker": "$AAPL",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078033122751328376#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 9ד׳",
+      "published_at": "2026-07-17T08:24:39+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$META שוכרת את דייב בראון, אחד מבכירי תשתיות המחשוב של AWS, מכיוון שהיא מרחיבה את בניית מרכז הנתונים בינה מלאכותית שלה ושוקלת דחיפה בענן,...",
+      "summary_he": "",
+      "body_en": "$META is hiring Dave Brown, one of AWS’s most senior computing infrastructure executives, as it expands its AI data center buildout and weighs a cloud push, per WSJ. Brown spent nearly 19 years at Ama",
+      "ticker": "$META",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2078032250562838999#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNanUDza0AIQNis.png",
+      "relative_time": "לפני 12ד׳",
+      "published_at": "2026-07-17T08:21:11+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "NASDAQ 100 FUTURES מאריך את ההפסדים ל-2% 📉📉📉📉📉",
+      "summary_he": "",
+      "body_en": "NASDAQ 100 FUTURES EXTEND LOSSES TO 2% 📉📉📉📉📉",
+      "ticker": "",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2078031437010251935#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 16ד׳",
+      "published_at": "2026-07-17T08:17:57+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "HSBC משדרג AAPL $ לקנייה מ-Hold, מעלה את PT ל-$366 מ-$260 הערות אנליסטים: \"עד כה, שמרנו על גישה זהירה כלפי אפל עם דירוג Hold.…",
+      "summary_he": "",
+      "body_en": "HSBC Upgrades $AAPL to Buy from Hold, Raises PT to $366 from $260 Analyst comments: \"Thus far, we had retained a cautious approach on Apple with a Hold rating. We had preferred other segments of the a",
+      "ticker": "$AAPL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2078027448122556912#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNai8dUbUAA2cLO.jpg",
+      "relative_time": "לפני 31ד׳",
+      "published_at": "2026-07-17T08:02:06+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "JPMorgan משדרג $MMM למשקל עודף מנייטרלי, מעלה PT ל$180 מ-$178 הערות אנליסטים: \"אנו רואים צמיחה משתלטת על 3M, מה שנדרש כדי להניע...",
+      "summary_he": "",
+      "body_en": "JPMorgan Upgrades $MMM to Overweight from Neutral, Raises PT to $180 from $178 Analyst comments: \"We see growth taking hold at 3M, which is required to drive the next leg of EPS growth, with short-cyc",
+      "ticker": "$MMM",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2078027346490360306#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNai2cNasAAY6ch.jpg",
+      "relative_time": "לפני 32ד׳",
+      "published_at": "2026-07-17T08:01:41+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "Zhipu, בדרך להפוך לחברת דגמי הבינה המלאכותית הסינית הראשונה שמגיעה ל-1 מיליארד דולר ב-ARR, לאחר שהשיגה את יעד המכירות שלה לשנה כולה ביולי, לפי בלומברג. עֲבוּר…",
+      "summary_he": "",
+      "body_en": "Zhipu, is on track to become the first Chinese AI model company to reach $1B in ARR, after hitting its full-year sales target in July, per Bloomberg. For comparison: → Moonshot reported $200M in recur",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2078024253749030933#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNagCmVbEAAPlMI.png",
+      "relative_time": "לפני 44ד׳",
+      "published_at": "2026-07-17T07:49:24+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: מצפה לדון במניות טכנולוגיה ב-@BloombergTV בשעה 8:15 בבוקר עם @FerroTV @lisaabramowicz1 @annmarie @business 🏆🍿📺",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: Look forward to discussing tech stocks on @BloombergTV at 8:15 am with @FerroTV @lisaabramowicz1 @annmarie @business 🏆🍿📺",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/DivesTech/status/2078022786467897414#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 50ד׳",
+      "published_at": "2026-07-17T07:43:34+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אירועי המפתח של היום (הכל EST) — 07/17 08:30: מחירי יבוא ארה\"ב מאת 08:30: התחלת דיור בארה\"ב 09:15: ייצור תעשייתי בארה\"ב בשנה 10:00: אוניברסיטת מישיגן...",
+      "summary_he": "",
+      "body_en": "Today's Key Events (All EST) — 07/17 08:30: US Import Prices MoM 08:30: US Housing Starts 09:15: US Industrial Production YoY 10:00: University of Michigan Conditions (Prelim) 16:00: Monthly OPEX Befo",
+      "ticker": "$RF",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2078022149345104077#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 53ד׳",
+      "published_at": "2026-07-17T07:41:02+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "R ל-@unusual_whales: Unusual Whales נוצר כדי לתפוס מהלכים כאלה. כדי לקבל עדכונים, הירשם ל-Unusual Whales. ראה עוד:…",
       "summary_he": "",
       "body_en": "R to @unusual_whales: Unusual Whales was made to catch moves like this. To get updates, subscribe to Unusual Whales. See more: https://unusualwhales.com/stock/pypl/overview?chart=stock-chart",
@@ -865,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/stock/pypl/overview?chart=stock-chart",
       "tweet_image": "https://nitter.net/pic/card_img%2F2076395208263225344%2FlMA5hxy_%3Fformat%3Dpng%26name%3D600x314",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T03:31:00+00:00",
       "sentiment": "neutral"
     },
@@ -879,36 +1033,8 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/merz-us-tariffs-damaged-german-economy",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077473769128603648%2FXwH44buG%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T02:31:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ה-XI של סין: AI הוא מנוע חדש לצמיחה כלכלית גלובלית",
-      "summary_he": "",
-      "body_en": "CHINA’S XI: AI IS NEW ENGINE FOR GLOBAL ECONOMIC GROWTH",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077939698941788183#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 4ש׳",
-      "published_at": "2026-07-17T02:13:25+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Databricks יגיע להערכת שווי של 188 מיליארד דולר עם השקעה חדשה בהובלת Coatue של 3 מיליארד דולר, לפי WSJ. זהו זינוק של 40% מהשווי של 134 מיליארד דולר בדצמבר. החברה חצתה…",
-      "summary_he": "",
-      "body_en": "Databricks to hit a $188B valuation with a new $3B Coatue-led investment, per WSJ. That is a 40% jump from its $134B valuation in December. The company crossed a $5.4B annual revenue run rate in Febru",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2077934330966655449#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNZOQU_acAA7Cno.jpg",
-      "relative_time": "לפני 4ש׳",
-      "published_at": "2026-07-17T01:52:05+00:00",
       "sentiment": "neutral"
     },
     {
@@ -921,7 +1047,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYpQK6bEAAYhe3.png",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-16T23:10:38+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +1061,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYncqEaUAADseH.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-16T23:02:31+00:00",
       "sentiment": "neutral"
     },
@@ -949,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYlO1UW0AAQfs1.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-16T22:52:49+00:00",
       "sentiment": "bearish"
     },
@@ -963,7 +1089,7 @@
       "tag": "M&A",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSqhoLWAAAnYP9.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-16T22:42:53+00:00",
       "sentiment": "neutral"
     },
@@ -977,7 +1103,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXs-irW4AAg33p.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-16T22:23:33+00:00",
       "sentiment": "neutral"
     },
@@ -991,7 +1117,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYZX5kWEAAvj2l.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-16T22:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -1005,7 +1131,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYTtxzX0AEoHLp.png",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-16T21:37:47+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +1145,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNWg5NyW8AAay3m.png",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-16T21:30:30+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1159,7 @@
       "tag": "EARNINGS",
       "article_url": "https://www.bespokepremium.com/interactive/research/conference-call-recaps",
       "tweet_image": "https://nitter.net/pic/media%2FHNYQM0jXgAAqDtl.png",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-16T21:25:43+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1173,7 @@
       "tag": "NEWS",
       "article_url": "https://augurdigest.com/p/augur-digest-282",
       "tweet_image": "https://nitter.net/pic/media%2FHNYPEvaXgAAhNqB.png",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-16T21:16:00+00:00",
       "sentiment": "neutral"
     },
@@ -1061,7 +1187,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-16T20:49:06+00:00",
       "sentiment": "bearish"
     },
@@ -1075,7 +1201,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077855304860024832%2Fimg%2Fd-3x1Ahsp85aH4UO.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-16T20:39:17+00:00",
       "sentiment": "neutral"
     },
@@ -1089,7 +1215,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYExKhWQAAR0nk.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-16T20:30:59+00:00",
       "sentiment": "neutral"
     },
@@ -1103,7 +1229,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYC8ixXgAEVDWO.png",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-16T20:23:11+00:00",
       "sentiment": "neutral"
     },
@@ -1117,7 +1243,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-16T20:11:32+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1257,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-16T18:47:32+00:00",
       "sentiment": "neutral"
     },
@@ -1145,7 +1271,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-16T17:55:06+00:00",
       "sentiment": "neutral"
     },
@@ -1159,7 +1285,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077812106708365312%2Fimg%2FptXMFqL3fiHLnniz.jpg",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-16T17:46:33+00:00",
       "sentiment": "neutral"
     },
@@ -1173,7 +1299,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXYd1ibcAAr6Pw.jpg",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-16T17:18:07+00:00",
       "sentiment": "neutral"
     },
@@ -1187,7 +1313,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXLV0dWcAEYdkx.jpg",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-16T16:20:05+00:00",
       "sentiment": "neutral"
     },
@@ -1201,7 +1327,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077752356188618752%2Fimg%2FxXgASdypcnP4sxPY.jpg",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-16T13:49:10+00:00",
       "sentiment": "neutral"
     },
@@ -1215,7 +1341,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077746101948383232%2Fimg%2F2Potf1EGK1YuwykH.jpg",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-16T13:25:18+00:00",
       "sentiment": "neutral"
     },
@@ -1229,12 +1355,44 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNWOlWfXYAASXp1.png",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-16T11:54:37+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "התפרצות חריגה של טפיל מעיים בארה\"ב - יותר מ-1600 חולים מאומתים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854211",
+      "tag": "כללי",
+      "published_at": "2026-07-17T11:23:00+00:00"
+    },
+    {
+      "title_he": "אישה הרה נדקרה בדירתה בבת ים - בן זוגה נעצר לאחר שנמלט | תיעוד",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854197",
+      "tag": "כללי",
+      "published_at": "2026-07-17T10:13:00+00:00"
+    },
+    {
+      "title_he": "טיפת חלב: נער בן 13 אושפז במצב קשה לאחר שפיתח תגובה אלרגית חמורה מארטיק",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854193",
+      "tag": "כללי",
+      "published_at": "2026-07-17T09:42:00+00:00"
+    },
+    {
+      "title_he": "התפתחות בחקירת גל הרימונים: נעצר חשוד בהשלכת רימון הרסס לעבר סניף ג'פניקה בקריית אונו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854187",
+      "tag": "כללי",
+      "published_at": "2026-07-17T09:29:00+00:00"
+    },
     {
       "title_he": "יומני החופש הגדול: נערים פרצו לבית הספר שוב ושוב - והותירו הרס רב",
       "summary_he": "",
@@ -1282,38 +1440,6 @@
       "link": "https://news.walla.co.il/item/3854033",
       "tag": "כללי",
       "published_at": "2026-07-16T14:34:00+00:00"
-    },
-    {
-      "title_he": "הכלבה אנה הריחה והובילה את השוטרים: אקדח ומחסנית נתפסו בשגב שלום",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854023",
-      "tag": "כללי",
-      "published_at": "2026-07-16T14:15:00+00:00"
-    },
-    {
-      "title_he": "שני מיליון ישראלים בסיכון לפוסט טראומה: המיזם שמשנה את הכללים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854019",
-      "tag": "כללי",
-      "published_at": "2026-07-16T14:05:00+00:00"
-    },
-    {
-      "title_he": "תאונת דרכים קטלנית בכביש 65: עצרה בצד לבדיקת שוטר - ונדרסה למוות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854005",
-      "tag": "כללי",
-      "published_at": "2026-07-16T13:05:00+00:00"
-    },
-    {
-      "title_he": "פרשת הרצח בנחלאות: הוארך מעצרה של בת הזוג לשעבר של בניהו רזי",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853807",
-      "tag": "כללי",
-      "published_at": "2026-07-16T11:54:00+00:00"
     }
   ],
   "track_record": {
