@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T10:46:40.491734+00:00",
+  "generated_at": "2026-07-17T12:08:53.003870+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-17T10:46:40.491757+00:00",
+  "ta_generated_at": "2026-07-17T12:08:53.003893+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "18.16",
-      "change": "+8.55%",
+      "value": "18.07",
+      "change": "+8.01%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 8.547519426180513
+      "pct_raw": 8.009563658099223
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$3,999.0",
-      "change": "+0.17%",
+      "value": "$3,999.1",
+      "change": "+0.18%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.17284136168933872
+      "pct_raw": 0.1753463089601964
     },
     {
       "name": "נפט ברנט",
-      "value": "$85.7",
-      "change": "+1.70%",
+      "value": "$86.0",
+      "change": "+2.08%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.6977323993826339
+      "pct_raw": 2.077644544699038
     },
     {
       "name": "ביטקוין",
-      "value": "$63,112",
-      "change": "-1.06%",
+      "value": "$63,228",
+      "change": "-0.88%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.0605716642788563
+      "pct_raw": -0.8789402444699973
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,11 +744,11 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,128",
-      "change": "-0.68%",
+      "value": "4,140",
+      "change": "-0.38%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.6827974968903628
+      "pct_raw": -0.38494573468096416
     },
     {
       "name": "דולר/שקל",
@@ -756,7 +756,7 @@
       "change": "+0.87%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.8740564163686996
+      "pct_raw": 0.8674347768507557
     }
   ],
   "sectors": [
@@ -856,6 +856,118 @@
   },
   "us_news": [
     {
+      "title_he": "WTI קרוב ל-81 דולר ברנט קרוב ל-86 דולר עתידי על בנזין בשיא השבוע... 3.35 דולר",
+      "summary_he": "",
+      "body_en": "WTI near $81 Brent near $86 Gasoline futures at the week's high... $3.35",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078088859515056383#m",
+      "tag": "ENERGY",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNbazlIW0AAbGJ0.png",
+      "relative_time": "לפני 2ד׳",
+      "published_at": "2026-07-17T12:06:07+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$FXI מול $SMH.. סין ממשיכה את הקאמבק של המחצית השנייה מול צ'יפים דגם Kimi K3 AI של Moonshot... DeepSeek Part II?",
+      "summary_he": "",
+      "body_en": "$FXI vs $SMH.. China continues the 2nd half comeback vs chips Moonshot's Kimi K3 AI model... DeepSeek Part II?",
+      "ticker": "$FXI",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078088673778622723#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNbaowoWoAAS3B7.png",
+      "relative_time": "לפני 3ד׳",
+      "published_at": "2026-07-17T12:05:23+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מייקל בורי אומר שהונג קונג שווה \"ציד מציאות\" לאחר פיגור במהלך עצרת הבינה המלאכותית העולמית השנה. הוא רואה במערך אטרקטיבי במיוחד \"הברק...",
+      "summary_he": "",
+      "body_en": "Michael Burry says Hong Kong is worth “bargain hunting” after lagging during this year’s global AI rally. He sees a particularly attractive setup as “the shine comes off Korea, Japan and the semicondu",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078081233553399838#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNbT3HBbEAE4PJ3.jpg",
+      "relative_time": "לפני 32ד׳",
+      "published_at": "2026-07-17T11:35:49+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מחירי הבתים החציוניים בתים צמודי קרקע בארה\"ב, לפי NAR: בצפון מזרח ארה\"ב: $564,800 במערב התיכון: $346,600 בדרום: $377,700 במערב:...",
+      "summary_he": "",
+      "body_en": "Median house prices single-family homes in the US, per NAR: In the U.S. Northeast: $564,800 In the Midwest: $346,600 In the South: $377,700 In the West: $633,600",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078076496481341627#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 51ד׳",
+      "published_at": "2026-07-17T11:17:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סל הביטא הגבוה בארה\"ב של גולדמן ירד ב-34% מהשיא שלו ברבעון השני... מתוך עיניו לירידה הגדולה ביותר מאז COVID @soberlook https://thedailyshot.com/subscribe/",
+      "summary_he": "",
+      "body_en": "Goldman's US High Beta basket has fallen 34% from its Q2 high... eyeing its largest drawdown since COVID @soberlook https://thedailyshot.com/subscribe/",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078074989987746288#m",
+      "tag": "EARNINGS",
+      "article_url": "https://thedailyshot.com/subscribe/",
+      "tweet_image": "https://nitter.net/pic/media%2FHNbOMKpXQAAwcEk.jpg",
+      "relative_time": "לפני 57ד׳",
+      "published_at": "2026-07-17T11:11:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מטיילים $TRV Q2'26 שירי רווחים 🔹 הכנסות: $12.153B; שטוח YoY 🔹 Adj. EPS: $10.04 (הערכה. $5.16) 🟢; +54% YoY 🔹 יחס משולב: 83.6%; -6.7 נק' בשנה 🔹…",
+      "summary_he": "",
+      "body_en": "TRAVELERS $TRV Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $12.153B; flat YoY 🔹 Adj. EPS: $10.04 (Est. $5.16) 🟢; +54% YoY 🔹 Combined Ratio: 83.6%; -6.7 pts YoY 🔹 Return on Equity: 27.1%; +6.2 pts YoY FY26 Gu",
+      "ticker": "$TRV",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2078072664472813627#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-17T11:01:46+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "ב. ריילי משדרגת $ASTS לקנייה מ-Neutral, PT $85 הערות אנליסטים: \"אנחנו משדרגים את AST SpaceMobile לקנייה בעקבות התמחור של מיליארד דולר של 1.625%...",
+      "summary_he": "",
+      "body_en": "B. Riley Upgrades $ASTS to Buy from Neutral, PT $85 Analyst comments: \"We upgrade AST SpaceMobile to Buy following the pricing of $1 billion of 1.625% convertible senior notes due 2034, before a poten",
+      "ticker": "$ASTS",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2078070093062472163#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-17T10:51:33+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$RSP לעומת $SPY... היום הטוב ביותר מאז יולי 2024 אתמול... יכול להיות עוד בוכה לסיים את השבוע @soberlook https://thedailyshot.com/subscribe/",
+      "summary_he": "",
+      "body_en": "$RSP vs $SPY... best day since July 2024 yesterday... could be another banger to wrap up the week @soberlook https://thedailyshot.com/subscribe/",
+      "ticker": "$RSP",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078069955111620687#m",
+      "tag": "NEWS",
+      "article_url": "https://thedailyshot.com/subscribe/",
+      "tweet_image": "https://nitter.net/pic/media%2FHNbJnMkXYAAMwdO.jpg",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-17T10:51:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "עד כה החודש... $META +16% $AAPL +15% $MSFT +5% $TSM -17% $IBM -24% $SPCX -26% $MU -26% $INTC -32% $SNDK -37% @finviz_com",
       "summary_he": "",
       "body_en": "So far this month... $META +16% $AAPL +15% $MSFT +5% $TSM -17% $IBM -24% $SPCX -26% $MU -26% $INTC -32% $SNDK -37% @finviz_com",
@@ -865,51 +977,23 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbHaJ3XUAEk783.jpg",
-      "relative_time": "לפני 4ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-17T10:41:23+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "כלכלת ארה\"ב החזקה היא הסיבה שהאינפלציה הייתה גבוהה, ורק על ידי שמירה על שיעורים גבוהים למשך זמן רב יותר יכול הפד לצנן את האינפלציה לכיוון 2% של ה-FOMC...",
+      "title_he": "BofA Securities משדרגת $FRVO לקנייה מ-Neutral, מוריד את PT ל-$36 מ-$40 הערות אנליסטים: \"אנחנו משדרגים את Fervo Energy לקנייה מ-Neutral עם $36 מתוקן...",
       "summary_he": "",
-      "body_en": "The strong US economy is why inflation has been high, and only by keeping rates higher for longer can the Fed cool inflation down toward the FOMC’s 2% inflation target. Torsten at Apollo",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078067438655017288#m",
-      "tag": "FED",
+      "body_en": "BofA Securities Upgrades $FRVO to Buy from Neutral, Lowers PT to $36 from $40 Analyst comments: \"We upgrade Fervo Energy to Buy from Neutral with a revised $36 price objective. Our fundamental outlook",
+      "ticker": "$FRVO",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2078065147046940787#m",
+      "tag": "ENERGY",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNbHUtxW4AAiFc4.jpg",
-      "relative_time": "לפני 5ד׳",
-      "published_at": "2026-07-17T10:41:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שיא שיא ה-REIT הבוקר VNQ tr",
-      "summary_he": "",
-      "body_en": "REITs record high this morning $VNQ tr",
-      "ticker": "$VNQ",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078066180246368392#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNbGLefXwAAH_jb.png",
-      "relative_time": "לפני 10ד׳",
-      "published_at": "2026-07-17T10:36:00+00:00",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-17T10:31:54+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "$DRAM -37% מהשיא ביוני",
-      "summary_he": "",
-      "body_en": "$DRAM -37% from its June high",
-      "ticker": "$DRAM",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078063664150495644#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNbD5BXXoAAr0Vb.png",
-      "relative_time": "לפני 20ד׳",
-      "published_at": "2026-07-17T10:26:00+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "BOFA ANALYST ROSS FOWLER שדרג $EROC לקנייה עם יעד מחיר של $16",
@@ -921,7 +1005,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 32ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-17T10:13:29+00:00",
       "sentiment": "bullish"
     },
@@ -935,7 +1019,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbA6Cia0AEGpSj.png",
-      "relative_time": "לפני 33ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-17T10:13:01+00:00",
       "sentiment": "neutral"
     },
@@ -949,51 +1033,9 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 38ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-17T10:07:44+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "השווקים ביפן ובטייוואן ספגו מכה קשה במסחר באסיה-פסיפיק ביום שישי. יפן ירדה ב-6.2%, בעוד טייוואן ירדה ב-4%.",
-      "summary_he": "",
-      "body_en": "Japan and Taiwan markets got hit hard in Asia-Pacific trading Friday. Japan fell 6.2%, while Taiwan dropped 4%.",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2078058600300421494#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNa_RBAaMAA6okU.png",
-      "relative_time": "לפני 40ד׳",
-      "published_at": "2026-07-17T10:05:53+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "Datavault AI $DVLT מתכננת להעניק אסימון ל-Project Qestrel, צי מרכזי נתונים בינה מלאכותית של ארה\"ב, עם ערך סמלי צפוי של מעל 1 מיליארד דולר בפריסה מלאה. פּרוֹיֶקט…",
-      "summary_he": "",
-      "body_en": "Datavault AI $DVLT plans to tokenize Project Qestrel, a U.S. edge AI data center fleet, with expected tokenized value above $1B at full deployment. Project Qestrel targets 1,000 edge data centers acro",
-      "ticker": "$DVLT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2078058420083834938#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 41ד׳",
-      "published_at": "2026-07-17T10:05:10+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אזורים פיננסיים $RF Q2'26 דגשים ברווחים 🔹 הכנסות: $1.907B; +0.1% YoY 🔹 התאמה EPS: $0.68; +13% YoY 🔹 EPS: $0.64 (אומדן $0.64) 🟡; +8% שנה אחר רבעון שני…",
-      "summary_he": "",
-      "body_en": "REGIONS FINANCIAL $RF Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.907B; +0.1% YoY 🔹 Adj. EPS: $0.68; +13% YoY 🔹 EPS: $0.64 (Est. $0.64) 🟡; +8% YoY Other Q2 Metrics: 🔹 Net Interest Margin: 3.66%; +1 bps Yo",
-      "ticker": "$RF",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2078058383744373052#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 41ד׳",
-      "published_at": "2026-07-17T10:05:01+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "מנכ\"לית $MSFT, Satya Nadella, מבקרת את ה-Fable 5 של Anthropic על כך שסירבה לבקשות אקראיות ואמרה שהוא מרגיש \"נשלט עריכה\" ו\"לא הגיוני\". הוא גם…",
@@ -1005,7 +1047,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNa569ra4AAaBvu.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-17T09:42:27+00:00",
       "sentiment": "bullish"
     },
@@ -1019,7 +1061,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNa33jCaUAAZa6B.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-17T09:33:46+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T08:17:57+00:00",
       "sentiment": "bearish"
     },
@@ -1047,7 +1089,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T07:43:34+00:00",
       "sentiment": "neutral"
     },
@@ -1061,36 +1103,8 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/stock/pypl/overview?chart=stock-chart",
       "tweet_image": "https://nitter.net/pic/card_img%2F2076395208263225344%2FlMA5hxy_%3Fformat%3Dpng%26name%3D600x314",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T03:31:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: מרז טענה שהסדר התעריפים של 15% עם וושינגטון לא היה ממה שברלין קיוותה לו במשא ומתן. קרא עוד:…",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: Merz has argued that the 15% tariff arrangement with Washington fell short of what Berlin had hoped for in negotiations. Read more: https://unusualwhales.com/news/merz-us-tariffs",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2077944124452336092#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/merz-us-tariffs-damaged-german-economy",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2077473769128603648%2FXwH44buG%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-17T02:31:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @MikeZaccardi: תעודת סל S&P 500 Value נסגרה בשיאים חדשים של כל הזמנים. $SPYV @MikeZaccardi",
-      "summary_he": "",
-      "body_en": "RT by @MikeZaccardi: The S&P 500 Value ETF closed at new all-time highs. $SPYV @MikeZaccardi",
-      "ticker": "$SPYV",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/TheChartReport/status/2077943940146254040#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNZXAHyXUAAAl6u.jpg",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-17T02:30:16+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1103,7 +1117,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYpQK6bEAAYhe3.png",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-16T23:10:38+00:00",
       "sentiment": "neutral"
     },
@@ -1117,7 +1131,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYncqEaUAADseH.jpg",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-16T23:02:31+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1145,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYlO1UW0AAQfs1.jpg",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-16T22:52:49+00:00",
       "sentiment": "bearish"
     },
@@ -1145,22 +1159,8 @@
       "tag": "M&A",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSqhoLWAAAnYP9.jpg",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-16T22:42:53+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "על פי הדיווחים, מועצת המנהלים של $PYPL דוחה את הצעת הרכש של Stripe ו-Advent של 53 מיליארד דולר כלא מספקת.",
-      "summary_he": "",
-      "body_en": "$PYPL board reportedly rejects Stripe and Advent’s $53B takeover offer as inadequate.",
-      "ticker": "$PYPL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077886299642740870#m",
-      "tag": "M&A",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNYikCcasAAV0gO.png",
-      "relative_time": "לפני 12ש׳",
-      "published_at": "2026-07-16T22:41:13+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1173,7 +1173,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXs-irW4AAg33p.jpg",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-16T22:23:33+00:00",
       "sentiment": "neutral"
     },
@@ -1187,7 +1187,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYTtxzX0AEoHLp.png",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-16T21:37:47+00:00",
       "sentiment": "neutral"
     },
@@ -1201,7 +1201,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNWg5NyW8AAay3m.png",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-16T21:30:30+00:00",
       "sentiment": "neutral"
     },
@@ -1215,7 +1215,7 @@
       "tag": "EARNINGS",
       "article_url": "https://www.bespokepremium.com/interactive/research/conference-call-recaps",
       "tweet_image": "https://nitter.net/pic/media%2FHNYQM0jXgAAqDtl.png",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-16T21:25:43+00:00",
       "sentiment": "neutral"
     },
@@ -1229,7 +1229,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-16T20:49:06+00:00",
       "sentiment": "bearish"
     },
@@ -1243,7 +1243,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077855304860024832%2Fimg%2Fd-3x1Ahsp85aH4UO.jpg",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-16T20:39:17+00:00",
       "sentiment": "neutral"
     },
@@ -1257,7 +1257,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYExKhWQAAR0nk.jpg",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-16T20:30:59+00:00",
       "sentiment": "neutral"
     },
@@ -1271,22 +1271,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYC8ixXgAEVDWO.png",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-16T20:23:11+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@bespokeinvest: ושוב למטה, כרגע -5% לאחר שעות העבודה",
-      "summary_he": "",
-      "body_en": "R to @bespokeinvest: And down again, currently -5% after hours",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2077848630627631317#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 14ש׳",
-      "published_at": "2026-07-16T20:11:32+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1299,7 +1285,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-16T18:47:32+00:00",
       "sentiment": "neutral"
     },
@@ -1313,7 +1299,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-16T17:55:06+00:00",
       "sentiment": "neutral"
     },
@@ -1327,7 +1313,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXLV0dWcAEYdkx.jpg",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-16T16:20:05+00:00",
       "sentiment": "neutral"
     },
@@ -1341,26 +1327,28 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077746101948383232%2Fimg%2F2Potf1EGK1YuwykH.jpg",
-      "relative_time": "לפני 21ש׳",
-      "published_at": "2026-07-16T13:25:18+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$AAPL - $327.50, עשה אתמול בשקט שיא כל הזמנים חדש, +21% ytd ו+57% בשנה שעברה. זה קצת מתארך כאן. החזקת מניות",
-      "summary_he": "",
-      "body_en": "$AAPL - $327.50, quietly made a new all-time high yesterday, +21% ytd and +57% past year. It's getting a little extended here. Holding shares",
-      "ticker": "$AAPL",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2077723577269297248#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNWOlWfXYAASXp1.png",
       "relative_time": "לפני 22ש׳",
-      "published_at": "2026-07-16T11:54:37+00:00",
+      "published_at": "2026-07-16T13:25:18+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "הותר לפרסום לבקשת וואלה: אגם צרפי היא החשודה ברצח בניהו רזי",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854231",
+      "tag": "כללי",
+      "published_at": "2026-07-17T13:56:00+00:00"
+    },
+    {
+      "title_he": "קרב התלונות במשטרה: סערה בערד",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854230",
+      "tag": "כללי",
+      "published_at": "2026-07-17T13:43:00+00:00"
+    },
     {
       "title_he": "\"סכסוכי העבריינים מגיעים אלינו\": לינוי בר גפן משחזרת כיצד חמוש פרץ לבניין מגוריה | תיעוד",
       "summary_he": "",
@@ -1424,22 +1412,6 @@
       "link": "https://news.walla.co.il/item/3854117",
       "tag": "כללי",
       "published_at": "2026-07-16T20:17:00+00:00"
-    },
-    {
-      "title_he": "בשיא עומסי התנועה: חרדים קיצונים חסמו את כביש 4 במחאה נגד מעצר עריקים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854086",
-      "tag": "כללי",
-      "published_at": "2026-07-16T17:27:00+00:00"
-    },
-    {
-      "title_he": "למה הדרוזים בסוריה מסרבים לתוכנית ההצלה הסודית של ישראל?",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853728",
-      "tag": "כללי",
-      "published_at": "2026-07-16T15:31:00+00:00"
     }
   ],
   "track_record": {
