@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T21:21:12.957511+00:00",
+  "generated_at": "2026-07-17T22:20:54.043189+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-17T21:21:12.957529+00:00",
+  "ta_generated_at": "2026-07-17T22:20:54.043211+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,111",
-      "change": "+0.51%",
+      "value": "$63,977",
+      "change": "+0.30%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5056348459424223
+      "pct_raw": 0.29534623336551813
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,34 @@
   },
   "us_news": [
     {
+      "title_he": "R ל-@StockSavvyShay: תיקון בורי אמר \"אני שומר על חשיפה קצרה כאן על ידי שמירה על חצי.\"",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: Correction Burry said “I maintain short exposure here by retaining half.”",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078229337741107550#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 56ד׳",
+      "published_at": "2026-07-17T21:24:20+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "חיל האוויר האמריקני יותר מפי שלושה משיג תקרת חוזה חיל האוויר מעלה את התקרה עבור חוזי שיגור שלב 3 של מסלול 1 של מרחב ביטחון לאומי ל...",
+      "summary_he": "",
+      "body_en": "U.S. AIR FORCE MORE THAN TRIPLES LAUNCH CONTRACT CEILING The Air Force is raising the ceiling for National Security Space Launch Phase 3 Lane 1 contracts to $17B from $5.6B, an $11.4B increase. Eligib",
+      "ticker": "$RKLB",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2078227655695183878#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-17T21:17:39+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מניות מוליכים למחצה $SOXX נמצאות בירידה הגדולה ביותר שלהן בשנה האחרונה.",
       "summary_he": "",
       "body_en": "Semiconductor stocks $SOXX are in their largest drawdown of the past year.",
@@ -865,7 +893,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNdVi_YbcAA8xxC.jpg",
-      "relative_time": "לפני 16ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-17T21:03:56+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +907,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 22ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-17T20:58:00+00:00",
       "sentiment": "neutral"
     },
@@ -893,7 +921,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 45ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-17T20:34:49+00:00",
       "sentiment": "bullish"
     },
@@ -907,7 +935,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 49ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-17T20:31:00+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +949,7 @@
       "tag": "ENERGY",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNdMxTkXgAE3fyk.png",
-      "relative_time": "לפני 56ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-17T20:24:02+00:00",
       "sentiment": "bullish"
     },
@@ -935,22 +963,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-17T19:25:55+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "עכשיו זה מגניב. אתה יכול לראות לאיזה כיוון השוק מתקדם עם מפות שוק. זה מאפשר לך לעקוב אחר השינוי בשוק, להבחין במגמות ספציפיות בתחום נתון...",
-      "summary_he": "",
-      "body_en": "Now this is cool. You can see which way the market is moving with Market Maps. This lets you follow the change in a market, noticing specific trends in a given sector. Check it out: https://unusualwha",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078197292428058700#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/market/maps",
-      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078193583560200192%2Fimg%2FVQl_OFLBirBAAF8w.jpg",
       "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-17T19:17:00+00:00",
+      "published_at": "2026-07-17T19:25:55+00:00",
       "sentiment": "neutral"
     },
     {
@@ -963,7 +977,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNc7rFKbcAAhsTW.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T19:09:21+00:00",
       "sentiment": "neutral"
     },
@@ -977,7 +991,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T19:06:44+00:00",
       "sentiment": "neutral"
     },
@@ -991,22 +1005,8 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T19:02:21+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$ASML מעניקה לעובדים ברחבי העולם בונוס חד פעמי של $22,862",
-      "summary_he": "",
-      "body_en": "$ASML is giving employees globally a one time bonus of $22,862",
-      "ticker": "$ASML",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078192259116220427#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-17T18:57:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1019,7 +1019,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNc2VNbXoAAkiul.png",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T18:46:00+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcy65gaUAAjf2B.png",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T18:32:18+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1047,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078176518375612416%2Fimg%2FQF2hnlZvawjetjhX.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T18:30:00+00:00",
       "sentiment": "neutral"
     },
@@ -1061,7 +1061,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcw8y8WYAAm6db.png",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T18:22:29+00:00",
       "sentiment": "neutral"
     },
@@ -1075,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNctpduW4AA3Vp9.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T18:08:05+00:00",
       "sentiment": "neutral"
     },
@@ -1089,7 +1089,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNco5fMbkAAyE1g.png",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T17:50:40+00:00",
       "sentiment": "bullish"
     },
@@ -1103,7 +1103,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/wNbznrmosic?is=yTOmM_7N04tPOhi4",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078173509402968064%2FxUpvwnPk%3Fformat%3Djpg%26name%3D800x320_1",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T17:42:28+00:00",
       "sentiment": "neutral"
     },
@@ -1117,7 +1117,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNck1aHXIAAA9-b.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T17:39:40+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1131,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T17:27:43+00:00",
       "sentiment": "bearish"
     },
@@ -1145,7 +1145,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcjBW5XYAA-bjR.png",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T17:21:51+00:00",
       "sentiment": "neutral"
     },
@@ -1159,9 +1159,23 @@
       "tag": "TECH",
       "article_url": "https://www.bloomberg.com/news/videos/2026-07-17/we-re-in-third-inning-of-ai-revolution-ives-says-video",
       "tweet_image": "https://nitter.net/pic/media%2FHNb7IPSWYAA9a5h.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T16:36:01+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @bespokeinvest: דסק MS TMT מציב את המומנטום לפרספקטיבה: \"רק 17 ימי מסחר לתוך ההרפיה, מומנטום TMT כבר ירד -40% --...",
+      "summary_he": "",
+      "body_en": "RT by @bespokeinvest: MS TMT desk putting the momentum unwind into perspective: \"Just 17 trading days into the unwind, TMT Momentum is already down -40% -- making this both the fastest and deepest sel",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/negligible_cap/status/2078142387658879462#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNcK7FFWwAAzh55.png",
+      "relative_time": "לפני 6ש׳",
+      "published_at": "2026-07-17T15:38:49+00:00",
+      "sentiment": "bullish"
     },
     {
       "title_he": "SanDisk (SNDK) עלתה ב-10% מהשפל התוך-יומי שלה, והשוק עוד לא נפתח אפילו שעה. $SNDK",
@@ -1173,7 +1187,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNb7Kw7XQAAJVFK.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-17T14:27:44+00:00",
       "sentiment": "neutral"
     },
@@ -1187,7 +1201,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbvozeaYAEsqbm.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T13:45:29+00:00",
       "sentiment": "neutral"
     },
@@ -1201,22 +1215,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbngUpWQAAZyXj.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-17T13:01:37+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "אתמול היה היום השישי ברציפות שהנאסד\"ק נסחר מעל ומתחת לממוצע הנע של 50 יום על בסיס תוך יומי. זה קשור לרצף הארוך ביותר...",
-      "summary_he": "",
-      "body_en": "Yesterday was the sixth straight day that the Nasdaq traded above and below its 50-day moving average on an intraday basis. That's tied for the longest streak on record, but the streak will likely not",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2078101113098682847#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNbllC4XsAARCKO.png",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-17T12:54:49+00:00",
       "sentiment": "bullish"
     },
     {
@@ -1229,7 +1229,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbbD0OWIAA1nYj.png",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T12:08:59+00:00",
       "sentiment": "neutral"
     },
@@ -1243,7 +1243,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T10:07:44+00:00",
       "sentiment": "bearish"
     },
@@ -1257,7 +1257,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-17T08:17:57+00:00",
       "sentiment": "bearish"
     },
@@ -1271,23 +1271,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYlO1UW0AAQfs1.jpg",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "published_at": "2026-07-16T22:52:49+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "$NFLX יורד מתחת ל-$70 לאחר שעות העבודה, בעקבות רווחים. המחיר הנמוך ביותר מאז 2024, מחזיר כמעט שנתיים שלמות של עליות במהלך ירידה זו של 50%. אין עמדה.",
-      "summary_he": "",
-      "body_en": "$NFLX drops below $70 after hours, following earnings. The lowest price since 2024, giving back nearly 2 full years of gains during this 50% drop. No position.",
-      "ticker": "$NFLX",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2077870334179524842#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNYTtxzX0AEoHLp.png",
-      "relative_time": "לפני 23ש׳",
-      "published_at": "2026-07-16T21:37:47+00:00",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
@@ -1308,7 +1294,7 @@
       "published_at": "2026-07-17T17:36:00+00:00"
     },
     {
-      "title_he": "אחרי תקיפת פקחי מס רכוש: רשות המסים עוצרת את הטיפול בנזקי המלחמה בבני ברק",
+      "title_he": "אחרי תקיפת הפקחים: רשות המסים עוצרת את הטיפול בנזקי המלחמה בבני ברק",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3854256",
