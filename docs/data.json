@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T03:46:28.479260+00:00",
+  "generated_at": "2026-07-17T06:14:57.486207+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -121,7 +121,7 @@
         "sma50": 209.79,
         "sma200": 192.29,
         "pct_from_52w_high": -12.3,
-        "vol_ratio": 0.82,
+        "vol_ratio": 0.83,
         "change_1d_pct": -2.4,
         "change_1w_pct": 2.3,
         "change_1m_pct": -2.4,
@@ -325,7 +325,7 @@
         "sma50": 401.86,
         "sma200": 439.95,
         "pct_from_52w_high": -27.8,
-        "vol_ratio": 0.79,
+        "vol_ratio": 0.8,
         "change_1d_pct": 1.38,
         "change_1w_pct": 4.4,
         "change_1m_pct": 0.3,
@@ -529,7 +529,7 @@
         "sma50": 34.0,
         "sma200": 30.04,
         "pct_from_52w_high": -13.7,
-        "vol_ratio": 0.79,
+        "vol_ratio": 0.81,
         "change_1d_pct": 2.09,
         "change_1w_pct": -2.7,
         "change_1m_pct": -4.4,
@@ -580,7 +580,7 @@
         "sma50": 80.94,
         "sma200": 94.0,
         "pct_from_52w_high": -41.8,
-        "vol_ratio": 0.98,
+        "vol_ratio": 1.0,
         "change_1d_pct": 0.91,
         "change_1w_pct": -1.5,
         "change_1m_pct": -9.0,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-17T03:46:28.479280+00:00",
+  "ta_generated_at": "2026-07-17T06:14:57.486225+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,002.8",
-      "change": "+0.27%",
+      "value": "$3,994.6",
+      "change": "+0.06%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.2680293579820213
+      "pct_raw": 0.06262368177149871
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.8",
-      "change": "+0.72%",
-      "direction": "up",
+      "value": "$83.9",
+      "change": "-0.40%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.7242075270093784
+      "pct_raw": -0.4036566543986744
     },
     {
       "name": "ביטקוין",
-      "value": "$63,538",
-      "change": "-0.39%",
+      "value": "$62,747",
+      "change": "-1.63%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.3933199707414509
+      "pct_raw": -1.6324770523374537
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.028",
-      "change": "+0.25%",
+      "value": "3.035",
+      "change": "+0.50%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.2549331214408627
+      "pct_raw": 0.49662296384585236
     }
   ],
   "sectors": [
@@ -865,7 +865,7 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/stock/pypl/overview?chart=stock-chart",
       "tweet_image": "https://nitter.net/pic/card_img%2F2076395208263225344%2FlMA5hxy_%3Fformat%3Dpng%26name%3D600x314",
-      "relative_time": "לפני 15ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-17T03:31:00+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +879,7 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/merz-us-tariffs-damaged-german-economy",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077473769128603648%2FXwH44buG%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T02:31:00+00:00",
       "sentiment": "neutral"
     },
@@ -893,7 +893,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T02:13:25+00:00",
       "sentiment": "neutral"
     },
@@ -907,7 +907,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNZOQU_acAA7Cno.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T01:52:05+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +921,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYpQK6bEAAYhe3.png",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-16T23:10:38+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +935,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYncqEaUAADseH.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-16T23:02:31+00:00",
       "sentiment": "neutral"
     },
@@ -949,7 +949,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYlO1UW0AAQfs1.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-16T22:52:49+00:00",
       "sentiment": "bearish"
     },
@@ -963,22 +963,8 @@
       "tag": "M&A",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNSqhoLWAAAnYP9.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-16T22:42:53+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "על פי הדיווחים, מועצת המנהלים של $PYPL דוחה את הצעת הרכש של Stripe ו-Advent של 53 מיליארד דולר כלא מספקת.",
-      "summary_he": "",
-      "body_en": "$PYPL board reportedly rejects Stripe and Advent’s $53B takeover offer as inadequate.",
-      "ticker": "$PYPL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2077886299642740870#m",
-      "tag": "M&A",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNYikCcasAAV0gO.png",
-      "relative_time": "לפני 5ש׳",
-      "published_at": "2026-07-16T22:41:13+00:00",
       "sentiment": "neutral"
     },
     {
@@ -991,7 +977,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXs-irW4AAg33p.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-16T22:23:33+00:00",
       "sentiment": "neutral"
     },
@@ -1005,7 +991,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYZX5kWEAAvj2l.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-16T22:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +1005,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYTtxzX0AEoHLp.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-16T21:37:47+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNWg5NyW8AAay3m.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-16T21:30:30+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1033,7 @@
       "tag": "EARNINGS",
       "article_url": "https://www.bespokepremium.com/interactive/research/conference-call-recaps",
       "tweet_image": "https://nitter.net/pic/media%2FHNYQM0jXgAAqDtl.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-16T21:25:43+00:00",
       "sentiment": "neutral"
     },
@@ -1061,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "https://augurdigest.com/p/augur-digest-282",
       "tweet_image": "https://nitter.net/pic/media%2FHNYPEvaXgAAhNqB.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-16T21:16:00+00:00",
       "sentiment": "neutral"
     },
@@ -1075,7 +1061,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-16T20:49:06+00:00",
       "sentiment": "bearish"
     },
@@ -1089,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077855304860024832%2Fimg%2Fd-3x1Ahsp85aH4UO.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-16T20:39:17+00:00",
       "sentiment": "neutral"
     },
@@ -1103,7 +1089,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYExKhWQAAR0nk.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-16T20:30:59+00:00",
       "sentiment": "neutral"
     },
@@ -1117,7 +1103,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNYC8ixXgAEVDWO.png",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-16T20:23:11+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1117,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-16T20:11:32+00:00",
       "sentiment": "neutral"
     },
@@ -1145,23 +1131,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-16T18:47:32+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "מוצמד: גמר גביע העולם: 🇪🇸 ספרד VS. 🇦🇷 ארגנטינה ספרד עלתה לפייבוריטית של 58.4% על 42.3% של ארגנטינה לפני הגמר ביום ראשון. ספרד נכנסת ל…",
-      "summary_he": "",
-      "body_en": "Pinned: WORLD CUP FINAL: 🇪🇸 SPAIN VS. 🇦🇷 ARGENTINA Spain has surged to a 58.4% favorite over Argentina’s 42.3% ahead of Sunday’s final. Spain enters on a 37-match unbeaten streak. Argentina is unbeate",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2077818564652753056#m",
-      "tag": "NEWS",
-      "article_url": "https://kalshi.com/markets/kxmenworldcup/mens-world-cup-winner/kxmenworldcup-26",
-      "tweet_image": "https://nitter.net/pic/media%2FHNXk9tyXUAAYu0e.jpg",
-      "relative_time": "לפני 9ש׳",
-      "published_at": "2026-07-16T18:12:04+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "הטכנולוגיה יורדת ב-2%. רק מגזר אחד אחר נמוך יותר (התעשייה ירדה ב-0.5%). 9 האחרים כולם ירוקים.",
@@ -1173,8 +1145,22 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-16T17:55:06+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @StockSavvyShay: אני מאוכזב מכך ש-$ASTS דחף את יעד 45 הלוויין שלה לתחילת 2027, כי אבן דרך זו היא קריטית להכנסות המסחריות...",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: I’m disappointed that $ASTS pushed its 45-satellite target into early 2027 because that milestone is critical to the commercial revenue ramp. AST really operates on two clocks w",
+      "ticker": "$ASTS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2077812141512598000#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077812106708365312%2Fimg%2FptXMFqL3fiHLnniz.jpg",
+      "relative_time": "לפני 12ש׳",
+      "published_at": "2026-07-16T17:46:33+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1187,7 +1173,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXYd1ibcAAr6Pw.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-16T17:18:07+00:00",
       "sentiment": "neutral"
     },
@@ -1201,7 +1187,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNXLV0dWcAEYdkx.jpg",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-16T16:20:05+00:00",
       "sentiment": "neutral"
     },
@@ -1215,7 +1201,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077752356188618752%2Fimg%2FxXgASdypcnP4sxPY.jpg",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-16T13:49:10+00:00",
       "sentiment": "neutral"
     },
@@ -1229,7 +1215,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2077746101948383232%2Fimg%2F2Potf1EGK1YuwykH.jpg",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-16T13:25:18+00:00",
       "sentiment": "neutral"
     },
@@ -1243,12 +1229,20 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNWOlWfXYAASXp1.png",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-16T11:54:37+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "יומני החופש הגדול: נערים פרצו לבית הספר שוב ושוב - והותירו הרס רב",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854180",
+      "tag": "כללי",
+      "published_at": "2026-07-17T08:49:00+00:00"
+    },
     {
       "title_he": "\"תישאר במשרד, אני מגיע\": זעם על הטיפול, הגיע למרפאה - ואיים על הרופא",
       "summary_he": "",
@@ -1320,14 +1314,6 @@
       "link": "https://news.walla.co.il/item/3853807",
       "tag": "כללי",
       "published_at": "2026-07-16T11:54:00+00:00"
-    },
-    {
-      "title_he": "אחרי שבועיים של שתיקה: תרגיל החקירה שגרם לחשוד ברצח הרב עמוס גואטה להתחיל לדבר",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3853982",
-      "tag": "כללי",
-      "published_at": "2026-07-16T11:51:00+00:00"
     }
   ],
   "track_record": {
