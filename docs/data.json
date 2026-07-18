@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T23:23:41.456280+00:00",
+  "generated_at": "2026-07-18T00:55:32.264303+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-17T23:23:41.456299+00:00",
+  "ta_generated_at": "2026-07-18T00:55:32.264322+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,899",
-      "change": "+0.17%",
-      "direction": "up",
+      "value": "$63,860",
+      "change": "-0.04%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.17356884090261332
+      "pct_raw": -0.04374829780772833
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -850,13 +850,111 @@
     }
   ],
   "fear_greed": {
-    "score": 27,
-    "rating": "פחד",
-    "rating_en": "fear"
+    "score": 25,
+    "rating": "פחד קיצוני",
+    "rating_en": "extreme fear"
   },
   "us_news": [
     {
-      "title_he": "R ל-@unusual_whales: מחיר המכירה החציוני בארה\"ב עלה ב-1.8% ביוני לעומת שנה קודם ל-440,600 דולר, שיא של כל הזמנים בנתונים משנת 1999, אמר NAR...",
+      "title_he": "תודה הברוקר שלך על שלא נתת לך את הקצאת המניות המלאה של SPAECX שביקשת להנפקה $SPCX",
+      "summary_he": "",
+      "body_en": "THANK YOUR BROKER FOR NOT GIVING YOU THE FULL SPAECX SHARE ALLOCATION U REQUESTED FOR THE IPO $SPCX",
+      "ticker": "$SPCX",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2078278407654093087#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 15ד׳",
+      "published_at": "2026-07-18T00:39:19+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: היפוך זה מעודף של 27 מיליארד דולר ביוני 2025 לגירעון של 120 מיליארד דולר מדגיש את ההשפעה הפיסקלית של החזרי התעריפים על...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: This reversal from a $27 billion surplus in June 2025 to a $120 billion deficit underscores the fiscal impact of the tariff refunds on the federal budget. Read more: https://unus",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078276313199079914#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/us-tariff-refunds-exceed-collections-june-deficit",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078276316206366720%2FvkxcWP8B%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 24ד׳",
+      "published_at": "2026-07-18T00:31:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ראסל 2000 נסחף בחזרה לטריטוריה של 'שנה רגילה' $IWM @augurinfinity כבר לא הטוב ביותר מאז 1991.",
+      "summary_he": "",
+      "body_en": "Russell 2000 drifting back into 'normal year' territory $IWM @augurinfinity Def not the best since 1991 anymore..",
+      "ticker": "$IWM",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078276153505206711#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNeFJXVW8AAmlup.jpg",
+      "relative_time": "לפני 24ד׳",
+      "published_at": "2026-07-18T00:30:22+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הערכות שווי של מגזר S&P 500... @factset",
+      "summary_he": "",
+      "body_en": "S&P 500 sector valuations... @factset",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078268767792939499#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNd-bjRWUAAiRne.jpg",
+      "relative_time": "לפני 54ד׳",
+      "published_at": "2026-07-18T00:01:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$CAT היה -5% הבוקר... סיים חיובי... פשוט לא רוצה למלא את הפער הזה ב-30 באפריל...",
+      "summary_he": "",
+      "body_en": "$CAT was -5% this morning... finished positive... just doesn't want to fill that April 30 gap...",
+      "ticker": "$CAT",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078265082589442558#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNd7FF-XAAAKA1G.png",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-17T23:46:22+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "תחזית SPX CY 2027 EPS מדרגת $400 בפעם הראשונה @factset CY 2026 עד $342, שיא חדש",
+      "summary_he": "",
+      "body_en": "SPX CY 2027 EPS forecast scales $400 for the first time @factset CY 2026 up to $342, a new high",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078262935701401874#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNd5IIeXMAAYd3z.jpg",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-17T23:37:50+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הענשת שוק EPS שלילי הפתעות יותר מהממוצע: פעימות יורדות ב-0.1% מחמיצות ירידה מדהימה של 9.0% @FactSet",
+      "summary_he": "",
+      "body_en": "Market Punishing Negative EPS Surprises More Than Average: Beats falling 0.1% Misses falling a STUNNING 9.0% @FactSet",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078262755996352878#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNd49rYXwAAbzSB.jpg",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-17T23:37:07+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: מחיר המכירה החציוני בארה\"ב עלה ב-1.8% ביוני לעומת שנה קודם ל-440,600 דולר, שיא כל הזמנים בנתונים שחזרו ל-1999, אמר NAR...",
       "summary_he": "",
       "body_en": "R to @unusual_whales: The U.S. median sales price increased 1.8% in June from a year earlier to $440,600, an all-time high on data going back to 1999, NAR said Read more: https://unusualwhales.com/new",
       "ticker": "",
@@ -865,37 +963,9 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/us-home-prices-36-straight-months-record-high",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078217241091563520%2F6HPjkq_Y%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 25ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-17T22:58:00+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "35% חוק הבהירות נחתם לחוק בשנת 2026, לפי Polymarket:",
-      "summary_he": "",
-      "body_en": "35% the Clarity Act is signed into law in 2026, per Polymarket:",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078249174945214596#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNdsjxcbwAAddi5.jpg",
-      "relative_time": "לפני 40ד׳",
-      "published_at": "2026-07-17T22:43:09+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: טראמפ שלח יותר מ-6,000 פוסטים של Truth Social בשנה שעברה ומנהליו ביצעו יותר מ-20,000 רכישות או מכירות של מניות באותו זמן...",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: Trump sent more than 6,000 Truth Social posts last year and his managers made more than 20,000 stock purchases or sales in that same time frame. Read more: https://unusualwhales.",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078246114269282724#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/trump-truth-social-stock-promotion-cnn",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078246156623400960%2FzPF8ZmS6%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 52ד׳",
-      "published_at": "2026-07-17T22:31:00+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "R ל-@StockSavvyShay: תיקון בורי אמר \"אני שומר על חשיפה קצרה כאן על ידי שמירה על חצי.\"",
@@ -907,7 +977,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T21:24:20+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +991,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T21:17:39+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +1005,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNdVi_YbcAA8xxC.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-17T21:03:56+00:00",
       "sentiment": "neutral"
     },
@@ -949,22 +1019,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T20:34:49+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "הנפט הגולמי מסוג ברנט זינק השבוע ב-16%. 88 דולר",
-      "summary_he": "",
-      "body_en": "Brent crude oil surged 16% this week. $88",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078214164653211925#m",
-      "tag": "ENERGY",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNdMxTkXgAE3fyk.png",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-17T20:24:02+00:00",
       "sentiment": "bullish"
     },
     {
@@ -977,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T19:26:47+00:00",
       "sentiment": "neutral"
     },
@@ -991,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T19:25:55+00:00",
       "sentiment": "neutral"
     },
@@ -1005,7 +1061,7 @@
       "tag": "M&A",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T19:24:40+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNc7rFKbcAAhsTW.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T19:09:21+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1089,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T19:06:44+00:00",
       "sentiment": "neutral"
     },
@@ -1047,22 +1103,8 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-17T19:02:21+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "GS: הגדלת אומדן מעקב התמ\"ג לרבעון השני ל-+2.5% מחירי יבוא מעל לציפיות; הערכה של 0.18% עבור יוני Core PCE; הדיור מתחיל להתאושש בחדות; תַעֲשִׂיָתִי…",
-      "summary_he": "",
-      "body_en": "GS: Boosting Q2 GDP Tracking Estimate to +2.5% Import Prices Above Expectations; Estimating 0.18% for June Core PCE; Housing Starts Rebound Sharply; Industrial Production Slightly Below Expectations",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078189493346095178#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNc2VNbXoAAkiul.png",
-      "relative_time": "לפני 4ש׳",
-      "published_at": "2026-07-17T18:46:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1075,7 +1117,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcy65gaUAAjf2B.png",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T18:32:18+00:00",
       "sentiment": "neutral"
     },
@@ -1089,22 +1131,8 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078176518375612416%2Fimg%2FQF2hnlZvawjetjhX.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T18:30:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$QQQ $EEM נחבט השבוע... $SPY $IWM $EFA $DIA לא נורא",
-      "summary_he": "",
-      "body_en": "$QQQ $EEM slammed this week... $SPY $IWM $EFA $DIA not terrible",
-      "ticker": "$QQQ",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078183575787028874#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNcw8y8WYAAm6db.png",
-      "relative_time": "לפני 5ש׳",
-      "published_at": "2026-07-17T18:22:29+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1117,12 +1145,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNctpduW4AA3Vp9.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T18:08:05+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "תודה לחבר שלי @Lawrence_Sprung מ- @MitlinFinancial על שחזרתי ל- @MitlinMoney! זה תמיד כבוד והמון כיף. שוחחנו על אמצע השנה שלנו...",
+      "title_he": "תודה לחבר שלי @Lawrence_Sprung מ- @MitlinFinancial על שחזרתי ל- @MitlinMoney! זה תמיד כבוד והמון כיף. דיברנו על אמצע השנה שלנו...",
       "summary_he": "",
       "body_en": "Thanks to my friend @Lawrence_Sprung of @MitlinFinancial for having me back on @MitlinMoney! It is always an honor and a ton of fun. We discussed our Midyear Outlook 🌊 🌊, but also hit on my career, wh",
       "ticker": "",
@@ -1131,7 +1159,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/wNbznrmosic?is=yTOmM_7N04tPOhi4",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078173509402968064%2FxUpvwnPk%3Fformat%3Djpg%26name%3D800x320_1",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-17T17:42:28+00:00",
       "sentiment": "neutral"
     },
@@ -1145,23 +1173,9 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNck1aHXIAAA9-b.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-17T17:39:40+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "השופט לא יחסום פיטורים של $META במקרה של אפליה של AI",
-      "summary_he": "",
-      "body_en": "JUDGE WILL NOT BLOCK $META LAYOFFS IN AI DISCRIMINATION CASE",
-      "ticker": "$META",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2078169790796193930#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 5ש׳",
-      "published_at": "2026-07-17T17:27:43+00:00",
-      "sentiment": "bearish"
     },
     {
       "title_he": "מגזר הפיננסים S&P 500 רוכב על רצף ניצחונות של שישה ימים, כאשר כל ששת הסגירות הללו מגיעות בטריטוריה של קניית יתר \"קיצונית\". רק השביעי כזה…",
@@ -1173,7 +1187,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcjBW5XYAA-bjR.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-17T17:21:51+00:00",
       "sentiment": "neutral"
     },
@@ -1187,7 +1201,7 @@
       "tag": "TECH",
       "article_url": "https://www.bloomberg.com/news/videos/2026-07-17/we-re-in-third-inning-of-ai-revolution-ives-says-video",
       "tweet_image": "https://nitter.net/pic/media%2FHNb7IPSWYAA9a5h.jpg",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T16:36:01+00:00",
       "sentiment": "neutral"
     },
@@ -1201,7 +1215,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcK7FFWwAAzh55.png",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-17T15:38:49+00:00",
       "sentiment": "bullish"
     },
@@ -1215,7 +1229,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNb7Kw7XQAAJVFK.png",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T14:27:44+00:00",
       "sentiment": "neutral"
     },
@@ -1229,12 +1243,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbvozeaYAEsqbm.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-17T13:45:29+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$NFLX, המניה, תסתובב ותפעל במהירות כשתעשה זאת. זה מובס כרגע אבל ההגנה הזו עושה קאמבק. זה צריך לשבור את השלב התלול...",
+      "title_he": "$NFLX, המניה, תסתובב ותפעל במהירות כשתעשה זאת. זה מובס כרגע אבל ההגנה הזו עושה קאמבק. זה צריך לשבור את הבמה התלולה...",
       "summary_he": "",
       "body_en": "$NFLX, the stock, will turnaround and run quickly when it does. It's beaten down right now but this one def makes a comeback. It needs to break the steep stage 4 decline. No position.",
       "ticker": "$NFLX",
@@ -1243,7 +1257,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbngUpWQAAZyXj.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-17T13:01:37+00:00",
       "sentiment": "bullish"
     },
@@ -1257,7 +1271,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbbD0OWIAA1nYj.png",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T12:08:59+00:00",
       "sentiment": "neutral"
     },
@@ -1271,7 +1285,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-17T10:07:44+00:00",
       "sentiment": "bearish"
     },
@@ -1285,7 +1299,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-17T08:17:57+00:00",
       "sentiment": "bearish"
     }
