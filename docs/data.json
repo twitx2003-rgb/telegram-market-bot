@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T11:04:53.661536+00:00",
+  "generated_at": "2026-07-18T12:12:07.906017+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-18T11:04:53.661559+00:00",
+  "ta_generated_at": "2026-07-18T12:12:07.906036+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,969",
-      "change": "+0.13%",
+      "value": "$64,082",
+      "change": "+0.30%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.12714397963943766
+      "pct_raw": 0.3031702254876524
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,17 +856,73 @@
   },
   "us_news": [
     {
-      "title_he": "חזרה למחירי דלק של 4$ מחר AAA",
+      "title_he": "תשואת $AGG קצת מתחת ל-5%",
       "summary_he": "",
-      "body_en": "Back to $4 gas prices tomorrow AAA",
+      "body_en": "$AGG yield just below 5%",
+      "ticker": "$AGG",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078451323138183651#m",
+      "tag": "MACRO",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNgkdsOWEAAJF7V.png",
+      "relative_time": "לפני 5ד׳",
+      "published_at": "2026-07-18T12:06:25+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "GS: התנודתיות המשתמעת של מניית S&P 500 הממוצעת ב-40% רושמת כעת פי 2.8 מהתנודתיות המשתמעת של המדד, גם היא שיא.",
+      "summary_he": "",
+      "body_en": "GS: Implied volatility for the average S&P 500 stock at 40% now registers 2.8x the index's implied volatility, also a record.",
       "ticker": "",
       "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078425640609419686#m",
-      "tag": "ENERGY",
+      "link": "https://nitter.net/MikeZaccardi/status/2078449958974304619#m",
+      "tag": "NEWS",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNgNGzjXoAA9oNu.jpg",
-      "relative_time": "לפני 40ד׳",
-      "published_at": "2026-07-18T10:24:22+00:00",
+      "tweet_image": "https://nitter.net/pic/media%2FHNgjOUaXcAILmxG.png",
+      "relative_time": "לפני 10ד׳",
+      "published_at": "2026-07-18T12:01:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "Harnett BofA: BofA Bull & Bear Indicator ב-9.6... מיצוב שוורים קיצוני אומר שטקטיקת הקיץ הטובה ביותר נשארת נסיגה מנכסי סיכון ו/או סיבוב ל...",
+      "summary_he": "",
+      "body_en": "Harnett BofA: BofA Bull & Bear Indicator at 9.6...extreme bull positioning says the best summer tactic remains retreat from risk assets and/or rotate to duration, defensives, dividend yields, US dolla",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078447443289559251#m",
+      "tag": "MACRO",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNgg72uWIAAgbu5.png",
+      "relative_time": "לפני 20ד׳",
+      "published_at": "2026-07-18T11:51:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "GS: מתאמים נמוכים של מניות דיכאו את תנודתיות המדדים \"הסיבה לסטייה הזו היא ירידה במתאם בין מניות S&P 500, עם...",
+      "summary_he": "",
+      "body_en": "GS: Record-low stock correlations have suppressed index volatility \"The reason for this divergence is a decline in correlation across S&P 500 stocks, with 3-month implied average stock correlation fal",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078444925633298925#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNgepXKXEAAd-1A.png",
+      "relative_time": "לפני 30ד׳",
+      "published_at": "2026-07-18T11:41:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מדד SOX נסחר רק ב-33% מעל 200dma לעומת 76% ב-3 ביוני @stockcharts -20%... חזרה למקום שבו היה לפני חודשיים",
+      "summary_he": "",
+      "body_en": "SOX index trading just 33% above 200dma vs. 76% on June 3rd @stockcharts -20% ... back to where it was two months ago",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078442695647731922#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNgcnitXwAAwW1t.png",
+      "relative_time": "לפני 39ד׳",
+      "published_at": "2026-07-18T11:32:08+00:00",
       "sentiment": "neutral"
     },
     {
@@ -879,7 +935,7 @@
       "tag": "NEWS",
       "article_url": "https://bit.ly/45ePpbm",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078419101601374208%2FaeHeCdjV%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T09:58:23+00:00",
       "sentiment": "neutral"
     },
@@ -893,7 +949,7 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/hegseth-military-testosterone-screening-trt",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078223916003471360%2FYiam9pRY%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-18T02:58:00+00:00",
       "sentiment": "bearish"
     },
@@ -907,7 +963,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/b58HtARJV80?is=CiL7fIALMtXuF7Xn",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078293498801864704%2F-qgTPUT3%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-18T01:39:16+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +977,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNeO_MDaEAAYVg_.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-18T01:13:21+00:00",
       "sentiment": "neutral"
     },
@@ -935,64 +991,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-18T00:39:19+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ראסל 2000 נסחף בחזרה לטריטוריה של 'שנה רגילה' $IWM @augurinfinity כבר לא הטוב ביותר מאז 1991.",
-      "summary_he": "",
-      "body_en": "Russell 2000 drifting back into 'normal year' territory $IWM @augurinfinity Def not the best since 1991 anymore..",
-      "ticker": "$IWM",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078276153505206711#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNeFJXVW8AAmlup.jpg",
-      "relative_time": "לפני 10ש׳",
-      "published_at": "2026-07-18T00:30:22+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הערכות שווי של מגזר S&P 500... @factset",
-      "summary_he": "",
-      "body_en": "S&P 500 sector valuations... @factset",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078268767792939499#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNd-bjRWUAAiRne.jpg",
-      "relative_time": "לפני 11ש׳",
-      "published_at": "2026-07-18T00:01:01+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$CAT היה -5% הבוקר... סיים חיובי... פשוט לא רוצה למלא את הפער הזה ב-30 באפריל...",
-      "summary_he": "",
-      "body_en": "$CAT was -5% this morning... finished positive... just doesn't want to fill that April 30 gap...",
-      "ticker": "$CAT",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078265082589442558#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNd7FF-XAAAKA1G.png",
-      "relative_time": "לפני 11ש׳",
-      "published_at": "2026-07-17T23:46:22+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "תחזית SPX CY 2027 EPS מדרגת $400 בפעם הראשונה @factset CY 2026 עד $342, שיא חדש",
-      "summary_he": "",
-      "body_en": "SPX CY 2027 EPS forecast scales $400 for the first time @factset CY 2026 up to $342, a new high",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078262935701401874#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNd5IIeXMAAYd3z.jpg",
-      "relative_time": "לפני 11ש׳",
-      "published_at": "2026-07-17T23:37:50+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1005,7 +1005,7 @@
       "tag": "TECH",
       "article_url": "https://www.cnbc.com/2026/07/17/leather-jacket-worn-by-nvidia-ceo-goes-for-just-under-1-million-at-sothebys-auction-.html?__source=twitter%7Ctech&taid=6a5ab954c9c0930001af07d4&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078080648317702145%2F_qnJdo2C%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T23:23:00+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-17T21:24:20+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-17T21:17:39+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNdVi_YbcAA8xxC.jpg",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-17T21:03:56+00:00",
       "sentiment": "neutral"
     },
@@ -1061,9 +1061,23 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-17T20:34:49+00:00",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "טראמפ מאיים על קנדה על שריפות יער הנשיא טראמפ האשים את קנדה באי ניהול יערותיה ופסולת השריפות שלה, והאשים את המדינה במעבר גבולות...",
+      "summary_he": "",
+      "body_en": "TRUMP THREATENS CANADA OVER WILDFIRES President Trump accused Canada of failing to manage its forests and wildfire debris, blaming the country for cross-border smoke pollution. He said he would speak ",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078199755977736263#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 16ש׳",
+      "published_at": "2026-07-17T19:26:47+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "*טראמפ: מחזיקה בקנדה באחריות לעובדה שהם לא שומרים כראוי על היערות שלהם *טראמפ: יש להוסיף עלויות של זיהום אוויר קנדי ​​ל...",
@@ -1075,8 +1089,22 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-17T19:25:55+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SPCX - SPACEX בשיחות עם פנטגון, לפי הדיווחים, SpaceX מנהלת משא ומתן עם משרד ההגנה האמריקני כדי לספק מיליארדי דולרים בקיבולת מרכזי נתונים...",
+      "summary_he": "",
+      "body_en": "$SPCX - SPACEX IN TALKS WITH PENTAGON SpaceX is reportedly negotiating with the U.S. Defense Department to provide billions of dollars in data-center capacity for AI workloads. The deal would support ",
+      "ticker": "$SPCX",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078199221929288038#m",
+      "tag": "M&A",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 16ש׳",
+      "published_at": "2026-07-17T19:24:40+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1089,22 +1117,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-17T19:06:44+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מחיר המנוי של אפל מיוזיק עולה ל-$11.99 מ-$10.99",
-      "summary_he": "",
-      "body_en": "APPLE MUSIC SUBSCRIPTION PRICE RISES TO $11.99 FROM $10.99",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2078193607065174207#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 16ש׳",
-      "published_at": "2026-07-17T19:02:21+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1117,7 +1131,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNctpduW4AA3Vp9.jpg",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-17T18:08:05+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1145,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/wNbznrmosic?is=yTOmM_7N04tPOhi4",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078173509402968064%2FxUpvwnPk%3Fformat%3Djpg%26name%3D800x320_1",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-17T17:42:28+00:00",
       "sentiment": "neutral"
     },
@@ -1145,7 +1159,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNck1aHXIAAA9-b.jpg",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-17T17:39:40+00:00",
       "sentiment": "neutral"
     },
@@ -1159,7 +1173,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcjBW5XYAA-bjR.png",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-17T17:21:51+00:00",
       "sentiment": "neutral"
     },
@@ -1173,7 +1187,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078165292690337792%2Fimg%2FZVQ8jGqnjpsDTDQQ.jpg",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-17T17:10:06+00:00",
       "sentiment": "neutral"
     },
@@ -1187,7 +1201,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcK7FFWwAAzh55.png",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-17T15:38:49+00:00",
       "sentiment": "bullish"
     },
@@ -1201,7 +1215,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNb7Kw7XQAAJVFK.png",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-17T14:27:44+00:00",
       "sentiment": "neutral"
     },
@@ -1215,7 +1229,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbvozeaYAEsqbm.jpg",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "published_at": "2026-07-17T13:45:29+00:00",
       "sentiment": "neutral"
     },
@@ -1229,23 +1243,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbngUpWQAAZyXj.jpg",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "published_at": "2026-07-17T13:01:37+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "$RDDT - $185.26, בונה באופן פעיל בסיס בצורת גביע של שבעה חודשים ליד ה-200d ma. פריצה, עם או בלי מבנה ידית (פעם בצד ימין...",
-      "summary_he": "",
-      "body_en": "$RDDT - $185.26, is actively building a seven month cup shaped base near the 200d ma. A breakout, with or without a handle formation (once the right side completes), likely takes the stock to $250+ A ",
-      "ticker": "$RDDT",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2078089577940586819#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNbbD0OWIAA1nYj.png",
-      "relative_time": "לפני 22ש׳",
-      "published_at": "2026-07-17T12:08:59+00:00",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
