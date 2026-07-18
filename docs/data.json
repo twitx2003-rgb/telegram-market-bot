@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T21:50:52.347314+00:00",
+  "generated_at": "2026-07-18T22:49:19.242003+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-18T21:50:52.347340+00:00",
+  "ta_generated_at": "2026-07-18T22:49:19.242017+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,647",
-      "change": "+1.19%",
+      "value": "$64,708",
+      "change": "+1.28%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.186995407602665
+      "pct_raw": 1.283460795577279
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,16 +856,16 @@
   },
   "us_news": [
     {
-      "title_he": "https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville @business 🏆🏆🍿",
+      "title_he": "RT מאת @DivesTech: https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville @business 🏆🏆🍿",
       "summary_he": "",
-      "body_en": "https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville @business 🏆🏆🍿",
+      "body_en": "RT by @DivesTech: https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville @business 🏆🏆🍿",
       "ticker": "",
       "source": "@DivesTech",
       "link": "https://nitter.net/DivesTech/status/2078586345887252718#m",
       "tag": "NEWS",
       "article_url": "https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077305561482190848%2FQAqyuOZq%3Fformat%3Dpng%26name%3D800x419",
-      "relative_time": "לפני 47ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-18T21:02:57+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +879,7 @@
       "tag": "BANKS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 49ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-18T21:01:00+00:00",
       "sentiment": "bullish"
     },
@@ -893,7 +893,7 @@
       "tag": "ENERGY",
       "article_url": "https://www.barrons.com/articles/apple-stock-standard-oil-1759ba4c?mod=djem_b_Feature",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077815446888132608%2FcFfpc3CJ%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T20:21:21+00:00",
       "sentiment": "neutral"
     },
@@ -907,7 +907,7 @@
       "tag": "EARNINGS",
       "article_url": "http://earnings.wallstengine.com",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T19:58:59+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +921,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP8zkaoAADDGD.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T19:57:01+00:00",
       "sentiment": "bullish"
     },
@@ -935,7 +935,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP390bMAAe6wV.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T19:55:45+00:00",
       "sentiment": "bullish"
     },
@@ -949,23 +949,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiKTcVXsAA4Vjb.png",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T19:32:03+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: יש סיכוי של 30% שארה\"ב תפלוש לאיראן לפני 2027, לפי פולימרקט. קרא עוד:…",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: There is a 30% chance US will invade Iran before 2027, per Polymarket. Read more: https://polymarket.com/event/will-the-us-invade-iran-before-2027",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078550330078564604#m",
-      "tag": "NEWS",
-      "article_url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2076768186645528576%2FZ29ZACsQ%3Fformat%3Dpng%26name%3D800x419",
-      "relative_time": "לפני 3ש׳",
-      "published_at": "2026-07-18T18:39:50+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "RT מאת @DivesTech: סם ברנס עובר לראש הטבלה לצד לוקאס הרברט, הודות לציפור ה-14 הזו.",
@@ -977,22 +963,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078539447579066368%2Fimg%2FaVTwIm7vHbzfiNAc.jpg",
-      "relative_time": "לפני 3ש׳",
-      "published_at": "2026-07-18T17:57:44+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: \"כאנליסט אני תמיד מדבר על חברות, בין אם טובות או רעות, מה הן עשו. אבל אף פעם לא בניתי כלום... רציתי לרדת...",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: “As an analyst I always talk about companies, whether good or bad, what they’ve done. But I’ve never built anything... I wanted to get off the treadmill and actually build something ",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/FortuneMagazine/status/2078532000898560490#m",
-      "tag": "NEWS",
-      "article_url": "https://bit.ly/4yymsF2",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078454964297572352%2FBiJPOOLL%3Fformat%3Djpg%26name%3D800x419",
       "relative_time": "לפני 4ש׳",
-      "published_at": "2026-07-18T17:27:00+00:00",
+      "published_at": "2026-07-18T17:57:44+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1005,7 +977,7 @@
       "tag": "NEWS",
       "article_url": "https://schrts.co/NcKSVrEp",
       "tweet_image": "https://nitter.net/pic/media%2FHNhn42xX0AI7GOt.png",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-18T17:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -1019,12 +991,12 @@
       "tag": "CRYPTO",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhfxLNakAAS7hx.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T16:25:33+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "נתוני מחסום TSA... למטה YoY ובמחסנית 2yr @augurinfinity",
+      "title_he": "נתוני TSA checkpoint... למטה YoY ובמחסנית 2yr @augurinfinity",
       "summary_he": "",
       "body_en": "TSA checkpoint data.. down YoY and on the 2yr stack @augurinfinity",
       "ticker": "",
@@ -1033,7 +1005,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNheu7IWcAAks_y.png",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T16:21:00+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhYR2qbsAAHBZS.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T15:52:54+00:00",
       "sentiment": "neutral"
     },
@@ -1061,7 +1033,7 @@
       "tag": "BANKS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhQZwXbUAAi0DJ.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-18T15:22:26+00:00",
       "sentiment": "bullish"
     },
@@ -1075,7 +1047,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhJz9WboAAiq22.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-18T14:56:54+00:00",
       "sentiment": "neutral"
     },
@@ -1089,7 +1061,7 @@
       "tag": "NEWS",
       "article_url": "https://www.bespokepremium.com/interactive/posts/featured-reports/the-bespoke-report-7-17-26-gut-check",
       "tweet_image": "https://nitter.net/pic/media%2FHNg6wGUXsAAklS7.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-18T13:43:49+00:00",
       "sentiment": "neutral"
     },
@@ -1103,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "published_at": "2026-07-18T00:39:19+00:00",
       "sentiment": "neutral"
     }
