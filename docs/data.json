@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T08:19:19.345004+00:00",
+  "generated_at": "2026-07-18T09:56:05.932273+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-18T08:19:19.345021+00:00",
+  "ta_generated_at": "2026-07-18T09:56:05.932295+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,932",
-      "change": "+0.07%",
+      "value": "$63,945",
+      "change": "+0.09%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.06927726872881383
+      "pct_raw": 0.0888270447437868
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -865,7 +865,7 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/hegseth-military-testosterone-screening-trt",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078223916003471360%2FYiam9pRY%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T02:58:00+00:00",
       "sentiment": "bearish"
     },
@@ -879,7 +879,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/b58HtARJV80?is=CiL7fIALMtXuF7Xn",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078293498801864704%2F-qgTPUT3%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-18T01:39:16+00:00",
       "sentiment": "neutral"
     },
@@ -893,7 +893,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNeO_MDaEAAYVg_.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-18T01:13:21+00:00",
       "sentiment": "neutral"
     },
@@ -907,7 +907,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-18T00:39:19+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +921,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNeFJXVW8AAmlup.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-18T00:30:22+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +935,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd-bjRWUAAiRne.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-18T00:01:01+00:00",
       "sentiment": "neutral"
     },
@@ -949,7 +949,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd7FF-XAAAKA1G.png",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T23:46:22+00:00",
       "sentiment": "neutral"
     },
@@ -963,7 +963,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd5IIeXMAAYd3z.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T23:37:50+00:00",
       "sentiment": "neutral"
     },
@@ -977,7 +977,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd49rYXwAAbzSB.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T23:37:07+00:00",
       "sentiment": "neutral"
     },
@@ -991,7 +991,7 @@
       "tag": "TECH",
       "article_url": "https://www.cnbc.com/2026/07/17/leather-jacket-worn-by-nvidia-ceo-goes-for-just-under-1-million-at-sothebys-auction-.html?__source=twitter%7Ctech&taid=6a5ab954c9c0930001af07d4&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078080648317702145%2F_qnJdo2C%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T23:23:00+00:00",
       "sentiment": "neutral"
     },
@@ -1005,7 +1005,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T21:24:20+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T21:17:39+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNdVi_YbcAA8xxC.jpg",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T21:03:56+00:00",
       "sentiment": "neutral"
     },
@@ -1047,9 +1047,23 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-17T20:34:49+00:00",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "טראמפ מאיים על קנדה על שריפות יער הנשיא טראמפ האשים את קנדה באי ניהול יערותיה ופסולת השריפות שלה, והאשים את המדינה במעבר גבולות...",
+      "summary_he": "",
+      "body_en": "TRUMP THREATENS CANADA OVER WILDFIRES President Trump accused Canada of failing to manage its forests and wildfire debris, blaming the country for cross-border smoke pollution. He said he would speak ",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078199755977736263#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 14ש׳",
+      "published_at": "2026-07-17T19:26:47+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "*טראמפ: מחזיקה בקנדה באחריות לעובדה שהם לא שומרים כראוי על היערות שלהם *טראמפ: יש להוסיף עלויות של זיהום אוויר קנדי ​​ל...",
@@ -1061,8 +1075,22 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-17T19:25:55+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SPCX - SPACEX בשיחות עם פנטגון, לפי הדיווחים, SpaceX מנהלת משא ומתן עם משרד ההגנה האמריקני כדי לספק מיליארדי דולרים בקיבולת מרכזי נתונים...",
+      "summary_he": "",
+      "body_en": "$SPCX - SPACEX IN TALKS WITH PENTAGON SpaceX is reportedly negotiating with the U.S. Defense Department to provide billions of dollars in data-center capacity for AI workloads. The deal would support ",
+      "ticker": "$SPCX",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078199221929288038#m",
+      "tag": "M&A",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 14ש׳",
+      "published_at": "2026-07-17T19:24:40+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1075,7 +1103,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-17T19:06:44+00:00",
       "sentiment": "neutral"
     },
@@ -1089,7 +1117,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-17T19:02:21+00:00",
       "sentiment": "neutral"
     },
@@ -1103,7 +1131,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078176518375612416%2Fimg%2FQF2hnlZvawjetjhX.jpg",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-17T18:30:00+00:00",
       "sentiment": "neutral"
     },
@@ -1117,7 +1145,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNctpduW4AA3Vp9.jpg",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-17T18:08:05+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1159,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/wNbznrmosic?is=yTOmM_7N04tPOhi4",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078173509402968064%2FxUpvwnPk%3Fformat%3Djpg%26name%3D800x320_1",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-17T17:42:28+00:00",
       "sentiment": "neutral"
     },
@@ -1145,7 +1173,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNck1aHXIAAA9-b.jpg",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-17T17:39:40+00:00",
       "sentiment": "neutral"
     },
@@ -1159,7 +1187,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcjBW5XYAA-bjR.png",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-17T17:21:51+00:00",
       "sentiment": "neutral"
     },
@@ -1173,7 +1201,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078165292690337792%2Fimg%2FZVQ8jGqnjpsDTDQQ.jpg",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-17T17:10:06+00:00",
       "sentiment": "neutral"
     },
@@ -1187,7 +1215,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcK7FFWwAAzh55.png",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-17T15:38:49+00:00",
       "sentiment": "bullish"
     },
@@ -1201,7 +1229,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNb7Kw7XQAAJVFK.png",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-17T14:27:44+00:00",
       "sentiment": "neutral"
     },
@@ -1215,7 +1243,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbvozeaYAEsqbm.jpg",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-17T13:45:29+00:00",
       "sentiment": "neutral"
     },
@@ -1229,7 +1257,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbngUpWQAAZyXj.jpg",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-17T13:01:37+00:00",
       "sentiment": "bullish"
     },
@@ -1243,7 +1271,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbbD0OWIAA1nYj.png",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-17T12:08:59+00:00",
       "sentiment": "neutral"
     },
@@ -1257,7 +1285,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "published_at": "2026-07-17T10:07:44+00:00",
       "sentiment": "bearish"
     }
