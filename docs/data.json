@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:02:16.455154+00:00",
+  "generated_at": "2026-07-18T18:27:09.504431+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-18T17:02:16.455175+00:00",
+  "ta_generated_at": "2026-07-18T18:27:09.504450+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,240",
-      "change": "+0.55%",
+      "value": "$64,507",
+      "change": "+0.97%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5513694234616128
+      "pct_raw": 0.9681130474798195
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,62 @@
   },
   "us_news": [
     {
+      "title_he": "טראמפ יממן פרויקטים המתואמים ל-MAGA באירופה בזמן שהוא מזמין מחדש את הסיוע האמריקאי-FT",
+      "summary_he": "",
+      "body_en": "TRUMP TO FUND MAGA-ALIGNED PROJECTS IN EUROPE AS HE REORDERS US AID- FT",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078534719625367907#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 48ד׳",
+      "published_at": "2026-07-18T17:37:49+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: \"כאנליסט אני תמיד מדבר על חברות, בין אם טובות או רעות, מה הן עשו. אבל אף פעם לא בניתי כלום... רציתי לרדת...",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: “As an analyst I always talk about companies, whether good or bad, what they’ve done. But I’ve never built anything... I wanted to get off the treadmill and actually build something ",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/FortuneMagazine/status/2078532000898560490#m",
+      "tag": "NEWS",
+      "article_url": "https://bit.ly/4yymsF2",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078454964297572352%2FBiJPOOLL%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 59ד׳",
+      "published_at": "2026-07-18T17:27:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "BREAKING: ממדאני ב\"שיחה פעילה\" אם הוא יכול לעצור את בנימין נתניהו כשראש ממשלת ישראל יבקר בניו יורק, לפי ניו יורק",
+      "summary_he": "",
+      "body_en": "BREAKING: Mamdani in ‘active conversation’ about whether he can arrest Benjamin Netanyahu when Israel PM visits NYC, per NYP",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078531182065766678#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-18T17:23:45+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "\"לוקח 65.2 שנים לחסוך לתשלום מקדמה טיפוסי בעיר ניו יורק, ניו יורק\", לפי YF",
+      "summary_he": "",
+      "body_en": "\"It takes 65.2 years to save for a typical downpayment in New York City, NY,\" per YF",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078525455032824059#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-18T17:01:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מניות הרכבת ממשיכות להתרוצץ. רכבת משא, באמת. @StockCharts https://schrts.co/NcKSVrEp",
       "summary_he": "",
       "body_en": "Railroad stocks keep chugging along. A freight train, really. @StockCharts https://schrts.co/NcKSVrEp",
@@ -865,7 +921,7 @@
       "tag": "NEWS",
       "article_url": "https://schrts.co/NcKSVrEp",
       "tweet_image": "https://nitter.net/pic/media%2FHNhn42xX0AI7GOt.png",
-      "relative_time": "לפני 1ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-18T17:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +935,7 @@
       "tag": "CRYPTO",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhfxLNakAAS7hx.jpg",
-      "relative_time": "לפני 36ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T16:25:33+00:00",
       "sentiment": "neutral"
     },
@@ -893,8 +949,22 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNheu7IWcAAks_y.png",
-      "relative_time": "לפני 41ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T16:21:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הודעה מהמנהיג העליון של איראן תשוחרר בקרוב - התקשורת הממלכתית של איראן",
+      "summary_he": "",
+      "body_en": "MESSAGE FROM IRAN'S SUPREME LEADER TO BE RELEASED SHORTLY - IRAN'S STATE MEDIA",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078510632022794374#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 2ש׳",
+      "published_at": "2026-07-18T16:02:06+00:00",
       "sentiment": "neutral"
     },
     {
@@ -907,7 +977,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T16:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -921,22 +991,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhYR2qbsAAHBZS.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T15:52:54+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אינפלציה בזמן... יותר כמו DEflation בזמן... -0.19% m/m @augurinfinity",
-      "summary_he": "",
-      "body_en": "Timely inflation... more like timely DEflation... -0.19% m/m @augurinfinity",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078505323787161778#m",
-      "tag": "MACRO",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNhVk-oWYAA4haT.png",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-18T15:41:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -949,12 +1005,12 @@
       "tag": "BANKS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhQZwXbUAAi0DJ.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T15:22:26+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "מנכ\"ל אנתרופי דריו אמודיי: אם תבחר במודל עסקי שמתנגש ביסודו עם הערכים שלך, יהיה לך קשה, נכון? או שאתה…",
+      "title_he": "מנכ\"ל אנתרופי דריו אמודי: אם תבחר במודל עסקי שמתנגש ביסודו עם הערכים שלך, יהיה לך קשה, נכון? או שאתה…",
       "summary_he": "",
       "body_en": "Anthropic CEO Dario Amodei: If you pick a business model that fundamentally conflicts with your values, you're going to have a hard time, right? Either you betray your values or you become irrelevant.",
       "ticker": "",
@@ -963,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T15:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -977,7 +1033,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhJz9WboAAiq22.png",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T14:56:54+00:00",
       "sentiment": "neutral"
     },
@@ -991,22 +1047,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhGd6hacAAMHGN.jpg",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-18T14:34:59+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שבירה: GameStop, $GME, מחזיקה כעת בכמעט 10% מ-eBay, $EBAY, לפי רויטרס",
-      "summary_he": "",
-      "body_en": "BREAKING: GameStop, $GME, now owns nearly 10% of eBay, $EBAY, per Reuters",
-      "ticker": "$GME",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078480156637938097#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
       "relative_time": "לפני 3ש׳",
-      "published_at": "2026-07-18T14:01:00+00:00",
+      "published_at": "2026-07-18T14:34:59+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1019,7 +1061,7 @@
       "tag": "NEWS",
       "article_url": "https://www.bespokepremium.com/interactive/posts/featured-reports/the-bespoke-report-7-17-26-gut-check",
       "tweet_image": "https://nitter.net/pic/media%2FHNg6wGUXsAAklS7.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-18T13:43:49+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-18T00:39:19+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1089,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-17T21:17:39+00:00",
       "sentiment": "neutral"
     },
@@ -1061,7 +1103,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-17T20:34:49+00:00",
       "sentiment": "bullish"
     },
@@ -1075,7 +1117,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 23ש׳",
       "published_at": "2026-07-17T19:25:55+00:00",
       "sentiment": "neutral"
     },
@@ -1089,50 +1131,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 23ש׳",
       "published_at": "2026-07-17T19:06:44+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @RyanDetrick: האם יום שישי האדום הזה מפריע לך? רוצה חדשות טובות? בעקבות ביקוש פופולרי במיוחד, יש לנו @JC_ParetsX להצטרף אלינו בשבוע הבא ב...",
-      "summary_he": "",
-      "body_en": "RT by @RyanDetrick: Does this red Friday have you down? Want some good news? Back by extremely popular demand, we have @JC_ParetsX set to join us next week on Facts vs Feelings 🥳 🎉 ⌛ 💥",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2078179951073751291#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNctpduW4AA3Vp9.jpg",
-      "relative_time": "לפני 22ש׳",
-      "published_at": "2026-07-17T18:08:05+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @RyanDetrick: תודה לחבר שלי @Lawrence_Sprung מ-@MitlinFinancial על שחזרתי ל- @MitlinMoney! זה תמיד כבוד והמון כיף. אָנוּ…",
-      "summary_he": "",
-      "body_en": "RT by @RyanDetrick: Thanks to my friend @Lawrence_Sprung of @MitlinFinancial for having me back on @MitlinMoney! It is always an honor and a ton of fun. We discussed our Midyear Outlook 🌊 🌊, but also ",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2078173505611329943#m",
-      "tag": "NEWS",
-      "article_url": "https://youtu.be/wNbznrmosic?is=yTOmM_7N04tPOhi4",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078173509402968064%2FxUpvwnPk%3Fformat%3Djpg%26name%3D800x320_1",
-      "relative_time": "לפני 23ש׳",
-      "published_at": "2026-07-17T17:42:28+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מגזר הפיננסים S&P 500 רוכב על רצף ניצחונות של שישה ימים, כאשר כל ששת הסגירות הללו מגיעות בטריטוריה של קניית יתר \"קיצונית\". רק השביעי כזה…",
-      "summary_he": "",
-      "body_en": "The S&P 500 Financials sector is riding a six-day winning streak, with all six of those closes coming in 'extreme' overbought territory. Only the 7th such streak since 1990. $XLF",
-      "ticker": "$XLF",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2078168316841992458#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNcjBW5XYAA-bjR.png",
-      "relative_time": "לפני 23ש׳",
-      "published_at": "2026-07-17T17:21:51+00:00",
       "sentiment": "neutral"
     }
   ],
