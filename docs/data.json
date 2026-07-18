@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T00:55:32.264303+00:00",
+  "generated_at": "2026-07-18T03:54:31.433761+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-18T00:55:32.264322+00:00",
+  "ta_generated_at": "2026-07-18T03:54:31.433786+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "-0.42%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.4151864792421858
+      "pct_raw": -0.41528691541970986
     },
     {
       "name": "VIX",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,860",
-      "change": "-0.04%",
-      "direction": "down",
+      "value": "$63,903",
+      "change": "+0.02%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.04374829780772833
+      "pct_raw": 0.022930682035182483
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,76 @@
   },
   "us_news": [
     {
+      "title_he": "R ל-@unusual_whales: בערך 5.6 אחוז מהגברים בין 30 ל-79 סובלים ממחסור בטסטוסטרון, שעלול לגרום לאובדן שרירים, עייפות, עלייה במשקל ומיניות...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: Roughly 5.6 percent of men between 30 and 79 have testosterone deficiency, which can cause muscle loss, fatigue, weight gain and sexual dysfunction. Read more: https://unusualwha",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078313306972967093#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/hegseth-military-testosterone-screening-trt",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078223916003471360%2FYiam9pRY%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 56ד׳",
+      "published_at": "2026-07-18T02:58:00+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: מורגן סטנלי, גולדמן זאקס וג'יי.פי מורגן צ'ייס מונו כחתמים, הרכב המשקל הכבד הסטנדרטי לעסקה של זה...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: Morgan Stanley, Goldman Sachs, and JPMorgan Chase have been appointed as underwriters, the standard heavyweight lineup for a deal of this size. Read more: https://unusualwhales.c",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078306512167174627#m",
+      "tag": "M&A",
+      "article_url": "https://unusualwhales.com/news/anthropic-ipo-october-2026",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078223717084348416%2Fa_0CsEmh%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-18T02:31:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: התיקון, שהוצג על ידי נציג הרפובליקה הדמוקרטית של הרפובליקה הדמוקרטית תומס מאסי מקנטאקי, שהתנגד בעקביות לסיוע חוץ, היה מבטל 3.3 דולר...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: The amendment, introduced by GOP Rep. Thomas Massie of Kentucky, who has consistently opposed foreign aid, would have eliminated $3.3 billion in assistance to Israel. Read more: ",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078298207239672066#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/house-rejects-israel-aid-cut-massie-amendment",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078223478361354240%2F9hzthO7r%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-18T01:58:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בחצי הכוס המלאה האחרונה שלנו, @sonusvarghese ואני דיברנו על התחזית שלנו לאמצע השנה 2026: Still Riding The 🌊 🌊 🌊 🌊...",
+      "summary_he": "",
+      "body_en": "In our latest Glass Half Full, @sonusvarghese and I discussed our Midyear Outlook 2026: Still Riding The 🌊 🌊 🌊 🌊 https://youtu.be/b58HtARJV80?is=CiL7fIALMtXuF7Xn",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2078293494347493883#m",
+      "tag": "NEWS",
+      "article_url": "https://youtu.be/b58HtARJV80?is=CiL7fIALMtXuF7Xn",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078293498801864704%2F-qgTPUT3%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 2ש׳",
+      "published_at": "2026-07-18T01:39:16+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "חיל האוויר האמריקני שילש יותר מפי שלושה את התקרה עבור חוזי שיגור שלב 3 של מסלול 1 של מרחב ביטחון לאומי ל-$17B מ~$6B, מה שמרחיב את הפרס הפוטנציאלי...",
+      "summary_he": "",
+      "body_en": "The U.S. Air Force more than tripled the ceiling for National Security Space Launch Phase 3 Lane 1 contracts to ~$17B from ~$6B expanding the potential award pool by ~$11B. Eligible providers include ",
+      "ticker": "$SPCX",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078286971072602414#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNeO_MDaEAAYVg_.jpg",
+      "relative_time": "לפני 2ש׳",
+      "published_at": "2026-07-18T01:13:21+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "תודה הברוקר שלך על שלא נתת לך את הקצאת המניות המלאה של SPAECX שביקשת להנפקה $SPCX",
       "summary_he": "",
       "body_en": "THANK YOUR BROKER FOR NOT GIVING YOU THE FULL SPAECX SHARE ALLOCATION U REQUESTED FOR THE IPO $SPCX",
@@ -865,22 +935,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 15ד׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T00:39:19+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: היפוך זה מעודף של 27 מיליארד דולר ביוני 2025 לגירעון של 120 מיליארד דולר מדגיש את ההשפעה הפיסקלית של החזרי התעריפים על...",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: This reversal from a $27 billion surplus in June 2025 to a $120 billion deficit underscores the fiscal impact of the tariff refunds on the federal budget. Read more: https://unus",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078276313199079914#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/us-tariff-refunds-exceed-collections-june-deficit",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078276316206366720%2FvkxcWP8B%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 24ד׳",
-      "published_at": "2026-07-18T00:31:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -893,7 +949,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNeFJXVW8AAmlup.jpg",
-      "relative_time": "לפני 24ד׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T00:30:22+00:00",
       "sentiment": "neutral"
     },
@@ -907,7 +963,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd-bjRWUAAiRne.jpg",
-      "relative_time": "לפני 54ד׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T00:01:01+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +977,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd7FF-XAAAKA1G.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T23:46:22+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +991,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd5IIeXMAAYd3z.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T23:37:50+00:00",
       "sentiment": "neutral"
     },
@@ -949,23 +1005,23 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd49rYXwAAbzSB.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-17T23:37:07+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R ל-@unusual_whales: מחיר המכירה החציוני בארה\"ב עלה ב-1.8% ביוני לעומת שנה קודם ל-440,600 דולר, שיא כל הזמנים בנתונים שחזרו ל-1999, אמר NAR...",
+      "title_he": "RT מאת @DivesTech: ז'קט עור שנלבש על ידי מנכ\"ל Nvidia הולך תמורת קצת פחות ממיליון דולר במכירה הפומבית של Sotheby's...",
       "summary_he": "",
-      "body_en": "R to @unusual_whales: The U.S. median sales price increased 1.8% in June from a year earlier to $440,600, an all-time high on data going back to 1999, NAR said Read more: https://unusualwhales.com/new",
+      "body_en": "RT by @DivesTech: Leather jacket worn by Nvidia CEO goes for just under $1 million at Sotheby's auction https://www.cnbc.com/2026/07/17/leather-jacket-worn-by-nvidia-ceo-goes-for-just-under-1-million-",
       "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078252908768879045#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/us-home-prices-36-straight-months-record-high",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078217241091563520%2F6HPjkq_Y%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-17T22:58:00+00:00",
-      "sentiment": "bullish"
+      "source": "@DivesTech",
+      "link": "https://nitter.net/CNBCtech/status/2078259203295133817#m",
+      "tag": "TECH",
+      "article_url": "https://www.cnbc.com/2026/07/17/leather-jacket-worn-by-nvidia-ceo-goes-for-just-under-1-million-at-sothebys-auction-.html?__source=twitter%7Ctech&taid=6a5ab954c9c0930001af07d4&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078080648317702145%2F_qnJdo2C%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 4ש׳",
+      "published_at": "2026-07-17T23:23:00+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "R ל-@StockSavvyShay: תיקון בורי אמר \"אני שומר על חשיפה קצרה כאן על ידי שמירה על חצי.\"",
@@ -977,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T21:24:20+00:00",
       "sentiment": "neutral"
     },
@@ -991,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T21:17:39+00:00",
       "sentiment": "neutral"
     },
@@ -1005,7 +1061,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNdVi_YbcAA8xxC.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T21:03:56+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-17T20:34:49+00:00",
       "sentiment": "bullish"
     },
@@ -1033,7 +1089,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T19:26:47+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1103,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T19:25:55+00:00",
       "sentiment": "neutral"
     },
@@ -1061,22 +1117,8 @@
       "tag": "M&A",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T19:24:40+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$SPCX מנהל מגעים לספק כוח מחשוב לפנטגון. ההסכם הפוטנציאלי עשוי להיות בשווי של \"כמה מיליארדי דולרים\".",
-      "summary_he": "",
-      "body_en": "$SPCX is in talks to provide computing power to the Pentagon. The potential agreement could be worth “several billion dollars.”",
-      "ticker": "$SPCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078195367347429723#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNc7rFKbcAAhsTW.jpg",
-      "relative_time": "לפני 5ש׳",
-      "published_at": "2026-07-17T19:09:21+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1089,7 +1131,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T19:06:44+00:00",
       "sentiment": "neutral"
     },
@@ -1103,22 +1145,8 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T19:02:21+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מייקל בורי סוגר את השורט של $ORCL.",
-      "summary_he": "",
-      "body_en": "Michael Burry closes his $ORCL short.",
-      "ticker": "$ORCL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078186045401960627#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNcy65gaUAAjf2B.png",
-      "relative_time": "לפני 6ש׳",
-      "published_at": "2026-07-17T18:32:18+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1131,7 +1159,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078176518375612416%2Fimg%2FQF2hnlZvawjetjhX.jpg",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-17T18:30:00+00:00",
       "sentiment": "neutral"
     },
@@ -1145,7 +1173,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNctpduW4AA3Vp9.jpg",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-17T18:08:05+00:00",
       "sentiment": "neutral"
     },
@@ -1159,7 +1187,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/wNbznrmosic?is=yTOmM_7N04tPOhi4",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078173509402968064%2FxUpvwnPk%3Fformat%3Djpg%26name%3D800x320_1",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T17:42:28+00:00",
       "sentiment": "neutral"
     },
@@ -1173,7 +1201,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNck1aHXIAAA9-b.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T17:39:40+00:00",
       "sentiment": "neutral"
     },
@@ -1187,22 +1215,22 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcjBW5XYAA-bjR.png",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T17:21:51+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @DivesTech: מניות הטכנולוגיה עוברות רגע קטן של פרקי מפרקים לבנים ב-chip led נמכרות ב-@BloombergTV 🏆🍿📺👇",
+      "title_he": "RT מאת @StockSavvyShay: $TSM הופך לאחד ממשחקי הייצור הטהורים ביותר בתחום הבינה המלאכותית, כאשר הכנסות HPC עולות ב-20% ברצף וכעת מהוות 66% מ...",
       "summary_he": "",
-      "body_en": "RT by @DivesTech: Tech stocks going thru a mini white knuckle moment on chip led sell off @BloombergTV 🏆🍿📺👇",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/DivesTech/status/2078156779284836712#m",
-      "tag": "TECH",
-      "article_url": "https://www.bloomberg.com/news/videos/2026-07-17/we-re-in-third-inning-of-ai-revolution-ives-says-video",
-      "tweet_image": "https://nitter.net/pic/media%2FHNb7IPSWYAA9a5h.jpg",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-17T16:36:01+00:00",
+      "body_en": "RT by @StockSavvyShay: $TSM is becoming one of the purest manufacturing plays on AI with HPC revenue rising 20% sequentially and now accounting for 66% of total revenue. That demand gives TSMC signifi",
+      "ticker": "$TSM",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078165359505592692#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078165292690337792%2Fimg%2FZVQ8jGqnjpsDTDQQ.jpg",
+      "relative_time": "לפני 10ש׳",
+      "published_at": "2026-07-17T17:10:06+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1215,7 +1243,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcK7FFWwAAzh55.png",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T15:38:49+00:00",
       "sentiment": "bullish"
     },
@@ -1229,7 +1257,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNb7Kw7XQAAJVFK.png",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-17T14:27:44+00:00",
       "sentiment": "neutral"
     },
@@ -1243,7 +1271,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbvozeaYAEsqbm.jpg",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-17T13:45:29+00:00",
       "sentiment": "neutral"
     },
@@ -1257,7 +1285,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbngUpWQAAZyXj.jpg",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-17T13:01:37+00:00",
       "sentiment": "bullish"
     },
@@ -1271,7 +1299,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbbD0OWIAA1nYj.png",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-17T12:08:59+00:00",
       "sentiment": "neutral"
     },
@@ -1285,7 +1313,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-17T10:07:44+00:00",
       "sentiment": "bearish"
     },
@@ -1299,7 +1327,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-17T08:17:57+00:00",
       "sentiment": "bearish"
     }
