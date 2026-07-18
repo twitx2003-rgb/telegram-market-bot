@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T03:54:31.433761+00:00",
+  "generated_at": "2026-07-18T06:04:24.912553+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -172,7 +172,7 @@
         "sma50": 318.21,
         "sma200": 309.77,
         "pct_from_52w_high": -2.9,
-        "vol_ratio": 1.16,
+        "vol_ratio": 1.18,
         "change_1d_pct": -0.6,
         "change_1w_pct": 1.4,
         "change_1m_pct": 3.0,
@@ -210,13 +210,13 @@
       "setup_type": "טווח",
       "levels": {
         "support": 287.38,
-        "resistance": 334.98,
+        "resistance": 334.99,
         "entry": null,
         "stop": 281.63
       },
       "recommendation": "קנייה",
       "confidence": 3,
-      "rationale_he": "המחיר $333.74 באמצע הטווח בין $287.38 ל-$334.98, RSI ב-71.6. 4 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
+      "rationale_he": "המחיר $333.74 באמצע הטווח בין $287.38 ל-$334.99, RSI ב-71.6. 4 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
       "indicators": {
         "rsi14": 71.6,
         "sma20": 305.52,
@@ -376,7 +376,7 @@
         "sma50": 252.13,
         "sma200": 234.06,
         "pct_from_52w_high": -11.2,
-        "vol_ratio": 0.76,
+        "vol_ratio": 0.77,
         "change_1d_pct": -1.06,
         "change_1w_pct": 0.8,
         "change_1m_pct": 0.5,
@@ -529,7 +529,7 @@
         "sma50": 33.93,
         "sma200": 30.11,
         "pct_from_52w_high": -14.2,
-        "vol_ratio": 0.78,
+        "vol_ratio": 0.79,
         "change_1d_pct": -0.59,
         "change_1w_pct": -2.8,
         "change_1m_pct": -2.7,
@@ -617,14 +617,14 @@
       "price": 68.95,
       "setup_type": "תיקון",
       "levels": {
-        "support": 65.1,
+        "support": 65.08,
         "resistance": 78.44,
         "entry": null,
         "stop": null
       },
       "recommendation": "המתנה",
       "confidence": 0,
-      "rationale_he": "ירידה של -45.6% מהשיא השנתי עם RSI ב-30.7 — התיקון בעיצומו. תמיכה קרובה ב-$65.10. נפח מוגבר (פי 1.17).",
+      "rationale_he": "ירידה של -45.6% מהשיא השנתי עם RSI ב-30.7 — התיקון בעיצומו. תמיכה קרובה ב-$65.08. נפח מוגבר (פי 1.17).",
       "indicators": {
         "rsi14": 30.7,
         "sma20": 73.88,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-18T03:54:31.433786+00:00",
+  "ta_generated_at": "2026-07-18T06:04:24.912576+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,023.0",
-      "change": "+0.77%",
+      "value": "$4,018.8",
+      "change": "+0.67%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.7740287066957263
+      "pct_raw": 0.668820921319613
     },
     {
       "name": "נפט ברנט",
       "value": "$88.1",
-      "change": "+4.58%",
+      "change": "+4.59%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 4.582690252879021
+      "pct_raw": 4.5945625074201475
     },
     {
       "name": "ביטקוין",
-      "value": "$63,903",
-      "change": "+0.02%",
+      "value": "$63,917",
+      "change": "+0.05%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.022930682035182483
+      "pct_raw": 0.04517266099217161
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -865,37 +865,9 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/hegseth-military-testosterone-screening-trt",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078223916003471360%2FYiam9pRY%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 56ד׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T02:58:00+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: מורגן סטנלי, גולדמן זאקס וג'יי.פי מורגן צ'ייס מונו כחתמים, הרכב המשקל הכבד הסטנדרטי לעסקה של זה...",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: Morgan Stanley, Goldman Sachs, and JPMorgan Chase have been appointed as underwriters, the standard heavyweight lineup for a deal of this size. Read more: https://unusualwhales.c",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078306512167174627#m",
-      "tag": "M&A",
-      "article_url": "https://unusualwhales.com/news/anthropic-ipo-october-2026",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078223717084348416%2Fa_0CsEmh%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-18T02:31:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: התיקון, שהוצג על ידי נציג הרפובליקה הדמוקרטית של הרפובליקה הדמוקרטית תומס מאסי מקנטאקי, שהתנגד בעקביות לסיוע חוץ, היה מבטל 3.3 דולר...",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: The amendment, introduced by GOP Rep. Thomas Massie of Kentucky, who has consistently opposed foreign aid, would have eliminated $3.3 billion in assistance to Israel. Read more: ",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078298207239672066#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/house-rejects-israel-aid-cut-massie-amendment",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078223478361354240%2F9hzthO7r%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-18T01:58:00+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "בחצי הכוס המלאה האחרונה שלנו, @sonusvarghese ואני דיברנו על התחזית שלנו לאמצע השנה 2026: Still Riding The 🌊 🌊 🌊 🌊...",
@@ -907,12 +879,12 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/b58HtARJV80?is=CiL7fIALMtXuF7Xn",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078293498801864704%2F-qgTPUT3%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-18T01:39:16+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "חיל האוויר האמריקני שילש יותר מפי שלושה את התקרה עבור חוזי שיגור שלב 3 של מסלול 1 של מרחב ביטחון לאומי ל-$17B מ~$6B, מה שמרחיב את הפרס הפוטנציאלי...",
+      "title_he": "חיל האוויר האמריקני יותר משילש את התקרה עבור חוזי השקת שלב 3 של מסלול 1 של מרחב ביטחון לאומי ל-$17B מ~$6B, מה שמרחיב את הפרס הפוטנציאלי...",
       "summary_he": "",
       "body_en": "The U.S. Air Force more than tripled the ceiling for National Security Space Launch Phase 3 Lane 1 contracts to ~$17B from ~$6B expanding the potential award pool by ~$11B. Eligible providers include ",
       "ticker": "$SPCX",
@@ -921,7 +893,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNeO_MDaEAAYVg_.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-18T01:13:21+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +907,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-18T00:39:19+00:00",
       "sentiment": "neutral"
     },
@@ -949,7 +921,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNeFJXVW8AAmlup.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-18T00:30:22+00:00",
       "sentiment": "neutral"
     },
@@ -963,7 +935,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd-bjRWUAAiRne.jpg",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T00:01:01+00:00",
       "sentiment": "neutral"
     },
@@ -977,7 +949,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd7FF-XAAAKA1G.png",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T23:46:22+00:00",
       "sentiment": "neutral"
     },
@@ -991,12 +963,12 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd5IIeXMAAYd3z.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T23:37:50+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "הענשת שוק EPS שלילי הפתעות יותר מהממוצע: פעימות יורדות ב-0.1% מחמיצות ירידה מדהימה של 9.0% @FactSet",
+      "title_he": "שוק מעניש EPS שלילי הפתעות יותר מהממוצע: פעימות יורדות ב-0.1% מחמיצות ירידה מדהימה של 9.0% @FactSet",
       "summary_he": "",
       "body_en": "Market Punishing Negative EPS Surprises More Than Average: Beats falling 0.1% Misses falling a STUNNING 9.0% @FactSet",
       "ticker": "",
@@ -1005,7 +977,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNd49rYXwAAbzSB.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T23:37:07+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +991,7 @@
       "tag": "TECH",
       "article_url": "https://www.cnbc.com/2026/07/17/leather-jacket-worn-by-nvidia-ceo-goes-for-just-under-1-million-at-sothebys-auction-.html?__source=twitter%7Ctech&taid=6a5ab954c9c0930001af07d4&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078080648317702145%2F_qnJdo2C%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-17T23:23:00+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1005,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T21:24:20+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-17T21:17:39+00:00",
       "sentiment": "neutral"
     },
@@ -1061,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNdVi_YbcAA8xxC.jpg",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-17T21:03:56+00:00",
       "sentiment": "neutral"
     },
@@ -1075,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-17T20:34:49+00:00",
       "sentiment": "bullish"
     },
@@ -1089,7 +1061,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T19:26:47+00:00",
       "sentiment": "neutral"
     },
@@ -1103,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T19:25:55+00:00",
       "sentiment": "neutral"
     },
@@ -1117,7 +1089,7 @@
       "tag": "M&A",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T19:24:40+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1103,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-17T19:06:44+00:00",
       "sentiment": "neutral"
     },
@@ -1145,7 +1117,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-17T19:02:21+00:00",
       "sentiment": "neutral"
     },
@@ -1159,12 +1131,12 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078176518375612416%2Fimg%2FQF2hnlZvawjetjhX.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-17T18:30:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "יום שישי האדום הזה מפריע לך? רוצה חדשות טובות? בחזרה לפי ביקוש פופולרי במיוחד, יש לנו את @JC_ParetsX להצטרף אלינו בשבוע הבא ב-Facts vs Feelings 🥳...",
+      "title_he": "יום שישי האדום הזה מפריע לך? רוצה חדשות טובות? בעקבות ביקוש פופולרי במיוחד, יש לנו את @JC_ParetsX להצטרף אלינו בשבוע הבא ב-Facts vs Feelings 🥳...",
       "summary_he": "",
       "body_en": "Does this red Friday have you down? Want some good news? Back by extremely popular demand, we have @JC_ParetsX set to join us next week on Facts vs Feelings 🥳 🎉 ⌛ 💥",
       "ticker": "",
@@ -1173,12 +1145,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNctpduW4AA3Vp9.jpg",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-17T18:08:05+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "תודה לחבר שלי @Lawrence_Sprung מ- @MitlinFinancial על שחזרתי ל- @MitlinMoney! זה תמיד כבוד והמון כיף. דיברנו על אמצע השנה שלנו...",
+      "title_he": "תודה לחבר שלי @Lawrence_Sprung מ- @MitlinFinancial על שחזרתי ל- @MitlinMoney! זה תמיד כבוד והמון כיף. שוחחנו על אמצע השנה שלנו...",
       "summary_he": "",
       "body_en": "Thanks to my friend @Lawrence_Sprung of @MitlinFinancial for having me back on @MitlinMoney! It is always an honor and a ton of fun. We discussed our Midyear Outlook 🌊 🌊, but also hit on my career, wh",
       "ticker": "",
@@ -1187,7 +1159,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/wNbznrmosic?is=yTOmM_7N04tPOhi4",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078173509402968064%2FxUpvwnPk%3Fformat%3Djpg%26name%3D800x320_1",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T17:42:28+00:00",
       "sentiment": "neutral"
     },
@@ -1201,7 +1173,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNck1aHXIAAA9-b.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T17:39:40+00:00",
       "sentiment": "neutral"
     },
@@ -1215,7 +1187,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcjBW5XYAA-bjR.png",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T17:21:51+00:00",
       "sentiment": "neutral"
     },
@@ -1229,7 +1201,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078165292690337792%2Fimg%2FZVQ8jGqnjpsDTDQQ.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-17T17:10:06+00:00",
       "sentiment": "neutral"
     },
@@ -1243,12 +1215,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcK7FFWwAAzh55.png",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-17T15:38:49+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "SanDisk (SNDK) עלתה ב-10% מהשפל התוך-יומי שלה, והשוק עדיין לא נפתח שעה. $SNDK",
+      "title_he": "SanDisk (SNDK) עלתה ב-10% מהשפל התוך-יומי שלה, והשוק עוד לא נפתח אפילו שעה. $SNDK",
       "summary_he": "",
       "body_en": "SanDisk (SNDK) up 10% from its intraday low, and the market hasn't even been open an hour yet. $SNDK",
       "ticker": "$SNDK",
@@ -1257,7 +1229,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNb7Kw7XQAAJVFK.png",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 15ש׳",
       "published_at": "2026-07-17T14:27:44+00:00",
       "sentiment": "neutral"
     },
@@ -1271,12 +1243,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbvozeaYAEsqbm.jpg",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-17T13:45:29+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$NFLX, המניה, תסתובב ותפעל במהירות כשתעשה זאת. זה מובס כרגע אבל ההגנה הזו עושה קאמבק. זה צריך לשבור את הבמה התלולה...",
+      "title_he": "$NFLX, המניה, תסתובב ותפעל במהירות כשתעשה זאת. זה מוכה עכשיו אבל ההגנה הזו עושה קאמבק. זה צריך לשבור את הבמה התלולה...",
       "summary_he": "",
       "body_en": "$NFLX, the stock, will turnaround and run quickly when it does. It's beaten down right now but this one def makes a comeback. It needs to break the steep stage 4 decline. No position.",
       "ticker": "$NFLX",
@@ -1285,12 +1257,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbngUpWQAAZyXj.jpg",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-17T13:01:37+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "$RDDT - $185.26, בונה באופן פעיל בסיס בצורת כוס של שבעה חודשים ליד ה-200d ma. פריצה, עם או בלי היווצרות ידית (פעם בצד ימין...",
+      "title_he": "$RDDT - $185.26, בונה באופן פעיל בסיס בצורת גביע של שבעה חודשים ליד ה-200d ma. פריצה, עם או בלי מבנה ידית (פעם בצד ימין...",
       "summary_he": "",
       "body_en": "$RDDT - $185.26, is actively building a seven month cup shaped base near the 200d ma. A breakout, with or without a handle formation (once the right side completes), likely takes the stock to $250+ A ",
       "ticker": "$RDDT",
@@ -1299,7 +1271,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNbbD0OWIAA1nYj.png",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-17T12:08:59+00:00",
       "sentiment": "neutral"
     },
@@ -1313,7 +1285,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-17T10:07:44+00:00",
       "sentiment": "bearish"
     },
@@ -1327,7 +1299,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-17T08:17:57+00:00",
       "sentiment": "bearish"
     }
