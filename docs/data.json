@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T12:12:07.906017+00:00",
+  "generated_at": "2026-07-18T13:56:40.302661+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-18T12:12:07.906036+00:00",
+  "ta_generated_at": "2026-07-18T13:56:40.302680+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "-0.42%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.41528691541970986
+      "pct_raw": -0.4151864792421858
     },
     {
       "name": "VIX",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,082",
-      "change": "+0.30%",
+      "value": "$64,054",
+      "change": "+0.26%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3031702254876524
+      "pct_raw": 0.25962540813483964
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,74 +856,158 @@
   },
   "us_news": [
     {
-      "title_he": "תשואת $AGG קצת מתחת ל-5%",
+      "title_he": "הנה קטע מהניוזלטר של השבוע ב-Bespoke Report, שעוסק בעומק היכן הדברים עומדים במחזור שוק המניות. קרא את זה כאן:…",
       "summary_he": "",
-      "body_en": "$AGG yield just below 5%",
-      "ticker": "$AGG",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078451323138183651#m",
-      "tag": "MACRO",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNgkdsOWEAAJF7V.png",
-      "relative_time": "לפני 5ד׳",
-      "published_at": "2026-07-18T12:06:25+00:00",
+      "body_en": "Here’s a snippet from this week’s Bespoke Report newsletter, which goes deep on where things stand in the equity market cycle. Give it a read here: https://www.bespokepremium.com/interactive/posts/fea",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2078475832528351637#m",
+      "tag": "NEWS",
+      "article_url": "https://www.bespokepremium.com/interactive/posts/featured-reports/the-bespoke-report-7-17-26-gut-check",
+      "tweet_image": "https://nitter.net/pic/media%2FHNg6wGUXsAAklS7.jpg",
+      "relative_time": "לפני 12ד׳",
+      "published_at": "2026-07-18T13:43:49+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "GS: התנודתיות המשתמעת של מניית S&P 500 הממוצעת ב-40% רושמת כעת פי 2.8 מהתנודתיות המשתמעת של המדד, גם היא שיא.",
+      "title_he": "תמיד תזכורת טובה לכך שהגיבוי בתשואות הוא סיפור גלובלי. מאת @Blackrock",
       "summary_he": "",
-      "body_en": "GS: Implied volatility for the average S&P 500 stock at 40% now registers 2.8x the index's implied volatility, also a record.",
+      "body_en": "Always a good reminder that the backup in yields is a global story. From @Blackrock",
       "ticker": "",
       "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078449958974304619#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNgjOUaXcAILmxG.png",
-      "relative_time": "לפני 10ד׳",
-      "published_at": "2026-07-18T12:01:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "Harnett BofA: BofA Bull & Bear Indicator ב-9.6... מיצוב שוורים קיצוני אומר שטקטיקת הקיץ הטובה ביותר נשארת נסיגה מנכסי סיכון ו/או סיבוב ל...",
-      "summary_he": "",
-      "body_en": "Harnett BofA: BofA Bull & Bear Indicator at 9.6...extreme bull positioning says the best summer tactic remains retreat from risk assets and/or rotate to duration, defensives, dividend yields, US dolla",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078447443289559251#m",
+      "link": "https://nitter.net/MikeZaccardi/status/2078475124798369919#m",
       "tag": "MACRO",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNgg72uWIAAgbu5.png",
-      "relative_time": "לפני 20ד׳",
-      "published_at": "2026-07-18T11:51:00+00:00",
+      "tweet_image": "https://nitter.net/pic/media%2FHNg6HLSXUAAf55y.png",
+      "relative_time": "לפני 15ד׳",
+      "published_at": "2026-07-18T13:41:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "GS: מתאמים נמוכים של מניות דיכאו את תנודתיות המדדים \"הסיבה לסטייה הזו היא ירידה במתאם בין מניות S&P 500, עם...",
+      "title_he": "נפט גולמי מסוג ברנט חזר ל-$88... מוצרים מזוקקים הם הדוקים ביותר... שיעורי החלפת אינפלציה בארה\"ב שפירים ביותר... 2.0% 1 שנה 2.35% מעבר ל-@augurinfinity",
       "summary_he": "",
-      "body_en": "GS: Record-low stock correlations have suppressed index volatility \"The reason for this divergence is a decline in correlation across S&P 500 stocks, with 3-month implied average stock correlation fal",
+      "body_en": "Brent crude oil is back to $88... refined products are extremely tight... US inflation swap rates extremely benign... 2.0% 1yr 2.35% beyond @augurinfinity",
       "ticker": "",
       "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078444925633298925#m",
+      "link": "https://nitter.net/MikeZaccardi/status/2078474410709630984#m",
+      "tag": "ENERGY",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNg5dfJW8AACYn_.jpg",
+      "relative_time": "לפני 18ד׳",
+      "published_at": "2026-07-18T13:38:10+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "לריאן פוקס, בן 62 וצמוד ליתרון, יש סיכוי של 4.3% לזכות ב-@TheOpen @kalshi @BrandelChamblee https://kalshi.com/markets/kxpgatour/pga-tour/kxpgatour-thoc26…",
+      "summary_he": "",
+      "body_en": "Ryan Fox, 62 & tied for the lead, has a 4.3% chance to win @TheOpen @kalshi @BrandelChamblee https://kalshi.com/markets/kxpgatour/pga-tour/kxpgatour-thoc26 Rory 0.5% chance Xander 0.4% (broadcaster sa",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078473013884821538#m",
+      "tag": "NEWS",
+      "article_url": "https://kalshi.com/markets/kxpgatour/pga-tour/kxpgatour-thoc26",
+      "tweet_image": "https://nitter.net/pic/media%2FHNg4MRpXMAAEq1n.jpg",
+      "relative_time": "לפני 23ד׳",
+      "published_at": "2026-07-18T13:32:37+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SPCX לווייני Starmind AI יכולים לנתב נתונים דרך רשת הלייזר של Starlink תוך הימנעות מאנטנות מורכבות ומדרישות ספקטרום ישיר ביותר. זה מאפשר…",
+      "summary_he": "",
+      "body_en": "$SPCX Starmind AI satellites could route data through Starlink’s laser mesh avoiding complex onboard antennas and most direct spectrum requirements. That lets Starmind piggyback on more than 10,000 St",
+      "ticker": "$SPCX",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078472912118636591#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078472742492581888%2Fimg%2FLJi6Nl6Fn_UI61lG.jpg",
+      "relative_time": "לפני 24ד׳",
+      "published_at": "2026-07-18T13:32:13+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "עליות מוצקות יותר ב-S&P 500 תחת הנשיא טראמפ... אבל קדנציה 2 מפגרת עד כה לטווח 1 @augurinfinity",
+      "summary_he": "",
+      "body_en": "More solid S&P 500 gains under President Trump... but term 2 lags term 1 so far @augurinfinity",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078471231079067778#m",
       "tag": "NEWS",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNgepXKXEAAd-1A.png",
+      "tweet_image": "https://nitter.net/pic/media%2FHNg2kZBX0AATNBP.jpg",
       "relative_time": "לפני 30ד׳",
-      "published_at": "2026-07-18T11:41:00+00:00",
+      "published_at": "2026-07-18T13:25:32+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "מדד SOX נסחר רק ב-33% מעל 200dma לעומת 76% ב-3 ביוני @stockcharts -20%... חזרה למקום שבו היה לפני חודשיים",
+      "title_he": "סחורות המובילות YTD ה-GS החלש ביותר ב-$IAGG העולמי",
       "summary_he": "",
-      "body_en": "SOX index trading just 33% above 200dma vs. 76% on June 3rd @stockcharts -20% ... back to where it was two months ago",
-      "ticker": "",
+      "body_en": "Commodities leading YTD The global $IAGG weakest GS",
+      "ticker": "$IAGG",
       "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078442695647731922#m",
+      "link": "https://nitter.net/MikeZaccardi/status/2078470093369921982#m",
       "tag": "NEWS",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNgcnitXwAAwW1t.png",
-      "relative_time": "לפני 39ד׳",
-      "published_at": "2026-07-18T11:32:08+00:00",
+      "tweet_image": "https://nitter.net/pic/media%2FHNg1iOYXIAELUWq.jpg",
+      "relative_time": "לפני 35ד׳",
+      "published_at": "2026-07-18T13:21:01+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "$META, $GOOGL, $MSFT ו-$AMZN צפויים להגדיל את תזרים המזומנים החופשי המשולב כמעט פי 10 עד ~650 מיליארד דולר במהלך ארבע השנים הקרובות. הם מוציאים עכשיו באגרסיביות כדי...",
+      "summary_he": "",
+      "body_en": "$META, $GOOGL, $MSFT and $AMZN are expected to grow combined free cash flow nearly 10x to ~$650B over the next four years. They're spending aggressively now to own the compute layer that could collect",
+      "ticker": "$META",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078468453560951292#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNgz1IBbEAAYWMU.jpg",
+      "relative_time": "לפני 41ד׳",
+      "published_at": "2026-07-18T13:14:30+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@FuturumEquities: כאן תוכלו לצפות בפירוט הרווחים המלא שלי ב-$TSM: https://youtu.be/eB1YqBuV8kE?si=fWBMlJ-y6u4WVUzN",
+      "summary_he": "",
+      "body_en": "R to @FuturumEquities: Heres where you can watch my full $TSM earnings breakdown: https://youtu.be/eB1YqBuV8kE?si=fWBMlJ-y6u4WVUzN",
+      "ticker": "$TSM",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078464888079532468#m",
+      "tag": "EARNINGS",
+      "article_url": "https://youtu.be/eB1YqBuV8kE?si=fWBMlJ-y6u4WVUzN",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078464888486465536%2FWvtju1gk%3Fformat%3Djpg%26name%3D800x320_1",
+      "relative_time": "לפני 55ד׳",
+      "published_at": "2026-07-18T13:00:19+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NVDA, $AMD, $AVGO ושבבי hyperscaler מותאמים אישית יתחרו במשך שנים במרוץ הבינה המלאכותית, אבל כמעט כולם עדיין יהיו תלויים ב-$TSM לייצור השבבים שלהם. ה…",
+      "summary_he": "",
+      "body_en": "$NVDA, $AMD, $AVGO and custom hyperscaler chips will compete for years in the AI race but nearly all will still depend on $TSM to manufacture their chips. The quarter was excellent but the market want",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078460690512437676#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078460662934806528%2Fimg%2FytLxQlcDk1Evyelu.jpg",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-18T12:43:39+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מנכ\"ל $JPM, ג'יימי דימון, אומר שהוא לא יקנה אג\"ח ממשלתיות ארוכות טווח, מזהיר שהאינפלציה עלולה להישאר דביקה מהצפוי. גם אם האינפלציה תרד...",
+      "summary_he": "",
+      "body_en": "$JPM CEO Jamie Dimon says he wouldn’t buy long-dated government bonds warning inflation could remain stickier than expected. Even if inflation falls back toward 2%, he sees limited upside in long-term",
+      "ticker": "$JPM",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078452853488922898#m",
+      "tag": "MACRO",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078452728515416065%2Fimg%2F_JF9mJ1c-bf9EKxB.jpg",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-18T12:12:30+00:00",
+      "sentiment": "bearish"
     },
     {
       "title_he": "RT מאת @DivesTech: Business Insider שוחח עם האנליסט הטכנולוגי דן איבס על תוכניתו להקים \"בנק סוחר מודרני\". מעבר להבטחה לשבש, הפרטים...",
@@ -935,23 +1019,9 @@
       "tag": "NEWS",
       "article_url": "https://bit.ly/45ePpbm",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078419101601374208%2FaeHeCdjV%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T09:58:23+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: בערך 5.6 אחוז מהגברים בין 30 ל-79 סובלים ממחסור בטסטוסטרון, שעלול לגרום לאובדן שרירים, עייפות, עלייה במשקל ומיניות...",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: Roughly 5.6 percent of men between 30 and 79 have testosterone deficiency, which can cause muscle loss, fatigue, weight gain and sexual dysfunction. Read more: https://unusualwha",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078313306972967093#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/hegseth-military-testosterone-screening-trt",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078223916003471360%2FYiam9pRY%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 9ש׳",
-      "published_at": "2026-07-18T02:58:00+00:00",
-      "sentiment": "bearish"
     },
     {
       "title_he": "בחצי הכוס המלאה האחרונה שלנו, @sonusvarghese ואני דיברנו על התחזית שלנו לאמצע השנה 2026: Still Riding The 🌊 🌊 🌊 🌊...",
@@ -963,22 +1033,8 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/b58HtARJV80?is=CiL7fIALMtXuF7Xn",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078293498801864704%2F-qgTPUT3%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-18T01:39:16+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "חיל האוויר האמריקני יותר משילש את התקרה עבור חוזי השקת שלב 3 של מסלול 1 של מרחב ביטחון לאומי ל-$17B מ~$6B, מה שמרחיב את הפרס הפוטנציאלי...",
-      "summary_he": "",
-      "body_en": "The U.S. Air Force more than tripled the ceiling for National Security Space Launch Phase 3 Lane 1 contracts to ~$17B from ~$6B expanding the potential award pool by ~$11B. Eligible providers include ",
-      "ticker": "$SPCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078286971072602414#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNeO_MDaEAAYVg_.jpg",
-      "relative_time": "לפני 10ש׳",
-      "published_at": "2026-07-18T01:13:21+00:00",
       "sentiment": "neutral"
     },
     {
@@ -991,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-18T00:39:19+00:00",
       "sentiment": "neutral"
     },
@@ -1005,22 +1061,8 @@
       "tag": "TECH",
       "article_url": "https://www.cnbc.com/2026/07/17/leather-jacket-worn-by-nvidia-ceo-goes-for-just-under-1-million-at-sothebys-auction-.html?__source=twitter%7Ctech&taid=6a5ab954c9c0930001af07d4&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078080648317702145%2F_qnJdo2C%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 12ש׳",
-      "published_at": "2026-07-17T23:23:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: תיקון בורי אמר \"אני שומר על חשיפה קצרה כאן על ידי שמירה על חצי.\"",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: Correction Burry said “I maintain short exposure here by retaining half.”",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078229337741107550#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
       "relative_time": "לפני 14ש׳",
-      "published_at": "2026-07-17T21:24:20+00:00",
+      "published_at": "2026-07-17T23:23:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1033,22 +1075,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-17T21:17:39+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניות מוליכים למחצה $SOXX נמצאות בירידה הגדולה ביותר שלהן בשנה האחרונה.",
-      "summary_he": "",
-      "body_en": "Semiconductor stocks $SOXX are in their largest drawdown of the past year.",
-      "ticker": "$SOXX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078224203879481393#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNdVi_YbcAA8xxC.jpg",
-      "relative_time": "לפני 15ש׳",
-      "published_at": "2026-07-17T21:03:56+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1061,23 +1089,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-17T20:34:49+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "טראמפ מאיים על קנדה על שריפות יער הנשיא טראמפ האשים את קנדה באי ניהול יערותיה ופסולת השריפות שלה, והאשים את המדינה במעבר גבולות...",
-      "summary_he": "",
-      "body_en": "TRUMP THREATENS CANADA OVER WILDFIRES President Trump accused Canada of failing to manage its forests and wildfire debris, blaming the country for cross-border smoke pollution. He said he would speak ",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2078199755977736263#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 16ש׳",
-      "published_at": "2026-07-17T19:26:47+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "*טראמפ: מחזיקה בקנדה באחריות לעובדה שהם לא שומרים כראוי על היערות שלהם *טראמפ: יש להוסיף עלויות של זיהום אוויר קנדי ​​ל...",
@@ -1089,22 +1103,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-17T19:25:55+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$SPCX - SPACEX בשיחות עם פנטגון, לפי הדיווחים, SpaceX מנהלת משא ומתן עם משרד ההגנה האמריקני כדי לספק מיליארדי דולרים בקיבולת מרכזי נתונים...",
-      "summary_he": "",
-      "body_en": "$SPCX - SPACEX IN TALKS WITH PENTAGON SpaceX is reportedly negotiating with the U.S. Defense Department to provide billions of dollars in data-center capacity for AI workloads. The deal would support ",
-      "ticker": "$SPCX",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2078199221929288038#m",
-      "tag": "M&A",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 16ש׳",
-      "published_at": "2026-07-17T19:24:40+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1117,12 +1117,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-17T19:06:44+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "יום שישי האדום הזה מפריע לך? רוצה חדשות טובות? בעקבות ביקוש פופולרי במיוחד, יש לנו את @JC_ParetsX להצטרף אלינו בשבוע הבא ב-Facts vs Feelings 🥳...",
+      "title_he": "יום שישי האדום הזה מפריע לך? רוצה חדשות טובות? בחזרה לפי ביקוש פופולרי במיוחד, יש לנו את @JC_ParetsX להצטרף אלינו בשבוע הבא ב-Facts vs Feelings 🥳...",
       "summary_he": "",
       "body_en": "Does this red Friday have you down? Want some good news? Back by extremely popular demand, we have @JC_ParetsX set to join us next week on Facts vs Feelings 🥳 🎉 ⌛ 💥",
       "ticker": "",
@@ -1131,7 +1131,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNctpduW4AA3Vp9.jpg",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-17T18:08:05+00:00",
       "sentiment": "neutral"
     },
@@ -1145,22 +1145,8 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/wNbznrmosic?is=yTOmM_7N04tPOhi4",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078173509402968064%2FxUpvwnPk%3Fformat%3Djpg%26name%3D800x320_1",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-17T17:42:28+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: .@DivesTech מצטרף ל-@cline_woods של TheStreet כדי לפרט מדוע הוא מאמין שהמסחר בינה מלאכותית עדיין בסיבובים המוקדמים, מה מניע את...",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: .@DivesTech joins TheStreet's @cline_woods to break down why he believes the AI trade is still in the early innings, what's driving the recent sell-off, and the key signals he's watc",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/TheStreet/status/2078172798489350523#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNck1aHXIAAA9-b.jpg",
-      "relative_time": "לפני 18ש׳",
-      "published_at": "2026-07-17T17:39:40+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1173,22 +1159,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcjBW5XYAA-bjR.png",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-17T17:21:51+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: $TSM הופך לאחד ממשחקי הייצור הטהורים ביותר בתחום הבינה המלאכותית, כאשר הכנסות HPC עולות ב-20% ברצף וכעת מהוות 66% מ...",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $TSM is becoming one of the purest manufacturing plays on AI with HPC revenue rising 20% sequentially and now accounting for 66% of total revenue. That demand gives TSMC signifi",
-      "ticker": "$TSM",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078165359505592692#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078165292690337792%2Fimg%2FZVQ8jGqnjpsDTDQQ.jpg",
-      "relative_time": "לפני 19ש׳",
-      "published_at": "2026-07-17T17:10:06+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1201,54 +1173,20 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcK7FFWwAAzh55.png",
-      "relative_time": "לפני 20ש׳",
-      "published_at": "2026-07-17T15:38:49+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "SanDisk (SNDK) עלתה ב-10% מהשפל התוך-יומי שלה, והשוק עוד לא נפתח אפילו שעה. $SNDK",
-      "summary_he": "",
-      "body_en": "SanDisk (SNDK) up 10% from its intraday low, and the market hasn't even been open an hour yet. $SNDK",
-      "ticker": "$SNDK",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2078124497144537461#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNb7Kw7XQAAJVFK.png",
-      "relative_time": "לפני 21ש׳",
-      "published_at": "2026-07-17T14:27:44+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אל תגיד שלא הזהרתי אותך. $SPCX עומד כעת על $126 למניה - היפוך מדהים של 45% בחודש אחד בלבד מהשיא שלאחר ההנפקה של $226 והרבה מתחת להנפקה שלו...",
-      "summary_he": "",
-      "body_en": "Don’t say I didn’t warn you. $SPCX now sits at $126/share - a stunning 45% reversal in just one month from its post-IPO peak of $226 and well below its IPO price of $135. SPCX still trades at FY’2026 ",
-      "ticker": "$SPCX",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2078113864840008046#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNbvozeaYAEsqbm.jpg",
       "relative_time": "לפני 22ש׳",
-      "published_at": "2026-07-17T13:45:29+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$NFLX, המניה, תסתובב ותפעל במהירות כשתעשה זאת. זה מוכה עכשיו אבל ההגנה הזו עושה קאמבק. זה צריך לשבור את הבמה התלולה...",
-      "summary_he": "",
-      "body_en": "$NFLX, the stock, will turnaround and run quickly when it does. It's beaten down right now but this one def makes a comeback. It needs to break the steep stage 4 decline. No position.",
-      "ticker": "$NFLX",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2078102823443534182#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNbngUpWQAAZyXj.jpg",
-      "relative_time": "לפני 23ש׳",
-      "published_at": "2026-07-17T13:01:37+00:00",
+      "published_at": "2026-07-17T15:38:49+00:00",
       "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "גל שריפות: בתים עולים באש בחוות גלעד, תושבים פונו; מטוסי כיבוי פועלים בשמשית",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854384",
+      "tag": "כללי",
+      "published_at": "2026-07-18T15:33:00+00:00"
+    },
     {
       "title_he": "למה הדרוזים בסוריה מסרבים לתוכנית ההצלה הסודית של ישראל?",
       "summary_he": "",
@@ -1320,14 +1258,6 @@
       "link": "https://news.walla.co.il/item/3854219",
       "tag": "כללי",
       "published_at": "2026-07-17T12:12:00+00:00"
-    },
-    {
-      "title_he": "התפרצות חריגה של טפיל מעיים בארה\"ב - יותר מ-1600 חולים מאומתים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854211",
-      "tag": "כללי",
-      "published_at": "2026-07-17T11:23:00+00:00"
     }
   ],
   "track_record": {
