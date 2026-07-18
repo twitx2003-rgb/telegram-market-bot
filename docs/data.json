@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T20:46:17.106942+00:00",
+  "generated_at": "2026-07-18T21:50:52.347314+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-18T20:46:17.106963+00:00",
+  "ta_generated_at": "2026-07-18T21:50:52.347340+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,570",
-      "change": "+1.07%",
+      "value": "$64,647",
+      "change": "+1.19%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.067881079761208
+      "pct_raw": 1.186995407602665
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,34 @@
   },
   "us_news": [
     {
+      "title_he": "https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville @business 🏆🏆🍿",
+      "summary_he": "",
+      "body_en": "https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville @business 🏆🏆🍿",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/DivesTech/status/2078586345887252718#m",
+      "tag": "NEWS",
+      "article_url": "https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2077305561482190848%2FQAqyuOZq%3Fformat%3Dpng%26name%3D800x419",
+      "relative_time": "לפני 47ד׳",
+      "published_at": "2026-07-18T21:02:57+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "\"זה יהיה הקיץ של עצרת הכל\", לפי וולס פארגו.",
+      "summary_he": "",
+      "body_en": "\"This will be the summer of the everything rally,\" per Wells Fargo.",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078585852859650137#m",
+      "tag": "BANKS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 49ד׳",
+      "published_at": "2026-07-18T21:01:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "אפל נקטה בנתיב שונה בהרבה לגבי הוצאות בינה מלאכותית והיא עובדת, שכן המניה נמצאת ב-ATHs. זה דומה ל-John D. Rockefeller ו-Standard Oil של...",
       "summary_he": "",
       "body_en": "Apple has taken a much different path regarding AI spending and it is working, as the stock is at ATHs. It is similar to John D. Rockefeller and Standard Oil's path to success 170 yrs ago. Very intere",
@@ -865,12 +893,12 @@
       "tag": "ENERGY",
       "article_url": "https://www.barrons.com/articles/apple-stock-standard-oil-1759ba4c?mod=djem_b_Feature",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077815446888132608%2FcFfpc3CJ%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 24ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-18T20:21:21+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R to @wallstengine: נתונים סטטיסטיים כמו אלה, ועוד רבים נוספים, יהיו זמינים בקרוב בשידור חי בכתובת http://earnings.wallstengine.com",
+      "title_he": "R to @wallstengine: נתונים סטטיסטיים כמו אלה ורבים נוספים יהיו זמינים בקרוב בשידור חי בכתובת http://earnings.wallstengine.com",
       "summary_he": "",
       "body_en": "R to @wallstengine: Stats like these, and many more, will soon be available live at http://earnings.wallstengine.com",
       "ticker": "",
@@ -879,7 +907,7 @@
       "tag": "EARNINGS",
       "article_url": "http://earnings.wallstengine.com",
       "tweet_image": "",
-      "relative_time": "לפני 47ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-18T19:58:59+00:00",
       "sentiment": "neutral"
     },
@@ -893,12 +921,12 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP8zkaoAADDGD.png",
-      "relative_time": "לפני 49ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-18T19:57:01+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "עונת הרווחים של S&P 500 מתחילה חזק: 33 מתוך 33 כתבים מוקדמים ניצחו את הערכות הרווח למניה",
+      "title_he": "עונת הרווחים של S&P 500 נפתחה חזק: 33 מתוך 33 כתבים מוקדמים ניצחו את הערכות הרווח למניה",
       "summary_he": "",
       "body_en": "S&P 500 earnings season is off to a strong start: 33 of 33 early reporters beat EPS estimates",
       "ticker": "",
@@ -907,7 +935,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP390bMAAe6wV.png",
-      "relative_time": "לפני 50ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-18T19:55:45+00:00",
       "sentiment": "bullish"
     },
@@ -921,7 +949,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiKTcVXsAA4Vjb.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T19:32:03+00:00",
       "sentiment": "bullish"
     },
@@ -935,22 +963,8 @@
       "tag": "NEWS",
       "article_url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
       "tweet_image": "https://nitter.net/pic/card_img%2F2076768186645528576%2FZ29ZACsQ%3Fformat%3Dpng%26name%3D800x419",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T18:39:50+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: יש סיכוי של 30% שארה\"ב תפלוש לאיראן לפני 2027, לפי פולימרקט. קרא עוד:…",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: There is a 30% chance US will invade Iran before 2027, per Polymarket. Read more: https://polymarket.com/event/will-the-us-invade-iran-before-2027",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078549658331427153#m",
-      "tag": "NEWS",
-      "article_url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2076768186645528576%2FZ29ZACsQ%3Fformat%3Dpng%26name%3D800x419",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-18T18:37:10+00:00",
       "sentiment": "neutral"
     },
     {
@@ -963,7 +977,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078539447579066368%2Fimg%2FaVTwIm7vHbzfiNAc.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T17:57:44+00:00",
       "sentiment": "neutral"
     },
@@ -977,7 +991,7 @@
       "tag": "NEWS",
       "article_url": "https://bit.ly/4yymsF2",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078454964297572352%2FBiJPOOLL%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-18T17:27:00+00:00",
       "sentiment": "neutral"
     },
@@ -991,7 +1005,7 @@
       "tag": "NEWS",
       "article_url": "https://schrts.co/NcKSVrEp",
       "tweet_image": "https://nitter.net/pic/media%2FHNhn42xX0AI7GOt.png",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-18T17:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -1005,12 +1019,12 @@
       "tag": "CRYPTO",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhfxLNakAAS7hx.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-18T16:25:33+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "נתוני TSA checkpoint... למטה YoY ובמחסנית 2yr @augurinfinity",
+      "title_he": "נתוני מחסום TSA... למטה YoY ובמחסנית 2yr @augurinfinity",
       "summary_he": "",
       "body_en": "TSA checkpoint data.. down YoY and on the 2yr stack @augurinfinity",
       "ticker": "",
@@ -1019,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNheu7IWcAAks_y.png",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-18T16:21:00+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhYR2qbsAAHBZS.jpg",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-18T15:52:54+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1061,7 @@
       "tag": "BANKS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhQZwXbUAAi0DJ.png",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T15:22:26+00:00",
       "sentiment": "bullish"
     },
@@ -1061,7 +1075,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhJz9WboAAiq22.png",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T14:56:54+00:00",
       "sentiment": "neutral"
     },
@@ -1075,7 +1089,7 @@
       "tag": "NEWS",
       "article_url": "https://www.bespokepremium.com/interactive/posts/featured-reports/the-bespoke-report-7-17-26-gut-check",
       "tweet_image": "https://nitter.net/pic/media%2FHNg6wGUXsAAklS7.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-18T13:43:49+00:00",
       "sentiment": "neutral"
     },
@@ -1089,12 +1103,20 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-18T00:39:19+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "למרות החשד לתקיפת שוטרים בנתב\"ג: שלושת החשודים שוחררו למעצר בית",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854444",
+      "tag": "כללי",
+      "published_at": "2026-07-19T00:25:00+00:00"
+    },
     {
       "title_he": "נקבע מותו של גבר כבן 45 שטבע בחוף הדייגים שבחדרה",
       "summary_he": "",
@@ -1166,14 +1188,6 @@
       "link": "https://news.walla.co.il/item/3854230",
       "tag": "כללי",
       "published_at": "2026-07-17T13:43:00+00:00"
-    },
-    {
-      "title_he": "\"סכסוכי העבריינים מגיעים אלינו\": לינוי בר גפן משחזרת כיצד חמוש פרץ לבניין מגוריה | תיעוד",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854222",
-      "tag": "כללי",
-      "published_at": "2026-07-17T13:01:00+00:00"
     }
   ],
   "track_record": {
