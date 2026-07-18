@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T15:57:09.629891+00:00",
+  "generated_at": "2026-07-18T17:02:16.455154+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-18T15:57:09.629914+00:00",
+  "ta_generated_at": "2026-07-18T17:02:16.455175+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,087",
-      "change": "+0.31%",
+      "value": "$64,240",
+      "change": "+0.55%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.310980744488028
+      "pct_raw": 0.5513694234616128
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,76 @@
   },
   "us_news": [
     {
+      "title_he": "מניות הרכבת ממשיכות להתרוצץ. רכבת משא, באמת. @StockCharts https://schrts.co/NcKSVrEp",
+      "summary_he": "",
+      "body_en": "Railroad stocks keep chugging along. A freight train, really. @StockCharts https://schrts.co/NcKSVrEp",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078525456949657780#m",
+      "tag": "NEWS",
+      "article_url": "https://schrts.co/NcKSVrEp",
+      "tweet_image": "https://nitter.net/pic/media%2FHNhn42xX0AI7GOt.png",
+      "relative_time": "לפני 1ד׳",
+      "published_at": "2026-07-18T17:01:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הבן שלי אפילו לא בן חודשיים ומסע ההשקעות שלו כבר התחיל. פתחתי לו חשבון משמורת ב-$HOOD עם ביטקוין, $NVDA ו-$RKLB.",
+      "summary_he": "",
+      "body_en": "My son isn’t even 2 months old and his investing journey has already begun. I opened him a custodial account on $HOOD with Bitcoin, $NVDA and $RKLB.",
+      "ticker": "$HOOD",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078516532943233458#m",
+      "tag": "CRYPTO",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNhfxLNakAAS7hx.jpg",
+      "relative_time": "לפני 36ד׳",
+      "published_at": "2026-07-18T16:25:33+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "נתוני TSA checkpoint... למטה YoY ובמחסנית 2yr @augurinfinity",
+      "summary_he": "",
+      "body_en": "TSA checkpoint data.. down YoY and on the 2yr stack @augurinfinity",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078515390276051180#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNheu7IWcAAks_y.png",
+      "relative_time": "לפני 41ד׳",
+      "published_at": "2026-07-18T16:21:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שובר: 4 מתוך 10 משקי בית שאינם בעלי בית יכולים להרשות לעצמם בית התחלתי טיפוסי במחיר של כ-200,000 דולר, לפי LendingTree.",
+      "summary_he": "",
+      "body_en": "BREAKING: 4 in 10 non-homeowner households can afford a typical starter home priced around $200,000, according to LendingTree.",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078510355702063135#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-18T16:01:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הנה 15 המבצעים המובילים של 2026 1. $SNDK +471% 2. $AEHR +301% 3. $DELL +215% 4. $PENG +209% 5. $MU +197% 6. $TWST +196% 7. $AAOI +194% 8 +194%…",
+      "summary_he": "",
+      "body_en": "HERE ARE THE TOP 15 PERFORMERS OF 2026 1. $SNDK +471% 2. $AEHR +301% 3. $DELL +215% 4. $PENG +209% 5. $MU +197% 6. $TWST +196% 7. $AAOI +194% 8. $AXTI +180% 9. $WDC +177% 10. $VPG +170% 11. $INTC +158",
+      "ticker": "$SNDK",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078508319359299931#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNhYR2qbsAAHBZS.jpg",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-18T15:52:54+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "אינפלציה בזמן... יותר כמו DEflation בזמן... -0.19% m/m @augurinfinity",
       "summary_he": "",
       "body_en": "Timely inflation... more like timely DEflation... -0.19% m/m @augurinfinity",
@@ -865,7 +935,7 @@
       "tag": "MACRO",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhVk-oWYAA4haT.png",
-      "relative_time": "לפני 15ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-18T15:41:00+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +949,7 @@
       "tag": "BANKS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhQZwXbUAAi0DJ.png",
-      "relative_time": "לפני 34ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-18T15:22:26+00:00",
       "sentiment": "bullish"
     },
@@ -893,21 +963,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 55ד׳",
-      "published_at": "2026-07-18T15:01:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "המכירות הקמעונאיות של Redbook YoY עשויות להאט מכאן... בעקבות ימי הפריימים של $AMZN ביוני, גביע העולם, אמריקה 250... כל העיניים נשואות לעונת הקניות של החזרה לבית הספר...",
-      "summary_he": "",
-      "body_en": "Redbook retail sales YoY could slow from here... following the June $AMZN Prime Days, World Cup, America 250... all eyes on the back-to-school shopping season now @augurinfinity",
-      "ticker": "$AMZN",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078495257679814696#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNhMbDJWMAAJibN.png",
-      "relative_time": "לפני 55ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T15:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -921,22 +977,8 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhJz9WboAAiq22.png",
-      "relative_time": "לפני 59ד׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T14:56:54+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "צמיחה יציבה מאוד של התמ\"ג הריאלי בארה\"ב, אם לשפוט לפי המעקב של @augurinfinity בזמן אמת 2.9%",
-      "summary_he": "",
-      "body_en": "Very solid US real GDP growth, judging from the real-time @augurinfinity tracker 2.9%",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078490224682733812#m",
-      "tag": "MACRO",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNhH2E6X0AAT0HC.jpg",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-18T14:41:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -949,50 +991,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhGd6hacAAMHGN.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-18T14:34:59+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Nasdaq 100 $QQQ $NDX... עכשיו בירידה של 7.05%... קיץ התעלפות @stockcharts",
-      "summary_he": "",
-      "body_en": "Nasdaq 100 $QQQ $NDX... now in a 7.05% drawdown... summer swoon @stockcharts",
-      "ticker": "$QQQ",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078488516216926695#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNhGSnrXcAAdL63.png",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-18T14:34:13+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל@StockSavvyShay: אני כן ממליץ לגדר תיק עם רמת סיכון כזו, אבל המשיכה הזו הייתה קשה במיוחד מכיוון שהכלל שלי הוא להוסיף...",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: I do recommend hedging a portfolio with this level of risk but this drawdown has been especially difficult because my rule is to add hedges only when $QQQ breaks below its 21-wee",
-      "ticker": "$QQQ",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078484556802641957#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-18T14:18:29+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: אני גם גאה להפליא בכמה קהילת חברי 5K+ שלי גדלה והתבגרה עם השנים. זו הפעם השישית שהתיק…",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: I’m also incredibly proud of how much my 5K+ member community has grown and matured over the years. This is the 6th time the portfolio has pulled back 10% or more in the past thr",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078482687241924678#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNhA6S7awAA6ArO.jpg",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-18T14:11:03+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1005,7 +1005,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T14:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -1019,22 +1019,8 @@
       "tag": "NEWS",
       "article_url": "https://www.bespokepremium.com/interactive/posts/featured-reports/the-bespoke-report-7-17-26-gut-check",
       "tweet_image": "https://nitter.net/pic/media%2FHNg6wGUXsAAklS7.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T13:43:49+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: Business Insider שוחח עם האנליסט הטכנולוגי דן איבס על תוכניתו להקים \"בנק סוחר מודרני\". מעבר להבטחה לשבש, הפרטים...",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: Business Insider talked to tech analyst Dan Ives about his plan to form a \"modern merchant bank.\" Beyond a promise to disrupt, the details are sparse. https://bit.ly/45ePpbm",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/BusinessInsider/status/2078419100921909740#m",
-      "tag": "NEWS",
-      "article_url": "https://bit.ly/45ePpbm",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078419101601374208%2FaeHeCdjV%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 5ש׳",
-      "published_at": "2026-07-18T09:58:23+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1047,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-18T00:39:19+00:00",
       "sentiment": "neutral"
     },
@@ -1061,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-17T21:17:39+00:00",
       "sentiment": "neutral"
     },
@@ -1075,23 +1061,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-17T20:34:49+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "טראמפ מאיים על קנדה על שריפות יער הנשיא טראמפ האשים את קנדה באי ניהול יערותיה ופסולת השריפות שלה, והאשים את המדינה במעבר גבולות...",
-      "summary_he": "",
-      "body_en": "TRUMP THREATENS CANADA OVER WILDFIRES President Trump accused Canada of failing to manage its forests and wildfire debris, blaming the country for cross-border smoke pollution. He said he would speak ",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2078199755977736263#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 20ש׳",
-      "published_at": "2026-07-17T19:26:47+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "*טראמפ: מחזיקה בקנדה באחריות לעובדה שהם לא שומרים כראוי על היערות שלהם *טראמפ: יש להוסיף עלויות של זיהום אוויר קנדי ​​ל...",
@@ -1103,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-17T19:25:55+00:00",
       "sentiment": "neutral"
     },
@@ -1117,7 +1089,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-17T19:06:44+00:00",
       "sentiment": "neutral"
     },
@@ -1131,7 +1103,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNctpduW4AA3Vp9.jpg",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "published_at": "2026-07-17T18:08:05+00:00",
       "sentiment": "neutral"
     },
@@ -1145,7 +1117,7 @@
       "tag": "NEWS",
       "article_url": "https://youtu.be/wNbznrmosic?is=yTOmM_7N04tPOhi4",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078173509402968064%2FxUpvwnPk%3Fformat%3Djpg%26name%3D800x320_1",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "published_at": "2026-07-17T17:42:28+00:00",
       "sentiment": "neutral"
     },
@@ -1159,7 +1131,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNcjBW5XYAA-bjR.png",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "published_at": "2026-07-17T17:21:51+00:00",
       "sentiment": "neutral"
     }
