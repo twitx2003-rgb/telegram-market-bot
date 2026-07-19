@@ -388,7 +388,7 @@ ECONOMIC_EVENTS = [
 
 EVENT_COLORS = {
     "FED":      ("var(--red)",    "rgba(239,68,68,0.15)"),
-    "CPI":      ("var(--accent)", "rgba(14,165,233,0.15)"),
+    "CPI":      ("var(--text)",   "rgba(154,163,173,0.12)"),
     "NFP":      ("var(--gold)",   "rgba(245,158,11,0.15)"),
     "EARNINGS": ("var(--green)",  "rgba(34,197,94,0.15)"),
     "GDP":      ("var(--purple)", "rgba(168,85,247,0.15)"),
@@ -1564,15 +1564,15 @@ TAG_COLORS_US = {
     "FED":      ("var(--red)",    "rgba(239,68,68,0.12)"),
     "TECH":     ("var(--purple)", "rgba(168,85,247,0.12)"),
     "M&A":      ("var(--gold)",   "rgba(245,158,11,0.12)"),
-    "MACRO":    ("var(--accent)", "rgba(14,165,233,0.12)"),
+    "MACRO":    ("var(--text)",   "rgba(154,163,173,0.10)"),
     "ENERGY":   ("var(--gold)",   "rgba(245,158,11,0.12)"),
     "CRYPTO":   ("var(--purple)", "rgba(168,85,247,0.12)"),
-    "BANKS":    ("var(--accent)", "rgba(14,165,233,0.12)"),
+    "BANKS":    ("var(--text)",   "rgba(154,163,173,0.10)"),
     "NEWS":     ("var(--muted)",  "rgba(100,116,139,0.12)"),
 }
 TAG_COLORS_IL = {
     "ביטחון":    ("var(--red)",    "rgba(239,68,68,0.12)"),
-    "פוליטיקה":  ("var(--accent)", "rgba(14,165,233,0.12)"),
+    "פוליטיקה":  ("var(--text)",   "rgba(154,163,173,0.10)"),
     "כלכלה":     ("var(--green)",  "rgba(34,197,94,0.12)"),
     "חברה":      ("var(--purple)", "rgba(168,85,247,0.12)"),
     "דיפלומטיה": ("var(--gold)",   "rgba(245,158,11,0.12)"),
@@ -1958,7 +1958,7 @@ def build_news_feed_tab(data: dict) -> str:
 
 
 _SETUP_COLORS = {
-    "פריצה":  ("var(--accent)", "rgba(6,182,212,.12)"),
+    "פריצה":  ("var(--white)",  "rgba(244,245,247,.1)"),
     "תמיכה":  ("var(--green)",  "rgba(16,185,129,.12)"),
     "מומנטום": ("var(--purple)", "rgba(139,92,246,.12)"),
     "תיקון":  ("var(--gold)",   "rgba(245,158,11,.12)"),
@@ -2147,48 +2147,54 @@ def build_html(data: dict) -> str:
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>לוח חדשות — {TODAY}</title>
 <link rel="manifest" href="manifest.json"/>
-<meta name="theme-color" content="#080c10"/>
+<meta name="theme-color" content="#212529"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&family=Assistant:wght@300;400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
   :root {{
-    --bg:      #080c10;
-    --surface: #0d1117;
-    --card:    #111820;
-    --border:  #1c2a38;
-    --accent:  #06b6d4;
-    --green:   #10b981;
-    --red:     #f43f5e;
-    --gold:    #f59e0b;
-    --purple:  #8b5cf6;
-    --text:    #94a3b8;
-    --muted:   #475569;
-    --white:   #f0f6ff;
+    --bg:      #212529;
+    --surface: #0b0d0f;
+    --card:    #101316;
+    --border:  rgba(255,255,255,.07);
+    --accent:  #f4f5f7;
+    --green:   #34d399;
+    --red:     #f87171;
+    --gold:    #fbbf24;
+    --purple:  #9aa3ad;
+    --text:    #9aa3ad;
+    --muted:   #5c6670;
+    --white:   #f4f5f7;
+    --e1: 0 8px 24px rgba(0,0,0,.35);
+    --e2: 0 16px 48px rgba(0,0,0,.45);
+    --e3: 0 24px 72px rgba(0,0,0,.55);
   }}
   body.light {{
-    --bg:      #f8fafc;
-    --surface: #f1f5f9;
+    --bg:      #eceef0;
+    --surface: #f7f8f9;
     --card:    #ffffff;
-    --border:  #e2e8f0;
-    --accent:  #0284c7;
+    --border:  rgba(0,0,0,.08);
+    --accent:  #16181b;
     --green:   #059669;
-    --red:     #e11d48;
-    --gold:    #d97706;
-    --purple:  #7c3aed;
-    --text:    #334155;
-    --muted:   #94a3b8;
-    --white:   #0f172a;
+    --red:     #dc2626;
+    --gold:    #b45309;
+    --purple:  #4b545e;
+    --text:    #4b545e;
+    --muted:   #8b949e;
+    --white:   #16181b;
+    --e1: 0 8px 24px rgba(0,0,0,.10);
+    --e2: 0 16px 48px rgba(0,0,0,.14);
+    --e3: 0 24px 72px rgba(0,0,0,.18);
   }}
   *{{box-sizing:border-box;margin:0;padding:0}}
-  body{{font-family:'Inter','Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;min-height:100vh;transition:background .3s,color .3s}}
+  body{{font-family:'Assistant','Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;min-height:100vh;transition:background .3s,color .3s}}
 
   /* ── Sticky Nav ── */
   .nav{{
     position:sticky;top:0;z-index:100;
-    background:rgba(7,11,15,0.93);
+    background:rgba(16,19,22,0.93);
     backdrop-filter:blur(14px);
     border-bottom:1px solid var(--border);
     padding:.5rem 1.2rem;
@@ -2197,7 +2203,7 @@ def build_html(data: dict) -> str:
   body.light .nav{{background:rgba(248,250,252,0.93)}}
   .nav a{{color:var(--muted);text-decoration:none;font-size:.78rem;font-weight:600;
     padding:.3rem .75rem;border-radius:6px;border:1px solid transparent;transition:all .2s}}
-  .nav a:hover{{color:var(--accent);border-color:var(--accent);background:rgba(14,165,233,.08)}}
+  .nav a:hover{{color:var(--accent);border-color:var(--accent);background:rgba(244,245,247,.06)}}
   .nav-sep{{color:var(--border);font-size:.85rem}}
   .theme-btn{{
     margin-right:auto;background:none;border:1px solid var(--border);border-radius:6px;
@@ -2210,7 +2216,7 @@ def build_html(data: dict) -> str:
   /* ── Ticker Tape ── */
   .ticker-wrap{{
     overflow:hidden;white-space:nowrap;
-    background:rgba(14,165,233,.04);
+    background:rgba(244,245,247,.03);
     border-bottom:1px solid var(--border);
     height:34px;display:flex;align-items:center;
     cursor:default;
@@ -2229,7 +2235,7 @@ def build_html(data: dict) -> str:
 
   /* ── Hero ── */
   .hero{{
-    background:linear-gradient(160deg,#070b0f 0%,#0c1929 50%,#070b0f 100%);
+    background:linear-gradient(160deg,#1a1e22 0%,#24282d 50%,#1a1e22 100%);
     border-bottom:1px solid var(--border);
     padding:1.9rem 2rem 1.5rem;text-align:center;position:relative;overflow:hidden;
   }}
@@ -2238,15 +2244,15 @@ def build_html(data: dict) -> str:
     border-radius:999px;font-size:.78rem;font-weight:700;border:1px solid var(--border);
     background:var(--card);color:var(--text)}}
   .mood-chip b{{font-variant-numeric:tabular-nums;font-family:'Inter',sans-serif}}
-  body.light .hero{{background:linear-gradient(160deg,#f8fafc 0%,#e0f2fe 50%,#f8fafc 100%)}}
+  body.light .hero{{background:linear-gradient(160deg,#e6e8ea 0%,#f2f3f5 50%,#e6e8ea 100%)}}
   .hero::before{{content:'';position:absolute;top:-60px;left:50%;transform:translateX(-50%);
-    width:600px;height:200px;background:radial-gradient(ellipse,rgba(14,165,233,.12) 0%,transparent 70%);pointer-events:none}}
+    width:600px;height:200px;background:radial-gradient(ellipse,rgba(244,245,247,.07) 0%,transparent 70%);pointer-events:none}}
   .hero-label{{font-size:.65rem;font-weight:700;letter-spacing:.35em;color:var(--accent);text-transform:uppercase;margin-bottom:.6rem}}
-  .hero h1{{font-family:'Heebo',sans-serif;font-size:clamp(1.8rem,5vw,3rem);font-weight:900;color:var(--white);letter-spacing:-.04em;line-height:1.1}}
+  .hero h1{{font-family:'Rubik',sans-serif;font-size:clamp(1.9rem,5.5vw,3.2rem);font-weight:900;color:var(--white);letter-spacing:.06em;line-height:1.1}}
   .hero h1 span{{color:var(--accent)}}
   .hero-sub{{color:var(--muted);font-size:.88rem;margin-top:.5rem}}
   .hero-date{{display:inline-flex;align-items:center;gap:.5rem;
-    background:rgba(14,165,233,.1);border:1px solid rgba(14,165,233,.3);
+    background:rgba(244,245,247,.08);border:1px solid rgba(244,245,247,.2);
     color:var(--accent);padding:.35rem 1.1rem;border-radius:999px;font-size:.8rem;font-weight:600}}
   .pulse{{width:6px;height:6px;background:var(--green);border-radius:50%;animation:pulse 2s infinite}}
   @keyframes pulse{{0%,100%{{opacity:1;transform:scale(1)}}50%{{opacity:.4;transform:scale(1.5)}}}}
@@ -2254,7 +2260,11 @@ def build_html(data: dict) -> str:
   /* ── Layout ── */
   .container{{max-width:1140px;margin:0 auto;padding:1.8rem 1.4rem 5rem}}
   .section{{margin-bottom:2.6rem}}
-  .section-label{{font-size:.65rem;font-weight:700;letter-spacing:.28em;text-transform:uppercase;
+  .tab-pane{{counter-reset:sec}}
+  .section-label::before{{counter-increment:sec;content:"." counter(sec,decimal-leading-zero);
+    font-family:'Inter',sans-serif;font-weight:600;color:var(--muted);letter-spacing:.08em;
+    margin-left:.6rem;direction:ltr}}
+  .section-label{{font-family:'Rubik',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.32em;text-transform:uppercase;
     color:var(--accent);margin-bottom:1.1rem;padding-bottom:.55rem;
     border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.5rem}}
 
@@ -2268,9 +2278,9 @@ def build_html(data: dict) -> str:
 
   /* ── Market Strips ── */
   .mkt-strip{{display:flex;flex-wrap:wrap;gap:.8rem;margin-bottom:.5rem}}
-  .mkt-card{{background:var(--card);border:1px solid var(--border);border-radius:10px;
+  .mkt-card{{background:var(--card);border:1px solid var(--border);border-radius:8px;box-shadow:var(--e1);
     padding:.9rem 1.1rem;min-width:120px;flex:1;transition:border-color .2s,background .2s}}
-  .mkt-card:hover{{border-color:var(--accent);background:linear-gradient(135deg,var(--card),rgba(6,182,212,.04))}}
+  .mkt-card:hover{{border-color:var(--accent);background:var(--card);box-shadow:var(--e2)}}
   .mkt-name{{font-size:.68rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.25rem}}
   .mkt-value{{font-size:1.4rem;font-weight:700;color:var(--white);font-variant-numeric:tabular-nums;font-family:'Inter',monospace}}
   .mkt-row{{display:flex;align-items:center;justify-content:space-between;margin-top:.2rem}}
@@ -2280,7 +2290,7 @@ def build_html(data: dict) -> str:
 
   /* ── Fear & Greed + IL row ── */
   .fg-il-row{{display:flex;gap:.8rem;flex-wrap:wrap;margin-bottom:2.6rem;align-items:stretch}}
-  .fg-card{{background:var(--card);border:1px solid var(--border);border-radius:10px;
+  .fg-card{{background:var(--card);border:1px solid var(--border);border-radius:8px;box-shadow:var(--e1);
     padding:.9rem 1.1rem;display:flex;flex-direction:column;align-items:center;gap:.3rem;
     min-width:150px;flex:0 0 auto}}
   .fg-title{{font-size:.65rem;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}}
@@ -2298,14 +2308,13 @@ def build_html(data: dict) -> str:
   /* ── News Cards ── */
   .news-list{{display:flex;flex-direction:column;gap:1rem}}
   .news-card{{
-    background:var(--card);border:1px solid var(--border);border-radius:14px;
-    overflow:hidden;
-    transition:transform .2s,border-color .2s,box-shadow .2s;
+    background:var(--card);border:1px solid var(--border);border-radius:8px;
+    overflow:hidden;box-shadow:var(--e1);
+    transition:transform .2s,box-shadow .2s;
   }}
   .news-card:hover{{
-    transform:translateY(-2px);
-    border-color:var(--accent);
-    box-shadow:0 8px 32px rgba(6,182,212,.08);
+    transform:translateY(-3px);
+    box-shadow:var(--e2);
   }}
   /* Sentiment left border (RTL = border-right) */
   .news-card[data-sentiment="bullish"]{{border-right:3px solid var(--green)}}
@@ -2332,9 +2341,9 @@ def build_html(data: dict) -> str:
     font-size:.65rem;font-weight:700;letter-spacing:.05em}}
   .ticker-badge{{
     display:inline-block;
-    background:rgba(6,182,212,.15);
+    background:rgba(244,245,247,.1);
     color:#22d3ee;
-    border:1px solid rgba(6,182,212,.35);
+    border:1px solid rgba(244,245,247,.25);
     border-radius:5px;
     padding:.12rem .55rem;
     font-size:.75rem;
@@ -2348,7 +2357,7 @@ def build_html(data: dict) -> str:
   .sentiment-dot.bearish{{background:var(--red);box-shadow:0 0 6px var(--red)}}
   .sentiment-dot.neutral{{background:var(--muted)}}
 
-  .news-title{{font-family:'Heebo',sans-serif;font-size:1.06rem;font-weight:800;
+  .news-title{{font-family:'Rubik',sans-serif;font-size:1.06rem;font-weight:800;
     color:var(--white);line-height:1.42;margin-bottom:.35rem}}
   .news-summary{{font-size:.86rem;color:var(--text);margin-bottom:.5rem;line-height:1.65}}
   .news-en{{
@@ -2367,7 +2376,7 @@ def build_html(data: dict) -> str:
   .wa-btn{{color:#25d366;display:inline-flex;align-items:center;opacity:.8;transition:opacity .2s}}
   .wa-btn:hover{{opacity:1}}
   /* ── Twitter Cards ── */
-  .tw-card{{border-right:3px solid rgba(14,165,233,.35)}}
+  .tw-card{{border-right:3px solid var(--border)}}
   .tw-handle{{
     display:inline-block;
     color:var(--accent);
@@ -2382,7 +2391,7 @@ def build_html(data: dict) -> str:
   .mkt-strip.il .mkt-card{{min-width:130px;max-width:190px;flex:0 0 auto}}
 
   /* ── Ticker highlight ── */
-  .ticker-hl{{color:#38bdf8;font-weight:800;font-family:'Inter',monospace;font-style:normal}}
+  .ticker-hl{{color:var(--white);font-weight:800;font-family:'Inter',monospace;font-style:normal}}
 
   /* ── News feed ── */
   .feed-empty{{color:var(--muted);text-align:center;padding:2.5rem 1rem;font-size:.9rem;
@@ -2393,9 +2402,9 @@ def build_html(data: dict) -> str:
     font-variant-numeric:tabular-nums}}
 
   /* ── Morning brief ── */
-  .brief-card{{background:var(--card);border:1px solid var(--border);border-right:3px solid var(--accent);
+  .brief-card{{background:var(--card);border-right:3px solid var(--white);box-shadow:var(--e1);
     border-radius:14px;padding:1rem 1.3rem;margin-bottom:1rem}}
-  .brief-title{{font-family:'Heebo',sans-serif;font-weight:800;font-size:.95rem;
+  .brief-title{{font-family:'Rubik',sans-serif;font-weight:800;font-size:.95rem;
     color:var(--white);margin-bottom:.6rem}}
   .brief-list{{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.45rem}}
   .brief-list li{{font-size:.86rem;color:var(--text);line-height:1.55;padding-right:1rem;position:relative}}
@@ -2415,9 +2424,9 @@ def build_html(data: dict) -> str:
   .filter-chips{{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1rem}}
   .filter-chip{{background:var(--card);border:1px solid var(--border);color:var(--muted);
     font-size:.72rem;font-weight:700;padding:.3rem .85rem;border-radius:999px;cursor:pointer;
-    transition:color .2s,border-color .2s;font-family:'Heebo',sans-serif}}
+    transition:color .2s,border-color .2s;font-family:'Rubik',sans-serif}}
   .filter-chip:hover{{color:var(--white)}}
-  .filter-chip.active{{color:var(--accent);border-color:var(--accent);background:rgba(6,182,212,.1)}}
+  .filter-chip.active{{color:var(--card);border-color:var(--white);background:var(--white)}}
 
   /* ── New-since-visit divider ── */
   .new-divider{{display:flex;align-items:center;gap:.8rem;color:var(--accent);
@@ -2440,9 +2449,9 @@ def build_html(data: dict) -> str:
 
   /* ── TA cards ── */
   .ta-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}}
-  .ta-card{{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  .ta-card{{background:var(--card);border:1px solid var(--border);border-radius:8px;box-shadow:var(--e1);
     padding:1rem 1.3rem;transition:border-color .2s,transform .2s}}
-  .ta-card:hover{{border-color:var(--accent);transform:translateY(-2px)}}
+  .ta-card:hover{{box-shadow:var(--e2);transform:translateY(-3px)}}
   .ta-head{{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin-bottom:.5rem}}
   .ta-ticker{{font-family:'Inter',sans-serif;font-weight:800;font-size:1.15rem;
     letter-spacing:.04em;color:var(--white)}}
@@ -2465,7 +2474,7 @@ def build_html(data: dict) -> str:
   .levels-track{{position:relative;height:8px;background:var(--surface);border:1px solid var(--border);
     border-radius:999px;overflow:visible}}
   .levels-fill{{position:absolute;top:0;left:0;bottom:0;border-radius:999px;
-    background:linear-gradient(90deg,rgba(16,185,129,.35),rgba(6,182,212,.45))}}
+    background:linear-gradient(90deg,rgba(52,211,153,.35),rgba(244,245,247,.45))}}
   .level-marker{{position:absolute;top:-3px;width:3px;height:14px;border-radius:2px;transform:translateX(-50%)}}
   .mk-price{{background:var(--white)}}
   .mk-entry{{background:var(--accent)}}
@@ -2490,14 +2499,13 @@ def build_html(data: dict) -> str:
     width:fit-content;max-width:100%}}
   .tab-btn{{background:none;border:none;padding:.55rem 1.6rem;font-size:.95rem;font-weight:800;
     color:var(--muted);cursor:pointer;border-radius:999px;
-    transition:color .2s,background .2s;font-family:'Heebo',sans-serif}}
-  .tab-btn.active{{color:var(--white);background:rgba(6,182,212,.16);
-    box-shadow:inset 0 0 0 1px rgba(6,182,212,.4)}}
+    transition:color .2s,background .2s;font-family:'Rubik',sans-serif}}
+  .tab-btn.active{{color:var(--card);background:var(--white);box-shadow:var(--e1)}}
   .tab-btn:hover:not(.active){{color:var(--white)}}
   .tab-pane{{display:none}}
   .tab-pane.active{{display:block;animation:fadein .25s ease}}
   @keyframes fadein{{from{{opacity:0;transform:translateY(4px)}}to{{opacity:1;transform:none}}}}
-  body.light .tab-btn.active{{background:rgba(2,132,199,.12);box-shadow:inset 0 0 0 1px rgba(2,132,199,.4)}}
+  body.light .tab-btn.active{{background:var(--white);color:var(--card)}}
 
   /* ── Footer ── */
   footer{{text-align:center;padding:2rem;font-size:.72rem;color:var(--muted);border-top:1px solid var(--border)}}
@@ -2571,6 +2579,7 @@ def build_html(data: dict) -> str:
 <footer>
   נוצר ב-{TODAY} בשעה {TIME}{engine_badge} &nbsp;·&nbsp;
   <a href="report.html">דוח שוק ההון המלא</a> &nbsp;·&nbsp;
+  <a href="design-system.html">מערכת עיצוב</a> &nbsp;·&nbsp;
   אינו מהווה ייעוץ השקעות
 </footer>
 
