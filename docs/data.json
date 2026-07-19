@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T17:02:24.950642+00:00",
+  "generated_at": "2026-07-19T17:43:51.702290+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-19T17:02:24.950663+00:00",
+  "ta_generated_at": "2026-07-19T17:43:51.702317+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -680,7 +680,7 @@
       "change": "-1.40%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -1.3975107823225252
+      "pct_raw": -1.3973317260324887
     },
     {
       "name": "Dow Jones",
@@ -688,7 +688,7 @@
       "change": "-0.77%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.7736004263888472
+      "pct_raw": -0.7736570700055216
     },
     {
       "name": "Russell 2000",
@@ -696,7 +696,7 @@
       "change": "-0.42%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.4151864792421858
+      "pct_raw": -0.41528691541970986
     },
     {
       "name": "VIX",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,376",
-      "change": "-0.65%",
+      "value": "$64,580",
+      "change": "-0.33%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.645489375986292
+      "pct_raw": -0.33016818622022837
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,34 @@
   },
   "us_news": [
     {
+      "title_he": "R ל-@StockSavvyShay: יש עניין בסרטון רווח של $NOK?",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: Any interest in a $NOK earnings edge video?",
+      "ticker": "$NOK",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078890821391409505#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 30ד׳",
+      "published_at": "2026-07-19T17:12:50+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "\"לוקח 57.2 שנים לחסוך לתשלום מקדמה טיפוסי בסן פרנסיסקו, קליפורניה\", לפי YF",
+      "summary_he": "",
+      "body_en": "\"It takes 57.2 years to save for a typical downpayment in San Francisco, CA,\" per YF",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078887842764505594#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 42ד׳",
+      "published_at": "2026-07-19T17:01:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "BofAI: תעריפים ממשיכים להיות מוחזרים במהירות",
       "summary_he": "",
       "body_en": "BofAI: Tariffs continue to be refunded quickly",
@@ -865,7 +893,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNmxenjWQAA3vOJ.png",
-      "relative_time": "לפני 1ד׳",
+      "relative_time": "לפני 42ד׳",
       "published_at": "2026-07-19T17:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +907,7 @@
       "tag": "MACRO",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNms5pIXYAAioxG.png",
-      "relative_time": "לפני 21ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-19T16:41:00+00:00",
       "sentiment": "neutral"
     },
@@ -893,7 +921,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNmluZ2bMAAxumn.jpg",
-      "relative_time": "לפני 40ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-19T16:21:18+00:00",
       "sentiment": "neutral"
     },
@@ -906,8 +934,8 @@
       "link": "https://nitter.net/garyblack00/status/2078873182879051938#m",
       "tag": "EARNINGS",
       "article_url": "http://fool.com",
-      "tweet_image": "",
-      "relative_time": "לפני 59ד׳",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2075214815635644417%2FeB3szI15%3Fformat%3Djpg%26name%3D280x280_2",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-19T16:02:45+00:00",
       "sentiment": "bearish"
     },
@@ -949,54 +977,12 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNmb52BaAAAUBgl.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-19T15:27:51+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Nasdaq P/E ירד ל-25x SPX 20x SMIDs 15x-16x GS",
-      "summary_he": "",
-      "body_en": "Nasdaq P/E down to 25x SPX 20x SMIDs 15x-16x GS",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078862678626316352#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNmalxtWQAA6H6j.png",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-19T15:21:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שבוע בוול סטריט: $GOOGL, $INTC בפוקוס עונת הרווחים בארה\"ב מואצת בשבוע הבא, עם $GOOGL ו-$INTC בין הדוחות הנצפים ביותר כ...",
-      "summary_he": "",
-      "body_en": "WALL STREET WEEK AHEAD: $GOOGL, $INTC IN FOCUS U.S. earnings season accelerates next week, with $GOOGL and $INTC among the most closely watched reports as investors look for signals on AI spending, co",
-      "ticker": "$GOOGL",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2078857007138996529#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-19T14:58:28+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: מגיע ל-$34B**",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: Reaching $34B**",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078852114621911089#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-19T14:39:01+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Wolfe Research רואה $NBIS מגיע ל-30 מיליארד דולר בהכנסות ו-21 מיליארד דולר ב-EBITDA עד 2030, כאשר העלייה מתחילה ברבעון הרביעי של 26 כאשר Vineland נכנסת לאינטרנט ופותחת עוד...",
+      "title_he": "Wolfe Research רואה $NBIS מגיע ל-$30B בהכנסות ו-21B$ ב-EBITDA עד 2030, כאשר הצמיחה מתחילה ברבעון הרביעי של 26 כאשר Vineland נכנסת לאינטרנט ופותחת עוד...",
       "summary_he": "",
       "body_en": "Wolfe Research sees $NBIS reaching $30B in revenue and $21B in EBITDA by 2030 with the ramp beginning in 4Q26 as Vineland comes online and unlocks more contracted revenue. That path is backed by $46B ",
       "ticker": "$NBIS",
@@ -1005,7 +991,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNmOcetacAAwF_z.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-19T14:37:34+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +1005,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-19T13:07:52+00:00",
       "sentiment": "neutral"
     },
@@ -1047,54 +1033,12 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNl1jR7WcAA2roa.png",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-19T12:39:11+00:00",
       "sentiment": "bearish"
     },
     {
-      "title_he": "האראג'צ'י של איראן אומר שכמה מחלוקות גרעיניות עשויות להיות \"בלתי ניתנות לפתרון\"",
-      "summary_he": "",
-      "body_en": "IRAN’S ARAGHCHI SAYS SOME NUCLEAR DISPUTES MAY BE ‘UNRESOLVABLE’",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2078819904111710442#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 4ש׳",
-      "published_at": "2026-07-19T12:31:02+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ: הרפובליקנים צריכים להוסיף את איראן לחוק הסנקציות הרוסיות",
-      "summary_he": "",
-      "body_en": "TRUMP: REPUBLICANS SHOULD ADD IRAN TO RUSSIAN SANCTIONS BILL",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2078812952719687954#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 4ש׳",
-      "published_at": "2026-07-19T12:03:25+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "זה עתה השקנו ניסיון חינם של ממשק ה-API של לוויתנים יוצאי דופן. ממשק ה-API של לווייתנים יוצאי דופן נותן גישה מלאה לאופציות חיות, מניות, נתוני שוק חיזוי ו...",
-      "summary_he": "",
-      "body_en": "We have just launched a free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, and much more. Check it out here: https://unus",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078812345489666092#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/public-api",
-      "tweet_image": "https://nitter.net/pic/media%2FHNiOaXpaMAAqgaG.jpg",
-      "relative_time": "לפני 5ש׳",
-      "published_at": "2026-07-19T12:01:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: אחת מהריצות הסולו הטובות ביותר שתראו במונדיאל זה, באדיבותו של ג'וד בלינגהם",
+      "title_he": "RT מאת @DivesTech: אחת מהריצות הסולו הטובות ביותר שתראו במונדיאל זה, באדיבותו של ג'וד בלינגהאם 🏴​​​​",
       "summary_he": "",
       "body_en": "RT by @DivesTech: One of the best solo runs you will see at this FIFA World Cup, courtesy of Jude Bellingham 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "ticker": "",
@@ -1103,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078621447858372608%2Fimg%2F7Kj19rjWOlOPl337.jpg",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "published_at": "2026-07-18T23:23:12+00:00",
       "sentiment": "neutral"
     },
@@ -1117,12 +1061,12 @@
       "tag": "ENERGY",
       "article_url": "https://www.barrons.com/articles/apple-stock-standard-oil-1759ba4c?mod=djem_b_Feature",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077815446888132608%2FcFfpc3CJ%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-18T20:21:21+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R to @wallstengine: נתונים סטטיסטיים כמו אלה ורבים נוספים יהיו זמינים בקרוב בשידור חי בכתובת http://earnings.wallstengine.com",
+      "title_he": "R to @wallstengine: נתונים סטטיסטיים כמו אלה, ועוד רבים נוספים, יהיו זמינים בקרוב בשידור חי בכתובת http://earnings.wallstengine.com",
       "summary_he": "",
       "body_en": "R to @wallstengine: Stats like these, and many more, will soon be available live at http://earnings.wallstengine.com",
       "ticker": "",
@@ -1159,12 +1103,20 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiKTcVXsAA4Vjb.png",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "published_at": "2026-07-18T19:32:03+00:00",
       "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "הסערה בערד מחריפה: ראש העיר סוגר את ישיבות המועצה לקהל; האופוזיציה: \" זו דיקטטורה\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854696",
+      "tag": "כללי",
+      "published_at": "2026-07-19T20:09:00+00:00"
+    },
     {
       "title_he": "פרשת המעצר האלים של הפרקליט בב\"ש: 4 שוטרים זומנו לשימוע במח\"ש",
       "summary_he": "",
@@ -1236,14 +1188,6 @@
       "link": "https://news.walla.co.il/item/3854582",
       "tag": "כללי",
       "published_at": "2026-07-19T13:19:00+00:00"
-    },
-    {
-      "title_he": "טרגדיה שהפכה להצלת חיים: ילדה בת 4 שנהרגה בתאונת דרכים הצילה ארבעה בני אדם",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854567",
-      "tag": "כללי",
-      "published_at": "2026-07-19T12:34:00+00:00"
     }
   ],
   "track_record": {
