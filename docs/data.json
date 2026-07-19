@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T02:39:35.259077+00:00",
+  "generated_at": "2026-07-19T05:52:18.566535+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-19T02:39:35.259102+00:00",
+  "ta_generated_at": "2026-07-19T05:52:18.566554+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,849",
-      "change": "+0.08%",
-      "direction": "up",
+      "value": "$64,700",
+      "change": "-0.15%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.08443650478244462
+      "pct_raw": -0.1454758717015816
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,60 +856,46 @@
   },
   "us_news": [
     {
-      "title_he": "לפי בלומברג, ארה\"ב מוציאה 50 מיליארד דולר על בניית מרכזי נתונים, מעבר להוצאות המשולבות על שדות תעופה, נמלים ותחבורה המונים.",
+      "title_he": "R ל-@unusual_whales: גבי פינלייסון, מייסד Elevate Strategies, וג'וש קאנטר, מייסד Alliance for a Better Utah, הגישו את התביעה לבית משפט פדרלי...",
       "summary_he": "",
-      "body_en": "The US is spending $50 billion on data center construction, exceeding the combined spending on airports, ports, and mass transit, per Bloomberg.",
+      "body_en": "R to @unusual_whales: Gabi Finlayson, founder of Elevate Strategies, and Josh Kanter, founder of Alliance for a Better Utah, filed the suit in federal court Read more: https://unusualwhales.com/news/k",
       "ticker": "",
       "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078661350343991457#m",
+      "link": "https://nitter.net/unusual_whales/status/2078714198436257815#m",
       "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 38ד׳",
-      "published_at": "2026-07-19T02:01:00+00:00",
+      "article_url": "https://unusualwhales.com/news/kevin-oleary-fox-news-defamation-utah-data-center",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078236318656843776%2FT_5u-BAb%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 21ד׳",
+      "published_at": "2026-07-19T05:31:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "תעבורת הבוטים עברה תעבורה אנושית באינטרנט, לדברי מנכ\"ל Cloudflare, מתיו פרינס.",
+      "title_he": "R ל-@unusual_whales: כאחוז מסך התעסוקה, קבוצה זו הגיעה ל-3.8%, גבוה מהשיא של 3.6% במהלך המיתון של 2001 ומתקרב ל...",
       "summary_he": "",
-      "body_en": "Bot traffic has passed human traffic online, according to Cloudflare CEO Matthew Prince.",
+      "body_en": "R to @unusual_whales: As a percentage of total employment, this group has reached 3.8%, higher than the 3.6% peak during the 2001 recession and approaching the 4.3% seen in 2008. Read more: https://un",
       "ticker": "",
       "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078646250941870573#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "",
+      "link": "https://nitter.net/unusual_whales/status/2078699099063456172#m",
+      "tag": "MACRO",
+      "article_url": "https://unusualwhales.com/news/millions-americans-seeking-jobs-exceed-2008-crisis-levels",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078699142294142976%2FLoY9XsBP%3Fformat%3Djpg%26name%3D800x419",
       "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-19T01:01:00+00:00",
+      "published_at": "2026-07-19T04:31:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R ל-@unusual_whales: ההכנסה החציונית עבור משקי בית שאינם בעלי בתים היא 55,000 $, פחות מ-62,099 $ הנדרשים כדי לממן בית של 200,000 $. קרא עוד:…",
+      "title_he": "R ל-@unusual_whales: הזינוק הזה עלה על שיעורי הצמיחה של סחורות אחרות, כולל זהב. קרא עוד:…",
       "summary_he": "",
-      "body_en": "R to @unusual_whales: The median income for non-homeowner households is $55,000, falling short of the $62,099 required to afford a $200,000 home. Read more: https://unusualwhales.com/news/starter-home",
+      "body_en": "R to @unusual_whales: This surge has outpaced the growth rates of other commodities, including gold. Read more: https://unusualwhales.com/news/dram-prices-surge-ai-demand-supply-constraints",
       "ticker": "",
       "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078638701157007749#m",
+      "link": "https://nitter.net/unusual_whales/status/2078691549437640934#m",
       "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/starter-homes-unaffordable-for-62-percent",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078570200237223936%2FfWHLCt5W%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-19T00:31:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: הוא גם חשף שנשיא פיפ\"א, ג'יאני אינפנטינו, העלה תוכנית להצמיד את ארה\"ב לסין לקראת מונדיאל עתידי, בצחוק ש...",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: He also revealed that FIFA president Gianni Infantino had floated a plan to pair the US with China for a future World Cup, joking that players would enjoy the “nice, short flight",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078623601478308045#m",
-      "tag": "NEWS",
-      "article_url": "https://unusualwhales.com/news/trump-us-host-world-cup-without-canada-mexico",
-      "tweet_image": "https://nitter.net/pic/card_img%2F2078569449133834241%2F4OUFynQ4%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 3ש׳",
-      "published_at": "2026-07-18T23:31:00+00:00",
-      "sentiment": "neutral"
+      "article_url": "https://unusualwhales.com/news/dram-prices-surge-ai-demand-supply-constraints",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078229163237068800%2FReAX5DcC%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-19T04:01:00+00:00",
+      "sentiment": "bullish"
     },
     {
       "title_he": "RT מאת @DivesTech: https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville @business 🏆🏆🍿",
@@ -921,7 +907,7 @@
       "tag": "NEWS",
       "article_url": "https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077305561482190848%2FQAqyuOZq%3Fformat%3Dpng%26name%3D800x419",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-18T21:02:57+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +921,7 @@
       "tag": "ENERGY",
       "article_url": "https://www.barrons.com/articles/apple-stock-standard-oil-1759ba4c?mod=djem_b_Feature",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077815446888132608%2FcFfpc3CJ%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-18T20:21:21+00:00",
       "sentiment": "neutral"
     },
@@ -949,7 +935,7 @@
       "tag": "EARNINGS",
       "article_url": "http://earnings.wallstengine.com",
       "tweet_image": "",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-18T19:58:59+00:00",
       "sentiment": "neutral"
     },
@@ -963,7 +949,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP8zkaoAADDGD.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-18T19:57:01+00:00",
       "sentiment": "bullish"
     },
@@ -977,7 +963,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP390bMAAe6wV.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-18T19:55:45+00:00",
       "sentiment": "bullish"
     },
@@ -991,7 +977,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiKTcVXsAA4Vjb.png",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-18T19:32:03+00:00",
       "sentiment": "bullish"
     },
@@ -1005,7 +991,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078539447579066368%2Fimg%2FaVTwIm7vHbzfiNAc.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "published_at": "2026-07-18T17:57:44+00:00",
       "sentiment": "neutral"
     },
@@ -1019,22 +1005,8 @@
       "tag": "NEWS",
       "article_url": "https://schrts.co/NcKSVrEp",
       "tweet_image": "https://nitter.net/pic/media%2FHNhn42xX0AI7GOt.png",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-18T17:01:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הבן שלי אפילו לא בן חודשיים ומסע ההשקעות שלו כבר התחיל. פתחתי לו חשבון משמורת ב-$HOOD עם ביטקוין, $NVDA ו-$RKLB.",
-      "summary_he": "",
-      "body_en": "My son isn’t even 2 months old and his investing journey has already begun. I opened him a custodial account on $HOOD with Bitcoin, $NVDA and $RKLB.",
-      "ticker": "$HOOD",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078516532943233458#m",
-      "tag": "CRYPTO",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNhfxLNakAAS7hx.jpg",
-      "relative_time": "לפני 10ש׳",
-      "published_at": "2026-07-18T16:25:33+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1047,23 +1019,37 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNheu7IWcAAks_y.png",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-18T16:21:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "הנה 15 המבצעים המובילים של 2026 1. $SNDK +471% 2. $AEHR +301% 3. $DELL +215% 4. $PENG +209% 5. $MU +197% 6. $TWST +196% 7. $AAOI +194% 8 +194%…",
+      "title_he": "RT מאת @StockSavvyShay: חשוב גם לא לעגן את הציפיות שלך לשיא האחרון של התיק. אתה יכול לקנות $RKLB ב $25, לראות אותו מטפס ל $150 ...",
       "summary_he": "",
-      "body_en": "HERE ARE THE TOP 15 PERFORMERS OF 2026 1. $SNDK +471% 2. $AEHR +301% 3. $DELL +215% 4. $PENG +209% 5. $MU +197% 6. $TWST +196% 7. $AAOI +194% 8. $AXTI +180% 9. $WDC +177% 10. $VPG +170% 11. $INTC +158",
-      "ticker": "$SNDK",
+      "body_en": "RT by @StockSavvyShay: Its also important not to anchor your expectations to the portfolio’s most recent peak. You can buy $RKLB at $25, watch it climb to $150 and then feel devastated when it falls t",
+      "ticker": "$RKLB",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078508319359299931#m",
+      "link": "https://nitter.net/StockSavvyShay/status/2078488710258249857#m",
       "tag": "NEWS",
       "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNhYR2qbsAAHBZS.jpg",
-      "relative_time": "לפני 10ש׳",
-      "published_at": "2026-07-18T15:52:54+00:00",
+      "tweet_image": "https://nitter.net/pic/media%2FHNhGd6hacAAMHGN.jpg",
+      "relative_time": "לפני 15ש׳",
+      "published_at": "2026-07-18T14:34:59+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @StockSavvyShay: כרגע אני חווה את ביצועי התיק החודשיים הגרועים ביותר שלי מאז 2023. מה שעוד יותר פראי בעיני הוא מספר הדובים שמכים...",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: I’m currently experiencing my worst monthly portfolio performance since 2023. Whats even more wild to me is the number of bears beating their chests during this drawdown.. espec",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078481932837613709#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNhATbPbMAAsUFf.png",
+      "relative_time": "לפני 15ש׳",
+      "published_at": "2026-07-18T14:08:03+00:00",
+      "sentiment": "bullish"
     },
     {
       "title_he": "הנה קטע מהניוזלטר של השבוע ב-Bespoke Report, שעוסק בעומק היכן הדברים עומדים במחזור שוק המניות. קרא את זה כאן:…",
@@ -1075,7 +1061,7 @@
       "tag": "NEWS",
       "article_url": "https://www.bespokepremium.com/interactive/posts/featured-reports/the-bespoke-report-7-17-26-gut-check",
       "tweet_image": "https://nitter.net/pic/media%2FHNg6wGUXsAAklS7.jpg",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-18T13:43:49+00:00",
       "sentiment": "neutral"
     },
@@ -1089,7 +1075,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNgz1IBbEAAYWMU.jpg",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-18T13:14:30+00:00",
       "sentiment": "neutral"
     },
@@ -1103,14 +1089,46 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078460662934806528%2Fimg%2FytLxQlcDk1Evyelu.jpg",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-18T12:43:39+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
     {
-      "title_he": "חשד לפלילים: רימון הלם הושלך לעבר בניין מגורים בנתניה",
+      "title_he": "בשל שריפה: הופסקה תנועת הרכבות במספר תחנות מרכזיות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854471",
+      "tag": "כללי",
+      "published_at": "2026-07-19T07:56:00+00:00"
+    },
+    {
+      "title_he": "שרד את 7 באוקטובר וסורב לביטוח סיעודי - \"עכשיו אני באמת חריג?\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854455",
+      "tag": "כללי",
+      "published_at": "2026-07-19T06:00:00+00:00"
+    },
+    {
+      "title_he": "בדרך לחתונה - מקבלים דו\"ח: נהג השיירה נתפס במהירות 182 קמ\"ש",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854454",
+      "tag": "כללי",
+      "published_at": "2026-07-19T06:00:00+00:00"
+    },
+    {
+      "title_he": "כמחצית מבני הנוער דיווחו על פגיעה מינית 81% מתוכם חוו דיכאון וחרדה | דוח עלם חושף נתונים מטרידים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854396",
+      "tag": "כללי",
+      "published_at": "2026-07-19T06:00:00+00:00"
+    },
+    {
+      "title_he": "מכת מדינה: רימון הלם התפוצץ בשכונת יוקרה בצפון ת\"א - נבדק קשר לסכסוך מוסלי-ג'רושי",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3854452",
@@ -1156,30 +1174,6 @@
       "link": "https://news.walla.co.il/item/3854288",
       "tag": "כללי",
       "published_at": "2026-07-17T20:31:00+00:00"
-    },
-    {
-      "title_he": "התנגש ברכב ונמלט מהמקום: קטטה בין חמולות בחורה | תיעוד",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854267",
-      "tag": "כללי",
-      "published_at": "2026-07-17T17:36:00+00:00"
-    },
-    {
-      "title_he": "אחרי תקיפת הפקחים: רשות המסים עוצרת את הטיפול בנזקי המלחמה בבני ברק",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854256",
-      "tag": "כללי",
-      "published_at": "2026-07-17T16:37:00+00:00"
-    },
-    {
-      "title_he": "אירוע חריג בגוש עציון: ישראלי תיעד את המקום, התעמת עם אישה ונער - ודרס אותם | חשד",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854245",
-      "tag": "כללי",
-      "published_at": "2026-07-17T15:32:00+00:00"
     }
   ],
   "track_record": {
