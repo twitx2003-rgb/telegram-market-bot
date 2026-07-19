@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T23:53:19.532502+00:00",
+  "generated_at": "2026-07-19T02:39:35.259077+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-18T23:53:19.532524+00:00",
+  "ta_generated_at": "2026-07-19T02:39:35.259102+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,774",
-      "change": "+1.39%",
+      "value": "$64,849",
+      "change": "+0.08%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.3862184253117238
+      "pct_raw": 0.08443650478244462
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -850,11 +850,53 @@
     }
   ],
   "fear_greed": {
-    "score": 25,
-    "rating": "פחד קיצוני",
-    "rating_en": "extreme fear"
+    "score": 28,
+    "rating": "פחד",
+    "rating_en": "fear"
   },
   "us_news": [
+    {
+      "title_he": "לפי בלומברג, ארה\"ב מוציאה 50 מיליארד דולר על בניית מרכזי נתונים, מעבר להוצאות המשולבות על שדות תעופה, נמלים ותחבורה המונים.",
+      "summary_he": "",
+      "body_en": "The US is spending $50 billion on data center construction, exceeding the combined spending on airports, ports, and mass transit, per Bloomberg.",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078661350343991457#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 38ד׳",
+      "published_at": "2026-07-19T02:01:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "תעבורת הבוטים עברה תעבורה אנושית באינטרנט, לדברי מנכ\"ל Cloudflare, מתיו פרינס.",
+      "summary_he": "",
+      "body_en": "Bot traffic has passed human traffic online, according to Cloudflare CEO Matthew Prince.",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078646250941870573#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-19T01:01:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: ההכנסה החציונית עבור משקי בית שאינם בעלי בתים היא 55,000 $, פחות מ-62,099 $ הנדרשים כדי לממן בית של 200,000 $. קרא עוד:…",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: The median income for non-homeowner households is $55,000, falling short of the $62,099 required to afford a $200,000 home. Read more: https://unusualwhales.com/news/starter-home",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078638701157007749#m",
+      "tag": "NEWS",
+      "article_url": "https://unusualwhales.com/news/starter-homes-unaffordable-for-62-percent",
+      "tweet_image": "https://nitter.net/pic/card_img%2F2078570200237223936%2FfWHLCt5W%3Fformat%3Djpg%26name%3D800x419",
+      "relative_time": "לפני 2ש׳",
+      "published_at": "2026-07-19T00:31:00+00:00",
+      "sentiment": "neutral"
+    },
     {
       "title_he": "R ל-@unusual_whales: הוא גם חשף שנשיא פיפ\"א, ג'יאני אינפנטינו, העלה תוכנית להצמיד את ארה\"ב לסין לקראת מונדיאל עתידי, בצחוק ש...",
       "summary_he": "",
@@ -865,7 +907,7 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/trump-us-host-world-cup-without-canada-mexico",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078569449133834241%2F4OUFynQ4%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 22ד׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-18T23:31:00+00:00",
       "sentiment": "neutral"
     },
@@ -879,23 +921,9 @@
       "tag": "NEWS",
       "article_url": "https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077305561482190848%2FQAqyuOZq%3Fformat%3Dpng%26name%3D800x419",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-18T21:02:57+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "\"זה יהיה הקיץ של עצרת הכל\", לפי וולס פארגו.",
-      "summary_he": "",
-      "body_en": "\"This will be the summer of the everything rally,\" per Wells Fargo.",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078585852859650137#m",
-      "tag": "BANKS",
-      "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-18T21:01:00+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "אפל נקטה בנתיב שונה בהרבה לגבי הוצאות בינה מלאכותית והיא עובדת, שכן המניה נמצאת ב-ATHs. זה דומה ל-John D. Rockefeller ו-Standard Oil של...",
@@ -907,7 +935,7 @@
       "tag": "ENERGY",
       "article_url": "https://www.barrons.com/articles/apple-stock-standard-oil-1759ba4c?mod=djem_b_Feature",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077815446888132608%2FcFfpc3CJ%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T20:21:21+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +949,7 @@
       "tag": "EARNINGS",
       "article_url": "http://earnings.wallstengine.com",
       "tweet_image": "",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T19:58:59+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +963,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP8zkaoAADDGD.png",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T19:57:01+00:00",
       "sentiment": "bullish"
     },
@@ -949,7 +977,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP390bMAAe6wV.png",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-18T19:55:45+00:00",
       "sentiment": "bullish"
     },
@@ -963,7 +991,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiKTcVXsAA4Vjb.png",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "published_at": "2026-07-18T19:32:03+00:00",
       "sentiment": "bullish"
     },
@@ -977,7 +1005,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078539447579066368%2Fimg%2FaVTwIm7vHbzfiNAc.jpg",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "published_at": "2026-07-18T17:57:44+00:00",
       "sentiment": "neutral"
     },
@@ -991,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "https://schrts.co/NcKSVrEp",
       "tweet_image": "https://nitter.net/pic/media%2FHNhn42xX0AI7GOt.png",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "published_at": "2026-07-18T17:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -1005,7 +1033,7 @@
       "tag": "CRYPTO",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhfxLNakAAS7hx.jpg",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-18T16:25:33+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNheu7IWcAAks_y.png",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-18T16:21:00+00:00",
       "sentiment": "neutral"
     },
@@ -1033,36 +1061,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhYR2qbsAAHBZS.jpg",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-18T15:52:54+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מורגן סטנלי צופה ששולי הרווח הגולמי של $MU יכולים להגיע ל-90% ב-2027, הנתמכים על ידי 16 הסכמי אספקה ​​עם תמחור רצפה ו-HBM נמכר עד 2027. זה...",
-      "summary_he": "",
-      "body_en": "Morgan Stanley projects $MU gross margins could reach 90% in 2027 supported by 16 supply agreements with floor pricing and HBM sold out through 2027. That contracted structure combined with a mix shif",
-      "ticker": "$MU",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078500652385484820#m",
-      "tag": "BANKS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNhQZwXbUAAi0DJ.png",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-18T15:22:26+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "קיבולת מרכז הנתונים צפויה להוסיף ~106GW משנת 2026 עד 2030 עד ל-174GW ותגרום ליותר מ-5T דולר מסך ההוצאות. המבנה הזה יכול להניע...",
-      "summary_he": "",
-      "body_en": "Data center capacity is projected to add ~106GW from 2026 through 2030 reaching 174GW and implying more than $5T of total spending. That buildout could drive 50–60% of new U.S. power capacity through ",
-      "ticker": "$GEV",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078494225239507243#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNhJz9WboAAiq22.png",
-      "relative_time": "לפני 8ש׳",
-      "published_at": "2026-07-18T14:56:54+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1075,26 +1075,48 @@
       "tag": "NEWS",
       "article_url": "https://www.bespokepremium.com/interactive/posts/featured-reports/the-bespoke-report-7-17-26-gut-check",
       "tweet_image": "https://nitter.net/pic/media%2FHNg6wGUXsAAklS7.jpg",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "published_at": "2026-07-18T13:43:49+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "תודה הברוקר שלך על שלא נתת לך את הקצאת המניות המלאה של SPAECX שביקשת להנפקה $SPCX",
+      "title_he": "RT מאת @StockSavvyShay: $META, $GOOGL, $MSFT ו-$AMZN צפויים לצמוח בתזרים המזומנים החופשי המשולב כמעט פי 10 עד ~$650B במהלך ארבע השנים הקרובות. הם…",
       "summary_he": "",
-      "body_en": "THANK YOUR BROKER FOR NOT GIVING YOU THE FULL SPAECX SHARE ALLOCATION U REQUESTED FOR THE IPO $SPCX",
-      "ticker": "$SPCX",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2078278407654093087#m",
-      "tag": "NEWS",
+      "body_en": "RT by @StockSavvyShay: $META, $GOOGL, $MSFT and $AMZN are expected to grow combined free cash flow nearly 10x to ~$650B over the next four years. They're spending aggressively now to own the compute l",
+      "ticker": "$META",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078468453560951292#m",
+      "tag": "TECH",
       "article_url": "",
-      "tweet_image": "",
-      "relative_time": "לפני 23ש׳",
-      "published_at": "2026-07-18T00:39:19+00:00",
+      "tweet_image": "https://nitter.net/pic/media%2FHNgz1IBbEAAYWMU.jpg",
+      "relative_time": "לפני 13ש׳",
+      "published_at": "2026-07-18T13:14:30+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @StockSavvyShay: $NVDA, $AMD, $AVGO ושבבי hyperscaler מותאמים אישית יתחרו במשך שנים במירוץ AI אבל כמעט כולם עדיין יהיו תלויים ב-$TSM כדי...",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: $NVDA, $AMD, $AVGO and custom hyperscaler chips will compete for years in the AI race but nearly all will still depend on $TSM to manufacture their chips. The quarter was excell",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078460690512437676#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078460662934806528%2Fimg%2FytLxQlcDk1Evyelu.jpg",
+      "relative_time": "לפני 13ש׳",
+      "published_at": "2026-07-18T12:43:39+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "חשד לפלילים: רימון הלם הושלך לעבר בניין מגורים בנתניה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854452",
+      "tag": "כללי",
+      "published_at": "2026-07-19T01:26:00+00:00"
+    },
     {
       "title_he": "למרות החשד לתקיפת שוטרים בנתב\"ג: שלושת החשודים שוחררו למעצר בית",
       "summary_he": "",
@@ -1158,22 +1180,6 @@
       "link": "https://news.walla.co.il/item/3854245",
       "tag": "כללי",
       "published_at": "2026-07-17T15:32:00+00:00"
-    },
-    {
-      "title_he": "הותר לפרסום לבקשת וואלה: אגם צרפי היא החשודה ברצח בניהו רזי",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854231",
-      "tag": "כללי",
-      "published_at": "2026-07-17T13:56:00+00:00"
-    },
-    {
-      "title_he": "קרב התלונות במשטרה: סערה בערד",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854230",
-      "tag": "כללי",
-      "published_at": "2026-07-17T13:43:00+00:00"
     }
   ],
   "track_record": {
