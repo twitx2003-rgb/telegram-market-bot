@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T18:26:55.904914+00:00",
+  "generated_at": "2026-07-19T19:41:57.466142+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-19T18:26:55.904924+00:00",
+  "ta_generated_at": "2026-07-19T19:41:57.466154+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -711,26 +711,26 @@
     {
       "name": "זהב",
       "value": "$4,018.8",
-      "change": "+0.67%",
-      "direction": "up",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "commodities",
-      "pct_raw": 0.668820921319613
+      "pct_raw": 0.0
     },
     {
       "name": "נפט ברנט",
       "value": "$88.1",
-      "change": "+4.59%",
-      "direction": "up",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "commodities",
-      "pct_raw": 4.5945625074201475
+      "pct_raw": 0.0
     },
     {
       "name": "ביטקוין",
-      "value": "$64,422",
-      "change": "-0.57%",
+      "value": "$64,382",
+      "change": "-0.64%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.5743719543015059
+      "pct_raw": -0.6362910289107426
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2078890821391409505#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T17:12:50+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2078887844337029459#m",
       "tag": "NEWS",
       "published_at": "2026-07-19T17:01:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,11 +888,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2078877851869450379#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:21:18+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "החוזים עתידיים של דאו ג'ונס נראים כאשר התקפות ארה\"ב-איראן מתעצמות; Google, Tesla, AMD Ahead",
+      "title_he": "החוזים העתידיים של דאו ג'ונס נראים כאשר התקפות ארה\"ב-איראן מתעצמות; Google, Tesla, AMD Ahead",
       "summary_he": "",
       "body_en": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
       "ticker": "",
@@ -911,23 +911,11 @@
       "link": "https://nitter.net/garyblack00/status/2078873182879051938#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:02:45+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "WALL STREET שבוע קדימה: $GOOGL, $INTC בפוקוס עונת הרווחים בארה\"ב מואצת בשבוע הבא, עם $GOOGL ו-$INTC בין הדוחות הנצפים ביותר כשהמשקיעים מסתכלים...",
-      "summary_he": "",
-      "body_en": "WALL STREET WEEK AHEAD: $GOOGL, $INTC IN FOCUS U.S. earnings season accelerates next week, with $GOOGL and $INTC among the most closely watched reports as investors look for signals on AI spending, co",
-      "ticker": "$GOOGL",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2078857007138996529#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-19T14:58:28+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$RKLB - $67.62, נסוג חזרה ל-200d ma (קצת מתחת) בעקבות ירידה של 55%. המניה מפתה אבל היסודות העיקריים עדיין חסרים את הדרוש...",
+      "title_he": "$RKLB - $67.62, נסוג בחזרה ל-200d ma (קצת מתחת) בעקבות ירידה של 55%. המניה מפתה אבל היסודות העיקריים עדיין חסרים את הדרוש...",
       "summary_he": "",
       "body_en": "$RKLB - $67.62, has pulled back to the 200d ma (slightly below) following a 55% drop. The stock is tempting but the key fundamentals are still lacking the necessary support that I prefer to see (posit",
       "ticker": "$RKLB",
@@ -935,7 +923,7 @@
       "link": "https://nitter.net/cperruna/status/2078821955839332644#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T12:39:11+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bearish"
     },
     {
@@ -948,18 +936,6 @@
       "tag": "NEWS",
       "published_at": "2026-07-19T12:30:00+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "טראמפ: הרפובליקנים צריכים להוסיף את איראן לחוק הסנקציות הרוסיות",
-      "summary_he": "",
-      "body_en": "TRUMP: REPUBLICANS SHOULD ADD IRAN TO RUSSIAN SANCTIONS BILL",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2078812952719687954#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-19T12:03:25+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "מנכ\"ל אמריקן איירליינס מציג את חזונו לסגור פער של יותר מ-3 מיליארד דולר ברווחים",
@@ -992,7 +968,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2078575874354331772#m",
       "tag": "ENERGY",
       "published_at": "2026-07-18T20:21:21+00:00",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1004,31 +980,11 @@
       "link": "https://nitter.net/wallstengine/status/2078569753581650335#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-18T19:57:01+00:00",
-      "relative_time": "לפני 22ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "המכירה הגדולה ביותר לחצי השנה מאז התקף התעריפים, אבל היא עדיין בקושי נרשמת ביחס לעלייה מאז. $SMH",
-      "summary_he": "",
-      "body_en": "Biggest selloff for semis since the tariff tantrum, but it still barely registers relative to the rally since then. $SMH",
-      "ticker": "$SMH",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2078563467095675011#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-18T19:32:03+00:00",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "bullish"
     }
   ],
   "il_news": [
-    {
-      "title_he": "\"הזהרתי את המחבל - כל כלב ביג'י יומו'\": שורדת השבי רימון בוכשטב-קירשט בריאיון ראשון",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854700",
-      "tag": "כללי",
-      "published_at": "2026-07-19T20:40:00+00:00"
-    },
     {
       "title_he": "הסערה בערד מחריפה: ראש העיר סוגר את ישיבות המועצה לקהל; האופוזיציה: \" זו דיקטטורה\"",
       "summary_he": "",
@@ -1100,6 +1056,14 @@
       "link": "https://news.walla.co.il/item/3854596",
       "tag": "כללי",
       "published_at": "2026-07-19T13:41:00+00:00"
+    },
+    {
+      "title_he": "אחרי מעל לשנה, בית המשפט הסיר את האיזוק האלקטרוני של הזמר מושיקו מור",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854582",
+      "tag": "כללי",
+      "published_at": "2026-07-19T13:19:00+00:00"
     }
   ],
   "track_record": {
