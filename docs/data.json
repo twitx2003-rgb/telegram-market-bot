@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T19:41:57.466142+00:00",
+  "generated_at": "2026-07-19T20:47:04.407071+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-19T19:41:57.466154+00:00",
+  "ta_generated_at": "2026-07-19T20:47:04.407083+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,382",
-      "change": "-0.64%",
+      "value": "$64,458",
+      "change": "-0.52%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6362910289107426
+      "pct_raw": -0.5187188678007671
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "מנכ\"ל MicroStrategy: הבנקים הגדולים בוול סטריט נעולים במירוץ ביטקוין צמוד",
+      "summary_he": "",
+      "body_en": "MicroStrategy CEO: Wall Street’s Biggest Banks are Locked in a Tight Bitcoin Race",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/microstrategy-ceo-wall-street-biggest-203000673.html",
+      "tag": "CRYPTO",
+      "published_at": "2026-07-19T20:30:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "R ל-@StockSavvyShay: יש עניין בסרטון רווח של $NOK?",
       "summary_he": "",
       "body_en": "R to @StockSavvyShay: Any interest in a $NOK earnings edge video?",
@@ -864,7 +875,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2078890821391409505#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T17:12:50+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +887,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2078887844337029459#m",
       "tag": "NEWS",
       "published_at": "2026-07-19T17:01:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +899,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2078877851869450379#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:21:18+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +922,7 @@
       "link": "https://nitter.net/garyblack00/status/2078873182879051938#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:02:45+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bearish"
     },
     {
@@ -923,7 +934,7 @@
       "link": "https://nitter.net/cperruna/status/2078821955839332644#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T12:39:11+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bearish"
     },
     {
@@ -958,30 +969,6 @@
       "tag": "NEWS",
       "published_at": "2026-07-19T11:30:00+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "אפל נקטה בנתיב שונה בהרבה לגבי הוצאות בינה מלאכותית והיא עובדת, שכן המניה נמצאת ב-ATHs. זה דומה לדרכם של ג'ון ד' רוקפלר ו-Standard Oil ל...",
-      "summary_he": "",
-      "body_en": "Apple has taken a much different path regarding AI spending and it is working, as the stock is at ATHs. It is similar to John D. Rockefeller and Standard Oil's path to success 170 yrs ago. Very intere",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2078575874354331772#m",
-      "tag": "ENERGY",
-      "published_at": "2026-07-18T20:21:21+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R to @wallstengine: קצבי הרווחים הגדולים ביותר בקרב כתבי S&P 500 המוקדמים הגיעו מהחברות האלה:",
-      "summary_he": "",
-      "body_en": "R to @wallstengine: The biggest earnings beats among early S&P 500 reporters have come from these companies:",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2078569753581650335#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-18T19:57:01+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
