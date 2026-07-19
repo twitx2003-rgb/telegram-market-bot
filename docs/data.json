@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T14:38:38.774210+00:00",
+  "generated_at": "2026-07-19T15:57:37.455147+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-19T14:38:38.774229+00:00",
+  "ta_generated_at": "2026-07-19T15:57:37.455166+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,473",
-      "change": "-0.50%",
+      "value": "$64,516",
+      "change": "-0.43%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.49552236502467384
+      "pct_raw": -0.4294208205203362
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,7 +856,77 @@
   },
   "us_news": [
     {
-      "title_he": "Wolfe Research רואה $NBIS מגיע ל-30 מיליארד דולר בהכנסות ו-21 מיליארד דולר ב-EBITDA עד 2030, כאשר העלייה מתחילה ברבעון הרביעי של 26 כאשר Vineland נכנסת לאינטרנט ופותחת עוד...",
+      "title_he": "5 השכבות של אספקת כוח AI 1. צריכת חשמל למתקן • $CAT מספקת ייצור גיבוי • $GEV מספקת ציוד רשת וטורבינות גז • $ETN מספק...",
+      "summary_he": "",
+      "body_en": "THE 5 LAYERS OF AI POWER DELIVERY 1. Facility Power Intake • $CAT supplies backup generation • $GEV supplies grid equipment & gas turbines • $ETN provides switchgear, ATS & electrical distribution • $",
+      "ticker": "$CAT",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078864403555066067#m",
+      "tag": "TECH",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNmb52BaAAAUBgl.png",
+      "relative_time": "לפני 29ד׳",
+      "published_at": "2026-07-19T15:27:51+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Nasdaq P/E ירד ל-25x SPX 20x SMIDs 15x-16x GS",
+      "summary_he": "",
+      "body_en": "Nasdaq P/E down to 25x SPX 20x SMIDs 15x-16x GS",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078862678626316352#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNmalxtWQAA6H6j.png",
+      "relative_time": "לפני 36ד׳",
+      "published_at": "2026-07-19T15:21:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "חציון צמיחת EPS במניות... קרא לזה 10% GS",
+      "summary_he": "",
+      "body_en": "Median-stock EPS growth.... call it 10% GS",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078857645440500141#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNmWAz_W4AAu19E.png",
+      "relative_time": "לפני 56ד׳",
+      "published_at": "2026-07-19T15:01:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "WALL STREET WEEK קדימה: $GOOGL, $INTC בפוקוס עונת הרווחים בארה\"ב מואצת בשבוע הבא, עם $GOOGL ו-$INTC בין הדוחות הנצפים ביותר כ...",
+      "summary_he": "",
+      "body_en": "WALL STREET WEEK AHEAD: $GOOGL, $INTC IN FOCUS U.S. earnings season accelerates next week, with $GOOGL and $INTC among the most closely watched reports as investors look for signals on AI spending, co",
+      "ticker": "$GOOGL",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2078857007138996529#m",
+      "tag": "EARNINGS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 58ד׳",
+      "published_at": "2026-07-19T14:58:28+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "R ל-@StockSavvyShay: מגיע ל-$34B**",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: Reaching $34B**",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078852114621911089#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "",
+      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-07-19T14:39:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Wolfe Research רואה $NBIS מגיע ל-$30B בהכנסות ו-21B$ ב-EBITDA עד 2030, כאשר הצמיחה מתחילה ברבעון הרביעי של 26 כאשר Vineland נכנסת לאינטרנט ופותחת עוד...",
       "summary_he": "",
       "body_en": "Wolfe Research sees $NBIS reaching $30B in revenue and $21B in EBITDA by 2030 with the ramp beginning in 4Q26 as Vineland comes online and unlocks more contracted revenue. That path is backed by $46B ",
       "ticker": "$NBIS",
@@ -865,7 +935,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNmOcetacAAwF_z.jpg",
-      "relative_time": "עכשיו",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-19T14:37:34+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +949,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNmM24LWgAAomU_.png",
-      "relative_time": "לפני 17ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-19T14:21:00+00:00",
       "sentiment": "neutral"
     },
@@ -893,12 +963,12 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNmLTt9bwAAjOvA.png",
-      "relative_time": "לפני 22ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-19T14:15:18+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מניות מוליכים למחצה לפי PEG RATIO PEG < 1 פירושו בדרך כלל צמיחה שגויה PEG > 2 מתחילים לדחוף לאזור הסכנה כך הם מצטברים: • $LRCX ~2.3x •...",
+      "title_he": "מלאי מוליכים למחצה לפי PEG RATIO PEG < 1 פירושו בדרך כלל צמיחה בתמחור שגוי PEG > 2 מתחיל להידחף לאזור הסכנה כך הם מצטברים: • $LRCX ~2.3x •...",
       "summary_he": "",
       "body_en": "SEMICONDUCTOR STOCKS BY PEG RATIO PEG < 1 usually means mispriced growth PEG > 2 starts to push into the danger zone Here’s how they stack up: • $LRCX ~2.3x • $ALAB ~2.1x • $INTC ~1.9x • $ANET ~1.8x •",
       "ticker": "$LRCX",
@@ -907,7 +977,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNmK2m1aUAAe8KL.jpg",
-      "relative_time": "לפני 25ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-19T14:13:10+00:00",
       "sentiment": "neutral"
     },
@@ -921,50 +991,8 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNmIR58WsAIyqTt.png",
-      "relative_time": "לפני 37ד׳",
+      "relative_time": "לפני 1ש׳",
       "published_at": "2026-07-19T14:01:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "10 המניות המובילות של S&P 500 מהוות 39% מהמדד ו-35% מהרווחים. הם השתוו בפעם האחרונה בתחילת 2015 GS",
-      "summary_he": "",
-      "body_en": "The top 10 S&P 500 stocks account for 39% of the Index and 35% of earnings. They last equaled in early 2015 GS",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078837512898818191#m",
-      "tag": "EARNINGS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNmDs68WwAAnWxU.png",
-      "relative_time": "לפני 57ד׳",
-      "published_at": "2026-07-19T13:41:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מכונת $ASML EUV אחת עולה כעת ~284 מיליון דולר. התמחור הממוצע של EUV התערב בכ-13% בשנה בעשור האחרון, לפני שעלה בעוד 45% בשנה אחת...",
-      "summary_he": "",
-      "body_en": "A single $ASML EUV machine now costs ~$284M. Average EUV pricing compounded about 13% annually for the last decade before surging another 45% in a single year with no orders canceled showing how much ",
-      "ticker": "$ASML",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078833327696703985#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNl_5Tca0AAnafW.jpg",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-19T13:24:22+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "תשואה של 10 שנים בערך נקודת אחוז מעל ה-EFFR, כאשר ריבית הפד לסוף השנה עומדת על 3.9% סכום הגון יותר להרוויח ב-$LQD $AGG לעומת $BIL נכון...",
-      "summary_he": "",
-      "body_en": "10yr yield about a percentage point above the EFFR, with the year-end Fed rate seen at 3.9% A decent amount more income to be earned in $LQD $AGG vs $BIL right now GS",
-      "ticker": "$LQD",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078832479247401404#m",
-      "tag": "FED",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNl_H8oW0AA457r.png",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-19T13:21:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -977,23 +1005,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-19T13:07:52+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "צמיחת הרווחיות של עסקים קטנים הפכה חיובית ביוני... פעם ראשונה מאז תחילת השנה BofAI",
-      "summary_he": "",
-      "body_en": "Small business profitability growth turned positive in June... first time since the start of the year BofAI",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078828944422256801#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNl76L8XoAArS7K.png",
-      "relative_time": "לפני 1ש׳",
-      "published_at": "2026-07-19T13:06:57+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "עכשיו זה מגניב. אתה יכול לראות לאיזה כיוון השוק מתקדם עם מפות שוק. זה מאפשר לך לעקוב אחר השינוי בשוק, להבחין במגמות ספציפיות בתחום נתון...",
@@ -1005,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/market/maps",
       "tweet_image": "https://nitter.net/pic/media%2FHNiOQ9rbUAAd5KE.jpg",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "published_at": "2026-07-19T13:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -1019,12 +1033,12 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNl1jR7WcAA2roa.png",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-19T12:39:11+00:00",
       "sentiment": "bearish"
     },
     {
-      "title_he": "האראג'צ'י של איראן אומר שכמה מחלוקות גרעיניות עשויות להיות \"בלתי ניתנות לפתרון\"",
+      "title_he": "האראצ'י של איראן אומר שכמה מחלוקות גרעיניות עשויות להיות \"בלתי ניתנות לפתרון\"",
       "summary_he": "",
       "body_en": "IRAN’S ARAGHCHI SAYS SOME NUCLEAR DISPUTES MAY BE ‘UNRESOLVABLE’",
       "ticker": "",
@@ -1033,23 +1047,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-19T12:31:02+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "יו\"ר $SKHY, Chey Tae-won, צופה שהביקוש למוליכים למחצה AI יעלה ב-60-100% בשנה הבאה, כשהביקוש הכולל לזיכרון יעלה בכמעט 60%. הוא מזהיר שהאספקה ​​תהיה…",
-      "summary_he": "",
-      "body_en": "$SKHY Chairman Chey Tae-won expects AI semiconductor demand to surge 60–100% next year with overall memory demand rising nearly 60%. He warns supply will barely increase leaving global companies “clam",
-      "ticker": "$SKHY",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078812971342643585#m",
-      "tag": "TECH",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/media%2FHNltYYOaMAA3luk.jpg",
-      "relative_time": "לפני 2ש׳",
-      "published_at": "2026-07-19T12:03:29+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "טראמפ: הרפובליקנים צריכים להוסיף את איראן לחוק הסנקציות הרוסיות",
@@ -1061,12 +1061,12 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-19T12:03:25+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "זה עתה השקנו ניסיון חינם של ממשק ה-API של לוויתנים יוצאי דופן. ממשק ה-API של לווייתנים יוצאי דופן נותן גישה מלאה לאופציות חיות, מניות, נתוני שוק חיזוי ו...",
+      "title_he": "זה עתה השקנו ניסיון חינם של ממשק ה-API של לוויתנים יוצאי דופן. ממשק ה-API של לוויתנים יוצאי דופן נותן גישה מלאה לאופציות חיות, מניות, נתוני שוק חיזוי ו...",
       "summary_he": "",
       "body_en": "We have just launched a free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, and much more. Check it out here: https://unus",
       "ticker": "",
@@ -1075,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/public-api",
       "tweet_image": "https://nitter.net/pic/media%2FHNiOaXpaMAAqgaG.jpg",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "published_at": "2026-07-19T12:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -1089,12 +1089,12 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/kevin-oleary-fox-news-defamation-utah-data-center",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078236318656843776%2FT_5u-BAb%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "published_at": "2026-07-19T05:31:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @DivesTech: אחת מהריצות הסולו הטובות ביותר שתראו במונדיאל זה, באדיבותו של ג'וד בלינגהם",
+      "title_he": "RT מאת @DivesTech: אחת מהריצות הסולו הטובות ביותר שתראו במונדיאל זה, באדיבותו של ג'וד בלינגהאם 🏴​​​​",
       "summary_he": "",
       "body_en": "RT by @DivesTech: One of the best solo runs you will see at this FIFA World Cup, courtesy of Jude Bellingham 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "ticker": "",
@@ -1103,7 +1103,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078621447858372608%2Fimg%2F7Kj19rjWOlOPl337.jpg",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "published_at": "2026-07-18T23:23:12+00:00",
       "sentiment": "neutral"
     },
@@ -1117,12 +1117,12 @@
       "tag": "ENERGY",
       "article_url": "https://www.barrons.com/articles/apple-stock-standard-oil-1759ba4c?mod=djem_b_Feature",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077815446888132608%2FcFfpc3CJ%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-18T20:21:21+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R to @wallstengine: נתונים סטטיסטיים כמו אלה ורבים נוספים יהיו זמינים בקרוב בשידור חי בכתובת http://earnings.wallstengine.com",
+      "title_he": "R to @wallstengine: נתונים סטטיסטיים כמו אלה, ועוד רבים נוספים, יהיו זמינים בקרוב בשידור חי בכתובת http://earnings.wallstengine.com",
       "summary_he": "",
       "body_en": "R to @wallstengine: Stats like these, and many more, will soon be available live at http://earnings.wallstengine.com",
       "ticker": "",
@@ -1131,7 +1131,7 @@
       "tag": "EARNINGS",
       "article_url": "http://earnings.wallstengine.com",
       "tweet_image": "",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-18T19:58:59+00:00",
       "sentiment": "neutral"
     },
@@ -1145,12 +1145,12 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP8zkaoAADDGD.png",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-18T19:57:01+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "עונת הרווחים של S&P 500 נפתחה חזק: 33 מתוך 33 כתבים מוקדמים ניצחו את הערכות הרווח למניה",
+      "title_he": "עונת הרווחים של S&P 500 מתחילה חזק: 33 מתוך 33 כתבים מוקדמים ניצחו את הערכות הרווח למניה",
       "summary_he": "",
       "body_en": "S&P 500 earnings season is off to a strong start: 33 of 33 early reporters beat EPS estimates",
       "ticker": "",
@@ -1159,7 +1159,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP390bMAAe6wV.png",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-18T19:55:45+00:00",
       "sentiment": "bullish"
     },
@@ -1173,12 +1173,20 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiKTcVXsAA4Vjb.png",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-18T19:32:03+00:00",
       "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "ממאסר עולם למגרש הכדורגל: כך ג'יבריל רג'וב משתמש בספורט כדי להסית נגד ישראל",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854663",
+      "tag": "כללי",
+      "published_at": "2026-07-19T17:37:00+00:00"
+    },
     {
       "title_he": "פרשת ג'פניקה והרימונים: בכיר בארגון ג'רושי הסגיר את עצמו",
       "summary_he": "",
@@ -1250,14 +1258,6 @@
       "link": "https://news.walla.co.il/item/3854503",
       "tag": "כללי",
       "published_at": "2026-07-19T09:29:00+00:00"
-    },
-    {
-      "title_he": "בכיר הליכוד נגד החלטת בני ברק להפרדה ברחובות: \"תפקידם הוא לא לחנך\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854493",
-      "tag": "כללי",
-      "published_at": "2026-07-19T08:58:00+00:00"
     }
   ],
   "track_record": {
