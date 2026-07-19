@@ -1519,8 +1519,117 @@ def _extract_ticker(text: str) -> str:
     return m.group(1) if m else ""
 
 
+def fetch_us_news_rss(max_items: int = 20) -> list:
+    """Authoritative US market headlines from Reuters/CNBC/MarketWatch/Yahoo RSS."""
+    raw      = fetch_rss(US_FEEDS, max_per_feed=8)
+    relevant = filter_headlines(raw, is_us_relevant, max_items)
+    print(f"  ✓ US RSS: {len(relevant)}/{len(raw)} כותרות רלוונטיות")
+    return relevant
+
+
+def _norm_title(text: str) -> str:
+    """Normalized title key for de-duplication."""
+    return re.sub(r'[^a-z0-9֐-׿ ]', '', (text or "").lower()).strip()[:55]
+
+
+def _importance_score(text: str, is_rss: bool, has_ticker: bool) -> int:
+    """Rank news by market impact. Authoritative RSS gets a base boost."""
+    t = (text or "").lower()
+    score = 0
+    if any(k in t for k in US_HIGH_IMPACT):
+        score += 5
+    score += min(3, sum(1 for k in US_MEDIUM_IMPACT if k in t))
+    if is_rss:     score += 1
+    if has_ticker: score += 1
+    return score
+
+
+def _translate_he(text: str) -> str:
+    """Google translation with Hebrew-detection skip. Clean full sentences translate well."""
+    if not text:
+        return ""
+    if _HEBREW_RE.search(text):
+        return text
+    if HAS_TRANSLATOR:
+        try:
+            return GoogleTranslator(source="en", target="iw").translate(text)
+        except Exception:
+            pass
+    return text
+
+
+def build_free_news(rss_items: list, tweets: list, il_raw: list, cap: int = 14) -> dict:
+    """Blend authoritative RSS headlines with finance tweets into one curated Hebrew feed.
+    Translate cleanly, tag, score, de-dup, rank, cap — no LLM. This is the free-mode
+    equivalent of run_enrichment_agent, built for professional presentation."""
+    def clean_cut(text, limit=170):
+        if len(text) <= limit:
+            return text
+        return text[:limit].rsplit(" ", 1)[0] + "…"
+
+    pool = []
+    # 1. RSS — authoritative, clean full-sentence headlines
+    for r in rss_items:
+        title  = r.get("title", "")
+        ticker = _extract_ticker(title)
+        pool.append({
+            "title_he":     _translate_he(title),
+            "summary_he":   "",
+            "body_en":      title,
+            "ticker":       ticker,
+            "source":       r.get("source", ""),
+            "link":         r.get("link", "#"),
+            "tag":          classify_tag(title),
+            "published_at": r.get("published_at", ""),
+            "sentiment":    classify_sentiment(title),
+            "_score":       _importance_score(title, True, bool(ticker)),
+        })
+    # 2. Tweets — immediacy and market chatter
+    for t in tweets:
+        body = t.get("body", "")
+        if not is_finance_tweet(body):
+            continue
+        ticker = _extract_ticker(body)
+        pool.append({
+            "title_he":      _translate_he(clean_cut(body)),
+            "summary_he":    "",
+            "body_en":       body[:200],
+            "ticker":        ticker,
+            "source":        f'@{t.get("handle","")}',
+            "link":          t.get("url", "#"),
+            "tag":           classify_tag(body),
+            "published_at":  t.get("published_at", ""),
+            "relative_time": t.get("relative_time", ""),
+            "sentiment":     classify_sentiment(body),
+            "_score":        _importance_score(body, False, bool(ticker)),
+        })
+
+    # 3. De-dup by normalized headline — keep the highest-scoring version of each story
+    seen, deduped = set(), []
+    for item in sorted(pool, key=lambda x: x["_score"], reverse=True):
+        key = _norm_title(item.get("body_en", ""))
+        if key and key in seen:
+            continue
+        if key:
+            seen.add(key)
+        deduped.append(item)
+
+    # 4. Curate: drop low-impact noise (never pad with junk), rank newest-first
+    kept = [i for i in deduped if i["_score"] >= 2] or deduped
+    kept.sort(key=lambda x: x.get("published_at") or "0", reverse=True)
+    kept = kept[:cap]
+    for i in kept:
+        i.pop("_score", None)
+
+    il_news = [{"title_he": _translate_he(i["title"]), "summary_he": "", "source": i["source"],
+                "link": i["link"], "tag": "כללי", "published_at": i.get("published_at", "")}
+               for i in il_raw]
+    print(f"  ✓ פיד חינמי: {len(kept)} פריטים ({sum(1 for r in rss_items)} RSS + ציוצים, לאחר סינון)")
+    return {"us_news": kept, "israel_news": il_news}
+
+
 def fallback_data(tw_tweets: list, il_raw: list) -> dict:
-    """Free news path: keyword tags + sentiment + Google translation (no LLM)."""
+    """Legacy free news path: tweets only. Kept as a safety net; build_free_news is primary."""
     def tr(text):
         if _HEBREW_RE.search(text):  # already Hebrew — skip translation
             return text
@@ -1735,7 +1844,6 @@ def build_us_news_card(n: dict, idx: int) -> str:
     ticker    = n.get("ticker", "")
     body_en   = n.get("body_en", "")
     sentiment = n.get("sentiment", "neutral")
-    image     = n.get("image", "")
     rel_time  = n.get("relative_time", "")
 
     if not rel_time and n.get("published_at"):
@@ -1746,16 +1854,6 @@ def build_us_news_card(n: dict, idx: int) -> str:
     wa           = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
     time_chip    = f'<span class="feed-time">{rel_time}</span>' if rel_time else ""
     time_span    = f'<span class="card-time">{rel_time}</span>' if rel_time else ""
-
-    img_html = ""
-    if image:
-        img_html = (
-            f'<div class="card-img-wrap">'
-            f'<img class="news-img" src="{image}" alt="" onerror="this.style.display=\'none\'" loading="lazy"/>'
-            f'<div class="card-img-overlay"></div>'
-            f'<span class="card-num">{idx:02d}</span>'
-            f'</div>'
-        )
 
     title_rendered   = bold_tickers(n.get("title_he", ""))
     summary_rendered = bold_tickers(n.get("summary_he", "")) if n.get("summary_he") else ""
@@ -1770,7 +1868,6 @@ def build_us_news_card(n: dict, idx: int) -> str:
 
     return (
         f'<article class="news-card" data-sentiment="{sentiment}" data-tag="{tag}" data-ts="{ts_epoch}">'
-        + img_html
         + f'<div class="card-content">'
         + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{ticker_badge}{time_chip}<span class="sentiment-dot {sentiment}"></span></div>'
         + f'<h3 class="news-title" dir="rtl">{title_rendered}</h3>'
@@ -1786,22 +1883,16 @@ def build_il_news_card(n: dict) -> str:
     tag = n.get("tag", "כללי")
     color, bg = TAG_COLORS_IL.get(tag, TAG_COLORS_IL["כללי"])
     link  = n.get("link", "#")
-    image = n.get("image", "")
-    img_html = ""
-    if image:
-        img_html = (
-            f'<div class="card-img-wrap">'
-            f'<img class="news-img" src="{image}" alt="" onerror="this.style.display=\'none\'" loading="lazy"/>'
-            f'<div class="card-img-overlay"></div>'
-            f'</div>'
-        )
+    rel_time = n.get("relative_time", "")
+    if not rel_time and n.get("published_at"):
+        rel_time = _relative_time(n["published_at"])
+    time_chip = f'<span class="feed-time">{rel_time}</span>' if rel_time else ""
     read_more = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
     wa        = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
     return (
         f'<div class="news-card il-card">'
-        + img_html
         + f'<div class="card-content">'
-        + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span></div>'
+        + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{time_chip}</div>'
         + f'<h3 class="news-title">{n["title_he"]}</h3>'
         + (f'<p class="news-summary">{n["summary_he"]}</p>' if n.get("summary_he") else "")
         + f'<div class="card-meta"><span class="card-source">{n.get("source","")}</span>{read_more}{wa}</div>'
@@ -2323,26 +2414,14 @@ def build_html(data: dict) -> str:
 
   .il-card{{border-right:3px solid var(--border)}}
 
-  /* Image with gradient overlay */
-  .card-img-wrap{{position:relative;height:165px;overflow:hidden;flex-shrink:0}}
-  .news-img{{width:100%;height:100%;object-fit:cover;display:block;background:var(--border)}}
-  .card-img-overlay{{
-    position:absolute;inset:0;
-    background:linear-gradient(to bottom,transparent 40%,var(--card) 100%);
-  }}
-  .card-num{{
-    position:absolute;top:.7rem;left:.8rem;
-    font-size:.65rem;font-weight:800;color:rgba(240,246,255,.35);
-    font-family:'Inter',monospace;letter-spacing:.12em;
-  }}
-  .card-content{{padding:1rem 1.3rem 1.1rem}}
+  .card-content{{padding:1.1rem 1.4rem}}
   .card-top{{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-bottom:.45rem}}
   .news-tag{{display:inline-block;padding:.12rem .55rem;border-radius:4px;
     font-size:.65rem;font-weight:700;letter-spacing:.05em}}
   .ticker-badge{{
     display:inline-block;
     background:rgba(244,245,247,.1);
-    color:#22d3ee;
+    color:var(--white);
     border:1px solid rgba(244,245,247,.25);
     border-radius:5px;
     padding:.12rem .55rem;
@@ -2515,7 +2594,6 @@ def build_html(data: dict) -> str:
   @media(max-width:600px){{
     .hero h1{{font-size:1.65rem}}
     .mkt-card{{min-width:105px}}
-    .card-img-wrap{{height:130px}}
     .heatmap-grid{{grid-template-columns:repeat(3,1fr)}}
     .fg-il-row{{flex-direction:column}}
     .cal-strip{{gap:.5rem}}
@@ -2706,11 +2784,12 @@ def main():
     all_wl_stocks = wl_config.get("stocks", []) + wl_config.get("il_stocks", [])
     print(f"[ 0 ] Watchlist: {len(all_wl_stocks)} מניות")
 
-    # 1. RSS — Israel only (US news comes from StockTwits)
-    print("[ 1 ] שולף כותרות RSS ישראל...")
+    # 1. RSS — Israel + US authoritative headlines
+    print("[ 1 ] שולף כותרות RSS (ישראל + ארה\"ב)...")
     il_raw_all = fetch_rss(ISRAEL_FEEDS, max_per_feed=12)
     il_raw = filter_headlines(il_raw_all, is_il_relevant, 10)
-    print(f"\n  נבחרו: {len(il_raw)} ישראל")
+    us_rss = fetch_us_news_rss()
+    print(f"\n  נבחרו: {len(il_raw)} ישראל · {len(us_rss)} ארה\"ב")
 
     # 2. Market data + Sparklines + Fear&Greed + Twitter + StockTwits + Watchlist — in parallel
     print("\n[ 2 ] שולף נתוני שוק, sparklines, Fear & Greed, Twitter, StockTwits ו-Watchlist במקביל...")
@@ -2745,25 +2824,28 @@ def main():
             except Exception as e:
                 print(f"  ✗ אינדיקטורים {t}: {e}")
 
-    # 3. Claude Enrichment — analyst-voice interpretation of tweets
+    # 3. News enrichment — Claude analyst voice if available, else curated free blend
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     client = anthropic.Anthropic(api_key=api_key) if api_key else None
     news_data = None
     if client:
         try:
-            print("\n[ 3 ] מנתח ציוצים עם Claude (analyst voice)...")
+            print("\n[ 3 ] מנתח חדשות עם Claude (analyst voice)...")
             tw_sample = select_finance_tweets(tw_feed)
-            news_data = run_enrichment_agent(client, tw_feed, il_raw, ticker_news_raw=tk_news)
+            rss_for_claude = [{"ticker": _extract_ticker(r.get("title", "")), "title": r.get("title", ""),
+                               "source": r.get("source", ""), "url": r.get("link", ""),
+                               "published_at": r.get("published_at", "")} for r in us_rss]
+            news_data = run_enrichment_agent(client, tw_feed, il_raw,
+                                             ticker_news_raw=(tk_news + rss_for_claude))
             news_data = merge_enriched_with_sources(news_data, tw_sample, il_raw, ticker_news_raw=tk_news)
-            has_img = sum(1 for n in news_data.get("us_news", []) if n.get("tweet_image"))
-            print(f"✓ ניתוח הושלם — {has_img} ציוצים עם תמונה מקורית")
+            print(f"✓ ניתוח Claude הושלם — {len(news_data.get('us_news', []))} פריטים")
         except Exception as e:
-            print(f"✗ Claude נכשל: {e} — עובר ל-fallback")
+            print(f"✗ Claude נכשל: {e} — עובר לפיד חינמי")
     else:
-        print("⚠  ANTHROPIC_API_KEY לא מוגדר — fallback")
+        print("\n[ 3 ] בונה פיד חינמי (RSS + ציוצים, ללא LLM)...")
 
     if news_data is None:
-        news_data = fallback_data(tw_feed, il_raw)
+        news_data = build_free_news(us_rss, tw_feed, il_raw)
 
     # 3b. TA — Claude when available, otherwise the free rule engine
     opportunities = []
@@ -2807,16 +2889,7 @@ def main():
         "events":          get_upcoming_events(5),
     }
 
-    # 5. Fetch images
-    print("\n[ 4 ] שולף תמונות לכתבות...")
-    print("  US:");   us_imgs = fetch_all_images(data.get("us_news", []))
-    print("  ישראל:"); il_imgs = fetch_all_images(data.get("israel_news", []))
-    for i, img in enumerate(us_imgs):
-        if i < len(data["us_news"]): data["us_news"][i]["image"] = img
-    for i, img in enumerate(il_imgs):
-        if i < len(data["israel_news"]): data["israel_news"][i]["image"] = img
-
-    # 6. Write data.json (intermediate data layer)
+    # 5. Write data.json (intermediate data layer) — no images (clean text cards)
     print("\n[ 5 ] כותב data.json...")
     import datetime as _dt
     data_export = {
