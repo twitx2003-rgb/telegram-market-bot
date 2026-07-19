@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T08:16:32.132814+00:00",
+  "generated_at": "2026-07-19T10:06:38.361695+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-19T08:16:32.132834+00:00",
+  "ta_generated_at": "2026-07-19T10:06:38.361717+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,649",
-      "change": "-0.22%",
+      "value": "$64,507",
+      "change": "-0.44%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.2236772553120073
+      "pct_raw": -0.4434035427526407
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,20 @@
   },
   "us_news": [
     {
+      "title_he": "יחס S&P 500 P/E ירד שוב מתחת ל-20x... כמה נמוך הוא יגיע כשנכנסים למתיחה עונתית חלשה? @dualityresearch",
+      "summary_he": "",
+      "body_en": "S&P 500 P/E ratio has slipped below 20x again... how low will it get as we head into a weak seasonal stretch? @dualityresearch",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2078782859133726980#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/media%2FHNlR_oiXkAA7fLq.jpg",
+      "relative_time": "לפני 2ד׳",
+      "published_at": "2026-07-19T10:03:50+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "R ל-@unusual_whales: גבי פינלייסון, מייסד Elevate Strategies, וג'וש קאנטר, מייסד Alliance for a Better Utah, הגישו את התביעה לבית משפט פדרלי...",
       "summary_he": "",
       "body_en": "R to @unusual_whales: Gabi Finlayson, founder of Elevate Strategies, and Josh Kanter, founder of Alliance for a Better Utah, filed the suit in federal court Read more: https://unusualwhales.com/news/k",
@@ -865,7 +879,7 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/kevin-oleary-fox-news-defamation-utah-data-center",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078236318656843776%2FT_5u-BAb%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "published_at": "2026-07-19T05:31:00+00:00",
       "sentiment": "neutral"
     },
@@ -879,7 +893,7 @@
       "tag": "MACRO",
       "article_url": "https://unusualwhales.com/news/millions-americans-seeking-jobs-exceed-2008-crisis-levels",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078699142294142976%2FLoY9XsBP%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "published_at": "2026-07-19T04:31:00+00:00",
       "sentiment": "neutral"
     },
@@ -893,9 +907,23 @@
       "tag": "NEWS",
       "article_url": "https://unusualwhales.com/news/dram-prices-surge-ai-demand-supply-constraints",
       "tweet_image": "https://nitter.net/pic/card_img%2F2078229163237068800%2FReAX5DcC%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "published_at": "2026-07-19T04:01:00+00:00",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: אחת מהריצות הסולו הטובות ביותר שתראו במונדיאל זה, באדיבותו של ג'וד בלינגהם",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: One of the best solo runs you will see at this FIFA World Cup, courtesy of Jude Bellingham 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/FOXSports/status/2078621638019694764#m",
+      "tag": "NEWS",
+      "article_url": "",
+      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078621447858372608%2Fimg%2F7Kj19rjWOlOPl337.jpg",
+      "relative_time": "לפני 10ש׳",
+      "published_at": "2026-07-18T23:23:12+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "RT מאת @DivesTech: https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville @business 🏆🏆🍿",
@@ -907,7 +935,7 @@
       "tag": "NEWS",
       "article_url": "https://www.bloomberg.com/news/articles/2026-07-15/ai-bull-tech-analyst-ives-creates-merchant-bank-with-yorkville",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077305561482190848%2FQAqyuOZq%3Fformat%3Dpng%26name%3D800x419",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-18T21:02:57+00:00",
       "sentiment": "neutral"
     },
@@ -921,7 +949,7 @@
       "tag": "ENERGY",
       "article_url": "https://www.barrons.com/articles/apple-stock-standard-oil-1759ba4c?mod=djem_b_Feature",
       "tweet_image": "https://nitter.net/pic/card_img%2F2077815446888132608%2FcFfpc3CJ%3Fformat%3Djpg%26name%3D800x419",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 13ש׳",
       "published_at": "2026-07-18T20:21:21+00:00",
       "sentiment": "neutral"
     },
@@ -935,7 +963,7 @@
       "tag": "EARNINGS",
       "article_url": "http://earnings.wallstengine.com",
       "tweet_image": "",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-18T19:58:59+00:00",
       "sentiment": "neutral"
     },
@@ -949,7 +977,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP8zkaoAADDGD.png",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-18T19:57:01+00:00",
       "sentiment": "bullish"
     },
@@ -963,7 +991,7 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiP390bMAAe6wV.png",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-18T19:55:45+00:00",
       "sentiment": "bullish"
     },
@@ -977,23 +1005,9 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNiKTcVXsAA4Vjb.png",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "published_at": "2026-07-18T19:32:03+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: סם ברנס עובר לראש הטבלה לצד לוקאס הרברט, הודות לציפור ה-14 הזו.",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: Sam Burns moves to the top of the leaderboard alongside Lucas Herbert, thanks to this birdie on 14.",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/TheOpen/status/2078539732137443509#m",
-      "tag": "NEWS",
-      "article_url": "",
-      "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078539447579066368%2Fimg%2FaVTwIm7vHbzfiNAc.jpg",
-      "relative_time": "לפני 14ש׳",
-      "published_at": "2026-07-18T17:57:44+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "מניות הרכבת ממשיכות להתרוצץ. רכבת משא, באמת. @StockCharts https://schrts.co/NcKSVrEp",
@@ -1005,7 +1019,7 @@
       "tag": "NEWS",
       "article_url": "https://schrts.co/NcKSVrEp",
       "tweet_image": "https://nitter.net/pic/media%2FHNhn42xX0AI7GOt.png",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-18T17:01:00+00:00",
       "sentiment": "neutral"
     },
@@ -1019,7 +1033,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNheu7IWcAAks_y.png",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "published_at": "2026-07-18T16:21:00+00:00",
       "sentiment": "neutral"
     },
@@ -1033,7 +1047,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhGd6hacAAMHGN.jpg",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-18T14:34:59+00:00",
       "sentiment": "neutral"
     },
@@ -1047,7 +1061,7 @@
       "tag": "NEWS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNhATbPbMAAsUFf.png",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "published_at": "2026-07-18T14:08:03+00:00",
       "sentiment": "bullish"
     },
@@ -1061,7 +1075,7 @@
       "tag": "NEWS",
       "article_url": "https://www.bespokepremium.com/interactive/posts/featured-reports/the-bespoke-report-7-17-26-gut-check",
       "tweet_image": "https://nitter.net/pic/media%2FHNg6wGUXsAAklS7.jpg",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-18T13:43:49+00:00",
       "sentiment": "neutral"
     },
@@ -1075,7 +1089,7 @@
       "tag": "TECH",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/media%2FHNgz1IBbEAAYWMU.jpg",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "published_at": "2026-07-18T13:14:30+00:00",
       "sentiment": "neutral"
     },
@@ -1089,12 +1103,28 @@
       "tag": "EARNINGS",
       "article_url": "",
       "tweet_image": "https://nitter.net/pic/amplify_video_thumb%2F2078460662934806528%2Fimg%2FytLxQlcDk1Evyelu.jpg",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 21ש׳",
       "published_at": "2026-07-18T12:43:39+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "טרגדיה שהפכה להצלת חיים: ילדה בת 4 שנהרגה בתאונת דרכים הצילה ארבעה בני אדם",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854567",
+      "tag": "כללי",
+      "published_at": "2026-07-19T12:34:00+00:00"
+    },
+    {
+      "title_he": "\"המתנחלים הרביצו לו\": בתו של החשוד בדריסת אישה ונער בגוש עציון יוצאת להגנתו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854552",
+      "tag": "כללי",
+      "published_at": "2026-07-19T11:46:00+00:00"
+    },
     {
       "title_he": "נהגו של ראש ארגון פשע נעצר בחשד לנהיגה בהשפעת סמים וללא רישיון בתוקף | פרסום ראשון",
       "summary_he": "",
@@ -1158,22 +1188,6 @@
       "link": "https://news.walla.co.il/item/3854444",
       "tag": "כללי",
       "published_at": "2026-07-19T00:25:00+00:00"
-    },
-    {
-      "title_he": "נקבע מותו של גבר כבן 45 שטבע בחוף הדייגים שבחדרה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854399",
-      "tag": "כללי",
-      "published_at": "2026-07-18T18:08:00+00:00"
-    },
-    {
-      "title_he": "גל שריפות: בתים עולים באש בחוות גלעד, תושבים פונו; מטוסי כיבוי פועלים בשמשית",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854384",
-      "tag": "כללי",
-      "published_at": "2026-07-18T15:33:00+00:00"
     }
   ],
   "track_record": {
