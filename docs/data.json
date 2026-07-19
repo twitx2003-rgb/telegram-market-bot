@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T20:47:04.407071+00:00",
+  "generated_at": "2026-07-19T21:52:17.650877+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-19T20:47:04.407083+00:00",
+  "ta_generated_at": "2026-07-19T21:52:17.650886+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,458",
-      "change": "-0.52%",
+      "value": "$64,338",
+      "change": "-0.70%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.5187188678007671
+      "pct_raw": -0.7041674222635528
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,15 +856,50 @@
   },
   "us_news": [
     {
-      "title_he": "מנכ\"ל MicroStrategy: הבנקים הגדולים בוול סטריט נעולים במירוץ ביטקוין צמוד",
+      "title_he": "תחזית: המשקיעים ישמחו אם הם יקנו מניית AMD לפני אירוע הבינה המלאכותית הגדול של החברה ב-22 ביולי",
       "summary_he": "",
-      "body_en": "MicroStrategy CEO: Wall Street’s Biggest Banks are Locked in a Tight Bitcoin Race",
+      "body_en": "Prediction: Investors Will Be Happy if They Buy AMD Stock Before the Company's Big AI Event on July 22",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/microstrategy-ceo-wall-street-biggest-203000673.html",
-      "tag": "CRYPTO",
-      "published_at": "2026-07-19T20:30:00+00:00",
+      "link": "https://finance.yahoo.com/technology/ai/articles/prediction-investors-happy-buy-amd-213700432.html",
+      "tag": "TECH",
+      "published_at": "2026-07-19T21:37:00+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "Domino's Pizza $DPZ מובילה את הרווחים של מחר, כאשר BOK Financial $BOKF, Crown $CCK, Steel Dynamics $STLD, W.R. Berkley $WRB ו-Zions Bancorp $ZION ידווחו לאחר...",
+      "summary_he": "",
+      "body_en": "Domino's Pizza $DPZ leads off tomorrow's earnings, with BOK Financial $BOKF, Crown $CCK, Steel Dynamics $STLD, W.R. Berkley $WRB, and Zions Bancorp $ZION reporting after the close.",
+      "ticker": "$DPZ",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2078955664420790582#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-19T21:30:30+00:00",
+      "relative_time": "לפני 21ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ונצ'ר העולמית (VG) מזנקת כאשר מתחים גיאופוליטיים דלק גז טבעי עצרת",
+      "summary_he": "",
+      "body_en": "Venture Global (VG) Soars as Geopolitical Tensions Fuel Natural Gas Rally",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/energy/articles/venture-global-vg-soars-geopolitical-210724730.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-19T21:07:24+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "\"תהיה נסיגה בבורסה בקיץ לפני עלייה אפשרית לסוף השנה\", לפי בנק אוף אמריקה.",
+      "summary_he": "",
+      "body_en": "\"There will be a summer stock market pullback before possible year-end rally,\" per Bank of America.",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2078948240754716707#m",
+      "tag": "BANKS",
+      "published_at": "2026-07-19T21:01:00+00:00",
+      "relative_time": "לפני 50ד׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "R ל-@StockSavvyShay: יש עניין בסרטון רווח של $NOK?",
@@ -875,7 +910,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2078890821391409505#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T17:12:50+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +922,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2078887844337029459#m",
       "tag": "NEWS",
       "published_at": "2026-07-19T17:01:00+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,7 +934,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2078877851869450379#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:21:18+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,7 +957,7 @@
       "link": "https://nitter.net/garyblack00/status/2078873182879051938#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:02:45+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bearish"
     },
     {
@@ -934,7 +969,7 @@
       "link": "https://nitter.net/cperruna/status/2078821955839332644#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T12:39:11+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bearish"
     },
     {
