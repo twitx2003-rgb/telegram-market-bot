@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T21:52:17.650877+00:00",
+  "generated_at": "2026-07-19T22:51:30.190025+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-19T21:52:17.650886+00:00",
+  "ta_generated_at": "2026-07-19T22:51:30.190038+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,018.8",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "$4,001.2",
+      "change": "-0.44%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.0
+      "pct_raw": -0.4379416741315906
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.1",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "$91.1",
+      "change": "+3.43%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.0
+      "pct_raw": 3.4279228149829857
     },
     {
       "name": "ביטקוין",
-      "value": "$64,338",
-      "change": "-0.70%",
+      "value": "$64,663",
+      "change": "-0.20%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.7041674222635528
+      "pct_raw": -0.20304270826500448
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,14 +856,25 @@
   },
   "us_news": [
     {
-      "title_he": "תחזית: המשקיעים ישמחו אם הם יקנו מניית AMD לפני אירוע הבינה המלאכותית הגדול של החברה ב-22 ביולי",
+      "title_he": "מחירי הנפט מזנקים, החוזים העתידיים על המניות עומדים כשהלחימה בין ארה\"ב לאיראן מתעצמת",
       "summary_he": "",
-      "body_en": "Prediction: Investors Will Be Happy if They Buy AMD Stock Before the Company's Big AI Event on July 22",
+      "body_en": "Oil prices surge, stock futures flat as fighting between U.S. and Iran intensifies",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
+      "tag": "ENERGY",
+      "published_at": "2026-07-19T22:32:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "החוזים העתידיים על דאו ג'ונס נופלים עם הסלמה של התקפות ארה\"ב-איראן; Google, Tesla, AMD Ahead",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures Fall As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/ai/articles/prediction-investors-happy-buy-amd-213700432.html",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-attack-kills-us-troops-google-tesla-amd/?src=A00220&yptr=yahoo",
       "tag": "TECH",
-      "published_at": "2026-07-19T21:37:00+00:00",
+      "published_at": "2026-07-19T22:19:18+00:00",
       "sentiment": "neutral"
     },
     {
@@ -875,7 +886,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2078955664420790582#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T21:30:30+00:00",
-      "relative_time": "לפני 21ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,7 +909,7 @@
       "link": "https://nitter.net/unusual_whales/status/2078948240754716707#m",
       "tag": "BANKS",
       "published_at": "2026-07-19T21:01:00+00:00",
-      "relative_time": "לפני 50ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -910,42 +921,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2078890821391409505#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T17:12:50+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "BofAI: תעריפים ממשיכים להיות מוחזרים במהירות",
-      "summary_he": "",
-      "body_en": "BofAI: Tariffs continue to be refunded quickly",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2078887844337029459#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-19T17:01:00+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "עונת הרווחים כאן באופן רשמי ערוץ היוטיוב של Futurum Equities יוציא סדרה של סרטוני Earnings Edge המכסים את התגובה שלי לתוצאות של כל חברה...",
-      "summary_he": "",
-      "body_en": "EARNINGS SEASON IS OFFICIALLY HERE The Futurum Equities YouTube channel will be releasing a series of Earnings Edge videos covering my reaction to each company’s results and what they mean going forwa",
-      "ticker": "$TSLA",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078877851869450379#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-19T16:21:18+00:00",
       "relative_time": "לפני 5ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "החוזים העתידיים של דאו ג'ונס נראים כאשר התקפות ארה\"ב-איראן מתעצמות; Google, Tesla, AMD Ahead",
-      "summary_he": "",
-      "body_en": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-attack-kills-us-troops-google-tesla-amd/?src=A00220&yptr=yahoo",
-      "tag": "TECH",
-      "published_at": "2026-07-19T16:04:39+00:00",
       "sentiment": "neutral"
     },
     {
@@ -957,7 +933,18 @@
       "link": "https://nitter.net/garyblack00/status/2078873182879051938#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:02:45+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "אופנהיימר הורידה את דירוג IBM בעקבות הירידה החדה שלה לאחר הרווחים. מה משמעות האזהרה עבור מניית IBM.",
+      "summary_he": "",
+      "body_en": "Oppenheimer Downgraded IBM Following Its Sharp Post-Earnings Drop. What the Warning Means for IBM Stock.",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-downgraded-ibm-following-sharp-151501745.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-19T15:15:01+00:00",
       "sentiment": "bearish"
     },
     {
@@ -969,44 +956,30 @@
       "link": "https://nitter.net/cperruna/status/2078821955839332644#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T12:39:11+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "צברתי 35,000 דולר בחוב כרטיס אשראי. האם עלי להגיש בקשה לפשיטת רגל?",
+      "title_he": "ריבית משכנתאות ומימון מחדש היום, יום ראשון, 19 ביולי, 2026: הריביות עלו בשבוע שעבר בעקבות הסלמת הסכסוך האיראני",
       "summary_he": "",
-      "body_en": "I racked up $35,000 in credit-card debt. Should I file for bankruptcy?",
+      "body_en": "Mortgage and refinance interest rates today, Sunday, July 19, 2026: Rates moved higher last week as Iranian conflict escalated",
       "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/i-have-racked-up-35-000-in-credit-card-debt-should-i-file-for-bankruptcy-4c92d9e5?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-19T12:30:00+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "מנכ\"ל אמריקן איירליינס מציג את חזונו לסגור פער של יותר מ-3 מיליארד דולר ברווחים",
-      "summary_he": "",
-      "body_en": "American Airlines CEO lays out his vision to close a more than $3 billion profit gap",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/19/american-airlines-ceo.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-19T12:00:01+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "'אני אובד עצות': אחי גוסס. אנחנו לא קרובים. איזו אחריות יש לי לעזור לו?",
-      "summary_he": "",
-      "body_en": "‘I am at a loss’: My brother is dying. We are not close. What responsibility do I have to help him?",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/i-am-at-a-loss-my-brother-is-dying-we-are-not-close-what-responsibility-do-i-have-to-help-him-08af705a?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-19T11:30:00+00:00",
-      "sentiment": "bearish"
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-july-19-2026-rates-moved-higher-last-week-as-iranian-conflict-escalated-100000829.html",
+      "tag": "FED",
+      "published_at": "2026-07-19T10:00:00+00:00",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "נקבע מותו של הולך רגל שנפגע מרכב בכביש 25",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854740",
+      "tag": "כללי",
+      "published_at": "2026-07-20T01:06:00+00:00"
+    },
     {
       "title_he": "הסערה בערד מחריפה: ראש העיר סוגר את ישיבות המועצה לקהל; האופוזיציה: \" זו דיקטטורה\"",
       "summary_he": "",
@@ -1078,14 +1051,6 @@
       "link": "https://news.walla.co.il/item/3854596",
       "tag": "כללי",
       "published_at": "2026-07-19T13:41:00+00:00"
-    },
-    {
-      "title_he": "אחרי מעל לשנה, בית המשפט הסיר את האיזוק האלקטרוני של הזמר מושיקו מור",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854582",
-      "tag": "כללי",
-      "published_at": "2026-07-19T13:19:00+00:00"
     }
   ],
   "track_record": {
