@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T22:51:30.190025+00:00",
+  "generated_at": "2026-07-19T23:56:34.610594+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-19T22:51:30.190038+00:00",
+  "ta_generated_at": "2026-07-19T23:56:34.610606+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,001.2",
-      "change": "-0.44%",
+      "value": "$3,993.6",
+      "change": "-0.63%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.4379416741315906
+      "pct_raw": -0.6270528515974986
     },
     {
       "name": "נפט ברנט",
-      "value": "$91.1",
-      "change": "+3.43%",
+      "value": "$90.8",
+      "change": "+3.06%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 3.4279228149829857
+      "pct_raw": 3.0646992054483575
     },
     {
       "name": "ביטקוין",
-      "value": "$64,663",
-      "change": "-0.20%",
+      "value": "$64,654",
+      "change": "-0.22%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.20304270826500448
+      "pct_raw": -0.21659329338636762
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.039",
-      "change": "+0.61%",
+      "value": "3.041",
+      "change": "+0.09%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.6091908356509136
+      "pct_raw": 0.08556008950900729
     }
   ],
   "sectors": [
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "החוזים עתידיים על דאו ג'ונס יורדים, מחירי הנפט מזנקים ככל שהתקפות ארה\"ב-איראן מתעצמות; גוגל, טסלה קדימה",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures Fall, Oil Prices Jump As U.S.-Iran Attacks Escalate; Google, Tesla Ahead",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-attack-kills-us-troops-google-tesla-amd/?src=A00220&yptr=yahoo",
+      "tag": "ENERGY",
+      "published_at": "2026-07-19T23:38:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מחירי הנפט מזנקים, החוזים העתידיים על המניות עומדים כשהלחימה בין ארה\"ב לאיראן מתעצמת",
       "summary_he": "",
       "body_en": "Oil prices surge, stock futures flat as fighting between U.S. and Iran intensifies",
@@ -863,19 +874,8 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
       "tag": "ENERGY",
-      "published_at": "2026-07-19T22:32:00+00:00",
+      "published_at": "2026-07-19T23:30:00+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "החוזים העתידיים על דאו ג'ונס נופלים עם הסלמה של התקפות ארה\"ב-איראן; Google, Tesla, AMD Ahead",
-      "summary_he": "",
-      "body_en": "Dow Jones Futures Fall As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-attack-kills-us-troops-google-tesla-amd/?src=A00220&yptr=yahoo",
-      "tag": "TECH",
-      "published_at": "2026-07-19T22:19:18+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "Domino's Pizza $DPZ מובילה את הרווחים של מחר, כאשר BOK Financial $BOKF, Crown $CCK, Steel Dynamics $STLD, W.R. Berkley $WRB ו-Zions Bancorp $ZION ידווחו לאחר...",
@@ -886,7 +886,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2078955664420790582#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T21:30:30+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -909,20 +909,8 @@
       "link": "https://nitter.net/unusual_whales/status/2078948240754716707#m",
       "tag": "BANKS",
       "published_at": "2026-07-19T21:01:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: יש עניין בסרטון רווח של $NOK?",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: Any interest in a $NOK earnings edge video?",
-      "ticker": "$NOK",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078890821391409505#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-19T17:12:50+00:00",
-      "relative_time": "לפני 5ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "שאלתי את גרוק אם אי פעם הייתה חברה בהיסטוריה של שוק המניות כמו $SPCX עם שווי שוק של יותר מ-1 טריליון דולר שנסחרה ב-40x קדימה...",
@@ -933,18 +921,7 @@
       "link": "https://nitter.net/garyblack00/status/2078873182879051938#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:02:45+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "אופנהיימר הורידה את דירוג IBM בעקבות הירידה החדה שלה לאחר הרווחים. מה משמעות האזהרה עבור מניית IBM.",
-      "summary_he": "",
-      "body_en": "Oppenheimer Downgraded IBM Following Its Sharp Post-Earnings Drop. What the Warning Means for IBM Stock.",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-downgraded-ibm-following-sharp-151501745.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-19T15:15:01+00:00",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bearish"
     },
     {
@@ -956,19 +933,41 @@
       "link": "https://nitter.net/cperruna/status/2078821955839332644#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T12:39:11+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "ריבית משכנתאות ומימון מחדש היום, יום ראשון, 19 ביולי, 2026: הריביות עלו בשבוע שעבר בעקבות הסלמת הסכסוך האיראני",
+      "title_he": "צברתי 35,000 דולר בחוב כרטיס אשראי. האם עלי להגיש בקשה לפשיטת רגל?",
       "summary_he": "",
-      "body_en": "Mortgage and refinance interest rates today, Sunday, July 19, 2026: Rates moved higher last week as Iranian conflict escalated",
+      "body_en": "I racked up $35,000 in credit-card debt. Should I file for bankruptcy?",
       "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-july-19-2026-rates-moved-higher-last-week-as-iranian-conflict-escalated-100000829.html",
-      "tag": "FED",
-      "published_at": "2026-07-19T10:00:00+00:00",
-      "sentiment": "neutral"
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/i-have-racked-up-35-000-in-credit-card-debt-should-i-file-for-bankruptcy-4c92d9e5?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-19T12:30:00+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "מנכ\"ל אמריקן איירליינס מציג את חזונו לסגור פער של יותר מ-3 מיליארד דולר ברווחים",
+      "summary_he": "",
+      "body_en": "American Airlines CEO lays out his vision to close a more than $3 billion profit gap",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/19/american-airlines-ceo.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-19T12:00:01+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "'אני אובד עצות': אחי גוסס. אנחנו לא קרובים. איזו אחריות יש לי לעזור לו?",
+      "summary_he": "",
+      "body_en": "‘I am at a loss’: My brother is dying. We are not close. What responsibility do I have to help him?",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/i-am-at-a-loss-my-brother-is-dying-we-are-not-close-what-responsibility-do-i-have-to-help-him-08af705a?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-19T11:30:00+00:00",
+      "sentiment": "bearish"
     }
   ],
   "il_news": [
