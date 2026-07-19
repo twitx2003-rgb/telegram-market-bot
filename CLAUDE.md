@@ -21,7 +21,8 @@ The system runs **100% free by default**. `ANTHROPIC_API_KEY` is optional:
 
 **Free mode (no ANTHROPIC_API_KEY):**
 - Opportunities tab: rule-based recommendations (`rule_based_analysis()` — same rulebook, deterministic, Hebrew rationale templates citing real numbers)
-- News: keyword tags + sentiment + Google translation (`fallback_data()`)
+- News: `build_free_news()` blends authoritative US RSS (Reuters/CNBC/MarketWatch/Yahoo via `fetch_us_news_rss()`) with finance tweets into one curated feed — clean-sentence Google translation, keyword tags + sentiment, de-dup by headline, importance ranking (`_importance_score()`), newest-first, capped
+- No article images (clean text cards — a professional-presentation choice)
 - Daily improvement agent: skips gracefully (green no-op)
 
 **Premium mode (with ANTHROPIC_API_KEY):**
