@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T20:20:49.472640+00:00",
+  "generated_at": "2026-07-20T21:43:04.586589+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-20T20:20:49.472652+00:00",
+  "ta_generated_at": "2026-07-20T21:43:04.586600+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,21 +700,21 @@
     },
     {
       "name": "VIX",
-      "value": "18.55",
-      "change": "-1.17%",
+      "value": "18.65",
+      "change": "-0.64%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -1.1720831113478896
+      "pct_raw": -0.6393180607352211
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,009.9",
-      "change": "-0.22%",
+      "value": "$4,011.8",
+      "change": "-0.17%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.22145914203244976
+      "pct_raw": -0.17418134766596993
     },
     {
       "name": "נפט ברנט",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,216",
-      "change": "+0.83%",
+      "value": "$65,324",
+      "change": "+1.00%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.828723088956234
+      "pct_raw": 0.9956365337600004
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.057",
-      "change": "+0.60%",
+      "value": "3.053",
+      "change": "+0.46%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.5956298538896935
+      "pct_raw": 0.4639989469527445
     }
   ],
   "sectors": [
@@ -778,11 +778,11 @@
     },
     {
       "name": "אנרגיה",
-      "value": "57.96",
-      "change": "+0.49%",
+      "value": "57.94",
+      "change": "+0.45%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.48543689320388544
+      "pct_raw": 0.4507628294036027
     },
     {
       "name": "בריאות",
@@ -856,166 +856,168 @@
   },
   "us_news": [
     {
-      "title_he": "PARK AEROSPACE $PKE Q1'27 שירי רווחים 🔹 הכנסות: $18.312M (הערכה. $17.77M) 🟢; +19% YoY 🔹 EPS: $0.17 (הערכה. $0.16) 🟢; +70% YoY 🔹 רווחים נקיים: $3.533M; +70% שנה בשנה 🔹…",
+      "title_he": "$ELF - $79.65, נסגר מעל 200d ma בפעם הראשונה מאז נובמבר 2025. חזרתי לאיזון על בסיס העלויות שלי לאחר שלא הצלחתי לקצץ את המניות שלי בעקבות ה...",
       "summary_he": "",
-      "body_en": "PARK AEROSPACE $PKE Q1’27 EARNINGS HIGHLIGHTS 🔹 Revenue: $18.312M (Est. $17.77M) 🟢; +19% YoY 🔹 EPS: $0.17 (Est. $0.16) 🟢; +70% YoY 🔹 Net Earnings: $3.533M; +70% YoY 🔹 Gross Margin: 34.8% 🔹 Adjusted EB",
-      "ticker": "$PKE",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079298474798145774#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T20:12:42+00:00",
-      "relative_time": "לפני 7ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$INTC מתכננת פיטורים נוספים בקבוצת מרכזי הנתונים שלה כחלק מדחיפה רחבה יותר להפוך לחברה ממוקדת ויעילה יותר, כך מדווח CNBC. אינטל אמרה שהיחידה היא...",
-      "summary_he": "",
-      "body_en": "$INTC plans additional layoffs in its data center group as part of a broader push to become a more focused and efficient company, CNBC reports. Intel said the unit is realigning roles and skills for l",
-      "ticker": "$INTC",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079297646221738314#m",
-      "tag": "TECH",
-      "published_at": "2026-07-20T20:09:24+00:00",
-      "relative_time": "לפני 10ד׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "$INTC מתכננת סבב פיטורים נוסף בתוך קבוצת מרכזי הנתונים שלה כחלק מארגון מחדש רחב יותר. אינטל אומרת שהקיצוצים ייצור \"ממוקד ויעיל יותר...",
-      "summary_he": "",
-      "body_en": "$INTC plans another round of layoffs within its data center group as part of a broader restructuring. Intel says the cuts will create a “more focused and efficient company” with the right roles and sk",
-      "ticker": "$INTC",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2079294767587029424#m",
-      "tag": "TECH",
-      "published_at": "2026-07-20T19:57:58+00:00",
-      "relative_time": "לפני 22ד׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "Netflix $NFLX נמצאת על סף משיכה של עוד 50% משיא כל הזמנים (-49.6%). זו תהיה הפעם השישית שהוא נחתך בחצי מאז שהוצג לציבור בתחילת...",
-      "summary_he": "",
-      "body_en": "Netflix $NFLX is on the cusp of another 50% drawdown from an all-time high (-49.6%). This would be the 6th time it has been cut in half since it went public in the early 2000s.",
-      "ticker": "$NFLX",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2079293994035564576#m",
+      "body_en": "$ELF - $79.65, closes above the 200d ma for the 1st time since November 2025. I am back to break-even on my cost basis after failing to cut my shares following the large drop in November. Still a slop",
+      "ticker": "$ELF",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2079320031591080017#m",
       "tag": "NEWS",
-      "published_at": "2026-07-20T19:54:54+00:00",
-      "relative_time": "לפני 25ד׳",
-      "sentiment": "neutral"
+      "published_at": "2026-07-20T21:38:22+00:00",
+      "relative_time": "לפני 4ד׳",
+      "sentiment": "bearish"
     },
     {
-      "title_he": "מיזוג פרמאונט ואחים וורנר פגע בצו מניעה זמני",
+      "title_he": "שופט קיבל חלקית את בקשתם של תריסר תובעים כלליים של המדינה להשהות זמנית את המיזוג של 110 מיליארד דולר של פרמאונט ואחים וורנר דיסקברי,...",
       "summary_he": "",
-      "body_en": "Paramount and Warner Bros. merger hit with temporary restraining order",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/20/paramount-wbd-merger-delay.html",
-      "tag": "M&A",
-      "published_at": "2026-07-20T19:20:38+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$BLK מחפשת למכור יותר מ-12 מיליארד דולר של אג\"ח כדי לממן קמפוס מרכז נתונים בטקסס. גיוס החוב האדיר יממן פרויקט המגובה על ידי $META.",
-      "summary_he": "",
-      "body_en": "$BLK is looking to sell more than $12B of bonds to finance a data center campus in Texas. The massive debt raise would fund a project backed by $META.",
-      "ticker": "$BLK",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2079284009662824722#m",
-      "tag": "TECH",
-      "published_at": "2026-07-20T19:15:13+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מחירי הנפט עולים לאחר שטראמפ אמר שאיראן תשלם על הריגת אנשי שירות אמריקאים",
-      "summary_he": "",
-      "body_en": "Oil prices rise after Trump says Iran will pay for killing U.S. service members",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html",
-      "tag": "ENERGY",
-      "published_at": "2026-07-20T19:04:16+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "BlackRock, $BLK, מובילה מכירת חובות המיועדת לפחות 12 מיליארד דולר עבור פרויקט מרכז הנתונים החדש שלה אל פאסו בגיבוי של Meta, $META, Platforms, לפי WSJ",
-      "summary_he": "",
-      "body_en": "BlackRock, $BLK, is leading a debt sale targeting at least $12 billion for its new El Paso data-center project backed by Meta, $META, Platforms, per WSJ",
-      "ticker": "$BLK",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2079279422729838781#m",
-      "tag": "TECH",
-      "published_at": "2026-07-20T18:57:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ אומר שנתניהו לא ייעצר בניו יורק, ודוחף את ממדני",
-      "summary_he": "",
-      "body_en": "Trump says Netanyahu won't be arrested in New York, pushing back on Mamdani",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/20/trump-netanyahu-arrest-mamdani-new-york-israel.html",
-      "tag": "TECH",
-      "published_at": "2026-07-20T18:49:10+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "TD Cowen: השכרת מרכז הנתונים ברבעון השני הגיעה לשיא של 9.6 GW, בהובלת $META, $MSFT ו-$GOOGL. בדיקות הערוצים שלה מצביעות גם על צנרת חכירה של 12.5 GW שיא, שכן OpenAI...",
-      "summary_he": "",
-      "body_en": "TD Cowen: Q2 data center leasing reached a record 9.6 GW, led by $META, $MSFT and $GOOGL Its channel checks also indicate a record 12.5 GW leasing pipeline, as OpenAI raises its 2030 infrastructure ro",
-      "ticker": "$META",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079272140931752280#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T18:28:04+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שובר: קרנות גידור נסוגו ממניות הטכנולוגיה בארה\"ב בקצב שיא במהלך החודשיים האחרונים, לפי גולדמן זאקס.",
-      "summary_he": "",
-      "body_en": "BREAKING: Hedge funds pulled back from US tech stocks at a record pace over the past two months, per Goldman Sachs.",
+      "body_en": "A judge partially granted the request from a dozen state attorneys general to temporarily place the $110 billion merger of Paramount and Warner Bros. Discovery on hold, per the Verge",
       "ticker": "",
       "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2079269356505055596#m",
-      "tag": "BANKS",
-      "published_at": "2026-07-20T18:17:00+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "משקיעי טסלה חולקים את השאלות הבוערות ביותר שלהם לפני הרווחים",
-      "summary_he": "",
-      "body_en": "Tesla investors share their most burning questions ahead of earnings",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/tesla-investors-share-their-most-burning-questions-ahead-of-earnings-7065c7c5?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T17:54:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית AMD עולה, ועסקה חדשה של מיקרוסופט היא רק חלק מהסיבה",
-      "summary_he": "",
-      "body_en": "AMD’s stock climbs, and a new Microsoft deal is only part of the reason",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/amds-stock-climbs-and-a-new-microsoft-deal-is-only-part-of-the-reason-de78df49?mod=mw_rss_topstories",
+      "link": "https://nitter.net/unusual_whales/status/2079319436662644854#m",
       "tag": "M&A",
-      "published_at": "2026-07-20T17:24:00+00:00",
+      "published_at": "2026-07-20T21:36:00+00:00",
+      "relative_time": "לפני 6ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "שינוי באחוזים מחודש עד תאריך 👀: חצי $SOX: -17.0% ביטקוין $IBIT: +9.4%",
+      "title_he": "שובר: הנשיא טראמפ מטיל מכסים חדשים של 50% על סחורות קנדיות מסוימות, לפי CNN",
       "summary_he": "",
-      "body_en": "Month-to-date % change 👀: Semis $SOX: -17.0% Bitcoin $IBIT: +9.4%",
-      "ticker": "$SOX",
+      "body_en": "BREAKING: President Trump is imposing new 50% tariffs on certain Canadian goods, per CNN",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2079318872470212736#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-20T21:33:45+00:00",
+      "relative_time": "לפני 8ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ הטיל מכסים של 50% על סחורות קנדיות מסוימות בגלל אפליה סחר לכאורה",
+      "summary_he": "",
+      "body_en": "Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/20/trump-tariffs-canada-trade.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-20T21:30:05+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "לפני הפתיחה מחר, Charles Schwab $SCHW, Danaher $DHR ו-3M $MMM הן החברות הגדולות ביותר שדיווחו על רווחים ברבעון השני. ברוקרים אינטראקטיביים $IBKR, Chubb $CB, Capital…",
+      "summary_he": "",
+      "body_en": "Before the open tomorrow, Charles Schwab $SCHW, Danaher $DHR, and 3M $MMM are the largest companies to report Q2 earnings. Interactive Brokers $IBKR, Chubb $CB, Capital One $COF, and Alaska Air $ALK w",
+      "ticker": "$SCHW",
       "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2079219451191251273#m",
-      "tag": "CRYPTO",
-      "published_at": "2026-07-20T14:58:41+00:00",
-      "relative_time": "לפני 5ש׳",
+      "link": "https://nitter.net/bespokeinvest/status/2079317928525119998#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-20T21:30:00+00:00",
+      "relative_time": "לפני 12ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "קרא את סיכומי שיחת הועידה שלנו עבור חברות מפתח שדיווחו על רווחים ברבעון השני בשבוע שעבר, כולל Cintas $CTAS, United Airlines $UAL ו-ASML $ASML ב...",
+      "summary_he": "",
+      "body_en": "Read our Conference Call Recaps for key companies that reported Q2 earnings last week, including Cintas $CTAS, United Airlines $UAL, and ASML $ASML at https://www.bespokepremium.com/interactive/resear",
+      "ticker": "$CTAS",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2079316662130544878#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-20T21:24:58+00:00",
+      "relative_time": "לפני 17ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Nvidia $NVDA חשפה נתח פסיבי של 9.3% ב-Nebius $NBIS, המייצג 22.26 מיליון מניות.",
+      "summary_he": "",
+      "body_en": "Nvidia $NVDA disclosed a 9.3% passive stake in Nebius $NBIS, representing 22.26 million shares.",
+      "ticker": "$NVDA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079314463698845899#m",
+      "tag": "TECH",
+      "published_at": "2026-07-20T21:16:14+00:00",
+      "relative_time": "לפני 26ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רק ב: ארה\"ב להטיל תעריף נוסף של 50% על מוצרים קנדיים מסוימים החל מה-19 באוגוסט",
+      "summary_he": "",
+      "body_en": "JUST IN : US TO IMPOSE AN ADDITIONAL 50% TARIFF ON CERTAIN CANADIAN PRODUCTS STARTING AUG 19",
+      "ticker": "",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2079311566676054411#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-20T21:04:43+00:00",
+      "relative_time": "לפני 37ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סרגיי ברין, גוגל, $GOOGL, מייסד שותף, הזרים 82 מיליון דולר מהונו של 270 מיליארד דולר לקבוצת קמפיינים חדשה כדי להילחם במס נגד מיליארדרים ב...",
+      "summary_he": "",
+      "body_en": "Sergey Brin, Google, $GOOGL, co-founder, has poured $82 million of his $270 billion fortune into a new campaign group to fight the tax against billionaires in California, per FT",
+      "ticker": "$GOOGL",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2079309873460773011#m",
+      "tag": "TECH",
+      "published_at": "2026-07-20T20:58:00+00:00",
+      "relative_time": "לפני 44ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$IREN סיימה את היום בעלייה של כמעט 20%, מכיוון שהמחסור העולמי במחשוב בינה מלאכותית דוחף לקוחות לשלם מראש כמעט מחצית מעלות ה-GPU כדי להבטיח קיבולת לפני הפריסה. אירן…",
+      "summary_he": "",
+      "body_en": "$IREN ended the day up nearly 20% as the global shortage of AI compute pushes customers to prepay nearly half the GPU cost to secure capacity before deployment. IREN then provides the power, data cent",
+      "ticker": "$IREN",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2079307102884151695#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-20T20:46:59+00:00",
+      "relative_time": "לפני 55ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "SpaceX נתנה למשקיעים FOMO אינטנסיבי. כעת ההנפקה החמה ביותר של העשור מייצגת בדיקת מציאות אכזרית.",
+      "summary_he": "",
+      "body_en": "SpaceX gave investors intense FOMO. Now the decade’s hottest IPO represents a brutal reality check.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/spacex-gave-investors-intense-fomo-now-the-decades-hottest-ipo-represents-a-brutal-reality-check-54f878cb?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-20T20:39:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "עזוב את Nvidia. 5 מניות ה-S&P 500 הללו עוברות בשקט הכל על AI.",
+      "summary_he": "",
+      "body_en": "Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/forget-nvidia-these-5-s-p-500-stocks-are-quietly-going-all-in-on-ai-68642f84?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-07-20T20:38:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "דגשים ברווחים של $CCK Q2'26 🔹 הכנסה: $3.67B (הערכה. $3.35B) ; +16% YoY 🔹 התאמה EPS: $2.49 (הערכה. $2.15) 🟢; +16% בשנה 🔹 נפחי קופסאות משקאות גלובליים: +5% מעלה את ה-FY26...",
+      "summary_he": "",
+      "body_en": "$CCK Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $3.67B (Est. $3.35B) 🟢; +16% YoY 🔹 Adj. EPS: $2.49 (Est. $2.15) 🟢; +16% YoY 🔹 Global Beverage Can Volumes: +5% Raises FY26 Guide: 🔹 Adj. EPS: $8.30-$8.50; rai",
+      "ticker": "$CCK",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079301058770481168#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-20T20:22:58+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$SPCX מאשרת שהיא תדווח על רווחים לראשונה לאחר סגירת השוק ב-4 באוגוסט.",
+      "summary_he": "",
+      "body_en": "$SPCX confirms it will report earnings for the first time after the market closes on August 4.",
+      "ticker": "$SPCX",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2079299597604962811#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-20T20:17:10+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     }
   ],
