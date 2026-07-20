@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T23:56:34.610594+00:00",
+  "generated_at": "2026-07-20T03:20:25.362070+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-19T23:56:34.610606+00:00",
+  "ta_generated_at": "2026-07-20T03:20:25.362083+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$3,993.6",
-      "change": "-0.63%",
-      "direction": "down",
+      "value": "$4,025.2",
+      "change": "+0.16%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.6270528515974986
+      "pct_raw": 0.1592515178660206
     },
     {
       "name": "נפט ברנט",
-      "value": "$90.8",
-      "change": "+3.06%",
+      "value": "$90.1",
+      "change": "+2.24%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 3.0646992054483575
+      "pct_raw": 2.2360953461975015
     },
     {
       "name": "ביטקוין",
-      "value": "$64,654",
-      "change": "-0.22%",
-      "direction": "down",
+      "value": "$64,724",
+      "change": "+0.07%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.21659329338636762
+      "pct_raw": 0.06742400266664683
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.041",
-      "change": "+0.09%",
-      "direction": "up",
+      "value": "3.035",
+      "change": "-0.13%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.08556008950900729
+      "pct_raw": -0.1250493615901022
     }
   ],
   "sectors": [
@@ -850,32 +850,33 @@
     }
   ],
   "fear_greed": {
-    "score": 28,
+    "score": 29,
     "rating": "פחד",
     "rating_en": "fear"
   },
   "us_news": [
     {
-      "title_he": "החוזים עתידיים על דאו ג'ונס יורדים, מחירי הנפט מזנקים ככל שהתקפות ארה\"ב-איראן מתעצמות; גוגל, טסלה קדימה",
+      "title_he": "מחירי הנפט עולים, החוזים העתידיים על המניות עומדים ללא הפסקה כאשר הלחימה בין ארה\"ב לאיראן מתעצמת",
       "summary_he": "",
-      "body_en": "Dow Jones Futures Fall, Oil Prices Jump As U.S.-Iran Attacks Escalate; Google, Tesla Ahead",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-attack-kills-us-troops-google-tesla-amd/?src=A00220&yptr=yahoo",
-      "tag": "ENERGY",
-      "published_at": "2026-07-19T23:38:01+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מחירי הנפט מזנקים, החוזים העתידיים על המניות עומדים כשהלחימה בין ארה\"ב לאיראן מתעצמת",
-      "summary_he": "",
-      "body_en": "Oil prices surge, stock futures flat as fighting between U.S. and Iran intensifies",
+      "body_en": "Oil prices rise, stock futures flat as fighting between U.S. and Iran intensifies",
       "ticker": "",
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
       "tag": "ENERGY",
-      "published_at": "2026-07-19T23:30:00+00:00",
-      "sentiment": "bullish"
+      "published_at": "2026-07-20T03:02:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "על פי הדיווחים, Moonshot AI, החברה שמאחורי Kimi, מתכוננת להנפקה בהונג קונג תוך 6 חודשים לאחר גיוס לפי שווי של 30B+$. הערה: Alibaba $BABA...",
+      "summary_he": "",
+      "body_en": "Moonshot AI, the company behind Kimi, is reportedly preparing for a Hong Kong IPO in as soon as 6 months after raising at a $30B+ valuation. Note: Alibaba $BABA previously disclosed an approximately 3",
+      "ticker": "$BABA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079002809614451180#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-20T00:37:50+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "Domino's Pizza $DPZ מובילה את הרווחים של מחר, כאשר BOK Financial $BOKF, Crown $CCK, Steel Dynamics $STLD, W.R. Berkley $WRB ו-Zions Bancorp $ZION ידווחו לאחר...",
@@ -886,31 +887,8 @@
       "link": "https://nitter.net/bespokeinvest/status/2078955664420790582#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T21:30:30+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "ונצ'ר העולמית (VG) מזנקת כאשר מתחים גיאופוליטיים דלק גז טבעי עצרת",
-      "summary_he": "",
-      "body_en": "Venture Global (VG) Soars as Geopolitical Tensions Fuel Natural Gas Rally",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/energy/articles/venture-global-vg-soars-geopolitical-210724730.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-19T21:07:24+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "\"תהיה נסיגה בבורסה בקיץ לפני עלייה אפשרית לסוף השנה\", לפי בנק אוף אמריקה.",
-      "summary_he": "",
-      "body_en": "\"There will be a summer stock market pullback before possible year-end rally,\" per Bank of America.",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2078948240754716707#m",
-      "tag": "BANKS",
-      "published_at": "2026-07-19T21:01:00+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bullish"
     },
     {
       "title_he": "שאלתי את גרוק אם אי פעם הייתה חברה בהיסטוריה של שוק המניות כמו $SPCX עם שווי שוק של יותר מ-1 טריליון דולר שנסחרה ב-40x קדימה...",
@@ -921,8 +899,20 @@
       "link": "https://nitter.net/garyblack00/status/2078873182879051938#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:02:45+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "bearish"
+    },
+    {
+      "title_he": "RT מאת @StockSavvyShay: מניות מוליכים למחצה לפי PEG RATIO PEG < 1 פירושו בדרך כלל PEG שגוי לצמיחה PEG > 2 מתחיל להידחף לאזור הסכנה. הנה איך הם מסתדרים: •...",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: SEMICONDUCTOR STOCKS BY PEG RATIO PEG < 1 usually means mispriced growth PEG > 2 starts to push into the danger zone Here’s how they stack up: • $LRCX ~2.3x • $ALAB ~2.1x • $INT",
+      "ticker": "$LRCX",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078845605133324716#m",
+      "tag": "TECH",
+      "published_at": "2026-07-19T14:13:10+00:00",
+      "relative_time": "לפני 13ש׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "$RKLB - $67.62, נסוג בחזרה ל-200d ma (קצת מתחת) בעקבות ירידה של 55%. המניה מפתה אבל היסודות העיקריים עדיין חסרים את הדרוש...",
@@ -933,7 +923,7 @@
       "link": "https://nitter.net/cperruna/status/2078821955839332644#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T12:39:11+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "bearish"
     },
     {
@@ -968,9 +958,39 @@
       "tag": "NEWS",
       "published_at": "2026-07-19T11:30:00+00:00",
       "sentiment": "bearish"
+    },
+    {
+      "title_he": "דחיסה מרובה היא איום אמיתי על מניית מיקרוסופט, אבל סיפור הליבה שלה לא שבור",
+      "summary_he": "",
+      "body_en": "Multiple Compression Is a Real Threat to Microsoft Stock, But Its Core Story Isn’t Broken",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/multiple-compression-real-threat-microsoft-154502346.html",
+      "tag": "TECH",
+      "published_at": "2026-07-18T15:45:02+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "14 מניות S&P 500 עלו ביותר מ-100% בשנת 2026. מדוע מיקרון היא המועדפת עליי בשאר השנה.",
+      "summary_he": "",
+      "body_en": "14 S&P 500 Stocks Are Up Over 100% in 2026. Why Micron Is My Favorite for the Rest of the Year.",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/14-p-500-stocks-over-153002917.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-18T15:30:02+00:00",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "נקבע מותו של גבר בתאונת דרכים במחלף גלילות - פונו מספר פצועים בדרגות שונות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854754",
+      "tag": "כללי",
+      "published_at": "2026-07-20T03:54:00+00:00"
+    },
     {
       "title_he": "נקבע מותו של הולך רגל שנפגע מרכב בכביש 25",
       "summary_he": "",
@@ -1042,14 +1062,6 @@
       "link": "https://news.walla.co.il/item/3854608",
       "tag": "כללי",
       "published_at": "2026-07-19T14:08:00+00:00"
-    },
-    {
-      "title_he": "רצח בניהו רזי: ביהמ\"ש האריך את מעצרם של שלושה חשודים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854596",
-      "tag": "כללי",
-      "published_at": "2026-07-19T13:41:00+00:00"
     }
   ],
   "track_record": {
