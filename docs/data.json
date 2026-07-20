@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T03:20:25.362070+00:00",
+  "generated_at": "2026-07-20T06:33:11.018809+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-20T03:20:25.362083+00:00",
+  "ta_generated_at": "2026-07-20T06:33:11.018820+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,025.2",
-      "change": "+0.16%",
-      "direction": "up",
+      "value": "$4,012.0",
+      "change": "-0.17%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.1592515178660206
+      "pct_raw": -0.16920473773266104
     },
     {
       "name": "נפט ברנט",
-      "value": "$90.1",
-      "change": "+2.24%",
+      "value": "$90.9",
+      "change": "+3.20%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 2.2360953461975015
+      "pct_raw": 3.200908059023845
     },
     {
       "name": "ביטקוין",
-      "value": "$64,724",
-      "change": "+0.07%",
-      "direction": "up",
+      "value": "$64,065",
+      "change": "-0.95%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.06742400266664683
+      "pct_raw": -0.9510170263773066
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.035",
-      "change": "-0.13%",
-      "direction": "down",
+      "value": "3.045",
+      "change": "+0.20%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.1250493615901022
+      "pct_raw": 0.19744636040541605
     }
   ],
   "sectors": [
@@ -875,7 +875,7 @@
       "link": "https://nitter.net/wallstengine/status/2079002809614451180#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T00:37:50+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +887,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2078955664420790582#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T21:30:30+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,8 +899,20 @@
       "link": "https://nitter.net/garyblack00/status/2078873182879051938#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:02:45+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "bearish"
+    },
+    {
+      "title_he": "RT מאת @StockSavvyShay: Wolfe Research רואה $NBIS מגיע ל-$30B בהכנסות ו-21B$ ב-EBITDA עד 2030, כשהעלייה מתחילה ב-4Q26 כאשר Vineland נכנסת לאינטרנט ופותחת...",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: Wolfe Research sees $NBIS reaching $30B in revenue and $21B in EBITDA by 2030 with the ramp beginning in 4Q26 as Vineland comes online and unlocks more contracted revenue. That ",
+      "ticker": "$NBIS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2078851746793914489#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-19T14:37:34+00:00",
+      "relative_time": "לפני 15ש׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "RT מאת @StockSavvyShay: מניות מוליכים למחצה לפי PEG RATIO PEG < 1 פירושו בדרך כלל PEG שגוי לצמיחה PEG > 2 מתחיל להידחף לאזור הסכנה. הנה איך הם מסתדרים: •...",
@@ -911,7 +923,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2078845605133324716#m",
       "tag": "TECH",
       "published_at": "2026-07-19T14:13:10+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +935,7 @@
       "link": "https://nitter.net/cperruna/status/2078821955839332644#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T12:39:11+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "bearish"
     },
     {
@@ -938,17 +950,6 @@
       "sentiment": "bearish"
     },
     {
-      "title_he": "מנכ\"ל אמריקן איירליינס מציג את חזונו לסגור פער של יותר מ-3 מיליארד דולר ברווחים",
-      "summary_he": "",
-      "body_en": "American Airlines CEO lays out his vision to close a more than $3 billion profit gap",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/19/american-airlines-ceo.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-19T12:00:01+00:00",
-      "sentiment": "bullish"
-    },
-    {
       "title_he": "'אני אובד עצות': אחי גוסס. אנחנו לא קרובים. איזו אחריות יש לי לעזור לו?",
       "summary_he": "",
       "body_en": "‘I am at a loss’: My brother is dying. We are not close. What responsibility do I have to help him?",
@@ -960,29 +961,34 @@
       "sentiment": "bearish"
     },
     {
-      "title_he": "דחיסה מרובה היא איום אמיתי על מניית מיקרוסופט, אבל סיפור הליבה שלה לא שבור",
+      "title_he": "SpaceX (SPCX) מאבדת את פרימיום ההנפקה שלה כשמבחן אספקה ​​גדול יותר מתנשא",
       "summary_he": "",
-      "body_en": "Multiple Compression Is a Real Threat to Microsoft Stock, But Its Core Story Isn’t Broken",
+      "body_en": "SpaceX (SPCX) Loses Its IPO Premium as a Bigger Supply Test Looms",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/multiple-compression-real-threat-microsoft-154502346.html",
-      "tag": "TECH",
-      "published_at": "2026-07-18T15:45:02+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "14 מניות S&P 500 עלו ביותר מ-100% בשנת 2026. מדוע מיקרון היא המועדפת עליי בשאר השנה.",
-      "summary_he": "",
-      "body_en": "14 S&P 500 Stocks Are Up Over 100% in 2026. Why Micron Is My Favorite for the Rest of the Year.",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/14-p-500-stocks-over-153002917.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-spcx-loses-ipo-premium-233457233.html",
       "tag": "NEWS",
-      "published_at": "2026-07-18T15:30:02+00:00",
+      "published_at": "2026-07-18T23:34:57+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "בחשד לקבלת שוחד: נעצרו עובדי רשות המיסים בעבר ובהווה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854775",
+      "tag": "כללי",
+      "published_at": "2026-07-20T08:25:00+00:00"
+    },
+    {
+      "title_he": "מכת הפשיעה נמשכת: רימון הלם הושלך סמוך לבניין מגורים ברמת השרון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854768",
+      "tag": "כללי",
+      "published_at": "2026-07-20T07:33:00+00:00"
+    },
     {
       "title_he": "נקבע מותו של גבר בתאונת דרכים במחלף גלילות - פונו מספר פצועים בדרגות שונות",
       "summary_he": "",
@@ -1046,22 +1052,6 @@
       "link": "https://news.walla.co.il/item/3854638",
       "tag": "כללי",
       "published_at": "2026-07-19T15:57:00+00:00"
-    },
-    {
-      "title_he": "מה שטפטף מהמזגן התברר כהפרשה של עטלף - והנער הובהל למיון",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854622",
-      "tag": "כללי",
-      "published_at": "2026-07-19T14:38:00+00:00"
-    },
-    {
-      "title_he": "מצלמה נסתרת שהתקינה האם חשפה: האב אנס את בתו בת ה-3 ונשלח ל-20 שנות מאסר",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854608",
-      "tag": "כללי",
-      "published_at": "2026-07-19T14:08:00+00:00"
     }
   ],
   "track_record": {
