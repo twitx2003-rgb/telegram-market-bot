@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T10:10:09.481532+00:00",
+  "generated_at": "2026-07-20T12:31:17.029403+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-20T10:10:09.481543+00:00",
+  "ta_generated_at": "2026-07-20T12:31:17.029413+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,63 +700,63 @@
     },
     {
       "name": "VIX",
-      "value": "18.27",
-      "change": "-2.66%",
+      "value": "18.22",
+      "change": "-2.93%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -2.663825253063399
+      "pct_raw": -2.930207778369743
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,024.8",
-      "change": "+0.15%",
-      "direction": "up",
+      "value": "$4,016.0",
+      "change": "-0.07%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.1492982979994028
+      "pct_raw": -0.0696725390663925
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.0",
-      "change": "-0.15%",
-      "direction": "down",
+      "value": "$88.5",
+      "change": "+0.40%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.1475595913734341
+      "pct_raw": 0.39727582292850006
     },
     {
       "name": "ביטקוין",
-      "value": "$64,159",
-      "change": "-0.81%",
+      "value": "$64,645",
+      "change": "-0.05%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.8063824139153489
+      "pct_raw": -0.05372584482151656
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
       "value": "4.54%",
-      "change": "-0.61%",
-      "direction": "down",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "commodities",
-      "pct_raw": -0.6128255635806431
+      "pct_raw": 0.0
     }
   ],
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,168",
-      "change": "+0.66%",
+      "value": "4,157",
+      "change": "+0.41%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.660559410495998
+      "pct_raw": 0.4072040826677343
     },
     {
       "name": "דולר/שקל",
-      "value": "3.048",
-      "change": "+0.30%",
+      "value": "3.046",
+      "change": "+0.22%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.29946031328154743
+      "pct_raw": 0.22048176911938686
     }
   ],
   "sectors": [
@@ -856,48 +856,84 @@
   },
   "us_news": [
     {
-      "title_he": "שיעורי הריבית הטובים ביותר לחיסכון עם תשואה גבוהה היום, יום שני, 20 ביולי, 2026: הרווח עד 4.10% APY",
+      "title_he": "ההנפקה של ג'רזי מייק בתפריט",
       "summary_he": "",
-      "body_en": "Best high-yield savings interest rates today, Monday, July 20, 2026: Earn up to 4.10% APY",
+      "body_en": "Jersey Mike's IPO on the menu",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2079177588325367930#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-20T12:12:20+00:00",
+      "relative_time": "לפני 18ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הצטרפתי ל-@TheDomino פעמיים הבוקר ב-@CNBCMorningCall ☕ ⏰ כאן דנו בשוק דובי הבינה המלאכותית/שבבים, עונת הרווחים עד כה, והשיא השקט ביותר בכל הזמנים אי פעם...",
+      "summary_he": "",
+      "body_en": "I joined @TheDomino twice this morning on @CNBCMorningCall ☕ ⏰ Here we discussed the AI/chip bear market, earnings season so far, and the quietest all-time high ever for Apple. 📺 https://www.cnbc.com/",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2079176129001185410#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-20T12:06:33+00:00",
+      "relative_time": "לפני 24ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$GOOGL $TSLA $IBM רווחים מחר",
+      "summary_he": "",
+      "body_en": "$GOOGL $TSLA $IBM earnings tomorrow",
+      "ticker": "$GOOGL",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2079175973715517753#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-20T12:05:56+00:00",
+      "relative_time": "לפני 25ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רווחים בשידור חי: גוגל וטסלה יפתחו את התוצאות הרבעוניות של 'שבע נהדרות'",
+      "summary_he": "",
+      "body_en": "Earnings live: Google, Tesla to kick off 'Magnificent Seven' quarterly results",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-july-20-2026-earn-up-to-410-apy-100000162.html",
-      "tag": "FED",
-      "published_at": "2026-07-20T10:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Bezos מגבה את CuspAI כאשר הסטארט-אפ חובר ל-Nvidia כדי לחפש חומרים לייצור שבבים",
-      "summary_he": "",
-      "body_en": "Bezos backs CuspAI as startup teams up with Nvidia to hunt for chipmaking materials",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/20/bezos-cuspai-new-chip-materials-nvidia.html",
-      "tag": "TECH",
-      "published_at": "2026-07-20T09:58:05+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנכ\"ל בואינג אומר שהחברה עדיין צריכה \"עוד כמה שנים\" כדי לתקן את הכספים לפני מטוס חדש",
-      "summary_he": "",
-      "body_en": "Boeing CEO says company still needs 'a couple more years' to repair finances before new jet",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/20/boeing-ceo-ortberg-airbus-farnborough-737max.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-20T09:55:32+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Bernstein SocGen Group Raises $HOOD PT to $160 from $130 - Outperform Analyst comments: \"We expect Robinhood to expand into prediction markets, perpetual futures, and…",
-      "summary_he": "",
-      "body_en": "Bernstein SocGen Group Raises $HOOD PT to $160 from $130 - Outperform Analyst comments: \"We expect Robinhood to expand into prediction markets, perpetual futures, and tokenized equities, which are key",
-      "ticker": "$HOOD",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079137560413302946#m",
+      "link": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html",
       "tag": "EARNINGS",
-      "published_at": "2026-07-20T09:33:17+00:00",
-      "relative_time": "לפני 36ד׳",
+      "published_at": "2026-07-20T11:53:24+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מפחדים מהמסחר בבינה מלאכותית? להלן שלושה נושאי השקעה ש-Goldman Sachs מציע במקום זאת.",
+      "summary_he": "",
+      "body_en": "Scared of the AI trade? Here are three investment themes Goldman Sachs is offering instead.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/scared-of-the-ai-trade-here-are-three-investment-themes-instead-says-goldman-sachs-e620a510?mod=mw_rss_topstories",
+      "tag": "BANKS",
+      "published_at": "2026-07-20T11:42:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שוק המניות היום: החוזים העתידיים של דאו, S&P 500, נאסד\"ק מתגברים כאשר הנפט יורד בהמתנה לרווחי Big Tech",
+      "summary_he": "",
+      "body_en": "Stock market today: Dow, S&P 500, Nasdaq futures edge up as oil turns lower in wait for Big Tech earnings",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-july-20-dow-sp-500-nasdaq-111429441.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-20T11:14:29+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "BofA חוזר על דירוג קנייה ב-$CRWV, PT $140 הערות אנליסטים: \"הוצאות הון נותרו אינדיקטור מרכזי להתקדמות הבנייה ורמות התמחור של חומרה מרכזית...",
+      "summary_he": "",
+      "body_en": "BofA Reiterates Buy Rating on $CRWV, PT $140 Analyst comments: \"Capital expenditures remain a key indicator of buildout progress and pricing levels for key hardware components. We have increased our F",
+      "ticker": "$CRWV",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079161533012328453#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-20T11:08:33+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -912,63 +948,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "מורגן סטנלי הערות על הערות אנליסט שבבי AI של $AAPL: \"בשבוע שעבר, The Information דיווח כי הביצועים של שבב השרת M2 Ultra AI של אפל 'מתקשים'...",
-      "summary_he": "",
-      "body_en": "Morgan Stanley Comments on $AAPL AI Chips Analyst comments: \"Last week, The Information reported that the performance of Apple's M2 Ultra AI server chip was 'struggling' and that Apple is on the looko",
-      "ticker": "$AAPL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079136312398172584#m",
-      "tag": "M&A",
-      "published_at": "2026-07-20T09:28:20+00:00",
-      "relative_time": "לפני 41ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "גולדמן זאקס משדרגת $URBN לקנייה מ-Neutral, מעלה את PT ל-93$ מ-$76 הערות אנליסטים: \"אנחנו משדרגים את המניות של URBN לקנייה מ-Neutral עם יעד מחיר של 12 חודשים...",
-      "summary_he": "",
-      "body_en": "Goldman Sachs Upgrades $URBN to Buy from Neutral, Raises PT to $93 from $76 Analyst comments: \"We upgrade shares of URBN to Buy from Neutral with a 12-month price target of $93. With Anthropologie bra",
-      "ticker": "$URBN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079134440148865025#m",
-      "tag": "BANKS",
-      "published_at": "2026-07-20T09:20:53+00:00",
-      "relative_time": "לפני 48ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "אם ההיסטוריה היא מדריך, יש עוד שבוע עד שהרווחים יתחילו להזיז את שוק המניות",
-      "summary_he": "",
-      "body_en": "If history is a guide, there’s still another week before earnings will start to move the stock market",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/if-history-is-a-guide-theres-still-another-week-before-earnings-will-start-to-move-the-stock-market-52baccad?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T09:18:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית Ryanair יורדת ב-6% בעקבות עלויות דלק גבוהות יותר על רקע רווחי המלחמה באיראן",
-      "summary_he": "",
-      "body_en": "Ryanair stock slides 6% as higher fuel costs amid Iran war dent profit",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/20/ryanair-q1-earnings-iran-war-summer-fares.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-20T09:05:04+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שוק הרכב בסין עומד לקראת השנה הגרועה ביותר מאז 2021 כאשר המכירות צוללות ב-20%",
-      "summary_he": "",
-      "body_en": "China's car market heads for worst year since 2021 as sales plunge 20%",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/20/china-automotive-car-worst-year-sales-fall-20percent.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-20T08:43:40+00:00",
-      "sentiment": "bearish"
-    },
-    {
       "title_he": "Domino's Pizza $DPZ מובילה את הרווחים של מחר, כאשר BOK Financial $BOKF, Crown $CCK, Steel Dynamics $STLD, W.R. Berkley $WRB ו-Zions Bancorp $ZION ידווחו לאחר...",
       "summary_he": "",
       "body_en": "Domino's Pizza $DPZ leads off tomorrow's earnings, with BOK Financial $BOKF, Crown $CCK, Steel Dynamics $STLD, W.R. Berkley $WRB, and Zions Bancorp $ZION reporting after the close.",
@@ -977,7 +956,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2078955664420790582#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T21:30:30+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -989,35 +968,55 @@
       "link": "https://nitter.net/garyblack00/status/2078873182879051938#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-19T16:02:45+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "RT מאת @StockSavvyShay: Wolfe Research רואה $NBIS מגיע ל-$30B בהכנסות ו-21B$ ב-EBITDA עד 2030, כשהעלייה מתחילה ב-4Q26 כאשר Vineland נכנסת לאינטרנט ופותחת...",
+      "title_he": "$RKLB - $67.62, נסוג חזרה ל-200d ma (קצת מתחת) בעקבות ירידה של 55%. המניה מפתה אבל היסודות העיקריים עדיין חסרים את הדרוש...",
       "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: Wolfe Research sees $NBIS reaching $30B in revenue and $21B in EBITDA by 2030 with the ramp beginning in 4Q26 as Vineland comes online and unlocks more contracted revenue. That ",
-      "ticker": "$NBIS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078851746793914489#m",
+      "body_en": "$RKLB - $67.62, has pulled back to the 200d ma (slightly below) following a 55% drop. The stock is tempting but the key fundamentals are still lacking the necessary support that I prefer to see (posit",
+      "ticker": "$RKLB",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2078821955839332644#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-19T14:37:34+00:00",
-      "relative_time": "לפני 19ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: מניות מוליכים למחצה לפי PEG RATIO PEG < 1 פירושו בדרך כלל PEG שגוי לצמיחה PEG > 2 מתחיל להידחף לאזור הסכנה. הנה איך הם מסתדרים: •...",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: SEMICONDUCTOR STOCKS BY PEG RATIO PEG < 1 usually means mispriced growth PEG > 2 starts to push into the danger zone Here’s how they stack up: • $LRCX ~2.3x • $ALAB ~2.1x • $INT",
-      "ticker": "$LRCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2078845605133324716#m",
-      "tag": "TECH",
-      "published_at": "2026-07-19T14:13:10+00:00",
-      "relative_time": "לפני 19ש׳",
-      "sentiment": "neutral"
+      "published_at": "2026-07-19T12:39:11+00:00",
+      "relative_time": "לפני 23ש׳",
+      "sentiment": "bearish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "רצח ימנו זלקה: הקטין הנאשם יישאר במעצר עד תום ההליכים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854912",
+      "tag": "כללי",
+      "published_at": "2026-07-20T14:31:00+00:00"
+    },
+    {
+      "title_he": "הכה את אשתו למוות עם בקבוק יין, השאיר את הגופה בדירה יומיים - וניסה לפגוע בעצמו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854898",
+      "tag": "כללי",
+      "published_at": "2026-07-20T13:48:00+00:00"
+    },
+    {
+      "title_he": "הוכרז כ\"סוחר סמים\": 13 חודשי מאסר לבעלה של יועצת השרה מאי גולן",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854889",
+      "tag": "כללי",
+      "published_at": "2026-07-20T13:20:00+00:00"
+    },
+    {
+      "title_he": "האלימות בחברה הערבית: מת מפצעיו רעד חזמיה שנפצע קשה באירוע ירי בחיפה באפריל",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3854877",
+      "tag": "כללי",
+      "published_at": "2026-07-20T12:54:00+00:00"
+    },
     {
       "title_he": "כדי למצוא קורבנות נוספות: ביהמ\"ש התיר את פרסום חדרו של אלון סויסה החשוד באונס קטינות",
       "summary_he": "",
@@ -1065,38 +1064,6 @@
       "link": "https://news.walla.co.il/item/3854775",
       "tag": "כללי",
       "published_at": "2026-07-20T08:25:00+00:00"
-    },
-    {
-      "title_he": "מכת הפשיעה נמשכת: רימון הלם הושלך סמוך לבניין מגורים ברמת השרון",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854768",
-      "tag": "כללי",
-      "published_at": "2026-07-20T07:33:00+00:00"
-    },
-    {
-      "title_he": "נקבע מותו של גבר בתאונת דרכים במחלף גלילות - פונו מספר פצועים בדרגות שונות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854754",
-      "tag": "כללי",
-      "published_at": "2026-07-20T03:54:00+00:00"
-    },
-    {
-      "title_he": "נקבע מותו של הולך רגל שנפגע מרכב בכביש 25",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854740",
-      "tag": "כללי",
-      "published_at": "2026-07-20T01:06:00+00:00"
-    },
-    {
-      "title_he": "הסערה בערד מחריפה: ראש העיר סוגר את ישיבות המועצה לקהל; האופוזיציה: \" זו דיקטטורה\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854696",
-      "tag": "כללי",
-      "published_at": "2026-07-19T20:09:00+00:00"
     }
   ],
   "track_record": {
