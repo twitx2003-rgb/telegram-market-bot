@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T03:55:58.634410+00:00",
+  "generated_at": "2026-07-21T06:28:03.868696+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -121,7 +121,7 @@
         "sma50": 303.43,
         "sma200": 274.58,
         "pct_from_52w_high": -2.5,
-        "vol_ratio": 0.88,
+        "vol_ratio": 0.89,
         "change_1d_pct": -2.14,
         "change_1w_pct": 2.9,
         "change_1m_pct": 10.4,
@@ -223,7 +223,7 @@
         "sma50": 318.69,
         "sma200": 309.88,
         "pct_from_52w_high": -3.5,
-        "vol_ratio": 1.15,
+        "vol_ratio": 1.17,
         "change_1d_pct": -0.65,
         "change_1w_pct": 1.3,
         "change_1m_pct": 1.6,
@@ -376,7 +376,7 @@
         "sma50": 251.63,
         "sma200": 234.21,
         "pct_from_52w_high": -10.3,
-        "vol_ratio": 0.75,
+        "vol_ratio": 0.76,
         "change_1d_pct": 1.12,
         "change_1w_pct": 1.1,
         "change_1m_pct": 5.3,
@@ -529,7 +529,7 @@
         "sma50": 33.82,
         "sma200": 30.16,
         "pct_from_52w_high": -17.0,
-        "vol_ratio": 0.78,
+        "vol_ratio": 0.79,
         "change_1d_pct": -3.22,
         "change_1w_pct": -3.7,
         "change_1m_pct": -4.8,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-21T03:55:58.634423+00:00",
+  "ta_generated_at": "2026-07-21T06:28:03.868707+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,047.2",
-      "change": "+0.78%",
+      "value": "$4,073.7",
+      "change": "+1.44%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.7794018775367845
+      "pct_raw": 1.4392788665056333
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.6",
-      "change": "-0.65%",
+      "value": "$88.4",
+      "change": "-0.93%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6500784577448984
+      "pct_raw": -0.9302846895314933
     },
     {
       "name": "ביטקוין",
-      "value": "$65,482",
-      "change": "+0.41%",
+      "value": "$65,759",
+      "change": "+0.84%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4100524398880805
+      "pct_raw": 0.8352212431121883
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.051",
-      "change": "-0.05%",
+      "value": "3.050",
+      "change": "-0.07%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.04913682969175015
+      "pct_raw": -0.07206735021457077
     }
   ],
   "sectors": [
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "החששות מאינפלציה חוזרים לאור הזרקורים מכיוון שהסכסוך במזרח התיכון שומר על מחירי הנפט גבוהים, אומרים אנליסטים",
+      "summary_he": "",
+      "body_en": "Inflation fears are back in the spotlight as the Middle East conflict keeps oil prices elevated, analysts say",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/21/inflation-fears-return-as-iran-war-keeps-oil-prices-high-analysts.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-21T04:01:09+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "קתי ווד קנתה ~21 מיליון דולר של SPCX ו~18 מיליון דולר של META היום.",
       "summary_he": "",
       "body_en": "Cathie Wood bought ~$21M of $SPCX and ~$18M of $META today.",
@@ -864,7 +875,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2079362395651396024#m",
       "tag": "TECH",
       "published_at": "2026-07-21T00:26:42+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +898,7 @@
       "link": "https://nitter.net/gurgavin/status/2079341466262949895#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T23:03:32+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,7 +921,7 @@
       "link": "https://nitter.net/gurgavin/status/2079323758771286219#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:53:10+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,7 +933,7 @@
       "link": "https://nitter.net/cperruna/status/2079320031591080017#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T21:38:22+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bearish"
     },
     {
@@ -934,7 +945,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2079317928525119998#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:30:00+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,7 +957,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2079316662130544878#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:24:58+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -958,7 +969,7 @@
       "link": "https://nitter.net/wallstengine/status/2079314463698845899#m",
       "tag": "TECH",
       "published_at": "2026-07-20T21:16:14+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -970,7 +981,7 @@
       "link": "https://nitter.net/gurgavin/status/2079311566676054411#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T21:04:43+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -982,19 +993,19 @@
       "link": "https://nitter.net/bespokeinvest/status/2079293994035564576#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T19:54:54+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מיזוג פרמאונט ואחים וורנר פגע בצו מניעה זמני",
+      "title_he": "ג'ים קריימר אומר שאולי הגיע הזמן לקצץ את מניות הקאמבק לאחר עלייה של 441%.",
       "summary_he": "",
-      "body_en": "Paramount and Warner Bros. merger hit with temporary restraining order",
+      "body_en": "Jim Cramer says it may be time to trim comeback stock after 441% surge",
       "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/20/paramount-wbd-merger-delay.html",
-      "tag": "M&A",
-      "published_at": "2026-07-20T19:20:38+00:00",
-      "sentiment": "neutral"
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-may-time-181700105.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-20T18:17:00+00:00",
+      "sentiment": "bullish"
     },
     {
       "title_he": "RT מאת @RyanDetrick: 🔥 @CNBCMorningCall Sheet פאנל היום! ☕ ⏰ @TheDomino להוביל שיחה מהנה ואינפורמטיבית עם @TFMkts, אדם קריסאפולי ואני. כיסינו…",
@@ -1005,23 +1016,19 @@
       "link": "https://nitter.net/RyanDetrick/status/2079216278783316115#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T14:46:05+00:00",
-      "relative_time": "לפני 13ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: $GOOGL מפתחת שבב בינה מלאכותית חדש בשם \"Frozen v2\" שיכול להריץ דגמי Gemini ביעילות כמעט פי 10 מה-TPU העדכניים ביותר שלו. השבב הוא…",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $GOOGL is developing a new AI chip called “Frozen v2” that could run Gemini models nearly 10x more efficiently than its latest TPUs. The chip is targeted for 2028 and would hard",
-      "ticker": "$GOOGL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2079192570257887391#m",
-      "tag": "TECH",
-      "published_at": "2026-07-20T13:11:52+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "הקורבנות השקטים של קמפיין הבחירות: \"הפוליטיקאים מבריחים אנשים מטיפול\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855001",
+      "tag": "כללי",
+      "published_at": "2026-07-21T08:55:00+00:00"
+    },
     {
       "title_he": "רחפנים ו-32 כלי נשק: צעיר מהנגב נאשם בהברחות מסיני",
       "summary_he": "",
@@ -1093,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3854986",
       "tag": "כללי",
       "published_at": "2026-07-20T19:40:00+00:00"
-    },
-    {
-      "title_he": "כתב אישום נגד 10 נאשמים: כך נוהלה אימפריית הימורים - מתוך הכלא",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854971",
-      "tag": "כללי",
-      "published_at": "2026-07-20T18:32:00+00:00"
     }
   ],
   "track_record": {
