@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T00:04:59.108055+00:00",
+  "generated_at": "2026-07-21T03:55:58.634410+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-21T00:04:59.108065+00:00",
+  "ta_generated_at": "2026-07-21T03:55:58.634423+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "-0.67%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.6680097371654609
+      "pct_raw": -0.6681137795302076
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,011.1",
-      "change": "-0.12%",
-      "direction": "down",
+      "value": "$4,047.2",
+      "change": "+0.78%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.11952488856794695
+      "pct_raw": 0.7794018775367845
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.0",
-      "change": "-0.25%",
+      "value": "$88.6",
+      "change": "-0.65%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.24658148397220225
+      "pct_raw": -0.6500784577448984
     },
     {
       "name": "ביטקוין",
-      "value": "$65,166",
-      "change": "+0.75%",
+      "value": "$65,482",
+      "change": "+0.41%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.7512651083646398
+      "pct_raw": 0.4100524398880805
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -756,7 +756,7 @@
       "change": "-0.05%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.045861041045641225
+      "pct_raw": -0.04913682969175015
     }
   ],
   "sectors": [
@@ -856,6 +856,29 @@
   },
   "us_news": [
     {
+      "title_he": "קתי ווד קנתה ~21 מיליון דולר של SPCX ו~18 מיליון דולר של META היום.",
+      "summary_he": "",
+      "body_en": "Cathie Wood bought ~$21M of $SPCX and ~$18M of $META today.",
+      "ticker": "$SPCX",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2079362395651396024#m",
+      "tag": "TECH",
+      "published_at": "2026-07-21T00:26:42+00:00",
+      "relative_time": "לפני 3ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ארה\"ב פוגעת בקנדה עם מכסים חדשים ונוקשים, המגבירים את המתיחות הסחרית",
+      "summary_he": "",
+      "body_en": "U.S. hits Canada with stiff new tariffs, escalating trade tensions",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/u-s-hits-canada-with-stiff-new-tariffs-escalating-trade-tensions-4a97065f?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-21T00:13:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "עונת הרווחים חזרה הודגשה אלה שאני צופה בהם השבוע $TSLA $GOOGL $INTC $CNI $NOW $NLY $BX",
       "summary_he": "",
       "body_en": "EARNINGS SEASON IS BACK HIGHLIGHTED THE ONES I AM WATCHING THIS WEEK $TSLA $GOOGL $INTC $CNI $NOW $NLY $BX",
@@ -864,19 +887,7 @@
       "link": "https://nitter.net/gurgavin/status/2079341466262949895#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T23:03:32+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: \"זוהי רשלנות מכוונת, והפיכתה למקרה שנתי, שעולה לארצות הברית מיליארדי דולרים, שעלות הזיהום הזה חייבת להיות...",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: “This is Willful Negligence, and becoming a yearly occurrence, costing the United States Billions of Dollars, which cost of this pollution must of necessity be added to the TARIF",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2079333277807358050#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-20T22:31:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,18 +910,7 @@
       "link": "https://nitter.net/gurgavin/status/2079323758771286219#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:53:10+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ארה\"ב פוגעת בקנדה עם מכסים חדשים ונוקשים, המגבירים את המתיחות הסחרית",
-      "summary_he": "",
-      "body_en": "U.S. hits Canada with stiff new tariffs, escalating trade tensions",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/u-s-hits-canada-with-stiff-new-tariffs-escalating-trade-tensions-4a97065f?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-20T21:53:00+00:00",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,7 +922,7 @@
       "link": "https://nitter.net/cperruna/status/2079320031591080017#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T21:38:22+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bearish"
     },
     {
@@ -934,7 +934,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2079317928525119998#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:30:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,7 +946,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2079316662130544878#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:24:58+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -958,7 +958,7 @@
       "link": "https://nitter.net/wallstengine/status/2079314463698845899#m",
       "tag": "TECH",
       "published_at": "2026-07-20T21:16:14+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -970,7 +970,7 @@
       "link": "https://nitter.net/gurgavin/status/2079311566676054411#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T21:04:43+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -982,7 +982,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2079293994035564576#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T19:54:54+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -997,31 +997,55 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "🔥 @CNBCMorningCall Sheet פאנל היום! ☕ ⏰ @TheDomino להוביל שיחה מהנה ואינפורמטיבית עם @TFMkts, אדם קריסאפולי ואני. כיסינו את הנפט/איראן, ה...",
+      "title_he": "RT מאת @RyanDetrick: 🔥 @CNBCMorningCall Sheet פאנל היום! ☕ ⏰ @TheDomino להוביל שיחה מהנה ואינפורמטיבית עם @TFMkts, אדם קריסאפולי ואני. כיסינו…",
       "summary_he": "",
-      "body_en": "🔥 @CNBCMorningCall Sheet panel today! ☕ ⏰ @TheDomino lead a fun and informative conversation with @TFMkts, Adam Crisafulli, and myself. We covered oil/Iran, the AI/memory collapse, earnings season so ",
+      "body_en": "RT by @RyanDetrick: 🔥 @CNBCMorningCall Sheet panel today! ☕ ⏰ @TheDomino lead a fun and informative conversation with @TFMkts, Adam Crisafulli, and myself. We covered oil/Iran, the AI/memory collapse,",
       "ticker": "",
       "source": "@RyanDetrick",
       "link": "https://nitter.net/RyanDetrick/status/2079216278783316115#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T14:46:05+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @wallstengine: $GOOGL מפתחת שבב AI חדש שיכול להריץ את דגמי Gemini ביעילות פי 6 עד 10 מה-TPUs העדכניים ביותר שלו. השבב, שנקרא באופן פנימי...",
+      "title_he": "RT מאת @StockSavvyShay: $GOOGL מפתחת שבב בינה מלאכותית חדש בשם \"Frozen v2\" שיכול להריץ דגמי Gemini ביעילות כמעט פי 10 מה-TPU העדכניים ביותר שלו. השבב הוא…",
       "summary_he": "",
-      "body_en": "RT by @wallstengine: $GOOGL is developing a new AI chip that could run Gemini models 6 to 10 times more efficiently than its latest TPUs. The chip, internally called “Frozen v2,” would bake parts of G",
+      "body_en": "RT by @StockSavvyShay: $GOOGL is developing a new AI chip called “Frozen v2” that could run Gemini models nearly 10x more efficiently than its latest TPUs. The chip is targeted for 2028 and would hard",
       "ticker": "$GOOGL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079190811829576075#m",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2079192570257887391#m",
       "tag": "TECH",
-      "published_at": "2026-07-20T13:04:53+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "bullish"
+      "published_at": "2026-07-20T13:11:52+00:00",
+      "relative_time": "לפני 14ש׳",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "רחפנים ו-32 כלי נשק: צעיר מהנגב נאשם בהברחות מסיני",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855037",
+      "tag": "כללי",
+      "published_at": "2026-07-21T06:00:00+00:00"
+    },
+    {
+      "title_he": "עם כדור בקנה: תושב אשדוד נעצר עם אקדח וסמים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855033",
+      "tag": "כללי",
+      "published_at": "2026-07-21T06:00:00+00:00"
+    },
+    {
+      "title_he": "סחט מינית נשים עם מידע ממערכות המשטרה: אישום נגד קצין התנועה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855029",
+      "tag": "כללי",
+      "published_at": "2026-07-21T06:00:00+00:00"
+    },
     {
       "title_he": "התנגשות בין משאית לשני כלי רכב בכביש 6: נער בן 17 נהרג",
       "summary_he": "",
@@ -1077,30 +1101,6 @@
       "link": "https://news.walla.co.il/item/3854971",
       "tag": "כללי",
       "published_at": "2026-07-20T18:32:00+00:00"
-    },
-    {
-      "title_he": "מרפסת קרסה בירושלים: גבר כבן 80 חולץ ללא רוח חיים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854956",
-      "tag": "כללי",
-      "published_at": "2026-07-20T17:36:00+00:00"
-    },
-    {
-      "title_he": "הורשע בהסתה לטרור - שיח' כמאל ח'טיב ירצה תשעה חודשי עבודות שירות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854963",
-      "tag": "כללי",
-      "published_at": "2026-07-20T17:28:00+00:00"
-    },
-    {
-      "title_he": "\"היא חסרת גבולות\": גרסת הסב החשוד בפגיעה מינית בנכדותיו",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854941",
-      "tag": "כללי",
-      "published_at": "2026-07-20T16:35:00+00:00"
     }
   ],
   "track_record": {
