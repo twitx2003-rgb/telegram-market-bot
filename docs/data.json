@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T06:28:03.868696+00:00",
+  "generated_at": "2026-07-21T09:11:49.050541+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-21T06:28:03.868707+00:00",
+  "ta_generated_at": "2026-07-21T09:11:49.050555+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "18.65",
-      "change": "-0.64%",
+      "value": "17.51",
+      "change": "-6.11%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.6393180607352211
+      "pct_raw": -6.112600536193014
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,073.7",
-      "change": "+1.44%",
+      "value": "$4,067.7",
+      "change": "+1.29%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.4392788665056333
+      "pct_raw": 1.2898727557957053
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.4",
-      "change": "-0.93%",
+      "value": "$88.8",
+      "change": "-0.52%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.9302846895314933
+      "pct_raw": -0.5155794664873277
     },
     {
       "name": "ביטקוין",
-      "value": "$65,759",
-      "change": "+0.84%",
+      "value": "$66,161",
+      "change": "+1.45%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.8352212431121883
+      "pct_raw": 1.4519897216089717
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,136",
-      "change": "-0.11%",
-      "direction": "down",
+      "value": "4,173",
+      "change": "+0.89%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.11182413420828534
+      "pct_raw": 0.8880990376710567
     },
     {
       "name": "דולר/שקל",
       "value": "3.050",
-      "change": "-0.07%",
+      "change": "-0.10%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.07206735021457077
+      "pct_raw": -0.10482523667573267
     }
   ],
   "sectors": [
@@ -856,14 +856,61 @@
   },
   "us_news": [
     {
-      "title_he": "החששות מאינפלציה חוזרים לאור הזרקורים מכיוון שהסכסוך במזרח התיכון שומר על מחירי הנפט גבוהים, אומרים אנליסטים",
+      "title_he": "מחירי הנפט עשויים לעלות על 120 דולר לחבית אם השיבושים במצר הורמוז לא יקלו, אומר גולדמן זאקס",
       "summary_he": "",
-      "body_en": "Inflation fears are back in the spotlight as the Middle East conflict keeps oil prices elevated, analysts say",
+      "body_en": "Oil prices could surpass $120 per barrel if disruptions in Strait of Hormuz don’t ease, says Goldman Sachs",
       "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/21/inflation-fears-return-as-iran-war-keeps-oil-prices-high-analysts.html",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/oil-prices-could-surpass-120-per-barrel-if-disruptions-in-strait-of-hormuz-dont-ease-says-goldman-sachs-047f8f88?mod=mw_rss_topstories",
+      "tag": "ENERGY",
+      "published_at": "2026-07-21T09:00:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מורגן סטנלי הוריד דירוג של $CRM ל-Equalweight מעודף משקל, מוריד את PT ל-$185 מ-$287 הערות אנליסטים: \"התוצאות האחרונות היו 'סיפור על שתי ערים' עבור...",
+      "summary_he": "",
+      "body_en": "Morgan Stanley Downgrades $CRM to Equalweight from Overweight, Lowers PT to $185 from $287 Analyst comments: \"Recent results have been a 'Tale of Two Cities' for Salesforce, as AI momentum remains off",
+      "ticker": "$CRM",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079488859373797737#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-21T04:01:09+00:00",
+      "published_at": "2026-07-21T08:49:13+00:00",
+      "relative_time": "לפני 21ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "שוק המניות היום: נאסד\"ק מובילה את החוזים העתידיים של דאו, S&P 500 בעליות כאשר מניות השבבים מתחדשות",
+      "summary_he": "",
+      "body_en": "Stock market today: Nasdaq leads Dow, S&P 500 futures higher as chip stocks revive",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-21-dow-sp-500-nasdaq-084631499.html",
+      "tag": "TECH",
+      "published_at": "2026-07-21T08:46:31+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ג'פריס הוריד דירוג של $DDOG לרכישה, מעלה את PT ל-$280 מ-$210 הערות אנליסטים: \"התזה שלנו שהחברה מוטלת בינה מלאכותית ומובילה בקטגוריות...",
+      "summary_he": "",
+      "body_en": "Jefferies Downgrades $DDOG to Hold from Buy, Raises PT to $280 from $210 Analyst comments: \"Our thesis that the company is an AI beneficiary and category leader has largely played out in 1H26, with sh",
+      "ticker": "$DDOG",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079487757282603062#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-21T08:44:51+00:00",
+      "relative_time": "לפני 26ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "דגשים ברווחים של NOVARTIS $NVS Q2'26 🔹 הכנסות: $14.41B (הערכה. $14.2B) 🟢; +3% YoY 🔹 EPS ליבה: $2.41 (הערכה. $2.2) ; שטוח YoY 🔹 Core Opera. מרווח: 41.2%; -100 bps YoY 🔹…",
+      "summary_he": "",
+      "body_en": "NOVARTIS $NVS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $14.41B (Est. $14.2B) 🟢; +3% YoY 🔹 Core EPS: $2.41 (Est. $2.2) 🟢; flat YoY 🔹 Core Oper. Margin: 41.2%; -100 bps YoY 🔹 FCF: $5.56B; -12% YoY Reaffirms",
+      "ticker": "$NVS",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079484008002715731#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-21T08:29:57+00:00",
+      "relative_time": "לפני 41ד׳",
       "sentiment": "neutral"
     },
     {
@@ -875,7 +922,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2079362395651396024#m",
       "tag": "TECH",
       "published_at": "2026-07-21T00:26:42+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,22 +945,11 @@
       "link": "https://nitter.net/gurgavin/status/2079341466262949895#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T23:03:32+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "טראמפ הטיל מכסים של 50% על סחורות קנדיות מסוימות בגלל אפליה סחר לכאורה",
-      "summary_he": "",
-      "body_en": "Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/20/trump-tariffs-canada-trade.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-20T22:13:57+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "נכון לעכשיו רק 5% ממניות SPACEX זמינים למסחר 20% מהמניות ייפתחו יומיים לאחר הרווחים ב-6 באוגוסט 10% נוספים יפתחו אם המניות יעלו על 175$ נוספים...",
+      "title_he": "נכון לעכשיו, רק 5% ממניות SPACEX זמינים למסחר. 20% מהמניות ייפתחו יומיים לאחר הרווחים ב-6 באוגוסט 10% נוספים יפתחו אם המניות יעלו על 175$ נוספים...",
       "summary_he": "",
       "body_en": "CURRENTLY ONLY 5% OF SPACEX SHARES ARE AVAILABLE TO BE TRADED 20% OF SHARES UNLOCK 2 DAYS AFTER EARNINGS AUG 6 ANOTHER 10% WILL UNLOCK IF SHARES ARE OVER $175 ADDITIONAL 7% UNLOCKS AROUND AUG 21 AND A",
       "ticker": "$SPCX",
@@ -921,11 +957,11 @@
       "link": "https://nitter.net/gurgavin/status/2079323758771286219#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:53:10+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$ELF - $79.65, נסגר מעל 200d ma בפעם הראשונה מאז נובמבר 2025. חזרתי לאיזון על בסיס העלויות שלי לאחר שלא הצלחתי לקצץ את המניות שלי בעקבות ה...",
+      "title_he": "$ELF - $79.65, נסגר מעל 200d ma בפעם הראשונה מאז נובמבר 2025. חזרתי לאיזון על בסיס העלויות שלי לאחר שלא הצלחתי לחתוך את המניות שלי בעקבות ה...",
       "summary_he": "",
       "body_en": "$ELF - $79.65, closes above the 200d ma for the 1st time since November 2025. I am back to break-even on my cost basis after failing to cut my shares following the large drop in November. Still a slop",
       "ticker": "$ELF",
@@ -933,7 +969,7 @@
       "link": "https://nitter.net/cperruna/status/2079320031591080017#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T21:38:22+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "bearish"
     },
     {
@@ -945,7 +981,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2079317928525119998#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:30:00+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -957,19 +993,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2079316662130544878#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:24:58+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Nvidia $NVDA חשפה נתח פסיבי של 9.3% ב-Nebius $NBIS, המייצג 22.26 מיליון מניות.",
-      "summary_he": "",
-      "body_en": "Nvidia $NVDA disclosed a 9.3% passive stake in Nebius $NBIS, representing 22.26 million shares.",
-      "ticker": "$NVDA",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079314463698845899#m",
-      "tag": "TECH",
-      "published_at": "2026-07-20T21:16:14+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -981,7 +1005,7 @@
       "link": "https://nitter.net/gurgavin/status/2079311566676054411#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T21:04:43+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     },
     {
@@ -993,36 +1017,45 @@
       "link": "https://nitter.net/bespokeinvest/status/2079293994035564576#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T19:54:54+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ג'ים קריימר אומר שאולי הגיע הזמן לקצץ את מניות הקאמבק לאחר עלייה של 441%.",
-      "summary_he": "",
-      "body_en": "Jim Cramer says it may be time to trim comeback stock after 441% surge",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-may-time-181700105.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-20T18:17:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "RT מאת @RyanDetrick: 🔥 @CNBCMorningCall Sheet פאנל היום! ☕ ⏰ @TheDomino להוביל שיחה מהנה ואינפורמטיבית עם @TFMkts, אדם קריסאפולי ואני. כיסינו…",
-      "summary_he": "",
-      "body_en": "RT by @RyanDetrick: 🔥 @CNBCMorningCall Sheet panel today! ☕ ⏰ @TheDomino lead a fun and informative conversation with @TFMkts, Adam Crisafulli, and myself. We covered oil/Iran, the AI/memory collapse,",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2079216278783316115#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T14:46:05+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
     {
-      "title_he": "הקורבנות השקטים של קמפיין הבחירות: \"הפוליטיקאים מבריחים אנשים מטיפול\"",
+      "title_he": "\"כל היהודים על הז** שלי\": השתולל, איים ותקף - כי לא נתנו לו למשוך מזומן",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855122",
+      "tag": "כללי",
+      "published_at": "2026-07-21T11:45:00+00:00"
+    },
+    {
+      "title_he": "מקורבי משפחת ג'רושי שנעצרו בגל הרימונים, שוחררו למעצר בית",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855111",
+      "tag": "כללי",
+      "published_at": "2026-07-21T10:47:00+00:00"
+    },
+    {
+      "title_he": "הפגנות החרדים מחוץ לכלא 10: האיש החזק בחסידות גור תועד בעימות פיזי",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855113",
+      "tag": "כללי",
+      "published_at": "2026-07-21T10:31:00+00:00"
+    },
+    {
+      "title_he": "נהג מונית חשוד שעקץ קשיש חולה דמנציה שאסף מאיכילוב ב-10,000 שקלים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855097",
+      "tag": "כללי",
+      "published_at": "2026-07-21T10:10:00+00:00"
+    },
+    {
+      "title_he": "אנוש למפלגות: הפסיקו להשתמש ב\"משוגע\" ו\"חולה נפש\" כעלבון",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3855001",
@@ -1068,38 +1101,6 @@
       "link": "https://news.walla.co.il/item/3855010",
       "tag": "כללי",
       "published_at": "2026-07-20T21:51:00+00:00"
-    },
-    {
-      "title_he": "בעקבות מעצר תלמיד ישיבה: קיצוניים התפרעו מול כלא 10 | תיעוד",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855009",
-      "tag": "כללי",
-      "published_at": "2026-07-20T21:44:00+00:00"
-    },
-    {
-      "title_he": "\"תוכיחו שזה הבית שלכם\": תושב רמת גן חזר לביתו ומצא גבר עירום במיטתו | תיעוד",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855008",
-      "tag": "כללי",
-      "published_at": "2026-07-20T21:16:00+00:00"
-    },
-    {
-      "title_he": "בת שמונה נורתה בצפון הארץ - מצבה קשה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854995",
-      "tag": "כללי",
-      "published_at": "2026-07-20T20:25:00+00:00"
-    },
-    {
-      "title_he": "מהטענה על \"100 אלף דולר לרצח\" ועד הכרעת המחוזי: סוף להליך בין ליברמן לכמיסה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3854986",
-      "tag": "כללי",
-      "published_at": "2026-07-20T19:40:00+00:00"
     }
   ],
   "track_record": {
