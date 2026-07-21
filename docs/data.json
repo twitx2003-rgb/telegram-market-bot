@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T22:59:49.981286+00:00",
+  "generated_at": "2026-07-21T00:04:59.108055+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-20T22:59:49.981298+00:00",
+  "ta_generated_at": "2026-07-21T00:04:59.108065+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,006.7",
-      "change": "-0.23%",
+      "value": "$4,011.1",
+      "change": "-0.12%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.22908936975522975
+      "pct_raw": -0.11952488856794695
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.1",
-      "change": "-0.11%",
+      "value": "$89.0",
+      "change": "-0.25%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.1120824927146316
+      "pct_raw": -0.24658148397220225
     },
     {
       "name": "ביטקוין",
-      "value": "$65,104",
-      "change": "+0.66%",
+      "value": "$65,166",
+      "change": "+0.75%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.6555171495215739
+      "pct_raw": 0.7512651083646398
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.053",
-      "change": "+0.45%",
-      "direction": "up",
+      "value": "3.051",
+      "change": "-0.05%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.4508358562590511
+      "pct_raw": -0.045861041045641225
     }
   ],
   "sectors": [
@@ -850,11 +850,23 @@
     }
   ],
   "fear_greed": {
-    "score": 29,
-    "rating": "פחד",
-    "rating_en": "fear"
+    "score": 25,
+    "rating": "פחד קיצוני",
+    "rating_en": "extreme fear"
   },
   "us_news": [
+    {
+      "title_he": "עונת הרווחים חזרה הודגשה אלה שאני צופה בהם השבוע $TSLA $GOOGL $INTC $CNI $NOW $NLY $BX",
+      "summary_he": "",
+      "body_en": "EARNINGS SEASON IS BACK HIGHLIGHTED THE ONES I AM WATCHING THIS WEEK $TSLA $GOOGL $INTC $CNI $NOW $NLY $BX",
+      "ticker": "$TSLA",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2079341466262949895#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-20T23:03:32+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
     {
       "title_he": "R ל-@unusual_whales: \"זוהי רשלנות מכוונת, והפיכתה למקרה שנתי, שעולה לארצות הברית מיליארדי דולרים, שעלות הזיהום הזה חייבת להיות...",
       "summary_he": "",
@@ -864,7 +876,7 @@
       "link": "https://nitter.net/unusual_whales/status/2079333277807358050#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T22:31:00+00:00",
-      "relative_time": "לפני 28ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +899,7 @@
       "link": "https://nitter.net/gurgavin/status/2079323758771286219#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:53:10+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,32 +922,8 @@
       "link": "https://nitter.net/cperruna/status/2079320031591080017#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T21:38:22+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "שופט קיבל חלקית את בקשתם של תריסר תובעים כלליים של המדינה להשהות זמנית את המיזוג של 110 מיליארד דולר של פרמאונט ואחים וורנר דיסקברי,...",
-      "summary_he": "",
-      "body_en": "A judge partially granted the request from a dozen state attorneys general to temporarily place the $110 billion merger of Paramount and Warner Bros. Discovery on hold, per the Verge",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2079319436662644854#m",
-      "tag": "M&A",
-      "published_at": "2026-07-20T21:36:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שובר: הנשיא טראמפ מטיל מכסים חדשים של 50% על סחורות קנדיות מסוימות, לפי CNN",
-      "summary_he": "",
-      "body_en": "BREAKING: President Trump is imposing new 50% tariffs on certain Canadian goods, per CNN",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2079318872470212736#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-20T21:33:45+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "לפני הפתיחה מחר, Charles Schwab $SCHW, Danaher $DHR ו-3M $MMM הן החברות הגדולות ביותר שדיווחו על רווחים ברבעון השני. ברוקרים אינטראקטיביים $IBKR, Chubb $CB, Capital…",
@@ -946,7 +934,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2079317928525119998#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:30:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -958,7 +946,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2079316662130544878#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T21:24:58+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -970,7 +958,7 @@
       "link": "https://nitter.net/wallstengine/status/2079314463698845899#m",
       "tag": "TECH",
       "published_at": "2026-07-20T21:16:14+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -982,44 +970,55 @@
       "link": "https://nitter.net/gurgavin/status/2079311566676054411#m",
       "tag": "NEWS",
       "published_at": "2026-07-20T21:04:43+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$IREN סיימה את היום בעלייה של כמעט 20%, מכיוון שהמחסור העולמי במחשוב בינה מלאכותית דוחף לקוחות לשלם מראש כמעט מחצית מעלות ה-GPU כדי להבטיח קיבולת לפני הפריסה. אירן…",
-      "summary_he": "",
-      "body_en": "$IREN ended the day up nearly 20% as the global shortage of AI compute pushes customers to prepay nearly half the GPU cost to secure capacity before deployment. IREN then provides the power, data cent",
-      "ticker": "$IREN",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2079307102884151695#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T20:46:59+00:00",
       "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "דגשים ברווחים של $CCK Q2'26 🔹 הכנסה: $3.67B (הערכה. $3.35B) ; +16% YoY 🔹 התאמה EPS: $2.49 (הערכה. $2.15) 🟢; +16% בשנה 🔹 נפחי קופסאות משקאות גלובליים: +5% מעלה את ה-FY26...",
+      "title_he": "Netflix $NFLX נמצאת על סף משיכה של 50% נוספת משיא כל הזמנים (-49.6%). זו תהיה הפעם השישית שהוא נחתך בחצי מאז שהוצג לציבור בתחילת...",
       "summary_he": "",
-      "body_en": "$CCK Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $3.67B (Est. $3.35B) 🟢; +16% YoY 🔹 Adj. EPS: $2.49 (Est. $2.15) 🟢; +16% YoY 🔹 Global Beverage Can Volumes: +5% Raises FY26 Guide: 🔹 Adj. EPS: $8.30-$8.50; rai",
-      "ticker": "$CCK",
+      "body_en": "Netflix $NFLX is on the cusp of another 50% drawdown from an all-time high (-49.6%). This would be the 6th time it has been cut in half since it went public in the early 2000s.",
+      "ticker": "$NFLX",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2079293994035564576#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-20T19:54:54+00:00",
+      "relative_time": "לפני 4ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מיזוג פרמאונט ואחים וורנר פגע בצו מניעה זמני",
+      "summary_he": "",
+      "body_en": "Paramount and Warner Bros. merger hit with temporary restraining order",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/20/paramount-wbd-merger-delay.html",
+      "tag": "M&A",
+      "published_at": "2026-07-20T19:20:38+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "🔥 @CNBCMorningCall Sheet פאנל היום! ☕ ⏰ @TheDomino להוביל שיחה מהנה ואינפורמטיבית עם @TFMkts, אדם קריסאפולי ואני. כיסינו את הנפט/איראן, ה...",
+      "summary_he": "",
+      "body_en": "🔥 @CNBCMorningCall Sheet panel today! ☕ ⏰ @TheDomino lead a fun and informative conversation with @TFMkts, Adam Crisafulli, and myself. We covered oil/Iran, the AI/memory collapse, earnings season so ",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2079216278783316115#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-20T14:46:05+00:00",
+      "relative_time": "לפני 9ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @wallstengine: $GOOGL מפתחת שבב AI חדש שיכול להריץ את דגמי Gemini ביעילות פי 6 עד 10 מה-TPUs העדכניים ביותר שלו. השבב, שנקרא באופן פנימי...",
+      "summary_he": "",
+      "body_en": "RT by @wallstengine: $GOOGL is developing a new AI chip that could run Gemini models 6 to 10 times more efficiently than its latest TPUs. The chip, internally called “Frozen v2,” would bake parts of G",
+      "ticker": "$GOOGL",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079301058770481168#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T20:22:58+00:00",
-      "relative_time": "לפני 2ש׳",
+      "link": "https://nitter.net/wallstengine/status/2079190811829576075#m",
+      "tag": "TECH",
+      "published_at": "2026-07-20T13:04:53+00:00",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "PARK AEROSPACE $PKE Q1'27 שירי רווחים 🔹 הכנסות: $18.312M (הערכה. $17.77M) 🟢; +19% YoY 🔹 EPS: $0.17 (הערכה. $0.16) 🟢; +70% YoY 🔹 רווחים נקיים: $3.533M; +70% שנה בשנה 🔹…",
-      "summary_he": "",
-      "body_en": "PARK AEROSPACE $PKE Q1’27 EARNINGS HIGHLIGHTS 🔹 Revenue: $18.312M (Est. $17.77M) 🟢; +19% YoY 🔹 EPS: $0.17 (Est. $0.16) 🟢; +70% YoY 🔹 Net Earnings: $3.533M; +70% YoY 🔹 Gross Margin: 34.8% 🔹 Adjusted EB",
-      "ticker": "$PKE",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079298474798145774#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T20:12:42+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
