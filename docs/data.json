@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T09:11:49.050541+00:00",
+  "generated_at": "2026-07-21T11:23:15.645813+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-21T09:11:49.050555+00:00",
+  "ta_generated_at": "2026-07-21T11:23:15.645827+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "17.51",
-      "change": "-6.11%",
+      "value": "17.74",
+      "change": "-4.88%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -6.112600536193014
+      "pct_raw": -4.879356568364612
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,067.7",
-      "change": "+1.29%",
+      "value": "$4,062.8",
+      "change": "+1.17%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.2898727557957053
+      "pct_raw": 1.1678577653826063
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.8",
-      "change": "-0.52%",
-      "direction": "down",
+      "value": "$90.3",
+      "change": "+1.19%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.5155794664873277
+      "pct_raw": 1.1880744227751652
     },
     {
       "name": "ביטקוין",
-      "value": "$66,161",
-      "change": "+1.45%",
+      "value": "$66,177",
+      "change": "+1.48%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.4519897216089717
+      "pct_raw": 1.4771683263947009
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,173",
-      "change": "+0.89%",
+      "value": "4,187",
+      "change": "+1.24%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.8880990376710567
+      "pct_raw": 1.2449828328255665
     },
     {
       "name": "דולר/שקל",
-      "value": "3.050",
-      "change": "-0.10%",
+      "value": "3.049",
+      "change": "-0.12%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.10482523667573267
+      "pct_raw": -0.12447996855242983
     }
   ],
   "sectors": [
@@ -856,27 +856,119 @@
   },
   "us_news": [
     {
-      "title_he": "מחירי הנפט עשויים לעלות על 120 דולר לחבית אם השיבושים במצר הורמוז לא יקלו, אומר גולדמן זאקס",
+      "title_he": "GM מנצחת את הרווחים, מעלה הנחיות על רקע תמחור רכב גמיש",
       "summary_he": "",
-      "body_en": "Oil prices could surpass $120 per barrel if disruptions in Strait of Hormuz don’t ease, says Goldman Sachs",
+      "body_en": "GM beats on earnings, raises guidance amid resilient vehicle pricing",
       "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/oil-prices-could-surpass-120-per-barrel-if-disruptions-in-strait-of-hormuz-dont-ease-says-goldman-sachs-047f8f88?mod=mw_rss_topstories",
-      "tag": "ENERGY",
-      "published_at": "2026-07-21T09:00:00+00:00",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-21T11:12:29+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "🇰🇷 קוספי סגרה את היום בירוק כשהמשקיעים שקלו שיא של יצוא תחילת יולי מול המשך ירידת המינוף הקמעונאי. הייצוא מותאם לימי עבודה זינק ב-62.9% בשנה...",
+      "summary_he": "",
+      "body_en": "🇰🇷 Kospi closed the day in the green as investors weighed record early-July exports against continued retail deleveraging. Working-day-adjusted exports surged 62.9% year over year, led by a 180.6% jum",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079523463723991491#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-21T11:06:44+00:00",
+      "relative_time": "לפני 15ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "נקודות השיא ברווחים של VICOR $VICR Q2'26 🔹 הכנסות: 143.4 מיליון דולר (הערכה של 138 מיליון דולר) 🟢; 26.9% QoQ 🔹 EPS: $1.04 (הערכה. $0.62) 🟢; +14% YoY 🔹 צבר הזמנות: 380 מיליון דולר; +145% מדדי רבעון 2 נוספים: 🔹…",
+      "summary_he": "",
+      "body_en": "VICOR $VICR Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $143.4M (Est. $138M) 🟢; 26.9% QoQ 🔹 EPS: $1.04 (Est. $0.62) 🟢; +14% YoY 🔹 Backlog: $380M; +145% YoY Other Q2 Metrics: 🔹 Gross Margin: 58.0%; -730 bps Y",
+      "ticker": "$VICR",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079522742735708247#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-21T11:03:52+00:00",
+      "relative_time": "לפני 18ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מורגן סטנלי הוריד דירוג של $CRM ל-Equalweight מעודף משקל, מוריד את PT ל-$185 מ-$287 הערות אנליסטים: \"התוצאות האחרונות היו 'סיפור על שתי ערים' עבור...",
+      "title_he": "הקפיצה של טסלה במכירות מגיעה עם הימורי Optimus, Robotaxi דורשים יותר מזומן: תצוגה מקדימה של הרווחים ברבעון השני",
       "summary_he": "",
-      "body_en": "Morgan Stanley Downgrades $CRM to Equalweight from Overweight, Lowers PT to $185 from $287 Analyst comments: \"Recent results have been a 'Tale of Two Cities' for Salesforce, as AI momentum remains off",
-      "ticker": "$CRM",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079488859373797737#m",
+      "body_en": "Tesla's jump in sales comes as Optimus, Robotaxi bets require more cash: Q2 earnings preview",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/article/teslas-jump-in-sales-comes-as-optimus-robotaxi-bets-require-more-cash-q2-earnings-preview-110300122.html",
       "tag": "EARNINGS",
-      "published_at": "2026-07-21T08:49:13+00:00",
+      "published_at": "2026-07-21T11:03:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מנכ\"ל $JPM, ג'יימי דימון: \"גם אם האינפלציה הייתה 2%, האג\"ח ל-10 שנים כנראה אמורה להיות ב-4.5% - 4% עד 4.5% - והריבית השורט צריכה להיות 3.3%... והם כמעט...",
+      "summary_he": "",
+      "body_en": "$JPM CEO Jamie Dimon: “Even if inflation was 2%, the 10-year bond should probably be at 4.5% — 4% to 4.5% — and the short rate should be at 3.3%... And they’re almost there today. So I don’t understan",
+      "ticker": "$JPM",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079522025744593001#m",
+      "tag": "MACRO",
+      "published_at": "2026-07-21T11:01:01+00:00",
       "relative_time": "לפני 21ד׳",
-      "sentiment": "bearish"
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אלפבית האם של גוגל תדווח על רווחים ברבעון השני במבחן האחרון של סחר בבינה מלאכותית",
+      "summary_he": "",
+      "body_en": "Google parent Alphabet to report Q2 earnings in latest test of AI trade",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/article/google-parent-alphabet-to-report-q2-earnings-in-latest-test-of-ai-trade-110000124.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-21T11:00:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Needham על $IREN: בשיחה שלנו עם החברה, IREN ציינה שהביקוש ממכשירי היפר-scalers, ארגונים ומעבדות גבול ממשיך לחרוג מהזמין והמתוכנן...",
+      "summary_he": "",
+      "body_en": "Needham on $IREN: In our call with the company, IREN indicated that demand from hyperscalers, enterprises, and frontier labs continues to exceed available and planned capacity. The key point is that c",
+      "ticker": "$IREN",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079519256975413396#m",
+      "tag": "M&A",
+      "published_at": "2026-07-21T10:50:01+00:00",
+      "relative_time": "לפני 32ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "HASBRO $HAS Q2'26 שירי רווחים 🔹 הכנסות: $1.14B (הערכה. $1.06B) 🟢; +16% YoY 🔹 התאמה EPS: $1.28 (הערכה. $1.13) 🟢 🔹 התאמה רווח תפעולי: 282 מיליון דולר; +14% YoY 🔹 קסם…",
+      "summary_he": "",
+      "body_en": "HASBRO $HAS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.14B (Est. $1.06B) 🟢; +16% YoY 🔹 Adj. EPS: $1.28 (Est. $1.13) 🟢 🔹 Adj. Operating Profit: $282M; +14% YoY 🔹 Magic Revenue: >$500M for the first time; ",
+      "ticker": "$HAS",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079518270290612423#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-21T10:46:05+00:00",
+      "relative_time": "לפני 36ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "הצעת בוקר: תעריף חוזר",
+      "summary_he": "",
+      "body_en": "Morning Bid: Tariff reprise",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/news/morning-bid-tariff-reprise-103611459.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-21T10:39:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניית נביוס זינקה כאשר Nvidia חושפת 9.3% ממניות neocloud",
+      "summary_he": "",
+      "body_en": "Nebius stock surges as Nvidia discloses 9.3% stake in neocloud",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html",
+      "tag": "TECH",
+      "published_at": "2026-07-21T10:20:13+00:00",
+      "sentiment": "bullish"
     },
     {
       "title_he": "שוק המניות היום: נאסד\"ק מובילה את החוזים העתידיים של דאו, S&P 500 בעליות כאשר מניות השבבים מתחדשות",
@@ -890,30 +982,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "ג'פריס הוריד דירוג של $DDOG לרכישה, מעלה את PT ל-$280 מ-$210 הערות אנליסטים: \"התזה שלנו שהחברה מוטלת בינה מלאכותית ומובילה בקטגוריות...",
-      "summary_he": "",
-      "body_en": "Jefferies Downgrades $DDOG to Hold from Buy, Raises PT to $280 from $210 Analyst comments: \"Our thesis that the company is an AI beneficiary and category leader has largely played out in 1H26, with sh",
-      "ticker": "$DDOG",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079487757282603062#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-21T08:44:51+00:00",
-      "relative_time": "לפני 26ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "דגשים ברווחים של NOVARTIS $NVS Q2'26 🔹 הכנסות: $14.41B (הערכה. $14.2B) 🟢; +3% YoY 🔹 EPS ליבה: $2.41 (הערכה. $2.2) ; שטוח YoY 🔹 Core Opera. מרווח: 41.2%; -100 bps YoY 🔹…",
-      "summary_he": "",
-      "body_en": "NOVARTIS $NVS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $14.41B (Est. $14.2B) 🟢; +3% YoY 🔹 Core EPS: $2.41 (Est. $2.2) 🟢; flat YoY 🔹 Core Oper. Margin: 41.2%; -100 bps YoY 🔹 FCF: $5.56B; -12% YoY Reaffirms",
-      "ticker": "$NVS",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079484008002715731#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-21T08:29:57+00:00",
-      "relative_time": "לפני 41ד׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "קתי ווד קנתה ~21 מיליון דולר של SPCX ו~18 מיליון דולר של META היום.",
       "summary_he": "",
       "body_en": "Cathie Wood bought ~$21M of $SPCX and ~$18M of $META today.",
@@ -922,18 +990,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2079362395651396024#m",
       "tag": "TECH",
       "published_at": "2026-07-21T00:26:42+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ארה\"ב פוגעת בקנדה עם מכסים חדשים ונוקשים, המגבירים את המתיחות הסחרית",
-      "summary_he": "",
-      "body_en": "U.S. hits Canada with stiff new tariffs, escalating trade tensions",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/u-s-hits-canada-with-stiff-new-tariffs-escalating-trade-tensions-4a97065f?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-21T00:13:00+00:00",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -945,83 +1002,46 @@
       "link": "https://nitter.net/gurgavin/status/2079341466262949895#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-20T23:03:32+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "נכון לעכשיו, רק 5% ממניות SPACEX זמינים למסחר. 20% מהמניות ייפתחו יומיים לאחר הרווחים ב-6 באוגוסט 10% נוספים יפתחו אם המניות יעלו על 175$ נוספים...",
-      "summary_he": "",
-      "body_en": "CURRENTLY ONLY 5% OF SPACEX SHARES ARE AVAILABLE TO BE TRADED 20% OF SHARES UNLOCK 2 DAYS AFTER EARNINGS AUG 6 ANOTHER 10% WILL UNLOCK IF SHARES ARE OVER $175 ADDITIONAL 7% UNLOCKS AROUND AUG 21 AND A",
-      "ticker": "$SPCX",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2079323758771286219#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T21:53:10+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$ELF - $79.65, נסגר מעל 200d ma בפעם הראשונה מאז נובמבר 2025. חזרתי לאיזון על בסיס העלויות שלי לאחר שלא הצלחתי לחתוך את המניות שלי בעקבות ה...",
-      "summary_he": "",
-      "body_en": "$ELF - $79.65, closes above the 200d ma for the 1st time since November 2025. I am back to break-even on my cost basis after failing to cut my shares following the large drop in November. Still a slop",
-      "ticker": "$ELF",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2079320031591080017#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-20T21:38:22+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "לפני הפתיחה מחר, Charles Schwab $SCHW, Danaher $DHR ו-3M $MMM הן החברות הגדולות ביותר שדיווחו על רווחים ברבעון השני. ברוקרים אינטראקטיביים $IBKR, Chubb $CB, Capital…",
-      "summary_he": "",
-      "body_en": "Before the open tomorrow, Charles Schwab $SCHW, Danaher $DHR, and 3M $MMM are the largest companies to report Q2 earnings. Interactive Brokers $IBKR, Chubb $CB, Capital One $COF, and Alaska Air $ALK w",
-      "ticker": "$SCHW",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2079317928525119998#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T21:30:00+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "קרא את סיכומי שיחת הועידה שלנו עבור חברות מפתח שדיווחו על רווחים ברבעון השני בשבוע שעבר, כולל Cintas $CTAS, United Airlines $UAL ו-ASML $ASML ב...",
-      "summary_he": "",
-      "body_en": "Read our Conference Call Recaps for key companies that reported Q2 earnings last week, including Cintas $CTAS, United Airlines $UAL, and ASML $ASML at https://www.bespokepremium.com/interactive/resear",
-      "ticker": "$CTAS",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2079316662130544878#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T21:24:58+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "רק ב: ארה\"ב להטיל תעריף נוסף של 50% על מוצרים קנדיים מסוימים החל מה-19 באוגוסט",
-      "summary_he": "",
-      "body_en": "JUST IN : US TO IMPOSE AN ADDITIONAL 50% TARIFF ON CERTAIN CANADIAN PRODUCTS STARTING AUG 19",
-      "ticker": "",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2079311566676054411#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-20T21:04:43+00:00",
       "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Netflix $NFLX נמצאת על סף משיכה של 50% נוספת משיא כל הזמנים (-49.6%). זו תהיה הפעם השישית שהוא נחתך בחצי מאז שהוצג לציבור בתחילת...",
+      "title_he": "טראמפ הטיל מכסים של 50% על סחורות קנדיות מסוימות בגלל אפליה סחר לכאורה",
       "summary_he": "",
-      "body_en": "Netflix $NFLX is on the cusp of another 50% drawdown from an all-time high (-49.6%). This would be the 6th time it has been cut in half since it went public in the early 2000s.",
-      "ticker": "$NFLX",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2079293994035564576#m",
+      "body_en": "Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/20/trump-tariffs-canada-trade.html",
       "tag": "NEWS",
-      "published_at": "2026-07-20T19:54:54+00:00",
-      "relative_time": "לפני 13ש׳",
+      "published_at": "2026-07-20T22:13:57+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "פרצה לדיור מוגן, גנבה טלפונים וכסף מזומן מניצולי שואה - ונעצרה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855173",
+      "tag": "כללי",
+      "published_at": "2026-07-21T13:07:00+00:00"
+    },
+    {
+      "title_he": "\"עשו בנו לינץ\": חייל מילואים משחזר כיצד הותקף בהפגנת חרדים | תיעוד",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855163",
+      "tag": "כללי",
+      "published_at": "2026-07-21T12:49:00+00:00"
+    },
+    {
+      "title_he": "פרקו משטח גבס ממשאית, המלגזה התהפכה - והרגה עובר אורח בנתניה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855152",
+      "tag": "כללי",
+      "published_at": "2026-07-21T12:25:00+00:00"
+    },
     {
       "title_he": "\"כל היהודים על הז** שלי\": השתולל, איים ותקף - כי לא נתנו לו למשוך מזומן",
       "summary_he": "",
@@ -1077,30 +1097,6 @@
       "link": "https://news.walla.co.il/item/3855033",
       "tag": "כללי",
       "published_at": "2026-07-21T06:00:00+00:00"
-    },
-    {
-      "title_he": "סחט מינית נשים עם מידע ממערכות המשטרה: אישום נגד קצין התנועה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855029",
-      "tag": "כללי",
-      "published_at": "2026-07-21T06:00:00+00:00"
-    },
-    {
-      "title_he": "התנגשות בין משאית לשני כלי רכב בכביש 6: נער בן 17 נהרג",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855028",
-      "tag": "כללי",
-      "published_at": "2026-07-21T00:47:00+00:00"
-    },
-    {
-      "title_he": "דניאל ברהנו עצר לעזור לנפגעי תאונה בכביש 4 - ונהרג בעצמו: כך התרחשה הטרגדיה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855010",
-      "tag": "כללי",
-      "published_at": "2026-07-20T21:51:00+00:00"
     }
   ],
   "track_record": {
