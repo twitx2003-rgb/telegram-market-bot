@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T01:00:26.649878+00:00",
+  "generated_at": "2026-07-22T04:25:31.557732+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -172,7 +172,7 @@
         "sma50": 605.73,
         "sma200": 639.7,
         "pct_from_52w_high": -19.1,
-        "vol_ratio": 1.07,
+        "vol_ratio": 1.08,
         "change_1d_pct": -0.32,
         "change_1w_pct": -2.6,
         "change_1m_pct": 11.5,
@@ -223,7 +223,7 @@
         "sma50": 319.47,
         "sma200": 310.06,
         "pct_from_52w_high": -1.7,
-        "vol_ratio": 1.16,
+        "vol_ratio": 1.17,
         "change_1d_pct": 1.88,
         "change_1w_pct": 0.7,
         "change_1m_pct": 6.2,
@@ -376,7 +376,7 @@
         "sma50": 503.45,
         "sma200": 300.3,
         "pct_from_52w_high": -6.9,
-        "vol_ratio": 0.71,
+        "vol_ratio": 0.72,
         "change_1d_pct": 8.11,
         "change_1w_pct": -0.7,
         "change_1m_pct": 1.3,
@@ -427,7 +427,7 @@
         "sma50": 368.65,
         "sma200": 322.71,
         "pct_from_52w_high": -15.0,
-        "vol_ratio": 0.77,
+        "vol_ratio": 0.78,
         "change_1d_pct": -1.38,
         "change_1w_pct": -3.4,
         "change_1m_pct": -5.7,
@@ -529,7 +529,7 @@
         "sma50": 33.73,
         "sma200": 30.22,
         "pct_from_52w_high": -16.1,
-        "vol_ratio": 0.77,
+        "vol_ratio": 0.78,
         "change_1d_pct": 1.13,
         "change_1w_pct": -1.5,
         "change_1m_pct": -0.4,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-22T01:00:26.649890+00:00",
+  "ta_generated_at": "2026-07-22T04:25:31.557743+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "+1.53%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.5281895973442947
+      "pct_raw": 1.5281586987625924
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,101.2",
-      "change": "+0.61%",
+      "value": "$4,131.9",
+      "change": "+1.36%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.6083799430870309
+      "pct_raw": 1.3614954371504155
     },
     {
       "name": "נפט ברנט",
-      "value": "$91.5",
-      "change": "+0.56%",
+      "value": "$92.2",
+      "change": "+1.33%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5603779804416997
+      "pct_raw": 1.3295242281067945
     },
     {
       "name": "ביטקוין",
-      "value": "$66,593",
-      "change": "+0.13%",
-      "direction": "up",
+      "value": "$66,337",
+      "change": "-0.26%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.12699058035417893
+      "pct_raw": -0.2585219084311646
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.043",
-      "change": "-0.04%",
-      "direction": "down",
+      "value": "3.051",
+      "change": "+0.23%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.04270275597016177
+      "pct_raw": 0.2266530893801646
     }
   ],
   "sectors": [
@@ -856,6 +856,40 @@
   },
   "us_news": [
     {
+      "title_he": "מניות Wistron זינקו בטייוואן לאחר פתיחת מפעל הסופר-שבב של טקסס AI שיספק את Nvidia",
+      "summary_he": "",
+      "body_en": "Wistron shares surge in Taiwan after opening of Texas AI superchip plant to supply Nvidia",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/22/wistron-shares-surge-after-opening-texas-plant-for-nvidia-ai-servers-.html",
+      "tag": "TECH",
+      "published_at": "2026-07-22T04:10:57+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "טראמפ מתכנן מכסים גבוהים על תרופות גנריות החל מ-2028 כדי לדרבן את הייצור בארה\"ב",
+      "summary_he": "",
+      "body_en": "Trump plans steep tariffs on generic drugs starting in 2028 to spur U.S. production",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-22T01:17:37+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "SK HYNIX: לא מחפשת רכישה של מפעל אוהיו; CONTINUES TO REVIEW VARIOUS INVESTMENT, M&A OPPORTUNITIES",
+      "summary_he": "",
+      "body_en": "SK HYNIX: NOT SEEKING ACQUISITION OF OHIO PLANT; CONTINUES TO REVIEW VARIOUS INVESTMENT, M&A OPPORTUNITIES",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079731466364440962#m",
+      "tag": "M&A",
+      "published_at": "2026-07-22T00:53:15+00:00",
+      "relative_time": "לפני 3ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מניית סופר מיקרו מזנקת כאשר השוליים שלה מוכפלים באופן בלתי צפוי",
       "summary_he": "",
       "body_en": "Super Micro’s stock soars as its margins unexpectedly double",
@@ -875,7 +909,7 @@
       "link": "https://nitter.net/wallstengine/status/2079724247489065101#m",
       "tag": "NEWS",
       "published_at": "2026-07-22T00:24:34+00:00",
-      "relative_time": "לפני 35ד׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bullish"
     },
     {
@@ -887,11 +921,11 @@
       "link": "https://nitter.net/wallstengine/status/2079717960109986173#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-21T23:59:35+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אינטל $INTC טוענת שהיא נשארת מחויבת להשקעה בקמפוס לייצור השבבים שלה באוהיו, בעוד ש-SK hynix $SKHY הכחישה שהיא מתכננת לרכוש את המתקן. - Bloomberg",
+      "title_he": "אינטל $INTC טוענת שהיא נשארת מחויבת להשקעה בקמפוס לייצור השבבים שלה באוהיו, בעוד ש-SK hynix $SKHY הכחישה שהיא מתכננת לרכוש את המתקן. - בלומברג",
       "summary_he": "",
       "body_en": "Intel $INTC says it remains committed to investing in its Ohio chipmaking campus, while SK hynix $SKHY denied having any plans to acquire the facility. - Bloomberg",
       "ticker": "$INTC",
@@ -899,43 +933,7 @@
       "link": "https://nitter.net/wallstengine/status/2079714458042262007#m",
       "tag": "M&A",
       "published_at": "2026-07-21T23:45:40+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שובר: טראמפ אומר שארה\"ב תטיל מכס של 100% על תרופות גנריות מיובאות החל מאוגוסט 2028, שיעלה ל-200% באוגוסט 2029.",
-      "summary_he": "",
-      "body_en": "BREAKING: Trump says the US will impose a 100% tariff on imported generic drugs beginning in August 2028, rising to 200% in August 2029.",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2079709859461906907#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-21T23:27:24+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ מעלה את תעריפי התרופות הגנריות טראמפ הודיע ​​כי יבוא תרופות גנריות יעמוד בתעריף של 0% מה-1 באוגוסט 2026 למשך שנתיים, שיעלה ל-100% למשך שנה אחת ו...",
-      "summary_he": "",
-      "body_en": "TRUMP ESCALATES GENERIC DRUG TARIFFS Trump announced that generic drug imports will face a 0% tariff from 1 August 2026 for two years, rising to 100% for one year and 200% thereafter. The measure aims",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2079709091514220796#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-21T23:24:21+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ יקבע 100% תעריף על תרופות גנריות מאוגוסט 2028",
-      "summary_he": "",
-      "body_en": "TRUMP TO SET 100% TARIFF ON GENERIC DRUGS FROM AUGUST 2028",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079708892121153868#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-21T23:23:33+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -947,11 +945,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2079704462512521255#m",
       "tag": "M&A",
       "published_at": "2026-07-21T23:05:57+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "סופר מיקרו זינקה ב-15% על הזמנות חדשות וחשיפת מרווחים לאחר הכרזת SpaceX",
+      "title_he": "סופר מיקרו מזנקת ב-15% על הזמנות חדשות וחשיפת מרווחים לאחר הכרזת SpaceX",
       "summary_he": "",
       "body_en": "Super Micro surges 15% on new order and margin disclosure after SpaceX announcement",
       "ticker": "",
@@ -960,30 +958,6 @@
       "tag": "NEWS",
       "published_at": "2026-07-21T22:10:56+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "ברגע שאתה באמת מבין את המשחק הסופי של אילון, מיזוג TESLA/SPACEX אינו שאלה של אם זה מתי זה יקרה $TSLA $SPCX",
-      "summary_he": "",
-      "body_en": "ONCE YOU ACTUALLY UNDERSTAND ELON’S ENDGAME, A TESLA/SPACEX MERGER ISN’T A QUESTION OF IF IT’S WHEN IS IT GONNA HAPPEN $TSLA $SPCX",
-      "ticker": "$TSLA",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2079682830893019309#m",
-      "tag": "M&A",
-      "published_at": "2026-07-21T21:40:00+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @RyanDetrick: הטכנולוגיה עלתה על ה-S&P 500 בכמעט 2 נקודות אחוז היום. טק השיגה ביצועים טובים יותר מ-S&P 500 ב-80 מתוך 137 ימי המסחר עד כה השנה,...",
-      "summary_he": "",
-      "body_en": "RT by @RyanDetrick: Tech outperformed the S&P 500 by nearly 2 percentage points today. Tech has outperformed the S&P 500 on 80 of the 137 trading days so far this year, per Dow Jones Market Data.",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/_JoshSchafer/status/2079671883063001496#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-21T20:56:30+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "גולדמן זאקס יוצרת פלטפורמת שווקים פרטיים כאשר משקיעים עשירים מחפשים את SpaceX ו-Stripe הבאים",
@@ -997,27 +971,48 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "הנפקות ביוטכנולוגיה בולטות השנה... ההנפקה הממוצעת בארה\"ב ירדה עד היום",
+      "title_he": "עזוב את Nvidia. 5 מניות ה-S&P 500 הללו עוברות בשקט הכל על AI.",
       "summary_he": "",
-      "body_en": "Biotech IPOs standing out this year... the average US IPO is down YTD",
+      "body_en": "Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.",
       "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2079665705062891920#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-21T20:31:57+00:00",
-      "relative_time": "לפני 4ש׳",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/forget-nvidia-these-5-s-p-500-stocks-are-quietly-going-all-in-on-ai-68642f84?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-07-21T20:09:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @RyanDetrick: הרווחים של הרבעון השני נפתחו חזק. עם 10% ממדד S&P 500, הצמיחה המשולבת מגיעה ל-24.7%, כבר לפני האנליסטים הצפויים של 23.2%...",
+      "title_he": "טוב אמרו @DillonLoomis. המציאות היא ש-$TSLA (-15% YTD) השיגה ביצועים נמוכים גם של $GM (-2% YTD) ו-$F (+9% YTD), בעיקר בגלל שהנהלת TSLA ממשיכה להבטיח יתר על המידה...",
       "summary_he": "",
-      "body_en": "RT by @RyanDetrick: Q2 earnings are off to a strong start. With 10% of the S&P 500 in, blended growth is running 24.7%, already ahead of the 23.2% analysts expected coming into the quarter. And the ba",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/CarsonResearch/status/2079665262807163222#m",
+      "body_en": "Well said @DillonLoomis. The reality is $TSLA (-15% YTD) has underperformed both $GM (-2% YTD) and $F (+9% YTD), largely because TSLA management continues to overpromise and underdeliver. Does anyone ",
+      "ticker": "$TSLA",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2079616868763992126#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-21T20:30:11+00:00",
-      "relative_time": "לפני 4ש׳",
+      "published_at": "2026-07-21T17:17:53+00:00",
+      "relative_time": "לפני 11ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מנכ\"ל בנק אוף אמריקה מזהיר שהאינפלציה תחזיר את הפד לפינה",
+      "summary_he": "",
+      "body_en": "Bank of America CEO warns inflation will back Fed into a corner",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/economy/articles/bank-america-ceo-sobering-verdict-033300805.html",
+      "tag": "FED",
+      "published_at": "2026-07-21T03:33:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מזהב לביטקוין: כיצד בורסות קריפטו מעצבות מחדש את השקעות המאקרו העולמיות",
+      "summary_he": "",
+      "body_en": "From Gold to Bitcoin: How Crypto Exchanges Are Reshaping Global Macro Investing",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/gold-bitcoin-crypto-exchanges-reshaping-163952001.html",
+      "tag": "CRYPTO",
+      "published_at": "2026-07-20T16:39:52+00:00",
       "sentiment": "neutral"
     }
   ],
