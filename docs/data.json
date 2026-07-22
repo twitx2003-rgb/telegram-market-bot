@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T23:30:20.993011+00:00",
+  "generated_at": "2026-07-22T01:00:26.649878+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-21T23:30:20.993020+00:00",
+  "ta_generated_at": "2026-07-22T01:00:26.649890+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,086.8",
-      "change": "+0.26%",
+      "value": "$4,101.2",
+      "change": "+0.61%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.2551270729074696
+      "pct_raw": 0.6083799430870309
     },
     {
       "name": "נפט ברנט",
-      "value": "$91.6",
-      "change": "+0.60%",
+      "value": "$91.5",
+      "change": "+0.56%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.6043291945939975
+      "pct_raw": 0.5603779804416997
     },
     {
       "name": "ביטקוין",
-      "value": "$66,347",
-      "change": "+1.74%",
+      "value": "$66,593",
+      "change": "+0.13%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.7370814513144077
+      "pct_raw": 0.12699058035417893
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.045",
-      "change": "+0.03%",
-      "direction": "up",
+      "value": "3.043",
+      "change": "-0.04%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.032848273823221565
+      "pct_raw": -0.04270275597016177
     }
   ],
   "sectors": [
@@ -850,11 +850,94 @@
     }
   ],
   "fear_greed": {
-    "score": 25,
-    "rating": "פחד קיצוני",
-    "rating_en": "extreme fear"
+    "score": 33,
+    "rating": "פחד",
+    "rating_en": "fear"
   },
   "us_news": [
+    {
+      "title_he": "מניית סופר מיקרו מזנקת כאשר השוליים שלה מוכפלים באופן בלתי צפוי",
+      "summary_he": "",
+      "body_en": "Super Micro’s stock soars as its margins unexpectedly double",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/super-micros-stock-soars-as-its-margins-unexpectedly-double-8aa83784?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-22T00:33:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "היצוא של 🇯🇵 של יפן עלה ב-19.3% בהשוואה לשנה ביוני, הקצב המהיר ביותר מאז נובמבר 2022 ומעל לציפיות, בהובלת עלייה של 53.8% במשלוחי מוליכים למחצה.",
+      "summary_he": "",
+      "body_en": "Japan’s 🇯🇵 exports rose 19.3% year over year in June, the fastest pace since November 2022 and above expectations, led by a 53.8% surge in semiconductor shipments.",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079724247489065101#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-22T00:24:34+00:00",
+      "relative_time": "לפני 35ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "לוח הרווחים של מחר עמוס: $GOOGL $TSLA $IBM $NOW אפרסם את דגשים הרווחים ברגע שהם ישוחררו ואכסה גם את שיחת הרווחים של כל חברה.…",
+      "summary_he": "",
+      "body_en": "Tomorrow’s earnings slate is packed: $GOOGL $TSLA $IBM $NOW I’ll post the earnings highlights as soon as they’re released and cover each company’s earnings call as well. Share this with anyone trackin",
+      "ticker": "$GOOGL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079717960109986173#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-21T23:59:35+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אינטל $INTC טוענת שהיא נשארת מחויבת להשקעה בקמפוס לייצור השבבים שלה באוהיו, בעוד ש-SK hynix $SKHY הכחישה שהיא מתכננת לרכוש את המתקן. - Bloomberg",
+      "summary_he": "",
+      "body_en": "Intel $INTC says it remains committed to investing in its Ohio chipmaking campus, while SK hynix $SKHY denied having any plans to acquire the facility. - Bloomberg",
+      "ticker": "$INTC",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079714458042262007#m",
+      "tag": "M&A",
+      "published_at": "2026-07-21T23:45:40+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שובר: טראמפ אומר שארה\"ב תטיל מכס של 100% על תרופות גנריות מיובאות החל מאוגוסט 2028, שיעלה ל-200% באוגוסט 2029.",
+      "summary_he": "",
+      "body_en": "BREAKING: Trump says the US will impose a 100% tariff on imported generic drugs beginning in August 2028, rising to 200% in August 2029.",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2079709859461906907#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-21T23:27:24+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ מעלה את תעריפי התרופות הגנריות טראמפ הודיע ​​כי יבוא תרופות גנריות יעמוד בתעריף של 0% מה-1 באוגוסט 2026 למשך שנתיים, שיעלה ל-100% למשך שנה אחת ו...",
+      "summary_he": "",
+      "body_en": "TRUMP ESCALATES GENERIC DRUG TARIFFS Trump announced that generic drug imports will face a 0% tariff from 1 August 2026 for two years, rising to 100% for one year and 200% thereafter. The measure aims",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2079709091514220796#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-21T23:24:21+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ יקבע 100% תעריף על תרופות גנריות מאוגוסט 2028",
+      "summary_he": "",
+      "body_en": "TRUMP TO SET 100% TARIFF ON GENERIC DRUGS FROM AUGUST 2028",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079708892121153868#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-21T23:23:33+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
     {
       "title_he": "לפי הדיווחים, $SKHY מנהלת מגעים לרכישת קמפוס המוליכים למחצה של $INTC אוהיו ולהתחיל בייצור זיכרון בארה\"ב בתוך חמש שנים. העסקה תרחיב את קיבולת ה-DRAM המקומית...",
       "summary_he": "",
@@ -864,31 +947,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2079704462512521255#m",
       "tag": "M&A",
       "published_at": "2026-07-21T23:05:57+00:00",
-      "relative_time": "לפני 24ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "על פי הדיווחים, ל-Kimi K3 יש ~2.8 טריליון פרמטרים מה שהופך את הזיכרון למרוויח הגדול הראשון מכיוון שהדגם חייב להישאר טעון על פני HBM, שרת DRAM ואחסון לפני...",
-      "summary_he": "",
-      "body_en": "Kimi K3 reportedly has ~2.8 trillion parameters making memory the first major beneficiary because the model must remain loaded across HBM, server DRAM and storage before answering a single request. $S",
-      "ticker": "$SKHY",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2079697011318862185#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-21T22:36:21+00:00",
-      "relative_time": "לפני 53ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מניית סופר מיקרו מזנקת כאשר השוליים שלה מוכפלים באופן בלתי צפוי",
-      "summary_he": "",
-      "body_en": "Super Micro’s stock soars as its margins unexpectedly double",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/super-micros-stock-soars-as-its-margins-unexpectedly-double-8aa83784?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-21T22:11:00+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "סופר מיקרו זינקה ב-15% על הזמנות חדשות וחשיפת מרווחים לאחר הכרזת SpaceX",
@@ -910,31 +970,19 @@
       "link": "https://nitter.net/gurgavin/status/2079682830893019309#m",
       "tag": "M&A",
       "published_at": "2026-07-21T21:40:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Nvidia, $NVDA, נמצאת רשמית בייצור מלא של הדור הבא שלה \"Vera Rubin\" מערכות מחשוב AI, לפי YF",
+      "title_he": "RT מאת @RyanDetrick: הטכנולוגיה עלתה על ה-S&P 500 בכמעט 2 נקודות אחוז היום. טק השיגה ביצועים טובים יותר מ-S&P 500 ב-80 מתוך 137 ימי המסחר עד כה השנה,...",
       "summary_he": "",
-      "body_en": "Nvidia, $NVDA, is officially in full production of its next-generation \"Vera Rubin\" AI computing systems, per YF",
-      "ticker": "$NVDA",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2079680566124036118#m",
-      "tag": "TECH",
-      "published_at": "2026-07-21T21:31:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "CME $CME, PulteGroup $PHM, פיליפ מוריס $PM ו-AT&T $T דוחות לפני הפתיחה מחר. אלפבית $GOOGL, Tesla $TSLA, Texas Instruments $TXN, IBM $IBM ומפתח נוסף...",
-      "summary_he": "",
-      "body_en": "CME $CME, PulteGroup $PHM, Philip Morris $PM, and AT&T $T report before tomorrow's open. Alphabet $GOOGL, Tesla $TSLA, Texas Instruments $TXN, IBM $IBM, and other key names follow after the close.",
-      "ticker": "$CME",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2079680315337966003#m",
-      "tag": "TECH",
-      "published_at": "2026-07-21T21:30:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "body_en": "RT by @RyanDetrick: Tech outperformed the S&P 500 by nearly 2 percentage points today. Tech has outperformed the S&P 500 on 80 of the 137 trading days so far this year, per Dow Jones Market Data.",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/_JoshSchafer/status/2079671883063001496#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-21T20:56:30+00:00",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -949,18 +997,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "דגשים ברווחים של $EQT Q2'26 🔹 הכנסה: $1.81B (הערכה. $1.8B) 🟡 🔹 EPS: $0.39 (אומדן $0.42) 🔴 מדריך לרבעון השלישי: 🔹 נפח מכירות כולל: 570-620 BK Mainance $510M-$580M…",
-      "summary_he": "",
-      "body_en": "$EQT Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.81B (Est. $1.8B) 🟡 🔹 EPS: $0.39 (Est. $0.42) 🔴 Q3 Guide: 🔹 Total Sales Volume: 570-620 Bcfe 🔹 Maintenance CapEx: $510M-$580M 🔹 Growth CapEx: $200M-$240M 🔹 ",
-      "ticker": "$EQT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079667453869891996#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-21T20:38:54+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bullish"
-    },
-    {
       "title_he": "הנפקות ביוטכנולוגיה בולטות השנה... ההנפקה הממוצעת בארה\"ב ירדה עד היום",
       "summary_he": "",
       "body_en": "Biotech IPOs standing out this year... the average US IPO is down YTD",
@@ -969,54 +1005,19 @@
       "link": "https://nitter.net/MikeZaccardi/status/2079665705062891920#m",
       "tag": "NEWS",
       "published_at": "2026-07-21T20:31:57+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "דגשים ברווחים של PEGA Q2'26 🔹 הכנסות: 420.716 מיליון דולר (מוערך 427 מיליון דולר) 🔴; +9% YoY 🔹 התאמה EPS: $0.35 (הערכה. $0.43) 🔴; +25% YoY 🔸 מנכ\"ל: \"שינויים חסרי תקדים בשוק הבינה המלאכותית...",
+      "title_he": "RT מאת @RyanDetrick: הרווחים של הרבעון השני נפתחו חזק. עם 10% ממדד S&P 500, הצמיחה המשולבת מגיעה ל-24.7%, כבר לפני האנליסטים הצפויים של 23.2%...",
       "summary_he": "",
-      "body_en": "$PEGA Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $420.716M (Est. $427M) 🔴; +9% YoY 🔹 Adj. EPS: $0.35 (Est. $0.43) 🔴; +25% YoY 🔸 CEO: “Unprecedented changes in the AI market caused clients to delay their pur",
-      "ticker": "$PEGA",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079665478012968976#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-21T20:31:02+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "עזוב את Nvidia. 5 מניות ה-S&P 500 הללו עוברות בשקט הכל על AI.",
-      "summary_he": "",
-      "body_en": "Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.",
+      "body_en": "RT by @RyanDetrick: Q2 earnings are off to a strong start. With 10% of the S&P 500 in, blended growth is running 24.7%, already ahead of the 23.2% analysts expected coming into the quarter. And the ba",
       "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/forget-nvidia-these-5-s-p-500-stocks-are-quietly-going-all-in-on-ai-68642f84?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-07-21T20:09:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טוב אמרו @DillonLoomis. המציאות היא ש-$TSLA (-15% YTD) השיגה ביצועים נמוכים גם של $GM (-2% YTD) ו-$F (+9% YTD), בעיקר בגלל שהנהלת TSLA ממשיכה להבטיח יתר על המידה...",
-      "summary_he": "",
-      "body_en": "Well said @DillonLoomis. The reality is $TSLA (-15% YTD) has underperformed both $GM (-2% YTD) and $F (+9% YTD), largely because TSLA management continues to overpromise and underdeliver. Does anyone ",
-      "ticker": "$TSLA",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2079616868763992126#m",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/CarsonResearch/status/2079665262807163222#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-21T17:17:53+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: $NVDA אומר שפלטפורמת Vera Rubin של הדור הבא שלה נשארת בלוח הזמנים עם לקוחות גדולים שכבר בודקים את החומרה. החברה גם טוענת…",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $NVDA says its next-generation Vera Rubin platform remains on schedule with major customers already testing the hardware. The company also claims its new Vera CPU is faster than",
-      "ticker": "$NVDA",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2079583899475403015#m",
-      "tag": "TECH",
-      "published_at": "2026-07-21T15:06:53+00:00",
-      "relative_time": "לפני 8ש׳",
+      "published_at": "2026-07-21T20:30:11+00:00",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     }
   ],
