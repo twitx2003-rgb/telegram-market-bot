@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T04:25:31.557732+00:00",
+  "generated_at": "2026-07-22T07:09:59.368055+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-22T04:25:31.557743+00:00",
+  "ta_generated_at": "2026-07-22T07:09:59.368066+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -701,36 +701,36 @@
     {
       "name": "VIX",
       "value": "17.05",
-      "change": "-8.58%",
-      "direction": "down",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "market_us",
-      "pct_raw": -8.579088471849856
+      "pct_raw": 0.0
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,131.9",
-      "change": "+1.36%",
+      "value": "$4,120.8",
+      "change": "+1.09%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.3614954371504155
+      "pct_raw": 1.0891963497203438
     },
     {
       "name": "נפט ברנט",
-      "value": "$92.2",
-      "change": "+1.33%",
+      "value": "$93.0",
+      "change": "+2.18%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.3295242281067945
+      "pct_raw": 2.1755851005383913
     },
     {
       "name": "ביטקוין",
-      "value": "$66,337",
-      "change": "-0.26%",
+      "value": "$65,855",
+      "change": "-0.98%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.2585219084311646
+      "pct_raw": -0.9834477717032356
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.051",
-      "change": "+0.23%",
+      "value": "3.057",
+      "change": "+0.40%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.2266530893801646
+      "pct_raw": 0.40074894064318345
     }
   ],
   "sectors": [
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "טראמפ מתכנן תעריפים על תרופות גנריות משנת 2028 עם עיכוב של שנתיים לבדיקת דחיפה של ארה\"ב על החוף",
+      "summary_he": "",
+      "body_en": "Trump plans generic drug tariffs from 2028 with two-year delay testing U.S. onshoring push",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-22T06:28:08+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מניות Wistron זינקו בטייוואן לאחר פתיחת מפעל הסופר-שבב של טקסס AI שיספק את Nvidia",
       "summary_he": "",
       "body_en": "Wistron shares surge in Taiwan after opening of Texas AI superchip plant to supply Nvidia",
@@ -867,18 +878,7 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "טראמפ מתכנן מכסים גבוהים על תרופות גנריות החל מ-2028 כדי לדרבן את הייצור בארה\"ב",
-      "summary_he": "",
-      "body_en": "Trump plans steep tariffs on generic drugs starting in 2028 to spur U.S. production",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-22T01:17:37+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "SK HYNIX: לא מחפשת רכישה של מפעל אוהיו; CONTINUES TO REVIEW VARIOUS INVESTMENT, M&A OPPORTUNITIES",
+      "title_he": "SK HYNIX: לא מחפשת רכישה של מפעל אוהיו; ממשיך לסקור הזדמנויות שונות להשקעות, מיזוגים ורכישות",
       "summary_he": "",
       "body_en": "SK HYNIX: NOT SEEKING ACQUISITION OF OHIO PLANT; CONTINUES TO REVIEW VARIOUS INVESTMENT, M&A OPPORTUNITIES",
       "ticker": "",
@@ -886,7 +886,7 @@
       "link": "https://nitter.net/wallstengine/status/2079731466364440962#m",
       "tag": "M&A",
       "published_at": "2026-07-22T00:53:15+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -909,7 +909,7 @@
       "link": "https://nitter.net/wallstengine/status/2079724247489065101#m",
       "tag": "NEWS",
       "published_at": "2026-07-22T00:24:34+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -921,7 +921,7 @@
       "link": "https://nitter.net/wallstengine/status/2079717960109986173#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-21T23:59:35+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -933,19 +933,7 @@
       "link": "https://nitter.net/wallstengine/status/2079714458042262007#m",
       "tag": "M&A",
       "published_at": "2026-07-21T23:45:40+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "לפי הדיווחים, $SKHY מנהלת מגעים לרכישת קמפוס המוליכים למחצה של $INTC אוהיו ולהתחיל בייצור זיכרון בארה\"ב בתוך חמש שנים. העסקה תרחיב את קיבולת ה-DRAM המקומית...",
-      "summary_he": "",
-      "body_en": "$SKHY is reportedly in talks to acquire $INTC Ohio semiconductor campus and begin U.S. memory production within five years. The deal would expand domestic DRAM capacity while giving Intel fresh liquid",
-      "ticker": "$SKHY",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2079704462512521255#m",
-      "tag": "M&A",
-      "published_at": "2026-07-21T23:05:57+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -960,15 +948,52 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "גולדמן זאקס יוצרת פלטפורמת שווקים פרטיים כאשר משקיעים עשירים מחפשים את SpaceX ו-Stripe הבאים",
+      "title_he": "CME $CME, PulteGroup $PHM, Philip Morris $PM ו-AT&T $T דוחות לפני הפתיחה מחר. אלפבית $GOOGL, Tesla $TSLA, Texas Instruments $TXN, IBM $IBM ומפתח נוסף...",
       "summary_he": "",
-      "body_en": "Goldman Sachs creates private markets platform as rich investors seek the next SpaceX and Stripe",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/21/goldman-sachs-private-markets-platform.html",
-      "tag": "BANKS",
-      "published_at": "2026-07-21T20:51:34+00:00",
+      "body_en": "CME $CME, PulteGroup $PHM, Philip Morris $PM, and AT&T $T report before tomorrow's open. Alphabet $GOOGL, Tesla $TSLA, Texas Instruments $TXN, IBM $IBM, and other key names follow after the close.",
+      "ticker": "$CME",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2079680315337966003#m",
+      "tag": "TECH",
+      "published_at": "2026-07-21T21:30:00+00:00",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @RyanDetrick: הטכנולוגיה עלתה על ה-S&P 500 בכמעט 2 נקודות אחוז היום. Tech השיגה ביצועים טובים יותר מ-S&P 500 ב-80 מתוך 137 ימי המסחר עד כה השנה,...",
+      "summary_he": "",
+      "body_en": "RT by @RyanDetrick: Tech outperformed the S&P 500 by nearly 2 percentage points today. Tech has outperformed the S&P 500 on 80 of the 137 trading days so far this year, per Dow Jones Market Data.",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/_JoshSchafer/status/2079671883063001496#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-21T20:56:30+00:00",
+      "relative_time": "לפני 10ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @RyanDetrick: הרווחים של הרבעון השני נפתחו חזק. עם 10% ממדד S&P 500, הצמיחה המשולבת מגיעה ל-24.7%, כבר לפני האנליסטים הצפויים של 23.2%...",
+      "summary_he": "",
+      "body_en": "RT by @RyanDetrick: Q2 earnings are off to a strong start. With 10% of the S&P 500 in, blended growth is running 24.7%, already ahead of the 23.2% analysts expected coming into the quarter. And the ba",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/CarsonResearch/status/2079665262807163222#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-21T20:30:11+00:00",
+      "relative_time": "לפני 10ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @RyanDetrick: עונת הרווחים כבר כאן, ו-@sonusvarghese צופה בשלושה דברים, כולם קשורים לשאלה האם גל ה-AI ממשיך להניב רווחים. קרסון רק העלה את...",
+      "summary_he": "",
+      "body_en": "RT by @RyanDetrick: Earnings season is here, and @sonusvarghese is watching three things, all tied to whether the AI wave keeps powering profits. Carson just raised its 2026 S&P 500 return estimate to",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/CarsonResearch/status/2079663938048843798#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-21T20:24:55+00:00",
+      "relative_time": "לפני 10ש׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "עזוב את Nvidia. 5 מניות ה-S&P 500 הללו עוברות בשקט הכל על AI.",
@@ -990,33 +1015,19 @@
       "link": "https://nitter.net/garyblack00/status/2079616868763992126#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-21T17:17:53+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנכ\"ל בנק אוף אמריקה מזהיר שהאינפלציה תחזיר את הפד לפינה",
-      "summary_he": "",
-      "body_en": "Bank of America CEO warns inflation will back Fed into a corner",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/economy/articles/bank-america-ceo-sobering-verdict-033300805.html",
-      "tag": "FED",
-      "published_at": "2026-07-21T03:33:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מזהב לביטקוין: כיצד בורסות קריפטו מעצבות מחדש את השקעות המאקרו העולמיות",
-      "summary_he": "",
-      "body_en": "From Gold to Bitcoin: How Crypto Exchanges Are Reshaping Global Macro Investing",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/gold-bitcoin-crypto-exchanges-reshaping-163952001.html",
-      "tag": "CRYPTO",
-      "published_at": "2026-07-20T16:39:52+00:00",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "השוטרים נדהמו: חמור אותר כפות בתא המטען בבדיקה שגרתית",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855339",
+      "tag": "כללי",
+      "published_at": "2026-07-22T08:13:00+00:00"
+    },
     {
       "title_he": "בצל התפשטות הכלבת - אירוע חריג בצפון: גירית נגועה תקפה עובד במטע | תיעוד",
       "summary_he": "",
@@ -1088,14 +1099,6 @@
       "link": "https://news.walla.co.il/item/3855163",
       "tag": "כללי",
       "published_at": "2026-07-21T12:49:00+00:00"
-    },
-    {
-      "title_he": "פרקו משטח גבס ממשאית, המלגזה התהפכה - והרגה עובר אורח בנתניה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855152",
-      "tag": "כללי",
-      "published_at": "2026-07-21T12:25:00+00:00"
     }
   ],
   "track_record": {
