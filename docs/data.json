@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T21:37:35.261597+00:00",
+  "generated_at": "2026-07-22T23:03:26.395680+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-22T21:37:35.261609+00:00",
+  "ta_generated_at": "2026-07-22T23:03:26.395704+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,135.0",
-      "change": "+1.44%",
-      "direction": "up",
+      "value": "$4,128.3",
+      "change": "-0.57%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 1.4375429300363043
+      "pct_raw": -0.5684144608492366
     },
     {
       "name": "נפט ברנט",
-      "value": "$93.9",
-      "change": "+3.15%",
+      "value": "$95.5",
+      "change": "+1.52%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 3.1534996154268655
+      "pct_raw": 1.5201445731901848
     },
     {
       "name": "ביטקוין",
-      "value": "$65,985",
-      "change": "-0.79%",
+      "value": "$66,006",
+      "change": "-0.76%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.7874889469630142
+      "pct_raw": -0.7554180367220167
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.057",
-      "change": "+0.41%",
+      "value": "3.056",
+      "change": "+0.37%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.4073185954078249
+      "pct_raw": 0.37118549420228986
     }
   ],
   "sectors": [
@@ -856,6 +856,41 @@
   },
   "us_news": [
     {
+      "title_he": "צבר ה-$GOOGL Cloud עולה על חצי טריליון דולר במחיר של 514 מיליארד דולר. ההנהלה גם אמרה שלקוחות קיימים צורכים יותר מ-50% מעל ההתחייבויות המקוריות שלהם...",
+      "summary_he": "",
+      "body_en": "$GOOGL Cloud backlog surpasses half a trillion dollars at $514B. Management also said existing customers are consuming more than 50% above their original commitments while new customer acquisition has",
+      "ticker": "$GOOGL",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080063140818264486#m",
+      "tag": "M&A",
+      "published_at": "2026-07-22T22:51:13+00:00",
+      "relative_time": "לפני 11ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אני רוצה להעביר 17,000$ חוב בכרטיס אשראי. מדוע וולס פארגו הציע לי רק תקרת אשראי של 4,000 דולר?",
+      "summary_he": "",
+      "body_en": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
+      "tag": "BANKS",
+      "published_at": "2026-07-22T22:46:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "נשיא OpenAI, גרג ברוקמן, על Kimi K3: זה דגם די טוב... אין על זה שאלה. זה \"מוקדם מדי\" לדעת אם Moonshot זיקק מ-OpenAI...",
+      "summary_he": "",
+      "body_en": "OpenAI President Greg Brockman on Kimi K3: It’s a pretty good model... There’s no question about it. It’s “too early” to tell whether Moonshot distilled from OpenAI’s GPT models. “This is something we",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080060614584811821#m",
+      "tag": "TECH",
+      "published_at": "2026-07-22T22:41:10+00:00",
+      "relative_time": "לפני 21ד׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "יבמ מורידה את התחזית לשנה כולה לאחר אזהרת רווחים",
       "summary_he": "",
       "body_en": "IBM lowers full-year forecast after earnings warning",
@@ -863,55 +898,90 @@
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/07/22/ibm-q2-earnings-report-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-07-22T21:33:49+00:00",
+      "published_at": "2026-07-22T22:37:42+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$FIVE להלן אומר אירוע אבטחת סייבר שזוהה ב-15 ביולי OpenAI??? 👀 😂",
+      "title_he": "טסלה מחמיצה רווחים, שכן תזרים המזומנים החופשי הופך לשלילי והרווחים יורדים",
       "summary_he": "",
-      "body_en": "$FIVE BELOW SAYS DETECTED CYBERSECURITY INCIDENT ON JULY 15 OpenAI??? 👀 😂",
-      "ticker": "$FIVE",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080041512608706816#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-22T21:25:16+00:00",
-      "relative_time": "לפני 11ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנכ\"ל $GOOGL, סונדאר פיצ'אי, אומר שגוגל מכוונת מחשוב משמעותי לעבר Gemini 4, דגם בסיס גדול יותר שנבנה כדי להתחרות על גבול הבינה המלאכותית. \"אנחנו מיישמים הרבה...",
-      "summary_he": "",
-      "body_en": "$GOOGL CEO Sundar Pichai says Google is directing substantial compute toward Gemini 4, a larger base model built to compete at the AI frontier. “We are applying a lot of our compute and effort in that",
-      "ticker": "$GOOGL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080041276918161482#m",
-      "tag": "TECH",
-      "published_at": "2026-07-22T21:24:20+00:00",
-      "relative_time": "לפני 12ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שבירה: בית הנבחרים של ארה\"ב העביר חקיקה שתבצע סדרה של שינויים בתקנות הבנקאות הפדרליות, כולל הקלת הון מסוים,...",
-      "summary_he": "",
-      "body_en": "BREAKING: The U.S. House of Representatives has passed legislation that would make a series of changes to federal banking regulations, including easing certain capital, supervisory and merger requirem",
+      "body_en": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
       "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2080040289268637787#m",
-      "tag": "M&A",
-      "published_at": "2026-07-22T21:20:24+00:00",
-      "relative_time": "לפני 16ד׳",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T22:30:40+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "אילון מאסק נשאל אם טסלה ו-SpaceX יוכלו בסופו של דבר לשלב. \"אנחנו לא יכולים לדבר על שילוב חברות בשיחת רווחים. זה, זה חייב להיעשות עם...",
+      "summary_he": "",
+      "body_en": "Elon Musk was asked whether Tesla and SpaceX could eventually combine. \"We can't talk about combining companies on an earnings call. It's, it's got to be done with the appropriate process\" He said the",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080057026772914375#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T22:26:55+00:00",
+      "relative_time": "לפני 35ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$GOOGL אומרת שהיא \"תרחיב את השימוש בקיבולת של צד שלישי ברבעון השלישי\" כגשר בזמן שהיא תבנה קיבולת פנימית יותר. לאחר שנים של עלייה ב-Hyperscaler CaPex, דרישה...",
+      "title_he": "מנכ\"ל TESLA $TSLA: STARLINK ישתלב בכל כלי הרכב שלנו",
       "summary_he": "",
-      "body_en": "$GOOGL says it will “expand the use of third party capacity in Q3” as a bridge while it builds more internal capacity. After years of surging hyperscaler CaPex, demand still exceeds supply showing sho",
-      "ticker": "$GOOGL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080039343583092821#m",
+      "body_en": "TESLA $TSLA CEO: STARLINK WILL BE INTEGRATED INTO ALL OUR VEHICLES",
+      "ticker": "$TSLA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080055705453928758#m",
       "tag": "TECH",
-      "published_at": "2026-07-22T21:16:39+00:00",
-      "relative_time": "לפני 20ד׳",
+      "published_at": "2026-07-22T22:21:40+00:00",
+      "relative_time": "לפני 40ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$GOOGL סמנכ\"ל הכספים: רכישת WIZ כדי לשקול את הרווחים בענן",
+      "summary_he": "",
+      "body_en": "$GOOGL CFO: ACQUISITION OF WIZ TO WEIGH ON CLOUD PROFITS",
+      "ticker": "$GOOGL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080052085660487837#m",
+      "tag": "M&A",
+      "published_at": "2026-07-22T22:07:17+00:00",
+      "relative_time": "לפני 55ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$TSLA אמר ששלושה לחצים הורידו את שולי האנרגיה. השפעת אחריות של כ-240 מיליון דולר הגיעה מתאי ספקים מדור קודם. יותר מ-200 מיליון דולר בהטבות תעריפים ברבעון הראשון לא…",
+      "summary_he": "",
+      "body_en": "$TSLA said three pressures drove Energy margin lower. A roughly $240M warranty impact came from legacy vendor cells. More than $200M in Q1 tariff benefits did not repeat. Industrial storage prices als",
+      "ticker": "$TSLA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080051890004574648#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T22:06:30+00:00",
+      "relative_time": "לפני 56ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Alphabet $GOOGL יורד ב-4.5% לאחר שעות העבודה בעקבות הרווחים ברבעון השני. זה יהיה הרבעון ה-9 בחמש השנים האחרונות שבו המניה נפתחה בירידה של 4%+ בבוקר שאחרי...",
+      "summary_he": "",
+      "body_en": "Alphabet $GOOGL is down 4.5% after hours following Q2 earnings. This would be the 9th quarter in the last five years where the stock opened down 4%+ the morning after earnings. The stock is up 157% ov",
+      "ticker": "$GOOGL",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2080045858616185142#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T21:42:32+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RTX $RTX, Thermo Fisher $TMO ו-Union Pacific $UNP הן החברות הגדולות ביותר שמדווחות לפני פעמון הפתיחה מחר. לאחר הסגירה, זה אינטל $INTC, ניומונט...",
+      "summary_he": "",
+      "body_en": "RTX $RTX, Thermo Fisher $TMO, and Union Pacific $UNP are the largest companies reporting before the opening bell tomorrow. After the close, it's Intel $INTC, Newmont $NEM, and Comfort Systems $FIX.",
+      "ticker": "$RTX",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2080042704298283282#m",
+      "tag": "TECH",
+      "published_at": "2026-07-22T21:30:00+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +993,7 @@
       "link": "https://nitter.net/gurgavin/status/2080035652029096335#m",
       "tag": "TECH",
       "published_at": "2026-07-22T21:01:59+00:00",
-      "relative_time": "לפני 34ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -935,7 +1005,7 @@
       "link": "https://nitter.net/DivesTech/status/2080035412609831205#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-22T21:01:02+00:00",
-      "relative_time": "לפני 35ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -947,75 +1017,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080034982475559134#m",
       "tag": "FED",
       "published_at": "2026-07-22T20:59:19+00:00",
-      "relative_time": "לפני 37ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טסלה מחמיצה רווחים, שכן תזרים המזומנים החופשי הופך לשלילי והרווחים יורדים",
-      "summary_he": "",
-      "body_en": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-22T20:55:53+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "$GOOGL מכפילה את ההשקעה הרבעונית בשנה ל-44.9 מיליארד דולר יותר ברבעון בודד מאשר בכל שנת 2022. הביקוש מצדיק את אחת מתוכניות ההשקעה הגדולות ביותר ב...",
-      "summary_he": "",
-      "body_en": "$GOOGL doubles quarterly CapEx YoY to $44.9B spending more in a single quarter than it did across all of 2022. Demand is justifying one of the largest capex programs in corporate history with Cloud gr",
-      "ticker": "$GOOGL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080033392167702843#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-22T20:53:00+00:00",
-      "relative_time": "לפני 43ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ג'ון פולסון אומר שאנחנו בשלבים הראשונים של שוק שוורי ארוך טווח לזהב",
-      "summary_he": "",
-      "body_en": "John Paulson says we are in the early stages of a long-term bull market for gold",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/22/john-paulson-says-we-are-in-early-stages-of-a-long-term-bull-market-for-gold.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-22T20:41:53+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טסלה, $TSLA: \"הפסקנו את קווי הייצור של דגמי S ו-X במפעל שלנו בפרמונט ומתקינים את קווי הדור הראשון של Optimus, שם אנחנו...",
-      "summary_he": "",
-      "body_en": "Tesla, $TSLA: \"We have decommissioned the manufacturing lines for Models S & X at our Fremont Factory and are installing the first-generation lines for Optimus, where we expect to start production soo",
-      "ticker": "$TSLA",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2080028609511846122#m",
-      "tag": "TECH",
-      "published_at": "2026-07-22T20:34:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "מניית ServiceNow עולה כאשר הרווחים מראים מומנטום באבטחת סייבר",
-      "summary_he": "",
-      "body_en": "ServiceNow’s stock rises as earnings show momentum in cybersecurity",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/servicenows-stock-gains-as-earnings-show-momentum-in-cybersecurity-86e7a038?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-22T20:19:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מחירי הנפט העולמיים מתייצבים בשיא של 6 שבועות לאחר שעלו על 95 דולר לחבית, כאשר התקוות מתעמעמות להורדת הסלמה במלחמת איראן",
-      "summary_he": "",
-      "body_en": "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
-      "tag": "ENERGY",
-      "published_at": "2026-07-22T20:10:00+00:00",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     }
   ],
