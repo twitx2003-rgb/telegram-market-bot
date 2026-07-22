@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T09:58:42.729405+00:00",
+  "generated_at": "2026-07-22T11:55:36.055038+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-22T09:58:42.729436+00:00",
+  "ta_generated_at": "2026-07-22T11:55:36.055047+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "17.49",
-      "change": "+2.58%",
+      "value": "17.47",
+      "change": "+2.46%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 2.580645161290309
+      "pct_raw": 2.4633431085043878
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,121.1",
-      "change": "+1.10%",
+      "value": "$4,120.6",
+      "change": "+1.08%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.0965557845157559
+      "pct_raw": 1.084290059856743
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.6",
-      "change": "+0.59%",
+      "value": "$85.1",
+      "change": "+1.28%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.594813228646205
+      "pct_raw": 1.284796573875801
     },
     {
       "name": "ביטקוין",
-      "value": "$65,896",
-      "change": "-0.92%",
+      "value": "$65,989",
+      "change": "-0.78%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.9214109336092952
+      "pct_raw": -0.7809935727369793
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,239",
-      "change": "+1.09%",
+      "value": "4,225",
+      "change": "+0.75%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 1.0867180494877764
+      "pct_raw": 0.7514260640631909
     },
     {
       "name": "דולר/שקל",
-      "value": "3.065",
-      "change": "+0.69%",
+      "value": "3.062",
+      "change": "+0.57%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.689813750287434
+      "pct_raw": 0.5748447919061878
     }
   ],
   "sectors": [
@@ -856,61 +856,157 @@
   },
   "us_news": [
     {
-      "title_he": "לגולדמן זאקס ומורגן סטנלי היה רבע מפלצת. אנליסטים אומרים שהענקיות האלה יכולות להיות הבאות.",
+      "title_he": "מנכ\"ל $NVDA, Jensen Huang, אומר כי וול סטריט לא הבינה את DeepSeek ולא מבינה את קימי שוב\". הוא טוען שאסור לאסור דגמים סיניים פתוחים כי זולים יותר...",
       "summary_he": "",
-      "body_en": "Goldman Sachs and Morgan Stanley had a monster quarter. Analysts say these giants could be next.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/goldman-sachs-and-morgan-stanley-had-a-monster-quarter-analysts-say-these-giants-could-be-next-47b42e15?mod=mw_rss_topstories",
-      "tag": "BANKS",
-      "published_at": "2026-07-22T09:44:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "וולף: הפתעת השוליים של Supermicro עשויה להיות קריאה חיובית עבור $DELL ו-$HPE $SMCI מצפה לשולי רווח גולמי של 15% עד 17% ברבעון הרביעי, כמעט פי שניים מה-8.2% הקודמים ל...",
-      "summary_he": "",
-      "body_en": "Wolfe: Supermicro’s margin surprise could be a positive read-through for $DELL and $HPE $SMCI expects Q4 gross margins of 15% to 17%, nearly double its prior 8.2% to 8.4% guidance, while new orders ex",
-      "ticker": "$DELL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2079862338551689294#m",
+      "body_en": "$NVDA CEO Jensen Huang says Wall Street misunderstood DeepSeek and is “misunderstanding Kimi again.” He argues open Chinese models shouldn't be banned because cheaper open models accelerate AI adoptio",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2079893525366538395#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-22T09:33:18+00:00",
-      "relative_time": "לפני 25ד׳",
+      "published_at": "2026-07-22T11:37:13+00:00",
+      "relative_time": "לפני 17ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "צ'יפס יו-יו ירד הבוקר... $SMH -1.9% $SPY -0.2% $QQQ -0.6% $IWM -0.2% $EEM -1.5% הנפט עלה בגדול $USO +3.8% זהב עלה שוב $GLD +0.9%",
+      "title_he": "החוזים העתידיים על דאו ג'ונס יורדים כשמחירי הנפט עולים; שני מובילי רווחים גדולים של AI עם גוגל, רווחי טסלה",
       "summary_he": "",
-      "body_en": "Chips yo-yo down this morning... $SMH -1.9% $SPY -0.2% $QQQ -0.6% $IWM -0.2% $EEM -1.5% Oil up big $USO +3.8% Gold rallies again $GLD +0.9%",
-      "ticker": "$SMH",
+      "body_en": "Dow Jones Futures Fall As Oil Prices Jump; Two Big AI Earnings Movers With Google, Tesla Earnings Due",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-sandisk-micron-google-tesla-earnings/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T11:37:03+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מחיר הנפט מגיע ל-95 דולר, סיכויי העלאת הריבית עולים לפני רווחי אלפבית",
+      "summary_he": "",
+      "body_en": "Oil price hits $95, rate hike odds rise ahead of Alphabet earnings",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/energy/articles/oil-price-hits-95-rate-113143493.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T11:31:43+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מחירי נפט עליזים... אבל אינפלציית איזון של 5 שנים עושה הרבה כלום... 2.28%",
+      "summary_he": "",
+      "body_en": "Perky oil prices... but 5yr breakeven inflation is doing a whole lot of nothing... 2.28%",
+      "ticker": "",
       "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2079857794098839738#m",
+      "link": "https://nitter.net/MikeZaccardi/status/2079891174131646704#m",
       "tag": "ENERGY",
-      "published_at": "2026-07-22T09:15:14+00:00",
-      "relative_time": "לפני 43ד׳",
+      "published_at": "2026-07-22T11:27:53+00:00",
+      "relative_time": "לפני 27ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "טראמפ מתכנן תעריפים על תרופות גנריות משנת 2028 עם עיכוב של שנתיים לבדיקת דחיפה של ארה\"ב על החוף",
+      "title_he": "R to @wallstengine: $GEV: ההשפעה הכוללת המשוערת הנוכחית של התעריפים הגלובאליים היא כ-$100 מיליון עד $200 מיליון ב-2026",
       "summary_he": "",
-      "body_en": "Trump plans generic drug tariffs from 2028 with two-year delay testing U.S. onshoring push",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
+      "body_en": "R to @wallstengine: $GEV: CURRENT TOTAL ESTIMATED COST IMPACT FROM GLOBAL TARIFFS IS APPROXIMATELY $100M TO $200M IN 2026",
+      "ticker": "$GEV",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079890298390655347#m",
       "tag": "NEWS",
-      "published_at": "2026-07-22T06:28:08+00:00",
+      "published_at": "2026-07-22T11:24:24+00:00",
+      "relative_time": "לפני 30ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מניית סופר מיקרו מזנקת כאשר השוליים שלה מוכפלים באופן בלתי צפוי",
+      "title_he": "מניות ה-$GEV נמוכות כעת לאחר שהרווח למניה ברבעון השני החמיצה את הציפיות, אפילו כשההדפסה הרחבה יותר הראתה ביקוש חזק ויצירת מזומנים נקודת התורפה העיקרית היא Wind, שם...",
       "summary_he": "",
-      "body_en": "Super Micro’s stock soars as its margins unexpectedly double",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/super-micros-stock-soars-as-its-margins-unexpectedly-double-8aa83784?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-22T00:33:00+00:00",
+      "body_en": "$GEV shares are now lower after Q2 EPS missed expectations, even as the broader print showed strong demand and cash generation The main weak spot remains Wind, where revenue fell 10% & segment EBITDA ",
+      "ticker": "$GEV",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079889607676829919#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T11:21:39+00:00",
+      "relative_time": "לפני 33ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "דגשים ברווחים של MOODY'S $MCO Q2'26 🔹 הכנסות: $2.2B (הערכה. $2.08B) 🟢; +15% YoY 🔹 התאמה EPS: $4.68 (הערכה. $4.27) 🟢; +31% YoY 🔹 התאמה מרווח תפעולי: 55.3%; +440 bps YoY…",
+      "summary_he": "",
+      "body_en": "MOODY’S $MCO Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $2.2B (Est. $2.08B) 🟢; +15% YoY 🔹 Adj. EPS: $4.68 (Est. $4.27) 🟢; +31% YoY 🔹 Adj. Operating Margin: 55.3%; +440 bps YoY 🔹 MIS Revenue: $1.26B; +25% Yo",
+      "ticker": "$MCO",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079885977263436170#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T11:07:14+00:00",
+      "relative_time": "לפני 47ד׳",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "דגשים ברווחים של $CME Q2'26 🔹 הכנסות: $1.7B (הערכה. $1.68B) 🔹 EPS: $2.99 ​​(הערכה. $2.90) 🟢; +1% YoY 🔹 נתוני שוק: $238N; +20% בשנה 🔹 הכנסה תפעולית: 1.1 מיליארד דולר (הערכה...",
+      "summary_he": "",
+      "body_en": "$CME Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.7B (Est. $1.68B) 🟢 🔹 Adj. EPS: $2.99 (Est. $2.90) 🟢; +1% YoY 🔹 Market Data: $238N; +20% YoY 🔹 Operating Income: $1.1B (Est. $1.16B) 🔴 Other Q2 Metrics: 🔹 N",
+      "ticker": "$CME",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2079885445970993332#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T11:05:07+00:00",
+      "relative_time": "לפני 49ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$RDDT is considering cutting off $GOOGL access to its content for AI use as its $60M annual licensing deal nears expiration. גם מוציאים לאור אחרים בוחנים מחדש...",
+      "summary_he": "",
+      "body_en": "$RDDT is considering cutting off $GOOGL access to its content for AI use as its $60M annual licensing deal nears expiration. Other publishers are also reevaluating Google’s crawler as AI summaries ero",
+      "ticker": "$RDDT",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2079871136184336522#m",
+      "tag": "M&A",
+      "published_at": "2026-07-22T10:08:15+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שוק המניות היום: החוזים העתידיים של דאו, S&P 500, נאסד\"ק יורדים עם רווחי אלפבית וטסלה על הסיפון",
+      "summary_he": "",
+      "body_en": "Stock market today: Dow, S&P 500, Nasdaq futures slide with Alphabet, Tesla earnings on deck",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-22-dow-sp-500-nasdaq-alphabet-tesla-083644887.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T08:36:44+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "U.S. S&P 500 E-MINI FUTURES ירידה של 0.4%, NASDAQ 100 FUTURES DOWN 0.9%, DOW FUTURES ירידה של 0.3%",
+      "summary_he": "",
+      "body_en": "U.S. S&P 500 E-MINI FUTURES DOWN 0.4%, NASDAQ 100 FUTURES DOWN 0.9%, DOW FUTURES DOWN 0.3%",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2079839158034448763#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-22T08:01:11+00:00",
+      "relative_time": "לפני 3ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ מעלה את תעריפי התרופות הגנריות טראמפ הודיע ​​כי יבוא תרופות גנריות יעמוד בתעריף של 0% מה-1 באוגוסט 2026 למשך שנתיים, שיעלה ל-100% למשך שנה אחת ו...",
+      "summary_he": "",
+      "body_en": "TRUMP ESCALATES GENERIC DRUG TARIFFS Trump announced that generic drug imports will face a 0% tariff from 1 August 2026 for two years, rising to 100% for one year and 200% thereafter. The measure aims",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2079709091514220796#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-21T23:24:21+00:00",
+      "relative_time": "לפני 12ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "*טראמפ תקבע 100% תעריף על תרופות גנריות מאוגוסט 2028",
+      "summary_he": "",
+      "body_en": "*TRUMP TO SET 100% TARIFF ON GENERIC DRUGS FROM AUGUST 2028",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2079708802127900907#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-21T23:23:12+00:00",
+      "relative_time": "לפני 12ש׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "ברגע שאתה באמת מבין את המשחק הסופי של אילון, מיזוג TESLA/SPACEX אינו שאלה של אם זה מתי זה יקרה $TSLA $SPCX",
@@ -921,33 +1017,27 @@
       "link": "https://nitter.net/gurgavin/status/2079682830893019309#m",
       "tag": "M&A",
       "published_at": "2026-07-21T21:40:00+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנכ\"ל בנק אוף אמריקה מזהיר שהאינפלציה תחזיר את הפד לפינה",
-      "summary_he": "",
-      "body_en": "Bank of America CEO warns inflation will back Fed into a corner",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/economy/articles/bank-america-ceo-sobering-verdict-033300805.html",
-      "tag": "FED",
-      "published_at": "2026-07-21T03:33:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Cipher Digital (CIFR) זינק ב-17% לפני הרווחים ברבעון השני; השתתפות בקרן גידור קופץ",
-      "summary_he": "",
-      "body_en": "Cipher Digital (CIFR) Surges 17% Ahead of Q2 Earnings; Hedge Fund Participation Jumps",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/cipher-digital-cifr-surges-17-231803516.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-20T23:18:03+00:00",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "\"רק נגעתי באופנוע\": כך מנסה החשוד בהשלכת הרימון למגדל \"בלו\" להרחיק את עצמו מהזירה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855458",
+      "tag": "כללי",
+      "published_at": "2026-07-22T14:24:00+00:00"
+    },
+    {
+      "title_he": "העבודות החלו: תעלת תנינים תוקם סביב כלא קציעות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855439",
+      "tag": "כללי",
+      "published_at": "2026-07-22T13:04:00+00:00"
+    },
     {
       "title_he": "סנגוריו של נתניהו: דורשים מהיועמ\"שית התייחסות למחיקת סעיף השוחד",
       "summary_he": "",
@@ -1011,22 +1101,6 @@
       "link": "https://news.walla.co.il/item/3855270",
       "tag": "כללי",
       "published_at": "2026-07-21T20:19:00+00:00"
-    },
-    {
-      "title_he": "\"בזכותו אני אמא\": המטופלות נפרדות מפרופ' משיח, אבי הפריית המבחנה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855262",
-      "tag": "כללי",
-      "published_at": "2026-07-21T19:21:00+00:00"
-    },
-    {
-      "title_he": "ללא מעצורים: ראש מועצת ירוחם התעמתה עם שוטרים במהלך מחאה | תיעוד חריג",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855252",
-      "tag": "כללי",
-      "published_at": "2026-07-21T18:04:00+00:00"
     }
   ],
   "track_record": {
