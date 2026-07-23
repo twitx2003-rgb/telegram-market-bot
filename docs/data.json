@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T07:32:27.493713+00:00",
+  "generated_at": "2026-07-23T10:22:05.727577+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-23T07:32:27.493723+00:00",
+  "ta_generated_at": "2026-07-23T10:22:05.727589+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "17.62",
-      "change": "+5.89%",
+      "value": "17.67",
+      "change": "+6.19%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 5.889423076923079
+      "pct_raw": 6.189903846153853
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,111.1",
-      "change": "-0.98%",
+      "value": "$4,092.6",
+      "change": "-1.43%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.982682627230889
+      "pct_raw": -1.4282617596762863
     },
     {
       "name": "נפט ברנט",
-      "value": "$97.7",
-      "change": "+3.88%",
+      "value": "$92.5",
+      "change": "+2.62%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 3.8800892952057042
+      "pct_raw": 2.61698824573076
     },
     {
       "name": "ביטקוין",
-      "value": "$65,411",
-      "change": "-1.01%",
+      "value": "$65,644",
+      "change": "-0.66%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.0137096792499554
+      "pct_raw": -0.6609610470777992
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.067",
-      "change": "+0.35%",
+      "value": "3.070",
+      "change": "+0.45%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.3500736136103364
+      "pct_raw": 0.4482250940618223
     }
   ],
   "sectors": [
@@ -856,170 +856,189 @@
   },
   "us_news": [
     {
-      "title_he": "מנכ\"ל UniCredit אמר ל-CNBC שרכישה מלאה של קומרצבנק עשויה להתרחש ברבעון הרביעי",
+      "title_he": "מנכ\"ל $META משיק קמפיין אופטימיות בינה מלאכותית: \"יש אנשים שיגרום לך להאמין שבינה מלאכותית תגרום לנו להיות פחות מחוברים, שזה ישאיר אותנו מאחור. לא יכולנו...",
       "summary_he": "",
-      "body_en": "UniCredit CEO tells CNBC full acquisition of Commerzbank could happen in fourth quarter",
+      "body_en": "$META CEO IS LAUNCHING AN AI OPTIMISM CAMPAIGN: \"Some people will have you believe AI will make us less connected, that it's going to leave us behind. We couldn't disagree more. Call us optimists, cal",
+      "ticker": "$META",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080235703481565649#m",
+      "tag": "TECH",
+      "published_at": "2026-07-23T10:16:55+00:00",
+      "relative_time": "לפני 4ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "TESLA הזמינה רווח נטו של מיליארד דולר על ההימור ב-SPCX ב-SPCX שלה ברבעון השני של 2026.",
+      "summary_he": "",
+      "body_en": "TESLA BOOKED A $1 BILLION NET GAIN ON ITS SPACEX $SPCX STAKE IN Q2 2026.",
+      "ticker": "$SPCX",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080234598106337438#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T10:12:31+00:00",
+      "relative_time": "לפני 9ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טסלה צופה כעת שהוצאות ההון ב-2026 יעלו על 25 מיליארד דולר. $TSLA גם חשפה כי היא רכשה חברת חומרה בינה מלאכותית ללא שם ברבעון השני תמורת 1.95 מיליארד דולר, ששולמה ב...",
+      "summary_he": "",
+      "body_en": "Tesla now expects 2026 capital expenditures to exceed $25 billion. $TSLA also disclosed that it acquired an unnamed AI hardware company in Q2 for $1.95 billion, paid in Tesla stock and equity awards.",
+      "ticker": "$TSLA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080234356178932050#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T10:11:34+00:00",
+      "relative_time": "לפני 10ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "נקודות השיא ברווחים של THERMO FISHER SCIENTIFIC $TMO Q2'26 🔹 הכנסות: $11.99B (הערכה. $11.7B) ; +10% YoY 🔹 התאמה EPS: $6.03 (הערכה. $5.71) 🟢; +13% משנה לשנה 🔹 צמיחה אורגנית בהכנסות:...",
+      "summary_he": "",
+      "body_en": "THERMO FISHER SCIENTIFIC $TMO Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $11.99B (Est. $11.7B) 🟢; +10% YoY 🔹 Adj. EPS: $6.03 (Est. $5.71) 🟢; +13% YoY 🔹 Organic Revenue Growth: 5% Other Q2 Metrics: 🔹 Organic",
+      "ticker": "$TMO",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080233784692387997#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T10:09:17+00:00",
+      "relative_time": "לפני 12ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "נקודות השיא ברווחים של HONEYWELL $HON Q2'26 🔹 הכנסות: $5.2B; +3% YoY 🔹 התאמה EPS: $1.95 (הערכה. $1.80) 🟢; +10% YoY 🔹 מרווח פלח: 19.0%; +100 bps YoY 🔸 הזמנות: עלייה של 16%,…",
+      "summary_he": "",
+      "body_en": "HONEYWELL $HON Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $5.2B; +3% YoY 🔹 Adj. EPS: $1.95 (Est. $1.80) 🟢; +10% YoY 🔹 Segment Margin: 19.0%; +100 bps YoY 🔸 Orders: Up 16%, leading to ~$20 billion backlog Ra",
+      "ticker": "$HON",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080233648473952642#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T10:08:45+00:00",
+      "relative_time": "לפני 12ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "ירידה מסיבית של 15 נקודות בשוורים השבוע... אנשים מתחזקים לקראת הרווחים של הפד והטכנולוגיה... AAII",
+      "summary_he": "",
+      "body_en": "A massive 15ppt drop in bulls this week... folks are bearing up ahead of the Fed & tech earnings... AAII",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2080233454659056113#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T10:07:59+00:00",
+      "relative_time": "לפני 13ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "מחיר גז AAA: $4.091 RBOB ב-$3.45 נקודות לעלייה בסוף החודש לקראת $4.40 במשאבה ב-8 הימים הקרובים.",
+      "summary_he": "",
+      "body_en": "AAA gas price: $4.091 RBOB at $3.45 points to a month-end surge toward $4.40 at the pump in the next 8 days.",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2080233238123950108#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-23T10:07:07+00:00",
+      "relative_time": "לפני 14ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "Mag 7 יורד... כל השאר נראה די טוב (ללא TXN $ ורלוונטי) @finviz_com $SPY -0.3% $SMH -0.2% $QQQ -0.4% $IWM -0.1% $EEM +0.8% $VEU +0.4% $USO שמן +4.0% זהב,...",
+      "summary_he": "",
+      "body_en": "Mag 7 down... everything else looks pretty good (sans $TXN & related) @finviz_com $SPY -0.3% $SMH -0.2% $QQQ -0.4% $IWM -0.1% $EEM +0.8% $VEU +0.4% $USO oil +4.0% Gold, bitcoin down a touch",
+      "ticker": "$TXN",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2080232742906699864#m",
+      "tag": "CRYPTO",
+      "published_at": "2026-07-23T10:05:09+00:00",
+      "relative_time": "לפני 16ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "נרטיב AI Revolution Capex ממשיך במלוא הקיטור כפי שהוכח אמש שוב על ידי אלפבית וטסלה. זה יהיה נושא מרכזי ברווחים ברבעון השני כצמיחה ו...",
+      "summary_he": "",
+      "body_en": "AI Revolution Capex narrative continues full steam ahead as evidenced last night again by Alphabet and Tesla. This will be a key theme of 2Q earnings as growth and demand from enterprises/consumers ar",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/DivesTech/status/2080228904216719553#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T09:49:54+00:00",
+      "relative_time": "לפני 31ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "פעילות ההנפקה הגואה היא אחד מארבעת הפרשים של בועת שוק, לפי מנהל תיק זה",
+      "summary_he": "",
+      "body_en": "Surging IPO activity is one of the four horsemen of a market bubble, according to this portfolio manager",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/surging-ipo-activity-is-one-of-the-fourhorsemen-of-a-market-bubble-according-to-this-portfolio-manager-35a1ab02?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-23T09:34:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "המניות בארה\"ב ירדו לפני השוק (SPX/NDX -0.3%) לאחר שהחות'ים הנתמכים על ידי איראן תקפו מכליות נפט סעודיות בים האדום, והובילו את הנפט הגולמי מסוג ברנט +4% ל-98 דולר לבלבל. $GOOG ירד ב-3.5%...",
+      "summary_he": "",
+      "body_en": "U.S. stocks fell pre-market (SPX/NDX -0.3%) after Iran-backed Houthis attacked Saudi oil tankers in the Red Sea, sending Brent crude +4% to $98/bbl. $GOOG dropped -3.5% on higher AI capex guidance and",
+      "ticker": "$GOOG",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2080223510157304159#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T09:28:28+00:00",
+      "relative_time": "לפני 53ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "מנכ\"ל UniCredit אמר ל-CNBC שרכישת קומרצבנק עשויה להתרחש ברבעון הרביעי",
+      "summary_he": "",
+      "body_en": "UniCredit CEO tells CNBC acquisition of Commerzbank could happen in fourth quarter",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/07/23/unicredit-commerzbank-takeover-acquisition-2q-earnings.html",
       "tag": "M&A",
-      "published_at": "2026-07-23T07:11:56+00:00",
+      "published_at": "2026-07-23T08:57:36+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מחירי הכסף והזהב מזמנים ריבאונד זהיר - אך אנליסטים רואים תקוות קלות לעלייה מתמשכת",
+      "title_he": "$NBIS התקינה את מתלה $NVDA Vera Rubin NVL72 המלא הראשון שלה במרכז הנתונים שלה בפינלנד לצד רשת Nvidia Spectrum-6. נביוס מביא כעת מחשוב ו...",
       "summary_he": "",
-      "body_en": "Silver and gold prices stage a cautious rebound — but analysts see slim hopes for a sustained rally",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/23/silver-gold-prices-rebound-rally-correction.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-23T05:00:01+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: כאן תוכל למצוא את פירוט הרווחים המלא שלי ב-$GOOGL: https://youtu.be/CeWOl8SXEy4?si=IZbc8_U5ZUrIs6Ov",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: Here’s where you can find my full $GOOGL earnings breakdown: https://youtu.be/CeWOl8SXEy4?si=IZbc8_U5ZUrIs6Ov",
-      "ticker": "$GOOGL",
+      "body_en": "$NBIS has installed its first full $NVDA Vera Rubin NVL72 rack at its Finland data center alongside Nvidia Spectrum-6 networking. Nebius is now bringing compute and networking up together to accelerat",
+      "ticker": "$NBIS",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080120071633199133#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T02:37:26+00:00",
-      "relative_time": "לפני 4ש׳",
+      "link": "https://nitter.net/StockSavvyShay/status/2080215544624828925#m",
+      "tag": "TECH",
+      "published_at": "2026-07-23T08:56:49+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$GOOGL מספקת את אחת התשובות הברורות ביותר עד כה לשאלה האם היפר-סקאלרים בונים עסקים רווחיים בינה מלאכותית או פשוט מוציאים כמויות אדירות של כסף כדי להגן על...",
+      "title_he": "$AMD ו-$INTC רודפות אחר הסכמי מעבד שרתים ארוכי טווח עם לקוחות סיניים גדולים, כאשר האספקה ​​מתהדקת והמחירים עולים. חלק ממחירי המעבדים בסין עלו יותר...",
       "summary_he": "",
-      "body_en": "$GOOGL is providing one of the clearest answers yet to whether hyperscalers are building profitable AI businesses or simply spending enormous amounts of money to defend their positions. Google Cloud g",
-      "ticker": "$GOOGL",
+      "body_en": "$AMD and $INTC are pursuing long-term server CPU agreements with major Chinese customers as supply tightens and prices surge. Some CPU prices in China have risen more than 40% this year while lead tim",
+      "ticker": "$AMD",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080117055878209673#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T02:25:27+00:00",
-      "relative_time": "לפני 5ש׳",
+      "link": "https://nitter.net/StockSavvyShay/status/2080213591748387153#m",
+      "tag": "TECH",
+      "published_at": "2026-07-23T08:49:03+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "אלפבית וטסלה בודקים את סבלנותה של וול סטריט כאשר הוצאות בינה מלאכותית מאפילות על הצמיחה",
-      "summary_he": "",
-      "body_en": "Alphabet and Tesla test Wall Street's patience as AI spending overshadows growth",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/22/alphabet-tesla-test-investor-patience-ai-spending-overshadows-growth.html",
-      "tag": "TECH",
-      "published_at": "2026-07-23T01:48:22+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "השוק השוורי עומד בפני סבירות גבוהה יותר להעלאת ריבית הפד ככל שהמשבר באיראן יתעצם",
-      "summary_he": "",
-      "body_en": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
-      "tag": "FED",
-      "published_at": "2026-07-23T00:27:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$GOOG -3% AH לאחר החמצה ברווחים שאינם GAAP ברבעון השני והגברת ה-CapExp שלה ל-FY'26, מה שעשוי להפעיל מרוץ חימוש חדש של CapExp. $GOOG מקרין כעת טווח CapEx לשנת 2026 של...",
-      "summary_he": "",
-      "body_en": "$GOOG -3% AH after missing on 2Q non-GAAP earnings and boosting its FY’26 CapExp, potentially triggering a new CapExp arms race. $GOOG now projects a 2026 CapEx range of $195B to $205B, up $15B from i",
-      "ticker": "$GOOG",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2080087139480445027#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T00:26:34+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "דרום קוריאה 🇰🇷 התמ\"ג ברבעון השני מתרחב ב-0.6% QoQ; EST. +0.4%",
-      "summary_he": "",
-      "body_en": "SOUTH KOREA 🇰🇷 Q2 GDP EXPANDS 0.6% QoQ; EST. +0.4%",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080066853096083606#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-22T23:05:58+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אמזון $AMZN נחקרת על ידי ועדת הסנאט לעסקים קטנים על רקע השפעה סינית לכאורה ומניפולציה פנימית על השוק שלה, מדווח בלומברג.",
-      "summary_he": "",
-      "body_en": "Amazon $AMZN is being investigated by the Senate Small Business Committee over alleged Chinese influence and insider manipulation of its marketplace, Bloomberg reports. The probe follows claims that A",
-      "ticker": "$AMZN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080066752357285940#m",
-      "tag": "TECH",
-      "published_at": "2026-07-22T23:05:34+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טסלה מחמיצה רווחים, שכן תזרים המזומנים החופשי הופך לשלילי והרווחים יורדים",
-      "summary_he": "",
-      "body_en": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-22T22:30:40+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "Alphabet $GOOGL יורד ב-4.5% לאחר שעות העבודה בעקבות הרווחים ברבעון השני. זה יהיה הרבעון ה-9 בחמש השנים האחרונות שבו המניה נפתחה בירידה של 4%+ בבוקר שאחרי...",
-      "summary_he": "",
-      "body_en": "Alphabet $GOOGL is down 4.5% after hours following Q2 earnings. This would be the 9th quarter in the last five years where the stock opened down 4%+ the morning after earnings. The stock is up 157% ov",
-      "ticker": "$GOOGL",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2080045858616185142#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-22T21:42:32+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RTX $RTX, Thermo Fisher $TMO ו-Union Pacific $UNP הן החברות הגדולות ביותר שמדווחות לפני פעמון הפתיחה מחר. לאחר הסגירה, זה אינטל $INTC, ניומונט...",
-      "summary_he": "",
-      "body_en": "RTX $RTX, Thermo Fisher $TMO, and Union Pacific $UNP are the largest companies reporting before the opening bell tomorrow. After the close, it's Intel $INTC, Newmont $NEM, and Comfort Systems $FIX.",
-      "ticker": "$RTX",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2080042704298283282#m",
-      "tag": "TECH",
-      "published_at": "2026-07-22T21:30:00+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @wallstengine: גוגל העלתה את המדריך שלה ל-FY26 CapEx ל-$195B-$205B, עלייה מ-$180B-$190B, תוך ציון אספקת קיבולת מואצת כדי לענות על ביקוש חזק יותר. $GOOGL…",
-      "summary_he": "",
-      "body_en": "RT by @wallstengine: Google RAISED its FY26 CapEx guide to $195B-$205B, up from $180B-$190B, citing accelerated capacity deliveries to meet stronger demand. $GOOGL expects only a small portion of reve",
-      "ticker": "$GOOGL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080036382610006347#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-22T21:04:53+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "*GOOGLE רואה השקעה של 195 מיליארד דולר עד 205 מיליארד דולר לשנה שלמה 2026, ראתה 180 מיליארד דולר עד 190 מיליארד דולר * GOOGLE רואה את ההשקעה של FY27 עולה \"באופן משמעותי\" $GOOGL $GOOG",
-      "summary_he": "",
-      "body_en": "*GOOGLE SEES FULL YEAR 2026 CAPEX $195B TO $205B, SAW $180B TO $190B *GOOGLE SEES FY27 CAPEX INCREASING 'SIGNIFICANTLY' $GOOGL $GOOG",
-      "ticker": "$GOOGL",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2080035652029096335#m",
-      "tag": "TECH",
-      "published_at": "2026-07-22T21:01:59+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "השוטרים פשטו על הבית - ומצאו: 2.5 מיליון שקלים ארוזים בשקיות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855664",
+      "tag": "כללי",
+      "published_at": "2026-07-23T11:48:00+00:00"
+    },
+    {
+      "title_he": "קטטה אלימה באילת: מנסים לכלוא, תוקפים באגרופים - ומאיימים שלא לספר למשטרה | צפו בתיעוד",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855570",
+      "tag": "כללי",
+      "published_at": "2026-07-23T11:31:00+00:00"
+    },
     {
       "title_he": "רצח בניהו רזי: נעצר מקורב לחשודה המרכזית בחשד ששלח את הרוצחים",
       "summary_he": "",
@@ -1045,7 +1064,7 @@
       "published_at": "2026-07-23T07:12:00+00:00"
     },
     {
-      "title_he": "הסטודנט הערבי הואשם בהסתה לטרור - ובפרקליטות מוחים על גזר הדין המקל",
+      "title_he": "הסטודנט הערבי הורשע בהסתה לטרור - ובפרקליטות מוחים על גזר הדין המקל",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3855567",
@@ -1083,22 +1102,6 @@
       "link": "https://news.walla.co.il/item/3855500",
       "tag": "כללי",
       "published_at": "2026-07-22T17:01:00+00:00"
-    },
-    {
-      "title_he": "\"כמו מריונטות\": ביטאון ש\"ס בתקיפה חריפה על הציבור הדתי-לאומי",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855475",
-      "tag": "כללי",
-      "published_at": "2026-07-22T15:30:00+00:00"
-    },
-    {
-      "title_he": "3 חשודים נעצרו בפרשת קפה \"בנדיטה\" - סנגורית אחד החשודים: \"גורמים עברייניים ניצלו את מצבו\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855467",
-      "tag": "כללי",
-      "published_at": "2026-07-22T14:51:00+00:00"
     }
   ],
   "track_record": {
