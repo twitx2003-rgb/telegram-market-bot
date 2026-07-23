@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T01:00:46.414106+00:00",
+  "generated_at": "2026-07-23T04:50:40.146532+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -325,7 +325,7 @@
         "sma50": 400.32,
         "sma200": 437.53,
         "pct_from_52w_high": -29.7,
-        "vol_ratio": 0.76,
+        "vol_ratio": 0.77,
         "change_1d_pct": -1.86,
         "change_1w_pct": -1.3,
         "change_1m_pct": 6.3,
@@ -376,7 +376,7 @@
         "sma50": 367.48,
         "sma200": 323.19,
         "pct_from_52w_high": -16.3,
-        "vol_ratio": 0.8,
+        "vol_ratio": 0.82,
         "change_1d_pct": -1.46,
         "change_1w_pct": -7.8,
         "change_1m_pct": -2.2,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-23T01:00:46.414118+00:00",
+  "ta_generated_at": "2026-07-23T04:50:40.146544+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "-0.92%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.9190983195293934
+      "pct_raw": -0.9192608957622009
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,130.3",
-      "change": "-0.52%",
+      "value": "$4,128.1",
+      "change": "-0.57%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.5202437438281138
+      "pct_raw": -0.5732315325513445
     },
     {
       "name": "נפט ברנט",
-      "value": "$95.7",
-      "change": "+1.70%",
+      "value": "$95.8",
+      "change": "+1.79%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.700861060912096
+      "pct_raw": 1.7859041139576985
     },
     {
       "name": "ביטקוין",
-      "value": "$66,019",
-      "change": "-0.09%",
+      "value": "$65,592",
+      "change": "-0.74%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.09320372481974258
+      "pct_raw": -0.7396522906340078
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.056",
-      "change": "-0.02%",
-      "direction": "down",
+      "value": "3.057",
+      "change": "+0.03%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.016358580075254932
+      "pct_raw": 0.02944544413543853
     }
   ],
   "sectors": [
@@ -856,14 +856,25 @@
   },
   "us_news": [
     {
-      "title_he": "מחירי הנפט מטפסים לאחר שמכלית נפלה על סעודיה, טראמפ מסלים את האיומים של איראן",
+      "title_he": "חברת שבבים מתומחרת כחברה היקרה ביותר בסין לפני שההנפקה שלה הביאה בדיקה לפלטפורמת הקריפטו",
       "summary_he": "",
-      "body_en": "Oil prices climb after tanker struck off Saudi Arabia, Trump escalates Iran threats",
+      "body_en": "Chip firm priced as China's most valuable company before its IPO brings scrutiny to crypto platform",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
-      "tag": "ENERGY",
-      "published_at": "2026-07-23T00:55:28+00:00",
+      "link": "https://www.cnbc.com/2026/07/23/chip-firm-priced-as-most-valuable-china-firm-pre-ipo-on-crypto-site.html",
+      "tag": "CRYPTO",
+      "published_at": "2026-07-23T03:28:22+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אלפבית וטסלה בודקים את סבלנותה של וול סטריט כאשר הוצאות בינה מלאכותית מאפילות על הצמיחה",
+      "summary_he": "",
+      "body_en": "Alphabet and Tesla test Wall Street's patience as AI spending overshadows growth",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/22/alphabet-tesla-test-investor-patience-ai-spending-overshadows-growth.html",
+      "tag": "TECH",
+      "published_at": "2026-07-23T01:48:22+00:00",
       "sentiment": "neutral"
     },
     {
@@ -878,7 +889,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$GOOG -3% AH לאחר החמצה ברווחים שאינם GAAP ברבעון השני והגברת ה-CapExp שלה ל-FY'26, מה שעשוי להפעיל מרוץ חימוש חדש של CapExp. $GOOG מקרין כעת טווח CapEx לשנת 2026 של...",
+      "title_he": "$GOOG -3% AH לאחר החמצה ברווחים שאינם GAAP ברבעון השני והגברת ה-CapExp שלה ב-FY'26, מה שעשוי להפעיל מרוץ חימוש חדש של CapExp. $GOOG מקרין כעת טווח CapEx לשנת 2026 של...",
       "summary_he": "",
       "body_en": "$GOOG -3% AH after missing on 2Q non-GAAP earnings and boosting its FY’26 CapExp, potentially triggering a new CapExp arms race. $GOOG now projects a 2026 CapEx range of $195B to $205B, up $15B from i",
       "ticker": "$GOOG",
@@ -886,29 +897,7 @@
       "link": "https://nitter.net/garyblack00/status/2080087139480445027#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-23T00:26:34+00:00",
-      "relative_time": "לפני 33ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית ServiceNow עולה כאשר הרווחים מראים מומנטום באבטחת סייבר",
-      "summary_he": "",
-      "body_en": "ServiceNow’s stock rises as earnings show momentum in cybersecurity",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/servicenows-stock-gains-as-earnings-show-momentum-in-cybersecurity-86e7a038?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T00:18:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "יבמ מורידה את התחזית לשנה כולה לאחר אזהרת רווחים",
-      "summary_he": "",
-      "body_en": "IBM lowers full-year forecast after earnings warning",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/22/ibm-q2-earnings-report-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T00:17:38+00:00",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -920,7 +909,7 @@
       "link": "https://nitter.net/wallstengine/status/2080066853096083606#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-22T23:05:58+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -932,30 +921,7 @@
       "link": "https://nitter.net/wallstengine/status/2080066752357285940#m",
       "tag": "TECH",
       "published_at": "2026-07-22T23:05:34+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "צבר ה-$GOOGL Cloud עולה על חצי טריליון דולר במחיר של 514 מיליארד דולר. ההנהלה גם אמרה שלקוחות קיימים צורכים יותר מ-50% מעל ההתחייבויות המקוריות שלהם...",
-      "summary_he": "",
-      "body_en": "$GOOGL Cloud backlog surpasses half a trillion dollars at $514B. Management also said existing customers are consuming more than 50% above their original commitments while new customer acquisition has",
-      "ticker": "$GOOGL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080063140818264486#m",
-      "tag": "M&A",
-      "published_at": "2026-07-22T22:51:13+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אני רוצה להעביר 17,000$ חוב בכרטיס אשראי. מדוע וולס פארגו הציע לי רק תקרת אשראי של 4,000 דולר?",
-      "summary_he": "",
-      "body_en": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
-      "tag": "BANKS",
-      "published_at": "2026-07-22T22:46:00+00:00",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -978,7 +944,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080045858616185142#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-22T21:42:32+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -990,23 +956,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2080042704298283282#m",
       "tag": "TECH",
       "published_at": "2026-07-22T21:30:00+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @StockSavvyShay: $GOOGL אומר שהיא \"תרחיב את השימוש בקיבולת צד שלישי ברבעון השלישי\" כגשר בזמן שהיא בונה יותר קיבולת פנימית. אחרי שנים של עלייה…",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $GOOGL says it will “expand the use of third party capacity in Q3” as a bridge while it builds more internal capacity. After years of surging hyperscaler CaPex, demand still exc",
-      "ticker": "$GOOGL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080039343583092821#m",
-      "tag": "TECH",
-      "published_at": "2026-07-22T21:16:39+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @wallstengine: גוגל העלתה את המדריך שלה ל-FY26 CapEx ל-$195B-$205B, עלייה מ-$180B-$190B, תוך ציון אספקת קיבולת מואצת כדי לענות על ביקוש חזק יותר. $GOOGL…",
+      "title_he": "RT מאת @wallstengine: גוגל העלתה את המדריך ל-FY26 CapEx ל-$195B-$205B, עלייה מ-$180B-$190B, תוך ציון אספקת קיבולת מואצת כדי לענות על ביקוש חזק יותר. $GOOGL…",
       "summary_he": "",
       "body_en": "RT by @wallstengine: Google RAISED its FY26 CapEx guide to $195B-$205B, up from $180B-$190B, citing accelerated capacity deliveries to meet stronger demand. $GOOGL expects only a small portion of reve",
       "ticker": "$GOOGL",
@@ -1014,11 +968,75 @@
       "link": "https://nitter.net/wallstengine/status/2080036382610006347#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-22T21:04:53+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "*GOOGLE רואה השקעה של 195 מיליארד דולר עד 205 מיליארד דולר לשנה שלמה 2026, ראתה 180 מיליארד דולר עד 190 מיליארד דולר * GOOGLE רואה את ההשקעה של FY27 עולה \"באופן משמעותי\" $GOOGL $GOOG",
+      "summary_he": "",
+      "body_en": "*GOOGLE SEES FULL YEAR 2026 CAPEX $195B TO $205B, SAW $180B TO $190B *GOOGLE SEES FY27 CAPEX INCREASING 'SIGNIFICANTLY' $GOOGL $GOOG",
+      "ticker": "$GOOGL",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2080035652029096335#m",
+      "tag": "TECH",
+      "published_at": "2026-07-22T21:01:59+00:00",
+      "relative_time": "לפני 7ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: אלפבית תהיה קובעת טון לעונת הרווחים הטכנולוגיים המרכזיים שלפנינו במהפכת הבינה המלאכותית ומפתח צמיחת הענן @CNBCClosingBell 🍿🐂🏆",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: Alphabet will be a tone setter for a key tech earnings season ahead in the AI Revolution and cloud growth key @CNBCClosingBell 🍿🐂🏆",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/DivesTech/status/2080035412609831205#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T21:01:02+00:00",
+      "relative_time": "לפני 7ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סיכויי תמחור השוק שיהיו לנו שתי העלאות ריבית עד פגישת סוף אוקטובר, ממש לפני אמצע הקדנציות, הם כעת כפול מהסיכוי שלא ייעלו ריבית עד אז.",
+      "summary_he": "",
+      "body_en": "Market pricing odds that we'll have two rate hikes by the late October meeting just ahead of the mid-terms are now double the odds of no rate hikes by then.",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2080034982475559134#m",
+      "tag": "FED",
+      "published_at": "2026-07-22T20:59:19+00:00",
+      "relative_time": "לפני 7ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "TESLA רק דיווחה על רווחים *TESLA 2Q REV. $28.24B, EST. $26.32B ( BEAT ✅ ) ​​*TESLA 2Q ADJ EPS 33C, EST. 51C ( MISS ❌ ) *TESLA 2Q רווח גולמי 16.8%, EST. 19.4% ( MISS ❌…",
+      "summary_he": "",
+      "body_en": "TESLA JUST REPORTED EARNINGS *TESLA 2Q REV. $28.24B, EST. $26.32B ( BEAT ✅ ) *TESLA 2Q ADJ EPS 33C, EST. 51C ( MISS ❌ ) *TESLA 2Q GROSS MARGIN 16.8%, EST. 19.4% ( MISS ❌ ) $TSLA",
+      "ticker": "$TSLA",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2080021895508897799#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-22T20:07:19+00:00",
+      "relative_time": "לפני 8ש׳",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "מה העונש על השלכת רימון? על רקע גל האלימות במרכז, מומחה למשפט פלילי מסביר",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855584",
+      "tag": "כללי",
+      "published_at": "2026-07-23T07:12:00+00:00"
+    },
+    {
+      "title_he": "הסטודנט הערבי הואשם בהסתה לטרור - ובפרקליטות מוחים על גזר הדין המקל",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855567",
+      "tag": "כללי",
+      "published_at": "2026-07-23T05:52:00+00:00"
+    },
     {
       "title_he": "תמונות מבירת הנגב מ-1949 נחשפות: כך נראתה העיר באר שבע",
       "summary_he": "",
@@ -1082,22 +1100,6 @@
       "link": "https://news.walla.co.il/item/3855439",
       "tag": "כללי",
       "published_at": "2026-07-22T13:04:00+00:00"
-    },
-    {
-      "title_he": "סנגוריו של נתניהו: דורשים מהיועמ\"שית התייחסות למחיקת סעיף השוחד",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855429",
-      "tag": "כללי",
-      "published_at": "2026-07-22T12:23:00+00:00"
-    },
-    {
-      "title_he": "תשעה באב 2026 - תשפ\"ו: מתי הצום, המנהגים וכל מה שצריך לדעת",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3680686",
-      "tag": "כללי",
-      "published_at": "2026-07-22T12:08:00+00:00"
     }
   ],
   "track_record": {
