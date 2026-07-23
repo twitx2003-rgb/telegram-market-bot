@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T22:03:29.828396+00:00",
+  "generated_at": "2026-07-23T23:28:06.239328+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-23T22:03:29.828409+00:00",
+  "ta_generated_at": "2026-07-23T23:28:06.239339+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,052.3",
-      "change": "+0.05%",
+      "value": "$4,050.7",
+      "change": "+0.01%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.05184929139302662
+      "pct_raw": 0.012345069379289912
     },
     {
       "name": "נפט ברנט",
       "value": "$100.5",
-      "change": "-0.14%",
+      "change": "-0.17%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.13904061972390563
+      "pct_raw": -0.16883503823617213
     },
     {
       "name": "ביטקוין",
-      "value": "$65,116",
-      "change": "-1.46%",
+      "value": "$65,106",
+      "change": "-1.48%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.4600706253910942
+      "pct_raw": -1.475551614267638
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.072",
-      "change": "+0.49%",
-      "direction": "up",
+      "value": "3.067",
+      "change": "-0.15%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.4940291182725304
+      "pct_raw": -0.1497590832139581
     }
   ],
   "sectors": [
@@ -856,6 +856,76 @@
   },
   "us_news": [
     {
+      "title_he": "$AMD העלתה את אומדן ה-CPU TAM של השרת ליותר מ-200 מיליארד דולר עד 2030, בעודה כבר מחזיקה ב-46% בהכנסות. ההתרחבות הזו מונעת על ידי שינוי בינה מלאכותית אנטי...",
+      "summary_he": "",
+      "body_en": "$AMD raised its server CPU TAM estimate to more than $200B by 2030 while already holding 46% revenue share. That expansion is being driven by agentic AI shifting CPU-to-GPU ratios from roughly 1:8 tow",
+      "ticker": "$AMD",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080423480798159256#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T22:43:04+00:00",
+      "relative_time": "לפני 44ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "שבירה: עשרות שותפי הסחר של אמריקה מאירופה לסין ועד הודו יתמודדו עם מכסים חדשים של 10% עד 12.5% ​​על סחורות שנשלחו לארצות הברית, לפי CNN",
+      "summary_he": "",
+      "body_en": "BREAKING: Dozens of America’s trading partners from Europe to China to India will face new tariffs of 10% to 12.5% on goods shipped to the United State, per CNN",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2080420478867673317#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-23T22:31:09+00:00",
+      "relative_time": "לפני 56ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "המניה של אינטל מזנקת כאשר יצרנית השבבים מזנקת בבינה מלאכותית לצמיחת ההכנסות המהירה ביותר זה כמעט 15 שנה",
+      "summary_he": "",
+      "body_en": "Intel's stock jumps as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T22:17:09+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "R ל-@StockSavvyShay: כאן תוכל למצוא את פירוט הרווחים המלא שלי ב-$TSLA: https://youtu.be/S9dh-NEylHI?si=6rk3POc0avPpxRuc",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: Here’s where you can find my full $TSLA earnings breakdown: https://youtu.be/S9dh-NEylHI?si=6rk3POc0avPpxRuc",
+      "ticker": "$TSLA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080415025630773654#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T22:09:29+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$TSLA מאמינה שאופטימוס יכולה לעשות שימוש חוזר באותה ערימת AI מקצה לקצה כמו למידה של FSD ממצלמות, עובדי מפעל, סימולציה ובסופו של דבר צי גדל של רובוטים. זֶה…",
+      "summary_he": "",
+      "body_en": "$TSLA believes Optimus can reuse the same end-to-end AI stack as FSD learning from cameras, factory workers, simulation and eventually a growing fleet of robots. That could create a powerful physical ",
+      "ticker": "$TSLA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080414854775738662#m",
+      "tag": "TECH",
+      "published_at": "2026-07-23T22:08:48+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הבזקי S&P 500 איתותי מכירה - סוחרי אופציות מתכוננים לתנודות פרועות באפל, מטה ומיקרוסופט",
+      "summary_he": "",
+      "body_en": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-07-23T22:03:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "היריבות של AMD עם Nvidia עוברת יותר ויותר לתחום חדש",
       "summary_he": "",
       "body_en": "AMD’s rivalry with Nvidia is increasingly moving into a new realm",
@@ -864,6 +934,42 @@
       "link": "https://www.marketwatch.com/story/amds-rivalry-with-nvidia-is-increasingly-moving-into-a-new-realm-ac63eceb?mod=mw_rss_topstories",
       "tag": "TECH",
       "published_at": "2026-07-23T21:59:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$INTC על רמפת היציקה וה-CAPEX שלה: \"ההשקעה בכלי עבודה תגדל ב-40% בשנת 2026 בהשוואה ל-2025, מתמקדת באינטל 3, 18A ו-18A-P. \"14A PDK 0.9 נשאר על...",
+      "summary_he": "",
+      "body_en": "$INTC ON ITS FOUNDRY AND CAPEX RAMP: “Tooling investment will increase by 40% in 2026 compared with 2025, focused on Intel 3, 18A, and 18A-P. “14A PDK 0.9 remains on track for October, risk production",
+      "ticker": "$INTC",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080411087762235823#m",
+      "tag": "TECH",
+      "published_at": "2026-07-23T21:53:50+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$INTC סמנכ\"ל כספים על מימון RAMP CAPEX של INTEL; MAY TAP שוק ההון: \"יש לנו יותר מ-30 מיליארד דולר במזומן ואקדח של 10 מיליארד דולר, כך שיש לנו נזילות של 40 מיליארד דולר. \"יש לנו גם בערך...",
+      "summary_he": "",
+      "body_en": "$INTC CFO ON FUNDING INTEL’S CAPEX RAMP; MAY TAP CAPITAL MARKET: “We have over $30B of cash and a $10B revolver, so we’ve got $40B of liquidity. “We also have roughly $10B of non-core assets that can ",
+      "ticker": "$INTC",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080410897592492068#m",
+      "tag": "TECH",
+      "published_at": "2026-07-23T21:53:04+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: סמנכ\"ל כספים של $INTC על מימון RAMP CAPEX של INTEL; MAY TAP MARKET CAPITAL: \"יש לנו יותר מ-30 מיליארד דולר במזומן ואקדח של 10 מיליארד דולר, אז יש לנו נזילות של 40 מיליארד דולר. \"אנחנו...",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: $INTC CFO ON FUNDING INTEL’S CAPEX RAMP; MAY TAP CAPITAL MARKET: “We have over $30B of cash and a $10B revolver, so we’ve got $40B of liquidity. “We also have roughly $10B of non-cor",
+      "ticker": "$INTC",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/wallstengine/status/2080410897592492068#m",
+      "tag": "TECH",
+      "published_at": "2026-07-23T21:53:04+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +1006,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "אמריקן אקספרס $AXP, NextEra Energy $NEE ו-Verizon $VZ הם שלושת השמות הגדולים ביותר המדווחים על רווחים לסגירת השבוע.",
+      "title_he": "אמריקן אקספרס $AXP, NextEra Energy $NEE ו-Verizon $VZ הם שלושת השמות הגדולים ביותר המדווחים על רווחים לסגור את השבוע.",
       "summary_he": "",
       "body_en": "American Express $AXP, NextEra Energy $NEE, and Verizon $VZ are the three biggest names reporting earnings to close out the week.",
       "ticker": "$AXP",
@@ -908,111 +1014,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080405090377019464#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-23T21:30:00+00:00",
-      "relative_time": "לפני 32ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "INTEL $INTC: אנו צופים שה-CAPEX לשנת 2027 תהיה משמעותית מעל לרמות של 2026, כאשר הרוב המכריע הושקע ברחבי הרשת שלנו בארה\"ב.",
-      "summary_he": "",
-      "body_en": "INTEL $INTC: We're forecasting 2027 CAPEX to be significantly above the 2026 levels, with the vast majority spent across our U.S. network.",
-      "ticker": "$INTC",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080404802937479562#m",
-      "tag": "TECH",
-      "published_at": "2026-07-23T21:28:51+00:00",
-      "relative_time": "לפני 34ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שיחת הרווחים של $INTC עומדת להתחיל. כל מי שמחפש להאזין בשידור חי יכול לעקוב אחריו ב-@PPLXfinance:...",
-      "summary_he": "",
-      "body_en": "$INTC's earnings call Q&A is about to begin. Anyone looking to listen live can follow it on @PPLXfinance: https://www.perplexity.ai/finance/INTC/earnings?eventId=653928&tab=transcript",
-      "ticker": "$INTC",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080404078056931470#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T21:25:58+00:00",
-      "relative_time": "לפני 37ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "המניה של אינטל מזנקת כאשר יצרנית השבבים מזנקת בבינה מלאכותית לצמיחת ההכנסות המהירה ביותר זה כמעט 15 שנה",
-      "summary_he": "",
-      "body_en": "Intel's stock jumps as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T21:25:26+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "16 המדינות הללו מציעות ימי קניות פטורים ממס, מכיוון שעלויות החזרה לבית הספר מזנקות ליותר מ-$800 לתלמיד",
-      "summary_he": "",
-      "body_en": "These 16 states are offering tax-free shopping days as back-to-school costs soar to over $800 per student",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-23T21:15:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$ORCL מנחת הסכם תוכנה של הפנטגון בשווי של כמעט 7 מיליארד דולר במשך 10 שנים המכסה את משרד ההגנה, משמר החופים וקהילת המודיעין. ההסכם…",
-      "summary_he": "",
-      "body_en": "$ORCL lands a Pentagon software agreement worth nearly $7B over 10 years covering the Defense Department, Coast Guard and intelligence community. The agreement consolidates software licenses and is ex",
-      "ticker": "$ORCL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080400388793184598#m",
-      "tag": "TECH",
-      "published_at": "2026-07-23T21:11:19+00:00",
-      "relative_time": "לפני 51ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$NVDA משלם מראש $AMKR $1.5B כדי להרחיב את קיבולת אריזת השבבים המתקדמת עבור מערכות AI מהדור הבא. העסקה תרחיב את המתקן של אמקור באריזונה ותביא עוד...",
-      "summary_he": "",
-      "body_en": "$NVDA is prepaying $AMKR $1.5B to expand advanced chip packaging capacity for next-generation AI systems. The deal will scale Amkor’s Arizona facility and bring more of Nvidia’s AI supply chain into t",
-      "ticker": "$NVDA",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080398649100828878#m",
-      "tag": "M&A",
-      "published_at": "2026-07-23T21:04:24+00:00",
-      "relative_time": "לפני 58ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ארה\"ב קובעת תעריפים חדשים של 10%-12.5% ​​כאשר פג תוקף העונש העולמי של 10%",
-      "summary_he": "",
-      "body_en": "US SETS NEW 10%-12.5% TARIFFS AS GLOBAL 10% PENALTY EXPIRES",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2080397800387321978#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-23T21:01:02+00:00",
       "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הבזקי S&P 500 איתותי מכירה - סוחרי אופציות מתכוננים לתנודות פרועות באפל, מטה ומיקרוסופט",
-      "summary_he": "",
-      "body_en": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-07-23T20:47:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "תשואת האוצר ל-10 שנים עולה לשיא מאז ינואר 2025, כאשר הנפט הגואה מעורר מחדש את החשש לאינפלציה",
-      "summary_he": "",
-      "body_en": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
-      "tag": "ENERGY",
-      "published_at": "2026-07-23T20:30:50+00:00",
       "sentiment": "neutral"
     }
   ],
