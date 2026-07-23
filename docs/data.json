@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T20:35:43.191245+00:00",
+  "generated_at": "2026-07-23T22:03:29.828396+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -172,7 +172,7 @@
         "sma50": 321.39,
         "sma200": 310.46,
         "pct_from_52w_high": -0.4,
-        "vol_ratio": 0.94,
+        "vol_ratio": 1.0,
         "change_1d_pct": 0.49,
         "change_1w_pct": 2.0,
         "change_1m_pct": 4.7,
@@ -274,7 +274,7 @@
         "sma50": 305.47,
         "sma200": 275.6,
         "pct_from_52w_high": -4.0,
-        "vol_ratio": 0.86,
+        "vol_ratio": 0.87,
         "change_1d_pct": -1.3,
         "change_1w_pct": -3.5,
         "change_1m_pct": 9.3,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-23T20:35:43.191257+00:00",
+  "ta_generated_at": "2026-07-23T22:03:29.828409+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,051.3",
-      "change": "-2.42%",
-      "direction": "down",
+      "value": "$4,052.3",
+      "change": "+0.05%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -2.422987066162467
+      "pct_raw": 0.05184929139302662
     },
     {
       "name": "נפט ברנט",
-      "value": "$100.3",
-      "change": "+6.58%",
-      "direction": "up",
+      "value": "$100.5",
+      "change": "-0.14%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 6.5802062294036485
+      "pct_raw": -0.13904061972390563
     },
     {
       "name": "ביטקוין",
-      "value": "$65,073",
-      "change": "-1.53%",
+      "value": "$65,116",
+      "change": "-1.46%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.5253389587483952
+      "pct_raw": -1.4600706253910942
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.073",
-      "change": "+0.54%",
+      "value": "3.072",
+      "change": "+0.49%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.5365614264681816
+      "pct_raw": 0.4940291182725304
     }
   ],
   "sectors": [
@@ -856,166 +856,163 @@
   },
   "us_news": [
     {
-      "title_he": "מניית אינטל מזנקת ב-11% כאשר יצרנית השבבים מובילה לתנופת בינה מלאכותית לצמיחת ההכנסות המהירה ביותר זה כמעט 15 שנה",
+      "title_he": "היריבות של AMD עם Nvidia עוברת יותר ויותר לתחום חדש",
       "summary_he": "",
-      "body_en": "Intel's stock jumps 11% as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
+      "body_en": "AMD’s rivalry with Nvidia is increasingly moving into a new realm",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/amds-rivalry-with-nvidia-is-increasingly-moving-into-a-new-realm-ac63eceb?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-07-23T21:59:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ מוציא גל חדש של מכסים עולמיים. להלן התעריפים העדכניים ביותר.",
+      "summary_he": "",
+      "body_en": "Trump rolls out a new wave of global tariffs. Here are the latest rates.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/trump-rolls-out-a-new-wave-of-tariffs-here-are-the-latest-rates-449af1d3?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-23T21:50:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ יטיל מכסים 'גורפים' חדשים על 60 שותפי סחר עם פקיעת החובות העולמיות",
+      "summary_he": "",
+      "body_en": "Trump to slap 'sweeping' new tariffs on 60 trade partners as global duties expire",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/23/trump-tariffs-trade-deadline.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-23T21:43:10+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניית ServiceNow יורדת כאשר איום AI חדש מאפיל על קצב הרווחים",
+      "summary_he": "",
+      "body_en": "ServiceNow’s stock falls as a new AI threat overshadows earnings beat",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/why-servicenows-stock-is-a-rare-bright-spot-while-the-rest-of-tech-stumbles-383f7f20?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T21:41:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אמריקן אקספרס $AXP, NextEra Energy $NEE ו-Verizon $VZ הם שלושת השמות הגדולים ביותר המדווחים על רווחים לסגירת השבוע.",
+      "summary_he": "",
+      "body_en": "American Express $AXP, NextEra Energy $NEE, and Verizon $VZ are the three biggest names reporting earnings to close out the week.",
+      "ticker": "$AXP",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2080405090377019464#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T21:30:00+00:00",
+      "relative_time": "לפני 32ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "INTEL $INTC: אנו צופים שה-CAPEX לשנת 2027 תהיה משמעותית מעל לרמות של 2026, כאשר הרוב המכריע הושקע ברחבי הרשת שלנו בארה\"ב.",
+      "summary_he": "",
+      "body_en": "INTEL $INTC: We're forecasting 2027 CAPEX to be significantly above the 2026 levels, with the vast majority spent across our U.S. network.",
+      "ticker": "$INTC",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080404802937479562#m",
+      "tag": "TECH",
+      "published_at": "2026-07-23T21:28:51+00:00",
+      "relative_time": "לפני 34ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שיחת הרווחים של $INTC עומדת להתחיל. כל מי שמחפש להאזין בשידור חי יכול לעקוב אחריו ב-@PPLXfinance:...",
+      "summary_he": "",
+      "body_en": "$INTC's earnings call Q&A is about to begin. Anyone looking to listen live can follow it on @PPLXfinance: https://www.perplexity.ai/finance/INTC/earnings?eventId=653928&tab=transcript",
+      "ticker": "$INTC",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080404078056931470#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-23T21:25:58+00:00",
+      "relative_time": "לפני 37ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "המניה של אינטל מזנקת כאשר יצרנית השבבים מזנקת בבינה מלאכותית לצמיחת ההכנסות המהירה ביותר זה כמעט 15 שנה",
+      "summary_he": "",
+      "body_en": "Intel's stock jumps as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:26:44+00:00",
+      "published_at": "2026-07-23T21:25:26+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "טסלה, אלפבית מאבדים מאות מיליארדי ערך בצניחת מניות לאחר הרווחים",
+      "title_he": "16 המדינות הללו מציעות ימי קניות פטורים ממס, מכיוון שעלויות החזרה לבית הספר מזנקות ליותר מ-$800 לתלמיד",
       "summary_he": "",
-      "body_en": "Tesla, Alphabet lose hundreds of billions in value in post-earnings stock plunge",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/23/tesla-tsla-alphabet-googl-stock-today.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:26:38+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "מניות אינטל עלו כעת ביותר מ-13% לאחר שעות לאחר דיווח על רווחים $INTC",
-      "summary_he": "",
-      "body_en": "INTEL SHARES ARE NOW UP OVER 13% AFTER HOURS AFTER REPORTING EARNINGS $INTC",
-      "ticker": "$INTC",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2080389132627419410#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:26:35+00:00",
-      "relative_time": "לפני 8ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הסיכויים להעלאת הריבית של הפדרל ריזרב עלו ככל שמחירי הנפט עולים",
-      "summary_he": "",
-      "body_en": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
-      "tag": "FED",
-      "published_at": "2026-07-23T20:25:28+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$INTC פרסמה זה עתה צמיחה שיא של 59% בהכנסות מבינה מלאכותית שכן כל מתלה מאיץ עדיין זקוק למעבדי Xeon נוספים כדי לנהל את תנועת הנתונים, האחסון ותזמון סביב המאיץ...",
-      "summary_he": "",
-      "body_en": "$INTC just posted record 59% AI revenue growth as every accelerator rack still needs more Xeon CPUs to manage data movement, storage and scheduling around accelerator clusters. That makes Intel a dire",
-      "ticker": "$INTC",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080387479946121298#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:20:01+00:00",
-      "relative_time": "לפני 15ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "צמיחת הרווח המסיבית של אלפבית היא 'הזויה', שכן SpaceX ואנתרופיק עוזרות להסוות ניקוז מזומנים היסטורי",
-      "summary_he": "",
-      "body_en": "Alphabet’s massive profit growth is ‘illusory’, as SpaceX and Anthropic help mask a historic cash drain",
+      "body_en": "These 16 states are offering tax-free shopping days as back-to-school costs soar to over $800 per student",
       "ticker": "",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/alphabets-massive-profit-growth-is-just-an-illusion-as-spacex-and-anthropic-help-mask-a-historic-cash-drain-ffff172d?mod=mw_rss_topstories",
+      "link": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
       "tag": "NEWS",
-      "published_at": "2026-07-23T20:17:00+00:00",
+      "published_at": "2026-07-23T21:15:00+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "MAXLINEAR $MXL Q2'26 שירי רווחים 🔹 הכנסה: $168.8M (הערכה. $164.7M) ; +55% YoY 🔹 התאמה EPS: $0.35 (הערכה. $0.33) 🟢 🔹 התאמה רווח גולמי: 59.5%; +40 bps YoY 🔹 התאמה...",
+      "title_he": "$ORCL מנחת הסכם תוכנה של הפנטגון בשווי של כמעט 7 מיליארד דולר במשך 10 שנים המכסה את משרד ההגנה, משמר החופים וקהילת המודיעין. ההסכם…",
       "summary_he": "",
-      "body_en": "MAXLINEAR $MXL Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $168.8M (Est. $164.7M) 🟢; +55% YoY 🔹 Adj. EPS: $0.35 (Est. $0.33) 🟢 🔹 Adj. Gross Margin: 59.5%; +40 bps YoY 🔹 Adj. Operating Margin: 22.3%; UP from ",
-      "ticker": "$MXL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080386451393708080#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:15:56+00:00",
-      "relative_time": "לפני 19ד׳",
+      "body_en": "$ORCL lands a Pentagon software agreement worth nearly $7B over 10 years covering the Defense Department, Coast Guard and intelligence community. The agreement consolidates software licenses and is ex",
+      "ticker": "$ORCL",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080400388793184598#m",
+      "tag": "TECH",
+      "published_at": "2026-07-23T21:11:19+00:00",
+      "relative_time": "לפני 51ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "דגשים ברווחים של RINGCENTRAL $RNG Q2'26 🔹 הכנסות: $657M (הערכה. $650.6M) EPS: $1.22 (הערכה. $1.16) 🟢 FY26 הדרכה: 🔹 Adj. EPS: $4.96-$5.10 (הערכה. $4.95) 🔹…",
+      "title_he": "$NVDA משלם מראש $AMKR $1.5B כדי להרחיב את קיבולת אריזת השבבים המתקדמת עבור מערכות AI מהדור הבא. העסקה תרחיב את המתקן של אמקור באריזונה ותביא עוד...",
       "summary_he": "",
-      "body_en": "RINGCENTRAL $RNG Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $657M (Est. $650.6M) 🟢 🔹 Adj. EPS: $1.22 (Est. $1.16) 🟢 FY26 Guidance: 🔹 Adj. EPS: $4.96-$5.10 (Est. $4.95) 🟢 🔹 Revenue: $2.55B-$2.56B (Est. $2.63",
-      "ticker": "$RNG",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080385765587276176#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:13:12+00:00",
-      "relative_time": "לפני 21ד׳",
+      "body_en": "$NVDA is prepaying $AMKR $1.5B to expand advanced chip packaging capacity for next-generation AI systems. The deal will scale Amkor’s Arizona facility and bring more of Nvidia’s AI supply chain into t",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080398649100828878#m",
+      "tag": "M&A",
+      "published_at": "2026-07-23T21:04:24+00:00",
+      "relative_time": "לפני 58ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "שירי רווחים של VERISIGN $VRSN Q2'26 🔹 הכנסות: 435 מיליון דולר (מוערך 433 מיליון דולר) ; +6.0% YoY 🔹 EPS: $2.38 (הערכה. $2.36) ; +8% YoY 🔹 הכנסה תפעולית: 296 מיליון דולר (אומדן 296 מיליון דולר) 🟡; +5%…",
+      "title_he": "ארה\"ב קובעת תעריפים חדשים של 10%-12.5% ​​כאשר פג תוקף העונש העולמי של 10%",
       "summary_he": "",
-      "body_en": "VERISIGN $VRSN Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $435M (Est. $433M) 🟢; +6.0% YoY 🔹 EPS: $2.38 (Est. $2.36) 🟢; +8% YoY 🔹 Operating Income: $296M (Est. $296M) 🟡; +5% YoY 🔹 Net Income: $217M (Est. $21",
-      "ticker": "$VRSN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080385580589011392#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:12:28+00:00",
-      "relative_time": "לפני 22ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "נקודות השיא ברווחים של NEWMONT $NEM Q2'26 🔹 הכנסות: $6.1B (הערכה. $6.27B) 🔴; +15% YoY 🔹 התאמה EPS: $2.10 (אומדן $1.98) 🟢 🔹 תזרים מזומנים חינם: $2.2B (הערכה. $1.71B) 🔹 הכנסה נטו:...",
-      "summary_he": "",
-      "body_en": "NEWMONT $NEM Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $6.1B (Est. $6.27B) 🔴; +15% YoY 🔹 Adj. EPS: $2.10 (Est. $1.98) 🟢 🔹 Free Cash Flow: $2.2B (Est. $1.71B) 🟢 🔹 Net Income: $2.2B (Est. $2.07B) 🟢 Affirms F",
-      "ticker": "$NEM",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080385513601851747#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:12:12+00:00",
-      "relative_time": "לפני 22ד׳",
+      "body_en": "US SETS NEW 10%-12.5% TARIFFS AS GLOBAL 10% PENALTY EXPIRES",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2080397800387321978#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-23T21:01:02+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אמזון ומיקרוסופט מייצרות אסטרטגיות משחק בענן כדי למקד לשחקנים שונים",
+      "title_he": "הבזקי S&P 500 איתותי מכירה - סוחרי אופציות מתכוננים לתנודות פרועות באפל, מטה ומיקרוסופט",
       "summary_he": "",
-      "body_en": "Amazon and Microsoft pivot cloud gaming strategies to target different players",
+      "body_en": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-07-23T20:47:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "תשואת האוצר ל-10 שנים עולה לשיא מאז ינואר 2025, כאשר הנפט הגואה מעורר מחדש את החשש לאינפלציה",
+      "summary_he": "",
+      "body_en": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/23/amazon-microsoft-cloud-gaming.html",
-      "tag": "TECH",
-      "published_at": "2026-07-23T20:06:50+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "INTEL דיווחה רק על רווחים *INTEL 2Q REV. $16.13B, EST. $14.42 B ( BEAT ✅ ) ​​*INTEL 2Q EPS $0.42 , EST. $0.21 ( BEAT ✅ ) ​​*INTEL REES Q3 ADJ EPS $0.38 , EST $0.27 (BEAT…",
-      "summary_he": "",
-      "body_en": "INTEL JUST REPORTED EARNINGS *INTEL 2Q REV. $16.13B, EST. $14.42 B ( BEAT ✅ ) *INTEL 2Q EPS $0.42 , EST. $0.21 ( BEAT ✅ ) *INTEL SEES Q3 ADJ EPS $0.38 , EST $0.27 ( BEAT ✅ ) $INTC",
-      "ticker": "$INTC",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2080383914640589170#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:05:51+00:00",
-      "relative_time": "לפני 29ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "BREAKING: אינטל, $INTC, רווחים: - EPS: $0.42, משוער: $0.22 - הכנסות: 16.1 מיליארד דולר, משוער: 14.4 מיליארד דולר",
-      "summary_he": "",
-      "body_en": "BREAKING: Intel, $INTC, earnings: - EPS: $0.42, est: $0.22 - Revenue: $16.1 billion, est: $14.4 billion",
-      "ticker": "$INTC",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2080383324028317713#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:03:30+00:00",
-      "relative_time": "לפני 31ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$INTC ריסק את הרווחים שלהם ברבעון השני • הכנסות של $16.1B לעומת משוער. $14.4B • EPS $0.42 לעומת משוער $0.11 • הכנסה של AI $6.3B לעומת משוער. 5.5 מיליארד דולר • מרווח גולמי: 42% לעומת משוער. 39% הדרכה לרבעון השלישי...",
-      "summary_he": "",
-      "body_en": "$INTC CRUSHED THEIR Q2 EARNINGS • Revenue $16.1B vs Est. $14.4B • EPS $0.42 vs Est. $0.11 • AI Revenue $6.3B vs. Est. $5.5B • Gross Margin: 42% vs. Est. 39% Q3 Guidance • Revenue $16.4B vs Est. $15.1B",
-      "ticker": "$INTC",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080383297129972191#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T20:03:24+00:00",
-      "relative_time": "לפני 31ד׳",
+      "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
+      "tag": "ENERGY",
+      "published_at": "2026-07-23T20:30:50+00:00",
       "sentiment": "neutral"
     }
   ],
