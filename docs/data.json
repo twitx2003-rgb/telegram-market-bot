@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T20:23:13.239203+00:00",
+  "generated_at": "2026-07-24T21:36:47.577074+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -156,23 +156,23 @@
     {
       "ticker": "JPM",
       "price": 353.21,
-      "setup_type": "מומנטום",
+      "setup_type": "פריצה",
       "levels": {
         "support": 325.75,
         "resistance": 353.37,
-        "entry": null,
+        "entry": 355.14,
         "stop": 319.24
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($338.89) שמעל SMA50 ($322.36), RSI ב-68.2. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "המחיר $353.21 נמצא 0.0% מתחת להתנגדות ב-$353.37 עם מומנטום שבועי של +3.6%. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
         "rsi14": 68.2,
         "sma20": 338.89,
         "sma50": 322.36,
         "sma200": 310.68,
         "pct_from_52w_high": -0.0,
-        "vol_ratio": 0.99,
+        "vol_ratio": 1.01,
         "change_1d_pct": 0.95,
         "change_1w_pct": 3.6,
         "change_1m_pct": 5.9,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-24T20:23:13.239214+00:00",
+  "ta_generated_at": "2026-07-24T21:36:47.577085+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,11 +700,11 @@
     },
     {
       "name": "VIX",
-      "value": "18.60",
-      "change": "-0.53%",
+      "value": "18.58",
+      "change": "-0.64%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.5347593582887586
+      "pct_raw": -0.6417112299465294
     }
   ],
   "commodities": [
@@ -718,19 +718,19 @@
     },
     {
       "name": "נפט ברנט",
-      "value": "$98.0",
-      "change": "-2.70%",
+      "value": "$98.4",
+      "change": "-2.29%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -2.7013606117787257
+      "pct_raw": -2.2941702254444354
     },
     {
       "name": "ביטקוין",
-      "value": "$63,926",
-      "change": "-1.72%",
+      "value": "$64,117",
+      "change": "-1.43%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.724729802835975
+      "pct_raw": -1.4313151222322895
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.055",
-      "change": "-0.54%",
+      "value": "3.049",
+      "change": "-0.73%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.5371793202239934
+      "pct_raw": -0.7260059903633281
     }
   ],
   "sectors": [
@@ -856,6 +856,76 @@
   },
   "us_news": [
     {
+      "title_he": "פרמאונט מסכימה לדחות את רכישת WBD עד ליוני 2027 על רקע אתגר משפטי",
+      "summary_he": "",
+      "body_en": "Paramount agrees to delay WBD acquisition to as late as June 2027 amid legal challenge",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/24/paramount-wbd-merger-delay.html",
+      "tag": "M&A",
+      "published_at": "2026-07-24T21:24:09+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "BREAKING: פרמאונט של דייוויד אליסון הסכימה להקפיא את המיזוג שלה בשווי 110 מיליארד דולר עם Warner Bros Discovery, כאשר תריסר מדינות בארה\"ב מבקשות לחסום את אחת המדינות הגדולות...",
+      "summary_he": "",
+      "body_en": "BREAKING: David Ellison’s Paramount has agreed to freeze its $110 billion merger with Warner Bros Discovery as a dozen US states seek to block one of the largest Hollywood deals in history on antitrus",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2080765266292834358#m",
+      "tag": "M&A",
+      "published_at": "2026-07-24T21:21:12+00:00",
+      "relative_time": "לפני 15ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "16 המדינות הללו מציעות ימי קניות פטורים ממס, מכיוון שעלויות החזרה לבית הספר מזנקות ליותר מ-$800 לתלמיד",
+      "summary_he": "",
+      "body_en": "These 16 states are offering tax-free shopping days as back-to-school costs soar to over $800 per student",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-24T21:21:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "R ל-@bespokeinvest: גם דיסני $DIS עלה היום ב-2%. NIKE $NKE עלה ב-1.8%. הם היו צריכים למצוא היכן להכניס את כל המזומנים לעבודה לאחר שזרקו את הסחר בבינה מלאכותית.",
+      "summary_he": "",
+      "body_en": "R to @bespokeinvest: Disney $DIS was also up 2% today. NIKE $NKE was up 1.8%. They had to find somewhere to put all the cash to work after dumping the AI trade.",
+      "ticker": "$DIS",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2080759883981373816#m",
+      "tag": "TECH",
+      "published_at": "2026-07-24T20:59:49+00:00",
+      "relative_time": "לפני 36ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אינטל נסחרה אתמול ב-10% לאחר שעות עבודה בעקבות רווחים חזקים מהצפוי. זה הפך את המהלך הזה ונסגר ב-7% ביום לירידה של 17%+.…",
+      "summary_he": "",
+      "body_en": "Intel traded up 10% after hours yesterday following stronger than expected earnings. It reversed that move and closed down 7% on the day for a 17%+ reversal lower. Sucked in some algos then hammered l",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2080757600438649019#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-24T20:50:45+00:00",
+      "relative_time": "לפני 45ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מדד S&P 500 Equal Weight $RSP עלה היום ב-0.8%.",
+      "summary_he": "",
+      "body_en": "The S&P 500 Equal Weight $RSP was up 0.8% today.",
+      "ticker": "$RSP",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2080756247733719258#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-24T20:45:22+00:00",
+      "relative_time": "לפני 51ד׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "השבוע הרע של מאסק: טסלה סובלת מהצניחה החמורה ביותר מאז 2022, SpaceX צונחת לקראת טיסת המבחן של ספינת הכוכבים",
       "summary_he": "",
       "body_en": "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight",
@@ -865,29 +935,6 @@
       "tag": "TECH",
       "published_at": "2026-07-24T20:20:05+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "פרמאונט מסכימה לדחות את רכישת WBD עד ליוני 2027 על רקע אתגר משפטי",
-      "summary_he": "",
-      "body_en": "Paramount agrees to delay WBD acquisition to as late as June 2027 amid legal challenge",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/24/paramount-wbd-merger-delay.html",
-      "tag": "M&A",
-      "published_at": "2026-07-24T20:19:30+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מדד הנאסד\"ק 100 יורד כעת ב-7% ביולי הקרוב, מה שמעמיד אותו בקצב של יולי הגרוע ביותר שלו זה 22 שנים, כאשר הוא ירד ב-7.55% ב-2004. פעולה אכזרית עבור מניות בינה מלאכותית בעוד מחירי הנפט ו...",
-      "summary_he": "",
-      "body_en": "The Nasdaq 100 is now down 7% this July, putting it on pace for its worst July in 22 years when it fell 7.55% in 2004. Brutal action for AI stocks while oil prices and rates rise at the same time beca",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2080746370638512264#m",
-      "tag": "ENERGY",
-      "published_at": "2026-07-24T20:06:07+00:00",
-      "relative_time": "לפני 16ד׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "טראמפ מאיים על האיחוד האירופי עם 'תעריף משמעותי' עבור 'שוד' ענקיות טכנולוגיה אמריקאיות",
@@ -909,44 +956,20 @@
       "link": "https://nitter.net/gurgavin/status/2080739474405744869#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T19:38:43+00:00",
-      "relative_time": "לפני 44ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "תשואת האוצר לשנתיים עלתה כמעט בנקודת אחוז שלמה עד ל-4.32% מאז החלה מלחמת איראן. זה צופה שקרנות מוזנות (כרגע ב-3.5-3.75%) הוא...",
+      "title_he": "RT מאת @DivesTech: Nvidia, Microsoft, Meta, Palantir ועוד יותר מ-20 חברות פרסמו ביום שישי מכתב הקורא לקובעי המדיניות להימנע מ\"הגבלות מוקדמות\" על...",
       "summary_he": "",
-      "body_en": "The 2-year Treasury yield has risen nearly a full percentage point up to 4.32% since the Iran War began. It's predicting that fed funds (currently at 3.5-3.75%) is headed higher. If Trump wants lower ",
+      "body_en": "RT by @DivesTech: Nvidia, Microsoft, Meta, Palantir and more than 20 other companies released a letter on Friday urging policymakers to avoid “premature restrictions” on open-weight artificial intelli",
       "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2080718619927781418#m",
-      "tag": "FED",
-      "published_at": "2026-07-24T18:15:51+00:00",
-      "relative_time": "לפני 2ש׳",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/CNBC/status/2080699590907445551#m",
+      "tag": "TECH",
+      "published_at": "2026-07-24T17:00:14+00:00",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "אני מתערב שאתה לא יכול לצפות בזה ולא 😂 @JC_ParetsX נותן לנו את ההסתכלות שלו על חוב מרווח כ-% מהתמ\"ג ולמה אתה צריך פשוט להתעלם לחלוטין מהדאגה האחרונה הזו.",
-      "summary_he": "",
-      "body_en": "I bet you can't watch this and not 😂 @JC_ParetsX gives us his take on margin debt as a % of GDP and why you should just totally ignore this latest worry.",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2080709435572273488#m",
-      "tag": "MACRO",
-      "published_at": "2026-07-24T17:39:21+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "בסוף מאי, תעודות הסל השונות של מניות החלל עלו ב-60-80% YTD (או מאז שהחלו להיסחר כמה חודשים קודם לכן. מלבד $UFO, כולן עכשיו במינוס. אחד מה...",
-      "summary_he": "",
-      "body_en": "At the end of May, the various space-stock ETFs were up 60-80% YTD (or since they began trading a few months prior. Aside from $UFO, they're now all in the red. One of the biggest crashes back down to",
-      "ticker": "$UFO",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2080699804225540226#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-24T17:01:05+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "bearish"
     },
     {
       "title_he": "לעתים קרובות אני רואה אנשים ב-X יורדים בממוצע כדי להוריד את בסיס העלות, אבל זה לא משנה את העובדה שההפסד המוחלט בדולר ללא שינוי. הדולרים המקוריים עדיין…",
@@ -957,7 +980,7 @@
       "link": "https://nitter.net/cperruna/status/2080673896269795747#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T15:18:08+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bearish"
     },
     {
@@ -969,7 +992,7 @@
       "link": "https://nitter.net/StockMKTNewz/status/2080645676241703292#m",
       "tag": "TECH",
       "published_at": "2026-07-24T13:26:00+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -981,7 +1004,7 @@
       "link": "https://nitter.net/garyblack00/status/2080490803399422076#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T03:10:35+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     },
     {
@@ -993,31 +1016,8 @@
       "link": "https://nitter.net/gurgavin/status/2080439046854127850#m",
       "tag": "TECH",
       "published_at": "2026-07-23T23:44:56+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "המתכת השקטה ביותר בעולם הוציאה אות שורי ענק",
-      "summary_he": "",
-      "body_en": "World’s quietest metal just dropped a huge bullish signal",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/world-quietest-metal-just-dropped-221118249.html",
-      "tag": "TECH",
-      "published_at": "2026-07-23T22:11:18+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: סמנכ\"ל כספים של $INTC על מימון RAMP CAPEX של INTEL; MAY TAP MARKET CAPITAL: \"יש לנו יותר מ-30 מיליארד דולר במזומן ואקדח של 10 מיליארד דולר, אז יש לנו נזילות של 40 מיליארד דולר. \"אנחנו...",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: $INTC CFO ON FUNDING INTEL’S CAPEX RAMP; MAY TAP CAPITAL MARKET: “We have over $30B of cash and a $10B revolver, so we’ve got $40B of liquidity. “We also have roughly $10B of non-cor",
-      "ticker": "$INTC",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/wallstengine/status/2080410897592492068#m",
-      "tag": "TECH",
-      "published_at": "2026-07-23T21:53:04+00:00",
-      "relative_time": "לפני 22ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
