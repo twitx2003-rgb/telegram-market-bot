@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T09:54:13.638552+00:00",
+  "generated_at": "2026-07-24T11:41:37.632091+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-24T09:54:13.638564+00:00",
+  "ta_generated_at": "2026-07-24T11:41:37.632103+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "18.63",
-      "change": "-0.37%",
-      "direction": "down",
+      "value": "18.76",
+      "change": "+0.32%",
+      "direction": "up",
       "group": "market_us",
-      "pct_raw": -0.3743315508021406
+      "pct_raw": 0.3208556149732742
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,058.0",
-      "change": "+0.19%",
+      "value": "$4,061.0",
+      "change": "+0.27%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.1925830823169271
+      "pct_raw": 0.26665349859266657
     },
     {
       "name": "נפט ברנט",
-      "value": "$91.2",
-      "change": "-3.29%",
+      "value": "$91.9",
+      "change": "-2.46%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -3.2887757267133546
+      "pct_raw": -2.4612773180564473
     },
     {
       "name": "ביטקוין",
-      "value": "$65,072",
-      "change": "+0.04%",
-      "direction": "up",
+      "value": "$64,942",
+      "change": "-0.16%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.036772918160115395
+      "pct_raw": -0.1634027370919307
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,246",
-      "change": "+0.44%",
+      "value": "4,253",
+      "change": "+0.62%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.44073811213626946
+      "pct_raw": 0.616986042110242
     },
     {
       "name": "דולר/שקל",
-      "value": "3.057",
-      "change": "-0.49%",
+      "value": "3.055",
+      "change": "-0.53%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.4916004688110396
+      "pct_raw": -0.5274124234926421
     }
   ],
   "sectors": [
@@ -856,40 +856,62 @@
   },
   "us_news": [
     {
-      "title_he": "BofA על $INTC (קנייה, $160 PT): \"שיחת הקצב והעלאת הרווחים של אינטל ברבעון השני מאשרת מחדש את שני עמודי התווך של עבודת הקנייה שלנו: 1) דיונים חיצוניים של לקוחות בייצור (יציקה)...",
+      "title_he": "מנכ\"ל $SLB: \"עסקי פתרונות מרכז הנתונים נשארים במסלול לחרוג מ-$1B ARR על ידי EOY. ככל שאנו מרחיבים את ההיצע שלנו ומגוונים עוד יותר את בסיס הלקוחות שלנו ו...",
       "summary_he": "",
-      "body_en": "BofA on $INTC (Buy, $160 PT): “Intel’s Q2 beat/raise earnings call reconfirms the two pillars of our Buy thesis: 1) External manufacturing (foundry) customer discussions have reached a more tangible s",
-      "ticker": "$INTC",
+      "body_en": "$SLB CEO: \"The Data Center Solutions business remains on track to exceed $1B ARR by the EOY. As we broaden our offering and further diversify our customer base and geographic footprint, we expect to s",
+      "ticker": "$SLB",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080583364567089593#m",
+      "link": "https://nitter.net/wallstengine/status/2080612884338577702#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-24T09:18:24+00:00",
-      "relative_time": "לפני 35ד׳",
-      "sentiment": "bullish"
+      "published_at": "2026-07-24T11:15:42+00:00",
+      "relative_time": "לפני 25ד׳",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "Jefferies מעלה $AMD PT ל-$640 מ-$515 - הערות אנליסטים של Buy: \"יום הבינה המלאכותית המתקדמת של AMD הועבר בכל החזיתות, עם מנהיגות ברורה בשרתים, בעוד שבינה מלאכותית הפכה...",
+      "title_he": "CHARTER $CHTR Q2'26 שירי רווחים 🔹 הכנסות: $13.5B (הערכה. $13.52B) 🟡; -1.7% YoY 🔹 EPS: $10.66 (הערכה. $9.96) 🔹 EBITDA מתואם: $5.4B; -4.3% YoY 🔹 תזרים מזומנים חינם:...",
       "summary_he": "",
-      "body_en": "Jefferies Raises $AMD PT to $640 from $515 - Buy Analyst comments: \"AMD’s Advancing AI Day delivered on all fronts, with clear leadership in servers, while AI has become much more real with two additi",
-      "ticker": "$AMD",
+      "body_en": "CHARTER $CHTR Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $13.5B (Est. $13.52B) 🟡; -1.7% YoY 🔹 EPS: $10.66 (Est. $9.96) 🟢 🔹 Adjusted EBITDA: $5.4B; -4.3% YoY 🔹 Free Cash Flow: $969M FY26 Guide: 🔹 Capital Exp",
+      "ticker": "$CHTR",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080575033945264280#m",
+      "link": "https://nitter.net/wallstengine/status/2080611058713231586#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-24T08:45:17+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
+      "published_at": "2026-07-24T11:08:26+00:00",
+      "relative_time": "לפני 32ד׳",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "UBS מעלה $AMD PT ל-$730 מ-$700 - הערות אנליסטים של Buy: \"EPS עשויה להתקרב ל-30$ ב-CY28. אנו מאמינים שההכנסה ממעבד השרתים תגדל במהירות, ועם ברוטו...",
+      "title_he": "AMERICAN EXPRESS $AXP Q2'26 שיאי רווחים 🔹 הכנסות: $19.64B (הערכה. $19.7B) 🔴; +10% YoY 🔹 EPS: $4.53 (הערכה. $4.41) 🟢; +11% משנה לשנה 🔹 עסק מחויב: 455.8 מיליארד דולר (הערכה...",
       "summary_he": "",
-      "body_en": "UBS Raises $AMD PT to $730 from $700 - Buy Analyst comments: \"EPS could approach $30 by CY28. We believe server CPU revenue is going to grow rapidly and, with gross margins that we estimate are approx",
-      "ticker": "$AMD",
+      "body_en": "AMERICAN EXPRESS $AXP Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $19.64B (Est. $19.7B) 🔴; +10% YoY 🔹 EPS: $4.53 (Est. $4.41) 🟢; +11% YoY 🔹 Billed Business: $455.8B (Est. $454.8B) 🟢; +9% YoY 🔹 Credit Loss Pr",
+      "ticker": "$AXP",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2080572552339194014#m",
+      "link": "https://nitter.net/wallstengine/status/2080610815242363127#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-24T08:35:26+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
+      "published_at": "2026-07-24T11:07:28+00:00",
+      "relative_time": "לפני 33ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ יטיל מכסים 'גורפים' חדשים על 60 שותפי סחר עם פקיעת החובות העולמיות",
+      "summary_he": "",
+      "body_en": "Trump to slap 'sweeping' new tariffs on 60 trade partners as global duties expire",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/23/trump-tariffs-trade-deadline.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-24T10:46:26+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הנה כמה הכנסות מרוויחות חברות S&P 500 מחו\"ל",
+      "summary_he": "",
+      "body_en": "Here’s how much revenue S&P 500 companies make from overseas",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/heres-how-much-revenue-s-p-500-companies-make-from-overseas-ce10f434?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-24T10:13:00+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "המכס העולמי החדש של טראמפ גורר תוכחות מצד שותפי סחר על הצדקת עבודת כפייה",
@@ -911,7 +933,7 @@
       "link": "https://nitter.net/garyblack00/status/2080490803399422076#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T03:10:35+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +945,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080474569740325015#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T02:06:05+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -935,7 +957,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080473805361992189#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T02:03:03+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
@@ -947,7 +969,7 @@
       "link": "https://nitter.net/gurgavin/status/2080439046854127850#m",
       "tag": "TECH",
       "published_at": "2026-07-23T23:44:56+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "bearish"
     },
     {
@@ -962,17 +984,6 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "הבזקי S&P 500 איתותי מכירה - סוחרי אופציות מתכוננים לתנודות פרועות באפל, מטה ומיקרוסופט",
-      "summary_he": "",
-      "body_en": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-07-23T22:03:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "RT מאת @DivesTech: סמנכ\"ל כספים של $INTC על מימון RAMP CAPEX של INTEL; MAY TAP MARKET CAPITAL: \"יש לנו יותר מ-30 מיליארד דולר במזומן ואקדח של 10 מיליארד דולר, אז יש לנו נזילות של 40 מיליארד דולר. \"אנחנו...",
       "summary_he": "",
       "body_en": "RT by @DivesTech: $INTC CFO ON FUNDING INTEL’S CAPEX RAMP; MAY TAP CAPITAL MARKET: “We have over $30B of cash and a $10B revolver, so we’ve got $40B of liquidity. “We also have roughly $10B of non-cor",
@@ -981,18 +992,7 @@
       "link": "https://nitter.net/wallstengine/status/2080410897592492068#m",
       "tag": "TECH",
       "published_at": "2026-07-23T21:53:04+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ יטיל מכסים 'גורפים' חדשים על 60 שותפי סחר עם פקיעת החובות העולמיות",
-      "summary_he": "",
-      "body_en": "Trump to slap 'sweeping' new tariffs on 60 trade partners as global duties expire",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/23/trump-tariffs-trade-deadline.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-23T21:43:10+00:00",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1004,7 +1004,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080405090377019464#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-23T21:30:00+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1016,11 +1016,27 @@
       "link": "https://nitter.net/KristinaParts/status/2080402852774645954#m",
       "tag": "TECH",
       "published_at": "2026-07-23T21:21:06+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "מאות קילוגרמים של סמים הוסלקו בשוקולדים: המשטרה חשפה מחסן הפצה במשתלה בהוד השרון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855908",
+      "tag": "כללי",
+      "published_at": "2026-07-24T13:25:00+00:00"
+    },
+    {
+      "title_he": "התפתחות בגל הרימונים: הוארך מעצר החשוד בהשלכת רימון לעבר מקורב למשפחת מוסלי",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855901",
+      "tag": "כללי",
+      "published_at": "2026-07-24T12:55:00+00:00"
+    },
     {
       "title_he": "הלכה לעולמה זהבה שאול, אימו של סמ\"ר אורון שאול",
       "summary_he": "",
@@ -1030,7 +1046,15 @@
       "published_at": "2026-07-24T09:04:00+00:00"
     },
     {
-      "title_he": "התיעוד האחרון של יובל כוגן בן ה-4, והחשש: \"זו יכולה להיות חטיפה\" | צפו",
+      "title_he": "פיגוע בשומרון: בניהו מלט נרצח, שלושה נפצעו קשה ואנוש",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855876",
+      "tag": "כללי",
+      "published_at": "2026-07-24T08:26:00+00:00"
+    },
+    {
+      "title_he": "התיעוד האחרון של יובל כוגן בן ה-4: \"הוא היה מעבר לכתף שלי, ונעלם\"",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3855873",
@@ -1076,30 +1100,6 @@
       "link": "https://news.walla.co.il/item/3855740",
       "tag": "כללי",
       "published_at": "2026-07-23T16:30:00+00:00"
-    },
-    {
-      "title_he": "כמעט 3 שנים לטבח בחולית - מאות משפחות מבקשות להצטרף",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855760",
-      "tag": "כללי",
-      "published_at": "2026-07-23T16:11:00+00:00"
-    },
-    {
-      "title_he": "אב ממרכז הארץ נאשם באונס בתו ובביצוע מעשים מגונים גם בבנו הקטין",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855720",
-      "tag": "כללי",
-      "published_at": "2026-07-23T14:15:00+00:00"
-    },
-    {
-      "title_he": "צעיר הודה והורשע לאחר שהסתיר את זהותו באמצעות דרכון זר ונכנס למדינות אויב",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855708",
-      "tag": "כללי",
-      "published_at": "2026-07-23T13:40:00+00:00"
     }
   ],
   "track_record": {
