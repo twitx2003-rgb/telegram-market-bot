@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T21:36:47.577074+00:00",
+  "generated_at": "2026-07-24T23:00:57.889775+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-24T21:36:47.577085+00:00",
+  "ta_generated_at": "2026-07-24T23:00:57.889787+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,117",
-      "change": "-1.43%",
+      "value": "$64,101",
+      "change": "-1.46%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.4313151222322895
+      "pct_raw": -1.4563889640045182
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "השבוע הרע של מאסק: טסלה סובלת מהצניחה החמורה ביותר מאז 2022, SpaceX צונחת לקראת טיסת המבחן של ספינת הכוכבים",
+      "summary_he": "",
+      "body_en": "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/24/tesla-tsla-spacex-spcx-stock-starship-test-flight-musk-bad-week.html",
+      "tag": "TECH",
+      "published_at": "2026-07-24T21:57:01+00:00",
+      "sentiment": "bearish"
+    },
+    {
       "title_he": "פרמאונט מסכימה לדחות את רכישת WBD עד ליוני 2027 על רקע אתגר משפטי",
       "summary_he": "",
       "body_en": "Paramount agrees to delay WBD acquisition to as late as June 2027 amid legal challenge",
@@ -867,30 +878,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "BREAKING: פרמאונט של דייוויד אליסון הסכימה להקפיא את המיזוג שלה בשווי 110 מיליארד דולר עם Warner Bros Discovery, כאשר תריסר מדינות בארה\"ב מבקשות לחסום את אחת המדינות הגדולות...",
-      "summary_he": "",
-      "body_en": "BREAKING: David Ellison’s Paramount has agreed to freeze its $110 billion merger with Warner Bros Discovery as a dozen US states seek to block one of the largest Hollywood deals in history on antitrus",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2080765266292834358#m",
-      "tag": "M&A",
-      "published_at": "2026-07-24T21:21:12+00:00",
-      "relative_time": "לפני 15ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "16 המדינות הללו מציעות ימי קניות פטורים ממס, מכיוון שעלויות החזרה לבית הספר מזנקות ליותר מ-$800 לתלמיד",
-      "summary_he": "",
-      "body_en": "These 16 states are offering tax-free shopping days as back-to-school costs soar to over $800 per student",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-24T21:21:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "R ל-@bespokeinvest: גם דיסני $DIS עלה היום ב-2%. NIKE $NKE עלה ב-1.8%. הם היו צריכים למצוא היכן להכניס את כל המזומנים לעבודה לאחר שזרקו את הסחר בבינה מלאכותית.",
+      "title_he": "R ל-@bespokeinvest: גם דיסני $DIS עלתה היום ב-2%. NIKE $NKE עלה ב-1.8%. הם היו צריכים למצוא היכן להכניס את כל המזומנים לעבודה לאחר שזרקו את הסחר בבינה מלאכותית.",
       "summary_he": "",
       "body_en": "R to @bespokeinvest: Disney $DIS was also up 2% today. NIKE $NKE was up 1.8%. They had to find somewhere to put all the cash to work after dumping the AI trade.",
       "ticker": "$DIS",
@@ -898,7 +886,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080759883981373816#m",
       "tag": "TECH",
       "published_at": "2026-07-24T20:59:49+00:00",
-      "relative_time": "לפני 36ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,7 +898,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080757600438649019#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T20:50:45+00:00",
-      "relative_time": "לפני 45ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,19 +910,8 @@
       "link": "https://nitter.net/bespokeinvest/status/2080756247733719258#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T20:45:22+00:00",
-      "relative_time": "לפני 51ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "השבוע הרע של מאסק: טסלה סובלת מהצניחה החמורה ביותר מאז 2022, SpaceX צונחת לקראת טיסת המבחן של ספינת הכוכבים",
-      "summary_he": "",
-      "body_en": "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/24/tesla-tsla-spacex-spcx-stock-starship-test-flight-musk-bad-week.html",
-      "tag": "TECH",
-      "published_at": "2026-07-24T20:20:05+00:00",
-      "sentiment": "bearish"
     },
     {
       "title_he": "טראמפ מאיים על האיחוד האירופי עם 'תעריף משמעותי' עבור 'שוד' ענקיות טכנולוגיה אמריקאיות",
@@ -956,20 +933,31 @@
       "link": "https://nitter.net/gurgavin/status/2080739474405744869#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T19:38:43+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @DivesTech: Nvidia, Microsoft, Meta, Palantir ועוד יותר מ-20 חברות פרסמו ביום שישי מכתב הקורא לקובעי המדיניות להימנע מ\"הגבלות מוקדמות\" על...",
+      "title_he": "אני מתערב שאתה לא יכול לצפות בזה ולא 😂 @JC_ParetsX נותן לנו את ההסתכלות שלו על חוב המרווח כ-% מהתמ\"ג ולמה אתה צריך פשוט להתעלם לחלוטין מהדאגה האחרונה הזו.",
       "summary_he": "",
-      "body_en": "RT by @DivesTech: Nvidia, Microsoft, Meta, Palantir and more than 20 other companies released a letter on Friday urging policymakers to avoid “premature restrictions” on open-weight artificial intelli",
+      "body_en": "I bet you can't watch this and not 😂 @JC_ParetsX gives us his take on margin debt as a % of GDP and why you should just totally ignore this latest worry.",
       "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/CNBC/status/2080699590907445551#m",
-      "tag": "TECH",
-      "published_at": "2026-07-24T17:00:14+00:00",
-      "relative_time": "לפני 4ש׳",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2080709435572273488#m",
+      "tag": "MACRO",
+      "published_at": "2026-07-24T17:39:21+00:00",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "ענקית חוצות סוגרת כעת 91 חנויות בפשיטת רגל של פרק 11",
+      "summary_he": "",
+      "body_en": "Outdoor giant now closing 91 stores in Chapter 11 bankruptcy",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/small-business/articles/outdoor-giant-now-closing-91-161700671.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-24T16:17:00+00:00",
+      "sentiment": "bearish"
     },
     {
       "title_he": "לעתים קרובות אני רואה אנשים ב-X יורדים בממוצע כדי להוריד את בסיס העלות, אבל זה לא משנה את העובדה שההפסד המוחלט בדולר ללא שינוי. הדולרים המקוריים עדיין…",
@@ -980,20 +968,8 @@
       "link": "https://nitter.net/cperruna/status/2080673896269795747#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T15:18:08+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: מנכ\"ל NVIDIA $NVDA JENSEN HUANG בדיוק פרסם את הפוסט הראשון שלו ב-X 👀 @JensenHuang",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: NVIDIA $NVDA CEO JENSEN HUANG JUST MADE HIS FIRST POST ON X 👀 @JensenHuang",
-      "ticker": "$NVDA",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/StockMKTNewz/status/2080645676241703292#m",
-      "tag": "TECH",
-      "published_at": "2026-07-24T13:26:00+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "# רכבים אוטונומיים ללא פיקוח ללא צגי בטיחות: - Waymo 3,500 - Tesla ~40 # נסיעות אוטונומיות ללא פיקוח בתשלום בשבוע ללא צגי בטיחות: - Waymo 500K...",
@@ -1004,11 +980,11 @@
       "link": "https://nitter.net/garyblack00/status/2080490803399422076#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T03:10:35+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "TESLA ו-SPACEX נמצאים במירוץ לראות של מי מניותיו יכולות לרדת הכי הרבה $SPCX $TSLA",
+      "title_he": "TESLA ו-SPACEX נמצאים במירוץ לראות של מי המניה יכולה לרדת הכי הרבה $SPCX $TSLA",
       "summary_he": "",
       "body_en": "TESLA AND SPACEX ARE IN A RACE TO SEE WHOSE STOCK CAN DROP THE MOST $SPCX $TSLA",
       "ticker": "$SPCX",
@@ -1016,13 +992,35 @@
       "link": "https://nitter.net/gurgavin/status/2080439046854127850#m",
       "tag": "TECH",
       "published_at": "2026-07-23T23:44:56+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "bearish"
+    },
+    {
+      "title_he": "המתכת השקטה ביותר בעולם הוציאה אות שורי ענק",
+      "summary_he": "",
+      "body_en": "World’s quietest metal just dropped a huge bullish signal",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/world-quietest-metal-just-dropped-221118249.html",
+      "tag": "TECH",
+      "published_at": "2026-07-23T22:11:18+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "מחירי הזהב היום, יום חמישי, 23 ביולי, 2026: מחיר הזהב נפתח מתחת ל-4,100 דולר כאשר דאגות האינפלציה מתנגשות עם הביקוש למקלט בטוח",
+      "summary_he": "",
+      "body_en": "Gold prices today, Thursday, July 23, 2026: Gold price opens below $4,100 as inflation worries clash with safe-haven demand",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-july-23-2026-gold-price-opens-below-4100-as-inflation-worries-clash-with-safe-haven-demand-153539220.html",
+      "tag": "MACRO",
+      "published_at": "2026-07-23T15:35:39+00:00",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
     {
-      "title_he": "20 שנה אחרי: תיק רצח תאיר ראדה נפתח מחדש - וייחקר ע\"י ימ\"ר תל אביב",
+      "title_he": "20 שנה אחרי הרצח: תיק תאיר ראדה נפתח מחדש - וייחקר ע\"י ימ\"ר תל אביב",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3855968",
