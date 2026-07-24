@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T04:17:25.620032+00:00",
+  "generated_at": "2026-07-24T07:07:04.497895+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-24T04:17:25.620044+00:00",
+  "ta_generated_at": "2026-07-24T07:07:04.497907+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,031.3",
-      "change": "-0.47%",
+      "value": "$4,038.6",
+      "change": "-0.29%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.4666436225371497
+      "pct_raw": -0.2864056095995237
     },
     {
       "name": "נפט ברנט",
-      "value": "$100.6",
-      "change": "-0.07%",
+      "value": "$99.3",
+      "change": "-1.37%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.06952030986194575
+      "pct_raw": -1.3705432515642026
     },
     {
       "name": "ביטקוין",
-      "value": "$65,318",
-      "change": "+0.42%",
+      "value": "$65,502",
+      "change": "+0.70%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4152634052429316
+      "pct_raw": 0.6988699245647836
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.072",
-      "change": "+0.02%",
-      "direction": "up",
+      "value": "3.068",
+      "change": "-0.11%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.022789425706462457
+      "pct_raw": -0.11069149628858149
     }
   ],
   "sectors": [
@@ -856,6 +856,28 @@
   },
   "us_news": [
     {
+      "title_he": "רווחי פולקסווגן צונחים כשהיא מסמנת צמצום הכנסות לשנה כולה לקראת ארגון מחדש",
+      "summary_he": "",
+      "body_en": "Volkswagen profits slump as it flags full-year revenue squeeze ahead of restructuring",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/24/volkswagen-earnings-autos-germany.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-24T06:48:46+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "ארה\"ב תראה מחירי תרופות גנריות גבוהות יותר הודות לתעריפים, מזהיר מנכ\"ל חברת התרופות המובילה בהודו",
+      "summary_he": "",
+      "body_en": "U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-24T06:13:54+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "המכס העולמי החדש של טראמפ גורר תוכחות מצד שותפי סחר על הצדקת עבודת כפייה",
       "summary_he": "",
       "body_en": "Trump's new global tariff draws rebukes from trade partners over forced-labor justification",
@@ -863,7 +885,7 @@
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
       "tag": "NEWS",
-      "published_at": "2026-07-24T03:15:46+00:00",
+      "published_at": "2026-07-24T05:47:21+00:00",
       "sentiment": "neutral"
     },
     {
@@ -875,7 +897,7 @@
       "link": "https://nitter.net/garyblack00/status/2080490803399422076#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T03:10:35+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -890,18 +912,43 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "ארה\"ב תראה מחירי תרופות גנריות גבוהות יותר הודות לתעריפים, מזהיר מנכ\"ל חברת התרופות המובילה בהודו",
+      "title_he": "R ל-@StockSavvyShay: כאן תוכל למצוא את פירוט הרווחים המלא שלי ב-$INTC: https://youtu.be/UyFIvknnSeg?si=O9Fk7gyqAvPpVPTf",
       "summary_he": "",
-      "body_en": "U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/24/us-to-see-higher-generic-drug-prices-on-tariffs-indian-pharma-ceo.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-24T02:24:40+00:00",
+      "body_en": "R to @StockSavvyShay: Here’s where you can find my full $INTC earnings breakdown: https://youtu.be/UyFIvknnSeg?si=O9Fk7gyqAvPpVPTf",
+      "ticker": "$INTC",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080474569740325015#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-24T02:06:05+00:00",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "עסקת מטא חדשה של 12 מיליארד דולר, כמעט 1GW במרכז הנתונים בטקסס, נידונה בתשואות של מעל 7%, גבוהות בכ-40 נקודות לשנייה ממימון ה-Hyperion של $27 מיליארד דולר של META רק לפני 9 חודשים. זֶה…",
+      "title_he": "$INTC מרוויח את סיבוב הניצחון שלו אחרי רבעון שמנצח את הציפיות על פני הכנסות, מרווחים, רווחים, ביצוע ייצור והנחיה. AI Agentic יוצרת…",
+      "summary_he": "",
+      "body_en": "$INTC earns its victory lap after a quarter that beats expectations across revenue, margins, earnings, manufacturing execution and guidance. Agentic AI is creating a second growth curve for server CPU",
+      "ticker": "$INTC",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080473805361992189#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-24T02:03:03+00:00",
+      "relative_time": "לפני 5ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "RT מאת @StockSavvyShay: $AMD Futurum Equities חוזר על קנייה ומעלה את PT ל-$800. 5 תמונות המובילות מהאירוע של היום מאת @rolfbulk",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: $AMD Futurum Equities reiterates Buy and ups PT to $800. Top 5 takes from today’s event by @rolfbulk",
+      "ticker": "$AMD",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/danielnewmanUV/status/2080470602926760236#m",
+      "tag": "TECH",
+      "published_at": "2026-07-24T01:50:19+00:00",
+      "relative_time": "לפני 5ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "עסקת מטא חדשה של 12 מיליארד דולר, כמעט 1GW במרכז הנתונים בטקסס, נידונה בתשואות של מעל 7%, גבוהות בכ-40 נקודות לשנייה מהמימון של 27 מיליארד דולר של Hyperion של META רק לפני 9 חודשים. זֶה…",
       "summary_he": "",
       "body_en": "Meta new $12B, nearly 1GW Texas data center deal is being discussed at yields above 7%, around 40bps higher than $META’s $27B Hyperion financing just 9 months ago. That difference adds $48M in annual ",
       "ticker": "$META",
@@ -909,7 +956,7 @@
       "link": "https://nitter.net/wallstengine/status/2080450652678041848#m",
       "tag": "M&A",
       "published_at": "2026-07-24T00:31:03+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,11 +968,11 @@
       "link": "https://nitter.net/MikeZaccardi/status/2080440762731290710#m",
       "tag": "FED",
       "published_at": "2026-07-23T23:51:45+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "TESLA ו-SPACEX נמצאים במירוץ לראות של מי מניותיו יכולות לרדת הכי הרבה $SPCX $TSLA",
+      "title_he": "TESLA AND SPACEX ARE IN A RACE TO SEE WHOSE STOCK CAN DROP THE MOST $SPCX $TSLA",
       "summary_he": "",
       "body_en": "TESLA AND SPACEX ARE IN A RACE TO SEE WHOSE STOCK CAN DROP THE MOST $SPCX $TSLA",
       "ticker": "$SPCX",
@@ -933,11 +980,11 @@
       "link": "https://nitter.net/gurgavin/status/2080439046854127850#m",
       "tag": "TECH",
       "published_at": "2026-07-23T23:44:56+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "מניית אינטל מזנקת כאשר יצרנית השבבים מזנקת בבינה מלאכותית לצמיחת ההכנסות המהירה ביותר זה כמעט 15 שנה",
+      "title_he": "המניה של אינטל מזנקת כאשר יצרנית השבבים מזנקת בבינה מלאכותית לצמיחת ההכנסות המהירה ביותר זה כמעט 15 שנה",
       "summary_he": "",
       "body_en": "Intel's stock jumps as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
       "ticker": "",
@@ -968,55 +1015,33 @@
       "tag": "TECH",
       "published_at": "2026-07-23T21:59:00+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: סמנכ\"ל כספים של $INTC על מימון RAMP CAPEX של INTEL; MAY TAP MARKET CAPITAL: \"יש לנו יותר מ-30 מיליארד דולר במזומן ואקדח של 10 מיליארד דולר, אז יש לנו נזילות של 40 מיליארד דולר. \"אנחנו...",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: $INTC CFO ON FUNDING INTEL’S CAPEX RAMP; MAY TAP CAPITAL MARKET: “We have over $30B of cash and a $10B revolver, so we’ve got $40B of liquidity. “We also have roughly $10B of non-cor",
-      "ticker": "$INTC",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/wallstengine/status/2080410897592492068#m",
-      "tag": "TECH",
-      "published_at": "2026-07-23T21:53:04+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ מוציא גל חדש של מכסים עולמיים. להלן התעריפים העדכניים ביותר.",
-      "summary_he": "",
-      "body_en": "Trump rolls out a new wave of global tariffs. Here are the latest rates.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/trump-rolls-out-a-new-wave-of-tariffs-here-are-the-latest-rates-449af1d3?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-23T21:50:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית ServiceNow יורדת כאשר איום AI חדש מאפיל על קצב הרווחים",
-      "summary_he": "",
-      "body_en": "ServiceNow’s stock falls as a new AI threat overshadows earnings beat",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/why-servicenows-stock-is-a-rare-bright-spot-while-the-rest-of-tech-stumbles-383f7f20?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T21:41:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אמריקן אקספרס $AXP, NextEra Energy $NEE ו-Verizon $VZ הם שלושת השמות הגדולים ביותר המדווחים על רווחים לסגירת השבוע.",
-      "summary_he": "",
-      "body_en": "American Express $AXP, NextEra Energy $NEE, and Verizon $VZ are the three biggest names reporting earnings to close out the week.",
-      "ticker": "$AXP",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2080405090377019464#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-23T21:30:00+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "הלכה לעולמה זהבה שאול, אימו של סמ\"ר אורון שאול",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855879",
+      "tag": "כללי",
+      "published_at": "2026-07-24T09:04:00+00:00"
+    },
+    {
+      "title_he": "נרצח ושלושה פצועים מירי בנשק שנגנב מאיש ביטחון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855876",
+      "tag": "כללי",
+      "published_at": "2026-07-24T08:26:00+00:00"
+    },
+    {
+      "title_he": "התיעוד האחרון של יובל כוגן בן ה-4, והחשש: \"זו יכולה להיות חטיפה\" | צפו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855873",
+      "tag": "כללי",
+      "published_at": "2026-07-24T07:58:00+00:00"
+    },
     {
       "title_he": "גבר נעצר בחשד ששני הכלבים שלו תקפו ילדה בת 8 וטען: \"הם כלבי רחוב\" | פרסום ראשון",
       "summary_he": "",
@@ -1072,30 +1097,6 @@
       "link": "https://news.walla.co.il/item/3855720",
       "tag": "כללי",
       "published_at": "2026-07-23T14:15:00+00:00"
-    },
-    {
-      "title_he": "צעיר הודה והורשע לאחר שהסתיר את זהותו באמצעות דרכון זר ונכנס למדינות אויב",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855708",
-      "tag": "כללי",
-      "published_at": "2026-07-23T13:40:00+00:00"
-    },
-    {
-      "title_he": "כמעט שלוש שנים אחרי טבח 7 באוקטובר: מאות משפחות ביקשו להצטרף לקיבוץ חולית",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855701",
-      "tag": "כללי",
-      "published_at": "2026-07-23T13:20:00+00:00"
-    },
-    {
-      "title_he": "חסם רכבי CNN, איים עם מקל וסכין: כתב אישום נגד תושב ירושלים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855697",
-      "tag": "כללי",
-      "published_at": "2026-07-23T13:06:00+00:00"
     }
   ],
   "track_record": {
