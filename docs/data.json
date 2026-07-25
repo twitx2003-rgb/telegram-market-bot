@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T01:02:44.919886+00:00",
+  "generated_at": "2026-07-25T04:42:46.609516+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -376,7 +376,7 @@
         "sma50": 33.42,
         "sma200": 30.38,
         "pct_from_52w_high": -17.5,
-        "vol_ratio": 0.68,
+        "vol_ratio": 0.69,
         "change_1d_pct": -1.19,
         "change_1w_pct": -3.8,
         "change_1m_pct": -10.0,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-25T01:02:44.919901+00:00",
+  "ta_generated_at": "2026-07-25T04:42:46.609528+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "-0.35%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.3456951431397001
+      "pct_raw": -0.34559343709186097
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,055.7",
-      "change": "+0.14%",
+      "value": "$4,070.8",
+      "change": "+0.51%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.13579576317218905
+      "pct_raw": 0.5086168584267534
     },
     {
       "name": "נפט ברנט",
-      "value": "$98.4",
-      "change": "-2.29%",
+      "value": "$96.8",
+      "change": "-3.88%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -2.2941702254444354
+      "pct_raw": -3.883205879431916
     },
     {
       "name": "ביטקוין",
-      "value": "$64,073",
-      "change": "-0.03%",
-      "direction": "down",
+      "value": "$64,103",
+      "change": "+0.02%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.029832134951096236
+      "pct_raw": 0.01699121075404687
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -863,11 +863,11 @@
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html",
       "tag": "NEWS",
-      "published_at": "2026-07-25T00:58:11+00:00",
+      "published_at": "2026-07-25T02:17:11+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "טראמפ תבע שעות לאחר כניסת המכסים החדשים לתוקף, שכן מומחים אומרים שהם עשויים לא להחזיק מעמד",
+      "title_he": "טראמפ תבע שעות לאחר כניסת המכסים החדשים לתוקף, שכן מומחים אומרים כי ייתכן שהם לא יחזיקו מעמד",
       "summary_he": "",
       "body_en": "Trump sued hours after new tariffs take effect, as experts say they may not hold up",
       "ticker": "",
@@ -878,7 +878,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$NVDA ו-SK GROUP חושפים יוזמת AI המוערכת במעל 500 מיליארד דולר ההסכם מעניק ל-Nvidia גישה לזיכרון SK Hynix $SKHY, בעוד ש-SK Telecom מתכננת לבנות בינה מלאכותית של 2 ג'יגה-וואט...",
+      "title_he": "$NVDA ו-SK GROUP חושפות יוזמת AI המוערכת במעל 500 מיליארד דולר ההסכם מעניק ל-Nvidia גישה לזיכרון SK Hynix $SKHY, בעוד ש-SK Telecom מתכננת לבנות בינה מלאכותית של 2 ג'יגה-וואט...",
       "summary_he": "",
       "body_en": "$NVDA AND SK GROUP UNVEIL AI INITIATIVE VALUED AT OVER $500B The agreement gives Nvidia access to SK Hynix $SKHY memory, while SK Telecom plans to build a 2-gigawatt AI data center powered by Nvidia’s",
       "ticker": "$NVDA",
@@ -886,7 +886,7 @@
       "link": "https://nitter.net/wallstengine/status/2080807864042738034#m",
       "tag": "TECH",
       "published_at": "2026-07-25T00:10:28+00:00",
-      "relative_time": "לפני 51ד׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,7 +898,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080805070413980038#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:59:22+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,7 +910,7 @@
       "link": "https://nitter.net/gurgavin/status/2080804636869406795#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:57:39+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,7 +922,7 @@
       "link": "https://nitter.net/gurgavin/status/2080793806711009312#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:14:37+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -948,7 +948,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "R ל-@bespokeinvest: גם דיסני $DIS עלה היום ב-2%. NIKE $NKE עלה ב-1.8%. הם היו צריכים למצוא היכן להכניס את כל המזומנים לעבודה לאחר שזרקו את הסחר בבינה מלאכותית.",
+      "title_he": "R ל-@bespokeinvest: גם דיסני $DIS עלתה היום ב-2%. NIKE $NKE עלה ב-1.8%. הם היו צריכים למצוא היכן להכניס את כל המזומנים לעבודה לאחר שזרקו את הסחר בבינה מלאכותית.",
       "summary_he": "",
       "body_en": "R to @bespokeinvest: Disney $DIS was also up 2% today. NIKE $NKE was up 1.8%. They had to find somewhere to put all the cash to work after dumping the AI trade.",
       "ticker": "$DIS",
@@ -956,7 +956,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080759883981373816#m",
       "tag": "TECH",
       "published_at": "2026-07-24T20:59:49+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -968,7 +968,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080757600438649019#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T20:50:45+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -980,7 +980,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080756247733719258#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T20:45:22+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1003,23 +1003,30 @@
       "link": "https://nitter.net/gurgavin/status/2080739474405744869#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T19:38:43+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אני מתערב שאתה לא יכול לצפות בזה ולא 😂 @JC_ParetsX נותן לנו את ההסתכלות שלו על חוב מרווח כ-% מהתמ\"ג ולמה אתה צריך פשוט להתעלם לחלוטין מהדאגה האחרונה הזו.",
+      "title_he": "ענקית חוצות סוגרת כעת 91 חנויות בפשיטת רגל של פרק 11",
       "summary_he": "",
-      "body_en": "I bet you can't watch this and not 😂 @JC_ParetsX gives us his take on margin debt as a % of GDP and why you should just totally ignore this latest worry.",
+      "body_en": "Outdoor giant now closing 91 stores in Chapter 11 bankruptcy",
       "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2080709435572273488#m",
-      "tag": "MACRO",
-      "published_at": "2026-07-24T17:39:21+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/small-business/articles/outdoor-giant-now-closing-91-161700671.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-24T16:17:00+00:00",
+      "sentiment": "bearish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "התעלמות מפסיקת ביהמ\"ש: משרד הפנים דוחה נכדת חסיד אומות עולם",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3855978",
+      "tag": "כללי",
+      "published_at": "2026-07-25T06:00:00+00:00"
+    },
     {
       "title_he": "20 שנה אחרי הרצח: תיק תאיר ראדה נפתח מחדש - וייחקר ע\"י ימ\"ר תל אביב",
       "summary_he": "",
@@ -1091,14 +1098,6 @@
       "link": "https://news.walla.co.il/item/3855873",
       "tag": "כללי",
       "published_at": "2026-07-24T07:58:00+00:00"
-    },
-    {
-      "title_he": "גבר נעצר בחשד ששני הכלבים שלו תקפו ילדה בת 8 וטען: \"הם כלבי רחוב\" | פרסום ראשון",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855857",
-      "tag": "כללי",
-      "published_at": "2026-07-24T06:00:00+00:00"
     }
   ],
   "track_record": {
