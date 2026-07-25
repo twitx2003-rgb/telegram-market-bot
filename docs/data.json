@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T21:26:09.848806+00:00",
+  "generated_at": "2026-07-25T22:26:35.543142+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -267,39 +267,39 @@
       },
       "recommendation": "קנייה",
       "confidence": 3,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($311.49) שמעל SMA50 ($305.47), RSI ב-58.1. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($314.39) שמעל SMA50 ($306.23), RSI ב-65.2. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
       "indicators": {
-        "rsi14": 58.1,
-        "sma20": 311.49,
-        "sma50": 305.47,
-        "sma200": 275.6,
+        "rsi14": 65.2,
+        "sma20": 314.39,
+        "sma50": 306.23,
+        "sma200": 275.98,
         "pct_from_52w_high": -0.6,
-        "vol_ratio": 0.87,
-        "change_1d_pct": -1.3,
-        "change_1w_pct": -3.5,
-        "change_1m_pct": 9.3,
+        "vol_ratio": 0.89,
+        "change_1d_pct": 3.53,
+        "change_1w_pct": -0.2,
+        "change_1m_pct": 13.6,
         "spark_3m": [
-          273.43,
-          270.71,
-          280.14,
-          287.51,
-          292.68,
-          298.21,
-          298.97,
-          308.82,
-          312.51,
-          315.2,
-          307.34,
-          291.58,
-          296.42,
-          298.01,
-          293.08,
-          281.74,
-          308.63,
-          313.39,
-          317.31,
-          333.26,
-          327.74
+          271.06,
+          270.17,
+          276.83,
+          287.44,
+          294.8,
+          300.23,
+          302.25,
+          308.33,
+          312.06,
+          310.26,
+          301.54,
+          295.63,
+          299.24,
+          297.01,
+          275.15,
+          289.36,
+          312.66,
+          316.22,
+          314.86,
+          333.74,
+          325.89
         ]
       },
       "analyzed": true,
@@ -460,57 +460,6 @@
       "engine": "rules"
     },
     {
-      "ticker": "NFLX",
-      "price": 70.09,
-      "setup_type": "תיקון",
-      "levels": {
-        "support": 65.08,
-        "resistance": 78.44,
-        "entry": null,
-        "stop": 63.78
-      },
-      "recommendation": "מעקב",
-      "confidence": 1,
-      "rationale_he": "ירידה של -44.7% מהשיא השנתי עם RSI ב-38.3 — התיקון בעיצומו. תמיכה קרובה ב-$65.08. מומנטום שבועי +1.7% · נפח מוגבר (פי 1.32).",
-      "indicators": {
-        "rsi14": 38.3,
-        "sma20": 72.78,
-        "sma50": 78.69,
-        "sma200": 92.53,
-        "pct_from_52w_high": -44.7,
-        "vol_ratio": 1.32,
-        "change_1d_pct": 1.74,
-        "change_1w_pct": 1.7,
-        "change_1m_pct": -2.4,
-        "spark_3m": [
-          92.44,
-          92.12,
-          91.02,
-          88.25,
-          87.66,
-          87.02,
-          88.09,
-          87.68,
-          86.02,
-          81.52,
-          82.64,
-          81.27,
-          78.72,
-          72.88,
-          70.9,
-          71.4,
-          76.02,
-          75.47,
-          73.53,
-          68.95,
-          68.53
-        ]
-      },
-      "analyzed": true,
-      "stale": false,
-      "engine": "rules"
-    },
-    {
       "ticker": "GOOGL",
       "price": 319.74,
       "setup_type": "תיקון",
@@ -573,39 +522,39 @@
       },
       "recommendation": "המתנה",
       "confidence": 0,
-      "rationale_he": "RSI ב-37.5 כשהמחיר $232.11 רק 2.9% מעל תמיכה ב-$225.55 — יחס סיכון-סיכוי נוח ללונג. קרוב לתמיכה.",
+      "rationale_he": "RSI ב-38.6 כשהמחיר $232.11 רק 2.9% מעל תמיכה ב-$225.55 — יחס סיכון-סיכוי נוח ללונג. קרוב לתמיכה.",
       "indicators": {
-        "rsi14": 37.5,
-        "sma20": 243.84,
-        "sma50": 249.22,
-        "sma200": 234.59,
+        "rsi14": 38.6,
+        "sma20": 243.58,
+        "sma50": 249.9,
+        "sma200": 234.53,
         "pct_from_52w_high": -16.7,
-        "vol_ratio": 0.77,
-        "change_1d_pct": -0.66,
-        "change_1w_pct": -6.1,
-        "change_1m_pct": -0.9,
+        "vol_ratio": 0.76,
+        "change_1d_pct": -4.57,
+        "change_1w_pct": -6.5,
+        "change_1m_pct": -0.2,
         "spark_3m": [
-          263.99,
-          263.04,
-          272.05,
-          271.17,
-          265.82,
-          264.14,
-          265.01,
-          265.29,
-          270.64,
-          250.02,
-          245.22,
-          241.51,
-          246.0,
-          232.79,
-          227.01,
-          238.34,
-          244.16,
-          247.04,
-          247.49,
-          247.23,
-          244.85
+          255.08,
+          259.7,
+          268.26,
+          274.99,
+          268.99,
+          267.22,
+          259.34,
+          266.32,
+          274.0,
+          256.52,
+          246.03,
+          238.0,
+          246.02,
+          244.39,
+          234.27,
+          240.14,
+          242.67,
+          243.62,
+          247.31,
+          249.89,
+          247.55
         ]
       },
       "analyzed": true,
@@ -662,9 +611,60 @@
       "analyzed": true,
       "stale": false,
       "engine": "rules"
+    },
+    {
+      "ticker": "NFLX",
+      "price": 68.89,
+      "setup_type": "תיקון",
+      "levels": {
+        "support": 65.08,
+        "resistance": 78.44,
+        "entry": null,
+        "stop": null
+      },
+      "recommendation": "המתנה",
+      "confidence": 0,
+      "rationale_he": "ירידה של -45.6% מהשיא השנתי עם RSI ב-33.7 — התיקון בעיצומו. תמיכה קרובה ב-$65.08. נפח מוגבר (פי 1.35).",
+      "indicators": {
+        "rsi14": 33.7,
+        "sma20": 72.82,
+        "sma50": 79.05,
+        "sma200": 92.76,
+        "pct_from_52w_high": -45.6,
+        "vol_ratio": 1.35,
+        "change_1d_pct": 0.53,
+        "change_1w_pct": -7.3,
+        "change_1m_pct": -5.4,
+        "spark_3m": [
+          92.82,
+          92.27,
+          92.06,
+          88.27,
+          85.45,
+          86.94,
+          89.33,
+          88.6,
+          86.36,
+          83.33,
+          82.18,
+          82.0,
+          81.67,
+          77.38,
+          71.84,
+          73.78,
+          77.65,
+          75.59,
+          73.83,
+          74.35,
+          68.67
+        ]
+      },
+      "analyzed": true,
+      "stale": false,
+      "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-25T21:26:09.848818+00:00",
+  "ta_generated_at": "2026-07-25T22:26:35.543154+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,225",
-      "change": "+0.21%",
+      "value": "$64,337",
+      "change": "+0.38%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.207998007862449
+      "pct_raw": 0.38232564583763845
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "חוזים עתידיים על דאו ג'ונס: שוק מעורר אות מכירה; רווחי אפל, חדשות איראן, פגישת הפד במוקד",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-earnings-iran-news-fed-meeting-ai-stocks/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-25T22:02:53+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "אינסטגרם, $META, אוסרת כעת על אמני טנדר וקונדס המשתמשים במשקפי מטה, לפי BI",
       "summary_he": "",
       "body_en": "Instagram, $META, is now banning pickup artists and pranksters who use Meta glasses, per BI",
@@ -864,7 +875,7 @@
       "link": "https://nitter.net/unusual_whales/status/2081122568011219173#m",
       "tag": "TECH",
       "published_at": "2026-07-25T21:01:00+00:00",
-      "relative_time": "לפני 24ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +887,7 @@
       "link": "https://nitter.net/DeItaone/status/2081119954187763991#m",
       "tag": "NEWS",
       "published_at": "2026-07-25T20:50:37+00:00",
-      "relative_time": "לפני 35ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bearish"
     },
     {
@@ -891,17 +902,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "חוזים עתידיים על דאו ג'ונס: שוק מעורר אות מכירה; רווחי אפל, חדשות איראן, פגישת הפד במוקד",
-      "summary_he": "",
-      "body_en": "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-earnings-iran-news-fed-meeting-ai-stocks/?src=A00220&yptr=yahoo",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-25T19:09:11+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "DEEPSEEK מפסיקה את גיוס הכספים הסטארט-אפ הסיני של AI DeepSeek השהתה את סבב הגיוס השני שלה, והודיעה למשקיעים פוטנציאליים שאין הסכמי השקעה...",
       "summary_he": "",
       "body_en": "DEEPSEEK PAUSES FUNDRAISING Chinese AI startup DeepSeek has reportedly paused its second fundraising round, informing prospective investors that no investment agreements will be signed for now, accord",
@@ -910,7 +910,7 @@
       "link": "https://nitter.net/DeItaone/status/2081078513201803517#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T18:05:56+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,7 +922,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081072943421862206#m",
       "tag": "ENERGY",
       "published_at": "2026-07-25T17:43:48+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -934,7 +934,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081055546397114645#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T16:34:41+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,7 +946,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081047650003231145#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T16:03:18+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -958,7 +958,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081038977809924324#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T15:28:50+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -970,7 +970,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081030696723001723#m",
       "tag": "TECH",
       "published_at": "2026-07-25T14:55:56+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1004,7 +1004,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080805070413980038#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:59:22+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1016,7 +1016,7 @@
       "link": "https://nitter.net/gurgavin/status/2080804636869406795#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:57:39+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "sentiment": "neutral"
     }
   ],
