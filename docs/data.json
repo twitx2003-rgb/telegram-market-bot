@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T22:26:35.543142+00:00",
+  "generated_at": "2026-07-25T23:32:09.915912+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -460,6 +460,57 @@
       "engine": "rules"
     },
     {
+      "ticker": "NFLX",
+      "price": 70.09,
+      "setup_type": "תיקון",
+      "levels": {
+        "support": 65.08,
+        "resistance": 78.44,
+        "entry": null,
+        "stop": 63.78
+      },
+      "recommendation": "מעקב",
+      "confidence": 1,
+      "rationale_he": "ירידה של -44.7% מהשיא השנתי עם RSI ב-38.3 — התיקון בעיצומו. תמיכה קרובה ב-$65.08. מומנטום שבועי +1.7% · נפח מוגבר (פי 1.32).",
+      "indicators": {
+        "rsi14": 38.3,
+        "sma20": 72.78,
+        "sma50": 78.69,
+        "sma200": 92.53,
+        "pct_from_52w_high": -44.7,
+        "vol_ratio": 1.32,
+        "change_1d_pct": 1.74,
+        "change_1w_pct": 1.7,
+        "change_1m_pct": -2.4,
+        "spark_3m": [
+          92.44,
+          92.12,
+          91.02,
+          88.25,
+          87.66,
+          87.02,
+          88.09,
+          87.68,
+          86.02,
+          81.52,
+          82.64,
+          81.27,
+          78.72,
+          72.88,
+          70.9,
+          71.4,
+          76.02,
+          75.47,
+          73.53,
+          68.95,
+          68.53
+        ]
+      },
+      "analyzed": true,
+      "stale": false,
+      "engine": "rules"
+    },
+    {
       "ticker": "GOOGL",
       "price": 319.74,
       "setup_type": "תיקון",
@@ -522,39 +573,39 @@
       },
       "recommendation": "המתנה",
       "confidence": 0,
-      "rationale_he": "RSI ב-38.6 כשהמחיר $232.11 רק 2.9% מעל תמיכה ב-$225.55 — יחס סיכון-סיכוי נוח ללונג. קרוב לתמיכה.",
+      "rationale_he": "RSI ב-37.5 כשהמחיר $232.11 רק 2.9% מעל תמיכה ב-$225.55 — יחס סיכון-סיכוי נוח ללונג. קרוב לתמיכה.",
       "indicators": {
-        "rsi14": 38.6,
-        "sma20": 243.58,
-        "sma50": 249.9,
-        "sma200": 234.53,
+        "rsi14": 37.5,
+        "sma20": 243.84,
+        "sma50": 249.22,
+        "sma200": 234.59,
         "pct_from_52w_high": -16.7,
-        "vol_ratio": 0.76,
-        "change_1d_pct": -4.57,
-        "change_1w_pct": -6.5,
-        "change_1m_pct": -0.2,
+        "vol_ratio": 0.77,
+        "change_1d_pct": -0.66,
+        "change_1w_pct": -6.1,
+        "change_1m_pct": -0.9,
         "spark_3m": [
-          255.08,
-          259.7,
-          268.26,
-          274.99,
-          268.99,
-          267.22,
-          259.34,
-          266.32,
-          274.0,
-          256.52,
-          246.03,
-          238.0,
-          246.02,
-          244.39,
-          234.27,
-          240.14,
-          242.67,
-          243.62,
-          247.31,
-          249.89,
-          247.55
+          263.99,
+          263.04,
+          272.05,
+          271.17,
+          265.82,
+          264.14,
+          265.01,
+          265.29,
+          270.64,
+          250.02,
+          245.22,
+          241.51,
+          246.0,
+          232.79,
+          227.01,
+          238.34,
+          244.16,
+          247.04,
+          247.49,
+          247.23,
+          244.85
         ]
       },
       "analyzed": true,
@@ -611,60 +662,9 @@
       "analyzed": true,
       "stale": false,
       "engine": "rules"
-    },
-    {
-      "ticker": "NFLX",
-      "price": 68.89,
-      "setup_type": "תיקון",
-      "levels": {
-        "support": 65.08,
-        "resistance": 78.44,
-        "entry": null,
-        "stop": null
-      },
-      "recommendation": "המתנה",
-      "confidence": 0,
-      "rationale_he": "ירידה של -45.6% מהשיא השנתי עם RSI ב-33.7 — התיקון בעיצומו. תמיכה קרובה ב-$65.08. נפח מוגבר (פי 1.35).",
-      "indicators": {
-        "rsi14": 33.7,
-        "sma20": 72.82,
-        "sma50": 79.05,
-        "sma200": 92.76,
-        "pct_from_52w_high": -45.6,
-        "vol_ratio": 1.35,
-        "change_1d_pct": 0.53,
-        "change_1w_pct": -7.3,
-        "change_1m_pct": -5.4,
-        "spark_3m": [
-          92.82,
-          92.27,
-          92.06,
-          88.27,
-          85.45,
-          86.94,
-          89.33,
-          88.6,
-          86.36,
-          83.33,
-          82.18,
-          82.0,
-          81.67,
-          77.38,
-          71.84,
-          73.78,
-          77.65,
-          75.59,
-          73.83,
-          74.35,
-          68.67
-        ]
-      },
-      "analyzed": true,
-      "stale": false,
-      "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-25T22:26:35.543154+00:00",
+  "ta_generated_at": "2026-07-25T23:32:09.915925+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,337",
-      "change": "+0.38%",
+      "value": "$64,344",
+      "change": "+0.39%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.38232564583763845
+      "pct_raw": 0.39390276097032945
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,7 +856,29 @@
   },
   "us_news": [
     {
-      "title_he": "חוזים עתידיים על דאו ג'ונס: שוק מעורר אות מכירה; רווחי אפל, חדשות איראן, פגישת הפד במוקד",
+      "title_he": "ירידה של 99%, מניית EV פופולרית היא מועמדת בשלה לפשיטת רגל",
+      "summary_he": "",
+      "body_en": "Down 99%, popular EV stock is ripe bankruptcy candidate",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/down-99-popular-ev-stock-230400886.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-25T23:04:00+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "\"הזמן יגיד אם זה היה הימור טוב\": היועץ שלי השיג לי הקצאה מלאה של SpaceX IPO. היה לי מזל?",
+      "summary_he": "",
+      "body_en": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-25T22:30:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "חוזים עתידיים של דאו ג'ונס: שוק מעורר אות מכירה; רווחי אפל, חדשות איראן, פגישת הפד במוקד",
       "summary_he": "",
       "body_en": "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus",
       "ticker": "",
@@ -875,7 +897,7 @@
       "link": "https://nitter.net/unusual_whales/status/2081122568011219173#m",
       "tag": "TECH",
       "published_at": "2026-07-25T21:01:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,22 +909,11 @@
       "link": "https://nitter.net/DeItaone/status/2081119954187763991#m",
       "tag": "NEWS",
       "published_at": "2026-07-25T20:50:37+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "\"הזמן יגיד אם זה היה הימור טוב\": היועץ שלי השיג לי הקצאה מלאה של SpaceX IPO. היה לי מזל?",
-      "summary_he": "",
-      "body_en": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-25T20:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "DEEPSEEK מפסיקה את גיוס הכספים הסטארט-אפ הסיני של AI DeepSeek השהתה את סבב הגיוס השני שלה, והודיעה למשקיעים פוטנציאליים שאין הסכמי השקעה...",
+      "title_he": "DEEPSEEK מפסיקה את גיוס הכספים DeepSeek, סטארט-אפ AI הסיני, השהתה את סבב הגיוס השני שלה, והודיעה למשקיעים פוטנציאליים שאין הסכמי השקעה...",
       "summary_he": "",
       "body_en": "DEEPSEEK PAUSES FUNDRAISING Chinese AI startup DeepSeek has reportedly paused its second fundraising round, informing prospective investors that no investment agreements will be signed for now, accord",
       "ticker": "",
@@ -910,11 +921,11 @@
       "link": "https://nitter.net/DeItaone/status/2081078513201803517#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T18:05:56+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "הנפט ירד בסוף השבוע ב-Hyperliquid עד כה... S&P 500 perp up @augurinfinity",
+      "title_he": "Oil dips this weekend on Hyperliquid so far... S&P 500 perp up @augurinfinity",
       "summary_he": "",
       "body_en": "Oil dips this weekend on Hyperliquid so far... S&P 500 perp up @augurinfinity",
       "ticker": "",
@@ -922,11 +933,11 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081072943421862206#m",
       "tag": "ENERGY",
       "published_at": "2026-07-25T17:43:48+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "בשבועות הבאים הרווחים מאסיביים • יום שני | $APLD, $NVTS, $CDNS, $AMKR • יום שלישי | $BE, $KLAC, $PYPL, $V, $TER, $ENPH • יום רביעי | $MSFT, $META, $HOOD, $ARM, $QCOM,...",
+      "title_he": "בשבועות הבאים הרווחים מסיביים • יום שני | $APLD, $NVTS, $CDNS, $AMKR • יום שלישי | $BE, $KLAC, $PYPL, $V, $TER, $ENPH • יום רביעי | $MSFT, $META, $HOOD, $ARM, $QCOM,...",
       "summary_he": "",
       "body_en": "NEXT WEEKS EARNINGS ARE MASSIVE • Monday | $APLD, $NVTS, $CDNS, $AMKR • Tuesday | $BE, $KLAC, $PYPL, $V, $TER, $ENPH • Wednesday | $MSFT, $META, $HOOD, $ARM, $QCOM, $SOFI, $VRT, $LMND, $LRCX, $VKTX, $",
       "ticker": "$APLD",
@@ -934,11 +945,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081055546397114645#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T16:34:41+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "הודעה לדובי הבינה המלאכותית כאשר דובי הבינה המלאכותית מסתכלים על המכפילים הנמוכים $SKHY, $MU, $SNDK וסמסונג אז התגובה היא בדרך כלל גרסה כלשהי של \"מכפילי רווחים הם...",
+      "title_he": "A MESSAGE TO THE AI BEARS When AI bears look at the low multiples $SKHY, $MU, $SNDK and Samsung then the response is usually some version of “earnings multiples are…",
       "summary_he": "",
       "body_en": "A MESSAGE TO THE AI BEARS When AI bears look at the low multiples $SKHY, $MU, $SNDK and Samsung then the response is usually some version of “earnings multiples are meaningless for cyclical companies ",
       "ticker": "$SKHY",
@@ -946,7 +957,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081047650003231145#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T16:03:18+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -958,19 +969,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081038977809924324#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T15:28:50+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$INTC התגלה כאחד מזוכי הבינה המלאכותית הגדולים ביותר של 2026 על ידי יתרונות ממעבדי Xeon, סיליקון ייעודי ואריזות מתקדמות. החשיפה הזו מתרחבת כי...",
-      "summary_he": "",
-      "body_en": "$INTC has emerged as one of 2026’s biggest AI winners by benefiting across Xeon CPUs, purpose-built silicon and advanced packaging. That exposure is expanding because every accelerator rack still need",
-      "ticker": "$INTC",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2081030696723001723#m",
-      "tag": "TECH",
-      "published_at": "2026-07-25T14:55:56+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -985,6 +984,18 @@
       "sentiment": "neutral"
     },
     {
+      "title_he": "RT מאת @StockSavvyShay: $GOOGL Ironwood TPU חבילות של ~190GB של HBM3E כך שכל פריסה חדשה מגדילה ישירות את הביקוש לזיכרון פרימיום ברחבי האשכול. הדרישה הזו…",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: $GOOGL Ironwood TPU packs ~190GB of HBM3E so every new deployment directly increases premium memory demand across the cluster. That demand compounds as Gemini APIs process ~22B ",
+      "ticker": "$GOOGL",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080990605241622962#m",
+      "tag": "TECH",
+      "published_at": "2026-07-25T12:16:37+00:00",
+      "relative_time": "לפני 11ש׳",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "ריביות משכנתא ומחזר היום, שבת, 25 ביולי, 2026: הריביות הגבוהות ביותר השנה",
       "summary_he": "",
       "body_en": "Mortgage and refinance interest rates today, Saturday, July 25, 2026: Highest rates this year",
@@ -996,7 +1007,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @StockSavvyShay: $NVDA עובד עם $SKHY על יוזמת בינה מלאכותית של $500B. התוכנית כוללת מרכז נתונים בינה מלאכותית של 2 ג'יגה-וואט המופעל על ידי שבבי Nvidia Vera Rubin ו-SK...",
+      "title_he": "RT מאת @StockSavvyShay: $NVDA עובד עם $SKHY על יוזמת בינה מלאכותית של $500B. התוכנית כוללת מרכז נתונים בינה מלאכותית של 2 ג'יגה וואט המופעל על ידי שבבי Nvidia Vera Rubin ו-SK...",
       "summary_he": "",
       "body_en": "RT by @StockSavvyShay: $NVDA is working with $SKHY on a $500B AI initiative. The plan includes a 2-gigawatt AI data center powered by Nvidia Vera Rubin chips and SK Hynix HBM4 memory.",
       "ticker": "$NVDA",
@@ -1004,19 +1015,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080805070413980038#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:59:22+00:00",
-      "relative_time": "לפני 22ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "*NVIDIA עובדת עם SK HYNIX על 'AI INITIATIVE' בשווי כולל של $500 מיליארד דולר $NVDA $SKHY",
-      "summary_he": "",
-      "body_en": "*NVIDIA WORKING WITH SK HYNIX ON ‘AI INITIATIVE’ WORTH A TOTAL OF $500 BILLION DOLLARS $NVDA $SKHY",
-      "ticker": "$NVDA",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2080804636869406795#m",
-      "tag": "TECH",
-      "published_at": "2026-07-24T23:57:39+00:00",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "neutral"
     }
   ],
