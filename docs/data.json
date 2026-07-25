@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T23:00:57.889775+00:00",
+  "generated_at": "2026-07-25T01:02:44.919886+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-24T23:00:57.889787+00:00",
+  "ta_generated_at": "2026-07-25T01:02:44.919901+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,101",
-      "change": "-1.46%",
+      "value": "$64,073",
+      "change": "-0.03%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.4563889640045182
+      "pct_raw": -0.029832134951096236
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -850,11 +850,81 @@
     }
   ],
   "fear_greed": {
-    "score": 28,
+    "score": 27,
     "rating": "פחד",
     "rating_en": "fear"
   },
   "us_news": [
+    {
+      "title_he": "SpaceX משגרת רקטה מסיבית של Starship בטיסת ניסוי ראשונה מאז ההנפקה",
+      "summary_he": "",
+      "body_en": "SpaceX launches massive Starship rocket in first test flight since IPO",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-25T00:58:11+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ תבע שעות לאחר כניסת המכסים החדשים לתוקף, שכן מומחים אומרים שהם עשויים לא להחזיק מעמד",
+      "summary_he": "",
+      "body_en": "Trump sued hours after new tariffs take effect, as experts say they may not hold up",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-lawsuit-301-ieepa.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-25T00:18:53+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NVDA ו-SK GROUP חושפים יוזמת AI המוערכת במעל 500 מיליארד דולר ההסכם מעניק ל-Nvidia גישה לזיכרון SK Hynix $SKHY, בעוד ש-SK Telecom מתכננת לבנות בינה מלאכותית של 2 ג'יגה-וואט...",
+      "summary_he": "",
+      "body_en": "$NVDA AND SK GROUP UNVEIL AI INITIATIVE VALUED AT OVER $500B The agreement gives Nvidia access to SK Hynix $SKHY memory, while SK Telecom plans to build a 2-gigawatt AI data center powered by Nvidia’s",
+      "ticker": "$NVDA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2080807864042738034#m",
+      "tag": "TECH",
+      "published_at": "2026-07-25T00:10:28+00:00",
+      "relative_time": "לפני 51ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NVDA עובדת עם $SKHY על יוזמת בינה מלאכותית של $500B. התוכנית כוללת מרכז נתונים בינה מלאכותית של 2 ג'יגה וואט המופעל על ידי שבבי Nvidia Vera Rubin וזיכרון SK Hynix HBM4.",
+      "summary_he": "",
+      "body_en": "$NVDA is working with $SKHY on a $500B AI initiative. The plan includes a 2-gigawatt AI data center powered by Nvidia Vera Rubin chips and SK Hynix HBM4 memory.",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080805070413980038#m",
+      "tag": "TECH",
+      "published_at": "2026-07-24T23:59:22+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "*NVIDIA עובדת עם SK HYNIX על 'AI INITIATIVE' בשווי כולל של $500 מיליארד דולר $NVDA $SKHY",
+      "summary_he": "",
+      "body_en": "*NVIDIA WORKING WITH SK HYNIX ON ‘AI INITIATIVE’ WORTH A TOTAL OF $500 BILLION DOLLARS $NVDA $SKHY",
+      "ticker": "$NVDA",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2080804636869406795#m",
+      "tag": "TECH",
+      "published_at": "2026-07-24T23:57:39+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "WOW מנכ\"ל NVIDIA JENSEN HUANG נמצא כעת ב-TWITTER $NVDA",
+      "summary_he": "",
+      "body_en": "WOW NVIDIA CEO JENSEN HUANG IS NOW ON TWITTER $NVDA",
+      "ticker": "$NVDA",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2080793806711009312#m",
+      "tag": "TECH",
+      "published_at": "2026-07-24T23:14:37+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
     {
       "title_he": "השבוע הרע של מאסק: טסלה סובלת מהצניחה החמורה ביותר מאז 2022, SpaceX צונחת לקראת טיסת המבחן של ספינת הכוכבים",
       "summary_he": "",
@@ -878,7 +948,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "R ל-@bespokeinvest: גם דיסני $DIS עלתה היום ב-2%. NIKE $NKE עלה ב-1.8%. הם היו צריכים למצוא היכן להכניס את כל המזומנים לעבודה לאחר שזרקו את הסחר בבינה מלאכותית.",
+      "title_he": "R ל-@bespokeinvest: גם דיסני $DIS עלה היום ב-2%. NIKE $NKE עלה ב-1.8%. הם היו צריכים למצוא היכן להכניס את כל המזומנים לעבודה לאחר שזרקו את הסחר בבינה מלאכותית.",
       "summary_he": "",
       "body_en": "R to @bespokeinvest: Disney $DIS was also up 2% today. NIKE $NKE was up 1.8%. They had to find somewhere to put all the cash to work after dumping the AI trade.",
       "ticker": "$DIS",
@@ -886,7 +956,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080759883981373816#m",
       "tag": "TECH",
       "published_at": "2026-07-24T20:59:49+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,7 +968,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080757600438649019#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T20:50:45+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,7 +980,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080756247733719258#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T20:45:22+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -933,11 +1003,11 @@
       "link": "https://nitter.net/gurgavin/status/2080739474405744869#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T19:38:43+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אני מתערב שאתה לא יכול לצפות בזה ולא 😂 @JC_ParetsX נותן לנו את ההסתכלות שלו על חוב המרווח כ-% מהתמ\"ג ולמה אתה צריך פשוט להתעלם לחלוטין מהדאגה האחרונה הזו.",
+      "title_he": "אני מתערב שאתה לא יכול לצפות בזה ולא 😂 @JC_ParetsX נותן לנו את ההסתכלות שלו על חוב מרווח כ-% מהתמ\"ג ולמה אתה צריך פשוט להתעלם לחלוטין מהדאגה האחרונה הזו.",
       "summary_he": "",
       "body_en": "I bet you can't watch this and not 😂 @JC_ParetsX gives us his take on margin debt as a % of GDP and why you should just totally ignore this latest worry.",
       "ticker": "",
@@ -945,76 +1015,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2080709435572273488#m",
       "tag": "MACRO",
       "published_at": "2026-07-24T17:39:21+00:00",
-      "relative_time": "לפני 5ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ענקית חוצות סוגרת כעת 91 חנויות בפשיטת רגל של פרק 11",
-      "summary_he": "",
-      "body_en": "Outdoor giant now closing 91 stores in Chapter 11 bankruptcy",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/small-business/articles/outdoor-giant-now-closing-91-161700671.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-24T16:17:00+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "לעתים קרובות אני רואה אנשים ב-X יורדים בממוצע כדי להוריד את בסיס העלות, אבל זה לא משנה את העובדה שההפסד המוחלט בדולר ללא שינוי. הדולרים המקוריים עדיין…",
-      "summary_he": "",
-      "body_en": "I often see folks on X averaging down to lower the cost basis but this doesn't change the fact that the absolute dollar loss is unchanged. The original dollars are still down significantly. The lower ",
-      "ticker": "",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2080673896269795747#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-24T15:18:08+00:00",
       "relative_time": "לפני 7ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "# רכבים אוטונומיים ללא פיקוח ללא צגי בטיחות: - Waymo 3,500 - Tesla ~40 # נסיעות אוטונומיות ללא פיקוח בתשלום בשבוע ללא צגי בטיחות: - Waymo 500K...",
-      "summary_he": "",
-      "body_en": "# unsupervised autonomous vehicles without safety monitors: - Waymo 3,500 - Tesla ~40 # paid unsupervised autonomous rides per week without safety monitors: - Waymo 500K - Tesla ~4K The last metric is",
-      "ticker": "$TSLA",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2080490803399422076#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-24T03:10:35+00:00",
-      "relative_time": "לפני 19ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "TESLA ו-SPACEX נמצאים במירוץ לראות של מי המניה יכולה לרדת הכי הרבה $SPCX $TSLA",
-      "summary_he": "",
-      "body_en": "TESLA AND SPACEX ARE IN A RACE TO SEE WHOSE STOCK CAN DROP THE MOST $SPCX $TSLA",
-      "ticker": "$SPCX",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2080439046854127850#m",
-      "tag": "TECH",
-      "published_at": "2026-07-23T23:44:56+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "המתכת השקטה ביותר בעולם הוציאה אות שורי ענק",
-      "summary_he": "",
-      "body_en": "World’s quietest metal just dropped a huge bullish signal",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/world-quietest-metal-just-dropped-221118249.html",
-      "tag": "TECH",
-      "published_at": "2026-07-23T22:11:18+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "מחירי הזהב היום, יום חמישי, 23 ביולי, 2026: מחיר הזהב נפתח מתחת ל-4,100 דולר כאשר דאגות האינפלציה מתנגשות עם הביקוש למקלט בטוח",
-      "summary_he": "",
-      "body_en": "Gold prices today, Thursday, July 23, 2026: Gold price opens below $4,100 as inflation worries clash with safe-haven demand",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-july-23-2026-gold-price-opens-below-4100-as-inflation-worries-clash-with-safe-haven-demand-153539220.html",
-      "tag": "MACRO",
-      "published_at": "2026-07-23T15:35:39+00:00",
       "sentiment": "neutral"
     }
   ],
