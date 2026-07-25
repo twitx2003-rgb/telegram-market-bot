@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T09:17:01.495042+00:00",
+  "generated_at": "2026-07-25T10:51:47.891838+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -114,39 +114,39 @@
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $206.84 באמצע הטווח בין $199.34 ל-$213.99, RSI ב-52.9. 5 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
+      "rationale_he": "המחיר $206.84 באמצע הטווח בין $199.34 ל-$213.99, RSI ב-51.1. 5 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
       "indicators": {
-        "rsi14": 52.9,
-        "sma20": 202.78,
-        "sma50": 209.46,
-        "sma200": 192.8,
+        "rsi14": 51.1,
+        "sma20": 203.33,
+        "sma50": 209.18,
+        "sma200": 192.91,
         "pct_from_52w_high": -12.6,
-        "vol_ratio": 0.79,
-        "change_1d_pct": -1.56,
-        "change_1w_pct": 0.7,
-        "change_1m_pct": 4.4,
+        "vol_ratio": 0.77,
+        "change_1d_pct": -0.92,
+        "change_1w_pct": 2.0,
+        "change_1m_pct": 3.9,
         "spark_3m": [
-          199.64,
-          213.17,
-          198.45,
-          207.83,
-          219.44,
-          235.74,
-          220.61,
-          215.33,
-          214.25,
-          222.82,
-          205.1,
-          200.42,
-          212.45,
-          210.69,
-          199.0,
-          194.97,
-          194.83,
-          204.12,
-          203.53,
-          207.4,
-          207.29
+          208.27,
+          209.25,
+          198.48,
+          211.5,
+          220.78,
+          225.32,
+          223.47,
+          214.86,
+          211.14,
+          214.75,
+          208.64,
+          204.87,
+          207.41,
+          208.65,
+          195.74,
+          200.09,
+          195.55,
+          202.78,
+          211.8,
+          202.81,
+          212.06
         ]
       },
       "analyzed": true,
@@ -460,6 +460,57 @@
       "engine": "rules"
     },
     {
+      "ticker": "NFLX",
+      "price": 70.09,
+      "setup_type": "תיקון",
+      "levels": {
+        "support": 65.08,
+        "resistance": 78.44,
+        "entry": null,
+        "stop": 63.78
+      },
+      "recommendation": "מעקב",
+      "confidence": 1,
+      "rationale_he": "ירידה של -44.7% מהשיא השנתי עם RSI ב-38.3 — התיקון בעיצומו. תמיכה קרובה ב-$65.08. מומנטום שבועי +1.7% · נפח מוגבר (פי 1.32).",
+      "indicators": {
+        "rsi14": 38.3,
+        "sma20": 72.78,
+        "sma50": 78.69,
+        "sma200": 92.53,
+        "pct_from_52w_high": -44.7,
+        "vol_ratio": 1.32,
+        "change_1d_pct": 1.74,
+        "change_1w_pct": 1.7,
+        "change_1m_pct": -2.4,
+        "spark_3m": [
+          92.44,
+          92.12,
+          91.02,
+          88.25,
+          87.66,
+          87.02,
+          88.09,
+          87.68,
+          86.02,
+          81.52,
+          82.64,
+          81.27,
+          78.72,
+          72.88,
+          70.9,
+          71.4,
+          76.02,
+          75.47,
+          73.53,
+          68.95,
+          68.53
+        ]
+      },
+      "analyzed": true,
+      "stale": false,
+      "engine": "rules"
+    },
+    {
       "ticker": "GOOGL",
       "price": 319.74,
       "setup_type": "תיקון",
@@ -611,60 +662,9 @@
       "analyzed": true,
       "stale": false,
       "engine": "rules"
-    },
-    {
-      "ticker": "NFLX",
-      "price": 68.89,
-      "setup_type": "תיקון",
-      "levels": {
-        "support": 65.08,
-        "resistance": 78.44,
-        "entry": null,
-        "stop": null
-      },
-      "recommendation": "המתנה",
-      "confidence": 0,
-      "rationale_he": "ירידה של -45.6% מהשיא השנתי עם RSI ב-33.7 — התיקון בעיצומו. תמיכה קרובה ב-$65.08. נפח מוגבר (פי 1.35).",
-      "indicators": {
-        "rsi14": 33.7,
-        "sma20": 72.82,
-        "sma50": 79.05,
-        "sma200": 92.76,
-        "pct_from_52w_high": -45.6,
-        "vol_ratio": 1.35,
-        "change_1d_pct": 0.53,
-        "change_1w_pct": -7.3,
-        "change_1m_pct": -5.4,
-        "spark_3m": [
-          92.82,
-          92.27,
-          92.06,
-          88.27,
-          85.45,
-          86.94,
-          89.33,
-          88.6,
-          86.36,
-          83.33,
-          82.18,
-          82.0,
-          81.67,
-          77.38,
-          71.84,
-          73.78,
-          77.65,
-          75.59,
-          73.83,
-          74.35,
-          68.67
-        ]
-      },
-      "analyzed": true,
-      "stale": false,
-      "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-25T09:17:01.495054+00:00",
+  "ta_generated_at": "2026-07-25T10:51:47.891848+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,824",
-      "change": "-0.42%",
+      "value": "$63,960",
+      "change": "-0.21%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.41810236416549157
+      "pct_raw": -0.20581364651665549
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,30 @@
   },
   "us_news": [
     {
+      "title_he": "הסיכוי המשתמע מהשוק להעלאת ריבית הוא 90% השנה. אבל זה אינדיקטור דטרמיניסטי במדד הסתברותי... במציאות, יש סיכוי של 70% לעלייה,...",
+      "summary_he": "",
+      "body_en": "The market-implied chance of a rate hike is 90% this year. But that's a deterministic indicator on a probabilistic measure... in reality, there's a 70% chance of a hike, and a significant chance of mo",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2080959885777248454#m",
+      "tag": "FED",
+      "published_at": "2026-07-25T10:14:33+00:00",
+      "relative_time": "לפני 36ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$AAPL ו-$MU נמצאים כעת במאבק לובינג גדול על שבבי זיכרון. אפל רוצה שהבית הלבן יפנה את אספקת CXMT למוצרים שאינם ארה\"ב וקוראת לשוליים של 80% של מיקרון...",
+      "summary_he": "",
+      "body_en": "$AAPL and $MU are now in a major lobbying fight over memory chips. Apple wants the White House to clear CXMT supply for non-US products and calls Micron’s 80% margins gouging while Micron says buyers ",
+      "ticker": "$AAPL",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2080948435566661652#m",
+      "tag": "TECH",
+      "published_at": "2026-07-25T09:29:03+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "אפל ומיקרון $MU נמצאות כעת במאבק לובינג גדול על שבבי זיכרון, לפי WSJ. $AAPL לוחץ על הבית הלבן לאפשר לו להשתמש בשבבים מ-CXMT של סין...",
       "summary_he": "",
       "body_en": "Apple and Micron $MU are now in a major lobbying fight over memory chips, according to WSJ. $AAPL is pressing the White House to allow it to use chips from China’s CXMT and YMTC in products sold outsi",
@@ -864,7 +888,7 @@
       "link": "https://nitter.net/wallstengine/status/2080922598276575536#m",
       "tag": "TECH",
       "published_at": "2026-07-25T07:46:23+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,11 +922,11 @@
       "link": "https://nitter.net/wallstengine/status/2080807864042738034#m",
       "tag": "TECH",
       "published_at": "2026-07-25T00:10:28+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$NVDA עובדת עם $SKHY על יוזמת בינה מלאכותית של $500B. התוכנית כוללת מרכז נתונים בינה מלאכותית של 2 ג'יגה-וואט המופעל על ידי שבבי Nvidia Vera Rubin וזיכרון SK Hynix HBM4.",
+      "title_he": "$NVDA עובדת עם $SKHY על יוזמת בינה מלאכותית של $500B. התוכנית כוללת מרכז נתונים בינה מלאכותית של 2 ג'יגה וואט המופעל על ידי שבבי Nvidia Vera Rubin וזיכרון SK Hynix HBM4.",
       "summary_he": "",
       "body_en": "$NVDA is working with $SKHY on a $500B AI initiative. The plan includes a 2-gigawatt AI data center powered by Nvidia Vera Rubin chips and SK Hynix HBM4 memory.",
       "ticker": "$NVDA",
@@ -910,7 +934,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080805070413980038#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:59:22+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,7 +946,7 @@
       "link": "https://nitter.net/gurgavin/status/2080804636869406795#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:57:39+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -934,18 +958,18 @@
       "link": "https://nitter.net/gurgavin/status/2080793806711009312#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:14:37+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "פרמאונט מסכימה לדחות את רכישת WBD עד ליוני 2027 על רקע אתגר משפטי",
+      "title_he": "מדוע משקיעים באג\"ח מעלים חלק מהריביות שלך",
       "summary_he": "",
-      "body_en": "Paramount agrees to delay WBD acquisition to as late as June 2027 amid legal challenge",
+      "body_en": "Why bond investors are pushing up some of your interest rates",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/24/paramount-wbd-merger-delay.html",
-      "tag": "M&A",
-      "published_at": "2026-07-24T21:24:09+00:00",
+      "link": "https://www.cnbc.com/2026/07/24/treasury-yields-fed-mortgage-rates.html",
+      "tag": "FED",
+      "published_at": "2026-07-24T21:09:24+00:00",
       "sentiment": "neutral"
     },
     {
@@ -957,7 +981,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080759883981373816#m",
       "tag": "TECH",
       "published_at": "2026-07-24T20:59:49+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     },
     {
@@ -969,7 +993,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080757600438649019#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T20:50:45+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -981,18 +1005,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080756247733719258#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T20:45:22+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ מאיים על האיחוד האירופי עם 'תעריף משמעותי' עבור 'שוד' ענקיות טכנולוגיה אמריקאיות",
-      "summary_he": "",
-      "body_en": "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-24T19:39:50+00:00",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1004,18 +1017,6 @@
       "link": "https://nitter.net/gurgavin/status/2080739474405744869#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T19:38:43+00:00",
-      "relative_time": "לפני 13ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אני מתערב שאתה לא יכול לצפות בזה ולא 😂 @JC_ParetsX נותן לנו את ההסתכלות שלו על חוב המרווח כ-% מהתמ\"ג ולמה אתה צריך פשוט להתעלם לחלוטין מהדאגה האחרונה הזו.",
-      "summary_he": "",
-      "body_en": "I bet you can't watch this and not 😂 @JC_ParetsX gives us his take on margin debt as a % of GDP and why you should just totally ignore this latest worry.",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2080709435572273488#m",
-      "tag": "MACRO",
-      "published_at": "2026-07-24T17:39:21+00:00",
       "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     }
