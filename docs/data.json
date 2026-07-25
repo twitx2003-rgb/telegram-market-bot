@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T20:26:21.254921+00:00",
+  "generated_at": "2026-07-25T21:26:09.848806+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -267,39 +267,39 @@
       },
       "recommendation": "קנייה",
       "confidence": 3,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($314.39) שמעל SMA50 ($306.23), RSI ב-65.2. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($311.49) שמעל SMA50 ($305.47), RSI ב-58.1. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
       "indicators": {
-        "rsi14": 65.2,
-        "sma20": 314.39,
-        "sma50": 306.23,
-        "sma200": 275.98,
+        "rsi14": 58.1,
+        "sma20": 311.49,
+        "sma50": 305.47,
+        "sma200": 275.6,
         "pct_from_52w_high": -0.6,
-        "vol_ratio": 0.89,
-        "change_1d_pct": 3.53,
-        "change_1w_pct": -0.2,
-        "change_1m_pct": 13.6,
+        "vol_ratio": 0.87,
+        "change_1d_pct": -1.3,
+        "change_1w_pct": -3.5,
+        "change_1m_pct": 9.3,
         "spark_3m": [
-          271.06,
-          270.17,
-          276.83,
-          287.44,
-          294.8,
-          300.23,
-          302.25,
-          308.33,
-          312.06,
-          310.26,
-          301.54,
-          295.63,
-          299.24,
-          297.01,
-          275.15,
-          289.36,
-          312.66,
-          316.22,
-          314.86,
-          333.74,
-          325.89
+          273.43,
+          270.71,
+          280.14,
+          287.51,
+          292.68,
+          298.21,
+          298.97,
+          308.82,
+          312.51,
+          315.2,
+          307.34,
+          291.58,
+          296.42,
+          298.01,
+          293.08,
+          281.74,
+          308.63,
+          313.39,
+          317.31,
+          333.26,
+          327.74
         ]
       },
       "analyzed": true,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-25T20:26:21.254932+00:00",
+  "ta_generated_at": "2026-07-25T21:26:09.848818+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,304",
-      "change": "+0.33%",
+      "value": "$64,225",
+      "change": "+0.21%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.33071230775279636
+      "pct_raw": 0.207998007862449
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,30 @@
   },
   "us_news": [
     {
+      "title_he": "אינסטגרם, $META, אוסרת כעת על אמני טנדר וקונדס המשתמשים במשקפי מטה, לפי BI",
+      "summary_he": "",
+      "body_en": "Instagram, $META, is now banning pickup artists and pranksters who use Meta glasses, per BI",
+      "ticker": "$META",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2081122568011219173#m",
+      "tag": "TECH",
+      "published_at": "2026-07-25T21:01:00+00:00",
+      "relative_time": "לפני 24ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "יום רחוב כריסטופר בברלין הופסק לאחר שמכונית התנגשה בהמון בברלין טיארגן, כך נכתב בעיתון ביל",
+      "summary_he": "",
+      "body_en": "CHRISTOPHER STREET DAY IN BERLIN CALLED OFF AFTER CAR CRASHED INTO CROWD AT BERLIN TIERGARTEN, SAYS BILD NEWSPAPER",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2081119954187763991#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-25T20:50:37+00:00",
+      "relative_time": "לפני 35ד׳",
+      "sentiment": "bearish"
+    },
+    {
       "title_he": "\"הזמן יגיד אם זה היה הימור טוב\": היועץ שלי השיג לי הקצאה מלאה של SpaceX IPO. היה לי מזל?",
       "summary_he": "",
       "body_en": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
@@ -867,18 +891,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "תשכחו מזהב: לגמלאים, תעודת סל TIPS זו נלחמת טוב יותר באינפלציה",
-      "summary_he": "",
-      "body_en": "Forget Gold: For Retirees, This TIPS ETF Fights Inflation Better",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/options/articles/forget-gold-retirees-tips-etf-195329602.html",
-      "tag": "MACRO",
-      "published_at": "2026-07-25T19:53:29+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "חוזים עתידיים של דאו ג'ונס: שוק מעורר אות מכירה; רווחי אפל, חדשות איראן, פגישת הפד במוקד",
+      "title_he": "חוזים עתידיים על דאו ג'ונס: שוק מעורר אות מכירה; רווחי אפל, חדשות איראן, פגישת הפד במוקד",
       "summary_he": "",
       "body_en": "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus",
       "ticker": "",
@@ -886,6 +899,18 @@
       "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-earnings-iran-news-fed-meeting-ai-stocks/?src=A00220&yptr=yahoo",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T19:09:11+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "DEEPSEEK מפסיקה את גיוס הכספים הסטארט-אפ הסיני של AI DeepSeek השהתה את סבב הגיוס השני שלה, והודיעה למשקיעים פוטנציאליים שאין הסכמי השקעה...",
+      "summary_he": "",
+      "body_en": "DEEPSEEK PAUSES FUNDRAISING Chinese AI startup DeepSeek has reportedly paused its second fundraising round, informing prospective investors that no investment agreements will be signed for now, accord",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2081078513201803517#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-25T18:05:56+00:00",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -897,11 +922,11 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081072943421862206#m",
       "tag": "ENERGY",
       "published_at": "2026-07-25T17:43:48+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "בשבועות הבאים הרווחים מסיביים • יום שני | $APLD, $NVTS, $CDNS, $AMKR • יום שלישי | $BE, $KLAC, $PYPL, $V, $TER, $ENPH • יום רביעי | $MSFT, $META, $HOOD, $ARM, $QCOM,...",
+      "title_he": "בשבועות הבאים הרווחים מאסיביים • יום שני | $APLD, $NVTS, $CDNS, $AMKR • יום שלישי | $BE, $KLAC, $PYPL, $V, $TER, $ENPH • יום רביעי | $MSFT, $META, $HOOD, $ARM, $QCOM,...",
       "summary_he": "",
       "body_en": "NEXT WEEKS EARNINGS ARE MASSIVE • Monday | $APLD, $NVTS, $CDNS, $AMKR • Tuesday | $BE, $KLAC, $PYPL, $V, $TER, $ENPH • Wednesday | $MSFT, $META, $HOOD, $ARM, $QCOM, $SOFI, $VRT, $LMND, $LRCX, $VKTX, $",
       "ticker": "$APLD",
@@ -909,7 +934,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081055546397114645#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T16:34:41+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,7 +946,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081047650003231145#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T16:03:18+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -933,11 +958,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081038977809924324#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T15:28:50+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$INTC התגלה כאחד מזוכי הבינה המלאכותית הגדולים ביותר של 2026 על ידי תועלת ממעבדי Xeon, סיליקון ייעודי ואריזות מתקדמות. החשיפה הזו מתרחבת כי...",
+      "title_he": "$INTC התגלה כאחד מזוכי הבינה המלאכותית הגדולים ביותר של 2026 על ידי יתרונות ממעבדי Xeon, סיליקון ייעודי ואריזות מתקדמות. החשיפה הזו מתרחבת כי...",
       "summary_he": "",
       "body_en": "$INTC has emerged as one of 2026’s biggest AI winners by benefiting across Xeon CPUs, purpose-built silicon and advanced packaging. That exposure is expanding because every accelerator rack still need",
       "ticker": "$INTC",
@@ -945,7 +970,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081030696723001723#m",
       "tag": "TECH",
       "published_at": "2026-07-25T14:55:56+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -971,7 +996,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @StockSavvyShay: $NVDA עובד עם $SKHY על יוזמת בינה מלאכותית של $500B. התוכנית כוללת מרכז נתונים בינה מלאכותית של 2 ג'יגה וואט המופעל על ידי שבבי Nvidia Vera Rubin ו-SK...",
+      "title_he": "RT מאת @StockSavvyShay: $NVDA עובד עם $SKHY על יוזמת בינה מלאכותית של $500B. התוכנית כוללת מרכז נתונים בינה מלאכותית של 2 ג'יגה-וואט המופעל על ידי שבבי Nvidia Vera Rubin ו-SK...",
       "summary_he": "",
       "body_en": "RT by @StockSavvyShay: $NVDA is working with $SKHY on a $500B AI initiative. The plan includes a 2-gigawatt AI data center powered by Nvidia Vera Rubin chips and SK Hynix HBM4 memory.",
       "ticker": "$NVDA",
@@ -979,7 +1004,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080805070413980038#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:59:22+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "neutral"
     },
     {
@@ -991,31 +1016,7 @@
       "link": "https://nitter.net/gurgavin/status/2080804636869406795#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:57:39+00:00",
-      "relative_time": "לפני 20ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "WOW מנכ\"ל NVIDIA JENSEN HUANG נמצא כעת ב-TWITTER $NVDA",
-      "summary_he": "",
-      "body_en": "WOW NVIDIA CEO JENSEN HUANG IS NOW ON TWITTER $NVDA",
-      "ticker": "$NVDA",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2080793806711009312#m",
-      "tag": "TECH",
-      "published_at": "2026-07-24T23:14:37+00:00",
       "relative_time": "לפני 21ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@bespokeinvest: גם דיסני $DIS עלתה היום ב-2%. NIKE $NKE עלה ב-1.8%. הם היו צריכים למצוא היכן להכניס את כל המזומנים לעבודה לאחר שזרקו את הסחר בבינה מלאכותית.",
-      "summary_he": "",
-      "body_en": "R to @bespokeinvest: Disney $DIS was also up 2% today. NIKE $NKE was up 1.8%. They had to find somewhere to put all the cash to work after dumping the AI trade.",
-      "ticker": "$DIS",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2080759883981373816#m",
-      "tag": "TECH",
-      "published_at": "2026-07-24T20:59:49+00:00",
-      "relative_time": "לפני 23ש׳",
       "sentiment": "neutral"
     }
   ],
