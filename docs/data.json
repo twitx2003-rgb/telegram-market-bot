@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T10:51:47.891838+00:00",
+  "generated_at": "2026-07-25T12:02:01.184344+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-25T10:51:47.891848+00:00",
+  "ta_generated_at": "2026-07-25T12:02:01.184368+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,960",
-      "change": "-0.21%",
+      "value": "$63,995",
+      "change": "-0.15%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.20581364651665549
+      "pct_raw": -0.15159467739790797
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,18 +856,6 @@
   },
   "us_news": [
     {
-      "title_he": "הסיכוי המשתמע מהשוק להעלאת ריבית הוא 90% השנה. אבל זה אינדיקטור דטרמיניסטי במדד הסתברותי... במציאות, יש סיכוי של 70% לעלייה,...",
-      "summary_he": "",
-      "body_en": "The market-implied chance of a rate hike is 90% this year. But that's a deterministic indicator on a probabilistic measure... in reality, there's a 70% chance of a hike, and a significant chance of mo",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2080959885777248454#m",
-      "tag": "FED",
-      "published_at": "2026-07-25T10:14:33+00:00",
-      "relative_time": "לפני 36ד׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "$AAPL ו-$MU נמצאים כעת במאבק לובינג גדול על שבבי זיכרון. אפל רוצה שהבית הלבן יפנה את אספקת CXMT למוצרים שאינם ארה\"ב וקוראת לשוליים של 80% של מיקרון...",
       "summary_he": "",
       "body_en": "$AAPL and $MU are now in a major lobbying fight over memory chips. Apple wants the White House to clear CXMT supply for non-US products and calls Micron’s 80% margins gouging while Micron says buyers ",
@@ -876,7 +864,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080948435566661652#m",
       "tag": "TECH",
       "published_at": "2026-07-25T09:29:03+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +876,7 @@
       "link": "https://nitter.net/wallstengine/status/2080922598276575536#m",
       "tag": "TECH",
       "published_at": "2026-07-25T07:46:23+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,7 +910,7 @@
       "link": "https://nitter.net/wallstengine/status/2080807864042738034#m",
       "tag": "TECH",
       "published_at": "2026-07-25T00:10:28+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -934,31 +922,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080805070413980038#m",
       "tag": "TECH",
       "published_at": "2026-07-24T23:59:22+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "*NVIDIA עובדת עם SK HYNIX על 'AI INITIATIVE' בשווי כולל של $500 מיליארד דולר $NVDA $SKHY",
-      "summary_he": "",
-      "body_en": "*NVIDIA WORKING WITH SK HYNIX ON ‘AI INITIATIVE’ WORTH A TOTAL OF $500 BILLION DOLLARS $NVDA $SKHY",
-      "ticker": "$NVDA",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2080804636869406795#m",
-      "tag": "TECH",
-      "published_at": "2026-07-24T23:57:39+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "WOW מנכ\"ל NVIDIA JENSEN HUANG נמצא כעת ב-TWITTER $NVDA",
-      "summary_he": "",
-      "body_en": "WOW NVIDIA CEO JENSEN HUANG IS NOW ON TWITTER $NVDA",
-      "ticker": "$NVDA",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2080793806711009312#m",
-      "tag": "TECH",
-      "published_at": "2026-07-24T23:14:37+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     },
     {
@@ -981,7 +945,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080759883981373816#m",
       "tag": "TECH",
       "published_at": "2026-07-24T20:59:49+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -993,7 +957,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2080757600438649019#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-24T20:50:45+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1005,20 +969,43 @@
       "link": "https://nitter.net/bespokeinvest/status/2080756247733719258#m",
       "tag": "NEWS",
       "published_at": "2026-07-24T20:45:22+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "טראמפ אומר שהוא הולך לשים \"תעריף גדול\" על קנדה בגלל עשן האש 🇨🇦🇨🇦🇨🇦",
+      "title_he": "אני מתערב שאתה לא יכול לצפות בזה ולא 😂 @JC_ParetsX נותן לנו את ההסתכלות שלו על חוב מרווח כ-% מהתמ\"ג ולמה אתה צריך פשוט להתעלם לחלוטין מהדאגה האחרונה הזו.",
       "summary_he": "",
-      "body_en": "TRUMP SAYS HE IS GOING TO PUT A “BIG TARIFF” ON CANADA BECAUSE OF THE WILDFIRE SMOKE 🇨🇦🇨🇦🇨🇦",
+      "body_en": "I bet you can't watch this and not 😂 @JC_ParetsX gives us his take on margin debt as a % of GDP and why you should just totally ignore this latest worry.",
       "ticker": "",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2080739474405744869#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-24T19:38:43+00:00",
-      "relative_time": "לפני 15ש׳",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2080709435572273488#m",
+      "tag": "MACRO",
+      "published_at": "2026-07-24T17:39:21+00:00",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "ענקית חוצות סוגרת כעת 91 חנויות בפשיטת רגל של פרק 11",
+      "summary_he": "",
+      "body_en": "Outdoor giant now closing 91 stores in Chapter 11 bankruptcy",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/small-business/articles/outdoor-giant-now-closing-91-161700671.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-24T16:17:00+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "לעתים קרובות אני רואה אנשים ב-X יורדים בממוצע כדי להוריד את בסיס העלות, אבל זה לא משנה את העובדה שההפסד המוחלט בדולר ללא שינוי. הדולרים המקוריים עדיין...",
+      "summary_he": "",
+      "body_en": "I often see folks on X averaging down to lower the cost basis but this doesn't change the fact that the absolute dollar loss is unchanged. The original dollars are still down significantly. The lower ",
+      "ticker": "",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2080673896269795747#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-24T15:18:08+00:00",
+      "relative_time": "לפני 20ש׳",
+      "sentiment": "bearish"
     }
   ],
   "il_news": [
