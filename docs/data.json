@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T14:08:33.167407+00:00",
+  "generated_at": "2026-07-26T15:38:41.474675+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-26T14:08:33.167421+00:00",
+  "ta_generated_at": "2026-07-26T15:38:41.474687+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,668",
-      "change": "+0.56%",
+      "value": "$64,749",
+      "change": "+0.68%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5550863059844392
+      "pct_raw": 0.681565997084156
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,40 @@
   },
   "us_news": [
     {
+      "title_he": "שבוע שוק המניות לפנינו: מאג 7 והפד — אבל זה הכל על המזומנים",
+      "summary_he": "",
+      "body_en": "Stock Market Week Ahead: Mag 7 And The Fed — But It's All About The Cash",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-mag-7-and-the-fed-but-its-all-about-the-cash/?src=A00220&yptr=yahoo",
+      "tag": "FED",
+      "published_at": "2026-07-26T15:06:23+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "להלן 15 המבצעים המובילים של 2026 1. $SNDK +505% 2. $AEHR +278% 3. $DELL +247% 4. $MU +223% 5. $WDC +202% 6. $AXTI +189% 7. $AAOI +187% ENG 8 +187% ENG…",
+      "summary_he": "",
+      "body_en": "HERE ARE THE TOP 15 PERFORMERS OF 2026 1. $SNDK +505% 2. $AEHR +278% 3. $DELL +247% 4. $MU +223% 5. $WDC +202% 6. $AXTI +189% 7. $AAOI +187% 8. $TWST +185% 9. $PENG +175% 10. $VPG +171% 11. $DOCN +156",
+      "ticker": "$SNDK",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2081388479523819714#m",
+      "tag": "TECH",
+      "published_at": "2026-07-26T14:37:38+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בתוך בום S&P 500 AI, התעשייה מתעשרת כמו מניות הטכנולוגיה",
+      "summary_he": "",
+      "body_en": "Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/26/best-ai-stocks-market-sp500.html",
+      "tag": "TECH",
+      "published_at": "2026-07-26T14:12:20+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "צמיחת הרווחים של S&P 500 השתפרה הודות לחברה אחת",
       "summary_he": "",
       "body_en": "The S&P 500’s earnings growth has gone bonkers thanks to one company",
@@ -867,30 +901,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "משחק המילים המפורסם של אד סייקוטה מכנה את יסודות השוק \"מצחיקים-נפשיים\", כי המחירים כבר מוזילים חדשות ציבוריות. תסתכל על ההכנסות והרווח למניה של $INTU ב-5 השנים האחרונות...",
-      "summary_he": "",
-      "body_en": "Ed Seykota's famous pun calling market fundamentals \"funny-mentals\" because prices already discount public news. Take a look at $INTU's revenue and EPS the past 5 years as the stock is -63% from highs",
-      "ticker": "$INTU",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2081369689305845935#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-26T13:22:58+00:00",
-      "relative_time": "לפני 45ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ריכוז S&P 500 גבוה בהרבה היום בהשוואה לתקופות מאז 1990. מניות מריל 3 מהוות כמעט 20% מהמדד $NVDA $AAPL $GOOGL",
-      "summary_he": "",
-      "body_en": "S&P 500 concentration is much higher today compared to periods since 1990. Merrill 3 stocks account for nearly 20% of the index $NVDA $AAPL $GOOGL",
-      "ticker": "$NVDA",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2081366677938115036#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-26T13:11:00+00:00",
-      "relative_time": "לפני 57ד׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "$GOOGL עשוי לצאת משנת 2028 עם הכנסה של כמעט 2 מיליארד דולר ליום 🤯",
       "summary_he": "",
       "body_en": "$GOOGL could be exiting 2028 doing nearly $2B in revenue per day 🤯",
@@ -899,32 +909,19 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081365301896315015#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T13:05:32+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$META מעצב מחדש את ארכיטקטורת האחסון בינה מלאכותית שלה כדי לשמור על מאיצי $NVDA ו-$AMD מוזנים כאשר האחסון הופך לצוואר בקבוק הולך וגדל בשימוש ב-GPU. המשמרת מועילה ישירות...",
+      "title_he": "שוק האוצר שולח ליו\"ר הפד, קווין ורש, אזהרה ברורה לגבי הריבית",
       "summary_he": "",
-      "body_en": "$META redesigns its AI storage architecture to keep $NVDA & $AMD accelerators fed as storage becomes a growing bottleneck to GPU utilization. The shift directly benefits $MU, $SKHY & Samsung supplying",
-      "ticker": "$META",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2081358695599059106#m",
+      "body_en": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
       "tag": "FED",
-      "published_at": "2026-07-26T12:39:17+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מנכ\"ל $NVDA, Jensen Huang, מצפה שתעשיית המוליכים למחצה תגדל פי 10 במהלך העשור הבא, כאשר מיליארדי סוכני AI ורובוטים יניעו את הביקוש למחשוב. הוא אומר שהעלייה הזו…",
-      "summary_he": "",
-      "body_en": "$NVDA CEO Jensen Huang expects the semiconductor industry to grow 10x over the next decade as billions of AI agents and robots drive compute demand. He says that surge is already straining the entire ",
-      "ticker": "$NVDA",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2081351613361553822#m",
-      "tag": "TECH",
-      "published_at": "2026-07-26T12:11:08+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
+      "published_at": "2026-07-26T12:30:00+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "RT מאת @RyanDetrick: מריל: ה-S&P 500 עלה בסביבות 110% מאז אוקטובר 2022 השוואות היסטוריות מצביעות על כך שלראלי עדיין יהיה מקום לרוץ, שכן השווקים השוורים...",
@@ -935,7 +932,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081351579957858565#m",
       "tag": "NEWS",
       "published_at": "2026-07-26T12:11:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
@@ -958,56 +955,27 @@
       "link": "https://nitter.net/garyblack00/status/2081191950514893101#m",
       "tag": "M&A",
       "published_at": "2026-07-26T01:36:42+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "בשבועות הבאים הרווחים מאסיביים • יום שני | $APLD, $NVTS, $CDNS, $AMKR • יום שלישי | $BE, $KLAC, $PYPL, $V, $TER, $ENPH • יום רביעי | $MSFT, $META, $HOOD, $ARM, $QCOM,...",
-      "summary_he": "",
-      "body_en": "NEXT WEEKS EARNINGS ARE MASSIVE • Monday | $APLD, $NVTS, $CDNS, $AMKR • Tuesday | $BE, $KLAC, $PYPL, $V, $TER, $ENPH • Wednesday | $MSFT, $META, $HOOD, $ARM, $QCOM, $SOFI, $VRT, $LMND, $LRCX, $VKTX, $",
-      "ticker": "$APLD",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2081055546397114645#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-25T16:34:41+00:00",
-      "relative_time": "לפני 21ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אלפבית פלופ, זעזועים של אינטל וטנקי טסלה: סיכום שבועי של AlphaSpace",
-      "summary_he": "",
-      "body_en": "Alphabet flops, Intel shocks, and Tesla tanks: AlphaSpace weekly recap",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/alphabet-flops-intel-shocks-and-tesla-tanks-alphaspace-weekly-recap-123816321.html",
-      "tag": "TECH",
-      "published_at": "2026-07-25T12:38:16+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ג'ים קריימר אומר שהרכישה של קימברלי קלארק של Kenvue יוצרת מעצמה עם רווחים גבוהים",
-      "summary_he": "",
-      "body_en": "Jim Cramer Says Kimberly-Clark’s Acquisition of Kenvue Creates a High-Margin Powerhouse",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-kimberly-clark-122211870.html",
-      "tag": "M&A",
-      "published_at": "2026-07-25T12:22:11+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "גוגל וטסלה הפסידו השבוע חצי טריליון דולר כשהספקים שלהן הרוויחו: תרשים היום",
-      "summary_he": "",
-      "body_en": "Google and Tesla lost half a trillion dollars this week as their suppliers cashed in: Chart of the Day",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/google-and-tesla-lost-half-a-trillion-dollars-this-week-as-their-suppliers-cashed-in-chart-of-the-day-121403846.html",
-      "tag": "TECH",
-      "published_at": "2026-07-25T12:14:03+00:00",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "בן גביר התנגד, סמוטריץ' תמך: הקבינט אישר את הכנסת \"מועצת השלום\" לעזה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856319",
+      "tag": "כללי",
+      "published_at": "2026-07-26T17:01:00+00:00"
+    },
+    {
+      "title_he": "התעללות ממושכת ותקיפה מינית של קשישה חסרת ישע: אישום נגד מטפלת סיעודית מהודו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856313",
+      "tag": "כללי",
+      "published_at": "2026-07-26T16:31:00+00:00"
+    },
     {
       "title_he": "חננאל סבג הוא השוטר מג\"ב שירה למוות בחברו החייל בערב סוכות",
       "summary_he": "",
@@ -1071,22 +1039,6 @@
       "link": "https://news.walla.co.il/item/3856175",
       "tag": "כללי",
       "published_at": "2026-07-26T10:12:00+00:00"
-    },
-    {
-      "title_he": "אחרי פתיחת תיק תאיר ראדה מחדש: אולה קרבצ'נקו מגיבה - \"אם יזמנו אותי לחקירה, אני אגיע\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856184",
-      "tag": "כללי",
-      "published_at": "2026-07-26T10:00:00+00:00"
-    },
-    {
-      "title_he": "בדרך לבסיס או לעבודה? בשל תקלה הופסקה זמנית תנועת הרכבות בין ת\"א ולוד",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856129",
-      "tag": "כללי",
-      "published_at": "2026-07-26T05:50:00+00:00"
     }
   ],
   "track_record": {
