@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T15:38:41.474675+00:00",
+  "generated_at": "2026-07-26T16:59:58.812912+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-26T15:38:41.474687+00:00",
+  "ta_generated_at": "2026-07-26T16:59:58.812924+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,749",
-      "change": "+0.68%",
+      "value": "$64,684",
+      "change": "+0.58%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.681565997084156
+      "pct_raw": 0.5801054629772451
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,40 @@
   },
   "us_news": [
     {
+      "title_he": "גוגל הוציאה 490 מיליון דולר ביום על בינה מלאכותית ושרפה 5.9 מיליארד דולר במזומן - הרבעון השלילי הראשון שלה מאז ההנפקה",
+      "summary_he": "",
+      "body_en": "Google spent $490 million a day on AI and burned $5.9 billion in cash — its first negative quarter since going public",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-spent-490-million-day-163000234.html",
+      "tag": "TECH",
+      "published_at": "2026-07-26T16:30:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "חוזים עתידיים של דאו ג'ונס: ארה\"ב, איראן מחפשות עסקה; אפל מובילה את גל הרווחים, פגישת הפד קדימה",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures: U.S., Iran Seek Deal; Apple Leads Earnings Wave, Fed Meeting Ahead",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-earnings-iran-news-fed-meeting-ai-stocks/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-26T16:13:52+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "להלן כמה מהרמפות ההכנסות הצומחות ביותר במערך הבינה המלאכותית במהלך 3 השנים הבאות: • $MU ~90B → $260B • $AVGO ~$75B → $230B • $AMD ~$40B → $110B • $CRWV…",
+      "summary_he": "",
+      "body_en": "Here are some of the fastest-growing revenue ramps across the AI buildout over the next 3 years: • $MU ~$90B → $260B • $AVGO ~$75B → $230B • $AMD ~$40B → $110B • $CRWV ~$6B → $40B • $NBIS ~$900M → $22",
+      "ticker": "$MU",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2081410317184352377#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-26T16:04:25+00:00",
+      "relative_time": "לפני 55ד׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "שבוע שוק המניות לפנינו: מאג 7 והפד — אבל זה הכל על המזומנים",
       "summary_he": "",
       "body_en": "Stock Market Week Ahead: Mag 7 And The Fed — But It's All About The Cash",
@@ -875,7 +909,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081388479523819714#m",
       "tag": "TECH",
       "published_at": "2026-07-26T14:37:38+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -901,15 +935,15 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$GOOGL עשוי לצאת משנת 2028 עם הכנסה של כמעט 2 מיליארד דולר ליום 🤯",
+      "title_he": "משחק המילים המפורסם של אד סייקוטה מכנה את יסודות השוק \"מצחיקים-נפשיים\", כי המחירים כבר מוזילים חדשות ציבוריות. תסתכל על ההכנסות והרווח למניה של $INTU ב-5 השנים האחרונות...",
       "summary_he": "",
-      "body_en": "$GOOGL could be exiting 2028 doing nearly $2B in revenue per day 🤯",
-      "ticker": "$GOOGL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2081365301896315015#m",
+      "body_en": "Ed Seykota's famous pun calling market fundamentals \"funny-mentals\" because prices already discount public news. Take a look at $INTU's revenue and EPS the past 5 years as the stock is -63% from highs",
+      "ticker": "$INTU",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2081369689305845935#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-26T13:05:32+00:00",
-      "relative_time": "לפני 2ש׳",
+      "published_at": "2026-07-26T13:22:58+00:00",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,18 +956,6 @@
       "tag": "FED",
       "published_at": "2026-07-26T12:30:00+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @RyanDetrick: מריל: ה-S&P 500 עלה בסביבות 110% מאז אוקטובר 2022 השוואות היסטוריות מצביעות על כך שלראלי עדיין יהיה מקום לרוץ, שכן השווקים השוורים...",
-      "summary_he": "",
-      "body_en": "RT by @RyanDetrick: Merrill: The S&P 500 has gained around 110% since October 2022 Historical comparisons suggest the rally may still have room to run, as bull markets since 1949 have averaged around ",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/MikeZaccardi/status/2081351579957858565#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-26T12:11:00+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "bullish"
     },
     {
       "title_he": "\"הזמן יגיד אם זה היה הימור טוב\": היועץ שלי השיג לי הקצאת הנפקה מלאה של SpaceX. היה לי מזל?",
@@ -955,11 +977,27 @@
       "link": "https://nitter.net/garyblack00/status/2081191950514893101#m",
       "tag": "M&A",
       "published_at": "2026-07-26T01:36:42+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "מחאה באיילון: \"תכניסו את שב\"כ לחקירת היעלמותה של היימנוט קסאו\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856349",
+      "tag": "כללי",
+      "published_at": "2026-07-26T19:16:00+00:00"
+    },
+    {
+      "title_he": "ועדת הבחירות נגד סמוטריץ': סרטון ה-AI על איזנקוט יוסר",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856341",
+      "tag": "כללי",
+      "published_at": "2026-07-26T18:45:00+00:00"
+    },
     {
       "title_he": "בן גביר התנגד, סמוטריץ' תמך: הקבינט אישר את הכנסת \"מועצת השלום\" לעזה",
       "summary_he": "",
@@ -1023,22 +1061,6 @@
       "link": "https://news.walla.co.il/item/3856223",
       "tag": "כללי",
       "published_at": "2026-07-26T11:40:00+00:00"
-    },
-    {
-      "title_he": "אמו של יובל כוגן: \"אני לא מתייחסת לשמועות - קרה לנו נס\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856219",
-      "tag": "כללי",
-      "published_at": "2026-07-26T11:26:00+00:00"
-    },
-    {
-      "title_he": "לאחר שעות ארוכות של חיפושים: גופת גבר אותרה בחוף אשקלון",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856175",
-      "tag": "כללי",
-      "published_at": "2026-07-26T10:12:00+00:00"
     }
   ],
   "track_record": {
