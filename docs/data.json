@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T20:57:04.575489+00:00",
+  "generated_at": "2026-07-26T22:02:00.496720+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-26T20:57:04.575502+00:00",
+  "ta_generated_at": "2026-07-26T22:02:00.496731+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,591",
-      "change": "+0.44%",
+      "value": "$64,970",
+      "change": "+1.02%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.43591488324185534
+      "pct_raw": 1.0244792781047989
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.049",
-      "change": "-0.73%",
+      "value": "3.045",
+      "change": "-0.87%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.7260059903633281
+      "pct_raw": -0.8692538090897234
     }
   ],
   "sectors": [
@@ -856,14 +856,14 @@
   },
   "us_news": [
     {
-      "title_he": "חוזים עתידיים של דאו ג'ונס: ארה\"ב, איראן מחפשות עסקה; אפל מובילה את גל הרווחים, פגישת הפד קדימה",
+      "title_he": "Dow Jones Futures Due, חדשות איראן במוקד; אפל מובילה את גל הרווחים, פגישת הפד קדימה",
       "summary_he": "",
-      "body_en": "Dow Jones Futures: U.S., Iran Seek Deal; Apple Leads Earnings Wave, Fed Meeting Ahead",
+      "body_en": "Dow Jones Futures Due, Iran News In focus; Apple Leads Earnings Wave, Fed Meeting Ahead",
       "ticker": "",
       "source": "Yahoo Finance",
       "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-earnings-iran-news-fed-meeting-ai-stocks/?src=A00220&yptr=yahoo",
       "tag": "EARNINGS",
-      "published_at": "2026-07-26T19:54:02+00:00",
+      "published_at": "2026-07-26T21:17:18+00:00",
       "sentiment": "neutral"
     },
     {
@@ -875,7 +875,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081467266873401480#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T19:50:42+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -909,7 +909,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081425153221955974#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T17:03:22+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,7 +921,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081410317184352377#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T16:04:25+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -944,7 +944,7 @@
       "link": "https://nitter.net/cperruna/status/2081369689305845935#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T13:22:58+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -956,7 +956,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081351613361553822#m",
       "tag": "TECH",
       "published_at": "2026-07-26T12:11:08+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
@@ -968,7 +968,7 @@
       "link": "https://nitter.net/garyblack00/status/2081191950514893101#m",
       "tag": "M&A",
       "published_at": "2026-07-26T01:36:42+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     }
   ],
