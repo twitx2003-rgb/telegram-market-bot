@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T10:45:27.869121+00:00",
+  "generated_at": "2026-07-26T12:02:15.191393+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-26T10:45:27.869134+00:00",
+  "ta_generated_at": "2026-07-26T12:02:15.191405+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,485",
-      "change": "+0.27%",
+      "value": "$64,448",
+      "change": "+0.21%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.27166543929223486
+      "pct_raw": 0.21374352518522435
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,15 +856,27 @@
   },
   "us_news": [
     {
-      "title_he": "מיזוג $SPCX עם $TSLA נראה פחות סביר היום. https://fortune.com/2026/07/25/spacex-tesla-stock-price-merger-window-elon-musk/",
+      "title_he": "גולדמן והקונצנזוס רואים צמיחה של 2% בתמ\"ג הריאלי בארה\"ב עד 2027, בערך",
       "summary_he": "",
-      "body_en": "$SPCX merger with $TSLA looks less likely today. https://fortune.com/2026/07/25/spacex-tesla-stock-price-merger-window-elon-musk/",
-      "ticker": "$SPCX",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2081191950514893101#m",
-      "tag": "M&A",
-      "published_at": "2026-07-26T01:36:42+00:00",
-      "relative_time": "לפני 9ש׳",
+      "body_en": "Goldman & consensus see 2% US real GDP growth through 2027, thereabouts",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2081344028541427991#m",
+      "tag": "BANKS",
+      "published_at": "2026-07-26T11:41:00+00:00",
+      "relative_time": "לפני 21ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ערך מניות גדול בארה\"ב מוביל את הביטקוין YTD (Sharpe Ratio) הגרוע ביותר, עם שיקול הדעת של הצרכן חלש מאוד (וזהב, 10 שנים Tsy)",
+      "summary_he": "",
+      "body_en": "US large-cap value leads YTD (Sharpe Ratio) Bitcoin worst, with Consumer Discretionary very weak (and gold, 10yr Tsy)",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2081338995804357100#m",
+      "tag": "CRYPTO",
+      "published_at": "2026-07-26T11:21:00+00:00",
+      "relative_time": "לפני 41ד׳",
       "sentiment": "neutral"
     },
     {
@@ -875,7 +887,19 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
       "tag": "NEWS",
-      "published_at": "2026-07-25T22:30:00+00:00",
+      "published_at": "2026-07-26T11:00:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מיזוג $SPCX עם $TSLA נראה פחות סביר היום. https://fortune.com/2026/07/25/spacex-tesla-stock-price-merger-window-elon-musk/",
+      "summary_he": "",
+      "body_en": "$SPCX merger with $TSLA looks less likely today. https://fortune.com/2026/07/25/spacex-tesla-stock-price-merger-window-elon-musk/",
+      "ticker": "$SPCX",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2081191950514893101#m",
+      "tag": "M&A",
+      "published_at": "2026-07-26T01:36:42+00:00",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -890,6 +914,18 @@
       "sentiment": "neutral"
     },
     {
+      "title_he": "יום רחוב כריסטופר בברלין הופסק לאחר שמכונית התנגשה בהמון בברלין טיארגן, כך נכתב בעיתון ביל",
+      "summary_he": "",
+      "body_en": "CHRISTOPHER STREET DAY IN BERLIN CALLED OFF AFTER CAR CRASHED INTO CROWD AT BERLIN TIERGARTEN, SAYS BILD NEWSPAPER",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2081119954187763991#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-25T20:50:37+00:00",
+      "relative_time": "לפני 15ש׳",
+      "sentiment": "bearish"
+    },
+    {
       "title_he": "מחירי הנפט עשויים לרדת, אבל מחירי הבנזין לא. תראה את המלכודת שבה אנחנו נמצאים.",
       "summary_he": "",
       "body_en": "Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.",
@@ -901,15 +937,51 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "הנפט ירד בסוף השבוע ב-Hyperliquid עד כה... S&P 500 perp up @augurinfinity",
+      "title_he": "בשבועות הבאים הרווחים מסיביים • יום שני | $APLD, $NVTS, $CDNS, $AMKR • יום שלישי | $BE, $KLAC, $PYPL, $V, $TER, $ENPH • יום רביעי | $MSFT, $META, $HOOD, $ARM, $QCOM,...",
       "summary_he": "",
-      "body_en": "Oil dips this weekend on Hyperliquid so far... S&P 500 perp up @augurinfinity",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2081072943421862206#m",
-      "tag": "ENERGY",
-      "published_at": "2026-07-25T17:43:48+00:00",
-      "relative_time": "לפני 17ש׳",
+      "body_en": "NEXT WEEKS EARNINGS ARE MASSIVE • Monday | $APLD, $NVTS, $CDNS, $AMKR • Tuesday | $BE, $KLAC, $PYPL, $V, $TER, $ENPH • Wednesday | $MSFT, $META, $HOOD, $ARM, $QCOM, $SOFI, $VRT, $LMND, $LRCX, $VKTX, $",
+      "ticker": "$APLD",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2081055546397114645#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-25T16:34:41+00:00",
+      "relative_time": "לפני 19ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הודעה לדובי הבינה המלאכותית כאשר דובי הבינה המלאכותית מסתכלים על המכפילים הנמוכים $SKHY, $MU, $SNDK וסמסונג אז התגובה היא בדרך כלל גרסה כלשהי של \"מכפילי רווחים הם...",
+      "summary_he": "",
+      "body_en": "A MESSAGE TO THE AI BEARS When AI bears look at the low multiples $SKHY, $MU, $SNDK and Samsung then the response is usually some version of “earnings multiples are meaningless for cyclical companies ",
+      "ticker": "$SKHY",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2081047650003231145#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-25T16:03:18+00:00",
+      "relative_time": "לפני 19ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "השוק נמצא בבועה כזו, אך אלו הם מכפילי הרווחים של 2027 עבור כמה מהחברות הגדולות בעולם: • $AMZN ~23x • $GOOGL ~22x • $NOW ~22x $MSFT ~20x •…",
+      "summary_he": "",
+      "body_en": "ThE mArKeT iS iN sUcH a BuBbLe Yet these are the 2027 earnings multiples for some of the world’s biggest companies: • $AMZN ~23x • $GOOGL ~22x • $NOW ~22x • $MSFT ~20x • $AVGO ~20x • $DELL ~20x • $TSM",
+      "ticker": "$AMZN",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2081038977809924324#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-25T15:28:50+00:00",
+      "relative_time": "לפני 20ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$INTC התגלה כאחד מזוכי הבינה המלאכותית הגדולים ביותר של 2026 על ידי תועלת ממעבדי Xeon, סיליקון ייעודי ואריזות מתקדמות. החשיפה הזו מתרחבת כי...",
+      "summary_he": "",
+      "body_en": "$INTC has emerged as one of 2026’s biggest AI winners by benefiting across Xeon CPUs, purpose-built silicon and advanced packaging. That exposure is expanding because every accelerator rack still need",
+      "ticker": "$INTC",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2081030696723001723#m",
+      "tag": "TECH",
+      "published_at": "2026-07-25T14:55:56+00:00",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,63 +993,6 @@
       "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-lawsuit-301-ieepa.html",
       "tag": "NEWS",
       "published_at": "2026-07-25T14:23:53+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: הכנסות משוערות של MAG 7 במהלך 3 השנים הבאות • $AMZN ~$2.8T • $GOOGL ~$1.8T • $AAPL ~$1.6T • $NVDA ~$1.6T • $MSFT ~$1.2T • $BETA ~$92T…",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: MAG 7 ESTIMATED REVENUE OVER THE NEXT 3 YEARS • $AMZN ~$2.8T • $GOOGL ~$1.8T • $AAPL ~$1.6T • $NVDA ~$1.6T • $MSFT ~$1.2T • $META ~$920B • $TSLA ~$365B",
-      "ticker": "$AMZN",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080998898827657305#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-25T12:49:35+00:00",
-      "relative_time": "לפני 21ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: $GOOGL Ironwood TPU חבילות של ~190GB של HBM3E כך שכל פריסה חדשה מגדילה ישירות את הביקוש לזיכרון פרימיום ברחבי האשכול. הדרישה הזו…",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $GOOGL Ironwood TPU packs ~190GB of HBM3E so every new deployment directly increases premium memory demand across the cluster. That demand compounds as Gemini APIs process ~22B ",
-      "ticker": "$GOOGL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2080990605241622962#m",
-      "tag": "TECH",
-      "published_at": "2026-07-25T12:16:37+00:00",
-      "relative_time": "לפני 22ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מחכה כפולה של אינפלציה בוול סטריט, מה שהופך את ההתרסקות בשוק המניות לסיכוי יותר תחת הנשיא דונלד טראמפ",
-      "summary_he": "",
-      "body_en": "An Inflation Double Whammy Awaits Wall Street, Making a Stock Market Crash Likelier Under President Donald Trump",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/inflation-double-whammy-awaits-wall-082600850.html",
-      "tag": "MACRO",
-      "published_at": "2026-07-25T08:26:00+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "ג'ים קריימר כינה את חברת 3M (סימול:MMM) \"כסף קל\" כשהרווחים הגיעו לשוק.",
-      "summary_he": "",
-      "body_en": "Jim Cramer Called 3M Company (NYSE:MMM) “Easy Money” As Earnings Hit The Wires",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-called-3m-company-080528132.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-25T08:05:28+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Western Digital Corporation (NASDAQ:WDC) התמזל מזלו בזמן שהעסקה האמיתית של מיקרון, אומר ג'ים קריימר",
-      "summary_he": "",
-      "body_en": "Western Digital Corporation (NASDAQ:WDC) Got Lucky While Micron’s The Real Deal, Says Jim Cramer",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-corporation-nasdaq-wdc-080209259.html",
-      "tag": "M&A",
-      "published_at": "2026-07-25T08:02:09+00:00",
       "sentiment": "neutral"
     }
   ],
