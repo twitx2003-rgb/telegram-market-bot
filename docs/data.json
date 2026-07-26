@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T06:05:40.527364+00:00",
+  "generated_at": "2026-07-26T08:56:18.911834+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-26T06:05:40.527374+00:00",
+  "ta_generated_at": "2026-07-26T08:56:18.911846+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,346",
-      "change": "+0.06%",
+      "value": "$64,429",
+      "change": "+0.18%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.055636136557013875
+      "pct_raw": 0.18435495668528928
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,18 +856,6 @@
   },
   "us_news": [
     {
-      "title_he": "מיזוג $SPCX עם $TSLA נראה פחות סביר היום. https://fortune.com/2026/07/25/spacex-tesla-stock-price-merger-window-elon-musk/",
-      "summary_he": "",
-      "body_en": "$SPCX merger with $TSLA looks less likely today. https://fortune.com/2026/07/25/spacex-tesla-stock-price-merger-window-elon-musk/",
-      "ticker": "$SPCX",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2081191950514893101#m",
-      "tag": "M&A",
-      "published_at": "2026-07-26T01:36:42+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "\"הזמן יגיד אם זה היה הימור טוב\": היועץ שלי השיג לי הקצאת הנפקה מלאה של SpaceX. היה לי מזל?",
       "summary_he": "",
       "body_en": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
@@ -898,7 +886,7 @@
       "link": "https://nitter.net/DeItaone/status/2081119954187763991#m",
       "tag": "NEWS",
       "published_at": "2026-07-25T20:50:37+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "bearish"
     },
     {
@@ -921,7 +909,7 @@
       "link": "https://nitter.net/DeItaone/status/2081078513201803517#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T18:05:56+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -933,7 +921,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081072943421862206#m",
       "tag": "ENERGY",
       "published_at": "2026-07-25T17:43:48+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -956,7 +944,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080998898827657305#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-25T12:49:35+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
     {
@@ -968,22 +956,57 @@
       "link": "https://nitter.net/StockSavvyShay/status/2080990605241622962#m",
       "tag": "TECH",
       "published_at": "2026-07-25T12:16:37+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "הנה מדוע Nebius Group N.V. (NBIS) היא מחזה צמיחה ספקולטיבי המגובה בהשקעה של 2 מיליארד דולר של Nvidia",
+      "title_he": "רשימת ההמתנה של AI של גוגל הגיעה ל-514 מיליארד דולר. זה גדול מהתמ\"ג של רוב המדינות.",
       "summary_he": "",
-      "body_en": "Here’s Why Nebius Group N.V. (NBIS) Is a Speculative Growth Play Backed by Nvidia’s $2 Billion Investment",
+      "body_en": "Google’s AI Waitlist Just Hit $514 Billion. That’s Bigger Than the GDP of Most Countries.",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-nebius-group-n-v-222719675.html",
-      "tag": "TECH",
-      "published_at": "2026-07-24T22:27:19+00:00",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-ai-waitlist-just-hit-033115491.html",
+      "tag": "MACRO",
+      "published_at": "2026-07-25T03:31:15+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סיכום שיחת רווחים של Central Pacific Financial Corp. Q2 2026",
+      "summary_he": "",
+      "body_en": "Central Pacific Financial Corp. Q2 2026 Earnings Call Summary",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/central-pacific-financial-corp-q2-002127495.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-25T00:21:27+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "אמו של יובל כוגן: \"אני לא מתייחסת לשמועות - קרה לנו נס\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856219",
+      "tag": "כללי",
+      "published_at": "2026-07-26T11:26:00+00:00"
+    },
+    {
+      "title_he": "לאחר שעות ארוכות של חיפושים: גופת גבר אותרה בחוף אשקלון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856175",
+      "tag": "כללי",
+      "published_at": "2026-07-26T10:12:00+00:00"
+    },
+    {
+      "title_he": "אחרי פתיחת תיק תאיר ראדה מחדש: אולה קרבצ'נקו מגיבה - \"אם יזמנו אותי לחקירה, אני אגיע\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856184",
+      "tag": "כללי",
+      "published_at": "2026-07-26T10:00:00+00:00"
+    },
     {
       "title_he": "בדרך לבסיס או לעבודה? בשל תקלה הופסקה זמנית תנועת הרכבות בין ת\"א ולוד",
       "summary_he": "",
@@ -1039,30 +1062,6 @@
       "link": "https://news.walla.co.il/item/3856036",
       "tag": "כללי",
       "published_at": "2026-07-25T15:49:00+00:00"
-    },
-    {
-      "title_he": "\"משפטי נקמה ועשרות גרדומים\": המוקשים בדרך לשפיטת הנוח'בות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855294",
-      "tag": "כללי",
-      "published_at": "2026-07-25T11:24:00+00:00"
-    },
-    {
-      "title_he": "\"וקברת פני זקן\": הקרב של דיירי הדיור המוגן על הזכות להצביע",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855679",
-      "tag": "כללי",
-      "published_at": "2026-07-25T11:04:00+00:00"
-    },
-    {
-      "title_he": "אזהרה אדומה: הים מסוכן - עם הגלים הגבוהים ביותר שהיו הקיץ",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3855999",
-      "tag": "כללי",
-      "published_at": "2026-07-25T09:30:00+00:00"
     }
   ],
   "track_record": {
