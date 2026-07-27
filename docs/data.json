@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T21:38:44.067871+00:00",
+  "generated_at": "2026-07-27T23:01:25.302135+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-27T21:38:44.067882+00:00",
+  "ta_generated_at": "2026-07-27T23:01:25.302146+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,078.6",
-      "change": "+0.19%",
-      "direction": "up",
+      "value": "$4,075.3",
+      "change": "-0.04%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.191608529036055
+      "pct_raw": -0.041697326465533924
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.7",
-      "change": "-9.40%",
+      "value": "$87.8",
+      "change": "-0.68%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -9.402769167183296
+      "pct_raw": -0.6790402897238504
     },
     {
       "name": "ביטקוין",
-      "value": "$64,792",
-      "change": "-0.83%",
+      "value": "$63,732",
+      "change": "-2.45%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.8280027036822963
+      "pct_raw": -2.4502273884976025
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.055",
-      "change": "+0.18%",
+      "value": "3.050",
+      "change": "+0.03%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.18364870626044755
+      "pct_raw": 0.026235529465776137
     }
   ],
   "sectors": [
@@ -856,7 +856,41 @@
   },
   "us_news": [
     {
-      "title_he": "סדקים נוספים צצים באגרות חוב הקשורות לבינה מלאכותית, כאשר הרווחים של Meta, Microsoft מתנשאים",
+      "title_he": "\"הזמן יגיד אם זה היה הימור טוב\": היועץ שלי השיג לי הקצאה מלאה של SpaceX IPO. היה לי מזל?",
+      "summary_he": "",
+      "body_en": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-27T22:30:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: פוד חדש עם האגדה @DivesTech בשידור חי! אנו מפרקים את סחר הבינה המלאכותית, כולל דגמי קוד פתוח סיניים, האטה בצמיחה בהכנסות של Anthropic, ה...",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: New pod with the legend @DivesTech is live! We break down the AI trade, including Chinese open-source models, Anthropic's slowing revenue growth, the biggest bottlenecks in chips, me",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/APompliano/status/2081864085801455840#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-27T22:07:31+00:00",
+      "relative_time": "לפני 53ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "העסקה החדשה הפוטנציאלית של Nvidia עם OpenAI תחייה הרגל מפחיד של בועות טכנולוגיות, מזהיר אנליסט",
+      "summary_he": "",
+      "body_en": "Nvidia’s potential new deal with OpenAI would revive a spooky tech-bubble habit, analyst warns",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
+      "tag": "M&A",
+      "published_at": "2026-07-27T21:46:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סדקים נוספים צצים באגרות חוב הקשורות לבינה מלאכותית כאשר הרווחים של Meta, מיקרוסופט מתנשאים",
       "summary_he": "",
       "body_en": "More cracks emerge in AI-related bonds as Meta, Microsoft earnings loom",
       "ticker": "",
@@ -875,18 +909,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2081854767483990463#m",
       "tag": "NEWS",
       "published_at": "2026-07-27T21:30:30+00:00",
-      "relative_time": "לפני 7ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "SpaceX איבדה כעת את המקבילה של טסלה מלאה בשווי השוק",
-      "summary_he": "",
-      "body_en": "SpaceX has now lost the equivalent of a full Tesla in market capitalization",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/27/spacex-has-now-lost-the-equivalent-of-a-full-tesla-in-market-capitalization.html",
-      "tag": "TECH",
-      "published_at": "2026-07-27T21:26:03+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -912,29 +935,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "זה לקח 10 חודשים, אבל אפל היא שוב החברה הכי שווה בעולם (בראש Nvidia). $NVDA $AAPL",
-      "summary_he": "",
-      "body_en": "It took 10 months, but Apple is once again the most valuable company in the world (topping Nvidia). $NVDA $AAPL",
-      "ticker": "$NVDA",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2081844953743835348#m",
-      "tag": "TECH",
-      "published_at": "2026-07-27T20:51:30+00:00",
-      "relative_time": "לפני 46ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ אומר שארה\"ב מכרה יותר מ-13 מיליארד דולר של נפט בוונצואלה מאז לכידתו של מדורו",
-      "summary_he": "",
-      "body_en": "Trump says U.S. has sold more than $13 billion of Venezuela oil since Maduro's capture",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/27/trump-says-us-has-sold-more-than-13-billion-of-venezuela-oil-.html",
-      "tag": "ENERGY",
-      "published_at": "2026-07-27T20:51:08+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "הנפט עלה החודש, ויולי מדד המחירים לצרכן צפוי להדפיס +0.04% @kalshi https://kalshi.com/markets/kxcpi/cpi/kxcpi-26jul",
       "summary_he": "",
       "body_en": "Oil has surged this month, and July CPI is expected to print +0.04% @kalshi https://kalshi.com/markets/kxcpi/cpi/kxcpi-26jul",
@@ -943,7 +943,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081843570219061481#m",
       "tag": "ENERGY",
       "published_at": "2026-07-27T20:46:00+00:00",
-      "relative_time": "לפני 52ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -955,7 +955,7 @@
       "link": "https://nitter.net/gurgavin/status/2081843514548044240#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-27T20:45:47+00:00",
-      "relative_time": "לפני 52ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -967,11 +967,11 @@
       "link": "https://nitter.net/wallstengine/status/2081843321400594704#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-27T20:45:01+00:00",
-      "relative_time": "לפני 53ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "$NVTS רווחים לרבעון 2 • הכנסה של $10.5 מיליון לעומת משוער $9.9M • EPS ($0.04) לעומת משוער ($0.04) • מרווח גולמי 40% לעומת משוער. 39% • מזומן: 557 מיליון דולר הנחיות לרבעון השלישי • הכנסה של 14 מיליון דולר לעומת משוער 11 מיליון דולר •…",
+      "title_he": "$NVTS רווחים לרבעון 2 • הכנסות של $10.5 מיליון לעומת משוער $9.9M • EPS ($0.04) לעומת משוער ($0.04) • מרווח גולמי 40% לעומת משוער. 39% • מזומן: 557 מיליון דולר הנחיות לרבעון השלישי • הכנסה של 14 מיליון דולר לעומת משוער 11 מיליון דולר •…",
       "summary_he": "",
       "body_en": "$NVTS Q2 EARNINGS • Revenue $10.5M vs Est. $9.9M • EPS ($0.04) vs Est. ($0.04) • Gross Margin 40% vs Est. 39% • Cash: $557M Q3 Guidance • Revenue $14M vs Est. $11M • Gross Margin 40% vs Est. 40% Navit",
       "ticker": "$NVTS",
@@ -979,7 +979,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081838860183785586#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-27T20:27:17+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -991,7 +991,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081837155052032397#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-27T20:20:31+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1003,7 +1003,7 @@
       "link": "https://nitter.net/wallstengine/status/2081836994037244197#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-27T20:19:52+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bearish"
     },
     {
@@ -1015,7 +1015,7 @@
       "link": "https://nitter.net/wallstengine/status/2081835651851600289#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-27T20:14:32+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     }
   ],
