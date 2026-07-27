@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T23:28:58.174027+00:00",
+  "generated_at": "2026-07-27T01:10:48.710922+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-26T23:28:58.174039+00:00",
+  "ta_generated_at": "2026-07-27T01:10:48.710934+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,088.3",
-      "change": "+0.43%",
+      "value": "$4,108.7",
+      "change": "+0.93%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4298909305296256
+      "pct_raw": 0.9310209295470088
     },
     {
       "name": "נפט ברנט",
       "value": "$92.1",
-      "change": "-4.86%",
+      "change": "-4.83%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -4.856375284149621
+      "pct_raw": -4.825377144038026
     },
     {
       "name": "ביטקוין",
-      "value": "$65,268",
-      "change": "+1.49%",
-      "direction": "up",
+      "value": "$65,105",
+      "change": "-0.35%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 1.4884610217394516
+      "pct_raw": -0.3491337930899455
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.049",
-      "change": "-0.03%",
+      "value": "3.039",
+      "change": "-0.34%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.026235529465776137
+      "pct_raw": -0.34434132423834823
     }
   ],
   "sectors": [
@@ -850,13 +850,71 @@
     }
   ],
   "fear_greed": {
-    "score": 26,
+    "score": 30,
     "rating": "פחד",
     "rating_en": "fear"
   },
   "us_news": [
     {
-      "title_he": "רק ב: NVIDIA בשיחות לספק 250 מיליארד דולר עצירה פיננסית למרכז הנתונים OPENAI באוהיו NVIDIA תבטיח מימון למרכז נתונים שעלול לעלות קצת...",
+      "title_he": "מחירי הנפט יורדים, החוזים העתידיים על המניות עולים כאשר ארה\"ב ואיראן מפסיקות את התקפות, וול סטריט ממתינה לשבוע עמוס",
+      "summary_he": "",
+      "body_en": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
+      "tag": "ENERGY",
+      "published_at": "2026-07-27T00:57:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "סינגפור מהדקת את המדיניות המוניטרית מכיוון שעליית מחירי הנפט מציתה מחדש את הסיכון לאינפלציה",
+      "summary_he": "",
+      "body_en": "Singapore tightens monetary policy as rising oil prices rekindle inflation risk",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
+      "tag": "ENERGY",
+      "published_at": "2026-07-27T00:34:22+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "BREAKING: Nvidia, $NVDA, מנהלת מגעים לספק מעצור פיננסי של 250 מיליארד דולר ל-OpenAI לשכור פרויקט מרכז נתונים ענק באוהיו, לפי WSJ",
+      "summary_he": "",
+      "body_en": "BREAKING: Nvidia, $NVDA, is in talks to provide a $250 billion financial backstop for OpenAI to lease a massive data center project in Ohio, per WSJ",
+      "ticker": "$NVDA",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2081525324416991520#m",
+      "tag": "TECH",
+      "published_at": "2026-07-26T23:41:24+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "NVDA $ שוקלת 250 מיליארד דולר ל-OPENAI DATA CENTER WSJ מדווחת ש-Nvidia שוקלת ערבויות של בערך 250 מיליארד דולר הקשורות לחכירת OpenAI קמפוס באוהיו של 10 ג'יגה-ואט...",
+      "summary_he": "",
+      "body_en": "$NVDA WEIGHS $250B BACKSTOP FOR OPENAI DATA CENTER WSJ reports Nvidia is considering roughly $250B in guarantees tied to OpenAI leasing a 10-gigawatt Ohio campus developed by SoftBank. The project cou",
+      "ticker": "$NVDA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2081523281094684979#m",
+      "tag": "TECH",
+      "published_at": "2026-07-26T23:33:17+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "לפי הדיווחים, $NVDA מנהלת מגעים לספק מעצור פיננסי של 250 מיליארד דולר למרכז הנתונים המתוכנן של OpenAI באוהיו. הפרויקט הנתמך על ידי SoftBank עשוי לעלות ~ 500 מיליארד דולר ולהפוך ל...",
+      "summary_he": "",
+      "body_en": "$NVDA is reportedly in talks to provide a $250B financial backstop for OpenAI’s planned Ohio data center. The SoftBank-backed project could cost ~$500B and become the largest data center in the U.S.",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2081521479896985909#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-26T23:26:08+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רק ב: NVIDIA בשיחות לספק 250 מיליארד דולר עצירה פיננסית למרכז הנתונים OPENAI באושיו NVIDIA תבטיח מימון למרכז נתונים שעלול לעלות קצת...",
       "summary_he": "",
       "body_en": "JUST IN : NVIDIA IN TALKS TO PROVIDE $250 BILLION FINANCIAL BACKSTOP FOR OPENAI DATA CENTER IN OHIO NVIDIA WOULD GUARANTEE FINANCING FOR DATA CENTER THAT COULD COST SOME $500 BILLION IN TOTAL PER WSJ ",
       "ticker": "$NVDA",
@@ -864,30 +922,20 @@
       "link": "https://nitter.net/gurgavin/status/2081520027241464314#m",
       "tag": "TECH",
       "published_at": "2026-07-26T23:20:21+00:00",
-      "relative_time": "לפני 7ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "החוזים העתידיים על דאו ג'ונס עולים, מחירי הנפט צוללים על תקוות איראן; אפל מובילה את גל הרווחים, פגישת הפד קדימה",
+      "title_he": "אין נתונים חשובים לקראת החלטת הפד לרבעון השני של הצהריים, מבט ראשון, נתוני אינפלציה של יוני PCE יום חמישי ECI, UMich שישי",
       "summary_he": "",
-      "body_en": "Dow Jones Futures Rise, Oil Prices Dive On Iran Hopes; Apple Leads Earnings Wave, Fed Meeting Ahead",
+      "body_en": "No major data ahead of the Wednesday afternoon Fed decision Q2 GDP first look, June PCE inflation data Thursday ECI, UMich Friday",
       "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-earnings-iran-news-fed-meeting-ai-stocks/?src=A00220&yptr=yahoo",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2081519398137872815#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-26T23:08:44+00:00",
+      "published_at": "2026-07-26T23:17:51+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "מחירי הנפט יורדים, החוזים העתידיים על המניות עולים כאשר ארה\"ב ואיראן מפסיקות את ההתקפות, וול סטריט ממתינה לשבוע עמוס",
-      "summary_he": "",
-      "body_en": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
-      "tag": "ENERGY",
-      "published_at": "2026-07-26T22:42:00+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "FUTURES רק נפתחה S&P 500 בעלייה של 0.7% 📈 NASDAQ 100 בעלייה של 1.2% 📈 דאו ג'ונס עלה ב-0.6% 📈",
@@ -898,7 +946,7 @@
       "link": "https://nitter.net/gurgavin/status/2081500940671086644#m",
       "tag": "NEWS",
       "published_at": "2026-07-26T22:04:31+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,18 +958,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2081498330413007260#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T21:54:08+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "עלויות הדלק הסילוניות של ארה\"ב מזנקות כאשר מלחמת איראן מכה שוב את חברות התעופה",
-      "summary_he": "",
-      "body_en": "U.S. Jet Fuel Costs Soar as Iran War Hits Airlines Again",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/energy/articles/u-jet-fuel-costs-soar-210000933.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-26T21:00:00+00:00",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
@@ -933,7 +970,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081467266873401480#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T19:50:42+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -948,40 +985,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "הפקת הנפט של ארגנטינה מזנקת כאשר ואקה מוארטה שובר שיאים חדשים",
-      "summary_he": "",
-      "body_en": "Argentina’s Oil Production Soars as Vaca Muerta Breaks New Records",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/energy/articles/argentina-oil-production-soars-vaca-190000618.html",
-      "tag": "ENERGY",
-      "published_at": "2026-07-26T19:00:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: אלו הם נתוני הכנסה שנתיים חזויים (לא סכומים מצטברים ל-3 שנים). לדוגמה, MU $ צפוי לגדול מ-$90B בהכנסה שנתית ל...",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: These are projected annual revenue figures (not cumulative 3-year totals). For example, $MU is projected to grow from ~$90B in annual revenue to about $260B annually over the nex",
-      "ticker": "$MU",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2081425153221955974#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-26T17:03:22+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "החלטת הפד, רווחי טכנולוגיה ועוד פריטים שלא ניתן לפספס השבוע",
-      "summary_he": "",
-      "body_en": "Fed Decision, Tech Earnings and Other Can't Miss Items this Week",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/economy/policy/articles/fed-decision-tech-earnings-other-170002542.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-26T17:00:02+00:00",
-      "sentiment": "bearish"
-    },
-    {
       "title_he": "צמיחת הרווחים של S&P 500 השתפרה הודות לחברה אחת",
       "summary_he": "",
       "body_en": "The S&P 500’s earnings growth has gone bonkers thanks to one company",
@@ -993,6 +996,18 @@
       "sentiment": "neutral"
     },
     {
+      "title_he": "RT מאת @cperruna: משחק המילים המפורסם של אד סייקוטה מכנה את יסודות השוק \"מצחיקים-נפשיים\", כי המחירים כבר מוזילים חדשות ציבוריות. תסתכל על ההכנסות והרווח למניה של $INTU...",
+      "summary_he": "",
+      "body_en": "RT by @cperruna: Ed Seykota's famous pun calling market fundamentals \"funny-mentals\" because prices already discount public news. Take a look at $INTU's revenue and EPS the past 5 years as the stock i",
+      "ticker": "$INTU",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2081369689305845935#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-26T13:22:58+00:00",
+      "relative_time": "לפני 11ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "RT מאת @StockSavvyShay: מנכ\"ל $NVDA, Jensen Huang, מצפה שתעשיית המוליכים למחצה תגדל פי 10 במהלך העשור הבא, כאשר מיליארדי סוכני AI ורובוטים מניעים מחשוב...",
       "summary_he": "",
       "body_en": "RT by @StockSavvyShay: $NVDA CEO Jensen Huang expects the semiconductor industry to grow 10x over the next decade as billions of AI agents and robots drive compute demand. He says that surge is alread",
@@ -1001,23 +1016,19 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081351613361553822#m",
       "tag": "TECH",
       "published_at": "2026-07-26T12:11:08+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "מיזוג $SPCX עם $TSLA נראה פחות סביר היום. https://fortune.com/2026/07/25/spacex-tesla-stock-price-merger-window-elon-musk/",
-      "summary_he": "",
-      "body_en": "$SPCX merger with $TSLA looks less likely today. https://fortune.com/2026/07/25/spacex-tesla-stock-price-merger-window-elon-musk/",
-      "ticker": "$SPCX",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2081191950514893101#m",
-      "tag": "M&A",
-      "published_at": "2026-07-26T01:36:42+00:00",
-      "relative_time": "לפני 21ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "חשד: שידלו את ילדיהם לגנוב - והחביאו בעגלת בתם התינוקת",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856409",
+      "tag": "כללי",
+      "published_at": "2026-07-27T06:00:00+00:00"
+    },
     {
       "title_he": "מחאה באיילון: \"תכניסו את שב\"כ לחקירת היעלמותה של היימנוט קסאו\"",
       "summary_he": "",
@@ -1089,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3856228",
       "tag": "כללי",
       "published_at": "2026-07-26T12:06:00+00:00"
-    },
-    {
-      "title_he": "\"זה היה יכול להסתיים בהלוויה\": נפגעי התאונה עם ששון שאולוב מדברים לראשונה | בלעדי",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856223",
-      "tag": "כללי",
-      "published_at": "2026-07-26T11:40:00+00:00"
     }
   ],
   "track_record": {
