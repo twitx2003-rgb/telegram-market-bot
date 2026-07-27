@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T05:10:45.894713+00:00",
+  "generated_at": "2026-07-27T08:54:30.577280+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-27T05:10:45.894726+00:00",
+  "ta_generated_at": "2026-07-27T08:54:30.577291+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "18.58",
-      "change": "-0.64%",
+      "value": "17.67",
+      "change": "-4.90%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.6417112299465294
+      "pct_raw": -4.8977395048439005
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,092.5",
-      "change": "+0.53%",
+      "value": "$4,093.4",
+      "change": "+0.56%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5330647538567314
+      "pct_raw": 0.5551734302839715
     },
     {
       "name": "נפט ברנט",
-      "value": "$92.0",
-      "change": "-4.90%",
+      "value": "$89.7",
+      "change": "-7.32%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -4.897706137631737
+      "pct_raw": -7.315561066336018
     },
     {
       "name": "ביטקוין",
-      "value": "$65,285",
-      "change": "-0.07%",
+      "value": "$65,088",
+      "change": "-0.38%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.07319411655221686
+      "pct_raw": -0.37504714301108855
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,253",
-      "change": "+0.62%",
-      "direction": "up",
+      "value": "4,242",
+      "change": "-0.26%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.616986042110242
+      "pct_raw": -0.2588712180349351
     },
     {
       "name": "דולר/שקל",
-      "value": "3.038",
-      "change": "-0.36%",
+      "value": "3.028",
+      "change": "-0.71%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.3574590889712363
+      "pct_raw": -0.7083592955760432
     }
   ],
   "sectors": [
@@ -856,6 +856,29 @@
   },
   "us_news": [
     {
+      "title_he": "CHIP STOCKS SURGE מניות השבבים הנסחרות בארה\"ב מטפסות במסחר לפני השוק. • $SNDK +4.1%, $WDC +4.0% • $MU +3.3%, $INTC +2.8%, $AMD +2.7% • $AVGO +2.1%, $NVDA +1.2% • $SOXX…",
+      "summary_he": "",
+      "body_en": "CHIP STOCKS SURGE US-listed chip stocks climb in premarket trading. • $SNDK +4.1%, $WDC +4.0% • $MU +3.3%, $INTC +2.8%, $AMD +2.7% • $AVGO +2.1%, $NVDA +1.2% • $SOXX +2.8%",
+      "ticker": "$SNDK",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2081658987871629791#m",
+      "tag": "TECH",
+      "published_at": "2026-07-27T08:32:32+00:00",
+      "relative_time": "לפני 21ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "עליית הבכורה בשוק של יצרנית השבבים CXMT של 466% הופכת אותה לחברה הרשומה בסין היקרה ביותר",
+      "summary_he": "",
+      "body_en": "Chipmaker CXMT’s 466% market debut surge makes it the most valuable China-listed company",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html",
+      "tag": "TECH",
+      "published_at": "2026-07-27T08:03:51+00:00",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "מדוע הבזק המכס החדש של טראמפ שונה מאוד הפעם",
       "summary_he": "",
       "body_en": "Why Trump's new tariff blitz is very different this time round",
@@ -886,7 +909,7 @@
       "link": "https://nitter.net/gurgavin/status/2081571303580914029#m",
       "tag": "TECH",
       "published_at": "2026-07-27T02:44:07+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,7 +921,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2081561500343263721#m",
       "tag": "BANKS",
       "published_at": "2026-07-27T02:05:09+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,7 +944,7 @@
       "link": "https://nitter.net/wallstengine/status/2081523281094684979#m",
       "tag": "TECH",
       "published_at": "2026-07-26T23:33:17+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -933,7 +956,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081521479896985909#m",
       "tag": "NEWS",
       "published_at": "2026-07-26T23:26:08+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -945,7 +968,7 @@
       "link": "https://nitter.net/gurgavin/status/2081520027241464314#m",
       "tag": "TECH",
       "published_at": "2026-07-26T23:20:21+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -957,7 +980,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081519398137872815#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T23:17:51+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -969,7 +992,7 @@
       "link": "https://nitter.net/gurgavin/status/2081500940671086644#m",
       "tag": "NEWS",
       "published_at": "2026-07-26T22:04:31+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -981,7 +1004,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081467266873401480#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T19:50:42+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     },
     {
@@ -994,32 +1017,33 @@
       "tag": "NEWS",
       "published_at": "2026-07-26T19:01:00+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "צמיחת הרווחים של S&P 500 השתפרה הודות לחברה אחת",
-      "summary_he": "",
-      "body_en": "The S&P 500’s earnings growth has gone bonkers thanks to one company",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-s-p-500s-earnings-growth-has-gone-bonkers-thanks-to-one-company-1c45b2ba?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-26T14:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @cperruna: משחק המילים המפורסם של אד סייקוטה מכנה את יסודות השוק \"מצחיקים-נפשיים\", כי המחירים כבר מוזילים חדשות ציבוריות. תסתכל על ההכנסות והרווח למניה של $INTU...",
-      "summary_he": "",
-      "body_en": "RT by @cperruna: Ed Seykota's famous pun calling market fundamentals \"funny-mentals\" because prices already discount public news. Take a look at $INTU's revenue and EPS the past 5 years as the stock i",
-      "ticker": "$INTU",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2081369689305845935#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-26T13:22:58+00:00",
-      "relative_time": "לפני 15ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "\"הזריקה לבנה חומרים מסוכנים\": כתב אישום נגד אם החשודה בהתעללות קשה בבנה בן ה־5",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856471",
+      "tag": "כללי",
+      "published_at": "2026-07-27T10:51:00+00:00"
+    },
+    {
+      "title_he": "שריפה פרצה במחסני שטראוס בשדרות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856459",
+      "tag": "כללי",
+      "published_at": "2026-07-27T10:02:00+00:00"
+    },
+    {
+      "title_he": "\"כל עוד חמאס אינו מפורק מנשקו - אין מקום להתקדמות\": ראש מועצת אשכול תוקפת את הקבינט",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856451",
+      "tag": "כללי",
+      "published_at": "2026-07-27T09:20:00+00:00"
+    },
     {
       "title_he": "הכין את המטען 8 שעות מראש: עבריין מואשם ברצח בעפולה",
       "summary_he": "",
@@ -1075,30 +1099,6 @@
       "link": "https://news.walla.co.il/item/3856319",
       "tag": "כללי",
       "published_at": "2026-07-26T17:01:00+00:00"
-    },
-    {
-      "title_he": "התעללות ממושכת ותקיפה מינית של קשישה חסרת ישע: אישום נגד מטפלת סיעודית מהודו",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856313",
-      "tag": "כללי",
-      "published_at": "2026-07-26T16:31:00+00:00"
-    },
-    {
-      "title_he": "חננאל סבג הוא השוטר מג\"ב שירה למוות בחברו החייל בערב סוכות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856300",
-      "tag": "כללי",
-      "published_at": "2026-07-26T15:40:00+00:00"
-    },
-    {
-      "title_he": "\"איחדת את העם\": המתנדבים במפגש מרגש עם יובל כוגן",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856282",
-      "tag": "כללי",
-      "published_at": "2026-07-26T14:31:00+00:00"
     }
   ],
   "track_record": {
