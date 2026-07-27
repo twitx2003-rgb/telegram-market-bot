@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T01:10:48.710922+00:00",
+  "generated_at": "2026-07-27T05:10:45.894713+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-27T01:10:48.710934+00:00",
+  "ta_generated_at": "2026-07-27T05:10:45.894726+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,108.7",
-      "change": "+0.93%",
+      "value": "$4,092.5",
+      "change": "+0.53%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.9310209295470088
+      "pct_raw": 0.5330647538567314
     },
     {
       "name": "נפט ברנט",
-      "value": "$92.1",
-      "change": "-4.83%",
+      "value": "$92.0",
+      "change": "-4.90%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -4.825377144038026
+      "pct_raw": -4.897706137631737
     },
     {
       "name": "ביטקוין",
-      "value": "$65,105",
-      "change": "-0.35%",
+      "value": "$65,285",
+      "change": "-0.07%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.3491337930899455
+      "pct_raw": -0.07319411655221686
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.039",
-      "change": "-0.34%",
+      "value": "3.038",
+      "change": "-0.36%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.34434132423834823
+      "pct_raw": -0.3574590889712363
     }
   ],
   "sectors": [
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "מדוע הבזק המכס החדש של טראמפ שונה מאוד הפעם",
+      "summary_he": "",
+      "body_en": "Why Trump's new tariff blitz is very different this time round",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/27/donald-trump-tariffs-trade-war-iran.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-27T05:04:43+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מחירי הנפט יורדים, החוזים העתידיים על המניות עולים כאשר ארה\"ב ואיראן מפסיקות את התקפות, וול סטריט ממתינה לשבוע עמוס",
       "summary_he": "",
       "body_en": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
@@ -863,31 +874,43 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
       "tag": "ENERGY",
-      "published_at": "2026-07-27T00:57:00+00:00",
+      "published_at": "2026-07-27T03:02:00+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "סינגפור מהדקת את המדיניות המוניטרית מכיוון שעליית מחירי הנפט מציתה מחדש את הסיכון לאינפלציה",
+      "title_he": "חברת שבבי הזיכרון הגדולה ביותר בסין CXMT הונפקה רק לפני 30 דקות בשנגחאי, המניות נפתחו במסחר ב-470% ההנפקה הייתה ב-¥8.6 והמניות נפתחו ב-¥49. זה עכשיו...",
       "summary_he": "",
-      "body_en": "Singapore tightens monetary policy as rising oil prices rekindle inflation risk",
+      "body_en": "CHINA’S BIGGEST MEMORY CHIP COMPANY CXMT JUST IPO’D 30 MINUTES AGO IN SHANGHAI THE SHARES OPENED TRADING UP 470% IPO WAS AT ¥8.6 AND SHARES OPENED AT ¥49 IT IS NOW THE MOST VALUABLE COMPANY IN CHINA W",
       "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
-      "tag": "ENERGY",
-      "published_at": "2026-07-27T00:34:22+00:00",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2081571303580914029#m",
+      "tag": "TECH",
+      "published_at": "2026-07-27T02:44:07+00:00",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "BREAKING: Nvidia, $NVDA, מנהלת מגעים לספק מעצור פיננסי של 250 מיליארד דולר ל-OpenAI לשכור פרויקט מרכז נתונים ענק באוהיו, לפי WSJ",
+      "title_he": "ה-S&P 500 נמצא רק כמה אחוזים מ-ATH, אך רוב המשקיעים מרגישים נורא. למה זה? ובכן, סל של 50 מניות אהובות ממשקיעים חובבים (דרך גולדמן)...",
       "summary_he": "",
-      "body_en": "BREAKING: Nvidia, $NVDA, is in talks to provide a $250 billion financial backstop for OpenAI to lease a massive data center project in Ohio, per WSJ",
-      "ticker": "$NVDA",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2081525324416991520#m",
-      "tag": "TECH",
-      "published_at": "2026-07-26T23:41:24+00:00",
-      "relative_time": "לפני 1ש׳",
+      "body_en": "The S&P 500 is only a couple percent from ATHs yet most investors feel terrible. Why is this? Well, a basket of 50 favorite stocks from amateur investors (via Goldman) is set to have it's worst month ",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2081561500343263721#m",
+      "tag": "BANKS",
+      "published_at": "2026-07-27T02:05:09+00:00",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "צמיחת הרווחים התעשייתיים בסין מואטת שוב ביוני כאשר מחירי הנפט הנסוגים מצמצמים את הרווחים",
+      "summary_he": "",
+      "body_en": "China industrial profit growth slows again in June as retreating oil prices sap earnings lift",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/27/china-industrial-profit-growth-exports-oil-drops.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-27T02:02:04+00:00",
+      "sentiment": "bullish"
     },
     {
       "title_he": "NVDA $ שוקלת 250 מיליארד דולר ל-OPENAI DATA CENTER WSJ מדווחת ש-Nvidia שוקלת ערבויות של בערך 250 מיליארד דולר הקשורות לחכירת OpenAI קמפוס באוהיו של 10 ג'יגה-ואט...",
@@ -898,7 +921,7 @@
       "link": "https://nitter.net/wallstengine/status/2081523281094684979#m",
       "tag": "TECH",
       "published_at": "2026-07-26T23:33:17+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,7 +933,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2081521479896985909#m",
       "tag": "NEWS",
       "published_at": "2026-07-26T23:26:08+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,11 +945,11 @@
       "link": "https://nitter.net/gurgavin/status/2081520027241464314#m",
       "tag": "TECH",
       "published_at": "2026-07-26T23:20:21+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אין נתונים חשובים לקראת החלטת הפד לרבעון השני של הצהריים, מבט ראשון, נתוני אינפלציה של יוני PCE יום חמישי ECI, UMich שישי",
+      "title_he": "אין נתונים מרכזיים לקראת החלטת הפד לרבעון השני של הצהריים, מבט ראשון, נתוני אינפלציה של יוני PCE יום חמישי ECI, UMich שישי",
       "summary_he": "",
       "body_en": "No major data ahead of the Wednesday afternoon Fed decision Q2 GDP first look, June PCE inflation data Thursday ECI, UMich Friday",
       "ticker": "",
@@ -934,7 +957,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081519398137872815#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T23:17:51+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,20 +969,8 @@
       "link": "https://nitter.net/gurgavin/status/2081500940671086644#m",
       "tag": "NEWS",
       "published_at": "2026-07-26T22:04:31+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "הרבעון השני נמצא בקצב להיות שיעור הרווח הגבוה ביותר של S&P 500 אי פעם לפי נתוני @FactSet.",
-      "summary_he": "",
-      "body_en": "Q2 is on pace to be the highest S&P 500 profit margin ever according to @FactSet data.",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2081498330413007260#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-26T21:54:08+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "bullish"
     },
     {
       "title_he": "שבוע רווחים מסיבי... M&M Weds, A&A ה' $MSFT & $META ... $AMZN & AAPL @wallsthorizon",
@@ -970,7 +981,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081467266873401480#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T19:50:42+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1004,28 +1015,40 @@
       "link": "https://nitter.net/cperruna/status/2081369689305845935#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-26T13:22:58+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: מנכ\"ל $NVDA, Jensen Huang, מצפה שתעשיית המוליכים למחצה תגדל פי 10 במהלך העשור הבא, כאשר מיליארדי סוכני AI ורובוטים מניעים מחשוב...",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $NVDA CEO Jensen Huang expects the semiconductor industry to grow 10x over the next decade as billions of AI agents and robots drive compute demand. He says that surge is alread",
-      "ticker": "$NVDA",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2081351613361553822#m",
-      "tag": "TECH",
-      "published_at": "2026-07-26T12:11:08+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "הכין את המטען 8 שעות מראש: עבריין מואשם ברצח בעפולה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856405",
+      "tag": "כללי",
+      "published_at": "2026-07-27T07:30:00+00:00"
+    },
+    {
+      "title_he": "פרסום ראשון: נלכד החשוד בגניבת מצברים מרכבים בבאר שבע",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856410",
+      "tag": "כללי",
+      "published_at": "2026-07-27T06:00:00+00:00"
+    },
     {
       "title_he": "חשד: שידלו את ילדיהם לגנוב - והחביאו בעגלת בתם התינוקת",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3856409",
+      "tag": "כללי",
+      "published_at": "2026-07-27T06:00:00+00:00"
+    },
+    {
+      "title_he": "ביטוח לאומי דורש 15 מיליון שקל מתושבי שדרות: \"השתמשו בכספי סיוע לטובת כרטיסי טיסה\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856391",
       "tag": "כללי",
       "published_at": "2026-07-27T06:00:00+00:00"
     },
@@ -1076,30 +1099,6 @@
       "link": "https://news.walla.co.il/item/3856282",
       "tag": "כללי",
       "published_at": "2026-07-26T14:31:00+00:00"
-    },
-    {
-      "title_he": "נמלטו משוטרים כשהם חמושים, ופגעו ברכב משפחה: כתב אישום נגד שני תושבי תל שבע",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856280",
-      "tag": "כללי",
-      "published_at": "2026-07-26T14:29:00+00:00"
-    },
-    {
-      "title_he": "בג\"ץ דחה את עתירתם של הוריו של אלון שימריז וקבע: לא יוכר כחלל צה\"ל",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856257",
-      "tag": "כללי",
-      "published_at": "2026-07-26T13:01:00+00:00"
-    },
-    {
-      "title_he": "זהבה שאול, אמו של אורון שאול, הובאה למנוחות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856228",
-      "tag": "כללי",
-      "published_at": "2026-07-26T12:06:00+00:00"
     }
   ],
   "track_record": {
