@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T04:08:52.331399+00:00",
+  "generated_at": "2026-07-28T09:02:21.374130+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-28T04:08:52.331411+00:00",
+  "ta_generated_at": "2026-07-28T09:02:21.374139+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -680,7 +680,7 @@
       "change": "-0.18%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.1751373648373003
+      "pct_raw": -0.17504144011403341
     },
     {
       "name": "Dow Jones",
@@ -688,7 +688,7 @@
       "change": "+0.51%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.5059555606889715
+      "pct_raw": 0.5060522992577169
     },
     {
       "name": "Russell 2000",
@@ -701,36 +701,36 @@
     {
       "name": "VIX",
       "value": "18.67",
-      "change": "+0.48%",
-      "direction": "up",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "market_us",
-      "pct_raw": 0.4843918191604059
+      "pct_raw": 0.0
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,048.9",
-      "change": "-0.69%",
+      "value": "$4,050.2",
+      "change": "-0.66%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6892322786362499
+      "pct_raw": -0.6573460878096684
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.2",
-      "change": "-1.34%",
+      "value": "$86.1",
+      "change": "-2.60%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.335445903123577
+      "pct_raw": -2.6029877772747816
     },
     {
       "name": "ביטקוין",
-      "value": "$63,274",
-      "change": "-0.68%",
+      "value": "$63,484",
+      "change": "-0.35%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6792696399403222
+      "pct_raw": -0.3499948043108855
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.057",
-      "change": "+0.06%",
+      "value": "3.062",
+      "change": "+0.22%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.05892173229893764
+      "pct_raw": 0.21604635176274709
     }
   ],
   "sectors": [
@@ -856,6 +856,29 @@
   },
   "us_news": [
     {
+      "title_he": "הנפט מרחיב את ההפסדים כאשר הפסקה בלחימה בין ארה\"ב לאיראן מעלה תקוות להורדת הסלמה",
+      "summary_he": "",
+      "body_en": "Oil extends losses as a pause in U.S.-Iran hostilities raises de-escalation hopes",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/28/oil-price-today-wti-brent-us-iran-hormuz.html",
+      "tag": "ENERGY",
+      "published_at": "2026-07-28T07:09:23+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: בשנת 2019, בעלי בתים בארה\"ב הוציאו בממוצע 9,000 דולר בשנה על שיפור הבית, תחזוקה ותיקוני חירום. בשנת 2025, הם נאלצו להוציא…",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: In 2019, US homeowners spent an average of $9,000 per year on home improvement, maintenance, and emergency repairs. In 2025, they had to spend $12,500 for the same, according to ",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2081960589916545042#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-28T04:31:00+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "מניית SK Hynix צוללת ב-13% בסיאול כאשר מכירת השבבים מעמיקה",
       "summary_he": "",
       "body_en": "SK Hynix shares plunge 13% in Seoul as chip sell-off deepens",
@@ -865,17 +888,6 @@
       "tag": "TECH",
       "published_at": "2026-07-28T03:55:49+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "מחירי הנפט יורדים ביותר מ-2% כאשר הפסקה בלחימה בין ארה\"ב לאיראן מעלה תקוות להורדת הסלמה",
-      "summary_he": "",
-      "body_en": "Oil prices drop more than 2% as a pause in U.S.-Iran hostilities raises de-escalation hopes",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/28/oil-price-today-wti-brent-us-iran-hormuz.html",
-      "tag": "ENERGY",
-      "published_at": "2026-07-28T03:38:41+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "העסקה החדשה הפוטנציאלית של Nvidia עם OpenAI תחייה הרגל מפחיד של בועות טכנולוגיות, מזהיר אנליסט",
@@ -897,7 +909,7 @@
       "link": "https://nitter.net/wallstengine/status/2081895431559327874#m",
       "tag": "FED",
       "published_at": "2026-07-28T00:12:05+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
     },
     {
@@ -909,19 +921,8 @@
       "link": "https://nitter.net/wallstengine/status/2081880242881482976#m",
       "tag": "TECH",
       "published_at": "2026-07-27T23:11:44+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "ניוזלטר The China Connection של CNBC: ויכוח בין ארה\"ב לסין שהופך גדול יותר ממכסים",
-      "summary_he": "",
-      "body_en": "CNBC's The China Connection newsletter: A U.S.-China debate that's becoming bigger than tariffs",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/27/cnbcs-the-china-connection-newsletter-a-us-china-debate-thats-becoming-bigger-than-tariffs.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-27T23:00:02+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "\"הזמן יגיד אם זה היה הימור טוב\": היועץ שלי השיג לי הקצאה מלאה של SpaceX IPO. היה לי מזל?",
@@ -946,18 +947,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "Coca-Cola $KO, Boeing $BA ו-Corning $GLW הן החברות הגדולות ביותר שמדווחות לפני הפתיחה מחר. לאחר הסגירה, זה Visa $V, Waste Management $WM, ומונדלז...",
-      "summary_he": "",
-      "body_en": "Coca-Cola $KO, Boeing $BA, and Corning $GLW are the largest companies reporting before tomorrow's open. After the close, it's Visa $V, Waste Management $WM, and Mondelez International $MDLZ.",
-      "ticker": "$KO",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2081854767483990463#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-27T21:30:30+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "אפל מסיימת את היום כחברה היקרה ביותר בעולם, עוברת את Nvidia",
       "summary_he": "",
       "body_en": "Apple ends day as world's most valuable company, passing Nvidia",
@@ -977,7 +966,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081843570219061481#m",
       "tag": "ENERGY",
       "published_at": "2026-07-27T20:46:00+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "bullish"
     },
     {
@@ -989,7 +978,7 @@
       "link": "https://nitter.net/wallstengine/status/2081843321400594704#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-27T20:45:01+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1001,25 +990,61 @@
       "link": "https://nitter.net/MikeZaccardi/status/2081837155052032397#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-27T20:20:31+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מחירי הנפט יורדים היום ב-8% והתשואות של משרד האוצר נמוכות במעט, אך סיכויי החוזים העתידיים של קרנות פד להעלאת ריבית השבוע דווקא עלו מעט ל-37.9%. 👀",
+      "title_he": "אני נדהם כמה משקיעים מחזיקים ב-$TSLA כי הם מאמינים ש-$SPCX יקנה אותו. IMO, זה לא יקרה בזמן הקרוב מאז הדילול הפוטנציאלי ל-SPCX...",
       "summary_he": "",
-      "body_en": "Oil prices are down 8% today and Treasury yields quite a bit lower, yet fed fund futures odds for a rate hike this week have actually ticked up slightly to 37.9%. 👀",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2081830713641361900#m",
-      "tag": "FED",
-      "published_at": "2026-07-27T19:54:55+00:00",
-      "relative_time": "לפני 8ש׳",
+      "body_en": "I am amazed how many investors are holding $TSLA because they believe $SPCX will buy it. IMO, that won’t happen anytime soon since the potential dilution to SPCX shareholders is too significant if SPC",
+      "ticker": "$TSLA",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2081756818359959862#m",
+      "tag": "TECH",
+      "published_at": "2026-07-27T15:01:17+00:00",
+      "relative_time": "לפני 16ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @StockSavvyShay: $AMD צפוי כמעט לשלש את ההכנסה השנתית ליותר מ-100 מיליארד דולר עד 2028, כאשר MI450 והליוס מובילים את השלב הבא של צמיחת מרכז הנתונים. זֶה…",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: $AMD is expected to nearly triple annual revenue to more than $100B by 2028 as MI450 and Helios drive the next phase of data center growth. That ramp could establish Instinct as",
+      "ticker": "$AMD",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2081739416599674959#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-27T13:52:08+00:00",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
     {
-      "title_he": "לעגו ושיסו כלב באחים: צעיר מזכרון יעקב מואשם בתקיפה אלימה",
+      "title_he": "\"כנראה שאין ברירה\": נציג היועמ\"שית קורא לביטול חוק מעצר העריקים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856691",
+      "tag": "כללי",
+      "published_at": "2026-07-28T09:14:00+00:00"
+    },
+    {
+      "title_he": "כתב מגזין חרדי בן 58 נעצר בחשד להחזקת חומרי פדופיליה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856678",
+      "tag": "כללי",
+      "published_at": "2026-07-28T08:33:00+00:00"
+    },
+    {
+      "title_he": "בפעם השנייה החודש: רעול פנים ניפץ את דלת הכניסה של חדשות 12",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856665",
+      "tag": "כללי",
+      "published_at": "2026-07-28T07:07:00+00:00"
+    },
+    {
+      "title_he": "לעגו ושיסו כלב באחים: צעיר מזכרון יעקב מואשם בתקיפה אלימה על רקע נטייה מינית",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3856659",
@@ -1073,30 +1098,6 @@
       "link": "https://news.walla.co.il/item/3856597",
       "tag": "כללי",
       "published_at": "2026-07-27T18:14:00+00:00"
-    },
-    {
-      "title_he": "תושב אשדוד נעצר בחשד שהסיע שב\"חים, ניסה לדרוס שוטר - ונמלט",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856584",
-      "tag": "כללי",
-      "published_at": "2026-07-27T17:07:00+00:00"
-    },
-    {
-      "title_he": "לקחה את הילדים לישראל במקום לשוב לאביהם בארה\"ב - ומאז נעלמו עקבותיהם",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856571",
-      "tag": "כללי",
-      "published_at": "2026-07-27T16:08:00+00:00"
-    },
-    {
-      "title_he": "גבו דמי חסות ואיימו: \"אם לא תשלמו - נשרוף את המקום\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856574",
-      "tag": "כללי",
-      "published_at": "2026-07-27T15:47:00+00:00"
     }
   ],
   "track_record": {
