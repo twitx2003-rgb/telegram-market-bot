@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T10:05:17.151299+00:00",
+  "generated_at": "2026-07-28T12:20:42.696511+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-28T10:05:17.151310+00:00",
+  "ta_generated_at": "2026-07-28T12:20:42.696549+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "18.87",
-      "change": "+1.07%",
+      "value": "18.77",
+      "change": "+0.54%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.0712372790573073
+      "pct_raw": 0.5356186395286442
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,030.0",
-      "change": "-1.15%",
+      "value": "$4,025.6",
+      "change": "-1.26%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.1528084375766494
+      "pct_raw": -1.260730929605104
     },
     {
       "name": "נפט ברנט",
-      "value": "$86.0",
-      "change": "-2.63%",
+      "value": "$86.8",
+      "change": "-1.71%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -2.625622453598906
+      "pct_raw": -1.7089180624717124
     },
     {
       "name": "ביטקוין",
-      "value": "$63,289",
-      "change": "-0.65%",
+      "value": "$63,374",
+      "change": "-0.52%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6548294950637901
+      "pct_raw": -0.5218135749072393
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,150",
-      "change": "-0.29%",
+      "value": "4,133",
+      "change": "-0.68%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.2936222460900486
+      "pct_raw": -0.6811939997260894
     },
     {
       "name": "דולר/שקל",
-      "value": "3.063",
-      "change": "+0.26%",
+      "value": "3.058",
+      "change": "+0.09%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.2586009362008655
+      "pct_raw": 0.09492945759271672
     }
   ],
   "sectors": [
@@ -856,108 +856,83 @@
   },
   "us_news": [
     {
-      "title_he": "המניות בארה\"ב ירדו בעקבות העמקת תאוות יצרניות השבבים שנבעו מהצניחה במניות המוליכים למחצה הקוריאניים וספקות ההוצאות בינה מלאכותית עלו על הרווחים מירידה במחירי הנפט ו...",
+      "title_he": "בואינג רושמת הפסד גדול מהצפוי מכיוון שעלויות אייר פורס וואן מכבידות על התוצאות",
       "summary_he": "",
-      "body_en": "U.S. stocks slipped as a deepening chipmaker rout spurred by the plunge in Korean semiconductor stocks and AI spending doubts outweighed gains from lower oil prices and treasury yields. Brent crude fe",
-      "ticker": "$TSL",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2082044065269322237#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-28T10:02:42+00:00",
-      "relative_time": "לפני 2ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מכירת שבבים עולמית מעמיקה מניות שבבים הגדילו את ההפסדים ברחבי אסיה לאחר מכירה חדה בארה\"ב, הניזונה מחששות לגבי הוצאות בינה מלאכותית וההתקדמות הטכנולוגית של סין.",
-      "summary_he": "",
-      "body_en": "GLOBAL CHIP SELLOFF DEEPENS Chip stocks extended losses across Asia after a sharp U.S. selloff, fueled by concerns over AI spending and China's technological progress. South Korea's Kospi plunged 10%,",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2082040065946185926#m",
-      "tag": "TECH",
-      "published_at": "2026-07-28T09:46:48+00:00",
-      "relative_time": "לפני 18ד׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "$META & BLACKROCK FORM $14B מיזם עבור 1GW TEXAS DATA CENTER Meta יהיה הדייר הבלעדי הראשוני בקמפוס, תוך שימוש ביכולת לתמוך בפיתוח מודלים של AI ו...",
-      "summary_he": "",
-      "body_en": "$META & BLACKROCK FORM $14B VENTURE FOR 1GW TEXAS DATA CENTER Meta will be the campus’s initial sole occupant, using the capacity to support AI-model development and enhancements to its core business.",
-      "ticker": "$META",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082038067893006826#m",
-      "tag": "TECH",
-      "published_at": "2026-07-28T09:38:52+00:00",
-      "relative_time": "לפני 25ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "AMAZON מטה את רוב דגמי הדגל של NOVA Business Insider מדווח ש-$AMZN משנה את אסטרטגיית הבינה המלאכותית שלה על ידי פירוק חלק גדול ממערך הדגל של Nova ו...",
-      "summary_he": "",
-      "body_en": "AMAZON WINDS DOWN MOST FLAGSHIP NOVA MODELS Business Insider reports $AMZN is overhauling its AI strategy by winding down much of its flagship Nova lineup and concentrating engineers and computing res",
-      "ticker": "$AMZN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082032112270803330#m",
-      "tag": "TECH",
-      "published_at": "2026-07-28T09:15:12+00:00",
-      "relative_time": "לפני 49ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מיקרון, Nvidia נופלות לאחר ש-SK Hynix צונחת בכמעט 15% ככל שמכירת השבבים מעמיקה",
-      "summary_he": "",
-      "body_en": "Micron, Nvidia fall after SK Hynix plunges nearly 15% as chip sell-off deepens",
+      "body_en": "Boeing posts wider loss than expected as Air Force One costs weigh on results",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
-      "tag": "TECH",
-      "published_at": "2026-07-28T08:41:56+00:00",
+      "link": "https://www.cnbc.com/2026/07/28/boeing-ba-2q-2026-earnings.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-28T12:17:59+00:00",
       "sentiment": "bearish"
     },
     {
-      "title_he": "שוק המניות היום: החוזים העתידיים על S&P 500, נאסד\"ק יורדים ככל שמכירת שבבים מעמיקה",
+      "title_he": "שכח שמן. זינוק של אל ניניו עלול להרוג את הורדת הריבית של הפד - והמניות הללו עומדות לנצח.",
       "summary_he": "",
-      "body_en": "Stock market today: S&P 500, Nasdaq futures slide as chip sell-off deepens",
+      "body_en": "Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.",
       "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-28-dow-sp-500-nasdaq-082832371.html",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+      "tag": "FED",
+      "published_at": "2026-07-28T12:15:00+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "$EPAM הצטרף לרשת OpenAI Partner כשותף מתקדם כדי לעזור לארגונים גדולים לפרוס ולהרחיב מודלים של OpenAI.",
+      "summary_he": "",
+      "body_en": "$EPAM has joined the OpenAI Partner Network as an Advanced Partner to help large enterprises deploy and scale OpenAI models.",
+      "ticker": "$EPAM",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082075651608371532#m",
       "tag": "TECH",
-      "published_at": "2026-07-28T08:28:32+00:00",
+      "published_at": "2026-07-28T12:08:13+00:00",
+      "relative_time": "לפני 11ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R ל-@unusual_whales: בשנת 2019, בעלי בתים בארה\"ב הוציאו בממוצע 9,000 דולר בשנה על שיפור הבית, תחזוקה ותיקוני חירום. בשנת 2025, הם נאלצו להוציא…",
+      "title_he": "רווחים ראשוניים של $TE לרבעון השני • הכנסות: 250 מיליון דולר לעומת משוער. 174 מיליון דולר • EBITDA: (13 מיליון דולר) לעומת משוער 2 מיליון דולר • נפח מודול: 835 מגוואט • מזומן: 79 מיליון דולר T1 העלתה את עלות ה-G2 Austin Phase 1 שלה...",
       "summary_he": "",
-      "body_en": "R to @unusual_whales: In 2019, US homeowners spent an average of $9,000 per year on home improvement, maintenance, and emergency repairs. In 2025, they had to spend $12,500 for the same, according to ",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2081960589916545042#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-28T04:31:00+00:00",
-      "relative_time": "לפני 5ש׳",
+      "body_en": "$TE PRELIMINARY Q2 EARNINGS • Revenue: $250M vs. Est. $174M • EBITDA: ($13M) vs. Est. $2M • Module volume: 835 MW • Cash: $79M T1 raised its G2 Austin Phase 1 cost estimate by 20% to $510M and delayed",
+      "ticker": "$TE",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082074039804432685#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T12:01:48+00:00",
+      "relative_time": "לפני 18ד׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "העסקה החדשה הפוטנציאלית של Nvidia עם OpenAI תחייה הרגל מפחיד של בועות טכנולוגיות, מזהיר אנליסט",
+      "title_he": "מיקרוסופט תדווח על רווחים ברבעון הרביעי כאשר המשקיעים מחפשים תשואה על השקעות בינה מלאכותית",
       "summary_he": "",
-      "body_en": "Nvidia’s potential new deal with OpenAI would revive a spooky tech-bubble habit, analyst warns",
+      "body_en": "Microsoft to report Q4 earnings as investors look for return on AI investments",
       "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
-      "tag": "M&A",
-      "published_at": "2026-07-28T01:19:00+00:00",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/article/microsoft-to-report-q4-earnings-as-investors-look-for-return-on-ai-investments-120144134.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T12:01:44+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "CITADEL מצפה שהפד יעשה עליית שיעור מפתיע ביום רביעי הזה לכל בלומברג",
+      "title_he": "דגשים ברווחים של $CTS Q2'26 🔹 הכנסות: 144.8 מיליון דולר (הערכה של 143.4 מיליון דולר) 🟢; +7% YoY 🔹 התאמה EPS: $0.74 (אומדן $0.61) 🟢; +30% YoY 🔹 רווח גולמי התאמה: 41.5%; +270 bps YoY 🔹 התאמה...",
       "summary_he": "",
-      "body_en": "CITADEL EXPECTS THE FED TO DO A SURPRISE RATE HIKE THIS WEDNESDAY PER BLOOMBERG",
+      "body_en": "$CTS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $144.8M (Est. $143.4M) 🟢; +7% YoY 🔹 Adj. EPS: $0.74 (Est. $0.61) 🟢; +30% YoY 🔹 Adj Gross Margin: 41.5%; +270 bps YoY 🔹 Adj EBITDA Margin: 25.4%; +240 bps YoY ",
+      "ticker": "$CTS",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082073946141433879#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T12:01:26+00:00",
+      "relative_time": "לפני 18ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "אמזון, מטה ומיקרוסופט מתמודדות השבוע עם משקיעים סקפטיים לאחר שדיווח גוגל גרם למכירה",
+      "summary_he": "",
+      "body_en": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
       "ticker": "",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2081881124796612712#m",
-      "tag": "FED",
-      "published_at": "2026-07-27T23:15:14+00:00",
-      "relative_time": "לפני 10ש׳",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
+      "tag": "TECH",
+      "published_at": "2026-07-28T12:00:01+00:00",
       "sentiment": "neutral"
     },
     {
@@ -968,57 +943,120 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
       "tag": "NEWS",
-      "published_at": "2026-07-27T22:30:00+00:00",
+      "published_at": "2026-07-28T12:00:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @DivesTech: פוד חדש עם האגדה @DivesTech בשידור חי! אנו מפרקים את סחר הבינה המלאכותית, כולל דגמי קוד פתוח סיניים, האטה בצמיחה בהכנסות של Anthropic, ה...",
+      "title_he": "PAYPAL רק דיווחה על רווחים *PAYPAL NET REV. $8.68B , EST. $8.47B ( BEAT ✅ ) ​​*PAYPAL ADJ EPS $1.38 , EST. $1.28 ( BEAT ✅ ) ​​* נפח תשלום כולל של PAYPAL $484.5B , ​​EST.…",
       "summary_he": "",
-      "body_en": "RT by @DivesTech: New pod with the legend @DivesTech is live! We break down the AI trade, including Chinese open-source models, Anthropic's slowing revenue growth, the biggest bottlenecks in chips, me",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/APompliano/status/2081864085801455840#m",
+      "body_en": "PAYPAL JUST REPORTED EARNINGS *PAYPAL NET REV. $8.68B , EST. $8.47B ( BEAT ✅ ) *PAYPAL ADJ EPS $1.38 , EST. $1.28 ( BEAT ✅ ) *PAYPAL TOTAL PAYMENT VOLUME $484.5B , EST. $468.5B ( BEAT ✅ ) *FY EPS ESTI",
+      "ticker": "$PYPL",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2082072035354624040#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-27T22:07:31+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
+      "published_at": "2026-07-28T11:53:50+00:00",
+      "relative_time": "לפני 26ד׳",
+      "sentiment": "bullish"
     },
     {
-      "title_he": "סדקים נוספים צצים באגרות חוב הקשורות לבינה מלאכותית כאשר הרווחים של Meta, מיקרוסופט מתנשאים",
+      "title_he": "MARKET MOVERS 🟢 שדרוג $CIB: Goldman Sachs שודרג ל-Buy; PT העלה ל-$98 מ-$81 $FLY: KeyBanc שודרג לעודף משקל; PT $50 $GOSS: Leerink שודרג ל...",
       "summary_he": "",
-      "body_en": "More cracks emerge in AI-related bonds as Meta, Microsoft earnings loom",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/more-cracks-emerge-in-ai-related-bonds-as-meta-microsoft-earnings-loom-04275db2?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-27T21:35:00+00:00",
-      "sentiment": "neutral"
+      "body_en": "MARKET MOVERS 🟢 UPGRADES $CIB: Goldman Sachs upgraded to Buy; PT raised to $98 from $81 $FLY: KeyBanc upgraded to Overweight; PT $50 $GOSS: Leerink upgraded to Outperform; PT $1 $HON: BofA Securities ",
+      "ticker": "$CIB",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2082071657187872926#m",
+      "tag": "BANKS",
+      "published_at": "2026-07-28T11:52:20+00:00",
+      "relative_time": "לפני 27ד׳",
+      "sentiment": "bullish"
     },
     {
-      "title_he": "Coca-Cola $KO, Boeing $BA ו-Corning $GLW הן החברות הגדולות ביותר שמדווחות לפני הפתיחה מחר. לאחר הסגירה, זה Visa $V, Waste Management $WM, ומונדלז...",
+      "title_he": "UPS מנצחת את ציפיות הרווחים, מעלה את ההנחיות לשנה כולה",
       "summary_he": "",
-      "body_en": "Coca-Cola $KO, Boeing $BA, and Corning $GLW are the largest companies reporting before tomorrow's open. After the close, it's Visa $V, Waste Management $WM, and Mondelez International $MDLZ.",
-      "ticker": "$KO",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2081854767483990463#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-27T21:30:30+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Nvidia ו-OpenAI נמצאים במגעים על עד 250 מיליארד דולר לגיבוי למימון תוכניות תשתית בינה מלאכותית",
-      "summary_he": "",
-      "body_en": "Nvidia and OpenAI in talks for up to $250 billion backstop to fund AI infrastructure plans",
+      "body_en": "UPS beats earnings expectations, raises full-year guidance",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
+      "link": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T11:50:50+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "PayPal מספקת פעימת רווחים כאשר המשקיעים ממתינים לעדכונים על מיזוג אפשרי",
+      "summary_he": "",
+      "body_en": "PayPal delivers an earnings beat as investors await updates on possible merger",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/paypal-delivers-an-earnings-beat-as-investors-await-updates-on-possible-merger-105930b7?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T11:41:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$TSLA לקניית חשמל ממפעל הסוללות של ARIZONA, הנתמך על ידי KKR, ContourGlobal אומר כי טסלה חתמה על הסכם ארוך טווח לרכישת 90% מהחשמל של פרויקט סטרלינג. ה…",
+      "summary_he": "",
+      "body_en": "$TSLA TO BUY POWER FROM KKR-BACKED ARIZONA SOLAR, BATTERY PLANT ContourGlobal says Tesla signed a long-term agreement to buy 90% of Project Sterling’s electricity. The Arizona solar-and-storage develo",
+      "ticker": "$TSLA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082068718839021887#m",
       "tag": "TECH",
-      "published_at": "2026-07-27T21:29:40+00:00",
+      "published_at": "2026-07-28T11:40:40+00:00",
+      "relative_time": "לפני 39ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מחירי הזהב היום, יום שלישי, 28 ביולי, 2026: הזהב נשאר מתחת ל-4,100 דולר לפני פגישת הפד",
+      "summary_he": "",
+      "body_en": "Gold prices today, Tuesday, July 28, 2026: Gold remains below $4,100 ahead of Fed meeting",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-july-28-2026-gold-remains-below-4100-ahead-of-fed-meeting-114031587.html",
+      "tag": "FED",
+      "published_at": "2026-07-28T11:40:31+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "חצי טון קנאביס נתפסו בוילה: \"הצימרים לא עבדו בגלל המלחמה - אז הקים במקום מעבדה\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856792",
+      "tag": "כללי",
+      "published_at": "2026-07-28T14:56:00+00:00"
+    },
+    {
+      "title_he": "כשהוא במונית לירושלים: נלכד אביאור ששון החשוד ברצח בניהו רזי | צפו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856794",
+      "tag": "כללי",
+      "published_at": "2026-07-28T14:23:00+00:00"
+    },
+    {
+      "title_he": "מרחב לריפוי: חווה טיפולית לילדים עם פוסט טראומה תוקם בשדרות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856790",
+      "tag": "כללי",
+      "published_at": "2026-07-28T14:04:00+00:00"
+    },
+    {
+      "title_he": "פריטי לבוש של הנעדר אלדר יצחק דיין אותר והועבר לבדיקה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856777",
+      "tag": "כללי",
+      "published_at": "2026-07-28T13:24:00+00:00"
+    },
+    {
+      "title_he": "כתב אישום: סגן ראש עיריית באר שבע תקף שני עובדי תחנת דלק בעקבות מוזיקה בערבית",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856776",
+      "tag": "כללי",
+      "published_at": "2026-07-28T13:02:00+00:00"
+    },
     {
       "title_he": "אחייניתו של אחמד טיבי היא הפצועה מהתהפכות המשאית בתחנת הדלק בכביש 1",
       "summary_he": "",
@@ -1058,46 +1096,6 @@
       "link": "https://news.walla.co.il/item/3856737",
       "tag": "כללי",
       "published_at": "2026-07-28T11:04:00+00:00"
-    },
-    {
-      "title_he": "\"כנראה שאין ברירה\": נציג היועמ\"שית קורא לביטול חוק מעצר העריקים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856691",
-      "tag": "כללי",
-      "published_at": "2026-07-28T09:14:00+00:00"
-    },
-    {
-      "title_he": "כתב מגזין חרדי בן 58 נעצר בחשד להחזקת חומרי פדופיליה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856678",
-      "tag": "כללי",
-      "published_at": "2026-07-28T08:33:00+00:00"
-    },
-    {
-      "title_he": "בפעם השנייה החודש: רעול פנים ניפץ את דלת הכניסה של חדשות 12",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856665",
-      "tag": "כללי",
-      "published_at": "2026-07-28T07:07:00+00:00"
-    },
-    {
-      "title_he": "לעגו ושיסו כלב באחים: צעיר מזכרון יעקב מואשם בתקיפה אלימה על רקע נטייה מינית",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856659",
-      "tag": "כללי",
-      "published_at": "2026-07-28T06:00:00+00:00"
-    },
-    {
-      "title_he": "מטען חבלה ופיצוץ מרחוק: אישום ברצח נגד יוסי עשור",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856655",
-      "tag": "כללי",
-      "published_at": "2026-07-28T06:00:00+00:00"
     }
   ],
   "track_record": {
