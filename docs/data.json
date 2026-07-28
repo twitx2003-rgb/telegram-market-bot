@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T09:02:21.374130+00:00",
+  "generated_at": "2026-07-28T10:05:17.151299+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -205,6 +205,57 @@
       "engine": "rules"
     },
     {
+      "ticker": "TEVA",
+      "price": 31.08,
+      "setup_type": "תמיכה",
+      "levels": {
+        "support": 30.8,
+        "resistance": 32.81,
+        "entry": 31.11,
+        "stop": 30.18
+      },
+      "recommendation": "קנייה",
+      "confidence": 3,
+      "rationale_he": "RSI ב-42.0 כשהמחיר $31.08 רק 0.9% מעל תמיכה ב-$30.80 — יחס סיכון-סיכוי נוח ללונג. מחיר מעל SMA200 · RSI בריא (42.0) · מומנטום שבועי +0.3%.",
+      "indicators": {
+        "rsi14": 42.0,
+        "sma20": 32.49,
+        "sma50": 33.32,
+        "sma200": 30.43,
+        "pct_from_52w_high": -16.8,
+        "vol_ratio": 0.71,
+        "change_1d_pct": 0.88,
+        "change_1w_pct": 0.3,
+        "change_1m_pct": -7.6,
+        "spark_3m": [
+          31.26,
+          35.07,
+          35.86,
+          35.73,
+          36.25,
+          34.03,
+          34.16,
+          34.56,
+          34.64,
+          34.43,
+          34.45,
+          34.63,
+          32.56,
+          33.21,
+          33.21,
+          33.44,
+          34.65,
+          32.95,
+          31.56,
+          31.0,
+          31.18
+        ]
+      },
+      "analyzed": true,
+      "stale": false,
+      "engine": "rules"
+    },
+    {
       "ticker": "NVDA",
       "price": 196.51,
       "setup_type": "תמיכה",
@@ -351,57 +402,6 @@
           681.31,
           645.85,
           606.1
-        ]
-      },
-      "analyzed": true,
-      "stale": false,
-      "engine": "rules"
-    },
-    {
-      "ticker": "TEVA",
-      "price": 31.08,
-      "setup_type": "תמיכה",
-      "levels": {
-        "support": 30.8,
-        "resistance": 32.81,
-        "entry": 31.11,
-        "stop": 30.18
-      },
-      "recommendation": "מעקב",
-      "confidence": 2,
-      "rationale_he": "RSI ב-41.4 כשהמחיר $31.08 רק 0.9% מעל תמיכה ב-$30.80 — יחס סיכון-סיכוי נוח ללונג. מחיר מעל SMA200 · RSI בריא (41.4) · קרוב לתמיכה.",
-      "indicators": {
-        "rsi14": 41.4,
-        "sma20": 32.61,
-        "sma50": 33.43,
-        "sma200": 30.38,
-        "pct_from_52w_high": -16.8,
-        "vol_ratio": 0.72,
-        "change_1d_pct": -0.32,
-        "change_1w_pct": -3.0,
-        "change_1m_pct": -9.2,
-        "spark_3m": [
-          30.64,
-          35.38,
-          35.35,
-          36.01,
-          35.81,
-          34.29,
-          34.32,
-          34.61,
-          35.32,
-          32.83,
-          33.26,
-          34.56,
-          32.91,
-          32.2,
-          33.62,
-          33.88,
-          35.29,
-          33.1,
-          31.82,
-          32.03,
-          30.15
         ]
       },
       "analyzed": true,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-28T09:02:21.374139+00:00",
+  "ta_generated_at": "2026-07-28T10:05:17.151310+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "18.67",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "18.87",
+      "change": "+1.07%",
+      "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.0
+      "pct_raw": 1.0712372790573073
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,050.2",
-      "change": "-0.66%",
+      "value": "$4,030.0",
+      "change": "-1.15%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6573460878096684
+      "pct_raw": -1.1528084375766494
     },
     {
       "name": "נפט ברנט",
-      "value": "$86.1",
-      "change": "-2.60%",
+      "value": "$86.0",
+      "change": "-2.63%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -2.6029877772747816
+      "pct_raw": -2.625622453598906
     },
     {
       "name": "ביטקוין",
-      "value": "$63,484",
-      "change": "-0.35%",
+      "value": "$63,289",
+      "change": "-0.65%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.3499948043108855
+      "pct_raw": -0.6548294950637901
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,162",
-      "change": "-2.15%",
+      "value": "4,150",
+      "change": "-0.29%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -2.145974211630149
+      "pct_raw": -0.2936222460900486
     },
     {
       "name": "דולר/שקל",
-      "value": "3.062",
-      "change": "+0.22%",
+      "value": "3.063",
+      "change": "+0.26%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.21604635176274709
+      "pct_raw": 0.2586009362008655
     }
   ],
   "sectors": [
@@ -856,14 +856,73 @@
   },
   "us_news": [
     {
-      "title_he": "הנפט מרחיב את ההפסדים כאשר הפסקה בלחימה בין ארה\"ב לאיראן מעלה תקוות להורדת הסלמה",
+      "title_he": "המניות בארה\"ב ירדו בעקבות העמקת תאוות יצרניות השבבים שנבעו מהצניחה במניות המוליכים למחצה הקוריאניים וספקות ההוצאות בינה מלאכותית עלו על הרווחים מירידה במחירי הנפט ו...",
       "summary_he": "",
-      "body_en": "Oil extends losses as a pause in U.S.-Iran hostilities raises de-escalation hopes",
+      "body_en": "U.S. stocks slipped as a deepening chipmaker rout spurred by the plunge in Korean semiconductor stocks and AI spending doubts outweighed gains from lower oil prices and treasury yields. Brent crude fe",
+      "ticker": "$TSL",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2082044065269322237#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T10:02:42+00:00",
+      "relative_time": "לפני 2ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מכירת שבבים עולמית מעמיקה מניות שבבים הגדילו את ההפסדים ברחבי אסיה לאחר מכירה חדה בארה\"ב, הניזונה מחששות לגבי הוצאות בינה מלאכותית וההתקדמות הטכנולוגית של סין.",
+      "summary_he": "",
+      "body_en": "GLOBAL CHIP SELLOFF DEEPENS Chip stocks extended losses across Asia after a sharp U.S. selloff, fueled by concerns over AI spending and China's technological progress. South Korea's Kospi plunged 10%,",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2082040065946185926#m",
+      "tag": "TECH",
+      "published_at": "2026-07-28T09:46:48+00:00",
+      "relative_time": "לפני 18ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "$META & BLACKROCK FORM $14B מיזם עבור 1GW TEXAS DATA CENTER Meta יהיה הדייר הבלעדי הראשוני בקמפוס, תוך שימוש ביכולת לתמוך בפיתוח מודלים של AI ו...",
+      "summary_he": "",
+      "body_en": "$META & BLACKROCK FORM $14B VENTURE FOR 1GW TEXAS DATA CENTER Meta will be the campus’s initial sole occupant, using the capacity to support AI-model development and enhancements to its core business.",
+      "ticker": "$META",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082038067893006826#m",
+      "tag": "TECH",
+      "published_at": "2026-07-28T09:38:52+00:00",
+      "relative_time": "לפני 25ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "AMAZON מטה את רוב דגמי הדגל של NOVA Business Insider מדווח ש-$AMZN משנה את אסטרטגיית הבינה המלאכותית שלה על ידי פירוק חלק גדול ממערך הדגל של Nova ו...",
+      "summary_he": "",
+      "body_en": "AMAZON WINDS DOWN MOST FLAGSHIP NOVA MODELS Business Insider reports $AMZN is overhauling its AI strategy by winding down much of its flagship Nova lineup and concentrating engineers and computing res",
+      "ticker": "$AMZN",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082032112270803330#m",
+      "tag": "TECH",
+      "published_at": "2026-07-28T09:15:12+00:00",
+      "relative_time": "לפני 49ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מיקרון, Nvidia נופלות לאחר ש-SK Hynix צונחת בכמעט 15% ככל שמכירת השבבים מעמיקה",
+      "summary_he": "",
+      "body_en": "Micron, Nvidia fall after SK Hynix plunges nearly 15% as chip sell-off deepens",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/28/oil-price-today-wti-brent-us-iran-hormuz.html",
-      "tag": "ENERGY",
-      "published_at": "2026-07-28T07:09:23+00:00",
+      "link": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
+      "tag": "TECH",
+      "published_at": "2026-07-28T08:41:56+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "שוק המניות היום: החוזים העתידיים על S&P 500, נאסד\"ק יורדים ככל שמכירת שבבים מעמיקה",
+      "summary_he": "",
+      "body_en": "Stock market today: S&P 500, Nasdaq futures slide as chip sell-off deepens",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-28-dow-sp-500-nasdaq-082832371.html",
+      "tag": "TECH",
+      "published_at": "2026-07-28T08:28:32+00:00",
       "sentiment": "neutral"
     },
     {
@@ -875,19 +934,8 @@
       "link": "https://nitter.net/unusual_whales/status/2081960589916545042#m",
       "tag": "NEWS",
       "published_at": "2026-07-28T04:31:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "מניית SK Hynix צוללת ב-13% בסיאול כאשר מכירת השבבים מעמיקה",
-      "summary_he": "",
-      "body_en": "SK Hynix shares plunge 13% in Seoul as chip sell-off deepens",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
-      "tag": "TECH",
-      "published_at": "2026-07-28T03:55:49+00:00",
-      "sentiment": "bearish"
     },
     {
       "title_he": "העסקה החדשה הפוטנציאלית של Nvidia עם OpenAI תחייה הרגל מפחיד של בועות טכנולוגיות, מזהיר אנליסט",
@@ -901,28 +949,16 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "Citadel Securities צופה כי יו\"ר הפד קווין ורש והפדרל ריזרב יעלו את הריבית ב-25 נקודות שנייה ביום רביעי. החברה אומרת שהשווקים עשויים לזלזל בהערכת הפד...",
+      "title_he": "CITADEL מצפה שהפד יעשה עליית שיעור מפתיע ביום רביעי הזה לכל בלומברג",
       "summary_he": "",
-      "body_en": "Citadel Securities expects Fed Chair Kevin Warsh and the Federal Reserve to raise rates by 25 bps on Wednesday. The firm says markets may be underestimating the Fed’s hawkish shift and that a surprise",
+      "body_en": "CITADEL EXPECTS THE FED TO DO A SURPRISE RATE HIKE THIS WEDNESDAY PER BLOOMBERG",
       "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2081895431559327874#m",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2081881124796612712#m",
       "tag": "FED",
-      "published_at": "2026-07-28T00:12:05+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "BlackRock $BLK גייסה חוב של 12.5 מיליארד דולר כדי לממן את קמפוס מרכז הנתונים AI 1GW של $META באל פאסו, טקסס. שטרות 2048 תומחרו 287.5 נקודות בסיס לאורך 10 שנים...",
-      "summary_he": "",
-      "body_en": "BlackRock $BLK has raised $12.5 billion of debt to fund $META's 1GW AI data center campus in El Paso, Texas. The 2048 notes priced 287.5 basis points over 10-year Treasuries and attracted about $20 bi",
-      "ticker": "$BLK",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2081880242881482976#m",
-      "tag": "TECH",
-      "published_at": "2026-07-27T23:11:44+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "bullish"
+      "published_at": "2026-07-27T23:15:14+00:00",
+      "relative_time": "לפני 10ש׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "\"הזמן יגיד אם זה היה הימור טוב\": היועץ שלי השיג לי הקצאה מלאה של SpaceX IPO. היה לי מזל?",
@@ -933,6 +969,18 @@
       "link": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
       "tag": "NEWS",
       "published_at": "2026-07-27T22:30:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: פוד חדש עם האגדה @DivesTech בשידור חי! אנו מפרקים את סחר הבינה המלאכותית, כולל דגמי קוד פתוח סיניים, האטה בצמיחה בהכנסות של Anthropic, ה...",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: New pod with the legend @DivesTech is live! We break down the AI trade, including Chinese open-source models, Anthropic's slowing revenue growth, the biggest bottlenecks in chips, me",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/APompliano/status/2081864085801455840#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-27T22:07:31+00:00",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -947,78 +995,70 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "אפל מסיימת את היום כחברה היקרה ביותר בעולם, עוברת את Nvidia",
+      "title_he": "Coca-Cola $KO, Boeing $BA ו-Corning $GLW הן החברות הגדולות ביותר שמדווחות לפני הפתיחה מחר. לאחר הסגירה, זה Visa $V, Waste Management $WM, ומונדלז...",
       "summary_he": "",
-      "body_en": "Apple ends day as world's most valuable company, passing Nvidia",
+      "body_en": "Coca-Cola $KO, Boeing $BA, and Corning $GLW are the largest companies reporting before tomorrow's open. After the close, it's Visa $V, Waste Management $WM, and Mondelez International $MDLZ.",
+      "ticker": "$KO",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2081854767483990463#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-27T21:30:30+00:00",
+      "relative_time": "לפני 12ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Nvidia ו-OpenAI נמצאים במגעים על עד 250 מיליארד דולר לגיבוי למימון תוכניות תשתית בינה מלאכותית",
+      "summary_he": "",
+      "body_en": "Nvidia and OpenAI in talks for up to $250 billion backstop to fund AI infrastructure plans",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/27/apple-most-valuable-company-nvidia.html",
+      "link": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
       "tag": "TECH",
-      "published_at": "2026-07-27T21:12:26+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הנפט עלה החודש, ויולי מדד המחירים לצרכן צפוי להדפיס +0.04% @kalshi https://kalshi.com/markets/kxcpi/cpi/kxcpi-26jul",
-      "summary_he": "",
-      "body_en": "Oil has surged this month, and July CPI is expected to print +0.04% @kalshi https://kalshi.com/markets/kxcpi/cpi/kxcpi-26jul",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2081843570219061481#m",
-      "tag": "ENERGY",
-      "published_at": "2026-07-27T20:46:00+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שירי רווחים של CELESTICA $CLS Q2'26 🔹 הכנסות: $4.70B (הערכה. $4.37B) 🟢; +62% YoY 🔹 התאמה EPS: $2.54 (הערכה. $2.29) 🟢; +83% YoY 🔹 מרווח תפעולי מותאם: 8.2%; +80…",
-      "summary_he": "",
-      "body_en": "CELESTICA $CLS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $4.70B (Est. $4.37B) 🟢; +62% YoY 🔹 Adj. EPS: $2.54 (Est. $2.29) 🟢; +83% YoY 🔹 Adjusted Operating Margin: 8.2%; +80 bps YoY Raises FY26 Guide: 🔹 Reve",
-      "ticker": "$CLS",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2081843321400594704#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-27T20:45:01+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "השבוע בלוח השנה הוא תמיד קופות בוול סטריט... -ארבע רווחי Mag 7 -החלטת הפד עוד ממני ב-@stockcharts:...",
-      "summary_he": "",
-      "body_en": "This week on the calendar is always box office on Wall Street... -Four Mag 7 earnings -Fed decision More from me on @stockcharts: https://articles.stockcharts.com/article/spacex-stock-down-50-time-to-",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2081837155052032397#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-27T20:20:31+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אני נדהם כמה משקיעים מחזיקים ב-$TSLA כי הם מאמינים ש-$SPCX יקנה אותו. IMO, זה לא יקרה בזמן הקרוב מאז הדילול הפוטנציאלי ל-SPCX...",
-      "summary_he": "",
-      "body_en": "I am amazed how many investors are holding $TSLA because they believe $SPCX will buy it. IMO, that won’t happen anytime soon since the potential dilution to SPCX shareholders is too significant if SPC",
-      "ticker": "$TSLA",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2081756818359959862#m",
-      "tag": "TECH",
-      "published_at": "2026-07-27T15:01:17+00:00",
-      "relative_time": "לפני 16ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: $AMD צפוי כמעט לשלש את ההכנסה השנתית ליותר מ-100 מיליארד דולר עד 2028, כאשר MI450 והליוס מובילים את השלב הבא של צמיחת מרכז הנתונים. זֶה…",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $AMD is expected to nearly triple annual revenue to more than $100B by 2028 as MI450 and Helios drive the next phase of data center growth. That ramp could establish Instinct as",
-      "ticker": "$AMD",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2081739416599674959#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-27T13:52:08+00:00",
-      "relative_time": "לפני 17ש׳",
+      "published_at": "2026-07-27T21:29:40+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "אחייניתו של אחמד טיבי היא הפצועה מהתהפכות המשאית בתחנת הדלק בכביש 1",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856768",
+      "tag": "כללי",
+      "published_at": "2026-07-28T12:52:00+00:00"
+    },
+    {
+      "title_he": "תושב אשקלון נתפס בפעם השלישית נוהג בשלילה ותחת השפעת קוקאין",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856755",
+      "tag": "כללי",
+      "published_at": "2026-07-28T12:20:00+00:00"
+    },
+    {
+      "title_he": "כמעט 100% תמותה: במשרד הבריאות מזהירים מהתפשטות הכלבת",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856720",
+      "tag": "כללי",
+      "published_at": "2026-07-28T12:00:00+00:00"
+    },
+    {
+      "title_he": "רצח בניהו רזי: קצינת שב\"ס נעצרה בחשד שסייעה לחשוד המרכזי להימלט | כל הפרטים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856729",
+      "tag": "כללי",
+      "published_at": "2026-07-28T11:11:00+00:00"
+    },
+    {
+      "title_he": "לאחר הירי במתמודד הנפש בשועפט: מח\"ש קבעה כי לא נפל פגם בפעולת הלוחמים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3856737",
+      "tag": "כללי",
+      "published_at": "2026-07-28T11:04:00+00:00"
+    },
     {
       "title_he": "\"כנראה שאין ברירה\": נציג היועמ\"שית קורא לביטול חוק מעצר העריקים",
       "summary_he": "",
@@ -1058,46 +1098,6 @@
       "link": "https://news.walla.co.il/item/3856655",
       "tag": "כללי",
       "published_at": "2026-07-28T06:00:00+00:00"
-    },
-    {
-      "title_he": "במקום הנפילה: נחנכה האנדרטה לזכר ילדי מג'דל שמס",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856654",
-      "tag": "כללי",
-      "published_at": "2026-07-28T06:00:00+00:00"
-    },
-    {
-      "title_he": "קמפיין הימין לשחרורו של המתחל העצור מתגבר; עורך דינו: \"תעשו סוף לסאגה\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856625",
-      "tag": "כללי",
-      "published_at": "2026-07-27T21:14:00+00:00"
-    },
-    {
-      "title_he": "תאונת דרכים קטלנית בשרון: בן 18 נהרג וצעיר נוסף נפצע קשה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856608",
-      "tag": "כללי",
-      "published_at": "2026-07-27T19:16:00+00:00"
-    },
-    {
-      "title_he": "הרכב הנטוש, סימני הדם - והלוחית שנעקרה: כך אותרו החשודים בפרשת הנעדר מדימונה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856601",
-      "tag": "כללי",
-      "published_at": "2026-07-27T18:48:00+00:00"
-    },
-    {
-      "title_he": "\"צה\"ל מאותת לנו: אל תגדלו פה את ילדיכם\" - בנחל עוז זועמים על צמצום הכוחות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856597",
-      "tag": "כללי",
-      "published_at": "2026-07-27T18:14:00+00:00"
     }
   ],
   "track_record": {
