@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T22:58:01.837413+00:00",
+  "generated_at": "2026-07-29T00:01:48.120875+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -216,39 +216,39 @@
       },
       "recommendation": "קנייה",
       "confidence": 3,
-      "rationale_he": "ירידה של -15.2% מהשיא השנתי עם RSI ב-45.4 — התיקון בעיצומו. תמיכה קרובה ב-$30.80. מחיר מעל SMA200 · RSI בריא (45.4) · מומנטום שבועי +2.2%.",
+      "rationale_he": "ירידה של -15.2% מהשיא השנתי עם RSI ב-46.0 — התיקון בעיצומו. תמיכה קרובה ב-$30.80. מחיר מעל SMA200 · RSI בריא (46.0) · מומנטום שבועי +1.0%.",
       "indicators": {
-        "rsi14": 45.4,
-        "sma20": 32.54,
-        "sma50": 33.34,
-        "sma200": 30.44,
+        "rsi14": 46.0,
+        "sma20": 32.41,
+        "sma50": 33.25,
+        "sma200": 30.49,
         "pct_from_52w_high": -15.2,
-        "vol_ratio": 0.72,
+        "vol_ratio": 0.73,
         "change_1d_pct": 1.9,
-        "change_1w_pct": 2.2,
-        "change_1m_pct": -5.8,
+        "change_1w_pct": 1.0,
+        "change_1m_pct": -4.6,
         "spark_3m": [
-          31.26,
-          35.07,
-          35.86,
-          35.73,
-          36.25,
-          34.03,
-          34.16,
-          34.56,
+          31.62,
+          34.95,
+          36.34,
+          35.84,
+          35.31,
+          34.07,
+          34.07,
+          34.52,
+          33.08,
+          34.19,
+          33.58,
+          33.69,
+          31.48,
+          34.22,
+          33.31,
           34.64,
-          34.43,
-          34.45,
-          34.63,
-          32.56,
-          33.21,
-          33.21,
-          33.44,
-          34.65,
-          32.95,
-          31.56,
-          31.0,
-          31.18
+          33.24,
+          32.18,
+          32.22,
+          31.35,
+          30.81
         ]
       },
       "analyzed": true,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-28T22:58:01.837424+00:00",
+  "ta_generated_at": "2026-07-29T00:01:48.120888+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,015.1",
-      "change": "-0.58%",
+      "value": "$4,021.8",
+      "change": "-0.42%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.58434644811449
+      "pct_raw": -0.4184514819124876
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.5",
-      "change": "+4.06%",
+      "value": "$86.9",
+      "change": "+3.39%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 4.055178974907832
+      "pct_raw": 3.3892258294684194
     },
     {
       "name": "ביטקוין",
-      "value": "$63,757",
-      "change": "+0.08%",
+      "value": "$63,921",
+      "change": "+0.34%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.07890854739519666
+      "pct_raw": 0.33673088496555426
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.050",
-      "change": "-0.15%",
-      "direction": "down",
+      "value": "3.052",
+      "change": "+0.19%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.15057776031948467
+      "pct_raw": 0.1936775760758959
     }
   ],
   "sectors": [
@@ -856,6 +856,125 @@
   },
   "us_news": [
     {
+      "title_he": "ההכנסות של SK Hynix ברבעון השני יותר משלישו - אבל מחמיצות הערכות",
+      "summary_he": "",
+      "body_en": "SK Hynix second-quarter revenue more than triples — but misses estimates",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T00:00:33+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "רווחי SKHY: - הכנסות: 54.5 מיליארד דולר, משוער: 57.7 מיליארד דולר - רווח תפעולי: 41.6 מיליארד דולר, הערכה: 44.2 מיליארד דולר",
+      "summary_he": "",
+      "body_en": "$SKHY earnings: - Revenue: $54.5 billion, est: $57.7 billion - Operating profit: $41.6 billion, est: $44.2 billion",
+      "ticker": "$SKHY",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2082250751607497073#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T23:44:00+00:00",
+      "relative_time": "לפני 17ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$INTC $120 עד $86 ירידה של 28% חזרה לקראת ה-200d ma.",
+      "summary_he": "",
+      "body_en": "$INTC $120 to $86 A 28% drop back towards the 200d ma.",
+      "ticker": "$INTC",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2082247388043813024#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-28T23:30:38+00:00",
+      "relative_time": "לפני 30ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "$SNDK $1,641 עד $1096, ירידה של 33%. חוזרים לכיוון 200d ma.",
+      "summary_he": "",
+      "body_en": "$SNDK $1,641 to $1096, a 33% drop. Heading back towards the 200d ma.",
+      "ticker": "$SNDK",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2082246818574770516#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-28T23:28:22+00:00",
+      "relative_time": "לפני 32ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "$MRVL $307 עד $175, ירידה של 43%. הדפוסים המורחבים הללו כמעט תמיד מדשדשים בחזרה ל-200d ma.",
+      "summary_he": "",
+      "body_en": "$MRVL $307 to $175, a 43% drop. These extended patterns almost always falter back to the 200d ma.",
+      "ticker": "$MRVL",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2082246479775752605#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-28T23:27:01+00:00",
+      "relative_time": "לפני 34ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "כנראה טבלת השנה? תזרים המזומנים החופשי עבור ה-hyperscalers ($META, $AMZN, $GOOGL, $MSFT, $ORCL) צומח, בעוד הוא ממריא עבור הצ'יפים ($NVDA, $MU,...",
+      "summary_he": "",
+      "body_en": "Probably the chart of the year? Free cash flow for the hyperscalers ($META, $AMZN, $GOOGL, $MSFT, $ORCL) is tanking, while it is soaring for the chips ($NVDA, $MU, $AVGO, $AMAT). \"One company's spendi",
+      "ticker": "$META",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2082244680901886270#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T23:19:52+00:00",
+      "relative_time": "לפני 41ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "R ל-@StockSavvyShay: $SKHY ירד ביותר מ-5% לאחר הדפסת הרווחים הזו",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: $SKHY down more than 5% after this earnings print",
+      "ticker": "$SKHY",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082241735128936697#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T23:08:10+00:00",
+      "relative_time": "לפני 52ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "SK HYNIX $SKHY Q2'26 דגשים מפורטים ברווחים 🔹 הכנסות: $54.6B (הערכה. $57.7B) 🔴; +257% YoY, +51% QoQ 🔹 רווח תפעולי: $41.6B (הערכה. $44.2B) 🔴; +557% YoY 🔹…",
+      "summary_he": "",
+      "body_en": "SK HYNIX $SKHY Q2’26 DETAILED EARNINGS HIGHLIGHTS 🔹 Revenue: $54.6B (Est. $57.7B) 🔴; +257% YoY, +51% QoQ 🔹 Operating Profit: $41.6B (Est. $44.2B) 🔴; +557% YoY 🔹 Operating Margin: 76%; +3,500 bps YoY —",
+      "ticker": "$SKHY",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082239279393300749#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T22:58:24+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "שירי רווחים של SK HYNIX $SKHY Q2'26 🔹 הכנסות: $54.6B (הערכה. $57.7B) 🔴; -5.4% 🔹 רווח תפעולי: $41.6B (הערכה. $44.2B) 🔴; 76.3% מרווח תפעולי 🔹 DRAM ASP: +~30%…",
+      "summary_he": "",
+      "body_en": "SK HYNIX $SKHY Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $54.6B (Est. $57.7B) 🔴; -5.4% 🔹 Operating Profit: $41.6B (Est. $44.2B) 🔴; 76.3% operating margin 🔹 DRAM ASP: +~30% QoQ 🔹 NAND ASP: +mid-50% QoQ 2026",
+      "ticker": "$SKHY",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082237884300665130#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T22:52:52+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "רווחים של $SKHY לרבעון השני • הכנסות: 54.5 מיליארד דולר לעומת הערכה של 57.7 מיליארד דולר • רווח תפעולי: 41.6 מיליארד דולר לעומת הערכה של 44.2 מיליארד דולר • DRAM ASP: +30% QoQ • NAND ASP: +55% QoQ Q3 הנחיה • משלוחי DRAM:…",
+      "summary_he": "",
+      "body_en": "$SKHY Q2 EARNINGS • Revenue: $54.5B vs. $57.7B est. • Operating profit: $41.6B vs. $44.2B est. • DRAM ASP: +30% QoQ • NAND ASP: +55% QoQ Q3 Guidance • DRAM shipments: +10% QoQ • NAND shipments: +3% Qo",
+      "ticker": "$SKHY",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082237710488735846#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-28T22:52:10+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "פורד מעלה את ההנחיה לאחר שהרווחים ברבעון השני נפלו, אומר שההתאוששות מסדרת ה-F בדרך",
       "summary_he": "",
       "body_en": "Ford raises guidance after Q2 earnings beat, says F-Series recovery is on track",
@@ -867,28 +986,6 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "הרווחים של Seagate הם חדשות מבורכות עבור סחר הבינה המלאכותית החבוט",
-      "summary_he": "",
-      "body_en": "Seagate’s earnings are welcome news for the battered AI trade",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-28T22:17:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית מיקרון שוקעת לכיוון הירידה החודשית החמורה ביותר מזה 11 שנים, כאשר החששות בסין מסלימים",
-      "summary_he": "",
-      "body_en": "Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/microns-stock-sinks-toward-worst-monthly-drop-in-11-years-as-china-fears-escalate-3c956a67?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-28T21:56:00+00:00",
-      "sentiment": "bearish"
-    },
-    {
       "title_he": "ויזה ($V) ירדה ב-1% AH לאחר ש-Visa דיווחה על רווחים, סיבובים ותשלומים ברבעון השלישי שגברו על הציפיות, אך הובילו לרווחים נמוכים מהצפוי ברבעון הרביעי עקב גבוה מ...",
       "summary_he": "",
       "body_en": "Visa ( $V) dipped -1% AH after Visa reported 3Q earnings, revs, and payments that beat expectations, but guided to lower than expected 4Q earnings due to higher than expected expense growth. 3Q actual",
@@ -897,7 +994,7 @@
       "link": "https://nitter.net/garyblack00/status/2082219745957314595#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-28T21:40:47+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -909,18 +1006,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2082217155261813134#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-28T21:30:30+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הפד אינו הדאגה הגדולה ביותר שלך. החלטת הבנק המרכזי שמשפיעה למעשה על 401(k) שלך נוחתת בטוקיו.",
-      "summary_he": "",
-      "body_en": "The Fed isn’t your biggest worry. The central-bank decision that actually impacts your 401(k) lands in Tokyo.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-fed-isnt-your-biggest-worry-the-central-bank-decision-that-actually-impacts-your-401-k-lands-in-tokyo-fc9d22c8?mod=mw_rss_topstories",
-      "tag": "FED",
-      "published_at": "2026-07-28T20:54:00+00:00",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -933,89 +1019,6 @@
       "tag": "TECH",
       "published_at": "2026-07-28T20:52:00+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "Nasdaq-100 נמצא בקצה של טריטוריית תיקון כאשר מניות המוליכים למחצה חוטפות מכה נוספת",
-      "summary_he": "",
-      "body_en": "Nasdaq-100 is on the edge of correction territory as semiconductor stocks take another beating",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/nasdaq-100-is-on-the-edge-of-correction-territory-as-semiconductor-stocks-take-another-beating-580d3ee7?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-28T20:46:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "Bloom Energy $BE דיווחה על טריפל פליי רווח לאחר הסגירה ועלתה ב-10%. עם זאת, עדיין מתחת לרמת הסגירה של אתמול, מכיוון שהיא ירדה היום ב-11%. BE היה ב…",
-      "summary_he": "",
-      "body_en": "Bloom Energy $BE reported an earnings triple play after the close and is up 10%. Still below yesterday's closing level, though, since it fell 11% today. BE was in the mid-$300s on 6/22, it's now at $1",
-      "ticker": "$BE",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2082205879399596135#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-28T20:45:41+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "רווחי רווחים של $VRNS Q2'26 🔹 הכנסה: $180.0M (הערכה. $176.79M) 🔹 EPS: $0.04 (אומדן $0.01) 🔹 SaaS ArR: $726.0M; +52% YoY 🔹 SaaS ARR Ex-Conversions: +25% YoY FY26…",
-      "summary_he": "",
-      "body_en": "$VRNS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $180.0M (Est. $176.79M) 🟢 🔹 EPS: $0.04 (Est. $0.01) 🟢 🔹 SaaS ARR: $726.0M; +52% YoY 🔹 SaaS ARR Ex-Conversions: +25% YoY FY26 Guide: 🔹 Revenue: $735M-$739M (E",
-      "ticker": "$VRNS",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082205077604126746#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-28T20:42:30+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @RyanDetrick: הפד נפגש השבוע, ואף אחד לא באמת יודע מה קורה. חוזים עתידיים מעמידים את הסיכויים לעלייה על 37%. @sonusvarghese על למה הפד מדבר על...",
-      "summary_he": "",
-      "body_en": "RT by @RyanDetrick: The Fed meets this week, and nobody really knows what happens. Futures put the odds of a hike at 37%. @sonusvarghese on why the Fed is talking about hikes at all when it can't prin",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/CarsonResearch/status/2082204520361144610#m",
-      "tag": "FED",
-      "published_at": "2026-07-28T20:40:17+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$IONQ מקבלת אישור סופי לרכוש את $SKYT שהיא מפעל היציקה הגדול ביותר בארה\"ב למוליכים למחצה. הרכישה מעניקה ל-IonQ שליטה ישירה על שבב...",
-      "summary_he": "",
-      "body_en": "$IONQ receives final approval to acquire $SKYT which is the largest exclusively U.S.-based semiconductor foundry. The acquisition gives IonQ direct control over chip manufacturing and strengthens its ",
-      "ticker": "$IONQ",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082204429693157731#m",
-      "tag": "M&A",
-      "published_at": "2026-07-28T20:39:56+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "TERADYNE $TER Q2'26 שיאי רווחים 🔹 הכנסות: $1.33B (הערכה. $1.22B) 🟢; +104% YoY 🔹 התאמה EPS: $2.47 (הערכה. $2.09) 🟢 🔹 הכנסה מבדיקת מוליכים למחצה: $1.12B מדריך לרבעון השלישי: 🔹…",
-      "summary_he": "",
-      "body_en": "TERADYNE $TER Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.33B (Est. $1.22B) 🟢; +104% YoY 🔹 Adj. EPS: $2.47 (Est. $2.09) 🟢 🔹 Semiconductor Test Revenue: $1.12B Q3 Guide: 🔹 Revenue: $1.20B-$1.30B (Est. $1.0",
-      "ticker": "$TER",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082203599833338074#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-28T20:36:38+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "THE CHEESECKE FACTORY $CAKE Q2'26 שירי רווחים 🔹 הכנסות: $1.03B (הערכה. $998.0M) 🟢; +8% YoY 🔹 התאמה EPS: $1.44 (הערכה. $1.17) 🟢 🔹 מכירות מסעדות דומות: +5.8%…",
-      "summary_he": "",
-      "body_en": "THE CHEESECAKE FACTORY $CAKE Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.03B (Est. $998.0M) 🟢; +8% YoY 🔹 Adj. EPS: $1.44 (Est. $1.17) 🟢 🔹 Comparable Restaurant Sales: +5.8% YoY Affirms FY26 Guide: 🔹 New R",
-      "ticker": "$CAKE",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082203041252737155#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-28T20:34:25+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
@@ -1101,11 +1104,11 @@
     }
   ],
   "track_record": {
-    "closed": 0,
-    "wins": 0,
-    "hit_rate": 0,
-    "avg_pnl": 0,
-    "open": 10
+    "closed": 8,
+    "wins": 2,
+    "hit_rate": 25,
+    "avg_pnl": -5.76,
+    "open": 2
   },
   "alert_config": {
     "price_move_pct": 5,
