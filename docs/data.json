@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T21:26:33.504171+00:00",
+  "generated_at": "2026-07-29T22:29:29.158199+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-29T21:26:33.504182+00:00",
+  "ta_generated_at": "2026-07-29T22:29:29.158213+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,126.0",
-      "change": "+0.67%",
+      "value": "$4,132.0",
+      "change": "+0.85%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.6685209583760219
+      "pct_raw": 0.8542836221625579
     },
     {
       "name": "נפט ברנט",
-      "value": "$90.5",
-      "change": "+7.67%",
-      "direction": "up",
+      "value": "$90.4",
+      "change": "-0.37%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 7.670353193007495
+      "pct_raw": -0.37469693630150896
     },
     {
       "name": "ביטקוין",
-      "value": "$63,418",
-      "change": "-0.68%",
-      "direction": "down",
+      "value": "$63,920",
+      "change": "+0.10%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.6812470234594852
+      "pct_raw": 0.10445787693046121
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.085",
-      "change": "+1.26%",
+      "value": "3.078",
+      "change": "+1.05%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 1.257262909102846
+      "pct_raw": 1.0504546499031622
     }
   ],
   "sectors": [
@@ -856,62 +856,144 @@
   },
   "us_news": [
     {
-      "title_he": "$META על מימון בניית תשתית הבינה המלאכותית שלה: \"פיתחנו את מבנה ההון שלנו בשנים האחרונות כדי לכלול תמהיל גדול יותר של חובות בזמן שאנו פועלים להפיל...",
+      "title_he": "צ'יפוטלה מעלה את תחזית המכירות שלה אפילו כשהתפרצות הקשורה לחסה מאטה את תנועת הרגליים",
       "summary_he": "",
-      "body_en": "$META on financing its AI infrastructure buildout: “We’ve been evolving our capital structure in recent years to include a greater mix of debt as we work to bring down our cost of capital.” “We have g",
-      "ticker": "$META",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082577149509423122#m",
+      "body_en": "Chipotle lifts its sales forecast even as a lettuce-linked outbreak slows foot traffic",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/chipotle-lifts-its-sales-forecast-even-as-a-lettuce-linked-outbreak-slows-foot-traffic-2249eeab?mod=mw_rss_topstories",
       "tag": "TECH",
-      "published_at": "2026-07-29T21:20:59+00:00",
-      "relative_time": "לפני 4ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$META אינו מציע הנחיה של 2027 CapEx: \"אנחנו לא מספקים תחזית ספציפית עבור 2027 CapEx בשלב זה. תכנון התשתית נשאר דינמי מאוד. אנחנו מתכוננים...",
-      "summary_he": "",
-      "body_en": "$META offers no 2027 CapEx guidance: “We aren’t providing a specific outlook for 2027 CapEx at this time. Infrastructure planning remains highly dynamic. We’re gearing our current infrastructure plans",
-      "ticker": "$META",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082577014251565432#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T21:20:27+00:00",
-      "relative_time": "לפני 5ד׳",
+      "published_at": "2026-07-29T22:22:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "קוואלקום תעלה מחירים במהלך משבר הזיכרון כאשר יצרנית השבבים מנפיקה הנחיית רווחים קלה",
+      "title_he": "קרא את הערת המאקרו המלאה של הערב עם הניתוח שלנו של FOMC של היום וכל דוחות הרווחים העיקריים לאחר הסגירה:...",
       "summary_he": "",
-      "body_en": "Qualcomm to raise prices during memory crunch as chipmaker issues light earnings guidance",
+      "body_en": "Read tonight's full macro note with our analysis of today's FOMC and all the key earnings reports after the close: https://www.bespokepremium.com/interactive/posts/featured-reports/the-closer-trust-fa",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2082591651222937843#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T22:18:36+00:00",
+      "relative_time": "לפני 10ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Microsoft $MSFT על ארכיטקטורת AI ארגונית: \"עליך לשמור על הרתמה שלך נפרדת מהמודל.\" \"זה אומר שכל דגם נתון, בכל זמן נתון, ניתן להחלפה.\"...",
+      "summary_he": "",
+      "body_en": "Microsoft $MSFT on enterprise AI architecture: “You’ve got to keep your harness separate from the model.” “That means any given model, at any given time, is swappable.” “You can’t depend on any one mo",
+      "ticker": "$MSFT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082591151878750342#m",
+      "tag": "TECH",
+      "published_at": "2026-07-29T22:16:37+00:00",
+      "relative_time": "לפני 12ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$MSFT על תנודתיות הקשורה ל-OpenAI: \"חוזה OpenAI המשמעותי שנחתם בשנה הקודמת יביא לתנודתיות רבעונית מסוימת הן בהזמנות והן בצמיחת ה-RPO...",
+      "summary_he": "",
+      "body_en": "$MSFT on OpenAI-related volatility: “The significant OpenAI contract signed in the prior year will result in some quarterly volatility in both bookings and RPO growth rates.”",
+      "ticker": "$MSFT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082590854171259158#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T22:15:26+00:00",
+      "relative_time": "לפני 13ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Microsoft $MSFT על ביקוש של Azure: \"ביקוש הלקוחות ממשיך לעלות על ההיצע.\" \"אפילו עם הסמיכות החזקה לרבעון הרביעי, אנו ממשיכים לצפות שהצמיחה במחצית הראשונה תואץ.\"...",
+      "summary_he": "",
+      "body_en": "Microsoft $MSFT on Azure demand: “Customer demand continues to exceed supply.” “Even with the strong close to Q4, we continue to expect first-half growth to accelerate.” “We expect Q1 Azure revenue gr",
+      "ticker": "$MSFT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082590797900427510#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T22:15:13+00:00",
+      "relative_time": "לפני 13ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$MSFT עלה בכמעט 10% לאחר ששמרה על הנחיית ההשקעות שלה לשנת 2026 על 190 מיליארד דולר וסימנה עלייה נוספת בשנה ב-27. למרות המשך ניהול בניית הבינה המלאכותית עדיין...",
+      "summary_he": "",
+      "body_en": "$MSFT is up nearly 10% after maintaining its 2026 capex guidance at $190B and signaling another YoY increase in FY27. Despite the continued AI buildout management still expects to remain cash-flow pos",
+      "ticker": "$MSFT",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082590065394667757#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T22:12:18+00:00",
+      "relative_time": "לפני 16ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "MICROSOFT $MSFT OUTLOOK 🔸 FY27 CapEx: צפוי לגדול YoY 🔹 הכנסה ברבעון הראשון: $89.85B-$90.95B (הערכה. $89.63B) 🔹 Q1 Azure ואחרות: ~+45% CC; accel. מ-+43% עו\"ס ברבעון הרביעי 🔸…",
+      "summary_he": "",
+      "body_en": "MICROSOFT $MSFT OUTLOOK 🔸 FY27 CapEx: Expected to grow YoY 🔹 Q1 Revenue: $89.85B-$90.95B (Est. $89.63B) 🟢 🔹 Q1 Azure & Other: ~+45% CC; accel. from +43% CC in Q4 🔸 Azure: H1 FY27 growth to accelerate ",
+      "ticker": "$MSFT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082589899660972142#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T22:11:39+00:00",
+      "relative_time": "לפני 17ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "MICROSOFT $MSFT FY27 CAPEX צפוי לגדול משנה לשנה",
+      "summary_he": "",
+      "body_en": "MICROSOFT $MSFT FY27 CAPEX EXPECTED TO GROW YEAR-OVER-YEAR",
+      "ticker": "$MSFT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082587887611396219#m",
+      "tag": "TECH",
+      "published_at": "2026-07-29T22:03:39+00:00",
+      "relative_time": "לפני 25ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "גוגל, $GOOGL, DeepMind פירקה את הצוות מאחורי AlphaFold, מערכת הבינה המלאכותית שלה זוכת פרס נובל לחיזוי מבני חלבון, לפי FT",
+      "summary_he": "",
+      "body_en": "Google, $GOOGL, DeepMind has dismantled the team behind AlphaFold, its Nobel Prize-winning AI system for predicting protein structures, per FT",
+      "ticker": "$GOOGL",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2082586463770718366#m",
+      "tag": "TECH",
+      "published_at": "2026-07-29T21:58:00+00:00",
+      "relative_time": "לפני 31ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "GS: לקראת הפרסום המוקדם ביום חמישי של צמיחת התמ\"ג ברבעון השני, אנו מורידים את תחזית צמיחת התמ\"ג שלנו ברבעון השני ב-0.8% ל-+1.8%",
+      "summary_he": "",
+      "body_en": "GS: Ahead of Thursday’s advance release of Q2 GDP growth, we are lowering our Q2 GDP growth forecast by 0.8pp to +1.8%",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2082586193783308318#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T21:56:55+00:00",
+      "relative_time": "לפני 32ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניות ואג\"ח רואות תנודות פראיות של \"יום הפד\" כאשר \"כרית ההתרסקות\" של וול סטריט מתאדה",
+      "summary_he": "",
+      "body_en": "Stocks and bonds see wild ‘Fed Day’ swings as Wall Street’s ‘crash cushion’ evaporates",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/stocks-and-bonds-see-wild-fed-day-swings-as-wall-streets-crash-cushion-evaporates-ffcbdbbc?mod=mw_rss_topstories",
+      "tag": "FED",
+      "published_at": "2026-07-29T21:56:00+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "צ'יפוטלה מעלה את תחזית המכירות בחנויות זהות, אומר שהחששות של cyclospora הגיעו למכירות בסוף יולי",
+      "summary_he": "",
+      "body_en": "Chipotle hikes same-store sales forecast, says cyclospora fears hit sales in late July",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/29/qualcomm-qcom-earnings-report-q3-2026-.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T21:19:52+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$META על צמיחה בכל עסקי הבינה המלאכותית שלה: \"אני די אופטימי שאנחנו הולכים לראות צמיחה משמעותית בכל התחומים האלה. יהיה לנו עוד מה לשתף בקרוב על...",
-      "summary_he": "",
-      "body_en": "$META on growth across its AI businesses: “I’m quite optimistic that we’re going to see meaningful growth in all of these areas. We’ll have more to share soon on a number of them.”",
-      "ticker": "$META",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082576658968850904#m",
+      "link": "https://www.cnbc.com/2026/07/29/chipotle-mexican-grill-cmg-q2-2026-earnings.html",
       "tag": "TECH",
-      "published_at": "2026-07-29T21:19:02+00:00",
-      "relative_time": "לפני 6ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$META יורד ביותר מ-10% לאחר שהעלתה שוב את תחזית ההשקעות שלה לשנת 2026, בעוד צוקרברג אמר שהשקת עסק בענן \"איננה בראש סדר העדיפויות\". הוא אמר שהביקוש למחשוב הוא...",
-      "summary_he": "",
-      "body_en": "$META is down more than 10% after raising its 2026 capex forecast again while Zuckerberg said launching a cloud business “isn’t a priority.” He said compute demand is strong but Meta sees better retur",
-      "ticker": "$META",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082576545433231741#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T21:18:35+00:00",
-      "relative_time": "לפני 7ד׳",
+      "published_at": "2026-07-29T21:52:41+00:00",
       "sentiment": "neutral"
     },
     {
@@ -922,101 +1004,19 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
       "tag": "MACRO",
-      "published_at": "2026-07-29T21:18:00+00:00",
+      "published_at": "2026-07-29T21:43:00+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "מניית Meta צוללת ב-11% בעקבות הנחיה מאכזבת, ומצטמצמת בתזרים המזומנים החופשי",
+      "title_he": "מניית מטה צוללת בכמעט 10% על הנחיות מאכזבות, ומצטמצמת בתזרים המזומנים החופשי",
       "summary_he": "",
-      "body_en": "Meta's stock plunges 11% on disappointing guidance, dwindling free cash flow",
+      "body_en": "Meta's stock plunges almost 10% on disappointing guidance, dwindling free cash flow",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-07-29T21:16:54+00:00",
+      "published_at": "2026-07-29T21:26:17+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "$META על מונטיזציה של מחשוב הבינה המלאכותית שלה: \"יש לנו מספר לא מבוטל של הצעות בפרמיה משמעותית על מה ששילמנו עבור המחשוב. אנחנו מאמינים שימשיך להיות...",
-      "summary_he": "",
-      "body_en": "$META on monetizing its AI compute: “We have quite a number of offers at a meaningful premium over what we paid for the compute. We believe there will continue to be a significantly higher margin on s",
-      "ticker": "$META",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082575704286490935#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T21:15:14+00:00",
-      "relative_time": "לפני 10ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית קרוואנה יורדת ב-15% כאשר תחזית הרווחים של קמעונאי הרכב לשנת 2026 מחמיצה את הציפיות של וול סטריט",
-      "summary_he": "",
-      "body_en": "Carvana stock falls 15% as auto retailer's 2026 earnings guidance misses Wall Street's expectations",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/29/carvana-cvna-earnings-q2-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T21:08:27+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "Robinhood $HOOD סיימה את הרבעון השני עם שיא של 4.84 מיליון מנויי זהב, עלייה של 39% בשנה שעברה. אימוץ הזהב הגיע ל-17% מהלקוחות הממומנים, בעוד שהכנסות המנויים השנתיות עלו ל...",
-      "summary_he": "",
-      "body_en": "Robinhood $HOOD ended Q2 with a record 4.84M Gold subscribers, up 39% YoY. Gold adoption reached 17% of funded customers, while annualized subscription revenue rose to $216M Compared with the average ",
-      "ticker": "$HOOD",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082573233317126326#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T21:05:25+00:00",
-      "relative_time": "לפני 20ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שיא הכנסות גבוהות עבור $META אבל שיא הוצאות גבוהות...",
-      "summary_he": "",
-      "body_en": "Record high revenue for $META but record high expenses...",
-      "ticker": "$META",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2082572483308212596#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T21:02:27+00:00",
-      "relative_time": "לפני 23ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "עסקי הפרסום של $META נותרו מצוינים עם עלייה של 28% בהכנסות, עלייה של 14% בהופעות של מודעה והמחיר הממוצע למודעה גדל ב-12% כאשר AI משפר את המעורבות והמודעות...",
-      "summary_he": "",
-      "body_en": "$META advertising business remains excellent with revenue up 28%, ad impressions rising 14% and average price per ad increasing 12% as AI improves engagement and ad performance. The concern is FCF fel",
-      "ticker": "$META",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082571872781390321#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T21:00:01+00:00",
-      "relative_time": "לפני 25ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "להלן הנתיב התוך-יומי הממוצע של S&P 500 בימי הפד לפי כיסא מאז 1994 כשהחלו להכריז על החלטות מדיניות בימי הפד. לאחר שני ימי הפד הראשונים שלו,...",
-      "summary_he": "",
-      "body_en": "Here's the average intraday path for the S&P 500 on Fed Days by Chair since 1994 when they began announcing policy decisions on Fed Days. After his first two Fed Days, Chair Warsh has some work to do.",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2082571264820985971#m",
-      "tag": "FED",
-      "published_at": "2026-07-29T20:57:36+00:00",
-      "relative_time": "לפני 28ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מיקרוסופט מנצחת את ציפיות הענן לרבעון הרביעי, שכן הכנסות Azure לשנה כולה מגיעות ל-100 מיליארד דולר",
-      "summary_he": "",
-      "body_en": "Microsoft beats Q4 cloud expectations as full-year Azure revenue tops $100 billion",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T20:57:08+00:00",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
