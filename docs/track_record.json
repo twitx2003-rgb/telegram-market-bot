@@ -86,7 +86,7 @@
    "price_at_rec": 31.07,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 10.36
+   "last_pnl": 10.59
   },
   {
    "ticker": "NFLX",
@@ -94,7 +94,7 @@
    "price_at_rec": 72.91,
    "confidence": 4,
    "engine": "rules",
-   "last_pnl": -0.89
+   "last_pnl": -0.48
   },
   {
    "ticker": "AAPL",
@@ -102,7 +102,7 @@
    "price_at_rec": 340.08,
    "confidence": 4,
    "engine": "rules",
-   "last_pnl": 0.7
+   "last_pnl": 0.31
   },
   {
    "ticker": "JPM",
@@ -110,7 +110,15 @@
    "price_at_rec": 357.31,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": -2.07
+   "last_pnl": -2.42
+  },
+  {
+   "ticker": "MSFT",
+   "rec_date": "2026-07-29",
+   "price_at_rec": 394.79,
+   "confidence": 3,
+   "engine": "rules",
+   "last_pnl": 0.0
   }
  ]
 }
