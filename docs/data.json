@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T20:12:57.207451+00:00",
+  "generated_at": "2026-07-29T21:26:33.504171+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -165,17 +165,17 @@
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $34.71 באמצע הטווח בין $33.61 ל-$35.25, RSI ב-61.0. 5 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
+      "rationale_he": "המחיר $34.71 באמצע הטווח בין $33.61 ל-$35.25, RSI ב-60.9. 5 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
       "indicators": {
-        "rsi14": 61.0,
+        "rsi14": 60.9,
         "sma20": 32.45,
         "sma50": 33.25,
         "sma200": 30.56,
         "pct_from_52w_high": -7.1,
         "vol_ratio": 0.9,
-        "change_1d_pct": 9.66,
-        "change_1w_pct": 15.2,
-        "change_1m_pct": 4.3,
+        "change_1d_pct": 9.6,
+        "change_1w_pct": 15.1,
+        "change_1m_pct": 4.2,
         "spark_3m": [
           35.38,
           35.35,
@@ -274,7 +274,7 @@
         "sma50": 397.91,
         "sma200": 434.13,
         "pct_from_52w_high": -29.7,
-        "vol_ratio": 0.78,
+        "vol_ratio": 0.79,
         "change_1d_pct": -0.71,
         "change_1w_pct": 0.1,
         "change_1m_pct": 6.0,
@@ -318,15 +318,15 @@
       },
       "recommendation": "קנייה",
       "confidence": 3,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($342.52) שמעל SMA50 ($325.56), RSI ב-55.1. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($342.51) שמעל SMA50 ($325.56), RSI ב-55.1. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
       "indicators": {
         "rsi14": 55.1,
-        "sma20": 342.52,
+        "sma20": 342.51,
         "sma50": 325.56,
         "sma200": 311.38,
         "pct_from_52w_high": -4.1,
-        "vol_ratio": 0.89,
-        "change_1d_pct": -3.51,
+        "vol_ratio": 0.9,
+        "change_1d_pct": -3.53,
         "change_1w_pct": -1.0,
         "change_1m_pct": 4.7,
         "spark_3m": [
@@ -427,7 +427,7 @@
         "sma50": 604.55,
         "sma200": 636.11,
         "pct_from_52w_high": -26.5,
-        "vol_ratio": 0.74,
+        "vol_ratio": 0.76,
         "change_1d_pct": -1.31,
         "change_1w_pct": -6.6,
         "change_1m_pct": 4.1,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-29T20:12:57.207461+00:00",
+  "ta_generated_at": "2026-07-29T21:26:33.504182+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -692,45 +692,45 @@
     },
     {
       "name": "Russell 2000",
-      "value": "2,904",
-      "change": "-1.68%",
+      "value": "2,906",
+      "change": "-1.61%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -1.6837665024273942
+      "pct_raw": -1.6077762602976202
     },
     {
       "name": "VIX",
-      "value": "20.42",
-      "change": "+12.14%",
+      "value": "20.66",
+      "change": "+13.45%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 12.136188907193853
+      "pct_raw": 13.454146073585937
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,107.8",
-      "change": "+0.22%",
+      "value": "$4,126.0",
+      "change": "+0.67%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.22446689113355336
+      "pct_raw": 0.6685209583760219
     },
     {
       "name": "נפט ברנט",
-      "value": "$90.8",
-      "change": "+7.98%",
+      "value": "$90.5",
+      "change": "+7.67%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 7.979545724818639
+      "pct_raw": 7.670353193007495
     },
     {
       "name": "ביטקוין",
-      "value": "$63,400",
-      "change": "-0.71%",
+      "value": "$63,418",
+      "change": "-0.68%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.7109243363205318
+      "pct_raw": -0.6812470234594852
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,21 +752,21 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.079",
-      "change": "+1.06%",
+      "value": "3.085",
+      "change": "+1.26%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 1.0635853330269502
+      "pct_raw": 1.257262909102846
     }
   ],
   "sectors": [
     {
       "name": "טכנולוגיה",
-      "value": "166.56",
-      "change": "-2.65%",
+      "value": "166.57",
+      "change": "-2.64%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -2.6477292652989664
+      "pct_raw": -2.6418843883336316
     },
     {
       "name": "פיננסים",
@@ -778,75 +778,75 @@
     },
     {
       "name": "אנרגיה",
-      "value": "58.63",
-      "change": "+1.85%",
+      "value": "58.65",
+      "change": "+1.88%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 1.849921834288688
+      "pct_raw": 1.8759770713913468
     },
     {
       "name": "בריאות",
-      "value": "166.25",
-      "change": "-0.60%",
+      "value": "166.24",
+      "change": "-0.61%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.6038502929570674
+      "pct_raw": -0.6098290087289142
     },
     {
       "name": "תעשייה",
-      "value": "176.62",
-      "change": "-3.22%",
+      "value": "176.66",
+      "change": "-3.19%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -3.2166146090196746
+      "pct_raw": -3.1946955997588975
     },
     {
       "name": "צריכה שיקולית",
-      "value": "111.58",
-      "change": "-0.80%",
+      "value": "111.61",
+      "change": "-0.77%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.8001422475106736
+      "pct_raw": -0.7734708392603169
     },
     {
       "name": "צריכה בסיסית",
-      "value": "87.32",
-      "change": "+0.30%",
+      "value": "87.36",
+      "change": "+0.34%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.2986446129106259
+      "pct_raw": 0.3445899379738079
     },
     {
       "name": "נדל\"ן",
-      "value": "45.95",
-      "change": "-0.13%",
+      "value": "45.96",
+      "change": "-0.11%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.13040643338403646
+      "pct_raw": -0.10867202782003295
     },
     {
       "name": "תשתיות",
-      "value": "44.90",
-      "change": "-1.36%",
+      "value": "44.91",
+      "change": "-1.34%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.3620386643233844
+      "pct_raw": -1.340070298769786
     },
     {
       "name": "חומרים",
-      "value": "51.73",
-      "change": "-1.17%",
+      "value": "51.74",
+      "change": "-1.15%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.1654566297287094
+      "pct_raw": -1.1463507833397046
     },
     {
       "name": "תקשורת",
-      "value": "109.54",
-      "change": "-0.12%",
+      "value": "109.51",
+      "change": "-0.15%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.11853743047323376
+      "pct_raw": -0.14589222212090508
     }
   ],
   "fear_greed": {
@@ -856,73 +856,27 @@
   },
   "us_news": [
     {
-      "title_he": "מניית מטה יורדת בגלל החמצה ברווחים, הנחיית הכנסה קלה",
+      "title_he": "$META על מימון בניית תשתית הבינה המלאכותית שלה: \"פיתחנו את מבנה ההון שלנו בשנים האחרונות כדי לכלול תמהיל גדול יותר של חובות בזמן שאנו פועלים להפיל...",
       "summary_he": "",
-      "body_en": "Meta's stock drops on earnings miss, light revenue guidance",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T20:11:08+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "הרווחים של מיקרוסופט בחוץ - הנה המספרים",
-      "summary_he": "",
-      "body_en": "Microsoft earnings are out – here are the numbers",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T20:10:59+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "*META רואה השקעה של $130B עד $145B, ראה $125B עד $145B לזרוק את זה $META DOWN 8% לאחר שעות העבודה",
-      "summary_he": "",
-      "body_en": "*META SEES FY CAPEX $130B TO $145B, SAW $125B TO $145B DUMP IT $META DOWN 8% AFTER HOURS",
+      "body_en": "$META on financing its AI infrastructure buildout: “We’ve been evolving our capital structure in recent years to include a greater mix of debt as we work to bring down our cost of capital.” “We have g",
       "ticker": "$META",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2082558811638776075#m",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082577149509423122#m",
       "tag": "TECH",
-      "published_at": "2026-07-29T20:08:07+00:00",
+      "published_at": "2026-07-29T21:20:59+00:00",
       "relative_time": "לפני 4ד׳",
-      "sentiment": "neutral"
+      "sentiment": "bullish"
     },
     {
-      "title_he": "לפני ההדפסה... $META 5yr CDS...",
+      "title_he": "$META אינו מציע הנחיה של 2027 CapEx: \"אנחנו לא מספקים תחזית ספציפית עבור 2027 CapEx בשלב זה. תכנון התשתית נשאר דינמי מאוד. אנחנו מתכוננים...",
       "summary_he": "",
-      "body_en": "Before the print... $META 5yr CDS...",
+      "body_en": "$META offers no 2027 CapEx guidance: “We aren’t providing a specific outlook for 2027 CapEx at this time. Infrastructure planning remains highly dynamic. We’re gearing our current infrastructure plans",
       "ticker": "$META",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2082558745750438146#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T20:07:51+00:00",
-      "relative_time": "לפני 4ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$META Q2 רווחים • הכנסה $60.8B לעומת משוער $60.3B • EPS $6.18 לעומת משוער $7.22 • FCF $784M לעומת משוער (848 מיליון דולר) הנחיות לרבעון השלישי • הכנסה של 63 מיליארד דולר לעומת משוער הדרכה של 63 מיליארד דולר ל-FY26 • CapEx…",
-      "summary_he": "",
-      "body_en": "$META Q2 EARNINGS • Revenue $60.8B vs Est. $60.3B • EPS $6.18 vs Est. $7.22 • FCF $784M vs Est. ($848M) Q3 Guidance • Revenue $63B vs Est. $63B FY26 Guidance • CapEx $138B vs Est. $135B",
-      "ticker": "$META",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082558210247115258#m",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082577014251565432#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-29T20:05:44+00:00",
-      "relative_time": "לפני 6ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$META -7.4% $MSFT +3.4%",
-      "summary_he": "",
-      "body_en": "$META -7.4% $MSFT +3.4%",
-      "ticker": "$META",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2082557609849115132#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T20:03:20+00:00",
-      "relative_time": "לפני 8ד׳",
+      "published_at": "2026-07-29T21:20:27+00:00",
+      "relative_time": "לפני 5ד׳",
       "sentiment": "neutral"
     },
     {
@@ -933,91 +887,136 @@
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/07/29/qualcomm-qcom-earnings-report-q3-2026-.html",
       "tag": "EARNINGS",
-      "published_at": "2026-07-29T20:02:38+00:00",
+      "published_at": "2026-07-29T21:19:52+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "התקשר לפדרל ריזרב שלך",
+      "title_he": "$META על צמיחה בכל עסקי הבינה המלאכותית שלה: \"אני די אופטימי שאנחנו הולכים לראות צמיחה משמעותית בכל התחומים האלה. יהיה לנו עוד מה לשתף בקרוב על...",
       "summary_he": "",
-      "body_en": "Call your Federal Reserve",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2082556734023888942#m",
-      "tag": "FED",
-      "published_at": "2026-07-29T19:59:52+00:00",
-      "relative_time": "לפני 12ד׳",
+      "body_en": "$META on growth across its AI businesses: “I’m quite optimistic that we’re going to see meaningful growth in all of these areas. We’ll have more to share soon on a number of them.”",
+      "ticker": "$META",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082576658968850904#m",
+      "tag": "TECH",
+      "published_at": "2026-07-29T21:19:02+00:00",
+      "relative_time": "לפני 6ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$CRWV נמצא כעת בנסיגה הגדולה ביותר שלו מאז ההנפקה שלה 😳",
+      "title_he": "$META יורד ביותר מ-10% לאחר שהעלתה שוב את תחזית ההשקעות שלה לשנת 2026, בעוד צוקרברג אמר שהשקת עסק בענן \"איננה בראש סדר העדיפויות\". הוא אמר שהביקוש למחשוב הוא...",
       "summary_he": "",
-      "body_en": "$CRWV is now in its largest drawdown since its IPO 😳",
-      "ticker": "$CRWV",
+      "body_en": "$META is down more than 10% after raising its 2026 capex forecast again while Zuckerberg said launching a cloud business “isn’t a priority.” He said compute demand is strong but Meta sees better retur",
+      "ticker": "$META",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082552424901021874#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-29T19:42:44+00:00",
-      "relative_time": "לפני 29ד׳",
+      "link": "https://nitter.net/StockSavvyShay/status/2082576545433231741#m",
+      "tag": "TECH",
+      "published_at": "2026-07-29T21:18:35+00:00",
+      "relative_time": "לפני 7ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "כיסא Fed חדש, אותו פעולת מחיר ביום הפד. עצרת תוך יומי ואז לזרוק בשעה האחרונה. בואו נראה מה צוברות 20 הדקות האחרונות של יום המסחר.",
+      "title_he": "שוק האג\"ח קורא לבלוף של וורש במאבק באינפלציה בזמן שהתשואות עולות",
       "summary_he": "",
-      "body_en": "New Fed chair, same Fed day price action. Intraday rally then dump in the final hour. Let's see what the last 20 minutes of the trading day holds.",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2082551767292604875#m",
-      "tag": "FED",
-      "published_at": "2026-07-29T19:40:07+00:00",
-      "relative_time": "לפני 32ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שובר: החלפות הפד כבר לא מתמחרות במלואן בהעלאת ריבית בספטמבר, לפי בלומברג.",
-      "summary_he": "",
-      "body_en": "BREAKING: Fed swaps no longer fully price in a September rate hike, per Bloomberg.",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2082549973346812373#m",
-      "tag": "FED",
-      "published_at": "2026-07-29T19:33:00+00:00",
-      "relative_time": "לפני 39ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "FOMC IS היום האם הפד יוריד את הריבית? הקשיבו למומחים, כולל: @josephwang @MPelletierCIO @super_macro ועוד. האזינו היום בשעה 1255PM EST:...",
-      "summary_he": "",
-      "body_en": "FOMC IS TODAY Will the Fed cut rates? Listen to the experts, including: @josephwang @MPelletierCIO @super_macro & more. Listen in today at 1255PM EST: https://x.com/i/spaces/1nxeLLRgVOoJX",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2082545946785722406#m",
-      "tag": "FED",
-      "published_at": "2026-07-29T19:17:00+00:00",
-      "relative_time": "לפני 55ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ההתמקדות הגדולה כעת היא על הפוטנציאל להעלאת ריבית בספטמבר לאחר שה-Fed יעמוד בטפיחות",
-      "summary_he": "",
-      "body_en": "The big focus now is on the potential for a September rate hike after the Fed stands pat",
+      "body_en": "Bond market is calling Warsh’s bluff on inflation fight as yields surge",
       "ticker": "",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-big-focus-now-is-on-the-potential-for-a-september-rate-hike-after-the-fed-stands-pat-401c30d6?mod=mw_rss_topstories",
-      "tag": "FED",
-      "published_at": "2026-07-29T19:11:00+00:00",
+      "link": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
+      "tag": "MACRO",
+      "published_at": "2026-07-29T21:18:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מניית Meta צוללת ב-11% בעקבות הנחיה מאכזבת, ומצטמצמת בתזרים המזומנים החופשי",
+      "summary_he": "",
+      "body_en": "Meta's stock plunges 11% on disappointing guidance, dwindling free cash flow",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T21:16:54+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "$META על מונטיזציה של מחשוב הבינה המלאכותית שלה: \"יש לנו מספר לא מבוטל של הצעות בפרמיה משמעותית על מה ששילמנו עבור המחשוב. אנחנו מאמינים שימשיך להיות...",
+      "summary_he": "",
+      "body_en": "$META on monetizing its AI compute: “We have quite a number of offers at a meaningful premium over what we paid for the compute. We believe there will continue to be a significantly higher margin on s",
+      "ticker": "$META",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082575704286490935#m",
+      "tag": "TECH",
+      "published_at": "2026-07-29T21:15:14+00:00",
+      "relative_time": "לפני 10ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "לפי הדיווחים, $SPCX בוחנת רכישות או מכירה פומבית ממשלתית בשנת 2027 כדי להבטיח ספקטרום יבשתי לכיסוי עירוני צפוף. זה יכול להפוך את Starlink להיברידית...",
+      "title_he": "מניית קרוואנה יורדת ב-15% כאשר תחזית הרווחים של קמעונאי הרכב לשנת 2026 מחמיצה את הציפיות של וול סטריט",
       "summary_he": "",
-      "body_en": "$SPCX is reportedly exploring acquisitions or a 2027 government auction to secure terrestrial spectrum for dense urban coverage. That could turn Starlink into a hybrid satellite-terrestrial network an",
-      "ticker": "$SPCX",
+      "body_en": "Carvana stock falls 15% as auto retailer's 2026 earnings guidance misses Wall Street's expectations",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/29/carvana-cvna-earnings-q2-2026.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T21:08:27+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "Robinhood $HOOD סיימה את הרבעון השני עם שיא של 4.84 מיליון מנויי זהב, עלייה של 39% בשנה שעברה. אימוץ הזהב הגיע ל-17% מהלקוחות הממומנים, בעוד שהכנסות המנויים השנתיות עלו ל...",
+      "summary_he": "",
+      "body_en": "Robinhood $HOOD ended Q2 with a record 4.84M Gold subscribers, up 39% YoY. Gold adoption reached 17% of funded customers, while annualized subscription revenue rose to $216M Compared with the average ",
+      "ticker": "$HOOD",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082573233317126326#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T21:05:25+00:00",
+      "relative_time": "לפני 20ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "שיא הכנסות גבוהות עבור $META אבל שיא הוצאות גבוהות...",
+      "summary_he": "",
+      "body_en": "Record high revenue for $META but record high expenses...",
+      "ticker": "$META",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2082572483308212596#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T21:02:27+00:00",
+      "relative_time": "לפני 23ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "עסקי הפרסום של $META נותרו מצוינים עם עלייה של 28% בהכנסות, עלייה של 14% בהופעות של מודעה והמחיר הממוצע למודעה גדל ב-12% כאשר AI משפר את המעורבות והמודעות...",
+      "summary_he": "",
+      "body_en": "$META advertising business remains excellent with revenue up 28%, ad impressions rising 14% and average price per ad increasing 12% as AI improves engagement and ad performance. The concern is FCF fel",
+      "ticker": "$META",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082543714518581622#m",
-      "tag": "M&A",
-      "published_at": "2026-07-29T19:08:07+00:00",
-      "relative_time": "לפני 1ש׳",
+      "link": "https://nitter.net/StockSavvyShay/status/2082571872781390321#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T21:00:01+00:00",
+      "relative_time": "לפני 25ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "להלן הנתיב התוך-יומי הממוצע של S&P 500 בימי הפד לפי כיסא מאז 1994 כשהחלו להכריז על החלטות מדיניות בימי הפד. לאחר שני ימי הפד הראשונים שלו,...",
+      "summary_he": "",
+      "body_en": "Here's the average intraday path for the S&P 500 on Fed Days by Chair since 1994 when they began announcing policy decisions on Fed Days. After his first two Fed Days, Chair Warsh has some work to do.",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2082571264820985971#m",
+      "tag": "FED",
+      "published_at": "2026-07-29T20:57:36+00:00",
+      "relative_time": "לפני 28ד׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "מיקרוסופט מנצחת את ציפיות הענן לרבעון הרביעי, שכן הכנסות Azure לשנה כולה מגיעות ל-100 מיליארד דולר",
+      "summary_he": "",
+      "body_en": "Microsoft beats Q4 cloud expectations as full-year Azure revenue tops $100 billion",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T20:57:08+00:00",
+      "sentiment": "bullish"
     }
   ],
   "il_news": [
