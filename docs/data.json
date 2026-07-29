@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T22:29:29.158199+00:00",
+  "generated_at": "2026-07-29T23:34:11.047836+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-29T22:29:29.158213+00:00",
+  "ta_generated_at": "2026-07-29T23:34:11.047846+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,11 +710,11 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,132.0",
-      "change": "+0.85%",
+      "value": "$4,151.2",
+      "change": "+1.32%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.8542836221625579
+      "pct_raw": 1.3229192091774424
     },
     {
       "name": "נפט ברנט",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,920",
-      "change": "+0.10%",
+      "value": "$63,908",
+      "change": "+0.09%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.10445787693046121
+      "pct_raw": 0.08547692538027561
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.078",
-      "change": "+1.05%",
+      "value": "3.080",
+      "change": "+0.02%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 1.0504546499031622
+      "pct_raw": 0.019481784531460936
     }
   ],
   "sectors": [
@@ -856,7 +856,102 @@
   },
   "us_news": [
     {
-      "title_he": "צ'יפוטלה מעלה את תחזית המכירות שלה אפילו כשהתפרצות הקשורה לחסה מאטה את תנועת הרגליים",
+      "title_he": "מחירי ההנפקה של ג'רזי מייקי ב-$23/SHR, באמצע הטווח",
+      "summary_he": "",
+      "body_en": "JERSEY MIKE’S IPO PRICES AT $23/SHR, MIDDLE OF RANGE",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082605204835639486#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-29T23:12:28+00:00",
+      "relative_time": "לפני 21ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סנאטורים אמריקאים מזהירים את אפל מפני עסקאות שבבי זיכרון סיני מחוקקים בראשות ג'ים בנקס וצ'אק שומר קראו ל-$AAPL לנטוש את השיחות עם CXMT ו-YMTC, אפילו לגבי מכשירים...",
+      "summary_he": "",
+      "body_en": "US SENATORS WARN APPLE AGAINST CHINESE MEMORY CHIP DEALS Lawmakers led by Jim Banks and Chuck Schumer urged $AAPL to abandon talks with CXMT and YMTC, even for devices sold only in China. Both chipmak",
+      "ticker": "$AAPL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082604910194143539#m",
+      "tag": "M&A",
+      "published_at": "2026-07-29T23:11:18+00:00",
+      "relative_time": "לפני 22ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "סמנכ\"לית הכספים של OpenAI, שרה פריאר, אומרת לעובדים שההכנסות השנתיות ביולי היו בראש כל הרבעון השני",
+      "summary_he": "",
+      "body_en": "OpenAI CFO Sarah Friar tells employees that annualized revenue in July topped all of Q2",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/29/openai-cfo-sarah-friar-tells-employees-arr-in-july-topped-all-of-q2.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T23:09:42+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$MSFT דחה את החששות של קיבולת יתר בינה מלאכותית ואמרה ש\"אם סביבת הביקוש משתנה, אתה פשוט מאט\" את הוצאות המעבד וה-GPU בזמן שהיישומים שלה מספקים...",
+      "summary_he": "",
+      "body_en": "$MSFT pushed back on AI overcapacity concerns saying “if the demand environment changes, you just slow down” CPU and GPU spending while its own applications provide another outlet for capacity. Manage",
+      "ticker": "$MSFT",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082603422210257228#m",
+      "tag": "TECH",
+      "published_at": "2026-07-29T23:05:23+00:00",
+      "relative_time": "לפני 28ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Microsoft $MSFT על שיפור כלכלת בינה מלאכותית: \"זו עבודת הטחינה. כל יום אתה רק משתפר קצת.\" \"למעשה אנחנו די טובים בטחינה הזו.\"",
+      "summary_he": "",
+      "body_en": "Microsoft $MSFT on improving AI economics: “This is the grind work. Every day, you just get a little better.” “We’re actually quite good at that grind.”",
+      "ticker": "$MSFT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082603178370236618#m",
+      "tag": "TECH",
+      "published_at": "2026-07-29T23:04:25+00:00",
+      "relative_time": "לפני 29ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "החציון יורד כמעט ב-30% החודש ומדד ה-Nasdaq 100 $QQQ רק הגיע לסף התיקון של -10%, ובכל זאת 2/3 מהמניות ב-S&P 500 נשארות מעל 50-DMAs שלהן. S&P…",
+      "summary_he": "",
+      "body_en": "The semis are down nearly 30% this month and the Nasdaq 100 $QQQ just hit the -10% correction threshold, yet 2/3 of stocks in the S&P 500 remain above their 50-DMAs. S&P 500 Equalweight $RSP is up 1.4",
+      "ticker": "$QQQ",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2082597572984619362#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-29T22:42:08+00:00",
+      "relative_time": "לפני 51ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$MSFT OUTLOOK • הכנסות ברבעון הראשון $90.4B לעומת משוער 89.6 מיליארד דולר • צמיחה בתכלת ברבעון הראשון: ~45% • עלות השקעה ברבעון 1: > 50 מיליארד דולר הנחיות ל-FY27 • הכנסות: צמיחה דו-ספרתית • CapEx: צפוי לגדול בשנה זו •...",
+      "summary_he": "",
+      "body_en": "$MSFT OUTLOOK • Q1 Revenue $90.4B vs Est. $89.6B • Q1 Azure Growth: ~45% • Q1 CapEx: >$50B FY27 GUIDANCE • Revenue: Double-digit growth • CapEx: Expected to grow YoY • Free Cash Flow: Remain positive",
+      "ticker": "$MSFT",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082595445050843540#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T22:33:41+00:00",
+      "relative_time": "לפני 59ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Microsoft $MSFT עולה כעת ב-8% לאחר שעות העבודה, ו-$QQQ עולה בכ-30 bps.",
+      "summary_he": "",
+      "body_en": "Microsoft $MSFT is now up 8% after hours, and $QQQ is up about 30 bps.",
+      "ticker": "$MSFT",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2082595146273611932#m",
+      "tag": "TECH",
+      "published_at": "2026-07-29T22:32:30+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "צ'יפוטלה מעלה את תחזית המכירות שלה גם כשהתפרצות הקשורה לחסה מאטה את תנועת הרגליים",
       "summary_he": "",
       "body_en": "Chipotle lifts its sales forecast even as a lettuce-linked outbreak slows foot traffic",
       "ticker": "",
@@ -875,47 +970,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2082591651222937843#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-29T22:18:36+00:00",
-      "relative_time": "לפני 10ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Microsoft $MSFT על ארכיטקטורת AI ארגונית: \"עליך לשמור על הרתמה שלך נפרדת מהמודל.\" \"זה אומר שכל דגם נתון, בכל זמן נתון, ניתן להחלפה.\"...",
-      "summary_he": "",
-      "body_en": "Microsoft $MSFT on enterprise AI architecture: “You’ve got to keep your harness separate from the model.” “That means any given model, at any given time, is swappable.” “You can’t depend on any one mo",
-      "ticker": "$MSFT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082591151878750342#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T22:16:37+00:00",
-      "relative_time": "לפני 12ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$MSFT על תנודתיות הקשורה ל-OpenAI: \"חוזה OpenAI המשמעותי שנחתם בשנה הקודמת יביא לתנודתיות רבעונית מסוימת הן בהזמנות והן בצמיחת ה-RPO...",
-      "summary_he": "",
-      "body_en": "$MSFT on OpenAI-related volatility: “The significant OpenAI contract signed in the prior year will result in some quarterly volatility in both bookings and RPO growth rates.”",
-      "ticker": "$MSFT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082590854171259158#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T22:15:26+00:00",
-      "relative_time": "לפני 13ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Microsoft $MSFT על ביקוש של Azure: \"ביקוש הלקוחות ממשיך לעלות על ההיצע.\" \"אפילו עם הסמיכות החזקה לרבעון הרביעי, אנו ממשיכים לצפות שהצמיחה במחצית הראשונה תואץ.\"...",
-      "summary_he": "",
-      "body_en": "Microsoft $MSFT on Azure demand: “Customer demand continues to exceed supply.” “Even with the strong close to Q4, we continue to expect first-half growth to accelerate.” “We expect Q1 Azure revenue gr",
-      "ticker": "$MSFT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082590797900427510#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T22:15:13+00:00",
-      "relative_time": "לפני 13ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$MSFT עלה בכמעט 10% לאחר ששמרה על הנחיית ההשקעות שלה לשנת 2026 על 190 מיליארד דולר וסימנה עלייה נוספת בשנה ב-27. למרות המשך ניהול בניית הבינה המלאכותית עדיין...",
+      "title_he": "$MSFT עולה בכמעט 10% לאחר ששמרה על הנחיית ההשקעות שלה לשנת 2026 על 190 מיליארד דולר והעידה על עלייה נוספת בשנה ב-27. למרות המשך ניהול בניית הבינה המלאכותית עדיין...",
       "summary_he": "",
       "body_en": "$MSFT is up nearly 10% after maintaining its 2026 capex guidance at $190B and signaling another YoY increase in FY27. Despite the continued AI buildout management still expects to remain cash-flow pos",
       "ticker": "$MSFT",
@@ -923,31 +982,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2082590065394667757#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-29T22:12:18+00:00",
-      "relative_time": "לפני 16ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "MICROSOFT $MSFT OUTLOOK 🔸 FY27 CapEx: צפוי לגדול YoY 🔹 הכנסה ברבעון הראשון: $89.85B-$90.95B (הערכה. $89.63B) 🔹 Q1 Azure ואחרות: ~+45% CC; accel. מ-+43% עו\"ס ברבעון הרביעי 🔸…",
-      "summary_he": "",
-      "body_en": "MICROSOFT $MSFT OUTLOOK 🔸 FY27 CapEx: Expected to grow YoY 🔹 Q1 Revenue: $89.85B-$90.95B (Est. $89.63B) 🟢 🔹 Q1 Azure & Other: ~+45% CC; accel. from +43% CC in Q4 🔸 Azure: H1 FY27 growth to accelerate ",
-      "ticker": "$MSFT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082589899660972142#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T22:11:39+00:00",
-      "relative_time": "לפני 17ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "MICROSOFT $MSFT FY27 CAPEX צפוי לגדול משנה לשנה",
-      "summary_he": "",
-      "body_en": "MICROSOFT $MSFT FY27 CAPEX EXPECTED TO GROW YEAR-OVER-YEAR",
-      "ticker": "$MSFT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082587887611396219#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T22:03:39+00:00",
-      "relative_time": "לפני 25ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -959,19 +994,7 @@
       "link": "https://nitter.net/unusual_whales/status/2082586463770718366#m",
       "tag": "TECH",
       "published_at": "2026-07-29T21:58:00+00:00",
-      "relative_time": "לפני 31ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "GS: לקראת הפרסום המוקדם ביום חמישי של צמיחת התמ\"ג ברבעון השני, אנו מורידים את תחזית צמיחת התמ\"ג שלנו ברבעון השני ב-0.8% ל-+1.8%",
-      "summary_he": "",
-      "body_en": "GS: Ahead of Thursday’s advance release of Q2 GDP growth, we are lowering our Q2 GDP growth forecast by 0.8pp to +1.8%",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2082586193783308318#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T21:56:55+00:00",
-      "relative_time": "לפני 32ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -986,17 +1009,6 @@
       "sentiment": "bearish"
     },
     {
-      "title_he": "צ'יפוטלה מעלה את תחזית המכירות בחנויות זהות, אומר שהחששות של cyclospora הגיעו למכירות בסוף יולי",
-      "summary_he": "",
-      "body_en": "Chipotle hikes same-store sales forecast, says cyclospora fears hit sales in late July",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/29/chipotle-mexican-grill-cmg-q2-2026-earnings.html",
-      "tag": "TECH",
-      "published_at": "2026-07-29T21:52:41+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "שוק האג\"ח קורא לבלוף של וורש במאבק באינפלציה בזמן שהתשואות עולות",
       "summary_he": "",
       "body_en": "Bond market is calling Warsh’s bluff on inflation fight as yields surge",
@@ -1006,17 +1018,6 @@
       "tag": "MACRO",
       "published_at": "2026-07-29T21:43:00+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "מניית מטה צוללת בכמעט 10% על הנחיות מאכזבות, ומצטמצמת בתזרים המזומנים החופשי",
-      "summary_he": "",
-      "body_en": "Meta's stock plunges almost 10% on disappointing guidance, dwindling free cash flow",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T21:26:17+00:00",
-      "sentiment": "bearish"
     }
   ],
   "il_news": [
