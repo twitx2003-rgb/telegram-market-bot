@@ -95,6 +95,22 @@
    "confidence": 4,
    "engine": "rules",
    "last_pnl": -0.71
+  },
+  {
+   "ticker": "AAPL",
+   "rec_date": "2026-07-29",
+   "price_at_rec": 340.08,
+   "confidence": 4,
+   "engine": "rules",
+   "last_pnl": 0.0
+  },
+  {
+   "ticker": "JPM",
+   "rec_date": "2026-07-29",
+   "price_at_rec": 357.31,
+   "confidence": 3,
+   "engine": "rules",
+   "last_pnl": 0.0
   }
  ]
 }
