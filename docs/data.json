@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T22:05:26.460564+00:00",
+  "generated_at": "2026-07-30T23:33:19.905164+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-30T22:05:26.460574+00:00",
+  "ta_generated_at": "2026-07-30T23:33:19.905192+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,162.8",
-      "change": "+0.05%",
+      "value": "$4,165.3",
+      "change": "+0.11%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.05287698889582796
+      "pct_raw": 0.1129644762774556
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.5",
-      "change": "+0.47%",
+      "value": "$89.4",
+      "change": "+0.39%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4717510951364728
+      "pct_raw": 0.3931259126137193
     },
     {
       "name": "ביטקוין",
-      "value": "$64,745",
-      "change": "+1.32%",
+      "value": "$64,916",
+      "change": "+1.58%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.3180153013400018
+      "pct_raw": 1.5849358949280856
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -753,10 +753,10 @@
     {
       "name": "דולר/שקל",
       "value": "3.057",
-      "change": "-0.75%",
-      "direction": "down",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "market_il",
-      "pct_raw": -0.7532956685499094
+      "pct_raw": 0.0
     }
   ],
   "sectors": [
@@ -856,6 +856,66 @@
   },
   "us_news": [
     {
+      "title_he": "R ל-@unusual_whales: התפשטות מרכזי הנתונים בינה מלאכותית הובילה לעלייה בביקוש לחשמל, ותרמה לחשבונות חשמל גבוהים יותר לצרכנים קרא עוד:...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: The proliferation of AI data centers has led to a surge in electricity demand, contributing to higher utility bills for consumers Read more: https://unusualwhales.com/news/ai-inc",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2082963951135215813#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T22:58:00+00:00",
+      "relative_time": "לפני 34ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "Reddit $RDDT בחיפוש בגוגל: \"הפניות לחיפוש היו עצומות במהלך הרבעון והתנועה הפכה הפכפכה יותר בהמשך הרבעון. הנראות שלנו לגבי הפניה...",
+      "summary_he": "",
+      "body_en": "Reddit $RDDT on Google search: “Search referrals were choppy during the quarter and traffic became more volatile later in the quarter. Our visibility into referral traffic remains low.” “AI Overviews ",
+      "ticker": "$RDDT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082960372605325814#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T22:43:47+00:00",
+      "relative_time": "לפני 49ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @cperruna: לא ייאמן: הכנסות AWS של אמזון ב-12 החודשים האחרונים (148 מיליארד דולר) היו גבוהות מההכנסות של 474 חברות ב-S&P 500. $AMZN...",
+      "summary_he": "",
+      "body_en": "RT by @cperruna: Incredible: Amazon's AWS revenue over the last 12 months ($148 billion) was higher than the revenue of 474 companies in the S&P 500. $AMZN https://bilello.blog/newsletter",
+      "ticker": "$AMZN",
+      "source": "@cperruna",
+      "link": "https://nitter.net/charliebilello/status/2082956556002349325#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T22:28:37+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בשיחת הרווחים של TRADWEB היום, אמר המנכ\"ל כי לקוחות בודקים כעת את אותות השוק החיזוי של קלשי לצד מחירים, החלפות ואג\"ח ממשלתיות.",
+      "summary_he": "",
+      "body_en": "ON TRADEWEB’S EARNINGS CALL TODAY THE CEO SAID CLIENTS ARE NOW LOOKING AT KALSHI’S PREDICTION MARKET SIGNALS ALONGSIDE RATES, SWAPS AND GOVERNMENT BONDS TRADEWEB DOES $2.6 TRILLION IN NOTIONAL A DAY P",
+      "ticker": "$TW",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2082956494350303615#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T22:28:22+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מנכ\"ל אפל $AAPL על עליות מחירים מונעות זיכרון: \"העלאנו מחירים באי רצון כי אנחנו נמצאים במה שהייתי מאפיין כהצפה של 100 שנים בתמחור זיכרון, עם...",
+      "summary_he": "",
+      "body_en": "Apple $AAPL CEO on memory-driven price increases: “We reluctantly raised prices because we’re in what I would characterize as a 100-year flood in memory pricing, with exponential increases in memory p",
+      "ticker": "$AAPL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082955222067171794#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T22:23:19+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "שיעורי צמיחה של AWS, Google Cloud ו-Azure: מחזיקים בשלושתם: $AMZN $GOOGL $MSFT",
       "summary_he": "",
       "body_en": "AWS, Google Cloud, and Azure Growth Rates: Holding all three: $AMZN $GOOGL $MSFT",
@@ -864,7 +924,7 @@
       "link": "https://nitter.net/cperruna/status/2082949434040570066#m",
       "tag": "TECH",
       "published_at": "2026-07-30T22:00:19+00:00",
-      "relative_time": "לפני 4ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +936,7 @@
       "link": "https://nitter.net/garyblack00/status/2082947901886550232#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:54:13+00:00",
-      "relative_time": "לפני 10ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +948,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2082947330928681428#m",
       "tag": "TECH",
       "published_at": "2026-07-30T21:51:57+00:00",
-      "relative_time": "לפני 12ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,79 +960,7 @@
       "link": "https://nitter.net/cperruna/status/2082946995258356080#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:50:37+00:00",
-      "relative_time": "לפני 13ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Amazon $AMZN על מכירה פוטנציאלית של שבבי Trainium מחוץ ל-AWS: \"יש לנו מספר הולך וגדל של לקוחות המעוניינים שנספק להם שבבי Trainium בנפרד...",
-      "summary_he": "",
-      "body_en": "Amazon $AMZN on potentially selling Trainium chips outside AWS: “We have an increasing number of customers interested in us providing Trainium chips to them separate from our cloud.” “We’re actively h",
-      "ticker": "$AMZN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082946552491073854#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T21:48:52+00:00",
-      "relative_time": "לפני 15ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Amazon $AMZN על קיבולת AWS שמורה: \"חלק הארי של הקיבולת שאנו מוסיפים בשנת 2027 כבר שמורה, ולא מעט מהקיבולת של 2028 שלנו כבר ...",
-      "summary_he": "",
-      "body_en": "Amazon $AMZN on reserved AWS capacity: “The lion’s share of the capacity we’re adding in 2027 is already reserved, and quite a bit of our 2028 capacity is already reserved.” “Eexpect to have double th",
-      "ticker": "$AMZN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082946427047866540#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T21:48:22+00:00",
-      "relative_time": "לפני 16ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנכ\"ל $AMZN על בניית מודל גבול משלה: \"ל-AWS ואמזון יכולות להיות עסק מצליח בטירוף בלי מודל גבול משלהם כי לא יהיה...",
-      "summary_he": "",
-      "body_en": "$AMZN CEO on building its own frontier model: “AWS & Amazon can have a wildly successful business without a frontier model of their own because there is not going to be one model to rule the world” “W",
-      "ticker": "$AMZN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082945241964048790#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T21:43:39+00:00",
-      "relative_time": "לפני 20ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנכ\"ל Apple $AAPL, טים קוק, בנושא אספקת זיכרון: \"בעיקר, לשוק ה-DRAM יש שלושה ספקים. ברור שאם היו יותר ספקים, זה היה טוב\". \"זה יעזור...",
-      "summary_he": "",
-      "body_en": "Apple $AAPL CEO Tim Cook on memory supply: “Primarily, the DRAM market has three suppliers. Obviously, if there were more suppliers, that would be good.” “It would help us on the supply side and perha",
-      "ticker": "$AAPL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082944685165948996#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T21:41:26+00:00",
-      "relative_time": "לפני 23ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "APPLE $AAPL OUTLOOK: מדריך לרבעון 4: הכנסה: +9% עד +11% בשנה; ~$112B-$114B (אומדן $114.84B) 🔴 אייפון: אמצע שנות נוער % שירותי YoY: בדומה לרבעון השלישי לשעבר של FX; רווח גולמי: 47%-48%;...",
-      "summary_he": "",
-      "body_en": "APPLE $AAPL OUTLOOK: Q4 Guide: Revenue: +9% to +11% YoY; ~$112B-$114B (Est. $114.84B) 🔴 iPhone: Mid-teens % YoY Services: Similar to Q3 ex-FX; Gross Margin: 47%-48%; incl. ~1pp tariff-refund benefit S",
-      "ticker": "$AAPL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082943735755944327#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T21:37:40+00:00",
-      "relative_time": "לפני 26ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$AMZN אומר ש-AWS עשויה להפוך בסופו של דבר ל\"עסק הכנסות שנתי של טריליון דולר\" לאחר שציפתה פעם לכמה מאות מיליארדים בלבד. ההנהלה רואה כעת את הטווח הארוך...",
-      "summary_he": "",
-      "body_en": "$AMZN says AWS could eventually become a “$1 trillion annual revenue business” after once expecting only a few hundred billion. Management now sees the long-term opportunity as at least twice as large",
-      "ticker": "$AMZN",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082943182783000753#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T21:35:28+00:00",
-      "relative_time": "לפני 29ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -984,7 +972,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2082943138679636281#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:35:18+00:00",
-      "relative_time": "לפני 29ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -996,7 +984,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2082941807831183500#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:30:00+00:00",
-      "relative_time": "לפני 34ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1019,7 +1007,19 @@
       "link": "https://nitter.net/cperruna/status/2082934007755333832#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T20:59:01+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: נהדר להיות ב-@CNBCClosingBell עם סקוט לדון ברווחי Big Tech ושבוע גדול לעולם הטכנולוגיה ומהפכת הבינה המלאכותית עם אפל ואמזון...",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: Great to be on @CNBCClosingBell with Scott discussing Big Tech earnings and a big week for the tech world and the AI Revolution with Apple and Amazon front and center. Great to be on",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/DivesTech/status/2082933960007450761#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T20:58:49+00:00",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     }
   ],
