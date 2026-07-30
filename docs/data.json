@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T02:22:03.525474+00:00",
+  "generated_at": "2026-07-30T05:23:21.902452+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -121,7 +121,7 @@
         "sma50": 308.59,
         "sma200": 277.21,
         "pct_from_52w_high": -1.9,
-        "vol_ratio": 0.9,
+        "vol_ratio": 0.91,
         "change_1d_pct": -0.56,
         "change_1w_pct": 3.8,
         "change_1m_pct": 20.0,
@@ -172,7 +172,7 @@
         "sma50": 33.25,
         "sma200": 30.56,
         "pct_from_52w_high": -7.1,
-        "vol_ratio": 0.9,
+        "vol_ratio": 0.91,
         "change_1d_pct": 9.6,
         "change_1w_pct": 15.1,
         "change_1m_pct": 4.2,
@@ -274,7 +274,7 @@
         "sma50": 397.91,
         "sma200": 434.13,
         "pct_from_52w_high": -29.7,
-        "vol_ratio": 0.79,
+        "vol_ratio": 0.8,
         "change_1d_pct": -0.71,
         "change_1w_pct": 0.1,
         "change_1m_pct": 6.0,
@@ -376,7 +376,7 @@
         "sma50": 360.63,
         "sma200": 325.23,
         "pct_from_52w_high": -17.6,
-        "vol_ratio": 1.04,
+        "vol_ratio": 1.05,
         "change_1d_pct": 0.9,
         "change_1w_pct": -1.6,
         "change_1m_pct": -4.8,
@@ -427,7 +427,7 @@
         "sma50": 604.55,
         "sma200": 636.11,
         "pct_from_52w_high": -26.5,
-        "vol_ratio": 0.76,
+        "vol_ratio": 0.77,
         "change_1d_pct": -1.31,
         "change_1w_pct": -6.6,
         "change_1m_pct": 4.1,
@@ -580,7 +580,7 @@
         "sma50": 246.97,
         "sma200": 234.66,
         "pct_from_52w_high": -18.6,
-        "vol_ratio": 0.79,
+        "vol_ratio": 0.8,
         "change_1d_pct": -1.82,
         "change_1w_pct": -7.4,
         "change_1m_pct": -5.6,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-30T02:22:03.525485+00:00",
+  "ta_generated_at": "2026-07-30T05:23:21.902462+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "-1.61%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -1.6077762602976202
+      "pct_raw": -1.6077594962421364
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,143.5",
-      "change": "+1.13%",
+      "value": "$4,101.5",
+      "change": "+0.11%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.1349768123016841
+      "pct_raw": 0.1098364657066146
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.5",
-      "change": "-1.31%",
+      "value": "$90.5",
+      "change": "-0.26%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.3114392770553205
+      "pct_raw": -0.264491955036362
     },
     {
       "name": "ביטקוין",
-      "value": "$64,299",
-      "change": "+0.62%",
-      "direction": "up",
+      "value": "$63,841",
+      "change": "-0.10%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.619596293751919
+      "pct_raw": -0.09688136219170568
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.073",
-      "change": "-0.21%",
+      "value": "3.074",
+      "change": "-0.19%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.2110526657575151
+      "pct_raw": -0.1850769530489005
     }
   ],
   "sectors": [
@@ -856,15 +856,50 @@
   },
   "us_news": [
     {
-      "title_he": "R ל-@unusual_whales: האזהרה הגיעה ימים לאחר שבית משפט פדרלי לערעורים קבע שהשימוש של הנשיא בסמכויות חירום מפר את החוק, ושלח את התיק חזרה ל...",
+      "title_he": "הרווח התפעולי של סמסונג אלקטרוניקה ברבעון השני עולה על ההערכות לגבי הביקוש הגואה לשבבי AI",
       "summary_he": "",
-      "body_en": "R to @unusual_whales: The warning came days after a federal appeals court ruled that the President’s use of emergency powers broke the law, sending the case back to the Court of International Trade to",
+      "body_en": "Samsung Electronics second-quarter operating profit beats estimates on soaring AI chip demand",
       "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2082640067122577703#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-30T01:31:00+00:00",
-      "relative_time": "לפני 50ד׳",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/30/samsung-q2-earnings-ai-chip-.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T05:19:22+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "R ל-@StockSavvyShay: כאן תוכל למצוא את פירוט הרווחים המלא שלי ב-$MSFT: https://youtu.be/uygKdEe1zKc?si=Zz6uqjzoNjkRqh1w",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: Here’s where you can find my full $MSFT earnings breakdown: https://youtu.be/uygKdEe1zKc?si=Zz6uqjzoNjkRqh1w",
+      "ticker": "$MSFT",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082660511221735475#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T02:52:14+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ל-$MSFT יש את אחד מסיפורי המונטיזציה של AI במלא מחסנית ברורה בשוק כיום. Azure לוכדת הוצאות תשתית, Foundry מייצרת רווחים בפריסת מודלים ו...",
+      "summary_he": "",
+      "body_en": "$MSFT has one of the clearest full-stack AI monetization stories in the market today. Azure captures infrastructure spending, Foundry monetizes model deployment and governance, Fabric and its database",
+      "ticker": "$MSFT",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082660139145068994#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T02:50:45+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: יחידת $MSFT Azure Cloud של מיקרוסופט הגדילה את הכנסותיה ברבעון האחרון ב-43% בקצב הצמיחה המהיר ביותר מאז תחילת 2022",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: Microsoft's $MSFT Azure Cloud unit grew its revenue by 43% last quarter its fastest growth rate since early 2022",
+      "ticker": "$MSFT",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/StockMKTNewz/status/2082651121949024657#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T02:14:55+00:00",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +911,7 @@
       "link": "https://nitter.net/OutFrontCNN/status/2082633241102831908#m",
       "tag": "NEWS",
       "published_at": "2026-07-30T01:03:52+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bearish"
     },
     {
@@ -902,29 +937,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "הרווח התפעולי ברבעון השני של סמסונג אלקטרוניקה עולה על ההערכות לגבי הביקוש הגואה לשבבי בינה מלאכותית",
-      "summary_he": "",
-      "body_en": "Samsung Electronics second-quarter operating profit beats estimates on soaring AI chip demand",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/30/samsung-q2-earnings-ai-chip-.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T00:50:50+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "רווחי SAMSUNG ברבעון השני • הכנסות: 118.1 מיליארד דולר לעומת משוער. 119.2 מיליארד דולר (+130% בשנה) • רווח תפעולי: 61.7 מיליארד דולר לעומת משוער. 60.8 מיליארד דולר (+1,814% YoY) סמסונג מצפה לביקוש חזק לזיכרון H2 הוביל...",
-      "summary_he": "",
-      "body_en": "SAMSUNG Q2 EARNINGS • Revenue: $118.1B vs. Est. $119.2B (+130% YoY) • Operating profit: $61.7B vs. Est. $60.8B (+1,814% YoY) Samsung expects strong H2 memory demand led by continued AI infrastructure ",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082623920172306739#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T00:26:50+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
       "title_he": "סמנכ\"לית הכספים של OpenAI, שרה פריאר, אמרה לעובדים שההכנסות החוזרות השנתיות ביולי היו גבוהות יותר מאשר ברבעון השני בכללותו, והוסיפה כי \"הרבעון השני לא היה רפוי\".",
       "summary_he": "",
       "body_en": "OpenAI CFO Sarah Friar told employees that annualized recurring revenue in July was higher than in Q2 as a whole, adding that “Q2 was no slouch.”",
@@ -933,7 +945,7 @@
       "link": "https://nitter.net/wallstengine/status/2082622680877207657#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T00:21:55+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -945,11 +957,11 @@
       "link": "https://nitter.net/wallstengine/status/2082621639792156701#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T00:17:46+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "צ'יפוטלה מעלה את תחזית המכירות שלה גם כשהתפרצות הקשורה לחסה מאטה את תנועת הרגליים",
+      "title_he": "צ'יפוטלה מעלה את תחזית המכירות שלה אפילו כשהתפרצות הקשורה לחסה מאטה את תנועת הרגליים",
       "summary_he": "",
       "body_en": "Chipotle lifts its sales forecast even as a lettuce-linked outbreak slows foot traffic",
       "ticker": "",
@@ -968,20 +980,8 @@
       "link": "https://nitter.net/MikeZaccardi/status/2082615752369016959#m",
       "tag": "TECH",
       "published_at": "2026-07-29T23:54:23+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "סמנכ\"לית הכספים של OpenAI, שרה פריאר, אמרה שההכנסות החוזרות השנתיות של יולי עלו על כל הרבעון השני, מונע על ידי GPT-5.6 ו-Codex. ההאצה הזו מגיעה כשהחברה...",
-      "summary_he": "",
-      "body_en": "OpenAI CFO Sarah Friar said July annualized recurring revenue exceeded the entire second quarter driven by GPT-5.6 and Codex. That acceleration comes as the company races to close the enterprise and c",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082609257783144580#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T23:28:34+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bullish"
     },
     {
       "title_he": "מחירי ההנפקה של ג'רזי מייקי ב-$23/SHR, באמצע הטווח",
@@ -992,7 +992,7 @@
       "link": "https://nitter.net/wallstengine/status/2082605204835639486#m",
       "tag": "NEWS",
       "published_at": "2026-07-29T23:12:28+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1004,7 +1004,7 @@
       "link": "https://nitter.net/wallstengine/status/2082604910194143539#m",
       "tag": "M&A",
       "published_at": "2026-07-29T23:11:18+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1016,11 +1016,19 @@
       "link": "https://nitter.net/bespokeinvest/status/2082597572984619362#m",
       "tag": "NEWS",
       "published_at": "2026-07-29T22:42:08+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "שב\"חים, נשקים ורכבים במיליוני שקלים: מבצע משטרתי בנגב",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857206",
+      "tag": "כללי",
+      "published_at": "2026-07-30T06:00:00+00:00"
+    },
     {
       "title_he": "הקטל בדרכים: הרוג בשריפת משאית בכביש 4",
       "summary_he": "",
@@ -1092,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3857020",
       "tag": "כללי",
       "published_at": "2026-07-29T11:55:00+00:00"
-    },
-    {
-      "title_he": "מאות שוטרים ועובדי חברת חשמל בפשיטה על  הכפר תראבין ורהט",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856994",
-      "tag": "כללי",
-      "published_at": "2026-07-29T10:56:00+00:00"
     }
   ],
   "track_record": {
