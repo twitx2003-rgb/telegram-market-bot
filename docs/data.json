@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T20:44:09.770582+00:00",
+  "generated_at": "2026-07-30T22:05:26.460564+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -360,23 +360,23 @@
     {
       "ticker": "TEVA",
       "price": 35.41,
-      "setup_type": "טווח",
+      "setup_type": "פריצה",
       "levels": {
         "support": 33.61,
         "resistance": 35.47,
-        "entry": null,
+        "entry": 35.65,
         "stop": 32.94
       },
       "recommendation": "קנייה",
       "confidence": 3,
-      "rationale_he": "המחיר $35.41 באמצע הטווח בין $33.61 ל-$35.47, RSI ב-63.4. 4 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
+      "rationale_he": "המחיר $35.41 נמצא 0.2% מתחת להתנגדות ב-$35.47 עם מומנטום שבועי של +13.6%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (63.4). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
         "rsi14": 63.4,
         "sma20": 32.55,
         "sma50": 33.28,
         "sma200": 30.64,
         "pct_from_52w_high": -5.2,
-        "vol_ratio": 1.0,
+        "vol_ratio": 1.02,
         "change_1d_pct": 2.02,
         "change_1w_pct": 13.6,
         "change_1m_pct": 4.5,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-30T20:44:09.770595+00:00",
+  "ta_generated_at": "2026-07-30T22:05:26.460574+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,167.8",
-      "change": "+1.73%",
+      "value": "$4,162.8",
+      "change": "+0.05%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.7280937271174073
+      "pct_raw": 0.05287698889582796
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.3",
-      "change": "-1.61%",
-      "direction": "down",
+      "value": "$89.5",
+      "change": "+0.47%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -1.6089927264712298
+      "pct_raw": 0.4717510951364728
     },
     {
       "name": "ביטקוין",
-      "value": "$64,787",
-      "change": "+1.38%",
+      "value": "$64,745",
+      "change": "+1.32%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.3837400180586483
+      "pct_raw": 1.3180153013400018
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.054",
-      "change": "-0.82%",
+      "value": "3.057",
+      "change": "-0.75%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.8247288784986139
+      "pct_raw": -0.7532956685499094
     }
   ],
   "sectors": [
@@ -856,15 +856,148 @@
   },
   "us_news": [
     {
-      "title_he": "מניית אמזון מזנקת ב-9% עם צמיחת ענן 'משגשגת', קצב ההכנסות עלה",
+      "title_he": "שיעורי צמיחה של AWS, Google Cloud ו-Azure: מחזיקים בשלושתם: $AMZN $GOOGL $MSFT",
       "summary_he": "",
-      "body_en": "Amazon stock soars 9% on 'booming' cloud growth, revenue beat",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+      "body_en": "AWS, Google Cloud, and Azure Growth Rates: Holding all three: $AMZN $GOOGL $MSFT",
+      "ticker": "$AMZN",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2082949434040570066#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T22:00:19+00:00",
+      "relative_time": "לפני 4ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$RIVN +2.0% AH לאחר פרסום סיבובים גבוהים מהצפוי והפסדים נמוכים מהצפוי של Adj EBITDA ברבעון השני, הרווח הגולמי של Auto היה גבוה משמעותית מהצפוי. FY'26…",
+      "summary_he": "",
+      "body_en": "$RIVN +2.0% AH after posting higher than expected revs and lower than expected Adj EBITDA losses in 2Q, Auto gross margin was significantly higher than expected. FY’26 EBITDA guidance was raised by +$",
+      "ticker": "$RIVN",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2082947901886550232#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:41:49+00:00",
-      "sentiment": "bullish"
+      "published_at": "2026-07-30T21:54:13+00:00",
+      "relative_time": "לפני 10ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מנכ\"ל $AAPL, טים קוק, אמר שאפל \"בוחנת את כל האפשרויות\" מכיוון ששוק ה-DRAM נותר מרוכז רק בין $MU, $SKHY וסמסונג. אחד הזיכרון הגדולים בעולם…",
+      "summary_he": "",
+      "body_en": "$AAPL CEO Tim Cook said Apple is “evaluating all options” as the DRAM market remains concentrated among just $MU, $SKHY and Samsung. One of the world’s largest memory buyer just admitted it has almost",
+      "ticker": "$AAPL",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082947330928681428#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T21:51:57+00:00",
+      "relative_time": "לפני 12ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$AMZN \"מזמן האמנו ש-AWS יכולה להפוך לעסק של כמה מאות מיליארדי דולרים בהכנסות, ועכשיו מאמינים שזה יהיה לפחות כפול מזה ואולי מאוד יהיה 1 דולר...",
+      "summary_he": "",
+      "body_en": "$AMZN \"We've long believed AWS could become a few hundred billion dollars revenue business and now believe it will be at least double that and very possibly be $1 trillion annual revenue business for ",
+      "ticker": "$AMZN",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2082946995258356080#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T21:50:37+00:00",
+      "relative_time": "לפני 13ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Amazon $AMZN על מכירה פוטנציאלית של שבבי Trainium מחוץ ל-AWS: \"יש לנו מספר הולך וגדל של לקוחות המעוניינים שנספק להם שבבי Trainium בנפרד...",
+      "summary_he": "",
+      "body_en": "Amazon $AMZN on potentially selling Trainium chips outside AWS: “We have an increasing number of customers interested in us providing Trainium chips to them separate from our cloud.” “We’re actively h",
+      "ticker": "$AMZN",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082946552491073854#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T21:48:52+00:00",
+      "relative_time": "לפני 15ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Amazon $AMZN על קיבולת AWS שמורה: \"חלק הארי של הקיבולת שאנו מוסיפים בשנת 2027 כבר שמורה, ולא מעט מהקיבולת של 2028 שלנו כבר ...",
+      "summary_he": "",
+      "body_en": "Amazon $AMZN on reserved AWS capacity: “The lion’s share of the capacity we’re adding in 2027 is already reserved, and quite a bit of our 2028 capacity is already reserved.” “Eexpect to have double th",
+      "ticker": "$AMZN",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082946427047866540#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T21:48:22+00:00",
+      "relative_time": "לפני 16ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מנכ\"ל $AMZN על בניית מודל גבול משלה: \"ל-AWS ואמזון יכולות להיות עסק מצליח בטירוף בלי מודל גבול משלהם כי לא יהיה...",
+      "summary_he": "",
+      "body_en": "$AMZN CEO on building its own frontier model: “AWS & Amazon can have a wildly successful business without a frontier model of their own because there is not going to be one model to rule the world” “W",
+      "ticker": "$AMZN",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082945241964048790#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T21:43:39+00:00",
+      "relative_time": "לפני 20ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מנכ\"ל Apple $AAPL, טים קוק, בנושא אספקת זיכרון: \"בעיקר, לשוק ה-DRAM יש שלושה ספקים. ברור שאם היו יותר ספקים, זה היה טוב\". \"זה יעזור...",
+      "summary_he": "",
+      "body_en": "Apple $AAPL CEO Tim Cook on memory supply: “Primarily, the DRAM market has three suppliers. Obviously, if there were more suppliers, that would be good.” “It would help us on the supply side and perha",
+      "ticker": "$AAPL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082944685165948996#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T21:41:26+00:00",
+      "relative_time": "לפני 23ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "APPLE $AAPL OUTLOOK: מדריך לרבעון 4: הכנסה: +9% עד +11% בשנה; ~$112B-$114B (אומדן $114.84B) 🔴 אייפון: אמצע שנות נוער % שירותי YoY: בדומה לרבעון השלישי לשעבר של FX; רווח גולמי: 47%-48%;...",
+      "summary_he": "",
+      "body_en": "APPLE $AAPL OUTLOOK: Q4 Guide: Revenue: +9% to +11% YoY; ~$112B-$114B (Est. $114.84B) 🔴 iPhone: Mid-teens % YoY Services: Similar to Q3 ex-FX; Gross Margin: 47%-48%; incl. ~1pp tariff-refund benefit S",
+      "ticker": "$AAPL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082943735755944327#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T21:37:40+00:00",
+      "relative_time": "לפני 26ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$AMZN אומר ש-AWS עשויה להפוך בסופו של דבר ל\"עסק הכנסות שנתי של טריליון דולר\" לאחר שציפתה פעם לכמה מאות מיליארדים בלבד. ההנהלה רואה כעת את הטווח הארוך...",
+      "summary_he": "",
+      "body_en": "$AMZN says AWS could eventually become a “$1 trillion annual revenue business” after once expecting only a few hundred billion. Management now sees the long-term opportunity as at least twice as large",
+      "ticker": "$AMZN",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082943182783000753#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T21:35:28+00:00",
+      "relative_time": "לפני 29ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "AAPL ירד ב-8% כאשר החברה מורידה את ההנחיות. המניה לא ירדה ביותר מ-8% בתגובה לרווחים מאז ינואר 2013.",
+      "summary_he": "",
+      "body_en": "AAPL down 8% as company lowers guidance. The stock hasn't declined more than 8% in reaction to earnings since January 2013.",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2082943138679636281#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T21:35:18+00:00",
+      "relative_time": "לפני 29ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ExxonMobil $XOM, Chevron $CVX, AbbVie $ABBV ועוד כמה מדווחים על רווחים לפני הפתיחה של מחר כדי לסגור את השבוע של רווחים.",
+      "summary_he": "",
+      "body_en": "ExxonMobil $XOM, Chevron $CVX, AbbVie $ABBV, and several others are reporting earnings before tomorrow's open to close out this week of earnings.",
+      "ticker": "$XOM",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2082941807831183500#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T21:30:00+00:00",
+      "relative_time": "לפני 34ד׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "Rivian מפחיתה את תוכניות ההוצאות לשנת 2026, מצמצמת את הנחיית הרווחים",
@@ -874,153 +1007,31 @@
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/07/30/rivian-rivn-q2-2026-earnings.html",
       "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:37:46+00:00",
+      "published_at": "2026-07-30T21:19:16+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$AMZN אומר ש-Graviton משמש כעת 98% מ-1,000 לקוחות EC2 המובילים שלה, שכן התחייבויות ההכנסה כמעט שילשו את QoQ. המומנטום הזה מואץ עם הגברת Graviton5...",
+      "title_he": "$RDDT ייחודים פעילים יומיים (\"DAUq\") עלו ב-18% משנה לשנה ל-130.3 מיליון ייחודים פעילים שבועיים (\"WAUq\") עלו ב-24% משנה לשנה ל-514.6 מיליון, וחצו את...",
       "summary_he": "",
-      "body_en": "$AMZN says Graviton is now used by 98% of its top 1,000 EC2 customers as revenue commitments nearly tripled QoQ. That momentum is accelerating with Graviton5 ramping almost twice as fast as Graviton4 ",
-      "ticker": "$AMZN",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082927676097188150#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:33:51+00:00",
-      "relative_time": "לפני 9ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "רווחי Apple $AAPL: EPS של $2.02 לעומת $1.89 הכנסות של $109.42 מיליארד מול $108.96B קישור: https://unusualwhales.com/stock/aapl/earnings",
-      "summary_he": "",
-      "body_en": "Apple $AAPL earnings: EPS of $2.02 vs $1.89 Revenue $109.42 billion vs $108.96B Link: https://unusualwhales.com/stock/aapl/earnings",
-      "ticker": "$AAPL",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2082927225511547260#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:32:04+00:00",
-      "relative_time": "לפני 11ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שירי רווחים של MASTEC $MTZ Q2'26 🔹 הכנסות: $4.4B (הערכה. $4.3B) 🟢; +23% YoY 🔹 התאמה EPS: $2.22 (הערכה. $2.23) 🟡; +49% YoY 🔹 התאמה EBITDA: 384.2 מיליון דולר (הערכה של 384 מיליון דולר) 🟡; +40%…",
-      "summary_he": "",
-      "body_en": "MASTEC $MTZ Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $4.4B (Est. $4.3B) 🟢; +23% YoY 🔹 Adj. EPS: $2.22 (Est. $2.23) 🟡; +49% YoY 🔹 Adj. EBITDA: $384.2M (Est. $384M) 🟡; +40% YoY 🔸 18-Month Backlog: $21.4B, a",
-      "ticker": "$MTZ",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082926597792043017#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:29:34+00:00",
-      "relative_time": "לפני 13ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "Amazon $AMZN אומרת ש-Graviton משמש כעת 98% מ-1,000 לקוחות ה-EC2 המובילים שלה. התחייבויות ההכנסות כמעט שילשו את QoQ, בעוד Graviton5 גדל כמעט פי שניים מהר יותר מאשר ...",
-      "summary_he": "",
-      "body_en": "Amazon $AMZN says Graviton is now used by 98% of its top 1,000 EC2 customers. Revenue commitments nearly tripled QoQ, while Graviton5 is growing nearly twice as fast as Graviton4 did.",
-      "ticker": "$AMZN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082925936375419266#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:26:56+00:00",
-      "relative_time": "לפני 16ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הוצאות הלקוחות של Amazon $AMZN Bedrock ברבעון השני עלו על כל הרבעונים הקודמים ביחד. AWS הוסיפה יותר לקוחות Bedrock בששת החודשים האחרונים מאשר במהלך שני הראשונים שלה...",
-      "summary_he": "",
-      "body_en": "Amazon $AMZN Bedrock customer spending in Q2 exceeded all previous quarters combined. AWS added more Bedrock customers in the past six months than during its first two years, with hundreds of thousand",
-      "ticker": "$AMZN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082925815273316352#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:26:27+00:00",
-      "relative_time": "לפני 17ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מיקרון, סנדיסק ומניות שבבים אחרות זוכות לחיזוקים משמעותיים בעקבות הרווחים של מיקרוסופט",
-      "summary_he": "",
-      "body_en": "Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/micron-sandisk-and-other-chip-stocks-get-major-boosts-in-the-wake-of-microsofts-earnings-25460e61?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:26:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אמזון $AMZN טוענת כי עסקי ה-AWS AI ועסקי השבבים שלה עלו על קצב הכנסות שנתי של 25 מיליארד דולר, כאשר שניהם גדלים בשיעורים תלת ספרתיים בשנה שעברה.",
-      "summary_he": "",
-      "body_en": "Amazon $AMZN says its AWS AI business and chips business have each surpassed a $25 billion annual revenue run rate, with both growing at triple-digit rates YoY.",
-      "ticker": "$AMZN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082925352641544391#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:24:37+00:00",
-      "relative_time": "לפני 18ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מדוע מניית מיקרוסופט זינקה לעלייה היסטורית לאחר רווחים",
-      "summary_he": "",
-      "body_en": "Why Microsoft’s stock soared to a historic gain after earnings",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/why-microsofts-stock-is-soaring-toward-a-historic-gain-after-earnings-96cd5b1e?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:21:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "אמזון $AMZN נסחר מעט מעל לשיא אמצע יולי של 255 דולר לאחר שעות העבודה. צריך עוד 7-8% מכאן כדי לחזור לשיאים חדשים של כל הזמנים.",
-      "summary_he": "",
-      "body_en": "Amazon $AMZN is trading just above its mid-July high of $255 after hours. Needs another 7-8% from here to get back to new all-time highs.",
-      "ticker": "$AMZN",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2082923721287766055#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T20:18:08+00:00",
-      "relative_time": "לפני 25ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "COINBASE דיווח רק על רווחים *COINBASE Q2 REV. $1.22 B, EST. $1.29B ( MISS ❌ ) COINBASE 1Q EPS - $1.36, EST. - $0.42 ( MISS ❌ ) *COINBASE Q2 TRANSACTION REV. 599 מיליון דולר,…",
-      "summary_he": "",
-      "body_en": "COINBASE JUST REPORTED EARNINGS *COINBASE Q2 REV. $1.22 B, EST. $1.29B ( MISS ❌ ) COINBASE 1Q EPS - $1.36, EST. - $0.42 ( MISS ❌ ) *COINBASE Q2 TRANSACTION REV. $599 M, EST. $635 M ( MISS ❌ ) *COINBAS",
-      "ticker": "$COIN",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2082923079932486126#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:15:35+00:00",
-      "relative_time": "לפני 27ד׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "$RDDT רווחים ברבעון השני • הכנסות של $805 מיליון לעומת משוער $731M • EPS $1.25 לעומת משוער $0.96 • EBITDA $343M לעומת משוער 298 מיליון דולר • 130.3 מיליון דולר (+18% בשנה) הנחיות לרבעון השלישי • הכנסה של 865 מיליון דולר לעומת הערכה...",
-      "summary_he": "",
-      "body_en": "$RDDT Q2 EARNINGS • Revenue $805M vs Est. $731M • EPS $1.25 vs Est. $0.96 • EBITDA $343M vs. Est. $298M • DAUs 130.3M (+18% YoY) Q3 Guidance • Revenue $865M vs. Est. $830M • EBITDA $390M vs. Est. $369",
+      "body_en": "$RDDT Daily Active Uniques (“DAUq”) increased 18% year-over-year to 130.3 million Weekly Active Uniques (“WAUq”) increased 24% year-over-year to 514.6 million, crossing half a billion Revenue of $805 ",
       "ticker": "$RDDT",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082922674603610389#m",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2082934007755333832#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:13:59+00:00",
-      "relative_time": "לפני 29ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$TEM רווחים ברבעון השני • הכנסות $383M לעומת משוער $380M • EPS ($0.04) לעומת משוער ($0.15) • EBITDA $8 מיליון לעומת משוער 9 מיליון דולר • הכנסה מאבחון: 289 מיליון דולר (+20% בשנה) הנחיות לתקופה של 26 • הכנסות...",
-      "summary_he": "",
-      "body_en": "$TEM Q2 EARNINGS • Revenue $383M vs Est. $380M • EPS ($0.04) vs Est. ($0.15) • EBITDA $8M vs Est. $9M • Diagnostics Revenue: $289M (+20% YoY) FY26 Guidance • Revenue $1.61B vs Est. $1.59B • EBITDA $65",
-      "ticker": "$TEM",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082922049828511881#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:11:30+00:00",
-      "relative_time": "לפני 32ד׳",
+      "published_at": "2026-07-30T20:59:01+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "האלימות בחברה הערבית: גבר נורה למוות בכסייפה - המשטרה פתחה בחקירה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857472",
+      "tag": "כללי",
+      "published_at": "2026-07-31T00:15:00+00:00"
+    },
     {
       "title_he": "נשיא האוניברסיטה נגד קיש: \"אינו מבחין בין עצמאות לנאמנות\"",
       "summary_he": "",
@@ -1092,14 +1103,6 @@
       "link": "https://news.walla.co.il/item/3857325",
       "tag": "כללי",
       "published_at": "2026-07-30T12:43:00+00:00"
-    },
-    {
-      "title_he": "נהג אמבולנס ריגל עבור איראן: תיעד בכירים והעביר מידע רגיש על בתי חולים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857318",
-      "tag": "כללי",
-      "published_at": "2026-07-30T12:17:00+00:00"
     }
   ],
   "track_record": {
