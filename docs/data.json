@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T10:24:09.512942+00:00",
+  "generated_at": "2026-07-30T12:12:30.671758+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-30T10:24:09.512954+00:00",
+  "ta_generated_at": "2026-07-30T12:12:30.671768+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "19.64",
-      "change": "-4.94%",
+      "value": "19.09",
+      "change": "-7.60%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -4.9370764762826695
+      "pct_raw": -7.599225556631173
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,124.0",
-      "change": "+0.66%",
+      "value": "$4,133.2",
+      "change": "+0.88%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.6590187942396876
+      "pct_raw": 0.8835733463509842
     },
     {
       "name": "נפט ברנט",
-      "value": "$91.4",
-      "change": "+0.74%",
-      "direction": "up",
+      "value": "$90.0",
+      "change": "-0.84%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.7383733744765283
+      "pct_raw": -0.8375578576151543
     },
     {
       "name": "ביטקוין",
-      "value": "$64,538",
-      "change": "+0.99%",
+      "value": "$64,837",
+      "change": "+1.46%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.9944306126952003
+      "pct_raw": 1.4623749469898861
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,009",
-      "change": "-0.91%",
+      "value": "4,035",
+      "change": "-0.27%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.9127240103506385
+      "pct_raw": -0.2656859764762872
     },
     {
       "name": "דולר/שקל",
-      "value": "3.071",
-      "change": "-0.28%",
+      "value": "3.069",
+      "change": "-0.36%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.2792389116176356
+      "pct_raw": -0.3636599779206474
     }
   ],
   "sectors": [
@@ -856,172 +856,179 @@
   },
   "us_news": [
     {
-      "title_he": "דגשים ברווחים של $CRH Q2'26 🔹 הכנסות: $10.8B (הערכה. $10.65B) 🟢; +6% YoY 🔹 EPS: $2.21 (אומדן $2) 🟢; +14% YoY 🔹 הכנסה נטו: $1.5B; +13% YoY 🔹 EBITDA מותאם: $2.6B; +7% שנה בשנה…",
+      "title_he": "פרארי מעלה את תחזית 2026 לאחר שהרווחים ברבעון השני היכו",
       "summary_he": "",
-      "body_en": "$CRH Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $10.8B (Est. $10.65B) 🟢; +6% YoY 🔹 EPS: $2.21 (Est. $2) 🟢; +14% YoY 🔹 Net Income: $1.5B; +13% YoY 🔹 Adj EBITDA: $2.6B; +7% YoY FY26 Guide: 🔹 Diluted EPS: $5.6",
-      "ticker": "$CRH",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082769831896707298#m",
+      "body_en": "Ferrari raises 2026 guidance after Q2 earnings beat",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-07-30T10:06:38+00:00",
-      "relative_time": "לפני 17ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "CIGNA GROUP $CI Q2'26 שירי רווחים 🔹 הכנסות: $71.7B (הערכה. $70.34B) 🟢; +7% YoY 🔹 התאמה EPS: $7.78 (הערכה. $7.60) 🟢; +8% YoY העלאות FY26 מדריך: 🔹 התאמה EPS: לפחות…",
-      "summary_he": "",
-      "body_en": "CIGNA GROUP $CI Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $71.7B (Est. $70.34B) 🟢; +7% YoY 🔹 Adj. EPS: $7.78 (Est. $7.60) 🟢; +8% YoY Raises FY26 Guide: 🔹 Adj. EPS: at least $30.45 (Est. $30.2) 🟢 🔹 Evernort",
-      "ticker": "$CI",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082769645363445773#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T10:05:54+00:00",
-      "relative_time": "לפני 17ד׳",
+      "published_at": "2026-07-30T12:08:23+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "AIR PRODUCTS $APD Q3'26 דגשים ברווחים 🔹 הכנסות: $3.2B (הערכה. $3.2B) 🟡 🔹 התאמה. EPS: $3.47 (הערכה. $3.34) 🟢; +12% YoY 🔹 התאמה הכנסה תפעולית: 810 מיליון דולר 🔹 הפסד GAAP לכל...",
+      "title_he": "מנכ\"ל צ'יפוטלה אומר שהרשת מתמודדת עם אחת הבעיות הגדולות שלה",
       "summary_he": "",
-      "body_en": "AIR PRODUCTS $APD Q3’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $3.2B (Est. $3.2B) 🟡 🔹 Adj. EPS: $3.47 (Est. $3.34) 🟢; +12% YoY 🔹 Adj. Operating Income: $810M 🔹 GAAP Loss Per Share: $6.47; includes charges fro",
-      "ticker": "$APD",
+      "body_en": "Chipotle CEO says the chain is tackling one of its biggest problems",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/article/chipotle-ceo-says-the-chain-is-tackling-one-of-its-biggest-problems-120103595.html",
+      "tag": "TECH",
+      "published_at": "2026-07-30T12:01:03+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "דגשים ברווחים של $BDC Q2'26 🔹 הכנסות: $750M (אומדן $745.06M) 🟢; +12% YoY, +8% אורגני 🔹 התאמה EPS: $2.34 (הערכה. $2.02) 🟢; +24% YoY 🔹 הזמנות: 836 מיליון דולר; +19% מדריך לרבעון השלישי של השנה: 🔹…",
+      "summary_he": "",
+      "body_en": "$BDC Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $750M (Est. $745.06M) 🟢; +12% YoY, +8% organic 🔹 Adj. EPS: $2.34 (Est. $2.02) 🟢; +24% YoY 🔹 Orders: $836M; +19% YoY Q3 Guide: 🔹 Revenue: $950M-$970M (Est. $94",
+      "ticker": "$BDC",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082769221029929093#m",
+      "link": "https://nitter.net/wallstengine/status/2082798328044229023#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-30T10:04:12+00:00",
+      "published_at": "2026-07-30T11:59:52+00:00",
+      "relative_time": "לפני 11ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "החוזים העתידיים של דאו ג'ונס עולים; מיקרוסופט, Meta Lead רווחים גדולים לאחר צניחת שוק, מחירי הנפט מזנקים",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures Rise; Microsoft, Meta Lead Big Earnings After Market Tumbles, Oil Prices Soar",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-trump-iran-threats-microsoft-meta-fortinet-earnings/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T11:56:15+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "המודעות למצב של ליאופולד אשנברנר מחפשת הון חדש לאחר שהימורי AI ממונפים ספגו הפסדים חדים. הוא אמר למשקיעים שזה עשוי להיות \"טוב במיוחד...",
+      "summary_he": "",
+      "body_en": "Leopold Aschenbrenner’s Situational Awareness is seeking fresh capital after leveraged AI bets suffered sharp losses. He told investors this may be “a particularly good time to add funds” signaling he",
+      "ticker": "$TE",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082796492721434737#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T11:52:35+00:00",
       "relative_time": "לפני 19ד׳",
-      "sentiment": "neutral"
+      "sentiment": "bearish"
     },
     {
-      "title_he": "דגשים ברווחים של WESCO $WCC Q2'26 🔹 הכנסות: $6.7B (הערכה. $6.44B) ; +13% YoY 🔹 התאמה EPS: $4.57 (הערכה. $3.97) 🟢; +35% YoY 🔹 מכירות מרכזי נתונים: $1.5B; +~45% פלח שנה…",
+      "title_he": "וול סטריט רק סבלה מהתרסקות היסטורית במניות שעפות גבוהות. מדוע ריבאונד טכנולוגי מהיר יכול להיות מלכודת.",
       "summary_he": "",
-      "body_en": "WESCO $WCC Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $6.7B (Est. $6.44B) 🟢; +13% YoY 🔹 Adj. EPS: $4.57 (Est. $3.97) 🟢; +35% YoY 🔹 Data Center Sales: $1.5B; +~45% YoY Segment Net Revenue: 🔹 EES: $2.5B; +11.",
-      "ticker": "$WCC",
+      "body_en": "Wall Street just suffered a historic crash in highflying stocks. Why a quick tech rebound could be a trap.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/wall-street-just-suffered-a-historic-crash-in-high-flying-stocks-here-is-why-a-quick-tech-rebound-could-be-a-trap-c021318a?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-30T11:46:00+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "R ל-@sonusvarghese: 🎧 אפל https://podcasts.apple.com/us/podcast/welcome-to-the-chip-crash-fvf-ep-198/id1651235114?i=1000778885796 Spotify…",
+      "summary_he": "",
+      "body_en": "R to @sonusvarghese: 🎧 Apple https://podcasts.apple.com/us/podcast/welcome-to-the-chip-crash-fvf-ep-198/id1651235114?i=1000778885796 Spotify https://open.spotify.com/episode/3NmGWfl6MxsyZ3ZG0uxysQ?si=",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2082792943518138626#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T11:38:28+00:00",
+      "relative_time": "לפני 33ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "עובדות מול רגשות Ep. 198: ברוכים הבאים להתרסקות הצ'יפ 🎙️ @sonusvarghese ואני דנים באפל בהחזרת הכתר, על התרסקות השבב שאף אחד כאן לא מדבר עליה, ועל הפד...",
+      "summary_he": "",
+      "body_en": "Facts vs Feelings Ep. 198: Welcome to the Chip Crash 🎙️ @sonusvarghese and I discuss Apple retaking the crown, the chip crash nobody here is talking about, and a Fed meeting with real hike risk (but t",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2082792507172114807#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T11:36:44+00:00",
+      "relative_time": "לפני 35ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "LEONARDO DRS $DRS Q2'26 שירי רווחים 🔹 הכנסות: $913M (אומדן $902M) 🟢; +10% YoY 🔹 התאמה EPS: $0.35 (הערכה. $0.27) 🟢; +52% YoY 🔹 EBITDA מתואם: 128 מיליון דולר; +33% בשנה 🔹…",
+      "summary_he": "",
+      "body_en": "LEONARDO DRS $DRS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $913M (Est. $902M) 🟢; +10% YoY 🔹 Adj. EPS: $0.35 (Est. $0.27) 🟢; +52% YoY 🔹 Adjusted EBITDA: $128M; +33% YoY 🔹 Funded Backlog: $5.1B; +17% YoY FY",
+      "ticker": "$DRS",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082768819496554700#m",
+      "link": "https://nitter.net/wallstengine/status/2082791985044435378#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-30T10:02:37+00:00",
-      "relative_time": "לפני 21ד׳",
+      "published_at": "2026-07-30T11:34:40+00:00",
+      "relative_time": "לפני 37ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "המניות בארה\"ב התאוששו (SPX +0.4%, NDX +0.8%) בעקבות צמיחה חזקה בענן MSFT של $MSFT, מה שמרגיע את המשקיעים שהשקעות בינה מלאכותית משתלמת וללא הסלמה נוספת בהיפר...",
+      "title_he": "$JLL Q2'26 שירי רווחים 🔹 הכנסות: $6.9B (הערכה. $6.88B) 🟢; +11% YoY 🔹 התאמה EPS: $5.26 (הערכה. $4.55) 🟢; +59% YoY 🔹 EPS (GAAP): $4.59; +98% YoY 🔹 EBITDA מתואם:...",
       "summary_he": "",
-      "body_en": "U.S. stocks rebounded (SPX +0.4%, NDX +0.8%) on strong $MSFT cloud growth, reassuring investors that AI investments are paying off and no further escalation in hyper scaler Capex, outweighing inflatio",
-      "ticker": "$MSFT",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2082762820265869328#m",
+      "body_en": "$JLL Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $6.9B (Est. $6.88B) 🟢; +11% YoY 🔹 Adj. EPS: $5.26 (Est. $4.55) 🟢; +59% YoY 🔹 EPS (GAAP): $4.59; +98% YoY 🔹 Adjusted EBITDA: $386.3M; +32% YoY Segment Net Reve",
+      "ticker": "$JLL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082791461758922869#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-30T09:38:46+00:00",
-      "relative_time": "לפני 45ד׳",
+      "published_at": "2026-07-30T11:32:35+00:00",
+      "relative_time": "לפני 39ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "סמסונג אומרת כי מחנק השבבים יימשך עד 2028 כאשר הרווח הרבעוני מזנק",
+      "title_he": "שירי רווחים של CROCS $CROX Q2'26 🔹 הכנסות: $1.18B (הערכה. $1.15B) 🟡; +2.6% YoY 🔹 התאמה EPS: $4.55 (הערכה. $4.34) 🟢; +7.6% YoY 🔹 מותג קרוקס: $1.0B; +4.3% YoY 🔸 רכישה חוזרת...",
       "summary_he": "",
-      "body_en": "Samsung says chip crunch will last until 2028 as quarterly profit soars",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/30/samsung-q2-earnings-ai-chip-.html",
+      "body_en": "CROCS $CROX Q2'26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.18B (Est. $1.15B) 🟡; +2.6% YoY 🔹 Adj. EPS: $4.55 (Est. $4.34) 🟢; +7.6% YoY 🔹 Crocs Brand: $1.0B; +4.3% YoY 🔸 Buyback Authorization: +$1.5B to ~$2.0B",
+      "ticker": "$CROX",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082787089322791011#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-30T09:10:14+00:00",
+      "published_at": "2026-07-30T11:15:13+00:00",
+      "relative_time": "לפני 56ד׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "Meta Tanks כמעט 9%, מיקרוסופט מזנקת ב-8% כשהמסחר בבינה מלאכותית מפצלת את Big Tech",
+      "title_he": "שירי רווחים של ALTRIA $MO Q2'26 🔹 הכנסות: $5.36B (הערכה. $5.35B) 🟡; +1.2% YoY 🔹 התאמה EPS: $1.48 (הערכה. $1.50) 🔴; +2.8% YoY העלאות FY26 מדריך: 🔹 התאמה EPS: $5.61-$5.72…",
       "summary_he": "",
-      "body_en": "Meta tanks nearly 9%, Microsoft jumps 8% as the AI trade splits Big Tech",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
-      "tag": "TECH",
-      "published_at": "2026-07-30T09:01:56+00:00",
+      "body_en": "ALTRIA $MO Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $5.36B (Est. $5.35B) 🟡; +1.2% YoY 🔹 Adj. EPS: $1.48 (Est. $1.50) 🔴; +2.8% YoY Raises FY26 Guide: 🔹 Adj. EPS: $5.61-$5.72 (Est. $5.69) 🟡 🔹 CapEx: $375M-$",
+      "ticker": "$MO",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082787086919426263#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T11:15:12+00:00",
+      "relative_time": "לפני 56ד׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "R ל-@StockSavvyShay: כאן תוכל למצוא את פירוט הרווחים המלא שלי ב-$MSFT: https://youtu.be/uygKdEe1zKc?si=Zz6uqjzoNjkRqh1w",
+      "title_he": "UBS יזמה את $SKHY עם יעד של 204 דולר, לפיה המניה עדיין משקפת את כלכלת הזיכרון שלפני AI למרות ה-ROE הצפוי מעל 40% עד 2031. הוא אומר שהערכת שווי \"לא...",
       "summary_he": "",
-      "body_en": "R to @StockSavvyShay: Here’s where you can find my full $MSFT earnings breakdown: https://youtu.be/uygKdEe1zKc?si=Zz6uqjzoNjkRqh1w",
-      "ticker": "$MSFT",
+      "body_en": "UBS initiated $SKHY with a $204 target saying the stock still reflects pre-AI memory economics despite expected ROE above 40% through 2031. It says valuation “doesn't fully reflect structurally higher",
+      "ticker": "$SKHY",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082660511221735475#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T02:52:14+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ל-$MSFT יש את אחד מסיפורי המונטיזציה של AI במלא מחסנית ברורה בשוק כיום. Azure לוכדת הוצאות תשתית, Foundry מייצרת רווחים בפריסת מודלים ו...",
-      "summary_he": "",
-      "body_en": "$MSFT has one of the clearest full-stack AI monetization stories in the market today. Azure captures infrastructure spending, Foundry monetizes model deployment and governance, Fabric and its database",
-      "ticker": "$MSFT",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082660139145068994#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T02:50:45+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: יחידת $MSFT Azure Cloud של מיקרוסופט הגדילה את הכנסותיה ברבעון האחרון ב-43% בקצב הצמיחה המהיר ביותר מאז תחילת 2022",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: Microsoft's $MSFT Azure Cloud unit grew its revenue by 43% last quarter its fastest growth rate since early 2022",
-      "ticker": "$MSFT",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/StockMKTNewz/status/2082651121949024657#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T02:14:55+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: ארין מוציאה את הלוח הלבן עם איינשטיין ואייווס כדי לפרק כמה נמחק במהלך \"ההתרסקות המוחלטת\" שהתרחשה בדרום...",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: Erin brings out the white board with Einstein & Ives to break down just how much has been wiped out during the “absolute crash” happening in South Korea: “What the heck is going on?”",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/OutFrontCNN/status/2082633241102831908#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-30T01:03:52+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "וואו $MSFT +9% $META -7% $LRCX +7% $ARM $QCOM -5% $SBUX $CMG +6%",
-      "summary_he": "",
-      "body_en": "Wow $MSFT +9% $META -7% $LRCX +7% $ARM $QCOM -5% $SBUX $CMG +6%",
-      "ticker": "$MSFT",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2082615752369016959#m",
+      "link": "https://nitter.net/StockSavvyShay/status/2082784827364012282#m",
       "tag": "TECH",
-      "published_at": "2026-07-29T23:54:23+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "neutral"
+      "published_at": "2026-07-30T11:06:13+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
     },
     {
-      "title_he": "מנכ\"ל ורטיב מתייחס לצניחת מניות של 17%, רבעון מאכזב: \"זו בעיה זמנית\"",
+      "title_he": "BOE מחזיק בשיעורים, HAWKISH SPLIT הבנק המרכזי של אנגליה שמר על ריבית המפתח ללא שינוי של 3.75% בהצבעה של 6-3, כאשר שלושה קובעי מדיניות תומכים בהעלאה ואף אחד לא תומך בהורדה...",
       "summary_he": "",
-      "body_en": "Vertiv CEO addresses 17% stock plunge, disappointing quarter: ‘This is a temporary issue’",
+      "body_en": "BOE HOLDS RATES, HAWKISH SPLIT The Bank of England kept its key rate unchanged at 3.75% in a 6-3 vote, with three policymakers backing a hike and none supporting a cut. The BOE expects inflation to pe",
       "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/29/vertiv-ceo-addresses-stock-plunge-disappointing-quarter.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-29T23:00:02+00:00",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2082784013639364953#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T11:02:59+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "החציון יורד כמעט ב-30% החודש ומדד ה-Nasdaq 100 $QQQ רק הגיע לסף התיקון של -10%, ובכל זאת 2/3 מהמניות ב-S&P 500 נשארות מעל 50-DMAs שלהן. S&P…",
-      "summary_he": "",
-      "body_en": "The semis are down nearly 30% this month and the Nasdaq 100 $QQQ just hit the -10% correction threshold, yet 2/3 of stocks in the S&P 500 remain above their 50-DMAs. S&P 500 Equalweight $RSP is up 1.4",
-      "ticker": "$QQQ",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2082597572984619362#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-29T22:42:08+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "פרסום ראשון: בזמן שהוא בשלילת רישיון ביצע \"פגע וברח\" באילת",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857337",
+      "tag": "כללי",
+      "published_at": "2026-07-30T13:26:00+00:00"
+    },
     {
       "title_he": "בן 15 נאשם שאיים לפוצץ חיילים במטענים: \"אני יודע איפה הם יושבים\"",
       "summary_he": "",
@@ -1093,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3857284",
       "tag": "כללי",
       "published_at": "2026-07-30T10:58:00+00:00"
-    },
-    {
-      "title_he": "\"הוא משיח שקר\": החשוד ברצח הרב עמוס גואטה הודה בחקירה | פרסום ראשון",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857263",
-      "tag": "כללי",
-      "published_at": "2026-07-30T09:56:00+00:00"
     }
   ],
   "track_record": {
