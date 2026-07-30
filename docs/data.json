@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-30T17:56:42.960184+00:00",
+  "generated_at": "2026-07-30T19:28:29.827589+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
       "name": "Apple",
-      "price": 332.97,
-      "change_pct": -1.54,
+      "price": 333.24,
+      "change_pct": -1.46,
       "direction": "down",
       "change_str": "-1.5%",
       "earnings_date": "",
@@ -15,10 +15,10 @@
     {
       "ticker": "NVDA",
       "name": "Nvidia",
-      "price": 193.73,
-      "change_pct": 1.96,
+      "price": 194.26,
+      "change_pct": 2.24,
       "direction": "up",
-      "change_str": "+2.0%",
+      "change_str": "+2.2%",
       "earnings_date": "",
       "is_earnings_today": false,
       "alert_triggered": false
@@ -26,10 +26,10 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft",
-      "price": 456.04,
-      "change_pct": 16.77,
+      "price": 456.91,
+      "change_pct": 16.99,
       "direction": "up",
-      "change_str": "+16.8%",
+      "change_str": "+17.0%",
       "earnings_date": "",
       "is_earnings_today": false,
       "alert_triggered": false
@@ -37,10 +37,10 @@
     {
       "ticker": "GOOGL",
       "name": "Alphabet",
-      "price": 334.14,
-      "change_pct": -0.76,
+      "price": 334.65,
+      "change_pct": -0.61,
       "direction": "down",
-      "change_str": "-0.8%",
+      "change_str": "-0.6%",
       "earnings_date": "",
       "is_earnings_today": false,
       "alert_triggered": false
@@ -48,10 +48,10 @@
     {
       "ticker": "AMZN",
       "name": "Amazon",
-      "price": 237.68,
-      "change_pct": 4.87,
+      "price": 239.51,
+      "change_pct": 5.67,
       "direction": "up",
-      "change_str": "+4.9%",
+      "change_str": "+5.7%",
       "earnings_date": "",
       "is_earnings_today": false,
       "alert_triggered": false
@@ -59,10 +59,10 @@
     {
       "ticker": "META",
       "name": "Meta",
-      "price": 532.32,
-      "change_pct": -9.1,
+      "price": 535.25,
+      "change_pct": -8.6,
       "direction": "down",
-      "change_str": "-9.1%",
+      "change_str": "-8.6%",
       "earnings_date": "",
       "is_earnings_today": false,
       "alert_triggered": false
@@ -70,10 +70,10 @@
     {
       "ticker": "TSLA",
       "name": "Tesla",
-      "price": 307.74,
-      "change_pct": 3.16,
+      "price": 309.98,
+      "change_pct": 3.91,
       "direction": "up",
-      "change_str": "+3.2%",
+      "change_str": "+3.9%",
       "earnings_date": "",
       "is_earnings_today": false,
       "alert_triggered": false
@@ -81,10 +81,10 @@
     {
       "ticker": "JPM",
       "name": "JPMorgan",
-      "price": 351.44,
-      "change_pct": 1.95,
+      "price": 351.73,
+      "change_pct": 2.04,
       "direction": "up",
-      "change_str": "+1.9%",
+      "change_str": "+2.0%",
       "earnings_date": "",
       "is_earnings_today": false,
       "alert_triggered": false
@@ -92,10 +92,10 @@
     {
       "ticker": "TEVA",
       "name": "טבע",
-      "price": 34.77,
-      "change_pct": 0.17,
+      "price": 35.23,
+      "change_pct": 1.5,
       "direction": "up",
-      "change_str": "+0.2%",
+      "change_str": "+1.5%",
       "earnings_date": "",
       "is_earnings_today": false,
       "alert_triggered": false
@@ -104,7 +104,7 @@
   "opportunities": [
     {
       "ticker": "AAPL",
-      "price": 332.97,
+      "price": 333.24,
       "setup_type": "מומנטום",
       "levels": {
         "support": 319.35,
@@ -114,17 +114,17 @@
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($324.33) שמעל SMA50 ($309.29), RSI ב-61.2. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($324.35) שמעל SMA50 ($309.30), RSI ב-61.7. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
       "indicators": {
-        "rsi14": 61.2,
-        "sma20": 324.33,
-        "sma50": 309.29,
+        "rsi14": 61.7,
+        "sma20": 324.35,
+        "sma50": 309.3,
         "sma200": 277.65,
-        "pct_from_52w_high": -3.4,
-        "vol_ratio": 0.85,
-        "change_1d_pct": -1.54,
-        "change_1w_pct": 3.5,
-        "change_1m_pct": 15.1,
+        "pct_from_52w_high": -3.3,
+        "vol_ratio": 0.86,
+        "change_1d_pct": -1.41,
+        "change_1w_pct": 3.7,
+        "change_1m_pct": 15.2,
         "spark_3m": [
           271.35,
           284.18,
@@ -155,7 +155,7 @@
     },
     {
       "ticker": "JPM",
-      "price": 351.44,
+      "price": 351.73,
       "setup_type": "מומנטום",
       "levels": {
         "support": 325.75,
@@ -165,17 +165,17 @@
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($343.37) שמעל SMA50 ($326.57), RSI ב-60.1. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($343.39) שמעל SMA50 ($326.58), RSI ב-60.3. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
       "indicators": {
-        "rsi14": 60.1,
-        "sma20": 343.37,
-        "sma50": 326.57,
+        "rsi14": 60.3,
+        "sma20": 343.39,
+        "sma50": 326.58,
         "sma200": 311.64,
-        "pct_from_52w_high": -2.2,
-        "vol_ratio": 0.81,
-        "change_1d_pct": 1.91,
-        "change_1w_pct": 0.4,
-        "change_1m_pct": 7.3,
+        "pct_from_52w_high": -2.1,
+        "vol_ratio": 0.82,
+        "change_1d_pct": 2.0,
+        "change_1w_pct": 0.5,
+        "change_1m_pct": 7.4,
         "spark_3m": [
           313.23,
           309.4,
@@ -206,7 +206,7 @@
     },
     {
       "ticker": "TEVA",
-      "price": 34.77,
+      "price": 35.23,
       "setup_type": "טווח",
       "levels": {
         "support": 33.61,
@@ -216,17 +216,17 @@
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $34.77 באמצע הטווח בין $33.61 ל-$35.25, RSI ב-61.2. 5 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
+      "rationale_he": "המחיר $35.23 באמצע הטווח בין $33.61 ל-$35.25, RSI ב-63.0. 5 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
       "indicators": {
-        "rsi14": 61.2,
-        "sma20": 32.52,
-        "sma50": 33.27,
+        "rsi14": 63.0,
+        "sma20": 32.55,
+        "sma50": 33.28,
         "sma200": 30.64,
-        "pct_from_52w_high": -6.9,
-        "vol_ratio": 0.96,
-        "change_1d_pct": 0.17,
-        "change_1w_pct": 11.5,
-        "change_1m_pct": 2.6,
+        "pct_from_52w_high": -5.7,
+        "vol_ratio": 0.98,
+        "change_1d_pct": 1.61,
+        "change_1w_pct": 13.1,
+        "change_1m_pct": 4.1,
         "spark_3m": [
           35.07,
           35.86,
@@ -257,7 +257,7 @@
     },
     {
       "ticker": "NFLX",
-      "price": 73.08,
+      "price": 72.93,
       "setup_type": "תיקון",
       "levels": {
         "support": 70.86,
@@ -267,17 +267,17 @@
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "ירידה של -42.3% מהשיא השנתי עם RSI ב-48.6 — התיקון בעיצומו. תמיכה קרובה ב-$70.86. מחיר מעל SMA20 · RSI בריא (48.6) · מומנטום שבועי +6.1%.",
+      "rationale_he": "ירידה של -42.4% מהשיא השנתי עם RSI ב-48.1 — התיקון בעיצומו. תמיכה קרובה ב-$70.86. מחיר מעל SMA20 · RSI בריא (48.1) · מומנטום שבועי +5.9%.",
       "indicators": {
-        "rsi14": 48.6,
-        "sma20": 72.6,
+        "rsi14": 48.1,
+        "sma20": 72.59,
         "sma50": 77.46,
         "sma200": 91.55,
-        "pct_from_52w_high": -42.3,
-        "vol_ratio": 1.26,
-        "change_1d_pct": -0.74,
-        "change_1w_pct": 6.1,
-        "change_1m_pct": 2.4,
+        "pct_from_52w_high": -42.4,
+        "vol_ratio": 1.27,
+        "change_1d_pct": -0.96,
+        "change_1w_pct": 5.9,
+        "change_1m_pct": 2.1,
         "spark_3m": [
           93.61,
           87.89,
@@ -308,7 +308,7 @@
     },
     {
       "ticker": "GOOGL",
-      "price": 334.14,
+      "price": 334.65,
       "setup_type": "תמיכה",
       "levels": {
         "support": 330.2,
@@ -318,17 +318,17 @@
       },
       "recommendation": "קנייה",
       "confidence": 3,
-      "rationale_he": "RSI ב-42.4 כשהמחיר $334.14 רק 1.2% מעל תמיכה ב-$330.20 — יחס סיכון-סיכוי נוח ללונג. מחיר מעל SMA200 · RSI בריא (42.4) · מומנטום שבועי +5.2%.",
+      "rationale_he": "RSI ב-42.6 כשהמחיר $334.65 רק 1.3% מעל תמיכה ב-$330.20 — יחס סיכון-סיכוי נוח ללונג. מחיר מעל SMA200 · RSI בריא (42.6) · מומנטום שבועי +5.3%.",
       "indicators": {
-        "rsi14": 42.4,
-        "sma20": 348.27,
-        "sma50": 359.38,
+        "rsi14": 42.6,
+        "sma20": 348.29,
+        "sma50": 359.39,
         "sma200": 325.72,
-        "pct_from_52w_high": -18.2,
-        "vol_ratio": 0.98,
-        "change_1d_pct": -0.74,
-        "change_1w_pct": 5.2,
-        "change_1m_pct": -6.5,
+        "pct_from_52w_high": -18.1,
+        "vol_ratio": 0.99,
+        "change_1d_pct": -0.6,
+        "change_1w_pct": 5.3,
+        "change_1m_pct": -6.3,
         "spark_3m": [
           384.8,
           388.43,
@@ -359,7 +359,7 @@
     },
     {
       "ticker": "NVDA",
-      "price": 193.73,
+      "price": 194.26,
       "setup_type": "תמיכה",
       "levels": {
         "support": 189.8,
@@ -369,17 +369,17 @@
       },
       "recommendation": "מעקב",
       "confidence": 2,
-      "rationale_he": "RSI ב-41.8 כשהמחיר $193.73 רק 2.1% מעל תמיכה ב-$189.80 — יחס סיכון-סיכוי נוח ללונג. מחיר מעל SMA200 · RSI בריא (41.8) · קרוב לתמיכה.",
+      "rationale_he": "RSI ב-42.2 כשהמחיר $194.26 רק 2.3% מעל תמיכה ב-$189.80 — יחס סיכון-סיכוי נוח ללונג. מחיר מעל SMA200 · RSI בריא (42.2) · קרוב לתמיכה.",
       "indicators": {
-        "rsi14": 41.8,
-        "sma20": 202.93,
-        "sma50": 206.54,
-        "sma200": 193.04,
-        "pct_from_52w_high": -18.1,
+        "rsi14": 42.2,
+        "sma20": 202.95,
+        "sma50": 206.55,
+        "sma200": 193.05,
+        "pct_from_52w_high": -17.9,
         "vol_ratio": 0.8,
-        "change_1d_pct": 1.93,
-        "change_1w_pct": -7.2,
-        "change_1m_pct": -3.2,
+        "change_1d_pct": 2.15,
+        "change_1w_pct": -7.0,
+        "change_1m_pct": -3.0,
         "spark_3m": [
           199.57,
           196.5,
@@ -410,7 +410,7 @@
     },
     {
       "ticker": "MSFT",
-      "price": 456.04,
+      "price": 456.91,
       "setup_type": "טווח",
       "levels": {
         "support": 409.58,
@@ -420,17 +420,17 @@
       },
       "recommendation": "מעקב",
       "confidence": 2,
-      "rationale_he": "המחיר $456.04 באמצע הטווח בין $409.58 ל-$466.32, RSI ב-72.7. 3 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
+      "rationale_he": "המחיר $456.91 באמצע הטווח בין $409.58 ל-$466.32, RSI ב-72.9. 3 אינדיקטורים תומכים — אין יתרון סטטיסטי מובהק כרגע.",
       "indicators": {
-        "rsi14": 72.7,
-        "sma20": 393.39,
-        "sma50": 398.55,
-        "sma200": 433.85,
-        "pct_from_52w_high": -17.9,
-        "vol_ratio": 0.9,
-        "change_1d_pct": 16.7,
-        "change_1w_pct": 19.4,
-        "change_1m_pct": 22.2,
+        "rsi14": 72.9,
+        "sma20": 393.43,
+        "sma50": 398.57,
+        "sma200": 433.86,
+        "pct_from_52w_high": -17.7,
+        "vol_ratio": 0.92,
+        "change_1d_pct": 16.94,
+        "change_1w_pct": 19.7,
+        "change_1m_pct": 22.4,
         "spark_3m": [
           407.78,
           411.38,
@@ -461,7 +461,7 @@
     },
     {
       "ticker": "AMZN",
-      "price": 237.68,
+      "price": 239.51,
       "setup_type": "תיקון",
       "levels": {
         "support": 225.55,
@@ -471,17 +471,17 @@
       },
       "recommendation": "מעקב",
       "confidence": 2,
-      "rationale_he": "ירידה של -14.7% מהשיא השנתי עם RSI ב-46.7 — התיקון בעיצומו. תמיכה קרובה ב-$225.55. מחיר מעל SMA200 · RSI בריא (46.7) · מומנטום שבועי +1.8%.",
+      "rationale_he": "ירידה של -14.0% מהשיא השנתי עם RSI ב-48.4 — התיקון בעיצומו. תמיכה קרובה ב-$225.55. מחיר מעל SMA200 · RSI בריא (48.4) · מומנטום שבועי +2.5%.",
       "indicators": {
-        "rsi14": 46.7,
-        "sma20": 242.53,
-        "sma50": 246.43,
-        "sma200": 234.77,
-        "pct_from_52w_high": -14.7,
-        "vol_ratio": 0.81,
-        "change_1d_pct": 4.92,
-        "change_1w_pct": 1.8,
-        "change_1m_pct": -0.2,
+        "rsi14": 48.4,
+        "sma20": 242.62,
+        "sma50": 246.47,
+        "sma200": 234.78,
+        "pct_from_52w_high": -14.0,
+        "vol_ratio": 0.83,
+        "change_1d_pct": 5.71,
+        "change_1w_pct": 2.5,
+        "change_1m_pct": 0.5,
         "spark_3m": [
           265.06,
           273.55,
@@ -512,7 +512,7 @@
     },
     {
       "ticker": "AMD",
-      "price": 487.65,
+      "price": 487.88,
       "setup_type": "תיקון",
       "levels": {
         "support": 460.21,
@@ -525,14 +525,14 @@
       "rationale_he": "ירידה של -16.6% מהשיא השנתי עם RSI ב-46.9 — התיקון בעיצומו. תמיכה קרובה ב-$460.21. SMA20 מעל SMA50 · מחיר מעל SMA200 · RSI בריא (46.9).",
       "indicators": {
         "rsi14": 46.9,
-        "sma20": 517.26,
-        "sma50": 511.01,
+        "sma20": 517.27,
+        "sma50": 511.02,
         "sma200": 310.54,
         "pct_from_52w_high": -16.6,
-        "vol_ratio": 0.87,
-        "change_1d_pct": 13.52,
+        "vol_ratio": 0.88,
+        "change_1d_pct": 13.58,
         "change_1w_pct": -9.6,
-        "change_1m_pct": -16.1,
+        "change_1m_pct": -16.0,
         "spark_3m": [
           354.49,
           355.26,
@@ -563,7 +563,7 @@
     },
     {
       "ticker": "META",
-      "price": 532.32,
+      "price": 535.25,
       "setup_type": "תמיכה",
       "levels": {
         "support": 520.26,
@@ -573,17 +573,17 @@
       },
       "recommendation": "מעקב",
       "confidence": 1,
-      "rationale_he": "RSI ב-31.1 כשהמחיר $532.32 רק 2.3% מעל תמיכה ב-$520.26 — יחס סיכון-סיכוי נוח ללונג. SMA20 מעל SMA50 · קרוב לתמיכה.",
+      "rationale_he": "RSI ב-31.5 כשהמחיר $535.25 רק 2.9% מעל תמיכה ב-$520.26 — יחס סיכון-סיכוי נוח ללונג. SMA20 מעל SMA50 · קרוב לתמיכה.",
       "indicators": {
-        "rsi14": 31.1,
-        "sma20": 621.78,
-        "sma50": 602.97,
-        "sma200": 635.25,
-        "pct_from_52w_high": -33.1,
-        "vol_ratio": 0.84,
-        "change_1d_pct": -9.1,
-        "change_1w_pct": -12.2,
-        "change_1m_pct": -5.5,
+        "rsi14": 31.5,
+        "sma20": 621.92,
+        "sma50": 603.03,
+        "sma200": 635.26,
+        "pct_from_52w_high": -32.8,
+        "vol_ratio": 0.86,
+        "change_1d_pct": -8.61,
+        "change_1w_pct": -11.7,
+        "change_1m_pct": -5.0,
         "spark_3m": [
           611.91,
           604.96,
@@ -614,7 +614,7 @@
     },
     {
       "ticker": "TSLA",
-      "price": 307.74,
+      "price": 309.98,
       "setup_type": "תיקון",
       "levels": {
         "support": 297.38,
@@ -624,17 +624,17 @@
       },
       "recommendation": "המתנה",
       "confidence": 0,
-      "rationale_he": "ירידה של -38.3% מהשיא השנתי עם RSI ב-30.0 — התיקון בעיצומו. תמיכה קרובה ב-$297.38. קרוב לתמיכה.",
+      "rationale_he": "ירידה של -37.9% מהשיא השנתי עם RSI ב-31.0 — התיקון בעיצומו. תמיכה קרובה ב-$297.38. קרוב לתמיכה.",
       "indicators": {
-        "rsi14": 30.0,
-        "sma20": 367.98,
-        "sma50": 392.59,
-        "sma200": 412.22,
-        "pct_from_52w_high": -38.3,
-        "vol_ratio": 0.96,
-        "change_1d_pct": 3.1,
-        "change_1w_pct": -3.8,
-        "change_1m_pct": -26.9,
+        "rsi14": 31.0,
+        "sma20": 368.1,
+        "sma50": 392.64,
+        "sma200": 412.23,
+        "pct_from_52w_high": -37.9,
+        "vol_ratio": 0.97,
+        "change_1d_pct": 3.89,
+        "change_1w_pct": -3.1,
+        "change_1m_pct": -26.3,
         "spark_3m": [
           381.63,
           389.37,
@@ -664,81 +664,81 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-30T17:56:42.960194+00:00",
+  "ta_generated_at": "2026-07-30T19:28:29.827601+00:00",
   "market_us": [
     {
       "name": "S&P 500",
-      "value": "7,423",
-      "change": "+1.46%",
+      "value": "7,444",
+      "change": "+1.75%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.4581439691641136
+      "pct_raw": 1.746000287036224
     },
     {
       "name": "Nasdaq",
-      "value": "25,075",
-      "change": "+2.58%",
+      "value": "25,151",
+      "change": "+2.90%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 2.584705334763121
+      "pct_raw": 2.898746922475494
     },
     {
       "name": "Dow Jones",
-      "value": "52,128",
-      "change": "+1.03%",
+      "value": "52,243",
+      "change": "+1.26%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.0342841260654745
+      "pct_raw": 1.2585150174031385
     },
     {
       "name": "Russell 2000",
-      "value": "2,931",
-      "change": "+0.85%",
+      "value": "2,942",
+      "change": "+1.22%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.8453537885052743
+      "pct_raw": 1.2221271111565541
     },
     {
       "name": "VIX",
-      "value": "18.04",
-      "change": "-12.68%",
+      "value": "17.45",
+      "change": "-15.54%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -12.681510164569222
+      "pct_raw": -15.537270087124883
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,166.8",
-      "change": "+1.70%",
+      "value": "$4,168.8",
+      "change": "+1.75%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.7036856236270486
+      "pct_raw": 1.7525018306077662
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.2",
-      "change": "-1.68%",
+      "value": "$89.0",
+      "change": "-1.93%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.6751157152303242
+      "pct_raw": -1.928587172140181
     },
     {
       "name": "ביטקוין",
-      "value": "$64,804",
-      "change": "+1.41%",
+      "value": "$64,822",
+      "change": "+1.44%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.409497847515526
+      "pct_raw": 1.437869016899071
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
-      "value": "4.67%",
-      "change": "+0.97%",
+      "value": "4.66%",
+      "change": "+0.89%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.9736045002163551
+      "pct_raw": 0.8870618779749105
     }
   ],
   "market_il": [
@@ -752,101 +752,101 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.060",
-      "change": "-0.65%",
+      "value": "3.057",
+      "change": "-0.74%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.6526397818040206
+      "pct_raw": -0.740307812195602
     }
   ],
   "sectors": [
     {
       "name": "טכנולוגיה",
-      "value": "175.25",
-      "change": "+5.21%",
+      "value": "175.77",
+      "change": "+5.52%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 5.2080206519781544
+      "pct_raw": 5.5232034580056535
     },
     {
       "name": "פיננסים",
-      "value": "56.84",
-      "change": "+0.28%",
+      "value": "57.01",
+      "change": "+0.57%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.2822865208186374
+      "pct_raw": 0.573394495412849
     },
     {
       "name": "אנרגיה",
-      "value": "58.60",
-      "change": "-0.08%",
-      "direction": "down",
+      "value": "58.89",
+      "change": "+0.41%",
+      "direction": "up",
       "group": "sectors",
-      "pct_raw": -0.07672634271100036
+      "pct_raw": 0.4092071611253231
     },
     {
       "name": "בריאות",
-      "value": "163.28",
-      "change": "-1.78%",
+      "value": "163.65",
+      "change": "-1.56%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.7835659287776726
+      "pct_raw": -1.5579884504331107
     },
     {
       "name": "תעשייה",
-      "value": "177.26",
-      "change": "+0.34%",
+      "value": "178.12",
+      "change": "+0.83%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.3396354579418059
+      "pct_raw": 0.829276576474586
     },
     {
       "name": "צריכה שיקולית",
-      "value": "112.34",
-      "change": "+0.66%",
+      "value": "112.73",
+      "change": "+1.01%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.6585431412955823
+      "pct_raw": 1.007974195860586
     },
     {
       "name": "צריכה בסיסית",
-      "value": "85.36",
-      "change": "-2.29%",
+      "value": "85.42",
+      "change": "-2.23%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -2.2893772893772892
+      "pct_raw": -2.2264194139194062
     },
     {
       "name": "נדל\"ן",
-      "value": "45.20",
-      "change": "-1.65%",
+      "value": "45.27",
+      "change": "-1.50%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.6514360313315934
+      "pct_raw": -1.5034812880765938
     },
     {
       "name": "תשתיות",
-      "value": "44.66",
-      "change": "-0.57%",
+      "value": "44.70",
+      "change": "-0.46%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.5678022712090748
+      "pct_raw": -0.4564684925406331
     },
     {
       "name": "חומרים",
-      "value": "51.46",
-      "change": "-0.54%",
+      "value": "51.62",
+      "change": "-0.24%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.5411673753382318
+      "pct_raw": -0.24159257827599534
     },
     {
       "name": "תקשורת",
-      "value": "106.27",
-      "change": "-2.96%",
+      "value": "106.53",
+      "change": "-2.72%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -2.9586339147109935
+      "pct_raw": -2.716646881563335
     }
   ],
   "fear_greed": {
@@ -856,6 +856,112 @@
   },
   "us_news": [
     {
+      "title_he": "האמון של וורש בוול סטריט חוטף מכה כאשר המשקיעים מפקפקים בנחישות של כיסא הפד למלחמה באינפלציה",
+      "summary_he": "",
+      "body_en": "Warsh’s Wall Street cred takes a hit as investors doubt the Fed chair’s inflation-fighting resolve",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
+      "tag": "FED",
+      "published_at": "2026-07-30T19:02:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$META חשפה ~ 700 מיליארד דולר בהתחייבויות עתידיות לתשתית AI על פני התחייבויות רכישה וחכירה. על פי הדיווחים הוא גם דן בעסקה של ~10 מיליארד דולר לחכירה עודפת...",
+      "summary_he": "",
+      "body_en": "$META disclosed ~$700B in future AI infrastructure commitments across purchase obligations and leases. It’s also reportedly discussing a ~$10B deal to lease excess compute to Anthropic.",
+      "ticker": "$META",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082904302486790356#m",
+      "tag": "M&A",
+      "published_at": "2026-07-30T19:00:58+00:00",
+      "relative_time": "לפני 26ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "דולר הפיל את הכדור $USD $DXY",
+      "summary_he": "",
+      "body_en": "Dollar dropped the ball $USD $DXY",
+      "ticker": "$USD",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2082903978124202385#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-30T18:59:41+00:00",
+      "relative_time": "לפני 27ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "$META ירד בשיא 10 ימים ברציפות כשהגיע היום. אם חשבתם שזה אומר שזה אמור להקפיץ, חשבו שוב. ירידה של 9% היום הוא אחד הימים הגרועים ביותר ב...",
+      "summary_he": "",
+      "body_en": "$META was down a record 10 days in a row coming into today. If you thought that meant it was due for a bounce, think again. Down 9% today is one of the worst days in it's 14 yr history. Proving once a",
+      "ticker": "$META",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2082903771382747421#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T18:58:52+00:00",
+      "relative_time": "לפני 28ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SMH לא ממש הגיע לחזרה של 38.2% של הראלי מאפריל 2025 עד יוני 2026... 200dma עדיין שם למטה ב-$450",
+      "summary_he": "",
+      "body_en": "$SMH didn't quite get to the 38.2% retrace of the April 2025 to June 2026 rally... 200dma still way down there at $450",
+      "ticker": "$SMH",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2082903337389654378#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-30T18:57:08+00:00",
+      "relative_time": "לפני 30ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$MSFT +17% $SKHY +17% $MU +17% $LRCX +17% $AMAT +14% $AMD +13% $INTC +11% $TSM +7% $ORCL +7% $ASML +6% $DELL +10% $STX +10% $GEV +8% $SAN +5% $SNDK הם גלובליים...",
+      "summary_he": "",
+      "body_en": "$MSFT +17% $SKHY +17% $MU +17% $LRCX +17% $AMAT +14% $AMD +13% $INTC +11% $TSM +7% $ORCL +7% $ASML +6% $DELL +10% $STX +10% $GEV +8% $SAN +5% $SNDK +23% These are global mega-caps. Wild day. Dead-cat ",
+      "ticker": "$MSFT",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2082902593622135286#m",
+      "tag": "FED",
+      "published_at": "2026-07-30T18:54:11+00:00",
+      "relative_time": "לפני 33ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NOW עשויה לקצץ בסביבות 1,000 משרות מכיוון שהיא משלבת רכישות אחרונות תוך שהיא שואפת לסיים את 2026 בסמוך למספר העובדים ההתחלתי שלה. החברה מסרה דוחות של 3,000–5,000…",
+      "summary_he": "",
+      "body_en": "$NOW could cut around 1,000 jobs as it integrates recent acquisitions while aiming to end 2026 near its starting headcount. The company said reports of 3,000–5,000 layoffs are overstated as AI demand ",
+      "ticker": "$NOW",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082901141118242852#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T18:48:25+00:00",
+      "relative_time": "לפני 39ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "אפל ואמזון מדווחות אחרי הפעמון. הנה מה ששוק האופציות אומר",
+      "summary_he": "",
+      "body_en": "Apple and Amazon report after the bell. Here's what the options market is saying",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/30/apple-and-amazon-report-after-the-bell-heres-what-the-options-market-is-saying.html",
+      "tag": "TECH",
+      "published_at": "2026-07-30T18:17:29+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$GOOGL תומכת בקמפוס ה-AI המתוכנן של Anthropic בנפח 1.6GW בטקסס, כאשר Nexus מחפשת 15 מיליארד דולר למימון מרכז הנתונים והכוח באתר. גוגל תבטיח מיליארדי חכירה ו...",
+      "summary_he": "",
+      "body_en": "$GOOGL is backing Anthropic’s planned 1.6GW Texas AI campus as Nexus seeks $15B to fund the data center and on-site power. Google would guarantee billions in lease and power obligations for roughly a ",
+      "ticker": "$GOOGL",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082887968713556336#m",
+      "tag": "TECH",
+      "published_at": "2026-07-30T17:56:04+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "GOOGLE תומכת בקמפוס ה-AI של אנתרופיק בטקסס Nexus Data Centers נמצאת במגעים מתקדמים עבור 15 מיליארד דולר במימון בהובלת מורגן סטנלי לבניית קמפוס של 1.6GW וגז טבעי...",
       "summary_he": "",
       "body_en": "GOOGLE BACKS ANTHROPIC’S TEXAS AI CAMPUS Nexus Data Centers is in advanced talks for $15B in financing led by Morgan Stanley to build a 1.6GW campus and natural-gas power plant in Hubbard, Texas. Anth",
@@ -864,7 +970,7 @@
       "link": "https://nitter.net/wallstengine/status/2082885149587583175#m",
       "tag": "BANKS",
       "published_at": "2026-07-30T17:44:52+00:00",
-      "relative_time": "לפני 11ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,31 +993,8 @@
       "link": "https://nitter.net/gurgavin/status/2082862686908321842#m",
       "tag": "TECH",
       "published_at": "2026-07-30T16:15:36+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "אמזון על הסיפון לדווח על רווחים אחרי הפעמון עם ענן, השקעה בפוקוס",
-      "summary_he": "",
-      "body_en": "Amazon on deck to report earnings after the bell with cloud, capex in focus",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T16:06:46+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אמרתי מוקדם יותר השבוע ש-MSFT $ יכול להיות הזרז שמזכיר למשקיעים שבניית הבינה המלאכותית עוד לא הסתיימה. זה בדיוק מה שקרה בתור של מיקרוסופט...",
-      "summary_he": "",
-      "body_en": "I said earlier in the week that $MSFT could be the catalyst that reminded investors the AI buildout was nowhere near over. That is exactly what happened as Microsoft’s June fiscal year-end gave the fi",
-      "ticker": "$MSFT",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082852805635932663#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T15:36:21+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "מניות מיקרוסופט עלו כעת ביותר מ-15% היום מיקרוסופט בדרך ליום הטוב ביותר מאז 2008 $MSFT",
@@ -922,7 +1005,7 @@
       "link": "https://nitter.net/gurgavin/status/2082837662235299938#m",
       "tag": "TECH",
       "published_at": "2026-07-30T14:36:10+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -934,93 +1017,19 @@
       "link": "https://nitter.net/DeItaone/status/2082828461828198705#m",
       "tag": "TECH",
       "published_at": "2026-07-30T13:59:37+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אני משני הצדדים של האוטובוס הזה היום 😎 מחזיק $MSFT & $META",
-      "summary_he": "",
-      "body_en": "I'm on both sides of that bus today 😎 Holding $MSFT & $META",
-      "ticker": "$MSFT",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2082803672728097020#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T12:21:06+00:00",
       "relative_time": "לפני 5ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "עובדות מול רגשות Ep. 198: ברוכים הבאים להתרסקות הצ'יפ 🎙️ @sonusvarghese ואני דנים באפל בהחזרת הכתר, על התרסקות השבב שאף אחד כאן לא מדבר עליה, ועל הפד...",
-      "summary_he": "",
-      "body_en": "Facts vs Feelings Ep. 198: Welcome to the Chip Crash 🎙️ @sonusvarghese and I discuss Apple retaking the crown, the chip crash nobody here is talking about, and a Fed meeting with real hike risk (but t",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2082792507172114807#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T11:36:44+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: יהיו רווחים רבים בעולם הטכנולוגיה ברבעון השני, אבל הרבעון של מיקרוסופט יהיה החשוב ביותר בעונת הרווחים הזו בעינינו. ה…",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: There will be many earnings in the tech world in 2Q but the Microsoft quarter will be the most important of this earnings season in our view. The enterprise AI demand best barometer ",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/DivesTech/status/2082776532976570454#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T10:33:16+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "המניות בארה\"ב התאוששו (SPX +0.4%, NDX +0.8%) בעקבות צמיחה חזקה בענן MSFT של $MSFT, מה שמרגיע את המשקיעים שהשקעות בינה מלאכותית משתלמת וללא הסלמה נוספת בהיפר...",
-      "summary_he": "",
-      "body_en": "U.S. stocks rebounded (SPX +0.4%, NDX +0.8%) on strong $MSFT cloud growth, reassuring investors that AI investments are paying off and no further escalation in hyper scaler Capex, outweighing inflatio",
-      "ticker": "$MSFT",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2082762820265869328#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T09:38:46+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שוק המניות היום: נאסד\"ק מזנק, דאו ו-S&P 500 מתאוששות כשמיקרוסופט מובילה עליות טכנולוגיות, תשואות האג\"ח עולות",
-      "summary_he": "",
-      "body_en": "Stock market today: Nasdaq soars, Dow and S&P 500 rebound as Microsoft leads tech gains, bond yields rise",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-30-dow-sp-500-nasdaq-treasury-yields-microsoft-082255995.html",
-      "tag": "MACRO",
-      "published_at": "2026-07-30T08:22:55+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "ג'ים קריימר אומר שהמכירה הזו שלאחר הרווחים היא הזדמנות קנייה פז",
-      "summary_he": "",
-      "body_en": "Jim Cramer says this post-earnings sell-off is a golden buying opportunity",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-post-earnings-221700892.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T22:17:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: MICROSOFT $MSFT רק אמרה ש- דרישת הלקוחות בעסקי הענן ממשיכה לעלות על הקיבולת הזמינה",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: MICROSOFT $MSFT JUST SAID THAT - CUSTOMER DEMAND IN THE CLOUD BUSINESS CONTINUES TO EXCEED AVAILABLE CAPACITY",
-      "ticker": "$MSFT",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/StockMKTNewz/status/2082589020924604559#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T22:08:09+00:00",
-      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "נשיא האוניברסיטה נגד קיש: \"אינו מבחין בין עצמאות לנאמנות\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857445",
+      "tag": "כללי",
+      "published_at": "2026-07-30T20:41:00+00:00"
+    },
     {
       "title_he": "אירוע חריג בכפר סבא: גבר נפצע קשה מחץ דיג, החשד - בן משפחה ירה ונמלט",
       "summary_he": "",
@@ -1092,14 +1101,6 @@
       "link": "https://news.walla.co.il/item/3857318",
       "tag": "כללי",
       "published_at": "2026-07-30T12:17:00+00:00"
-    },
-    {
-      "title_he": "פרסום ראשון: המשטרה חשפה בית הימורים בתוך פאב בקריית מלאכי",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857316",
-      "tag": "כללי",
-      "published_at": "2026-07-30T12:13:00+00:00"
     }
   ],
   "track_record": {
