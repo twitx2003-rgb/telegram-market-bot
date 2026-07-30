@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T23:34:11.047836+00:00",
+  "generated_at": "2026-07-30T02:22:03.525474+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-29T23:34:11.047846+00:00",
+  "ta_generated_at": "2026-07-30T02:22:03.525485+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,151.2",
-      "change": "+1.32%",
+      "value": "$4,143.5",
+      "change": "+1.13%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.3229192091774424
+      "pct_raw": 1.1349768123016841
     },
     {
       "name": "נפט ברנט",
-      "value": "$90.4",
-      "change": "-0.37%",
+      "value": "$89.5",
+      "change": "-1.31%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.37469693630150896
+      "pct_raw": -1.3114392770553205
     },
     {
       "name": "ביטקוין",
-      "value": "$63,908",
-      "change": "+0.09%",
+      "value": "$64,299",
+      "change": "+0.62%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.08547692538027561
+      "pct_raw": 0.619596293751919
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.080",
-      "change": "+0.02%",
-      "direction": "up",
+      "value": "3.073",
+      "change": "-0.21%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.019481784531460936
+      "pct_raw": -0.2110526657575151
     }
   ],
   "sectors": [
@@ -850,11 +850,139 @@
     }
   ],
   "fear_greed": {
-    "score": 29,
+    "score": 28,
     "rating": "פחד",
     "rating_en": "fear"
   },
   "us_news": [
+    {
+      "title_he": "R ל-@unusual_whales: האזהרה הגיעה ימים לאחר שבית משפט פדרלי לערעורים קבע שהשימוש של הנשיא בסמכויות חירום מפר את החוק, ושלח את התיק חזרה ל...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: The warning came days after a federal appeals court ruled that the President’s use of emergency powers broke the law, sending the case back to the Court of International Trade to",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2082640067122577703#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-30T01:31:00+00:00",
+      "relative_time": "לפני 50ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: ארין מוציאה את הלוח הלבן עם איינשטיין ואייווס כדי לפרק כמה נמחק במהלך \"ההתרסקות המוחלטת\" שהתרחשה בדרום...",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: Erin brings out the white board with Einstein & Ives to break down just how much has been wiped out during the “absolute crash” happening in South Korea: “What the heck is going on?”",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/OutFrontCNN/status/2082633241102831908#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-30T01:03:52+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "מדוע מניית SoFi יורדת, גם לאחר שהרווחים שלה עלו על הציפיות",
+      "summary_he": "",
+      "body_en": "Why SoFi’s stock drops, even after its earnings beat expectations",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/why-sofis-stock-is-dropping-even-after-its-earnings-beat-expectations-ecc442eb?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T01:01:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ניתוח: אמינותו של יו\"ר הפד וורש בסימן שאלה לאחר שהותיר את הריבית ללא שינוי",
+      "summary_he": "",
+      "body_en": "Analysis: Fed Chairman Warsh's credibility in question after leaving interest rates unchanged",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/29/kevin-warsh-fed-treasury-yields-inflation-credibility-interest-rates.html",
+      "tag": "FED",
+      "published_at": "2026-07-30T01:00:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הרווח התפעולי ברבעון השני של סמסונג אלקטרוניקה עולה על ההערכות לגבי הביקוש הגואה לשבבי בינה מלאכותית",
+      "summary_he": "",
+      "body_en": "Samsung Electronics second-quarter operating profit beats estimates on soaring AI chip demand",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/30/samsung-q2-earnings-ai-chip-.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T00:50:50+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "רווחי SAMSUNG ברבעון השני • הכנסות: 118.1 מיליארד דולר לעומת משוער. 119.2 מיליארד דולר (+130% בשנה) • רווח תפעולי: 61.7 מיליארד דולר לעומת משוער. 60.8 מיליארד דולר (+1,814% YoY) סמסונג מצפה לביקוש חזק לזיכרון H2 הוביל...",
+      "summary_he": "",
+      "body_en": "SAMSUNG Q2 EARNINGS • Revenue: $118.1B vs. Est. $119.2B (+130% YoY) • Operating profit: $61.7B vs. Est. $60.8B (+1,814% YoY) Samsung expects strong H2 memory demand led by continued AI infrastructure ",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082623920172306739#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T00:26:50+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "סמנכ\"לית הכספים של OpenAI, שרה פריאר, אמרה לעובדים שההכנסות החוזרות השנתיות ביולי היו גבוהות יותר מאשר ברבעון השני בכללותו, והוסיפה כי \"הרבעון השני לא היה רפוי\".",
+      "summary_he": "",
+      "body_en": "OpenAI CFO Sarah Friar told employees that annualized recurring revenue in July was higher than in Q2 as a whole, adding that “Q2 was no slouch.”",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082622680877207657#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T00:21:55+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הרווח התפעולי של SAMSUNG קפץ פי 19 לשיא בביקוש לשבבי בינה מלאכותית סמסונג אלקטרוניקה דיווחה על רווח תפעולי של 89.5T וון ברבעון השני, לעומת 4.68T וון לפני שנה,...",
+      "summary_he": "",
+      "body_en": "SAMSUNG Q2 OPERATING PROFIT JUMPS 19-FOLD TO A RECORD ON AI CHIP DEMAND Samsung Electronics reported Q2 operating profit of 89.5T won, up from 4.68T won a year ago, while revenue rose 130% to 171.5T w",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082621639792156701#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-30T00:17:46+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "צ'יפוטלה מעלה את תחזית המכירות שלה גם כשהתפרצות הקשורה לחסה מאטה את תנועת הרגליים",
+      "summary_he": "",
+      "body_en": "Chipotle lifts its sales forecast even as a lettuce-linked outbreak slows foot traffic",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/chipotle-lifts-its-sales-forecast-even-as-a-lettuce-linked-outbreak-slows-foot-traffic-2249eeab?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-07-30T00:16:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "וואו $MSFT +9% $META -7% $LRCX +7% $ARM $QCOM -5% $SBUX $CMG +6%",
+      "summary_he": "",
+      "body_en": "Wow $MSFT +9% $META -7% $LRCX +7% $ARM $QCOM -5% $SBUX $CMG +6%",
+      "ticker": "$MSFT",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2082615752369016959#m",
+      "tag": "TECH",
+      "published_at": "2026-07-29T23:54:23+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סמנכ\"לית הכספים של OpenAI, שרה פריאר, אמרה שההכנסות החוזרות השנתיות של יולי עלו על כל הרבעון השני, מונע על ידי GPT-5.6 ו-Codex. ההאצה הזו מגיעה כשהחברה...",
+      "summary_he": "",
+      "body_en": "OpenAI CFO Sarah Friar said July annualized recurring revenue exceeded the entire second quarter driven by GPT-5.6 and Codex. That acceleration comes as the company races to close the enterprise and c",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082609257783144580#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-29T23:28:34+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "bullish"
+    },
     {
       "title_he": "מחירי ההנפקה של ג'רזי מייקי ב-$23/SHR, באמצע הטווח",
       "summary_he": "",
@@ -864,7 +992,7 @@
       "link": "https://nitter.net/wallstengine/status/2082605204835639486#m",
       "tag": "NEWS",
       "published_at": "2026-07-29T23:12:28+00:00",
-      "relative_time": "לפני 21ד׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,43 +1004,8 @@
       "link": "https://nitter.net/wallstengine/status/2082604910194143539#m",
       "tag": "M&A",
       "published_at": "2026-07-29T23:11:18+00:00",
-      "relative_time": "לפני 22ד׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "סמנכ\"לית הכספים של OpenAI, שרה פריאר, אומרת לעובדים שההכנסות השנתיות ביולי היו בראש כל הרבעון השני",
-      "summary_he": "",
-      "body_en": "OpenAI CFO Sarah Friar tells employees that annualized revenue in July topped all of Q2",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/29/openai-cfo-sarah-friar-tells-employees-arr-in-july-topped-all-of-q2.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T23:09:42+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$MSFT דחה את החששות של קיבולת יתר בינה מלאכותית ואמרה ש\"אם סביבת הביקוש משתנה, אתה פשוט מאט\" את הוצאות המעבד וה-GPU בזמן שהיישומים שלה מספקים...",
-      "summary_he": "",
-      "body_en": "$MSFT pushed back on AI overcapacity concerns saying “if the demand environment changes, you just slow down” CPU and GPU spending while its own applications provide another outlet for capacity. Manage",
-      "ticker": "$MSFT",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082603422210257228#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T23:05:23+00:00",
-      "relative_time": "לפני 28ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Microsoft $MSFT על שיפור כלכלת בינה מלאכותית: \"זו עבודת הטחינה. כל יום אתה רק משתפר קצת.\" \"למעשה אנחנו די טובים בטחינה הזו.\"",
-      "summary_he": "",
-      "body_en": "Microsoft $MSFT on improving AI economics: “This is the grind work. Every day, you just get a little better.” “We’re actually quite good at that grind.”",
-      "ticker": "$MSFT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082603178370236618#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T23:04:25+00:00",
-      "relative_time": "לפני 29ד׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "החציון יורד כמעט ב-30% החודש ומדד ה-Nasdaq 100 $QQQ רק הגיע לסף התיקון של -10%, ובכל זאת 2/3 מהמניות ב-S&P 500 נשארות מעל 50-DMAs שלהן. S&P…",
@@ -923,104 +1016,19 @@
       "link": "https://nitter.net/bespokeinvest/status/2082597572984619362#m",
       "tag": "NEWS",
       "published_at": "2026-07-29T22:42:08+00:00",
-      "relative_time": "לפני 51ד׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "$MSFT OUTLOOK • הכנסות ברבעון הראשון $90.4B לעומת משוער 89.6 מיליארד דולר • צמיחה בתכלת ברבעון הראשון: ~45% • עלות השקעה ברבעון 1: > 50 מיליארד דולר הנחיות ל-FY27 • הכנסות: צמיחה דו-ספרתית • CapEx: צפוי לגדול בשנה זו •...",
-      "summary_he": "",
-      "body_en": "$MSFT OUTLOOK • Q1 Revenue $90.4B vs Est. $89.6B • Q1 Azure Growth: ~45% • Q1 CapEx: >$50B FY27 GUIDANCE • Revenue: Double-digit growth • CapEx: Expected to grow YoY • Free Cash Flow: Remain positive",
-      "ticker": "$MSFT",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082595445050843540#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T22:33:41+00:00",
-      "relative_time": "לפני 59ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Microsoft $MSFT עולה כעת ב-8% לאחר שעות העבודה, ו-$QQQ עולה בכ-30 bps.",
-      "summary_he": "",
-      "body_en": "Microsoft $MSFT is now up 8% after hours, and $QQQ is up about 30 bps.",
-      "ticker": "$MSFT",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2082595146273611932#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T22:32:30+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "צ'יפוטלה מעלה את תחזית המכירות שלה גם כשהתפרצות הקשורה לחסה מאטה את תנועת הרגליים",
-      "summary_he": "",
-      "body_en": "Chipotle lifts its sales forecast even as a lettuce-linked outbreak slows foot traffic",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/chipotle-lifts-its-sales-forecast-even-as-a-lettuce-linked-outbreak-slows-foot-traffic-2249eeab?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-07-29T22:22:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "קרא את הערת המאקרו המלאה של הערב עם הניתוח שלנו של FOMC של היום וכל דוחות הרווחים העיקריים לאחר הסגירה:...",
-      "summary_he": "",
-      "body_en": "Read tonight's full macro note with our analysis of today's FOMC and all the key earnings reports after the close: https://www.bespokepremium.com/interactive/posts/featured-reports/the-closer-trust-fa",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2082591651222937843#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T22:18:36+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$MSFT עולה בכמעט 10% לאחר ששמרה על הנחיית ההשקעות שלה לשנת 2026 על 190 מיליארד דולר והעידה על עלייה נוספת בשנה ב-27. למרות המשך ניהול בניית הבינה המלאכותית עדיין...",
-      "summary_he": "",
-      "body_en": "$MSFT is up nearly 10% after maintaining its 2026 capex guidance at $190B and signaling another YoY increase in FY27. Despite the continued AI buildout management still expects to remain cash-flow pos",
-      "ticker": "$MSFT",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082590065394667757#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-29T22:12:18+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "גוגל, $GOOGL, DeepMind פירקה את הצוות מאחורי AlphaFold, מערכת הבינה המלאכותית שלה זוכת פרס נובל לחיזוי מבני חלבון, לפי FT",
-      "summary_he": "",
-      "body_en": "Google, $GOOGL, DeepMind has dismantled the team behind AlphaFold, its Nobel Prize-winning AI system for predicting protein structures, per FT",
-      "ticker": "$GOOGL",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2082586463770718366#m",
-      "tag": "TECH",
-      "published_at": "2026-07-29T21:58:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניות ואג\"ח רואות תנודות פראיות של \"יום הפד\" כאשר \"כרית ההתרסקות\" של וול סטריט מתאדה",
-      "summary_he": "",
-      "body_en": "Stocks and bonds see wild ‘Fed Day’ swings as Wall Street’s ‘crash cushion’ evaporates",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/stocks-and-bonds-see-wild-fed-day-swings-as-wall-streets-crash-cushion-evaporates-ffcbdbbc?mod=mw_rss_topstories",
-      "tag": "FED",
-      "published_at": "2026-07-29T21:56:00+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "שוק האג\"ח קורא לבלוף של וורש במאבק באינפלציה בזמן שהתשואות עולות",
-      "summary_he": "",
-      "body_en": "Bond market is calling Warsh’s bluff on inflation fight as yields surge",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
-      "tag": "MACRO",
-      "published_at": "2026-07-29T21:43:00+00:00",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "הקטל בדרכים: הרוג בשריפת משאית בכביש 4",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857217",
+      "tag": "כללי",
+      "published_at": "2026-07-30T03:30:00+00:00"
+    },
     {
       "title_he": "בלי חולצה, מתלבש בתחנת דלק ואז נעלם: התיעוד האחרון של אלדר דיין",
       "summary_he": "",
@@ -1092,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3856994",
       "tag": "כללי",
       "published_at": "2026-07-29T10:56:00+00:00"
-    },
-    {
-      "title_he": "פרסום ראשון: שני צעירים נעצרו בחשד שניסו לסחוט קבלן בדרום",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3856977",
-      "tag": "כללי",
-      "published_at": "2026-07-29T10:16:00+00:00"
     }
   ],
   "track_record": {
