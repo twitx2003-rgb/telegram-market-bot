@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T23:33:19.905164+00:00",
+  "generated_at": "2026-07-31T02:45:52.089958+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-30T23:33:19.905192+00:00",
+  "ta_generated_at": "2026-07-31T02:45:52.089969+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,165.3",
-      "change": "+0.11%",
-      "direction": "up",
+      "value": "$4,139.7",
+      "change": "-0.50%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.1129644762774556
+      "pct_raw": -0.5023313945104202
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.4",
-      "change": "+0.39%",
-      "direction": "up",
+      "value": "$88.0",
+      "change": "-1.18%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.3931259126137193
+      "pct_raw": -1.179377737841174
     },
     {
       "name": "ביטקוין",
-      "value": "$64,916",
-      "change": "+1.58%",
-      "direction": "up",
+      "value": "$64,151",
+      "change": "-0.88%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 1.5849358949280856
+      "pct_raw": -0.8848491047297258
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.057",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "3.053",
+      "change": "-0.12%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.0
+      "pct_raw": -0.11777792318262278
     }
   ],
   "sectors": [
@@ -850,34 +850,81 @@
     }
   ],
   "fear_greed": {
-    "score": 28,
-    "rating": "פחד",
-    "rating_en": "fear"
+    "score": 25,
+    "rating": "פחד קיצוני",
+    "rating_en": "extreme fear"
   },
   "us_news": [
     {
-      "title_he": "R ל-@unusual_whales: התפשטות מרכזי הנתונים בינה מלאכותית הובילה לעלייה בביקוש לחשמל, ותרמה לחשבונות חשמל גבוהים יותר לצרכנים קרא עוד:...",
+      "title_he": "R ל-@StockSavvyShay: כאן תוכלו למצוא את פירוט הרווחים המלא שלי ב-$AMZN: https://youtu.be/BgRm41EcU6c?si=oHY-egGSMd3dfPyM",
       "summary_he": "",
-      "body_en": "R to @unusual_whales: The proliferation of AI data centers has led to a surge in electricity demand, contributing to higher utility bills for consumers Read more: https://unusualwhales.com/news/ai-inc",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2082963951135215813#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T22:58:00+00:00",
-      "relative_time": "לפני 34ד׳",
-      "sentiment": "bullish"
+      "body_en": "R to @StockSavvyShay: Here’s where you can find my full $AMZN earnings breakdown: https://youtu.be/BgRm41EcU6c?si=oHY-egGSMd3dfPyM",
+      "ticker": "$AMZN",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2083007778684322053#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T01:52:09+00:00",
+      "relative_time": "לפני 53ד׳",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "Reddit $RDDT בחיפוש בגוגל: \"הפניות לחיפוש היו עצומות במהלך הרבעון והתנועה הפכה הפכפכה יותר בהמשך הרבעון. הנראות שלנו לגבי הפניה...",
+      "title_he": "$AMZN חיבר לבסוף את ביקוש הבינה המלאכותית, ההשקעה, השוליים ותקופת ההחזר בתוך הסבר קוהרנטי אחד. AWS היא כבר עסק של ~179 מיליארד דולר בהכנסות שנתיות שצומח כמעט...",
       "summary_he": "",
-      "body_en": "Reddit $RDDT on Google search: “Search referrals were choppy during the quarter and traffic became more volatile later in the quarter. Our visibility into referral traffic remains low.” “AI Overviews ",
-      "ticker": "$RDDT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082960372605325814#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T22:43:47+00:00",
-      "relative_time": "לפני 49ד׳",
+      "body_en": "$AMZN finally connected AI demand, capex, margins and the payback period inside one coherent explanation. AWS is already a ~$179B annual revenue business growing almost 37% with margins near 39% while",
+      "ticker": "$AMZN",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2083007456989634584#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T01:50:52+00:00",
+      "relative_time": "לפני 54ד׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "לפי הדיווחים, $TSLA שוקלת להפריד את עסקיה בסין לקראת עסקת SPCX פוטנציאלית של $. המהלך ייצור חומת אש רגולטורית בין סין של טסלה...",
+      "summary_he": "",
+      "body_en": "$TSLA is reportedly considering separating its China business ahead of a potential $SPCX deal. The move would create a regulatory firewall between Tesla’s China operations and SpaceX’s sensitive U.S. ",
+      "ticker": "$TSLA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082999131413598503#m",
+      "tag": "M&A",
+      "published_at": "2026-07-31T01:17:47+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "TESLA $TSLA שוקל פיצול סין לפני עסקת SPACX $SPCX - יועצי WSJ דנו בפיתוח, מכירה או סגירה, בעוד שמנהלים נאמר להם להתכונן ל...",
+      "summary_he": "",
+      "body_en": "TESLA $TSLA WEIGHS CHINA SPLIT BEFORE SPACEX $SPCX DEAL - WSJ Advisers have discussed a spinoff, sale or closure, while executives have been told to prepare for a potential separation. The plans remai",
+      "ticker": "$TSLA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2082996489203376231#m",
+      "tag": "M&A",
+      "published_at": "2026-07-31T01:07:17+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "קתי ווד קנתה היום ~14 מיליון דולר של META",
+      "summary_he": "",
+      "body_en": "Cathie Wood bought ~$14M of $META today",
+      "ticker": "$META",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2082994730284253341#m",
+      "tag": "TECH",
+      "published_at": "2026-07-31T01:00:18+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניית SK Hynix מזנקת ב-25%, בעוד שסמסונג מזנקת ביותר מ-20% עם עליית הבינה המלאכותית.",
+      "summary_he": "",
+      "body_en": "SK Hynix shares surge 25%, while Samsung soars over 20% as AI rally roars back",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/31/sk-hynix-samsung-ai-rally-chipmakers.html",
+      "tag": "TECH",
+      "published_at": "2026-07-31T00:52:26+00:00",
+      "sentiment": "bullish"
     },
     {
       "title_he": "RT מאת @cperruna: לא ייאמן: הכנסות AWS של אמזון ב-12 החודשים האחרונים (148 מיליארד דולר) היו גבוהות מההכנסות של 474 חברות ב-S&P 500. $AMZN...",
@@ -888,7 +935,7 @@
       "link": "https://nitter.net/charliebilello/status/2082956556002349325#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T22:28:37+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,20 +947,8 @@
       "link": "https://nitter.net/gurgavin/status/2082956494350303615#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T22:28:22+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנכ\"ל אפל $AAPL על עליות מחירים מונעות זיכרון: \"העלאנו מחירים באי רצון כי אנחנו נמצאים במה שהייתי מאפיין כהצפה של 100 שנים בתמחור זיכרון, עם...",
-      "summary_he": "",
-      "body_en": "Apple $AAPL CEO on memory-driven price increases: “We reluctantly raised prices because we’re in what I would characterize as a 100-year flood in memory pricing, with exponential increases in memory p",
-      "ticker": "$AAPL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082955222067171794#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T22:23:19+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
     },
     {
       "title_he": "שיעורי צמיחה של AWS, Google Cloud ו-Azure: מחזיקים בשלושתם: $AMZN $GOOGL $MSFT",
@@ -924,7 +959,7 @@
       "link": "https://nitter.net/cperruna/status/2082949434040570066#m",
       "tag": "TECH",
       "published_at": "2026-07-30T22:00:19+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -936,19 +971,7 @@
       "link": "https://nitter.net/garyblack00/status/2082947901886550232#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:54:13+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנכ\"ל $AAPL, טים קוק, אמר שאפל \"בוחנת את כל האפשרויות\" מכיוון ששוק ה-DRAM נותר מרוכז רק בין $MU, $SKHY וסמסונג. אחד הזיכרון הגדולים בעולם…",
-      "summary_he": "",
-      "body_en": "$AAPL CEO Tim Cook said Apple is “evaluating all options” as the DRAM market remains concentrated among just $MU, $SKHY and Samsung. One of the world’s largest memory buyer just admitted it has almost",
-      "ticker": "$AAPL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082947330928681428#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T21:51:57+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -960,7 +983,7 @@
       "link": "https://nitter.net/cperruna/status/2082946995258356080#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:50:37+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -972,7 +995,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2082943138679636281#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:35:18+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -984,18 +1007,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2082941807831183500#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:30:00+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Rivian מפחיתה את תוכניות ההוצאות לשנת 2026, מצמצמת את הנחיית הרווחים",
-      "summary_he": "",
-      "body_en": "Rivian reduces 2026 spending plans, narrows earnings guidance",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/30/rivian-rivn-q2-2026-earnings.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T21:19:16+00:00",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1007,19 +1019,7 @@
       "link": "https://nitter.net/cperruna/status/2082934007755333832#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T20:59:01+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: נהדר להיות ב-@CNBCClosingBell עם סקוט לדון ברווחי Big Tech ושבוע גדול לעולם הטכנולוגיה ומהפכת הבינה המלאכותית עם אפל ואמזון...",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: Great to be on @CNBCClosingBell with Scott discussing Big Tech earnings and a big week for the tech world and the AI Revolution with Apple and Amazon front and center. Great to be on",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/DivesTech/status/2082933960007450761#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:58:49+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     }
   ],
