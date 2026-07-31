@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T20:02:48.672519+00:00",
+  "generated_at": "2026-07-31T21:38:02.724504+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -70,7 +70,7 @@
     {
       "ticker": "TSLA",
       "name": "Tesla",
-      "price": 311.2,
+      "price": 311.21,
       "change_pct": 0.76,
       "direction": "up",
       "change_str": "+0.8%",
@@ -121,7 +121,7 @@
         "sma50": 358.74,
         "sma200": 326.27,
         "pct_from_52w_high": -12.8,
-        "vol_ratio": 1.07,
+        "vol_ratio": 1.08,
         "change_1d_pct": 6.73,
         "change_1w_pct": 11.4,
         "change_1m_pct": -1.4,
@@ -172,7 +172,7 @@
         "sma50": 33.3,
         "sma200": 30.72,
         "pct_from_52w_high": -6.3,
-        "vol_ratio": 1.05,
+        "vol_ratio": 1.06,
         "change_1d_pct": -1.13,
         "change_1w_pct": 13.6,
         "change_1m_pct": 4.7,
@@ -267,15 +267,15 @@
       },
       "recommendation": "קנייה",
       "confidence": 3,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($344.22) שמעל SMA50 ($327.69), RSI ב-60.5. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($344.22) שמעל SMA50 ($327.69), RSI ב-60.4. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
       "indicators": {
-        "rsi14": 60.5,
+        "rsi14": 60.4,
         "sma20": 344.22,
         "sma50": 327.69,
         "sma200": 311.85,
         "pct_from_52w_high": -2.1,
-        "vol_ratio": 0.81,
-        "change_1d_pct": 0.28,
+        "vol_ratio": 0.83,
+        "change_1d_pct": 0.27,
         "change_1w_pct": -0.4,
         "change_1m_pct": 5.3,
         "spark_3m": [
@@ -614,7 +614,7 @@
     },
     {
       "ticker": "TSLA",
-      "price": 311.2,
+      "price": 311.21,
       "setup_type": "תיקון",
       "levels": {
         "support": 297.38,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-31T20:02:48.672528+00:00",
+  "ta_generated_at": "2026-07-31T21:38:02.724515+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -672,7 +672,7 @@
       "change": "+0.70%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.7011642149448095
+      "pct_raw": 0.7003575063561934
     },
     {
       "name": "Nasdaq",
@@ -684,37 +684,37 @@
     },
     {
       "name": "Dow Jones",
-      "value": "52,486",
+      "value": "52,485",
       "change": "+0.53%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.5318718987068286
+      "pct_raw": 0.5305119554337036
     },
     {
       "name": "Russell 2000",
-      "value": "2,936",
-      "change": "-0.33%",
+      "value": "2,931",
+      "change": "-0.50%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.3321678381019543
+      "pct_raw": -0.5010690400634659
     },
     {
       "name": "VIX",
-      "value": "15.95",
-      "change": "-6.67%",
+      "value": "15.99",
+      "change": "-6.44%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -6.670567583382097
+      "pct_raw": -6.436512580456405
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,108.5",
-      "change": "-1.25%",
+      "value": "$4,098.6",
+      "change": "-1.49%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.252223237033129
+      "pct_raw": -1.4901696870643655
     },
     {
       "name": "נפט ברנט",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$62,928",
-      "change": "-2.77%",
+      "value": "$62,940",
+      "change": "-2.76%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -2.7742401083492463
+      "pct_raw": -2.756055208552375
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,29 +752,29 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.056",
-      "change": "-0.03%",
+      "value": "3.053",
+      "change": "-0.12%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.03271608977294673
+      "pct_raw": -0.12104953215991017
     }
   ],
   "sectors": [
     {
       "name": "טכנולוגיה",
-      "value": "175.28",
-      "change": "-0.26%",
+      "value": "175.35",
+      "change": "-0.22%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.25607465998975054
+      "pct_raw": -0.21624082399134778
     },
     {
       "name": "פיננסים",
-      "value": "56.93",
-      "change": "-0.12%",
+      "value": "56.94",
+      "change": "-0.11%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.12280701754386016
+      "pct_raw": -0.10526315789474083
     },
     {
       "name": "אנרגיה",
@@ -786,27 +786,27 @@
     },
     {
       "name": "בריאות",
-      "value": "162.56",
+      "value": "162.55",
       "change": "-0.59%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.590141878669278
+      "pct_raw": -0.5931996086105668
     },
     {
       "name": "תעשייה",
-      "value": "179.79",
-      "change": "+0.78%",
+      "value": "179.84",
+      "change": "+0.81%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.7847973541117808
+      "pct_raw": 0.8128258310443507
     },
     {
       "name": "צריכה שיקולית",
-      "value": "116.05",
-      "change": "+3.26%",
+      "value": "116.09",
+      "change": "+3.29%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 3.2565174837618978
+      "pct_raw": 3.2921078387756944
     },
     {
       "name": "צריכה בסיסית",
@@ -818,35 +818,35 @@
     },
     {
       "name": "נדל\"ן",
-      "value": "45.05",
-      "change": "-0.55%",
+      "value": "45.07",
+      "change": "-0.51%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.5518763796909493
+      "pct_raw": -0.5077262693156664
     },
     {
       "name": "תשתיות",
-      "value": "44.34",
-      "change": "-0.73%",
+      "value": "44.35",
+      "change": "-0.69%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.7277205553067527
+      "pct_raw": -0.6941334527541316
     },
     {
       "name": "חומרים",
-      "value": "50.41",
-      "change": "-2.37%",
+      "value": "50.43",
+      "change": "-2.34%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -2.37219209914795
+      "pct_raw": -2.3431448489543008
     },
     {
       "name": "תקשורת",
-      "value": "108.22",
-      "change": "+1.53%",
+      "value": "108.24",
+      "change": "+1.56%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 1.5340589228748405
+      "pct_raw": 1.5575154813285763
     }
   ],
   "fear_greed": {
@@ -856,28 +856,134 @@
   },
   "us_news": [
     {
-      "title_he": "$RSP לעומת $SPY הירידה הגרועה ביותר ביומיים מאז 2020 -2.7ppt",
+      "title_he": "ברוקר הפינטק קליר סטריט מציע למשקיעים לפני ההנפקה גישה לענקית הבינה המלאכותית Databricks בסך 188 מיליארד דולר",
       "summary_he": "",
-      "body_en": "$RSP vs. $SPY worst 2-day drop since 2020 -2.7ppt",
-      "ticker": "$RSP",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2083280154973876490#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-31T19:54:29+00:00",
-      "relative_time": "לפני 7ד׳",
-      "sentiment": "bearish"
+      "body_en": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html",
+      "tag": "TECH",
+      "published_at": "2026-07-31T21:36:11+00:00",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "S&P 500 הראלי הטוב ביותר ליומיים מאז 9 באפריל... +2.6%",
+      "title_he": "פורץ: יו\"ר הפד, קווין מ. ורש שוקל לצמצם את מספר הפגישות המתוכננות באופן קבוע שבהן הבנק הפדרלי קובע את שיעורי הריבית, לפי NYT",
       "summary_he": "",
-      "body_en": "S&P 500 best 2-day rally since April 9... +2.6%",
+      "body_en": "BREAKING: Fed Chair Kevin M. Warsh is considering reducing the number of regularly scheduled meetings at which the Federal Reserve sets interest rates, per NYT",
       "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2083279569264562532#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-31T19:52:09+00:00",
-      "relative_time": "לפני 10ד׳",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2083294799705375099#m",
+      "tag": "FED",
+      "published_at": "2026-07-31T20:52:40+00:00",
+      "relative_time": "לפני 44ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מורגן סטנלי הורידה את תחזית צמיחת התמ\"ג בסין לשנת 2026 ל-4.6% מ-4.8%",
+      "summary_he": "",
+      "body_en": "Morgan Stanley cut its 2026 China GDP growth forecast to 4.6% from 4.8%",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2083290855176036611#m",
+      "tag": "BANKS",
+      "published_at": "2026-07-31T20:37:00+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רק בפנים: יו\"ר הפד WARSH שוקל להוריד את כמות פגישות החלטות ה-FOMC בכל שנה במשך עשרות שנים. הפד דבק ב-8 פגישות FOMC מתוכננות בשנה",
+      "summary_he": "",
+      "body_en": "JUST IN : FED CHAIR WARSH IS CONSIDERING LOWERING THE AMOUNT OF FOMC RATE DECISION MEETINGS EVERY YEAR FOR DECADES THE FED HAS STICKED TO 8 PLANNED FOMC MEETINGS A YEAR",
+      "ticker": "",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2083290582382686622#m",
+      "tag": "FED",
+      "published_at": "2026-07-31T20:35:55+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "WARSH שוקל פחות פגישות מדיניות של הפד - יו\"ר הפד של NYT, קווין ורש, העלה את הרעיון בכינוס המדיניות השבוע וביקש מגורמים רשמיים לספק משוב. מעודכן…",
+      "summary_he": "",
+      "body_en": "WARSH CONSIDERS FEWER FED POLICY MEETINGS - NYT Fed Chair Kevin Warsh raised the idea at this week’s policy gathering and asked officials to provide feedback. A revised schedule could be approved befo",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2083289955779117160#m",
+      "tag": "FED",
+      "published_at": "2026-07-31T20:33:25+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "סערת אג\"ח ארוכות השבוע, וכל תעודות הסל הגדולות של מדד המניות עלו $SPY $QQQ $EFA $EEM $IWM @koyfincharts עוד ממני:...",
+      "summary_he": "",
+      "body_en": "Long-bond turmoil this week, and all the big stock index ETFs were up $SPY $QQQ $EFA $EEM $IWM @koyfincharts More from me: https://seekingalpha.com/article/4928869-ai-stocks-cracked-in-july-new-sp500-",
+      "ticker": "$SPY",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2083289347026022742#m",
+      "tag": "ENERGY",
+      "published_at": "2026-07-31T20:31:00+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בתחילת השנה, מדד S&P 500 היה צפוי לראות צמיחה ברווחים של כ-13% בשנת 2026. זה עד לכמעט 28% נכון לעכשיו.",
+      "summary_he": "",
+      "body_en": "At the start of the year, the S&P 500 was expected to see earnings growth of about 13% in 2026. It is up to nearly 28% as of right now.",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2083286729725809077#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T20:20:36+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אלפבית, אמזון ומיקרוסופט הוסיפו השבוע כמעט 1.5 טריליון דולר בערך משולב",
+      "summary_he": "",
+      "body_en": "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
+      "tag": "TECH",
+      "published_at": "2026-07-31T20:17:54+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניות AMAZON $AMZN זינקו ב-15%, ומציינים את היום הטוב ביותר שלהן מאז 2012",
+      "summary_he": "",
+      "body_en": "AMAZON $AMZN SHARES SURGE 15%, MARKING THEIR BEST DAY SINCE 2012",
+      "ticker": "$AMZN",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2083285646786080902#m",
+      "tag": "TECH",
+      "published_at": "2026-07-31T20:16:18+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "צמיחת רווחי S&P 500 ברבעון השני של השנה עד 47.4%. לפני שבועיים זה היה 25%.",
+      "summary_he": "",
+      "body_en": "Q2 YoY S&P 500 earnings growth up to 47.4%. Two weeks ago it was 25%.",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2083284063440322794#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T20:10:00+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניות AMAZON רק סגרו את היום בעליות של 15% זה היום הטוב ביותר מאז 2012 $AMZN",
+      "summary_he": "",
+      "body_en": "AMAZON SHARES JUST CLOSED THE DAY UP 15% IT’S BEST DAY SINCE 2012 $AMZN",
+      "ticker": "$AMZN",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2083282550261231806#m",
+      "tag": "TECH",
+      "published_at": "2026-07-31T20:04:00+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "CLEAR STREET להציע חשיפה ל-DATABRICKS לפני ההנפקה - CNBC הפלטפורמה החדשה תאפשר למשקיעים מוסמכים לקנות אינטרסים המספקים חשיפה ל-Databricks, שהיה...",
@@ -888,7 +994,7 @@
       "link": "https://nitter.net/wallstengine/status/2083272879630872990#m",
       "tag": "NEWS",
       "published_at": "2026-07-31T19:25:34+00:00",
-      "relative_time": "לפני 36ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -900,23 +1006,11 @@
       "link": "https://nitter.net/wallstengine/status/2083272841810899256#m",
       "tag": "M&A",
       "published_at": "2026-07-31T19:25:25+00:00",
-      "relative_time": "לפני 36ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "החודש ראה בינה מלאכותית/מומו התרסקות, הבנקים זינקו לשיאים חדשים, התפוצצות קרן גידור ענקית, פד חדש שבאמת מסרב להגיד כלום, הרבה תנודתיות ו-S&P 500...",
-      "summary_he": "",
-      "body_en": "This month saw AI/momo crash, banks surge to new highs, a huge hedge fund blow up, a new Fed that really refuses to say anything, a lot of volatility, and an S&P 500 that is on the verge of new ATHs. ",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2083266925950325128#m",
-      "tag": "FED",
-      "published_at": "2026-07-31T19:01:55+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: .@DivesTech אומר שרווחי היפר-סקאלרים הם כולם על צמיחת ענן, והם מראים שמקרי השימוש בארגונים מואצים. עונת הרווחים הוכיחה...",
+      "title_he": "RT מאת @DivesTech: .@DivesTech אומר שרווחי היפר-סקאלרי הם כולן על צמיחת ענן, והם מראים שמקרי השימוש בארגונים מואצים. עונת הרווחים הוכיחה...",
       "summary_he": "",
       "body_en": "RT by @DivesTech: .@DivesTech says hyperscaler earnings are all about cloud growth, and they show that enterprise use cases are accelerating. Earnings season has proven that AI is still in the early s",
       "ticker": "$GOOGL",
@@ -924,100 +1018,7 @@
       "link": "https://nitter.net/SchwabNetwork/status/2083266553496187348#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-31T19:00:26+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "איך הקרן של 45 מיליארד דולר של מודעות למצב נפער: ליאופולד אשנברנר, חוקר ארגון-על של OpenAI לשעבר בן 24, השיק את Situational Awareness ב-2024...",
-      "summary_he": "",
-      "body_en": "HOW SITUATIONAL AWARENESS’S $45B FUND UNRAVELED: Leopold Aschenbrenner, a 24-year-old former OpenAI superalignment researcher, launched Situational Awareness in 2024 after publishing a viral 165-page ",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2083266292388397246#m",
-      "tag": "ENERGY",
-      "published_at": "2026-07-31T18:59:23+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "ברוקר הפינטק Clear Street מציע למשקיעים לפני ההנפקה גישה לענקית הבינה המלאכותית Databricks בסך 188 מיליארד דולר",
-      "summary_he": "",
-      "body_en": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html",
-      "tag": "TECH",
-      "published_at": "2026-07-31T18:20:01+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ניתוח: השווקים שמעו את קווין ורש יונה. דבריו של יו\"ר הפד עצמו מרמזים על העלאת ריבית",
-      "summary_he": "",
-      "body_en": "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/31/kevin-warsh-fed-inflation-rate-hike-markets.html",
-      "tag": "FED",
-      "published_at": "2026-07-31T18:16:18+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניות APPLE $AAPL ירדו ב-10%, בדרך לירידה החמורה ביותר שלהן ביום אחד מאז 2020.",
-      "summary_he": "",
-      "body_en": "APPLE $AAPL SHARES ARE DOWN 10%, ON TRACK FOR THEIR WORST SINGLE-DAY DECLINE SINCE 2020.",
-      "ticker": "$AAPL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2083251711054098866#m",
-      "tag": "TECH",
-      "published_at": "2026-07-31T18:01:27+00:00",
       "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$RBLX ירד בכמעט 30% לאחר שהרווחים ברבעון השני חשפו מגמות חלשות של מונטיזציה שהעמידו את המניה בקצב של היום הגרוע ביותר שלה אי פעם.",
-      "summary_he": "",
-      "body_en": "$RBLX down nearly 30% after Q2 earnings exposed weak monetization trends putting the stock on pace for its worst day ever.",
-      "ticker": "$RBLX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2083251014698938722#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-31T17:58:41+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "נראה שרצף הניצחונות של 11 שנים ליולי עומד להסתיים. ובכל זאת, ירידה של פחות מ-1% עם התרסקות מוחלטת במומנטום/AI/חצי מרגיש כמו ניצחון.",
-      "summary_he": "",
-      "body_en": "Looking like the 11 year win streak for July is about to end. Still, down less than 1% with an outright crash in momentum/AI/semis feels like a win.",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2083248550071132307#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-31T17:48:53+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "אוגוסט וספטמבר הם מבחינה היסטורית החודשיים הגרועים ביותר בשנה. האם קיבלנו את התנודתיות הרגילה של שנת אמצע הקדנציה בשלב מוקדם הפעם עם קריסת המומו של יולי?",
-      "summary_he": "",
-      "body_en": "August and September are historically the worst two months of the year. Did we get the usual midterm year volatility early this time though with the July momo crash?",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2083247387942814164#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-31T17:44:16+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "בעוד שהפד של ורש מתמודד עם לחץ לפעול נגד האינפלציה, אינדיקטורים אלה מראים שהוא בשפל מזה שנים",
-      "summary_he": "",
-      "body_en": "As Warsh’s Fed faces pressure to act on inflation, these indicators show it’s at its lowest in years",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
-      "tag": "FED",
-      "published_at": "2026-07-31T16:51:30+00:00",
       "sentiment": "neutral"
     }
   ],
