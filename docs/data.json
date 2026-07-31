@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T02:45:52.089958+00:00",
+  "generated_at": "2026-07-31T06:13:12.552072+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -121,7 +121,7 @@
         "sma50": 309.3,
         "sma200": 277.65,
         "pct_from_52w_high": -3.2,
-        "vol_ratio": 0.89,
+        "vol_ratio": 0.92,
         "change_1d_pct": -1.41,
         "change_1w_pct": 3.7,
         "change_1m_pct": 15.2,
@@ -172,7 +172,7 @@
         "sma50": 326.56,
         "sma200": 311.63,
         "pct_from_52w_high": -2.4,
-        "vol_ratio": 0.84,
+        "vol_ratio": 0.85,
         "change_1d_pct": 1.78,
         "change_1w_pct": 0.3,
         "change_1m_pct": 7.2,
@@ -223,7 +223,7 @@
         "sma50": 77.46,
         "sma200": 91.55,
         "pct_from_52w_high": -42.3,
-        "vol_ratio": 1.3,
+        "vol_ratio": 1.31,
         "change_1d_pct": -0.62,
         "change_1w_pct": 6.2,
         "change_1m_pct": 2.5,
@@ -274,7 +274,7 @@
         "sma50": 359.37,
         "sma200": 325.71,
         "pct_from_52w_high": -18.3,
-        "vol_ratio": 1.01,
+        "vol_ratio": 1.02,
         "change_1d_pct": -0.91,
         "change_1w_pct": 5.0,
         "change_1m_pct": -6.6,
@@ -325,7 +325,7 @@
         "sma50": 246.38,
         "sma200": 234.75,
         "pct_from_52w_high": -15.5,
-        "vol_ratio": 0.87,
+        "vol_ratio": 0.91,
         "change_1d_pct": 3.9,
         "change_1w_pct": 0.8,
         "change_1m_pct": -1.2,
@@ -427,7 +427,7 @@
         "sma50": 206.57,
         "sma200": 193.05,
         "pct_from_52w_high": -17.5,
-        "vol_ratio": 0.82,
+        "vol_ratio": 0.83,
         "change_1d_pct": 2.65,
         "change_1w_pct": -6.6,
         "change_1m_pct": -2.5,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-31T02:45:52.089969+00:00",
+  "ta_generated_at": "2026-07-31T06:13:12.552083+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "+1.37%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.3691313981737294
+      "pct_raw": 1.3691244223775223
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,139.7",
-      "change": "-0.50%",
+      "value": "$4,131.1",
+      "change": "-0.71%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.5023313945104202
+      "pct_raw": -0.7090323511032062
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.0",
-      "change": "-1.18%",
+      "value": "$87.0",
+      "change": "-2.28%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.179377737841174
+      "pct_raw": -2.2801302931596106
     },
     {
       "name": "ביטקוין",
-      "value": "$64,151",
-      "change": "-0.88%",
+      "value": "$64,315",
+      "change": "-0.63%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.8848491047297258
+      "pct_raw": -0.631743727947718
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -756,7 +756,7 @@
       "change": "-0.12%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.11777792318262278
+      "pct_raw": -0.12104953215991017
     }
   ],
   "sectors": [
@@ -856,15 +856,38 @@
   },
   "us_news": [
     {
-      "title_he": "R ל-@StockSavvyShay: כאן תוכלו למצוא את פירוט הרווחים המלא שלי ב-$AMZN: https://youtu.be/BgRm41EcU6c?si=oHY-egGSMd3dfPyM",
+      "title_he": "R ל-@StockSavvyShay: מקור: https://www.wsj.com/business/autos/tesla-weighs-sale-of-china-business-to-pave-way-for-potential-spacex-merger-5ae26026",
       "summary_he": "",
-      "body_en": "R to @StockSavvyShay: Here’s where you can find my full $AMZN earnings breakdown: https://youtu.be/BgRm41EcU6c?si=oHY-egGSMd3dfPyM",
-      "ticker": "$AMZN",
+      "body_en": "R to @StockSavvyShay: Source: https://www.wsj.com/business/autos/tesla-weighs-sale-of-china-business-to-pave-way-for-potential-spacex-merger-5ae26026",
+      "ticker": "",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2083007778684322053#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-31T01:52:09+00:00",
-      "relative_time": "לפני 53ד׳",
+      "link": "https://nitter.net/StockSavvyShay/status/2083048895723294796#m",
+      "tag": "M&A",
+      "published_at": "2026-07-31T04:35:32+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שוק המניות 'הדו-קוטבי' של דרום קוריאה: התמוטטות, עליית שיא ומה שעתיד לבוא",
+      "summary_he": "",
+      "body_en": "South Korea's 'bipolar' stock market: meltdowns, a record rally and what's to come",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/31/south-korea-kospi-samsung-sk-hynix-meltdown-record-rebound.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-31T03:47:31+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: צוות מודיעין השוק העולמי של הבנק, בראשותו של אנדרו טיילר, אמר כי מוניטור המיקום הטקטי שלו מצביע על \"אפסיד מהותי\"...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: The bank’s global market intelligence team, led by Andrew Tyler, said its so-called tactical positioning monitor is pointing to “material upside” for the stock-market benchmark R",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2083024349137944789#m",
+      "tag": "BANKS",
+      "published_at": "2026-07-31T02:58:00+00:00",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +899,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083007456989634584#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-31T01:50:52+00:00",
-      "relative_time": "לפני 54ד׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +911,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2082999131413598503#m",
       "tag": "M&A",
       "published_at": "2026-07-31T01:17:47+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,19 +923,7 @@
       "link": "https://nitter.net/wallstengine/status/2082996489203376231#m",
       "tag": "M&A",
       "published_at": "2026-07-31T01:07:17+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "קתי ווד קנתה היום ~14 מיליון דולר של META",
-      "summary_he": "",
-      "body_en": "Cathie Wood bought ~$14M of $META today",
-      "ticker": "$META",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2082994730284253341#m",
-      "tag": "TECH",
-      "published_at": "2026-07-31T01:00:18+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -935,7 +946,7 @@
       "link": "https://nitter.net/charliebilello/status/2082956556002349325#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T22:28:37+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -947,7 +958,7 @@
       "link": "https://nitter.net/gurgavin/status/2082956494350303615#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T22:28:22+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -959,7 +970,7 @@
       "link": "https://nitter.net/cperruna/status/2082949434040570066#m",
       "tag": "TECH",
       "published_at": "2026-07-30T22:00:19+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -971,7 +982,7 @@
       "link": "https://nitter.net/garyblack00/status/2082947901886550232#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:54:13+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -983,7 +994,7 @@
       "link": "https://nitter.net/cperruna/status/2082946995258356080#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:50:37+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -995,7 +1006,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2082943138679636281#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:35:18+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1007,23 +1018,27 @@
       "link": "https://nitter.net/bespokeinvest/status/2082941807831183500#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-30T21:30:00+00:00",
-      "relative_time": "לפני 5ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$RDDT ייחודים פעילים יומיים (\"DAUq\") עלו ב-18% משנה לשנה ל-130.3 מיליון ייחודים פעילים שבועיים (\"WAUq\") עלו ב-24% משנה לשנה ל-514.6 מיליון, וחצו את...",
-      "summary_he": "",
-      "body_en": "$RDDT Daily Active Uniques (“DAUq”) increased 18% year-over-year to 130.3 million Weekly Active Uniques (“WAUq”) increased 24% year-over-year to 514.6 million, crossing half a billion Revenue of $805 ",
-      "ticker": "$RDDT",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2082934007755333832#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T20:59:01+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "נהג רכב כבן 20 נהרג בתאונה דרכים עם אוטובוס",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857493",
+      "tag": "כללי",
+      "published_at": "2026-07-31T07:48:00+00:00"
+    },
+    {
+      "title_he": "\"זלזול מוחלט בחוק\": שמונה וחצי שנות מאסר לאדם שנהג תחת השפעת סם - וגרם לתאונה קשה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857476",
+      "tag": "כללי",
+      "published_at": "2026-07-31T06:35:00+00:00"
+    },
     {
       "title_he": "האלימות בחברה הערבית: גבר נורה למוות בכסייפה - המשטרה פתחה בחקירה",
       "summary_he": "",
@@ -1087,22 +1102,6 @@
       "link": "https://news.walla.co.il/item/3854006",
       "tag": "כללי",
       "published_at": "2026-07-30T15:00:00+00:00"
-    },
-    {
-      "title_he": "פרסום ראשון: בזמן שהוא בשלילת רישיון ביצע \"פגע וברח\" באילת",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857337",
-      "tag": "כללי",
-      "published_at": "2026-07-30T13:26:00+00:00"
-    },
-    {
-      "title_he": "בן 15 נאשם שאיים לפוצץ חיילים במטענים: \"אני יודע איפה הם יושבים\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857325",
-      "tag": "כללי",
-      "published_at": "2026-07-30T12:43:00+00:00"
     }
   ],
   "track_record": {
