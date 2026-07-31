@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:24:05.810234+00:00",
+  "generated_at": "2026-07-31T11:38:35.030542+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-31T09:24:05.810244+00:00",
+  "ta_generated_at": "2026-07-31T11:38:35.030552+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "16.71",
-      "change": "-2.22%",
+      "value": "16.89",
+      "change": "-1.17%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -2.223522527794026
+      "pct_raw": -1.1702750146284335
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,114.3",
-      "change": "-1.11%",
+      "value": "$4,115.9",
+      "change": "-1.07%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.1128202663077484
+      "pct_raw": -1.0743642743835198
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.2",
-      "change": "-0.94%",
-      "direction": "down",
+      "value": "$90.1",
+      "change": "+1.20%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.9435021902729456
+      "pct_raw": 1.201842075704811
     },
     {
       "name": "ביטקוין",
-      "value": "$63,632",
-      "change": "-1.69%",
+      "value": "$63,787",
+      "change": "-1.45%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.6879047859040854
+      "pct_raw": -1.4474994835766521
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -745,18 +745,18 @@
     {
       "name": "ת\"א 35",
       "value": "4,150",
-      "change": "+1.33%",
+      "change": "+1.32%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 1.3268577595784454
+      "pct_raw": 1.3212416888257317
     },
     {
       "name": "דולר/שקל",
-      "value": "3.049",
-      "change": "-0.26%",
+      "value": "3.053",
+      "change": "-0.12%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.2551855002290136
+      "pct_raw": -0.12104953215991017
     }
   ],
   "sectors": [
@@ -856,16 +856,123 @@
   },
   "us_news": [
     {
-      "title_he": "ריימונד ג'יימס חוזר על דירוג ביצועי השוק בהערות אנליסט $AAPL: \"מגמות הרווחיות הבסיסיות היו צנועות יותר מכיוון שהחזרי תעריפים קיזזו חלק משמעותי מה...",
+      "title_he": "רווחי אקסון ושברון עולים על עליית מחירי הנפט עקב מלחמת איראן",
       "summary_he": "",
-      "body_en": "Raymond James Reiterates Market Perform Rating on $AAPL Analyst comments: \"Underlying margin trends were more modest as tariff refunds offset a meaningful portion of the increase in memory costs. Dema",
-      "ticker": "$AAPL",
+      "body_en": "Exxon and Chevron profits surge on rising oil prices due to Iran war",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/31/exxon-xom-chevron-cvx-q2-earnings.html",
+      "tag": "ENERGY",
+      "published_at": "2026-07-31T11:29:32+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מורגן סטנלי על $AMZN (OW, PT $335) הערות אנליסטים: \"האצת הצמיחה של AWS של כ-840 bps לצמיחה של 36.8% משנה לשנה, לעומת האומדן שלנו של 34%,...",
+      "summary_he": "",
+      "body_en": "Morgan Stanley on $AMZN (OW, PT $335) Analyst comments: \"AWS's approximately 840bps growth acceleration to 36.8% year-over-year growth, versus our estimate of 34%, speaks to its pole position in the a",
+      "ticker": "$AMZN",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2083116291095921109#m",
+      "link": "https://nitter.net/wallstengine/status/2083146657290744248#m",
       "tag": "EARNINGS",
-      "published_at": "2026-07-31T09:03:20+00:00",
-      "relative_time": "לפני 20ד׳",
+      "published_at": "2026-07-31T11:04:00+00:00",
+      "relative_time": "לפני 34ד׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "MODERNA $MRNA Q2'26 שיאי רווחים 🔹 הכנסות: $145M (הערכה. $103M) 🟢; +2% YoY 🔹 EPS: -$1.97 (אומדן -$2.08) 🔹 הפסד נקי: -$0.8B; שיפור של 5% משנה לשנה 🔸 mRNA-1403: החמצה...",
+      "summary_he": "",
+      "body_en": "MODERNA $MRNA Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $145M (Est. $103M) 🟢; +2% YoY 🔹 EPS: -$1.97 (Est. -$2.08) 🟢 🔹 Net Loss: -$0.8B; 5% improvement YoY 🔸 mRNA-1403: Missed Phase 3 Early Success Bar FY26",
+      "ticker": "$MRNA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2083146467955691689#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T11:03:15+00:00",
+      "relative_time": "לפני 34ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "כאשר אבק ה-FOMC שוקע, אינפלציית האיזון של 5 שנים עומדת על 2.24%",
+      "summary_he": "",
+      "body_en": "As the FOMC dust settles, 5yr breakeven inflation holds at 2.24%",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2083145902403760154#m",
+      "tag": "FED",
+      "published_at": "2026-07-31T11:01:00+00:00",
+      "relative_time": "לפני 37ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "COLGATE-PALMOLIVE $CL Q2'26 שיאי רווחים 🔹 הכנסות: $5.36B (הערכה. $5.36B) 🟡; +4.9% YoY 🔹 התאמה EPS: $0.99 (הערכה. $0.95) 🟢; +8% YoY 🔹 רווח גולמי: 61.5%; +140 bps…",
+      "summary_he": "",
+      "body_en": "COLGATE-PALMOLIVE $CL Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $5.36B (Est. $5.36B) 🟡; +4.9% YoY 🔹 Adj. EPS: $0.99 (Est. $0.95) 🟢; +8% YoY 🔹 Gross Margin: 61.5%; +140 bps YoY FY26 Guide: 🔹 Net Sales Growt",
+      "ticker": "$CL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2083145222448697562#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T10:58:18+00:00",
+      "relative_time": "לפני 39ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "המניות בארה\"ב עלו (SPX +0.4%, NDX +1.0%) כאשר ריבאונד של יצרניות השבבים העולמיות בהובלת SK Hynix (+30%) וסמסונג (+21%) העלו את קוספי של דרום קוריאה בשיעור חסר תקדים של 18%. ב…",
+      "summary_he": "",
+      "body_en": "US stocks rose (SPX +0.4%, NDX +1.0%) as a global chipmakers’ rebound led by SK Hynix (+30%) and Samsung (+21%) lifted South Korea’s Kospi by an unprecedented 18%. In addition, $AMZN ‘s strong earning",
+      "ticker": "$AMZN",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2083141592555098548#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T10:43:53+00:00",
+      "relative_time": "לפני 54ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$XOM - EXXONMISSES ESTIMATES כמו הפלט נשאר חזק תוצאות התאמה. EPS: $3.52 לעומת $3.54-$3.60 משוער. ❌ התאמה רווחים: 14.68 מיליארד דולר לעומת הערכה של 15.10 מיליארד דולר ❌ ייצור: 4.514 מיליון דולר ביפד...",
+      "summary_he": "",
+      "body_en": "$XOM - EXXONMISSES ESTIMATES AS OUTPUT REMAINS STRONG Results Adj. EPS: $3.52 vs. $3.54-$3.60 est. ❌ Adj. Earnings: $14.68B vs. $15.10B est. ❌ Production: 4.514M boepd Permian Production: Record 1.8M+",
+      "ticker": "$XOM",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2083138967038275969#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T10:33:27+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "$AMZN - AMAZON - במהלך הרבעון השני של 2026, קיבלנו כ-640 מיליון דולר של החזרי תעריפים תחת IEEPA - הגשה",
+      "summary_he": "",
+      "body_en": "$AMZN - AMAZON - DURING Q2 2026, WE RECEIVED ABOUT $640 MILLION OF TARIFF REFUNDS UNDER IEEPA - FILING",
+      "ticker": "$AMZN",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2083131833919647912#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T10:05:06+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שיא שיא שיא של מניות השבבים הקוריאניות SK Hynix זינקה ב-30% וסמסונג אלקטרוניקה זינקה ב-27%, והעלתה את ה-Kospi ב-18%, לאחר שסיטאדל רכשה נכסי בינה מלאכותית במצוקה...",
+      "summary_he": "",
+      "body_en": "KOREAN CHIP STOCKS STAGE RECORD REBOUND SK Hynix surged 30% and Samsung Electronics jumped 27%, lifting the Kospi 18%, as Citadel's purchase of distressed AI assets fueled a relief rally. Analysts sai",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2083128155619946726#m",
+      "tag": "TECH",
+      "published_at": "2026-07-31T09:50:29+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "האינפלציה בגוש היורו מואצת מחדש האינפלציה בגוש האירו עלתה ל-2.9% ביולי מ-2.8%, בהתאם לתחזיות, כאשר עליית מחירי הנפט בעקבות המתיחות המחודשת בין ארה\"ב לאיראן הוסרה...",
+      "summary_he": "",
+      "body_en": "EUROZONE INFLATION REACCELERATES Eurozone inflation rose to 2.9% in July from 2.8%, matching forecasts, as higher oil prices following renewed US-Iran tensions lifted energy costs. The data reinforced",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2083121599343927397#m",
+      "tag": "FED",
+      "published_at": "2026-07-31T09:24:26+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "אפל יורדת ב-7%, אמזון עולה ב-12% כאשר המשקיעים בוחרים זוכים בבינה מלאכותית לאחר רווחים",
@@ -879,29 +986,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "אירועי המפתח של היום (כל EST) — 07/31/2026 06:00: $ARES 06:00: Patria $PAX 06:00: Proto Labs $PRLB 06:00: פתרונות היקפיים $PRM 06:05: AngloGold Ashanti $AU 06:10",
-      "summary_he": "",
-      "body_en": "Today's Key Events (All EST) — 07/31/2026 06:00: $ARES 06:00: Patria $PAX 06:00: Proto Labs $PRLB 06:00: Perimeter Solutions $PRM 06:05: AngloGold Ashanti $AU 06:10: Carter’s $CRI 06:15: Chevron $CVX ",
-      "ticker": "$ARES",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2083109472885772797#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-31T08:36:15+00:00",
-      "relative_time": "לפני 47ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אודיסיאת ההנפקה בת 3 שנים של קמעונאית האופנה המהירה שיין עלתה ל\"זמן הזהב\" לצאת להנפקה",
-      "summary_he": "",
-      "body_en": "Fast-fashion retailer Shein’s 3-year IPO odyssey may have cost it the ‘golden time’ to go public",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/31/shein-ipo-hong-kong-ftc-investigation-tariffs-fast-fashion-.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-31T06:33:30+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "R ל-@StockSavvyShay: מקור: https://www.wsj.com/business/autos/tesla-weighs-sale-of-china-business-to-pave-way-for-potential-spacex-merger-5ae26026",
       "summary_he": "",
       "body_en": "R to @StockSavvyShay: Source: https://www.wsj.com/business/autos/tesla-weighs-sale-of-china-business-to-pave-way-for-potential-spacex-merger-5ae26026",
@@ -910,23 +994,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083048895723294796#m",
       "tag": "M&A",
       "published_at": "2026-07-31T04:35:32+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R ל-@unusual_whales: צוות מודיעין השוק העולמי של הבנק, בראשותו של אנדרו טיילר, אמר כי מוניטור המיקום הטקטי שלו מצביע על \"אפסייד מהותי\"...",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: The bank’s global market intelligence team, led by Andrew Tyler, said its so-called tactical positioning monitor is pointing to “material upside” for the stock-market benchmark R",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2083024349137944789#m",
-      "tag": "BANKS",
-      "published_at": "2026-07-31T02:58:00+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$AMZN סוף סוף חיבר בין ביקוש לבינה מלאכותית, השקעה, מרווחים ותקופת ההחזר בתוך הסבר קוהרנטי אחד. AWS הוא כבר עסק של ~179 מיליארד דולר בהכנסות שנתיות שצומח כמעט...",
+      "title_he": "$AMZN חיבר לבסוף את ביקוש הבינה המלאכותית, ההשקעה, השוליים ותקופת ההחזר בתוך הסבר קוהרנטי אחד. AWS היא כבר עסק של ~179 מיליארד דולר בהכנסות שנתיות שצומח כמעט...",
       "summary_he": "",
       "body_en": "$AMZN finally connected AI demand, capex, margins and the payback period inside one coherent explanation. AWS is already a ~$179B annual revenue business growing almost 37% with margins near 39% while",
       "ticker": "$AMZN",
@@ -934,7 +1006,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083007456989634584#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-31T01:50:52+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,83 +1018,27 @@
       "link": "https://nitter.net/StockSavvyShay/status/2082999131413598503#m",
       "tag": "M&A",
       "published_at": "2026-07-31T01:17:47+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "TESLA $TSLA שוקל פיצול סין לפני עסקת SPACX $SPCX - יועצי WSJ דנו בפיתוח, מכירה או סגירה, בעוד שמנהלים נאמר להם להתכונן ל...",
-      "summary_he": "",
-      "body_en": "TESLA $TSLA WEIGHS CHINA SPLIT BEFORE SPACEX $SPCX DEAL - WSJ Advisers have discussed a spinoff, sale or closure, while executives have been told to prepare for a potential separation. The plans remai",
-      "ticker": "$TSLA",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2082996489203376231#m",
-      "tag": "M&A",
-      "published_at": "2026-07-31T01:07:17+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @cperruna: לא ייאמן: הכנסות AWS של אמזון ב-12 החודשים האחרונים (148 מיליארד דולר) היו גבוהות מההכנסות של 474 חברות ב-S&P 500. $AMZN...",
-      "summary_he": "",
-      "body_en": "RT by @cperruna: Incredible: Amazon's AWS revenue over the last 12 months ($148 billion) was higher than the revenue of 474 companies in the S&P 500. $AMZN https://bilello.blog/newsletter",
-      "ticker": "$AMZN",
-      "source": "@cperruna",
-      "link": "https://nitter.net/charliebilello/status/2082956556002349325#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T22:28:37+00:00",
       "relative_time": "לפני 10ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "בשיחת הרווחים של TRIDEWEB היום, אמר המנכ\"ל כי לקוחות בודקים כעת את אותות השוק החיזוי של קלשי לצד מחירים, החלפות ואג\"ח ממשלתיות.",
-      "summary_he": "",
-      "body_en": "ON TRADEWEB’S EARNINGS CALL TODAY THE CEO SAID CLIENTS ARE NOW LOOKING AT KALSHI’S PREDICTION MARKET SIGNALS ALONGSIDE RATES, SWAPS AND GOVERNMENT BONDS TRADEWEB DOES $2.6 TRILLION IN NOTIONAL A DAY P",
-      "ticker": "$TW",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2082956494350303615#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T22:28:22+00:00",
-      "relative_time": "לפני 10ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שיעורי צמיחה של AWS, Google Cloud ו-Azure: מחזיקים בשלושתם: $AMZN $GOOGL $MSFT",
-      "summary_he": "",
-      "body_en": "AWS, Google Cloud, and Azure Growth Rates: Holding all three: $AMZN $GOOGL $MSFT",
-      "ticker": "$AMZN",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2082949434040570066#m",
-      "tag": "TECH",
-      "published_at": "2026-07-30T22:00:19+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$RIVN +2.0% AH לאחר פרסום סיבובים גבוהים מהצפוי והפסדים נמוכים מהצפוי של Adj EBITDA ברבעון השני, הרווח הגולמי של Auto היה גבוה משמעותית מהצפוי. FY'26…",
-      "summary_he": "",
-      "body_en": "$RIVN +2.0% AH after posting higher than expected revs and lower than expected Adj EBITDA losses in 2Q, Auto gross margin was significantly higher than expected. FY’26 EBITDA guidance was raised by +$",
-      "ticker": "$RIVN",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2082947901886550232#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T21:54:13+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$AMZN \"מזמן האמנו ש-AWS יכולה להפוך לעסק של כמה מאות מיליארדי דולרים בהכנסות וכעת מאמינים שזה יהיה לפחות כפול מזה ואולי מאוד יהיה 1 דולר...",
-      "summary_he": "",
-      "body_en": "$AMZN \"We've long believed AWS could become a few hundred billion dollars revenue business and now believe it will be at least double that and very possibly be $1 trillion annual revenue business for ",
-      "ticker": "$AMZN",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2082946995258356080#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-30T21:50:37+00:00",
-      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "שרידיהם של סבו וסבתו של הרצל הועלו לישראל; יובאו לקבורה בהר הרצל",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857551",
+      "tag": "כללי",
+      "published_at": "2026-07-31T13:32:00+00:00"
+    },
+    {
+      "title_he": "הולכת רגל נדרסה למוות בנהריה על ידי נהג מונית - לעיני בתה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857541",
+      "tag": "כללי",
+      "published_at": "2026-07-31T13:10:00+00:00"
+    },
     {
       "title_he": "מעצרו של החשוד בהשלכת האבן לעבר בניין חדשות 12 הוארך בארבעה ימים",
       "summary_he": "",
@@ -1086,22 +1102,6 @@
       "link": "https://news.walla.co.il/item/3857405",
       "tag": "כללי",
       "published_at": "2026-07-30T17:30:00+00:00"
-    },
-    {
-      "title_he": "הותר לפרסום: הנאשם ברצח הרב גואטה הוא יוסף חיים פרידריך",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857401",
-      "tag": "כללי",
-      "published_at": "2026-07-30T17:18:00+00:00"
-    },
-    {
-      "title_he": "חשד לרצח: בן 41 נמצא ללא רוח חיים בבית בחוף הכרמל; המשטרה פתחה בחקירה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857388",
-      "tag": "כללי",
-      "published_at": "2026-07-30T16:38:00+00:00"
     }
   ],
   "track_record": {
