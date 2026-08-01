@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T14:25:43.591129+00:00",
+  "generated_at": "2026-08-01T15:36:33.509239+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-01T14:25:43.591138+00:00",
+  "ta_generated_at": "2026-08-01T15:36:33.509250+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,048",
-      "change": "+0.36%",
+      "value": "$62,992",
+      "change": "+0.27%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3582317559678536
+      "pct_raw": 0.26933161435319347
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,29 @@
   },
   "us_news": [
     {
+      "title_he": "מיקרוסופט הכריזה זה עתה על חדשות ענק לבעלי המניות של Nvidia",
+      "summary_he": "",
+      "body_en": "Microsoft Just Announced Huge News for Nvidia Shareholders",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-just-announced-huge-news-150700475.html",
+      "tag": "TECH",
+      "published_at": "2026-08-01T15:07:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רווחי טכנולוגיה-מדיה-טלקום אדירים... ותגובות מניות מושתקות... GS",
+      "summary_he": "",
+      "body_en": "Massive tech-media-telecom earnings beats... and muted stock reactions.. GS",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2083567429163139543#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-01T14:56:00+00:00",
+      "relative_time": "לפני 40ד׳",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "ל-$MU יש כעת שולי רווח גולמיים גבוהים יותר מ-$META עם 85% ברמת הזיכרון לעומת 80% בפלטפורמת המודעות. Meta משלמת עבור בניית הבינה המלאכותית בעוד שהאספקה ​​מחויבת ל...",
       "summary_he": "",
       "body_en": "$MU now has higher gross margins than $META with 85% at the memory fab versus 80% at the ad platform. Meta is paying for the AI buildout while supply is committed for years giving Micron the power to ",
@@ -864,30 +887,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083558616951296367#m",
       "tag": "TECH",
       "published_at": "2026-08-01T14:20:59+00:00",
-      "relative_time": "לפני 4ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אפל בדיוק עשתה משהו שהיא לא עשתה כבר יותר משנה, והמניה יכולה להמשיך לטפס גבוה יותר מכאן",
-      "summary_he": "",
-      "body_en": "Apple Just Did Something It Hasn't Done in Over a Year, and the Stock Can Keep Climbing Higher From Here",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-just-did-something-hasnt-140500798.html",
-      "tag": "TECH",
-      "published_at": "2026-08-01T14:05:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "GS: מדד S&P 500 שווה משקל המשיך לטפס לצד צמיחה מתמדת של EPS. $RSP",
-      "summary_he": "",
-      "body_en": "GS: The equal-weight S&P 500 has continued to climb alongside steady EPS growth. $RSP",
-      "ticker": "$RSP",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2083552329597337767#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-01T13:56:00+00:00",
-      "relative_time": "לפני 29ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -902,17 +902,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "הנה מה ששווה להזרים באוגוסט 2026 בנטפליקס, Hulu, HBO Max ועוד",
-      "summary_he": "",
-      "body_en": "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-august-2026-on-netflix-hulu-hbo-max-and-more-21b78a08?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-01T13:01:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "כשהאמריקאים הולכים ישירות עם מרשמי GLP-1, וולמארט, קוסטקו, אמזון יהיו זוכות גדולות בירידה במשקל",
       "summary_he": "",
       "body_en": "As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners",
@@ -924,17 +913,6 @@
       "sentiment": "bearish"
     },
     {
-      "title_he": "פריצת Hugging Face של OpenAI אישרה חודשים של אזהרות סייבר בינה מלאכותית: 'תיבת פנדורה פתוחה'",
-      "summary_he": "",
-      "body_en": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html",
-      "tag": "TECH",
-      "published_at": "2026-08-01T12:00:01+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "AWS לבדה עשויה להיות שווה 2 טריליון דולר, מנכ\"ל AMZN, אנדי ג'סי, אומר ש-AWS \"פורחת\" כאשר ה-ARR מגיע ל-169 מיליארד דולר, כאשר הצמיחה מואצת ברבעון חמישי ברציפות ל-37% ו...",
       "summary_he": "",
       "body_en": "AWS ALONE COULD BE WORTH $2 TRILLION $AMZN CEO Andy Jassy says AWS is “booming” with ARR reaching $169B as growth accelerates for a fifth straight quarter to 37% and its AI business surpasses $25B run",
@@ -943,8 +921,19 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083518095679762800#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-01T11:39:58+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "J.P. מורגן מפיל את פצצת הריבית של הפד על וורש, אינפלציה",
+      "summary_he": "",
+      "body_en": "J.P. Morgan drops Fed rate bombshell over Warsh, inflation",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/economy/policy/articles/j-p-morgan-drops-fed-060300978.html",
+      "tag": "FED",
+      "published_at": "2026-08-01T06:03:00+00:00",
+      "sentiment": "bearish"
     },
     {
       "title_he": "RT מאת @cperruna: Microsoft $MSFT בדיוק הדפיסה את השבוע הטוב ביותר שלה מזה למעלה מ-25 שנה 🔥",
@@ -955,7 +944,7 @@
       "link": "https://nitter.net/TrendSpider/status/2083304195130626541#m",
       "tag": "TECH",
       "published_at": "2026-07-31T21:30:00+00:00",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     },
     {
@@ -967,11 +956,11 @@
       "link": "https://nitter.net/gurgavin/status/2083290582382686622#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:35:55+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "WARSH שוקל פחות פגישות מדיניות של הפד - יו\"ר הפד של NYT, קווין ורש, העלה את הרעיון בכינוס המדיניות השבוע וביקש מגורמים רשמיים לספק משוב. מעודכן…",
+      "title_he": "WARSH שוקל פחות פגישות מדיניות של הפד - יו\"ר הפד של NYT, קווין וורש, העלה את הרעיון בכינוס המדיניות השבוע וביקש מגורמים רשמיים לספק משוב. מעודכן…",
       "summary_he": "",
       "body_en": "WARSH CONSIDERS FEWER FED POLICY MEETINGS - NYT Fed Chair Kevin Warsh raised the idea at this week’s policy gathering and asked officials to provide feedback. A revised schedule could be approved befo",
       "ticker": "",
@@ -979,7 +968,7 @@
       "link": "https://nitter.net/wallstengine/status/2083289955779117160#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:33:25+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "bullish"
     },
     {
@@ -991,7 +980,7 @@
       "link": "https://nitter.net/wallstengine/status/2083285646786080902#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:16:18+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1003,7 +992,7 @@
       "link": "https://nitter.net/KobeissiLetter/status/2083283494675837114#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:07:45+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1015,8 +1004,20 @@
       "link": "https://nitter.net/gurgavin/status/2083282550261231806#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:04:00+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "CLEAR STREET להציע חשיפה ל-DATABRICKS לפני ההנפקה - CNBC הפלטפורמה החדשה תאפשר למשקיעים מוסמכים לקנות אינטרסים המספקים חשיפה ל-Databricks, שהיה...",
+      "summary_he": "",
+      "body_en": "CLEAR STREET TO OFFER PRE-IPO DATABRICKS EXPOSURE - CNBC The new platform will allow accredited investors to buy interests providing exposure to Databricks, which was valued at $188B this month. Clear",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2083272879630872990#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-31T19:25:34+00:00",
+      "relative_time": "לפני 20ש׳",
+      "sentiment": "bullish"
     }
   ],
   "il_news": [
