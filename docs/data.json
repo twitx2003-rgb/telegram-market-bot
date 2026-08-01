@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T18:05:05.717453+00:00",
+  "generated_at": "2026-08-01T19:42:55.002273+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-01T18:05:05.717485+00:00",
+  "ta_generated_at": "2026-08-01T19:42:55.002285+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$62,613",
-      "change": "-0.33%",
+      "value": "$62,423",
+      "change": "-0.64%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.33420245358979195
+      "pct_raw": -0.6372906534975367
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/gurgavin/status/2083607183904608432#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-01T17:33:58+00:00",
-      "relative_time": "לפני 30ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/gurgavin/status/2083600010541764742#m",
       "tag": "M&A",
       "published_at": "2026-08-01T17:05:28+00:00",
-      "relative_time": "לפני 59ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,19 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2083598888687010103#m",
       "tag": "MACRO",
       "published_at": "2026-08-01T17:01:01+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ברור שהאינפלציה היא לא הדאגה... וגירעונות פיסקאליים מסיביים קיימים כבר זמן מה... האם הקצה הארוך של העקומה לשלוט בתאגידים אינטנסיביים...",
-      "summary_he": "",
-      "body_en": "It's clear that inflation isn't the concern... and massive fiscal deficits have been around for a while now... Is the long end of the curve to govern intense corporate debt issuance? hmm $LQD Anyway..",
-      "ticker": "$LQD",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2083587561780318484#m",
-      "tag": "ENERGY",
-      "published_at": "2026-08-01T16:16:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -912,7 +900,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083558616951296367#m",
       "tag": "TECH",
       "published_at": "2026-08-01T14:20:59+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,7 +934,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083518095679762800#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-01T11:39:58+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bullish"
     },
     {
@@ -958,7 +946,7 @@
       "link": "https://nitter.net/TrendSpider/status/2083304195130626541#m",
       "tag": "TECH",
       "published_at": "2026-07-31T21:30:00+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 22ש׳",
       "sentiment": "neutral"
     },
     {
@@ -970,7 +958,7 @@
       "link": "https://nitter.net/gurgavin/status/2083290582382686622#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:35:55+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "neutral"
     },
     {
@@ -982,7 +970,7 @@
       "link": "https://nitter.net/wallstengine/status/2083289955779117160#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:33:25+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "bullish"
     },
     {
@@ -994,7 +982,7 @@
       "link": "https://nitter.net/wallstengine/status/2083285646786080902#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:16:18+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1006,7 +994,7 @@
       "link": "https://nitter.net/KobeissiLetter/status/2083283494675837114#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:07:45+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1018,11 +1006,27 @@
       "link": "https://nitter.net/gurgavin/status/2083282550261231806#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:04:00+00:00",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "חשד לרצח בנתיבות: גבר כבן 40 נורה למוות - הרקע פלילי",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857728",
+      "tag": "כללי",
+      "published_at": "2026-08-01T21:50:00+00:00"
+    },
+    {
+      "title_he": "קטטה המונית ברהט: 24 חשודים נעצרו, שני שוטרים נפצעו מיידוי אבנים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857722",
+      "tag": "כללי",
+      "published_at": "2026-08-01T20:58:00+00:00"
+    },
     {
       "title_he": "שבת קטלנית בחופים: שלושה גברים טבעו, נקבע מותו של בן 61 בסמוך לנווה ים",
       "summary_he": "",
@@ -1086,22 +1090,6 @@
       "link": "https://news.walla.co.il/item/3857541",
       "tag": "כללי",
       "published_at": "2026-07-31T13:10:00+00:00"
-    },
-    {
-      "title_he": "מעצרו של החשוד בהשלכת האבן לעבר בניין חדשות 12 הוארך בארבעה ימים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857512",
-      "tag": "כללי",
-      "published_at": "2026-07-31T10:48:00+00:00"
-    },
-    {
-      "title_he": "נהג רכב כבן 20 נהרג בתאונה דרכים עם אוטובוס",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857493",
-      "tag": "כללי",
-      "published_at": "2026-07-31T07:48:00+00:00"
     }
   ],
   "track_record": {
