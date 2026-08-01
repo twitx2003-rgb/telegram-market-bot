@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T11:16:07.214272+00:00",
+  "generated_at": "2026-08-01T12:32:18.680033+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-01T11:16:07.214285+00:00",
+  "ta_generated_at": "2026-08-01T12:32:18.680044+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$62,994",
-      "change": "+0.27%",
+      "value": "$63,027",
+      "change": "+0.32%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.27133723975041196
+      "pct_raw": 0.3242475478483744
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,13 +856,36 @@
   },
   "us_news": [
     {
-      "title_he": "מדד S&P 500 שווה משקל רק עישן את ה- Nasdaq-100 ביולי - עם ביצועים טובים יותר על רקע ההתנתקות האלימה של מניית השבבים",
+      "title_he": "פריצת Hugging Face של OpenAI אישרה חודשים של אזהרות סייבר בינה מלאכותית: 'תיבת פנדורה פתוחה'",
       "summary_he": "",
-      "body_en": "The equal-weighted S&P 500 just smoked the Nasdaq-100 in July — outperforming amid the violent chip-stock unwind",
+      "body_en": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html",
+      "tag": "TECH",
+      "published_at": "2026-08-01T12:00:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "AWS לבדה עשויה להיות שווה 2 טריליון דולר, מנכ\"ל AMZN, אנדי ג'סי, אומר ש-AWS \"פורחת\" כאשר ה-ARR מגיע ל-169 מיליארד דולר, כאשר הצמיחה מואצת ברבעון חמישי ברציפות ל-37% ו...",
+      "summary_he": "",
+      "body_en": "AWS ALONE COULD BE WORTH $2 TRILLION $AMZN CEO Andy Jassy says AWS is “booming” with ARR reaching $169B as growth accelerates for a fifth straight quarter to 37% and its AI business surpasses $25B run",
+      "ticker": "$AMZN",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2083518095679762800#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-01T11:39:58+00:00",
+      "relative_time": "לפני 51ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "האם הממשלה משקרת לנו לגבי האינפלציה?",
+      "summary_he": "",
+      "body_en": "Is the government lying to us about inflation?",
       "ticker": "",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-equal-weighted-s-p-500-just-smoked-the-nasdaq-100-in-july-outperforming-amid-the-violent-chip-stock-unwind-bceb1437?mod=mw_rss_topstories",
-      "tag": "TECH",
+      "link": "https://www.marketwatch.com/story/is-the-government-lying-to-us-about-inflation-a399e467?mod=mw_rss_topstories",
+      "tag": "MACRO",
       "published_at": "2026-08-01T11:00:00+00:00",
       "sentiment": "neutral"
     },
@@ -875,7 +898,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083482600916599246#m",
       "tag": "TECH",
       "published_at": "2026-08-01T09:18:55+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,31 +910,18 @@
       "link": "https://nitter.net/RyanDetrick/status/2083392335635681301#m",
       "tag": "NEWS",
       "published_at": "2026-08-01T03:20:15+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "כמה פגישות FOMC בשנה אמורות להיות?",
+      "title_he": "פיררו עובר לבטל את התביעה נגד אולימפיאן, אומר נזק לבריכה המשקף שנגרם מ\"התקנה לקויה\"",
       "summary_he": "",
-      "body_en": "How many FOMC meetings per year should there be?",
+      "body_en": "Pirro moves to drop case against Olympian, says Reflecting Pool damage caused by 'flawed installation'",
       "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2083332338528796792#m",
-      "tag": "FED",
-      "published_at": "2026-07-31T23:21:50+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$MSFT $AMZN הזוכים בעונת הרווחים של מגה-קאפ",
-      "summary_he": "",
-      "body_en": "$MSFT $AMZN the mega-cap earnings-season winners",
-      "ticker": "$MSFT",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2083319546799116353#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-31T22:31:00+00:00",
-      "relative_time": "לפני 12ש׳",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/31/trump-pirro-reflecting-pool-olympian-david-hearn.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-31T23:19:16+00:00",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +933,7 @@
       "link": "https://nitter.net/TrendSpider/status/2083304195130626541#m",
       "tag": "TECH",
       "published_at": "2026-07-31T21:30:00+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -935,7 +945,7 @@
       "link": "https://nitter.net/gurgavin/status/2083290582382686622#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:35:55+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -947,7 +957,7 @@
       "link": "https://nitter.net/wallstengine/status/2083289955779117160#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:33:25+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "bullish"
     },
     {
@@ -959,7 +969,7 @@
       "link": "https://nitter.net/wallstengine/status/2083285646786080902#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:16:18+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "bullish"
     },
     {
@@ -971,7 +981,7 @@
       "link": "https://nitter.net/KobeissiLetter/status/2083283494675837114#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:07:45+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
@@ -983,7 +993,18 @@
       "link": "https://nitter.net/gurgavin/status/2083282550261231806#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:04:00+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רוצה להחליף את SpaceX עבור אפל? 1 אינץ אומר דלג על הדולר",
+      "summary_he": "",
+      "body_en": "Want to trade SpaceX for Apple? 1inch says skip the dollars",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/want-trade-spacex-apple-1inch-194500911.html",
+      "tag": "TECH",
+      "published_at": "2026-07-31T19:45:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -995,34 +1016,19 @@
       "link": "https://nitter.net/wallstengine/status/2083272879630872990#m",
       "tag": "NEWS",
       "published_at": "2026-07-31T19:25:34+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "כאשר הפד של ורש מתמודד עם לחץ לפעול נגד האינפלציה, אינדיקטורים אלה מראים שהוא בשפל מזה שנים",
-      "summary_he": "",
-      "body_en": "As Warsh’s Fed faces pressure to act on inflation, these indicators show it’s at its lowest in years",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
-      "tag": "FED",
-      "published_at": "2026-07-31T16:51:30+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מינוף המותג הוא אחד ממניעי הערך החזקים ביותר בהשקעות. מינוף המותג הוא הרחבה של מותג מבוסס חזק לקטגוריה שכנה, שאם...",
-      "summary_he": "",
-      "body_en": "Brand leverage is one of the most powerful value drivers in investing. Brand leverage is the extension of a strong established brand to a neighboring category, which if successful can expand the compa",
-      "ticker": "",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2083184962266714526#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-31T13:36:13+00:00",
-      "relative_time": "לפני 21ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "שבת קטלנית בחופים: שלושה גברים טבעו, נקבע מותו של בן 61 בסמוך לנווה ים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857679",
+      "tag": "כללי",
+      "published_at": "2026-08-01T14:59:00+00:00"
+    },
     {
       "title_he": "הזמנת החיסול, ממצאי החקירה - ותפיסת החשוד המרכזי: פרשת רצח בניהו רזי",
       "summary_he": "",
@@ -1094,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3857493",
       "tag": "כללי",
       "published_at": "2026-07-31T07:48:00+00:00"
-    },
-    {
-      "title_he": "\"זלזול מוחלט בחוק\": שמונה וחצי שנות מאסר לאדם שנהג תחת השפעת סם - וגרם לתאונה קשה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857476",
-      "tag": "כללי",
-      "published_at": "2026-07-31T06:35:00+00:00"
     }
   ],
   "track_record": {
