@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T00:07:48.669990+00:00",
+  "generated_at": "2026-08-01T04:03:04.846574+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -223,7 +223,7 @@
         "sma50": 246.63,
         "sma200": 235.01,
         "pct_from_52w_high": -2.5,
-        "vol_ratio": 1.07,
+        "vol_ratio": 1.08,
         "change_1d_pct": 15.32,
         "change_1w_pct": 17.0,
         "change_1m_pct": 12.4,
@@ -376,7 +376,7 @@
         "sma50": 309.5,
         "sma200": 277.96,
         "pct_from_52w_high": -10.3,
-        "vol_ratio": 1.02,
+        "vol_ratio": 1.03,
         "change_1d_pct": -7.35,
         "change_1w_pct": -7.2,
         "change_1m_pct": 4.9,
@@ -478,7 +478,7 @@
         "sma50": 399.4,
         "sma200": 433.58,
         "pct_from_52w_high": -16.1,
-        "vol_ratio": 1.03,
+        "vol_ratio": 1.04,
         "change_1d_pct": 3.02,
         "change_1w_pct": 21.8,
         "change_1m_pct": 20.9,
@@ -529,7 +529,7 @@
         "sma50": 77.11,
         "sma200": 91.3,
         "pct_from_52w_high": -43.4,
-        "vol_ratio": 1.06,
+        "vol_ratio": 1.07,
         "change_1d_pct": -2.0,
         "change_1w_pct": 2.3,
         "change_1m_pct": -3.3,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-01T00:07:48.670001+00:00",
+  "ta_generated_at": "2026-08-01T04:03:04.846584+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "-0.50%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.5010690400634659
+      "pct_raw": -0.5010352669631026
     },
     {
       "name": "VIX",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$62,878",
-      "change": "+0.09%",
+      "value": "$62,941",
+      "change": "+0.19%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.08635809101200825
+      "pct_raw": 0.18800827979468324
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,16 +856,16 @@
   },
   "us_news": [
     {
-      "title_he": "R ל-@unusual_whales: התביעה הבלתי חתומה טוענת שהמייסדים והתומכים הפיננסיים של קאווה זרקו מיליארדי דולרים במניות במחירים מנופחים מהייפ על...",
+      "title_he": "AI/semis/momo די התרסק במשך חמישה שבועות רצופים לאחר הכיסוי הזה.",
       "summary_he": "",
-      "body_en": "R to @unusual_whales: The unsealed lawsuit alleges Cava’s founders and financial backers dumped billions of dollars in stock at prices inflated by hype about the company’s supposedly soaring trajector",
+      "body_en": "AI/semis/momo pretty much crashed for five straight weeks after this cover.",
       "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2083334643881771258#m",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2083392335635681301#m",
       "tag": "NEWS",
-      "published_at": "2026-07-31T23:31:00+00:00",
-      "relative_time": "לפני 36ד׳",
-      "sentiment": "bullish"
+      "published_at": "2026-08-01T03:20:15+00:00",
+      "relative_time": "לפני 42ד׳",
+      "sentiment": "bearish"
     },
     {
       "title_he": "כמה פגישות FOMC בשנה אמורות להיות?",
@@ -876,7 +876,18 @@
       "link": "https://nitter.net/MikeZaccardi/status/2083332338528796792#m",
       "tag": "FED",
       "published_at": "2026-07-31T23:21:50+00:00",
-      "relative_time": "לפני 45ד׳",
+      "relative_time": "לפני 4ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "פיררו עובר לבטל את התביעה נגד אולימפיאן, אומר נזק לבריכה המשקף שנגרם מ\"התקנה לקויה\"",
+      "summary_he": "",
+      "body_en": "Pirro moves to drop case against Olympian, says Reflecting Pool damage caused by 'flawed installation'",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/31/trump-pirro-reflecting-pool-olympian-david-hearn.html",
+      "tag": "NEWS",
+      "published_at": "2026-07-31T23:19:16+00:00",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +899,18 @@
       "link": "https://nitter.net/MikeZaccardi/status/2083319546799116353#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-31T22:31:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ה-S&P 500 עושה שינוי על ידי הוספת המניה התעשייתית המעט ידועה הזו",
+      "summary_he": "",
+      "body_en": "The S&P 500 is making a change by adding this little-known industrial stock",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-is-making-a-change-by-adding-this-little-known-industrial-stock-da648bd1?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-31T21:53:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +922,18 @@
       "link": "https://nitter.net/TrendSpider/status/2083304195130626541#m",
       "tag": "TECH",
       "published_at": "2026-07-31T21:30:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "S&P 500 מסתיים עם הירידה הראשונה שלו ביולי מאז 2014. להלן המניות שהובילו את המכירה.",
+      "summary_he": "",
+      "body_en": "S&P 500 ends with its first July decline since 2014. Here are the stocks that led the selloff.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/s-p-500-heads-for-the-first-july-decline-since-2014-here-are-the-stocks-that-led-the-selloff-5677f63b?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-07-31T21:10:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -912,11 +945,11 @@
       "link": "https://nitter.net/gurgavin/status/2083290582382686622#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:35:55+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "WARSH שוקל פחות פגישות מדיניות של הפד - יו\"ר הפד של NYT, קווין ורש, העלה את הרעיון בכינוס המדיניות השבוע וביקש מגורמים רשמיים לספק משוב. מעודכן…",
+      "title_he": "WARSH שוקל פחות פגישות מדיניות של הפד - יו\"ר הפד של NYT, קווין וורש, העלה את הרעיון בכינוס המדיניות השבוע וביקש מגורמים רשמיים לספק משוב. מעודכן…",
       "summary_he": "",
       "body_en": "WARSH CONSIDERS FEWER FED POLICY MEETINGS - NYT Fed Chair Kevin Warsh raised the idea at this week’s policy gathering and asked officials to provide feedback. A revised schedule could be approved befo",
       "ticker": "",
@@ -924,19 +957,18 @@
       "link": "https://nitter.net/wallstengine/status/2083289955779117160#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:33:25+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "בתחילת השנה, מדד S&P 500 היה צפוי לראות צמיחה ברווחים של כ-13% בשנת 2026. זה עד לכמעט 28% נכון לעכשיו.",
+      "title_he": "האם סין בנתה בעצמה מודל בינה מלאכותית מהשורה הראשונה? דוח חדש מציע שבבי Nvidia מילאו תפקיד.",
       "summary_he": "",
-      "body_en": "At the start of the year, the S&P 500 was expected to see earnings growth of about 13% in 2026. It is up to nearly 28% as of right now.",
+      "body_en": "Did China build a top-tier AI model by itself? A new report suggests Nvidia chips played a role.",
       "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2083286729725809077#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-31T20:20:36+00:00",
-      "relative_time": "לפני 3ש׳",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/did-china-build-a-top-tier-ai-model-by-itself-a-new-report-suggests-nvidia-chips-played-a-role-ad4644cd?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-07-31T20:23:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -959,20 +991,8 @@
       "link": "https://nitter.net/wallstengine/status/2083285646786080902#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:16:18+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "צמיחת רווחי S&P 500 ברבעון השני של השנה עד 47.4%. לפני שבועיים זה היה 25%.",
-      "summary_he": "",
-      "body_en": "Q2 YoY S&P 500 earnings growth up to 47.4%. Two weeks ago it was 25%.",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2083284063440322794#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-07-31T20:10:00+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "RT מאת @cperruna: BREAKING: אמזון, $AMZN, מסיימת את היום ב-+15.3% גבוה יותר, ומפרסמת את היום הטוב ביותר שלה זה 14 שנים. המניה הוסיפה היום +390 מיליארד דולר בשווי השוק.",
@@ -983,7 +1003,7 @@
       "link": "https://nitter.net/KobeissiLetter/status/2083283494675837114#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:07:45+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -995,31 +1015,7 @@
       "link": "https://nitter.net/gurgavin/status/2083282550261231806#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:04:00+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "CLEAR STREET להציע חשיפה ל-DATABRICKS לפני ההנפקה - CNBC הפלטפורמה החדשה תאפשר למשקיעים מוסמכים לקנות אינטרסים המספקים חשיפה ל-Databricks, שהיה...",
-      "summary_he": "",
-      "body_en": "CLEAR STREET TO OFFER PRE-IPO DATABRICKS EXPOSURE - CNBC The new platform will allow accredited investors to buy interests providing exposure to Databricks, which was valued at $188B this month. Clear",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2083272879630872990#m",
-      "tag": "NEWS",
-      "published_at": "2026-07-31T19:25:34+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$KKR קרוב ל-$127/SHARE BUYOUT של מספר שלם - WSJ העסקה הפוטנציאלית עשויה להתפרסם כבר בשבוע הבא, אם כי השיחות עדיין עלולות להתפרק. אחזקות במספר שלם...",
-      "summary_he": "",
-      "body_en": "$KKR NEARS $127/SHARE INTEGER BUYOUT - WSJ The potential transaction could be announced as soon as next week, though talks could still fall apart. Integer Holdings $ITGR, valued at more than $3B, desi",
-      "ticker": "$KKR",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2083272841810899256#m",
-      "tag": "M&A",
-      "published_at": "2026-07-31T19:25:25+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     }
   ],
