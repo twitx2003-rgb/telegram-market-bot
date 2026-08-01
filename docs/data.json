@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T04:03:04.846574+00:00",
+  "generated_at": "2026-08-01T07:02:01.297718+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-01T04:03:04.846584+00:00",
+  "ta_generated_at": "2026-08-01T07:02:01.297728+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,11 +710,11 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,098.6",
-      "change": "-1.49%",
+      "value": "$4,107.0",
+      "change": "-1.29%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.4901696870643655
+      "pct_raw": -1.2882757294621054
     },
     {
       "name": "נפט ברנט",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$62,941",
-      "change": "+0.19%",
+      "value": "$63,019",
+      "change": "+0.31%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.18800827979468324
+      "pct_raw": 0.31135424172342113
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2083392335635681301#m",
       "tag": "NEWS",
       "published_at": "2026-08-01T03:20:15+00:00",
-      "relative_time": "לפני 42ד׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bearish"
     },
     {
@@ -876,18 +876,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2083332338528796792#m",
       "tag": "FED",
       "published_at": "2026-07-31T23:21:50+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "פיררו עובר לבטל את התביעה נגד אולימפיאן, אומר נזק לבריכה המשקף שנגרם מ\"התקנה לקויה\"",
-      "summary_he": "",
-      "body_en": "Pirro moves to drop case against Olympian, says Reflecting Pool damage caused by 'flawed installation'",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/31/trump-pirro-reflecting-pool-olympian-david-hearn.html",
-      "tag": "NEWS",
-      "published_at": "2026-07-31T23:19:16+00:00",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,18 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2083319546799116353#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-31T22:31:00+00:00",
-      "relative_time": "לפני 5ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ה-S&P 500 עושה שינוי על ידי הוספת המניה התעשייתית המעט ידועה הזו",
-      "summary_he": "",
-      "body_en": "The S&P 500 is making a change by adding this little-known industrial stock",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-s-p-500-is-making-a-change-by-adding-this-little-known-industrial-stock-da648bd1?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-31T21:53:00+00:00",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,18 +900,7 @@
       "link": "https://nitter.net/TrendSpider/status/2083304195130626541#m",
       "tag": "TECH",
       "published_at": "2026-07-31T21:30:00+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "S&P 500 מסתיים עם הירידה הראשונה שלו ביולי מאז 2014. להלן המניות שהובילו את המכירה.",
-      "summary_he": "",
-      "body_en": "S&P 500 ends with its first July decline since 2014. Here are the stocks that led the selloff.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/s-p-500-heads-for-the-first-july-decline-since-2014-here-are-the-stocks-that-led-the-selloff-5677f63b?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-07-31T21:10:00+00:00",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -945,7 +912,7 @@
       "link": "https://nitter.net/gurgavin/status/2083290582382686622#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:35:55+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -957,19 +924,8 @@
       "link": "https://nitter.net/wallstengine/status/2083289955779117160#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:33:25+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "האם סין בנתה בעצמה מודל בינה מלאכותית מהשורה הראשונה? דוח חדש מציע שבבי Nvidia מילאו תפקיד.",
-      "summary_he": "",
-      "body_en": "Did China build a top-tier AI model by itself? A new report suggests Nvidia chips played a role.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/did-china-build-a-top-tier-ai-model-by-itself-a-new-report-suggests-nvidia-chips-played-a-role-ad4644cd?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-07-31T20:23:00+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "אלפבית, אמזון ומיקרוסופט הוסיפו השבוע כמעט 1.5 טריליון דולר בערך משולב",
@@ -991,7 +947,7 @@
       "link": "https://nitter.net/wallstengine/status/2083285646786080902#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:16:18+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1003,7 +959,7 @@
       "link": "https://nitter.net/KobeissiLetter/status/2083283494675837114#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:07:45+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1015,11 +971,66 @@
       "link": "https://nitter.net/gurgavin/status/2083282550261231806#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:04:00+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "CLEAR STREET להציע חשיפה ל-DATABRICKS לפני ההנפקה - CNBC הפלטפורמה החדשה תאפשר למשקיעים מוסמכים לקנות אינטרסים המספקים חשיפה ל-Databricks, שהיה...",
+      "summary_he": "",
+      "body_en": "CLEAR STREET TO OFFER PRE-IPO DATABRICKS EXPOSURE - CNBC The new platform will allow accredited investors to buy interests providing exposure to Databricks, which was valued at $188B this month. Clear",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2083272879630872990#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-31T19:25:34+00:00",
+      "relative_time": "לפני 11ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "בעוד שהפד של ורש מתמודד עם לחץ לפעול נגד האינפלציה, אינדיקטורים אלה מראים שהוא בשפל מזה שנים",
+      "summary_he": "",
+      "body_en": "As Warsh’s Fed faces pressure to act on inflation, these indicators show it’s at its lowest in years",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
+      "tag": "FED",
+      "published_at": "2026-07-31T16:51:30+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מינוף המותג הוא אחד ממניעי הערך החזקים ביותר בהשקעות. מינוף המותג הוא הרחבה של מותג מבוסס חזק לקטגוריה שכנה, שאם...",
+      "summary_he": "",
+      "body_en": "Brand leverage is one of the most powerful value drivers in investing. Brand leverage is the extension of a strong established brand to a neighboring category, which if successful can expand the compa",
+      "ticker": "",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2083184962266714526#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T13:36:13+00:00",
+      "relative_time": "לפני 17ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "המניות בארה\"ב עלו (SPX +0.4%, NDX +1.0%) כאשר ריבאונד של יצרניות השבבים העולמיות בהובלת SK Hynix (+30%) וסמסונג (+21%) העלו את קוספי של דרום קוריאה בשיעור חסר תקדים של 18%. ב…",
+      "summary_he": "",
+      "body_en": "US stocks rose (SPX +0.4%, NDX +1.0%) as a global chipmakers’ rebound led by SK Hynix (+30%) and Samsung (+21%) lifted South Korea’s Kospi by an unprecedented 18%. In addition, $AMZN ‘s strong earning",
+      "ticker": "$AMZN",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2083141592555098548#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-07-31T10:43:53+00:00",
+      "relative_time": "לפני 20ש׳",
+      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "גנב אמבולנס בקריית ים וטען: \"הוא הפריע לכביש\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857625",
+      "tag": "כללי",
+      "published_at": "2026-08-01T08:00:00+00:00"
+    },
     {
       "title_he": "לוחמי האמת: כך נלחמים בהפצת השקרים והפייק ניוז ברשת",
       "summary_he": "",
@@ -1091,14 +1102,6 @@
       "link": "https://news.walla.co.il/item/3857445",
       "tag": "כללי",
       "published_at": "2026-07-30T20:41:00+00:00"
-    },
-    {
-      "title_he": "אירוע חריג בכפר סבא: גבר נפצע קשה מחץ דיג, החשד - בן משפחה ירה ונמלט",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857433",
-      "tag": "כללי",
-      "published_at": "2026-07-30T19:42:00+00:00"
     }
   ],
   "track_record": {
