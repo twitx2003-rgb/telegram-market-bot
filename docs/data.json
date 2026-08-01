@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T22:59:49.163071+00:00",
+  "generated_at": "2026-08-01T00:07:48.669990+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-07-31T22:59:49.163081+00:00",
+  "ta_generated_at": "2026-08-01T00:07:48.670001+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$62,875",
-      "change": "-2.86%",
-      "direction": "down",
+      "value": "$62,878",
+      "change": "+0.09%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -2.8563734365737146
+      "pct_raw": 0.08635809101200825
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -850,11 +850,35 @@
     }
   ],
   "fear_greed": {
-    "score": 25,
-    "rating": "פחד קיצוני",
-    "rating_en": "extreme fear"
+    "score": 27,
+    "rating": "פחד",
+    "rating_en": "fear"
   },
   "us_news": [
+    {
+      "title_he": "R ל-@unusual_whales: התביעה הבלתי חתומה טוענת שהמייסדים והתומכים הפיננסיים של קאווה זרקו מיליארדי דולרים במניות במחירים מנופחים מהייפ על...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: The unsealed lawsuit alleges Cava’s founders and financial backers dumped billions of dollars in stock at prices inflated by hype about the company’s supposedly soaring trajector",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2083334643881771258#m",
+      "tag": "NEWS",
+      "published_at": "2026-07-31T23:31:00+00:00",
+      "relative_time": "לפני 36ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "כמה פגישות FOMC בשנה אמורות להיות?",
+      "summary_he": "",
+      "body_en": "How many FOMC meetings per year should there be?",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2083332338528796792#m",
+      "tag": "FED",
+      "published_at": "2026-07-31T23:21:50+00:00",
+      "relative_time": "לפני 45ד׳",
+      "sentiment": "neutral"
+    },
     {
       "title_he": "$MSFT $AMZN הזוכים בעונת הרווחים של מגה-קאפ",
       "summary_he": "",
@@ -864,7 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2083319546799116353#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-31T22:31:00+00:00",
-      "relative_time": "לפני 28ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +900,7 @@
       "link": "https://nitter.net/TrendSpider/status/2083304195130626541#m",
       "tag": "TECH",
       "published_at": "2026-07-31T21:30:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,11 +912,11 @@
       "link": "https://nitter.net/gurgavin/status/2083290582382686622#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:35:55+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "WARSH שוקל פחות פגישות מדיניות של הפד - יו\"ר הפד של NYT, קווין וורש, העלה את הרעיון בכינוס המדיניות השבוע וביקש מגורמים רשמיים לספק משוב. מעודכן…",
+      "title_he": "WARSH שוקל פחות פגישות מדיניות של הפד - יו\"ר הפד של NYT, קווין ורש, העלה את הרעיון בכינוס המדיניות השבוע וביקש מגורמים רשמיים לספק משוב. מעודכן…",
       "summary_he": "",
       "body_en": "WARSH CONSIDERS FEWER FED POLICY MEETINGS - NYT Fed Chair Kevin Warsh raised the idea at this week’s policy gathering and asked officials to provide feedback. A revised schedule could be approved befo",
       "ticker": "",
@@ -900,20 +924,8 @@
       "link": "https://nitter.net/wallstengine/status/2083289955779117160#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:33:25+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "סערת אג\"ח ארוכות השבוע, וכל תעודות הסל הגדולות של מדד המניות עלו $SPY $QQQ $EFA $EEM $IWM @koyfincharts עוד ממני:...",
-      "summary_he": "",
-      "body_en": "Long-bond turmoil this week, and all the big stock index ETFs were up $SPY $QQQ $EFA $EEM $IWM @koyfincharts More from me: https://seekingalpha.com/article/4928869-ai-stocks-cracked-in-july-new-sp500-",
-      "ticker": "$SPY",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2083289347026022742#m",
-      "tag": "ENERGY",
-      "published_at": "2026-07-31T20:31:00+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "בתחילת השנה, מדד S&P 500 היה צפוי לראות צמיחה ברווחים של כ-13% בשנת 2026. זה עד לכמעט 28% נכון לעכשיו.",
@@ -924,7 +936,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2083286729725809077#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-31T20:20:36+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -947,7 +959,7 @@
       "link": "https://nitter.net/wallstengine/status/2083285646786080902#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:16:18+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
@@ -959,7 +971,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2083284063440322794#m",
       "tag": "EARNINGS",
       "published_at": "2026-07-31T20:10:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -971,7 +983,7 @@
       "link": "https://nitter.net/KobeissiLetter/status/2083283494675837114#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:07:45+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -983,7 +995,7 @@
       "link": "https://nitter.net/gurgavin/status/2083282550261231806#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:04:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -995,7 +1007,7 @@
       "link": "https://nitter.net/wallstengine/status/2083272879630872990#m",
       "tag": "NEWS",
       "published_at": "2026-07-31T19:25:34+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1007,20 +1019,8 @@
       "link": "https://nitter.net/wallstengine/status/2083272841810899256#m",
       "tag": "M&A",
       "published_at": "2026-07-31T19:25:25+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "כיצד הקרן של 45 מיליארד דולר התגלתה למודעות למצב: ליאופולד אשנברנר, בן 24, חוקר יישור-על של OpenAI לשעבר, השיק את Situational Awareness בשנת 2024...",
-      "summary_he": "",
-      "body_en": "HOW SITUATIONAL AWARENESS’S $45B FUND UNRAVELED: Leopold Aschenbrenner, a 24-year-old former OpenAI superalignment researcher, launched Situational Awareness in 2024 after publishing a viral 165-page ",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2083266292388397246#m",
-      "tag": "ENERGY",
-      "published_at": "2026-07-31T18:59:23+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
