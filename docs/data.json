@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T15:36:33.509239+00:00",
+  "generated_at": "2026-08-01T16:59:11.658214+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-01T15:36:33.509250+00:00",
+  "ta_generated_at": "2026-08-01T16:59:11.658225+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$62,992",
-      "change": "+0.27%",
+      "value": "$62,854",
+      "change": "+0.05%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.26933161435319347
+      "pct_raw": 0.04807611418420357
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,27 +856,28 @@
   },
   "us_news": [
     {
-      "title_he": "מיקרוסופט הכריזה זה עתה על חדשות ענק לבעלי המניות של Nvidia",
+      "title_he": "ברור שהאינפלציה היא לא הדאגה... וגירעונות פיסקאליים מסיביים קיימים כבר זמן מה... האם הקצה הארוך של העקומה לשלוט בתאגידים אינטנסיביים...",
       "summary_he": "",
-      "body_en": "Microsoft Just Announced Huge News for Nvidia Shareholders",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-just-announced-huge-news-150700475.html",
-      "tag": "TECH",
-      "published_at": "2026-08-01T15:07:00+00:00",
+      "body_en": "It's clear that inflation isn't the concern... and massive fiscal deficits have been around for a while now... Is the long end of the curve to govern intense corporate debt issuance? hmm $LQD Anyway..",
+      "ticker": "$LQD",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2083587561780318484#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-01T16:16:00+00:00",
+      "relative_time": "לפני 42ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "רווחי טכנולוגיה-מדיה-טלקום אדירים... ותגובות מניות מושתקות... GS",
+      "title_he": "Cloud 9... אלפבית, אמזון ומיקרוסופט דיווחו כל אחת על גידול בהכנסות מעל קונצנזוס, כאשר הכנסות הענן עלו ב-48% בשנה הקודמת ברבעון השני, האצה מ-39% ברבעון הראשון. GS",
       "summary_he": "",
-      "body_en": "Massive tech-media-telecom earnings beats... and muted stock reactions.. GS",
+      "body_en": "Cloud 9... Alphabet, Amazon, and Microsoft each reported above-consensus revenue growth, with cloud revenues rising 48% YoY in Q2, an acceleration from 39% in Q1. GS",
       "ticker": "",
       "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2083567429163139543#m",
+      "link": "https://nitter.net/MikeZaccardi/status/2083580012033196508#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-01T14:56:00+00:00",
-      "relative_time": "לפני 40ד׳",
-      "sentiment": "bullish"
+      "published_at": "2026-08-01T15:46:00+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "ל-$MU יש כעת שולי רווח גולמיים גבוהים יותר מ-$META עם 85% ברמת הזיכרון לעומת 80% בפלטפורמת המודעות. Meta משלמת עבור בניית הבינה המלאכותית בעוד שהאספקה ​​מחויבת ל...",
@@ -887,18 +888,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083558616951296367#m",
       "tag": "TECH",
       "published_at": "2026-08-01T14:20:59+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "חוזים עתידיים של דאו ג'ונס: ריבאונדים בשוק, עכשיו צפו בזה; SpaceX, AMD, Sandisk, Eli Lilly Earnings Loom",
-      "summary_he": "",
-      "body_en": "Dow Jones Futures: Market Rebounds, Now Watch For This; SpaceX, AMD, Sandisk, Eli Lilly Earnings Loom",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-spacex-amd-sandisk-eli-lilly-earnings-loom/?src=A00220&yptr=yahoo",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-01T13:17:56+00:00",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -913,6 +903,17 @@
       "sentiment": "bearish"
     },
     {
+      "title_he": "פריצת Hugging Face של OpenAI אישרה חודשים של אזהרות סייבר בינה מלאכותית: 'תיבת פנדורה פתוחה'",
+      "summary_he": "",
+      "body_en": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html",
+      "tag": "TECH",
+      "published_at": "2026-08-01T12:00:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "AWS לבדה עשויה להיות שווה 2 טריליון דולר, מנכ\"ל AMZN, אנדי ג'סי, אומר ש-AWS \"פורחת\" כאשר ה-ARR מגיע ל-169 מיליארד דולר, כאשר הצמיחה מואצת ברבעון חמישי ברציפות ל-37% ו...",
       "summary_he": "",
       "body_en": "AWS ALONE COULD BE WORTH $2 TRILLION $AMZN CEO Andy Jassy says AWS is “booming” with ARR reaching $169B as growth accelerates for a fifth straight quarter to 37% and its AI business surpasses $25B run",
@@ -921,19 +922,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083518095679762800#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-01T11:39:58+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "J.P. מורגן מפיל את פצצת הריבית של הפד על וורש, אינפלציה",
-      "summary_he": "",
-      "body_en": "J.P. Morgan drops Fed rate bombshell over Warsh, inflation",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/economy/policy/articles/j-p-morgan-drops-fed-060300978.html",
-      "tag": "FED",
-      "published_at": "2026-08-01T06:03:00+00:00",
-      "sentiment": "bearish"
     },
     {
       "title_he": "RT מאת @cperruna: Microsoft $MSFT בדיוק הדפיסה את השבוע הטוב ביותר שלה מזה למעלה מ-25 שנה 🔥",
@@ -944,7 +934,7 @@
       "link": "https://nitter.net/TrendSpider/status/2083304195130626541#m",
       "tag": "TECH",
       "published_at": "2026-07-31T21:30:00+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
@@ -956,7 +946,7 @@
       "link": "https://nitter.net/gurgavin/status/2083290582382686622#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:35:55+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
     {
@@ -968,7 +958,7 @@
       "link": "https://nitter.net/wallstengine/status/2083289955779117160#m",
       "tag": "FED",
       "published_at": "2026-07-31T20:33:25+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "bullish"
     },
     {
@@ -980,7 +970,7 @@
       "link": "https://nitter.net/wallstengine/status/2083285646786080902#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:16:18+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "bullish"
     },
     {
@@ -992,7 +982,7 @@
       "link": "https://nitter.net/KobeissiLetter/status/2083283494675837114#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:07:45+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1004,7 +994,18 @@
       "link": "https://nitter.net/gurgavin/status/2083282550261231806#m",
       "tag": "TECH",
       "published_at": "2026-07-31T20:04:00+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רוצה להחליף את SpaceX עבור אפל? 1 אינץ אומר דלג על הדולר",
+      "summary_he": "",
+      "body_en": "Want to trade SpaceX for Apple? 1inch says skip the dollars",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/want-trade-spacex-apple-1inch-194500911.html",
+      "tag": "TECH",
+      "published_at": "2026-07-31T19:45:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -1016,7 +1017,7 @@
       "link": "https://nitter.net/wallstengine/status/2083272879630872990#m",
       "tag": "NEWS",
       "published_at": "2026-07-31T19:25:34+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "bullish"
     }
   ],
