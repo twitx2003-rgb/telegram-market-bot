@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T20:51:39.341504+00:00",
+  "generated_at": "2026-08-01T21:55:25.742523+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-01T20:51:39.341519+00:00",
+  "ta_generated_at": "2026-08-01T21:55:25.742533+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$62,582",
-      "change": "-0.38%",
+      "value": "$62,742",
+      "change": "-0.13%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.38419982956322457
+      "pct_raw": -0.12916705087922592
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/unusual_whales/status/2083644183441535063#m",
       "tag": "TECH",
       "published_at": "2026-08-01T20:01:00+00:00",
-      "relative_time": "לפני 50ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/gurgavin/status/2083607183904608432#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-01T17:33:58+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +888,7 @@
       "link": "https://nitter.net/gurgavin/status/2083600010541764742#m",
       "tag": "M&A",
       "published_at": "2026-08-01T17:05:28+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +900,29 @@
       "link": "https://nitter.net/MikeZaccardi/status/2083598888687010103#m",
       "tag": "MACRO",
       "published_at": "2026-08-01T17:01:01+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניית ויזה נראית אטרקטיבית לאחר פיטורים, רווחים גבוהים",
+      "summary_he": "",
+      "body_en": "Visa Stock Looks Attractive After Layoffs, Strong Earnings",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-stock-looks-attractive-layoffs-153510757.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-01T15:35:10+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "גוגל מערימה סיכון מחוץ למאזן כדי לתדלק את דחיפת שבב הבינה המלאכותית שלה",
+      "summary_he": "",
+      "body_en": "Google Piles On Off-Balance-Sheet Risk to Fuel Its AI Chip Push",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-piles-off-balance-sheet-153002569.html",
+      "tag": "TECH",
+      "published_at": "2026-08-01T15:30:02+00:00",
       "sentiment": "neutral"
     },
     {
@@ -912,7 +934,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083558616951296367#m",
       "tag": "TECH",
       "published_at": "2026-08-01T14:20:59+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,20 +968,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083518095679762800#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-01T11:39:58+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "RT מאת @cperruna: Microsoft $MSFT בדיוק הדפיסה את השבוע הטוב ביותר שלה מזה למעלה מ-25 שנה 🔥",
-      "summary_he": "",
-      "body_en": "RT by @cperruna: Microsoft $MSFT just printed its best week in over 25 YEARS 🔥",
-      "ticker": "$MSFT",
-      "source": "@cperruna",
-      "link": "https://nitter.net/TrendSpider/status/2083304195130626541#m",
-      "tag": "TECH",
-      "published_at": "2026-07-31T21:30:00+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
