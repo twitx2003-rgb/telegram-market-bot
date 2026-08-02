@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T23:57:05.006924+00:00",
+  "generated_at": "2026-08-02T03:19:26.545043+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-01T23:57:05.006934+00:00",
+  "ta_generated_at": "2026-08-02T03:19:26.545054+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$62,767",
-      "change": "-0.09%",
-      "direction": "down",
+      "value": "$63,313",
+      "change": "+0.88%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.09015286160482021
+      "pct_raw": 0.8777099696828173
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,15 +856,15 @@
   },
   "us_news": [
     {
-      "title_he": "חוזים עתידיים של דאו ג'ונס: ריבאונדים בשוק, עכשיו צפו בזה; SpaceX, AMD, Sandisk, Eli Lilly Earnings Loom",
+      "title_he": "טראמפ מתפרץ על פיררו לאחר שעברה לבטל את תיק הוונדליזם של Reflecting Pool, ואמר \"התקנה לקויה\" האשם",
       "summary_he": "",
-      "body_en": "Dow Jones Futures: Market Rebounds, Now Watch For This; SpaceX, AMD, Sandisk, Eli Lilly Earnings Loom",
+      "body_en": "Trump lashes out at Pirro after she moves to drop Reflecting Pool vandalism case, saying 'flawed installation' to blame",
       "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-spacex-amd-sandisk-eli-lilly-earnings-loom/?src=A00220&yptr=yahoo",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-01T21:58:20+00:00",
-      "sentiment": "neutral"
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/07/31/trump-pirro-reflecting-pool-olympian-david-hearn.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-02T01:35:50+00:00",
+      "sentiment": "bearish"
     },
     {
       "title_he": "אורקל מוציאה עכשיו 100% מכל הכנסותיה על CAPEX. האם אני היחיד שחושב שאורקל השתגעה $ORCL",
@@ -875,19 +875,8 @@
       "link": "https://nitter.net/gurgavin/status/2083607183904608432#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-01T17:33:58+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "הנה הסיבה לכך ששותפות המטה של ​​ניוזמקס יכולה להאיץ את הדרך לרווחיות עבור מניית NMAX.",
-      "summary_he": "",
-      "body_en": "Here Is Why Newsmax's Meta Partnership Could Accelerate the Path to Profitability for NMAX Stock.",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/media-advertising/articles/why-newsmaxs-meta-partnership-could-173002136.html",
-      "tag": "TECH",
-      "published_at": "2026-08-01T17:30:02+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "אני חושב שמיזוג TESLA SPACEX הולך להיות מוקדם יותר ממה שרוב האנשים מצפים ל-$SPCX $TSLA",
@@ -898,7 +887,7 @@
       "link": "https://nitter.net/gurgavin/status/2083600010541764742#m",
       "tag": "M&A",
       "published_at": "2026-08-01T17:05:28+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,19 +899,8 @@
       "link": "https://nitter.net/MikeZaccardi/status/2083598888687010103#m",
       "tag": "MACRO",
       "published_at": "2026-08-01T17:01:01+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית ויזה נראית אטרקטיבית לאחר פיטורים, רווחים גבוהים",
-      "summary_he": "",
-      "body_en": "Visa Stock Looks Attractive After Layoffs, Strong Earnings",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-stock-looks-attractive-layoffs-153510757.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-01T15:35:10+00:00",
-      "sentiment": "bearish"
     },
     {
       "title_he": "ל-$MU יש כעת שולי רווח גולמיים גבוהים יותר מ-$META עם 85% ברמת הזיכרון לעומת 80% בפלטפורמת המודעות. Meta משלמת עבור בניית הבינה המלאכותית בעוד שהאספקה ​​מחויבת ל...",
@@ -933,7 +911,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083558616951296367#m",
       "tag": "TECH",
       "published_at": "2026-08-01T14:20:59+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     },
     {
@@ -948,16 +926,15 @@
       "sentiment": "bearish"
     },
     {
-      "title_he": "AWS לבדה עשויה להיות שווה 2 טריליון דולר, מנכ\"ל AMZN, אנדי ג'סי, אומר ש-AWS \"פורחת\" כאשר ה-ARR מגיע ל-169 מיליארד דולר, כאשר הצמיחה מואצת ברבעון חמישי ברציפות ל-37% ו...",
+      "title_he": "פריצת Hugging Face של OpenAI אישרה חודשים של אזהרות סייבר בינה מלאכותית: 'תיבת פנדורה פתוחה'",
       "summary_he": "",
-      "body_en": "AWS ALONE COULD BE WORTH $2 TRILLION $AMZN CEO Andy Jassy says AWS is “booming” with ARR reaching $169B as growth accelerates for a fifth straight quarter to 37% and its AI business surpasses $25B run",
-      "ticker": "$AMZN",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2083518095679762800#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-01T11:39:58+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "bullish"
+      "body_en": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html",
+      "tag": "TECH",
+      "published_at": "2026-08-01T12:00:01+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "RT מאת @StockSavvyShay: $AMZN השלימה השקעה של 50 מיליארד דולר עבור ~5% מ-OpenAI תוך שווי של 852 מיליארד דולר לפני הנפקה פוטנציאלית בשנה הבאה. בשילוב עם 18 מיליארד דולר…",
@@ -968,7 +945,18 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083482600916599246#m",
       "tag": "TECH",
       "published_at": "2026-08-01T09:18:55+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 18ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אפל צופה האטה בצמיחה עקב מחסור בשבבים",
+      "summary_he": "",
+      "body_en": "Apple Forecasts Slowing Growth Due To Chip Shortages",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/news/technology/apple-stock-sinks-soft-sales-outlook-chip-shortages/?src=A00220&yptr=yahoo",
+      "tag": "TECH",
+      "published_at": "2026-07-31T20:07:24+00:00",
       "sentiment": "neutral"
     }
   ],
@@ -982,7 +970,7 @@
       "published_at": "2026-08-01T23:00:00+00:00"
     },
     {
-      "title_he": "חשד לרצח בנתיבות: גבר כבן 40 נורה למוות - הרקע פלילי",
+      "title_he": "חשד לחיסול בנתיבות: עבריין מוכר למשטרה נורה למוות",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3857728",
@@ -1036,22 +1024,6 @@
       "link": "https://news.walla.co.il/item/3855920",
       "tag": "כללי",
       "published_at": "2026-07-31T17:14:00+00:00"
-    },
-    {
-      "title_he": "שרידיהם של סבו וסבתו של הרצל הועלו לישראל; יובאו לקבורה בהר הרצל",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857551",
-      "tag": "כללי",
-      "published_at": "2026-07-31T13:32:00+00:00"
-    },
-    {
-      "title_he": "\"הכתובת הייתה על הקיר\": החשד לרצח שמזעזע את חוף הכרמל",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857549",
-      "tag": "כללי",
-      "published_at": "2026-07-31T13:31:00+00:00"
     }
   ],
   "track_record": {
