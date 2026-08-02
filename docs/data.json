@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T06:17:32.845394+00:00",
+  "generated_at": "2026-08-02T08:43:33.952917+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-02T06:17:32.845404+00:00",
+  "ta_generated_at": "2026-08-02T08:43:33.952927+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,380",
-      "change": "+0.98%",
+      "value": "$63,213",
+      "change": "+0.72%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.984111224013074
+      "pct_raw": 0.7179009578630322
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,17 +856,6 @@
   },
   "us_news": [
     {
-      "title_he": "טראמפ מתפרץ על פיררו לאחר שעברה לבטל את תיק הוונדליזם של Reflecting Pool, ואמר \"התקנה לקויה\" האשם",
-      "summary_he": "",
-      "body_en": "Trump lashes out at Pirro after she moves to drop Reflecting Pool vandalism case, saying 'flawed installation' to blame",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/07/31/trump-pirro-reflecting-pool-olympian-david-hearn.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-02T01:35:50+00:00",
-      "sentiment": "bearish"
-    },
-    {
       "title_he": "אורקל מוציאה עכשיו 100% מכל הכנסותיה על CAPEX. האם אני היחיד שחושב שאורקל השתגעה $ORCL",
       "summary_he": "",
       "body_en": "ORACLE IS NOW SPENDING 100% OF IT’S ENTIRE REVENUE ON CAPEX AM I THE ONLY ONE WHO THINKS ORACLE HAS GONE CRAZY $ORCL",
@@ -875,7 +864,7 @@
       "link": "https://nitter.net/gurgavin/status/2083607183904608432#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-01T17:33:58+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +876,7 @@
       "link": "https://nitter.net/gurgavin/status/2083600010541764742#m",
       "tag": "M&A",
       "published_at": "2026-08-01T17:05:28+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,7 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2083598888687010103#m",
       "tag": "MACRO",
       "published_at": "2026-08-01T17:01:01+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +900,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083558616951296367#m",
       "tag": "TECH",
       "published_at": "2026-08-01T14:20:59+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     },
     {
@@ -926,30 +915,7 @@
       "sentiment": "bearish"
     },
     {
-      "title_he": "פריצת Hugging Face של OpenAI אישרה חודשים של אזהרות סייבר בינה מלאכותית: 'תיבת פנדורה פתוחה'",
-      "summary_he": "",
-      "body_en": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html",
-      "tag": "TECH",
-      "published_at": "2026-08-01T12:00:01+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: $AMZN השלימה השקעה של 50 מיליארד דולר עבור ~5% מ-OpenAI תוך שווי של 852 מיליארד דולר לפני הנפקה פוטנציאלית בשנה הבאה. בשילוב עם 18 מיליארד דולר…",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $AMZN has completed a $50B investment for ~5% of OpenAI valuing the company at $852B ahead of a potential IPO next year. Combined with its $18B already invested in Anthropic, Am",
-      "ticker": "$AMZN",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2083482600916599246#m",
-      "tag": "TECH",
-      "published_at": "2026-08-01T09:18:55+00:00",
-      "relative_time": "לפני 20ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "J.P. מורגן מפיל את פצצת הריבית של הפד על וורש, אינפלציה",
+      "title_he": "J.P. מורגן מפיל את פצצת הריבית של הפד על וורש, האינפלציה",
       "summary_he": "",
       "body_en": "J.P. Morgan drops Fed rate bombshell over Warsh, inflation",
       "ticker": "",
@@ -958,9 +924,93 @@
       "tag": "FED",
       "published_at": "2026-08-01T06:03:00+00:00",
       "sentiment": "bearish"
+    },
+    {
+      "title_he": "ג'ים קריימר לא יכול שלא להתענג על פיתוחי הבינה המלאכותית של אפל (NASDAQ:AAPL).",
+      "summary_he": "",
+      "body_en": "Jim Cramer Can’t Help But Gloat At Apple Inc (NASDAQ:AAPL)’s AI Developments",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-t-help-gloat-023735112.html",
+      "tag": "TECH",
+      "published_at": "2026-08-01T02:58:35+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מאמינים באלון מאסק, אומר ג'ים קריימר על Tesla, Inc. (NASDAQ:TSLA)",
+      "summary_he": "",
+      "body_en": "Believe In Elon Musk, Says Jim Cramer About Tesla, Inc. (NASDAQ:TSLA)",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/believe-elon-musk-says-jim-024130381.html",
+      "tag": "TECH",
+      "published_at": "2026-08-01T02:41:30+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ג'ים קריימר נותר \"המום\" על ידי המניות של Alphabet Inc. (NASDAQ:GOOGL)",
+      "summary_he": "",
+      "body_en": "Jim Cramer Was Left “Shocked” By Alphabet Inc. (NASDAQ:GOOGL)’s Shares",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-left-shocked-alphabet-024036035.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-01T02:40:36+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ג'ים קריימר חושף מדוע תאגיד אינטל (NASDAQ:INTC) עוסק יותר מסתם מכירת שבבי מחשב",
+      "summary_he": "",
+      "body_en": "Jim Cramer Reveals Why Intel Corporation (NASDAQ:INTC) Is About More Than Just Selling Computer Chips",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-reveals-why-intel-024013757.html",
+      "tag": "TECH",
+      "published_at": "2026-08-01T02:40:13+00:00",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "הרצח בנתיבות: המשטרה עצרה חשוד במעורבות באירוע",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857825",
+      "tag": "כללי",
+      "published_at": "2026-08-02T10:49:00+00:00"
+    },
+    {
+      "title_he": "\"אם נשים מסתובבות לא צנוע, לא תהיה שמירה\": הרבנים קוראים לעקוף את החוף החדש בטבריה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857814",
+      "tag": "כללי",
+      "published_at": "2026-08-02T10:25:00+00:00"
+    },
+    {
+      "title_he": "מי סוחט את קו הבשר בעוטף עזה? | פרסום ראשון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857807",
+      "tag": "כללי",
+      "published_at": "2026-08-02T10:23:00+00:00"
+    },
+    {
+      "title_he": "רפורמת התפתחות הילד מתרחבת, אבל זמני ההמתנה עדיין ארוכים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857800",
+      "tag": "כללי",
+      "published_at": "2026-08-02T09:44:00+00:00"
+    },
+    {
+      "title_he": "\"איבדתי הכרה, וכשהתאוששתי טעמתי דם\": נהג בירושלים הותקף ע\"י נערים - ואיבד ארבע שיניים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857786",
+      "tag": "כללי",
+      "published_at": "2026-08-02T09:13:00+00:00"
+    },
     {
       "title_he": "מהיום בישראל: תמונות קשות של נזקי העישון יודפסו על כל חפיסות הסיגריות",
       "summary_he": "",
@@ -1000,46 +1050,6 @@
       "link": "https://news.walla.co.il/item/3857734",
       "tag": "כללי",
       "published_at": "2026-08-01T23:00:00+00:00"
-    },
-    {
-      "title_he": "חשד לחיסול בנתיבות: עבריין מוכר למשטרה נורה למוות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857728",
-      "tag": "כללי",
-      "published_at": "2026-08-01T21:50:00+00:00"
-    },
-    {
-      "title_he": "קטטה המונית ברהט: 24 חשודים נעצרו, שני שוטרים נפצעו מיידוי אבנים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857722",
-      "tag": "כללי",
-      "published_at": "2026-08-01T20:58:00+00:00"
-    },
-    {
-      "title_he": "שבת קטלנית בחופים: שלושה גברים טבעו, נקבע מותו של בן 61 בסמוך לנווה ים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857679",
-      "tag": "כללי",
-      "published_at": "2026-08-01T14:59:00+00:00"
-    },
-    {
-      "title_he": "הזמנת החיסול, ממצאי החקירה - ותפיסת החשוד המרכזי: פרשת רצח בניהו רזי",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857624",
-      "tag": "כללי",
-      "published_at": "2026-08-01T13:20:00+00:00"
-    },
-    {
-      "title_he": "שבת חמישית ברציפות: הפגנת חרדים בבית קפה בירושלים, המשטרה הציבה מחסומים | צפו",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857659",
-      "tag": "כללי",
-      "published_at": "2026-08-01T11:41:00+00:00"
     }
   ],
   "track_record": {
