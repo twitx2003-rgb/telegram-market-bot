@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T08:43:33.952917+00:00",
+  "generated_at": "2026-08-02T10:40:18.732574+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-02T08:43:33.952927+00:00",
+  "ta_generated_at": "2026-08-02T10:40:18.732584+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,213",
-      "change": "+0.72%",
+      "value": "$63,138",
+      "change": "+0.60%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.7179009578630322
+      "pct_raw": 0.5980202993453856
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/gurgavin/status/2083607183904608432#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-01T17:33:58+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/gurgavin/status/2083600010541764742#m",
       "tag": "M&A",
       "published_at": "2026-08-01T17:05:28+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2083598888687010103#m",
       "tag": "MACRO",
       "published_at": "2026-08-01T17:01:01+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +900,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083558616951296367#m",
       "tag": "TECH",
       "published_at": "2026-08-01T14:20:59+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
     {
@@ -915,7 +915,41 @@
       "sentiment": "bearish"
     },
     {
-      "title_he": "J.P. מורגן מפיל את פצצת הריבית של הפד על וורש, האינפלציה",
+      "title_he": "RT מאת @StockSavvyShay: AWS לבדה עשויה להיות שווה 2 טריליון דולר, מנכ\"ל AMZN, אנדי ג'סי, אומר ש-AWS \"פורחת\" כשה-ARR מגיע ל-169 מיליארד דולר כשהצמיחה מואצת לחמישי ברציפות...",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: AWS ALONE COULD BE WORTH $2 TRILLION $AMZN CEO Andy Jassy says AWS is “booming” with ARR reaching $169B as growth accelerates for a fifth straight quarter to 37% and its AI busi",
+      "ticker": "$AMZN",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2083518095679762800#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-01T11:39:58+00:00",
+      "relative_time": "לפני 23ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "ריביות משכנתא ומימון היום, שבת, 1 באוגוסט, 2026: שיעורים גבוהים מיום שישי",
+      "summary_he": "",
+      "body_en": "Mortgage and refinance interest rates today, Saturday, August 1, 2026: Rates higher than Friday",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-1-2026-rates-higher-than-friday-100000052.html",
+      "tag": "FED",
+      "published_at": "2026-08-01T10:00:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רבעון שני של 2026 התמ\"ג האטה, השלכות על הביקוש לדיור להשכרה",
+      "summary_he": "",
+      "body_en": "Q2 2026 GDP Slows, Implications for Rental Housing Demand",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/economy/articles/q2-2026-gdp-slows-implications-081018572.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-01T08:10:18+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "J.P. מורגן מפיל את פצצת הריבית של הפד על וורש, אינפלציה",
       "summary_he": "",
       "body_en": "J.P. Morgan drops Fed rate bombshell over Warsh, inflation",
       "ticker": "",
@@ -924,53 +958,49 @@
       "tag": "FED",
       "published_at": "2026-08-01T06:03:00+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "ג'ים קריימר לא יכול שלא להתענג על פיתוחי הבינה המלאכותית של אפל (NASDAQ:AAPL).",
-      "summary_he": "",
-      "body_en": "Jim Cramer Can’t Help But Gloat At Apple Inc (NASDAQ:AAPL)’s AI Developments",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-t-help-gloat-023735112.html",
-      "tag": "TECH",
-      "published_at": "2026-08-01T02:58:35+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מאמינים באלון מאסק, אומר ג'ים קריימר על Tesla, Inc. (NASDAQ:TSLA)",
-      "summary_he": "",
-      "body_en": "Believe In Elon Musk, Says Jim Cramer About Tesla, Inc. (NASDAQ:TSLA)",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/believe-elon-musk-says-jim-024130381.html",
-      "tag": "TECH",
-      "published_at": "2026-08-01T02:41:30+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ג'ים קריימר נותר \"המום\" על ידי המניות של Alphabet Inc. (NASDAQ:GOOGL)",
-      "summary_he": "",
-      "body_en": "Jim Cramer Was Left “Shocked” By Alphabet Inc. (NASDAQ:GOOGL)’s Shares",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-left-shocked-alphabet-024036035.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-01T02:40:36+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ג'ים קריימר חושף מדוע תאגיד אינטל (NASDAQ:INTC) עוסק יותר מסתם מכירת שבבי מחשב",
-      "summary_he": "",
-      "body_en": "Jim Cramer Reveals Why Intel Corporation (NASDAQ:INTC) Is About More Than Just Selling Computer Chips",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-reveals-why-intel-024013757.html",
-      "tag": "TECH",
-      "published_at": "2026-08-01T02:40:13+00:00",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "\"חיי אדם אינם הפקר\": אופנוע ים פגע בגולש והתושבים טוענים שהמשטרה לא אוכפת",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857866",
+      "tag": "כללי",
+      "published_at": "2026-08-02T12:50:00+00:00"
+    },
+    {
+      "title_he": "בזמן שאלדר דיין עדיין נעדר: החשד החדש שמסבך את שני חבריו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857859",
+      "tag": "כללי",
+      "published_at": "2026-08-02T12:30:00+00:00"
+    },
+    {
+      "title_he": "אופל נחשפת ומאשימה: נאנסתי בג'קוזי בקיבוץ, המשטרה מורחת את החקירה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857338",
+      "tag": "כללי",
+      "published_at": "2026-08-02T12:13:00+00:00"
+    },
+    {
+      "title_he": "מסיבת טבע לא חוקית פוזרה בדרום: כ-1,500 מבלים התבקשו להתפנות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857841",
+      "tag": "כללי",
+      "published_at": "2026-08-02T11:44:00+00:00"
+    },
+    {
+      "title_he": "בקבוק עם נוזל דליק הונח בפתח מסעדה בתל אביב, צעיר בשנות ה-20 לחייו נעצר",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3857838",
+      "tag": "כללי",
+      "published_at": "2026-08-02T11:23:00+00:00"
+    },
     {
       "title_he": "הרצח בנתיבות: המשטרה עצרה חשוד במעורבות באירוע",
       "summary_he": "",
@@ -1010,46 +1040,6 @@
       "link": "https://news.walla.co.il/item/3857786",
       "tag": "כללי",
       "published_at": "2026-08-02T09:13:00+00:00"
-    },
-    {
-      "title_he": "מהיום בישראל: תמונות קשות של נזקי העישון יודפסו על כל חפיסות הסיגריות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857776",
-      "tag": "כללי",
-      "published_at": "2026-08-02T08:38:00+00:00"
-    },
-    {
-      "title_he": "המשטרה מבקשת את עזרת הציבור באיתור תושבת חיפה - שנעדרת כבר שלושה שבועות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857767",
-      "tag": "כללי",
-      "published_at": "2026-08-02T08:16:00+00:00"
-    },
-    {
-      "title_he": "שבע שעות בלי חשמל בשיא השרב: זעם ביסוד המעלה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857740",
-      "tag": "כללי",
-      "published_at": "2026-08-02T06:33:00+00:00"
-    },
-    {
-      "title_he": "רימון רסס הושלך בחדרה, נבדק אם לסניף של ג'פניקה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857754",
-      "tag": "כללי",
-      "published_at": "2026-08-02T06:25:00+00:00"
-    },
-    {
-      "title_he": "הפגנה בכיכר הבימה: \"כל המעורבים צריכים ללכת הביתה - חליפות ומדים כאחד\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857734",
-      "tag": "כללי",
-      "published_at": "2026-08-01T23:00:00+00:00"
     }
   ],
   "track_record": {
