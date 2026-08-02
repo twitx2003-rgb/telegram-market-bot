@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T22:56:05.335334+00:00",
+  "generated_at": "2026-08-02T23:59:05.762239+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-02T22:56:05.335353+00:00",
+  "ta_generated_at": "2026-08-02T23:59:05.762252+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,11 +710,11 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,122.7",
-      "change": "+0.38%",
+      "value": "$4,124.5",
+      "change": "+0.43%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3822741660579454
+      "pct_raw": 0.42610177745312877
     },
     {
       "name": "נפט ברנט",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,348",
-      "change": "+0.93%",
+      "value": "$63,484",
+      "change": "+1.15%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.9323923753224465
+      "pct_raw": 1.149018828433286
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -753,10 +753,10 @@
     {
       "name": "דולר/שקל",
       "value": "3.056",
-      "change": "-0.02%",
-      "direction": "down",
+      "change": "+0.10%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.02290126284106998
+      "pct_raw": 0.09826722133052736
     }
   ],
   "sectors": [
@@ -863,8 +863,19 @@
       "source": "Yahoo Finance",
       "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-spacex-amd-sandisk-eli-lilly-earnings-loom/?src=A00220&yptr=yahoo",
       "tag": "EARNINGS",
-      "published_at": "2026-08-02T22:17:33+00:00",
+      "published_at": "2026-08-02T23:49:40+00:00",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "הנפט יורד מעל 4% לאחר שטראמפ ביטל את התקיפה המתוכננת באיראן",
+      "summary_he": "",
+      "body_en": "Oil drops over 4% after Trump calls off planned strike on Iran",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
+      "tag": "ENERGY",
+      "published_at": "2026-08-02T23:33:07+00:00",
+      "sentiment": "bearish"
     },
     {
       "title_he": "FUTURES רק נפתחה S&P 500 בעלייה של 0.5% 📈 NASDAQ 100 UP 0.7% 📈 DOW JONES עלה ב-0.4% 📈",
@@ -875,7 +886,7 @@
       "link": "https://nitter.net/gurgavin/status/2084038491722096698#m",
       "tag": "NEWS",
       "published_at": "2026-08-02T22:07:50+00:00",
-      "relative_time": "לפני 48ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +898,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2084028968680697911#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-02T21:30:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,8 +910,19 @@
       "link": "https://nitter.net/unusual_whales/status/2083991471833624936#m",
       "tag": "TECH",
       "published_at": "2026-08-02T19:01:00+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "3 סיבות שמניית מיקרוסופט זינקה לאחר הרווחים ברבעון הרביעי",
+      "summary_he": "",
+      "body_en": "3 Reasons Microsoft Stock Soared After Q4 Earnings",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-microsoft-stock-soared-173002074.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-02T17:30:02+00:00",
+      "sentiment": "bullish"
     },
     {
       "title_he": "מפת החום של תגובת הרווחים של Nasdaq-100:",
@@ -911,7 +933,7 @@
       "link": "https://nitter.net/wallstengine/status/2083965729054118334#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-02T17:18:42+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,18 +945,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083942676903481728#m",
       "tag": "M&A",
       "published_at": "2026-08-02T15:47:06+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "קונים ביצעו 158 מיליון מחלוקות חיוב חוזר בשנת 2025 כאשר 'הונאה ידידותית' עלתה ב-29% - ועסקים משלמים את המחיר",
-      "summary_he": "",
-      "body_en": "Shoppers made 158 million chargeback disputes in 2025 as 'friendly fraud' surged 29% — and businesses pay the price",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/small-business/articles/shoppers-made-158-million-chargeback-153000950.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-02T15:30:00+00:00",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bullish"
     },
     {
@@ -946,7 +957,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083926423434412321#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-02T14:42:31+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -958,7 +969,7 @@
       "link": "https://nitter.net/wallstengine/status/2083923460875755675#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-02T14:30:45+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -970,7 +981,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083916840368013753#m",
       "tag": "TECH",
       "published_at": "2026-08-02T14:04:26+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
