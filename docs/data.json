@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T20:10:58.962253+00:00",
+  "generated_at": "2026-08-03T21:40:47.304527+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -121,7 +121,7 @@
         "sma50": 205.84,
         "sma200": 193.25,
         "pct_from_52w_high": -12.6,
-        "vol_ratio": 0.85,
+        "vol_ratio": 0.86,
         "change_1d_pct": 2.93,
         "change_1w_pct": 5.2,
         "change_1m_pct": 6.1,
@@ -172,7 +172,7 @@
         "sma50": 358.43,
         "sma200": 326.91,
         "pct_from_52w_high": -8.6,
-        "vol_ratio": 1.11,
+        "vol_ratio": 1.12,
         "change_1d_pct": 4.88,
         "change_1w_pct": 14.4,
         "change_1m_pct": 3.8,
@@ -216,17 +216,17 @@
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $34.46 נמצא 2.3% מתחת להתנגדות ב-$35.25 עם מומנטום שבועי של +10.8%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (57.7). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
+      "rationale_he": "המחיר $34.46 נמצא 2.3% מתחת להתנגדות ב-$35.25 עם מומנטום שבועי של +10.9%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (57.8). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
-        "rsi14": 57.7,
+        "rsi14": 57.8,
         "sma20": 32.53,
         "sma50": 33.3,
         "sma200": 30.79,
         "pct_from_52w_high": -7.7,
-        "vol_ratio": 1.07,
-        "change_1d_pct": -1.63,
-        "change_1w_pct": 10.8,
-        "change_1m_pct": -0.6,
+        "vol_ratio": 1.09,
+        "change_1d_pct": -1.57,
+        "change_1w_pct": 10.9,
+        "change_1m_pct": -0.5,
         "spark_3m": [
           35.35,
           36.01,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-03T20:10:58.962263+00:00",
+  "ta_generated_at": "2026-08-03T21:40:47.304537+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -692,45 +692,45 @@
     },
     {
       "name": "Russell 2000",
-      "value": "2,983",
-      "change": "+1.78%",
+      "value": "2,982",
+      "change": "+1.73%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.779391602267764
+      "pct_raw": 1.7251160647062644
     },
     {
       "name": "VIX",
-      "value": "15.75",
-      "change": "-1.50%",
+      "value": "15.86",
+      "change": "-0.81%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -1.5009380863039414
+      "pct_raw": -0.8130081300813058
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,106.4",
-      "change": "-0.01%",
-      "direction": "down",
+      "value": "$4,110.9",
+      "change": "+0.09%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.014609203798401844
+      "pct_raw": 0.09495982468954556
     },
     {
       "name": "נפט ברנט",
-      "value": "$83.7",
-      "change": "-4.87%",
+      "value": "$83.5",
+      "change": "-5.03%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -4.867508245195042
+      "pct_raw": -5.026725804617311
     },
     {
       "name": "ביטקוין",
-      "value": "$63,861",
-      "change": "+0.57%",
+      "value": "$63,651",
+      "change": "+0.24%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5725665645404503
+      "pct_raw": 0.24193805192748585
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,101 +752,101 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.045",
-      "change": "-0.28%",
+      "value": "3.044",
+      "change": "-0.29%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.2751482197255057
+      "pct_raw": -0.2915260899472675
     }
   ],
   "sectors": [
     {
       "name": "טכנולוגיה",
-      "value": "178.15",
-      "change": "+1.60%",
+      "value": "178.04",
+      "change": "+1.53%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 1.5968063872255553
+      "pct_raw": 1.534074707727401
     },
     {
       "name": "פיננסים",
-      "value": "57.37",
-      "change": "+0.76%",
+      "value": "57.38",
+      "change": "+0.77%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.7551808921671931
+      "pct_raw": 0.7727432384966717
     },
     {
       "name": "אנרגיה",
-      "value": "58.77",
-      "change": "-1.31%",
+      "value": "58.79",
+      "change": "-1.28%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.3098236775818541
+      "pct_raw": -1.2762384550797616
     },
     {
       "name": "בריאות",
-      "value": "162.26",
-      "change": "-0.18%",
+      "value": "162.24",
+      "change": "-0.19%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.17840664410951734
+      "pct_raw": -0.19071055059981684
     },
     {
       "name": "תעשייה",
-      "value": "183.13",
-      "change": "+1.83%",
+      "value": "183.16",
+      "change": "+1.85%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 1.829403914590743
+      "pct_raw": 1.846085409252665
     },
     {
       "name": "צריכה שיקולית",
-      "value": "118.22",
+      "value": "118.21",
       "change": "+1.83%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 1.8347833577396808
+      "pct_raw": 1.8261693513653117
     },
     {
       "name": "צריכה בסיסית",
-      "value": "84.85",
-      "change": "-0.24%",
+      "value": "84.86",
+      "change": "-0.22%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.23515579071134962
+      "pct_raw": -0.22339800117577627
     },
     {
       "name": "נדל\"ן",
-      "value": "45.17",
-      "change": "+0.23%",
+      "value": "45.18",
+      "change": "+0.24%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.23297093410250025
+      "pct_raw": 0.24406478810738724
     },
     {
       "name": "תשתיות",
-      "value": "44.38",
-      "change": "+0.06%",
+      "value": "44.36",
+      "change": "+0.02%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.05636978579481078
+      "pct_raw": 0.022547914317921105
     },
     {
       "name": "חומרים",
-      "value": "51.02",
-      "change": "+1.17%",
+      "value": "51.01",
+      "change": "+1.15%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 1.1699385286535862
+      "pct_raw": 1.150109062066227
     },
     {
       "name": "תקשורת",
-      "value": "111.31",
-      "change": "+2.83%",
+      "value": "111.34",
+      "change": "+2.86%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 2.831670362158178
+      "pct_raw": 2.864005912786409
     }
   ],
   "fear_greed": {
@@ -856,166 +856,168 @@
   },
   "us_news": [
     {
-      "title_he": "FAA clears smallest Boeing 737 Max to fly after years of delays",
+      "title_he": "מניית סנאפ מזנקת ב-10% על קצב הרווחים ותחזית מכירות חזקה",
       "summary_he": "",
-      "body_en": "FAA clears smallest Boeing 737 Max to fly after years of delays",
+      "body_en": "Snap's stock jumps 10% on earnings beat and strong sales forecast",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/03/faa-boeing-737-max-certification.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-03T20:09:19+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "PALANTIR JUST REPORTED EARNINGS *PALANTIR 2Q REV. $1.94B, EST. $1.81B ( BEAT ✅ ) *PALANTIR 2Q ADJ EPS 41C, EST. 35C ( BEAT ✅ ) *PALANTIR 2Q ADJ. EBITDA $1.20B, EST.…",
-      "summary_he": "",
-      "body_en": "PALANTIR JUST REPORTED EARNINGS *PALANTIR 2Q REV. $1.94B, EST. $1.81B ( BEAT ✅ ) *PALANTIR 2Q ADJ EPS 41C, EST. 35C ( BEAT ✅ ) *PALANTIR 2Q ADJ. EBITDA $1.20B, EST. $1.09B ( BEAT ✅ ) *PALANTIR SEES FY",
-      "ticker": "$PLTR",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2084370653000454574#m",
+      "link": "https://www.cnbc.com/2026/08/03/snap-q2-earnings-report-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-03T20:07:44+00:00",
-      "relative_time": "לפני 2ד׳",
+      "published_at": "2026-08-03T21:36:02+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "Trump says Exxon and Chevron made 'too much money' off high oil prices during Iran conflict: 'I don't like it'",
+      "title_he": "Scotts Miracle-Gro $SMG מארח את יום המשקיעים שלו מחר, ונשיא הפד של KC שמיד ידבר מחר בשעה 20:15 ET.",
       "summary_he": "",
-      "body_en": "Trump says Exxon and Chevron made 'too much money' off high oil prices during Iran conflict: 'I don't like it'",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/03/trump-says-exxon-and-chevron-made-too-much-money-off-high-oil-prices-during-iran-conflict-i-dont-like-it.html",
-      "tag": "ENERGY",
-      "published_at": "2026-08-03T20:02:34+00:00",
+      "body_en": "Scotts Miracle-Gro $SMG hosts its investor day tomorrow, and KC Fed President Schmid will speak tomorrow at 8:15 PM ET.",
+      "ticker": "$SMG",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2084392741065122288#m",
+      "tag": "FED",
+      "published_at": "2026-08-03T21:35:30+00:00",
+      "relative_time": "לפני 4ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Twenty five states sue Trump administration over latest global tariffs",
+      "title_he": "פלנטיר מזנקת ב-12% ברבעון התפוצצות, כשההכנסות המסחריות בארה\"ב מזנקות בכמעט 150%",
+      "summary_he": "",
+      "body_en": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T21:34:43+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "Caterpillar $CAT, Merck $MRK, McDonald's $MCD ו-Pfizer $PFE הן החברות הגדולות ביותר שמדווחות על רווחים לפני הפתיחה מחר. SpaceX $SPCX, התקני מיקרו מתקדמים...",
+      "summary_he": "",
+      "body_en": "Caterpillar $CAT, Merck $MRK, McDonald's $MCD, and Pfizer $PFE are the largest companies reporting earnings before tomorrow's open. SpaceX $SPCX, Advanced Micro Devices $AMD, and Amgen $AMGN lead the ",
+      "ticker": "$CAT",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2084391359050326246#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T21:30:00+00:00",
+      "relative_time": "לפני 9ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מיזוג של AstraZeneca ובריסטול מאיירס סקוויב עשוי ליצור ענקית תרופות לסרטן, אבל אנליסטים קוראים לזה 'מוזר'",
+      "summary_he": "",
+      "body_en": "An AstraZeneca, Bristol Myers Squibb merger could create a cancer-drug giant, but analysts call it ‘odd’",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/astrazeneca-tie-up-talks-with-bristol-myers-squibb-are-moving-stocks-analysts-are-puzzled-7ae60fef?mod=mw_rss_topstories",
+      "tag": "M&A",
+      "published_at": "2026-08-03T20:59:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@StockSavvyShay: אני אפרסם הערב סרטון Earnings Edge בערוץ FE ומפרק את המחשבות שלי על $PLTR אבל התגובה הראשונית היא שהרווחים האלה היו אורות...",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: I’ll post an Earnings Edge video tonight on the FE channel breaking down my thoughts on $PLTR but initial reaction is these earnings were lights out: https://www.youtube.com/@Fut",
+      "ticker": "$PLTR",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2084383107537645767#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T20:57:13+00:00",
+      "relative_time": "לפני 42ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "25 מדינות תובעות את ממשל טראמפ על המכסים העולמיים האחרונים",
       "summary_he": "",
       "body_en": "Twenty five states sue Trump administration over latest global tariffs",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/03/trump-tariffs-25-states-lawsuit-supreme-court.html",
       "tag": "NEWS",
-      "published_at": "2026-08-03T19:58:47+00:00",
+      "published_at": "2026-08-03T20:57:02+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Microsoft’s stock is on a run not seen in 26 years — erasing its year-to-date losses",
+      "title_he": "צמיחת ההכנסות המסחריות של $PLTR בארה\"ב לא רשמה האטה אחת ברציפות מאז השקת AIP Bootcamps. הצמיחה זינקה מ-23% ל-137% ככל שהלקוחות ממשיכים...",
       "summary_he": "",
-      "body_en": "Microsoft’s stock is on a run not seen in 26 years — erasing its year-to-date losses",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/microsofts-stock-is-on-a-run-not-seen-in-26-years-erasing-its-year-to-date-losses-d9827b6c?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-03T19:40:00+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "The reason $PLTR has pulled back this year is that it has gone from being viewed as THE AI application winner to AN AI application winner which is a one-letter shift…",
-      "summary_he": "",
-      "body_en": "The reason $PLTR has pulled back this year is that it has gone from being viewed as THE AI application winner to AN AI application winner which is a one-letter shift that has completely changed how th",
+      "body_en": "$PLTR U.S. commercial revenue growth hasn't posted a single sequential slowdown since AIP Bootcamps launched. Growth has surged from 23% to 137% as customers continue expanding Palantir deeper across ",
       "ticker": "$PLTR",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084355659567697944#m",
+      "link": "https://nitter.net/StockSavvyShay/status/2084380514304368694#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-03T19:08:09+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
+      "published_at": "2026-08-03T20:46:55+00:00",
+      "relative_time": "לפני 53ד׳",
+      "sentiment": "bullish"
     },
     {
-      "title_he": "BREAKING: אמזון, $AMZN, אמרה שהיא קיבלה 600 מיליון דולר החזרי תעריפים, לפי בלומברג",
+      "title_he": "מנכ\"ל $PLTR, אלכס קארפ, מכוון אל OpenAI ו-Anthropic ואומר שפאלנטיר לא מקבל תשלום עבור \"קליקים או אסימונים או צ'אטים\". הוא מזהיר שבוני LLM מבקשים ללכוד את...",
       "summary_he": "",
-      "body_en": "BREAKING: Amazon, $AMZN, has said it received $600 million in tariff refunds, per Bloomberg",
-      "ticker": "$AMZN",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2084353637296517328#m",
+      "body_en": "$PLTR CEO Alex Karp takes aim at OpenAI and Anthropic saying Palantir doesn't get paid for “clicks or tokens or chats.” He warns LLM builders seek to capture their partners means of production and say",
+      "ticker": "$PLTR",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2084377938523467840#m",
       "tag": "TECH",
-      "published_at": "2026-08-03T19:00:07+00:00",
+      "published_at": "2026-08-03T20:36:41+00:00",
       "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "CITADEL SECURITIES: מניעי שוק השוורים נשארים \"שלמים בתוקף\" סקוט רובנר אומר שהמכירה הטכנולוגית של יולי והנסיגה על ידי משקיעים קמעונאיים עזרו לשחרר את השוק...",
+      "title_he": "$PLTR שילש את הכנסותיו במהלך 3 השנים האחרונות 😳",
       "summary_he": "",
-      "body_en": "CITADEL SECURITIES: BULL MARKET DRIVERS REMAIN “FIRMLY INTACT” Scott Rubner says July’s tech selloff and retreat by retail investors helped unwind the market’s speculative excesses. Retail posted its ",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2084350116086067356#m",
+      "body_en": "$PLTR has tripled its revenue over the past 3 years 😳",
+      "ticker": "$PLTR",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2084375784991674686#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-03T18:46:07+00:00",
+      "published_at": "2026-08-03T20:28:07+00:00",
       "relative_time": "לפני 1ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "Can Palantir pull off a Microsoft-style comeback? Here's what options say",
-      "summary_he": "",
-      "body_en": "Can Palantir pull off a Microsoft-style comeback? Here's what options say",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/03/can-palantir-pull-off-a-microsoft-style-comeback-heres-what-options-say.html",
-      "tag": "TECH",
-      "published_at": "2026-08-03T18:34:52+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "ג'ים קריימר אמר בשבוע שעבר שהוא מתכנן למכור את כל הביטקוין שלו על פני סיכוני מחשוב קוונטי. המהלך בא בעקבות מנכ\"ל $IBM שהזהיר כי \"אתה צריך להיות פרנואיד לגבי זה בעוד שלושה...",
+      "title_he": "PLTR $ פשוט הרס את הרווחים.",
       "summary_he": "",
-      "body_en": "Jim Cramer said last week he plans to sell all his Bitcoin over quantum-computing risks. The move follows $IBM CEO warning that “you should be paranoid about it in three to four years.”",
-      "ticker": "$IBM",
+      "body_en": "$PLTR just crushed earnings.",
+      "ticker": "$PLTR",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2084375319260070312#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T20:26:16+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רווחים ברבעון השני של $ • הכנסה של $1.60B לעומת משוער $1.59B • EPS $0.74 לעומת משוער $0.72 • מרווח גולמי 39% לעומת משוער. 39% הנחיות לרבעון השלישי • הכנסה של $1.70B לעומת משוער $1.67B • EPS $0.87 לעומת משוער...",
+      "summary_he": "",
+      "body_en": "$ON Q2 EARNINGS • Revenue $1.60B vs Est. $1.59B • EPS $0.74 vs Est. $0.72 • Gross Margin 39% vs. Est. 39% Q3 Guidance • Revenue $1.70B vs Est. $1.67B • EPS $0.87 vs Est. $0.84 • Gross Margin 41% vs. E",
+      "ticker": "$ON",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084345671663169634#m",
-      "tag": "CRYPTO",
-      "published_at": "2026-08-03T18:28:28+00:00",
+      "link": "https://nitter.net/StockSavvyShay/status/2084373540879622353#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T20:19:12+00:00",
       "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "נראה שסיטאדל קנתה את המטבל לאחר שגרמה לכולם למכור עם \"תחזית\" העלאת המחירים שלהם בשבוע שעבר",
+      "title_he": "אירועי אשראי, עסקאות ב-Yen Carry, Quad four (עדיין אין לי מושג מה זה, אבל הוא סופר שורי), עקומות תשואה הפוכות, ISM sub 45, Rules Sahm, LEI שלילי...",
       "summary_he": "",
-      "body_en": "LOOKS LIKE CITADEL BOUGHT THE DIP AFTER MAKING EVERYONE SELL WITH THEIR RATE HIKE “PREDICTION” LAST WEEK",
+      "body_en": "Credit events, yen carry trades, Quad four (still have no clue what that one is, but it is super bullish), inverted yield curves, ISM sub 45, Sahm Rules, LEI negative YoY, Buffett Indicators, wars, in",
       "ticker": "",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2084344748089774215#m",
-      "tag": "FED",
-      "published_at": "2026-08-03T18:24:47+00:00",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2084373288378130636#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-03T20:18:12+00:00",
       "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Boeing clears key hurdle and stock rallies, leading the Dow",
+      "title_he": "POWELL INDUSTRIES $POWL Q3'26 שירי רווחים 🔹 הכנסות: $312M (הערכה. $315M) 🔴; +9% YoY 🔹 EPS מדולל: $1.42 (הערכה. $1.47) 🔴; +8% YoY 🔹 הזמנות חדשות: $934M; +158% YoY 🔹…",
       "summary_he": "",
-      "body_en": "Boeing clears key hurdle and stock rallies, leading the Dow",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/boeing-clears-key-hurdle-and-stock-rallies-leading-the-dow-ffd2dcbd?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-03T18:15:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$META is invited to the White House on Tuesday to discuss U.S. government testing of AI safety.",
-      "summary_he": "",
-      "body_en": "$META is invited to the White House on Tuesday to discuss U.S. government testing of AI safety.",
-      "ticker": "$META",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084340096707465372#m",
-      "tag": "TECH",
-      "published_at": "2026-08-03T18:06:18+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$META הוזמנה ביום שלישי לבית הלבן כדי לדון בבדיקות בטיחות בינה מלאכותית על ידי ממשלת ארה\"ב - כך אמר דובר החברה לרויטרס ביום שני.",
-      "summary_he": "",
-      "body_en": "$META invited to White House Tuesday to discuss AI safety testing by U.S. government - company spokesperson told Reuters on Monday.",
-      "ticker": "$META",
+      "body_en": "POWELL INDUSTRIES $POWL Q3'26 EARNINGS HIGHLIGHTS 🔹 Revenues: $312M (Est. $315M) 🔴; +9% YoY 🔹 Diluted EPS: $1.42 (Est. $1.47) 🔴; +8% YoY 🔹 New orders: $934M; +158% YoY 🔹 Backlog: $2.4B; +69% YoY Other",
+      "ticker": "$POWL",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2084339109586461052#m",
-      "tag": "TECH",
-      "published_at": "2026-08-03T18:02:23+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
+      "link": "https://nitter.net/wallstengine/status/2084373153208520763#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T20:17:40+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
     }
   ],
   "il_news": [
