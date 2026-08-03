@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T03:44:37.403756+00:00",
+  "generated_at": "2026-08-03T07:24:37.653249+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-03T03:44:37.403767+00:00",
+  "ta_generated_at": "2026-08-03T07:24:37.653261+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -701,20 +701,20 @@
     {
       "name": "VIX",
       "value": "15.99",
-      "change": "-6.44%",
-      "direction": "down",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "market_us",
-      "pct_raw": -6.436512580456405
+      "pct_raw": 0.0
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,119.8",
-      "change": "+0.31%",
+      "value": "$4,118.1",
+      "change": "+0.27%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3116630143657215
+      "pct_raw": 0.2702702702702791
     },
     {
       "name": "נפט ברנט",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$62,976",
-      "change": "-0.82%",
+      "value": "$62,569",
+      "change": "-1.46%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.8209269422487961
+      "pct_raw": -1.4622933410371783
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,150",
-      "change": "+1.32%",
-      "direction": "up",
+      "value": "4,147",
+      "change": "-0.06%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 1.3212416888257317
+      "pct_raw": -0.05591035064464897
     },
     {
       "name": "דולר/שקל",
-      "value": "3.048",
-      "change": "-0.15%",
+      "value": "3.049",
+      "change": "-0.13%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.14740083199581286
+      "pct_raw": -0.12774738772970737
     }
   ],
   "sectors": [
@@ -856,15 +856,27 @@
   },
   "us_news": [
     {
-      "title_he": "הנפט יורד ביותר מ-4% כאשר המתיחות במזרח התיכון יורדת על המאמצים הדיפלומטיים",
+      "title_he": "הנפט יורד ביותר מ-5% כאשר המתיחות במזרח התיכון יורדת על המאמצים הדיפלומטיים",
       "summary_he": "",
-      "body_en": "Oil drops over 4% as Middle East tensions ebb on diplomatic efforts",
+      "body_en": "Oil drops over 5% as Middle East tensions ebb on diplomatic efforts",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
       "tag": "ENERGY",
-      "published_at": "2026-08-03T02:33:19+00:00",
+      "published_at": "2026-08-03T06:32:10+00:00",
       "sentiment": "bearish"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: אם הנתון יאושר, האירוע יהיה הזינוק הגדול ביותר בכניסות לא סדירות שנרשם אי פעם בשטח האיחוד האירופי והאירוע הגדול ביותר בספרד...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: If the figure is confirmed, the event would be the largest single surge in irregular arrivals ever recorded on EU territory and Spain's biggest ever migrant crisis. Read more: ht",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2084134917018173792#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-03T04:31:00+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "חברות ב-S&P 500 שיש להן יותר הכנסות מחוץ לארה\"ב ראו רווח מדהים של 74.7% ברבעון הזה.",
@@ -875,7 +887,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2084095646475116852#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T01:54:57+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +899,7 @@
       "link": "https://nitter.net/gurgavin/status/2084038491722096698#m",
       "tag": "NEWS",
       "published_at": "2026-08-02T22:07:50+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,7 +911,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2084028968680697911#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-02T21:30:00+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +923,7 @@
       "link": "https://nitter.net/wallstengine/status/2083965729054118334#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-02T17:18:42+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +935,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083942676903481728#m",
       "tag": "M&A",
       "published_at": "2026-08-02T15:47:06+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "bullish"
     },
     {
@@ -946,7 +958,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083926423434412321#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-02T14:42:31+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
@@ -958,7 +970,7 @@
       "link": "https://nitter.net/wallstengine/status/2083923460875755675#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-02T14:30:45+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
@@ -973,18 +985,7 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "המשקיעים השיגו תוצאות על פריחת שוק הנפט של מלחמת איראן. אם יישאר זמן רב, המסחר יהיה מסובך יותר",
-      "summary_he": "",
-      "body_en": "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/02/oil-prices-iran-war-energy-market.html",
-      "tag": "ENERGY",
-      "published_at": "2026-08-02T13:00:01+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "כיצד ה-MacBook Neo הזול של אפל עורר מלחמה במחשבים ניידים בתקציב נמוך",
+      "title_he": "כיצד ה-MacBook Neo הזול של אפל עורר מלחמה במחשבים ניידים תקציביים",
       "summary_he": "",
       "body_en": "How Apple’s cheap MacBook Neo sparked a war in budget laptops",
       "ticker": "",
@@ -1003,22 +1004,30 @@
       "link": "https://nitter.net/StockSavvyShay/status/2083893233868738638#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-02T12:30:38+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "הנה הסיבה לכך ששותפות המטה של ​​ניוזמקס יכולה להאיץ את הדרך לרווחיות עבור מניית NMAX.",
+      "title_he": "הימור הנפט של סורינאם בסך 26 מיליארד דולר משתלם סוף סוף",
       "summary_he": "",
-      "body_en": "Here Is Why Newsmax's Meta Partnership Could Accelerate the Path to Profitability for NMAX Stock.",
+      "body_en": "Suriname's $26 Billion Oil Bet Is Finally Paying Off",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/media-advertising/articles/why-newsmaxs-meta-partnership-could-173002136.html",
-      "tag": "TECH",
-      "published_at": "2026-08-01T17:30:02+00:00",
-      "sentiment": "bullish"
+      "link": "https://finance.yahoo.com/energy/articles/surinames-26-billion-oil-bet-210000202.html",
+      "tag": "ENERGY",
+      "published_at": "2026-08-01T21:00:00+00:00",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "השריפה בדירה ברמלה: שלושה ילדים חולצו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858070",
+      "tag": "כללי",
+      "published_at": "2026-08-03T09:53:00+00:00"
+    },
     {
       "title_he": "הקול הצעיר - מהם הנושאים שבאמת בוערים לדור הבא?",
       "summary_he": "",
@@ -1090,14 +1099,6 @@
       "link": "https://news.walla.co.il/item/3857920",
       "tag": "כללי",
       "published_at": "2026-08-02T16:10:00+00:00"
-    },
-    {
-      "title_he": "תאונת דרכים קטלנית בגולן: גבר כבן 35 נהרג, 9 פצועים נוספים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857916",
-      "tag": "כללי",
-      "published_at": "2026-08-02T16:01:00+00:00"
     }
   ],
   "track_record": {
