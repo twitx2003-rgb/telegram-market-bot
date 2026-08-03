@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T21:40:47.304527+00:00",
+  "generated_at": "2026-08-03T22:59:23.544202+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-03T21:40:47.304537+00:00",
+  "ta_generated_at": "2026-08-03T22:59:23.544212+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,110.9",
-      "change": "+0.09%",
+      "value": "$4,108.3",
+      "change": "+0.44%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.09495982468954556
+      "pct_raw": 0.4351546265737729
     },
     {
       "name": "נפט ברנט",
       "value": "$83.5",
-      "change": "-5.03%",
+      "change": "-0.36%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -5.026725804617311
+      "pct_raw": -0.35812343320997636
     },
     {
       "name": "ביטקוין",
-      "value": "$63,651",
-      "change": "+0.24%",
+      "value": "$63,534",
+      "change": "+0.06%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.24193805192748585
+      "pct_raw": 0.058434030351488565
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,14 +856,70 @@
   },
   "us_news": [
     {
-      "title_he": "מניית סנאפ מזנקת ב-10% על קצב הרווחים ותחזית מכירות חזקה",
+      "title_he": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
       "summary_he": "",
-      "body_en": "Snap's stock jumps 10% on earnings beat and strong sales forecast",
+      "body_en": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/03/big-techs-anthropic-and-openai-stakes-distort-corporate-earnings.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T22:48:18+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "פלנטיר מזנקת ב-12% ברבעון התפוצצות, כאשר ההכנסות המסחריות בארה\"ב מזנקות בכמעט 150%",
+      "summary_he": "",
+      "body_en": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T22:47:54+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "Microsoft’s stock is on a run not seen in 26 years — erasing its year-to-date losses",
+      "summary_he": "",
+      "body_en": "Microsoft’s stock is on a run not seen in 26 years — erasing its year-to-date losses",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/microsofts-stock-is-on-a-run-not-seen-in-26-years-erasing-its-year-to-date-losses-d9827b6c?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-08-03T22:44:00+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "ניתוח: הפדרל ריזרב עשוי להימשך למאמץ של בסן לתמוך בין של יפן",
+      "summary_he": "",
+      "body_en": "Analysis: Federal Reserve may be pulled into Bessent’s effort to support Japan’s yen",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/03/bessent-fed-japan-yen-fima-repo-facility.html",
+      "tag": "FED",
+      "published_at": "2026-08-03T22:40:32+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: הרווחים של המשפחה נובעים ממיזמים שונים, כולל ארגונים רבים של מטבעות קריפטוגרפיים ועסקאות מגה זרות. קרא עוד:…",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: The family's earnings stem from various ventures, including multiple cryptocurrency enterprises and foreign mega-deals. Read more: https://unusualwhales.com/news/trump-family-4-b",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2084406708089344225#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T22:31:00+00:00",
+      "relative_time": "לפני 27ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "Snap's stock jumps 8% on earnings beat and strong sales forecast",
+      "summary_he": "",
+      "body_en": "Snap's stock jumps 8% on earnings beat and strong sales forecast",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/03/snap-q2-earnings-report-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-03T21:36:02+00:00",
+      "published_at": "2026-08-03T22:03:52+00:00",
       "sentiment": "bullish"
     },
     {
@@ -875,22 +931,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2084392741065122288#m",
       "tag": "FED",
       "published_at": "2026-08-03T21:35:30+00:00",
-      "relative_time": "לפני 4ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "פלנטיר מזנקת ב-12% ברבעון התפוצצות, כשההכנסות המסחריות בארה\"ב מזנקות בכמעט 150%",
-      "summary_he": "",
-      "body_en": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T21:34:43+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "Caterpillar $CAT, Merck $MRK, McDonald's $MCD ו-Pfizer $PFE הן החברות הגדולות ביותר שמדווחות על רווחים לפני הפתיחה מחר. SpaceX $SPCX, התקני מיקרו מתקדמים...",
+      "title_he": "Caterpillar $CAT, Merck $MRK, McDonald's $MCD, and Pfizer $PFE are the largest companies reporting earnings before tomorrow's open. SpaceX $SPCX, Advanced Micro Devices…",
       "summary_he": "",
       "body_en": "Caterpillar $CAT, Merck $MRK, McDonald's $MCD, and Pfizer $PFE are the largest companies reporting earnings before tomorrow's open. SpaceX $SPCX, Advanced Micro Devices $AMD, and Amgen $AMGN lead the ",
       "ticker": "$CAT",
@@ -898,7 +943,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2084391359050326246#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T21:30:00+00:00",
-      "relative_time": "לפני 9ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -913,7 +958,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "R ל-@StockSavvyShay: אני אפרסם הערב סרטון Earnings Edge בערוץ FE ומפרק את המחשבות שלי על $PLTR אבל התגובה הראשונית היא שהרווחים האלה היו אורות...",
+      "title_he": "R ל-@StockSavvyShay: אני אפרסם סרטון Edge של הרווחים הערב בערוץ FE ומפרק את המחשבות שלי על $PLTR אבל התגובה הראשונית היא שהרווחים האלה היו אורות...",
       "summary_he": "",
       "body_en": "R to @StockSavvyShay: I’ll post an Earnings Edge video tonight on the FE channel breaking down my thoughts on $PLTR but initial reaction is these earnings were lights out: https://www.youtube.com/@Fut",
       "ticker": "$PLTR",
@@ -921,7 +966,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084383107537645767#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T20:57:13+00:00",
-      "relative_time": "לפני 42ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -936,7 +981,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "צמיחת ההכנסות המסחריות של $PLTR בארה\"ב לא רשמה האטה אחת ברציפות מאז השקת AIP Bootcamps. הצמיחה זינקה מ-23% ל-137% ככל שהלקוחות ממשיכים...",
+      "title_he": "$PLTR U.S. commercial revenue growth hasn't posted a single sequential slowdown since AIP Bootcamps launched. Growth has surged from 23% to 137% as customers continue…",
       "summary_he": "",
       "body_en": "$PLTR U.S. commercial revenue growth hasn't posted a single sequential slowdown since AIP Bootcamps launched. Growth has surged from 23% to 137% as customers continue expanding Palantir deeper across ",
       "ticker": "$PLTR",
@@ -944,7 +989,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084380514304368694#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T20:46:55+00:00",
-      "relative_time": "לפני 53ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -956,11 +1001,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084377938523467840#m",
       "tag": "TECH",
       "published_at": "2026-08-03T20:36:41+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$PLTR שילש את הכנסותיו במהלך 3 השנים האחרונות 😳",
+      "title_he": "$PLTR has tripled its revenue over the past 3 years 😳",
       "summary_he": "",
       "body_en": "$PLTR has tripled its revenue over the past 3 years 😳",
       "ticker": "$PLTR",
@@ -968,56 +1013,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084375784991674686#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T20:28:07+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "PLTR $ פשוט הרס את הרווחים.",
-      "summary_he": "",
-      "body_en": "$PLTR just crushed earnings.",
-      "ticker": "$PLTR",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2084375319260070312#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T20:26:16+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "רווחים ברבעון השני של $ • הכנסה של $1.60B לעומת משוער $1.59B • EPS $0.74 לעומת משוער $0.72 • מרווח גולמי 39% לעומת משוער. 39% הנחיות לרבעון השלישי • הכנסה של $1.70B לעומת משוער $1.67B • EPS $0.87 לעומת משוער...",
-      "summary_he": "",
-      "body_en": "$ON Q2 EARNINGS • Revenue $1.60B vs Est. $1.59B • EPS $0.74 vs Est. $0.72 • Gross Margin 39% vs. Est. 39% Q3 Guidance • Revenue $1.70B vs Est. $1.67B • EPS $0.87 vs Est. $0.84 • Gross Margin 41% vs. E",
-      "ticker": "$ON",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084373540879622353#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T20:19:12+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אירועי אשראי, עסקאות ב-Yen Carry, Quad four (עדיין אין לי מושג מה זה, אבל הוא סופר שורי), עקומות תשואה הפוכות, ISM sub 45, Rules Sahm, LEI שלילי...",
-      "summary_he": "",
-      "body_en": "Credit events, yen carry trades, Quad four (still have no clue what that one is, but it is super bullish), inverted yield curves, ISM sub 45, Sahm Rules, LEI negative YoY, Buffett Indicators, wars, in",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2084373288378130636#m",
-      "tag": "MACRO",
-      "published_at": "2026-08-03T20:18:12+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "POWELL INDUSTRIES $POWL Q3'26 שירי רווחים 🔹 הכנסות: $312M (הערכה. $315M) 🔴; +9% YoY 🔹 EPS מדולל: $1.42 (הערכה. $1.47) 🔴; +8% YoY 🔹 הזמנות חדשות: $934M; +158% YoY 🔹…",
-      "summary_he": "",
-      "body_en": "POWELL INDUSTRIES $POWL Q3'26 EARNINGS HIGHLIGHTS 🔹 Revenues: $312M (Est. $315M) 🔴; +9% YoY 🔹 Diluted EPS: $1.42 (Est. $1.47) 🔴; +8% YoY 🔹 New orders: $934M; +158% YoY 🔹 Backlog: $2.4B; +69% YoY Other",
-      "ticker": "$POWL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2084373153208520763#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T20:17:40+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
