@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:24:37.653249+00:00",
+  "generated_at": "2026-08-03T10:55:05.824517+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-03T07:24:37.653261+00:00",
+  "ta_generated_at": "2026-08-03T10:55:05.824526+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.99",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "15.97",
+      "change": "-0.13%",
+      "direction": "down",
       "group": "market_us",
-      "pct_raw": 0.0
+      "pct_raw": -0.125078173858659
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,118.1",
-      "change": "+0.27%",
-      "direction": "up",
+      "value": "$4,105.6",
+      "change": "-0.03%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.2702702702702791
+      "pct_raw": -0.03408814219624145
     },
     {
       "name": "נפט ברנט",
-      "value": "$90.1",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "$83.6",
+      "change": "-4.97%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.0
+      "pct_raw": -4.969862390537933
     },
     {
       "name": "ביטקוין",
-      "value": "$62,569",
-      "change": "-1.46%",
+      "value": "$62,605",
+      "change": "-1.40%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.4622933410371783
+      "pct_raw": -1.4047160407555288
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,147",
-      "change": "-0.06%",
+      "value": "4,121",
+      "change": "-0.70%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.05591035064464897
+      "pct_raw": -0.6983973972767699
     },
     {
       "name": "דולר/שקל",
-      "value": "3.049",
-      "change": "-0.13%",
-      "direction": "down",
+      "value": "3.056",
+      "change": "+0.10%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.12774738772970737
+      "pct_raw": 0.10154279537488553
     }
   ],
   "sectors": [
@@ -856,15 +856,142 @@
   },
   "us_news": [
     {
-      "title_he": "הנפט יורד ביותר מ-5% כאשר המתיחות במזרח התיכון יורדת על המאמצים הדיפלומטיים",
+      "title_he": "מכירות ה-TSLA של טסלה בספרד 🇪🇸 צנחו ב-81.3% בשנה שעברה ל-131 כלי רכב בלבד ביולי. עם זאת, המכירות עלו ב-19.8% בשנה שעברה במהלך שבעת החודשים הראשונים של 2026, בעוד ש...",
       "summary_he": "",
-      "body_en": "Oil drops over 5% as Middle East tensions ebb on diplomatic efforts",
+      "body_en": "Tesla’s $TSLA sales in Spain 🇪🇸 plunged 81.3% YoY to just 131 vehicles in July. However, sales rose 19.8% YoY during the first seven months of 2026, while Spain’s broader electrified vehicle market gr",
+      "ticker": "$TSLA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2084227957447667972#m",
+      "tag": "TECH",
+      "published_at": "2026-08-03T10:40:42+00:00",
+      "relative_time": "לפני 13ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "עליבאבא משתפת עלייה לאחר שחשפה את דגם הבינה המלאכותית 'החזק ביותר' שלה, כאשר התחרות בין ארה\"ב לסין מתחממת",
+      "summary_he": "",
+      "body_en": "Alibaba shares rally after unveiling its 'most powerful' AI model as U.S.-China competition heats up",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/03/alibaba-ai-model-qwen-rival-anthropic.html",
+      "tag": "TECH",
+      "published_at": "2026-08-03T10:34:35+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מחירי הנפט יורדים לשפל של שלושה שבועות לאחר שטראמפ ביטל את המתקפה המתוכננת",
+      "summary_he": "",
+      "body_en": "Oil prices fall to three-week low after Trump calls off planned attack",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/oil-prices-fall-to-three-week-low-after-trump-calls-off-planned-attack-631a8683?mod=mw_rss_topstories",
+      "tag": "ENERGY",
+      "published_at": "2026-08-03T10:26:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ניסאן היפנית רואה רווח ברבעון האחרון, אך מזהירה מפני צרות המזרח התיכון וסין",
+      "summary_he": "",
+      "body_en": "Japan's Nissan sees profit for latest quarter but warns of Middle East and China woes",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/japans-nissan-sees-profit-latest-102327579.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-03T10:23:27+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "וויליאמס של הפד הבלעדי צופה שהאינפלציה תירגע, אומר שהפד יפעל אם לא יפעל",
+      "summary_he": "",
+      "body_en": "Exclusive-Fed's Williams expects inflation to ease, says Fed will act if it doesn't",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/economy/policy/articles/exclusive-feds-williams-expects-inflation-100542847.html",
+      "tag": "FED",
+      "published_at": "2026-08-03T10:20:13+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "BNP רואה העלאות הפד דוחף את התשואות גבוה יותר BNP פאריבאס צופה שהתשואות של משרד האוצר האמריקאי ימשיכו לעלות ככל שהשווקים יתמחרו בהעלאות ריבית עתידיות של הפד. הבנק צופה שלושה פד...",
+      "summary_he": "",
+      "body_en": "BNP SEES FED HIKES PUSHING YIELDS HIGHER BNP Paribas expects U.S. Treasury yields to keep rising as markets price in future Fed rate hikes. The bank forecasts three Fed hikes starting in December, arg",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2084221919801315610#m",
+      "tag": "FED",
+      "published_at": "2026-08-03T10:16:43+00:00",
+      "relative_time": "לפני 37ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "גולדמן מרענן את רשימת ההרשעות בארה\"ב גולדמן זאקס הוסיף את Applied Materials ($AMAT), Delta ($DAL), Microsoft ($MSFT), O'Reilly Automotive ($ORLY), Viking Holdings (...",
+      "summary_he": "",
+      "body_en": "GOLDMAN REFRESHES U.S. CONVICTION LIST Goldman Sachs added Applied Materials ( $AMAT), Delta ( $DAL), Microsoft ( $MSFT), O'Reilly Automotive ( $ORLY), Viking Holdings ( $VIK) and UPS to its U.S. Conv",
+      "ticker": "$AMAT",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2084221392862511118#m",
+      "tag": "BANKS",
+      "published_at": "2026-08-03T10:14:37+00:00",
+      "relative_time": "לפני 39ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אסטרה-זנקה יורדת לאחר הדיווח על שיחות המיזוג של בריסטול מאיירס מותירה את האנליסטים \"מבולבלים\"",
+      "summary_he": "",
+      "body_en": "AstraZeneca slides after report of Bristol Myers merger talks leaves analysts 'perplexed'",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/03/astrazeneca-bristol-myers-squibb-merger-talks.html",
+      "tag": "M&A",
+      "published_at": "2026-08-03T09:50:18+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מורגן סטנלי הוריד את הדירוג של $CRCL לתת-משקל משווי משקל, מוריד את PT ל-$38 מ-$106 הערות אנליסטים: \"אנחנו מורידים את הדירוג של Circle,c כאשר התכווצות USDC חושף את הרזרבה...",
+      "summary_he": "",
+      "body_en": "Morgan Stanley Downgrades $CRCL to Underweight from Equalweight, Lowers PT to $38 from $106 Analyst comments: \"We downgrade Circle,c as USDC contraction exposes reserve income sensitivity and points t",
+      "ticker": "$CRCL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2084212465739653360#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T09:39:09+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "וולס פארגו משדרגת $SEI לעודף משקל ממשקל שווה, מוריד את PT ל$73 מ-$82 הערות אנליסטים: \"אנחנו משדרגים את SEI לעודף משקל, כפי שאנו רואים: (i) מוביל...",
+      "summary_he": "",
+      "body_en": "Wells Fargo Upgrades $SEI to Overweight from Equal Weight, Lowers PT to $73 from $82 Analyst comments: \"We upgrade SEI to Overweight, as we see: (i) leading behind-the-meter power execution, with thre",
+      "ticker": "$SEI",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2084212290937884905#m",
+      "tag": "BANKS",
+      "published_at": "2026-08-03T09:38:27+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מחירי הנפט יורדים ביותר מ-5% כאשר המתיחות במזרח התיכון יורדת על המאמצים הדיפלומטיים",
+      "summary_he": "",
+      "body_en": "Oil prices fall more than 5% as Middle East tensions ebb on diplomatic efforts",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
       "tag": "ENERGY",
-      "published_at": "2026-08-03T06:32:10+00:00",
-      "sentiment": "bearish"
+      "published_at": "2026-08-03T09:23:26+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "המניות בארה\"ב עלו (SPX +0.5%, NDX +0.6%) בעקבות הכרזתו של טראמפ על שיחות חדשות בין ארה\"ב לאיראן והאופטימיות לפתיחה מחדש של מיצר הורמוז, ושולחת ברנט גולמי -4.4% ל...",
+      "summary_he": "",
+      "body_en": "U.S. stocks rose (SPX +0.5%, NDX +0.6%) on Trump’s announcement of new U.S.-Iran talks and optimism for reopening the Strait of Hormuz, sending Brent crude -4.4% to $84/bbl. 10-year treasury yields ea",
+      "ticker": "$AMZN",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2084204745938358549#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T09:08:28+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "R ל-@unusual_whales: אם הנתון יאושר, האירוע יהיה הזינוק הגדול ביותר בכניסות לא סדירות שנרשם אי פעם בשטח האיחוד האירופי והאירוע הגדול ביותר בספרד...",
@@ -875,7 +1002,7 @@
       "link": "https://nitter.net/unusual_whales/status/2084134917018173792#m",
       "tag": "NEWS",
       "published_at": "2026-08-03T04:31:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -887,218 +1014,90 @@
       "link": "https://nitter.net/RyanDetrick/status/2084095646475116852#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T01:54:57+00:00",
-      "relative_time": "לפני 5ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "FUTURES רק נפתחה S&P 500 בעלייה של 0.5% 📈 NASDAQ 100 UP 0.7% 📈 DOW JONES עלה ב-0.4% 📈",
-      "summary_he": "",
-      "body_en": "FUTURES JUST OPENED S&P 500 UP 0.5% 📈 NASDAQ 100 UP 0.7% 📈 DOW JONES UP 0.4% 📈",
-      "ticker": "",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2084038491722096698#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-02T22:07:50+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Marriott $MAR, EchoStar $ECHO ו-Tyson Foods $TSN מדווחים על רווחים לפני הפתיחה מחר. לאחר הסגירה, Palantir $PLTR, Vertex Pharma $VRTX, ו-Diamondback Energy...",
-      "summary_he": "",
-      "body_en": "Marriott $MAR, EchoStar $ECHO, and Tyson Foods $TSN report earnings before tomorrow's open. After the close, Palantir $PLTR, Vertex Pharma $VRTX, and Diamondback Energy $FANG are the largest companies",
-      "ticker": "$MAR",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2084028968680697911#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-02T21:30:00+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מפת החום של תגובת הרווחים של Nasdaq-100:",
-      "summary_he": "",
-      "body_en": "Nasdaq-100 earnings reaction heatmap:",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2083965729054118334#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-02T17:18:42+00:00",
-      "relative_time": "לפני 14ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RKLB $ כעת צפוי להפוך לרווחי עד 2027 בעקבות רכישת IRDM בדולר עם חברה משולבת שצפויה להרוויח ~ 140 מיליון דולר באותה שנה הרשת של Iridium...",
-      "summary_he": "",
-      "body_en": "$RKLB is now expected to become profitable by 2027 following its $IRDM acquisition with combined company projected to earn ~$140M that year Iridium’s network would offset Rocket Lab’s burn & create a ",
-      "ticker": "$RKLB",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2083942676903481728#m",
-      "tag": "M&A",
-      "published_at": "2026-08-02T15:47:06+00:00",
-      "relative_time": "לפני 15ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "הנה מה ששווה להזרים באוגוסט 2026 בנטפליקס, Hulu, HBO Max ועוד",
-      "summary_he": "",
-      "body_en": "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-august-2026-on-netflix-hulu-hbo-max-and-more-21b78a08?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-02T15:19:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הרווחים של השבוע הבא מאסיביים לצמיחה • יום שני | $PLTR, $CLPT, $ON, $GRAB, $SNAP, $WGS, $VOYG • יום שלישי | $AMD, $SPCX, $CIFR, $ZETA, $ANET, $ALAB, $TMDX, $KTOS,...",
-      "summary_he": "",
-      "body_en": "NEXT WEEK’S EARNINGS ARE MASSIVE FOR GROWTH • Monday | $PLTR, $CLPT, $ON, $GRAB, $SNAP, $WGS, $VOYG • Tuesday | $AMD, $SPCX, $CIFR, $ZETA, $ANET, $ALAB, $TMDX, $KTOS, $DOCN, $HUT, $OPEN, $PRCT • Wedne",
-      "ticker": "$PLTR",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2083926423434412321#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-02T14:42:31+00:00",
-      "relative_time": "לפני 16ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ה-S&P 500 EPS הגדול ביותר מנצח ומחמיץ עד כה בעונת הרווחים הזו:",
-      "summary_he": "",
-      "body_en": "THE BIGGEST S&P 500 EPS BEATS AND MISSES SO FAR THIS EARNINGS SEASON:",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2083923460875755675#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-02T14:30:45+00:00",
-      "relative_time": "לפני 16ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "צמיחת הרווחים של S&P 500 הולכת ונעשית פרועה עוד יותר כאשר אמזון מטביעה את חותמה",
-      "summary_he": "",
-      "body_en": "S&P 500 profit growth is getting even wilder as Amazon makes its mark",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/s-p-500-profit-growth-is-getting-even-wilder-as-amazon-makes-its-mark-5ddf2082?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-02T14:00:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "כיצד ה-MacBook Neo הזול של אפל עורר מלחמה במחשבים ניידים תקציביים",
-      "summary_he": "",
-      "body_en": "How Apple’s cheap MacBook Neo sparked a war in budget laptops",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/how-apples-cheap-macbook-neo-sparked-a-war-in-budget-laptops-8fbaf839?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-02T13:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: $GOOGL עשויה לבנות עסק שנתי של 50 מיליארד דולר של TPU כשירות עד 2028. ברקליס מעריך שמכירות TPU חיצוניות עשויות להניב הכנסה של 22 מיליארד דולר לכל...",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $GOOGL could build a $50B annual TPU-as-a-service business by 2028. Barclays estimates external TPU sales could generate ~$22B in revenue per gigawatt at a 25% gross margin by t",
-      "ticker": "$GOOGL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2083893233868738638#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-02T12:30:38+00:00",
-      "relative_time": "לפני 18ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הימור הנפט של סורינאם בסך 26 מיליארד דולר משתלם סוף סוף",
-      "summary_he": "",
-      "body_en": "Suriname's $26 Billion Oil Bet Is Finally Paying Off",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/energy/articles/surinames-26-billion-oil-bet-210000202.html",
-      "tag": "ENERGY",
-      "published_at": "2026-08-01T21:00:00+00:00",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
     {
-      "title_he": "השריפה בדירה ברמלה: שלושה ילדים חולצו",
+      "title_he": "בזכות הכלבה אנה: נתפס מצבור אמצעי לחימה ברהט",
       "summary_he": "",
       "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858070",
+      "link": "https://news.walla.co.il/item/3858121",
       "tag": "כללי",
-      "published_at": "2026-08-03T09:53:00+00:00"
+      "published_at": "2026-08-03T13:22:00+00:00"
     },
     {
-      "title_he": "הקול הצעיר - מהם הנושאים שבאמת בוערים לדור הבא?",
+      "title_he": "אב וששת ילדים הוגדרו כנעדרים בטיול בדרום - ונמצאו על ידי מתנדבי חילוץ ערבה",
       "summary_he": "",
       "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857983",
+      "link": "https://news.walla.co.il/item/3858134",
       "tag": "כללי",
-      "published_at": "2026-08-03T05:45:00+00:00"
+      "published_at": "2026-08-03T13:07:00+00:00"
     },
     {
-      "title_he": "רעידת אדמה פקדה את מצרים - והורגשה באזור הדרום וים המלח",
+      "title_he": "המשטרה: התחזק החשד נגד אברהם חדי בהשלכת אבנים לעבר בניין חדשות 12",
       "summary_he": "",
       "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858015",
+      "link": "https://news.walla.co.il/item/3858133",
       "tag": "כללי",
-      "published_at": "2026-08-03T03:04:00+00:00"
+      "published_at": "2026-08-03T13:05:00+00:00"
     },
     {
-      "title_he": "\"הייתה חלק מנשמתו\": לאחר שחברתו נרצחה בנובה, בר אסרף שלח יד בנפשו על קברה",
+      "title_he": "מחקר חדש חושף: ישראל נמצאת בגל ההגירה הגדול ביותר שנרשם בעשור וחצי האחרון",
       "summary_he": "",
       "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857993",
+      "link": "https://news.walla.co.il/item/3858097",
       "tag": "כללי",
-      "published_at": "2026-08-02T23:00:00+00:00"
+      "published_at": "2026-08-03T13:00:00+00:00"
     },
     {
-      "title_he": "פרשת הצל מסתעפת: קצין נחקר במח\"ש בחשד להפרת אמונים",
+      "title_he": "שלט לזכרו של עמוס עוז הושחת בערד, ראש העיר: \"מעשה מביש\"",
       "summary_he": "",
       "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857962",
+      "link": "https://news.walla.co.il/item/3858122",
       "tag": "כללי",
-      "published_at": "2026-08-02T19:01:00+00:00"
+      "published_at": "2026-08-03T12:40:00+00:00"
     },
     {
-      "title_he": "ביהמ\"ש המחוזי הוציא צו ארעי שאוסר לקדם את \"כלא התנינים של בן גביר\"",
+      "title_he": "בכיר במוסדות הליכוד וקבלן מוכר לשעבר עוכבו לחקירה בחשד להברחת נכסים",
       "summary_he": "",
       "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857956",
+      "link": "https://news.walla.co.il/item/3858119",
       "tag": "כללי",
-      "published_at": "2026-08-02T18:35:00+00:00"
+      "published_at": "2026-08-03T12:34:00+00:00"
     },
     {
-      "title_he": "אישום חמור: אנס את בת זוגו לשעבר - לעיני בתם הקטנה | קשה לקריאה",
+      "title_he": "אדם בשנות ה-40 לחייו נעדר בכנרת: כוחות רבים סורקים בחוף",
       "summary_he": "",
       "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857941",
+      "link": "https://news.walla.co.il/item/3858116",
       "tag": "כללי",
-      "published_at": "2026-08-02T17:15:00+00:00"
+      "published_at": "2026-08-03T12:20:00+00:00"
     },
     {
-      "title_he": "שריפה פרצה סמוך בית שמש: קו הבתים הראשון במושב כסלון פונה",
+      "title_he": "אתה לא מתייאש? נהג נתפס בפעם השביעית כשהוא נוהג בשלילה",
       "summary_he": "",
       "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857929",
+      "link": "https://news.walla.co.il/item/3858114",
       "tag": "כללי",
-      "published_at": "2026-08-02T16:48:00+00:00"
+      "published_at": "2026-08-03T12:06:00+00:00"
     },
     {
-      "title_he": "הקטטה, ניסיון הדריסה וההיעלמות: כל מה שידוע על תעלומת אלדר דיין",
+      "title_he": "כתב אישום: הציג את עצמו כניצול נובה, נכנס בכוח לדירת צעירה - ואנס אותה",
       "summary_he": "",
       "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857923",
+      "link": "https://news.walla.co.il/item/3858103",
       "tag": "כללי",
-      "published_at": "2026-08-02T16:27:00+00:00"
+      "published_at": "2026-08-03T11:42:00+00:00"
     },
     {
-      "title_he": "הסיר שלט לשחרור יגאל עמיר, הותקף בברוטליות - ומאושפז עם דימום מוחי | תיעוד",
+      "title_he": "נשים עם מוגבלות שכלית התלוננו: \"מדריך בהוסטל ביצע בנו מעשים מגונים בפומבי\"",
       "summary_he": "",
       "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3857920",
+      "link": "https://news.walla.co.il/item/3858100",
       "tag": "כללי",
-      "published_at": "2026-08-02T16:10:00+00:00"
+      "published_at": "2026-08-03T11:30:00+00:00"
     }
   ],
   "track_record": {
