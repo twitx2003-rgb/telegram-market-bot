@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T21:48:49.555978+00:00",
+  "generated_at": "2026-08-04T23:03:06.304600+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-04T21:48:49.555988+00:00",
+  "ta_generated_at": "2026-08-04T23:03:06.304611+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,134.2",
-      "change": "+1.07%",
-      "direction": "up",
+      "value": "$4,139.7",
+      "change": "-0.31%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 1.0683290551277305
+      "pct_raw": -0.3106487501806229
     },
     {
       "name": "נפט ברנט",
-      "value": "$78.7",
-      "change": "-6.06%",
+      "value": "$78.9",
+      "change": "-0.62%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -6.064223469022322
+      "pct_raw": -0.6174395161290258
     },
     {
       "name": "ביטקוין",
-      "value": "$64,170",
-      "change": "+1.11%",
+      "value": "$64,179",
+      "change": "+1.13%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.1122527431931473
+      "pct_raw": 1.1273794952117748
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.005",
-      "change": "-1.28%",
+      "value": "3.001",
+      "change": "-1.41%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -1.2779237844940845
+      "pct_raw": -1.40932982917214
     }
   ],
   "sectors": [
@@ -856,6 +856,29 @@
   },
   "us_news": [
     {
+      "title_he": "BREAKING: SpaceX, $SPCX, הכריזה על שותפות עם Nvidia, $NVDA, לפיתוח מטען המחשוב הלוויין Starmind AI1.",
+      "summary_he": "",
+      "body_en": "BREAKING: SpaceX, $SPCX, has announced a partnership with Nvidia, $NVDA, to develop the Starmind AI1 satellite computing payload.",
+      "ticker": "$SPCX",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2084775890370642301#m",
+      "tag": "TECH",
+      "published_at": "2026-08-04T22:58:00+00:00",
+      "relative_time": "לפני 4ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "המניות חוזרות לשיא. משקיעים שישבו חזק במהלך התרסקות המומנטום האחרונה מתוגמלים.",
+      "summary_he": "",
+      "body_en": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/stocks-return-to-record-highs-investors-who-sat-tight-during-the-recent-momentum-crash-are-being-rewarded-8c960105?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-04T22:40:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "ההכנסות של AMD מטפסות ב-50% ומכירות מרכזי הנתונים הוכפלו, אך המניה יורדת",
       "summary_he": "",
       "body_en": "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
@@ -863,11 +886,22 @@
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-04T21:47:38+00:00",
+      "published_at": "2026-08-04T22:09:17+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מלאי אנרגיה מתחיל מחר בלוח השנה של אירועי מפתח בשעה 10:30 ET. לאחר סגירת השוק, פקידי הפד קוק ודיילי אמורים לדבר, ו-Costco $COST...",
+      "title_he": "Chipotle pulls jalapenos from some locations after salmonella investigation. Here’s what to know.",
+      "summary_he": "",
+      "body_en": "Chipotle pulls jalapenos from some locations after salmonella investigation. Here’s what to know.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/chipotle-pulls-jalapenos-from-some-locations-after-salmonella-investigation-heres-what-to-know-20d8c66f?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-08-04T21:54:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מלאי אנרגיה מתחיל בלוח השנה של אירועי מפתח של מחר בשעה 10:30 ET. לאחר סגירת השוק, פקידי הפד קוק ודיילי אמורים לדבר, ו-Costco $COST...",
       "summary_he": "",
       "body_en": "Energy inventories begin tomorrow’s calendar of key events at 10:30 AM ET. After the market closes, Fed officials Cook and Daly are scheduled to speak, and Costco $COST reports July sales.",
       "ticker": "$COST",
@@ -875,11 +909,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2084755129975058566#m",
       "tag": "FED",
       "published_at": "2026-08-04T21:35:30+00:00",
-      "relative_time": "לפני 12ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "צ'יפוטלה מקסיקני גריל הסיר ג'לפניוס ממספר חנויות במינסוטה לאחר שנודע שהפלפלים עשויים להיות קשורים להתפרצות סלמונלה, לפי בלומברג.",
+      "title_he": "צ'יפוטלה מקסיקני גריל הסירה ג'לפניוס ממספר חנויות במינסוטה לאחר שנודע שהפלפלים עשויים להיות קשורים להתפרצות סלמונלה, לפי בלומברג.",
       "summary_he": "",
       "body_en": "Chipotle Mexican Grill has removed jalapeños from multiple stores in Minnesota after learning the peppers may be linked to a salmonella outbreak, per Bloomberg.",
       "ticker": "",
@@ -887,7 +921,7 @@
       "link": "https://nitter.net/unusual_whales/status/2084753996430950493#m",
       "tag": "TECH",
       "published_at": "2026-08-04T21:31:00+00:00",
-      "relative_time": "לפני 17ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,7 +933,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2084753870710861866#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-04T21:30:30+00:00",
-      "relative_time": "לפני 17ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +945,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084753013118541831#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-04T21:27:05+00:00",
-      "relative_time": "לפני 21ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -934,7 +968,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084749943093481562#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-04T21:14:53+00:00",
-      "relative_time": "לפני 33ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,7 +980,7 @@
       "link": "https://nitter.net/wallstengine/status/2084749232213577924#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-04T21:12:04+00:00",
-      "relative_time": "לפני 36ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -961,31 +995,7 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "$AMD ירד בסביבות 10% מכיוון שהוא סיפק רבעון מצוין לבר כמעט מושלם, אבל הקצב לא היה גדול מספיק כדי לאלץ גרסאות כלפי מעלה כבר...",
-      "summary_he": "",
-      "body_en": "$AMD is down around 10% because it delivered an excellent quarter into an almost perfect bar but the beat wasn't large enough to force upward revisions to already aggressive second-half and 2027 estim",
-      "ticker": "$AMD",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084748482162958833#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-04T21:09:05+00:00",
-      "relative_time": "לפני 39ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "BREAKING: מייקל בורי אומר שהוא חשף שינויים גדולים בתיק: • יצאה ממיקרוסופט, $MSFT, longs ו-calls • סגורה Oracle, $ORCL, שורט ו-puts • סגורה בינואר...",
-      "summary_he": "",
-      "body_en": "BREAKING: Michael Burry says he disclosed major portfolio changes: • Exited Microsoft, $MSFT, longs and calls • Closed Oracle, $ORCL, shorts and puts • Closed January 2026 Palantir, $PLTR, puts, but r",
-      "ticker": "$MSFT",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2084746698467807342#m",
-      "tag": "TECH",
-      "published_at": "2026-08-04T21:02:00+00:00",
-      "relative_time": "לפני 46ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מחירי המניות הגבוהים הללו אמורים באמת להפיץ את הרווחים של S&P 500 לרבעון השלישי #OtherIncome",
+      "title_he": "מחירי המניות הגבוהים האלה באמת אמורים להפיץ את הרווחים של S&P 500 לרבעון השלישי #OtherIncome",
       "summary_he": "",
       "body_en": "These record-high stock prices should really juice Q3 S&P 500 earnings #OtherIncome",
       "ticker": "",
@@ -993,19 +1003,8 @@
       "link": "https://nitter.net/MikeZaccardi/status/2084744151833145775#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-04T20:51:53+00:00",
-      "relative_time": "לפני 56ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "אז מה התוכנית להוריד את האינפלציה? כיסא הפד החדש ובעלי בריתו בבית הלבן אומרים שאסור לשאול.",
-      "summary_he": "",
-      "body_en": "So what’s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn’t ask.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
-      "tag": "FED",
-      "published_at": "2026-08-04T20:26:00+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "מניית SPACEX יורדת כמעט ב-9% לאחר שעות לאחר דיווח על רווחים.",
@@ -1016,7 +1015,7 @@
       "link": "https://nitter.net/gurgavin/status/2084735887418482749#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-04T20:19:02+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     }
   ],
