@@ -86,7 +86,7 @@
    "price_at_rec": 31.07,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 10.91
+   "last_pnl": 10.94
   },
   {
    "ticker": "NFLX",
@@ -94,7 +94,7 @@
    "price_at_rec": 72.91,
    "confidence": 4,
    "engine": "rules",
-   "last_pnl": -1.65
+   "last_pnl": 0.38
   },
   {
    "ticker": "AAPL",
@@ -102,7 +102,7 @@
    "price_at_rec": 340.08,
    "confidence": 4,
    "engine": "rules",
-   "last_pnl": -10.78
+   "last_pnl": -10.38
   },
   {
    "ticker": "JPM",
@@ -110,7 +110,7 @@
    "price_at_rec": 357.31,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": -1.31
+   "last_pnl": 0.52
   },
   {
    "ticker": "MSFT",
@@ -118,7 +118,7 @@
    "price_at_rec": 394.79,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 23.52
+   "last_pnl": 24.93
   },
   {
    "ticker": "GOOGL",
@@ -126,7 +126,7 @@
    "price_at_rec": 333.17,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 12.11
+   "last_pnl": 13.09
   },
   {
    "ticker": "AMZN",
@@ -134,7 +134,7 @@
    "price_at_rec": 235.5,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 20.6
+   "last_pnl": 18.08
   },
   {
    "ticker": "AMD",
@@ -142,7 +142,7 @@
    "price_at_rec": 476.15,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 0.0
+   "last_pnl": 8.0
   },
   {
    "ticker": "NVDA",
@@ -150,7 +150,7 @@
    "price_at_rec": 199.21,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 3.73
+   "last_pnl": 5.76
   }
  ]
 }
