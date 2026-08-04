@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T06:26:59.575595+00:00",
+  "generated_at": "2026-08-04T09:21:16.591987+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-04T06:26:59.575606+00:00",
+  "ta_generated_at": "2026-08-04T09:21:16.591996+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.86",
-      "change": "-0.81%",
+      "value": "15.82",
+      "change": "-0.25%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.8130081300813058
+      "pct_raw": -0.2522068095838534
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,119.5",
-      "change": "+0.71%",
+      "value": "$4,106.2",
+      "change": "+0.38%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.7089597848673755
+      "pct_raw": 0.3838161593937127
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.7",
-      "change": "+1.13%",
+      "value": "$86.1",
+      "change": "+2.75%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.1340575384982725
+      "pct_raw": 2.7456129879431748
     },
     {
       "name": "ביטקוין",
-      "value": "$63,750",
-      "change": "+0.45%",
+      "value": "$63,472",
+      "change": "+0.01%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4510876237122141
+      "pct_raw": 0.01233303000519647
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,112",
-      "change": "-0.91%",
-      "direction": "down",
+      "value": "4,147",
+      "change": "+0.87%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.9111941197734763
+      "pct_raw": 0.865094401572118
     },
     {
       "name": "דולר/שקל",
-      "value": "3.041",
-      "change": "-0.11%",
+      "value": "3.038",
+      "change": "-0.21%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.11169513797634921
+      "pct_raw": -0.206964520367936
     }
   ],
   "sectors": [
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "אמזון (AMZN) שילמה 50 מיליארד דולר עבור OpenAI. מיקרוסופט (MSFT) פתחה את הדלת אך שמרה על המפתחות",
+      "summary_he": "",
+      "body_en": "Amazon (AMZN) Paid $50 Billion for OpenAI. Microsoft (MSFT) Opened the Door but Kept the Keys",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-paid-50-billion-083135459.html",
+      "tag": "TECH",
+      "published_at": "2026-08-04T08:31:35+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "הרווח של BP יותר מכפיל את עצמו כשטראמפ מפוצץ את Big Oil על \"מרוויח יותר מדי כסף\"",
       "summary_he": "",
       "body_en": "BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’",
@@ -863,18 +874,7 @@
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/04/bp-2q-earnings-oil-iran-war.html",
       "tag": "ENERGY",
-      "published_at": "2026-08-04T06:24:14+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "רווחי ארמקו הסעודית זינקו ב-33% ברבעון השני, כאשר המלחמה באיראן סוחטת את אספקת הנפט",
-      "summary_he": "",
-      "body_en": "Saudi Aramco profits jump 33% in second quarter as Iran war squeezes oil supply",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/04/saudi-aramco-earnings-2q-oil-iran-war.html",
-      "tag": "ENERGY",
-      "published_at": "2026-08-04T05:56:25+00:00",
+      "published_at": "2026-08-04T08:11:48+00:00",
       "sentiment": "bullish"
     },
     {
@@ -886,7 +886,7 @@
       "link": "https://nitter.net/wallstengine/status/2084516179536671060#m",
       "tag": "NEWS",
       "published_at": "2026-08-04T05:46:00+00:00",
-      "relative_time": "לפני 40ד׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -909,7 +909,7 @@
       "link": "https://nitter.net/cperruna/status/2084474204401876998#m",
       "tag": "TECH",
       "published_at": "2026-08-04T02:59:12+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bearish"
     },
     {
@@ -921,7 +921,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2084440216173985964#m",
       "tag": "MACRO",
       "published_at": "2026-08-04T00:44:09+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -933,7 +933,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084432168839979296#m",
       "tag": "NEWS",
       "published_at": "2026-08-04T00:12:10+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
@@ -945,7 +945,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084419908964933677#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T23:23:27+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -990,7 +990,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2084392741065122288#m",
       "tag": "FED",
       "published_at": "2026-08-03T21:35:30+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1002,7 +1002,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2084391359050326246#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T21:30:00+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1014,11 +1014,27 @@
       "link": "https://nitter.net/cperruna/status/2084375319260070312#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T20:26:16+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "פרשה חמורה: עורכת דין ו-4 נוספים נעצרו בחשד שניסו להדיח קטינים לעדות שקר",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858363",
+      "tag": "כללי",
+      "published_at": "2026-08-04T11:47:00+00:00"
+    },
+    {
+      "title_he": "השליך רימון לעבר מתחם מגורים - ונמלט: כך מחסלים חשבונות בסכסוך משפחות | תיעוד",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858326",
+      "tag": "כללי",
+      "published_at": "2026-08-04T09:42:00+00:00"
+    },
     {
       "title_he": "דיווח: קבוצת מתנחלים הציתה רכבים סמוך לשכם והתנכלה לתושבים",
       "summary_he": "",
@@ -1082,22 +1098,6 @@
       "link": "https://news.walla.co.il/item/3858197",
       "tag": "כללי",
       "published_at": "2026-08-03T17:18:00+00:00"
-    },
-    {
-      "title_he": "חודשים של אלימות בגן ילדים - פעוטות הוטחו, הוכו ואחד מהם שבר את ידו",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858192",
-      "tag": "כללי",
-      "published_at": "2026-08-03T16:55:00+00:00"
-    },
-    {
-      "title_he": "חיסול אושר קדושים בנתיבות: חשד שחלק מהמעורבים ברחו מהארץ | פרטים חדשים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858189",
-      "tag": "כללי",
-      "published_at": "2026-08-03T16:46:00+00:00"
     }
   ],
   "track_record": {
