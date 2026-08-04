@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T09:21:16.591987+00:00",
+  "generated_at": "2026-08-04T11:39:24.698872+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-04T09:21:16.591996+00:00",
+  "ta_generated_at": "2026-08-04T11:39:24.698882+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.82",
-      "change": "-0.25%",
+      "value": "15.63",
+      "change": "-1.45%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.2522068095838534
+      "pct_raw": -1.4501891551071793
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,106.2",
-      "change": "+0.38%",
+      "value": "$4,116.5",
+      "change": "+0.64%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3838161593937127
+      "pct_raw": 0.6356191174673023
     },
     {
       "name": "נפט ברנט",
-      "value": "$86.1",
-      "change": "+2.75%",
-      "direction": "up",
+      "value": "$83.7",
+      "change": "-0.14%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 2.7456129879431748
+      "pct_raw": -0.14324937328398035
     },
     {
       "name": "ביטקוין",
-      "value": "$63,472",
-      "change": "+0.01%",
+      "value": "$63,676",
+      "change": "+0.33%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.01233303000519647
+      "pct_raw": 0.33417043623489406
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,147",
-      "change": "+0.87%",
+      "value": "4,143",
+      "change": "+0.76%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.865094401572118
+      "pct_raw": 0.764162667905413
     },
     {
       "name": "דולר/שקל",
-      "value": "3.038",
-      "change": "-0.21%",
+      "value": "3.025",
+      "change": "-0.63%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.206964520367936
+      "pct_raw": -0.6307490144546684
     }
   ],
   "sectors": [
@@ -856,48 +856,153 @@
   },
   "us_news": [
     {
-      "title_he": "אמזון (AMZN) שילמה 50 מיליארד דולר עבור OpenAI. מיקרוסופט (MSFT) פתחה את הדלת אך שמרה על המפתחות",
+      "title_he": "הרווחים של מקדונלדס עלו על ההערכות, הרשת מכריזה על ראש חדש בארה\"ב להאצת הצמיחה",
       "summary_he": "",
-      "body_en": "Amazon (AMZN) Paid $50 Billion for OpenAI. Microsoft (MSFT) Opened the Door but Kept the Keys",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-paid-50-billion-083135459.html",
-      "tag": "TECH",
-      "published_at": "2026-08-04T08:31:35+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הרווח של BP יותר מכפיל את עצמו כשטראמפ מפוצץ את Big Oil על \"מרוויח יותר מדי כסף\"",
-      "summary_he": "",
-      "body_en": "BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’",
+      "body_en": "McDonald's earnings beat estimates, chain announces new U.S. head to accelerate growth",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/04/bp-2q-earnings-oil-iran-war.html",
-      "tag": "ENERGY",
-      "published_at": "2026-08-04T08:11:48+00:00",
+      "link": "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T11:34:49+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "אירועי המפתח של היום (כל EST) — 08/04/2026 08:30: מאזן סחר בארה\"ב 10:00: הזמנות מפעל בארה\"ב MoM 10:00: US JOLTS פתיחת משרות לפני הפתיחה 👇 06:00: Spotify $SPOT 06:00:...",
+      "title_he": "העברת ENERGY $ET Q2'26 שיאי רווחים 🔹 הכנסות: $34.3B (הערכה. $28.24B) 🟢 🔹 EPS: $0.59 (אומדן $0.38) 🟢 🔹 EBITDA: $5.07B (East. $5.07B) +31% משנה לשנה 🔹 הכנסה נטו:…",
       "summary_he": "",
-      "body_en": "Today's Key Events (All EST) — 08/04/2026 08:30: US Trade Balance 10:00: US Factory Orders MoM 10:00: US JOLTS Job Openings Before Open 👇 06:00: Spotify $SPOT 06:00: DuPont $DD 06:00: Archer-Daniels-M",
-      "ticker": "$SPOT",
+      "body_en": "ENERGY TRANSFER $ET Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $34.3B (Est. $28.24B) 🟢 🔹 EPS: $0.59 (Est. $0.38) 🟢 🔹 EBITDA: $5.07B (Est. $4.52B) 🟢; +31% YoY 🔹 Net Income: $2.09B (Est. $1.23B) 🟢; +80% YoY R",
+      "ticker": "$ET",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2084516179536671060#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-04T05:46:00+00:00",
-      "relative_time": "לפני 3ש׳",
+      "link": "https://nitter.net/wallstengine/status/2084603938553425973#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T11:34:43+00:00",
+      "relative_time": "לפני 4ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "שירי רווחים של CUMMINS $CMI Q2'26 🔹 הכנסות: $9.5B (הערכה. $9.33B) 🟢; +9% YoY 🔹 EPS: $6.73 (הערכה. $7.23) 🔴; +5% YoY 🔹 הכנסה נטו: $932M (הערכה. $1.01B) 🔴; 9.9% מהמכירות...",
+      "summary_he": "",
+      "body_en": "CUMMINS $CMI Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $9.5B (Est. $9.33B) 🟢; +9% YoY 🔹 EPS: $6.73 (Est. $7.23) 🔴; +5% YoY 🔹 Net Income: $932M (Est. $1.01B) 🔴; 9.9% of sales 🔹 EBITDA: $1.7B (Est. $1.68B) 🟢",
+      "ticker": "$CMI",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2084603929762099279#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T11:34:41+00:00",
+      "relative_time": "לפני 4ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "TRANSDIGM $TDG Q3'26 שירי רווחים 🔹 הכנסות: $2.74B (הערכה. $2.68B) 🟢; +23% YoY 🔹 התאמה EPS: $10.87 (הערכה. $10.30) 🟢; +13% YoY 🔹 התאמה EBITDA: $1.45B (הערכה. $1.38B) ;…",
+      "summary_he": "",
+      "body_en": "TRANSDIGM $TDG Q3’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $2.74B (Est. $2.68B) 🟢; +23% YoY 🔹 Adj. EPS: $10.87 (Est. $10.30) 🟢; +13% YoY 🔹 Adj. EBITDA: $1.45B (Est. $1.38B) 🟢; +19% YoY 🔹 Net Income: $540M (E",
+      "ticker": "$TDG",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2084600992444879131#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T11:23:01+00:00",
+      "relative_time": "לפני 15ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מניית CAT מעלה את דאו ג'ונס עם רווחים אדירים",
+      "summary_he": "",
+      "body_en": "CAT Stock Lifts Dow Jones With Massive Earnings Beat",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/news/cat-stock-dow-jones-caterpillar-q2-earnings/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T11:16:52+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$DOCN רווחים ברבעון השני • הכנסות של $281 מיליון לעומת משוער $278M • EPS $0.45 לעומת משוער $0.26 • EBITDA $114M לעומת משוער $106M • ARR: $1.13B לעומת משוער $1.05B • ARR לקוחות בינה מלאכותית: $234M (+212% YoY)…",
+      "summary_he": "",
+      "body_en": "$DOCN Q2 EARNINGS • Revenue $281M vs Est. $278M • EPS $0.45 vs Est. $0.26 • EBITDA $114M vs Est. $106M • ARR: $1.13B vs Est. $1.05B • AI Customer ARR: $234M (+212% YoY) FY26 Guidance • Revenue $1.18B ",
+      "ticker": "$DOCN",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2084599160636862965#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T11:15:44+00:00",
+      "relative_time": "לפני 23ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "הרווח לפני מס של HSBC עלה על ההערכות, עם חיזוק גבוה יותר של הכנסות ריבית נטו ועמלות גבוהות יותר",
+      "title_he": "Pfizer tops quarterly estimates, hikes low end of revenue guidance on strength of non-Covid products",
       "summary_he": "",
-      "body_en": "HSBC pretax profit beats estimates, boosted by higher net interest income and fees",
+      "body_en": "Pfizer tops quarterly estimates, hikes low end of revenue guidance on strength of non-Covid products",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/04/hsbc-profit-beats-estimates-higher-net-interest-income-fees.html",
+      "link": "https://www.cnbc.com/2026/08/04/pfizer-pfe-earnings-q2-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-04T04:50:05+00:00",
+      "published_at": "2026-08-04T11:13:24+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SPCX - רווחי SPACEX: אנליסטים מתמקדים בבינה מלאכותית, לא ברבעון SpaceX מדווחת על רווחים היום, אבל ברנשטיין אומר ש\"התוצאות הרבעוניות לא צריכות להיות חשובות\". במקום זאת,…",
+      "summary_he": "",
+      "body_en": "$SPCX - SPACEX EARNINGS: ANALYSTS FOCUSED ON AI, NOT THE QUARTER SpaceX reports earnings today, but Bernstein says \"the quarterly results should not matter.\" Instead, analysts are focused on managemen",
+      "ticker": "$SPCX",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2084595870901699024#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T11:02:40+00:00",
+      "relative_time": "לפני 36ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$MCD - MCDONALD'S EPS BEATS, SALES COME IN SLIGHTLY LIGHT Results • Adj. EPS: $3.38 vs. $3.32 est. • Revenue: $7.10B vs. $7.13B est. • EPS: $3.32 • Global Comparable…",
+      "summary_he": "",
+      "body_en": "$MCD - MCDONALD'S EPS BEATS, SALES COME IN SLIGHTLY LIGHT Results • Adj. EPS: $3.38 vs. $3.32 est. • Revenue: $7.10B vs. $7.13B est. • EPS: $3.32 • Global Comparable Sales: +1.3% vs. +1.39% est. • U.S",
+      "ticker": "$MCD",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2084595614558339134#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T11:01:39+00:00",
+      "relative_time": "לפני 37ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "פייזר מנצחת את הערכות הרווח הרבעוניות על ביקוש חזק למדללי הדם Eliquis",
+      "summary_he": "",
+      "body_en": "Pfizer beats quarterly profit estimates on strong demand for blood thinner Eliquis",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/healthcare/articles/pfizer-beats-quarterly-profit-estimates-105839529.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T10:58:39+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "כך נראה התיק כשהתחלנו אותו בשנת 2014: Apple $AAPL Starbucks $SBUX Google $GOOGL Amazon $AMZN Facebook $META Costco $COST יעד $TGT...",
+      "summary_he": "",
+      "body_en": "Here's what the portfolio looked like when we started it back in 2014: Apple $AAPL Starbucks $SBUX Google $GOOGL Amazon $AMZN Facebook $META Costco $COST Target $TGT Coach $COH Michael Kors $KORS CVS ",
+      "ticker": "$AAPL",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2084591584381727161#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T10:45:38+00:00",
+      "relative_time": "לפני 53ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Merck מעלה את תחזית ההכנסות ככל שמכירות תרופות חדשות גדלות, אך מקצצת את הנחיית הרווח עקב חיובי עסקה",
+      "summary_he": "",
+      "body_en": "Merck hikes revenue outlook as new drug sales grow, but cuts profit guidance due to deal charges",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/04/merck-mrk-earnings-q2-2026.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T10:34:21+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שוק המניות היום: הדאו, S&P 500, החוזים העתידיים של נאסד\"ק עולים עם כניסת הרווחים, מניית פלנטיר מזנקת",
+      "summary_he": "",
+      "body_en": "Stock market today: Dow, S&P 500, Nasdaq futures coast higher as earnings roll in, Palantir stock soars",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-4-dow-sp-500-nasdaq-100140227.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T10:01:40+00:00",
       "sentiment": "bullish"
     },
     {
@@ -909,116 +1014,35 @@
       "link": "https://nitter.net/cperruna/status/2084474204401876998#m",
       "tag": "TECH",
       "published_at": "2026-08-04T02:59:12+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "מתבסס על צמיחה של 2.2% בתמ\"ג הריאלי בארה\"ב השנה GS",
-      "summary_he": "",
-      "body_en": "Homing in on 2.2% US real GDP growth this year GS",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2084440216173985964#m",
-      "tag": "MACRO",
-      "published_at": "2026-08-04T00:44:09+00:00",
       "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: 'כלל 40' מחושב בדרך כלל על ידי שילוב של שיעור הצמיחה + מרווח תפעולי כדי להציג מדד צמיחה מותאם לרווחיות. $PLTR…",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: The 'Rule of 40' is typically calculated by combining the growth rate + operating margin to showcase a profitability adjusted growth metric. $PLTR is growing 93% with 62% operati",
-      "ticker": "$PLTR",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084432168839979296#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-04T00:12:10+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "חוק $PLTR של ציון 40 הגיע ל-155 והמדד התרחב כעת במשך 12 רבעונים רצופים, כאשר המינוף התפעולי ממשיך להשתפר עם קנה המידה. זה אומר פלנטיר...",
-      "summary_he": "",
-      "body_en": "$PLTR Rule of 40 score reached 155 and the metric has now expanded for 12 consecutive quarters as operating leverage continues improving with scale. That means Palantir is growing close to 100% while ",
-      "ticker": "$PLTR",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084419908964933677#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T23:23:27+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "פלנטיר מזנקת ב-12% ברבעון התפוצצות, כאשר ההכנסות המסחריות בארה\"ב מזנקות בכמעט 150%",
-      "summary_he": "",
-      "body_en": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T22:47:54+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מניית מיקרוסופט נמצאת בריצה שלא נראתה מזה 26 שנים - מוחקת את ההפסדים שלה עד כה",
-      "summary_he": "",
-      "body_en": "Microsoft’s stock is on a run not seen in 26 years — erasing its year-to-date losses",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/microsofts-stock-is-on-a-run-not-seen-in-26-years-erasing-its-year-to-date-losses-d9827b6c?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-03T22:44:00+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "מניית סנאפ מזנקת ב-8% על קצב הרווחים ותחזית מכירות חזקה",
-      "summary_he": "",
-      "body_en": "Snap's stock jumps 8% on earnings beat and strong sales forecast",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/03/snap-q2-earnings-report-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T22:03:52+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "Scotts Miracle-Gro $SMG מארח את יום המשקיעים שלו מחר, ונשיא הפד של KC שמיד ידבר מחר בשעה 20:15 ET.",
-      "summary_he": "",
-      "body_en": "Scotts Miracle-Gro $SMG hosts its investor day tomorrow, and KC Fed President Schmid will speak tomorrow at 8:15 PM ET.",
-      "ticker": "$SMG",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2084392741065122288#m",
-      "tag": "FED",
-      "published_at": "2026-08-03T21:35:30+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Caterpillar $CAT, Merck $MRK, McDonald's $MCD ו-Pfizer $PFE הן החברות הגדולות ביותר שמדווחות על רווחים לפני הפתיחה מחר. SpaceX $SPCX, התקני מיקרו מתקדמים...",
-      "summary_he": "",
-      "body_en": "Caterpillar $CAT, Merck $MRK, McDonald's $MCD, and Pfizer $PFE are the largest companies reporting earnings before tomorrow's open. SpaceX $SPCX, Advanced Micro Devices $AMD, and Amgen $AMGN lead the ",
-      "ticker": "$CAT",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2084391359050326246#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T21:30:00+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "PLTR $ פשוט הרס את הרווחים.",
-      "summary_he": "",
-      "body_en": "$PLTR just crushed earnings.",
-      "ticker": "$PLTR",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2084375319260070312#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T20:26:16+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "תאונת אוטובוס קטלנית באשקלון: אישה כבת 80 נהרגה, 2 פצועות באורח קשה ובינוני",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858408",
+      "tag": "כללי",
+      "published_at": "2026-08-04T14:13:00+00:00"
+    },
+    {
+      "title_he": "הגילוי המפתיע שהפסיק את החיפושים אחר הנעדר בכנרת: הוא ביקר אצל אימו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858402",
+      "tag": "כללי",
+      "published_at": "2026-08-04T13:52:00+00:00"
+    },
+    {
+      "title_he": "עורך דין נורה למוות במשרדו בראשון לציון; מצוד אחר היורה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858396",
+      "tag": "כללי",
+      "published_at": "2026-08-04T13:31:00+00:00"
+    },
     {
       "title_he": "פרשה חמורה: עורכת דין ו-4 נוספים נעצרו בחשד שניסו להדיח קטינים לעדות שקר",
       "summary_he": "",
@@ -1026,6 +1050,22 @@
       "link": "https://news.walla.co.il/item/3858363",
       "tag": "כללי",
       "published_at": "2026-08-04T11:47:00+00:00"
+    },
+    {
+      "title_he": "משפחתו של בניהו רזי התעמתה עם החשוד ברצח: \"תירקב בכלא - עד יומך האחרון\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858374",
+      "tag": "כללי",
+      "published_at": "2026-08-04T11:41:00+00:00"
+    },
+    {
+      "title_he": "גיסתו של בר אסרף ששלח יד בנפשו מספרת: \"הוא היה מאושר\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858368",
+      "tag": "כללי",
+      "published_at": "2026-08-04T11:30:00+00:00"
     },
     {
       "title_he": "השליך רימון לעבר מתחם מגורים - ונמלט: כך מחסלים חשבונות בסכסוך משפחות | תיעוד",
@@ -1058,46 +1098,6 @@
       "link": "https://news.walla.co.il/item/3858224",
       "tag": "כללי",
       "published_at": "2026-08-03T20:08:00+00:00"
-    },
-    {
-      "title_he": "הכלבת ממשיכה להתפשט: מספר המקרים מתקרב לשיא שנתי",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858223",
-      "tag": "כללי",
-      "published_at": "2026-08-03T20:00:00+00:00"
-    },
-    {
-      "title_he": "החיסון נגד RSV נכנס: משרד הבריאות מרחיב ההגנה על תינוקות וקשישים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858209",
-      "tag": "כללי",
-      "published_at": "2026-08-03T18:12:00+00:00"
-    },
-    {
-      "title_he": "כתב אישום נגד \"סבא אליעזר\" בגין עבירות מין בקטינים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858200",
-      "tag": "כללי",
-      "published_at": "2026-08-03T17:42:00+00:00"
-    },
-    {
-      "title_he": "טיל לאו, אקדחים ורימוני רסס החשודים כגנובים מצה\"ל נמצאו במקלט ברמלה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858196",
-      "tag": "כללי",
-      "published_at": "2026-08-03T17:19:00+00:00"
-    },
-    {
-      "title_he": "קיץ עצוב לכלבים: 60 גורים בישראל מחכים לבית חם",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858197",
-      "tag": "כללי",
-      "published_at": "2026-08-03T17:18:00+00:00"
     }
   ],
   "track_record": {
