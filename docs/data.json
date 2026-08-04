@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T22:59:23.544202+00:00",
+  "generated_at": "2026-08-04T00:13:33.475479+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-03T22:59:23.544212+00:00",
+  "ta_generated_at": "2026-08-04T00:13:33.475490+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,108.3",
-      "change": "+0.44%",
+      "value": "$4,113.6",
+      "change": "+0.56%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4351546265737729
+      "pct_raw": 0.5647231389805736
     },
     {
       "name": "נפט ברנט",
-      "value": "$83.5",
-      "change": "-0.36%",
-      "direction": "down",
+      "value": "$84.0",
+      "change": "+0.31%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.35812343320997636
+      "pct_raw": 0.31037364211532187
     },
     {
       "name": "ביטקוין",
-      "value": "$63,534",
-      "change": "+0.06%",
-      "direction": "up",
+      "value": "$63,425",
+      "change": "-0.06%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.058434030351488565
+      "pct_raw": -0.06120504465204595
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.044",
-      "change": "-0.29%",
-      "direction": "down",
+      "value": "3.045",
+      "change": "+0.03%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.2915260899472675
+      "pct_raw": 0.029566360052566455
     }
   ],
   "sectors": [
@@ -850,11 +850,58 @@
     }
   ],
   "fear_greed": {
-    "score": 28,
-    "rating": "פחד",
-    "rating_en": "fear"
+    "score": 25,
+    "rating": "פחד קיצוני",
+    "rating_en": "extreme fear"
   },
   "us_news": [
+    {
+      "title_he": "R to @unusual_whales: Labor force participation has been on a gradual decline, with notable drops among men in their twenties and thirties, women aged 20 to 24, and men…",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: Labor force participation has been on a gradual decline, with notable drops among men in their twenties and thirties, women aged 20 to 24, and men over 55. Read more: https://unu",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2084428601995272532#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-03T23:58:00+00:00",
+      "relative_time": "לפני 15ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "R ל-@StockSavvyShay: כאן תוכל למצוא את פירוט הרווחים המלא שלי ב-$PLTR: https://youtu.be/ZGUEFV_vo0U?si=TO71QWbV2i4gOax5",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: Here’s where you can find my full $PLTR earnings breakdown: https://youtu.be/ZGUEFV_vo0U?si=TO71QWbV2i4gOax5",
+      "ticker": "$PLTR",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2084420565180518834#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T23:26:04+00:00",
+      "relative_time": "לפני 47ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "חוק $PLTR של ציון 40 הגיע ל-155 והמדד התרחב כעת במשך 12 רבעונים רצופים, כאשר המינוף התפעולי ממשיך להשתפר עם קנה המידה. זה אומר פלנטיר...",
+      "summary_he": "",
+      "body_en": "$PLTR Rule of 40 score reached 155 and the metric has now expanded for 12 consecutive quarters as operating leverage continues improving with scale. That means Palantir is growing close to 100% while ",
+      "ticker": "$PLTR",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2084419908964933677#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-03T23:23:27+00:00",
+      "relative_time": "לפני 49ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ניתוח: הפדרל ריזרב עשוי להימשך למאמץ של בסן לתמוך בין של יפן",
+      "summary_he": "",
+      "body_en": "Analysis: Federal Reserve may be pulled into Bessent’s effort to support Japan’s yen",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/03/bessent-fed-japan-yen-fima-repo-facility.html",
+      "tag": "FED",
+      "published_at": "2026-08-03T23:20:54+00:00",
+      "sentiment": "neutral"
+    },
     {
       "title_he": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
       "summary_he": "",
@@ -867,7 +914,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "פלנטיר מזנקת ב-12% ברבעון התפוצצות, כאשר ההכנסות המסחריות בארה\"ב מזנקות בכמעט 150%",
+      "title_he": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
       "summary_he": "",
       "body_en": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
       "ticker": "",
@@ -889,29 +936,6 @@
       "sentiment": "bearish"
     },
     {
-      "title_he": "ניתוח: הפדרל ריזרב עשוי להימשך למאמץ של בסן לתמוך בין של יפן",
-      "summary_he": "",
-      "body_en": "Analysis: Federal Reserve may be pulled into Bessent’s effort to support Japan’s yen",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/03/bessent-fed-japan-yen-fima-repo-facility.html",
-      "tag": "FED",
-      "published_at": "2026-08-03T22:40:32+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: הרווחים של המשפחה נובעים ממיזמים שונים, כולל ארגונים רבים של מטבעות קריפטוגרפיים ועסקאות מגה זרות. קרא עוד:…",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: The family's earnings stem from various ventures, including multiple cryptocurrency enterprises and foreign mega-deals. Read more: https://unusualwhales.com/news/trump-family-4-b",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2084406708089344225#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T22:31:00+00:00",
-      "relative_time": "לפני 27ד׳",
-      "sentiment": "bullish"
-    },
-    {
       "title_he": "Snap's stock jumps 8% on earnings beat and strong sales forecast",
       "summary_he": "",
       "body_en": "Snap's stock jumps 8% on earnings beat and strong sales forecast",
@@ -931,11 +955,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2084392741065122288#m",
       "tag": "FED",
       "published_at": "2026-08-03T21:35:30+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Caterpillar $CAT, Merck $MRK, McDonald's $MCD, and Pfizer $PFE are the largest companies reporting earnings before tomorrow's open. SpaceX $SPCX, Advanced Micro Devices…",
+      "title_he": "Caterpillar $CAT, Merck $MRK, McDonald's $MCD ו-Pfizer $PFE הן החברות הגדולות ביותר שמדווחות על רווחים לפני הפתיחה מחר. SpaceX $SPCX, התקני מיקרו מתקדמים...",
       "summary_he": "",
       "body_en": "Caterpillar $CAT, Merck $MRK, McDonald's $MCD, and Pfizer $PFE are the largest companies reporting earnings before tomorrow's open. SpaceX $SPCX, Advanced Micro Devices $AMD, and Amgen $AMGN lead the ",
       "ticker": "$CAT",
@@ -943,22 +967,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2084391359050326246#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T21:30:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מיזוג של AstraZeneca ובריסטול מאיירס סקוויב עשוי ליצור ענקית תרופות לסרטן, אבל אנליסטים קוראים לזה 'מוזר'",
-      "summary_he": "",
-      "body_en": "An AstraZeneca, Bristol Myers Squibb merger could create a cancer-drug giant, but analysts call it ‘odd’",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/astrazeneca-tie-up-talks-with-bristol-myers-squibb-are-moving-stocks-analysts-are-puzzled-7ae60fef?mod=mw_rss_topstories",
-      "tag": "M&A",
-      "published_at": "2026-08-03T20:59:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@StockSavvyShay: אני אפרסם סרטון Edge של הרווחים הערב בערוץ FE ומפרק את המחשבות שלי על $PLTR אבל התגובה הראשונית היא שהרווחים האלה היו אורות...",
+      "title_he": "R to @StockSavvyShay: I’ll post an Earnings Edge video tonight on the FE channel breaking down my thoughts on $PLTR but initial reaction is these earnings were lights…",
       "summary_he": "",
       "body_en": "R to @StockSavvyShay: I’ll post an Earnings Edge video tonight on the FE channel breaking down my thoughts on $PLTR but initial reaction is these earnings were lights out: https://www.youtube.com/@Fut",
       "ticker": "$PLTR",
@@ -966,11 +979,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084383107537645767#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T20:57:13+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "25 מדינות תובעות את ממשל טראמפ על המכסים העולמיים האחרונים",
+      "title_he": "Twenty five states sue Trump administration over latest global tariffs",
       "summary_he": "",
       "body_en": "Twenty five states sue Trump administration over latest global tariffs",
       "ticker": "",
@@ -989,11 +1002,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084380514304368694#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T20:46:55+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "מנכ\"ל $PLTR, אלכס קארפ, מכוון אל OpenAI ו-Anthropic ואומר שפאלנטיר לא מקבל תשלום עבור \"קליקים או אסימונים או צ'אטים\". הוא מזהיר שבוני LLM מבקשים ללכוד את...",
+      "title_he": "$PLTR CEO Alex Karp takes aim at OpenAI and Anthropic saying Palantir doesn't get paid for “clicks or tokens or chats.” He warns LLM builders seek to capture their…",
       "summary_he": "",
       "body_en": "$PLTR CEO Alex Karp takes aim at OpenAI and Anthropic saying Palantir doesn't get paid for “clicks or tokens or chats.” He warns LLM builders seek to capture their partners means of production and say",
       "ticker": "$PLTR",
@@ -1001,19 +1014,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084377938523467840#m",
       "tag": "TECH",
       "published_at": "2026-08-03T20:36:41+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$PLTR has tripled its revenue over the past 3 years 😳",
-      "summary_he": "",
-      "body_en": "$PLTR has tripled its revenue over the past 3 years 😳",
-      "ticker": "$PLTR",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084375784991674686#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T20:28:07+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     }
   ],
