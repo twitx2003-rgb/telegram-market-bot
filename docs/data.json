@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T00:13:33.475479+00:00",
+  "generated_at": "2026-08-04T03:48:34.544715+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-04T00:13:33.475490+00:00",
+  "ta_generated_at": "2026-08-04T03:48:34.544726+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "+1.73%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.7251160647062644
+      "pct_raw": 1.7250813621074237
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,113.6",
-      "change": "+0.56%",
+      "value": "$4,112.1",
+      "change": "+0.53%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5647231389805736
+      "pct_raw": 0.5280528052805369
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.0",
-      "change": "+0.31%",
+      "value": "$84.7",
+      "change": "+1.12%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.31037364211532187
+      "pct_raw": 1.1221200907246005
     },
     {
       "name": "ביטקוין",
-      "value": "$63,425",
-      "change": "-0.06%",
-      "direction": "down",
+      "value": "$63,760",
+      "change": "+0.47%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.06120504465204595
+      "pct_raw": 0.46684465706495326
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.045",
-      "change": "+0.03%",
-      "direction": "up",
+      "value": "3.043",
+      "change": "-0.03%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.029566360052566455
+      "pct_raw": -0.02628120893560814
     }
   ],
   "sectors": [
@@ -856,28 +856,52 @@
   },
   "us_news": [
     {
-      "title_he": "R to @unusual_whales: Labor force participation has been on a gradual decline, with notable drops among men in their twenties and thirties, women aged 20 to 24, and men…",
+      "title_he": "אחזקות ארוכות טווח, רווח/הפסד ב-YTD % $AMZN $GOOGL $AAPL $NVDA $V $MSFT $META $UBER",
       "summary_he": "",
-      "body_en": "R to @unusual_whales: Labor force participation has been on a gradual decline, with notable drops among men in their twenties and thirties, women aged 20 to 24, and men over 55. Read more: https://unu",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2084428601995272532#m",
-      "tag": "MACRO",
-      "published_at": "2026-08-03T23:58:00+00:00",
-      "relative_time": "לפני 15ד׳",
+      "body_en": "Long Term Holdings, YTD % gain/loss $AMZN $GOOGL $AAPL $NVDA $V $MSFT $META $UBER",
+      "ticker": "$AMZN",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2084474204401876998#m",
+      "tag": "TECH",
+      "published_at": "2026-08-04T02:59:12+00:00",
+      "relative_time": "לפני 48ד׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "R ל-@StockSavvyShay: כאן תוכל למצוא את פירוט הרווחים המלא שלי ב-$PLTR: https://youtu.be/ZGUEFV_vo0U?si=TO71QWbV2i4gOax5",
+      "title_he": "R ל-@unusual_whales: \"הפיצויים ששולמו בפועל\" לווילסון הסתכמו ב-77,231,168 דולר, והיחס בין שכר המנכ\"ל לחציון-העובד הגיע ל-305 ל-1. קרא עוד:...",
       "summary_he": "",
-      "body_en": "R to @StockSavvyShay: Here’s where you can find my full $PLTR earnings breakdown: https://youtu.be/ZGUEFV_vo0U?si=TO71QWbV2i4gOax5",
+      "body_en": "R to @unusual_whales: The “Compensation Actually Paid” to Wilson totaled $77,231,168, and the ratio of CEO-to-median-employee pay landed at 305 to 1. Read more: https://unusualwhales.com/news/ea-ceo-8",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2084473900914847762#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-04T02:58:00+00:00",
+      "relative_time": "לפני 49ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מתבסס על צמיחה של 2.2% בתמ\"ג הריאלי בארה\"ב השנה GS",
+      "summary_he": "",
+      "body_en": "Homing in on 2.2% US real GDP growth this year GS",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2084440216173985964#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-04T00:44:09+00:00",
+      "relative_time": "לפני 3ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R to @StockSavvyShay: The 'Rule of 40' is typically calculated by combining the growth rate + operating margin to showcase a profitability adjusted growth metric. $PLTR…",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: The 'Rule of 40' is typically calculated by combining the growth rate + operating margin to showcase a profitability adjusted growth metric. $PLTR is growing 93% with 62% operati",
       "ticker": "$PLTR",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084420565180518834#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T23:26:04+00:00",
-      "relative_time": "לפני 47ד׳",
-      "sentiment": "neutral"
+      "link": "https://nitter.net/StockSavvyShay/status/2084432168839979296#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-04T00:12:10+00:00",
+      "relative_time": "לפני 3ש׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "חוק $PLTR של ציון 40 הגיע ל-155 והמדד התרחב כעת במשך 12 רבעונים רצופים, כאשר המינוף התפעולי ממשיך להשתפר עם קנה המידה. זה אומר פלנטיר...",
@@ -888,7 +912,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2084419908964933677#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T23:23:27+00:00",
-      "relative_time": "לפני 49ד׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -903,7 +927,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
+      "title_he": "ההימור על Anthropic ו-OpenAI של Big Tech מעוותים את תמונת הרווחים של החברה",
       "summary_he": "",
       "body_en": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
       "ticker": "",
@@ -914,7 +938,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
+      "title_he": "פלנטיר מזנקת ב-12% ברבעון התפוצצות, כאשר ההכנסות המסחריות בארה\"ב מזנקות בכמעט 150%",
       "summary_he": "",
       "body_en": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
       "ticker": "",
@@ -955,7 +979,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2084392741065122288#m",
       "tag": "FED",
       "published_at": "2026-08-03T21:35:30+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -967,23 +991,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2084391359050326246#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-03T21:30:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R to @StockSavvyShay: I’ll post an Earnings Edge video tonight on the FE channel breaking down my thoughts on $PLTR but initial reaction is these earnings were lights…",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: I’ll post an Earnings Edge video tonight on the FE channel breaking down my thoughts on $PLTR but initial reaction is these earnings were lights out: https://www.youtube.com/@Fut",
-      "ticker": "$PLTR",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084383107537645767#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-03T20:57:13+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Twenty five states sue Trump administration over latest global tariffs",
+      "title_he": "25 מדינות תובעות את ממשל טראמפ על המכסים העולמיים האחרונים",
       "summary_he": "",
       "body_en": "Twenty five states sue Trump administration over latest global tariffs",
       "ticker": "",
@@ -994,27 +1006,15 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$PLTR U.S. commercial revenue growth hasn't posted a single sequential slowdown since AIP Bootcamps launched. Growth has surged from 23% to 137% as customers continue…",
+      "title_he": "PLTR $ פשוט הרס את הרווחים.",
       "summary_he": "",
-      "body_en": "$PLTR U.S. commercial revenue growth hasn't posted a single sequential slowdown since AIP Bootcamps launched. Growth has surged from 23% to 137% as customers continue expanding Palantir deeper across ",
+      "body_en": "$PLTR just crushed earnings.",
       "ticker": "$PLTR",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084380514304368694#m",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2084375319260070312#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-03T20:46:55+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$PLTR CEO Alex Karp takes aim at OpenAI and Anthropic saying Palantir doesn't get paid for “clicks or tokens or chats.” He warns LLM builders seek to capture their…",
-      "summary_he": "",
-      "body_en": "$PLTR CEO Alex Karp takes aim at OpenAI and Anthropic saying Palantir doesn't get paid for “clicks or tokens or chats.” He warns LLM builders seek to capture their partners means of production and say",
-      "ticker": "$PLTR",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084377938523467840#m",
-      "tag": "TECH",
-      "published_at": "2026-08-03T20:36:41+00:00",
-      "relative_time": "לפני 3ש׳",
+      "published_at": "2026-08-03T20:26:16+00:00",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     }
   ],
@@ -1050,6 +1050,14 @@
       "link": "https://news.walla.co.il/item/3858209",
       "tag": "כללי",
       "published_at": "2026-08-03T18:12:00+00:00"
+    },
+    {
+      "title_he": "כתב אישום נגד \"סבא אליעזר\" בגין עבירות מין בקטינים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858200",
+      "tag": "כללי",
+      "published_at": "2026-08-03T17:42:00+00:00"
     },
     {
       "title_he": "טיל לאו, אקדחים ורימוני רסס החשודים כגנובים מצה\"ל נמצאו במקלט ברמלה",
@@ -1090,14 +1098,6 @@
       "link": "https://news.walla.co.il/item/3858175",
       "tag": "כללי",
       "published_at": "2026-08-03T16:26:00+00:00"
-    },
-    {
-      "title_he": "השב\"כ החליט לשחרר את אחיו של זכריה זביידי | פרסום ראשון",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858166",
-      "tag": "כללי",
-      "published_at": "2026-08-03T16:00:00+00:00"
     }
   ],
   "track_record": {
