@@ -94,7 +94,7 @@
    "price_at_rec": 72.91,
    "confidence": 4,
    "engine": "rules",
-   "last_pnl": 0.58
+   "last_pnl": -1.65
   },
   {
    "ticker": "AAPL",
@@ -142,7 +142,7 @@
    "price_at_rec": 476.15,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 1.78
+   "last_pnl": 0.0
   },
   {
    "ticker": "NVDA",
