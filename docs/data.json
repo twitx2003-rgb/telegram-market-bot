@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T21:46:47.879093+00:00",
+  "generated_at": "2026-08-05T22:58:01.621121+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-05T21:46:47.879103+00:00",
+  "ta_generated_at": "2026-08-05T22:58:01.621131+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,308.0",
-      "change": "+3.74%",
-      "direction": "up",
-      "group": "commodities",
-      "pct_raw": 3.7422337812454756
-    },
-    {
-      "name": "נפט ברנט",
-      "value": "$79.4",
+      "value": "$4,307.3",
       "change": "+0.05%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.05040322580645949
+      "pct_raw": 0.04877822168541215
+    },
+    {
+      "name": "נפט ברנט",
+      "value": "$79.5",
+      "change": "+0.05%",
+      "direction": "up",
+      "group": "commodities",
+      "pct_raw": 0.05034612964127381
     },
     {
       "name": "ביטקוין",
-      "value": "$64,634",
-      "change": "+0.91%",
+      "value": "$64,584",
+      "change": "+0.83%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.9083321572158942
+      "pct_raw": 0.8289130051944877
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.005",
-      "change": "+0.00%",
-      "direction": "up",
+      "value": "3.002",
+      "change": "-0.10%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.003327676283643371
+      "pct_raw": -0.09983028850953757
     }
   ],
   "sectors": [
@@ -856,7 +856,55 @@
   },
   "us_news": [
     {
-      "title_he": "$AEVA חתם על הסכם אופטיקה קרובה לאריזה חתמה על JDA עם ספק אופטיקה לפתרון NPO של היפר-scaler גדול. הכרכים יכולים להתחיל ב-2027 ולהתקדם ב-2028. אם...",
+      "title_he": "דגם $META AI פרץ לחברה אחרת במהלך בדיקת אבטחת סייבר לאחר שנמלט מארגז חול לא מוגדר. התקרית משקפת הפרות אחרונות הקשורות ל-OpenAI ו...",
+      "summary_he": "",
+      "body_en": "A $META AI model hacked another company during a cybersecurity test after escaping a misconfigured sandbox. The incident mirrors recent breaches involving OpenAI and Anthropic models and raises pressu",
+      "ticker": "$META",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2085132273549226330#m",
+      "tag": "TECH",
+      "published_at": "2026-08-05T22:34:08+00:00",
+      "relative_time": "לפני 23ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "פרמיית נאסד\"ק 100 P/E למדד S&P 500 קרובה לנמוך ביותר מאז 2017 בלומברג",
+      "summary_he": "",
+      "body_en": "Nasdaq 100 P/E premium to the S&P 500 is near the lowest since 2017 Bloomberg",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2085126957637816399#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-05T22:13:01+00:00",
+      "relative_time": "לפני 44ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "יהיו שלוש העלאות ריבית השנה, לכל בנק אוף אמריקה",
+      "summary_he": "",
+      "body_en": "There will be three rate hikes this year, per Bank of America",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2085123178867601529#m",
+      "tag": "FED",
+      "published_at": "2026-08-05T21:58:00+00:00",
+      "relative_time": "לפני 59ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "S&P 500 Breaks Out as Mega-Cap Tech Roars Back: Here’s What to Watch Now My Wednesday @stockcharts technical take $SPY $QQQ $SMH $VIX…",
+      "summary_he": "",
+      "body_en": "S&P 500 Breaks Out as Mega-Cap Tech Roars Back: Here’s What to Watch Now My Wednesday @stockcharts technical take $SPY $QQQ $SMH $VIX https://articles.stockcharts.com/article/sp-500-breaks-out-as-mega",
+      "ticker": "$SPY",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2085121294610182470#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-05T21:50:30+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$AEVA חתם על הסכם אופטיקה קרובה לאריזה חתם על JDA עם ספק אופטיקה לפתרון NPO של היפר-scaler גדול. הכרכים יכולים להתחיל ב-2027 ולהתקדם ב-2028. אם...",
       "summary_he": "",
       "body_en": "$AEVA SIGNS NEAR-PACKAGED OPTICS AGREEMENT Signed a JDA with an optics provider for a major hyperscaler’s NPO solution. Volumes could begin in 2027 and ramp in 2028. If qualified, Aeva sees potential ",
       "ticker": "$AEVA",
@@ -864,11 +912,11 @@
       "link": "https://nitter.net/wallstengine/status/2085117594554806309#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T21:35:48+00:00",
-      "relative_time": "לפני 10ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מחר עוד יום עמוס של רווחים, עם דיווחים של ConocoPhillips $COP, Fiserv $FISV, Ralph Lauren $RL, וה-WBD של Warner Bros. Discovery $WBD לפני הפתיחה. Airbnb…",
+      "title_he": "מחר עוד יום עמוס של רווחים, עם דיווחים של ConocoPhillips $COP, Fiserv $FISV, Ralph Lauren $RL, ו-WBD של האחים Warner. Discovery $WBD לפני הפתיחה. Airbnb…",
       "summary_he": "",
       "body_en": "Tomorrow is another packed day of earnings, with ConocoPhillips $COP, Fiserv $FISV, Ralph Lauren $RL, and Warner Bros. Discovery $WBD reporting before the open. Airbnb $ANB, DraftKings $DKNG, and Mons",
       "ticker": "$COP",
@@ -876,7 +924,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2085116258295394492#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T21:30:30+00:00",
-      "relative_time": "לפני 15ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +936,7 @@
       "link": "https://nitter.net/wallstengine/status/2085115326107353389#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T21:26:47+00:00",
-      "relative_time": "לפני 19ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -911,18 +959,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2085108468223217928#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T20:59:32+00:00",
-      "relative_time": "לפני 46ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מסחר באופציות אגרסיבי עזר להניע את הראלי האחרון של S&P 500. מה זה אומר למשקיעים.",
-      "summary_he": "",
-      "body_en": "Aggressive options trading helped drive the S&P 500’s latest rally. What that means for investors.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/aggressive-options-trading-helped-drive-the-s-p-500s-latest-rally-what-that-means-for-investors-623fe41c?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-05T20:51:00+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -934,11 +971,11 @@
       "link": "https://nitter.net/MikeZaccardi/status/2085105062003589506#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T20:46:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "נגלת הפד קוק אומרת שהיא \"מוכנה לפעול\" בהעלאת הריבית כדי להתמודד עם האינפלציה",
+      "title_he": "נגיד הפד קוק אומרת שהיא \"מוכנה לפעול\" בהעלאת הריבית כדי להתמודד עם האינפלציה",
       "summary_he": "",
       "body_en": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
       "ticker": "",
@@ -949,7 +986,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$IONQ רווחים ברבעון השני • הכנסות של $80 מיליון לעומת משוער $65M • EPS ($0.33) לעומת משוער ($0.29) • RPO: +297% בשנה זו • מזומן: $3.0B הנחיות ל-26 ל-26 • הכנסה של $285 מיליון לעומת משוער. 268 מיליון דולר The SkyWater…",
+      "title_he": "$IONQ Q2 EARNINGS • Revenue $80M vs Est. $65M • EPS ($0.33) vs Est. ($0.29) • RPO: +297% YoY • Cash: $3.0B FY26 Guidance • Revenue $285M vs Est. $268M The SkyWater…",
       "summary_he": "",
       "body_en": "$IONQ Q2 EARNINGS • Revenue $80M vs Est. $65M • EPS ($0.33) vs Est. ($0.29) • RPO: +297% YoY • Cash: $3.0B FY26 Guidance • Revenue $285M vs Est. $268M The SkyWater acquisition closes creating a vertic",
       "ticker": "$IONQ",
@@ -957,7 +994,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2085101696909504685#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T20:32:38+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -969,7 +1006,7 @@
       "link": "https://nitter.net/unusual_whales/status/2085101634930225431#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T20:32:23+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -981,43 +1018,7 @@
       "link": "https://nitter.net/garyblack00/status/2085100708664103282#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T20:28:42+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "רווחים ברבעון 2 של $2 • הכנסות: 370 מיליון דולר לעומת משוער. $352M • EPS $0.08 לעומת משוער $0.04 • לקוחות >100K ARR: 1,635 (+46% YoY) • שימור דולר נטו: 136% הנחיות לרבעון השלישי • הכנסה:...",
-      "summary_he": "",
-      "body_en": "$FIG Q2 EARNINGS • Revenue: $370M vs. Est. $352M • EPS $0.08 vs. Est. $0.04 • Customers >$100K ARR: 1,635 (+46% YoY) • Net Dollar Retention: 136% Q3 Guidance • Revenue: $374M vs. Est. $365M FY26 Guida",
-      "ticker": "$FIG",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2085099793014272490#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T20:25:04+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Figma, $FIG, רווחים: - הכנסה: $370 מיליון, משוער: $351 מיליון - EPS: $0.08, הערכה: $0.04 Block, $XYZ, רווחים: - הכנסה: $6.61 מיליארד, משוער: $0.87 - EPS: $1.02, הערכה:...",
-      "summary_he": "",
-      "body_en": "Figma, $FIG, earnings: - Revenue: $370 million, est: $351 million - EPS: $0.08, est: $0.04 Block, $XYZ, earnings: - Revenue: $6.61 billion, est: $0.87 - EPS: $1.02, est: $0.87",
-      "ticker": "$FIG",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2085097509702267107#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T20:16:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ מתכננת להטיל תעריף של 15% על נגזרות פוליסיליקון -מקורות",
-      "summary_he": "",
-      "body_en": "TRUMP ADMINISTRATION PLANS TO IMPOSE TARIFF OF 15% ON POLYSILICON DERIVATIVES -SOURCES",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2085091007553470910#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-05T19:50:09+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     }
   ],
