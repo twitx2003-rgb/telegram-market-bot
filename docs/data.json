@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T23:03:06.304600+00:00",
+  "generated_at": "2026-08-05T00:54:39.084875+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-04T23:03:06.304611+00:00",
+  "ta_generated_at": "2026-08-05T00:54:39.084886+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,139.7",
-      "change": "-0.31%",
+      "value": "$4,136.0",
+      "change": "-0.40%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.3106487501806229
+      "pct_raw": -0.39974955449598715
     },
     {
       "name": "נפט ברנט",
-      "value": "$78.9",
-      "change": "-0.62%",
+      "value": "$79.1",
+      "change": "-0.34%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6174395161290258
+      "pct_raw": -0.3402217741935434
     },
     {
       "name": "ביטקוין",
-      "value": "$64,179",
-      "change": "+1.13%",
-      "direction": "up",
+      "value": "$63,938",
+      "change": "-0.18%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 1.1273794952117748
+      "pct_raw": -0.17927464569721252
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.001",
-      "change": "-1.41%",
+      "value": "3.000",
+      "change": "-0.16%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -1.40932982917214
+      "pct_raw": -0.15640078533160787
     }
   ],
   "sectors": [
@@ -850,11 +850,35 @@
     }
   ],
   "fear_greed": {
-    "score": 25,
-    "rating": "פחד קיצוני",
-    "rating_en": "extreme fear"
+    "score": 27,
+    "rating": "פחד",
+    "rating_en": "fear"
   },
   "us_news": [
+    {
+      "title_he": "$AMD סיפקה רבעון חזק לבר כמעט מושלם, אבל השוק התקבע על השקעה של יותר מהכפלה מ-389 מיליון דולר ל-808 מיליון דולר. ההוצאה הזו תומכת בשני מנועי AI...",
+      "summary_he": "",
+      "body_en": "$AMD delivered a strong quarter into an almost perfect bar but the market fixated on capex more than doubling from $389M to $808M. That spending supports two AI engines at once because agentic systems",
+      "ticker": "$AMD",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2084796456549167414#m",
+      "tag": "TECH",
+      "published_at": "2026-08-05T00:19:43+00:00",
+      "relative_time": "לפני 34ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SPCX -7% $NVDA +2% $AMD -9% $INTC -3% $ANET +11% $BKNG +6% @finviz_com",
+      "summary_he": "",
+      "body_en": "$SPCX -7% $NVDA +2% $AMD -9% $INTC -3% $ANET +11% $BKNG +6% @finviz_com",
+      "ticker": "$SPCX",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2084789016268824709#m",
+      "tag": "TECH",
+      "published_at": "2026-08-04T23:50:09+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
     {
       "title_he": "BREAKING: SpaceX, $SPCX, הכריזה על שותפות עם Nvidia, $NVDA, לפיתוח מטען המחשוב הלוויין Starmind AI1.",
       "summary_he": "",
@@ -864,7 +888,7 @@
       "link": "https://nitter.net/unusual_whales/status/2084775890370642301#m",
       "tag": "TECH",
       "published_at": "2026-08-04T22:58:00+00:00",
-      "relative_time": "לפני 4ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -879,7 +903,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "ההכנסות של AMD מטפסות ב-50% ומכירות מרכזי הנתונים הוכפלו, אך המניה יורדת",
+      "title_he": "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
       "summary_he": "",
       "body_en": "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
       "ticker": "",
@@ -890,7 +914,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "Chipotle pulls jalapenos from some locations after salmonella investigation. Here’s what to know.",
+      "title_he": "צ'יפוטלה שואב ג'לפנוס ממקומות מסוימים לאחר חקירת סלמונלה. הנה מה שצריך לדעת.",
       "summary_he": "",
       "body_en": "Chipotle pulls jalapenos from some locations after salmonella investigation. Here’s what to know.",
       "ticker": "",
@@ -909,23 +933,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2084755129975058566#m",
       "tag": "FED",
       "published_at": "2026-08-04T21:35:30+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "צ'יפוטלה מקסיקני גריל הסירה ג'לפניוס ממספר חנויות במינסוטה לאחר שנודע שהפלפלים עשויים להיות קשורים להתפרצות סלמונלה, לפי בלומברג.",
-      "summary_he": "",
-      "body_en": "Chipotle Mexican Grill has removed jalapeños from multiple stores in Minnesota after learning the peppers may be linked to a salmonella outbreak, per Bloomberg.",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2084753996430950493#m",
-      "tag": "TECH",
-      "published_at": "2026-08-04T21:31:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "לפני הפתיחה מחר, אלי לילי $LLY, וולט דיסני $DIS ו-Shopify $SHOP מדווחים על תוצאות הרבעון השני. דוחות SanDisk $SNDK, Western Digital $WDC ו-MercadoLibre $MELI לאחר...",
+      "title_he": "Before tomorrow's open, Eli Lilly $LLY, Walt Disney $DIS, and Shopify $SHOP report Q2 results. SanDisk $SNDK, Western Digital $WDC, and MercadoLibre $MELI report after…",
       "summary_he": "",
       "body_en": "Before tomorrow's open, Eli Lilly $LLY, Walt Disney $DIS, and Shopify $SHOP report Q2 results. SanDisk $SNDK, Western Digital $WDC, and MercadoLibre $MELI report after the close.",
       "ticker": "$LLY",
@@ -933,42 +945,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2084753870710861866#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-04T21:30:30+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנכ\"לית $AMD, ליסה סו, אומרת שההכנסות ממרכז הנתונים יוכפלו יותר מ-2027, מה שמציב את החברה מקדימה באופן מהותי את המודל הפיננסי לטווח ארוך שלה. AMD צופה כעת הכנסות...",
-      "summary_he": "",
-      "body_en": "$AMD CEO Lisa Su says Data Center revenue will more than double in 2027 putting the company materially ahead of its long-term financial model. AMD now expects revenue growth well above 35% target and ",
-      "ticker": "$AMD",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084753013118541831#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-04T21:27:05+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Paramount Skydance מעלה תחזית רווח לשנה כולה, נשארת 'בטוחה' לגבי מיזוג WBD",
-      "summary_he": "",
-      "body_en": "Paramount Skydance raises full-year profit guidance, remains 'confident' about WBD merger",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/04/paramount-skydance-psky-earnings-q2-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-04T21:15:03+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "אילון מאסק אומר ש-$SPCX מצפה כעת להגיע להכנסות של 1T דולר עד 2030 עם \"סיכוי לא אפסי\" להגיע לשם ב-2029. הוא גם מצפה שה-ARR יגיע ל-100 מיליארד דולר עד סוף השנה (עלייה...",
-      "summary_he": "",
-      "body_en": "Elon Musk says $SPCX now expects to reach $1T in revenue by 2030 with a “non-zero chance” of getting there in 2029. He also expects ARR to reach $100B by year-end (up from a $10.4B run rate in June) a",
-      "ticker": "$SPCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084749943093481562#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-04T21:14:53+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -980,7 +957,7 @@
       "link": "https://nitter.net/wallstengine/status/2084749232213577924#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-04T21:12:04+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -995,7 +972,7 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "מחירי המניות הגבוהים האלה באמת אמורים להפיץ את הרווחים של S&P 500 לרבעון השלישי #OtherIncome",
+      "title_he": "מחירי המניות הגבוהים הללו אמורים באמת להפיץ את הרווחים של S&P 500 לרבעון השלישי #OtherIncome",
       "summary_he": "",
       "body_en": "These record-high stock prices should really juice Q3 S&P 500 earnings #OtherIncome",
       "ticker": "",
@@ -1003,7 +980,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2084744151833145775#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-04T20:51:53+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1015,11 +992,43 @@
       "link": "https://nitter.net/gurgavin/status/2084735887418482749#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-04T20:19:02+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "AMD רק דיווחה על רווחים *AMD 2Q REV. $11.54B, EST. $11.31B ( BEAT ✅ ) ​​*AMD 2Q ADJ EPS $1.66, EST. $1.62 ( BEAT ✅) *AMD 2Q ADJ. שולי פעילות 27%, EST. 26.9% ( BEAT ✅ )…",
+      "summary_he": "",
+      "body_en": "AMD JUST REPORTED EARNINGS *AMD 2Q REV. $11.54B, EST. $11.31B ( BEAT ✅ ) *AMD 2Q ADJ EPS $1.66, EST. $1.62 ( BEAT ✅ ) *AMD 2Q ADJ. OPER MARGIN 27%, EST. 26.9% ( BEAT ✅ ) $AMD",
+      "ticker": "$AMD",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2084735301562380544#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T20:16:43+00:00",
+      "relative_time": "לפני 4ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "SPACEX רק דיווח שזה הרווח הראשון אי פעם *SPACEX 2Q REV. $7.8B, EST. $6.81B ( BEAT ✅ ) ​​*רווח תפעולי של מגזר AI SPACEX 2Q AI $1.26B, EST. הפסד של $2.39B ( BEAT ✅) $SPCX",
+      "summary_he": "",
+      "body_en": "SPACEX JUST REPORTED IT’S FIRST EVER EARNINGS *SPACEX 2Q REV. $7.8B, EST. $6.81B ( BEAT ✅ ) *SPACEX 2Q AI SEGMENT OPERATING LOSS $1.26B, EST. LOSS $2.39B ( BEAT ✅ ) $SPCX",
+      "ticker": "$SPCX",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2084732119616573628#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-04T20:04:04+00:00",
+      "relative_time": "לפני 4ש׳",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "כבוד לנגב: המועצה המקומית להבים זכתה בפרס מגן שר הביטחון לשנת 2026",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858554",
+      "tag": "כללי",
+      "published_at": "2026-08-05T02:16:00+00:00"
+    },
     {
       "title_he": "בניגוד לעמדת המשטרה ושב\"כ: גופת החשוד שניסה לדקור שוטר בלוד שוחררה",
       "summary_he": "",
@@ -1091,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3858456",
       "tag": "כללי",
       "published_at": "2026-08-04T17:03:00+00:00"
-    },
-    {
-      "title_he": "מעל מחצית מהישראלים מעניקים ציון שלילי למערכת החינוך - ומגדירים אותה כלא שוויונית",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858446",
-      "tag": "כללי",
-      "published_at": "2026-08-04T16:35:00+00:00"
     }
   ],
   "track_record": {
