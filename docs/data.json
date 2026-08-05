@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T10:07:22.513797+00:00",
+  "generated_at": "2026-08-05T12:23:15.590399+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-05T10:07:22.513808+00:00",
+  "ta_generated_at": "2026-08-05T12:23:15.590409+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "16.31",
-      "change": "-1.15%",
-      "direction": "down",
+      "value": "16.74",
+      "change": "+1.45%",
+      "direction": "up",
       "group": "market_us",
-      "pct_raw": -1.1515151515151594
+      "pct_raw": 1.454545454545445
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,213.4",
-      "change": "+1.46%",
+      "value": "$4,258.8",
+      "change": "+2.56%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.4641429465876623
+      "pct_raw": 2.557433896835713
     },
     {
       "name": "נפט ברנט",
-      "value": "$80.8",
-      "change": "+1.76%",
+      "value": "$80.1",
+      "change": "+0.95%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.7641129032258136
+      "pct_raw": 0.9450604838709677
     },
     {
       "name": "ביטקוין",
-      "value": "$64,111",
-      "change": "+0.09%",
+      "value": "$64,421",
+      "change": "+0.57%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.09122195896619947
+      "pct_raw": 0.5744501078489359
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,161",
-      "change": "+0.40%",
-      "direction": "up",
+      "value": "4,141",
+      "change": "-0.09%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.39710686179426774
+      "pct_raw": -0.08998837147584701
     },
     {
       "name": "דולר/שקל",
-      "value": "3.004",
-      "change": "-0.03%",
+      "value": "2.999",
+      "change": "-0.22%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.0332767628365076
+      "pct_raw": -0.21629895843732158
     }
   ],
   "sectors": [
@@ -856,171 +856,217 @@
   },
   "us_news": [
     {
-      "title_he": "CLEAR SECURE $YOU Q2'26 שירי רווחים 🔹 הכנסות: $277.8M (אומדן $269M) ; +26.6% משנה לשנה 🔹 EPS: $0.49 (אומדן $0.40) 🔹 EBITDA מתואם: $101.1M (אומדן $84.9M) 🟢 Q3…",
+      "title_he": "הרווח של אובר עלה במעט על התחזיות כאשר הנסיעות ברחבי הפלטפורמה שלה גדלות",
       "summary_he": "",
-      "body_en": "CLEAR SECURE $YOU Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $277.8M (Est. $269M) 🟢; +26.6% YoY 🔹 EPS: $0.49 (Est. $0.40) 🟢 🔹 Adjusted EBITDA: $101.1M (Est. $84.9M) 🟢 Q3 Guide: 🔹 Revenue: $284M-$287M (Est. ",
-      "ticker": "$YOU",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2084943154168631322#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T10:02:38+00:00",
-      "relative_time": "לפני 4ד׳",
+      "body_en": "Uber profit narrowly beat forecasts as trips across its platform surge",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/uber-profit-narrowly-beat-forecasts-as-trips-across-its-platform-surge-4a22ce2d?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-05T12:19:00+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "BEONE MEDICINES $ONC Q2'26 שירי רווחים 🔹 הכנסות: $1.7B (הערכה. $1.61B) 🟢; +30% YoY 🔹 התאמה EPS: $3.84 (הערכה. $1.58) 🟢; +71% YoY 🔹 BRUKINSA הכנסות: $1.2B; +31% שנה בשנה…",
+      "title_he": "בינה מלאכותית מובילה את השווקים לשיאים חדשים החוזים העתידיים על S&P 500 עלו ב-0.4% ביום רביעי, מה ששם את המדד על מסלול של שיא שני ברציפות, כאשר הרווחים החזקים התחזקו...",
       "summary_he": "",
-      "body_en": "BEONE MEDICINES $ONC Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.7B (Est. $1.61B) 🟢; +30% YoY 🔹 Adj. EPS: $3.84 (Est. $1.58) 🟢; +71% YoY 🔹 BRUKINSA Revenue: $1.2B; +31% YoY 🔹 Net Income: $237.0M (Est. $16",
-      "ticker": "$ONC",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2084943023394410788#m",
+      "body_en": "AI DRIVES MARKETS TO NEW HIGHS S&P 500 futures rose 0.4% on Wednesday, putting the index on track for a second straight record close as strong earnings reinforced confidence in AI spending. Investors ",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2084975718153216274#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-05T10:02:07+00:00",
-      "relative_time": "לפני 4ד׳",
+      "published_at": "2026-08-05T12:12:02+00:00",
+      "relative_time": "לפני 10ד׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "דגשים ברווחים של $NICE Q2'26 🔹 הכנסות: $782.3M (אומדן $766M) 🟢; +7.6% YoY 🔹 התאמה EPS: $2.70 (הערכה. $2.64) 🟢; -10% YoY 🔹 הכנסות בענן: 609 מיליון דולר; +12.6% משנה לשנה 🔹 הפעלה...",
+      "title_he": "קשקרי: אומר שהוא מאמין שעכשיו זה הזמן להתחיל לאט לאט לעלות את הריבית",
       "summary_he": "",
-      "body_en": "$NICE Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $782.3M (Est. $766M) 🟢; +7.6% YoY 🔹 Adj. EPS: $2.70 (Est. $2.64) 🟢; -10% YoY 🔹 Cloud Revenue: $609M; +12.6% YoY 🔹 Operating Income: $198M (Est. $194M) 🟢; -10",
-      "ticker": "$NICE",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2084937677267411248#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T09:40:53+00:00",
-      "relative_time": "לפני 25ד׳",
+      "body_en": "KASHKARI: SAYS HE BELIEVES NOW IS THE TIME TO START SLOWLY MOVING INTEREST RATES UP",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2084975237356007576#m",
+      "tag": "FED",
+      "published_at": "2026-08-05T12:10:08+00:00",
+      "relative_time": "לפני 12ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "המניות בארה\"ב היו מעורבות לפני השוק (SPX +0.2%, NDX -0.2%) מכיוון שטראמפ אותת על עסקת מיצר הורמוז אפשרית עם איראן כבר ביום רביעי, במתן מענה על ידי החות'ים הנתמכים על ידי איראן...",
+      "title_he": "נקודות השיא ברווחים של AVNET $AVT Q4'26 🔹 הכנסות: $8.3B (אומדן $7.52B) 🟢; +48% YoY 🔹 התאמה EPS: $2.28 (הערכה. $1.77) 🟢; +182% YoY 🔹 התאמה מרווח תפעולי: 3.8%; +129 bps YoY 🔹…",
       "summary_he": "",
-      "body_en": "US stocks were mixed pre-market (SPX +0.2%, NDX -0.2%) as Trump signaled a possible Strait of Hormuz deal with Iran as early as Wednesday, tempered by Iran-backed Houthi threats to disrupt Red Sea tra",
-      "ticker": "$SPCX",
+      "body_en": "AVNET $AVT Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $8.3B (Est. $7.52B) 🟢; +48% YoY 🔹 Adj. EPS: $2.28 (Est. $1.77) 🟢; +182% YoY 🔹 Adj. Operating Margin: 3.8%; +129 bps YoY 🔹 GAAP EPS: $1.49; from $0.07 Q1",
+      "ticker": "$AVT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2084975002563285278#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T12:09:12+00:00",
+      "relative_time": "לפני 13ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "החוזים העתידיים של דאו ג'ונס עולים; SpaceX, AMD Dee As Arista, Eli Lilly Jump עם S&P 500 בשיא",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures Rise; SpaceX, AMD Dive As Arista, Eli Lilly Jump With S&P 500 At Highs",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-spacex-amd-arista-eli-lily-earnings/?src=A00220&yptr=yahoo",
+      "tag": "TECH",
+      "published_at": "2026-08-05T12:04:57+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$LLY +5% לפני השוק לאחר שיצרנית התרופות רשמה מכירות ברבעון השני לפני הציפיות על עוצמתן של תרופות ההשמנה שלה והעלתה את תחזית ההכנסות לשנה כולה מעל...",
+      "summary_he": "",
+      "body_en": "$LLY +5% premarket after the drugmaker posted 2Q sales ahead of expectations on the strength of its obesity drugs and raised FY’26 revenue full-year forecast above expectations. Foundayo revs (weight ",
+      "ticker": "$LLY",
       "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2084933793954062551#m",
+      "link": "https://nitter.net/garyblack00/status/2084973824773152923#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-05T09:25:27+00:00",
-      "relative_time": "לפני 41ד׳",
-      "sentiment": "neutral"
+      "published_at": "2026-08-05T12:04:31+00:00",
+      "relative_time": "לפני 18ד׳",
+      "sentiment": "bullish"
     },
     {
-      "title_he": "מורגן סטנלי רואה מרכזי נתונים המניעים את הבנייה מורגן סטנלי אמר כי מרכזי נתונים ותשתיות נותרו שווקי הקצה החזקים ביותר לבנייה, המבוססים על בינה מלאכותית...",
+      "title_he": "ריימונד ג'יימס חוזר על יעדו של 800 דולר ב-SPCX לאחר שההכנסות ספגו כמעט מיליארד דולר ויכולת המחשוב עלתה ב-40% ל-1.4GW. החברה טוענת שהתחזיות נותרות \"משוחדות...",
       "summary_he": "",
-      "body_en": "MORGAN STANLEY SEES DATA CENTERS DRIVING CONSTRUCTION Morgan Stanley said data centers and infrastructure remain the strongest construction end markets, based on AI analysis of 28 companies' Q2 earnin",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2084933630795690363#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T09:24:48+00:00",
-      "relative_time": "לפני 42ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$SPCX - BOFA מאשרת מחדש את הקניה ב-SPACEX BofA Securities חזרה על דירוג הקנייה שלה ויעד המחיר של 235 דולר ב-SpaceX לאחר תוצאות חזקות מהצפוי ברבעון השני. מהמשרד נמסר…",
-      "summary_he": "",
-      "body_en": "$SPCX - BOFA REAFFIRMS BUY ON SPACEX BofA Securities reiterated its Buy rating and $235 price target on SpaceX after stronger-than-expected Q2 results. The firm said revenue and profitability exceeded",
+      "body_en": "Raymond James reiterates its $800 target on $SPCX after revenue beat by nearly $1B and compute capacity rose 40% to 1.4GW. The firm says forecasts remain “biased significantly higher” as $6.7B in new ",
       "ticker": "$SPCX",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2084931196388090165#m",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2084973672683696226#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-05T09:15:08+00:00",
-      "relative_time": "לפני 51ד׳",
+      "published_at": "2026-08-05T12:03:55+00:00",
+      "relative_time": "לפני 18ד׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "SpaceX צוללת ב-10% לאחר הזינוק בהוצאות בינה מלאכותית מטריף את המשקיעים",
+      "title_he": "ONE STOP SYSTEMS $OSS Q2'26 שיאי רווחים 🔹 הכנסות: $9.3M (אומדן $8.5M) 🟢; +62.3% YoY 🔹 התאמה EPS: -$0.01 (הערכה -$0.02) 🟡 🔹 EBITDA מתואם: -$0.3M (הערכה -$0.6M) ...",
       "summary_he": "",
-      "body_en": "SpaceX dives 10% after AI spending surge rattles investors",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/05/spacex-spcx-stock-today-earnings.html",
-      "tag": "TECH",
-      "published_at": "2026-08-05T09:04:08+00:00",
+      "body_en": "ONE STOP SYSTEMS $OSS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $9.3M (Est. $8.5M) 🟢; +62.3% YoY 🔹 Adj. EPS: -$0.01 (Est. -$0.02) 🟡 🔹 Adjusted EBITDA: -$0.3M (Est. -$0.6M) 🟢 🔹 Gross Margin: 39.1%; -220 bps",
+      "ticker": "$OSS",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2084973376536531268#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T12:02:44+00:00",
+      "relative_time": "לפני 19ד׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "RT מאת @DivesTech: אם אילון לא היה הולך הכל ב-Nvidia עם מה שיכול להיות סט ההזמנות הגדול ביותר בהיסטוריה של Nvidia אז מניית AMD הייתה עולה אתמול בלילה...",
+      "title_he": "ההכנסות של לילי מזנקות ב-48%, מונעות מהביקוש ל-GLP-1 שלה",
       "summary_he": "",
-      "body_en": "RT by @DivesTech: If Elon hadn't gone all in Nvidia with what could be the biggest set of orders in the history of Nvidia then AMD's stock would have been up last night. The loss of that business over",
+      "body_en": "Lilly’s revenue soars 48%, driven by demand for its GLP-1s",
       "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/jimcramer/status/2084916097468256510#m",
-      "tag": "TECH",
-      "published_at": "2026-08-05T08:15:08+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bearish"
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/lillys-revenue-soars-48-driven-by-demand-of-its-glp-1s-7361c223?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T12:01:00+00:00",
+      "sentiment": "bullish"
     },
     {
-      "title_he": "הנה למה לצפות כשדיסני מדווחת על רווחים לפני הפעמון",
+      "title_he": "מיקרוסופט מאריכה את רצף הניצחונות על רקע עליית הרווחים; האם המניה היא קנייה עכשיו?",
       "summary_he": "",
-      "body_en": "Here's what to expect when Disney reports earnings before the bell",
+      "body_en": "Microsoft Extends Winning Streak Amid Earnings Surge; Is The Stock A Buy Now?",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/research/microsoft-msft-stock-earnings-buy-now-august-2026/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T12:00:48+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "דיסני מובילה את הערכות הרווחים מכיוון שפארקים וסטרימינג מציעים דחיפה",
+      "summary_he": "",
+      "body_en": "Disney tops earnings estimates as parks and streaming offer a boost",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/05/disney-dis-earnings-q3-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-05T04:01:01+00:00",
+      "published_at": "2026-08-05T11:56:15+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$SPCX כבר לא מקצה הון כמו חברת השקה, כאשר 86% מההשקעה הרבעונית של 18 מיליארד דולר זורמים לתשתית מחשוב בינה מלאכותית שהניבה הכנסות של 2.6 מיליארד דולר.",
+      "title_he": "$UBER -3% לפני השוק לאחר פרסום תוצאות ברבעון השני באופן כללי בקנה אחד עם הציפיות, אך מנחה להזמנות ברוטו ברבעון השלישי שנפלו ב-1% מהערכות. הנחיית EBITDA לרבעון השלישי הייתה מעל...",
       "summary_he": "",
-      "body_en": "$SPCX no longer allocates capital like a launch company with 86% of its $18B quarterly capex flowing into AI compute infrastructure that generated $2.6B in revenue. Starlink remains the financial engi",
-      "ticker": "$SPCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2084815946959774150#m",
+      "body_en": "$UBER -3% pre-market after posting 2Q results broadly in-line with expectations but guiding to 3Q gross bookings that fell 1% short of ests. 3Q EBITDA guidance was above ests. Third quarter guidance: ",
+      "ticker": "$UBER",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2084968589711274176#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-05T01:37:10+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$SPCX -7% $NVDA +2% $AMD -9% $INTC -3% $ANET +11% $BKNG +6% @finviz_com",
-      "summary_he": "",
-      "body_en": "$SPCX -7% $NVDA +2% $AMD -9% $INTC -3% $ANET +11% $BKNG +6% @finviz_com",
-      "ticker": "$SPCX",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2084789016268824709#m",
-      "tag": "TECH",
-      "published_at": "2026-08-04T23:50:09+00:00",
-      "relative_time": "לפני 10ש׳",
+      "published_at": "2026-08-05T11:43:43+00:00",
+      "relative_time": "לפני 38ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "המניות חוזרות לשיא. משקיעים שישבו חזק במהלך התרסקות המומנטום האחרונה מתוגמלים.",
+      "title_he": "מניית וולט דיסני מטפסת כשהחברה מצטטת את 'צעצוע של סיפור 5' לצמיחת הרווחים",
       "summary_he": "",
-      "body_en": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded.",
+      "body_en": "Walt Disney’s stock climbs as company cites ‘Toy Story 5’ for earnings growth",
       "ticker": "",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/stocks-return-to-record-highs-investors-who-sat-tight-during-the-recent-momentum-crash-are-being-rewarded-8c960105?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-04T22:40:00+00:00",
+      "link": "https://www.marketwatch.com/story/walt-disneys-stock-climbs-as-company-cites-toy-story-5-for-earnings-growth-fe0c86c1?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T11:42:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "צ'יפוטלה שואב ג'לפנוס ממקומות מסוימים לאחר חקירת סלמונלה. הנה מה שצריך לדעת.",
+      "title_he": "$SHOP ריסק את הרווחים שלהם ברבעון השני • הכנסות של $3.58B לעומת משוער. $3.44B • EPS $0.42 לעומת משוער $0.40 • FCF $654M לעומת משוער $540M • GMV $115B לעומת משוער 112B$ הנחיות לרבעון השלישי • הכנסות...",
       "summary_he": "",
-      "body_en": "Chipotle pulls jalapenos from some locations after salmonella investigation. Here’s what to know.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/chipotle-pulls-jalapenos-from-some-locations-after-salmonella-investigation-heres-what-to-know-20d8c66f?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-04T21:54:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מלאי אנרגיה מתחיל בלוח השנה של אירועי מפתח של מחר בשעה 10:30 ET. לאחר סגירת השוק, פקידי הפד קוק ודיילי אמורים לדבר, ו-Costco $COST...",
-      "summary_he": "",
-      "body_en": "Energy inventories begin tomorrow’s calendar of key events at 10:30 AM ET. After the market closes, Fed officials Cook and Daly are scheduled to speak, and Costco $COST reports July sales.",
-      "ticker": "$COST",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2084755129975058566#m",
-      "tag": "FED",
-      "published_at": "2026-08-04T21:35:30+00:00",
-      "relative_time": "לפני 12ש׳",
+      "body_en": "$SHOP CRUSHED THEIR Q2 EARNINGS • Revenue $3.58B vs Est. $3.44B • EPS $0.42 vs. Est. $0.40 • FCF $654M vs. Est. $540M • GMV $115B vs Est. $112B Q3 Guidance • Revenue +32% vs Est. +26%",
+      "ticker": "$SHOP",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2084961866720419922#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T11:17:00+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "אחמד אלג'רוב הוא החשוד ברצח עורך הדין ארבל פלדמן",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858690",
+      "tag": "כללי",
+      "published_at": "2026-08-05T15:01:00+00:00"
+    },
+    {
+      "title_he": "מלחמת החמולות בערערה: ירי לעבר משפחה, אקדח כוון לשוטרים ושלושה נאשמים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858684",
+      "tag": "כללי",
+      "published_at": "2026-08-05T14:50:00+00:00"
+    },
+    {
+      "title_he": "בת 70 ובנה מקריית גת נעצרו בחשד לסחר בסמים | פרסום ראשון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858689",
+      "tag": "כללי",
+      "published_at": "2026-08-05T14:16:00+00:00"
+    },
+    {
+      "title_he": "גופה נפלטה לחוף בזיכרון יעקב - המשטרה פתחה בחקירה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858665",
+      "tag": "כללי",
+      "published_at": "2026-08-05T14:06:00+00:00"
+    },
+    {
+      "title_he": "הניצחון הגדול אחרי השבעה באוקטובר: הביקוש להתגורר בנתיב העשרה רק עולה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858664",
+      "tag": "כללי",
+      "published_at": "2026-08-05T13:48:00+00:00"
+    },
+    {
+      "title_he": "עורכת דין נעצרה בחשד שהחדירה סם לאסיר בכלא: כך זה תועד במצלמות | תיעוד",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858647",
+      "tag": "כללי",
+      "published_at": "2026-08-05T13:06:00+00:00"
+    },
     {
       "title_he": "הוארך בחמישה ימים מעצרו של החשוד בהשלכת אבנים לעבר בניין חדשות 12",
       "summary_he": "",
@@ -1038,68 +1084,20 @@
       "published_at": "2026-08-05T12:47:00+00:00"
     },
     {
+      "title_he": "\"המעגל נסגר\": מחנה הקיץ לילדים שגדלים בצל מחלת הסרטן",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858668",
+      "tag": "כללי",
+      "published_at": "2026-08-05T12:43:00+00:00"
+    },
+    {
       "title_he": "פרסום ראשון: רוצח השופט עדי אזר חשוד שניסה להבריח לכלא כדורי מרשם",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3858641",
       "tag": "כללי",
       "published_at": "2026-08-05T12:34:00+00:00"
-    },
-    {
-      "title_he": "פרסום ראשון: רעולי פנים חמושים איימו על עובדי חברת החשמל בתל שבע",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858633",
-      "tag": "כללי",
-      "published_at": "2026-08-05T12:15:00+00:00"
-    },
-    {
-      "title_he": "הפרשה מסתעפת: \"הצל\" נחקר במח\"ש",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858625",
-      "tag": "כללי",
-      "published_at": "2026-08-05T11:39:00+00:00"
-    },
-    {
-      "title_he": "פרסום ראשון: סגן ראש עיריית ראשון לציון נעצר בחשד להטרדה מינית",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858591",
-      "tag": "כללי",
-      "published_at": "2026-08-05T11:16:00+00:00"
-    },
-    {
-      "title_he": "מפגין הוכנס לחמישה ימי מעצר בית - בגלל שלט מחאה נגד נתניהו",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858613",
-      "tag": "כללי",
-      "published_at": "2026-08-05T10:52:00+00:00"
-    },
-    {
-      "title_he": "ראשי רשויות ואנשי חינוך למפלגות: הציגו תוכנית להצלת המערכת",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858518",
-      "tag": "כללי",
-      "published_at": "2026-08-05T10:00:00+00:00"
-    },
-    {
-      "title_he": "הותר לפרסום: עורך הדין ארבל פלדמן נרצח במשרדו בראשון לציון",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858595",
-      "tag": "כללי",
-      "published_at": "2026-08-05T09:57:00+00:00"
-    },
-    {
-      "title_he": "כבוד לנגב: המועצה המקומית להבים זכתה בפרס מגן שר הביטחון לשנת 2026",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858554",
-      "tag": "כללי",
-      "published_at": "2026-08-05T02:16:00+00:00"
     }
   ],
   "track_record": {
