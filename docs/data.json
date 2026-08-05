@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T20:08:29.302402+00:00",
+  "generated_at": "2026-08-05T21:46:47.879093+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -224,7 +224,7 @@
         "sma200": 312.67,
         "pct_from_52w_high": -1.0,
         "vol_ratio": 0.79,
-        "change_1d_pct": 0.47,
+        "change_1d_pct": 0.48,
         "change_1w_pct": 4.2,
         "change_1m_pct": 5.9,
         "spark_3m": [
@@ -631,7 +631,7 @@
         "sma50": 384.96,
         "sma200": 409.99,
         "pct_from_52w_high": -35.5,
-        "vol_ratio": 1.02,
+        "vol_ratio": 1.03,
         "change_1d_pct": -1.77,
         "change_1w_pct": 7.8,
         "change_1m_pct": -20.2,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-05T20:08:29.302412+00:00",
+  "ta_generated_at": "2026-08-05T21:46:47.879103+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -692,45 +692,45 @@
     },
     {
       "name": "Russell 2000",
-      "value": "3,022",
-      "change": "-0.50%",
+      "value": "3,019",
+      "change": "-0.59%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.49527238499436804
+      "pct_raw": -0.5856912962051406
     },
     {
       "name": "VIX",
-      "value": "15.52",
-      "change": "-5.94%",
+      "value": "15.81",
+      "change": "-4.18%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -5.939393939393942
+      "pct_raw": -4.181818181818179
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,308.6",
-      "change": "+3.76%",
+      "value": "$4,308.0",
+      "change": "+3.74%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 3.756682560323652
+      "pct_raw": 3.7422337812454756
     },
     {
       "name": "נפט ברנט",
-      "value": "$79.3",
-      "change": "-0.01%",
-      "direction": "down",
+      "value": "$79.4",
+      "change": "+0.05%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.012600806451619349
+      "pct_raw": 0.05040322580645949
     },
     {
       "name": "ביטקוין",
-      "value": "$64,774",
-      "change": "+1.13%",
+      "value": "$64,634",
+      "change": "+0.91%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.1263562299461554
+      "pct_raw": 0.9083321572158942
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,101 +752,101 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.007",
-      "change": "+0.06%",
+      "value": "3.005",
+      "change": "+0.00%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.056570496822070306
+      "pct_raw": 0.003327676283643371
     }
   ],
   "sectors": [
     {
       "name": "טכנולוגיה",
-      "value": "185.90",
-      "change": "-0.54%",
+      "value": "185.91",
+      "change": "-0.53%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.5350454788657035
+      "pct_raw": -0.5296950240770514
     },
     {
       "name": "פיננסים",
-      "value": "58.01",
-      "change": "+0.22%",
+      "value": "58.00",
+      "change": "+0.21%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.22460262612300527
+      "pct_raw": 0.2073255010366231
     },
     {
       "name": "אנרגיה",
-      "value": "57.29",
-      "change": "-2.10%",
+      "value": "57.31",
+      "change": "-2.07%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -2.101845522898161
+      "pct_raw": -2.067669172932332
     },
     {
       "name": "בריאות",
-      "value": "164.15",
-      "change": "+1.26%",
+      "value": "164.16",
+      "change": "+1.27%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 1.2646514497224006
+      "pct_raw": 1.2708204811844555
     },
     {
       "name": "תעשייה",
-      "value": "186.34",
+      "value": "186.35",
       "change": "-0.03%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.03218884120171796
+      "pct_raw": -0.02682403433477005
     },
     {
       "name": "צריכה שיקולית",
-      "value": "118.62",
-      "change": "+0.28%",
+      "value": "118.64",
+      "change": "+0.30%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.27897539944204774
+      "pct_raw": 0.29588299940822915
     },
     {
       "name": "צריכה בסיסית",
-      "value": "85.32",
-      "change": "-0.06%",
+      "value": "85.33",
+      "change": "-0.05%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.058568583811656756
+      "pct_raw": -0.04685486704932207
     },
     {
       "name": "נדל\"ן",
       "value": "45.20",
-      "change": "+0.06%",
+      "change": "+0.07%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.05534646889528134
+      "pct_raw": 0.06641576267434389
     },
     {
       "name": "תשתיות",
-      "value": "43.65",
-      "change": "-1.04%",
+      "value": "43.66",
+      "change": "-1.02%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.042847426887329
+      "pct_raw": -1.0201768306506525
     },
     {
       "name": "חומרים",
-      "value": "52.63",
-      "change": "+1.21%",
+      "value": "52.64",
+      "change": "+1.23%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 1.2115384615384666
+      "pct_raw": 1.2307692307692317
     },
     {
       "name": "תקשורת",
-      "value": "110.86",
-      "change": "-1.05%",
+      "value": "110.87",
+      "change": "-1.04%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.053195287397364
+      "pct_raw": -1.0442699036058565
     }
   ],
   "fear_greed": {
@@ -856,146 +856,40 @@
   },
   "us_news": [
     {
-      "title_he": "בערך 1,000 חברות דיווחו כעת על עונת הרווחים הזו, ומרווח ההנחיה הפך שוב לבננה עם 14% מהחברות שגייסו לעומת 3% בלבד...",
+      "title_he": "$AEVA חתם על הסכם אופטיקה קרובה לאריזה חתמה על JDA עם ספק אופטיקה לפתרון NPO של היפר-scaler גדול. הכרכים יכולים להתחיל ב-2027 ולהתקדם ב-2028. אם...",
       "summary_he": "",
-      "body_en": "Roughly 1,000 companies have now reported this earnings season, and the guidance spread has once again gone bananas with 14% of companies raising versus just 3% that have lowered. We saw a similar tre",
-      "ticker": "",
+      "body_en": "$AEVA SIGNS NEAR-PACKAGED OPTICS AGREEMENT Signed a JDA with an optics provider for a major hyperscaler’s NPO solution. Volumes could begin in 2027 and ramp in 2028. If qualified, Aeva sees potential ",
+      "ticker": "$AEVA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2085117594554806309#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T21:35:48+00:00",
+      "relative_time": "לפני 10ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מחר עוד יום עמוס של רווחים, עם דיווחים של ConocoPhillips $COP, Fiserv $FISV, Ralph Lauren $RL, וה-WBD של Warner Bros. Discovery $WBD לפני הפתיחה. Airbnb…",
+      "summary_he": "",
+      "body_en": "Tomorrow is another packed day of earnings, with ConocoPhillips $COP, Fiserv $FISV, Ralph Lauren $RL, and Warner Bros. Discovery $WBD reporting before the open. Airbnb $ANB, DraftKings $DKNG, and Mons",
+      "ticker": "$COP",
       "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2085092044783964668#m",
+      "link": "https://nitter.net/bespokeinvest/status/2085116258295394492#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-05T19:54:17+00:00",
-      "relative_time": "לפני 13ד׳",
+      "published_at": "2026-08-05T21:30:30+00:00",
+      "relative_time": "לפני 15ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Meta, $META, הציגה לראשונה את סוכן קידוד הבינה המלאכותית שלה בשם Muse Code",
+      "title_he": "SOUNDHOUND AI $SOUN Q2'26 שיאי רווחים 🔹 הכנסות: $61.9M (הערכה. $52.4M) ; +45% YoY 🔹 התאמה EPS: -$0.02 (הערכה -$0.06) 🔹 רווח גולמי: 45.1% העלאות FY26 מדריך: 🔹…",
       "summary_he": "",
-      "body_en": "Meta, $META, has debuted its first AI coding agent called Muse Code",
-      "ticker": "$META",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2085087694984765596#m",
-      "tag": "TECH",
-      "published_at": "2026-08-05T19:37:00+00:00",
-      "relative_time": "לפני 30ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אחר צהריים גדול של רווחים עבור מניות זיכרון, שכן $SNDK ו-$WDC מדווחים שניהם לאחר הסגירה. הסוחרים מתחילים להיות קצת עצבניים לקראתם.",
-      "summary_he": "",
-      "body_en": "Big afternoon of earnings for memory stocks as $SNDK and $WDC both report after the close. Traders are getting a little nervous heading into them.",
-      "ticker": "$SNDK",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2085086402761359717#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T19:31:52+00:00",
-      "relative_time": "לפני 35ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Trump admin refunds $100 billion in 'liberation day' tariffs",
-      "summary_he": "",
-      "body_en": "Trump admin refunds $100 billion in 'liberation day' tariffs",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/05/trump-tariffs-refunds-ieepa-lawsuit.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-05T19:31:26+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ארה\"ב שוקלת 15% תעריף פוליסיליקון הממשל שוקל מכסים של לפחות 15% ומחירי יבוא מינימליים על פוליסיליקון, פרוסות, תאים ומודולים סולאריים.",
-      "summary_he": "",
-      "body_en": "US WEIGHS 15% POLYSILICON TARIFF The administration is considering tariffs of at least 15% and minimum import prices on polysilicon, wafers, cells and solar modules. Action could come Thursday, with o",
-      "ticker": "$FSLR",
+      "body_en": "SOUNDHOUND AI $SOUN Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $61.9M (Est. $52.4M) 🟢; +45% YoY 🔹 Adj. EPS: -$0.02 (Est. -$0.06) 🟢 🔹 Gross Margin: 45.1% Raises FY26 Guide: 🔹 Revenue: $230M-$260M (Est. $232M",
+      "ticker": "$SOUN",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2085086004638298277#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-05T19:30:17+00:00",
-      "relative_time": "לפני 37ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$META משיקה את Muse Code בגרסת בטא המופעלת על ידי Muse Spark 1.2 כדי להפעיל סוכני קידוד מרובים על פני פרויקט אחד ללא התנגשויות. רוב הרווח בנצ'מרק מגיע...",
-      "summary_he": "",
-      "body_en": "$META launches Muse Code in beta which is powered by Muse Spark 1.2 to run multiple coding agents across one project without conflicts. Most of the benchmark gain comes from the software around the mo",
-      "ticker": "$META",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2085085189638914462#m",
-      "tag": "TECH",
-      "published_at": "2026-08-05T19:27:02+00:00",
-      "relative_time": "לפני 40ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$META משחרר את MUSE CODE ב-BETA מטא שיחרר את Muse Code, סוכן מסוף המופעל על ידי Muse Spark 1.2 המטפל במחזרים גדולים עם סוכנים מתמשכים ומקבילים...",
-      "summary_he": "",
-      "body_en": "$META RELEASES MUSE CODE IN BETA Meta released Muse Code, a terminal agent powered by Muse Spark 1.2 that handles large repos with persistent agents and parallel sub-agents in isolated worktrees. Spar",
-      "ticker": "$META",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2085082333661864398#m",
-      "tag": "TECH",
-      "published_at": "2026-08-05T19:15:41+00:00",
-      "relative_time": "לפני 52ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "זה לא הגיוני עם 911.5 מיליון מניות SPCX חדשות של $ שעשויות להיכנס מחר לצוף של SPCX, מה שיכפיל את גודלה. משקיעים קמעונאיים של בלומברג קונים את הירידה ב...",
-      "summary_he": "",
-      "body_en": "This makes no sense with 911.5M new $SPCX shares potentially entering SPCX’s float tomorrow, which will double its size. Bloomberg Retail investors are buying the dip on SpaceX's stock before more sha",
-      "ticker": "$SPCX",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2085078912271610195#m",
+      "link": "https://nitter.net/wallstengine/status/2085115326107353389#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-05T19:02:06+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Flutter shares plummet on earnings miss and another key leadership change",
-      "summary_he": "",
-      "body_en": "Flutter shares plummet on earnings miss and another key leadership change",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/05/flutter-earnings-ceo-leadership-change-stock.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T18:20:31+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "על פי הדיווחים, $MSFT הניב מכירות של 24 מיליארד דולר מ-OpenAI במהלך שנת הכספים שהסתיימה ביוני, המייצגים ~70% מההכנסות שלה מבינה מלאכותית. הריכוז הזה מראה כמה מ...",
-      "summary_he": "",
-      "body_en": "$MSFT reportedly generated $24B in sales from OpenAI during the fiscal year ended June representing ~70% of its AI revenue. That concentration shows how much of Microsoft’s current AI monetization sti",
-      "ticker": "$MSFT",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2085067457254047812#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T18:16:35+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "MSFT של מיקרוסופט הניבה 24.1 מיליארד דולר במכירות מ-OpenAI במהלך שנת הכספים שהסתיימה ביוני, המהווה כ-70% מההכנסות בפועל של AI, על פי גילויים...",
-      "summary_he": "",
-      "body_en": "Microsoft $MSFT generated $24.1B in sales from OpenAI during the fiscal year ended June, representing roughly 70% of its actual AI revenue, according to disclosures cited by Bloomberg.",
-      "ticker": "$MSFT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2085065761572470880#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T18:09:50+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "המכירות של $MSFT AI של MICROSOFT מגיעות בעיקר מ-OPENAI, הגילויים מראים: BBG",
-      "summary_he": "",
-      "body_en": "MICROSOFT'S $MSFT AI SALES MOSTLY COME FROM OPENAI, DISCLOSURES SHOW: BBG",
-      "ticker": "$MSFT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2085065243613675665#m",
-      "tag": "TECH",
-      "published_at": "2026-08-05T18:07:47+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
+      "published_at": "2026-08-05T21:26:47+00:00",
+      "relative_time": "לפני 19ד׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "מניית אלפבית יורדת כשגוגל מאבדת עוד בכיר מפתח בינה מלאכותית",
@@ -1005,23 +899,137 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/story/alphabets-stock-drops-as-google-loses-another-key-ai-executive-38de45a2?mod=mw_rss_topstories",
       "tag": "TECH",
-      "published_at": "2026-08-05T17:50:00+00:00",
+      "published_at": "2026-08-05T21:20:00+00:00",
       "sentiment": "bearish"
     },
     {
-      "title_he": "אילון מאסק מכנה את הזיכרון \"הגורם המגביל\" של בניית הבינה המלאכותית בקריאת הרווחים של $SPCX. $MU",
+      "title_he": "$MELI מדווח על רבעון שיא של 10.2 מיליארד דולר, שכמעט תואם את מה שהפיק בכל שנת 2022. העסק כמעט הכפיל את הכנסותיו הרבעוניות בארבע שנים והוא...",
       "summary_he": "",
-      "body_en": "Elon Musk calls memory the AI buildout’s “limiting factor” on the $SPCX earnings call. $MU",
-      "ticker": "$SPCX",
+      "body_en": "$MELI reports a record $10.2B quarter which nearly matches what it produced in all of 2022. The business has nearly quadrupled its quarterly revenue in four years and is still growing ~50% YoY.",
+      "ticker": "$MELI",
       "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2085060279042539533#m",
+      "link": "https://nitter.net/StockSavvyShay/status/2085108468223217928#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-05T17:48:03+00:00",
-      "relative_time": "לפני 2ש׳",
+      "published_at": "2026-08-05T20:59:32+00:00",
+      "relative_time": "לפני 46ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מסחר באופציות אגרסיבי עזר להניע את הראלי האחרון של S&P 500. מה זה אומר למשקיעים.",
+      "summary_he": "",
+      "body_en": "Aggressive options trading helped drive the S&P 500’s latest rally. What that means for investors.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/aggressive-options-trading-helped-drive-the-s-p-500s-latest-rally-what-that-means-for-investors-623fe41c?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-05T20:51:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "החזרה ללימודים בעיצומו... הרווחים של הקמעונאים כבר נכנסים... תקשיבו איך העונה מתקדמת בשיחות הקרובות... @wallsthorizon...",
+      "summary_he": "",
+      "body_en": "Back-to-school in full swing... retailer earnings are already rolling in... listen up for how the season is progressing on upcoming calls... @wallsthorizon @christinelshort $XRT @jeffmacke $XLY $RSPD ",
+      "ticker": "$XRT",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2085105062003589506#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T20:46:00+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "נגלת הפד קוק אומרת שהיא \"מוכנה לפעול\" בהעלאת הריבית כדי להתמודד עם האינפלציה",
+      "summary_he": "",
+      "body_en": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
+      "tag": "FED",
+      "published_at": "2026-08-05T20:36:16+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$IONQ רווחים ברבעון השני • הכנסות של $80 מיליון לעומת משוער $65M • EPS ($0.33) לעומת משוער ($0.29) • RPO: +297% בשנה זו • מזומן: $3.0B הנחיות ל-26 ל-26 • הכנסה של $285 מיליון לעומת משוער. 268 מיליון דולר The SkyWater…",
+      "summary_he": "",
+      "body_en": "$IONQ Q2 EARNINGS • Revenue $80M vs Est. $65M • EPS ($0.33) vs Est. ($0.29) • RPO: +297% YoY • Cash: $3.0B FY26 Guidance • Revenue $285M vs Est. $268M The SkyWater acquisition closes creating a vertic",
+      "ticker": "$IONQ",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2085101696909504685#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T20:32:38+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "BREAKING: SanDisk, $SNDK, רווחים: - הכנסות: 8.96 מיליארד דולר, משוער: 8.39 מיליארד דולר - EPS: 39.2 מיליארד דולר, משוער: 34.5 מיליארד דולר",
+      "summary_he": "",
+      "body_en": "BREAKING: SanDisk, $SNDK, earnings: - Revenue: $8.96 billion, est: $8.39 billion - EPS: $39.2 billion, est: $34.5 billion",
+      "ticker": "$SNDK",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2085101634930225431#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T20:32:23+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$DASH -2% לאחר דיווח על תוצאות ברבעון השני לפני הערכות, ופרסום חזק יותר מההנחיות לרבעון השלישי. הרווחים ברבעון השני היו קלים לעומת קונצנזוס. המניה חלשה לאחר ההדפסה...",
+      "summary_he": "",
+      "body_en": "$DASH -2% post-mkt after reporting 2Q results ahead of ests, and posting stronger than exp 3Q guidance. 2Q earnings were light vs consensus. Stock weak after the print because of higher costs and expe",
+      "ticker": "$DASH",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2085100708664103282#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T20:28:42+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רווחים ברבעון 2 של $2 • הכנסות: 370 מיליון דולר לעומת משוער. $352M • EPS $0.08 לעומת משוער $0.04 • לקוחות >100K ARR: 1,635 (+46% YoY) • שימור דולר נטו: 136% הנחיות לרבעון השלישי • הכנסה:...",
+      "summary_he": "",
+      "body_en": "$FIG Q2 EARNINGS • Revenue: $370M vs. Est. $352M • EPS $0.08 vs. Est. $0.04 • Customers >$100K ARR: 1,635 (+46% YoY) • Net Dollar Retention: 136% Q3 Guidance • Revenue: $374M vs. Est. $365M FY26 Guida",
+      "ticker": "$FIG",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2085099793014272490#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T20:25:04+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Figma, $FIG, רווחים: - הכנסה: $370 מיליון, משוער: $351 מיליון - EPS: $0.08, הערכה: $0.04 Block, $XYZ, רווחים: - הכנסה: $6.61 מיליארד, משוער: $0.87 - EPS: $1.02, הערכה:...",
+      "summary_he": "",
+      "body_en": "Figma, $FIG, earnings: - Revenue: $370 million, est: $351 million - EPS: $0.08, est: $0.04 Block, $XYZ, earnings: - Revenue: $6.61 billion, est: $0.87 - EPS: $1.02, est: $0.87",
+      "ticker": "$FIG",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2085097509702267107#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T20:16:00+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ מתכננת להטיל תעריף של 15% על נגזרות פוליסיליקון -מקורות",
+      "summary_he": "",
+      "body_en": "TRUMP ADMINISTRATION PLANS TO IMPOSE TARIFF OF 15% ON POLYSILICON DERIVATIVES -SOURCES",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2085091007553470910#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-05T19:50:09+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "כשנה ושלושה חודשים אחרי רצח אשתו - זיאד בשארה נורה למוות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858790",
+      "tag": "כללי",
+      "published_at": "2026-08-05T23:08:00+00:00"
+    },
     {
       "title_he": "חשד לרצח: גבר בן 57 נורה למוות בטייבה",
       "summary_he": "",
@@ -1093,14 +1101,6 @@
       "link": "https://news.walla.co.il/item/3858704",
       "tag": "כללי",
       "published_at": "2026-08-05T15:51:00+00:00"
-    },
-    {
-      "title_he": "אחמד אלג'רוב הוא החשוד ברצח עורך הדין ארבל פלדמן",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858690",
-      "tag": "כללי",
-      "published_at": "2026-08-05T15:01:00+00:00"
     }
   ],
   "track_record": {
