@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T22:58:01.621121+00:00",
+  "generated_at": "2026-08-06T00:03:09.828424+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-05T22:58:01.621131+00:00",
+  "ta_generated_at": "2026-08-06T00:03:09.828434+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,307.3",
-      "change": "+0.05%",
+      "value": "$4,335.8",
+      "change": "+0.71%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.04877822168541215
+      "pct_raw": 0.7107683731301767
     },
     {
       "name": "נפט ברנט",
-      "value": "$79.5",
-      "change": "+0.05%",
-      "direction": "up",
+      "value": "$79.3",
+      "change": "-0.20%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.05034612964127381
+      "pct_raw": -0.201384518565131
     },
     {
       "name": "ביטקוין",
-      "value": "$64,584",
-      "change": "+0.83%",
+      "value": "$64,565",
+      "change": "+0.80%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.8289130051944877
+      "pct_raw": 0.7994528243679874
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.002",
-      "change": "-0.10%",
+      "value": "3.003",
+      "change": "-0.06%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.09983028850953757
+      "pct_raw": -0.05989617995473852
     }
   ],
   "sectors": [
@@ -850,13 +850,25 @@
     }
   ],
   "fear_greed": {
-    "score": 27,
-    "rating": "פחד",
-    "rating_en": "fear"
+    "score": 25,
+    "rating": "פחד קיצוני",
+    "rating_en": "extreme fear"
   },
   "us_news": [
     {
-      "title_he": "דגם $META AI פרץ לחברה אחרת במהלך בדיקת אבטחת סייבר לאחר שנמלט מארגז חול לא מוגדר. התקרית משקפת הפרות אחרונות הקשורות ל-OpenAI ו...",
+      "title_he": "$META AI HACKED ANOTHER COMPANY DURING TESTING During a cybersecurity evaluation, Muse Spark 1.1 accessed the public internet after testing firm Irregular misconfigured…",
+      "summary_he": "",
+      "body_en": "$META AI HACKED ANOTHER COMPANY DURING TESTING During a cybersecurity evaluation, Muse Spark 1.1 accessed the public internet after testing firm Irregular misconfigured its sandbox. The model then exp",
+      "ticker": "$META",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2085146197564760268#m",
+      "tag": "TECH",
+      "published_at": "2026-08-05T23:29:28+00:00",
+      "relative_time": "לפני 33ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "A $META AI model hacked another company during a cybersecurity test after escaping a misconfigured sandbox. The incident mirrors recent breaches involving OpenAI and…",
       "summary_he": "",
       "body_en": "A $META AI model hacked another company during a cybersecurity test after escaping a misconfigured sandbox. The incident mirrors recent breaches involving OpenAI and Anthropic models and raises pressu",
       "ticker": "$META",
@@ -864,7 +876,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2085132273549226330#m",
       "tag": "TECH",
       "published_at": "2026-08-05T22:34:08+00:00",
-      "relative_time": "לפני 23ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -876,7 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2085126957637816399#m",
       "tag": "NEWS",
       "published_at": "2026-08-05T22:13:01+00:00",
-      "relative_time": "לפני 44ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,11 +900,11 @@
       "link": "https://nitter.net/unusual_whales/status/2085123178867601529#m",
       "tag": "FED",
       "published_at": "2026-08-05T21:58:00+00:00",
-      "relative_time": "לפני 59ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "S&P 500 Breaks Out as Mega-Cap Tech Roars Back: Here’s What to Watch Now My Wednesday @stockcharts technical take $SPY $QQQ $SMH $VIX…",
+      "title_he": "S&P 500 מתפרץ בזמן שה-Mega-Cap Tech שואג בחזרה: הנה מה לצפות עכשיו My Wednesday @stockcharts מבצע טכני $SPY $QQQ $SMH $VIX...",
       "summary_he": "",
       "body_en": "S&P 500 Breaks Out as Mega-Cap Tech Roars Back: Here’s What to Watch Now My Wednesday @stockcharts technical take $SPY $QQQ $SMH $VIX https://articles.stockcharts.com/article/sp-500-breaks-out-as-mega",
       "ticker": "$SPY",
@@ -900,7 +912,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2085121294610182470#m",
       "tag": "NEWS",
       "published_at": "2026-08-05T21:50:30+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -912,7 +924,7 @@
       "link": "https://nitter.net/wallstengine/status/2085117594554806309#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T21:35:48+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -924,11 +936,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2085116258295394492#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T21:30:30+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "SOUNDHOUND AI $SOUN Q2'26 שיאי רווחים 🔹 הכנסות: $61.9M (הערכה. $52.4M) ; +45% YoY 🔹 התאמה EPS: -$0.02 (הערכה -$0.06) 🔹 רווח גולמי: 45.1% העלאות FY26 מדריך: 🔹…",
+      "title_he": "SOUNDHOUND AI $SOUN Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $61.9M (Est. $52.4M) 🟢; +45% YoY 🔹 Adj. EPS: -$0.02 (Est. -$0.06) 🟢 🔹 Gross Margin: 45.1% Raises FY26 Guide: 🔹…",
       "summary_he": "",
       "body_en": "SOUNDHOUND AI $SOUN Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $61.9M (Est. $52.4M) 🟢; +45% YoY 🔹 Adj. EPS: -$0.02 (Est. -$0.06) 🟢 🔹 Gross Margin: 45.1% Raises FY26 Guide: 🔹 Revenue: $230M-$260M (Est. $232M",
       "ticker": "$SOUN",
@@ -936,7 +948,7 @@
       "link": "https://nitter.net/wallstengine/status/2085115326107353389#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T21:26:47+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -959,11 +971,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2085108468223217928#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T20:59:32+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "החזרה ללימודים בעיצומו... הרווחים של הקמעונאים כבר נכנסים... תקשיבו איך העונה מתקדמת בשיחות הקרובות... @wallsthorizon...",
+      "title_he": "Back-to-school in full swing... retailer earnings are already rolling in... listen up for how the season is progressing on upcoming calls... @wallsthorizon…",
       "summary_he": "",
       "body_en": "Back-to-school in full swing... retailer earnings are already rolling in... listen up for how the season is progressing on upcoming calls... @wallsthorizon @christinelshort $XRT @jeffmacke $XLY $RSPD ",
       "ticker": "$XRT",
@@ -971,11 +983,11 @@
       "link": "https://nitter.net/MikeZaccardi/status/2085105062003589506#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T20:46:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "נגיד הפד קוק אומרת שהיא \"מוכנה לפעול\" בהעלאת הריבית כדי להתמודד עם האינפלציה",
+      "title_he": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
       "summary_he": "",
       "body_en": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
       "ticker": "",
@@ -983,30 +995,6 @@
       "link": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
       "tag": "FED",
       "published_at": "2026-08-05T20:36:16+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$IONQ Q2 EARNINGS • Revenue $80M vs Est. $65M • EPS ($0.33) vs Est. ($0.29) • RPO: +297% YoY • Cash: $3.0B FY26 Guidance • Revenue $285M vs Est. $268M The SkyWater…",
-      "summary_he": "",
-      "body_en": "$IONQ Q2 EARNINGS • Revenue $80M vs Est. $65M • EPS ($0.33) vs Est. ($0.29) • RPO: +297% YoY • Cash: $3.0B FY26 Guidance • Revenue $285M vs Est. $268M The SkyWater acquisition closes creating a vertic",
-      "ticker": "$IONQ",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2085101696909504685#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T20:32:38+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "BREAKING: SanDisk, $SNDK, רווחים: - הכנסות: 8.96 מיליארד דולר, משוער: 8.39 מיליארד דולר - EPS: 39.2 מיליארד דולר, משוער: 34.5 מיליארד דולר",
-      "summary_he": "",
-      "body_en": "BREAKING: SanDisk, $SNDK, earnings: - Revenue: $8.96 billion, est: $8.39 billion - EPS: $39.2 billion, est: $34.5 billion",
-      "ticker": "$SNDK",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2085101634930225431#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T20:32:23+00:00",
-      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1018,7 +1006,19 @@
       "link": "https://nitter.net/garyblack00/status/2085100708664103282#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T20:28:42+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ מתכננת להטיל תעריף של 15% על נגזרות פוליסיליקון -מקורות",
+      "summary_he": "",
+      "body_en": "TRUMP ADMINISTRATION PLANS TO IMPOSE TARIFF OF 15% ON POLYSILICON DERIVATIVES -SOURCES",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2085091007553470910#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-05T19:50:09+00:00",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     }
   ],
