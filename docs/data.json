@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T00:03:09.828424+00:00",
+  "generated_at": "2026-08-06T03:49:40.410027+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-06T00:03:09.828434+00:00",
+  "ta_generated_at": "2026-08-06T03:49:40.410038+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "-0.59%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.5856912962051406
+      "pct_raw": -0.5858451487991332
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,335.8",
-      "change": "+0.71%",
+      "value": "$4,325.0",
+      "change": "+0.46%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.7107683731301767
+      "pct_raw": 0.45990894731952486
     },
     {
       "name": "נפט ברנט",
       "value": "$79.3",
-      "change": "-0.20%",
+      "change": "-0.16%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.201384518565131
+      "pct_raw": -0.1636249213341846
     },
     {
       "name": "ביטקוין",
-      "value": "$64,565",
-      "change": "+0.80%",
-      "direction": "up",
+      "value": "$64,467",
+      "change": "-0.21%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.7994528243679874
+      "pct_raw": -0.20884698877687097
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.003",
-      "change": "-0.06%",
-      "direction": "down",
+      "value": "3.006",
+      "change": "+0.03%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.05989617995473852
+      "pct_raw": 0.02994808997737665
     }
   ],
   "sectors": [
@@ -856,7 +856,53 @@
   },
   "us_news": [
     {
-      "title_he": "$META AI HACKED ANOTHER COMPANY DURING TESTING During a cybersecurity evaluation, Muse Spark 1.1 accessed the public internet after testing firm Irregular misconfigured…",
+      "title_he": "R ל-@StockSavvyShay: כאן תוכל למצוא את פירוט הרווחים המלא שלי ב-$APP: https://youtu.be/A-kgVQ4CihQ?si=Inx7MUchS_PKWe4_",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: Here’s where you can find my full $APP earnings breakdown: https://youtu.be/A-kgVQ4CihQ?si=Inx7MUchS_PKWe4_",
+      "ticker": "$APP",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2085188514673754554#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-06T02:17:37+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ג'יימי דימון של ג'יי.פי מורגן מזהיר מפני מינוף גבוה: \"מישהו ישבש את השוק\"",
+      "summary_he": "",
+      "body_en": "JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market'",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/06/jpmorgan-jamie-dimon-leverage-market-disruption.html",
+      "tag": "BANKS",
+      "published_at": "2026-08-06T02:02:39+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "\"קוד פתוח\" $META 👀",
+      "summary_he": "",
+      "body_en": "“open-source” $META 👀",
+      "ticker": "$META",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2085169034509820074#m",
+      "tag": "TECH",
+      "published_at": "2026-08-06T01:00:13+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אנחנו מורידים את הדירוג של Honeywell Aerospace לאחר הופעת בכורה ברווחים גרועים להחריד",
+      "summary_he": "",
+      "body_en": "We're downgrading Honeywell Aerospace after a shockingly bad earnings debut",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/05/were-downgrading-honeywell-aerospace-after-a-shockingly-bad-earnings-debut.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-06T00:09:36+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$META AI פרצה לחברה אחרת במהלך בדיקה במהלך הערכת אבטחת סייבר, Muse Spark 1.1 ניגשה לאינטרנט הציבורי לאחר שבדקה חברת Irregular עם תצורה שגויה...",
       "summary_he": "",
       "body_en": "$META AI HACKED ANOTHER COMPANY DURING TESTING During a cybersecurity evaluation, Muse Spark 1.1 accessed the public internet after testing firm Irregular misconfigured its sandbox. The model then exp",
       "ticker": "$META",
@@ -864,59 +910,22 @@
       "link": "https://nitter.net/wallstengine/status/2085146197564760268#m",
       "tag": "TECH",
       "published_at": "2026-08-05T23:29:28+00:00",
-      "relative_time": "לפני 33ד׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "A $META AI model hacked another company during a cybersecurity test after escaping a misconfigured sandbox. The incident mirrors recent breaches involving OpenAI and…",
+      "title_he": "בלוק קיצצה 40% מכוח העבודה שלה עבור AI - והרווחים שלה מראים שזה משתלם",
       "summary_he": "",
-      "body_en": "A $META AI model hacked another company during a cybersecurity test after escaping a misconfigured sandbox. The incident mirrors recent breaches involving OpenAI and Anthropic models and raises pressu",
-      "ticker": "$META",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2085132273549226330#m",
-      "tag": "TECH",
-      "published_at": "2026-08-05T22:34:08+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "פרמיית נאסד\"ק 100 P/E למדד S&P 500 קרובה לנמוך ביותר מאז 2017 בלומברג",
-      "summary_he": "",
-      "body_en": "Nasdaq 100 P/E premium to the S&P 500 is near the lowest since 2017 Bloomberg",
+      "body_en": "Block slashed 40% of its workforce for AI — and its earnings suggest that’s paying off",
       "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2085126957637816399#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-05T22:13:01+00:00",
-      "relative_time": "לפני 1ש׳",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/block-slashed-40-of-its-workforce-for-ai-and-earnings-suggest-thats-paying-off-852b7c54?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T22:19:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "יהיו שלוש העלאות ריבית השנה, לכל בנק אוף אמריקה",
-      "summary_he": "",
-      "body_en": "There will be three rate hikes this year, per Bank of America",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2085123178867601529#m",
-      "tag": "FED",
-      "published_at": "2026-08-05T21:58:00+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "S&P 500 מתפרץ בזמן שה-Mega-Cap Tech שואג בחזרה: הנה מה לצפות עכשיו My Wednesday @stockcharts מבצע טכני $SPY $QQQ $SMH $VIX...",
-      "summary_he": "",
-      "body_en": "S&P 500 Breaks Out as Mega-Cap Tech Roars Back: Here’s What to Watch Now My Wednesday @stockcharts technical take $SPY $QQQ $SMH $VIX https://articles.stockcharts.com/article/sp-500-breaks-out-as-mega",
-      "ticker": "$SPY",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2085121294610182470#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-05T21:50:30+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$AEVA חתם על הסכם אופטיקה קרובה לאריזה חתם על JDA עם ספק אופטיקה לפתרון NPO של היפר-scaler גדול. הכרכים יכולים להתחיל ב-2027 ולהתקדם ב-2028. אם...",
+      "title_he": "$AEVA חתם על הסכם אופטיקה קרובה לאריזה חתמה על JDA עם ספק אופטיקה לפתרון NPO של היפר-scaler גדול. הכרכים יכולים להתחיל ב-2027 ולהתקדם ב-2028. אם...",
       "summary_he": "",
       "body_en": "$AEVA SIGNS NEAR-PACKAGED OPTICS AGREEMENT Signed a JDA with an optics provider for a major hyperscaler’s NPO solution. Volumes could begin in 2027 and ramp in 2028. If qualified, Aeva sees potential ",
       "ticker": "$AEVA",
@@ -924,11 +933,11 @@
       "link": "https://nitter.net/wallstengine/status/2085117594554806309#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T21:35:48+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מחר עוד יום עמוס של רווחים, עם דיווחים של ConocoPhillips $COP, Fiserv $FISV, Ralph Lauren $RL, ו-WBD של האחים Warner. Discovery $WBD לפני הפתיחה. Airbnb…",
+      "title_he": "מחר עוד יום עמוס של רווחים, עם דיווחים של ConocoPhillips $COP, Fiserv $FISV, Ralph Lauren $RL, וה-WBD של Warner Bros. Discovery $WBD לפני הפתיחה. Airbnb…",
       "summary_he": "",
       "body_en": "Tomorrow is another packed day of earnings, with ConocoPhillips $COP, Fiserv $FISV, Ralph Lauren $RL, and Warner Bros. Discovery $WBD reporting before the open. Airbnb $ANB, DraftKings $DKNG, and Mons",
       "ticker": "$COP",
@@ -936,11 +945,22 @@
       "link": "https://nitter.net/bespokeinvest/status/2085116258295394492#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T21:30:30+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "SOUNDHOUND AI $SOUN Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $61.9M (Est. $52.4M) 🟢; +45% YoY 🔹 Adj. EPS: -$0.02 (Est. -$0.06) 🟢 🔹 Gross Margin: 45.1% Raises FY26 Guide: 🔹…",
+      "title_he": "מדוע מניות AT&T, Verizon ו-T-Mobile יורדות לאחר הרווחים של SpaceX",
+      "summary_he": "",
+      "body_en": "Why AT&T, Verizon and T-Mobile shares are down after SpaceX’s earnings",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/why-at-t-verizon-and-t-mobile-shares-are-down-after-spacexs-earnings-033a07ce?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-05T21:28:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "SOUNDHOUND AI $SOUN Q2'26 שיאי רווחים 🔹 הכנסות: $61.9M (הערכה. $52.4M) ; +45% YoY 🔹 התאמה EPS: -$0.02 (הערכה -$0.06) 🔹 רווח גולמי: 45.1% העלאות FY26 מדריך: 🔹…",
       "summary_he": "",
       "body_en": "SOUNDHOUND AI $SOUN Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $61.9M (Est. $52.4M) 🟢; +45% YoY 🔹 Adj. EPS: -$0.02 (Est. -$0.06) 🟢 🔹 Gross Margin: 45.1% Raises FY26 Guide: 🔹 Revenue: $230M-$260M (Est. $232M",
       "ticker": "$SOUN",
@@ -948,46 +968,33 @@
       "link": "https://nitter.net/wallstengine/status/2085115326107353389#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T21:26:47+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "מניית אלפבית יורדת כשגוגל מאבדת עוד בכיר מפתח בינה מלאכותית",
+      "title_he": "איך פארקי דיסני מתמודדים עם האטה בנסיעות",
       "summary_he": "",
-      "body_en": "Alphabet’s stock drops as Google loses another key AI executive",
+      "body_en": "How Disney parks are bucking a travel slowdown",
       "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/alphabets-stock-drops-as-google-loses-another-key-ai-executive-38de45a2?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-05T21:20:00+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "$MELI מדווח על רבעון שיא של 10.2 מיליארד דולר, שכמעט תואם את מה שהפיק בכל שנת 2022. העסק כמעט הכפיל את הכנסותיו הרבעוניות בארבע שנים והוא...",
-      "summary_he": "",
-      "body_en": "$MELI reports a record $10.2B quarter which nearly matches what it produced in all of 2022. The business has nearly quadrupled its quarterly revenue in four years and is still growing ~50% YoY.",
-      "ticker": "$MELI",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2085108468223217928#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T20:59:32+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "Back-to-school in full swing... retailer earnings are already rolling in... listen up for how the season is progressing on upcoming calls... @wallsthorizon…",
-      "summary_he": "",
-      "body_en": "Back-to-school in full swing... retailer earnings are already rolling in... listen up for how the season is progressing on upcoming calls... @wallsthorizon @christinelshort $XRT @jeffmacke $XLY $RSPD ",
-      "ticker": "$XRT",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2085105062003589506#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-05T20:46:00+00:00",
-      "relative_time": "לפני 3ש׳",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/05/disney-parks-travel-attendance-revenue.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-05T21:22:36+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
+      "title_he": "מניית Nvidia מתחממת בזוהר של תמיכה בפרופיל גבוה",
+      "summary_he": "",
+      "body_en": "Nvidia’s stock is basking in the glow of a high-profile endorsement",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/nvidias-stock-is-basking-in-the-glow-of-a-high-profile-endorsement-b7c48e7b?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-08-05T21:22:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "נגיד הפד קוק אומרת שהיא \"מוכנה לפעול\" בהעלאת הריבית כדי להתמודד עם האינפלציה",
       "summary_he": "",
       "body_en": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
       "ticker": "",
@@ -1006,23 +1013,19 @@
       "link": "https://nitter.net/garyblack00/status/2085100708664103282#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-05T20:28:42+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ מתכננת להטיל תעריף של 15% על נגזרות פוליסיליקון -מקורות",
-      "summary_he": "",
-      "body_en": "TRUMP ADMINISTRATION PLANS TO IMPOSE TARIFF OF 15% ON POLYSILICON DERIVATIVES -SOURCES",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2085091007553470910#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-05T19:50:09+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "עלייה קלה בטמפרטורות: עומסי חום כבדים יורגשו ברחבי הארץ",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858805",
+      "tag": "כללי",
+      "published_at": "2026-08-06T06:05:00+00:00"
+    },
     {
       "title_he": "כשנה ושלושה חודשים אחרי רצח אשתו - זיאד בשארה נורה למוות",
       "summary_he": "",
@@ -1094,14 +1097,6 @@
       "link": "https://news.walla.co.il/item/3858722",
       "tag": "כללי",
       "published_at": "2026-08-05T16:07:00+00:00"
-    },
-    {
-      "title_he": "מח\"ש הודיעה: יואב אליאסי ושלושה שוטרים נחקרו בחשד להפרת אמונים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858704",
-      "tag": "כללי",
-      "published_at": "2026-08-05T15:51:00+00:00"
     }
   ],
   "track_record": {
