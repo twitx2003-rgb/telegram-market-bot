@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:44:07.004529+00:00",
+  "generated_at": "2026-08-07T13:01:22.011581+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-07T11:44:07.004538+00:00",
+  "ta_generated_at": "2026-08-07T13:01:22.011592+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,45 +700,45 @@
     },
     {
       "name": "VIX",
-      "value": "15.22",
-      "change": "+0.46%",
+      "value": "15.26",
+      "change": "+0.73%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.46204620462046386
+      "pct_raw": 0.7260726072607223
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,386.9",
-      "change": "+2.03%",
+      "value": "$4,431.8",
+      "change": "+3.07%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 2.0304214345520344
+      "pct_raw": 3.07470462368592
     },
     {
       "name": "נפט ברנט",
-      "value": "$81.9",
-      "change": "-0.69%",
+      "value": "$81.7",
+      "change": "-0.95%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6909928476178848
+      "pct_raw": -0.9455691598981708
     },
     {
       "name": "ביטקוין",
-      "value": "$65,002",
-      "change": "+1.16%",
+      "value": "$65,217",
+      "change": "+1.49%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.1556921015288035
+      "pct_raw": 1.4891049248365338
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
-      "value": "4.67%",
-      "change": "+1.15%",
-      "direction": "up",
+      "value": "4.61%",
+      "change": "-1.39%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 1.1479403203760332
+      "pct_raw": -1.3918629550321093
     }
   ],
   "market_il": [
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.001",
-      "change": "-0.47%",
+      "value": "2.990",
+      "change": "-0.83%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.46763067126558766
+      "pct_raw": -0.8324489254444191
     }
   ],
   "sectors": [
@@ -856,6 +856,112 @@
   },
   "us_news": [
     {
+      "title_he": "הסיכוי שלא יהיה שינוי בריבית הפד בספטמבר עלה ל-63% לאחר שמחזורי השכר ביולי השילו באופן בלתי צפוי 23,000 משרות.",
+      "summary_he": "",
+      "body_en": "Odds of no Fed rate change in September surge to 63% after July payrolls unexpectedly shed 23,000 jobs.",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2085709220117410220#m",
+      "tag": "FED",
+      "published_at": "2026-08-07T12:46:43+00:00",
+      "relative_time": "לפני 14ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מספרי השכר החוץ-חקלאיים בארה\"ב ירדו ב-23K, הרבה מתחת לאומדני הקונצנזוס של עלייה של +80K. משכורות השכר החוץ-חקלאיות של יוני עודכנו למטה ל-+20k מ-+57k. רווח שעתי ממוצע ביולי...",
+      "summary_he": "",
+      "body_en": "US July nonfarm payrolls fell by -23K, well below consensus ests of a +80K rise. June nonfarm payrolls were revised down to +20k from +57k. July avg hourly earnings +0.1% m/m vs prior +0.3%, with the ",
+      "ticker": "",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2085708935743320469#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-07T12:45:35+00:00",
+      "relative_time": "לפני 15ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שוק האג\"ח לא מתעלם מדו\"ח המשרות של יולי... הסיכויים מתעכבים. כלי CME FedWatch",
+      "summary_he": "",
+      "body_en": "The bond market is not ignoring the July jobs report... odds flip to a hold. CME FedWatch Tool",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2085708598160621936#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-07T12:44:15+00:00",
+      "relative_time": "לפני 16ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "כיצד פעולת אופציות S&P 500 עשויה לעזור להסביר את התנודתיות העולה במניות הזיכרון",
+      "summary_he": "",
+      "body_en": "How S&P 500 options action may help explain the rising volatility in memory stocks",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/how-s-p-500-options-action-may-help-explain-volatility-in-memory-stocks-58d95beb?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-07T12:38:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "יולי דוח משרות בארה\"ב • משכורות ללא משק -23K לעומת משוער +80K • שיעור אבטלה 4.1% לעומת משוער 4.2%",
+      "summary_he": "",
+      "body_en": "JULY U.S. JOBS REPORT • Nonfarm Payrolls -23K vs Est. +80K • Unemployment Rate 4.1% vs Est. 4.2%",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2085706671029150194#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-07T12:36:35+00:00",
+      "relative_time": "לפני 24ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סיכויי העלייה של הפד בספטמבר יורדים בחדות לאחר דיווח על משרות רכות. יולי שכר חוץ-חקלאי: -23K, מתחת לכל ההערכות.",
+      "summary_he": "",
+      "body_en": "Sept. Fed hike odds drop sharply after a soft jobs report. July Nonfarm payrolls: -23K, below all estimates.",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2085706668307099978#m",
+      "tag": "FED",
+      "published_at": "2026-08-07T12:36:34+00:00",
+      "relative_time": "לפני 24ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "יולי דוח משרות בארה\"ב 👇 שכר חוץ -23K, (הערכה +80K) שיעור האבטלה 4.1%, (הערכה 4.2%) ממוצע. רווח שעתי לחודש 0.1%, (הערכה 0.3%) ממוצע רווח שעתי בשנה 3.2%,...",
+      "summary_he": "",
+      "body_en": "JULY U.S. JOBS REPORT 👇 NONFARM PAYROLLS -23K, (Est. +80K) UNEMPLOYMENT RATE 4.1%, (Est. 4.2%) AVG. HOURLY EARNINGS MoM 0.1%, (Est. 0.3%) AVG. HOURLY EARNINGS YoY 3.2%, (Est. 3.5%) PARTICIPATION RATE ",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2085705256701476917#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-07T12:30:58+00:00",
+      "relative_time": "לפני 29ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניות סולאריות זוהרות לאחר שטראמפ הרחיב את המכסים בסין למוצרי פוליסיליקון",
+      "summary_he": "",
+      "body_en": "Solar stocks shine after Trump extends China tariffs to polysilicon products",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/07/polysilicon-solar-tariffs-donald-trump-us-china-trade-war-energy-semiconductors.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-07T12:13:07+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "TAKE-TWO $TTWO Q1'27 שירי רווחים 🔹 הכנסות: $1.53B (הערכה. $1.41B) ; +2% YoY 🔹 הזמנות נטו: $1.39B; -3% YoY 🔹 EBITDA: $167.0M (הערכה. $155M) 🟢 מדריך ל-FY27: 🔹…",
+      "summary_he": "",
+      "body_en": "TAKE-TWO $TTWO Q1’27 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.53B (Est. $1.41B) 🟢; +2% YoY 🔹 Net Bookings: $1.39B; -3% YoY 🔹 EBITDA: $167.0M (Est. $155M) 🟢 FY27 Guide: 🔹 Revenue: $7.9B-$8.1B (Est. $8.51B) 🔴 ",
+      "ticker": "$TTWO",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2085692655770779774#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-07T11:40:54+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "הנשיא טראמפ אומר שמרכזי נתונים עלולים להפוך ל\"חשובים יותר מנפט\" ומזהיר שטקסס תעשה טעות על ידי התנגדות לבנייתם. \"AI גדול יותר מה...",
       "summary_he": "",
       "body_en": "President Trump says data centers could become “more important than oil” and warns Texas would be making a mistake by opposing their construction. “AI is bigger than the internet by many times.” $NBIS",
@@ -864,7 +970,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2085688260848951632#m",
       "tag": "ENERGY",
       "published_at": "2026-08-07T11:23:26+00:00",
-      "relative_time": "לפני 20ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,67 +982,8 @@
       "link": "https://nitter.net/wallstengine/status/2085685839158472752#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T11:13:48+00:00",
-      "relative_time": "לפני 29ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "VISTRA $VST Q2'26 שירי רווחים 🔹 הכנסות: $4.0B (הערכה. $5.46B) 🔴 🔹 הכנסה נטו: $305M (הערכה. $556M) 🔴 🔹 התאמה. EBITDA: $1.8B (הערכה. $1.64B) 🟢; +30% בשנה 🔹 פועל...",
-      "summary_he": "",
-      "body_en": "VISTRA $VST Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $4.0B (Est. $5.46B) 🔴 🔹 Net Income: $305M (Est. $556M) 🔴 🔹 Adj. EBITDA: $1.8B (Est. $1.64B) 🟢; +30% YoY 🔹 Operating Income: $553M (Est. $1.04B) 🔴 Affir",
-      "ticker": "$VST",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2085683455418126381#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T11:04:20+00:00",
-      "relative_time": "לפני 39ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שיא הרווחים של WENDY'S $WEN Q2'26 🔹 הכנסות: $570.6M (הערכה. $557M) 🟢 +1.7% YoY 🔹 התאמה EPS: $0.18 (הערכה. $0.16) 🟢; -38% YoY 🔹 התאמה EBITDA: 124.1 מיליון דולר (הערכה של 122 מיליון דולר) 🟢;…",
-      "summary_he": "",
-      "body_en": "WENDY'S $WEN Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $570.6M (Est. $557M) 🟢; +1.7% YoY 🔹 Adj. EPS: $0.18 (Est. $0.16) 🟢; -38% YoY 🔹 Adj. EBITDA: $124.1M (Est. $122M) 🟢; -15.4% YoY 🔹 Global Systemwide Sal",
-      "ticker": "$WEN",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2085682736690512175#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T11:01:29+00:00",
-      "relative_time": "לפני 42ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "UNDER ARMOR $UAA Q1'27 שירי רווחים 🔹 הכנסות: $1.1B (הערכה. $1.11B) 🔴; -3% YoY 🔹 התאמה EPS: $0.05 (הערכה. $0.02) 🟢 🔹 התאמה הכנסה תפעולית: 52.4 מיליון דולר 🔹 רווח גולמי:...",
-      "summary_he": "",
-      "body_en": "UNDER ARMOUR $UAA Q1’27 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.1B (Est. $1.11B) 🔴; -3% YoY 🔹 Adj. EPS: $0.05 (Est. $0.02) 🟢 🔹 Adj. Operating Income: $52.4M 🔹 Gross Margin: 54.1%; +590 bps YoY FY27 Guide: 🔹",
-      "ticker": "$UAA",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2085682578041057670#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T11:00:51+00:00",
-      "relative_time": "לפני 42ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "כיצד פעולת אופציות S&P 500 עשויה לעזור להסביר את התנודתיות העולה במניות הזיכרון",
-      "summary_he": "",
-      "body_en": "How S&P 500 options action may help explain the rising volatility in memory stocks",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/how-s-p-500-options-action-may-help-explain-volatility-in-memory-stocks-58d95beb?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-07T10:56:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Needham על $ROKU (קנייה, PT $170): 'אנחנו מאמינים שרוקו לא צריך את פוקס' \"היינו מאוכזבים ממחיר המכירה של Roku לפוקס, והתנאים האלה נראים אפילו גרועים יותר היום, שכן ROKU...",
-      "summary_he": "",
-      "body_en": "Needham on $ROKU (Buy, PT $170): 'We believe Roku doesn't need Fox' \"We were disappointed at Roku's sale price to Fox, and those terms look even worse today, as ROKU strongly over-delivered its 2Q gui",
-      "ticker": "$ROKU",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2085680630113911045#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T10:53:06+00:00",
-      "relative_time": "לפני 50ד׳",
-      "sentiment": "bullish"
     },
     {
       "title_he": "דוח המשרות של הבוקר מתחיל ב-8:30 שעון החוף המזרחי, עם משכורות חוץ-חקלאיות, אבטלה, עליית שכר ושעות שבועיות ממוצעות. אשראי צרכני יתבצע בשעה 15:00.",
@@ -947,18 +994,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2085679972937605214#m",
       "tag": "MACRO",
       "published_at": "2026-08-07T10:50:30+00:00",
-      "relative_time": "לפני 53ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניות סולאריות זוהרות לאחר שטראמפ הרחיב את המכסים בסין למוצרי פוליסיליקון",
-      "summary_he": "",
-      "body_en": "Solar stocks shine after Trump extends China tariffs to polysilicon products",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/07/polysilicon-solar-tariffs-donald-trump-us-china-trade-war-energy-semiconductors.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-07T10:31:29+00:00",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -970,7 +1006,7 @@
       "link": "https://nitter.net/garyblack00/status/2085658019702907050#m",
       "tag": "FED",
       "published_at": "2026-08-07T09:23:16+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -983,41 +1019,6 @@
       "tag": "TECH",
       "published_at": "2026-08-07T09:02:59+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "הנפט עולה כאשר טיוטת התוכנית של איראן קובעת כי ארה\"ב וישראל נאסרות ממיצר הורמוז",
-      "summary_he": "",
-      "body_en": "Oil rises as Iran's draft plan sees U.S. and Israel banned from Strait of Hormuz",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
-      "tag": "ENERGY",
-      "published_at": "2026-08-07T05:27:03+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$ABNB +9.6% AH לאחר פרסום סיבובי רבעון וקצב רווחים והנחה לסיבובי רבעון חזקים מהצפוי. קצב 2Q ניזון מביקוש חזק על ידי מונדיאל פיפ\"א ב...",
-      "summary_he": "",
-      "body_en": "$ABNB +9.6% AH after posting a 2Q rev and earnings beat and guiding to stronger than expected 3Q revs. 2Q beat was fueled by strong demand by FIFA World Cup in the Americas. 2Q: - Revenue: $3.61B +17%",
-      "ticker": "$ABNB",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2085485406691234222#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-06T21:57:22+00:00",
-      "relative_time": "לפני 13ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "Take-Two $TTWI, Under Armour $UAA, Wendy's $WEN, Construction Partners $ROAD ו-Flour $FLR הן בין החברות המדווחות לפני הפתיחה מחר בבוקר כדי לשים...",
-      "summary_he": "",
-      "body_en": "Take-Two $TTWI, Under Armour $UAA, Wendy’s $WEN, Construction Partners $ROAD, and Fluor $FLR are among the companies reporting before the open tomorrow morning to put a cap on a busy week of earnings.",
-      "ticker": "$TTWI",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2085478646257521024#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-06T21:30:30+00:00",
-      "relative_time": "לפני 14ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
