@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T05:16:10.373532+00:00",
+  "generated_at": "2026-08-07T06:45:40.489017+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-07T05:16:10.373544+00:00",
+  "ta_generated_at": "2026-08-07T06:45:40.489027+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,323.2",
-      "change": "+0.55%",
+      "value": "$4,345.4",
+      "change": "+1.07%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5488882686761432
+      "pct_raw": 1.065215368871506
     },
     {
       "name": "נפט ברנט",
-      "value": "$83.8",
-      "change": "+1.60%",
+      "value": "$83.3",
+      "change": "+1.02%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.6001939629046038
+      "pct_raw": 1.0183052491211098
     },
     {
       "name": "ביטקוין",
-      "value": "$64,183",
-      "change": "-0.12%",
-      "direction": "down",
+      "value": "$64,296",
+      "change": "+0.06%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.11879300480756075
+      "pct_raw": 0.05713380814431735
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.015",
-      "change": "-0.01%",
+      "value": "3.012",
+      "change": "-0.12%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.013266118333774075
+      "pct_raw": -0.11939506500398141
     }
   ],
   "sectors": [
@@ -856,15 +856,60 @@
   },
   "us_news": [
     {
-      "title_he": "צמיחת היצוא של סין עולה על ההערכות ביולי, כאשר המשלוחים המונעים על ידי בינה מלאכותית עולים",
+      "title_he": "אירועי המפתח של היום (כל EST) — 08/07/2026 08:30: שיעור האבטלה בארה\"ב 08:30: משכורות לא חקלאיות בארה\"ב 08:30: רווחים ממוצעים בארה\"ב YoY 10:00: בארקין של הפד מדבר 11:00: Fed NY...",
+      "summary_he": "",
+      "body_en": "Today’s Key Events (All EST) — 08/07/2026 08:30: US Unemployment Rate 08:30: US Nonfarm Payrolls 08:30: US Average Earnings YoY 10:00: Fed’s Barkin Speaks 11:00: NY Fed 1 Yr Inflation Expectations 15:",
+      "ticker": "$FLR",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2085610181283770683#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-07T06:13:10+00:00",
+      "relative_time": "לפני 32ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "צמיחת היצוא של סין עולה על ההערכות ביולי, כאשר משלוחים מונעי בינה מלאכותית עולים",
       "summary_he": "",
       "body_en": "China's exports growth beats estimates in July, as AI-driven shipments surge",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/07/china-july-trade-exports-imports-surplus-imbalance-tariffs-.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-07T04:44:17+00:00",
+      "published_at": "2026-08-07T06:09:26+00:00",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "הנפט עולה כאשר טיוטת התוכנית של איראן קובעת כי ארה\"ב וישראל נאסרות ממיצר הורמוז",
+      "summary_he": "",
+      "body_en": "Oil rises as Iran's draft plan sees U.S. and Israel banned from Strait of Hormuz",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
+      "tag": "ENERGY",
+      "published_at": "2026-08-07T05:27:03+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "המשבר בן 72 השעות שעלול להרוס את עסקיה של Meta בהודו מכיוון שהחברה מסתכנת באובדן הגנה משפטית",
+      "summary_he": "",
+      "body_en": "The 72-hour crisis that could upend Meta’s business in India as firm risks losing legal protection",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/07/meta-india-zuckerberg-apology-genz-protest.html",
+      "tag": "TECH",
+      "published_at": "2026-08-07T04:11:09+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מטה חויבה לשלם 567 מיליון דולר לקרן הפחתה כתרופה למקרה של נזקי ילדים בניו מקסיקו",
+      "summary_he": "",
+      "body_en": "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/06/meta-to-pay-into-567-million-fund-after-child-harms-case-new-mexico.html",
+      "tag": "TECH",
+      "published_at": "2026-08-07T01:28:57+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "על פי הדיווחים, Alibaba $BABA מתכננת לחפש חלוקת הכנסות עבור הגרסה הבאה של מודל הקוד הפתוח Qwen AI שלה, בעוד Moonshot מבקשת מהשותפים עד 30% הכנסה...",
@@ -875,7 +920,7 @@
       "link": "https://nitter.net/wallstengine/status/2085532435375439945#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T01:04:14+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,6 +933,17 @@
       "tag": "NEWS",
       "published_at": "2026-08-06T23:42:20+00:00",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "כשאלפבית שורפת מזומנים על AI, היא חוזרת לשוק האג\"ח",
+      "summary_he": "",
+      "body_en": "As Alphabet burns through cash on AI, it’s turning back to the bond market",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/as-alphabet-burns-through-cash-on-ai-its-turning-back-to-the-bond-market-04e85f31?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-06T23:14:00+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "מניות טרייד דסק צונחות על החמצת רווחים ותחזית חלשה",
@@ -909,7 +965,7 @@
       "link": "https://nitter.net/garyblack00/status/2085485406691234222#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-06T21:57:22+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bullish"
     },
     {
@@ -921,7 +977,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2085478646257521024#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-06T21:30:30+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -933,23 +989,11 @@
       "link": "https://nitter.net/wallstengine/status/2085476832699412552#m",
       "tag": "M&A",
       "published_at": "2026-08-06T21:23:17+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "$AKAM: \"הביקוש ל-GPU נשאר חזק במיוחד\" ו\"כל קיבולת ה-GPU שלנו אזלה לחלוטין.\" לקוחות בדרך כלל מחפשים \"לנעול את זה לתקופה ארוכה...",
-      "summary_he": "",
-      "body_en": "$AKAM: “GPU demand remains exceptionally strong” and “all of our GPU capacity is completely sold out.” Customers are generally looking to “lock that in for a long period of time” and reserve it months",
-      "ticker": "$AKAM",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2085475802783842685#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-06T21:19:12+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$AAOI מצפה להכנסות של ~1.1 מיליארד דולר בשנת 2026 עם צמיחה מוגבלת על ידי כושר הייצור ומגבלות שרשרת האספקה ​​במקום ביקוש שלדברי ההנהלה עומד על...",
+      "title_he": "$AAOI מצפה להכנסות של ~1.1 מיליארד דולר בשנת 2026, עם צמיחה מוגבלת על ידי כושר הייצור ומגבלות שרשרת האספקה ​​במקום ביקוש שלדברי ההנהלה מגיע ל...",
       "summary_he": "",
       "body_en": "$AAOI expects ~$1.1B in 2026 revenue with growth limited by production capacity and supply chain constraints rather than demand which management says is running up to 40% higher. Thats especially inte",
       "ticker": "$AAOI",
@@ -957,71 +1001,30 @@
       "link": "https://nitter.net/StockSavvyShay/status/2085473731154211027#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-06T21:10:58+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @RyanDetrick: יותר דובים משורים במשך שלושה שבועות ברציפות, גם כשהמניות נוסקות לשיאים חדשים.",
+      "title_he": "הנחושת קופצת לרמה הגבוהה ביותר שלה אי פעם. מה המתכת אומרת לנו",
       "summary_he": "",
-      "body_en": "RT by @RyanDetrick: More bears than bulls for three weeks in a row, even as stocks soar to new highs.",
+      "body_en": "Copper jumps to its highest level ever. What the metal is telling us",
       "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2085375307792433362#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-06T14:39:52+00:00",
-      "relative_time": "לפני 14ש׳",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/06/copper-jumps-to-its-highest-level-ever-what-the-metal-is-telling-us-.html",
+      "tag": "TECH",
+      "published_at": "2026-08-06T20:07:51+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "RT מאת @DivesTech: TOM LEE רואה את ה-S&P 500 מגיע ל-8,000 באוגוסט, טום לי של Fundstrat מצפה שה-S&P 500 יגיע החודש ל-7,900–8,000, מה שמרמז על שיפור של עד 3.6% מ...",
-      "summary_he": "",
-      "body_en": "RT by @DivesTech: TOM LEE SEES S&P 500 HITTING 8,000 IN AUGUST Fundstrat's Tom Lee expects the S&P 500 to reach 7,900–8,000 this month, implying up to 3.6% upside from Wednesday's close. Lee cites str",
-      "ticker": "",
-      "source": "@DivesTech",
-      "link": "https://nitter.net/DeItaone/status/2085354083120988385#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-06T13:15:32+00:00",
-      "relative_time": "לפני 15ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "עונת רווחים גסה עבור שמות רבים. $DDOG ו-$APP לוקחים את זה על הסנטר הבוקר. אין עמדה בשניהם.",
-      "summary_he": "",
-      "body_en": "A rough earnings season for many names. $DDOG and $APP taking it on the chin this morning. No position in either.",
-      "ticker": "$DDOG",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2085340355499585965#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-06T12:20:59+00:00",
-      "relative_time": "לפני 16ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$CELH -16% לפני ה-Mkt לאחר דיווח של 2Q Revs ו-Adj EPS שהחמיצו הערכות WS. CELH אינה מציעה הדרכה קדימה. - רווחים של 817.9 מיליון דולר, +11% אשתקד, לעומת הערכה של 872.6 מיליון דולר - התאמה לרווחים לשנייה...",
-      "summary_he": "",
-      "body_en": "$CELH -16% pre-mkt after reporting 2Q Revs and Adj EPS that missed WS estimates. CELH does not offer forward guidance. - Revs $817.9M, +11% y/y, vs $872.6M est - Adj EPS 36c vs. 47c y/y and vs 41c est",
-      "ticker": "$CELH",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2085322942041223384#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-06T11:11:47+00:00",
-      "relative_time": "לפני 18ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "המניות בארה\"ב היו מעורבות לפני השוק, עם S&P 500 +0.1% ונאסד\"ק -0.6% על רקע חולשת מניות הטכנולוגיה, כאשר המשקיעים חיכו להסכם שלום בין ארה\"ב לאיראן ונתוני המשרות של יום שישי.",
-      "summary_he": "",
-      "body_en": "U.S. stocks were mixed pre-market, with the S&P 500 +0.1% and Nasdaq -0.6% amid tech stock weakness, as investors awaited a U.S.-Iran peace deal and Friday’s jobs data. Brent crude rose 1% to $80/bbl;",
-      "ticker": "$SKHY",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2085297145075167313#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-06T09:29:16+00:00",
-      "relative_time": "לפני 19ש׳",
-      "sentiment": "bearish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "חשד להצתה ברמת גן: שריפות הוצתו ב-3 מוקדים, תושבים פונו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859066",
+      "tag": "כללי",
+      "published_at": "2026-08-07T08:24:00+00:00"
+    },
     {
       "title_he": "טרגדיה בחוף הים בבת ים: גבר בן 25 טבע למוות",
       "summary_he": "",
@@ -1093,14 +1096,6 @@
       "link": "https://news.walla.co.il/item/3858948",
       "tag": "כללי",
       "published_at": "2026-08-06T15:50:00+00:00"
-    },
-    {
-      "title_he": "שלושה שבועות לאחר שנעלם: אלדר דיין אותר ללא רוח חיים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3858936",
-      "tag": "כללי",
-      "published_at": "2026-08-06T15:06:00+00:00"
     }
   ],
   "track_record": {
