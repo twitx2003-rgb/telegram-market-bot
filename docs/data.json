@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T21:37:39.564497+00:00",
+  "generated_at": "2026-08-07T22:34:01.931567+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-07T21:37:39.564508+00:00",
+  "ta_generated_at": "2026-08-07T22:34:01.931577+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,972",
-      "change": "+1.11%",
+      "value": "$64,859",
+      "change": "+0.93%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.108819783031582
+      "pct_raw": 0.9327373514924094
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -867,18 +867,6 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "סוני מחזירה את רוב ה-508 מיליון דולר בהחזרי מכסים בארה\"ב לאחר שנקבעו היטלי יבוא בלתי חוקיים, לפי YF בערך 70% מהכספים נאספו בין...",
-      "summary_he": "",
-      "body_en": "Sony is recouping the majority of the $508 million in US tariff refunds after import levies were ruled unlawful, per YF Roughly 70% of the funds were collected between April and June 2026 and directed",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2085826060663365636#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-07T20:31:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "Chevron $CVX צופה שההשקעה בהשקעה תנחת בסמוך לקצה הנמוך של תחזית ה-$18B-19B$ שלה עד סוף השנה ורואה בערך 12.5B$ בתזרים מזומנים חופשי נוסף עד 2026 - בלומברג.",
       "summary_he": "",
       "body_en": "Chevron $CVX expects capex to land near the low end of its $18B-$19B guidance by year-end and sees roughly $12.5B in additional free cash flow by 2026 - Bloomberg.",
@@ -887,18 +875,6 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "פריצה: הבית הלבן שוקל שוב לפטר את מושלת הפדרל ריזרב ליסה קוק לאחר שבית המשפט העליון חסם ניסיון קודם, לפי NYT",
-      "summary_he": "",
-      "body_en": "BREAKING: The White House is again considering firing the Federal Reserve governor Lisa Cook after the Supreme Court blocked an earlier attempt, per NYT",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2085808920011125184#m",
-      "tag": "FED",
-      "published_at": "2026-08-07T19:22:53+00:00",
       "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
@@ -914,7 +890,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "להלן שלוש נקודות חשובות מדוח המשרות המאכזב של יולי",
+      "title_he": "הנה שלוש נקודות חשובות מדוח המשרות המאכזב של יולי",
       "summary_he": "",
       "body_en": "Here are three key takeaways from the disappointing July jobs report",
       "ticker": "",
@@ -944,23 +920,23 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "בעונת הרווחים הייתה בוננזת טריפל, ומאות מהן כבר נמצאות בספרים. הנה ההצגות המשולשות שראו את הרווחים הגדולים ביותר ביום אחד זה...",
+      "title_he": "BOFA דבק עם עליות הפד למרות משרות חלשות מספרי השכר בארה\"ב ירדו ב-23,000 ביולי, כאשר החודשים הקודמים עודכנו ב-103,000 נוספים. האבטלה ירדה ל-4.1%, בעוד השכר...",
       "summary_he": "",
-      "body_en": "There's been a triple-play bonanza this earnings season with hundreds of them already in the books. Here's the triple plays that have seen the biggest one-day gains this season, which includes two -- ",
-      "ticker": "$CMCO",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2085770861328359864#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T16:51:39+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "bullish"
+      "body_en": "BOFA STICKS WITH FED HIKES DESPITE WEAK JOBS US payrolls fell 23,000 in July, with prior months revised down by another 103,000. Unemployment dropped to 4.1%, while wage growth slowed to 3.2% and labo",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2085771626205855871#m",
+      "tag": "FED",
+      "published_at": "2026-08-07T16:54:42+00:00",
+      "relative_time": "לפני 5ש׳",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "SLTN $ מזנק מעל 30% לאחר שסטארלינג זוכה בבלעדיות עם שותף גדול מקליפורניה שהוסיף ~230,000 חיים של נפשות והגדיר את הכנסות ה-capitated להכפלת ~ 300 מיליון דולר...",
+      "title_he": "SLTN $ מזנק מעל 30% לאחר שסטארלינג זוכה בבלעדיות עם שותף גדול מקליפורניה שהוסיף ~ 230,000 חיים של קפיטציה וקבע הכנסות מכובד להכפיל עד ~ $ 300 מיליון ...",
       "summary_he": "",
       "body_en": "$SLTN jumps over 30% after Starling wins exclusivity with a major California partner adding ~230K capitated lives and setting up capitated revenue to double to ~$300M next year at ~30% gross margins. ",
       "ticker": "$SLTN",
@@ -972,7 +948,7 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "צ'סקי אומר ש-Airbnb תוציא \"הרבה יותר\" על בינה מלאכותית, כאשר הרווחים ירדו והמניות יזינו ב-15%",
+      "title_he": "צ'סקי אומר ש-Airbnb תוציא \"הרבה יותר\" על בינה מלאכותית כשהרווחים ירדו והמניות יזינו ב-15%",
       "summary_he": "",
       "body_en": "Chesky says Airbnb will spend ‘a lot more’ on AI as earnings beat and stock surges 15%",
       "ticker": "",
@@ -991,7 +967,19 @@
       "link": "https://nitter.net/RyanDetrick/status/2085764105965596783#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T16:24:49+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "גולדמן: האינפלציה חשובה כעת יותר מעבודות הכלכלן הראשי של גולדמן זאקס, יאן האציוס, אומר שנתוני האינפלציה הקרובים יהיו חשובים יותר עבור הפד מאשר תעסוקה...",
+      "summary_he": "",
+      "body_en": "GOLDMAN: INFLATION NOW MATTERS MORE THAN JOBS Goldman Sachs chief economist Jan Hatzius says upcoming inflation data will be more important for the Fed than employment figures. The key question is whe",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2085753640925397246#m",
+      "tag": "FED",
+      "published_at": "2026-08-07T15:43:14+00:00",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1003,11 +991,11 @@
       "link": "https://nitter.net/garyblack00/status/2085708935743320469#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T12:45:35+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "המניות בארה\"ב עלו בעליות לקראת דוח המשרות ביולי על רקע המתיחות הקשורה לאיראן, כאשר הנפט הגולמי מסוג ברנט עולה לאחר תקיפות איראניות במצר הורמוז וזהב/כסף...",
+      "title_he": "U.S. stocks edged higher ahead of the July jobs report amid Iran-related tensions, with Brent crude rising after Iranian strikes in the Strait of Hormuz and gold/silver…",
       "summary_he": "",
       "body_en": "U.S. stocks edged higher ahead of the July jobs report amid Iran-related tensions, with Brent crude rising after Iranian strikes in the Strait of Hormuz and gold/silver advancing. $ABNB jumped +9% pre",
       "ticker": "$ABNB",
@@ -1015,8 +1003,19 @@
       "link": "https://nitter.net/garyblack00/status/2085658019702907050#m",
       "tag": "FED",
       "published_at": "2026-08-07T09:23:16+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניית AppLovin צוללת לשפל של 52 שבועות לאחר הרווחים. הנה מה שוול סטריט אומרת.",
+      "summary_he": "",
+      "body_en": "AppLovin Stock Plunges To 52-Week Low After Earnings. Here's What Wall Street Is Saying.",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/news/technology/applovin-stock-app-news-q2-2026-earnings/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-06T15:10:57+00:00",
+      "sentiment": "bearish"
     }
   ],
   "il_news": [
