@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T00:24:16.219207+00:00",
+  "generated_at": "2026-08-07T03:28:10.175847+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-07T00:24:16.219219+00:00",
+  "ta_generated_at": "2026-08-07T03:28:10.175858+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "-0.58%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.5842961749980484
+      "pct_raw": -0.5843620308758319
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,304.2",
-      "change": "+0.11%",
+      "value": "$4,312.0",
+      "change": "+0.29%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.10698669643686513
+      "pct_raw": 0.28839892082983615
     },
     {
       "name": "נפט ברנט",
-      "value": "$83.6",
-      "change": "+1.33%",
+      "value": "$83.5",
+      "change": "+1.25%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.3334949690871725
+      "pct_raw": 1.2486361983270715
     },
     {
       "name": "ביטקוין",
-      "value": "$64,213",
-      "change": "-0.07%",
-      "direction": "down",
+      "value": "$64,269",
+      "change": "+0.01%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.07257428437703078
+      "pct_raw": 0.014136392471077137
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.015",
-      "change": "+0.01%",
+      "value": "3.018",
+      "change": "+0.08%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.006633059166887037
+      "pct_raw": 0.08291323958609534
     }
   ],
   "sectors": [
@@ -856,18 +856,41 @@
   },
   "us_news": [
     {
-      "title_he": "מטה חויבה לשלם 567 מיליון דולר לקרן הפחתה כתרופה למקרה של נזקי ילדים בניו מקסיקו",
+      "title_he": "הנפט עולה על רקע חשש להפרעות באספקה ​​בעקבות טיוטת התוכנית המגבילה של איראן עבור מצר הורמוז",
+      "summary_he": "",
+      "body_en": "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
+      "tag": "ENERGY",
+      "published_at": "2026-08-07T02:30:49+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
       "summary_he": "",
       "body_en": "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/06/meta-to-pay-into-567-million-fund-after-child-harms-case-new-mexico.html",
       "tag": "TECH",
-      "published_at": "2026-08-07T00:19:02+00:00",
+      "published_at": "2026-08-07T01:28:57+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "From birth to brokerage: Why South Korea is seeing a surge in infant investment accounts",
+      "title_he": "על פי הדיווחים, Alibaba $BABA מתכננת לחפש חלוקת הכנסות עבור הגרסה הבאה של מודל הקוד הפתוח Qwen AI שלה, בעוד Moonshot מבקשת מהשותפים עד 30% הכנסה...",
+      "summary_he": "",
+      "body_en": "Alibaba $BABA reportedly plans to seek revenue sharing for the next version of its open-source Qwen AI model, while Moonshot is asking partners for up to a 30% revenue share for its Kimi K3 model. - R",
+      "ticker": "$BABA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2085532435375439945#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-07T01:04:14+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מלידה ועד תיווך: מדוע דרום קוריאה רואה זינוק בחשבונות השקעות לתינוקות",
       "summary_he": "",
       "body_en": "From birth to brokerage: Why South Korea is seeing a surge in infant investment accounts",
       "ticker": "",
@@ -878,7 +901,7 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "בעוד אלפבית שורפת מזומנים על AI, היא חוזרת לשוק האג\"ח",
+      "title_he": "As Alphabet burns through cash on AI, it’s turning back to the bond market",
       "summary_he": "",
       "body_en": "As Alphabet burns through cash on AI, it’s turning back to the bond market",
       "ticker": "",
@@ -889,7 +912,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "מניות טרייד דסק צונחות על החמצת רווחים ותחזית חלשה",
+      "title_he": "Trade Desk shares tumble on earnings miss and weak outlook",
       "summary_he": "",
       "body_en": "Trade Desk shares tumble on earnings miss and weak outlook",
       "ticker": "",
@@ -898,18 +921,6 @@
       "tag": "EARNINGS",
       "published_at": "2026-08-06T22:59:00+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "ה-FDA אישר את החיסון הראשון לשפעת mRNA על ידי Moderna, $MRNA, לפי NYT",
-      "summary_he": "",
-      "body_en": "The FDA approved the first mRNA flu vaccine by Moderna, $MRNA, per NYT",
-      "ticker": "$MRNA",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2085495633134100724#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-06T22:38:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "מניית Airbnb מזנקת ב-9% בהשוואה לרווחים ולהכנסות, תחזית חזקה לרבעון השלישי",
@@ -923,7 +934,7 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "$ABNB +9.6% AH לאחר פרסום סיבובי רבעון וקצב רווחים והנחה לסיבובי רבעון חזקים מהצפוי. קצב 2Q ניזון מביקוש חזק על ידי גביע העולם ב...",
+      "title_he": "$ABNB +9.6% AH לאחר פרסום סיבובי רבעון וקצב רווחים והנחה לסיבובי רבעון חזקים מהצפוי. קצב 2Q ניזון מביקוש חזק על ידי מונדיאל פיפ\"א ב...",
       "summary_he": "",
       "body_en": "$ABNB +9.6% AH after posting a 2Q rev and earnings beat and guiding to stronger than expected 3Q revs. 2Q beat was fueled by strong demand by FIFA World Cup in the Americas. 2Q: - Revenue: $3.61B +17%",
       "ticker": "$ABNB",
@@ -931,11 +942,11 @@
       "link": "https://nitter.net/garyblack00/status/2085485406691234222#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-06T21:57:22+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "Take-Two $TTWI, Under Armour $UAA, Wendy's $WEN, Construction Partners $ROAD ו-Flour $FLR הן בין החברות המדווחות לפני הפתיחה מחר בבוקר כדי לשים...",
+      "title_he": "Take-Two $TTWI, Under Armour $UAA, Wendy’s $WEN, Construction Partners $ROAD, and Fluor $FLR are among the companies reporting before the open tomorrow morning to put a…",
       "summary_he": "",
       "body_en": "Take-Two $TTWI, Under Armour $UAA, Wendy’s $WEN, Construction Partners $ROAD, and Fluor $FLR are among the companies reporting before the open tomorrow morning to put a cap on a busy week of earnings.",
       "ticker": "$TTWI",
@@ -943,11 +954,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2085478646257521024#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-06T21:30:30+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "הכלכלה בעסקאות הענן הגדולות של $AKAM חזקה באופן מפתיע עבור תשתית GPU: > התחייבויות קח או שלם > מאמצע שנות ה-60 עד אמצע שנות ה-70 מרווחים גולמיים במזומן > נמוך מ-20 ל...",
+      "title_he": "The economics on $AKAM’s large cloud deals are surprisingly strong for GPU infrastructure: > Take-or-pay commitments > Mid-60s to mid-70s cash gross margins > Low-20s to…",
       "summary_he": "",
       "body_en": "The economics on $AKAM’s large cloud deals are surprisingly strong for GPU infrastructure: > Take-or-pay commitments > Mid-60s to mid-70s cash gross margins > Low-20s to low-30s operating margins Mana",
       "ticker": "$AKAM",
@@ -955,7 +966,7 @@
       "link": "https://nitter.net/wallstengine/status/2085476832699412552#m",
       "tag": "M&A",
       "published_at": "2026-08-06T21:23:17+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -967,7 +978,7 @@
       "link": "https://nitter.net/wallstengine/status/2085475802783842685#m",
       "tag": "NEWS",
       "published_at": "2026-08-06T21:19:12+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -979,42 +990,31 @@
       "link": "https://nitter.net/StockSavvyShay/status/2085473731154211027#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-06T21:10:58+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מחירי הזהב נשברים למעלה לאחר מתיחה קשה. האם שיאים טריים יכולים להיות בהישג יד?",
+      "title_he": "Copper jumps to its highest level ever. What the metal is telling us",
       "summary_he": "",
-      "body_en": "Gold prices are breaking higher after a tough stretch. Could fresh records be within reach?",
+      "body_en": "Copper jumps to its highest level ever. What the metal is telling us",
       "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/gold-prices-are-breaking-higher-after-a-tough-stretch-could-fresh-records-be-within-reach-1e1a872f?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-06T20:57:00+00:00",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/06/copper-jumps-to-its-highest-level-ever-what-the-metal-is-telling-us-.html",
+      "tag": "TECH",
+      "published_at": "2026-08-06T20:07:51+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "Honeywell Aerospace נוחתת ב\"קופסת העונשים\" של וול סטריט לאחר שהנחיה קודרת גרמה למכירת מניות של 23%",
+      "title_he": "RT מאת @RyanDetrick: יותר דובים משורים במשך שלושה שבועות ברציפות, אפילו כשהמניות נוסקות לשיאים חדשים.",
       "summary_he": "",
-      "body_en": "Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff",
+      "body_en": "RT by @RyanDetrick: More bears than bulls for three weeks in a row, even as stocks soar to new highs.",
       "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/honeywell-aerospace-lands-in-wall-streets-penalty-box-after-gloomy-guidance-triggers-21-stock-selloff-ea8b032c?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-06T20:41:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$NET מסירה 😏 • הכנסה של $697 מיליון לעומת משוער. $666M • EPS $0.29 לעומת משוער $0.27 • הכנסה תפעולית $96 מיליון לעומת משוער 90 מיליון דולר • RPO: +35% הנחיות לשנה שנת 26 • הכנסה של 2.87 מיליארד דולר לעומת הערכה...",
-      "summary_he": "",
-      "body_en": "$NET delivered 😏 • Revenue $697M vs Est. $666M • EPS $0.29 vs Est. $0.27 • Operating Income $96M vs Est. $90M • RPO: +35% YoY FY26 Guidance • Revenue $2.87B vs Est. $2.81B • EPS $1.26 vs Est. $1.20 • ",
-      "ticker": "$NET",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2085461663650922817#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-06T20:23:01+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2085375307792433362#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-06T14:39:52+00:00",
+      "relative_time": "לפני 12ש׳",
+      "sentiment": "bullish"
     }
   ],
   "il_news": [
