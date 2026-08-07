@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T20:40:08.633944+00:00",
+  "generated_at": "2026-08-07T21:37:39.564497+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -274,7 +274,7 @@
         "sma50": 333.0,
         "sma200": 313.24,
         "pct_from_52w_high": -1.5,
-        "vol_ratio": 0.72,
+        "vol_ratio": 0.73,
         "change_1d_pct": 0.34,
         "change_1w_pct": 1.6,
         "change_1m_pct": 6.6,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-07T20:40:08.633954+00:00",
+  "ta_generated_at": "2026-08-07T21:37:39.564508+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,397.4",
-      "change": "+2.27%",
+      "value": "$4,401.3",
+      "change": "+2.37%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 2.274630198157951
+      "pct_raw": 2.365336310354447
     },
     {
       "name": "נפט ברנט",
-      "value": "$82.1",
-      "change": "-0.46%",
+      "value": "$82.3",
+      "change": "-0.27%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.46066189841192323
+      "pct_raw": -0.26669899381743106
     },
     {
       "name": "ביטקוין",
-      "value": "$64,924",
-      "change": "+1.03%",
+      "value": "$64,972",
+      "change": "+1.11%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.0340606136887527
+      "pct_raw": 1.108819783031582
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "שתי סיבות לכך שמניית Nvidia ראתה את הזינוק השבועי הגדול ביותר מזה יותר משנה",
+      "summary_he": "",
+      "body_en": "Two reasons why Nvidia’s stock saw its biggest weekly surge in more than a year",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/two-reasons-why-nvidias-stock-saw-its-biggest-weekly-surge-in-more-than-a-year-644875c8?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-08-07T20:41:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "סוני מחזירה את רוב ה-508 מיליון דולר בהחזרי מכסים בארה\"ב לאחר שנקבעו היטלי יבוא בלתי חוקיים, לפי YF בערך 70% מהכספים נאספו בין...",
       "summary_he": "",
       "body_en": "Sony is recouping the majority of the $508 million in US tariff refunds after import levies were ruled unlawful, per YF Roughly 70% of the funds were collected between April and June 2026 and directed",
@@ -864,7 +875,7 @@
       "link": "https://nitter.net/unusual_whales/status/2085826060663365636#m",
       "tag": "NEWS",
       "published_at": "2026-08-07T20:31:00+00:00",
-      "relative_time": "לפני 8ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,30 +887,7 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 46ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שתי תעודות סל של מגזר S&P 500 עלו על ה-S&P 500 השבוע... טכנולוגיה וחומרים $XLK $XLB $XLE $XLU הגרוע ביותר... קצת תחושה של זהב @koyfincharts",
-      "summary_he": "",
-      "body_en": "Two S&P 500 sector ETFs outperformed the S&P 500 this week... Tech & Materials $XLK $XLB $XLE $XLU worst ... bit of a Goldilocks feel @koyfincharts",
-      "ticker": "$XLK",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2085815235324031270#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-07T19:47:59+00:00",
-      "relative_time": "לפני 51ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "חלק מהדחיפות נעלמה להעלאת ריבית הפד בספטמבר לאחר דיווח על משרות רכות",
-      "summary_he": "",
-      "body_en": "Some of the urgency is gone for a Fed rate hike in September after a soft jobs report",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/some-of-the-urgency-is-gone-for-a-fed-rate-hike-in-september-after-the-soft-jobs-report-19bc5565?mod=mw_rss_topstories",
-      "tag": "FED",
-      "published_at": "2026-08-07T19:36:00+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +899,7 @@
       "link": "https://nitter.net/unusual_whales/status/2085808920011125184#m",
       "tag": "FED",
       "published_at": "2026-08-07T19:22:53+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -956,7 +944,7 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -968,7 +956,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2085770861328359864#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T16:51:39+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bullish"
     },
     {
@@ -980,7 +968,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2085767095514755343#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T16:36:41+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1003,7 +991,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2085764105965596783#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T16:24:49+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1015,7 +1003,19 @@
       "link": "https://nitter.net/garyblack00/status/2085708935743320469#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T12:45:35+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "המניות בארה\"ב עלו בעליות לקראת דוח המשרות ביולי על רקע המתיחות הקשורה לאיראן, כאשר הנפט הגולמי מסוג ברנט עולה לאחר תקיפות איראניות במצר הורמוז וזהב/כסף...",
+      "summary_he": "",
+      "body_en": "U.S. stocks edged higher ahead of the July jobs report amid Iran-related tensions, with Brent crude rising after Iranian strikes in the Strait of Hormuz and gold/silver advancing. $ABNB jumped +9% pre",
+      "ticker": "$ABNB",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2085658019702907050#m",
+      "tag": "FED",
+      "published_at": "2026-08-07T09:23:16+00:00",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     }
   ],
