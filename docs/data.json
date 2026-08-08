@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T06:51:21.483507+00:00",
+  "generated_at": "2026-08-08T07:48:45.470767+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T06:51:21.483517+00:00",
+  "ta_generated_at": "2026-08-08T07:48:45.470777+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,979",
-      "change": "+0.15%",
+      "value": "$64,913",
+      "change": "+0.04%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.14595241735424652
+      "pct_raw": 0.044957043444807256
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -875,7 +875,7 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -909,7 +909,7 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,7 +921,7 @@
       "link": "https://nitter.net/DeItaone/status/2085771626205855871#m",
       "tag": "FED",
       "published_at": "2026-08-07T16:54:42+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -944,7 +944,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2085764105965596783#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T16:24:49+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -956,7 +956,7 @@
       "link": "https://nitter.net/DeItaone/status/2085753640925397246#m",
       "tag": "FED",
       "published_at": "2026-08-07T15:43:14+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
@@ -968,7 +968,7 @@
       "link": "https://nitter.net/garyblack00/status/2085708935743320469#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T12:45:35+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
@@ -980,7 +980,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2085688260848951632#m",
       "tag": "ENERGY",
       "published_at": "2026-08-07T11:23:26+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
     {
@@ -992,8 +992,19 @@
       "link": "https://nitter.net/garyblack00/status/2085658019702907050#m",
       "tag": "FED",
       "published_at": "2026-08-07T09:23:16+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "הרווח ברבעון השני של Petrobras כמעט מכפיל את עצמו כשיא ייצור הנפט",
+      "summary_he": "",
+      "body_en": "Petrobras Q2 Profit Nearly Doubles as Oil Production Hits Record",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/energy/articles/petrobras-q2-profit-nearly-doubles-024500571.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-07T02:45:00+00:00",
+      "sentiment": "bullish"
     },
     {
       "title_he": "גולדמן זאקס רואה אפסייד של 168% במניית הכוח השנויה במחלוקת הזו",
@@ -1008,6 +1019,14 @@
     }
   ],
   "il_news": [
+    {
+      "title_he": "מקרבות האבנים בשנות ה-30 ועד ל\"קפה בסמטה\": 100 שנות מלחמה על השבת בירושלים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3858915",
+      "tag": "כללי",
+      "published_at": "2026-08-08T13:00:00+00:00"
+    },
     {
       "title_he": "גורם בכיר בחקירת רצח אלדר דיין: \"בימים הקרובים נדע בדיוק מה קרה ברגעיו האחרונים\"",
       "summary_he": "",
