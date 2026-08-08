@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:57:50.032991+00:00",
+  "generated_at": "2026-08-08T16:39:31.167433+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T15:57:50.033001+00:00",
+  "ta_generated_at": "2026-08-08T16:39:31.167450+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,050",
-      "change": "+0.26%",
+      "value": "$65,005",
+      "change": "+0.19%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.25559396931392264
+      "pct_raw": 0.186008418695711
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,18 @@
   },
   "us_news": [
     {
+      "title_he": "לפני חודשיים השקנו את Earnings Edge בערוץ היוטיוב Futurum Equities שהוא סדרה קצרה שבה אני מפרק את הרווחים של כל חברה, התגובה שלי ל...",
+      "summary_he": "",
+      "body_en": "Two months ago we launched Earnings Edge on the Futurum Equities YouTube channel which is a short-form series where I break down each company’s earnings, my reaction to the results and what they mean ",
+      "ticker": "$DDOG",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T15:52:31+00:00",
+      "relative_time": "לפני 46ד׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "Pathfounders מדווח, תוך ציטוט של מקורות בתעשייה... שדמיס חסאביס רצה לעזוב את גוגל לצד ג'ף דין, אך שוכנע להיות יו\"ר $GOOGL DeepMind במקום זאת.",
       "summary_he": "",
       "body_en": "Pathfounders reports, citing industry sources… that Demis Hassabis wanted to LEAVE Google alongside Jeff Dean but was persuaded to become $GOOGL DeepMind chair instead. The outlet predicts he could le",
@@ -864,7 +876,7 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 28ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +888,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086111113800999212#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:23:42+00:00",
-      "relative_time": "לפני 33ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,7 +933,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086097851877372399#m",
       "tag": "TECH",
       "published_at": "2026-08-08T14:31:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -933,18 +945,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "הרווח של ברקשייר האת'ווי מוכפל, מתודלק מרווח של קרוב ל-13 מיליארד דולר בהשקעה",
-      "summary_he": "",
-      "body_en": "Berkshire Hathaway profit doubles, fueled by a near $13 billion investment gain",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/berkshire-hathaway-profit-doubles-fueled-by-a-near-13-billion-investment-gain-26982ecf?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-08T13:43:00+00:00",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -993,6 +994,18 @@
       "published_at": "2026-08-07T17:45:07+00:00",
       "relative_time": "לפני 22ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @bespokeinvest: הייתה בוננזה של משחק משולש בעונת הרווחים הזו עם מאות מהם כבר בספרים. הנה ההצגות המשולשות שראו את...",
+      "summary_he": "",
+      "body_en": "RT by @bespokeinvest: There's been a triple-play bonanza this earnings season with hundreds of them already in the books. Here's the triple plays that have seen the biggest one-day gains this season, ",
+      "ticker": "$CMCO",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2085770861328359864#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-07T16:51:39+00:00",
+      "relative_time": "לפני 23ש׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "מנכ\"ל פלנטיר מטיל פצצה בת 11 מילים למשקיעים בבורסה",
