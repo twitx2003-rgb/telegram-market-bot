@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T03:11:40.353515+00:00",
+  "generated_at": "2026-08-08T04:35:01.958187+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -223,7 +223,7 @@
         "sma50": 247.51,
         "sma200": 236.54,
         "pct_from_52w_high": -4.4,
-        "vol_ratio": 1.24,
+        "vol_ratio": 1.25,
         "change_1d_pct": 0.82,
         "change_1w_pct": 1.1,
         "change_1m_pct": 11.1,
@@ -325,7 +325,7 @@
         "sma50": 33.34,
         "sma200": 31.09,
         "pct_from_52w_high": -5.3,
-        "vol_ratio": 1.14,
+        "vol_ratio": 1.15,
         "change_1d_pct": 1.58,
         "change_1w_pct": 1.0,
         "change_1m_pct": 6.8,
@@ -478,7 +478,7 @@
         "sma50": 407.01,
         "sma200": 433.08,
         "pct_from_52w_high": -9.7,
-        "vol_ratio": 1.19,
+        "vol_ratio": 1.2,
         "change_1d_pct": 0.03,
         "change_1w_pct": 7.6,
         "change_1m_pct": 30.1,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T03:11:40.353527+00:00",
+  "ta_generated_at": "2026-08-08T04:35:01.958197+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "+1.10%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.0974329929536273
+      "pct_raw": 1.097566257433658
     },
     {
       "name": "VIX",
@@ -710,11 +710,11 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,401.3",
-      "change": "+2.37%",
+      "value": "$4,399.7",
+      "change": "+2.33%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 2.365336310354447
+      "pct_raw": 2.328123546376394
     },
     {
       "name": "נפט ברנט",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,900",
-      "change": "+0.02%",
+      "value": "$64,975",
+      "change": "+0.14%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.024674743419649356
+      "pct_raw": 0.14060442487040892
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -875,7 +875,7 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -920,7 +920,19 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "BOFA דבק עם עליות הפד למרות משרות חלשות מספרי השכר בארה\"ב ירדו ב-23,000 ביולי, כאשר החודשים הקודמים עודכנו ב-103,000 נוספים. האבטלה ירדה ל-4.1%, בעוד השכר...",
+      "summary_he": "",
+      "body_en": "BOFA STICKS WITH FED HIKES DESPITE WEAK JOBS US payrolls fell 23,000 in July, with prior months revised down by another 103,000. Unemployment dropped to 4.1%, while wage growth slowed to 3.2% and labo",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2085771626205855871#m",
+      "tag": "FED",
+      "published_at": "2026-08-07T16:54:42+00:00",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -943,7 +955,19 @@
       "link": "https://nitter.net/RyanDetrick/status/2085764105965596783#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T16:24:49+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "גולדמן: האינפלציה חשובה כעת יותר מעבודות הכלכלן הראשי של גולדמן זאקס, יאן האציוס, אומר שנתוני האינפלציה הקרובים יהיו חשובים יותר עבור הפד מאשר תעסוקה...",
+      "summary_he": "",
+      "body_en": "GOLDMAN: INFLATION NOW MATTERS MORE THAN JOBS Goldman Sachs chief economist Jan Hatzius says upcoming inflation data will be more important for the Fed than employment figures. The key question is whe",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2085753640925397246#m",
+      "tag": "FED",
+      "published_at": "2026-08-07T15:43:14+00:00",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     },
     {
@@ -955,7 +979,19 @@
       "link": "https://nitter.net/garyblack00/status/2085708935743320469#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T12:45:35+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @StockSavvyShay: הנשיא טראמפ אומר שמרכזי נתונים עלולים להפוך ל\"חשובים יותר מנפט\" ומזהיר שטקסס תעשה טעות על ידי התנגדות לבנייתם.…",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: President Trump says data centers could become “more important than oil” and warns Texas would be making a mistake by opposing their construction. “AI is bigger than the interne",
+      "ticker": "$NBIS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2085688260848951632#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-07T11:23:26+00:00",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     },
     {
@@ -967,7 +1003,7 @@
       "link": "https://nitter.net/garyblack00/status/2085658019702907050#m",
       "tag": "FED",
       "published_at": "2026-08-07T09:23:16+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
@@ -980,28 +1016,6 @@
       "tag": "BANKS",
       "published_at": "2026-08-06T21:33:00+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "פעם בחווה מעלה שוב את תחזית 2026 כאשר ההכנסות ברבעון השני עלו ב-42%",
-      "summary_he": "",
-      "body_en": "Once Upon a Farm Lifts 2026 Outlook Again as Q2 Revenue Surges 42%",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/once-upon-farm-lifts-2026-210248682.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-06T21:02:48+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שוק המניות היום: דאו שוקעת ב-464 נקודות, אבל חברת השבבים עלתה; מיקרוסופט עולה על אזור הקנייה (סיקור חי)",
-      "summary_he": "",
-      "body_en": "Stock Market Today: Dow Sinks 464 Points, But Chip Firm Surges; Microsoft Surpasses Buy Zone (Live Coverage)",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ai-stocks-sandisk-western-digital/?src=A00220&yptr=yahoo",
-      "tag": "TECH",
-      "published_at": "2026-08-06T20:58:05+00:00",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
