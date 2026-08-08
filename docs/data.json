@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T22:59:36.604477+00:00",
+  "generated_at": "2026-08-08T23:36:50.264928+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T22:59:36.604487+00:00",
+  "ta_generated_at": "2026-08-08T23:36:50.264937+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,897",
-      "change": "+0.02%",
+      "value": "$64,910",
+      "change": "+0.04%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.02000488254759856
+      "pct_raw": 0.04016388591606591
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -912,11 +912,11 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית של ערימה מלאה ברחבי C-UAS, ISR,...",
+      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית מלאה על פני C-UAS, ISR,...",
       "summary_he": "",
       "body_en": "FULL BREAKDOWN OF $ONDS AUTONOMOUS DEFENSE PLATFORM Ondas is stitching together 12+ acquisitions into a full-stack autonomous defense platform across C-UAS, ISR, loitering munitions and ground robotic",
       "ticker": "$ONDS",
@@ -924,18 +924,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086111113800999212#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:23:42+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הדחיפה הגדולה הבאה בתעשיית תעודות הסל? מדוע נכסי הסיכון הללו צוברים אחיזה כאשר אי הוודאות בריבית נמשכת",
-      "summary_he": "",
-      "body_en": "Next big push in ETF industry? Why these risk assets are gaining traction as interest rate uncertainty persists",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/08/rate-uncertainty-sparking-demand-for-clo-exposure-among-etfs-vettafi.html",
-      "tag": "FED",
-      "published_at": "2026-08-08T15:00:01+00:00",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -947,7 +936,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
