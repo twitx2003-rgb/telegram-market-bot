@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T12:46:31.919059+00:00",
+  "generated_at": "2026-08-08T13:44:21.495442+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T12:46:31.919073+00:00",
+  "ta_generated_at": "2026-08-08T13:44:21.495452+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,959",
-      "change": "+0.12%",
+      "value": "$64,967",
+      "change": "+0.13%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.1157909727119799
+      "pct_raw": 0.12798192964198596
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,15 +856,27 @@
   },
   "us_news": [
     {
-      "title_he": "חוזים עתידיים על דאו ג'ונס: מה לעשות כאשר שוק המניות עולה; נופי ברקשייר מכות של וורן באפט",
+      "title_he": "הרווחים של ברקשייר עלו ברבעון האחרון והמנכ\"ל גרג אייבל מתחיל לפרוס את מאגר המזומנים האדיר של באפט",
       "summary_he": "",
-      "body_en": "Dow Jones Futures: What To Do As Stock Market Revs Up; Warren Buffett's Berkshire Beats Views",
+      "body_en": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
       "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-08T12:28:11+00:00",
-      "sentiment": "bullish"
+      "published_at": "2026-08-08T13:28:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "UBS רואה ASTS של $ASTS מתקרב לרווח שנתי של $2B עד 2030, כאשר מודל הספק שלה מתקדם עם 45 לוויינים המיועדים לתחילת 2027 ושירות בטא יכול להתחיל עם...",
+      "summary_he": "",
+      "body_en": "UBS sees $ASTS approaching $2B in annual earnings by 2030 as its carrier-led model scales with 45 satellites targeted for early 2027 and beta service able to begin with fewer satellites in 2026. Launc",
+      "ticker": "$ASTS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086078328394420334#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T13:13:25+00:00",
+      "relative_time": "לפני 30ד׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "המהפך בן 5 השנים של $GOOGL CLOUD מטורף Google Cloud לפני חמש שנים: • קצב ריצה שנתי של $19B עם הפסד תפעולי של $3B • TPUs פעלו רק באופן פנימי וג'מיני לא...",
@@ -875,30 +887,19 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086062522403033346#m",
       "tag": "TECH",
       "published_at": "2026-08-08T12:10:37+00:00",
-      "relative_time": "לפני 35ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "GS: חברות אמריקאיות גייסו הון עצמי של 252 מיליארד דולר ברבעון השני באמצעות הנפקות, המשך, המרה ו-SPAC, מה שהאפיל על השיא הרבעוני הקודם של 234 מיליארד דולר שנקבע ברבעון הראשון...",
+      "title_he": "RT מאת @cperruna: לפני שנתיים, Google Cloud הניב רווח תפעולי של 1.B$ ברווח של 11%. היום: - 8.8 מיליארד דולר רווח תפעולי. - מרווח של 36%. זה עלייה של פי 7.3...",
       "summary_he": "",
-      "body_en": "GS: US corporates raised $252 billion of equity in Q2 through IPOs, follow-ons, converts, and SPACs, eclipsing the previous quarterly record of $234 billion set in Q1 2021",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086060608298881248#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T12:03:00+00:00",
-      "relative_time": "לפני 43ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שבוע שובר שיא באופציות מניע את עליית ה-S&P 500; מד התנודתיות קרוב לשפל של 2026",
-      "summary_he": "",
-      "body_en": "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/08/record-breaking-week-for-options-powers-sp-500-surge.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-08T11:49:22+00:00",
+      "body_en": "RT by @cperruna: Two years ago, Google Cloud generated $1.B in operating income at an 11% margin. Today: - $8.8B operating income. - 36% margin. That's a 7.3x increase in operating profit. $GOOGL $GOO",
+      "ticker": "$GOOGL",
+      "source": "@cperruna",
+      "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
+      "tag": "TECH",
+      "published_at": "2026-08-08T11:45:00+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -943,19 +944,8 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ התגרה בהסכם עם איראן שלא הגיע, אבל השווקים זינקו. הנה הסיבה שזה ממשיך לקרות",
-      "summary_he": "",
-      "body_en": "Trump teased an Iran deal that didn't come, but markets soared. Here’s why it keeps happening",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/07/trump-iran-hormuz-deal-stocks-oil.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T17:50:12+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "נראה שאין יותר עליות שערים השנה טראמפ חייב להיות שמח מאוד",
@@ -978,18 +968,6 @@
       "link": "https://nitter.net/DeItaone/status/2085771626205855871#m",
       "tag": "FED",
       "published_at": "2026-08-07T16:54:42+00:00",
-      "relative_time": "לפני 19ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "תודה @MorganLBrennan שחזרת אלי ב-@CNBCMorningCall! ☕ ⏰ כיף להצטרף ל-@GinaMartinAdams ו-@rwang0 בפאנל סיקרנו את התרחבות הרווחים, מדוע הפד...",
-      "summary_he": "",
-      "body_en": "Thanks @MorganLBrennan for having me back on @CNBCMorningCall! ☕ ⏰ Fun to join @GinaMartinAdams and @rwang0 on the panel We covered earnings broadening out, why the Fed will run it 🥵 and we are now ba",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2085764105965596783#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T16:24:49+00:00",
       "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
@@ -1003,18 +981,6 @@
       "tag": "NEWS",
       "published_at": "2026-08-07T16:03:00+00:00",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "גולדמן: האינפלציה חשובה כעת יותר מעבודות הכלכלן הראשי של גולדמן זאקס, יאן האציוס, אומר שנתוני האינפלציה הקרובים יהיו חשובים יותר עבור הפד מאשר תעסוקה...",
-      "summary_he": "",
-      "body_en": "GOLDMAN: INFLATION NOW MATTERS MORE THAN JOBS Goldman Sachs chief economist Jan Hatzius says upcoming inflation data will be more important for the Fed than employment figures. The key question is whe",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2085753640925397246#m",
-      "tag": "FED",
-      "published_at": "2026-08-07T15:43:14+00:00",
-      "relative_time": "לפני 21ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
