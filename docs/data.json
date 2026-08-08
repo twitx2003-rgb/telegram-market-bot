@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T13:44:21.495442+00:00",
+  "generated_at": "2026-08-08T14:30:43.919285+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T13:44:21.495452+00:00",
+  "ta_generated_at": "2026-08-08T14:30:43.919295+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "+1.10%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.097566257433658
+      "pct_raw": 1.0976571617692916
     },
     {
       "name": "VIX",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,967",
-      "change": "+0.13%",
+      "value": "$65,101",
+      "change": "+0.33%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.12798192964198596
+      "pct_raw": 0.3349507799746416
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,65 @@
   },
   "us_news": [
     {
+      "title_he": "צמיחת התמ\"ג הריאלי בארה\"ב מזמזמת בזמן של 2.8% לכל @augurinfinity",
+      "summary_he": "",
+      "body_en": "Timely US real GDP growth humming along at 2.8% per @augurinfinity",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086094582136148031#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-08T14:18:00+00:00",
+      "relative_time": "לפני 12ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הגרף השורי ביותר? @_JoshSchafer (באמצעות קית לרנר) מראה שציפיות הרווחים העתידיות ל-26' ו-'27 זינקו השנה. זה פשוט לא קורה לעתים קרובות,…",
+      "summary_he": "",
+      "body_en": "The most bullish chart? @_JoshSchafer (via Keith Lerner) shows that future earnings expectations for '26 and '27 have soared this year. This simply doesn't happen often, as most years see things trend",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T14:15:04+00:00",
+      "relative_time": "לפני 15ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "הפסדי הימורים בארה\"ב השתנו מעט מ-2007 עד 2020... ואז זינקו לרמה של היום (מיליארדי $) MS רוצה לראות את סולם היומן הזה או כ...",
+      "summary_he": "",
+      "body_en": "Gambling losses in the US were little changed from 2007 through 2020... then soared to today's level (billions of $) MS Would like to see this either log scale or as a percent of income, but good enou",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086089045243830468#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-08T13:56:00+00:00",
+      "relative_time": "לפני 34ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הרווח של ברקשייר האת'ווי מוכפל, מתודלק מרווח של קרוב ל-13 מיליארד דולר בהשקעה",
+      "summary_he": "",
+      "body_en": "Berkshire Hathaway profit doubles, fueled by a near $13 billion investment gain",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/berkshire-hathaway-profit-doubles-fueled-by-a-near-13-billion-investment-gain-26982ecf?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-08T13:43:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "גולדמן זאקס רואה כעת $NBIS מייצר ~30 מיליארד דולר מ-EBITDA שנתי עד 2030 על ~36 מיליארד דולר של הכנסות. התחזית הזו מגובה בביצוע שכן החוזה הראשון של $META כבר ...",
+      "summary_he": "",
+      "body_en": "Goldman Sachs now sees $NBIS producing ~$30B of annual EBITDA by 2030 on ~$36B of revenue. That outlook is backed by execution as the first $META contract is already delivered, the $MSFT ramp remains ",
+      "ticker": "$NBIS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086084511855673482#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T13:37:59+00:00",
+      "relative_time": "לפני 52ד׳",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "הרווחים של ברקשייר עלו ברבעון האחרון והמנכ\"ל גרג אייבל מתחיל לפרוס את מאגר המזומנים האדיר של באפט",
       "summary_he": "",
       "body_en": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
@@ -875,20 +934,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086078328394420334#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T13:13:25+00:00",
-      "relative_time": "לפני 30ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "המהפך בן 5 השנים של $GOOGL CLOUD מטורף Google Cloud לפני חמש שנים: • קצב ריצה שנתי של $19B עם הפסד תפעולי של $3B • TPUs פעלו רק באופן פנימי וג'מיני לא...",
-      "summary_he": "",
-      "body_en": "$GOOGL CLOUD’S 5-YEAR TRANSFORMATION IS INSANE Google Cloud five years ago: • $19B annual run rate with a $3B operating loss • TPUs ran only internally and Gemini didn’t exist Google Cloud today: • $9",
-      "ticker": "$GOOGL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086062522403033346#m",
-      "tag": "TECH",
-      "published_at": "2026-08-08T12:10:37+00:00",
       "relative_time": "לפני 1ש׳",
-      "sentiment": "bearish"
+      "sentiment": "neutral"
     },
     {
       "title_he": "RT מאת @cperruna: לפני שנתיים, Google Cloud הניב רווח תפעולי של 1.B$ ברווח של 11%. היום: - 8.8 מיליארד דולר רווח תפעולי. - מרווח של 36%. זה עלייה של פי 7.3...",
@@ -899,7 +946,7 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -925,17 +972,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "הדרך החכמה להשקיע בזהב עכשיו כשהדולר יורד",
-      "summary_he": "",
-      "body_en": "The smart way to invest in gold right now as the dollar slips",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-07T21:58:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "Chevron $CVX צופה שההשקעה בהשקעה תנחת בסמוך לקצה הנמוך של תחזית ה-$18B-19B$ שלה עד סוף השנה ורואה בערך 12.5B$ בתזרים מזומנים חופשי נוסף עד 2026 - בלומברג.",
       "summary_he": "",
       "body_en": "Chevron $CVX expects capex to land near the low end of its $18B-$19B guidance by year-end and sees roughly $12.5B in additional free cash flow by 2026 - Bloomberg.",
@@ -944,7 +980,7 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     },
     {
@@ -956,18 +992,6 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 19ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "BOFA דבק עם עליות הפד למרות משרות חלשות מספרי השכר בארה\"ב ירדו ב-23,000 ביולי, כאשר החודשים הקודמים עודכנו ב-103,000 נוספים. האבטלה ירדה ל-4.1%, בעוד השכר...",
-      "summary_he": "",
-      "body_en": "BOFA STICKS WITH FED HIKES DESPITE WEAK JOBS US payrolls fell 23,000 in July, with prior months revised down by another 103,000. Unemployment dropped to 4.1%, while wage growth slowed to 3.2% and labo",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2085771626205855871#m",
-      "tag": "FED",
-      "published_at": "2026-08-07T16:54:42+00:00",
       "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
