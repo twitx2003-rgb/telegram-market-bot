@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T17:59:36.901630+00:00",
+  "generated_at": "2026-08-08T18:50:57.260673+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T17:59:36.901641+00:00",
+  "ta_generated_at": "2026-08-08T18:50:57.260683+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,072",
-      "change": "+0.29%",
+      "value": "$65,015",
+      "change": "+0.20%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.28919230826136827
+      "pct_raw": 0.2016979182592413
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,29 @@
   },
   "us_news": [
     {
+      "title_he": "זהב מת ב-2026 לאחר הרווח האדיר של 2025 @augurinfinity $GLD",
+      "summary_he": "",
+      "body_en": "Gold dead flat in 2026 after 2025's massive gain @augurinfinity $GLD",
+      "ticker": "$GLD",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-08T18:46:01+00:00",
+      "relative_time": "לפני 4ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "LegalZoom (LZ) משלב את Microsoft Copilot בין משמרות צמיחה",
+      "summary_he": "",
+      "body_en": "LegalZoom (LZ) Integrates Microsoft Copilot Amid Growth Shifts",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/small-business/articles/legalzoom-lz-integrates-microsoft-copilot-183004346.html",
+      "tag": "TECH",
+      "published_at": "2026-08-08T18:30:04+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "לפני חודשיים השקנו את Earnings Edge בערוץ היוטיוב Futurum Equities שהוא סדרה קצרה שבה אני מפרק את הרווחים של כל חברה, התגובה שלי ל...",
       "summary_he": "",
       "body_en": "Two months ago we launched Earnings Edge on the Futurum Equities YouTube channel which is a short-form series where I break down each company’s earnings, my reaction to the results and what they mean ",
@@ -876,11 +899,11 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית של ערימה מלאה ברחבי C-UAS, ISR,...",
+      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית מלאה על פני C-UAS, ISR,...",
       "summary_he": "",
       "body_en": "FULL BREAKDOWN OF $ONDS AUTONOMOUS DEFENSE PLATFORM Ondas is stitching together 12+ acquisitions into a full-stack autonomous defense platform across C-UAS, ISR, loitering munitions and ground robotic",
       "ticker": "$ONDS",
@@ -888,7 +911,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086111113800999212#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:23:42+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +934,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086097851877372399#m",
       "tag": "TECH",
       "published_at": "2026-08-08T14:31:00+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bullish"
     },
     {
@@ -923,7 +946,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bullish"
     },
     {
@@ -946,7 +969,7 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
     },
     {
@@ -974,6 +997,22 @@
     }
   ],
   "il_news": [
+    {
+      "title_he": "זמר מוכר נעצר בחשד לאלימות כלפי בת זוגו: \"איים עליה ושבר את החלונות\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859294",
+      "tag": "כללי",
+      "published_at": "2026-08-08T21:41:00+00:00"
+    },
+    {
+      "title_he": "השאיר כדורי אקדח וסכינים בכניסות לבנקים ולרשת מזון - ונעצר",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859292",
+      "tag": "כללי",
+      "published_at": "2026-08-08T21:34:00+00:00"
+    },
     {
       "title_he": "שעות של אש משתוללת: שריפה פרצה במתחם BIG בפתח תקווה, צירים באזור נחסמו",
       "summary_he": "",
@@ -1037,22 +1076,6 @@
       "link": "https://news.walla.co.il/item/3859101",
       "tag": "כללי",
       "published_at": "2026-08-07T13:06:00+00:00"
-    },
-    {
-      "title_he": "\"דקרו אותו ביד ובחזה, אמרו לו כי בכוונתם לגמור אותו\": אישום חמור הוגש בפרשת רצח בניהו רזי",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859081",
-      "tag": "כללי",
-      "published_at": "2026-08-07T10:17:00+00:00"
-    },
-    {
-      "title_he": "חשד להצתה ברמת גן: שריפות הוצתו ב-3 מוקדים, תושבים פונו",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859066",
-      "tag": "כללי",
-      "published_at": "2026-08-07T08:24:00+00:00"
     }
   ],
   "track_record": {
