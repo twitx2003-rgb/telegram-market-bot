@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:30:43.919285+00:00",
+  "generated_at": "2026-08-08T15:29:03.646771+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T14:30:43.919295+00:00",
+  "ta_generated_at": "2026-08-08T15:29:03.646781+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,101",
-      "change": "+0.33%",
+      "value": "$65,047",
+      "change": "+0.25%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3349507799746416
+      "pct_raw": 0.2503846855688648
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,16 +856,50 @@
   },
   "us_news": [
     {
-      "title_he": "צמיחת התמ\"ג הריאלי בארה\"ב מזמזמת בזמן של 2.8% לכל @augurinfinity",
+      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית של ערימה מלאה ברחבי C-UAS, ISR,...",
       "summary_he": "",
-      "body_en": "Timely US real GDP growth humming along at 2.8% per @augurinfinity",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086094582136148031#m",
-      "tag": "MACRO",
-      "published_at": "2026-08-08T14:18:00+00:00",
-      "relative_time": "לפני 12ד׳",
+      "body_en": "FULL BREAKDOWN OF $ONDS AUTONOMOUS DEFENSE PLATFORM Ondas is stitching together 12+ acquisitions into a full-stack autonomous defense platform across C-UAS, ISR, loitering munitions and ground robotic",
+      "ticker": "$ONDS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086107911936438304#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T15:10:58+00:00",
+      "relative_time": "לפני 17ד׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "הדחיפה הגדולה הבאה בתעשיית תעודות הסל? מדוע נכסי הסיכון הללו צוברים אחיזה כאשר אי הוודאות בריבית נמשכת",
+      "summary_he": "",
+      "body_en": "Next big push in ETF industry? Why these risk assets are gaining traction as interest rate uncertainty persists",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/08/rate-uncertainty-sparking-demand-for-clo-exposure-among-etfs-vettafi.html",
+      "tag": "FED",
+      "published_at": "2026-08-08T15:00:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "ברקשייר האת'ווי מנצחת צפיות ברווחים, מסיימת 14 רבעונים של מכירת מניות",
+      "summary_he": "",
+      "body_en": "Berkshire Hathaway Beats Earnings Views, Ends 14 Quarters Of Selling Equities",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/news/berkshire-hathaway-earnings-buybacks-cash-hoard-warren-buffett/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T14:52:35+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "NVDA $ נמצא בקצב לייצר למעלה מ-1 טריליון דולר ברווח בשלוש השנים הבאות: • 2026: 261 מיליארד דולר (+100% בשנה) • 2027: 371 מיליארד דולר (+42% בשנה) • 2028: 459 מיליארד דולר (+24% בשנה) Nvidia היא...",
+      "summary_he": "",
+      "body_en": "$NVDA is on pace to generate over $1 trillion in profit over the next three years: • 2026: $261B (+100% YoY) • 2027: $371B (+42% YoY) • 2028: $459B (+24% YoY) Nvidia is the only company in world that ",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086097851877372399#m",
+      "tag": "TECH",
+      "published_at": "2026-08-08T14:31:00+00:00",
+      "relative_time": "לפני 57ד׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "הגרף השורי ביותר? @_JoshSchafer (באמצעות קית לרנר) מראה שציפיות הרווחים העתידיות ל-26' ו-'27 זינקו השנה. זה פשוט לא קורה לעתים קרובות,…",
@@ -876,20 +910,8 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 15ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "הפסדי הימורים בארה\"ב השתנו מעט מ-2007 עד 2020... ואז זינקו לרמה של היום (מיליארדי $) MS רוצה לראות את סולם היומן הזה או כ...",
-      "summary_he": "",
-      "body_en": "Gambling losses in the US were little changed from 2007 through 2020... then soared to today's level (billions of $) MS Would like to see this either log scale or as a percent of income, but good enou",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086089045243830468#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-08T13:56:00+00:00",
-      "relative_time": "לפני 34ד׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "הרווח של ברקשייר האת'ווי מוכפל, מתודלק מרווח של קרוב ל-13 מיליארד דולר בהשקעה",
@@ -900,18 +922,6 @@
       "link": "https://www.marketwatch.com/story/berkshire-hathaway-profit-doubles-fueled-by-a-near-13-billion-investment-gain-26982ecf?mod=mw_rss_topstories",
       "tag": "NEWS",
       "published_at": "2026-08-08T13:43:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "גולדמן זאקס רואה כעת $NBIS מייצר ~30 מיליארד דולר מ-EBITDA שנתי עד 2030 על ~36 מיליארד דולר של הכנסות. התחזית הזו מגובה בביצוע שכן החוזה הראשון של $META כבר ...",
-      "summary_he": "",
-      "body_en": "Goldman Sachs now sees $NBIS producing ~$30B of annual EBITDA by 2030 on ~$36B of revenue. That outlook is backed by execution as the first $META contract is already delivered, the $MSFT ramp remains ",
-      "ticker": "$NBIS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086084511855673482#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T13:37:59+00:00",
-      "relative_time": "לפני 52ד׳",
       "sentiment": "bullish"
     },
     {
@@ -926,18 +936,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "UBS רואה ASTS של $ASTS מתקרב לרווח שנתי של $2B עד 2030, כאשר מודל הספק שלה מתקדם עם 45 לוויינים המיועדים לתחילת 2027 ושירות בטא יכול להתחיל עם...",
-      "summary_he": "",
-      "body_en": "UBS sees $ASTS approaching $2B in annual earnings by 2030 as its carrier-led model scales with 45 satellites targeted for early 2027 and beta service able to begin with fewer satellites in 2026. Launc",
-      "ticker": "$ASTS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086078328394420334#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T13:13:25+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "RT מאת @cperruna: לפני שנתיים, Google Cloud הניב רווח תפעולי של 1.B$ ברווח של 11%. היום: - 8.8 מיליארד דולר רווח תפעולי. - מרווח של 36%. זה עלייה של פי 7.3...",
       "summary_he": "",
       "body_en": "RT by @cperruna: Two years ago, Google Cloud generated $1.B in operating income at an 11% margin. Today: - $8.8B operating income. - 36% margin. That's a 7.3x increase in operating profit. $GOOGL $GOO",
@@ -946,30 +944,8 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "עסקת Nvidia של SpaceX עשויה להיות חדשות רעות עבור ניאו-עננים כמו CoreWeave ונביוס, אומרים אנליסטים",
-      "summary_he": "",
-      "body_en": "SpaceX’s Nvidia deal could be bad news for neoclouds like CoreWeave and Nebius, analysts say",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/spacexs-nvidia-deal-could-be-bad-news-for-neoclouds-like-coreweave-and-nebius-analysts-say-168c9ed1?mod=mw_rss_topstories",
-      "tag": "M&A",
-      "published_at": "2026-08-08T11:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ מנסה לפטר את ליסה קוק שוב. הוא עדיין רוצה לערום את הפד עם בעלי בריתו.",
-      "summary_he": "",
-      "body_en": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
-      "tag": "FED",
-      "published_at": "2026-08-07T22:05:00+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "Chevron $CVX צופה שההשקעה בהשקעה תנחת בסמוך לקצה הנמוך של תחזית ה-$18B-19B$ שלה עד סוף השנה ורואה בערך 12.5B$ בתזרים מזומנים חופשי נוסף עד 2026 - בלומברג.",
@@ -980,7 +956,7 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
@@ -992,7 +968,19 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "BOFA דבק עם עליות הפד למרות משרות חלשות מספרי השכר בארה\"ב ירדו ב-23,000 ביולי, כאשר החודשים הקודמים עודכנו ב-103,000 נוספים. האבטלה ירדה ל-4.1%, בעוד השכר...",
+      "summary_he": "",
+      "body_en": "BOFA STICKS WITH FED HIKES DESPITE WEAK JOBS US payrolls fell 23,000 in July, with prior months revised down by another 103,000. Unemployment dropped to 4.1%, while wage growth slowed to 3.2% and labo",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2085771626205855871#m",
+      "tag": "FED",
+      "published_at": "2026-08-07T16:54:42+00:00",
+      "relative_time": "לפני 22ש׳",
       "sentiment": "neutral"
     },
     {
