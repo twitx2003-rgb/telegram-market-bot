@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T16:39:31.167433+00:00",
+  "generated_at": "2026-08-08T17:28:52.608736+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T16:39:31.167450+00:00",
+  "ta_generated_at": "2026-08-08T17:28:52.608748+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,005",
-      "change": "+0.19%",
+      "value": "$65,071",
+      "change": "+0.29%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.186008418695711
+      "pct_raw": 0.28778980879153854
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 46ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +888,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086111113800999212#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:23:42+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -901,28 +901,6 @@
       "tag": "FED",
       "published_at": "2026-08-08T15:00:01+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "הבינה המלאכותית של גוגל טענה שמצלמות Flock מחזיקות 650 דולר בזהב ו-23 פאונד של נחושת - זה הוטעה על ידי מם",
-      "summary_he": "",
-      "body_en": "Google's AI claimed Flock cameras hold $650 in gold and 23 pounds of copper — It was duped by meme",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/ai/articles/googles-ai-claimed-flock-cameras-150000005.html",
-      "tag": "TECH",
-      "published_at": "2026-08-08T15:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ברקשייר האת'ווי ניצחה בצפיות ברווחים, מסיימת 14 רבעונים של מכירת מניות",
-      "summary_he": "",
-      "body_en": "Berkshire Hathaway Beats Earnings Views, Ends 14 Quarters Of Selling Equities",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/news/berkshire-hathaway-earnings-buybacks-cash-hoard-warren-buffett/?src=A00220&yptr=yahoo",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T14:52:35+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "NVDA $ נמצא בקצב לייצר למעלה מ-1 טריליון דולר ברווח בשלוש השנים הבאות: • 2026: 261 מיליארד דולר (+100% בשנה) • 2027: 371 מיליארד דולר (+42% בשנה) • 2028: 459 מיליארד דולר (+24% בשנה) Nvidia היא...",
@@ -945,7 +923,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
@@ -968,7 +946,7 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
@@ -980,7 +958,7 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "neutral"
     },
     {
@@ -992,20 +970,8 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 22ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "RT מאת @bespokeinvest: הייתה בוננזה של משחק משולש בעונת הרווחים הזו עם מאות מהם כבר בספרים. הנה ההצגות המשולשות שראו את...",
-      "summary_he": "",
-      "body_en": "RT by @bespokeinvest: There's been a triple-play bonanza this earnings season with hundreds of them already in the books. Here's the triple plays that have seen the biggest one-day gains this season, ",
-      "ticker": "$CMCO",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2085770861328359864#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T16:51:39+00:00",
       "relative_time": "לפני 23ש׳",
-      "sentiment": "bullish"
+      "sentiment": "neutral"
     },
     {
       "title_he": "מנכ\"ל פלנטיר מטיל פצצה בת 11 מילים למשקיעים בבורסה",
@@ -1020,6 +986,14 @@
     }
   ],
   "il_news": [
+    {
+      "title_he": "שבוע שישי ברציפות: הפגנות בצפת נגד הפעלת תחבורה ציבורית לפני צאת שבת",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859281",
+      "tag": "כללי",
+      "published_at": "2026-08-08T19:20:00+00:00"
+    },
     {
       "title_he": "הקרב על השבת בירושלים: עימותים בין עשרות מתפרעים חרדים לחילונים ב\"קפה בסמטה\"",
       "summary_he": "",
@@ -1091,14 +1065,6 @@
       "link": "https://news.walla.co.il/item/3859059",
       "tag": "כללי",
       "published_at": "2026-08-07T07:04:00+00:00"
-    },
-    {
-      "title_he": "רוכב אופניים כבן 30 נהרג מפגיעת רכב סמוך לבית שמש",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859056",
-      "tag": "כללי",
-      "published_at": "2026-08-07T06:35:00+00:00"
     }
   ],
   "track_record": {
