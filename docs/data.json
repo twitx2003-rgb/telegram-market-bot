@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:50:57.260673+00:00",
+  "generated_at": "2026-08-08T19:28:29.872936+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T18:50:57.260683+00:00",
+  "ta_generated_at": "2026-08-08T19:28:29.872960+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,015",
-      "change": "+0.20%",
+      "value": "$64,973",
+      "change": "+0.14%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.2016979182592413
+      "pct_raw": 0.13685928892351482
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,28 @@
   },
   "us_news": [
     {
+      "title_he": "חוזים עתידיים על דאו ג'ונס: מה לעשות כשהשוק עולה; ברקשייר של באפט מנצח עם סיסקו, לומנטום Due",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures: What To Do As Market Revs Up; Buffett's Berkshire Beats With Cisco, Lumentum Due",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T19:03:50+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "Tenable (TENB) מרחיב את רשת האבטחה של AI בדיוק כשהרווחים הופכים פינה",
+      "summary_he": "",
+      "body_en": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html",
+      "tag": "TECH",
+      "published_at": "2026-08-08T18:59:44+00:00",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "זהב מת ב-2026 לאחר הרווח האדיר של 2025 @augurinfinity $GLD",
       "summary_he": "",
       "body_en": "Gold dead flat in 2026 after 2025's massive gain @augurinfinity $GLD",
@@ -864,7 +886,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
       "tag": "NEWS",
       "published_at": "2026-08-08T18:46:01+00:00",
-      "relative_time": "לפני 4ד׳",
+      "relative_time": "לפני 42ד׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +909,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +933,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086111113800999212#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:23:42+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,7 +968,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
@@ -981,7 +1003,7 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "neutral"
     },
     {
@@ -998,7 +1020,15 @@
   ],
   "il_news": [
     {
-      "title_he": "זמר מוכר נעצר בחשד לאלימות כלפי בת זוגו: \"איים עליה ושבר את החלונות\"",
+      "title_he": "דחף קשיש בן 78 במשרד הרישוי והותיר אותו על הרצפה - המאבטח נשלח לכלא",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859296",
+      "tag": "כללי",
+      "published_at": "2026-08-08T21:58:00+00:00"
+    },
+    {
+      "title_he": "זמר מוכר נעצר בחשד לאלימות כלפי בת זוגו: \"איים עליה ושבר את החלונות הרכב\"",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3859294",
@@ -1068,14 +1098,6 @@
       "link": "https://news.walla.co.il/item/3859140",
       "tag": "כללי",
       "published_at": "2026-08-07T18:03:00+00:00"
-    },
-    {
-      "title_he": "החשוד באונס בת 18 בבת ים: \"היא באה אליי לבד - אני חף מפשע\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859101",
-      "tag": "כללי",
-      "published_at": "2026-08-07T13:06:00+00:00"
     }
   ],
   "track_record": {
