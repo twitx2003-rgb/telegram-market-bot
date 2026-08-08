@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T01:30:53.912863+00:00",
+  "generated_at": "2026-08-08T03:11:40.353515+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T01:30:53.912872+00:00",
+  "ta_generated_at": "2026-08-08T03:11:40.353527+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "+1.10%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.0976571617692916
+      "pct_raw": 1.0974329929536273
     },
     {
       "name": "VIX",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,873",
-      "change": "-0.02%",
-      "direction": "down",
+      "value": "$64,900",
+      "change": "+0.02%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.01719988360796147
+      "pct_raw": 0.024674743419649356
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -875,11 +875,11 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "רוסיה מטילה סנקציות על הצעת חוק המכבדת את לינדזי גרהם עוברת דרך הסנאט, מגיעה לבית הנבחרים",
+      "title_he": "רוסיה מטילה סנקציות על הצעת חוק המכבדת את לינדזי גרהאם עוברת לסנאט, מגיעה לבית הנבחרים",
       "summary_he": "",
       "body_en": "Russia sanctions bill honoring Lindsey Graham breezes through Senate, heads to House",
       "ticker": "",
@@ -920,19 +920,7 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "BOFA דבק עם עליות הפד למרות משרות חלשות מספרי השכר בארה\"ב ירדו ב-23,000 ביולי, כאשר החודשים הקודמים עודכנו ב-103,000 נוספים. האבטלה ירדה ל-4.1%, בעוד השכר...",
-      "summary_he": "",
-      "body_en": "BOFA STICKS WITH FED HIKES DESPITE WEAK JOBS US payrolls fell 23,000 in July, with prior months revised down by another 103,000. Unemployment dropped to 4.1%, while wage growth slowed to 3.2% and labo",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2085771626205855871#m",
-      "tag": "FED",
-      "published_at": "2026-08-07T16:54:42+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -955,23 +943,11 @@
       "link": "https://nitter.net/RyanDetrick/status/2085764105965596783#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T16:24:49+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "גולדמן: האינפלציה חשובה כעת יותר מעבודות הכלכלן הראשי של גולדמן זאקס, יאן האציוס, אומר שנתוני האינפלציה הקרובים יהיו חשובים יותר עבור הפד מאשר תעסוקה...",
-      "summary_he": "",
-      "body_en": "GOLDMAN: INFLATION NOW MATTERS MORE THAN JOBS Goldman Sachs chief economist Jan Hatzius says upcoming inflation data will be more important for the Fed than employment figures. The key question is whe",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2085753640925397246#m",
-      "tag": "FED",
-      "published_at": "2026-08-07T15:43:14+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מספרי השכר החוץ-חקלאיים בארה\"ב ירדו ב-23K, הרבה מתחת לאומדני הקונצנזוס של עלייה של +80K. משכורות השכר החוץ-חקלאיות של יוני עודכנו למטה ל-+20k מ-+57k. רווח שעתי ממוצע ביולי...",
+      "title_he": "מספרי השכר החוץ-חקלאיים של יולי בארה\"ב ירדו ב-23K, הרבה מתחת לאומדני הקונצנזוס של עלייה של +80K. לוחות השכר שאינם חקלאיים ביוני עודכנו למטה ל-+20k מ-+57k. רווח שעתי ממוצע ביולי...",
       "summary_he": "",
       "body_en": "US July nonfarm payrolls fell by -23K, well below consensus ests of a +80K rise. June nonfarm payrolls were revised down to +20k from +57k. July avg hourly earnings +0.1% m/m vs prior +0.3%, with the ",
       "ticker": "",
@@ -979,7 +955,7 @@
       "link": "https://nitter.net/garyblack00/status/2085708935743320469#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T12:45:35+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -991,30 +967,41 @@
       "link": "https://nitter.net/garyblack00/status/2085658019702907050#m",
       "tag": "FED",
       "published_at": "2026-08-07T09:23:16+00:00",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "מניית SOUN עלתה כאשר SoundHound AI מפרסמת שיא הכנסות",
+      "title_he": "גולדמן זאקס רואה אפסייד של 168% במניית הכוח השנויה במחלוקת הזו",
       "summary_he": "",
-      "body_en": "SOUN Stock Surges as SoundHound AI Posts Record Revenue",
+      "body_en": "Goldman Sachs sees 168% upside in this controversial power stock",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/ai/articles/soun-stock-surges-soundhound-ai-182541897.html",
+      "link": "https://finance.yahoo.com/energy/articles/goldman-sachs-sees-168-upside-213300285.html",
+      "tag": "BANKS",
+      "published_at": "2026-08-06T21:33:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "פעם בחווה מעלה שוב את תחזית 2026 כאשר ההכנסות ברבעון השני עלו ב-42%",
+      "summary_he": "",
+      "body_en": "Once Upon a Farm Lifts 2026 Outlook Again as Q2 Revenue Surges 42%",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/once-upon-farm-lifts-2026-210248682.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-06T18:25:41+00:00",
+      "published_at": "2026-08-06T21:02:48+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "הפרימיום של אמזון לעומת צבר ההזמנות של מיקרוסופט: מי מנצח בטריליון הבא?",
+      "title_he": "שוק המניות היום: דאו שוקעת ב-464 נקודות, אבל חברת השבבים עלתה; מיקרוסופט עולה על אזור הקנייה (סיקור חי)",
       "summary_he": "",
-      "body_en": "Amazon’s Premium vs. Microsoft’s Backlog: Who Wins the Next Trillion?",
+      "body_en": "Stock Market Today: Dow Sinks 464 Points, But Chip Firm Surges; Microsoft Surpasses Buy Zone (Live Coverage)",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-premium-vs-microsoft-backlog-181842908.html",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ai-stocks-sandisk-western-digital/?src=A00220&yptr=yahoo",
       "tag": "TECH",
-      "published_at": "2026-08-06T18:18:42+00:00",
-      "sentiment": "neutral"
+      "published_at": "2026-08-06T20:58:05+00:00",
+      "sentiment": "bullish"
     }
   ],
   "il_news": [
