@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:56:03.881408+00:00",
+  "generated_at": "2026-08-08T20:29:55.380875+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T19:56:03.881419+00:00",
+  "ta_generated_at": "2026-08-08T20:29:55.380884+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,033",
-      "change": "+0.23%",
+      "value": "$65,015",
+      "change": "+0.20%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.229362605603586
+      "pct_raw": 0.20219110488599226
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,26 +856,28 @@
   },
   "us_news": [
     {
-      "title_he": "חוזים עתידיים על דאו ג'ונס: מה לעשות כשהשוק עולה; באפט של ברקשייר מנצח עם סיסקו, Lumentum Due",
+      "title_he": "התמ\"ג הנומינלי פועל 🥵 @sonusvarghese קשור לתשואות גבוהות יותר והדולר האמריקאי על עובדות מול רגשות",
       "summary_he": "",
-      "body_en": "Dow Jones Futures: What To Do As Market Revs Up; Buffett's Berkshire Beats With Cisco, Lumentum Due",
+      "body_en": "Nominal GDP is running 🥵 @sonusvarghese ties in higher yields and the US Dollar on Facts vs Feelings",
       "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T19:03:50+00:00",
-      "sentiment": "bullish"
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-08T20:00:50+00:00",
+      "relative_time": "לפני 28ד׳",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "Tenable (TENB) מרחיב את רשת האבטחה של AI בדיוק כשהרווחים הופכים פינה",
+      "title_he": "זהב מת ב-2026 לאחר הרווח האדיר של 2025 @augurinfinity $GLD",
       "summary_he": "",
-      "body_en": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html",
-      "tag": "TECH",
-      "published_at": "2026-08-08T18:59:44+00:00",
-      "sentiment": "bullish"
+      "body_en": "Gold dead flat in 2026 after 2025's massive gain @augurinfinity $GLD",
+      "ticker": "$GLD",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-08T18:46:01+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "לפני חודשיים השקנו את Earnings Edge בערוץ היוטיוב Futurum Equities שהוא סדרה קצרה שבה אני מפרק את הרווחים של כל חברה, התגובה שלי ל...",
@@ -898,7 +900,7 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,7 +912,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086111113800999212#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:23:42+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -945,7 +947,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -993,7 +995,7 @@
       "published_at": "2026-08-08T21:58:00+00:00"
     },
     {
-      "title_he": "זמר מוכר נעצר בחשד לאלימות כלפי בת זוגו: \"איים עליה ושבר את החלונות הרכב\"",
+      "title_he": "זמר מוכר נעצר בחשד לאלימות כלפי בת זוגו: \"איים עליה ושבר חלונות\"",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3859294",
