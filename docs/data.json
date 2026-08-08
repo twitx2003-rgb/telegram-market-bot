@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T20:29:55.380875+00:00",
+  "generated_at": "2026-08-08T21:01:04.587751+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T20:29:55.380884+00:00",
+  "ta_generated_at": "2026-08-08T21:01:04.587768+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,015",
-      "change": "+0.20%",
+      "value": "$65,032",
+      "change": "+0.23%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.20219110488599226
+      "pct_raw": 0.2278522215591548
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 28ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
       "tag": "NEWS",
       "published_at": "2026-08-08T18:46:01+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +888,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -904,7 +904,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית של ערימה מלאה ברחבי C-UAS, ISR,...",
+      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית מלאה על פני C-UAS, ISR,...",
       "summary_he": "",
       "body_en": "FULL BREAKDOWN OF $ONDS AUTONOMOUS DEFENSE PLATFORM Ondas is stitching together 12+ acquisitions into a full-stack autonomous defense platform across C-UAS, ISR, loitering munitions and ground robotic",
       "ticker": "$ONDS",
@@ -935,7 +935,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086097851877372399#m",
       "tag": "TECH",
       "published_at": "2026-08-08T14:31:00+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -970,7 +970,7 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
@@ -986,6 +986,14 @@
     }
   ],
   "il_news": [
+    {
+      "title_he": "צעיר נדקר ליד מלון רויאל ביץ' בתל אביב - החשוד אותר בדירת מסתור",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859312",
+      "tag": "כללי",
+      "published_at": "2026-08-08T23:26:00+00:00"
+    },
     {
       "title_he": "דחף קשיש בן 78 במשרד הרישוי והותיר אותו על הרצפה - המאבטח נשלח לכלא",
       "summary_he": "",
@@ -1057,14 +1065,6 @@
       "link": "https://news.walla.co.il/item/3859138",
       "tag": "כללי",
       "published_at": "2026-08-07T18:09:00+00:00"
-    },
-    {
-      "title_he": "מדריך ספורט נעצר בחשד שפגע מינית בחוסות עם מוגבלות - ותועד במצלמות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859140",
-      "tag": "כללי",
-      "published_at": "2026-08-07T18:03:00+00:00"
     }
   ],
   "track_record": {
