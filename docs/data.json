@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T11:55:39.285167+00:00",
+  "generated_at": "2026-08-08T12:46:31.919059+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T11:55:39.285176+00:00",
+  "ta_generated_at": "2026-08-08T12:46:31.919073+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,928",
-      "change": "+0.07%",
+      "value": "$64,959",
+      "change": "+0.12%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.06827552364089422
+      "pct_raw": 0.1157909727119799
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,7 +856,42 @@
   },
   "us_news": [
     {
-      "title_he": "שבוע שובר שיא לאופציות מניע את עליית ה-S&P 500; מד התנודתיות קרוב לשפל של 2026",
+      "title_he": "חוזים עתידיים על דאו ג'ונס: מה לעשות כאשר שוק המניות עולה; נופי ברקשייר מכות של וורן באפט",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures: What To Do As Stock Market Revs Up; Warren Buffett's Berkshire Beats Views",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T12:28:11+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "המהפך בן 5 השנים של $GOOGL CLOUD מטורף Google Cloud לפני חמש שנים: • קצב ריצה שנתי של $19B עם הפסד תפעולי של $3B • TPUs פעלו רק באופן פנימי וג'מיני לא...",
+      "summary_he": "",
+      "body_en": "$GOOGL CLOUD’S 5-YEAR TRANSFORMATION IS INSANE Google Cloud five years ago: • $19B annual run rate with a $3B operating loss • TPUs ran only internally and Gemini didn’t exist Google Cloud today: • $9",
+      "ticker": "$GOOGL",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086062522403033346#m",
+      "tag": "TECH",
+      "published_at": "2026-08-08T12:10:37+00:00",
+      "relative_time": "לפני 35ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "GS: חברות אמריקאיות גייסו הון עצמי של 252 מיליארד דולר ברבעון השני באמצעות הנפקות, המשך, המרה ו-SPAC, מה שהאפיל על השיא הרבעוני הקודם של 234 מיליארד דולר שנקבע ברבעון הראשון...",
+      "summary_he": "",
+      "body_en": "GS: US corporates raised $252 billion of equity in Q2 through IPOs, follow-ons, converts, and SPACs, eclipsing the previous quarterly record of $234 billion set in Q1 2021",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086060608298881248#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T12:03:00+00:00",
+      "relative_time": "לפני 43ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "שבוע שובר שיא באופציות מניע את עליית ה-S&P 500; מד התנודתיות קרוב לשפל של 2026",
       "summary_he": "",
       "body_en": "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
       "ticker": "",
@@ -867,15 +902,37 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "שתי סיבות לכך שמניית Nvidia ראתה את הזינוק השבועי הגדול ביותר מזה יותר משנה",
+      "title_he": "עסקת Nvidia של SpaceX עשויה להיות חדשות רעות עבור ניאו-עננים כמו CoreWeave ונביוס, אומרים אנליסטים",
       "summary_he": "",
-      "body_en": "Two reasons why Nvidia’s stock saw its biggest weekly surge in more than a year",
+      "body_en": "SpaceX’s Nvidia deal could be bad news for neoclouds like CoreWeave and Nebius, analysts say",
       "ticker": "",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/two-reasons-why-nvidias-stock-saw-its-biggest-weekly-surge-in-more-than-a-year-644875c8?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-07T20:41:00+00:00",
-      "sentiment": "bullish"
+      "link": "https://www.marketwatch.com/story/spacexs-nvidia-deal-could-be-bad-news-for-neoclouds-like-coreweave-and-nebius-analysts-say-168c9ed1?mod=mw_rss_topstories",
+      "tag": "M&A",
+      "published_at": "2026-08-08T11:00:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ מנסה לפטר את ליסה קוק שוב. הוא עדיין רוצה לערום את הפד עם בעלי בריתו.",
+      "summary_he": "",
+      "body_en": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
+      "tag": "FED",
+      "published_at": "2026-08-07T22:05:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הדרך החכמה להשקיע בזהב עכשיו כשהדולר יורד",
+      "summary_he": "",
+      "body_en": "The smart way to invest in gold right now as the dollar slips",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-07T21:58:00+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "Chevron $CVX צופה שההשקעה בהשקעה תנחת בסמוך לקצה הנמוך של תחזית ה-$18B-19B$ שלה עד סוף השנה ורואה בערך 12.5B$ בתזרים מזומנים חופשי נוסף עד 2026 - בלומברג.",
@@ -887,17 +944,6 @@
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
       "relative_time": "לפני 16ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "להלן שלוש נקודות חשובות מדוח המשרות המאכזב של יולי",
-      "summary_he": "",
-      "body_en": "Here are three key takeaways from the disappointing July jobs report",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
-      "tag": "MACRO",
-      "published_at": "2026-08-07T18:09:18+00:00",
       "sentiment": "neutral"
     },
     {
@@ -920,7 +966,7 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
@@ -944,8 +990,19 @@
       "link": "https://nitter.net/RyanDetrick/status/2085764105965596783#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T16:24:49+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "מנכ\"ל פלנטיר מטיל פצצה בת 11 מילים למשקיעים בבורסה",
+      "summary_he": "",
+      "body_en": "Palantir CEO drops 11-word bombshell for stock market investors",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-ceo-drops-11-word-160300224.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-07T16:03:00+00:00",
+      "sentiment": "bearish"
     },
     {
       "title_he": "גולדמן: האינפלציה חשובה כעת יותר מעבודות הכלכלן הראשי של גולדמן זאקס, יאן האציוס, אומר שנתוני האינפלציה הקרובים יהיו חשובים יותר עבור הפד מאשר תעסוקה...",
@@ -956,41 +1013,7 @@
       "link": "https://nitter.net/DeItaone/status/2085753640925397246#m",
       "tag": "FED",
       "published_at": "2026-08-07T15:43:14+00:00",
-      "relative_time": "לפני 20ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מספרי השכר החוץ-חקלאיים של יולי בארה\"ב ירדו ב-23K, הרבה מתחת לאומדני הקונצנזוס של עלייה של +80K. לוחות השכר שאינם חקלאיים ביוני עודכנו למטה ל-+20k מ-+57k. רווח שעתי ממוצע ביולי...",
-      "summary_he": "",
-      "body_en": "US July nonfarm payrolls fell by -23K, well below consensus ests of a +80K rise. June nonfarm payrolls were revised down to +20k from +57k. July avg hourly earnings +0.1% m/m vs prior +0.3%, with the ",
-      "ticker": "",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2085708935743320469#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T12:45:35+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "חוזים עתידיים על מדד המניות מרוויחים עם כל העיניים על דוח משרות מפתח בארה\"ב",
-      "summary_he": "",
-      "body_en": "Stock Index Futures Gain With All Eyes on Key U.S. Jobs Report",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-index-futures-gain-eyes-102644539.html",
-      "tag": "MACRO",
-      "published_at": "2026-08-07T10:26:44+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "\"השוק הצביע\": מייקל בורי אומר שהוצאות הבינה המלאכותית של ביג טק גוררות את ה-S&P 500 - בעוד אפל מנצחת",
-      "summary_he": "",
-      "body_en": "'The market has voted': Michael Burry says Big Tech's AI spending is dragging down the S&P 500 — while Apple wins",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/market-voted-michael-burry-says-101000304.html",
-      "tag": "TECH",
-      "published_at": "2026-08-07T10:10:00+00:00",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "neutral"
     }
   ],
