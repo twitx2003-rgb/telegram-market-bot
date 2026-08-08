@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:28:29.872936+00:00",
+  "generated_at": "2026-08-08T19:56:03.881408+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T19:28:29.872960+00:00",
+  "ta_generated_at": "2026-08-08T19:56:03.881419+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,973",
-      "change": "+0.14%",
+      "value": "$65,033",
+      "change": "+0.23%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.13685928892351482
+      "pct_raw": 0.229362605603586
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,7 +856,7 @@
   },
   "us_news": [
     {
-      "title_he": "חוזים עתידיים על דאו ג'ונס: מה לעשות כשהשוק עולה; ברקשייר של באפט מנצח עם סיסקו, לומנטום Due",
+      "title_he": "חוזים עתידיים על דאו ג'ונס: מה לעשות כשהשוק עולה; באפט של ברקשייר מנצח עם סיסקו, Lumentum Due",
       "summary_he": "",
       "body_en": "Dow Jones Futures: What To Do As Market Revs Up; Buffett's Berkshire Beats With Cisco, Lumentum Due",
       "ticker": "",
@@ -878,29 +878,6 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "זהב מת ב-2026 לאחר הרווח האדיר של 2025 @augurinfinity $GLD",
-      "summary_he": "",
-      "body_en": "Gold dead flat in 2026 after 2025's massive gain @augurinfinity $GLD",
-      "ticker": "$GLD",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-08T18:46:01+00:00",
-      "relative_time": "לפני 42ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "LegalZoom (LZ) משלב את Microsoft Copilot בין משמרות צמיחה",
-      "summary_he": "",
-      "body_en": "LegalZoom (LZ) Integrates Microsoft Copilot Amid Growth Shifts",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/small-business/articles/legalzoom-lz-integrates-microsoft-copilot-183004346.html",
-      "tag": "TECH",
-      "published_at": "2026-08-08T18:30:04+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "לפני חודשיים השקנו את Earnings Edge בערוץ היוטיוב Futurum Equities שהוא סדרה קצרה שבה אני מפרק את הרווחים של כל חברה, התגובה שלי ל...",
       "summary_he": "",
       "body_en": "Two months ago we launched Earnings Edge on the Futurum Equities YouTube channel which is a short-form series where I break down each company’s earnings, my reaction to the results and what they mean ",
@@ -909,7 +886,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,11 +898,11 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית מלאה על פני C-UAS, ISR,...",
+      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית של ערימה מלאה ברחבי C-UAS, ISR,...",
       "summary_he": "",
       "body_en": "FULL BREAKDOWN OF $ONDS AUTONOMOUS DEFENSE PLATFORM Ondas is stitching together 12+ acquisitions into a full-stack autonomous defense platform across C-UAS, ISR, loitering munitions and ground robotic",
       "ticker": "$ONDS",
@@ -956,7 +933,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086097851877372399#m",
       "tag": "TECH",
       "published_at": "2026-08-08T14:31:00+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
@@ -991,20 +968,8 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "Chevron $CVX צופה שההשקעה בהשקעה תנחת בסמוך לקצה הנמוך של תחזית ה-$18B-19B$ שלה עד סוף השנה ורואה בערך 12.5B$ בתזרים מזומנים חופשי נוסף עד 2026 - בלומברג.",
-      "summary_he": "",
-      "body_en": "Chevron $CVX expects capex to land near the low end of its $18B-$19B guidance by year-end and sees roughly $12.5B in additional free cash flow by 2026 - Bloomberg.",
-      "ticker": "$CVX",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "מנכ\"ל פלנטיר מטיל פצצה בת 11 מילים למשקיעים בבורסה",
