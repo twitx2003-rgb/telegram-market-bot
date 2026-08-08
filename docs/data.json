@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T08:39:34.940335+00:00",
+  "generated_at": "2026-08-08T09:36:19.821172+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T08:39:34.940346+00:00",
+  "ta_generated_at": "2026-08-08T09:36:19.821182+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,964",
+      "value": "$64,965",
       "change": "+0.12%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.12278805797901714
+      "pct_raw": 0.1247916286501881
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -875,11 +875,11 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "הנה שלוש נקודות חשובות מדוח המשרות המאכזב של יולי",
+      "title_he": "להלן שלוש נקודות חשובות מדוח המשרות המאכזב של יולי",
       "summary_he": "",
       "body_en": "Here are three key takeaways from the disappointing July jobs report",
       "ticker": "",
@@ -909,7 +909,7 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,19 +921,8 @@
       "link": "https://nitter.net/DeItaone/status/2085771626205855871#m",
       "tag": "FED",
       "published_at": "2026-08-07T16:54:42+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "צ'סקי אומר ש-Airbnb תוציא \"הרבה יותר\" על בינה מלאכותית כשהרווחים ירדו והמניות יזינו ב-15%",
-      "summary_he": "",
-      "body_en": "Chesky says Airbnb will spend ‘a lot more’ on AI as earnings beat and stock surges 15%",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/07/chesky-airbnb-ai-earnings.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T16:28:54+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "תודה @MorganLBrennan שחזרת אלי ב-@CNBCMorningCall! ☕ ⏰ כיף להצטרף ל-@GinaMartinAdams ו-@rwang0 בפאנל סיקרנו את התרחבות הרווחים, מדוע הפד...",
@@ -944,7 +933,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2085764105965596783#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T16:24:49+00:00",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     },
     {
@@ -956,7 +945,7 @@
       "link": "https://nitter.net/DeItaone/status/2085753640925397246#m",
       "tag": "FED",
       "published_at": "2026-08-07T15:43:14+00:00",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     },
     {
@@ -968,7 +957,7 @@
       "link": "https://nitter.net/garyblack00/status/2085708935743320469#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T12:45:35+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
     {
@@ -980,30 +969,29 @@
       "link": "https://nitter.net/StockSavvyShay/status/2085688260848951632#m",
       "tag": "ENERGY",
       "published_at": "2026-08-07T11:23:26+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "המניות בארה\"ב עלו בעליות לקראת דוח המשרות ביולי על רקע המתיחות הקשורה לאיראן, כאשר הנפט הגולמי מסוג ברנט עולה לאחר תקיפות איראניות במצר הורמוז וזהב/כסף...",
+      "title_he": "המניות בארה\"ב קופצות כאשר מעסיקים קיצו במפתיע 23,000 משרות, מה שמעורר תקווה שהעלאות ריבית יכולות לחכות",
       "summary_he": "",
-      "body_en": "U.S. stocks edged higher ahead of the July jobs report amid Iran-related tensions, with Brent crude rising after Iranian strikes in the Strait of Hormuz and gold/silver advancing. $ABNB jumped +9% pre",
-      "ticker": "$ABNB",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2085658019702907050#m",
-      "tag": "FED",
-      "published_at": "2026-08-07T09:23:16+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "גולדמן זאקס רואה אפסייד של 168% במניית הכוח השנויה במחלוקת הזו",
-      "summary_he": "",
-      "body_en": "Goldman Sachs sees 168% upside in this controversial power stock",
+      "body_en": "US stocks jump as employers unexpectedly cut 23,000 jobs, raising hopes that rate hikes can wait",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/energy/articles/goldman-sachs-sees-168-upside-213300285.html",
-      "tag": "BANKS",
-      "published_at": "2026-08-06T21:33:00+00:00",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-us-stocks-062902244.html",
+      "tag": "FED",
+      "published_at": "2026-08-07T06:29:02+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "דו\"ח Analysis-Jobs יציע מבחן חדש לעמדה הפחות מנחה של יו\"ר הפד וורש",
+      "summary_he": "",
+      "body_en": "Analysis-Jobs report will offer fresh test of Fed Chairman Warsh's less-guidance stance",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/economy/policy/articles/analysis-jobs-report-offer-fresh-050406143.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-07T05:11:06+00:00",
       "sentiment": "neutral"
     }
   ],
