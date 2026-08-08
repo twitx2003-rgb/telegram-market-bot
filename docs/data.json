@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T11:27:45.384505+00:00",
+  "generated_at": "2026-08-08T11:55:39.285167+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-08T11:27:45.384516+00:00",
+  "ta_generated_at": "2026-08-08T11:55:39.285176+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,937",
-      "change": "+0.08%",
+      "value": "$64,928",
+      "change": "+0.07%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.08080554637679367
+      "pct_raw": 0.06827552364089422
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "שבוע שובר שיא לאופציות מניע את עליית ה-S&P 500; מד התנודתיות קרוב לשפל של 2026",
+      "summary_he": "",
+      "body_en": "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/08/record-breaking-week-for-options-powers-sp-500-surge.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-08T11:49:22+00:00",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "שתי סיבות לכך שמניית Nvidia ראתה את הזינוק השבועי הגדול ביותר מזה יותר משנה",
       "summary_he": "",
       "body_en": "Two reasons why Nvidia’s stock saw its biggest weekly surge in more than a year",
@@ -875,11 +886,11 @@
       "link": "https://nitter.net/wallstengine/status/2085816481896698043#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T19:52:56+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "הנה שלוש נקודות חשובות מדוח המשרות המאכזב של יולי",
+      "title_he": "להלן שלוש נקודות חשובות מדוח המשרות המאכזב של יולי",
       "summary_he": "",
       "body_en": "Here are three key takeaways from the disappointing July jobs report",
       "ticker": "",
@@ -909,7 +920,7 @@
       "link": "https://nitter.net/gurgavin/status/2085784314470375657#m",
       "tag": "FED",
       "published_at": "2026-08-07T17:45:07+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,7 +932,7 @@
       "link": "https://nitter.net/DeItaone/status/2085771626205855871#m",
       "tag": "FED",
       "published_at": "2026-08-07T16:54:42+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
@@ -945,7 +956,7 @@
       "link": "https://nitter.net/DeItaone/status/2085753640925397246#m",
       "tag": "FED",
       "published_at": "2026-08-07T15:43:14+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
     {
@@ -957,7 +968,18 @@
       "link": "https://nitter.net/garyblack00/status/2085708935743320469#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-07T12:45:35+00:00",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "חוזים עתידיים על מדד המניות מרוויחים עם כל העיניים על דוח משרות מפתח בארה\"ב",
+      "summary_he": "",
+      "body_en": "Stock Index Futures Gain With All Eyes on Key U.S. Jobs Report",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-index-futures-gain-eyes-102644539.html",
+      "tag": "MACRO",
+      "published_at": "2026-08-07T10:26:44+00:00",
       "sentiment": "neutral"
     },
     {
@@ -969,17 +991,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/market-voted-michael-burry-says-101000304.html",
       "tag": "TECH",
       "published_at": "2026-08-07T10:10:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שיעורי משכנתא ומימון מחדש היום, יום שישי, 7 באוגוסט 2026: שיעורי ירידה לפני דוח משרות",
-      "summary_he": "",
-      "body_en": "Mortgage and refinance interest rates today, Friday, August 7, 2026: Rates fall ahead of jobs report",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-august-7-2026-rates-fall-ahead-of-jobs-report-100000207.html",
-      "tag": "FED",
-      "published_at": "2026-08-07T10:00:00+00:00",
       "sentiment": "neutral"
     }
   ],
