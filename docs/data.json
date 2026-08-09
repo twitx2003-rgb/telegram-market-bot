@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:38:10.505773+00:00",
+  "generated_at": "2026-08-09T10:33:36.302160+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T09:38:10.505783+00:00",
+  "ta_generated_at": "2026-08-09T10:33:36.302170+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,767",
-      "change": "-0.22%",
+      "value": "$64,894",
+      "change": "-0.02%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.218390557388451
+      "pct_raw": -0.022961559231602136
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
       "tag": "NEWS",
       "published_at": "2026-08-08T18:46:01+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +900,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     },
     {
@@ -912,7 +912,7 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
@@ -924,7 +924,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "bullish"
     },
     {
@@ -947,7 +947,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086062522403033346#m",
       "tag": "TECH",
       "published_at": "2026-08-08T12:10:37+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "sentiment": "bearish"
     },
     {
@@ -959,8 +959,19 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "\"התעריפים היו מדהימים\": טראמפ אומר שאמריקה \"מתנדנדת\" כמו טויוטה, ענקיות מזרימות מיליארדים לארה\"ב. הוא צדק?",
+      "summary_he": "",
+      "body_en": "‘Tariffs have been incredible’: Trump says America’s ‘rocking’ as Toyota, giants pour billions into US. Was he right?",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/economy/policy/articles/tariffs-incredible-trump-says-america-101500758.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-08T10:15:00+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "שיעורי משכנתא ומימון מחדש היום, שבת, 8 באוגוסט, 2026: שיעורים מעורבים בסוף השבוע הזה",
@@ -974,29 +985,42 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "China Yuchai International Limited סיכום שיחת רווחים ברבעון 2 2026",
+      "title_he": "דגשים בשיחות רווחים של fuboTV Q3",
       "summary_he": "",
-      "body_en": "China Yuchai International Limited Q2 2026 Earnings Call Summary",
+      "body_en": "fuboTV Q3 Earnings Call Highlights",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/china-yuchai-international-limited-q2-034042772.html",
+      "link": "https://finance.yahoo.com/media-advertising/articles/fubotv-q3-earnings-call-highlights-080401998.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-08T03:40:42+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Interface, Inc. Q2 2026 סיכום שיחות רווחים",
-      "summary_he": "",
-      "body_en": "Interface, Inc. Q2 2026 Earnings Call Summary",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/interface-inc-q2-2026-earnings-025203752.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T02:52:03+00:00",
+      "published_at": "2026-08-08T08:04:01+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "\"בסוף מישהו ימות\": הצהרת תובע נגד החשוד בהשלכת לבנים לעבר חדשות 12",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859458",
+      "tag": "כללי",
+      "published_at": "2026-08-09T13:18:00+00:00"
+    },
+    {
+      "title_he": "צעירה הגיעה לניתוח אף - וקיבלה חומצה במקום חומר הרדמה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859452",
+      "tag": "כללי",
+      "published_at": "2026-08-09T12:56:00+00:00"
+    },
+    {
+      "title_he": "אביה של שני לוק: הבת של מירי רגב חולצה מהנובה לפני שהכל התחיל",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859446",
+      "tag": "כללי",
+      "published_at": "2026-08-09T12:32:00+00:00"
+    },
     {
       "title_he": "נשקים, רימונים ומאות כדורים: התחמושת הצבאית הגנובה שנמצאה בעקבות הירי לכרמית",
       "summary_he": "",
@@ -1004,6 +1028,14 @@
       "link": "https://news.walla.co.il/item/3859440",
       "tag": "כללי",
       "published_at": "2026-08-09T12:23:00+00:00"
+    },
+    {
+      "title_he": "בית המשפט דחה את ערר אלוף פיקוד המרכז, בוטל צו ההגבלה על החשוד בתקיפה מינית של פלסטיני",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859448",
+      "tag": "כללי",
+      "published_at": "2026-08-09T12:17:00+00:00"
     },
     {
       "title_he": "\"אני אהרוג אתכם\": עלו לגג עם רובה סער ופתחו בירי לעבר משפחתם",
@@ -1044,38 +1076,6 @@
       "link": "https://news.walla.co.il/item/3859404",
       "tag": "כללי",
       "published_at": "2026-08-09T10:28:00+00:00"
-    },
-    {
-      "title_he": "ירי, סכסוך משפחות ושב\"ח שניהל את המקום: האטליז ברהט נסגר",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859384",
-      "tag": "כללי",
-      "published_at": "2026-08-09T10:14:00+00:00"
-    },
-    {
-      "title_he": "מתן חודורוב תובע כרבע מיליון ממאמן כושר מחריש: \"מסע הטרדה הומופובי ושיטתי\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859302",
-      "tag": "כללי",
-      "published_at": "2026-08-09T06:00:00+00:00"
-    },
-    {
-      "title_he": "ירי בלקייה עורר בהלה בכרמית: שלושה חשודים נעצרו",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859326",
-      "tag": "כללי",
-      "published_at": "2026-08-09T03:16:00+00:00"
-    },
-    {
-      "title_he": "צעיר נדקר ליד מלון רויאל ביץ' בתל אביב - החשוד אותר בדירת מסתור",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859312",
-      "tag": "כללי",
-      "published_at": "2026-08-08T23:26:00+00:00"
     }
   ],
   "track_record": {
