@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T13:53:40.745785+00:00",
+  "generated_at": "2026-08-09T14:33:38.994917+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T13:53:40.745795+00:00",
+  "ta_generated_at": "2026-08-09T14:33:38.994927+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -730,7 +730,7 @@
       "change": "+0.40%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4041012573949534
+      "pct_raw": 0.4042091015405657
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,7 +856,54 @@
   },
   "us_news": [
     {
-      "title_he": "S&P 500 10 המניות הגדולות ביותר של שווי השוק ותרומת הרווחים כמעט תואמים... אין מה לראות כאן! GS",
+      "title_he": "MS: מניות בינה מלאכותיות הן זולות, אך האם ניתן להקצין רווחים? השוק לא היה מוכן עד כה להעריך את גידול הרווחים הגואה... מה שמפחית את רוחות החיות",
+      "summary_he": "",
+      "body_en": "MS: AI Equities Are Cheap, but Can Earnings Be Extrapolated? The market has so far been unwilling to extrapolate surging profit growth... which tamps down animal spirits",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086460241579798961#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-09T14:31:00+00:00",
+      "relative_time": "לפני 2ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "שיעורי האיזון של האינפלציה בשליטה, מה שמצביע על אמינות גבוהה של הפד @augurinfinity 2.2% ב-5 שנים, 2.3% ב-5y5y",
+      "summary_he": "",
+      "body_en": "Inflation breakeven rates are in check, suggesting high Fed credibility @augurinfinity 2.2% on the 5yr, 2.3% on the 5y5y",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086456469050802638#m",
+      "tag": "FED",
+      "published_at": "2026-08-09T14:16:01+00:00",
+      "relative_time": "לפני 17ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "פרוע לחלוטין לראות רווח שנתי של $PLTR עולה מ-120 מיליון דולר בלבד בשנת 2023 ל-$11B עד 2028, כאשר AIP מתפתח לשכבת התפעול שארגונים משתמשים בהם כדי לשלוט בנתונים שלהם,...",
+      "summary_he": "",
+      "body_en": "Absolutely wild to see $PLTR annual profit surge from just $120M in 2023 to ~$11B by 2028 as AIP evolves into the operating layer enterprises use to control their data, models, workflows and decisions",
+      "ticker": "$PLTR",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086453438003720373#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-09T14:03:58+00:00",
+      "relative_time": "לפני 29ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "צמיחת המכירות של S&P 500 נמצאת בשיא של כמעט 5 שנים. הנה מה שעומד מאחורי הזינוק.",
+      "summary_he": "",
+      "body_en": "S&P 500 sales growth is at a nearly 5-year high. Here’s what’s behind the surge.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/s-p-500-sales-growth-is-at-a-nearly-5-year-high-heres-whats-behind-the-surge-a4ccf06d?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-09T14:00:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "שווי השוק ותרומת הרווחים של S&P 500 הגדולות ביותר של 10 המניות כמעט תואמות... אין מה לראות כאן! GS",
       "summary_he": "",
       "body_en": "S&P 500 largest 10 stocks' market cap and earnings contribution nearly match... nothing to see here! GS",
       "ticker": "",
@@ -864,19 +911,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086450677585150457#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T13:53:00+00:00",
-      "relative_time": "עכשיו",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "MS: הגירעון הפדרלי של ארה\"ב מגיע טוב מהצפוי \"הגירעון הראה יציבות מסוימת סביב 5% מהתמ\"ג, יוצר פחות לחץ על תשואות האג\"ח אם...",
-      "summary_he": "",
-      "body_en": "MS: The U.S. Federal Deficit Is Coming In Better Than Expected \"The deficit has shown some stability around 5% of GDP, creating less pressure on bond yields if stabilization persists.\"",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086445141015884149#m",
-      "tag": "MACRO",
-      "published_at": "2026-08-09T13:31:00+00:00",
-      "relative_time": "לפני 22ד׳",
+      "relative_time": "לפני 40ד׳",
       "sentiment": "neutral"
     },
     {
@@ -888,19 +923,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086444072609501520#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T13:26:45+00:00",
-      "relative_time": "לפני 26ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$AAPL - אפל פונה לסין כנשיכות במחסור בשבבים אפל בודקת שבבי זיכרון מ-CXMT של סין עבור מכשירי אייפון, מקבוקים ומכשירים אחרים, כאשר בום הבינה המלאכותית מתכווץ...",
-      "summary_he": "",
-      "body_en": "$AAPL - APPLE TURNS TO CHINA AS CHIP SHORTAGE BITES Apple is testing memory chips from China’s CXMT for iPhones, MacBooks and other devices as the AI boom squeezes global supplies. The company is cons",
-      "ticker": "$AAPL",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2086441444521197826#m",
-      "tag": "TECH",
-      "published_at": "2026-08-09T13:16:19+00:00",
-      "relative_time": "לפני 36ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +946,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086428985530196449#m",
       "tag": "TECH",
       "published_at": "2026-08-09T12:26:48+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -935,18 +958,6 @@
       "link": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
       "tag": "TECH",
       "published_at": "2026-08-09T11:31:42+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$AAPL - APPLE בודקת שבבי זיכרון סיניים עבור אייפון, MACBOOKS אפל בוחנת שבבי זיכרון מיצרנית המוליכים למחצה הסינית CXMT על פני מספר קווי מוצרים,...",
-      "summary_he": "",
-      "body_en": "$AAPL - APPLE TESTS CHINESE MEMORY CHIPS FOR IPHONES, MACBOOKS Apple is testing memory chips from Chinese semiconductor maker CXMT across several product lines, including iPhones and MacBooks, accordi",
-      "ticker": "$AAPL",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2086414271085179051#m",
-      "tag": "TECH",
-      "published_at": "2026-08-09T11:28:20+00:00",
-      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -970,19 +981,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 17ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "לפני חודשיים השקנו את Earnings Edge בערוץ היוטיוב Futurum Equities שהוא סדרה קצרה שבה אני מפרק את הרווחים של כל חברה, התגובה שלי ל...",
-      "summary_he": "",
-      "body_en": "Two months ago we launched Earnings Edge on the Futurum Equities YouTube channel which is a short-form series where I break down each company’s earnings, my reaction to the results and what they mean ",
-      "ticker": "$DDOG",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     },
     {
@@ -994,20 +993,8 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 22ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הגרף השורי ביותר? @_JoshSchafer (באמצעות קית לרנר) מראה שציפיות הרווחים העתידיות ל-26' ו-'27 זינקו השנה. זה פשוט לא קורה לעתים קרובות,…",
-      "summary_he": "",
-      "body_en": "The most bullish chart? @_JoshSchafer (via Keith Lerner) shows that future earnings expectations for '26 and '27 have soared this year. This simply doesn't happen often, as most years see things trend",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T14:15:04+00:00",
       "relative_time": "לפני 23ש׳",
-      "sentiment": "bullish"
+      "sentiment": "neutral"
     },
     {
       "title_he": "הרווחים של ברקשייר עלו ברבעון האחרון והמנכ\"ל גרג אייבל מתחיל לפרוס את מאגר המזומנים האדיר של באפט",
@@ -1023,12 +1010,44 @@
   ],
   "il_news": [
     {
+      "title_he": "צעירה בשנות ה-20 נעצרה בחשד שהתחזתה לגבר וניהלה קשרים עם נשים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859516",
+      "tag": "כללי",
+      "published_at": "2026-08-09T17:08:00+00:00"
+    },
+    {
+      "title_he": "\"קח בחשבון היום אני אצלך בבית\": עורך דין פלילי נאשם בסחיטה באיומים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859519",
+      "tag": "כללי",
+      "published_at": "2026-08-09T16:58:00+00:00"
+    },
+    {
+      "title_he": "\"הוא אמנם לא שומע - אבל הוא לא טיפש\": הביקור במרפאה שהפך למאבק על נגישות לחירשים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859514",
+      "tag": "כללי",
+      "published_at": "2026-08-09T16:56:00+00:00"
+    },
+    {
       "title_he": "בעקבות פניית \"יהלומי הקרב\": דיון דחוף בכנסת על הליכי ההכרה בועדות הרפואיות לנכי צה\"ל",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3859505",
       "tag": "כללי",
       "published_at": "2026-08-09T16:24:00+00:00"
+    },
+    {
+      "title_he": "ביוב, הפסקת חשמל ואתר בנייה: הכאוס בבית הספר לחינוך מיוחד",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859508",
+      "tag": "כללי",
+      "published_at": "2026-08-09T16:22:00+00:00"
     },
     {
       "title_he": "בתוך שבועיים: בן 4 בלע סוללה, בת 5 בלעה 16 מגנטים ונזקקה לניתוח מורכב",
@@ -1069,38 +1088,6 @@
       "link": "https://news.walla.co.il/item/3859483",
       "tag": "כללי",
       "published_at": "2026-08-09T15:05:00+00:00"
-    },
-    {
-      "title_he": "\"הרים אותו כמו סרדין\": טענות קשות של משפחת לוחם פצוע על בית החולים רמב\"ם",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859479",
-      "tag": "כללי",
-      "published_at": "2026-08-09T14:51:00+00:00"
-    },
-    {
-      "title_he": "ללא מזון ובמצב רזון קיצוני: שני סוסים חולצו ממתחם בקריית אתא",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859481",
-      "tag": "כללי",
-      "published_at": "2026-08-09T14:47:00+00:00"
-    },
-    {
-      "title_he": "\"בסוף מישהו ימות\": הצהרת תובע נגד החשוד בהשלכת לבנים לעבר חדשות 12",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859458",
-      "tag": "כללי",
-      "published_at": "2026-08-09T13:18:00+00:00"
-    },
-    {
-      "title_he": "טרגדיה בלוד: בן 5 נשכח ברכב במשך כשעתיים - מותו נקבע בבית החולים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859455",
-      "tag": "כללי",
-      "published_at": "2026-08-09T13:11:00+00:00"
     }
   ],
   "track_record": {
