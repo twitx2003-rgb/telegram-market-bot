@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T16:33:16.899376+00:00",
+  "generated_at": "2026-08-09T17:30:39.204794+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T16:33:16.899386+00:00",
+  "ta_generated_at": "2026-08-09T17:30:39.204805+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -680,7 +680,7 @@
       "change": "+1.30%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.298992058402752
+      "pct_raw": 1.2988075177240368
     },
     {
       "name": "Dow Jones",
@@ -696,7 +696,7 @@
       "change": "+1.10%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 1.0976571617692916
+      "pct_raw": 1.097566257433658
     },
     {
       "name": "VIX",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,167",
-      "change": "+0.40%",
+      "value": "$65,185",
+      "change": "+0.43%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3986628311947685
+      "pct_raw": 0.4267639342801493
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,29 @@
   },
   "us_news": [
     {
+      "title_he": "לאחר עלייה היסטורית של 16% באפריל ומאי, ה-S&P 500 פשוט הלך הצידה במשך קרוב ל-11 שבועות. אמרנו שכל הזמן יש סיכוי להתפרצות בסופו של דבר, זה פשוט...",
+      "summary_he": "",
+      "body_en": "After a historic 16% rally in April and May, the S&P 500 simply went sideways for close to 11 weeks. We said the whole time an eventual breakout was likely, it just needed a pause. Bull markets can co",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2086498755658801645#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-09T17:04:03+00:00",
+      "relative_time": "לפני 26ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "החוזים עתידיים של דאו ג'ונס נראים כחוק השוורים של השוק; Cisco, Lumentum רווחים קדימה",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures Loom As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-09T16:25:05+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "שוק הענן צפוי להכפיל את עצמו מ-$432B בשנת 2026 ל-$890B עד שנת 2028, שכן בינה מלאכותית יוצרת מאגר גדול בהרבה של ביקוש לתשתיות לכל...",
       "summary_he": "",
       "body_en": "The cloud market is projected to more than double from ~$432B in 2026 to ~$890B by 2028 as AI creates a much larger pool of infrastructure demand for every major hyperscaler: 2028 market share: • $AMZ",
@@ -864,7 +887,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086483911845261641#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T16:05:04+00:00",
-      "relative_time": "לפני 27ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,19 +899,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086474201222025393#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T15:26:29+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "החוזים עתידיים של דאו ג'ונס נראים כחוק השוורים של השוק; Cisco, Lumentum רווחים קדימה",
-      "summary_he": "",
-      "body_en": "Dow Jones Futures Loom As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-09T15:25:19+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "מפת הדרכים של $SPCX לעשור הבא ריימונד ג'יימס אומר ש-SpaceX יכולה להגיע ל-$5T בהכנסה שנתית של ~90% מרווחי EBITDA בתוך העשור הבא, מכיוון ש-Starship מובילה את עלויות ההשקה מ...",
@@ -899,20 +911,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086460845933076574#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:33:24+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "MS: מניות בינה מלאכותיות הן זולות, אך האם ניתן להקצין רווחים? השוק לא היה מוכן עד כה להעריך את גידול הרווח הגואה... מה שמדכא את רוחות החיות",
-      "summary_he": "",
-      "body_en": "MS: AI Equities Are Cheap, but Can Earnings Be Extrapolated? The market has so far been unwilling to extrapolate surging profit growth... which tamps down animal spirits",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086460241579798961#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-09T14:31:00+00:00",
       "relative_time": "לפני 2ש׳",
-      "sentiment": "bullish"
+      "sentiment": "neutral"
     },
     {
       "title_he": "סקוט גאלווי הזהיר ששוק המניות האמריקאי עלול לקרוס תוך 24 חודשים הודות ל-AI. הגן על ביצת הקן שלך כל עוד אתה יכול",
@@ -934,7 +934,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086453438003720373#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:03:58+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
@@ -957,19 +957,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086444072609501520#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T13:26:45+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$AAPL - אפל פונה לסין כנשיכות במחסור בשבבים אפל בודקת שבבי זיכרון מ-CXMT של סין עבור מכשירי אייפון, מקבוקים ומכשירים אחרים, כאשר בום הבינה המלאכותית מתכווץ...",
-      "summary_he": "",
-      "body_en": "$AAPL - APPLE TURNS TO CHINA AS CHIP SHORTAGE BITES Apple is testing memory chips from China’s CXMT for iPhones, MacBooks and other devices as the AI boom squeezes global supplies. The company is cons",
-      "ticker": "$AAPL",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2086441444521197826#m",
-      "tag": "TECH",
-      "published_at": "2026-08-09T13:16:19+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -984,18 +972,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$AAPL - APPLE בודקת שבבי זיכרון סיניים עבור אייפון, MACBOOKS אפל בוחנת שבבי זיכרון מיצרנית המוליכים למחצה הסינית CXMT על פני מספר קווי מוצרים,...",
-      "summary_he": "",
-      "body_en": "$AAPL - APPLE TESTS CHINESE MEMORY CHIPS FOR IPHONES, MACBOOKS Apple is testing memory chips from Chinese semiconductor maker CXMT across several product lines, including iPhones and MacBooks, accordi",
-      "ticker": "$AAPL",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2086414271085179051#m",
-      "tag": "TECH",
-      "published_at": "2026-08-09T11:28:20+00:00",
-      "relative_time": "לפני 5ש׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "82% מחברות S&P 500 דיווחו כעת: 86% ניצחו את הערכות הרווח למניה 75% ניצחו את הערכות ההכנסות",
       "summary_he": "",
       "body_en": "82% of S&P 500 companies have now reported: 86% have beaten EPS estimates 75% have beaten revenue estimates",
@@ -1004,23 +980,30 @@
       "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "התמ\"ג הנומינלי פועל 🥵 @sonusvarghese קשור לתשואות גבוהות יותר והדולר האמריקאי על עובדות מול רגשות",
+      "title_he": "שיעורי משכנתא ומימון מחדש היום, שבת, 8 באוגוסט, 2026: שיעורים מעורבים בסוף השבוע הזה",
       "summary_he": "",
-      "body_en": "Nominal GDP is running 🥵 @sonusvarghese ties in higher yields and the US Dollar on Facts vs Feelings",
+      "body_en": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
       "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
-      "tag": "MACRO",
-      "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 20ש׳",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
+      "tag": "FED",
+      "published_at": "2026-08-08T10:00:00+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "\"מרגיש מאוים\": בן של ח\"כ לשעבר מש\"ס נעצר - כשהוא נושא אקדח טעון ללא רישיון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859546",
+      "tag": "כללי",
+      "published_at": "2026-08-09T20:22:00+00:00"
+    },
     {
       "title_he": "טרגדיה בגליל: נקבע מותו של הנער בן ה-16 שנפל מגובה במהלך סנפלינג במערת קשת",
       "summary_he": "",
@@ -1092,14 +1075,6 @@
       "link": "https://news.walla.co.il/item/3859498",
       "tag": "כללי",
       "published_at": "2026-08-09T15:59:00+00:00"
-    },
-    {
-      "title_he": "אישום חמור בנגב: אילצו קטינים לבצע עבירות מין זה בזה באיומי סכין",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859496",
-      "tag": "כללי",
-      "published_at": "2026-08-09T15:48:00+00:00"
     }
   ],
   "track_record": {
