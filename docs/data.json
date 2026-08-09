@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:33:38.994917+00:00",
+  "generated_at": "2026-08-09T15:30:56.892936+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T14:33:38.994927+00:00",
+  "ta_generated_at": "2026-08-09T15:30:56.892945+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,171",
-      "change": "+0.40%",
+      "value": "$65,180",
+      "change": "+0.42%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4042091015405657
+      "pct_raw": 0.4185985918266179
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,7 +856,19 @@
   },
   "us_news": [
     {
-      "title_he": "MS: מניות בינה מלאכותיות הן זולות, אך האם ניתן להקצין רווחים? השוק לא היה מוכן עד כה להעריך את גידול הרווחים הגואה... מה שמפחית את רוחות החיות",
+      "title_he": "מפת דרכים של $SPCX לעשור הבא ריימונד ג'יימס אומר ש-SpaceX יכולה להגיע ל-$5T בהכנסות שנתיות ב-~90% מרווחי EBITDA בתוך העשור הבא, מכיוון ש-Starship מובילה את עלויות ההשקה מ...",
+      "summary_he": "",
+      "body_en": "$SPCX ROADMAP TO THE NEXT DECADE Raymond James says SpaceX can hit ~$5T in annual revenue at ~90% EBITDA margins within next decade as Starship drives launch costs from ~$2,700/kg toward ~$100/kg whil",
+      "ticker": "$SPCX",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086460845933076574#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-09T14:33:24+00:00",
+      "relative_time": "לפני 56ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "MS: מניות בינה מלאכותיות הן זולות, אך האם ניתן להקצין רווחים? השוק לא היה מוכן עד כה להעריך את גידול הרווח הגואה... מה שמדכא את רוחות החיות",
       "summary_he": "",
       "body_en": "MS: AI Equities Are Cheap, but Can Earnings Be Extrapolated? The market has so far been unwilling to extrapolate surging profit growth... which tamps down animal spirits",
       "ticker": "",
@@ -864,8 +876,19 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086460241579798961#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:31:00+00:00",
-      "relative_time": "לפני 2ד׳",
+      "relative_time": "לפני 59ד׳",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "Scott Galloway warned the US stock market could crash within 24 months thanks to AI. Protect your nest egg while you can",
+      "summary_he": "",
+      "body_en": "Scott Galloway warned the US stock market could crash within 24 months thanks to AI. Protect your nest egg while you can",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/scott-galloway-warned-us-stock-142000770.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-09T14:20:00+00:00",
+      "sentiment": "bearish"
     },
     {
       "title_he": "שיעורי האיזון של האינפלציה בשליטה, מה שמצביע על אמינות גבוהה של הפד @augurinfinity 2.2% ב-5 שנים, 2.3% ב-5y5y",
@@ -876,7 +899,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086456469050802638#m",
       "tag": "FED",
       "published_at": "2026-08-09T14:16:01+00:00",
-      "relative_time": "לפני 17ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +911,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086453438003720373#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:03:58+00:00",
-      "relative_time": "לפני 29ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -903,18 +926,6 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "שווי השוק ותרומת הרווחים של S&P 500 הגדולות ביותר של 10 המניות כמעט תואמות... אין מה לראות כאן! GS",
-      "summary_he": "",
-      "body_en": "S&P 500 largest 10 stocks' market cap and earnings contribution nearly match... nothing to see here! GS",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086450677585150457#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-09T13:53:00+00:00",
-      "relative_time": "לפני 40ד׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "מדוע $ASTS לא צריך להיות הבעלים של הלקוח AST משתמשת בלווייני BlueBird במסלול נמוך על כדור הארץ כדי לחבר סמארטפונים רגילים ישירות לפס רחב במהירויות של עד ~200...",
       "summary_he": "",
       "body_en": "WHY $ASTS DOESN’T NEED TO OWN THE CUSTOMER AST uses BlueBird satellites in low Earth orbit to connect ordinary smartphones directly to broadband at speeds up to ~200 Mbps then routes that traffic thro",
@@ -923,7 +934,19 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086444072609501520#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T13:26:45+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$AAPL - אפל פונה לסין כנשיכות במחסור בשבבים אפל בודקת שבבי זיכרון מה-CXMT של סין עבור מכשירי אייפון, מקבוקים ומכשירים אחרים, כאשר בום הבינה המלאכותית מתכווץ...",
+      "summary_he": "",
+      "body_en": "$AAPL - APPLE TURNS TO CHINA AS CHIP SHORTAGE BITES Apple is testing memory chips from China’s CXMT for iPhones, MacBooks and other devices as the AI boom squeezes global supplies. The company is cons",
+      "ticker": "$AAPL",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086441444521197826#m",
+      "tag": "TECH",
+      "published_at": "2026-08-09T13:16:19+00:00",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -938,7 +961,7 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "$AAPL בוחנת שבבי זיכרון CXMT במכשירי iPhone ו-MacBook, כאשר מחנק הזיכרון המונע על ידי בינה מלאכותית דוחף את אפל להרחיב את בסיס הספקים שלה. זה עשוי להוסיף תחרות ב...",
+      "title_he": "$AAPL is testing CXMT memory chips across iPhones and MacBooks as the AI-driven memory crunch pushes Apple to broaden its supplier base. That may add competition in…",
       "summary_he": "",
       "body_en": "$AAPL is testing CXMT memory chips across iPhones and MacBooks as the AI-driven memory crunch pushes Apple to broaden its supplier base. That may add competition in conventional memory but HBM should ",
       "ticker": "$AAPL",
@@ -946,11 +969,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086428985530196449#m",
       "tag": "TECH",
       "published_at": "2026-08-09T12:26:48+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות בינה מלאכותית ב-OpenAI, Anthropic ומטה",
+      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות AI סוררות ב-OpenAI, Anthropic ומטה",
       "summary_he": "",
       "body_en": "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
       "ticker": "",
@@ -958,6 +981,18 @@
       "link": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
       "tag": "TECH",
       "published_at": "2026-08-09T11:31:42+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$AAPL - APPLE בודקת שבבי זיכרון סיניים עבור אייפון, MACBOOKS אפל בוחנת שבבי זיכרון מיצרנית המוליכים למחצה הסינית CXMT על פני מספר קווי מוצרים,...",
+      "summary_he": "",
+      "body_en": "$AAPL - APPLE TESTS CHINESE MEMORY CHIPS FOR IPHONES, MACBOOKS Apple is testing memory chips from Chinese semiconductor maker CXMT across several product lines, including iPhones and MacBooks, accordi",
+      "ticker": "$AAPL",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086414271085179051#m",
+      "tag": "TECH",
+      "published_at": "2026-08-09T11:28:20+00:00",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -969,7 +1004,7 @@
       "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "bullish"
     },
     {
@@ -981,34 +1016,19 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 18ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Pathfounders מדווח, תוך ציטוט של מקורות בתעשייה... שדמיס חסאביס רצה לעזוב את גוגל לצד ג'ף דין, אך שוכנע להיות יו\"ר $GOOGL DeepMind במקום זאת.",
-      "summary_he": "",
-      "body_en": "Pathfounders reports, citing industry sources… that Demis Hassabis wanted to LEAVE Google alongside Jeff Dean but was persuaded to become $GOOGL DeepMind chair instead. The outlet predicts he could le",
-      "ticker": "$GOOGL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
-      "tag": "TECH",
-      "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הרווחים של ברקשייר עלו ברבעון האחרון והמנכ\"ל גרג אייבל מתחיל לפרוס את מאגר המזומנים האדיר של באפט",
-      "summary_he": "",
-      "body_en": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T13:28:00+00:00",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "ניגח ניידת, נמלט מהשוטרים - ונתפס כשניסה לגנוב רכב נוסף",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859522",
+      "tag": "כללי",
+      "published_at": "2026-08-09T17:33:00+00:00"
+    },
     {
       "title_he": "צעירה בשנות ה-20 נעצרה בחשד שהתחזתה לגבר וניהלה קשרים עם נשים",
       "summary_he": "",
@@ -1080,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3859490",
       "tag": "כללי",
       "published_at": "2026-08-09T15:22:00+00:00"
-    },
-    {
-      "title_he": "התחזו לנציגי ביטוח, שלפו פרטים אישיים ורוקנו חשבונות: בני זוג נעצרו בחשד להונאת ענק",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859483",
-      "tag": "כללי",
-      "published_at": "2026-08-09T15:05:00+00:00"
     }
   ],
   "track_record": {
