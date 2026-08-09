@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T18:39:14.750934+00:00",
+  "generated_at": "2026-08-09T19:32:02.572001+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T18:39:14.750944+00:00",
+  "ta_generated_at": "2026-08-09T19:32:02.572011+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -711,26 +711,26 @@
     {
       "name": "זהב",
       "value": "$4,399.7",
-      "change": "+2.33%",
-      "direction": "up",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "commodities",
-      "pct_raw": 2.328123546376394
+      "pct_raw": 0.0
     },
     {
       "name": "נפט ברנט",
       "value": "$83.5",
-      "change": "+1.29%",
-      "direction": "up",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "commodities",
-      "pct_raw": 1.2850042429385409
+      "pct_raw": 0.0
     },
     {
       "name": "ביטקוין",
-      "value": "$65,165",
-      "change": "+0.40%",
+      "value": "$65,162",
+      "change": "+0.39%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.39538128790684113
+      "pct_raw": 0.38983501756103267
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,29 @@
   },
   "us_news": [
     {
+      "title_he": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
+      "summary_he": "",
+      "body_en": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-09T19:11:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "טוויסט עולמי בתרשים מוכר... $ACWI למרות ירידות ממוצעות תוך-שנתיות של 14.6% (חציון 10.5%), התשואות השנתיות חיוביות ב-29 מתוך 40 שנים",
+      "summary_he": "",
+      "body_en": "A global twist on a familiar chart... $ACWI Despite average intra-year drops of 14.6% (median 10.5%), annual returns are positive in 29 of 40 years",
+      "ticker": "$ACWI",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086524413965476120#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-09T18:46:00+00:00",
+      "relative_time": "לפני 45ד׳",
+      "sentiment": "bearish"
+    },
+    {
       "title_he": "לאחר עלייה היסטורית של 16% באפריל ומאי, ה-S&P 500 פשוט הלך הצידה במשך קרוב ל-11 שבועות. אמרנו שכל הזמן יש סיכוי להתפרצות בסופו של דבר, זה פשוט...",
       "summary_he": "",
       "body_en": "After a historic 16% rally in April and May, the S&P 500 simply went sideways for close to 11 weeks. We said the whole time an eventual breakout was likely, it just needed a pause. Bull markets can co",
@@ -864,11 +887,11 @@
       "link": "https://nitter.net/RyanDetrick/status/2086498755658801645#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T17:04:03+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "טראמפ עובר לאסטרטגיה \"נמוכה\" באיראן טראמפ אומר כי ארה\"ב \"מתנגדת\" לאיראן, ומאותתת שהלחץ הכלכלי יקבל עדיפות על פני חידוש צבאי...",
+      "title_he": "TRUMP SHIFTS TO A “LOW-KEY” STRATEGY ON IRAN Trump says the U.S. is “low keying it” with Iran, signaling economic pressure will take priority over renewed military…",
       "summary_he": "",
       "body_en": "TRUMP SHIFTS TO A “LOW-KEY” STRATEGY ON IRAN Trump says the U.S. is “low keying it” with Iran, signaling economic pressure will take priority over renewed military action for now. He argues Iran’s eco",
       "ticker": "",
@@ -876,7 +899,7 @@
       "link": "https://nitter.net/DeItaone/status/2086498383833825580#m",
       "tag": "ENERGY",
       "published_at": "2026-08-09T17:02:34+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,11 +911,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086483911845261641#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T16:05:04+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$NVDA עשוי לצאת משנת 2028 ולהניב רווח של כמעט 1.3 מיליארד דולר בכל יום 🤯",
+      "title_he": "$NVDA could exit 2028 generating nearly $1.3B in profit every single day 🤯",
       "summary_he": "",
       "body_en": "$NVDA could exit 2028 generating nearly $1.3B in profit every single day 🤯",
       "ticker": "$NVDA",
@@ -900,7 +923,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086474201222025393#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T15:26:29+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bullish"
     },
     {
@@ -924,7 +947,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086453438003720373#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:03:58+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
@@ -947,11 +970,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086444072609501520#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T13:26:45+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$AAPL - אפל פונה לסין כנשיכות במחסור בשבבים אפל בודקת שבבי זיכרון מה-CXMT של סין עבור מכשירי אייפון, מקבוקים ומכשירים אחרים, כאשר בום הבינה המלאכותית מתכווץ...",
+      "title_he": "$AAPL - APPLE TURNS TO CHINA AS CHIP SHORTAGE BITES Apple is testing memory chips from China’s CXMT for iPhones, MacBooks and other devices as the AI boom squeezes…",
       "summary_he": "",
       "body_en": "$AAPL - APPLE TURNS TO CHINA AS CHIP SHORTAGE BITES Apple is testing memory chips from China’s CXMT for iPhones, MacBooks and other devices as the AI boom squeezes global supplies. The company is cons",
       "ticker": "$AAPL",
@@ -959,19 +982,8 @@
       "link": "https://nitter.net/DeItaone/status/2086441444521197826#m",
       "tag": "TECH",
       "published_at": "2026-08-09T13:16:19+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "מספר המניות שעוברות את ה-S&P 500 הוא הגבוה ביותר מזה 4 שנים. למה המספר הזה צריך לעלות.",
-      "summary_he": "",
-      "body_en": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-09T13:00:00+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות AI סוררות ב-OpenAI, Anthropic ומטה",
@@ -985,7 +997,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$AAPL - APPLE בודקת שבבי זיכרון סיניים עבור אייפון, MACBOOKS אפל בוחנת שבבי זיכרון מיצרנית המוליכים למחצה הסינית CXMT על פני מספר קווי מוצרים,...",
+      "title_he": "$AAPL - APPLE TESTS CHINESE MEMORY CHIPS FOR IPHONES, MACBOOKS Apple is testing memory chips from Chinese semiconductor maker CXMT across several product lines,…",
       "summary_he": "",
       "body_en": "$AAPL - APPLE TESTS CHINESE MEMORY CHIPS FOR IPHONES, MACBOOKS Apple is testing memory chips from Chinese semiconductor maker CXMT across several product lines, including iPhones and MacBooks, accordi",
       "ticker": "$AAPL",
@@ -993,7 +1005,7 @@
       "link": "https://nitter.net/DeItaone/status/2086414271085179051#m",
       "tag": "TECH",
       "published_at": "2026-08-09T11:28:20+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1006,23 +1018,11 @@
       "tag": "BANKS",
       "published_at": "2026-08-09T03:07:00+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "82% מחברות S&P 500 דיווחו כעת: 86% ניצחו את הערכות הרווח למניה 75% ניצחו את הערכות ההכנסות",
-      "summary_he": "",
-      "body_en": "82% of S&P 500 companies have now reported: 86% have beaten EPS estimates 75% have beaten revenue estimates",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 21ש׳",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
     {
-      "title_he": "גבר נדרס למוות בצומת פרדסיה - המשטרה בוחנת חשד לפגע וברח",
+      "title_he": "גבר כבן 50 נדרס למוות בצומת פרדסיה: חשוד במעשה הסגיר עצמו - ונעצר",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3859559",
