@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T23:01:44.297362+00:00",
+  "generated_at": "2026-08-09T23:58:29.276147+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T23:01:44.297373+00:00",
+  "ta_generated_at": "2026-08-09T23:58:29.276157+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,403.0",
-      "change": "+0.08%",
+      "value": "$4,400.9",
+      "change": "+0.03%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.07500511398504857
+      "pct_raw": 0.027274586903648392
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.4",
-      "change": "+1.01%",
+      "value": "$84.5",
+      "change": "+1.13%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.00538599640934
+      "pct_raw": 1.1250748055056825
     },
     {
       "name": "ביטקוין",
-      "value": "$64,990",
-      "change": "+0.13%",
-      "direction": "up",
+      "value": "$64,830",
+      "change": "-0.12%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.1256014545032438
+      "pct_raw": -0.12166976508031632
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.992",
-      "change": "-0.76%",
+      "value": "2.994",
+      "change": "-0.15%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.7594852746086469
+      "pct_raw": -0.1467596144224662
     }
   ],
   "sectors": [
@@ -856,14 +856,25 @@
   },
   "us_news": [
     {
-      "title_he": "החוזים העתידיים על המניות בארה\"ב צונחים כשהמשקיעים ממתינים לנתוני האינפלציה, מתמודדים עם אי-ודאות איראנית יותר",
+      "title_he": "החוזים העתידיים על המניות בארה\"ב צונחים כשהמשקיעים ממתינים לנתוני האינפלציה, מתמודדים עם חוסר ודאות איראנית יותר",
       "summary_he": "",
       "body_en": "U.S. stock futures dip as investors await inflation data, grapple with more Iran uncertainty",
       "ticker": "",
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
       "tag": "MACRO",
-      "published_at": "2026-08-09T22:46:00+00:00",
+      "published_at": "2026-08-09T23:40:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "החוזים עתידיים על דאו ג'ונס נופלים כפי ששולטים בשוק בולס; Cisco, Lumentum רווחים קדימה",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-09T22:56:31+00:00",
       "sentiment": "neutral"
     },
     {
@@ -875,19 +886,8 @@
       "link": "https://nitter.net/RyanDetrick/status/2086582208219824398#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T22:35:39+00:00",
-      "relative_time": "לפני 25ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "החוזים עתידיים על דאו ג'ונס נופלים כפי ששולטים בשוק בולס; Cisco, Lumentum רווחים קדימה",
-      "summary_he": "",
-      "body_en": "Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-09T22:35:18+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "Barrick Mining $B, Dole $DOLE, Ferguson $FERG ו-Surgery Partners $SGRY מדווחים על רווחים לפני הפתיחה מחר. Aecom Tech $ACM, Alcon $ALC, Hims $ Hers Health $HIMS,...",
@@ -898,7 +898,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2086565685044433112#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T21:30:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -910,7 +910,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086498755658801645#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T17:04:03+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -922,11 +922,11 @@
       "link": "https://nitter.net/DeItaone/status/2086498383833825580#m",
       "tag": "ENERGY",
       "published_at": "2026-08-09T17:02:34+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "שוק הענן צפוי להכפיל את עצמו מ-$432B בשנת 2026 ל-$890B עד שנת 2028, שכן בינה מלאכותית יוצרת מאגר גדול בהרבה של ביקוש לתשתיות לכל...",
+      "title_he": "שוק הענן צפוי להכפיל את עצמו מ-432 מיליארד דולר ב-2026 ל-890 מיליארד דולר עד 2028, מכיוון ש-AI יוצר מאגר גדול בהרבה של ביקוש לתשתיות עבור כל...",
       "summary_he": "",
       "body_en": "The cloud market is projected to more than double from ~$432B in 2026 to ~$890B by 2028 as AI creates a much larger pool of infrastructure demand for every major hyperscaler: 2028 market share: • $AMZ",
       "ticker": "$AMZN",
@@ -934,7 +934,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086483911845261641#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T16:05:04+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,11 +946,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086474201222025393#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T15:26:29+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "מפת הדרכים של $SPCX לעשור הבא ריימונד ג'יימס אומר ש-SpaceX יכולה להגיע ל-$5T בהכנסה שנתית של ~90% מרווחי EBITDA בתוך העשור הבא, מכיוון ש-Starship מובילה את עלויות ההשקה מ...",
+      "title_he": "מפת דרכים של $SPCX לעשור הבא ריימונד ג'יימס אומר ש-SpaceX יכולה להגיע ל-$5T בהכנסות שנתיות ב-~90% מרווחי EBITDA בתוך העשור הבא, מכיוון ש-Starship מובילה את עלויות ההשקה מ...",
       "summary_he": "",
       "body_en": "$SPCX ROADMAP TO THE NEXT DECADE Raymond James says SpaceX can hit ~$5T in annual revenue at ~90% EBITDA margins within next decade as Starship drives launch costs from ~$2,700/kg toward ~$100/kg whil",
       "ticker": "$SPCX",
@@ -958,7 +958,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086460845933076574#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:33:24+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -973,7 +973,7 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות בינה מלאכותית ב-OpenAI, Anthropic ומטה",
+      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות AI סוררות ב-OpenAI, Anthropic ומטה",
       "summary_he": "",
       "body_en": "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
       "ticker": "",
