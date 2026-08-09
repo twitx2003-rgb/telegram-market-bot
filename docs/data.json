@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T15:30:56.892936+00:00",
+  "generated_at": "2026-08-09T16:33:16.899376+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T15:30:56.892945+00:00",
+  "ta_generated_at": "2026-08-09T16:33:16.899386+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,180",
-      "change": "+0.42%",
+      "value": "$65,167",
+      "change": "+0.40%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4185985918266179
+      "pct_raw": 0.3986628311947685
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,7 +856,42 @@
   },
   "us_news": [
     {
-      "title_he": "מפת דרכים של $SPCX לעשור הבא ריימונד ג'יימס אומר ש-SpaceX יכולה להגיע ל-$5T בהכנסות שנתיות ב-~90% מרווחי EBITDA בתוך העשור הבא, מכיוון ש-Starship מובילה את עלויות ההשקה מ...",
+      "title_he": "שוק הענן צפוי להכפיל את עצמו מ-$432B בשנת 2026 ל-$890B עד שנת 2028, שכן בינה מלאכותית יוצרת מאגר גדול בהרבה של ביקוש לתשתיות לכל...",
+      "summary_he": "",
+      "body_en": "The cloud market is projected to more than double from ~$432B in 2026 to ~$890B by 2028 as AI creates a much larger pool of infrastructure demand for every major hyperscaler: 2028 market share: • $AMZ",
+      "ticker": "$AMZN",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086483911845261641#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-09T16:05:04+00:00",
+      "relative_time": "לפני 27ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NVDA עשוי לצאת משנת 2028 ולהניב רווח של כמעט 1.3 מיליארד דולר בכל יום 🤯",
+      "summary_he": "",
+      "body_en": "$NVDA could exit 2028 generating nearly $1.3B in profit every single day 🤯",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086474201222025393#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-09T15:26:29+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "החוזים עתידיים של דאו ג'ונס נראים כחוק השוורים של השוק; Cisco, Lumentum רווחים קדימה",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures Loom As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-09T15:25:19+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מפת הדרכים של $SPCX לעשור הבא ריימונד ג'יימס אומר ש-SpaceX יכולה להגיע ל-$5T בהכנסה שנתית של ~90% מרווחי EBITDA בתוך העשור הבא, מכיוון ש-Starship מובילה את עלויות ההשקה מ...",
       "summary_he": "",
       "body_en": "$SPCX ROADMAP TO THE NEXT DECADE Raymond James says SpaceX can hit ~$5T in annual revenue at ~90% EBITDA margins within next decade as Starship drives launch costs from ~$2,700/kg toward ~$100/kg whil",
       "ticker": "$SPCX",
@@ -864,7 +899,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086460845933076574#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:33:24+00:00",
-      "relative_time": "לפני 56ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,11 +911,11 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086460241579798961#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:31:00+00:00",
-      "relative_time": "לפני 59ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "Scott Galloway warned the US stock market could crash within 24 months thanks to AI. Protect your nest egg while you can",
+      "title_he": "סקוט גאלווי הזהיר ששוק המניות האמריקאי עלול לקרוס תוך 24 חודשים הודות ל-AI. הגן על ביצת הקן שלך כל עוד אתה יכול",
       "summary_he": "",
       "body_en": "Scott Galloway warned the US stock market could crash within 24 months thanks to AI. Protect your nest egg while you can",
       "ticker": "",
@@ -891,18 +926,6 @@
       "sentiment": "bearish"
     },
     {
-      "title_he": "שיעורי האיזון של האינפלציה בשליטה, מה שמצביע על אמינות גבוהה של הפד @augurinfinity 2.2% ב-5 שנים, 2.3% ב-5y5y",
-      "summary_he": "",
-      "body_en": "Inflation breakeven rates are in check, suggesting high Fed credibility @augurinfinity 2.2% on the 5yr, 2.3% on the 5y5y",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086456469050802638#m",
-      "tag": "FED",
-      "published_at": "2026-08-09T14:16:01+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "פרוע לחלוטין לראות רווח שנתי של $PLTR עולה מ-120 מיליון דולר בלבד בשנת 2023 ל-$11B עד 2028, כאשר AIP מתפתח לשכבת התפעול שארגונים משתמשים בהם כדי לשלוט בנתונים שלהם,...",
       "summary_he": "",
       "body_en": "Absolutely wild to see $PLTR annual profit surge from just $120M in 2023 to ~$11B by 2028 as AIP evolves into the operating layer enterprises use to control their data, models, workflows and decisions",
@@ -911,7 +934,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086453438003720373#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:03:58+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -934,11 +957,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086444072609501520#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T13:26:45+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$AAPL - אפל פונה לסין כנשיכות במחסור בשבבים אפל בודקת שבבי זיכרון מה-CXMT של סין עבור מכשירי אייפון, מקבוקים ומכשירים אחרים, כאשר בום הבינה המלאכותית מתכווץ...",
+      "title_he": "$AAPL - אפל פונה לסין כנשיכות במחסור בשבבים אפל בודקת שבבי זיכרון מ-CXMT של סין עבור מכשירי אייפון, מקבוקים ומכשירים אחרים, כאשר בום הבינה המלאכותית מתכווץ...",
       "summary_he": "",
       "body_en": "$AAPL - APPLE TURNS TO CHINA AS CHIP SHORTAGE BITES Apple is testing memory chips from China’s CXMT for iPhones, MacBooks and other devices as the AI boom squeezes global supplies. The company is cons",
       "ticker": "$AAPL",
@@ -946,34 +969,11 @@
       "link": "https://nitter.net/DeItaone/status/2086441444521197826#m",
       "tag": "TECH",
       "published_at": "2026-08-09T13:16:19+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מספר המניות שעוברות את ה-S&P 500 הוא הגבוה ביותר מזה 4 שנים. למה המספר הזה צריך לעלות.",
-      "summary_he": "",
-      "body_en": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-09T13:00:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$AAPL is testing CXMT memory chips across iPhones and MacBooks as the AI-driven memory crunch pushes Apple to broaden its supplier base. That may add competition in…",
-      "summary_he": "",
-      "body_en": "$AAPL is testing CXMT memory chips across iPhones and MacBooks as the AI-driven memory crunch pushes Apple to broaden its supplier base. That may add competition in conventional memory but HBM should ",
-      "ticker": "$AAPL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086428985530196449#m",
-      "tag": "TECH",
-      "published_at": "2026-08-09T12:26:48+00:00",
       "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות AI סוררות ב-OpenAI, Anthropic ומטה",
+      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות בינה מלאכותית ב-OpenAI, Anthropic ומטה",
       "summary_he": "",
       "body_en": "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
       "ticker": "",
@@ -992,7 +992,7 @@
       "link": "https://nitter.net/DeItaone/status/2086414271085179051#m",
       "tag": "TECH",
       "published_at": "2026-08-09T11:28:20+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1004,7 +1004,7 @@
       "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1016,11 +1016,27 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "טרגדיה בגליל: נקבע מותו של הנער בן ה-16 שנפל מגובה במהלך סנפלינג במערת קשת",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859533",
+      "tag": "כללי",
+      "published_at": "2026-08-09T18:46:00+00:00"
+    },
+    {
+      "title_he": "מצבור אמל\"ח אותר בבנימין - החשוד תקף את החבלנים בזירה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859538",
+      "tag": "כללי",
+      "published_at": "2026-08-09T18:45:00+00:00"
+    },
     {
       "title_he": "ניגח ניידת, נמלט מהשוטרים - ונתפס כשניסה לגנוב רכב נוסף",
       "summary_he": "",
@@ -1084,22 +1100,6 @@
       "link": "https://news.walla.co.il/item/3859496",
       "tag": "כללי",
       "published_at": "2026-08-09T15:48:00+00:00"
-    },
-    {
-      "title_he": "נקבע מותו של נער כבן 12 - שנעלם במהלך שיט בנהר הירדן",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859491",
-      "tag": "כללי",
-      "published_at": "2026-08-09T15:27:00+00:00"
-    },
-    {
-      "title_he": "נרצחה ברכבה לעיני ילדיה: ארבעה חשודים נעצרו בחשד למעורבות ברצח ופא בדראן",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859490",
-      "tag": "כללי",
-      "published_at": "2026-08-09T15:22:00+00:00"
     }
   ],
   "track_record": {
