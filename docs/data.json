@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T11:27:52.573240+00:00",
+  "generated_at": "2026-08-09T11:57:21.393076+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T11:27:52.573251+00:00",
+  "ta_generated_at": "2026-08-09T11:57:21.393087+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,929",
-      "change": "+0.03%",
+      "value": "$64,909",
+      "change": "+0.00%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.03143810907677751
+      "pct_raw": 0.0008565906423020645
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,29 @@
   },
   "us_news": [
     {
+      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות בינה מלאכותית ב-OpenAI, Anthropic ומטה",
+      "summary_he": "",
+      "body_en": "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+      "tag": "TECH",
+      "published_at": "2026-08-09T11:31:42+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$AAPL - APPLE בודקת שבבי זיכרון סיניים עבור אייפון, MACBOOKS אפל בוחנת שבבי זיכרון מיצרנית המוליכים למחצה הסינית CXMT על פני מספר קווי מוצרים,...",
+      "summary_he": "",
+      "body_en": "$AAPL - APPLE TESTS CHINESE MEMORY CHIPS FOR IPHONES, MACBOOKS Apple is testing memory chips from Chinese semiconductor maker CXMT across several product lines, including iPhones and MacBooks, accordi",
+      "ticker": "$AAPL",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086414271085179051#m",
+      "tag": "TECH",
+      "published_at": "2026-08-09T11:28:20+00:00",
+      "relative_time": "לפני 28ד׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "82% מחברות S&P 500 דיווחו כעת: 86% ניצחו את הערכות הרווח למניה 75% ניצחו את הערכות ההכנסות",
       "summary_he": "",
       "body_en": "82% of S&P 500 companies have now reported: 86% have beaten EPS estimates 75% have beaten revenue estimates",
@@ -864,7 +887,7 @@
       "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "bullish"
     },
     {
@@ -880,18 +903,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "זהב מת ב-2026 לאחר הרווח האדיר של 2025 @augurinfinity $GLD",
-      "summary_he": "",
-      "body_en": "Gold dead flat in 2026 after 2025's massive gain @augurinfinity $GLD",
-      "ticker": "$GLD",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-08T18:46:01+00:00",
-      "relative_time": "לפני 16ש׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "לפני חודשיים השקנו את Earnings Edge בערוץ היוטיוב Futurum Equities שהוא סדרה קצרה שבה אני מפרק את הרווחים של כל חברה, התגובה שלי ל...",
       "summary_he": "",
       "body_en": "Two months ago we launched Earnings Edge on the Futurum Equities YouTube channel which is a short-form series where I break down each company’s earnings, my reaction to the results and what they mean ",
@@ -900,7 +911,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
     {
@@ -912,7 +923,19 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 20ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית מלאה על פני C-UAS, ISR,...",
+      "summary_he": "",
+      "body_en": "FULL BREAKDOWN OF $ONDS AUTONOMOUS DEFENSE PLATFORM Ondas is stitching together 12+ acquisitions into a full-stack autonomous defense platform across C-UAS, ISR, loitering munitions and ground robotic",
+      "ticker": "$ONDS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086111113800999212#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T15:23:42+00:00",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
     },
     {
@@ -939,28 +962,26 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @StockSavvyShay: השינוי בן 5 השנים של $GOOGL CLOUD הוא מטורף Google Cloud לפני חמש שנים: • קצב ריצה שנתי של $19B עם הפסד תפעולי של $3B • TPUs פעלו רק...",
+      "title_he": "עזוב את בועת ה-Capex של הבינה המלאכותית (AI): מנכ\"ל SpaceX, אילון מאסק, אומר שהמחסור בזיכרון יביא לעלויות גבוהות עוד יותר",
       "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $GOOGL CLOUD’S 5-YEAR TRANSFORMATION IS INSANE Google Cloud five years ago: • $19B annual run rate with a $3B operating loss • TPUs ran only internally and Gemini didn’t exist G",
-      "ticker": "$GOOGL",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086062522403033346#m",
+      "body_en": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/forget-artificial-intelligence-ai-capex-105000380.html",
       "tag": "TECH",
-      "published_at": "2026-08-08T12:10:37+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "bearish"
+      "published_at": "2026-08-08T10:50:00+00:00",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "RT מאת @cperruna: לפני שנתיים, Google Cloud הניב רווח תפעולי של 1.B$ ברווח של 11%. היום: - 8.8 מיליארד דולר רווח תפעולי. - מרווח של 36%. זה עלייה של פי 7.3...",
+      "title_he": "השכר בארה\"ב צונח ל-43% מההכנסה הלאומית - הנמוך ביותר מאז השפל הגדול. האם פרידת הזהב של ניקסון הרגה את המשכורות?",
       "summary_he": "",
-      "body_en": "RT by @cperruna: Two years ago, Google Cloud generated $1.B in operating income at an 11% margin. Today: - $8.8B operating income. - 36% margin. That's a 7.3x increase in operating profit. $GOOGL $GOO",
-      "ticker": "$GOOGL",
-      "source": "@cperruna",
-      "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
-      "tag": "TECH",
-      "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "bullish"
+      "body_en": "US wages plummet to 43% of national income — lowest since the Great Depression. Did Nixon’s gold breakup kill paychecks?",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/economy/articles/us-wages-plummet-43-national-104500200.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-08T10:45:00+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "\"התעריפים היו מדהימים\": טראמפ אומר שאמריקה \"מתנדנדת\" כמו טויוטה, ענקיות מזרימות מיליארדים לארה\"ב. הוא צדק?",
