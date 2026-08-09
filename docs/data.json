@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T21:31:12.575299+00:00",
+  "generated_at": "2026-08-09T22:29:32.892296+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T21:31:12.575310+00:00",
+  "ta_generated_at": "2026-08-09T22:29:32.892308+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,399.7",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "$4,400.9",
+      "change": "+0.03%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.0
+      "pct_raw": 0.027274586903648392
     },
     {
       "name": "נפט ברנט",
-      "value": "$83.5",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "$84.5",
+      "change": "+1.14%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.0
+      "pct_raw": 1.1370436864153237
     },
     {
       "name": "ביטקוין",
-      "value": "$65,094",
-      "change": "+0.29%",
+      "value": "$65,183",
+      "change": "+0.42%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.2855343224469747
+      "pct_raw": 0.4229277639576412
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.998",
-      "change": "-0.57%",
+      "value": "2.992",
+      "change": "-0.77%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.567126558768908
+      "pct_raw": -0.7661183337755338
     }
   ],
   "sectors": [
@@ -856,47 +856,37 @@
   },
   "us_news": [
     {
-      "title_he": "UPS השלימה את החזרה האחורית של אמזון. האם המהפך סוף סוף עובד?",
+      "title_he": "החוזים העתידיים על מניות ארה\"ב עומדים ללא שינוי בזמן שהמשקיעים ממתינים לנתוני האינפלציה, מתמודדים עם אי הוודאות האיראנית יותר",
       "summary_he": "",
-      "body_en": "UPS Completed Its Amazon Volume Pullback. Is the Turnaround Finally Working?",
+      "body_en": "U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty",
       "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ups-completed-amazon-volume-pullback-205917884.html",
-      "tag": "TECH",
-      "published_at": "2026-08-09T20:59:17+00:00",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
+      "tag": "MACRO",
+      "published_at": "2026-08-09T22:17:00+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "החוזים עתידיים של דאו ג'ונס נראים כחוק השוורים של השוק; Cisco, Lumentum רווחים קדימה",
+      "title_he": "החוזים עתידיים על דאו ג'ונס נופלים כפי ששולטים בשוק בולס; Cisco, Lumentum רווחים קדימה",
       "summary_he": "",
-      "body_en": "Dow Jones Futures Loom As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
+      "body_en": "Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
       "ticker": "",
       "source": "Yahoo Finance",
       "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
       "tag": "EARNINGS",
-      "published_at": "2026-08-09T20:58:45+00:00",
+      "published_at": "2026-08-09T22:06:28+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "בעלי המניות של Core Scientific (CORZ) דחו מכירה של 9 מיליארד דולר. האם עסקת AMD מחליפה אותם?",
+      "title_he": "Barrick Mining $B, Dole $DOLE, Ferguson $FERG ו-Surgery Partners $SGRY מדווחים על רווחים לפני הפתיחה מחר. Aecom Tech $ACM, Alcon $ALC, Hims $ Hers Health $HIMS,...",
       "summary_he": "",
-      "body_en": "Core Scientific (CORZ) Shareholders Rejected a $9B Sale. Does the AMD Deal Vindicate Them?",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/core-scientific-corz-shareholders-rejected-203304503.html",
-      "tag": "M&A",
-      "published_at": "2026-08-09T20:33:04+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מספר המניות שעוברות את ה-S&P 500 הוא הגבוה ביותר מזה 4 שנים. למה המספר הזה צריך לעלות.",
-      "summary_he": "",
-      "body_en": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-09T19:11:00+00:00",
+      "body_en": "Barrick Mining $B, Dole $DOLE, Ferguson $FERG, and Surgery Partners $SGRY report earnings before tomorrow's open. Aecom Tech $ACM, Alcon $ALC, Hims $ Hers Health $HIMS, and Simon Properties $SPG repor",
+      "ticker": "$B",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2086565685044433112#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-09T21:30:00+00:00",
+      "relative_time": "לפני 59ד׳",
       "sentiment": "bullish"
     },
     {
@@ -908,7 +898,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086498755658801645#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T17:04:03+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
@@ -920,11 +910,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086483911845261641#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T16:05:04+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$NVDA עשוי לצאת משנת 2028 ולהניב רווח של כמעט 1.3 מיליארד דולר בכל יום 🤯",
+      "title_he": "$NVDA could exit 2028 generating nearly $1.3B in profit every single day 🤯",
       "summary_he": "",
       "body_en": "$NVDA could exit 2028 generating nearly $1.3B in profit every single day 🤯",
       "ticker": "$NVDA",
@@ -932,7 +922,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086474201222025393#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T15:26:29+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
     },
     {
@@ -944,20 +934,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086460845933076574#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:33:24+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "פרוע לחלוטין לראות רווח שנתי של $PLTR עולה מ-120 מיליון דולר בלבד בשנת 2023 ל-$11B עד 2028, כאשר AIP מתפתח לשכבת התפעול שארגונים משתמשים בהם כדי לשלוט בנתונים שלהם,...",
-      "summary_he": "",
-      "body_en": "Absolutely wild to see $PLTR annual profit surge from just $120M in 2023 to ~$11B by 2028 as AIP evolves into the operating layer enterprises use to control their data, models, workflows and decisions",
-      "ticker": "$PLTR",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086453438003720373#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-09T14:03:58+00:00",
       "relative_time": "לפני 7ש׳",
-      "sentiment": "bullish"
+      "sentiment": "neutral"
     },
     {
       "title_he": "צמיחת המכירות של S&P 500 נמצאת בשיא של כמעט 5 שנים. הנה מה שעומד מאחורי הזינוק.",
@@ -979,40 +957,6 @@
       "link": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
       "tag": "TECH",
       "published_at": "2026-08-09T11:31:42+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "בנק אוף אמריקה מזהה כדור עקום חדש עבור מניות Magnificent Seven",
-      "summary_he": "",
-      "body_en": "Bank of America spots new curveball for Magnificent Seven stocks",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-spots-curveball-magnificent-030700311.html",
-      "tag": "BANKS",
-      "published_at": "2026-08-09T03:07:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "82% מחברות S&P 500 דיווחו כעת: 86% ניצחו את הערכות הרווח למניה 75% ניצחו את הערכות ההכנסות",
-      "summary_he": "",
-      "body_en": "82% of S&P 500 companies have now reported: 86% have beaten EPS estimates 75% have beaten revenue estimates",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "הרווחים של ברקשייר עלו ברבעון האחרון והמנכ\"ל גרג אייבל מתחיל לפרוס את מאגר המזומנים האדיר של באפט",
-      "summary_he": "",
-      "body_en": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T13:28:00+00:00",
       "sentiment": "neutral"
     }
   ],
