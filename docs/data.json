@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T11:57:21.393076+00:00",
+  "generated_at": "2026-08-09T12:59:23.361414+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T11:57:21.393087+00:00",
+  "ta_generated_at": "2026-08-09T12:59:23.361424+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,909",
-      "change": "+0.00%",
-      "direction": "up",
+      "value": "$64,905",
+      "change": "-0.01%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.0008565906423020645
+      "pct_raw": -0.005382963496726834
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,6 +856,18 @@
   },
   "us_news": [
     {
+      "title_he": "$AAPL בוחנת שבבי זיכרון CXMT במכשירי iPhone ו-MacBook, כאשר מחנק הזיכרון המונע על ידי בינה מלאכותית דוחף את אפל להרחיב את בסיס הספקים שלה. זה עשוי להוסיף תחרות ב...",
+      "summary_he": "",
+      "body_en": "$AAPL is testing CXMT memory chips across iPhones and MacBooks as the AI-driven memory crunch pushes Apple to broaden its supplier base. That may add competition in conventional memory but HBM should ",
+      "ticker": "$AAPL",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086428985530196449#m",
+      "tag": "TECH",
+      "published_at": "2026-08-09T12:26:48+00:00",
+      "relative_time": "לפני 32ד׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות בינה מלאכותית ב-OpenAI, Anthropic ומטה",
       "summary_he": "",
       "body_en": "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
@@ -875,7 +887,7 @@
       "link": "https://nitter.net/DeItaone/status/2086414271085179051#m",
       "tag": "TECH",
       "published_at": "2026-08-09T11:28:20+00:00",
-      "relative_time": "לפני 28ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +899,7 @@
       "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "bullish"
     },
     {
@@ -899,7 +911,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +923,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +935,7 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "neutral"
     },
     {
@@ -935,7 +947,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086111113800999212#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:23:42+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "neutral"
     },
     {
@@ -947,7 +959,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 21ש׳",
+      "relative_time": "לפני 22ש׳",
       "sentiment": "bullish"
     },
     {
@@ -960,53 +972,41 @@
       "tag": "EARNINGS",
       "published_at": "2026-08-08T13:28:00+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "עזוב את בועת ה-Capex של הבינה המלאכותית (AI): מנכ\"ל SpaceX, אילון מאסק, אומר שהמחסור בזיכרון יביא לעלויות גבוהות עוד יותר",
-      "summary_he": "",
-      "body_en": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/forget-artificial-intelligence-ai-capex-105000380.html",
-      "tag": "TECH",
-      "published_at": "2026-08-08T10:50:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "השכר בארה\"ב צונח ל-43% מההכנסה הלאומית - הנמוך ביותר מאז השפל הגדול. האם פרידת הזהב של ניקסון הרגה את המשכורות?",
-      "summary_he": "",
-      "body_en": "US wages plummet to 43% of national income — lowest since the Great Depression. Did Nixon’s gold breakup kill paychecks?",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/economy/articles/us-wages-plummet-43-national-104500200.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-08T10:45:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "\"התעריפים היו מדהימים\": טראמפ אומר שאמריקה \"מתנדנדת\" כמו טויוטה, ענקיות מזרימות מיליארדים לארה\"ב. הוא צדק?",
-      "summary_he": "",
-      "body_en": "‘Tariffs have been incredible’: Trump says America’s ‘rocking’ as Toyota, giants pour billions into US. Was he right?",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/economy/policy/articles/tariffs-incredible-trump-says-america-101500758.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-08T10:15:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שיעורי משכנתא ומימון מחדש היום, שבת, 8 באוגוסט, 2026: שיעורים מעורבים בסוף השבוע הזה",
-      "summary_he": "",
-      "body_en": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
-      "tag": "FED",
-      "published_at": "2026-08-08T10:00:00+00:00",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "נרצחה ברכבה לעיני ילדיה: ארבעה חשודים נעצרו בחשד למעורבות ברצח ופא בדראן",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859490",
+      "tag": "כללי",
+      "published_at": "2026-08-09T15:22:00+00:00"
+    },
+    {
+      "title_he": "התחזו לנציגי ביטוח, שלפו פרטים אישיים ורוקנו חשבונות: בני זוג נעצרו בחשד להונאת ענק",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859483",
+      "tag": "כללי",
+      "published_at": "2026-08-09T15:05:00+00:00"
+    },
+    {
+      "title_he": "\"הרים אותו כמו סרדין\": טענות קשות של משפחת לוחם פצוע על בית החולים רמב\"ם",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859479",
+      "tag": "כללי",
+      "published_at": "2026-08-09T14:51:00+00:00"
+    },
+    {
+      "title_he": "ללא מזון ובמצב רזון קיצוני: שני סוסים חולצו ממתחם בקריית אתא",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859481",
+      "tag": "כללי",
+      "published_at": "2026-08-09T14:47:00+00:00"
+    },
     {
       "title_he": "\"בסוף מישהו ימות\": הצהרת תובע נגד החשוד בהשלכת לבנים לעבר חדשות 12",
       "summary_he": "",
@@ -1048,44 +1048,12 @@
       "published_at": "2026-08-09T12:23:00+00:00"
     },
     {
-      "title_he": "בית המשפט דחה את ערר אלוף פיקוד המרכז, בוטל צו ההגבלה על החשוד בתקיפה מינית של פלסטיני",
+      "title_he": "בית המשפט דחה את ערר אלוף פיקוד המרכז: בוטל צו ההגבלה על החשוד בתקיפה מינית של פלסטיני",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3859448",
       "tag": "כללי",
       "published_at": "2026-08-09T12:17:00+00:00"
-    },
-    {
-      "title_he": "\"אני אהרוג אתכם\": עלו לגג עם רובה סער ופתחו בירי לעבר משפחתם",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859426",
-      "tag": "כללי",
-      "published_at": "2026-08-09T11:51:00+00:00"
-    },
-    {
-      "title_he": "\"אני אראה לך מה זה, אני אהרוג אותך\": כתב אישום חמור נגד בעל מכה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859425",
-      "tag": "כללי",
-      "published_at": "2026-08-09T11:45:00+00:00"
-    },
-    {
-      "title_he": "עבירת התנועה הובילה למעצר: קטין נתפס עם כ-50 גרם קוקאין",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859411",
-      "tag": "כללי",
-      "published_at": "2026-08-09T11:18:00+00:00"
-    },
-    {
-      "title_he": "שמעו את יקיריהם נרצחים דרך הטלפון, המדינה מסרבת להכיר בהם כנפגעי איבה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859399",
-      "tag": "כללי",
-      "published_at": "2026-08-09T11:07:00+00:00"
     }
   ],
   "track_record": {
