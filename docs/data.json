@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T05:03:51.466462+00:00",
+  "generated_at": "2026-08-09T06:07:33.497346+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T05:03:51.466472+00:00",
+  "ta_generated_at": "2026-08-09T06:07:33.497358+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,739",
-      "change": "-0.26%",
+      "value": "$64,752",
+      "change": "-0.24%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.2609273696794307
+      "pct_raw": -0.24106864058016622
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bullish"
     },
     {
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
       "tag": "NEWS",
       "published_at": "2026-08-08T18:46:01+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +900,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -912,19 +912,7 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 13ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "פירוט מלא של פלטפורמת ההגנה האוטונומית של $ONDS Ondas מחברת 12+ רכישות לפלטפורמת הגנה אוטונומית מלאה על פני C-UAS, ISR,...",
-      "summary_he": "",
-      "body_en": "FULL BREAKDOWN OF $ONDS AUTONOMOUS DEFENSE PLATFORM Ondas is stitching together 12+ acquisitions into a full-stack autonomous defense platform across C-UAS, ISR, loitering munitions and ground robotic",
-      "ticker": "$ONDS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086111113800999212#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T15:23:42+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -936,7 +924,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "bullish"
     },
     {
@@ -951,6 +939,18 @@
       "sentiment": "neutral"
     },
     {
+      "title_he": "RT מאת @StockSavvyShay: השינוי בן 5 השנים של $GOOGL CLOUD הוא מטורף Google Cloud לפני חמש שנים: • קצב ריצה שנתי של $19B עם הפסד תפעולי של $3B • TPUs פעלו רק...",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: $GOOGL CLOUD’S 5-YEAR TRANSFORMATION IS INSANE Google Cloud five years ago: • $19B annual run rate with a $3B operating loss • TPUs ran only internally and Gemini didn’t exist G",
+      "ticker": "$GOOGL",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086062522403033346#m",
+      "tag": "TECH",
+      "published_at": "2026-08-08T12:10:37+00:00",
+      "relative_time": "לפני 17ש׳",
+      "sentiment": "bearish"
+    },
+    {
       "title_he": "RT מאת @cperruna: לפני שנתיים, Google Cloud הניב רווח תפעולי של 1.B$ ברווח של 11%. היום: - 8.8 מיליארד דולר רווח תפעולי. - מרווח של 36%. זה עלייה של פי 7.3...",
       "summary_he": "",
       "body_en": "RT by @cperruna: Two years ago, Google Cloud generated $1.B in operating income at an 11% margin. Today: - $8.8B operating income. - 36% margin. That's a 7.3x increase in operating profit. $GOOGL $GOO",
@@ -959,18 +959,18 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "Oklo Inc. Q2 2026 סיכום שיחות רווחים",
+      "title_he": "גלישה שבועית: ביטקוין פגע ב-Coldcard Hack ואכזבה בחוק Clarity",
       "summary_he": "",
-      "body_en": "Oklo Inc. Q2 2026 Earnings Call Summary",
+      "body_en": "Weekly Wrap: Bitcoin Hit By Coldcard Hack And Clarity Act Disappointment",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/energy/articles/oklo-inc-q2-2026-earnings-212453604.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-07T21:24:53+00:00",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-bitcoin-hit-coldcard-221100213.html",
+      "tag": "CRYPTO",
+      "published_at": "2026-08-07T22:11:00+00:00",
       "sentiment": "neutral"
     }
   ],
