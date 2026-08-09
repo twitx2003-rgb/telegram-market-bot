@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T06:07:33.497346+00:00",
+  "generated_at": "2026-08-09T07:31:48.819780+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T06:07:33.497358+00:00",
+  "ta_generated_at": "2026-08-09T07:31:48.819791+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,752",
-      "change": "-0.24%",
+      "value": "$64,781",
+      "change": "-0.20%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.24106864058016622
+      "pct_raw": -0.19635953907042092
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
       "tag": "NEWS",
       "published_at": "2026-08-08T18:46:01+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +900,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -912,7 +912,7 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
@@ -924,7 +924,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "bullish"
     },
     {
@@ -947,7 +947,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086062522403033346#m",
       "tag": "TECH",
       "published_at": "2026-08-08T12:10:37+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "bearish"
     },
     {
@@ -959,18 +959,29 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "גלישה שבועית: ביטקוין פגע ב-Coldcard Hack ואכזבה בחוק Clarity",
+      "title_he": "אינטל ביטלה את הדיבידנד שלה בשנת 2024. כעת המניה עלתה ב-389% והמשקיעים רוצים אותה בחזרה.",
       "summary_he": "",
-      "body_en": "Weekly Wrap: Bitcoin Hit By Coldcard Hack And Clarity Act Disappointment",
+      "body_en": "Intel Quashed Its Dividend in 2024. Now the Stock's Up 389% and Investors Want It Back.",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-bitcoin-hit-coldcard-221100213.html",
-      "tag": "CRYPTO",
-      "published_at": "2026-08-07T22:11:00+00:00",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-quashed-dividend-2024-now-230002940.html",
+      "tag": "TECH",
+      "published_at": "2026-08-07T23:00:02+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סוחרי הנפט נשארים דוביים למרות העמקת השיבושים במזרח התיכון",
+      "summary_he": "",
+      "body_en": "Oil Traders Stay Bearish Despite Deepening Middle East Disruptions",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/energy/articles/oil-traders-stay-bearish-despite-230000144.html",
+      "tag": "ENERGY",
+      "published_at": "2026-08-07T23:00:00+00:00",
       "sentiment": "neutral"
     }
   ],
