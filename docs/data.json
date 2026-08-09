@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T10:33:36.302160+00:00",
+  "generated_at": "2026-08-09T11:27:52.573240+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T10:33:36.302170+00:00",
+  "ta_generated_at": "2026-08-09T11:27:52.573251+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,894",
-      "change": "-0.02%",
-      "direction": "down",
+      "value": "$64,929",
+      "change": "+0.03%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.022961559231602136
+      "pct_raw": 0.03143810907677751
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "bullish"
     },
     {
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 15ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
       "tag": "NEWS",
       "published_at": "2026-08-08T18:46:01+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +900,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "neutral"
     },
     {
@@ -924,7 +924,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "bullish"
     },
     {
@@ -947,7 +947,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086062522403033346#m",
       "tag": "TECH",
       "published_at": "2026-08-08T12:10:37+00:00",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "bearish"
     },
     {
@@ -959,7 +959,7 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 22ש׳",
+      "relative_time": "לפני 23ש׳",
       "sentiment": "bullish"
     },
     {
@@ -983,17 +983,6 @@
       "tag": "FED",
       "published_at": "2026-08-08T10:00:00+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "דגשים בשיחות רווחים של fuboTV Q3",
-      "summary_he": "",
-      "body_en": "fuboTV Q3 Earnings Call Highlights",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/media-advertising/articles/fubotv-q3-earnings-call-highlights-080401998.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T08:04:01+00:00",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
@@ -1004,6 +993,14 @@
       "link": "https://news.walla.co.il/item/3859458",
       "tag": "כללי",
       "published_at": "2026-08-09T13:18:00+00:00"
+    },
+    {
+      "title_he": "טרגדיה בלוד: בן 5 נשכח ברכב במשך כשעתיים - מותו נקבע בבית החולים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859455",
+      "tag": "כללי",
+      "published_at": "2026-08-09T13:11:00+00:00"
     },
     {
       "title_he": "צעירה הגיעה לניתוח אף - וקיבלה חומצה במקום חומר הרדמה",
@@ -1068,14 +1065,6 @@
       "link": "https://news.walla.co.il/item/3859399",
       "tag": "כללי",
       "published_at": "2026-08-09T11:07:00+00:00"
-    },
-    {
-      "title_he": "סירבו לפתוח את הדלת - השוטרים פרצו וחשפו בית הימורים באשדוד",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859404",
-      "tag": "כללי",
-      "published_at": "2026-08-09T10:28:00+00:00"
     }
   ],
   "track_record": {
