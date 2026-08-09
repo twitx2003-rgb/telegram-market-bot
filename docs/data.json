@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T17:30:39.204794+00:00",
+  "generated_at": "2026-08-09T18:39:14.750934+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T17:30:39.204805+00:00",
+  "ta_generated_at": "2026-08-09T18:39:14.750944+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$65,185",
-      "change": "+0.43%",
+      "value": "$65,165",
+      "change": "+0.40%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4267639342801493
+      "pct_raw": 0.39538128790684113
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,22 +864,23 @@
       "link": "https://nitter.net/RyanDetrick/status/2086498755658801645#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T17:04:03+00:00",
-      "relative_time": "לפני 26ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "החוזים עתידיים של דאו ג'ונס נראים כחוק השוורים של השוק; Cisco, Lumentum רווחים קדימה",
+      "title_he": "טראמפ עובר לאסטרטגיה \"נמוכה\" באיראן טראמפ אומר כי ארה\"ב \"מתנגדת\" לאיראן, ומאותתת שהלחץ הכלכלי יקבל עדיפות על פני חידוש צבאי...",
       "summary_he": "",
-      "body_en": "Dow Jones Futures Loom As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
+      "body_en": "TRUMP SHIFTS TO A “LOW-KEY” STRATEGY ON IRAN Trump says the U.S. is “low keying it” with Iran, signaling economic pressure will take priority over renewed military action for now. He argues Iran’s eco",
       "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-09T16:25:05+00:00",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086498383833825580#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-09T17:02:34+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "שוק הענן צפוי להכפיל את עצמו מ-$432B בשנת 2026 ל-$890B עד שנת 2028, שכן בינה מלאכותית יוצרת מאגר גדול בהרבה של ביקוש לתשתיות לכל...",
+      "title_he": "שוק הענן צפוי להכפיל את עצמו מ-432 מיליארד דולר ב-2026 ל-890 מיליארד דולר עד 2028, מכיוון ש-AI יוצר מאגר גדול בהרבה של ביקוש לתשתיות עבור כל...",
       "summary_he": "",
       "body_en": "The cloud market is projected to more than double from ~$432B in 2026 to ~$890B by 2028 as AI creates a much larger pool of infrastructure demand for every major hyperscaler: 2028 market share: • $AMZ",
       "ticker": "$AMZN",
@@ -887,7 +888,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086483911845261641#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T16:05:04+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,11 +900,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086474201222025393#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T15:26:29+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "מפת הדרכים של $SPCX לעשור הבא ריימונד ג'יימס אומר ש-SpaceX יכולה להגיע ל-$5T בהכנסה שנתית של ~90% מרווחי EBITDA בתוך העשור הבא, מכיוון ש-Starship מובילה את עלויות ההשקה מ...",
+      "title_he": "מפת דרכים של $SPCX לעשור הבא ריימונד ג'יימס אומר ש-SpaceX יכולה להגיע ל-$5T בהכנסות שנתיות ב-~90% מרווחי EBITDA בתוך העשור הבא, מכיוון ש-Starship מובילה את עלויות ההשקה מ...",
       "summary_he": "",
       "body_en": "$SPCX ROADMAP TO THE NEXT DECADE Raymond James says SpaceX can hit ~$5T in annual revenue at ~90% EBITDA margins within next decade as Starship drives launch costs from ~$2,700/kg toward ~$100/kg whil",
       "ticker": "$SPCX",
@@ -911,19 +912,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086460845933076574#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:33:24+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "סקוט גאלווי הזהיר ששוק המניות האמריקאי עלול לקרוס תוך 24 חודשים הודות ל-AI. הגן על ביצת הקן שלך כל עוד אתה יכול",
-      "summary_he": "",
-      "body_en": "Scott Galloway warned the US stock market could crash within 24 months thanks to AI. Protect your nest egg while you can",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/scott-galloway-warned-us-stock-142000770.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-09T14:20:00+00:00",
-      "sentiment": "bearish"
     },
     {
       "title_he": "פרוע לחלוטין לראות רווח שנתי של $PLTR עולה מ-120 מיליון דולר בלבד בשנת 2023 ל-$11B עד 2028, כאשר AIP מתפתח לשכבת התפעול שארגונים משתמשים בהם כדי לשלוט בנתונים שלהם,...",
@@ -934,7 +924,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086453438003720373#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T14:03:58+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "bullish"
     },
     {
@@ -957,11 +947,34 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086444072609501520#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T13:26:45+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות בינה מלאכותית ב-OpenAI, Anthropic ומטה",
+      "title_he": "$AAPL - אפל פונה לסין כנשיכות במחסור בשבבים אפל בודקת שבבי זיכרון מה-CXMT של סין עבור מכשירי אייפון, מקבוקים ומכשירים אחרים, כאשר בום הבינה המלאכותית מתכווץ...",
+      "summary_he": "",
+      "body_en": "$AAPL - APPLE TURNS TO CHINA AS CHIP SHORTAGE BITES Apple is testing memory chips from China’s CXMT for iPhones, MacBooks and other devices as the AI boom squeezes global supplies. The company is cons",
+      "ticker": "$AAPL",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086441444521197826#m",
+      "tag": "TECH",
+      "published_at": "2026-08-09T13:16:19+00:00",
+      "relative_time": "לפני 5ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מספר המניות שעוברות את ה-S&P 500 הוא הגבוה ביותר מזה 4 שנים. למה המספר הזה צריך לעלות.",
+      "summary_he": "",
+      "body_en": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-09T13:00:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות AI סוררות ב-OpenAI, Anthropic ומטה",
       "summary_he": "",
       "body_en": "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
       "ticker": "",
@@ -969,6 +982,29 @@
       "link": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
       "tag": "TECH",
       "published_at": "2026-08-09T11:31:42+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$AAPL - APPLE בודקת שבבי זיכרון סיניים עבור אייפון, MACBOOKS אפל בוחנת שבבי זיכרון מיצרנית המוליכים למחצה הסינית CXMT על פני מספר קווי מוצרים,...",
+      "summary_he": "",
+      "body_en": "$AAPL - APPLE TESTS CHINESE MEMORY CHIPS FOR IPHONES, MACBOOKS Apple is testing memory chips from Chinese semiconductor maker CXMT across several product lines, including iPhones and MacBooks, accordi",
+      "ticker": "$AAPL",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086414271085179051#m",
+      "tag": "TECH",
+      "published_at": "2026-08-09T11:28:20+00:00",
+      "relative_time": "לפני 7ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בנק אוף אמריקה מזהה כדור עקום חדש עבור מניות Magnificent Seven",
+      "summary_he": "",
+      "body_en": "Bank of America spots new curveball for Magnificent Seven stocks",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-spots-curveball-magnificent-030700311.html",
+      "tag": "BANKS",
+      "published_at": "2026-08-09T03:07:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -980,22 +1016,19 @@
       "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 19ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "שיעורי משכנתא ומימון מחדש היום, שבת, 8 באוגוסט, 2026: שיעורים מעורבים בסוף השבוע הזה",
-      "summary_he": "",
-      "body_en": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
-      "tag": "FED",
-      "published_at": "2026-08-08T10:00:00+00:00",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "גבר נדרס למוות בצומת פרדסיה - המשטרה בוחנת חשד לפגע וברח",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859559",
+      "tag": "כללי",
+      "published_at": "2026-08-09T21:27:00+00:00"
+    },
     {
       "title_he": "\"מרגיש מאוים\": בן של ח\"כ לשעבר מש\"ס נעצר - כשהוא נושא אקדח טעון ללא רישיון",
       "summary_he": "",
@@ -1067,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3859508",
       "tag": "כללי",
       "published_at": "2026-08-09T16:22:00+00:00"
-    },
-    {
-      "title_he": "בתוך שבועיים: בן 4 בלע סוללה, בת 5 בלעה 16 מגנטים ונזקקה לניתוח מורכב",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859498",
-      "tag": "כללי",
-      "published_at": "2026-08-09T15:59:00+00:00"
     }
   ],
   "track_record": {
