@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:41:16.510969+00:00",
+  "generated_at": "2026-08-09T09:38:10.505773+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-09T08:41:16.510980+00:00",
+  "ta_generated_at": "2026-08-09T09:38:10.505783+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$64,771",
-      "change": "-0.21%",
+      "value": "$64,767",
+      "change": "-0.22%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.2111649996324032
+      "pct_raw": -0.218390557388451
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -864,7 +864,7 @@
       "link": "https://nitter.net/wallstengine/status/2086205154190348671#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T21:37:23+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "bullish"
     },
     {
@@ -876,7 +876,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086180857027416132#m",
       "tag": "MACRO",
       "published_at": "2026-08-08T20:00:50+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +888,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2086162027651719226#m",
       "tag": "NEWS",
       "published_at": "2026-08-08T18:46:01+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +900,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086118367010967988#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T15:52:31+00:00",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     },
     {
@@ -912,7 +912,7 @@
       "link": "https://nitter.net/wallstengine/status/2086112529080803396#m",
       "tag": "TECH",
       "published_at": "2026-08-08T15:29:19+00:00",
-      "relative_time": "לפני 17ש׳",
+      "relative_time": "לפני 18ש׳",
       "sentiment": "neutral"
     },
     {
@@ -924,7 +924,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086093842248257908#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-08T14:15:04+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 19ש׳",
       "sentiment": "bullish"
     },
     {
@@ -947,7 +947,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086062522403033346#m",
       "tag": "TECH",
       "published_at": "2026-08-08T12:10:37+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "bearish"
     },
     {
@@ -959,11 +959,22 @@
       "link": "https://nitter.net/qualtrim/status/2086056076022050997#m",
       "tag": "TECH",
       "published_at": "2026-08-08T11:45:00+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "China Yuchai International Limited סיכום שיחות רווח ברבעון 2 2026",
+      "title_he": "שיעורי משכנתא ומימון מחדש היום, שבת, 8 באוגוסט, 2026: שיעורים מעורבים בסוף השבוע הזה",
+      "summary_he": "",
+      "body_en": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
+      "tag": "FED",
+      "published_at": "2026-08-08T10:00:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "China Yuchai International Limited סיכום שיחת רווחים ברבעון 2 2026",
       "summary_he": "",
       "body_en": "China Yuchai International Limited Q2 2026 Earnings Call Summary",
       "ticker": "",
@@ -983,20 +994,33 @@
       "tag": "EARNINGS",
       "published_at": "2026-08-08T02:52:03+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "SEC מבטל את תביעת הסחר במידע פנים נגד בכיר לשעבר בתחום הבריאות שקיבל חנינה על ידי טראמפ",
-      "summary_he": "",
-      "body_en": "SEC drops insider trading suit against ex-healthcare executive pardoned by Trump",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/news/sec-drops-insider-trading-suit-021049395.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-08T02:10:49+00:00",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "נשקים, רימונים ומאות כדורים: התחמושת הצבאית הגנובה שנמצאה בעקבות הירי לכרמית",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859440",
+      "tag": "כללי",
+      "published_at": "2026-08-09T12:23:00+00:00"
+    },
+    {
+      "title_he": "\"אני אהרוג אתכם\": עלו לגג עם רובה סער ופתחו בירי לעבר משפחתם",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859426",
+      "tag": "כללי",
+      "published_at": "2026-08-09T11:51:00+00:00"
+    },
+    {
+      "title_he": "\"אני אראה לך מה זה, אני אהרוג אותך\": כתב אישום חמור נגד בעל מכה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859425",
+      "tag": "כללי",
+      "published_at": "2026-08-09T11:45:00+00:00"
+    },
     {
       "title_he": "עבירת התנועה הובילה למעצר: קטין נתפס עם כ-50 גרם קוקאין",
       "summary_he": "",
@@ -1052,30 +1076,6 @@
       "link": "https://news.walla.co.il/item/3859312",
       "tag": "כללי",
       "published_at": "2026-08-08T23:26:00+00:00"
-    },
-    {
-      "title_he": "דחף קשיש בן 78 במשרד הרישוי והותיר אותו על הרצפה - המאבטח נשלח לכלא",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859296",
-      "tag": "כללי",
-      "published_at": "2026-08-08T21:58:00+00:00"
-    },
-    {
-      "title_he": "זמר מוכר נעצר בחשד לאלימות כלפי בת זוגו: \"איים עליה ושבר חלונות\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859294",
-      "tag": "כללי",
-      "published_at": "2026-08-08T21:41:00+00:00"
-    },
-    {
-      "title_he": "השאיר כדורי אקדח וסכינים בכניסות לבנקים ולרשת מזון - ונעצר",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859292",
-      "tag": "כללי",
-      "published_at": "2026-08-08T21:34:00+00:00"
     }
   ],
   "track_record": {
