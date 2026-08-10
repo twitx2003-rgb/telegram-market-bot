@@ -86,7 +86,9 @@
    "price_at_rec": 31.07,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 13.81
+   "last_pnl": 13.81,
+   "closed_pnl": 13.81,
+   "closed_date": "2026-08-10"
   },
   {
    "ticker": "NFLX",
