@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:43:05.768693+00:00",
+  "generated_at": "2026-08-10T11:46:28.498881+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-10T10:43:05.768704+00:00",
+  "ta_generated_at": "2026-08-10T11:46:28.498892+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.45",
-      "change": "+3.69%",
+      "value": "15.44",
+      "change": "+3.62%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 3.6912751677852276
+      "pct_raw": 3.6241610738254977
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,401.0",
-      "change": "+0.03%",
-      "direction": "up",
+      "value": "$4,395.5",
+      "change": "-0.10%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.0295474691456277
+      "pct_raw": -0.0954610541627797
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.5",
-      "change": "+1.11%",
+      "value": "$84.7",
+      "change": "+1.41%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.1131059245960584
+      "pct_raw": 1.4123279473369321
     },
     {
       "name": "ביטקוין",
-      "value": "$64,957",
-      "change": "+0.17%",
+      "value": "$65,004",
+      "change": "+0.24%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.1664083585311324
+      "pct_raw": 0.23923919395031926
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,169",
-      "change": "-0.00%",
+      "value": "4,155",
+      "change": "-0.33%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.0031182762169099116
+      "pct_raw": -0.3314967485973902
     },
     {
       "name": "דולר/שקל",
-      "value": "2.997",
-      "change": "-0.03%",
-      "direction": "down",
+      "value": "3.000",
+      "change": "+0.07%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.030019012040963376
+      "pct_raw": 0.06670891564658363
     }
   ],
   "sectors": [
@@ -856,6 +856,147 @@
   },
   "us_news": [
     {
+      "title_he": "כורה אדמה נדירה באוסטרליה עולה לאחר השקעה של משרד ההגנה האמריקני",
+      "summary_he": "",
+      "body_en": "Australian rare earth miner surges after U.S. Department of Defense investment",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/10/rare-earths-sunrise-energy-metals-trump-cina.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-10T11:44:14+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "גולדמן רואה את מדד המחירים לצרכן ביולי עולה ב-5 bps, YoY ל-3.35% ליבה עולה ב-19bps, YoY ל-2.47% \"אנו מצפים ללחץ קל כלפי מעלה על קטגוריית התקשורת מההודעה האחרונה...",
+      "summary_he": "",
+      "body_en": "Goldman sees July CPI rising 5bps, YoY to 3.35% Core up 19bps, YoY to 2.47% \"We expect slight upward pressure on the communications category from recently announced price increases for consumer electr",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086776072293454308#m",
+      "tag": "BANKS",
+      "published_at": "2026-08-10T11:26:00+00:00",
+      "relative_time": "לפני 19ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$META משחררת את Muse Glimmer שהוא דגם סוכן בעל משקל פתוח של 30B הפועל באופן מקומי על מעבד גרפי של 24GB ומשתמש במנסח DFlash משולב כדי לחתוך זמן אחזור מהיר יותר...",
+      "summary_he": "",
+      "body_en": "$META releases Muse Glimmer which is a 30B open-weight agentic model that runs locally on a 24GB GPU and uses an integrated DFlash drafter to cut latency for faster on-device agents. Alexandr Wang als",
+      "ticker": "$META",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086775849140080831#m",
+      "tag": "TECH",
+      "published_at": "2026-08-10T11:25:07+00:00",
+      "relative_time": "לפני 20ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "דגשים ברווחים של CEVA Q2'26 🔹 הכנסות: 29.0 מיליון דולר (אומדנים 28.2 מיליון דולר) 🟢; +13% YoY 🔹 התאמה EPS: $0.08 (הערכה. $0.07) 🟢; +14% בשנה 🔹 רישוי והכנסות קשורות: 18.2 מיליון דולר; +21% בשנה…",
+      "summary_he": "",
+      "body_en": "$CEVA Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $29.0M (Est. $28.2M) 🟢; +13% YoY 🔹 Adj. EPS: $0.08 (Est. $0.07) 🟢; +14% YoY 🔹 Licensing & Related Revenue: $18.2M; +21% YoY Segment Net Revenue: 🔹 Licensing ",
+      "ticker": "$CEVA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086774012630466993#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T11:17:49+00:00",
+      "relative_time": "לפני 28ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "CAMTEK $CAMT Q2'26 שירי רווחים 🔹 הכנסות: $133.2M (הערכה. $130M) 🟢; +8% YoY 🔹 התאמה EPS: $0.78 (הערכה. $0.76) 🟢; +2% משנה לשנה 🔹 הכנסה תפעולית ללא GAAP: 36.0 מיליון דולר (הערכה של 34.9 מיליון דולר)...",
+      "summary_he": "",
+      "body_en": "CAMTEK $CAMT Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $133.2M (Est. $130M) 🟢; +8% YoY 🔹 Adj. EPS: $0.78 (Est. $0.76) 🟢; +2% YoY 🔹 Non-GAAP Oper Income: $36.0M (Est. $34.9M) 🟢; -4% YoY 🔹 Non-GAAP Net Incom",
+      "ticker": "$CAMT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086773970293125395#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T11:17:39+00:00",
+      "relative_time": "לפני 28ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$TSM מדווח על הכנסות של ~14.4 מיליארד דולר ביולי (+45% בשנה שעברה) כאשר הצמיחה מואצת מעל לתחזית הקודמת של ~37%. בית היציקה הגדול בעולם מעלה כעת גם את ההשקעה וגם את הצמיחה...",
+      "summary_he": "",
+      "body_en": "$TSM reports ~$14.4B in July revenue (+45% YoY) as growth accelerates above its prior ~37% outlook. The world’s largest foundry is now raising both capex and growth expectations together providing the",
+      "ticker": "$TSM",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086773023739441656#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T11:13:53+00:00",
+      "relative_time": "לפני 32ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "MONDAY .COM $MNDY Q2'26 שיאי רווחים 🔹 הכנסות: $364.6M (הערכה. $355M) ; +22% YoY 🔹 התאמה EPS: $1.48 (הערכה. $1.11) 🟢; +36% YoY 🔹 הכנסה תפעולית Non-GAAP: $61.1M (הערכה...",
+      "summary_he": "",
+      "body_en": "MONDAY .COM $MNDY Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $364.6M (Est. $355M) 🟢; +22% YoY 🔹 Adj. EPS: $1.48 (Est. $1.11) 🟢; +36% YoY 🔹 Non-GAAP Oper Income: $61.1M (Est. $47.2M) 🟢; +35% YoY 🔹 AI Product",
+      "ticker": "$MNDY",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086771636079079770#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T11:08:23+00:00",
+      "relative_time": "לפני 37ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מנכ\"ל $META, מארק צוקרברג, אומר שמשחק הקצה של AI נותן לכולם אינטליגנציה-על אישית ש\"מבינה אותך, את המטרות שלך וכל מה שאכפת לך ממנו\". אֲבָל…",
+      "summary_he": "",
+      "body_en": "$META CEO Mark Zuckerberg says the endgame for AI is giving everyone a personal superintelligence that “understands you, your goals and everything you care about.” But intelligence ultimately comes do",
+      "ticker": "$META",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086770539843268865#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-10T11:04:01+00:00",
+      "relative_time": "לפני 41ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שיין עומד בפני איום קיומי כאשר התעריפים מגיעים למודל של מחיר נמוך, ומציבים דגש חדש על שירותים",
+      "summary_he": "",
+      "body_en": "Shein faces existential threat as tariffs hit low-price model, putting new focus on services",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/10/shein-ipo-tariffs.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-10T11:00:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SPCX - משקיעים קמעונאיים ב-SPACEX הופכים למוכרים משקיעים קמעונאיים מכרו 4.5 מיליון דולר נטו של מניות SpaceX ביום שישי, היום הראשון שלהם למכירה נטו מאז החברה...",
+      "summary_he": "",
+      "body_en": "$SPCX - SPACEX RETAIL INVESTORS TURN NET SELLERS Retail investors sold a net $4.5 million of SpaceX shares on Friday, their first day of net selling since the company’s June IPO, according to Vanda Re",
+      "ticker": "$SPCX",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086765853324853681#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-10T10:45:24+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "שוק המניות היום: החוזים העתידיים של דאו, S&P 500, נאסד\"ק השתנו מעט בהמתנה לנתוני אינפלציה מרכזיים",
+      "summary_he": "",
+      "body_en": "Stock market today: Dow, S&P 500, Nasdaq futures little changed in wait for key inflation data",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-10-dow-sp-500-nasdaq-104358890.html",
+      "tag": "MACRO",
+      "published_at": "2026-08-10T10:43:58+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$AAPL : ירד ל-underperform על ידי Jefferies; PT הורידה ל-263.66 דולר מ-285.56 דולר ג'פריס הורידה את דירוג אפל לביצועים נמוכים מ-Hold והורידה את יעד המחיר שלה ל-263.66 דולר...",
+      "summary_he": "",
+      "body_en": "$AAPL : downgraded to Underperform by Jefferies; PT cut to $263.66 from $285.56 Jefferies downgraded Apple to Underperform from Hold and cut its price target to $263.66 from $285.56, implying 16% down",
+      "ticker": "$AAPL",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086764325021131166#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T10:39:19+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bearish"
+    },
+    {
       "title_he": "המכירות של יצרנית השבבים הגדולה בעולם, TSMC, עלו ב-45% על רקע ביקוש בינה מלאכותית",
       "summary_he": "",
       "body_en": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
@@ -867,18 +1008,6 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "מנכ\"ל $META, מארק כתב מאמר המציג את החזון שלו ל\"אינטליגנציה-על אישית\", עם כמה השלכות על מוצרי AI, הוצאות מחשוב, אסטרטגיית קוד פתוח ו...",
-      "summary_he": "",
-      "body_en": "$META CEO Mark wrote a piece laying out his vision for “personal superintelligence,” with some implications for AI products, compute spending, open source strategy & the future of work. Here are some ",
-      "ticker": "$META",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086757143521484848#m",
-      "tag": "TECH",
-      "published_at": "2026-08-10T10:10:47+00:00",
-      "relative_time": "לפני 31ד׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "המניות בארה\"ב ריחפו קרוב לשיאים לקראת נתוני המדד ביולי, כאשר סיכויי העלאת הריבית של הפד פחתו לאחר מספרי שכר חלשים. הנפט עלה על המתיחות הבלתי פתורה של מיצר הורמוז כשטראמפ...",
       "summary_he": "",
       "body_en": "US stocks hovered near records ahead of July CPI data, with Fed rate-hike odds easing after weak payrolls. Oil rose on unresolved Strait of Hormuz tensions as Trump favored economic pressure on Iran o",
@@ -887,140 +1016,27 @@
       "link": "https://nitter.net/garyblack00/status/2086754519568806017#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T10:00:22+00:00",
-      "relative_time": "לפני 42ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שיעורי הריבית הטובים ביותר לחיסכון עם תשואה גבוהה היום, יום שני, 10 באוגוסט, 2026: הרווח עד 4.15% APY עם HYSA",
-      "summary_he": "",
-      "body_en": "Best high-yield savings interest rates today, Monday, August 10, 2026: Earn up to 4.15% APY with an HYSA",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-10-2026-earn-up-to-415-apy-with-an-hysa-100000399.html",
-      "tag": "FED",
-      "published_at": "2026-08-10T10:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Serica מכריזה על הצעת ההשתלטות של Pharos Energy כסופית כיריבה מעלה הצעה",
-      "summary_he": "",
-      "body_en": "Serica Declares Pharos Energy Takeover Bid Final as Rival Raises Offer",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/energy/articles/serica-declares-pharos-energy-takeover-095600933.html",
-      "tag": "M&A",
-      "published_at": "2026-08-10T09:56:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "JPMORGAN מעלה את יעד S&P 500 שוב ל-8,000",
-      "summary_he": "",
-      "body_en": "JPMORGAN RAISES S&P 500 TARGET AGAIN TO 8,000",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086752316074733659#m",
-      "tag": "BANKS",
-      "published_at": "2026-08-10T09:51:36+00:00",
-      "relative_time": "לפני 51ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שמות ציוד למחצה, $SPCX עלו יפה הבוקר $SPY +0.2 $QQQ +0.5% $SMH +1.2% $IWM -0.2% $EEM +0.0% זהב, ביטקוין עלייה חלקית של $USO +2.6% @finviz_com",
-      "summary_he": "",
-      "body_en": "Semi equipment names, $SPCX up nicely this morning $SPY +0.2 $QQQ +0.5% $SMH +1.2% $IWM -0.2% $EEM +0.0% Gold, bitcoin up fractionally $USO +2.6% @finviz_com",
-      "ticker": "$SPCX",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086742795339874526#m",
-      "tag": "CRYPTO",
-      "published_at": "2026-08-10T09:13:46+00:00",
       "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$SONY ו-TSMC מתכננים $6.3B מפעל חיישני תמונה ביפן החברות מתכננות 60/40 JV לייצור המוני חיישני תמונה מהדור הבא בקומאמוטו החל משנת 2029. המפעל הוא...",
-      "summary_he": "",
-      "body_en": "$SONY AND TSMC PLAN $6.3B IMAGE SENSOR PLANT IN JAPAN The companies plan a 60/40 JV to mass-produce next-gen image sensors in Kumamoto starting in 2029. The plant is expected to supply Apple’s iPhone ",
-      "ticker": "$SONY",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086738890430521817#m",
-      "tag": "TECH",
-      "published_at": "2026-08-10T08:58:15+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "כורה אדמה נדירה באוסטרליה עולה לאחר השקעה של משרד המלחמה האמריקאי",
-      "summary_he": "",
-      "body_en": "Australian rare earth miner surges after U.S. Department of War investment",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/rare-earths-sunrise-energy-metals-trump-cina.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-10T08:36:11+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: עם פתיחת החוזים העתידיים, אנו נרגשים להכריז על השקת התוכנית השבועית החדשה שלנו עם @StockSavvyShay ו-@StockMarketNerd. פרק 1 מחר 8:45 בבוקר...",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: As futures open, we're excited to announce the launch of our new weekly show with @StockSavvyShay and @StockMarketNerd. Episode 1 tomorrow 8:45AM ET: the $CRWD deep dive at 110x",
-      "ticker": "$CRWD",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/FuturumEquities/status/2086616124892844087#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T00:50:26+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "המניות זינקו בשבוע שעבר, בדיוק כשהקמעונאות נמכרה הכי הרבה מאז 2022. גרף נחמד מ-@MikeZaccardi",
-      "summary_he": "",
-      "body_en": "Stocks soared last week, right as retail sold the most since 2022. Nice chart from @MikeZaccardi",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2086582208219824398#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-09T22:35:39+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "Barrick Mining $B, Dole $DOLE, Ferguson $FERG ו-Surgery Partners $SGRY מדווחים על רווחים לפני הפתיחה מחר. Aecom Tech $ACM, Alcon $ALC, Hims $ Hers Health $HIMS,...",
-      "summary_he": "",
-      "body_en": "Barrick Mining $B, Dole $DOLE, Ferguson $FERG, and Surgery Partners $SGRY report earnings before tomorrow's open. Aecom Tech $ACM, Alcon $ALC, Hims $ Hers Health $HIMS, and Simon Properties $SPG repor",
-      "ticker": "$B",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2086565685044433112#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-09T21:30:00+00:00",
-      "relative_time": "לפני 13ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "לאחר עלייה היסטורית של 16% באפריל ומאי, ה-S&P 500 פשוט הלך הצידה במשך קרוב ל-11 שבועות. אמרנו שכל הזמן יש סיכוי להתפרצות בסופו של דבר, זה פשוט...",
-      "summary_he": "",
-      "body_en": "After a historic 16% rally in April and May, the S&P 500 simply went sideways for close to 11 weeks. We said the whole time an eventual breakout was likely, it just needed a pause. Bull markets can co",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2086498755658801645#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-09T17:04:03+00:00",
-      "relative_time": "לפני 17ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "RT מאת @StockSavvyShay: NVDA $ יכול לצאת משנת 2028 ולהניב רווח של כמעט 1.3 מיליארד דולר בכל יום 🤯",
-      "summary_he": "",
-      "body_en": "RT by @StockSavvyShay: $NVDA could exit 2028 generating nearly $1.3B in profit every single day 🤯",
-      "ticker": "$NVDA",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086474201222025393#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-09T15:26:29+00:00",
-      "relative_time": "לפני 19ש׳",
       "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "התחזו לנציגי חברת ביטוח וגבו \"שכר טרחה\": בני זוג חשודים בהונאת 75 קורבנות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859735",
+      "tag": "כללי",
+      "published_at": "2026-08-10T13:47:00+00:00"
+    },
+    {
+      "title_he": "\"חשבנו שחיסלו מישהו\": רימון התפוצץ בבניין בחולון - בפעם השנייה בתוך שנה וחצי",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859738",
+      "tag": "כללי",
+      "published_at": "2026-08-10T13:29:00+00:00"
+    },
     {
       "title_he": "היו תחת מעקב המשטרה, ובכל זאת הוציאו חיסול לפועל: כתב אישום נגד שלושה שיצאו לנקמת דם",
       "summary_he": "",
@@ -1046,7 +1062,7 @@
       "published_at": "2026-08-10T10:58:00+00:00"
     },
     {
-      "title_he": "בן 64 הופל לקרקע ונבעט באלימות על ידי קטינים - בגלל ויכוח על מעבר חציה",
+      "title_he": "בן 64 הופל לקרקע ונבעט באלימות על ידי נערים - בגלל ויכוח על מעבר חציה",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3859666",
@@ -1084,22 +1100,6 @@
       "link": "https://news.walla.co.il/item/3859629",
       "tag": "כללי",
       "published_at": "2026-08-10T09:09:00+00:00"
-    },
-    {
-      "title_he": "משרד הבריאות בקריאה חריגה לציבור: הגיעו ותרמו דם, בדגש על בעלי סוג דם O",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859611",
-      "tag": "כללי",
-      "published_at": "2026-08-10T08:26:00+00:00"
-    },
-    {
-      "title_he": "רצף אסונות בחופש הגדול: בני 5, 12 ו-16 נהרגו בשלוש תאונות שונות ברחבי הארץ",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859569",
-      "tag": "כללי",
-      "published_at": "2026-08-09T22:09:00+00:00"
     }
   ],
   "track_record": {
