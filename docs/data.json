@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T20:10:43.974144+00:00",
+  "generated_at": "2026-08-10T21:12:22.440481+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -15,8 +15,8 @@
     {
       "ticker": "NVDA",
       "name": "Nvidia",
-      "price": 217.54,
-      "change_pct": -2.87,
+      "price": 217.55,
+      "change_pct": -2.86,
       "direction": "down",
       "change_str": "-2.9%",
       "earnings_date": "",
@@ -121,7 +121,7 @@
         "sma50": 309.7,
         "sma200": 279.64,
         "pct_from_52w_high": -10.5,
-        "vol_ratio": 1.11,
+        "vol_ratio": 1.12,
         "change_1d_pct": -1.62,
         "change_1w_pct": 1.6,
         "change_1m_pct": -2.2,
@@ -155,7 +155,7 @@
     },
     {
       "ticker": "NVDA",
-      "price": 217.54,
+      "price": 217.55,
       "setup_type": "מומנטום",
       "levels": {
         "support": 208.78,
@@ -318,16 +318,16 @@
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $36.14 נמצא 2.4% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +4.8%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (65.3). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
+      "rationale_he": "המחיר $36.14 נמצא 2.4% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +4.9%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (65.4). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
-        "rsi14": 65.3,
+        "rsi14": 65.4,
         "sma20": 33.0,
         "sma50": 33.37,
         "sma200": 31.18,
         "pct_from_52w_high": -3.2,
         "vol_ratio": 1.14,
-        "change_1d_pct": 2.18,
-        "change_1w_pct": 4.8,
+        "change_1d_pct": 2.21,
+        "change_1w_pct": 4.9,
         "change_1m_pct": 9.7,
         "spark_3m": [
           35.84,
@@ -376,7 +376,7 @@
         "sma50": 355.85,
         "sma200": 329.65,
         "pct_from_52w_high": -12.5,
-        "vol_ratio": 0.96,
+        "vol_ratio": 0.97,
         "change_1d_pct": 0.91,
         "change_1w_pct": -4.3,
         "change_1m_pct": 0.1,
@@ -478,7 +478,7 @@
         "sma50": 408.59,
         "sma200": 433.02,
         "pct_from_52w_high": -8.6,
-        "vol_ratio": 1.2,
+        "vol_ratio": 1.21,
         "change_1d_pct": 1.21,
         "change_1w_pct": 3.8,
         "change_1m_pct": 31.4,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-10T20:10:43.974156+00:00",
+  "ta_generated_at": "2026-08-10T21:12:22.440492+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -693,44 +693,44 @@
     {
       "name": "Russell 2000",
       "value": "3,017",
-      "change": "-0.57%",
+      "change": "-0.56%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.5670071989924029
+      "pct_raw": -0.563425053289771
     },
     {
       "name": "VIX",
-      "value": "15.43",
-      "change": "+3.56%",
+      "value": "15.46",
+      "change": "+3.76%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 3.5570469798657673
+      "pct_raw": 3.7583892617449695
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,447.3",
-      "change": "+1.08%",
+      "value": "$4,448.6",
+      "change": "+1.11%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.0818919471782251
+      "pct_raw": 1.1114394163238526
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.6",
-      "change": "+4.90%",
+      "value": "$87.8",
+      "change": "+5.15%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 4.895272292040699
+      "pct_raw": 5.146618791143025
     },
     {
       "name": "ביטקוין",
-      "value": "$64,004",
-      "change": "-1.30%",
+      "value": "$64,059",
+      "change": "-1.22%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.3026526615576233
+      "pct_raw": -1.2180868556209794
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,61 +752,61 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.001",
-      "change": "+0.10%",
+      "value": "3.002",
+      "change": "+0.13%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.10339881925218908
+      "pct_raw": 0.13341783129315246
     }
   ],
   "sectors": [
     {
       "name": "טכנולוגיה",
-      "value": "186.34",
-      "change": "-0.87%",
+      "value": "186.32",
+      "change": "-0.88%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.8671596531361363
+      "pct_raw": -0.8777996488801435
     },
     {
       "name": "פיננסים",
       "value": "57.81",
-      "change": "+0.37%",
+      "change": "+0.36%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.37326388888888246
+      "pct_raw": 0.3645833333333348
     },
     {
       "name": "אנרגיה",
-      "value": "60.19",
-      "change": "+4.68%",
+      "value": "60.18",
+      "change": "+4.66%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 4.6782608695652135
+      "pct_raw": 4.660869565217391
     },
     {
       "name": "בריאות",
-      "value": "168.45",
+      "value": "168.44",
       "change": "+1.67%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 1.671897633993229
+      "pct_raw": 1.6658619024625727
     },
     {
       "name": "תעשייה",
-      "value": "184.63",
-      "change": "-0.30%",
+      "value": "184.60",
+      "change": "-0.31%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.2970083162328606
+      "pct_raw": -0.3132087698455624
     },
     {
       "name": "צריכה שיקולית",
-      "value": "119.69",
-      "change": "-0.14%",
+      "value": "119.67",
+      "change": "-0.16%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -0.14183213749374413
+      "pct_raw": -0.15851827131653407
     },
     {
       "name": "צריכה בסיסית",
@@ -818,35 +818,35 @@
     },
     {
       "name": "נדל\"ן",
-      "value": "44.41",
-      "change": "-1.26%",
+      "value": "44.40",
+      "change": "-1.29%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.2561138283681585
+      "pct_raw": -1.2894619831035978
     },
     {
       "name": "תשתיות",
-      "value": "43.14",
-      "change": "-1.08%",
+      "value": "43.13",
+      "change": "-1.10%",
       "direction": "down",
       "group": "sectors",
-      "pct_raw": -1.0777344645723432
+      "pct_raw": -1.1006649850951546
     },
     {
       "name": "חומרים",
-      "value": "53.19",
-      "change": "+0.62%",
+      "value": "53.18",
+      "change": "+0.61%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.6242905788876245
+      "pct_raw": 0.6053726825577002
     },
     {
       "name": "תקשורת",
-      "value": "111.82",
-      "change": "+0.51%",
+      "value": "111.83",
+      "change": "+0.52%",
       "direction": "up",
       "group": "sectors",
-      "pct_raw": 0.5123595505617916
+      "pct_raw": 0.52134831460674
     }
   ],
   "fear_greed": {
@@ -856,38 +856,159 @@
   },
   "us_news": [
     {
-      "title_he": "חדשות טובות לשורים בבורסה: צמיחת הרווחים של חברות כבר לא מונעת רק על ידי טכנולוגיה",
+      "title_he": "מארק צוקרברג מ-$META אמר כי לעתיד עם AI יהיה 'שפע של מקומות עבודה'.",
       "summary_he": "",
-      "body_en": "Good news for stock-market bulls: Corporate earnings growth is no longer being driven just by tech",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/good-news-for-stock-market-bulls-corporate-earnings-growth-is-no-longer-being-driven-just-by-tech-ddac973b?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T20:00:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "השינוי הזה ב-Nvidia יכול לאיית חדשות טובות עבור מיקרון",
-      "summary_he": "",
-      "body_en": "This Nvidia change could spell good news for Micron",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories",
+      "body_en": "Mark Zuckerberg of $META has said that the future with AI will have an ‘abundance of jobs.'",
+      "ticker": "$META",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2086920018621509762#m",
       "tag": "TECH",
-      "published_at": "2026-08-10T19:42:00+00:00",
+      "published_at": "2026-08-10T20:58:00+00:00",
+      "relative_time": "לפני 13ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "טראמפ: דיבר עם ה-Warsh של המילואים הפדרליים לפני כמה ימים",
+      "title_he": "$ASTS רווחים ברבעון השני • הכנסות: $32 מיליון לעומת משוער. $34M • EPS: ($0.77) לעומת משוער ($0.29) • צבר הזמנות: $1.3B • מזומן: $3.7B הנחיות לשנת 2026 • הכנסה: $175M לעומת משוער. ~165 מיליון דולר • BlueBirds…",
       "summary_he": "",
-      "body_en": "TRUMP: SPOKE TO FEDERAL RESERVE'S WARSH A COUPLE DAYS AGO",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2086899491739738250#m",
-      "tag": "FED",
-      "published_at": "2026-08-10T19:36:26+00:00",
-      "relative_time": "לפני 33ד׳",
+      "body_en": "$ASTS Q2 EARNINGS • Revenue: $32M vs. Est. $34M • EPS: ($0.77) vs. Est. ($0.29) • Backlog: $1.3B • Cash: $3.7B 2026 Guidance • Revenue: $175M vs. Est. ~$165M • BlueBirds 14-16 nearly ready to ship • B",
+      "ticker": "$ASTS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086915464895348985#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T20:39:54+00:00",
+      "relative_time": "לפני 32ד׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "שירי רווחים של AST SPACEMOBILE $ASTS Q2'26 169 מיליון דולר) 🟢",
+      "summary_he": "",
+      "body_en": "AST SPACEMOBILE $ASTS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $31.5M (Est. $35M) 🔴 🔹 EPS: -$0.77 (Est. -$0.28) 🔴 FY Guide: 🔹 Revenue: $150.0M-$200.0M (Est. $169M) 🟢",
+      "ticker": "$ASTS",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086913724062003285#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T20:32:59+00:00",
+      "relative_time": "לפני 38ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @DivesTech: עזוב את מה שאתה עושה וצפה בשולחן העגול הזה ב-CNBC עכשיו עם @BeckyQuick 👏 מנכ\"לים של Nvidia, Goldman, Blackrock, Blackstone, Brookfield, KKR...",
+      "summary_he": "",
+      "body_en": "RT by @DivesTech: drop what you're doing and watch this roundtable on CNBC right now with @BeckyQuick 👏 CEOs of Nvidia, Goldman, Blackrock, Blackstone, Brookfield, KKR all at one table (almost.. Fink ",
+      "ticker": "",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/Kr00ney/status/2086911459183702089#m",
+      "tag": "BANKS",
+      "published_at": "2026-08-10T20:23:59+00:00",
+      "relative_time": "לפני 48ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "שירי רווחים של ELECTROVAYA $ELVA Q3'26 🔹 הכנסות: $17.7M (אומדן $21.7M) 🔴; +3% YoY 🔹 רווח גולמי: 34.9%; +410 bps YoY 🔹 EBITDA: $3.7M (הערכה. $3.7M) 🟡; 27% קיצוצים בשנה…",
+      "summary_he": "",
+      "body_en": "ELECTROVAYA $ELVA Q3’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $17.7M (Est. $21.7M) 🔴; +3% YoY 🔹 Gross Margin: 34.9%; +410 bps YoY 🔹 EBITDA: $3.7M (Est. $3.7M) 🟡; +27% YoY Cuts FY26 Guide: 🔹 Revenue: ~$70M-$7",
+      "ticker": "$ELVA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086909928040702340#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T20:17:54+00:00",
+      "relative_time": "לפני 54ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "EBay עשוי להתחמק מהשתלטות על GameStop - אבל יש טוויסט חדש בסאגת ריאן כהן",
+      "summary_he": "",
+      "body_en": "EBay may dodge a GameStop takeover — but there’s a new twist in the Ryan Cohen saga",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/ebay-may-dodge-a-gamestop-takeover-but-theres-a-new-twist-in-the-ryan-cohen-saga-d779b753?mod=mw_rss_topstories",
+      "tag": "M&A",
+      "published_at": "2026-08-10T20:17:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "HELIOS TECHNOLOGIES $HLIO Q2'26 שיאי רווחים 🔹 הכנסות: $231.9M (אומדן $231M) 🟢; +9% YoY 🔹 התאמה EPS: $0.88 (הערכה. $0.80) 🟢; +49% YoY 🔹 רווח גולמי: 34.6%; +280 bps…",
+      "summary_he": "",
+      "body_en": "HELIOS TECHNOLOGIES $HLIO Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $231.9M (Est. $231M) 🟢; +9% YoY 🔹 Adj. EPS: $0.88 (Est. $0.80) 🟢; +49% YoY 🔹 Gross Margin: 34.6%; +280 bps YoY 🔹 Adj. EBITDA: $49.3M (Est",
+      "ticker": "$HLIO",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086909674226663520#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T20:16:53+00:00",
+      "relative_time": "לפני 55ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$RKLB רווחים ברבעון השני • הכנסות $234 מיליון לעומת משוער $232M • EPS ($0.08) לעומת משוער ($0.07) • צבר הזמנות של $2.36B לעומת משוער. 2.29 מיליארד דולר (+137% בשנה) • מרווח גולמי 36% לעומת משוער. 36% הדרכה לרבעון השלישי •…",
+      "summary_he": "",
+      "body_en": "$RKLB Q2 EARNINGS • Revenue $234M vs Est. $232M • EPS ($0.08) vs Est. ($0.07) • Backlog $2.36B vs. Est. $2.29B (+137% YoY) • Gross Margin 36% vs. Est. 36% Q3 Guidance • Revenue $258M vs Est. $238M • E",
+      "ticker": "$RKLB",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086908505043370072#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T20:12:15+00:00",
+      "relative_time": "לפני 59ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "RT מאת @MikeZaccardi: האם הצרכן סוף סוף נסוג? בעקבות נתוני שכר רכים של יולי, הרווחים הקרובים למסעדות מ-$CAVA, $JACK, $EAT ו-$RRGB ישמשו כ...",
+      "summary_he": "",
+      "body_en": "RT by @MikeZaccardi: Is the consumer finally pulling back? Following soft July payroll data, upcoming restaurant earnings from $CAVA, $JACK, $EAT & $RRGB will serve as a vital temperature check on hou",
+      "ticker": "$CAVA",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/WallStHorizon/status/2086908431265616056#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T20:11:57+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Rocket Lab, RKLB $, רווחים: - הכנסות: 234 מיליון דולר, משוער: 230 מיליון דולר - EPS: -0.08 $, הערכה: -$0.08 רווחי HIMS: - הכנסות: 753 מיליון דולר, הערכה: 730 מיליון דולר - EPS:...",
+      "summary_he": "",
+      "body_en": "Rocket Lab, $RKLB, earnings: - Revenue: $234 million, est: $230 million - EPS: -$0.08, est: -$0.08 $HIMS earnings: - Revenue: $753 million, est: $730 million - EPS: -$0.37, est: -$0.05",
+      "ticker": "$RKLB",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2086908194291646870#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T20:11:01+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שירי רווחים של $HIMS & HERS Q2'26 🔹 הכנסות: $753.2M (אומדן $700M) 🟢; +38% YoY 🔹 GAAP EPS: -$0.37 🔹 התאמה EBITDA: $60.3M (הערכה. $47.2M) ; -27% משנה לשנה 🔹 מנויים:...",
+      "summary_he": "",
+      "body_en": "$HIMS & HERS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $753.2M (Est. $700M) 🟢; +38% YoY 🔹 GAAP EPS: -$0.37 🔹 Adj. EBITDA: $60.3M (Est. $47.2M) 🟢; -27% YoY 🔹 Subscribers: 2,891; +19% YoY FY26 Guide: 🔹 Reven",
+      "ticker": "$HIMS",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086908149995651538#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T20:10:50+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$HIMS רווחים ברבעון השני • הכנסות של $753 מיליון לעומת משוער. $700M • EPS ($0.33) לעומת משוער $0.13 • EBITDA $60 מיליון לעומת משוער 47 מיליון דולר • שולי רווח גולמי: 64% לעומת משוער. 69% • מנויים 2.90 מיליון לעומת משוער 2.75 מיליון…",
+      "summary_he": "",
+      "body_en": "$HIMS Q2 EARNINGS • Revenue $753M vs Est. $700M • EPS ($0.33) vs Est. $0.13 • EBITDA $60M vs Est. $47M • Gross Margin: 64% vs Est. 69% • Subscribers 2.90M vs Est. 2.75M Q3 Guidance • Revenue $890M vs ",
+      "ticker": "$HIMS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086907844830642508#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T20:09:37+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "ROCKET LAB $RKLB Q2'26 שירי רווחים 🔹 הכנסות: $234M (אומדן $231M) 🟢; +62% YoY 🔹 EPS: -$0.08 (הערכה -$0.07) 🔴 🔹 צבר הזמנות: $2.36B; +137% מדריך לרבעון השלישי של השנה: 🔹 הכנסה:...",
+      "summary_he": "",
+      "body_en": "ROCKET LAB $RKLB Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $234M (Est. $231M) 🟢; +62% YoY 🔹 EPS: -$0.08 (Est. -$0.07) 🔴 🔹 Backlog: $2.36B; +137% YoY Q3 Guide: 🔹 Revenue: $250M-$265M (Est. $239M) 🟢 🔹 EBITDA",
+      "ticker": "$RKLB",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086907085657403484#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T20:06:36+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bearish"
     },
     {
       "title_he": "יו\"ר הפד, קווין ורש, מבטיח אינפלציה של 2%, אבל החוב האמריקני מרקיע שחקים הופך את זה לחלום צינור",
@@ -899,123 +1020,17 @@
       "tag": "FED",
       "published_at": "2026-08-10T19:31:00+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "הנפט של ארה\"ב עולה בחזרה מעל 82 דולר עם גידול הספק בוושינגטון וטהראן יגיעו לעסקת הורמוז",
-      "summary_he": "",
-      "body_en": "U.S. oil rises back above $82 as doubt grows Washington and Tehran will reach Hormuz deal",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html",
-      "tag": "M&A",
-      "published_at": "2026-08-10T19:26:30+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "המניה של מיקרוסופט נטענת בחזרה. הנה המקרה שיגייס עוד 30%.",
-      "summary_he": "",
-      "body_en": "Microsoft’s stock is charging back. Here’s the case for it to rally another 30%.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/microsofts-stock-is-charging-back-heres-the-case-for-it-to-rally-another-30-1fe261cd?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-10T19:18:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "BREAKING: \"אפולו, בלקסטון, בלקרוק, ברוקפילד, גולדמן ו-KKR אוספים 500 מיליארד דולר עבור Nvidia, NVDA דולר, במה שהוא המימון הגדול ביותר אי פעם ב-Wall...",
-      "summary_he": "",
-      "body_en": "BREAKING: \"Apollo, Blackstone, Blackrock, Brookfield, Goldman and KKR are assembling $500 billion for Nvidia, $NVDA, in what is the largest financing ever on Wall Street,\" per FT",
-      "ticker": "$NVDA",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2086894601097334870#m",
-      "tag": "BANKS",
-      "published_at": "2026-08-10T19:17:00+00:00",
-      "relative_time": "לפני 52ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Nvidia משתפת פעולה עם מנהלי נכסים בוול סטריט בדחיפה של 500 מיליארד דולר לתשתית AI",
-      "summary_he": "",
-      "body_en": "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
-      "tag": "TECH",
-      "published_at": "2026-08-10T18:58:47+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Meta, $META, הכריזה על קרן Future Is For Everyone בסך מיליארד דולר שתתמוך ישירות בערים ועיירות אמריקאיות המארחות את מרכזי הנתונים בינה מלאכותית שלה.",
-      "summary_he": "",
-      "body_en": "Meta, $META, has announced a $1 billion Future Is For Everyone Fund to directly support American cities and towns hosting its AI data centers.",
-      "ticker": "$META",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2086889568041627709#m",
-      "tag": "TECH",
-      "published_at": "2026-08-10T18:57:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הערסל של הפד: כנראה יזדקק ל\"מספר מסוים\" של העלאות ריבית.",
-      "summary_he": "",
-      "body_en": "Fed's Hammack: Would Probably Need 'some Number' Of Rate Hikes Don't Want To Prejudge Number Of Hikes, Where We End Now Is The Time For US To Start Acting Current Rate Not Meaningfully Restricting Eco",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086889508717666807#m",
-      "tag": "FED",
-      "published_at": "2026-08-10T18:56:46+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "OpenAI מרחיבה את יוזמת אבטחת הסייבר של Daybreak ככל שאיומי סוכני AI מתפתחים",
-      "summary_he": "",
-      "body_en": "OpenAI expands Daybreak cybersecurity initiative as AI agent threats evolve",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/open-ai-daybreak-cybersecurity.html",
-      "tag": "TECH",
-      "published_at": "2026-08-10T18:43:17+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הנפט במאגר הנפט האסטרטגי של ארה\"ב יורד מתחת ל-300 מיליון חביות, הנמוך ביותר מאז 1983",
-      "summary_he": "",
-      "body_en": "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/oil-in-strategic-petroleum-reserve-falls-below-300-million-barrels-lowest-since-1983.html",
-      "tag": "ENERGY",
-      "published_at": "2026-08-10T18:43:06+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "שלוש סיבות שהמנהל המשותף של גולדמן לבנקאות ושווקים גלובליים אומר להישאר מושקע",
-      "summary_he": "",
-      "body_en": "Three reasons Goldman's co-head of global banking and markets says to stay invested",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/three-reasons-goldmans-co-head-of-global-banking-and-markets-says-to-stay-invested.html",
-      "tag": "BANKS",
-      "published_at": "2026-08-10T18:36:26+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מייקל בורי אומר שהוא קנה עוד 100 דולר במרץ 2027 ב-PLTR ומאמין שהמניה שווה \"מתחת ל-1 דולר\" לטווח ארוך. ההרשעה הזו פועלת כעת ישירות נגד...",
-      "summary_he": "",
-      "body_en": "Michael Burry says he bought more March 2027 $100 puts on $PLTR and believes the stock is worth “under $1” long term. That conviction now runs directly against Palantir’s blowout Q2 where growth accel",
-      "ticker": "$PLTR",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086882667874922548#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T18:29:35+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "המשטרה עולה מדרגה מול יוסי מוסלי: תבקש מביהמ\"ש להטיל עליו צו הגבלה שיפוטי",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859857",
+      "tag": "כללי",
+      "published_at": "2026-08-10T23:32:00+00:00"
+    },
     {
       "title_he": "החשד: בת 24 התחזתה לגבר בשם \"אוריאל חזן\" וביצעה עבירות מין בנשים",
       "summary_he": "",
@@ -1087,14 +1102,6 @@
       "link": "https://news.walla.co.il/item/3859775",
       "tag": "כללי",
       "published_at": "2026-08-10T15:36:00+00:00"
-    },
-    {
-      "title_he": "מאשדוד ואשקלון עד קלקיליה: שני חשודים בגניבות רכב נעצרו",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859759",
-      "tag": "כללי",
-      "published_at": "2026-08-10T15:02:00+00:00"
     }
   ],
   "track_record": {
