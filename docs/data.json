@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T04:12:28.543223+00:00",
+  "generated_at": "2026-08-10T05:54:42.663930+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-10T04:12:28.543234+00:00",
+  "ta_generated_at": "2026-08-10T05:54:42.663940+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,385.6",
-      "change": "-0.32%",
-      "direction": "down",
+      "value": "$4,401.2",
+      "change": "+0.03%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.32047639611790474
+      "pct_raw": 0.03409323362956565
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.3",
-      "change": "+0.96%",
+      "value": "$84.0",
+      "change": "+0.48%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.9575104727707926
+      "pct_raw": 0.4787552363854048
     },
     {
       "name": "ביטקוין",
-      "value": "$64,995",
-      "change": "+0.22%",
+      "value": "$65,065",
+      "change": "+0.33%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.2245589154580282
+      "pct_raw": 0.33328858315666604
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.000",
-      "change": "+0.07%",
+      "value": "3.001",
+      "change": "+0.10%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.06670891564658363
+      "pct_raw": 0.10006337346986804
     }
   ],
   "sectors": [
@@ -856,6 +856,28 @@
   },
   "us_news": [
     {
+      "title_he": "הנפט עולה על רקע חוסר הוודאות בנוגע לעסקת מצר הורמוז ארה\"ב ואיראן",
+      "summary_he": "",
+      "body_en": "Oil rises amid uncertainty over U.S.-Iran Strait of Hormuz deal",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html",
+      "tag": "M&A",
+      "published_at": "2026-08-10T05:52:41+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ אומר שחברות העל בנפט מרוויחות יותר מדי כסף. מה יעשו עם זה?",
+      "summary_he": "",
+      "body_en": "Trump says oil supermajors are making too much money. What will they do with it?",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/10/oil-iran-war-profits-windfall-tax.html",
+      "tag": "ENERGY",
+      "published_at": "2026-08-10T05:00:02+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "החוזים העתידיים על מניות ארה\"ב עומדים ללא שינוי בזמן שהמשקיעים ממתינים לנתוני האינפלציה, מתמודדים עם חוסר ודאות איראנית יותר",
       "summary_he": "",
       "body_en": "U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty",
@@ -875,7 +897,7 @@
       "link": "https://nitter.net/FuturumEquities/status/2086616124892844087#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T00:50:26+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +909,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086582208219824398#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T22:35:39+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
     },
     {
@@ -899,7 +921,18 @@
       "link": "https://nitter.net/bespokeinvest/status/2086565685044433112#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T21:30:00+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מספר המניות שעוברות את ה-S&P 500 הוא הגבוה ביותר מזה 4 שנים. למה המספר הזה צריך לעלות.",
+      "summary_he": "",
+      "body_en": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-09T19:11:00+00:00",
       "sentiment": "bullish"
     },
     {
@@ -911,8 +944,20 @@
       "link": "https://nitter.net/RyanDetrick/status/2086498755658801645#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T17:04:03+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "טראמפ עובר לאסטרטגיה \"נמוכה\" באיראן טראמפ אומר כי ארה\"ב \"מתנגדת\" לאיראן, ומאותתת שהלחץ הכלכלי יקבל עדיפות על פני חידוש צבאי...",
+      "summary_he": "",
+      "body_en": "TRUMP SHIFTS TO A “LOW-KEY” STRATEGY ON IRAN Trump says the U.S. is “low keying it” with Iran, signaling economic pressure will take priority over renewed military action for now. He argues Iran’s eco",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086498383833825580#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-09T17:02:34+00:00",
+      "relative_time": "לפני 12ש׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "צמיחת המכירות של S&P 500 נמצאת בשיא של כמעט 5 שנים. הנה מה שעומד מאחורי הזינוק.",
@@ -937,18 +982,37 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "כשהשוק קרס ב-1987, פול טיודור ג'ונס הרוויח 100 מיליון דולר ביום אחד: \"הכלל החשוב ביותר במסחר הוא לשחק הגנה מצוינת, לא התקפה גדולה\"",
+      "title_he": "Tenable (TENB) מרחיב את רשת האבטחה של AI בדיוק כשהרווחים הופכים פינה",
       "summary_he": "",
-      "body_en": "As the Market Crashed in 1987, Paul Tudor Jones Made $100 Million in a Single Day: ‘The Most Important Rule of Trading Is to Play Great Defense, Not Great Offense’",
+      "body_en": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/market-crashed-1987-paul-tudor-173002488.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-08T17:30:02+00:00",
-      "sentiment": "bearish"
+      "link": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html",
+      "tag": "TECH",
+      "published_at": "2026-08-08T18:59:44+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "LegalZoom (LZ) משלב את Microsoft Copilot בין משמרות צמיחה",
+      "summary_he": "",
+      "body_en": "LegalZoom (LZ) Integrates Microsoft Copilot Amid Growth Shifts",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/small-business/articles/legalzoom-lz-integrates-microsoft-copilot-183004346.html",
+      "tag": "TECH",
+      "published_at": "2026-08-08T18:30:04+00:00",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "משרד הבריאות בקריאה חריגה לציבור: הגיעו ותרמו דם, בדגש על בעלי סוג דם O",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859611",
+      "tag": "כללי",
+      "published_at": "2026-08-10T08:26:00+00:00"
+    },
     {
       "title_he": "רצף אסונות בחופש הגדול: בני 5, 12 ו-16 נהרגו בשלוש תאונות שונות ברחבי הארץ",
       "summary_he": "",
@@ -1020,14 +1084,6 @@
       "link": "https://news.walla.co.il/item/3859514",
       "tag": "כללי",
       "published_at": "2026-08-09T16:56:00+00:00"
-    },
-    {
-      "title_he": "בעקבות פניית \"יהלומי הקרב\": דיון דחוף בכנסת על הליכי ההכרה בועדות הרפואיות לנכי צה\"ל",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859505",
-      "tag": "כללי",
-      "published_at": "2026-08-09T16:24:00+00:00"
     }
   ],
   "track_record": {
