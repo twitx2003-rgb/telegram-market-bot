@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:46:28.498881+00:00",
+  "generated_at": "2026-08-10T13:05:31.069827+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-10T11:46:28.498892+00:00",
+  "ta_generated_at": "2026-08-10T13:05:31.069839+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,63 +700,63 @@
     },
     {
       "name": "VIX",
-      "value": "15.44",
-      "change": "+3.62%",
+      "value": "15.42",
+      "change": "+3.49%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 3.6241610738254977
+      "pct_raw": 3.489932885906037
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,395.5",
-      "change": "-0.10%",
+      "value": "$4,389.4",
+      "change": "-0.23%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.0954610541627797
+      "pct_raw": -0.23410687092302163
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.7",
-      "change": "+1.41%",
+      "value": "$85.3",
+      "change": "+2.13%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.4123279473369321
+      "pct_raw": 2.130460801915022
     },
     {
       "name": "ביטקוין",
-      "value": "$65,004",
-      "change": "+0.24%",
-      "direction": "up",
+      "value": "$64,821",
+      "change": "-0.04%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.23923919395031926
+      "pct_raw": -0.043201962420157496
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
-      "value": "4.66%",
-      "change": "-0.21%",
-      "direction": "down",
+      "value": "4.67%",
+      "change": "+0.21%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.2141327623126293
+      "pct_raw": 0.214592274678107
     }
   ],
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,155",
-      "change": "-0.33%",
+      "value": "4,142",
+      "change": "-0.64%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.3314967485973902
+      "pct_raw": -0.6385270222620909
     },
     {
       "name": "דולר/שקל",
-      "value": "3.000",
-      "change": "+0.07%",
+      "value": "3.003",
+      "change": "+0.18%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.06670891564658363
+      "pct_raw": 0.1767786264634296
     }
   ],
   "sectors": [
@@ -856,171 +856,196 @@
   },
   "us_news": [
     {
-      "title_he": "כורה אדמה נדירה באוסטרליה עולה לאחר השקעה של משרד ההגנה האמריקני",
+      "title_he": "מניות ארצ'ר עלו לאחר החזקה של בואינג, עסקת הבת של מטוסים חשמליים",
       "summary_he": "",
-      "body_en": "Australian rare earth miner surges after U.S. Department of Defense investment",
+      "body_en": "Archer shares surge after Boeing stake, electric aircraft subsidiary deal",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/rare-earths-sunrise-energy-metals-trump-cina.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-10T11:44:14+00:00",
+      "link": "https://www.cnbc.com/2026/08/10/boeing-evtol-archer-stake.html",
+      "tag": "M&A",
+      "published_at": "2026-08-10T12:53:17+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "גולדמן רואה את מדד המחירים לצרכן ביולי עולה ב-5 bps, YoY ל-3.35% ליבה עולה ב-19bps, YoY ל-2.47% \"אנו מצפים ללחץ קל כלפי מעלה על קטגוריית התקשורת מההודעה האחרונה...",
+      "title_he": "הערכת השווי של MSCI EM שוקעת מתחת למחצית ממדד ה-$EEM $VWO $IEMG @markets של S&P 500",
       "summary_he": "",
-      "body_en": "Goldman sees July CPI rising 5bps, YoY to 3.35% Core up 19bps, YoY to 2.47% \"We expect slight upward pressure on the communications category from recently announced price increases for consumer electr",
-      "ticker": "",
+      "body_en": "MSCI EM valuation sinks below half of the S&P 500's $EEM $VWO $IEMG @markets",
+      "ticker": "$EEM",
       "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086776072293454308#m",
-      "tag": "BANKS",
-      "published_at": "2026-08-10T11:26:00+00:00",
-      "relative_time": "לפני 19ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$META משחררת את Muse Glimmer שהוא דגם סוכן בעל משקל פתוח של 30B הפועל באופן מקומי על מעבד גרפי של 24GB ומשתמש במנסח DFlash משולב כדי לחתוך זמן אחזור מהיר יותר...",
-      "summary_he": "",
-      "body_en": "$META releases Muse Glimmer which is a 30B open-weight agentic model that runs locally on a 24GB GPU and uses an integrated DFlash drafter to cut latency for faster on-device agents. Alexandr Wang als",
-      "ticker": "$META",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086775849140080831#m",
-      "tag": "TECH",
-      "published_at": "2026-08-10T11:25:07+00:00",
-      "relative_time": "לפני 20ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "דגשים ברווחים של CEVA Q2'26 🔹 הכנסות: 29.0 מיליון דולר (אומדנים 28.2 מיליון דולר) 🟢; +13% YoY 🔹 התאמה EPS: $0.08 (הערכה. $0.07) 🟢; +14% בשנה 🔹 רישוי והכנסות קשורות: 18.2 מיליון דולר; +21% בשנה…",
-      "summary_he": "",
-      "body_en": "$CEVA Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $29.0M (Est. $28.2M) 🟢; +13% YoY 🔹 Adj. EPS: $0.08 (Est. $0.07) 🟢; +14% YoY 🔹 Licensing & Related Revenue: $18.2M; +21% YoY Segment Net Revenue: 🔹 Licensing ",
-      "ticker": "$CEVA",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086774012630466993#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T11:17:49+00:00",
-      "relative_time": "לפני 28ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "CAMTEK $CAMT Q2'26 שירי רווחים 🔹 הכנסות: $133.2M (הערכה. $130M) 🟢; +8% YoY 🔹 התאמה EPS: $0.78 (הערכה. $0.76) 🟢; +2% משנה לשנה 🔹 הכנסה תפעולית ללא GAAP: 36.0 מיליון דולר (הערכה של 34.9 מיליון דולר)...",
-      "summary_he": "",
-      "body_en": "CAMTEK $CAMT Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $133.2M (Est. $130M) 🟢; +8% YoY 🔹 Adj. EPS: $0.78 (Est. $0.76) 🟢; +2% YoY 🔹 Non-GAAP Oper Income: $36.0M (Est. $34.9M) 🟢; -4% YoY 🔹 Non-GAAP Net Incom",
-      "ticker": "$CAMT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086773970293125395#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T11:17:39+00:00",
-      "relative_time": "לפני 28ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$TSM מדווח על הכנסות של ~14.4 מיליארד דולר ביולי (+45% בשנה שעברה) כאשר הצמיחה מואצת מעל לתחזית הקודמת של ~37%. בית היציקה הגדול בעולם מעלה כעת גם את ההשקעה וגם את הצמיחה...",
-      "summary_he": "",
-      "body_en": "$TSM reports ~$14.4B in July revenue (+45% YoY) as growth accelerates above its prior ~37% outlook. The world’s largest foundry is now raising both capex and growth expectations together providing the",
-      "ticker": "$TSM",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086773023739441656#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T11:13:53+00:00",
-      "relative_time": "לפני 32ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "MONDAY .COM $MNDY Q2'26 שיאי רווחים 🔹 הכנסות: $364.6M (הערכה. $355M) ; +22% YoY 🔹 התאמה EPS: $1.48 (הערכה. $1.11) 🟢; +36% YoY 🔹 הכנסה תפעולית Non-GAAP: $61.1M (הערכה...",
-      "summary_he": "",
-      "body_en": "MONDAY .COM $MNDY Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $364.6M (Est. $355M) 🟢; +22% YoY 🔹 Adj. EPS: $1.48 (Est. $1.11) 🟢; +36% YoY 🔹 Non-GAAP Oper Income: $61.1M (Est. $47.2M) 🟢; +35% YoY 🔹 AI Product",
-      "ticker": "$MNDY",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086771636079079770#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T11:08:23+00:00",
-      "relative_time": "לפני 37ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנכ\"ל $META, מארק צוקרברג, אומר שמשחק הקצה של AI נותן לכולם אינטליגנציה-על אישית ש\"מבינה אותך, את המטרות שלך וכל מה שאכפת לך ממנו\". אֲבָל…",
-      "summary_he": "",
-      "body_en": "$META CEO Mark Zuckerberg says the endgame for AI is giving everyone a personal superintelligence that “understands you, your goals and everything you care about.” But intelligence ultimately comes do",
-      "ticker": "$META",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086770539843268865#m",
-      "tag": "ENERGY",
-      "published_at": "2026-08-10T11:04:01+00:00",
-      "relative_time": "לפני 41ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שיין עומד בפני איום קיומי כאשר התעריפים מגיעים למודל של מחיר נמוך, ומציבים דגש חדש על שירותים",
-      "summary_he": "",
-      "body_en": "Shein faces existential threat as tariffs hit low-price model, putting new focus on services",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/shein-ipo-tariffs.html",
+      "link": "https://nitter.net/MikeZaccardi/status/2086797361213280421#m",
       "tag": "NEWS",
-      "published_at": "2026-08-10T11:00:01+00:00",
+      "published_at": "2026-08-10T12:50:36+00:00",
+      "relative_time": "לפני 14ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$SPCX - משקיעים קמעונאיים ב-SPACEX הופכים למוכרים משקיעים קמעונאיים מכרו 4.5 מיליון דולר נטו של מניות SpaceX ביום שישי, היום הראשון שלהם למכירה נטו מאז החברה...",
+      "title_he": "$ONDS משלימה את רכישת Cyberhawk שלה תוך הוספת בדיקת מזל\"טים וניתוח AI בשווקי שירותים, אנרגיה, כרייה ותעשייתיים. Cyberhawk מרחיבה את Ondas ל...",
       "summary_he": "",
-      "body_en": "$SPCX - SPACEX RETAIL INVESTORS TURN NET SELLERS Retail investors sold a net $4.5 million of SpaceX shares on Friday, their first day of net selling since the company’s June IPO, according to Vanda Re",
-      "ticker": "$SPCX",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2086765853324853681#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-10T10:45:24+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
+      "body_en": "$ONDS completes its Cyberhawk acquisition adding drone inspection and AI analytics across utilities, energy, mining and industrial markets. Cyberhawk expands Ondas into critical infrastructure while $",
+      "ticker": "$ONDS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086797316980367694#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T12:50:25+00:00",
+      "relative_time": "לפני 14ד׳",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "שוק המניות היום: החוזים העתידיים של דאו, S&P 500, נאסד\"ק השתנו מעט בהמתנה לנתוני אינפלציה מרכזיים",
+      "title_he": "Monday.com נופל כמו הנחיית יצרנית התוכנה קצב הרווחים של טראמפ",
       "summary_he": "",
-      "body_en": "Stock market today: Dow, S&P 500, Nasdaq futures little changed in wait for key inflation data",
+      "body_en": "Monday.com Falls As Software Maker's Guidance Trumps Earnings Beat",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-10-dow-sp-500-nasdaq-104358890.html",
-      "tag": "MACRO",
-      "published_at": "2026-08-10T10:43:58+00:00",
+      "link": "https://www.investors.com/news/technology/monday-stock-monday-earnings-q22026/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T12:46:15+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$AAPL : ירד ל-underperform על ידי Jefferies; PT הורידה ל-263.66 דולר מ-285.56 דולר ג'פריס הורידה את דירוג אפל לביצועים נמוכים מ-Hold והורידה את יעד המחיר שלה ל-263.66 דולר...",
+      "title_he": "קרנות גידור נערמות בחזרה למניות קרנות גידור רכשו מניות גלובליות שבוע שני ברציפות, מה שהפך את הפחתת הסיכון החדה בסוף יולי, לפי גולדמן...",
       "summary_he": "",
-      "body_en": "$AAPL : downgraded to Underperform by Jefferies; PT cut to $263.66 from $285.56 Jefferies downgraded Apple to Underperform from Hold and cut its price target to $263.66 from $285.56, implying 16% down",
-      "ticker": "$AAPL",
+      "body_en": "HEDGE FUNDS PILE BACK INTO STOCKS Hedge funds bought global equities for a second straight week, reversing a sharp risk reduction in late July, according to Goldman Sachs. Gross trading activity rose ",
+      "ticker": "",
       "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2086764325021131166#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T10:39:19+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bearish"
+      "link": "https://nitter.net/DeItaone/status/2086796267477209088#m",
+      "tag": "BANKS",
+      "published_at": "2026-08-10T12:46:15+00:00",
+      "relative_time": "לפני 18ד׳",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "המכירות של יצרנית השבבים הגדולה בעולם, TSMC, עלו ב-45% על רקע ביקוש בינה מלאכותית",
+      "title_he": "האסט פוסל את החלפת הטבחית של הפד, היועץ הכלכלי של הבית הלבן, קווין האסט, אומר שהוא לא יחליף את מושל הפד ליסה קוק אם היא תודח, וקורא ל...",
       "summary_he": "",
-      "body_en": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
+      "body_en": "HASSETT RULES OUT REPLACING FED’S COOK White House economic adviser Kevin Hassett says he will not replace Fed Governor Lisa Cook if she is removed, calling the allegations against her a law-enforceme",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086795780350717961#m",
+      "tag": "FED",
+      "published_at": "2026-08-10T12:44:19+00:00",
+      "relative_time": "לפני 20ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "אפל מקבלת הורדת דירוג אצל ג'פריס מכיוון שתוכנן אייפון מזכוכית מבוטל $AAPL @seekingalpha",
+      "summary_he": "",
+      "body_en": "Apple gets rating cut at Jefferies as planned all-glass iPhone is canceled $AAPL @seekingalpha",
+      "ticker": "$AAPL",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086794948855107777#m",
+      "tag": "TECH",
+      "published_at": "2026-08-10T12:41:01+00:00",
+      "relative_time": "לפני 24ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Meta יפנה לקוד פתוח את מודל הבינה המלאכותית החזק ביותר שלה תוך כדי החלקה ב-OpenAI, Anthropic",
+      "summary_he": "",
+      "body_en": "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html",
+      "link": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
       "tag": "TECH",
-      "published_at": "2026-08-10T10:29:27+00:00",
-      "sentiment": "bullish"
+      "published_at": "2026-08-10T12:40:36+00:00",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "המניות בארה\"ב ריחפו קרוב לשיאים לקראת נתוני המדד ביולי, כאשר סיכויי העלאת הריבית של הפד פחתו לאחר מספרי שכר חלשים. הנפט עלה על המתיחות הבלתי פתורה של מיצר הורמוז כשטראמפ...",
+      "title_he": "$ACHR עלייה של כמעט 25% לאחר ההכרזה שבואינג תיקח חלק בהון.",
       "summary_he": "",
-      "body_en": "US stocks hovered near records ahead of July CPI data, with Fed rate-hike odds easing after weak payrolls. Oil rose on unresolved Strait of Hormuz tensions as Trump favored economic pressure on Iran o",
-      "ticker": "$TSLA",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2086754519568806017#m",
+      "body_en": "$ACHR up nearly 25% after announcing Boeing will take an equity stake.",
+      "ticker": "$ACHR",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086791069422030938#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-10T12:25:36+00:00",
+      "relative_time": "לפני 39ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$BA לוקחת חלק ב-$ACHR כאשר Archer רוכשת עסקים Wisk, SkyGrid ו-Insitu כדי לבנות פלטפורמת AI פיזית מקצה לקצה עבור תעופה וחלל והגנה. העסקה מוסיפה…",
+      "summary_he": "",
+      "body_en": "$BA takes a stake in $ACHR as Archer acquires Wisk, SkyGrid and Insitu businesses to build an end-to-end physical AI platform for aerospace and defense. The deal adds $200M in annual revenue and prove",
+      "ticker": "$BA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086787662212694020#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-10T10:00:22+00:00",
+      "published_at": "2026-08-10T12:12:03+00:00",
+      "relative_time": "לפני 53ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "🇯🇵 איתות העלאת שיעורי ה-BOJ בספטמבר עזר להפעיל התערבות ין ארה\"ב תמכה בהתערבות נדירה מתואמת של קניית ין לאחר שמושל BOJ Kazuo Ueda בתקיפות...",
+      "summary_he": "",
+      "body_en": "🇯🇵 BOJ SEPTEMBER RATE HIKE SIGNAL HELPED TRIGGER YEN INTERVENTION The U.S. backed a rare coordinated yen-buying intervention after BOJ Governor Kazuo Ueda strongly signaled a potential rate hike as ea",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086787006592373145#m",
+      "tag": "FED",
+      "published_at": "2026-08-10T12:09:27+00:00",
+      "relative_time": "לפני 55ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רשימה מצוינת מ-@awealthofcs על כל הדאגות שראינו מאז 2020. עם זאת, ביום שישי עדיין נסגרו מניות ברמה הגבוהה ביותר אי פעם והעשור הזה עד כה היה...",
+      "summary_he": "",
+      "body_en": "Great list from @awealthofcs on all the worries we've seen since 2020. Yet, Friday still saw stocks close at their highest level ever and this decade so far has been amazing for investors. Good thing ",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2086785706739814563#m",
+      "tag": "FED",
+      "published_at": "2026-08-10T12:04:17+00:00",
       "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Archer $ACHR ירכוש את Wisk Aero, SkyGrid ו-Insitu של בואינג בעסקת AI תעופה וחלל. בואינג $BA תיקח מניות ב-Archer ותשמור על הגישה ל-Wisk's...",
+      "summary_he": "",
+      "body_en": "Archer $ACHR to acquire Boeing’s Wisk Aero, SkyGrid and Insitu in an aerospace AI deal. Boeing $BA will take an equity stake in Archer and retain access to Wisk’s autonomous flight technology. Insitu ",
+      "ticker": "$ACHR",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086785151640670353#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T12:02:05+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "INTEL $INTC להציע $15B של מניות נפוצות: BBG",
+      "summary_he": "",
+      "body_en": "INTEL $INTC TO OFFER $15B OF COMMON SHARES: BBG",
+      "ticker": "$INTC",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086780416397279402#m",
+      "tag": "TECH",
+      "published_at": "2026-08-10T11:43:16+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "מאשדוד ואשקלון עד קלקיליה: שני חשודים בגניבות רכב נעצרו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859759",
+      "tag": "כללי",
+      "published_at": "2026-08-10T15:02:00+00:00"
+    },
+    {
+      "title_he": "משרד החינוך מציב גבולות להורים: שעות פנייה קבועות ואיסור כניסה ללא תיאום",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859751",
+      "tag": "כללי",
+      "published_at": "2026-08-10T15:00:00+00:00"
+    },
+    {
+      "title_he": "ניסה להימלט מהשוטרים - ונתפס עם יותר מ-2 ק\"ג קוקאין",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859757",
+      "tag": "כללי",
+      "published_at": "2026-08-10T14:52:00+00:00"
+    },
     {
       "title_he": "התחזו לנציגי חברת ביטוח וגבו \"שכר טרחה\": בני זוג חשודים בהונאת 75 קורבנות",
       "summary_he": "",
@@ -1076,30 +1101,6 @@
       "link": "https://news.walla.co.il/item/3859667",
       "tag": "כללי",
       "published_at": "2026-08-10T10:45:00+00:00"
-    },
-    {
-      "title_he": "תיעוד: נכנס לבית, שובר את השמשות, מביא חומר בערה ומצית את הרכב כנקמה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859655",
-      "tag": "כללי",
-      "published_at": "2026-08-10T10:15:00+00:00"
-    },
-    {
-      "title_he": "אחרי העימות עם המתלוננת: סגן ראש העיר ראשל\"צ החשוד בעבירות מין שוחרר למעצר בית",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859646",
-      "tag": "כללי",
-      "published_at": "2026-08-10T09:47:00+00:00"
-    },
-    {
-      "title_he": "\"אירוע אלימות קשה\": הצהרת תובע נגד חשוד ברצח עובד זר בקטמון",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859629",
-      "tag": "כללי",
-      "published_at": "2026-08-10T09:09:00+00:00"
     }
   ],
   "track_record": {
