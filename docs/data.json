@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T05:54:42.663930+00:00",
+  "generated_at": "2026-08-10T07:39:23.081836+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-10T05:54:42.663940+00:00",
+  "ta_generated_at": "2026-08-10T07:39:23.081846+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "14.90",
-      "change": "-1.65%",
-      "direction": "down",
+      "value": "15.41",
+      "change": "+3.42%",
+      "direction": "up",
       "group": "market_us",
-      "pct_raw": -1.65016501650165
+      "pct_raw": 3.4228187919463076
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,401.2",
-      "change": "+0.03%",
+      "value": "$4,413.2",
+      "change": "+0.31%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.03409323362956565
+      "pct_raw": 0.3068391026660909
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.0",
-      "change": "+0.48%",
+      "value": "$83.6",
+      "change": "+0.08%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4787552363854048
+      "pct_raw": 0.08378216636745349
     },
     {
       "name": "ביטקוין",
-      "value": "$65,065",
-      "change": "+0.33%",
+      "value": "$65,307",
+      "change": "+0.71%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.33328858315666604
+      "pct_raw": 0.7070959685888831
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,169",
-      "change": "+0.98%",
+      "value": "4,181",
+      "change": "+0.30%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.9812375558925174
+      "pct_raw": 0.2969558428100972
     },
     {
       "name": "דולר/שקל",
-      "value": "3.001",
-      "change": "+0.10%",
-      "direction": "up",
+      "value": "2.996",
+      "change": "-0.07%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.10006337346986804
+      "pct_raw": -0.06670891564656882
     }
   ],
   "sectors": [
@@ -856,29 +856,18 @@
   },
   "us_news": [
     {
-      "title_he": "הנפט עולה על רקע חוסר הוודאות בנוגע לעסקת מצר הורמוז ארה\"ב ואיראן",
+      "title_he": "כורה אדמה נדירה באוסטרליה עולה ב-29% לאחר השקעה של משרד המלחמה האמריקאי",
       "summary_he": "",
-      "body_en": "Oil rises amid uncertainty over U.S.-Iran Strait of Hormuz deal",
+      "body_en": "Australian rare earth miner surges as much as 29% after U.S. Department of War investment",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html",
-      "tag": "M&A",
-      "published_at": "2026-08-10T05:52:41+00:00",
-      "sentiment": "neutral"
+      "link": "https://www.cnbc.com/2026/08/10/rare-earths-sunrise-energy-metals-trump-cina.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-10T07:03:25+00:00",
+      "sentiment": "bullish"
     },
     {
-      "title_he": "טראמפ אומר שחברות העל בנפט מרוויחות יותר מדי כסף. מה יעשו עם זה?",
-      "summary_he": "",
-      "body_en": "Trump says oil supermajors are making too much money. What will they do with it?",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/oil-iran-war-profits-windfall-tax.html",
-      "tag": "ENERGY",
-      "published_at": "2026-08-10T05:00:02+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "החוזים העתידיים על מניות ארה\"ב עומדים ללא שינוי בזמן שהמשקיעים ממתינים לנתוני האינפלציה, מתמודדים עם חוסר ודאות איראנית יותר",
+      "title_he": "החוזים העתידיים על מניות ארה\"ב עומדים ללא שינוי בזמן שהמשקיעים ממתינים לנתוני האינפלציה, מתמודדים עם אי הוודאות האיראנית יותר",
       "summary_he": "",
       "body_en": "U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty",
       "ticker": "",
@@ -897,7 +886,7 @@
       "link": "https://nitter.net/FuturumEquities/status/2086616124892844087#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T00:50:26+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -909,7 +898,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086582208219824398#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T22:35:39+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
@@ -921,18 +910,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2086565685044433112#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T21:30:00+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מספר המניות שעוברות את ה-S&P 500 הוא הגבוה ביותר מזה 4 שנים. למה המספר הזה צריך לעלות.",
-      "summary_he": "",
-      "body_en": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-09T19:11:00+00:00",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "bullish"
     },
     {
@@ -944,7 +922,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086498755658801645#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T17:04:03+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "bullish"
     },
     {
@@ -956,8 +934,20 @@
       "link": "https://nitter.net/DeItaone/status/2086498383833825580#m",
       "tag": "ENERGY",
       "published_at": "2026-08-09T17:02:34+00:00",
-      "relative_time": "לפני 12ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "RT מאת @StockSavvyShay: NVDA $ יכול לצאת משנת 2028 ולהניב רווח של כמעט 1.3 מיליארד דולר בכל יום 🤯",
+      "summary_he": "",
+      "body_en": "RT by @StockSavvyShay: $NVDA could exit 2028 generating nearly $1.3B in profit every single day 🤯",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086474201222025393#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-09T15:26:29+00:00",
+      "relative_time": "לפני 16ש׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "צמיחת המכירות של S&P 500 נמצאת בשיא של כמעט 5 שנים. הנה מה שעומד מאחורי הזינוק.",
@@ -982,29 +972,53 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "Tenable (TENB) מרחיב את רשת האבטחה של AI בדיוק כשהרווחים הופכים פינה",
+      "title_he": "דגשים על רווחי מרפי אויל לרבעון 2",
       "summary_he": "",
-      "body_en": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
+      "body_en": "Murphy Oil Q2 Earnings Call Highlights",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html",
-      "tag": "TECH",
-      "published_at": "2026-08-08T18:59:44+00:00",
-      "sentiment": "bullish"
+      "link": "https://finance.yahoo.com/energy/articles/murphy-oil-q2-earnings-call-200351441.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-08T20:03:51+00:00",
+      "sentiment": "neutral"
     },
     {
-      "title_he": "LegalZoom (LZ) משלב את Microsoft Copilot בין משמרות צמיחה",
+      "title_he": "AMD (AMD) קונה את Taalas: האם AI Inference הוא שדה הקרב הבא עם Nvidia?",
       "summary_he": "",
-      "body_en": "LegalZoom (LZ) Integrates Microsoft Copilot Amid Growth Shifts",
+      "body_en": "AMD (AMD) Buys Taalas: Is AI Inference the Next Battleground With Nvidia?",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/small-business/articles/legalzoom-lz-integrates-microsoft-copilot-183004346.html",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amd-amd-buys-taalas-ai-194609482.html",
       "tag": "TECH",
-      "published_at": "2026-08-08T18:30:04+00:00",
+      "published_at": "2026-08-08T19:46:09+00:00",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "תיעוד: נכנס לבית, שובר את השמשות, מביא חומר בערה ומצית את הרכב כנקמה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859655",
+      "tag": "כללי",
+      "published_at": "2026-08-10T10:15:00+00:00"
+    },
+    {
+      "title_he": "אחרי 5 ימים במעצר: סגן ראש עיריית ראשל\"צ צפוי להשתחרר למעצר בית",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859646",
+      "tag": "כללי",
+      "published_at": "2026-08-10T09:47:00+00:00"
+    },
+    {
+      "title_he": "\"אירוע אלימות קשה\": הצהרת תובע נגד חשוד ברצח עובד זר בקטמון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859629",
+      "tag": "כללי",
+      "published_at": "2026-08-10T09:09:00+00:00"
+    },
     {
       "title_he": "משרד הבריאות בקריאה חריגה לציבור: הגיעו ותרמו דם, בדגש על בעלי סוג דם O",
       "summary_he": "",
@@ -1060,30 +1074,6 @@
       "link": "https://news.walla.co.il/item/3859522",
       "tag": "כללי",
       "published_at": "2026-08-09T17:33:00+00:00"
-    },
-    {
-      "title_he": "צעירה בשנות ה-20 נעצרה בחשד שהתחזתה לגבר וניהלה קשרים עם נשים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859516",
-      "tag": "כללי",
-      "published_at": "2026-08-09T17:08:00+00:00"
-    },
-    {
-      "title_he": "\"קח בחשבון היום אני אצלך בבית\": עורך דין פלילי נאשם בסחיטה באיומים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859519",
-      "tag": "כללי",
-      "published_at": "2026-08-09T16:58:00+00:00"
-    },
-    {
-      "title_he": "\"הוא אמנם לא שומע - אבל הוא לא טיפש\": הביקור במרפאה שהפך למאבק על נגישות לחירשים",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859514",
-      "tag": "כללי",
-      "published_at": "2026-08-09T16:56:00+00:00"
     }
   ],
   "track_record": {
