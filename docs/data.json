@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T07:39:23.081836+00:00",
+  "generated_at": "2026-08-10T09:19:30.591505+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-10T07:39:23.081846+00:00",
+  "ta_generated_at": "2026-08-10T09:19:30.591515+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.41",
-      "change": "+3.42%",
+      "value": "15.45",
+      "change": "+3.69%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 3.4228187919463076
+      "pct_raw": 3.6912751677852276
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,413.2",
-      "change": "+0.31%",
+      "value": "$4,406.2",
+      "change": "+0.15%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3068391026660909
+      "pct_raw": 0.14773734572811784
     },
     {
       "name": "נפט ברנט",
-      "value": "$83.6",
-      "change": "+0.08%",
+      "value": "$84.5",
+      "change": "+1.15%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.08378216636745349
+      "pct_raw": 1.1490125673249647
     },
     {
       "name": "ביטקוין",
-      "value": "$65,307",
-      "change": "+0.71%",
+      "value": "$65,155",
+      "change": "+0.47%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.7070959685888831
+      "pct_raw": 0.4727358083727711
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,181",
-      "change": "+0.30%",
+      "value": "4,177",
+      "change": "+0.19%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.2969558428100972
+      "pct_raw": 0.19357299284954577
     },
     {
       "name": "דולר/שקל",
-      "value": "2.996",
-      "change": "-0.07%",
+      "value": "2.997",
+      "change": "-0.03%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.06670891564656882
+      "pct_raw": -0.026683566258627528
     }
   ],
   "sectors": [
@@ -856,18 +856,89 @@
   },
   "us_news": [
     {
-      "title_he": "כורה אדמה נדירה באוסטרליה עולה ב-29% לאחר השקעה של משרד המלחמה האמריקאי",
+      "title_he": "שמות ציוד למחצה, $SPCX עלו יפה הבוקר $SPY +0.2 $QQQ +0.5% $SMH +1.2% $IWM -0.2% $EEM +0.0% זהב, ביטקוין עלייה חלקית של $USO +2.6% @finviz_com",
       "summary_he": "",
-      "body_en": "Australian rare earth miner surges as much as 29% after U.S. Department of War investment",
+      "body_en": "Semi equipment names, $SPCX up nicely this morning $SPY +0.2 $QQQ +0.5% $SMH +1.2% $IWM -0.2% $EEM +0.0% Gold, bitcoin up fractionally $USO +2.6% @finviz_com",
+      "ticker": "$SPCX",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2086742795339874526#m",
+      "tag": "CRYPTO",
+      "published_at": "2026-08-10T09:13:46+00:00",
+      "relative_time": "לפני 5ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SONY ו-TSMC מתכננים $6.3B מפעל חיישני תמונה ביפן החברות מתכננות 60/40 JV לייצור המוני חיישני תמונה מהדור הבא בקומאמוטו החל משנת 2029. המפעל הוא...",
+      "summary_he": "",
+      "body_en": "$SONY AND TSMC PLAN $6.3B IMAGE SENSOR PLANT IN JAPAN The companies plan a 60/40 JV to mass-produce next-gen image sensors in Kumamoto starting in 2029. The plant is expected to supply Apple’s iPhone ",
+      "ticker": "$SONY",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086738890430521817#m",
+      "tag": "TECH",
+      "published_at": "2026-08-10T08:58:15+00:00",
+      "relative_time": "לפני 20ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "כורה אדמה נדירה באוסטרליה עולה לאחר השקעה של משרד המלחמה האמריקאי",
+      "summary_he": "",
+      "body_en": "Australian rare earth miner surges after U.S. Department of War investment",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/10/rare-earths-sunrise-energy-metals-trump-cina.html",
       "tag": "NEWS",
-      "published_at": "2026-08-10T07:03:25+00:00",
+      "published_at": "2026-08-10T08:36:11+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "החוזים העתידיים על מניות ארה\"ב עומדים ללא שינוי בזמן שהמשקיעים ממתינים לנתוני האינפלציה, מתמודדים עם אי הוודאות האיראנית יותר",
+      "title_he": "הכנסות TSMC ביולי עלו ב-45% ב-TSM $ דיווחו על 467.6 מיליארד דולר NT ביולי, עלייה של 44.7% בשנה שעברה ו-5.6% מחודש. הקצב גבוה בהרבה מטווח הצמיחה של 36%-37% שאליו הנחה ברבעון השני...",
+      "summary_he": "",
+      "body_en": "TSMC JULY REVENUE SURGES 45% $TSM reported NT$467.6B in July revenue, up 44.7% YoY and 5.6% MoM. The pace is well above the 36%-37% growth range it guided to at Q2 earnings.",
+      "ticker": "$TSM",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086731968637739215#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T08:30:45+00:00",
+      "relative_time": "לפני 48ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "אירועי המפתח של היום (הכל EST) — 08/10/2026 13:00: מכירה פומבית של שטרות לשלוש שנים בארה\"ב לפני הפתיחה 👇 01:00: Seadrill $SDRL 06:00: Barrick Mining $B 06:00: RadNet $RDNT 06:00: Dole...",
+      "summary_he": "",
+      "body_en": "Today's Key Events (All EST) — 08/10/2026 13:00: US 3-Year Note Auction Before Open 👇 01:00: Seadrill $SDRL 06:00: Barrick Mining $B 06:00: RadNet $RDNT 06:00: Dole $DOLE 06:45: Ferguson Enterprises $",
+      "ticker": "$SDRL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086730213405213175#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-10T08:23:47+00:00",
+      "relative_time": "לפני 55ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "AAPL $ - APPLE עשויה לספוג את עליית העלויות של ה-IPHONE 18 PRO אפל עשויה להגביל את העלאות המחירים עבור ה-iPhone 18 Pro למרות שעלויות הרכיבים הצפויות לזנק ב-38%, על פי ...",
+      "summary_he": "",
+      "body_en": "$AAPL - APPLE MAY ABSORB IPHONE 18 PRO COST SURGE Apple may limit price hikes for the iPhone 18 Pro despite component costs expected to jump 38%, according to TrendForce. Soaring memory prices are the",
+      "ticker": "$AAPL",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2086728116399976780#m",
+      "tag": "TECH",
+      "published_at": "2026-08-10T08:15:27+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "הדולר מתייצב לאחר ירידת משכורות, נתוני האינפלציה בעין",
+      "summary_he": "",
+      "body_en": "Dollar steadies after payrolls drop, inflation data eyed",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/news/dollar-near-two-month-trough-013132165.html",
+      "tag": "MACRO",
+      "published_at": "2026-08-10T07:58:42+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "החוזים העתידיים על המניות בארה\"ב עומדים ללא שינוי בזמן שהמשקיעים ממתינים לנתוני האינפלציה, מתמודדים עם חוסר הוודאות של איראן",
       "summary_he": "",
       "body_en": "U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty",
       "ticker": "",
@@ -886,7 +957,7 @@
       "link": "https://nitter.net/FuturumEquities/status/2086616124892844087#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T00:50:26+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,7 +969,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086582208219824398#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T22:35:39+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "bullish"
     },
     {
@@ -910,7 +981,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2086565685044433112#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T21:30:00+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "bullish"
     },
     {
@@ -922,20 +993,8 @@
       "link": "https://nitter.net/RyanDetrick/status/2086498755658801645#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T17:04:03+00:00",
-      "relative_time": "לפני 14ש׳",
+      "relative_time": "לפני 16ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "טראמפ עובר לאסטרטגיה \"נמוכה\" באיראן טראמפ אומר כי ארה\"ב \"מתנגדת\" לאיראן, ומאותתת שהלחץ הכלכלי יקבל עדיפות על פני חידוש צבאי...",
-      "summary_he": "",
-      "body_en": "TRUMP SHIFTS TO A “LOW-KEY” STRATEGY ON IRAN Trump says the U.S. is “low keying it” with Iran, signaling economic pressure will take priority over renewed military action for now. He argues Iran’s eco",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2086498383833825580#m",
-      "tag": "ENERGY",
-      "published_at": "2026-08-09T17:02:34+00:00",
-      "relative_time": "לפני 14ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "RT מאת @StockSavvyShay: NVDA $ יכול לצאת משנת 2028 ולהניב רווח של כמעט 1.3 מיליארד דולר בכל יום 🤯",
@@ -946,22 +1005,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086474201222025393#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T15:26:29+00:00",
-      "relative_time": "לפני 16ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "צמיחת המכירות של S&P 500 נמצאת בשיא של כמעט 5 שנים. הנה מה שעומד מאחורי הזינוק.",
-      "summary_he": "",
-      "body_en": "S&P 500 sales growth is at a nearly 5-year high. Here’s what’s behind the surge.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/s-p-500-sales-growth-is-at-a-nearly-5-year-high-heres-whats-behind-the-surge-a4ccf06d?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-09T14:00:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות בינה מלאכותית ב-OpenAI, Anthropic ומטה",
+      "title_he": "איך סטארטאפ ישראלי קטן נקשר לפריצות AI סוררות ב-OpenAI, Anthropic ומטה",
       "summary_he": "",
       "body_en": "How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
       "ticker": "",
@@ -970,31 +1018,33 @@
       "tag": "TECH",
       "published_at": "2026-08-09T11:31:42+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "דגשים על רווחי מרפי אויל לרבעון 2",
-      "summary_he": "",
-      "body_en": "Murphy Oil Q2 Earnings Call Highlights",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/energy/articles/murphy-oil-q2-earnings-call-200351441.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T20:03:51+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "AMD (AMD) קונה את Taalas: האם AI Inference הוא שדה הקרב הבא עם Nvidia?",
-      "summary_he": "",
-      "body_en": "AMD (AMD) Buys Taalas: Is AI Inference the Next Battleground With Nvidia?",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/ai/articles/amd-amd-buys-taalas-ai-194609482.html",
-      "tag": "TECH",
-      "published_at": "2026-08-08T19:46:09+00:00",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "בניגוד לבקשתו של כ\"ץ: טל ינון דרדיק יצא ממעצר בית - אך יורחק מיהודה ושומרון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859670",
+      "tag": "כללי",
+      "published_at": "2026-08-10T10:58:00+00:00"
+    },
+    {
+      "title_he": "בן 64 הופל לקרקע ונבעט באלימות על ידי קטינים - בגלל ויכוח על מעבר חציה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859666",
+      "tag": "כללי",
+      "published_at": "2026-08-10T10:47:00+00:00"
+    },
+    {
+      "title_he": "הטלפון נגנב בתל אביב - ובתוכו הזיכרונות האחרונים מהאח שנהרג בלבנון",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859667",
+      "tag": "כללי",
+      "published_at": "2026-08-10T10:45:00+00:00"
+    },
     {
       "title_he": "תיעוד: נכנס לבית, שובר את השמשות, מביא חומר בערה ומצית את הרכב כנקמה",
       "summary_he": "",
@@ -1004,7 +1054,7 @@
       "published_at": "2026-08-10T10:15:00+00:00"
     },
     {
-      "title_he": "אחרי 5 ימים במעצר: סגן ראש עיריית ראשל\"צ צפוי להשתחרר למעצר בית",
+      "title_he": "אחרי העימות עם המתלוננת: סגן ראש העיר ראשל\"צ החשוד בעבירות מין שוחרר למעצר בית",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3859646",
@@ -1050,30 +1100,6 @@
       "link": "https://news.walla.co.il/item/3859546",
       "tag": "כללי",
       "published_at": "2026-08-09T20:22:00+00:00"
-    },
-    {
-      "title_he": "טרגדיה בגליל: נקבע מותו של הנער בן ה-16 שנפל מגובה במהלך סנפלינג במערת קשת",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859533",
-      "tag": "כללי",
-      "published_at": "2026-08-09T18:46:00+00:00"
-    },
-    {
-      "title_he": "מצבור אמל\"ח אותר בבנימין - החשוד תקף את החבלנים בזירה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859538",
-      "tag": "כללי",
-      "published_at": "2026-08-09T18:45:00+00:00"
-    },
-    {
-      "title_he": "ניגח ניידת, נמלט מהשוטרים - ונתפס כשניסה לגנוב רכב נוסף",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859522",
-      "tag": "כללי",
-      "published_at": "2026-08-09T17:33:00+00:00"
     }
   ],
   "track_record": {
