@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T21:12:22.440481+00:00",
+  "generated_at": "2026-08-10T22:07:01.375413+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-10T21:12:22.440492+00:00",
+  "ta_generated_at": "2026-08-10T22:07:01.375424+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -711,26 +711,26 @@
     {
       "name": "זהב",
       "value": "$4,448.6",
-      "change": "+1.11%",
+      "change": "+0.65%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.1114394163238526
+      "pct_raw": 0.6538905355567244
     },
     {
       "name": "נפט ברנט",
       "value": "$87.8",
-      "change": "+5.15%",
+      "change": "+0.15%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 5.146618791143025
+      "pct_raw": 0.14819881440947955
     },
     {
       "name": "ביטקוין",
-      "value": "$64,059",
-      "change": "-1.22%",
+      "value": "$63,903",
+      "change": "-1.46%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.2180868556209794
+      "pct_raw": -1.4593245412651983
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -753,10 +753,10 @@
     {
       "name": "דולר/שקל",
       "value": "3.002",
-      "change": "+0.13%",
+      "change": "+0.11%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.13341783129315246
+      "pct_raw": 0.1134051565991818
     }
   ],
   "sectors": [
@@ -856,6 +856,97 @@
   },
   "us_news": [
     {
+      "title_he": "Nvidia מציעה מימון של 500 מיליארד דולר כאשר המנכ\"ל ג'נסן הואנג אומר ל-CNBC שהשבבים שלו הם \"נכס שניתן להשקיע\"",
+      "summary_he": "",
+      "body_en": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+      "tag": "TECH",
+      "published_at": "2026-08-10T21:59:28+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "UPWORK $UPWK Q2'26 שיאי רווחים 🔹 הכנסות: $191.7M (הערכה. $190M) ; -2% YoY 🔹 התאמה EPS: $0.41 (הערכה. $0.34) 🟢 🔹 התאמה EBITDA: 64.1 מיליון דולר (הערכה של 57.6 מיליון דולר) 🟢; +12% YoY 🔹 GSV…",
+      "summary_he": "",
+      "body_en": "UPWORK $UPWK Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $191.7M (Est. $190M) 🟢; -2% YoY 🔹 Adj. EPS: $0.41 (Est. $0.34) 🟢 🔹 Adj. EBITDA: $64.1M (Est. $57.6M) 🟢; +12% YoY 🔹 GSV per Active Client: $5,230; +5% ",
+      "ticker": "$UPWK",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086933496942186826#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T21:51:33+00:00",
+      "relative_time": "לפני 15ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ מדיה רשמה הפסד של 238 מיליון דולר ברבעון השני עם ירידת הקריפטו",
+      "summary_he": "",
+      "body_en": "Trump Media posts $238 million second-quarter loss as crypto declines",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/10/trump-media-djt-tmtg-earnings-truth-social-crypto.html",
+      "tag": "CRYPTO",
+      "published_at": "2026-08-10T21:48:14+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "Rocket Lab חושפת כמה תוכניות גדולות, אבל המניה שלה צונחת על רווחים מעורבים",
+      "summary_he": "",
+      "body_en": "Rocket Lab reveals some big plans, but its stock is dropping on mixed earnings",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/rocket-lab-reveals-some-big-plans-but-its-stock-is-dropping-on-mixed-earnings-4012ba2b?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T21:37:00+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "וול סטריט חושב שהאינפלציה בשליטה. הנה הסיבה שמשקיעים לא צריכים לקנות את זה.",
+      "summary_he": "",
+      "body_en": "Wall Street thinks inflation is under control. Here’s why investors shouldn’t buy it.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/fed-chair-kevin-warsh-promises-2-inflation-but-skyrocketing-u-s-debt-makes-that-a-pipe-dream-ba448651?mod=mw_rss_topstories",
+      "tag": "MACRO",
+      "published_at": "2026-08-10T21:32:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Lumentum $LITE, Franco-Nevada $FNV ו-Cardinal Health $CAH הן החברות הגדולות ביותר המדווחות על רווחים מחר.",
+      "summary_he": "",
+      "body_en": "Lumentum $LITE, Franco-Nevada $FNV, and Cardinal Health $CAH are the largest companies reporting earnings tomorrow.",
+      "ticker": "$LITE",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2086928072339599449#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T21:30:00+00:00",
+      "relative_time": "לפני 36ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
+      "summary_he": "",
+      "body_en": "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/10/trump-spoke-to-fed-chair-kevin-warsh-denies-regular-calls.html",
+      "tag": "FED",
+      "published_at": "2026-08-10T21:23:04+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Jensen Huang היה בשידור חי עם גולדמן זאקס, בלקרוק, בלקסטון, KKR, ברוקפילד ואפולו והסבירו את החשיבה מאחורי דחיפה של 500 מיליארד דולר למימון AI. הוא אומר \"ב-AI,...",
+      "summary_he": "",
+      "body_en": "Jensen Huang was live with Goldman Sachs, BlackRock, Blackstone, KKR, Brookfield and Apollo explaining the thinking behind the $500B AI financing push. He says “in AI, compute is revenue” meaning GPUs",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086921354566377586#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-10T21:03:18+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מארק צוקרברג מ-$META אמר כי לעתיד עם AI יהיה 'שפע של מקומות עבודה'.",
       "summary_he": "",
       "body_en": "Mark Zuckerberg of $META has said that the future with AI will have an ‘abundance of jobs.'",
@@ -864,7 +955,7 @@
       "link": "https://nitter.net/unusual_whales/status/2086920018621509762#m",
       "tag": "TECH",
       "published_at": "2026-08-10T20:58:00+00:00",
-      "relative_time": "לפני 13ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +967,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086915464895348985#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T20:39:54+00:00",
-      "relative_time": "לפני 32ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +979,7 @@
       "link": "https://nitter.net/wallstengine/status/2086913724062003285#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T20:32:59+00:00",
-      "relative_time": "לפני 38ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +991,7 @@
       "link": "https://nitter.net/Kr00ney/status/2086911459183702089#m",
       "tag": "BANKS",
       "published_at": "2026-08-10T20:23:59+00:00",
-      "relative_time": "לפני 48ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bearish"
     },
     {
@@ -912,7 +1003,7 @@
       "link": "https://nitter.net/wallstengine/status/2086909928040702340#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T20:17:54+00:00",
-      "relative_time": "לפני 54ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -924,101 +1015,6 @@
       "link": "https://www.marketwatch.com/story/ebay-may-dodge-a-gamestop-takeover-but-theres-a-new-twist-in-the-ryan-cohen-saga-d779b753?mod=mw_rss_topstories",
       "tag": "M&A",
       "published_at": "2026-08-10T20:17:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "HELIOS TECHNOLOGIES $HLIO Q2'26 שיאי רווחים 🔹 הכנסות: $231.9M (אומדן $231M) 🟢; +9% YoY 🔹 התאמה EPS: $0.88 (הערכה. $0.80) 🟢; +49% YoY 🔹 רווח גולמי: 34.6%; +280 bps…",
-      "summary_he": "",
-      "body_en": "HELIOS TECHNOLOGIES $HLIO Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $231.9M (Est. $231M) 🟢; +9% YoY 🔹 Adj. EPS: $0.88 (Est. $0.80) 🟢; +49% YoY 🔹 Gross Margin: 34.6%; +280 bps YoY 🔹 Adj. EBITDA: $49.3M (Est",
-      "ticker": "$HLIO",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086909674226663520#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T20:16:53+00:00",
-      "relative_time": "לפני 55ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$RKLB רווחים ברבעון השני • הכנסות $234 מיליון לעומת משוער $232M • EPS ($0.08) לעומת משוער ($0.07) • צבר הזמנות של $2.36B לעומת משוער. 2.29 מיליארד דולר (+137% בשנה) • מרווח גולמי 36% לעומת משוער. 36% הדרכה לרבעון השלישי •…",
-      "summary_he": "",
-      "body_en": "$RKLB Q2 EARNINGS • Revenue $234M vs Est. $232M • EPS ($0.08) vs Est. ($0.07) • Backlog $2.36B vs. Est. $2.29B (+137% YoY) • Gross Margin 36% vs. Est. 36% Q3 Guidance • Revenue $258M vs Est. $238M • E",
-      "ticker": "$RKLB",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086908505043370072#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T20:12:15+00:00",
-      "relative_time": "לפני 59ד׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "RT מאת @MikeZaccardi: האם הצרכן סוף סוף נסוג? בעקבות נתוני שכר רכים של יולי, הרווחים הקרובים למסעדות מ-$CAVA, $JACK, $EAT ו-$RRGB ישמשו כ...",
-      "summary_he": "",
-      "body_en": "RT by @MikeZaccardi: Is the consumer finally pulling back? Following soft July payroll data, upcoming restaurant earnings from $CAVA, $JACK, $EAT & $RRGB will serve as a vital temperature check on hou",
-      "ticker": "$CAVA",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/WallStHorizon/status/2086908431265616056#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T20:11:57+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Rocket Lab, RKLB $, רווחים: - הכנסות: 234 מיליון דולר, משוער: 230 מיליון דולר - EPS: -0.08 $, הערכה: -$0.08 רווחי HIMS: - הכנסות: 753 מיליון דולר, הערכה: 730 מיליון דולר - EPS:...",
-      "summary_he": "",
-      "body_en": "Rocket Lab, $RKLB, earnings: - Revenue: $234 million, est: $230 million - EPS: -$0.08, est: -$0.08 $HIMS earnings: - Revenue: $753 million, est: $730 million - EPS: -$0.37, est: -$0.05",
-      "ticker": "$RKLB",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2086908194291646870#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T20:11:01+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שירי רווחים של $HIMS & HERS Q2'26 🔹 הכנסות: $753.2M (אומדן $700M) 🟢; +38% YoY 🔹 GAAP EPS: -$0.37 🔹 התאמה EBITDA: $60.3M (הערכה. $47.2M) ; -27% משנה לשנה 🔹 מנויים:...",
-      "summary_he": "",
-      "body_en": "$HIMS & HERS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $753.2M (Est. $700M) 🟢; +38% YoY 🔹 GAAP EPS: -$0.37 🔹 Adj. EBITDA: $60.3M (Est. $47.2M) 🟢; -27% YoY 🔹 Subscribers: 2,891; +19% YoY FY26 Guide: 🔹 Reven",
-      "ticker": "$HIMS",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086908149995651538#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T20:10:50+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$HIMS רווחים ברבעון השני • הכנסות של $753 מיליון לעומת משוער. $700M • EPS ($0.33) לעומת משוער $0.13 • EBITDA $60 מיליון לעומת משוער 47 מיליון דולר • שולי רווח גולמי: 64% לעומת משוער. 69% • מנויים 2.90 מיליון לעומת משוער 2.75 מיליון…",
-      "summary_he": "",
-      "body_en": "$HIMS Q2 EARNINGS • Revenue $753M vs Est. $700M • EPS ($0.33) vs Est. $0.13 • EBITDA $60M vs Est. $47M • Gross Margin: 64% vs Est. 69% • Subscribers 2.90M vs Est. 2.75M Q3 Guidance • Revenue $890M vs ",
-      "ticker": "$HIMS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086907844830642508#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T20:09:37+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "ROCKET LAB $RKLB Q2'26 שירי רווחים 🔹 הכנסות: $234M (אומדן $231M) 🟢; +62% YoY 🔹 EPS: -$0.08 (הערכה -$0.07) 🔴 🔹 צבר הזמנות: $2.36B; +137% מדריך לרבעון השלישי של השנה: 🔹 הכנסה:...",
-      "summary_he": "",
-      "body_en": "ROCKET LAB $RKLB Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $234M (Est. $231M) 🟢; +62% YoY 🔹 EPS: -$0.08 (Est. -$0.07) 🔴 🔹 Backlog: $2.36B; +137% YoY Q3 Guide: 🔹 Revenue: $250M-$265M (Est. $239M) 🟢 🔹 EBITDA",
-      "ticker": "$RKLB",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086907085657403484#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T20:06:36+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "יו\"ר הפד, קווין ורש, מבטיח אינפלציה של 2%, אבל החוב האמריקני מרקיע שחקים הופך את זה לחלום צינור",
-      "summary_he": "",
-      "body_en": "Fed Chair Kevin Warsh promises 2% inflation, but skyrocketing U.S. debt makes that a pipe dream",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/fed-chair-kevin-warsh-promises-2-inflation-but-skyrocketing-u-s-debt-makes-that-a-pipe-dream-ba448651?mod=mw_rss_topstories",
-      "tag": "FED",
-      "published_at": "2026-08-10T19:31:00+00:00",
       "sentiment": "neutral"
     }
   ],
