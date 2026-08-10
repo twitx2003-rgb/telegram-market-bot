@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T02:23:25.084270+00:00",
+  "generated_at": "2026-08-10T04:12:28.543223+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-10T02:23:25.084282+00:00",
+  "ta_generated_at": "2026-08-10T04:12:28.543234+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,382.6",
-      "change": "-0.39%",
+      "value": "$4,385.6",
+      "change": "-0.32%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.38866286337703604
+      "pct_raw": -0.32047639611790474
     },
     {
       "name": "נפט ברנט",
-      "value": "$84.5",
-      "change": "+1.08%",
+      "value": "$84.3",
+      "change": "+0.96%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.0771992818671523
+      "pct_raw": 0.9575104727707926
     },
     {
       "name": "ביטקוין",
-      "value": "$64,916",
-      "change": "+0.10%",
+      "value": "$64,995",
+      "change": "+0.22%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.10383212941170554
+      "pct_raw": 0.2245589154580282
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.999",
-      "change": "+0.04%",
+      "value": "3.000",
+      "change": "+0.07%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.04002534938794129
+      "pct_raw": 0.06670891564658363
     }
   ],
   "sectors": [
@@ -856,14 +856,14 @@
   },
   "us_news": [
     {
-      "title_he": "החוזים העתידיים על המניות בארה\"ב צונחים כשהמשקיעים ממתינים לנתוני האינפלציה, מתמודדים עם אי-ודאות איראנית יותר",
+      "title_he": "החוזים העתידיים על מניות ארה\"ב עומדים ללא שינוי בזמן שהמשקיעים ממתינים לנתוני האינפלציה, מתמודדים עם חוסר ודאות איראנית יותר",
       "summary_he": "",
-      "body_en": "U.S. stock futures dip as investors await inflation data, grapple with more Iran uncertainty",
+      "body_en": "U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty",
       "ticker": "",
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
       "tag": "MACRO",
-      "published_at": "2026-08-10T01:30:00+00:00",
+      "published_at": "2026-08-10T03:02:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -875,7 +875,7 @@
       "link": "https://nitter.net/FuturumEquities/status/2086616124892844087#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T00:50:26+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +887,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086582208219824398#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T22:35:39+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
@@ -899,7 +899,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2086565685044433112#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-09T21:30:00+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -911,7 +911,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086498755658801645#m",
       "tag": "NEWS",
       "published_at": "2026-08-09T17:04:03+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "bullish"
     },
     {
@@ -937,26 +937,15 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "בנק אוף אמריקה מחדש את יעד מחיר המניה של אפל לאחר רווחים",
+      "title_he": "כשהשוק קרס ב-1987, פול טיודור ג'ונס הרוויח 100 מיליון דולר ביום אחד: \"הכלל החשוב ביותר במסחר הוא לשחק הגנה מצוינת, לא התקפה גדולה\"",
       "summary_he": "",
-      "body_en": "Bank of America revamps Apple stock price target after earnings",
+      "body_en": "As the Market Crashed in 1987, Paul Tudor Jones Made $100 Million in a Single Day: ‘The Most Important Rule of Trading Is to Play Great Defense, Not Great Offense’",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-revamps-apple-stock-151700799.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-08T15:17:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הבינה המלאכותית של גוגל טענה שמצלמות Flock מחזיקות 650 דולר בזהב ו-23 פאונד של נחושת - זה הוטעה על ידי מם",
-      "summary_he": "",
-      "body_en": "Google's AI claimed Flock cameras hold $650 in gold and 23 pounds of copper — It was duped by meme",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/ai/articles/googles-ai-claimed-flock-cameras-150000005.html",
-      "tag": "TECH",
-      "published_at": "2026-08-08T15:00:00+00:00",
-      "sentiment": "neutral"
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-crashed-1987-paul-tudor-173002488.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-08T17:30:02+00:00",
+      "sentiment": "bearish"
     }
   ],
   "il_news": [
@@ -1046,7 +1035,7 @@
     "wins": 3,
     "hit_rate": 33,
     "avg_pnl": -3.59,
-    "open": 8
+    "open": 9
   },
   "alert_config": {
     "price_move_pct": 5,

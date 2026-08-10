@@ -153,6 +153,14 @@
    "confidence": 3,
    "engine": "rules",
    "last_pnl": 12.42
+  },
+  {
+   "ticker": "TEVA",
+   "rec_date": "2026-08-10",
+   "price_at_rec": 35.36,
+   "confidence": 4,
+   "engine": "rules",
+   "last_pnl": 0.0
   }
  ]
 }
