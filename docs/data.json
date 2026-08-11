@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T22:40:15.427882+00:00",
+  "generated_at": "2026-08-11T23:39:20.962044+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-11T22:40:15.427892+00:00",
+  "ta_generated_at": "2026-08-11T23:39:20.962054+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,435.0",
-      "change": "-0.14%",
+      "value": "$4,431.3",
+      "change": "-0.22%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.13735335840220583
+      "pct_raw": -0.22066605120353472
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.3",
-      "change": "+0.43%",
+      "value": "$89.2",
+      "change": "+0.36%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.42739849285795717
+      "pct_raw": 0.3599145203014367
     },
     {
       "name": "ביטקוין",
-      "value": "$63,623",
-      "change": "-0.45%",
+      "value": "$63,564",
+      "change": "-0.54%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.4527189233580918
+      "pct_raw": -0.5445319432328886
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.001",
-      "change": "-0.02%",
+      "value": "2.996",
+      "change": "-0.21%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.02332167249708962
+      "pct_raw": -0.2131699030743158
     }
   ],
   "sectors": [
@@ -856,14 +856,37 @@
   },
   "us_news": [
     {
-      "title_he": "מניית CoreWeave צונחת ב-13% כאשר ההכנסות מוכפלות בעקבות האצת הביקוש לתשתיות AI",
+      "title_he": "המניה של CoreWeave מזנקת כשהרווחים מראים מומנטום AI גדול",
       "summary_he": "",
-      "body_en": "CoreWeave stock pops 13% as revenue doubles on accelerating AI infrastructure demand",
+      "body_en": "CoreWeave’s stock soars as earnings show major AI momentum",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T23:29:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "CoreWeave stock pops 14% as revenue doubles on accelerating AI infrastructure demand",
+      "summary_he": "",
+      "body_en": "CoreWeave stock pops 14% as revenue doubles on accelerating AI infrastructure demand",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-11T22:20:14+00:00",
+      "published_at": "2026-08-11T22:51:06+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$CRWV חותמת על חוזה A100 עד שנת 2029, המראה שמעבדי GPU של $NVDA שהושקו ב-2020 עדיין יכולים לייצר הכנסות כמעט עשור מאוחר יותר. שהרווחה ארוכה יותר משפרת את התשואות...",
+      "summary_he": "",
+      "body_en": "$CRWV signs an A100 contract through 2029 showing $NVDA GPUs launched in 2020 can still generate revenue nearly a decade later. That longer earning life improves returns on its infrastructure while hi",
+      "ticker": "$CRWV",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087310826319569051#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T22:50:56+00:00",
+      "relative_time": "לפני 48ד׳",
       "sentiment": "neutral"
     },
     {
@@ -875,11 +898,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087299990830067932#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T22:07:52+00:00",
-      "relative_time": "לפני 32ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$SMCI הנפיקה 4.2 מיליארד דולר בהמרה חובה ברבעון הרביעי. EPS משתמש כעת בשיטה הדו-מחלקה, ומקצה חלק מהרווח הנקי למועדף. \"זה משפיע על הרווח למניה ברבעון הראשון של שנת 27...",
+      "title_he": "$SMCI הנפיקה 4.2 מיליארד דולר ברבעון הרביעי של חובה להמרה. EPS משתמש כעת בשיטה הדו-מחלקה, ומקצה חלק מהרווח הנקי למועדף. \"זה משפיע על הרווח למניה ברבעון הראשון של שנת 27...",
       "summary_he": "",
       "body_en": "$SMCI issued $4.2B of mandatory convertible preferred in Q4. EPS now uses the two-class method, allocating part of net income to the preferred. \"This impacts Q1 FY27 EPS guidance and should be conside",
       "ticker": "$SMCI",
@@ -887,7 +910,7 @@
       "link": "https://nitter.net/wallstengine/status/2087299111850844500#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T22:04:23+00:00",
-      "relative_time": "לפני 35ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,7 +922,7 @@
       "link": "https://nitter.net/wallstengine/status/2087298690658812404#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T22:02:42+00:00",
-      "relative_time": "לפני 37ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +934,7 @@
       "link": "https://nitter.net/wallstengine/status/2087296996675825928#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T21:55:58+00:00",
-      "relative_time": "לפני 43ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -923,7 +946,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087296357929480486#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T21:53:26+00:00",
-      "relative_time": "לפני 46ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,54 +969,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2087291324508815775#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T21:33:26+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Anthropic צפויה להנפקה עד סוף אוקטובר, לפי Polymarket⁠.com:",
-      "summary_he": "",
-      "body_en": "Anthropic is expected to IPO by end of October, per Polymarket⁠.com:",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2087289135228985769#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T21:24:44+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "המניה של CoreWeave מזנקת כשהרווחים מראים מומנטום AI גדול",
-      "summary_he": "",
-      "body_en": "CoreWeave’s stock soars as earnings show major AI momentum",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T21:17:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "SMCI $ הניב יותר רווח ברבעון הזה מאשר בכל שנת 2023 ביחד.",
-      "summary_he": "",
-      "body_en": "$SMCI generated more profit this quarter than it did in all of 2023 combined.",
-      "ticker": "$SMCI",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087284186155725187#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T21:05:04+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "צבר ההזמנות של $CRWV יותר משילש את השנה ל-~104 מיליארד דולר, וזה עדיין לא כולל התחייבויות של 25 מיליארד דולר של לקוחות חדשים שנוספו רק בשבועות הראשונים של הרבעון השלישי. האיכות של זה…",
-      "summary_he": "",
-      "body_en": "$CRWV backlog has more than tripled YoY to ~$104B, and that still excludes $25B of new customer commitments added in just the first few weeks of Q3. The quality of that backlog is improving too with ~",
-      "ticker": "$CRWV",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087281141497975077#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T20:52:58+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1005,19 +981,43 @@
       "link": "https://nitter.net/cperruna/status/2087275027766878299#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T20:28:40+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "CoreWeave $CRWV סיים את הרבעון השני עם צבר הכנסות של 104.2 מיליארד דולר, עלייה של 246% בשנה שעברה. יש לציין שהנתון הזה אינו כולל $25B+ של התחייבויות נטו של לקוחות חדשים שנוספו בתחילת הרבעון השלישי.",
+      "title_he": "סנטור ברני סנדרס קרא לחברות בינה מלאכותית להשהות את הפיתוח, ושלח מכתב למנכ\"לי OPENAI, ANTHROPIC ו- META PER NYT",
       "summary_he": "",
-      "body_en": "CoreWeave $CRWV ended Q2 with $104.2B in revenue backlog, up 246% YoY. Notably, that figure excludes $25B+ of net new customer commitments added in early Q3.",
-      "ticker": "$CRWV",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087272690122146083#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T20:19:23+00:00",
-      "relative_time": "לפני 2ש׳",
+      "body_en": "SENATOR BERNIE SANDERS HAS CALLED ON AI COMPANIES TO PAUSE DEVELOPMENT, SENDING A LETTER TO THE CEOS OF OPENAI, ANTHROPIC AND META PER NYT",
+      "ticker": "",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2087270654768820327#m",
+      "tag": "TECH",
+      "published_at": "2026-08-11T20:11:18+00:00",
+      "relative_time": "לפני 3ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "החוב של משקי הבית בארה\"ב כאחוז מהתמ\"ג צלל לשפל של עשרות שנים... מאזני משקי הבית חזקים @augurinfinity...",
+      "summary_he": "",
+      "body_en": "US household debt as a percentage of GDP has plunged to a multi-decade low... household balance sheets are strong @augurinfinity https://augurdigest.com/p/augur-digest-300",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2087268583504052252#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-11T20:03:04+00:00",
+      "relative_time": "לפני 3ש׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "#IPO... הערכות שווי אחרונות.. Anthropic: $965b OpenAI: $852b @CNBC",
+      "summary_he": "",
+      "body_en": "#IPO... latest valuations.. Anthropic: $965b OpenAI: $852b @CNBC",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2087265532655354237#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T19:50:57+00:00",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     }
   ],
