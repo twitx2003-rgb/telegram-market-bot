@@ -96,7 +96,9 @@
    "price_at_rec": 72.91,
    "confidence": 4,
    "engine": "rules",
-   "last_pnl": 4.64
+   "last_pnl": 4.64,
+   "closed_pnl": 4.64,
+   "closed_date": "2026-08-11"
   },
   {
    "ticker": "AAPL",

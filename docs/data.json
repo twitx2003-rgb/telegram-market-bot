@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T23:06:35.097073+00:00",
+  "generated_at": "2026-08-11T00:00:56.714787+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-10T23:06:35.097083+00:00",
+  "ta_generated_at": "2026-08-11T00:00:56.714797+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,11 +710,11 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,458.3",
-      "change": "+0.87%",
+      "value": "$4,455.7",
+      "change": "+0.81%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.8733624454148554
+      "pct_raw": 0.8145349231848317
     },
     {
       "name": "נפט ברנט",
@@ -726,11 +726,11 @@
     },
     {
       "name": "ביטקוין",
-      "value": "$63,930",
-      "change": "-1.42%",
+      "value": "$63,881",
+      "change": "-1.49%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.416579024478849
+      "pct_raw": -1.4926635770848662
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -753,10 +753,10 @@
     {
       "name": "דולר/שקל",
       "value": "3.002",
-      "change": "+0.11%",
-      "direction": "up",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "market_il",
-      "pct_raw": 0.1134051565991818
+      "pct_raw": 0.0
     }
   ],
   "sectors": [
@@ -850,7 +850,7 @@
     }
   ],
   "fear_greed": {
-    "score": 30,
+    "score": 29,
     "rating": "פחד",
     "rating_en": "fear"
   },
@@ -867,7 +867,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "ארצ'ר שביתות עסקה עם בואינג בהצעה האחרונה לשנות את התעופה באמצעות AI",
+      "title_he": "הסכם שביתה של ארצ'ר עם בואינג בהצעה האחרונה לשנות את התעופה באמצעות AI",
       "summary_he": "",
       "body_en": "Archer strikes deal with Boeing in latest bid to transform aviation through AI",
       "ticker": "",
@@ -889,7 +889,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "אינטל מתכננת למכור מניות בשווי 15 מיליארד דולר לאחר עלייה של 400% בשנה",
+      "title_he": "Intel plans to sell $15 billion worth of stock after it has risen 400% in a year",
       "summary_he": "",
       "body_en": "Intel plans to sell $15 billion worth of stock after it has risen 400% in a year",
       "ticker": "",
@@ -908,7 +908,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086946958569291903#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T22:45:03+00:00",
-      "relative_time": "לפני 20ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +923,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "מניית SpaceX עולה מעל מחיר ההנפקה שלה לראשונה מזה כמעט חודש",
+      "title_he": "מניית SpaceX נעה מעל מחיר ההנפקה שלה לראשונה מזה כמעט חודש",
       "summary_he": "",
       "body_en": "SpaceX’s stock moves above its IPO price for the first time in almost a month",
       "ticker": "",
@@ -945,7 +945,7 @@
       "sentiment": "bearish"
     },
     {
-      "title_he": "Nvidia מציעה מימון של 500 מיליארד דולר כאשר המנכ\"ל ג'נסן הואנג אומר ל-CNBC שהשבבים שלו הם \"נכס שניתן להשקעה\"",
+      "title_he": "Nvidia מציעה מימון של 500 מיליארד דולר כאשר המנכ\"ל ג'נסן הואנג אומר ל-CNBC שהשבבים שלו הם \"נכס שניתן להשקיע\"",
       "summary_he": "",
       "body_en": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
       "ticker": "",
@@ -976,11 +976,11 @@
       "link": "https://nitter.net/wallstengine/status/2086933496942186826#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T21:51:33+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Rocket Lab חושפת כמה תוכניות גדולות, אבל המניה שלה צונחת על רווחים מעורבים",
+      "title_he": "Rocket Lab reveals some big plans, but its stock is dropping on mixed earnings",
       "summary_he": "",
       "body_en": "Rocket Lab reveals some big plans, but its stock is dropping on mixed earnings",
       "ticker": "",
@@ -999,7 +999,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2086928072339599449#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-10T21:30:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1097,11 +1097,11 @@
     }
   ],
   "track_record": {
-    "closed": 9,
-    "wins": 3,
-    "hit_rate": 33,
-    "avg_pnl": -3.59,
-    "open": 10
+    "closed": 10,
+    "wins": 4,
+    "hit_rate": 40,
+    "avg_pnl": -2.77,
+    "open": 9
   },
   "alert_config": {
     "price_move_pct": 5,
