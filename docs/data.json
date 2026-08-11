@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T21:45:19.010376+00:00",
+  "generated_at": "2026-08-11T22:40:15.427882+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-11T21:45:19.010388+00:00",
+  "ta_generated_at": "2026-08-11T22:40:15.427892+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,427.8",
-      "change": "+0.18%",
-      "direction": "up",
+      "value": "$4,435.0",
+      "change": "-0.14%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.18327035771659533
+      "pct_raw": -0.13735335840220583
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.0",
-      "change": "+1.40%",
+      "value": "$89.3",
+      "change": "+0.43%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.4021887824897445
+      "pct_raw": 0.42739849285795717
     },
     {
       "name": "ביטקוין",
-      "value": "$63,605",
-      "change": "-0.48%",
+      "value": "$63,623",
+      "change": "-0.45%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.4813048789326129
+      "pct_raw": -0.4527189233580918
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.002",
-      "change": "+0.03%",
-      "direction": "up",
+      "value": "3.001",
+      "change": "-0.02%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.026653339996665398
+      "pct_raw": -0.02332167249708962
     }
   ],
   "sectors": [
@@ -856,14 +856,85 @@
   },
   "us_news": [
     {
-      "title_he": "מניית CoreWeave צומחת ב-15% כאשר ההכנסות מוכפלות בעקבות האצת הביקוש לתשתיות AI",
+      "title_he": "מניית CoreWeave צונחת ב-13% כאשר ההכנסות מוכפלות בעקבות האצת הביקוש לתשתיות AI",
       "summary_he": "",
-      "body_en": "CoreWeave stock pops 15% as revenue doubles on accelerating AI infrastructure demand",
+      "body_en": "CoreWeave stock pops 13% as revenue doubles on accelerating AI infrastructure demand",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-11T21:42:59+00:00",
+      "published_at": "2026-08-11T22:20:14+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אילון מאסק אומר שההכנסות מבינה מלאכותית עשויות לעלות על כל שאר ההכנסות של $SPCX כבר בספטמבר ו\"יחרוג באופן משמעותי\" מהן ברבעון הרביעי. הוא קורא לנצח ב-AI SpaceX של \"הכי...",
+      "summary_he": "",
+      "body_en": "Elon Musk says AI revenue could surpass all other $SPCX revenue as soon as September and “significantly exceed” it in Q4. He calls winning in AI SpaceX’s “most important” priority because “the future ",
+      "ticker": "$SPCX",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087299990830067932#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T22:07:52+00:00",
+      "relative_time": "לפני 32ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SMCI הנפיקה 4.2 מיליארד דולר בהמרה חובה ברבעון הרביעי. EPS משתמש כעת בשיטה הדו-מחלקה, ומקצה חלק מהרווח הנקי למועדף. \"זה משפיע על הרווח למניה ברבעון הראשון של שנת 27...",
+      "summary_he": "",
+      "body_en": "$SMCI issued $4.2B of mandatory convertible preferred in Q4. EPS now uses the two-class method, allocating part of net income to the preferred. \"This impacts Q1 FY27 EPS guidance and should be conside",
+      "ticker": "$SMCI",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087299111850844500#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T22:04:23+00:00",
+      "relative_time": "לפני 35ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SMCI - הרווח הגולמי של 17.6% הוחמיא על ידי פריטים חד פעמיים: \"GM השתפרה ב-750 bps ברצף עקב תמהיל לקוחות ומוצרים טוב מהצפוי, כולל...",
+      "summary_he": "",
+      "body_en": "$SMCI — the 17.6% gross margin was flattered by one-time items: \"GM improved by 750bps sequentially due to a better than anticipated customer & product mix, including the deferral of several contracts",
+      "ticker": "$SMCI",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087298690658812404#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T22:02:42+00:00",
+      "relative_time": "לפני 37ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "COREWEAVE $CRWV Outlook: מעלה מדריך FY26: 🔹 הכנסה: $12.4B-$13.2B (אומדן $12.63B) 🟢 🔹 Adj. הכנסה מבצעית: $960M-$1.15B (אומדן $893M) 🔹 עלות השקעה: $35B-$39B (אומדן $33.3B) 🔹…",
+      "summary_he": "",
+      "body_en": "COREWEAVE $CRWV Outlook: Raises FY26 Guide: 🔹 Revenue: $12.4B-$13.2B (Est. $12.63B) 🟢 🔹 Adj. Oper Income: $960M-$1.15B (Est. $893M) 🟢 🔹 CapEx: $35B-$39B (Est. $33.3B) 🔹 Active Power: >1.85GW; from pri",
+      "ticker": "$CRWV",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087296996675825928#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T21:55:58+00:00",
+      "relative_time": "לפני 43ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "אילון מאסק אומר ש-$SPCX מכוון ל-10GW של מחשוב בינה מלאכותית באינטרנט עד 2027. קנה מידה זה עשוי להפוך את מחשוב הבינה המלאכותית להזדמנות הכנסה של 500 מיליארד דולר עבור SpaceX.",
+      "summary_he": "",
+      "body_en": "Elon Musk says $SPCX is targeting 10GW of AI compute online by 2027. That scale could turn AI compute into a $500B revenue opportunity for SpaceX.",
+      "ticker": "$SPCX",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087296357929480486#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T21:53:26+00:00",
+      "relative_time": "לפני 46ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "דוח הרווחים של סופר מיקרו מביא עוד חדשות טובות, והמניה מטפסת",
+      "summary_he": "",
+      "body_en": "Super Micro’s earnings report brings more good news, and the stock is climbing",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T21:49:00+00:00",
       "sentiment": "neutral"
     },
     {
@@ -875,7 +946,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2087291324508815775#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T21:33:26+00:00",
-      "relative_time": "לפני 11ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,20 +958,8 @@
       "link": "https://nitter.net/unusual_whales/status/2087289135228985769#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T21:24:44+00:00",
-      "relative_time": "לפני 19ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ: MEDICAID לא תממן יותר ניתוחי מעבר מגדרי והורמונים לקטינים",
-      "summary_he": "",
-      "body_en": "TRUMP: MEDICAID WILL NO LONGER FUND GENDER TRANSITION SURGERIES AND HORMONES FOR MINORS",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2087288717618651597#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T21:23:04+00:00",
-      "relative_time": "לפני 21ד׳",
-      "sentiment": "bullish"
     },
     {
       "title_he": "המניה של CoreWeave מזנקת כשהרווחים מראים מומנטום AI גדול",
@@ -922,7 +981,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087284186155725187#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T21:05:04+00:00",
-      "relative_time": "לפני 39ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -934,18 +993,6 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087281141497975077#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T20:52:58+00:00",
-      "relative_time": "לפני 51ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$LITE פרסמה זה עתה את הרבעון הראשון של מיליארד דולר עם הכנסות יותר מכפילות מהשנה שעברה, מכיוון שמרכזי נתונים בינה מלאכותית דורשים קישוריות אופטית אקספוננציאלית יותר. הביקוש הזה זורם…",
-      "summary_he": "",
-      "body_en": "$LITE just posted its first $1B quarter with revenue more than doubling YoY as AI data centers require exponentially more optical connectivity. That demand flows directly into Lumentum’s lasers and op",
-      "ticker": "$LITE",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087275726831755460#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T20:31:27+00:00",
       "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
@@ -958,19 +1005,7 @@
       "link": "https://nitter.net/cperruna/status/2087275027766878299#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T20:28:40+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$CRWV רווחים ברבעון השני • הכנסות: $2.58B לעומת משוער. $2.56B • EPS: ($1.14) לעומת משוער ($1.20) • הכנסה תפעולית: $128 מיליון לעומת משוער. 67 מיליון דולר • הספק כולל: ~3.7 GW • פעיל...",
-      "summary_he": "",
-      "body_en": "$CRWV Q2 EARNINGS • Revenue: $2.58B vs. Est. $2.56B • EPS: ($1.14) vs. Est. ($1.20) • Operating Income: $128M vs. Est. $67M • Total Contracted Power: ~3.7 GW • Active Power: ~1.5 GW • Backlog: $104B (",
-      "ticker": "$CRWV",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087272820866965986#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T20:19:54+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -982,44 +1017,8 @@
       "link": "https://nitter.net/wallstengine/status/2087272690122146083#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T20:19:23+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "אורקל $ORCL מתכננת סבב פיטורים נוסף החודש, עם קיצוצים שעלולים להגיע לאחוזים דו-ספרתיים בחלק מהצוותים, לפי Business Insider. הם…",
-      "summary_he": "",
-      "body_en": "Oracle $ORCL is planning another round of layoffs this month, with cuts potentially reaching double-digit percentages on some teams, per Business Insider. They are looking to reduce payroll by Sept. 1",
-      "ticker": "$ORCL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087271130155692357#m",
-      "tag": "TECH",
-      "published_at": "2026-08-11T20:13:11+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "רווחים של $SMCI ברבעון הרביעי • הכנסות של $11.1B לעומת משוער $11.6B • EPS $1.70 לעומת משוער $0.96 • EBITDA $1.7B לעומת משוער 761 מיליון דולר • מרווח גולמי 18% לעומת משוער. 11% הנחיות לרבעון הראשון • הכנסה של 15.0 מיליארד דולר לעומת...",
-      "summary_he": "",
-      "body_en": "$SMCI Q4 EARNINGS • Revenue $11.1B vs Est. $11.6B • EPS $1.70 vs. Est. $0.96 • EBITDA $1.7B vs Est. $761M • Gross Margin 18% vs. Est. 11% Q1 Guidance • Revenue $15.0B vs Est. $12.1B • EPS $1.06 vs. Es",
-      "ticker": "$SMCI",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087271088778838241#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T20:13:01+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "COREWEAVE $CRWV Q2'26 שירי רווחים 🔹 הכנסה: $2.6B (הערכה. $2.56B) 🟢 🔹 Adj. EPS: -$1.14 (הערכה -$1.20) 🟢 🔹 Adj. EBITDA: $1.5B (הערכה. $1.43B) 🔹 צבר הכנסות:...",
-      "summary_he": "",
-      "body_en": "COREWEAVE $CRWV Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $2.6B (Est. $2.56B) 🟢 🔹 Adj. EPS: -$1.14 (Est. -$1.20) 🟢 🔹 Adj. EBITDA: $1.5B (Est. $1.43B) 🟢 🔹 Revenue Backlog: ~$104B Other Q2 Metrics: 🔹 Adjuste",
-      "ticker": "$CRWV",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087270900370686329#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T20:12:16+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bearish"
     }
   ],
   "il_news": [
