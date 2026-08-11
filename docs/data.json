@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T02:35:00.622369+00:00",
+  "generated_at": "2026-08-11T04:18:58.600312+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -172,7 +172,7 @@
         "sma50": 206.14,
         "sma200": 194.16,
         "pct_from_52w_high": -8.0,
-        "vol_ratio": 0.86,
+        "vol_ratio": 0.87,
         "change_1d_pct": -2.86,
         "change_1w_pct": 5.3,
         "change_1m_pct": 3.1,
@@ -223,7 +223,7 @@
         "sma50": 247.59,
         "sma200": 236.82,
         "pct_from_52w_high": -3.2,
-        "vol_ratio": 1.24,
+        "vol_ratio": 1.25,
         "change_1d_pct": 1.32,
         "change_1w_pct": -2.1,
         "change_1m_pct": 13.3,
@@ -274,7 +274,7 @@
         "sma50": 334.26,
         "sma200": 313.55,
         "pct_from_52w_high": -0.9,
-        "vol_ratio": 0.69,
+        "vol_ratio": 0.71,
         "change_1d_pct": 0.63,
         "change_1w_pct": 2.0,
         "change_1m_pct": 6.9,
@@ -325,7 +325,7 @@
         "sma50": 33.37,
         "sma200": 31.18,
         "pct_from_52w_high": -3.2,
-        "vol_ratio": 1.14,
+        "vol_ratio": 1.16,
         "change_1d_pct": 2.21,
         "change_1w_pct": 4.9,
         "change_1m_pct": 9.7,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-11T02:35:00.622381+00:00",
+  "ta_generated_at": "2026-08-11T04:18:58.600322+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "-0.56%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.563425053289771
+      "pct_raw": -0.5632907012380943
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,487.9",
-      "change": "+1.54%",
+      "value": "$4,474.7",
+      "change": "+1.24%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.5430911600334825
+      "pct_raw": 1.244428354865715
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.9",
-      "change": "+0.25%",
-      "direction": "up",
+      "value": "$87.6",
+      "change": "-0.17%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.25079799361604976
+      "pct_raw": -0.1709986320109504
     },
     {
       "name": "ביטקוין",
-      "value": "$63,972",
-      "change": "+0.09%",
+      "value": "$64,051",
+      "change": "+0.22%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.09315235090773483
+      "pct_raw": 0.21729081370367928
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.992",
-      "change": "-0.31%",
+      "value": "2.988",
+      "change": "-0.45%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.3098450774612722
+      "pct_raw": -0.4497751124437803
     }
   ],
   "sectors": [
@@ -856,6 +856,18 @@
   },
   "us_news": [
     {
+      "title_he": "R ל-@unusual_whales: בערך 70% מהחזר התעריף, כ-356 מיליון דולר, נגבו בין אפריל ליוני 2026, מה שמותיר עוד 152 מיליון דולר...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: Roughly 70% of the tariff refund, about $356 million, was collected between April and June 2026, leaving an estimated $152 million still to be received from the US government. Re",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2087018920473505897#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T03:31:00+00:00",
+      "relative_time": "לפני 47ד׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "Nvidia משתפת פעולה עם חברות בוול סטריט כדי לסייע במימון 500 מיליארד דולר עבור תשתית AI",
       "summary_he": "",
       "body_en": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
@@ -875,20 +887,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086996700892459395#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T02:02:42+00:00",
-      "relative_time": "לפני 31ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "BREAKING: אנתרופיק מצפה להנפקה בספטמבר או בתחילת אוקטובר, לפי WSJ",
-      "summary_he": "",
-      "body_en": "BREAKING: Anthropic is looking to IPO in September or early October, per WSJ",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2086990826664808872#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T01:39:22+00:00",
-      "relative_time": "לפני 55ד׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "אנתרופיק מכוונת להנפקה בסוף ספטמבר או תחילת אוקטובר. החברה כבר נפגשת עם משקיעים פוטנציאליים לקראת הרישום.",
@@ -899,7 +899,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086986463875629308#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T01:22:01+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +911,7 @@
       "link": "https://nitter.net/wallstengine/status/2086985403173855304#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T01:17:49+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +923,7 @@
       "link": "https://nitter.net/gurgavin/status/2086981729953173542#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T01:03:13+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,7 +946,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2086975561004462541#m",
       "tag": "MACRO",
       "published_at": "2026-08-11T00:38:42+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -958,7 +958,7 @@
       "link": "https://nitter.net/wallstengine/status/2086974083582103884#m",
       "tag": "TECH",
       "published_at": "2026-08-11T00:32:50+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -970,7 +970,7 @@
       "link": "https://nitter.net/wallstengine/status/2086972247168966916#m",
       "tag": "MACRO",
       "published_at": "2026-08-11T00:25:32+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
@@ -982,7 +982,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086972025919492361#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T00:24:39+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1008,7 +1008,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "Apple’s stock could underperform, especially without an ‘all-glass’ iPhone, this analyst warns",
+      "title_he": "מניית אפל עלולה להפגין ביצועים נמוכים יותר, במיוחד ללא אייפון 'כל הזכוכית', מזהיר אנליסט זה",
       "summary_he": "",
       "body_en": "Apple’s stock could underperform, especially without an ‘all-glass’ iPhone, this analyst warns",
       "ticker": "",
@@ -1020,6 +1020,14 @@
     }
   ],
   "il_news": [
+    {
+      "title_he": "טראמפ מצמצם את חיסוני הילדים - בשל האוטיזם: \"בעבר היו פחות ילדים מאובחנים\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859855",
+      "tag": "כללי",
+      "published_at": "2026-08-11T06:00:00+00:00"
+    },
     {
       "title_he": "המשטרה עולה מדרגה מול יוסי מוסלי: תבקש מביהמ\"ש להטיל עליו צו הגבלה שיפוטי",
       "summary_he": "",
@@ -1091,14 +1099,6 @@
       "link": "https://news.walla.co.il/item/3859784",
       "tag": "כללי",
       "published_at": "2026-08-10T16:26:00+00:00"
-    },
-    {
-      "title_he": "הפתעה בתא המטען: חמישה שב\"חים נתפסו ברכב - הנהג היה בפסילה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859775",
-      "tag": "כללי",
-      "published_at": "2026-08-10T15:36:00+00:00"
     }
   ],
   "track_record": {
