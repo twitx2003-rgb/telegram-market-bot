@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:34:35.357454+00:00",
+  "generated_at": "2026-08-11T07:05:59.849010+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-11T05:34:35.357465+00:00",
+  "ta_generated_at": "2026-08-11T07:05:59.849021+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,457.7",
-      "change": "+0.86%",
+      "value": "$4,419.9",
+      "change": "+0.00%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.8597868633617667
+      "pct_raw": 0.004525194017689393
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.0",
-      "change": "+0.31%",
+      "value": "$89.3",
+      "change": "+1.78%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.30779753761969453
+      "pct_raw": 1.7783857729138195
     },
     {
       "name": "ביטקוין",
-      "value": "$63,933",
-      "change": "+0.03%",
+      "value": "$63,945",
+      "change": "+0.05%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.03244435548949412
+      "pct_raw": 0.05012477683553136
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.997",
-      "change": "-0.16%",
-      "direction": "down",
+      "value": "3.003",
+      "change": "+0.04%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.1565883724804314
+      "pct_raw": 0.03664834249542232
     }
   ],
   "sectors": [
@@ -886,7 +886,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086996700892459395#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T02:02:42+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
@@ -898,7 +898,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086986463875629308#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T01:22:01+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,11 +910,11 @@
       "link": "https://nitter.net/wallstengine/status/2086985403173855304#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T01:17:49+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "רק ב: אנתרופיק מכוונת לסוף ספטמבר או תחילת אוקטובר להנפקה לפי WSJ",
+      "title_he": "רק ב: אנתרופיק מכוונת לסוף ספטמבר או לתחילת אוקטובר להנפקה לפי WSJ",
       "summary_he": "",
       "body_en": "JUST IN : ANTHROPIC IS TARGETING LATE SEPTEMBER OR EARLY OCTOBER TO IPO PER WSJ",
       "ticker": "",
@@ -922,7 +922,7 @@
       "link": "https://nitter.net/gurgavin/status/2086981729953173542#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T01:03:13+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -945,11 +945,11 @@
       "link": "https://nitter.net/RyanDetrick/status/2086975561004462541#m",
       "tag": "MACRO",
       "published_at": "2026-08-11T00:38:42+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אינטל $INTC מכוונת לפחות 95 דולר למניה בהנפקת המניות המוגדלת שלה בהיקף של 20 מיליארד דולר, שמשכה יותר מ-100 מיליארד דולר בביקוש של משקיעים, כאשר המניות צפויות ל...",
+      "title_he": "אינטל $INTC מכוונת לפחות 95 דולר למניה בהנפקת המניות המוגדלת שלה בהיקף של 20 מיליארד דולר, שמשכה יותר מ-100 מיליארד דולר בביקוש של משקיעים, כאשר המניות צפויות להגיע...",
       "summary_he": "",
       "body_en": "Intel $INTC is targeting at least $95 a share in its upsized $20 billion stock offering, which drew more than $100 billion in investor demand, with shares expected to price at roughly a 6.5% discount.",
       "ticker": "$INTC",
@@ -957,7 +957,7 @@
       "link": "https://nitter.net/wallstengine/status/2086974083582103884#m",
       "tag": "TECH",
       "published_at": "2026-08-11T00:32:50+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -969,7 +969,7 @@
       "link": "https://nitter.net/wallstengine/status/2086972247168966916#m",
       "tag": "MACRO",
       "published_at": "2026-08-11T00:25:32+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -984,7 +984,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "ארצ'ר שביתות עסקה עם בואינג בהצעה האחרונה לשנות את התעופה באמצעות AI",
+      "title_he": "הסכם שביתה של ארצ'ר עם בואינג בהצעה האחרונה לשנות את התעופה באמצעות AI",
       "summary_he": "",
       "body_en": "Archer strikes deal with Boeing in latest bid to transform aviation through AI",
       "ticker": "",
@@ -1006,14 +1006,14 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "אינטל מתכננת למכור מניות בשווי 15 מיליארד דולר לאחר עלייה של 400% בשנה",
+      "title_he": "OpenAI חוטפת מכירת מניות של 7 מיליארד דולר לפני הנפקה פוטנציאלית",
       "summary_he": "",
-      "body_en": "Intel plans to sell $15 billion worth of stock after it has risen 400% in a year",
+      "body_en": "OpenAI wraps $7 billion share sale ahead of potential IPO",
       "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/intel-plans-to-sell-15-billion-worth-of-stock-after-it-has-risen-400-in-a-year-395effce?mod=mw_rss_topstories",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.html",
       "tag": "TECH",
-      "published_at": "2026-08-10T22:46:00+00:00",
+      "published_at": "2026-08-10T22:15:31+00:00",
       "sentiment": "neutral"
     }
   ],
