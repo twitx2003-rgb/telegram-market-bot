@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:49:49.160637+00:00",
+  "generated_at": "2026-08-11T11:43:04.287629+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-11T10:49:49.160648+00:00",
+  "ta_generated_at": "2026-08-11T11:43:04.287640+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.51",
-      "change": "+0.32%",
+      "value": "15.49",
+      "change": "+0.19%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.32341526520051056
+      "pct_raw": 0.19404915912030635
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,437.4",
-      "change": "+0.40%",
+      "value": "$4,444.6",
+      "change": "+0.56%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.4004796705658714
+      "pct_raw": 0.5633866552028542
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.1",
-      "change": "+1.60%",
+      "value": "$87.9",
+      "change": "+0.17%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.5959872321021498
+      "pct_raw": 0.1709986320109504
     },
     {
       "name": "ביטקוין",
-      "value": "$64,186",
-      "change": "+0.43%",
+      "value": "$64,295",
+      "change": "+0.60%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.42829803695376595
+      "pct_raw": 0.5978892643605336
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,136",
-      "change": "-0.50%",
+      "value": "4,139",
+      "change": "-0.41%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.499929028362185
+      "pct_raw": -0.412116662937651
     },
     {
       "name": "דולר/שקל",
-      "value": "3.004",
-      "change": "+0.08%",
-      "direction": "up",
+      "value": "3.002",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "market_il",
-      "pct_raw": 0.08329168748958676
+      "pct_raw": 0.0
     }
   ],
   "sectors": [
@@ -856,6 +856,99 @@
   },
   "us_news": [
     {
+      "title_he": "החזן פיצג'רלד מעלה ASTS PT ל-$90 מ-$80 - אנליסט OW אומר: \"כשאנחנו מגבשים את הרבעון, אנחנו חושבים שברור שאלגוריתם הביקוש הכפול של AST הוא...",
+      "summary_he": "",
+      "body_en": "Cantor Fitzgerald Raises $ASTS PT to $90 from $80 - OW Analyst comments: \"As we crystallize the quarter, we think it’s clear that AST’s dual-source demand algorithm is less a 'strategic pivot' and mor",
+      "ticker": "$ASTS",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087141920346878144#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T11:39:45+00:00",
+      "relative_time": "לפני 2ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "AMBIQ MICRO $AMBQ Q2'26 שיאי רווחים 🔹 הכנסות: $33.9M (הערכה. $31.5M) ; +89.7% YoY 🔹 התאמה EPS: -$0.07 (הערכה -$0.26) 🟢 מדריך לרבעון 3: 🔹 הכנסה: $36.0M-$37.0M (הערכה...",
+      "summary_he": "",
+      "body_en": "AMBIQ MICRO $AMBQ Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $33.9M (Est. $31.5M) 🟢; +89.7% YoY 🔹 Adj. EPS: -$0.07 (Est. -$0.26) 🟢 Q3 Guide: 🔹 Revenue: $36.0M-$37.0M (Est. $34M) 🟢 🔹 Adj. EPS: -$0.20 to -$0.",
+      "ticker": "$AMBQ",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087140122513092868#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T11:32:37+00:00",
+      "relative_time": "לפני 9ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Nvidia חותמת על שורה של מזכרי הבנות עם חברות פיננסיות כדי לממן הרחבת תשתית בינה מלאכותית",
+      "summary_he": "",
+      "body_en": "Nvidia signs raft of MoUs with financial firms to fund AI infrastructure expansion",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-signs-raft-mous-financial-112740135.html",
+      "tag": "TECH",
+      "published_at": "2026-08-11T11:27:40+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "eToro $ETOR תרכוש את TradeZero תמורת עד 231 מיליון דולר במזומן ובמניות, מה שמרחיב את עסקי הברוקראז' שלה בארה\"ב. TradeZero הניבה הכנסות של ~80 מיליון דולר ברווחים גולמיים של 81% מעל...",
+      "summary_he": "",
+      "body_en": "eToro $ETOR to acquire TradeZero for up to $231M in cash and stock, expanding its U.S. brokerage business. TradeZero generated ~$80M in revenue at 81% gross margins over the past 12 months. eToro expe",
+      "ticker": "$ETOR",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087138487774724152#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T11:26:07+00:00",
+      "relative_time": "לפני 16ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "SpaceX Rivals מדווחים על רווחים מעורבים; מעבדת רקטות שוקעת על עיכובי ניוטרונים אפשריים",
+      "summary_he": "",
+      "body_en": "SpaceX Rivals Report Mixed Earnings; Rocket Lab Sinks On Possible Neutron Delays",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/news/spacex-rocket-lab-ast-spacemobile-earnings-electron-launch-neutron-rocket/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T11:18:35+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "\"הדאגה העיקרית שלי היא אינפלציה\": שמיד של הפד מעלה את הריבית כאשר המשכנתאות הגיעו ל-6.69%. תגרום לתעריפים גבוהים לעבוד בשבילך",
+      "summary_he": "",
+      "body_en": "‘My primary concern is inflation’: Fed’s Schmid pushes rates higher as mortgages hit 6.69%. Make high rates work for you",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/economy/policy/articles/primary-concern-inflation-fed-schmid-110500327.html",
+      "tag": "MACRO",
+      "published_at": "2026-08-11T11:05:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Mizuho חוזר על Outperform על פרמי $FRMI, PT $11, ומכנה את חוזה השכירות של TensorWave \"זרז המיוחל\". השלב הראשון מכסה 222MW החל מ-2H27 ומייצג...",
+      "summary_he": "",
+      "body_en": "Mizuho reiterates Outperform on Fermi $FRMI, PT $11, calling the TensorWave lease a “long-awaited catalyst.” The 1st phase covers 222MW starting in 2H27 & represents $6.5B in contracted revenue. Expan",
+      "ticker": "$FRMI",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087128802300477799#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T10:47:38+00:00",
+      "relative_time": "לפני 54ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "CARDINAL HEALTH $CAH Q4'26 שירי רווחים 🔹 הכנסות: $63.7B (הערכה. $65B) 🔴; +6% YoY 🔹 התאמה EPS: $2.91 (הערכה. $2.42) 🟢; +40% בשנה 🔹 רווחים תפעוליים ללא GAAP: 935 מיליון דולר (הערכה...",
+      "summary_he": "",
+      "body_en": "CARDINAL HEALTH $CAH Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $63.7B (Est. $65B) 🔴; +6% YoY 🔹 Adj. EPS: $2.91 (Est. $2.42) 🟢; +40% YoY 🔹 Non-GAAP Oper Earnings: $935M (Est. $820M) 🟢; +30% YoY 🔸 IEEPA Tari",
+      "ticker": "$CAH",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087128618824786397#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T10:46:54+00:00",
+      "relative_time": "לפני 55ד׳",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "הסנאטורית אליזבת וורן לוחצת על חברות הזכאיות להחזרים עבור תעריפים לא חוקיים בארה\"ב להחזיר את הכסף שהן מחזירות ישירות לצרכנים.",
       "summary_he": "",
       "body_en": "Senator Elizabeth Warren is pressing companies entitled to refunds for illegal U.S. tariffs to return the money they are recouping directly to consumers.",
@@ -864,70 +957,11 @@
       "link": "https://nitter.net/unusual_whales/status/2087126126800011603#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T10:37:00+00:00",
-      "relative_time": "לפני 12ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "בום שוק המניות דלק לפרישה מוקדמת אמריקאים מבוגרים עוזבים את כוח העבודה בקצב מהיר יותר. ההשתתפות בעבודה בקרב אנשים בני 55+ ירדה מלמעלה מ-40%...",
-      "summary_he": "",
-      "body_en": "STOCK MARKET BOOM FUELS EARLY RETIREMENT Older Americans are leaving the workforce at a faster pace. Labor participation among people aged 55+ has dropped from above 40% pre-pandemic to 36.9% in July.",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2087125694035759537#m",
-      "tag": "BANKS",
-      "published_at": "2026-08-11T10:35:17+00:00",
-      "relative_time": "לפני 13ד׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "דגשים ברווחים של SEA $SE Q2'26 🔹 הכנסות: $7.8B (הערכה. $7.06B) +48.1% YoY 🔹 EPS: $0.70; +8% YoY 🔹 התאמה EBITDA: 917.2 מיליון דולר (הערכה של 850 מיליון דולר) 🟢; +10.6% משנה לשנה 🔹 הכנסה נטו:…",
-      "summary_he": "",
-      "body_en": "SEA $SE Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $7.8B (Est. $7.06B) 🟢; +48.1% YoY 🔹 EPS: $0.70; +8% YoY 🔹 Adj. EBITDA: $917.2M (Est. $850M) 🟢; +10.6% YoY 🔹 Net Income: $458.1M (Est. $455M) 🟢; +10.6% YoY ",
-      "ticker": "$SE",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087124803430080923#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T10:31:44+00:00",
-      "relative_time": "לפני 17ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שוק המניות היום: הדאו, S&P 500, הנאסד\"ק מתנודדים כאשר ארה\"ב, איראן מקשיחות עמדות",
-      "summary_he": "",
-      "body_en": "Stock market today: Dow, S&P 500, Nasdaq futures waver as US, Iran harden stances",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-11-dow-sp-500-nasdaq-102827503.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T10:28:27+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "על פי הדיווחים, ההנפקה של UNITREE נרשמת כ-8,000X יתר",
-      "summary_he": "",
-      "body_en": "UNITREE’S IPO IS REPORTEDLY ~8,000X OVERSUBSCRIBED",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087123601917133107#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T10:26:58+00:00",
-      "relative_time": "לפני 22ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "BofA הורידה דירוג של $APP לניוטרל, PT $400 הערות אנליסטים: \"אנו מאמינים שהסיכונים למסלול הצמיחה המפורש של 30% בהכנסות LT של APP (כולל \"צרכן\") ...",
-      "summary_he": "",
-      "body_en": "BofA Downgrades $APP to Neutral, PT $400 Analyst comments: \"We believe the risks to APP’s articulated 30% Y/Y LT revenue growth trajectory (including “Consumer”) have increased. Post-Q2 print, enginee",
-      "ticker": "$APP",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087123099758284805#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T10:24:58+00:00",
-      "relative_time": "לפני 24ד׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "פייפר סנדלר מדגישה את $ASTS כ\"מניית החלל המועדפת עליה\" עם יעד מחיר של 98 $, שכן AST נשארת במסלול של 45 לוויינים במסלול עד תחילת 2027. חדש...",
+      "title_he": "פייפר סנדלר חוזרת על $ASTS בתור \"המנייה המועדפת שלה במגזר החלל\" עם יעד מחיר של $98, כאשר AST נשארת במסלול של 45 לוויינים במסלול עד תחילת 2027. חדש...",
       "summary_he": "",
       "body_en": "Piper Sandler reiterates $ASTS as its “favorite stock in the Space sector” with a $98 price target as AST stays on track for ~45 satellites in orbit by early 2027. New government contracts help de-ris",
       "ticker": "$ASTS",
@@ -935,7 +969,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087123100416741884#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T10:24:58+00:00",
-      "relative_time": "לפני 24ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -950,30 +984,18 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$SPCX - SPACEX: מורגן סטנלי רואה יעד של 300 דולר, מקרה שוורים של $600 מורגן סטנלי שומרת על יעד ה-SpaceX של $300, עם שווי של 600 דולר, בעקבות ה-60 מיליארד דולר המתוכנן...",
+      "title_he": "האוצר מניב התשואות כשמחירי הנפט קופצים והמשקיעים ממתינים לנתוני האינפלציה",
       "summary_he": "",
-      "body_en": "$SPCX - SPACEX: MORGAN STANLEY SEES $300 TARGET, $600 BULL CASE Morgan Stanley maintains its $300 SpaceX target, with a $600 bull case, following the planned $60B acquisition of AI coding platform Cur",
-      "ticker": "$SPCX",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2087107261470515385#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T09:22:02+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אינטל אומרת כעת שהיא מוכרת מניות של 20 מיליארד דולר",
-      "summary_he": "",
-      "body_en": "Intel now says it is selling $20 billion of stock",
+      "body_en": "Treasury yields up as oil prices jump and investors await inflation data",
       "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/intel-now-says-it-is-selling-20-billion-of-stock-166e2dfe?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-11T08:42:00+00:00",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/11/treasury-yields-up-as-oil-prices-jump-investors-await-inflation-data-.html",
+      "tag": "ENERGY",
+      "published_at": "2026-08-11T08:39:01+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אינטל מגדילה את הנפקת המניות ל-20 מיליארד דולר לפי 95 דולר למניה, כאשר הביקוש לבינה מלאכותית מואצת",
+      "title_he": "אינטל מגדילה את הנפקת המניות ל-20 מיליארד דולר לפי 95 דולר למניה כאשר הביקוש לבינה מלאכותית מואצת",
       "summary_he": "",
       "body_en": "Intel upsizes stock offering to $20 billion at $95 per share as AI demand accelerates",
       "ticker": "",
@@ -984,7 +1006,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$MU נמצא בקצב לייצר רווח של מעל 500 מיליארד דולר בשלוש השנים הבאות: • 2026: 98 מיליארד דולר (+904% בשנה) • 2027: 198 מיליארד דולר (+102% בשנה) • 2028: 207 מיליארד דולר (+4% בשנה) החלק הטוב ביותר הוא...",
+      "title_he": "$MU נמצא בקצב לייצר מעל 500 מיליארד דולר ברווח בשלוש השנים הבאות: • 2026: 98 מיליארד דולר (+904% בשנה) • 2027: 198 מיליארד דולר (+102% בשנה) • 2028: 207 מיליארד דולר (+4% בשנה) החלק הטוב ביותר הוא...",
       "summary_he": "",
       "body_en": "$MU is on pace to generate over $500B in profit over the next three years: • 2026: $98B (+904% YoY) • 2027: $198B (+102% YoY) • 2028: $207B (+4% YoY) The best part is there’s a real chance future memo",
       "ticker": "$MU",
@@ -992,35 +1014,19 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086996700892459395#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T02:02:42+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "אנתרופיק מכוונת להנפקה בסוף ספטמבר או תחילת אוקטובר. החברה כבר נפגשת עם משקיעים פוטנציאליים לקראת הרישום.",
-      "summary_he": "",
-      "body_en": "Anthropic is targeting a late September or early October IPO. The company is already meeting with potential investors ahead of the listing.",
-      "ticker": "",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086986463875629308#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T01:22:01+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "רק ב: אנתרופיק מכוונת לסוף ספטמבר או לתחילת אוקטובר להנפקה לפי WSJ",
-      "summary_he": "",
-      "body_en": "JUST IN : ANTHROPIC IS TARGETING LATE SEPTEMBER OR EARLY OCTOBER TO IPO PER WSJ",
-      "ticker": "",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2086981729953173542#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T01:03:13+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "המשטרה הציגה 3 קלסרים נגד מוסלי - והודתה: \"לא הצלחנו לגבש תשתית ראייתית\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860003",
+      "tag": "כללי",
+      "published_at": "2026-08-11T13:36:00+00:00"
+    },
     {
       "title_he": "בעקבות הטענות נגד רמב\"ם: \"הסתה נגד רופאים היא חציית קו אדום\"",
       "summary_he": "",
@@ -1092,14 +1098,6 @@
       "link": "https://news.walla.co.il/item/3859807",
       "tag": "כללי",
       "published_at": "2026-08-10T18:30:00+00:00"
-    },
-    {
-      "title_he": "\"מידה כנגד מידה\": האיומים על מפקד תחנת בני ברק שהובילו לכתב אישום",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859802",
-      "tag": "כללי",
-      "published_at": "2026-08-10T17:57:00+00:00"
     }
   ],
   "track_record": {
