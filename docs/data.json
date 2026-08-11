@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T09:33:39.524539+00:00",
+  "generated_at": "2026-08-11T10:49:49.160637+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-11T09:33:39.524550+00:00",
+  "ta_generated_at": "2026-08-11T10:49:49.160648+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.50",
-      "change": "+0.26%",
+      "value": "15.51",
+      "change": "+0.32%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.2587322121604084
+      "pct_raw": 0.32341526520051056
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,432.7",
-      "change": "+0.29%",
+      "value": "$4,437.4",
+      "change": "+0.40%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.2941376111500781
+      "pct_raw": 0.4004796705658714
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.9",
-      "change": "+2.46%",
+      "value": "$89.1",
+      "change": "+1.60%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 2.4623803009575886
+      "pct_raw": 1.5959872321021498
     },
     {
       "name": "ביטקוין",
-      "value": "$64,134",
-      "change": "+0.35%",
+      "value": "$64,186",
+      "change": "+0.43%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3461388400617231
+      "pct_raw": 0.42829803695376595
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,124",
-      "change": "-0.78%",
+      "value": "4,136",
+      "change": "-0.50%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.7821315068361377
+      "pct_raw": -0.499929028362185
     },
     {
       "name": "דולר/שקל",
-      "value": "3.002",
-      "change": "+0.03%",
+      "value": "3.004",
+      "change": "+0.08%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.03331667499583175
+      "pct_raw": 0.08329168748958676
     }
   ],
   "sectors": [
@@ -856,94 +856,109 @@
   },
   "us_news": [
     {
-      "title_he": "אלי לילי מתמודד עם גלולות לירידה במשקל העולמי עם אישור ראשון של פונדאיו מחוץ לארה\"ב.",
+      "title_he": "הסנאטורית אליזבת וורן לוחצת על חברות הזכאיות להחזרים עבור תעריפים לא חוקיים בארה\"ב להחזיר את הכסף שהן מחזירות ישירות לצרכנים.",
       "summary_he": "",
-      "body_en": "Eli Lilly takes weight-loss pill battle global with first Foundayo approval outside U.S.",
+      "body_en": "Senator Elizabeth Warren is pressing companies entitled to refunds for illegal U.S. tariffs to return the money they are recouping directly to consumers.",
       "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/11/foundayo-eli-lilly-wegovy-pill-uk.html",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2087126126800011603#m",
       "tag": "NEWS",
-      "published_at": "2026-08-11T09:27:44+00:00",
+      "published_at": "2026-08-11T10:37:00+00:00",
+      "relative_time": "לפני 12ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בום שוק המניות דלק לפרישה מוקדמת אמריקאים מבוגרים עוזבים את כוח העבודה בקצב מהיר יותר. ההשתתפות בעבודה בקרב אנשים בני 55+ ירדה מלמעלה מ-40%...",
+      "summary_he": "",
+      "body_en": "STOCK MARKET BOOM FUELS EARLY RETIREMENT Older Americans are leaving the workforce at a faster pace. Labor participation among people aged 55+ has dropped from above 40% pre-pandemic to 36.9% in July.",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2087125694035759537#m",
+      "tag": "BANKS",
+      "published_at": "2026-08-11T10:35:17+00:00",
+      "relative_time": "לפני 13ד׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "SAIHEAT מסכימה למיזוג עם Canopy Wave בציר AI מסקנות",
+      "title_he": "דגשים ברווחים של SEA $SE Q2'26 🔹 הכנסות: $7.8B (הערכה. $7.06B) +48.1% YoY 🔹 EPS: $0.70; +8% YoY 🔹 התאמה EBITDA: 917.2 מיליון דולר (הערכה של 850 מיליון דולר) 🟢; +10.6% משנה לשנה 🔹 הכנסה נטו:…",
       "summary_he": "",
-      "body_en": "SAIHEAT agrees merger with Canopy Wave in AI inference pivot",
+      "body_en": "SEA $SE Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $7.8B (Est. $7.06B) 🟢; +48.1% YoY 🔹 EPS: $0.70; +8% YoY 🔹 Adj. EBITDA: $917.2M (Est. $850M) 🟢; +10.6% YoY 🔹 Net Income: $458.1M (Est. $455M) 🟢; +10.6% YoY ",
+      "ticker": "$SE",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087124803430080923#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T10:31:44+00:00",
+      "relative_time": "לפני 17ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שוק המניות היום: הדאו, S&P 500, הנאסד\"ק מתנודדים כאשר ארה\"ב, איראן מקשיחות עמדות",
+      "summary_he": "",
+      "body_en": "Stock market today: Dow, S&P 500, Nasdaq futures waver as US, Iran harden stances",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/ai/articles/saiheat-agrees-merger-canopy-wave-092442196.html",
-      "tag": "M&A",
-      "published_at": "2026-08-11T09:24:42+00:00",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-11-dow-sp-500-nasdaq-102827503.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T10:28:27+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "אפל $AAPL עדיין מתכננת עיצוב מחדש של אייפון במרכז זכוכית לרגל יום השנה ה-20 של המכשיר ב-27', בניגוד לדיווח של ג'פריס לפיו הוא בוטל, לפי...",
+      "title_he": "על פי הדיווחים, ההנפקה של UNITREE נרשמת כ-8,000X יתר",
       "summary_he": "",
-      "body_en": "Apple $AAPL is still planning a glass-centric iPhone redesign for the device’s 20th anniversary in '27, contrary to a Jefferies report that it had been canceled, per Bloomberg. The new Pro models are ",
-      "ticker": "$AAPL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087107524743012787#m",
-      "tag": "TECH",
-      "published_at": "2026-08-11T09:23:05+00:00",
-      "relative_time": "לפני 10ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "ב-$ONON Q2'26 דגשים ברווחים 🔹 Rev: CHF 850.3M (אומדן CHF 878M) 🔴; +13.5% YoY 🔹 התאמה EPS: CHF 0.35 (אומדן CHF 0.34) 🔹 רווח גולמי: 65.4%; +390bps YoY 🔹 התאמה...",
-      "summary_he": "",
-      "body_en": "ON $ONON Q2’26 EARNINGS HIGHLIGHTS 🔹 Rev: CHF 850.3M (Est. CHF 878M) 🔴; +13.5% YoY 🔹 Adj. EPS: CHF 0.35 (Est. CHF 0.34) 🟢 🔹 Gross Margin: 65.4%; +390bps YoY 🔹 Adj. EBITDA: CHF 168.1M (Est. CHF171M) 🔴;",
-      "ticker": "$ONON",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087106044485124605#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T09:17:12+00:00",
-      "relative_time": "לפני 16ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "הנפט בארה\"ב עולה על 84 דולר כאשר תקוות עסקת הורמוז מתדלדלות ומיקפאון מעמיק",
-      "summary_he": "",
-      "body_en": "U.S. oil tops $84 as Hormuz deal hopes dwindle and deadlock deepens",
+      "body_en": "UNITREE’S IPO IS REPORTEDLY ~8,000X OVERSUBSCRIBED",
       "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/11/oil-prices-today-us-crude-84.html",
-      "tag": "M&A",
-      "published_at": "2026-08-11T09:12:25+00:00",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087123601917133107#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T10:26:58+00:00",
+      "relative_time": "לפני 22ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "ההפסד הרבעוני של טראמפ מדיה מתרחב ל-238 מיליון דולר לעומת 20 מיליון דולר בשנה הקודמת",
+      "title_he": "BofA הורידה דירוג של $APP לניוטרל, PT $400 הערות אנליסטים: \"אנו מאמינים שהסיכונים למסלול הצמיחה המפורש של 30% בהכנסות LT של APP (כולל \"צרכן\") ...",
       "summary_he": "",
-      "body_en": "Trump Media's quarterly loss widens to $238 million from $20 million a year earlier",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/trump-medias-quarterly-loss-widens-085624345.html",
+      "body_en": "BofA Downgrades $APP to Neutral, PT $400 Analyst comments: \"We believe the risks to APP’s articulated 30% Y/Y LT revenue growth trajectory (including “Consumer”) have increased. Post-Q2 print, enginee",
+      "ticker": "$APP",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087123099758284805#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-11T08:56:24+00:00",
+      "published_at": "2026-08-11T10:24:58+00:00",
+      "relative_time": "לפני 24ד׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "אירועי המפתח של היום (כל EST) — 08/11/2026 06:00: מדד האופטימיות העסקית של NFIB בארה\"ב 08:15: שינוי בתעסוקה שבועית של ארה\"ב ADP 10:00: מכירת בתים קיימים בארה\"ב 11:00: אשראי ניו יורק Fed…",
+      "title_he": "פייפר סנדלר מדגישה את $ASTS כ\"מניית החלל המועדפת עליה\" עם יעד מחיר של 98 $, שכן AST נשארת במסלול של 45 לוויינים במסלול עד תחילת 2027. חדש...",
       "summary_he": "",
-      "body_en": "Today's Key Events (All EST) — 08/11/2026 06:00: US NFIB Business Optimism Index 08:15: US ADP Wkly Employment Change 10:00: US Existing Home Sales 11:00: NY Fed Credit Report 13:00: US 3-Year Note Au",
-      "ticker": "$ONON",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087100635737194657#m",
-      "tag": "FED",
-      "published_at": "2026-08-11T08:55:42+00:00",
-      "relative_time": "לפני 37ד׳",
+      "body_en": "Piper Sandler reiterates $ASTS as its “favorite stock in the Space sector” with a $98 price target as AST stays on track for ~45 satellites in orbit by early 2027. New government contracts help de-ris",
+      "ticker": "$ASTS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087123100416741884#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T10:24:58+00:00",
+      "relative_time": "לפני 24ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "העימות בין ארה\"ב לאיראן מעלה את הנפט, פוגע במניות",
+      "title_he": "מדוע נחושת - 'הסחורה לכל עונות השנה' - יקרה יותר מזהב בימינו",
       "summary_he": "",
-      "body_en": "US-Iran standoff sends oil up, dents stocks",
+      "body_en": "Why copper — ‘the commodity for all seasons’ — is more precious than gold nowadays",
       "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/energy/articles/oil-prices-rise-asia-stocks-014100980.html",
-      "tag": "ENERGY",
-      "published_at": "2026-08-11T08:43:19+00:00",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/why-copper-the-commodity-for-all-seasons-is-more-precious-than-gold-nowadays-4aa3f686?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T09:53:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$SPCX - SPACEX: מורגן סטנלי רואה יעד של 300 דולר, מקרה שוורים של $600 מורגן סטנלי שומרת על יעד ה-SpaceX של $300, עם שווי של 600 דולר, בעקבות ה-60 מיליארד דולר המתוכנן...",
+      "summary_he": "",
+      "body_en": "$SPCX - SPACEX: MORGAN STANLEY SEES $300 TARGET, $600 BULL CASE Morgan Stanley maintains its $300 SpaceX target, with a $600 bull case, following the planned $60B acquisition of AI coding platform Cur",
+      "ticker": "$SPCX",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2087107261470515385#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T09:22:02+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -958,18 +973,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "דובים כואבים כאשר ה-S&P 500 מגיע לשיאים. המשמעות עשויה להיות יותר אפסייד עבור המניות.",
-      "summary_he": "",
-      "body_en": "Bears are in pain as the S&P 500 hits record highs. That may mean more upside for stocks.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/bears-are-in-pain-as-the-s-p-500-hits-record-highs-that-may-mean-more-upside-for-stocks-db7b659b?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T08:40:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "אינטל מגדילה את הנפקת המניות ל-20 מיליארד דולר לפי 95 דולר למניה כאשר הביקוש לבינה מלאכותית מואצת",
+      "title_he": "אינטל מגדילה את הנפקת המניות ל-20 מיליארד דולר לפי 95 דולר למניה, כאשר הביקוש לבינה מלאכותית מואצת",
       "summary_he": "",
       "body_en": "Intel upsizes stock offering to $20 billion at $95 per share as AI demand accelerates",
       "ticker": "",
@@ -980,18 +984,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "Nvidia משתפת פעולה עם חברות בוול סטריט כדי לסייע במימון 500 מיליארד דולר עבור תשתית AI",
-      "summary_he": "",
-      "body_en": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-11T02:28:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$MU נמצא בקצב לייצר מעל 500 מיליארד דולר ברווח בשלוש השנים הבאות: • 2026: 98 מיליארד דולר (+904% בשנה) • 2027: 198 מיליארד דולר (+102% בשנה) • 2028: 207 מיליארד דולר (+4% בשנה) החלק הטוב ביותר הוא...",
+      "title_he": "$MU נמצא בקצב לייצר רווח של מעל 500 מיליארד דולר בשלוש השנים הבאות: • 2026: 98 מיליארד דולר (+904% בשנה) • 2027: 198 מיליארד דולר (+102% בשנה) • 2028: 207 מיליארד דולר (+4% בשנה) החלק הטוב ביותר הוא...",
       "summary_he": "",
       "body_en": "$MU is on pace to generate over $500B in profit over the next three years: • 2026: $98B (+904% YoY) • 2027: $198B (+102% YoY) • 2028: $207B (+4% YoY) The best part is there’s a real chance future memo",
       "ticker": "$MU",
@@ -999,7 +992,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086996700892459395#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T02:02:42+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1011,11 +1004,31 @@
       "link": "https://nitter.net/StockSavvyShay/status/2086986463875629308#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T01:22:01+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רק ב: אנתרופיק מכוונת לסוף ספטמבר או לתחילת אוקטובר להנפקה לפי WSJ",
+      "summary_he": "",
+      "body_en": "JUST IN : ANTHROPIC IS TARGETING LATE SEPTEMBER OR EARLY OCTOBER TO IPO PER WSJ",
+      "ticker": "",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2086981729953173542#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T01:03:13+00:00",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "בעקבות הטענות נגד רמב\"ם: \"הסתה נגד רופאים היא חציית קו אדום\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3859987",
+      "tag": "כללי",
+      "published_at": "2026-08-11T12:55:00+00:00"
+    },
     {
       "title_he": "חשד לעבירות שוחד: התפתחויות בתיק נגד סגן ראש עיריית קריית ביאליק ומשפחתו",
       "summary_he": "",
@@ -1087,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3859802",
       "tag": "כללי",
       "published_at": "2026-08-10T17:57:00+00:00"
-    },
-    {
-      "title_he": "מצב חירום לאומי ותקציב של מיליארד שקל: יאיר גולן הציג תוכנית למלחמה בפשיעה בחברה הערבית",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3859790",
-      "tag": "כללי",
-      "published_at": "2026-08-10T17:00:00+00:00"
     }
   ],
   "track_record": {
