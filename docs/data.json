@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T00:00:56.714787+00:00",
+  "generated_at": "2026-08-11T02:35:00.622369+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-11T00:00:56.714797+00:00",
+  "ta_generated_at": "2026-08-11T02:35:00.622381+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,455.7",
-      "change": "+0.81%",
+      "value": "$4,487.9",
+      "change": "+1.54%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.8145349231848317
+      "pct_raw": 1.5430911600334825
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.7",
-      "change": "-0.05%",
-      "direction": "down",
+      "value": "$87.9",
+      "change": "+0.25%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.04559963520290931
+      "pct_raw": 0.25079799361604976
     },
     {
       "name": "ביטקוין",
-      "value": "$63,881",
-      "change": "-1.49%",
-      "direction": "down",
+      "value": "$63,972",
+      "change": "+0.09%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -1.4926635770848662
+      "pct_raw": 0.09315235090773483
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.002",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "2.992",
+      "change": "-0.31%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.0
+      "pct_raw": -0.3098450774612722
     }
   ],
   "sectors": [
@@ -856,6 +856,136 @@
   },
   "us_news": [
     {
+      "title_he": "Nvidia משתפת פעולה עם חברות בוול סטריט כדי לסייע במימון 500 מיליארד דולר עבור תשתית AI",
+      "summary_he": "",
+      "body_en": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-08-11T02:28:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$MU נמצא בקצב לייצר מעל 500 מיליארד דולר ברווח בשלוש השנים הבאות: • 2026: 98 מיליארד דולר (+904% בשנה) • 2027: 198 מיליארד דולר (+102% בשנה) • 2028: 207 מיליארד דולר (+4% בשנה) החלק הטוב ביותר הוא...",
+      "summary_he": "",
+      "body_en": "$MU is on pace to generate over $500B in profit over the next three years: • 2026: $98B (+904% YoY) • 2027: $198B (+102% YoY) • 2028: $207B (+4% YoY) The best part is there’s a real chance future memo",
+      "ticker": "$MU",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086996700892459395#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T02:02:42+00:00",
+      "relative_time": "לפני 31ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "BREAKING: אנתרופיק מצפה להנפקה בספטמבר או בתחילת אוקטובר, לפי WSJ",
+      "summary_he": "",
+      "body_en": "BREAKING: Anthropic is looking to IPO in September or early October, per WSJ",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2086990826664808872#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T01:39:22+00:00",
+      "relative_time": "לפני 55ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אנתרופיק מכוונת להנפקה בסוף ספטמבר או תחילת אוקטובר. החברה כבר נפגשת עם משקיעים פוטנציאליים לקראת הרישום.",
+      "summary_he": "",
+      "body_en": "Anthropic is targeting a late September or early October IPO. The company is already meeting with potential investors ahead of the listing.",
+      "ticker": "",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086986463875629308#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T01:22:01+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אנתרופיק מכוונת לסוף ספטמבר או תחילת אוקטובר להנפקה שלה ופוגשת משקיעים פוטנציאליים לקראת הרישום, לפי WSJ.",
+      "summary_he": "",
+      "body_en": "Anthropic is targeting late September or early October for its IPO and is meeting potential investors ahead of the listing, per WSJ.",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086985403173855304#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T01:17:49+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רק ב: אנתרופיק מכוונת לסוף ספטמבר או תחילת אוקטובר להנפקה לפי WSJ",
+      "summary_he": "",
+      "body_en": "JUST IN : ANTHROPIC IS TARGETING LATE SEPTEMBER OR EARLY OCTOBER TO IPO PER WSJ",
+      "ticker": "",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2086981729953173542#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T01:03:13+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Rocket Lab חושפת כמה תוכניות גדולות, אבל המניה שלה צונחת על רווחים מעורבים",
+      "summary_he": "",
+      "body_en": "Rocket Lab reveals some big plans, but its stock is dropping on mixed earnings",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/rocket-lab-reveals-some-big-plans-but-its-stock-is-dropping-on-mixed-earnings-4012ba2b?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T01:03:00+00:00",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "AI מהווה כמעט מחצית מהתמ\"ג הריאלי בששת הרבעונים האחרונים. 🤖",
+      "summary_he": "",
+      "body_en": "AI is accounting for nearly half of real GDP the past six quarters. 🤖",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2086975561004462541#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-11T00:38:42+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אינטל $INTC מכוונת לפחות 95 דולר למניה בהנפקת המניות המוגדלת שלה בהיקף של 20 מיליארד דולר, שמשכה יותר מ-100 מיליארד דולר בביקוש של משקיעים, כאשר המניות צפויות ל...",
+      "summary_he": "",
+      "body_en": "Intel $INTC is targeting at least $95 a share in its upsized $20 billion stock offering, which drew more than $100 billion in investor demand, with shares expected to price at roughly a 6.5% discount.",
+      "ticker": "$INTC",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086974083582103884#m",
+      "tag": "TECH",
+      "published_at": "2026-08-11T00:32:50+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "סינגפור 🇸🇬 מעלה את תחזית צמיחת התמ\"ג לשנת 2026 ל-4.5%-5.5% מ-2%-4%",
+      "summary_he": "",
+      "body_en": "SINGAPORE 🇸🇬 RAISES 2026 GDP GROWTH PROJECTION TO 4.5%-5.5% FROM 2%-4%",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2086972247168966916#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-11T00:25:32+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$ASTS עשוי בסופו של דבר להיות הרבה יותר מרשת טלפונים לווינית מכיוון שאותה ארכיטקטורה פיזית כבר מייצרת הכנסות מכ\"ם ממשלתיות ומושכת ...",
+      "summary_he": "",
+      "body_en": "$ASTS may ultimately be much more than a satellite phone network because the same physical architecture is already generating government radar revenue and attracting sovereign constellation funding. B",
+      "ticker": "$ASTS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2086972025919492361#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T00:24:39+00:00",
+      "relative_time": "לפני 2ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "EBay עשוי להתחמק מהשתלטות על GameStop - אבל יש טוויסט חדש בסאגת ריאן כהן",
       "summary_he": "",
       "body_en": "EBay may dodge a GameStop takeover — but there’s a new twist in the Ryan Cohen saga",
@@ -867,7 +997,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "הסכם שביתה של ארצ'ר עם בואינג בהצעה האחרונה לשנות את התעופה באמצעות AI",
+      "title_he": "ארצ'ר שביתות עסקה עם בואינג בהצעה האחרונה לשנות את התעופה באמצעות AI",
       "summary_he": "",
       "body_en": "Archer strikes deal with Boeing in latest bid to transform aviation through AI",
       "ticker": "",
@@ -878,7 +1008,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "מניית אפל עלולה להפגין ביצועים נמוכים יותר, במיוחד ללא אייפון 'כל הזכוכית', מזהיר אנליסט זה",
+      "title_he": "Apple’s stock could underperform, especially without an ‘all-glass’ iPhone, this analyst warns",
       "summary_he": "",
       "body_en": "Apple’s stock could underperform, especially without an ‘all-glass’ iPhone, this analyst warns",
       "ticker": "",
@@ -886,131 +1016,6 @@
       "link": "https://www.marketwatch.com/story/apples-stock-could-underperform-especially-without-an-all-glass-iphone-this-analyst-warns-fc9a750c?mod=mw_rss_topstories",
       "tag": "TECH",
       "published_at": "2026-08-10T22:49:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Intel plans to sell $15 billion worth of stock after it has risen 400% in a year",
-      "summary_he": "",
-      "body_en": "Intel plans to sell $15 billion worth of stock after it has risen 400% in a year",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/intel-plans-to-sell-15-billion-worth-of-stock-after-it-has-risen-400-in-a-year-395effce?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-10T22:46:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Jensen Huang אומר ש-$NVDA עוזרת לבנות שוק הון פתוח לתשתיות בינה מלאכותית עם מימון של 500 מיליארד דולר של צד שלישי שנועד לאפשר למעבדות בינה מלאכותית, ארגונים ועננים...",
-      "summary_he": "",
-      "body_en": "Jensen Huang says $NVDA is helping build an open capital market for AI infrastructure with $500B of third-party funding designed to let AI labs, enterprises and clouds build capacity without funding e",
-      "ticker": "$NVDA",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2086946958569291903#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T22:45:03+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "השינוי הזה ב-Nvidia יכול לאיית חדשות טובות עבור מיקרון",
-      "summary_he": "",
-      "body_en": "This Nvidia change could spell good news for Micron",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-10T22:42:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית SpaceX נעה מעל מחיר ההנפקה שלה לראשונה מזה כמעט חודש",
-      "summary_he": "",
-      "body_en": "SpaceX’s stock moves above its IPO price for the first time in almost a month",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/spacexs-stock-moves-above-its-ipo-price-for-the-first-time-in-almost-a-month-fc3f91b7?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-10T22:39:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ מדיה רשמה הפסד של 238 מיליון דולר ברבעון השני עם ירידת הקריפטו",
-      "summary_he": "",
-      "body_en": "Trump Media posts $238 million second-quarter loss as crypto declines",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/trump-media-djt-tmtg-earnings-truth-social-crypto.html",
-      "tag": "CRYPTO",
-      "published_at": "2026-08-10T22:33:55+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "Nvidia מציעה מימון של 500 מיליארד דולר כאשר המנכ\"ל ג'נסן הואנג אומר ל-CNBC שהשבבים שלו הם \"נכס שניתן להשקיע\"",
-      "summary_he": "",
-      "body_en": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
-      "tag": "TECH",
-      "published_at": "2026-08-10T22:09:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הערכות S&P 500 EPS מזנקות... גם CDS טכנולוגיים. @רויטרס",
-      "summary_he": "",
-      "body_en": "S&P 500 EPS estimates soaring... tech CDS too. @reuters",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2086935875481424377#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T22:01:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "UPWORK $UPWK Q2'26 שיאי רווחים 🔹 הכנסות: $191.7M (הערכה. $190M) ; -2% YoY 🔹 התאמה EPS: $0.41 (הערכה. $0.34) 🟢 🔹 התאמה EBITDA: 64.1 מיליון דולר (הערכה של 57.6 מיליון דולר) 🟢; +12% YoY 🔹 GSV…",
-      "summary_he": "",
-      "body_en": "UPWORK $UPWK Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $191.7M (Est. $190M) 🟢; -2% YoY 🔹 Adj. EPS: $0.41 (Est. $0.34) 🟢 🔹 Adj. EBITDA: $64.1M (Est. $57.6M) 🟢; +12% YoY 🔹 GSV per Active Client: $5,230; +5% ",
-      "ticker": "$UPWK",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2086933496942186826#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T21:51:33+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Rocket Lab reveals some big plans, but its stock is dropping on mixed earnings",
-      "summary_he": "",
-      "body_en": "Rocket Lab reveals some big plans, but its stock is dropping on mixed earnings",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/rocket-lab-reveals-some-big-plans-but-its-stock-is-dropping-on-mixed-earnings-4012ba2b?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T21:37:00+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "Lumentum $LITE, Franco-Nevada $FNV ו-Cardinal Health $CAH הן החברות הגדולות ביותר המדווחות על רווחים מחר.",
-      "summary_he": "",
-      "body_en": "Lumentum $LITE, Franco-Nevada $FNV, and Cardinal Health $CAH are the largest companies reporting earnings tomorrow.",
-      "ticker": "$LITE",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2086928072339599449#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-10T21:30:00+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ אומר ששוחח לאחרונה עם יו\"ר הפד וורש, מכחיש שיחות קבועות",
-      "summary_he": "",
-      "body_en": "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/10/trump-spoke-to-fed-chair-kevin-warsh-denies-regular-calls.html",
-      "tag": "FED",
-      "published_at": "2026-08-10T21:23:04+00:00",
       "sentiment": "neutral"
     }
   ],
@@ -1101,7 +1106,7 @@
     "wins": 4,
     "hit_rate": 40,
     "avg_pnl": -2.77,
-    "open": 9
+    "open": 10
   },
   "alert_config": {
     "price_move_pct": 5,
