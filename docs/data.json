@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T23:39:20.962044+00:00",
+  "generated_at": "2026-08-12T01:52:53.148843+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-11T23:39:20.962054+00:00",
+  "ta_generated_at": "2026-08-12T01:52:53.148854+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,431.3",
-      "change": "-0.22%",
-      "direction": "down",
+      "value": "$4,449.5",
+      "change": "+0.19%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.22066605120353472
+      "pct_raw": 0.18914232960301808
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.2",
-      "change": "+0.36%",
+      "value": "$89.5",
+      "change": "+0.71%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3599145203014367
+      "pct_raw": 0.7085817118434481
     },
     {
       "name": "ביטקוין",
-      "value": "$63,564",
-      "change": "-0.54%",
-      "direction": "down",
+      "value": "$63,798",
+      "change": "+0.40%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.5445319432328886
+      "pct_raw": 0.39523945148859624
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.996",
-      "change": "-0.21%",
-      "direction": "down",
+      "value": "3.004",
+      "change": "+0.06%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.2131699030743158
+      "pct_raw": 0.05662325550411467
     }
   ],
   "sectors": [
@@ -850,7 +850,7 @@
     }
   ],
   "fear_greed": {
-    "score": 29,
+    "score": 27,
     "rating": "פחד",
     "rating_en": "fear"
   },
@@ -863,11 +863,58 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
       "tag": "EARNINGS",
-      "published_at": "2026-08-11T23:29:00+00:00",
+      "published_at": "2026-08-12T00:17:00+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "CoreWeave stock pops 14% as revenue doubles on accelerating AI infrastructure demand",
+      "title_he": "דוח הרווחים של סופר מיקרו מביא עוד חדשות טובות, והמניה מטפסת",
+      "summary_he": "",
+      "body_en": "Super Micro’s earnings report brings more good news, and the stock is climbing",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T00:16:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Micro-caps $IWC מוביל YTD +26% S&P 500 $VOO +14% S&P 400 $IVOO +18% S&P 600 $VIOO +24% Russell 2000 $VTWO +23% @stockcharts https://schrts.co/vccWiIXj",
+      "summary_he": "",
+      "body_en": "Micro-caps $IWC leading YTD +26% S&P 500 $VOO +14% S&P 400 $IVOO +18% S&P 600 $VIOO +24% Russell 2000 $VTWO +23% @stockcharts https://schrts.co/vccWiIXj",
+      "ticker": "$IWC",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2087330532870730024#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-12T00:09:14+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אנרגיה נותרה מגזר ה-S&P 500 עם הביצועים הטובים ביותר YTD.. +36% מידע טק +22% שירותי תקשורת הגרועים +0.7% @stockcharts הקישור השמור שלי:...",
+      "summary_he": "",
+      "body_en": "Energy remains the best-performing S&P 500 sector YTD.. +36% Info Tech +22% Comm Services worst +0.7% @stockcharts my personally saved link: https://stockcharts.com/freecharts/perf.php?$SPCC,$SPEN,$SP",
+      "ticker": "$SPCC",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2087330049032613986#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-12T00:07:19+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "קצב האינפלציה האיזון של 5 שנים לא זז עם תנועות ה-2H של הנפט",
+      "summary_he": "",
+      "body_en": "5yr breakeven inflation rate hasn't budged with oil's 2H pops",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2087329428904771960#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-12T00:04:51+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניית CoreWeave צונחת ב-14% כאשר ההכנסות מוכפלות בעקבות האצת הביקוש לתשתיות AI",
       "summary_he": "",
       "body_en": "CoreWeave stock pops 14% as revenue doubles on accelerating AI infrastructure demand",
       "ticker": "",
@@ -878,7 +925,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$CRWV חותמת על חוזה A100 עד שנת 2029, המראה שמעבדי GPU של $NVDA שהושקו ב-2020 עדיין יכולים לייצר הכנסות כמעט עשור מאוחר יותר. שהרווחה ארוכה יותר משפרת את התשואות...",
+      "title_he": "$CRWV חותם על חוזה A100 עד שנת 2029, המראה שמעבדי GPU של $NVDA שהושקו ב-2020 עדיין יכולים לייצר הכנסות כמעט עשור מאוחר יותר. שהרווחה ארוכה יותר משפרת תשואות...",
       "summary_he": "",
       "body_en": "$CRWV signs an A100 contract through 2029 showing $NVDA GPUs launched in 2020 can still generate revenue nearly a decade later. That longer earning life improves returns on its infrastructure while hi",
       "ticker": "$CRWV",
@@ -886,7 +933,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087310826319569051#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T22:50:56+00:00",
-      "relative_time": "לפני 48ד׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,11 +945,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087299990830067932#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T22:07:52+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$SMCI הנפיקה 4.2 מיליארד דולר ברבעון הרביעי של חובה להמרה. EPS משתמש כעת בשיטה הדו-מחלקה, ומקצה חלק מהרווח הנקי למועדף. \"זה משפיע על הרווח למניה ברבעון הראשון של שנת 27...",
+      "title_he": "$SMCI הנפיקה 4.2 מיליארד דולר בהמרה חובה ברבעון הרביעי. EPS משתמש כעת בשיטה הדו-מחלקה, ומקצה חלק מהרווח הנקי למועדף. \"זה משפיע על הרווח למניה ברבעון הראשון של שנת 27...",
       "summary_he": "",
       "body_en": "$SMCI issued $4.2B of mandatory convertible preferred in Q4. EPS now uses the two-class method, allocating part of net income to the preferred. \"This impacts Q1 FY27 EPS guidance and should be conside",
       "ticker": "$SMCI",
@@ -910,7 +957,7 @@
       "link": "https://nitter.net/wallstengine/status/2087299111850844500#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T22:04:23+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,11 +969,11 @@
       "link": "https://nitter.net/wallstengine/status/2087298690658812404#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T22:02:42+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "COREWEAVE $CRWV Outlook: מעלה מדריך FY26: 🔹 הכנסה: $12.4B-$13.2B (אומדן $12.63B) 🟢 🔹 Adj. הכנסה מבצעית: $960M-$1.15B (אומדן $893M) 🔹 עלות השקעה: $35B-$39B (אומדן $33.3B) 🔹…",
+      "title_he": "COREWEAVE $CRWV Outlook: Raises FY26 Guide: 🔹 Revenue: $12.4B-$13.2B (Est. $12.63B) 🟢 🔹 Adj. Oper Income: $960M-$1.15B (Est. $893M) 🟢 🔹 CapEx: $35B-$39B (Est. $33.3B) 🔹…",
       "summary_he": "",
       "body_en": "COREWEAVE $CRWV Outlook: Raises FY26 Guide: 🔹 Revenue: $12.4B-$13.2B (Est. $12.63B) 🟢 🔹 Adj. Oper Income: $960M-$1.15B (Est. $893M) 🟢 🔹 CapEx: $35B-$39B (Est. $33.3B) 🔹 Active Power: >1.85GW; from pri",
       "ticker": "$CRWV",
@@ -934,31 +981,8 @@
       "link": "https://nitter.net/wallstengine/status/2087296996675825928#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T21:55:58+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "אילון מאסק אומר ש-$SPCX מכוון ל-10GW של מחשוב בינה מלאכותית באינטרנט עד 2027. קנה מידה זה עשוי להפוך את מחשוב הבינה המלאכותית להזדמנות הכנסה של 500 מיליארד דולר עבור SpaceX.",
-      "summary_he": "",
-      "body_en": "Elon Musk says $SPCX is targeting 10GW of AI compute online by 2027. That scale could turn AI compute into a $500B revenue opportunity for SpaceX.",
-      "ticker": "$SPCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087296357929480486#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T21:53:26+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "דוח הרווחים של סופר מיקרו מביא עוד חדשות טובות, והמניה מטפסת",
-      "summary_he": "",
-      "body_en": "Super Micro’s earnings report brings more good news, and the stock is climbing",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T21:49:00+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "האם ידעת שאומדני הרווחים של S&P 500 YTD 2026 עלו ב-15.9% ו-2027 עלו ב-13.5%? זה די מדהים, מכיוון שבשנה ממוצעת בדרך כלל מגמה זו יורדת כ...",
@@ -969,7 +993,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2087291324508815775#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T21:33:26+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -981,7 +1005,7 @@
       "link": "https://nitter.net/cperruna/status/2087275027766878299#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T20:28:40+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -993,35 +1017,19 @@
       "link": "https://nitter.net/gurgavin/status/2087270654768820327#m",
       "tag": "TECH",
       "published_at": "2026-08-11T20:11:18+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "החוב של משקי הבית בארה\"ב כאחוז מהתמ\"ג צלל לשפל של עשרות שנים... מאזני משקי הבית חזקים @augurinfinity...",
-      "summary_he": "",
-      "body_en": "US household debt as a percentage of GDP has plunged to a multi-decade low... household balance sheets are strong @augurinfinity https://augurdigest.com/p/augur-digest-300",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2087268583504052252#m",
-      "tag": "MACRO",
-      "published_at": "2026-08-11T20:03:04+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "#IPO... הערכות שווי אחרונות.. Anthropic: $965b OpenAI: $852b @CNBC",
-      "summary_he": "",
-      "body_en": "#IPO... latest valuations.. Anthropic: $965b OpenAI: $852b @CNBC",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2087265532655354237#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T19:50:57+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "שני גברים נהרגו בתאונה קטלנית ליד בית שמש",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860147",
+      "tag": "כללי",
+      "published_at": "2026-08-12T02:49:00+00:00"
+    },
     {
       "title_he": "\"הבטיחו את נגישות ציבור הקשישים\": בג\"ץ מציב דרישה לוועדת הבחירות המרכזית",
       "summary_he": "",
@@ -1093,22 +1101,14 @@
       "link": "https://news.walla.co.il/item/3860021",
       "tag": "כללי",
       "published_at": "2026-08-11T15:08:00+00:00"
-    },
-    {
-      "title_he": "הפינוי הציל מהטילים, אבל גבה מחיר נפשי: המחקר על בני הנוער בעוטף",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860013",
-      "tag": "כללי",
-      "published_at": "2026-08-11T14:18:00+00:00"
     }
   ],
   "track_record": {
-    "closed": 10,
-    "wins": 4,
-    "hit_rate": 40,
-    "avg_pnl": -2.77,
-    "open": 10
+    "closed": 13,
+    "wins": 6,
+    "hit_rate": 46,
+    "avg_pnl": -0.7,
+    "open": 7
   },
   "alert_config": {
     "price_move_pct": 5,
