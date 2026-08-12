@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T08:47:22.822375+00:00",
+  "generated_at": "2026-08-12T10:03:16.787018+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-12T08:47:22.822385+00:00",
+  "ta_generated_at": "2026-08-12T10:03:16.787026+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.29",
-      "change": "+0.07%",
+      "value": "15.40",
+      "change": "+0.79%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.06544502617800908
+      "pct_raw": 0.7853403141361323
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,465.4",
-      "change": "+0.55%",
+      "value": "$4,471.2",
+      "change": "+0.68%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5471617392087381
+      "pct_raw": 0.6777600144108318
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.4",
-      "change": "+0.56%",
-      "direction": "up",
+      "value": "$88.6",
+      "change": "-0.30%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.5623664379709818
+      "pct_raw": -0.30367787650432576
     },
     {
       "name": "ביטקוין",
-      "value": "$63,736",
-      "change": "+0.30%",
+      "value": "$64,134",
+      "change": "+0.92%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.29786277873778005
+      "pct_raw": 0.9236668385235955
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,189",
-      "change": "+0.71%",
+      "value": "4,180",
+      "change": "+0.51%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.7121784437386216
+      "pct_raw": 0.5142976675074075
     },
     {
       "name": "דולר/שקל",
-      "value": "2.998",
-      "change": "-0.15%",
+      "value": "2.991",
+      "change": "-0.37%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.15321586783465801
+      "pct_raw": -0.36971655064450215
     }
   ],
   "sectors": [
@@ -856,49 +856,98 @@
   },
   "us_news": [
     {
-      "title_he": "קרן העושר הריבונית הגדולה בעולם רשמה רווח של 184 מיליארד דולר כאשר היא חושפת את נתח המניות של SpaceX בפעם הראשונה",
+      "title_he": "Coreweave עלתה ב-18% ב-premarket לאחר 'רבעון נקי יותר'. הנה מה שקורה",
       "summary_he": "",
-      "body_en": "World's largest sovereign wealth fund posts record $184 billion profit as it reveals SpaceX stake for the first time",
+      "body_en": "Coreweave surges 18% in premarket after a 'cleaner quarter'. Here's what's happening",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-fund-spacex-nvidia-apple-nbim.html",
+      "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
       "tag": "NEWS",
-      "published_at": "2026-08-12T08:45:20+00:00",
+      "published_at": "2026-08-12T10:01:52+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "דויטשה בנק משדרג $ENTG לקנייה, מעלה את PT ל-$200 מ-$152 הערות אנליסטים: \"אחרי ~6 חודשים מהצד, אנחנו משדרגים את המניות של ENTG לדירוג קנייה ו...",
+      "title_he": "המניות בארה\"ב עלו לפני השוק (SPX +0.2%, NDX +0.6%) בעקבות רווחים חזקים מ-$CRWV (+16%), $SMCI (+8%) ו-$CAVA (+10%), בעוד שהתשואות ל-10 שנים התייצבו על 4.68% אפילו עם...",
       "summary_he": "",
-      "body_en": "Deutsche Bank Upgrades $ENTG to Buy, Raises PT to $200 from $152 Analyst comments: \"After ~6 months on the sidelines, we are upgrading shares of ENTG to a Buy rating and raising our P/T to $200. We be",
-      "ticker": "$ENTG",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087459805766303829#m",
+      "body_en": "US stocks rose pre-market (SPX +0.2%, NDX +0.6%) on strong earnings from $CRWV (+16%), $SMCI (+8%), and $CAVA (+10%), while 10-year yields stabilized at 4.68% even with higher oil prices and continued",
+      "ticker": "$CRWV",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2087475967828623410#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-12T08:42:55+00:00",
-      "relative_time": "לפני 4ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$GOOGL חותמת על עסקת ענן ו-AI לחמש שנים עם RYANAIR Ryanair תפרוס את Google Cloud, Workspace ו-Gemini Enterprise על פני 35,000 עובדים, תוך שימוש ב-DeepMind של...",
-      "summary_he": "",
-      "body_en": "$GOOGL SIGNS FIVE-YEAR CLOUD AND AI DEAL WITH RYANAIR Ryanair will deploy Google Cloud, Workspace and Gemini Enterprise across 35,000 employees, while using DeepMind’s AlphaEvolve and WeatherNext for ",
-      "ticker": "$GOOGL",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087459430002819571#m",
-      "tag": "M&A",
-      "published_at": "2026-08-12T08:41:25+00:00",
-      "relative_time": "לפני 5ד׳",
+      "published_at": "2026-08-12T09:47:08+00:00",
+      "relative_time": "לפני 15ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "תשואות משרד האוצר השתנו מעט מכיוון שהמשקיעים ממתינים לנתוני אינפלציה מרכזיים",
+      "title_he": "🇳🇴קרן העושר של נורבגיה מנפצת שיא רווחים קרן העושר הריבונית של נורבגיה בשווי 2.3 טריליון דולר רשמה רווח שיא של 184.3 מיליארד דולר במחצית הראשונה, מונעת בעיקר על ידי אסיה...",
       "summary_he": "",
-      "body_en": "Treasury yields are little changed as investors await key inflation data",
+      "body_en": "🇳🇴NORWAY’S WEALTH FUND SMASHES PROFIT RECORD Norway’s $2.3 trillion sovereign wealth fund posted a record $184.3 billion first-half profit, driven largely by Asian technology stocks. The world’s bigge",
       "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html",
-      "tag": "MACRO",
-      "published_at": "2026-08-12T08:31:12+00:00",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2087475117206929476#m",
+      "tag": "TECH",
+      "published_at": "2026-08-12T09:43:46+00:00",
+      "relative_time": "לפני 19ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "BofA על $INTC (קנייה, PT $145): \"לאורך זמן, אנו מצפים שאינטל תטפל בפוטנציאל של ~8-10% מ-TAM של ~380 מיליארד דולר של יציקת פרוסות CY30, כמו גם ~25-30% מה-~20 מיליארד דולר 2.5D/3D...",
+      "summary_he": "",
+      "body_en": "BofA on $INTC (Buy, PT $145): \"Over time, we expect Intel to potentially address ~8-10% of the ~$380bn CY30 wafer foundry TAM, as well as ~25-30% of the ~$20bn 2.5D/3D packaging TAM, resulting in EPS ",
+      "ticker": "$INTC",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087471822669521271#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T09:30:40+00:00",
+      "relative_time": "לפני 32ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$SPY +0.2% $QQQ +0.6% $SMH +1.6% $EEM +1.2% $SLV +2.5% $GLD +0.9% שמן שטוח @finviz_com",
+      "summary_he": "",
+      "body_en": "$SPY +0.2% $QQQ +0.6% $SMH +1.6% $EEM +1.2% $SLV +2.5% $GLD +0.9% Oil flat @finviz_com",
+      "ticker": "$SPY",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2087467646547566665#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-12T09:14:04+00:00",
+      "relative_time": "לפני 48ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בנק אוף אמריקה $BAC מתכנן לפרוס 250 מיליארד דולר עד אמצע 2027 במרכזי נתונים בינה מלאכותית, מוליכים למחצה, חומרה, ייצור חשמל, אחסון אנרגיה ומינרלים קריטיים. ה…",
+      "summary_he": "",
+      "body_en": "Bank of America $BAC plans to deploy $250B through mid-2027 across AI data centers, semiconductors, hardware, power generation, energy storage and critical minerals. The initiative will span lending, ",
+      "ticker": "$BAC",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087466436394672405#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-12T09:09:16+00:00",
+      "relative_time": "לפני 53ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שיאי רווחים של TENCENT $TCEHY Q2'26 (הערכה…",
+      "summary_he": "",
+      "body_en": "TENCENT $TCEHY Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: RMB204.79B (Est. RMB202.84B) 🟢 🔹 Operating Profit: RMB67.28B (Est. RMB67.73B) 🔴 🔹 Net Income: RMB56.02B (Est. RMB58.36B) 🔴 Other Q2 Metrics: 🔹 CapEx",
+      "ticker": "$TCEHY",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087462556965458373#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T08:53:51+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$NBIS עלייה של כמעט 10% ונשבר מעל $210 לפני הרווחים 😳",
+      "summary_he": "",
+      "body_en": "$NBIS up nearly 10% and breaking above $210 ahead of earnings 😳",
+      "ticker": "$NBIS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087460867684311162#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T08:47:08+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,18 +960,6 @@
       "tag": "NEWS",
       "published_at": "2026-08-12T08:22:00+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "אירועי המפתח של היום (כל EST) — 08/12/2026 07:00: בקשות למשכנתאות MBA בארה\"ב 08:00: דוח חודשי של OPEC 08:30: נתוני אינפלציה במדד המחירים לצרכן בארה\"ב 13:00: מכירה פומבית של שטרות ל-10 שנים בארה\"ב...",
-      "summary_he": "",
-      "body_en": "Today's Key Events (All EST) — 08/12/2026 07:00: US MBA Mortgage Applications 08:00: OPEC Monthly Report 08:30: US CPI Inflation data 13:00: US 10-Year Note Auction Before Open 👇 04:30: BETA Technolog",
-      "ticker": "$BETA",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087417295698378992#m",
-      "tag": "ENERGY",
-      "published_at": "2026-08-12T05:54:00+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "הבוס החדש של גוגל בינה מלאכותית יורש מרוץ לתפוס את OpenAI ו-Anthropic",
@@ -947,64 +984,6 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "דוח הרווחים של סופר מיקרו מביא עוד חדשות טובות, והמניה מטפסת",
-      "summary_he": "",
-      "body_en": "Super Micro’s earnings report brings more good news, and the stock is climbing",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T00:16:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Micro-caps $IWC מוביל YTD +26% S&P 500 $VOO +14% S&P 400 $IVOO +18% S&P 600 $VIOO +24% Russell 2000 $VTWO +23% @stockcharts https://schrts.co/vccWiIXj",
-      "summary_he": "",
-      "body_en": "Micro-caps $IWC leading YTD +26% S&P 500 $VOO +14% S&P 400 $IVOO +18% S&P 600 $VIOO +24% Russell 2000 $VTWO +23% @stockcharts https://schrts.co/vccWiIXj",
-      "ticker": "$IWC",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2087330532870730024#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-12T00:09:14+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אנרגיה נותרה מגזר ה-S&P 500 עם הביצועים הטובים ביותר YTD.. +36% מידע טק +22% שירותי תקשורת הגרועים +0.7% @stockcharts הקישור השמור שלי:...",
-      "summary_he": "",
-      "body_en": "Energy remains the best-performing S&P 500 sector YTD.. +36% Info Tech +22% Comm Services worst +0.7% @stockcharts my personally saved link: https://stockcharts.com/freecharts/perf.php?$SPCC,$SPEN,$SP",
-      "ticker": "$SPCC",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2087330049032613986#m",
-      "tag": "ENERGY",
-      "published_at": "2026-08-12T00:07:19+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "קצב האינפלציה האיזון של 5 שנים לא זז עם ה-2H pops של שמן",
-      "summary_he": "",
-      "body_en": "5yr breakeven inflation rate hasn't budged with oil's 2H pops",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2087329428904771960#m",
-      "tag": "ENERGY",
-      "published_at": "2026-08-12T00:04:51+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית CoreWeave צונחת ב-14% כאשר ההכנסות מוכפלות בעקבות האצת הביקוש לתשתיות AI",
-      "summary_he": "",
-      "body_en": "CoreWeave stock pops 14% as revenue doubles on accelerating AI infrastructure demand",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T22:51:06+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "$CRWV חותמת על חוזה A100 עד שנת 2029, המראה שמעבדי GPU של $NVDA שהושקו ב-2020 עדיין יכולים לייצר הכנסות כמעט עשור מאוחר יותר. שהרווחה ארוכה יותר משפרת את התשואות...",
       "summary_he": "",
       "body_en": "$CRWV signs an A100 contract through 2029 showing $NVDA GPUs launched in 2020 can still generate revenue nearly a decade later. That longer earning life improves returns on its infrastructure while hi",
@@ -1013,11 +992,43 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087310826319569051#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T22:50:56+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "אילון מאסק אומר שההכנסות מבינה מלאכותית עשויות לעלות על כל שאר ההכנסות של $SPCX כבר בספטמבר ו\"יחרוג באופן משמעותי\" מהן ברבעון הרביעי. הוא קורא לנצח ב-AI SpaceX של \"הכי...",
+      "summary_he": "",
+      "body_en": "Elon Musk says AI revenue could surpass all other $SPCX revenue as soon as September and “significantly exceed” it in Q4. He calls winning in AI SpaceX’s “most important” priority because “the future ",
+      "ticker": "$SPCX",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087299990830067932#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T22:07:52+00:00",
+      "relative_time": "לפני 11ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ: MEDICAID לא תממן יותר ניתוחי מעבר מגדרי והורמונים לקטינים",
+      "summary_he": "",
+      "body_en": "TRUMP: MEDICAID WILL NO LONGER FUND GENDER TRANSITION SURGERIES AND HORMONES FOR MINORS",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2087288717618651597#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T21:23:04+00:00",
+      "relative_time": "לפני 12ש׳",
+      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "\"אין משבר מנהלים, זה פייק\": שר החינוך קיש לקראת פתיחת שנת הלימודים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860244",
+      "tag": "כללי",
+      "published_at": "2026-08-12T12:27:00+00:00"
+    },
     {
       "title_he": "דרש מחדשות 12 להתנצל - ואיים \"בסוף מישהו ימות\": כתב אישום נגד אברהם חדי",
       "summary_he": "",
@@ -1089,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3860103",
       "tag": "כללי",
       "published_at": "2026-08-11T21:04:00+00:00"
-    },
-    {
-      "title_he": "בעקבות הסערה ברמב\"ם - רופאה בביה\"ח מוחה: \" הפער בין השקרים למציאות קשה מנשוא\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860100",
-      "tag": "כללי",
-      "published_at": "2026-08-11T20:25:00+00:00"
     }
   ],
   "track_record": {
