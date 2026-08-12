@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T01:52:53.148843+00:00",
+  "generated_at": "2026-08-12T04:07:12.148104+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -274,7 +274,7 @@
         "sma50": 33.4,
         "sma200": 31.27,
         "pct_from_52w_high": -2.3,
-        "vol_ratio": 1.19,
+        "vol_ratio": 1.2,
         "change_1d_pct": 0.94,
         "change_1w_pct": 6.0,
         "change_1m_pct": 13.4,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-12T01:52:53.148854+00:00",
+  "ta_generated_at": "2026-08-12T04:07:12.148114+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -696,7 +696,7 @@
       "change": "+0.32%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.32206567448697826
+      "pct_raw": 0.32196593093390635
     },
     {
       "name": "VIX",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,449.5",
-      "change": "+0.19%",
+      "value": "$4,461.1",
+      "change": "+0.45%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.18914232960301808
+      "pct_raw": 0.45033888000720546
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.5",
-      "change": "+0.71%",
+      "value": "$90.0",
+      "change": "+1.24%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.7085817118434481
+      "pct_raw": 1.2372061635361697
     },
     {
       "name": "ביטקוין",
-      "value": "$63,798",
-      "change": "+0.40%",
+      "value": "$63,770",
+      "change": "+0.35%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.39523945148859624
+      "pct_raw": 0.35059536283408704
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -753,10 +753,10 @@
     {
       "name": "דולר/שקל",
       "value": "3.004",
-      "change": "+0.06%",
+      "change": "+0.05%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.05662325550411467
+      "pct_raw": 0.05329247576857155
     }
   ],
   "sectors": [
@@ -886,7 +886,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087330532870730024#m",
       "tag": "NEWS",
       "published_at": "2026-08-12T00:09:14+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,7 +898,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087330049032613986#m",
       "tag": "ENERGY",
       "published_at": "2026-08-12T00:07:19+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,7 +910,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087329428904771960#m",
       "tag": "ENERGY",
       "published_at": "2026-08-12T00:04:51+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -925,30 +925,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$CRWV חותם על חוזה A100 עד שנת 2029, המראה שמעבדי GPU של $NVDA שהושקו ב-2020 עדיין יכולים לייצר הכנסות כמעט עשור מאוחר יותר. שהרווחה ארוכה יותר משפרת תשואות...",
-      "summary_he": "",
-      "body_en": "$CRWV signs an A100 contract through 2029 showing $NVDA GPUs launched in 2020 can still generate revenue nearly a decade later. That longer earning life improves returns on its infrastructure while hi",
-      "ticker": "$CRWV",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087310826319569051#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T22:50:56+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אילון מאסק אומר שההכנסות מבינה מלאכותית עשויות לעלות על כל שאר ההכנסות של $SPCX כבר בספטמבר ו\"יחרוג באופן משמעותי\" מהן ברבעון הרביעי. הוא קורא לנצח ב-AI SpaceX של \"הכי...",
-      "summary_he": "",
-      "body_en": "Elon Musk says AI revenue could surpass all other $SPCX revenue as soon as September and “significantly exceed” it in Q4. He calls winning in AI SpaceX’s “most important” priority because “the future ",
-      "ticker": "$SPCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087299990830067932#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T22:07:52+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "$SMCI הנפיקה 4.2 מיליארד דולר בהמרה חובה ברבעון הרביעי. EPS משתמש כעת בשיטה הדו-מחלקה, ומקצה חלק מהרווח הנקי למועדף. \"זה משפיע על הרווח למניה ברבעון הראשון של שנת 27...",
       "summary_he": "",
       "body_en": "$SMCI issued $4.2B of mandatory convertible preferred in Q4. EPS now uses the two-class method, allocating part of net income to the preferred. \"This impacts Q1 FY27 EPS guidance and should be conside",
@@ -957,7 +933,7 @@
       "link": "https://nitter.net/wallstengine/status/2087299111850844500#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T22:04:23+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -969,11 +945,11 @@
       "link": "https://nitter.net/wallstengine/status/2087298690658812404#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T22:02:42+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "COREWEAVE $CRWV Outlook: Raises FY26 Guide: 🔹 Revenue: $12.4B-$13.2B (Est. $12.63B) 🟢 🔹 Adj. Oper Income: $960M-$1.15B (Est. $893M) 🟢 🔹 CapEx: $35B-$39B (Est. $33.3B) 🔹…",
+      "title_he": "COREWEAVE $CRWV Outlook: מעלה מדריך FY26: 🔹 הכנסה: $12.4B-$13.2B (אומדן $12.63B) 🟢 🔹 Adj. הכנסה מבצעית: $960M-$1.15B (אומדן $893M) 🔹 עלות השקעה: $35B-$39B (אומדן $33.3B) 🔹…",
       "summary_he": "",
       "body_en": "COREWEAVE $CRWV Outlook: Raises FY26 Guide: 🔹 Revenue: $12.4B-$13.2B (Est. $12.63B) 🟢 🔹 Adj. Oper Income: $960M-$1.15B (Est. $893M) 🟢 🔹 CapEx: $35B-$39B (Est. $33.3B) 🔹 Active Power: >1.85GW; from pri",
       "ticker": "$CRWV",
@@ -981,20 +957,20 @@
       "link": "https://nitter.net/wallstengine/status/2087296996675825928#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T21:55:58+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "האם ידעת שאומדני הרווחים של S&P 500 YTD 2026 עלו ב-15.9% ו-2027 עלו ב-13.5%? זה די מדהים, מכיוון שבשנה ממוצעת בדרך כלל מגמה זו יורדת כ...",
+      "title_he": "טראמפ: MEDICAID לא תממן יותר ניתוחי מעבר מגדרי והורמונים לקטינים",
       "summary_he": "",
-      "body_en": "Did you know that YTD 2026 S&P 500 earnings estimates are up 15.9% and 2027 is up 13.5%? This is pretty amazing, as the average year usually sees this trend lower as the year progresses. This time is ",
+      "body_en": "TRUMP: MEDICAID WILL NO LONGER FUND GENDER TRANSITION SURGERIES AND HORMONES FOR MINORS",
       "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2087291324508815775#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T21:33:26+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2087288717618651597#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-11T21:23:04+00:00",
+      "relative_time": "לפני 6ש׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "דוח רווחים של $CRWV +8% לאחר שעות העבודה",
@@ -1005,7 +981,7 @@
       "link": "https://nitter.net/cperruna/status/2087275027766878299#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T20:28:40+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1017,11 +993,42 @@
       "link": "https://nitter.net/gurgavin/status/2087270654768820327#m",
       "tag": "TECH",
       "published_at": "2026-08-11T20:11:18+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "מנהל OpenAI הוותיק, בראד לייטקאפ, עוזב בזמן שהטלטול במעבדת הבינה המלאכותית נמשך",
+      "summary_he": "",
+      "body_en": "Longtime OpenAI executive Brad Lightcap leaves as shake-up at AI lab continues",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/11/longtime-openai-executive-brad-lightcap-leaves-as-shakeup-at-ai-lab-continues.html",
+      "tag": "TECH",
+      "published_at": "2026-08-11T19:41:17+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בערך אחת מכל שלוש מניות טכנולוגיה (30.3%) שדיווחו על עונת הרווחים הזו העלו הנחיות קדימה.",
+      "summary_he": "",
+      "body_en": "Roughly one in three Technology stocks (30.3%) that have reported this earnings season have raised forward guidance.",
+      "ticker": "",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2087261003692007758#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T19:32:57+00:00",
+      "relative_time": "לפני 8ש׳",
+      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "גבר בן 60 נורה למוות בשפרעם",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860155",
+      "tag": "כללי",
+      "published_at": "2026-08-12T06:13:00+00:00"
+    },
     {
       "title_he": "שני גברים נהרגו בתאונה קטלנית ליד בית שמש",
       "summary_he": "",
@@ -1029,6 +1036,14 @@
       "link": "https://news.walla.co.il/item/3860147",
       "tag": "כללי",
       "published_at": "2026-08-12T02:49:00+00:00"
+    },
+    {
+      "title_he": "תיעוד מטריד בערד: חרדי השחית תמונות נשים במרחב הציבורי | צפו",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860119",
+      "tag": "כללי",
+      "published_at": "2026-08-11T23:00:00+00:00"
     },
     {
       "title_he": "\"הבטיחו את נגישות ציבור הקשישים\": בג\"ץ מציב דרישה לוועדת הבחירות המרכזית",
@@ -1085,22 +1100,6 @@
       "link": "https://news.walla.co.il/item/3860063",
       "tag": "כללי",
       "published_at": "2026-08-11T17:57:00+00:00"
-    },
-    {
-      "title_he": "\"השתלט על העיר\": אייל נגר הוא ראש ארגון הפשע שנעצר בדרום",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860029",
-      "tag": "כללי",
-      "published_at": "2026-08-11T15:56:00+00:00"
-    },
-    {
-      "title_he": "מפכ\"ל המשטרה: \"הפשיעה בפרוטקשן היא מגפה - נילחם בחורמה נגד ארגוני הפשע\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860021",
-      "tag": "כללי",
-      "published_at": "2026-08-11T15:08:00+00:00"
     }
   ],
   "track_record": {
@@ -1108,7 +1107,7 @@
     "wins": 6,
     "hit_rate": 46,
     "avg_pnl": -0.7,
-    "open": 7
+    "open": 9
   },
   "alert_config": {
     "price_move_pct": 5,
