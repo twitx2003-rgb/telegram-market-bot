@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:23:01.494335+00:00",
+  "generated_at": "2026-08-12T08:47:22.822375+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-12T07:23:01.494345+00:00",
+  "ta_generated_at": "2026-08-12T08:47:22.822385+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.28",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "15.29",
+      "change": "+0.07%",
+      "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.0
+      "pct_raw": 0.06544502617800908
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,463.9",
-      "change": "+0.51%",
+      "value": "$4,465.4",
+      "change": "+0.55%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5133863232081978
+      "pct_raw": 0.5471617392087381
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.6",
-      "change": "+0.80%",
+      "value": "$89.4",
+      "change": "+0.56%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.7985603419188032
+      "pct_raw": 0.5623664379709818
     },
     {
       "name": "ביטקוין",
-      "value": "$63,664",
-      "change": "+0.18%",
+      "value": "$63,736",
+      "change": "+0.30%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.18396291490932445
+      "pct_raw": 0.29786277873778005
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,170",
-      "change": "+0.27%",
+      "value": "4,189",
+      "change": "+0.71%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.26616527252488226
+      "pct_raw": 0.7121784437386216
     },
     {
       "name": "דולר/שקל",
-      "value": "3.000",
-      "change": "-0.08%",
+      "value": "2.998",
+      "change": "-0.15%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.08326949338840045
+      "pct_raw": -0.15321586783465801
     }
   ],
   "sectors": [
@@ -863,7 +863,53 @@
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-fund-spacex-nvidia-apple-nbim.html",
       "tag": "NEWS",
-      "published_at": "2026-08-12T07:01:56+00:00",
+      "published_at": "2026-08-12T08:45:20+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "דויטשה בנק משדרג $ENTG לקנייה, מעלה את PT ל-$200 מ-$152 הערות אנליסטים: \"אחרי ~6 חודשים מהצד, אנחנו משדרגים את המניות של ENTG לדירוג קנייה ו...",
+      "summary_he": "",
+      "body_en": "Deutsche Bank Upgrades $ENTG to Buy, Raises PT to $200 from $152 Analyst comments: \"After ~6 months on the sidelines, we are upgrading shares of ENTG to a Buy rating and raising our P/T to $200. We be",
+      "ticker": "$ENTG",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087459805766303829#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T08:42:55+00:00",
+      "relative_time": "לפני 4ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$GOOGL חותמת על עסקת ענן ו-AI לחמש שנים עם RYANAIR Ryanair תפרוס את Google Cloud, Workspace ו-Gemini Enterprise על פני 35,000 עובדים, תוך שימוש ב-DeepMind של...",
+      "summary_he": "",
+      "body_en": "$GOOGL SIGNS FIVE-YEAR CLOUD AND AI DEAL WITH RYANAIR Ryanair will deploy Google Cloud, Workspace and Gemini Enterprise across 35,000 employees, while using DeepMind’s AlphaEvolve and WeatherNext for ",
+      "ticker": "$GOOGL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087459430002819571#m",
+      "tag": "M&A",
+      "published_at": "2026-08-12T08:41:25+00:00",
+      "relative_time": "לפני 5ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "תשואות משרד האוצר השתנו מעט מכיוון שהמשקיעים ממתינים לנתוני אינפלציה מרכזיים",
+      "summary_he": "",
+      "body_en": "Treasury yields are little changed as investors await key inflation data",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html",
+      "tag": "MACRO",
+      "published_at": "2026-08-12T08:31:12+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניה זה עתה זינקה בעקבות חדשות שמודעות למצב קנתה אותה. אך גורלו הנוכחי אינו ברור.",
+      "summary_he": "",
+      "body_en": "A stock just surged on news Situational Awareness had bought it. But its current fate is unclear.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/a-stock-just-surged-on-news-situational-awareness-had-bought-it-but-its-current-fate-is-unclear-00f17a97?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-12T08:22:00+00:00",
       "sentiment": "bullish"
     },
     {
@@ -875,7 +921,7 @@
       "link": "https://nitter.net/wallstengine/status/2087417295698378992#m",
       "tag": "ENERGY",
       "published_at": "2026-08-12T05:54:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -920,7 +966,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087330532870730024#m",
       "tag": "NEWS",
       "published_at": "2026-08-12T00:09:14+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -932,7 +978,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087330049032613986#m",
       "tag": "ENERGY",
       "published_at": "2026-08-12T00:07:19+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -944,7 +990,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087329428904771960#m",
       "tag": "ENERGY",
       "published_at": "2026-08-12T00:04:51+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -959,67 +1005,51 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$SMCI הנפיקה 4.2 מיליארד דולר ברבעון הרביעי של חובה להמרה. EPS משתמש כעת בשיטה הדו-מחלקה, ומקצה חלק מהרווח הנקי למועדף. \"זה משפיע על הרווח למניה ברבעון הראשון של שנת 27...",
+      "title_he": "$CRWV חותמת על חוזה A100 עד שנת 2029, המראה שמעבדי GPU של $NVDA שהושקו ב-2020 עדיין יכולים לייצר הכנסות כמעט עשור מאוחר יותר. שהרווחה ארוכה יותר משפרת את התשואות...",
       "summary_he": "",
-      "body_en": "$SMCI issued $4.2B of mandatory convertible preferred in Q4. EPS now uses the two-class method, allocating part of net income to the preferred. \"This impacts Q1 FY27 EPS guidance and should be conside",
-      "ticker": "$SMCI",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087299111850844500#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T22:04:23+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$SMCI - הרווח הגולמי של 17.6% הוחמיא על ידי פריטים חד פעמיים: \"GM השתפרה ב-750 bps ברצף עקב תמהיל לקוחות ומוצרים טוב מהצפוי, כולל...",
-      "summary_he": "",
-      "body_en": "$SMCI — the 17.6% gross margin was flattered by one-time items: \"GM improved by 750bps sequentially due to a better than anticipated customer & product mix, including the deferral of several contracts",
-      "ticker": "$SMCI",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087298690658812404#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T22:02:42+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "COREWEAVE $CRWV Outlook: מעלה מדריך FY26: 🔹 הכנסה: $12.4B-$13.2B (אומדן $12.63B) 🟢 🔹 Adj. הכנסה מבצעית: $960M-$1.15B (אומדן $893M) 🔹 עלות השקעה: $35B-$39B (אומדן $33.3B) 🔹…",
-      "summary_he": "",
-      "body_en": "COREWEAVE $CRWV Outlook: Raises FY26 Guide: 🔹 Revenue: $12.4B-$13.2B (Est. $12.63B) 🟢 🔹 Adj. Oper Income: $960M-$1.15B (Est. $893M) 🟢 🔹 CapEx: $35B-$39B (Est. $33.3B) 🔹 Active Power: >1.85GW; from pri",
+      "body_en": "$CRWV signs an A100 contract through 2029 showing $NVDA GPUs launched in 2020 can still generate revenue nearly a decade later. That longer earning life improves returns on its infrastructure while hi",
       "ticker": "$CRWV",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087296996675825928#m",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087310826319569051#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-11T21:55:58+00:00",
+      "published_at": "2026-08-11T22:50:56+00:00",
       "relative_time": "לפני 9ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "טראמפ: MEDICAID לא תממן יותר ניתוחי מעבר מגדרי והורמונים לקטינים",
-      "summary_he": "",
-      "body_en": "TRUMP: MEDICAID WILL NO LONGER FUND GENDER TRANSITION SURGERIES AND HORMONES FOR MINORS",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2087288717618651597#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T21:23:04+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "דוח רווחים של $CRWV +8% לאחר שעות העבודה",
-      "summary_he": "",
-      "body_en": "$CRWV earnings report +8% after hours",
-      "ticker": "$CRWV",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2087275027766878299#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T20:28:40+00:00",
-      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "דרש מחדשות 12 להתנצל - ואיים \"בסוף מישהו ימות\": כתב אישום נגד אברהם חדי",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860222",
+      "tag": "כללי",
+      "published_at": "2026-08-12T11:03:00+00:00"
+    },
+    {
+      "title_he": "המדרכה הכשרה בטבריה: הפתרון של העירייה למניעת \"מראות לא צנועים\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860219",
+      "tag": "כללי",
+      "published_at": "2026-08-12T10:52:00+00:00"
+    },
+    {
+      "title_he": "אותר החלל שלמה חיימסון לאחר כמעט 78 שנים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860211",
+      "tag": "כללי",
+      "published_at": "2026-08-12T10:42:00+00:00"
+    },
+    {
+      "title_he": "הולכת רגל כבת 65 נהרגה מפגיעת רכב בחדרה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860204",
+      "tag": "כללי",
+      "published_at": "2026-08-12T09:48:00+00:00"
+    },
     {
       "title_he": "חשד לרצח: גבר כבן 60 נורה למוות בשפרעם",
       "summary_he": "",
@@ -1067,38 +1097,6 @@
       "link": "https://news.walla.co.il/item/3860100",
       "tag": "כללי",
       "published_at": "2026-08-11T20:25:00+00:00"
-    },
-    {
-      "title_he": "בן 22 נעצר בלב בת ים עם רימון הלם ביד - רגע לפני אירוע פלילי",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860070",
-      "tag": "כללי",
-      "published_at": "2026-08-11T18:35:00+00:00"
-    },
-    {
-      "title_he": "רחפן חדר למרחב נתב\"ג - וגרם לעצירות הטיסות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860069",
-      "tag": "כללי",
-      "published_at": "2026-08-11T18:19:00+00:00"
-    },
-    {
-      "title_he": "קנס של 320 ש\"ח בשל \"עץ טעינה\": עיריית טבריה נלחמת בעמדות פיראטיות בעיר",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860060",
-      "tag": "כללי",
-      "published_at": "2026-08-11T18:00:00+00:00"
-    },
-    {
-      "title_he": "\"לקחו לך את החיים באכזריות\": אלדר דיין מובא למנוחות",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860063",
-      "tag": "כללי",
-      "published_at": "2026-08-11T17:57:00+00:00"
     }
   ],
   "track_record": {
