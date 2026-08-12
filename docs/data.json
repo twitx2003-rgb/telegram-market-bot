@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T22:39:26.785764+00:00",
+  "generated_at": "2026-08-12T23:40:06.319787+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-12T22:39:26.785775+00:00",
+  "ta_generated_at": "2026-08-12T23:40:06.319799+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,458.0",
-      "change": "-0.21%",
+      "value": "$4,467.3",
+      "change": "-0.00%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.21264689423615
+      "pct_raw": -0.004476776720756981
     },
     {
       "name": "נפט ברנט",
       "value": "$88.6",
-      "change": "-0.45%",
+      "change": "-0.47%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.4495392222971518
+      "pct_raw": -0.47201618341200463
     },
     {
       "name": "ביטקוין",
-      "value": "$63,313",
-      "change": "-0.37%",
+      "value": "$63,399",
+      "change": "-0.23%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.3679746125732633
+      "pct_raw": -0.2333027371043658
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.982",
-      "change": "-0.67%",
+      "value": "2.975",
+      "change": "-0.23%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.6661559471072184
+      "pct_raw": -0.23471817053952043
     }
   ],
   "sectors": [
@@ -856,6 +856,30 @@
   },
   "us_news": [
     {
+      "title_he": "$AAPL EYES 9-FIGURE SIRI עסקאות תוכן אפל מנהלת מגעים עם מפרסמים על הסכמי רישוי רב-שנתיים כדי להביא חדשות ומידע עדכניים לתוך המשודרג שלה...",
+      "summary_he": "",
+      "body_en": "$AAPL EYES 9-FIGURE SIRI CONTENT DEALS Apple is in talks with publishers on multiyear licensing agreements to bring current news and information into its upgraded AI-powered Siri. The company has disc",
+      "ticker": "$AAPL",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087683356783988887#m",
+      "tag": "M&A",
+      "published_at": "2026-08-12T23:31:14+00:00",
+      "relative_time": "לפני 8ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "R ל-@unusual_whales: וורן מבקשת מהחברות לחשוף כמה הן שילמו בתעריפי IEEPA לא חוקתיים, את סכומי ההחזרים שהם קיבלו...",
+      "summary_he": "",
+      "body_en": "R to @unusual_whales: Warren is asking the companies to disclose how much they have paid in unconstitutional IEEPA tariffs, the amounts of any refunds they have received or expect to receive, and how ",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2087683298218717626#m",
+      "tag": "TECH",
+      "published_at": "2026-08-12T23:31:00+00:00",
+      "relative_time": "לפני 8ד׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מניית לומנטום עולה, מה שנותן דחיפה נוספת לסחר ברשתות האופטיות",
       "summary_he": "",
       "body_en": "Lumentum’s stock surges, giving a further boost to the optical-networking trade",
@@ -889,7 +913,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "Cleveland Fed President Hammack and Richmond Fed President Barkin speak tomorrow morning, followed by Natural Gas Inventories at 10:30 AM ET. SanDisk $SNDK will also…",
+      "title_he": "נשיא הפד של קליבלנד האמאק ונשיא הפד של ריצ'מונד ברקין מדברים מחר בבוקר, ואחריהם מלאי גז טבעי בשעה 10:30 ET. SanDisk $SNDK יגיע גם...",
       "summary_he": "",
       "body_en": "Cleveland Fed President Hammack and Richmond Fed President Barkin speak tomorrow morning, followed by Natural Gas Inventories at 10:30 AM ET. SanDisk $SNDK will also hold its investor day.",
       "ticker": "$SNDK",
@@ -897,7 +921,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2087654231696183709#m",
       "tag": "FED",
       "published_at": "2026-08-12T21:35:30+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -909,18 +933,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2087652849542980073#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T21:30:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית סיסקו יורדת למרות הרווחים, ההכנסות היכו",
-      "summary_he": "",
-      "body_en": "Cisco's stock drops despite earnings, revenue beat",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/12/ciscos-stock-drops-despite-earnings-revenue-beat.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T20:51:07+00:00",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -932,35 +945,11 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087642109260251305#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:47:20+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "R ל-@StockSavvyShay: מייקל בורי אמר גם ש-$NBIS הוא \"איך נראה החלק העליון של בום\" כשהוא מתערב על התרסקות AI...",
-      "summary_he": "",
-      "body_en": "R to @StockSavvyShay: Michael Burry also said $NBIS is “what the top of a boom looks like” as he bets an AI crash is coming...",
-      "ticker": "$NBIS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087640382469513722#m",
-      "tag": "TECH",
-      "published_at": "2026-08-12T20:40:28+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "מייקל בורי רק הכפיל את הירידה בחסר שלו ב-NBIS בדולר גם לאחר שהמניה זינקה ב-34% בדו\"ח רווחים חזק. זה היה היום הטוב ביותר של נביוס מאז ספטמבר 2025.",
-      "summary_he": "",
-      "body_en": "Michael Burry just doubled down on his $NBIS short even after the stock surged 34% on a strong earnings report. It was Nebius best day since September 2025.",
-      "ticker": "$NBIS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087639552051855630#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T20:37:10+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "COHERENT $COHR Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $2.1B (Est. $1.99B) 🟢; +34% YoY 🔹 Adj. EPS: $1.74 (Est. $1.61) 🟢 🔹 Gross Margin: 40.2%; +215 bps YoY 🔹 Oper Income:…",
+      "title_he": "נקודות רווח קוהרנטיות של $COHR Q4'26 🔹 הכנסות: $2.1B (הערכה. $1.99B) 🟢; +34% YoY 🔹 התאמה EPS: $1.74 (הערכה. $1.61) 🔹 שולי רווח גולמי: 40.2%; +215 bps YoY 🔹 הכנסה תפעולית:...",
       "summary_he": "",
       "body_en": "COHERENT $COHR Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $2.1B (Est. $1.99B) 🟢; +34% YoY 🔹 Adj. EPS: $1.74 (Est. $1.61) 🟢 🔹 Gross Margin: 40.2%; +215 bps YoY 🔹 Oper Income: $446M (Est. $427M) 🟢; +62.1% YoY",
       "ticker": "$COHR",
@@ -968,7 +957,7 @@
       "link": "https://nitter.net/wallstengine/status/2087635500358398070#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:21:04+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -980,7 +969,7 @@
       "link": "https://nitter.net/wallstengine/status/2087634816271630339#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:18:21+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -992,7 +981,7 @@
       "link": "https://nitter.net/wallstengine/status/2087634664815243272#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:17:45+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1004,19 +993,29 @@
       "link": "https://nitter.net/wallstengine/status/2087633804945199167#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:14:20+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "שירי רווחים של CISCO $CSCO Q4'26 🔹 הכנסות: $17.3B (הערכה. $16.82B) 🟢; +18% YoY 🔹 Non-GAAP EPS: $1.22 (הערכה. $1.17) 🟢; +23% YoY 🔹 התאמה מרווח פעולה: 35.9% 🔹 התאמה מבצע…",
+      "title_he": "\"אף אחד לא רוצה את זה\": מחירי החסה רואים צניחת שיא בזמן שציקלוספורה מפחידה את הצרכנים",
       "summary_he": "",
-      "body_en": "CISCO $CSCO Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $17.3B (Est. $16.82B) 🟢; +18% YoY 🔹 Non-GAAP EPS: $1.22 (Est. $1.17) 🟢; +23% YoY 🔹 Adj. Oper Margin: 35.9% 🔹 Adj. Oper Income: $6.2B (Est. $5.85B) 🟢 Ra",
-      "ticker": "$CSCO",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087632669987504197#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T20:09:49+00:00",
-      "relative_time": "לפני 2ש׳",
+      "body_en": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-12T19:50:29+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הגירעון התקציבי של ארה\"ב זינק ביולי לרמה הגבוהה ביותר מאז מרץ 2021",
+      "summary_he": "",
+      "body_en": "U.S. budget deficit surged in July to highest level since March 2021",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-12T18:56:15+00:00",
       "sentiment": "bullish"
     }
   ],
