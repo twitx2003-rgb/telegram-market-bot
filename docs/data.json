@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T20:42:42.711692+00:00",
+  "generated_at": "2026-08-12T21:43:17.374747+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -274,7 +274,7 @@
         "sma50": 336.89,
         "sma200": 314.24,
         "pct_from_52w_high": -0.2,
-        "vol_ratio": 0.64,
+        "vol_ratio": 0.66,
         "change_1d_pct": 0.87,
         "change_1w_pct": 1.7,
         "change_1m_pct": 6.5,
@@ -376,7 +376,7 @@
         "sma50": 309.48,
         "sma200": 280.09,
         "pct_from_52w_high": -12.3,
-        "vol_ratio": 1.06,
+        "vol_ratio": 1.07,
         "change_1d_pct": -0.87,
         "change_1w_pct": -2.8,
         "change_1m_pct": -4.0,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-12T20:42:42.711703+00:00",
+  "ta_generated_at": "2026-08-12T21:43:17.374757+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,467.5",
-      "change": "+0.59%",
+      "value": "$4,469.0",
+      "change": "+0.63%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.594447321609503
+      "pct_raw": 0.6282227376100433
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.5",
-      "change": "-0.40%",
+      "value": "$88.4",
+      "change": "-0.61%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.40490383533910634
+      "pct_raw": -0.6073557530086515
     },
     {
       "name": "ביטקוין",
-      "value": "$63,502",
-      "change": "-0.07%",
+      "value": "$63,472",
+      "change": "-0.12%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.07082469150769159
+      "pct_raw": -0.11867900014299843
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.984",
-      "change": "-0.62%",
+      "value": "2.982",
+      "change": "-0.67%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.6195250308097182
+      "pct_raw": -0.6661559471072184
     }
   ],
   "sectors": [
@@ -856,6 +856,18 @@
   },
   "us_news": [
     {
+      "title_he": "לוח הרווחים של יום חמישי כולל JD․com $JD, Tapestry $TPR, Birkenstock $BIRK ו-YETI $YETI לפני הפתיחה. Applied Materials $AMAT מוביל את הדוחות לאחר...",
+      "summary_he": "",
+      "body_en": "Thursday’s earnings calendar includes JD․com $JD, Tapestry $TPR, Birkenstock $BIRK, and YETI $YETI before the open. Applied Materials $AMAT headlines the reports after the close, along with dLocal $DL",
+      "ticker": "$JD",
+      "source": "@bespokeinvest",
+      "link": "https://nitter.net/bespokeinvest/status/2087652849542980073#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T21:30:00+00:00",
+      "relative_time": "לפני 13ד׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מניית Cerebras צונחת ב-14% לאחר דוח רווח שני לאחר ההנפקה",
       "summary_he": "",
       "body_en": "Cerebras stock plunges 14% after second earnings report following IPO",
@@ -863,8 +875,88 @@
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-12T20:28:48+00:00",
+      "published_at": "2026-08-12T21:18:40+00:00",
       "sentiment": "bearish"
+    },
+    {
+      "title_he": "Nvidia, Intel, Google: וול סטריט חוגגת כמו ב-1999",
+      "summary_he": "",
+      "body_en": "Nvidia, Intel, Google: Wall Street is partying like it’s 1999",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/nvidia-intel-google-wall-street-is-partying-like-its-1999-8520c1e3?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-08-12T21:03:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אמריקאים עשירים מחזקים את כלכלת הנסיעות מכיוון שמחירי הטיסה עולים ב-25% מהשנה שעברה",
+      "summary_he": "",
+      "body_en": "Rich Americans are propping up the travel economy as airfares soar 25% higher than last year",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/rich-americans-are-propping-up-the-travel-economy-as-airfares-soar-25-higher-than-last-year-c76067a5?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-12T20:59:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "המשקיעים רודפים אחרי הראלי האחרון בזהב, כאשר המתכת הצהובה מגיעה לרמה החזקה ביותר מזה חודשיים",
+      "summary_he": "",
+      "body_en": "Investors are chasing the latest rally in gold as the yellow metal hits strongest level in 2 months",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/investors-are-chasing-the-latest-rally-in-gold-as-the-yellow-metal-hits-strongest-level-in-2-months-dd0d5b18?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-08-12T20:58:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מניית סיסקו יורדת למרות הרווחים, ההכנסות היכו",
+      "summary_he": "",
+      "body_en": "Cisco's stock drops despite earnings, revenue beat",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/12/ciscos-stock-drops-despite-earnings-revenue-beat.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T20:51:07+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$CBRS רווחים ברבעון השני • הכנסות של $210 מיליון לעומת משוער 194 מיליון דולר • הכנסה תפעולית (34 מיליון דולר) לעומת משוער (62 מיליון דולר) • מרווח גולמי 41% לעומת משוער. 37% • RPO $25.4B הנחיות לרבעון 3 • הכנסה $215M לעומת…",
+      "summary_he": "",
+      "body_en": "$CBRS Q2 EARNINGS • Revenue $210M vs Est. $194M • Operating Income ($34M) vs. Est. ($62M) • Gross Margin 41% vs. Est. 37% • RPO $25.4B Q3 Guidance • Revenue $215M vs Est. $212M • Gross Margin 39% vs. ",
+      "ticker": "$CBRS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087642109260251305#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T20:47:20+00:00",
+      "relative_time": "לפני 55ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "R ל-@StockSavvyShay: מייקל בורי אמר גם ש-$NBIS הוא \"איך נראה החלק העליון של בום\" כשהוא מתערב על התרסקות AI...",
+      "summary_he": "",
+      "body_en": "R to @StockSavvyShay: Michael Burry also said $NBIS is “what the top of a boom looks like” as he bets an AI crash is coming...",
+      "ticker": "$NBIS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087640382469513722#m",
+      "tag": "TECH",
+      "published_at": "2026-08-12T20:40:28+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "מייקל בורי רק הכפיל את הירידה בחסר שלו ב-NBIS בדולר גם לאחר שהמניה זינקה ב-34% בדו\"ח רווחים חזק. זה היה היום הטוב ביותר של נביוס מאז ספטמבר 2025.",
+      "summary_he": "",
+      "body_en": "Michael Burry just doubled down on his $NBIS short even after the stock surged 34% on a strong earnings report. It was Nebius best day since September 2025.",
+      "ticker": "$NBIS",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087639552051855630#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T20:37:10+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "$COHR רווחים ברבעון 4 • הכנסות $2.10B לעומת משוער. $1.98B • EPS $1.74 לעומת משוער $1.62 • הכנסה תפעולית $446 מיליון לעומת משוער 427 מיליון דולר • מרווח גולמי 40% לעומת משוער. 40% הנחיה לרבעון הראשון • הכנסות...",
@@ -875,19 +967,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087636363202249135#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:24:30+00:00",
-      "relative_time": "לפני 17ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$CBRS רווחים לרבעון השני • הכנסות של $180 מיליון לעומת משוער $194M • EPS ($2.98) לעומת משוער ($1.67) • מרווח גולמי 14% לעומת משוער. 26% • RPO $25.4B הנחיות לרבעון השלישי • הכנסה של $215M לעומת משוער 212 מיליון דולר ל-26…",
-      "summary_he": "",
-      "body_en": "$CBRS Q2 EARNINGS • Revenue $180M vs Est. $194M • EPS ($2.98) vs Est. ($1.67) • Gross Margin 14% vs. Est. 26% • RPO $25.4B Q3 Guidance • Revenue $215M vs Est. $212M FY26 Guidance • Revenue $885M vs Es",
-      "ticker": "$CBRS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087635549054181589#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T20:21:15+00:00",
-      "relative_time": "לפני 20ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,7 +979,7 @@
       "link": "https://nitter.net/wallstengine/status/2087635500358398070#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:21:04+00:00",
-      "relative_time": "לפני 21ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +991,7 @@
       "link": "https://nitter.net/wallstengine/status/2087634816271630339#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:18:21+00:00",
-      "relative_time": "לפני 23ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +1003,7 @@
       "link": "https://nitter.net/wallstengine/status/2087634664815243272#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:17:45+00:00",
-      "relative_time": "לפני 24ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -935,88 +1015,8 @@
       "link": "https://nitter.net/wallstengine/status/2087633804945199167#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:14:20+00:00",
-      "relative_time": "לפני 27ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "שירי רווחים של CISCO $CSCO Q4'26 🔹 הכנסות: $17.3B (הערכה. $16.82B) 🟢; +18% YoY 🔹 Non-GAAP EPS: $1.22 (הערכה. $1.17) 🟢; +23% YoY 🔹 התאמה מרווח פעולה: 35.9% 🔹 התאמה מבצע…",
-      "summary_he": "",
-      "body_en": "CISCO $CSCO Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $17.3B (Est. $16.82B) 🟢; +18% YoY 🔹 Non-GAAP EPS: $1.22 (Est. $1.17) 🟢; +23% YoY 🔹 Adj. Oper Margin: 35.9% 🔹 Adj. Oper Income: $6.2B (Est. $5.85B) 🟢 Ra",
-      "ticker": "$CSCO",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087632669987504197#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T20:09:49+00:00",
-      "relative_time": "לפני 32ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "CoreWeave עולה ב-19%, נביוס עולה ב-34% בראלי שלאחר הרווחים ב-neocloud",
-      "summary_he": "",
-      "body_en": "CoreWeave gains 19%, Nebius surges 34% in post-earnings neocloud rally",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T20:00:52+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "\"אף אחד לא רוצה את זה\": מחירי החסה רואים צניחת שיא בזמן שציקלוספורה מפחידה את הצרכנים",
-      "summary_he": "",
-      "body_en": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-12T19:50:29+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "R ל-@FuturumEquities: כאן תוכלו למצוא את פירוט הרווחים המלא שלי ב-$NBIS: https://youtu.be/45Ux4-oQ1Ic?si=0R7MF7d9_K-CNcnj",
-      "summary_he": "",
-      "body_en": "R to @FuturumEquities: Here’s where you can find my full $NBIS earnings breakdown: https://youtu.be/45Ux4-oQ1Ic?si=0R7MF7d9_K-CNcnj",
-      "ticker": "$NBIS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087623381302788578#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T19:32:54+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אחד ההתפתחויות האהובות עלי מרווחי $NBIS היה מכירת הקיבולת הראשונה שלה מכיוון שהיא נתנה לנו גילוי מחיר אמיתי במקום להסתמך על פרשנות ההנהלה...",
-      "summary_he": "",
-      "body_en": "One of my favorite developments from $NBIS earnings was its first capacity auction because it gave us real price discovery instead of relying on management commentary around scarcity. The auction clea",
-      "ticker": "$NBIS",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087623230437851626#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T19:32:18+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הגירעון התקציבי של ארה\"ב זינק ביולי לרמה הגבוהה ביותר מאז מרץ 2021",
-      "summary_he": "",
-      "body_en": "U.S. budget deficit surged in July to highest level since March 2021",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-12T18:56:15+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מניית אלפבית יורדת כאשר עסקת המימון של Nvidia בסך 500 מיליארד דולר מאיימת על צ'יפים מותאמים אישית",
-      "summary_he": "",
-      "body_en": "Alphabet’s stock slips as Nvidia’s $500 billion financing deal threatens custom chips",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/alphabets-stock-slips-as-nvidias-500-billion-financing-deal-threatens-custom-chips-c4166a59?mod=mw_rss_topstories",
-      "tag": "M&A",
-      "published_at": "2026-08-12T18:19:00+00:00",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
