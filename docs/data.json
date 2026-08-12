@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T10:03:16.787018+00:00",
+  "generated_at": "2026-08-12T11:21:45.581788+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -267,37 +267,37 @@
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $36.48 נמצא 1.4% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +6.0%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (66.7). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
+      "rationale_he": "המחיר $36.48 נמצא 1.4% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +6.0%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (67.1). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
-        "rsi14": 66.7,
-        "sma20": 33.23,
-        "sma50": 33.4,
-        "sma200": 31.27,
+        "rsi14": 67.1,
+        "sma20": 33.17,
+        "sma50": 33.49,
+        "sma200": 31.13,
         "pct_from_52w_high": -2.3,
         "vol_ratio": 1.2,
         "change_1d_pct": 0.94,
         "change_1w_pct": 6.0,
-        "change_1m_pct": 13.4,
+        "change_1m_pct": 10.2,
         "spark_3m": [
-          35.81,
-          34.29,
-          34.32,
-          34.61,
-          35.32,
-          32.83,
-          33.26,
+          35.73,
+          36.25,
+          34.03,
+          34.16,
           34.56,
-          32.91,
-          32.2,
-          33.62,
-          33.88,
-          35.29,
-          33.1,
-          31.82,
-          32.03,
-          30.15,
-          31.08,
-          35.41,
+          34.64,
+          34.43,
+          34.45,
+          34.63,
+          32.56,
+          33.21,
+          33.21,
+          33.44,
+          34.65,
+          32.95,
+          31.56,
+          31.0,
+          30.81,
+          34.71,
           34.43,
           35.36
         ]
@@ -369,39 +369,39 @@
       },
       "recommendation": "קנייה",
       "confidence": 3,
-      "rationale_he": "המחיר $599.12 נמצא 1.1% מתחת להתנגדות ב-$605.81 עם מומנטום שבועי של +0.8%. SMA20 מעל SMA50 · RSI בריא (48.6) · מומנטום שבועי +0.8%. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
+      "rationale_he": "המחיר $599.12 נמצא 1.1% מתחת להתנגדות ב-$605.81 עם מומנטום שבועי של +1.9%. SMA20 מעל SMA50 · RSI בריא (49.9) · מומנטום שבועי +1.9%. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
-        "rsi14": 48.6,
-        "sma20": 609.18,
-        "sma50": 598.95,
-        "sma200": 630.6,
+        "rsi14": 49.9,
+        "sma20": 606.08,
+        "sma50": 598.28,
+        "sma200": 629.93,
         "pct_from_52w_high": -24.8,
-        "vol_ratio": 1.09,
-        "change_1d_pct": 0.48,
-        "change_1w_pct": 0.8,
-        "change_1m_pct": -11.1,
+        "vol_ratio": 1.1,
+        "change_1d_pct": 0.71,
+        "change_1w_pct": 1.9,
+        "change_1m_pct": -8.8,
         "spark_3m": [
-          598.86,
-          618.43,
-          602.61,
-          610.26,
-          635.29,
-          597.63,
-          593.0,
-          570.98,
-          593.48,
-          577.22,
-          557.67,
-          562.6,
-          582.9,
-          603.12,
-          656.73,
-          664.54,
-          643.81,
-          595.19,
-          585.61,
-          590.24,
-          589.9
+          603.0,
+          614.23,
+          605.06,
+          612.34,
+          632.51,
+          622.98,
+          585.39,
+          568.43,
+          600.21,
+          563.85,
+          542.87,
+          563.29,
+          600.29,
+          631.48,
+          661.04,
+          646.01,
+          627.17,
+          593.87,
+          539.03,
+          587.94,
+          592.1
         ]
       },
       "analyzed": true,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-12T10:03:16.787026+00:00",
+  "ta_generated_at": "2026-08-12T11:21:45.581797+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "15.40",
-      "change": "+0.79%",
+      "value": "15.38",
+      "change": "+0.65%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.7853403141361323
+      "pct_raw": 0.6544502617801141
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,471.2",
-      "change": "+0.68%",
+      "value": "$4,470.0",
+      "change": "+0.65%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.6777600144108318
+      "pct_raw": 0.6507396816104036
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.6",
-      "change": "-0.30%",
-      "direction": "down",
+      "value": "$89.1",
+      "change": "+0.18%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.30367787650432576
+      "pct_raw": 0.1799572601507104
     },
     {
       "name": "ביטקוין",
-      "value": "$64,134",
-      "change": "+0.92%",
+      "value": "$64,091",
+      "change": "+0.86%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.9236668385235955
+      "pct_raw": 0.8556542367735864
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -748,15 +748,15 @@
       "change": "+0.51%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.5142976675074075
+      "pct_raw": 0.5066036397560181
     },
     {
       "name": "דולר/שקל",
-      "value": "2.991",
-      "change": "-0.37%",
+      "value": "2.990",
+      "change": "-0.42%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.36971655064450215
+      "pct_raw": -0.4163474669420171
     }
   ],
   "sectors": [
@@ -856,14 +856,108 @@
   },
   "us_news": [
     {
-      "title_he": "Coreweave עלתה ב-18% ב-premarket לאחר 'רבעון נקי יותר'. הנה מה שקורה",
+      "title_he": "מניות מנהל הנכסים מזנקות מאז סוף יוני... עוד מידע ממני על זה ב-@stockcharts. h/t @soberlook https://thedailyshot.com/subscribe/",
       "summary_he": "",
-      "body_en": "Coreweave surges 18% in premarket after a 'cleaner quarter'. Here's what's happening",
+      "body_en": "Asset manager stocks soaring since late June... more tk from me on this at @stockcharts. h/t @soberlook https://thedailyshot.com/subscribe/",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2087497073079779577#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-12T11:11:00+00:00",
+      "relative_time": "לפני 10ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "נקודות השיא ברווחים של SIMILARWEB $SMWB Q2'26 🔹 הכנסות: $77.2M (אומדן $75.5M) 🟢; +9% YoY 🔹 התאמה EPS: $0.06 (הערכה. $0.03) 🟢; +500% YoY 🔹 רווח תפעולי GAAP: $0.7M 🔹…",
+      "summary_he": "",
+      "body_en": "SIMILARWEB $SMWB Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $77.2M (Est. $75.5M) 🟢; +9% YoY 🔹 Adj. EPS: $0.06 (Est. $0.03) 🟢; +500% YoY 🔹 GAAP Operating Profit: $0.7M 🔹 Non-GAAP Operating Profit: $6.5M; +17",
+      "ticker": "$SMWB",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087496733316280806#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T11:09:39+00:00",
+      "relative_time": "לפני 11ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "TRIMBLE $TRMB Q2'26 שירי רווחים 🔹 הכנסות: $972.0M (הערכה. $952M) 🟢; +11% YoY 🔹 התאמה EPS: $0.86 (אומדן $0.80) 🟢 🔹 ARR: $2.5B; +14% YoY 🔹 התאמה EBITDA: 278.0 מיליון דולר (הערכה...",
+      "summary_he": "",
+      "body_en": "TRIMBLE $TRMB Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $972.0M (Est. $952M) 🟢; +11% YoY 🔹 Adj. EPS: $0.86 (Est. $0.80) 🟢 🔹 ARR: $2.5B; +14% YoY 🔹 Adj. EBITDA: $278.0M (Est. $262M) 🟢 FY26 Guide: 🔹 Revenue:",
+      "ticker": "$TRMB",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087493475852075369#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T10:56:43+00:00",
+      "relative_time": "לפני 24ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "החוזים העתידיים על דאו ג'ונס עולים עם האינפלציה במדד המחירים לצרכן; מניות בינה מלאכותית מתעצמות כש-3 שותפי Nvidia מובילים את מניחי הרווחים",
+      "summary_he": "",
+      "body_en": "Dow Jones Futures Rise With CPI Inflation Due; AI Stocks Rally As 3 Nvidia Partners Lead Earnings Movers",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-cpi-inflation-nvidia-partners-super-micro-earnings/?src=A00220&yptr=yahoo",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T10:54:29+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "נתוני אינפלציית מדד המחירים לצרכן עשויים להשהות את העלאות הריבית של הפד (סיקור חי)",
+      "summary_he": "",
+      "body_en": "CPI Inflation Data May Keep Fed Rate Hikes On Hold (Live Coverage)",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://www.investors.com/news/cpi-inflation-july-federal-reserve-rate-hike-apple-sp-500/?src=A00220&yptr=yahoo",
+      "tag": "FED",
+      "published_at": "2026-08-12T10:53:07+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "חוזים עתידיים על נפט גולמי ברנט, חוזים עתידיים על נפט גולמי WTI מוחקים הפסדים לאחר שרויטרס ציטטה מקור איראני שאומר שאין דיונים על הפסקת אש",
+      "summary_he": "",
+      "body_en": "BRENT CRUDE OIL FUTURES, WTI CRUDE OIL FUTURES ERASE LOSSES AFTER REUTERS CITES IRANIAN SOURCE SAYING NO DISCUSSIONS ON CEASEFIRE",
+      "ticker": "",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2087492485677224034#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-12T10:52:46+00:00",
+      "relative_time": "לפני 28ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "$TE ריסק את הרווחים שלהם ברבעון השני • הכנסות: 250 מיליון דולר לעומת משוער. $199M • EPS: ($0.16) לעומת משוער ($0.10) • EBITDA: $11 מיליון לעומת משוער. (10 מיליון דולר) • ייצור G1_Dallas: 935 MW • מזומן: 156 מיליון דולר…",
+      "summary_he": "",
+      "body_en": "$TE CRUSHED THEIR Q2 EARNINGS • Revenue: $250M vs. Est. $199M • EPS: ($0.16) vs. Est. ($0.10) • EBITDA: $11M vs. Est. ($10M) • G1_Dallas Production: 935 MW • Cash: $156M FY26 Guidance • G1_Dallas Prod",
+      "ticker": "$TE",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087490428195025380#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T10:44:36+00:00",
+      "relative_time": "לפני 36ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NVDA דוחפת מרכזי נתונים בינה מלאכותית לכיוון מתח 800V DC כדי לצמצם הפסדים ולתמוך במערכות GPU צפופות יותר מהדור הבא. עם 80+ חברות שכבר בונות סביב...",
+      "summary_he": "",
+      "body_en": "$NVDA is pushing AI data centers toward 800V DC power to cut losses and support denser next generation GPU systems. With 80+ companies already building around the standard Nvidia says it “unlocks the ",
+      "ticker": "$NVDA",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087487995574423782#m",
+      "tag": "TECH",
+      "published_at": "2026-08-12T10:34:56+00:00",
+      "relative_time": "לפני 46ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "CoreWeave עולה ב-18% ב-premarket לאחר \"רבעון נקי יותר\". הנה מה שקורה",
+      "summary_he": "",
+      "body_en": "CoreWeave surges 18% in premarket after a 'cleaner quarter'. Here's what's happening",
       "ticker": "",
       "source": "CNBC Markets",
       "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
       "tag": "NEWS",
-      "published_at": "2026-08-12T10:01:52+00:00",
+      "published_at": "2026-08-12T10:29:58+00:00",
       "sentiment": "bullish"
     },
     {
@@ -875,68 +969,19 @@
       "link": "https://nitter.net/garyblack00/status/2087475967828623410#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T09:47:08+00:00",
-      "relative_time": "לפני 15ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "🇳🇴קרן העושר של נורבגיה מנפצת שיא רווחים קרן העושר הריבונית של נורבגיה בשווי 2.3 טריליון דולר רשמה רווח שיא של 184.3 מיליארד דולר במחצית הראשונה, מונעת בעיקר על ידי אסיה...",
-      "summary_he": "",
-      "body_en": "🇳🇴NORWAY’S WEALTH FUND SMASHES PROFIT RECORD Norway’s $2.3 trillion sovereign wealth fund posted a record $184.3 billion first-half profit, driven largely by Asian technology stocks. The world’s bigge",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2087475117206929476#m",
-      "tag": "TECH",
-      "published_at": "2026-08-12T09:43:46+00:00",
-      "relative_time": "לפני 19ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "BofA על $INTC (קנייה, PT $145): \"לאורך זמן, אנו מצפים שאינטל תטפל בפוטנציאל של ~8-10% מ-TAM של ~380 מיליארד דולר של יציקת פרוסות CY30, כמו גם ~25-30% מה-~20 מיליארד דולר 2.5D/3D...",
-      "summary_he": "",
-      "body_en": "BofA on $INTC (Buy, PT $145): \"Over time, we expect Intel to potentially address ~8-10% of the ~$380bn CY30 wafer foundry TAM, as well as ~25-30% of the ~$20bn 2.5D/3D packaging TAM, resulting in EPS ",
-      "ticker": "$INTC",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087471822669521271#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T09:30:40+00:00",
-      "relative_time": "לפני 32ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$SPY +0.2% $QQQ +0.6% $SMH +1.6% $EEM +1.2% $SLV +2.5% $GLD +0.9% שמן שטוח @finviz_com",
-      "summary_he": "",
-      "body_en": "$SPY +0.2% $QQQ +0.6% $SMH +1.6% $EEM +1.2% $SLV +2.5% $GLD +0.9% Oil flat @finviz_com",
-      "ticker": "$SPY",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2087467646547566665#m",
-      "tag": "ENERGY",
-      "published_at": "2026-08-12T09:14:04+00:00",
-      "relative_time": "לפני 48ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "בנק אוף אמריקה $BAC מתכנן לפרוס 250 מיליארד דולר עד אמצע 2027 במרכזי נתונים בינה מלאכותית, מוליכים למחצה, חומרה, ייצור חשמל, אחסון אנרגיה ומינרלים קריטיים. ה…",
-      "summary_he": "",
-      "body_en": "Bank of America $BAC plans to deploy $250B through mid-2027 across AI data centers, semiconductors, hardware, power generation, energy storage and critical minerals. The initiative will span lending, ",
-      "ticker": "$BAC",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087466436394672405#m",
-      "tag": "ENERGY",
-      "published_at": "2026-08-12T09:09:16+00:00",
-      "relative_time": "לפני 53ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שיאי רווחים של TENCENT $TCEHY Q2'26 (הערכה…",
-      "summary_he": "",
-      "body_en": "TENCENT $TCEHY Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: RMB204.79B (Est. RMB202.84B) 🟢 🔹 Operating Profit: RMB67.28B (Est. RMB67.73B) 🔴 🔹 Net Income: RMB56.02B (Est. RMB58.36B) 🔴 Other Q2 Metrics: 🔹 CapEx",
-      "ticker": "$TCEHY",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087462556965458373#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T08:53:51+00:00",
       "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שוק המניות היום: החוזים העתידיים של דאו ו-S&P 500 הושתקו לקראת נתוני המדד, נאסד\"ק עולה",
+      "summary_he": "",
+      "body_en": "Stock market today: Dow and S&P 500 futures muted ahead of CPI data, Nasdaq rises",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html",
+      "tag": "MACRO",
+      "published_at": "2026-08-12T09:15:55+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "$NBIS עלייה של כמעט 10% ונשבר מעל $210 לפני הרווחים 😳",
@@ -947,19 +992,8 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087460867684311162#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T08:47:08+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניה זה עתה זינקה בעקבות חדשות שמודעות למצב קנתה אותה. אך גורלו הנוכחי אינו ברור.",
-      "summary_he": "",
-      "body_en": "A stock just surged on news Situational Awareness had bought it. But its current fate is unclear.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/a-stock-just-surged-on-news-situational-awareness-had-bought-it-but-its-current-fate-is-unclear-00f17a97?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-12T08:22:00+00:00",
-      "sentiment": "bullish"
     },
     {
       "title_he": "הבוס החדש של גוגל בינה מלאכותית יורש מרוץ לתפוס את OpenAI ו-Anthropic",
@@ -973,54 +1007,43 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "המניה של CoreWeave מזנקת כשהרווחים מראים מומנטום AI גדול",
+      "title_he": "RT מאת @DivesTech: מניית CoreWeave צונחת ב-11% כאשר ההכנסות מוכפלות בעקבות האצת הביקוש לתשתיות בינה מלאכותית...",
       "summary_he": "",
-      "body_en": "CoreWeave’s stock soars as earnings show major AI momentum",
+      "body_en": "RT by @DivesTech: CoreWeave stock pops 11% as revenue doubles on accelerating AI infrastructure demand https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html?__source=twitter%7Cte",
       "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
+      "source": "@DivesTech",
+      "link": "https://nitter.net/CNBCtech/status/2087276610462306460#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-12T00:17:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$CRWV חותמת על חוזה A100 עד שנת 2029, המראה שמעבדי GPU של $NVDA שהושקו ב-2020 עדיין יכולים לייצר הכנסות כמעט עשור מאוחר יותר. שהרווחה ארוכה יותר משפרת את התשואות...",
-      "summary_he": "",
-      "body_en": "$CRWV signs an A100 contract through 2029 showing $NVDA GPUs launched in 2020 can still generate revenue nearly a decade later. That longer earning life improves returns on its infrastructure while hi",
-      "ticker": "$CRWV",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087310826319569051#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T22:50:56+00:00",
-      "relative_time": "לפני 11ש׳",
+      "published_at": "2026-08-11T20:34:58+00:00",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "אילון מאסק אומר שההכנסות מבינה מלאכותית עשויות לעלות על כל שאר ההכנסות של $SPCX כבר בספטמבר ו\"יחרוג באופן משמעותי\" מהן ברבעון הרביעי. הוא קורא לנצח ב-AI SpaceX של \"הכי...",
-      "summary_he": "",
-      "body_en": "Elon Musk says AI revenue could surpass all other $SPCX revenue as soon as September and “significantly exceed” it in Q4. He calls winning in AI SpaceX’s “most important” priority because “the future ",
-      "ticker": "$SPCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2087299990830067932#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T22:07:52+00:00",
-      "relative_time": "לפני 11ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ: MEDICAID לא תממן יותר ניתוחי מעבר מגדרי והורמונים לקטינים",
-      "summary_he": "",
-      "body_en": "TRUMP: MEDICAID WILL NO LONGER FUND GENDER TRANSITION SURGERIES AND HORMONES FOR MINORS",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2087288717618651597#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-11T21:23:04+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "כדי לרצות את בן זוגה: אם תיעדה את בנותיה בעירום, ופגעה מינית בשני תינוקות | אישום",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860275",
+      "tag": "כללי",
+      "published_at": "2026-08-12T13:21:00+00:00"
+    },
+    {
+      "title_he": "שפכו חומר דליק, הציתו ונמלטו: הושלמה החקירה נגד שני חשודים בהצתת סניף ג'פניקה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860267",
+      "tag": "כללי",
+      "published_at": "2026-08-12T13:08:00+00:00"
+    },
+    {
+      "title_he": "\"רימון התפוצץ כשדיירת עמדה מאחורי הדלת\": הראיות שהובילו לאישום נגד שני צעירים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860264",
+      "tag": "כללי",
+      "published_at": "2026-08-12T12:57:00+00:00"
+    },
     {
       "title_he": "\"אין משבר מנהלים, זה פייק\": שר החינוך קיש לקראת פתיחת שנת הלימודים",
       "summary_he": "",
@@ -1076,30 +1099,6 @@
       "link": "https://news.walla.co.il/item/3860147",
       "tag": "כללי",
       "published_at": "2026-08-12T02:49:00+00:00"
-    },
-    {
-      "title_he": "תיעוד מטריד בערד: חרדי השחית תמונות נשים במרחב הציבורי | צפו",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860119",
-      "tag": "כללי",
-      "published_at": "2026-08-11T23:00:00+00:00"
-    },
-    {
-      "title_he": "\"הבטיחו את נגישות ציבור הקשישים\": בג\"ץ מציב דרישה לוועדת הבחירות המרכזית",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860111",
-      "tag": "כללי",
-      "published_at": "2026-08-11T21:21:00+00:00"
-    },
-    {
-      "title_he": "השם שהפך לסמל קיבל מעמד רשמי: רחבת מוזיאון תל אביב הוכרזה כ\"כיכר החטופים\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860103",
-      "tag": "כללי",
-      "published_at": "2026-08-11T21:04:00+00:00"
     }
   ],
   "track_record": {
