@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T04:07:12.148104+00:00",
+  "generated_at": "2026-08-12T05:55:13.033020+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -369,39 +369,39 @@
       },
       "recommendation": "קנייה",
       "confidence": 3,
-      "rationale_he": "המחיר $599.12 נמצא 1.1% מתחת להתנגדות ב-$605.81 עם מומנטום שבועי של +1.9%. SMA20 מעל SMA50 · RSI בריא (49.9) · מומנטום שבועי +1.9%. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
+      "rationale_he": "המחיר $599.12 נמצא 1.1% מתחת להתנגדות ב-$605.81 עם מומנטום שבועי של +0.8%. SMA20 מעל SMA50 · RSI בריא (48.6) · מומנטום שבועי +0.8%. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
-        "rsi14": 49.9,
-        "sma20": 606.08,
-        "sma50": 598.28,
-        "sma200": 629.93,
+        "rsi14": 48.6,
+        "sma20": 609.18,
+        "sma50": 598.95,
+        "sma200": 630.6,
         "pct_from_52w_high": -24.8,
-        "vol_ratio": 1.1,
-        "change_1d_pct": 0.71,
-        "change_1w_pct": 1.9,
-        "change_1m_pct": -8.8,
+        "vol_ratio": 1.09,
+        "change_1d_pct": 0.48,
+        "change_1w_pct": 0.8,
+        "change_1m_pct": -11.1,
         "spark_3m": [
-          603.0,
-          614.23,
-          605.06,
-          612.34,
-          632.51,
-          622.98,
-          585.39,
-          568.43,
-          600.21,
-          563.85,
-          542.87,
-          563.29,
-          600.29,
-          631.48,
-          661.04,
-          646.01,
-          627.17,
-          593.87,
-          539.03,
-          587.94,
-          592.1
+          598.86,
+          618.43,
+          602.61,
+          610.26,
+          635.29,
+          597.63,
+          593.0,
+          570.98,
+          593.48,
+          577.22,
+          557.67,
+          562.6,
+          582.9,
+          603.12,
+          656.73,
+          664.54,
+          643.81,
+          595.19,
+          585.61,
+          590.24,
+          589.9
         ]
       },
       "analyzed": true,
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-12T04:07:12.148114+00:00",
+  "ta_generated_at": "2026-08-12T05:55:13.033030+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,461.1",
-      "change": "+0.45%",
+      "value": "$4,449.1",
+      "change": "+0.18%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.45033888000720546
+      "pct_raw": 0.18013555200288217
     },
     {
       "name": "נפט ברנט",
-      "value": "$90.0",
-      "change": "+1.24%",
+      "value": "$89.4",
+      "change": "+0.53%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.2372061635361697
+      "pct_raw": 0.5286244516927217
     },
     {
       "name": "ביטקוין",
-      "value": "$63,770",
-      "change": "+0.35%",
+      "value": "$63,755",
+      "change": "+0.33%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.35059536283408704
+      "pct_raw": 0.3280136683613313
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "3.004",
-      "change": "+0.05%",
+      "value": "3.003",
+      "change": "+0.04%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.05329247576857155
+      "pct_raw": 0.039969356826428666
     }
   ],
   "sectors": [
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "הבוס החדש של גוגל בינה מלאכותית יורש מרוץ לתפוס את OpenAI ו-Anthropic",
+      "summary_he": "",
+      "body_en": "Google’s new AI boss inherits a race to catch OpenAI and Anthropic",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
+      "tag": "TECH",
+      "published_at": "2026-08-12T05:00:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "המניה של CoreWeave מזנקת כשהרווחים מראים מומנטום AI גדול",
       "summary_he": "",
       "body_en": "CoreWeave’s stock soars as earnings show major AI momentum",
@@ -886,7 +897,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087330532870730024#m",
       "tag": "NEWS",
       "published_at": "2026-08-12T00:09:14+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,11 +909,11 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087330049032613986#m",
       "tag": "ENERGY",
       "published_at": "2026-08-12T00:07:19+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "קצב האינפלציה האיזון של 5 שנים לא זז עם תנועות ה-2H של הנפט",
+      "title_he": "קצב האינפלציה האיזון של 5 שנים לא זז עם ה-2H pops של שמן",
       "summary_he": "",
       "body_en": "5yr breakeven inflation rate hasn't budged with oil's 2H pops",
       "ticker": "",
@@ -910,7 +921,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087329428904771960#m",
       "tag": "ENERGY",
       "published_at": "2026-08-12T00:04:51+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -925,7 +936,7 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "$SMCI הנפיקה 4.2 מיליארד דולר בהמרה חובה ברבעון הרביעי. EPS משתמש כעת בשיטה הדו-מחלקה, ומקצה חלק מהרווח הנקי למועדף. \"זה משפיע על הרווח למניה ברבעון הראשון של שנת 27...",
+      "title_he": "$SMCI הנפיקה 4.2 מיליארד דולר ברבעון הרביעי של חובה להמרה. EPS משתמש כעת בשיטה הדו-מחלקה, ומקצה חלק מהרווח הנקי למועדף. \"זה משפיע על הרווח למניה ברבעון הראשון של שנת 27...",
       "summary_he": "",
       "body_en": "$SMCI issued $4.2B of mandatory convertible preferred in Q4. EPS now uses the two-class method, allocating part of net income to the preferred. \"This impacts Q1 FY27 EPS guidance and should be conside",
       "ticker": "$SMCI",
@@ -933,7 +944,7 @@
       "link": "https://nitter.net/wallstengine/status/2087299111850844500#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T22:04:23+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -945,7 +956,7 @@
       "link": "https://nitter.net/wallstengine/status/2087298690658812404#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T22:02:42+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -957,7 +968,7 @@
       "link": "https://nitter.net/wallstengine/status/2087296996675825928#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T21:55:58+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
     },
     {
@@ -969,7 +980,7 @@
       "link": "https://nitter.net/DeItaone/status/2087288717618651597#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T21:23:04+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bullish"
     },
     {
@@ -981,7 +992,7 @@
       "link": "https://nitter.net/cperruna/status/2087275027766878299#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T20:28:40+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -993,7 +1004,7 @@
       "link": "https://nitter.net/gurgavin/status/2087270654768820327#m",
       "tag": "TECH",
       "published_at": "2026-08-11T20:11:18+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1006,23 +1017,11 @@
       "tag": "TECH",
       "published_at": "2026-08-11T19:41:17+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "בערך אחת מכל שלוש מניות טכנולוגיה (30.3%) שדיווחו על עונת הרווחים הזו העלו הנחיות קדימה.",
-      "summary_he": "",
-      "body_en": "Roughly one in three Technology stocks (30.3%) that have reported this earnings season have raised forward guidance.",
-      "ticker": "",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2087261003692007758#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T19:32:57+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
     {
-      "title_he": "גבר בן 60 נורה למוות בשפרעם",
+      "title_he": "חשד לרצח: גבר כבן 60 נורה למוות בשפרעם",
       "summary_he": "",
       "source": "Walla News",
       "link": "https://news.walla.co.il/item/3860155",
