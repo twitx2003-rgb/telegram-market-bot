@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T05:55:13.033020+00:00",
+  "generated_at": "2026-08-12T07:23:01.494335+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-12T05:55:13.033030+00:00",
+  "ta_generated_at": "2026-08-12T07:23:01.494345+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -701,36 +701,36 @@
     {
       "name": "VIX",
       "value": "15.28",
-      "change": "-1.16%",
-      "direction": "down",
+      "change": "+0.00%",
+      "direction": "flat",
       "group": "market_us",
-      "pct_raw": -1.1642949547218724
+      "pct_raw": 0.0
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,449.1",
-      "change": "+0.18%",
+      "value": "$4,463.9",
+      "change": "+0.51%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.18013555200288217
+      "pct_raw": 0.5133863232081978
     },
     {
       "name": "נפט ברנט",
-      "value": "$89.4",
-      "change": "+0.53%",
+      "value": "$89.6",
+      "change": "+0.80%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.5286244516927217
+      "pct_raw": 0.7985603419188032
     },
     {
       "name": "ביטקוין",
-      "value": "$63,755",
-      "change": "+0.33%",
+      "value": "$63,664",
+      "change": "+0.18%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.3280136683613313
+      "pct_raw": 0.18396291490932445
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,159",
-      "change": "+0.06%",
+      "value": "4,170",
+      "change": "+0.27%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.05966429212406235
+      "pct_raw": 0.26616527252488226
     },
     {
       "name": "דולר/שקל",
-      "value": "3.003",
-      "change": "+0.04%",
-      "direction": "up",
+      "value": "3.000",
+      "change": "-0.08%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.039969356826428666
+      "pct_raw": -0.08326949338840045
     }
   ],
   "sectors": [
@@ -856,6 +856,29 @@
   },
   "us_news": [
     {
+      "title_he": "קרן העושר הריבונית הגדולה בעולם רשמה רווח של 184 מיליארד דולר כאשר היא חושפת את נתח המניות של SpaceX בפעם הראשונה",
+      "summary_he": "",
+      "body_en": "World's largest sovereign wealth fund posts record $184 billion profit as it reveals SpaceX stake for the first time",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-fund-spacex-nvidia-apple-nbim.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-12T07:01:56+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "אירועי המפתח של היום (כל EST) — 08/12/2026 07:00: בקשות למשכנתאות MBA בארה\"ב 08:00: דוח חודשי של OPEC 08:30: נתוני אינפלציה במדד המחירים לצרכן בארה\"ב 13:00: מכירה פומבית של שטרות ל-10 שנים בארה\"ב...",
+      "summary_he": "",
+      "body_en": "Today's Key Events (All EST) — 08/12/2026 07:00: US MBA Mortgage Applications 08:00: OPEC Monthly Report 08:30: US CPI Inflation data 13:00: US 10-Year Note Auction Before Open 👇 04:30: BETA Technolog",
+      "ticker": "$BETA",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087417295698378992#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-12T05:54:00+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "הבוס החדש של גוגל בינה מלאכותית יורש מרוץ לתפוס את OpenAI ו-Anthropic",
       "summary_he": "",
       "body_en": "Google’s new AI boss inherits a race to catch OpenAI and Anthropic",
@@ -897,7 +920,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087330532870730024#m",
       "tag": "NEWS",
       "published_at": "2026-08-12T00:09:14+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -909,7 +932,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087330049032613986#m",
       "tag": "ENERGY",
       "published_at": "2026-08-12T00:07:19+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -921,7 +944,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2087329428904771960#m",
       "tag": "ENERGY",
       "published_at": "2026-08-12T00:04:51+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -944,7 +967,7 @@
       "link": "https://nitter.net/wallstengine/status/2087299111850844500#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T22:04:23+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -956,7 +979,7 @@
       "link": "https://nitter.net/wallstengine/status/2087298690658812404#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T22:02:42+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -968,7 +991,7 @@
       "link": "https://nitter.net/wallstengine/status/2087296996675825928#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T21:55:58+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
@@ -980,7 +1003,7 @@
       "link": "https://nitter.net/DeItaone/status/2087288717618651597#m",
       "tag": "NEWS",
       "published_at": "2026-08-11T21:23:04+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
@@ -992,30 +1015,7 @@
       "link": "https://nitter.net/cperruna/status/2087275027766878299#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-11T20:28:40+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "סנטור ברני סנדרס קרא לחברות בינה מלאכותית להשהות את הפיתוח, ושלח מכתב למנכ\"לי OPENAI, ANTHROPIC ו- META PER NYT",
-      "summary_he": "",
-      "body_en": "SENATOR BERNIE SANDERS HAS CALLED ON AI COMPANIES TO PAUSE DEVELOPMENT, SENDING A LETTER TO THE CEOS OF OPENAI, ANTHROPIC AND META PER NYT",
-      "ticker": "",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2087270654768820327#m",
-      "tag": "TECH",
-      "published_at": "2026-08-11T20:11:18+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מנהל OpenAI הוותיק, בראד לייטקאפ, עוזב בזמן שהטלטול במעבדת הבינה המלאכותית נמשך",
-      "summary_he": "",
-      "body_en": "Longtime OpenAI executive Brad Lightcap leaves as shake-up at AI lab continues",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/11/longtime-openai-executive-brad-lightcap-leaves-as-shakeup-at-ai-lab-continues.html",
-      "tag": "TECH",
-      "published_at": "2026-08-11T19:41:17+00:00",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     }
   ],
