@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T10:35:48.907380+00:00",
+  "generated_at": "2026-08-13T11:45:15.244689+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -309,46 +309,46 @@
     {
       "ticker": "TEVA",
       "price": 36.74,
-      "setup_type": "פריצה",
+      "setup_type": "מומנטום",
       "levels": {
         "support": 33.61,
         "resistance": 36.99,
-        "entry": 37.17,
+        "entry": null,
         "stop": 32.94
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $36.74 נמצא 0.7% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +5.8%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (68.2). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
+      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($33.49) שמעל SMA50 ($33.44), RSI ב-67.8. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
       "indicators": {
-        "rsi14": 68.2,
-        "sma20": 33.4,
-        "sma50": 33.53,
-        "sma200": 31.22,
+        "rsi14": 67.8,
+        "sma20": 33.49,
+        "sma50": 33.44,
+        "sma200": 31.36,
         "pct_from_52w_high": -1.6,
-        "vol_ratio": 1.22,
+        "vol_ratio": 0.99,
         "change_1d_pct": 0.71,
         "change_1w_pct": 5.8,
-        "change_1m_pct": 11.5,
+        "change_1m_pct": 15.5,
         "spark_3m": [
-          35.84,
-          35.31,
-          34.07,
-          34.07,
-          34.52,
-          33.08,
-          34.19,
-          33.58,
-          33.69,
-          31.48,
-          34.22,
-          33.31,
+          36.25,
+          34.03,
+          34.16,
+          34.56,
           34.64,
-          33.24,
-          32.18,
-          32.22,
-          31.35,
-          31.08,
-          35.41,
+          34.43,
+          34.45,
+          34.63,
+          32.56,
+          33.21,
+          33.21,
+          33.44,
+          34.65,
+          32.95,
+          31.56,
+          31.0,
+          31.18,
+          31.67,
+          35.01,
           34.72,
           36.14
         ]
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-13T10:35:48.907390+00:00",
+  "ta_generated_at": "2026-08-13T11:45:15.244700+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "14.60",
-      "change": "+0.34%",
+      "value": "14.57",
+      "change": "+0.14%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.34364261168384147
+      "pct_raw": 0.1374570446735366
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,442.3",
-      "change": "-0.56%",
+      "value": "$4,444.8",
+      "change": "-0.51%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.5640738668158886
+      "pct_raw": -0.5081141578063753
     },
     {
       "name": "נפט ברנט",
       "value": "$87.3",
-      "change": "-1.87%",
+      "change": "-1.89%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.8655877725331658
+      "pct_raw": -1.8880647336480185
     },
     {
       "name": "ביטקוין",
-      "value": "$63,538",
-      "change": "+0.20%",
-      "direction": "up",
+      "value": "$63,378",
+      "change": "-0.05%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.20190697455101414
+      "pct_raw": -0.050938024509868035
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,202",
-      "change": "-0.08%",
-      "direction": "down",
+      "value": "4,211",
+      "change": "+0.12%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.08321465338719304
+      "pct_raw": 0.11697602704714165
     },
     {
       "name": "דולר/שקל",
-      "value": "2.981",
-      "change": "-0.06%",
+      "value": "2.980",
+      "change": "-0.07%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.057002984273883735
+      "pct_raw": -0.07376856788383991
     }
   ],
   "sectors": [
@@ -856,51 +856,134 @@
   },
   "us_news": [
     {
-      "title_he": "דגשים ברווחים של YETI Q2'26 🔹 מכירות נטו: 483.9 מיליון דולר (מוערך 484 מיליון דולר) 🟡; +9% YoY 🔹 התאמה EPS: $0.67 (הערכה. $0.55) 🟢; +2% YoY 🔹 רווח גולמי: 66.7%; +890 bps YoY, כולל 780 bps…",
+      "title_he": "$IREN סיפקה את Horizon 1 ל-$MSFT וזכתה בסטטוס של $NVDA Exemplar Cloud המאמת את 50MW הראשונים של תשתית הקשורה לחוזה של מיקרוסופט בשווי $9.7B, IREN אומרת שזה...",
       "summary_he": "",
-      "body_en": "$YETI Q2’26 EARNINGS HIGHLIGHTS 🔹 Net Sales: $483.9M (Est. $484M) 🟡; +9% YoY 🔹 Adj. EPS: $0.67 (Est. $0.55) 🟢; +2% YoY 🔹 Gross Margin: 66.7%; +890 bps YoY, incl. 780 bps net tariff benefit 🔹 Adj. Oper",
-      "ticker": "$YETI",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087842885542764927#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-13T10:05:08+00:00",
-      "relative_time": "לפני 30ד׳",
+      "body_en": "$IREN delivered Horizon 1 to $MSFT and earned $NVDA Exemplar Cloud status validating first 50MW of infrastructure tied to its $9.7B Microsoft contract IREN says it proves the company can “execute comp",
+      "ticker": "$IREN",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087867217836917208#m",
+      "tag": "TECH",
+      "published_at": "2026-08-13T11:41:50+00:00",
+      "relative_time": "לפני 2ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$JD Q2'26 שירי רווחים 🔹 הכנסות: RMB346.4B (אומדן CN¥344.62B) ; -2.9% YoY 🔹 Non-GAAP EPS/ADS: RMB6.29 (אומדן CN¥5.57) 🟢; LY RMB4.97 🔹 Non-GAAP הכנסה נטו: RMB8.9B…",
+      "title_he": "$IREN אומר שמיקרוסופט קיבלה את Horizon 1, הראשונה מבין ארבע פריסות ענן של 50MW AI במסגרת החוזה שלה ל-5 שנים, 9.7 מיליארד דולר. באתר פועלות מערכות NVIDIA GB300 NVL72...",
       "summary_he": "",
-      "body_en": "$JD Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: RMB346.4B (Est. CN¥344.62B) 🟢; -2.9% YoY 🔹 Non-GAAP EPS/ADS: RMB6.29 (Est. CN¥5.57) 🟢; LY RMB4.97 🔹 Non-GAAP Net Income: RMB8.9B (Est. CN¥7.85B) 🟢 🔹 Oper Incom",
-      "ticker": "$JD",
+      "body_en": "$IREN says Microsoft has accepted Horizon 1, the first of four 50MW AI cloud deployments under its 5-year, $9.7B contract. The site is running NVIDIA GB300 NVL72 systems and has also received NVIDIA E",
+      "ticker": "$IREN",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087842803737096599#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-13T10:04:49+00:00",
-      "relative_time": "לפני 30ד׳",
+      "link": "https://nitter.net/wallstengine/status/2087866041376629224#m",
+      "tag": "TECH",
+      "published_at": "2026-08-13T11:37:09+00:00",
+      "relative_time": "לפני 7ד׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "בירקנשטוק $BIRK העלתה את התחזית ל-FY לצמיחה של 15% בהכנסות בסמ\"ק, מה שמרמז על מכירות של עד 2.35 מיליארד אירו, עם EBITDA מותאם של לפחות 710 מיליון אירו. מכירות רבעוניות הגיעו ל-720 מיליון אירו:…",
+      "title_he": "מכונות אינטואיטיביות $LUNR Q2'26 רווחים שיאים 🔹 הכנסה: $206M (הערכה. $216M) 🔴 🔹 EPS: -$0.29 (הערכה -$0.10) 🔴 🔹 צבר: הכנסה: $1.8BY0 מנחה: $1.8BY M (הערכה…",
       "summary_he": "",
-      "body_en": "Birkenstock $BIRK raised its FY outlook to 15% cc revenue growth, implying sales of up to €2.35B, with adj EBITDA of at least €710M. Quarterly sales reached €720M: Asia-Pacific +23% EMEA +15% Americas",
-      "ticker": "$BIRK",
+      "body_en": "INTUITIVE MACHINES $LUNR Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $206M (Est. $216M) 🔴 🔹 EPS: -$0.29 (Est. -$0.10) 🔴 🔹 Backlog: $1.8B FY Guide: 🔹 Revenue: $900M-$1B (Est. $933M) 🟡 🔹 Adjusted EBITDA: Posit",
+      "ticker": "$LUNR",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087834718658285672#m",
+      "link": "https://nitter.net/wallstengine/status/2087865377158254629#m",
       "tag": "EARNINGS",
-      "published_at": "2026-08-13T09:32:41+00:00",
-      "relative_time": "לפני 1ש׳",
+      "published_at": "2026-08-13T11:34:31+00:00",
+      "relative_time": "לפני 10ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "לנובו +20%, תגובת הרווחים הטובה ביותר מאז 2009 - שיא ​​הכנסות רבעוני +43% בשנה ל-27 מיליארד דולר - הרווח הנקי המותאם שולש ל-1 מיליארד דולר - ההכנסות ממרכזי נתונים כמעט הוכפלו - קשור לבינה מלאכותית...",
+      "summary_he": "",
+      "body_en": "Lenovo +20%, best earnings reaction since 2009 - Record qtrly revenue +43% YoY to $27B - Adj net-profit tripled to $1B - Data-center revenue nearly doubled - AI-related biz reached 35% of total rev - ",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087865125697093763#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-13T11:33:31+00:00",
+      "relative_time": "לפני 11ד׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "הראלי האחרון המריץ את שוק המניות אך השאיר את שוק האשראי מודאג",
+      "title_he": "עשה את זה 4 שבועות ברציפות עכשיו עם יותר דובים משורים בסקר @AAIISentiment. השוורים ירדו גם כן, הכל כשהמניות זינקו לשיאים חדשים. מנקודה סותרת...",
       "summary_he": "",
-      "body_en": "The latest rally has energized the stock market but left the credit market concerned",
+      "body_en": "Make that 4 weeks in a row now with more bears than bulls on the @AAIISentiment survey. Bulls dropped as well, all as stocks soared to new highs. From a contrarian point of view, this is quite bullish",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2087863591722537426#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T11:27:25+00:00",
+      "relative_time": "לפני 17ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הפער בין המינים בהשתתפות בכוח העבודה בארה\"ב הצטמצם באופן דרמטי מאז 1948. השתתפותם של גברים ירדה מ-86.7% ל-67.2%, בעוד ששיעור הנשים זינק מ...",
+      "summary_he": "",
+      "body_en": "The gender gap in U.S. labor force participation has narrowed dramatically since 1948. Men's participation has fallen from 86.7% to 67.2%, while women's has surged from 32% to 57.2%, per FORTUNE.",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2087860968994828727#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T11:17:00+00:00",
+      "relative_time": "לפני 27ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מחירי הנפט יורדים כאשר המשקיעים שוקלים את הביקוש היורד אל מול המתיחות במזרח התיכון",
+      "summary_he": "",
+      "body_en": "Oil prices drop as investors weigh falling demand against Middle East tensions",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
+      "tag": "ENERGY",
+      "published_at": "2026-08-13T11:10:52+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "לפי הדיווחים, אנתרופיק מכוונת להנפקה באוקטובר לפי שווי של כ-2 טריליון דולר, מה שיהפוך אותה להנפקה הגדולה ביותר אי פעם, לפי FT.",
+      "summary_he": "",
+      "body_en": "Anthropic is reportedly targeting an October IPO at a valuation of around $2 Trillion, which would make it the largest IPO ever, per FT.",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087858306597720525#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T11:06:25+00:00",
+      "relative_time": "לפני 38ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "הרווחים של לנובו עולים על ציפיות העבר על מחשבים, שרתים ושירותים בינה מלאכותית",
+      "summary_he": "",
+      "body_en": "Lenovo profits soar past expectations on AI computers, servers and services",
       "ticker": "",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/the-latest-rally-has-energized-the-stock-market-but-left-the-credit-market-concerned-70e3d296?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T09:01:00+00:00",
+      "link": "https://www.marketwatch.com/story/lenovo-profits-soar-past-expectations-on-ai-computers-servers-and-services-162e11e6?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-08-13T11:00:00+00:00",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "🟢 שדרוגים • $ABBV: Upgraded Peerperform → Outperform מאת Wolfe Research; PT $300 • $ABT: Peerperform משודרג ← Outperform מאת Wolfe Research • $AKAM: משודרג...",
+      "summary_he": "",
+      "body_en": "🟢 UPGRADES • $ABBV: Upgraded Peerperform → Outperform by Wolfe Research; PT $300 • $ABT: Upgraded Peerperform → Outperform by Wolfe Research • $AKAM: Upgraded Underweight → Neutral by JPMorgan • $ANNX",
+      "ticker": "$ABBV",
+      "source": "@DeItaone",
+      "link": "https://nitter.net/DeItaone/status/2087855876308693164#m",
+      "tag": "BANKS",
+      "published_at": "2026-08-13T10:56:46+00:00",
+      "relative_time": "לפני 47ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$RKLB גלגל את ה-$1.9B הנותרים מהכספומט הקיים של $3B להסכם הון חדש לאחר שכבר מכרה ~1.1B$. אז זו לא יכולת דילול חדשה אלא פשוט...",
+      "summary_he": "",
+      "body_en": "$RKLB rolled the remaining ~$1.9B of its existing $3B ATM into a new equity agreement after already selling ~$1.1B. So this isn’t new dilution capacity but simply preserves the unused authorization to",
+      "ticker": "$RKLB",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2087854591039897993#m",
+      "tag": "M&A",
+      "published_at": "2026-08-13T10:51:39+00:00",
+      "relative_time": "לפני 53ד׳",
+      "sentiment": "neutral"
     },
     {
       "title_he": "המניות בארה\"ב היו מעורבות לפני השוק לאחר שנתוני אינפלציה רכים של הצרכנים ביולי תמכו בהחזקה של הפד בפגישת הפד בחודש הבא, בקיזוז על ידי ספקות עסקת איראן/הורמוז; 10 שנים…",
@@ -911,30 +994,8 @@
       "link": "https://nitter.net/garyblack00/status/2087826468894068772#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-13T08:59:54+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bearish"
-    },
-    {
-      "title_he": "מחירי הנפט יורדים כאשר המשקיעים שוקלים את הביקוש היורד אל מול המתיחות במזרח התיכון",
-      "summary_he": "",
-      "body_en": "Oil prices fall as investors weigh falling demand against Middle East tensions",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
-      "tag": "ENERGY",
-      "published_at": "2026-08-13T08:43:23+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "תשואות משרד האוצר יורדות בעוד וול סטריט מחכה לנתוני אינפלציה סיטונאיים",
-      "summary_he": "",
-      "body_en": "Treasury yields dip as Wall Street awaits wholesale inflation data",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/13/treasury-yields-wall-street-inflation-data.html",
-      "tag": "MACRO",
-      "published_at": "2026-08-13T08:40:17+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "נשיא הפד של קליבלנד האמאק ונשיא הפד של ריצ'מונד ברקין מדברים מחר בבוקר, ואחריהם מלאי גז טבעי בשעה 10:30 ET. SanDisk $SNDK יגיע גם...",
@@ -945,19 +1006,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2087654231696183709#m",
       "tag": "FED",
       "published_at": "2026-08-12T21:35:30+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "לוח הרווחים של יום חמישי כולל JD․com $JD, Tapestry $TPR, Birkenstock $BIRK ו-YETI $YETI לפני הפתיחה. Applied Materials $AMAT מוביל את הדוחות לאחר...",
-      "summary_he": "",
-      "body_en": "Thursday’s earnings calendar includes JD․com $JD, Tapestry $TPR, Birkenstock $BIRK, and YETI $YETI before the open. Applied Materials $AMAT headlines the reports after the close, along with dLocal $DL",
-      "ticker": "$JD",
-      "source": "@bespokeinvest",
-      "link": "https://nitter.net/bespokeinvest/status/2087652849542980073#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T21:30:00+00:00",
-      "relative_time": "לפני 13ש׳",
+      "relative_time": "לפני 14ש׳",
       "sentiment": "neutral"
     },
     {
@@ -969,29 +1018,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sends-blunt-message-174700491.html",
       "tag": "BANKS",
       "published_at": "2026-08-12T17:47:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אוטאווה שוקלת את ההצעה על תעריפי רכב בזמן שהיא לוחצת על ארה\"ב לדחייה - גלוב ודואר",
-      "summary_he": "",
-      "body_en": "OTTAWA WEIGHS PROPOSAL ON AUTO TARIFFS AS IT PRESSES U.S. FOR REPRIEVE - GLOBE AND MAIL",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2087590634655777157#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-12T17:22:47+00:00",
-      "relative_time": "לפני 17ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Advanced Micro Devices, Inc. (AMD) לעומת Sandisk Corporation (SNDK): מומנטום רווחי השבבים פוגש תגובת שוק מעורבת",
-      "summary_he": "",
-      "body_en": "Advanced Micro Devices, Inc. (AMD) vs. Sandisk Corporation (SNDK): Chip Earnings Momentum Meets a Mixed Market Reaction",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/technology/articles/advanced-micro-devices-inc-amd-224249942.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-11T22:42:49+00:00",
       "sentiment": "neutral"
     }
   ],
