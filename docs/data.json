@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T21:43:11.129125+00:00",
+  "generated_at": "2026-08-13T22:40:31.762110+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -258,45 +258,45 @@
     {
       "ticker": "TEVA",
       "price": 36.52,
-      "setup_type": "מומנטום",
+      "setup_type": "פריצה",
       "levels": {
         "support": 33.61,
         "resistance": 36.99,
-        "entry": null,
+        "entry": 37.17,
         "stop": 32.94
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($33.70) שמעל SMA50 ($33.51), RSI ב-65.9. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "המחיר $36.52 נמצא 1.3% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +4.9%. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
-        "rsi14": 65.9,
-        "sma20": 33.7,
-        "sma50": 33.51,
-        "sma200": 31.44,
+        "rsi14": 66.2,
+        "sma20": 33.63,
+        "sma50": 33.56,
+        "sma200": 31.31,
         "pct_from_52w_high": -2.3,
-        "vol_ratio": 0.96,
+        "vol_ratio": 1.03,
         "change_1d_pct": -0.6,
         "change_1w_pct": 4.9,
-        "change_1m_pct": 15.7,
+        "change_1m_pct": 13.5,
         "spark_3m": [
-          35.31,
-          34.07,
-          34.07,
-          34.52,
-          33.08,
-          34.19,
-          33.58,
-          33.69,
-          31.48,
-          34.22,
-          33.31,
-          34.64,
-          33.24,
-          32.18,
-          32.22,
-          31.35,
-          30.81,
-          34.71,
+          35.81,
+          34.29,
+          34.32,
+          34.61,
+          35.32,
+          32.83,
+          33.26,
+          34.56,
+          32.91,
+          32.2,
+          33.62,
+          33.88,
+          35.29,
+          33.1,
+          31.82,
+          32.03,
+          31.18,
+          31.67,
           34.46,
           34.81,
           36.48
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-13T21:43:11.129135+00:00",
+  "ta_generated_at": "2026-08-13T22:40:31.762121+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,407.1",
-      "change": "-1.35%",
+      "value": "$4,412.7",
+      "change": "-0.17%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.3519865696698294
+      "pct_raw": -0.1741923807800158
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.0",
-      "change": "-2.27%",
+      "value": "$86.9",
+      "change": "-0.16%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -2.2701730726005955
+      "pct_raw": -0.16079016882966163
     },
     {
       "name": "ביטקוין",
-      "value": "$63,383",
-      "change": "-0.04%",
-      "direction": "down",
+      "value": "$63,510",
+      "change": "+0.16%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.04305288139688608
+      "pct_raw": 0.15741899710757135
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.957",
-      "change": "-0.84%",
+      "value": "2.959",
+      "change": "-0.78%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.8382791804982702
+      "pct_raw": -0.7812761962243864
     }
   ],
   "sectors": [
@@ -856,6 +856,78 @@
   },
   "us_news": [
     {
+      "title_he": "מניית $RDDT Reddit מזנקת ב-10% לאחר שעות העבודה עם הכללה ב-S&P 500. החזקת מניות",
+      "summary_he": "",
+      "body_en": "$RDDT Reddit stock jumps 10% after hours on inclusion in S&P 500. Holding shares",
+      "ticker": "$RDDT",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2088026630203609307#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T22:15:16+00:00",
+      "relative_time": "לפני 24ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "ההכנסות השנתיות של OpenAI עלו על 40 מיליארד דולר, בערך כפול מקצב הריצה שלה בסוף 2025. ההכנסות מקצב הריצה ביולי עלו ב-20%+ MoM, מונעת על ידי Codex, מנויים ופרסומות מוקדמות...",
+      "summary_he": "",
+      "body_en": "OpenAI’s annualized revenue has topped $40B, roughly double its end-2025 run rate. July run-rate revenue rose 20%+ MoM, driven by Codex, subscriptions and early ad sales. - Bloomberg",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088024800015139055#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-13T22:08:00+00:00",
+      "relative_time": "לפני 31ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "תודה @sam_vadas ו-@SchwabNetwork שחזרתם ל-@NYSE! שיאים חדשים באוויר. 🐂 📈",
+      "summary_he": "",
+      "body_en": "Thanks @sam_vadas and @SchwabNetwork for having me back to the @NYSE! New highs are in the air. 🐂 📈",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2088023396047044691#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T22:02:25+00:00",
+      "relative_time": "לפני 37ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "Matic Robots יצאה עם Cues, מערכת קול ומחוות המאפשרת למשתמשים להצביע על בלגן ולומר לרובוט לנקות אותו. ערימת הראייה שלה בעלת 5 מצלמות ממפה בתים בתלת מימד,...",
+      "summary_he": "",
+      "body_en": "Matic Robots is out with Cues, a voice and gesture system that lets users point at a mess and tell the robot to clean it. Its 5-camera vision stack maps homes in 3D, while the assistant handles natura",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088023274454405408#m",
+      "tag": "TECH",
+      "published_at": "2026-08-13T22:01:56+00:00",
+      "relative_time": "לפני 38ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "תמיד תהנה לדבר על שיאים חדשים ושווקים 🐂 עם @jd_durkin! @FINTECHTVglobal",
+      "summary_he": "",
+      "body_en": "Always have fun talking new highs and 🐂 markets with @jd_durkin! @FINTECHTVglobal",
+      "ticker": "",
+      "source": "@RyanDetrick",
+      "link": "https://nitter.net/RyanDetrick/status/2088022873172496768#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T22:00:21+00:00",
+      "relative_time": "לפני 39ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "BREAKING: Reddit, $RDDT, מתווסף ל-S&P500",
+      "summary_he": "",
+      "body_en": "BREAKING: Reddit, $RDDT, is being added to the S&P500",
+      "ticker": "$RDDT",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2088016693947957751#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T21:35:47+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "המניה של Workday רושמת זינוק שיא. האם רכישה יכולה לעורר תחיית תוכנה?",
       "summary_he": "",
       "body_en": "Workday’s stock sees a record surge. Could a buyout spark a software revival?",
@@ -875,7 +947,7 @@
       "link": "https://nitter.net/unusual_whales/status/2088015487129026598#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:31:00+00:00",
-      "relative_time": "לפני 11ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +959,7 @@
       "link": "https://nitter.net/wallstengine/status/2088013820921061838#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:24:22+00:00",
-      "relative_time": "לפני 18ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -899,7 +971,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2088012138963231069#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:17:41+00:00",
-      "relative_time": "לפני 25ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +983,7 @@
       "link": "https://nitter.net/gurgavin/status/2088011959446712581#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:16:59+00:00",
-      "relative_time": "לפני 25ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +995,7 @@
       "link": "https://nitter.net/wallstengine/status/2088011860633334246#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:16:35+00:00",
-      "relative_time": "לפני 26ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -935,7 +1007,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2088011714734264748#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:16:00+00:00",
-      "relative_time": "לפני 26ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -947,77 +1019,7 @@
       "link": "https://nitter.net/wallstengine/status/2088010476278141281#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-13T21:11:05+00:00",
-      "relative_time": "לפני 31ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$CAPR אומר שה-BLA של Deramiocel נשאר בבדיקה פעילה של ה-FDA והוא ממשיך לראות נתיב לאישור למרות ההצבעה 3-9 AdCom. קפריקור גם סיימה את הרבעון השני עם ~238 מיליון דולר ב...",
-      "summary_he": "",
-      "body_en": "$CAPR says Deramiocel’s BLA remains under active FDA review and it continues to see a path to approval despite the 3-9 AdCom vote. Capricor also ended Q2 with ~$238M in cash and says it has enough liq",
-      "ticker": "$CAPR",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2088008805116486063#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-13T21:04:27+00:00",
-      "relative_time": "לפני 38ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מדד הבינה המלאכותית של רמפ של יולי: Anthropic היה בשימוש על ידי 43.5% מהעסקים בארה\"ב, עלייה של 1.1 נקודות ב-MoM. OpenAI: 39.7%, +0.23pp xAI: 4.0%, +0.94pp Fable 5 של Anthropic היווה רק 6%...",
-      "summary_he": "",
-      "body_en": "Ramp’s July AI Index: Anthropic was used by 43.5% of U.S. businesses, up 1.1pp MoM. OpenAI: 39.7%, +0.23pp xAI: 4.0%, +0.94pp Anthropic’s Fable 5 accounted for just 6% of tokens purchased and 11.4% of",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2088005170672398633#m",
-      "tag": "TECH",
-      "published_at": "2026-08-13T20:50:00+00:00",
-      "relative_time": "לפני 52ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "שובר: אילון מאסק הגיש בקשה ל-SEC, וחשף בעלות על 6.42 מיליארד מניות SpaceX, $SPCX, המייצגות 48.4% ממניות החברה.",
-      "summary_he": "",
-      "body_en": "BREAKING: Elon Musk has filed with the SEC, disclosing ownership of 6.42 billion SpaceX, $SPCX, shares, representing a 48.4% stake in the company.",
-      "ticker": "$SPCX",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2088003593152721305#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T20:43:44+00:00",
-      "relative_time": "לפני 59ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אילון מאסק חשף בעלות על 6.4 מיליארד דולר מניות SPCX בהגשה חדשה של SEC, מה שהעניק לו 48% ממניות SpaceX. העמדה שלו שווה ~908 מיליארד דולר במחירים נוכחיים.",
-      "summary_he": "",
-      "body_en": "Elon Musk disclosed ownership of 6.4 billion $SPCX shares in a new SEC filing, giving him a 48% stake in SpaceX. His position is worth ~$908B at current prices.",
-      "ticker": "$SPCX",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2088002280453017812#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T20:38:31+00:00",
       "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "תרשימים אלה מראים מדוע המניות ממשיכות להתרומם. שולי הרווח הם הגבוהים ביותר שנרשמו",
-      "summary_he": "",
-      "body_en": "These charts show why stocks keep rallying. Profit margins are the highest on record",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/13/these-charts-show-why-stocks-keep-rallying-profit-margins-are-highest-on-record.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T20:21:51+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "SpaceX קבעה שיא הנפקה. עכשיו יש תקווה שאנתרופיק יוכל לנפץ אותו.",
-      "summary_he": "",
-      "body_en": "SpaceX set an IPO record. Now there’s hope that Anthropic could shatter it.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/spacex-set-an-ipo-record-now-theres-hope-that-anthropic-could-shatter-it-ea44b12a?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T20:20:00+00:00",
       "sentiment": "bullish"
     }
   ],
@@ -1104,29 +1106,29 @@
     }
   ],
   "market_pulse": {
-    "total": 31,
+    "total": 33,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 23
+        "count": 9,
+        "pct": 27
       },
       "bearish": {
         "count": 5,
-        "pct": 16
+        "pct": 15
       },
       "neutral": {
         "count": 19,
-        "pct": 61
+        "pct": 58
       }
     },
     "top_tickers": [
       [
         "$RDDT",
-        3
+        5
       ],
       [
         "$SPCX",
-        3
+        2
       ],
       [
         "$TSLA",
@@ -1141,26 +1143,26 @@
         1
       ],
       [
-        "$CAPR",
-        1
-      ],
-      [
-        "$AMAT",
-        1
-      ],
-      [
         "$WDAY",
+        1
+      ],
+      [
+        "$INTC",
+        1
+      ],
+      [
+        "$GM",
         1
       ]
     ],
     "topics": [
       [
         "NEWS",
-        17
+        20
       ],
       [
         "EARNINGS",
-        7
+        5
       ],
       [
         "TECH",
@@ -1168,7 +1170,7 @@
       ],
       [
         "MACRO",
-        2
+        3
       ],
       [
         "M&A",
@@ -1181,33 +1183,21 @@
   "trade_ideas": [
     {
       "ticker": "$RDDT",
-      "mentions": 3,
-      "sources": 3,
-      "sentiment": "neutral",
+      "mentions": 5,
+      "sources": 5,
+      "sentiment": "bullish",
       "signals": [],
-      "sample": "$RDDT TO BE ADDED TO S&P 500",
-      "score": 6,
+      "sample": "$RDDT Reddit stock jumps 10% after hours on inclusion in S&P 500. Holding shares",
+      "score": 11,
       "ta": null
     },
     {
       "ticker": "$SPCX",
-      "mentions": 3,
-      "sources": 3,
+      "mentions": 2,
+      "sources": 2,
       "sentiment": "neutral",
       "signals": [],
-      "sample": "BREAKING: Elon Musk has filed with the SEC, disclosing ownership of 6.42 billion SpaceX, $SPCX, shares, representing a 48.4% stake in the company.",
-      "score": 6,
-      "ta": null
-    },
-    {
-      "ticker": "$AMAT",
-      "mentions": 1,
-      "sources": 1,
-      "sentiment": "neutral",
-      "signals": [
-        "unusual"
-      ],
-      "sample": "$AMAT earnings: - Revenue: $9.11 billion, est: $9 billion - EPS: 3.5, est: $3.39 https://unusualwhales.com/earnings",
+      "sample": "Elon Musk disclosed ownership of 6.4 billion $SPCX shares in a new SEC filing, giving him a 48% stake in SpaceX. His position is worth ~$908B at current prices.",
       "score": 4,
       "ta": null
     },
