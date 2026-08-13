@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T04:11:53.697287+00:00",
+  "generated_at": "2026-08-13T05:56:45.947621+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -309,46 +309,46 @@
     {
       "ticker": "TEVA",
       "price": 36.74,
-      "setup_type": "פריצה",
+      "setup_type": "מומנטום",
       "levels": {
         "support": 33.61,
         "resistance": 36.99,
-        "entry": 37.17,
+        "entry": null,
         "stop": 32.94
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $36.74 נמצא 0.7% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +5.8%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (68.2). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
+      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($33.49) שמעל SMA50 ($33.44), RSI ב-67.8. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
       "indicators": {
-        "rsi14": 68.2,
-        "sma20": 33.4,
-        "sma50": 33.53,
-        "sma200": 31.22,
+        "rsi14": 67.8,
+        "sma20": 33.49,
+        "sma50": 33.44,
+        "sma200": 31.36,
         "pct_from_52w_high": -1.6,
-        "vol_ratio": 1.22,
+        "vol_ratio": 0.99,
         "change_1d_pct": 0.71,
         "change_1w_pct": 5.8,
-        "change_1m_pct": 11.5,
+        "change_1m_pct": 15.5,
         "spark_3m": [
-          35.84,
-          35.31,
-          34.07,
-          34.07,
-          34.52,
-          33.08,
-          34.19,
-          33.58,
-          33.69,
-          31.48,
-          34.22,
-          33.31,
+          36.25,
+          34.03,
+          34.16,
+          34.56,
           34.64,
-          33.24,
-          32.18,
-          32.22,
-          31.35,
-          31.08,
-          35.41,
+          34.43,
+          34.45,
+          34.63,
+          32.56,
+          33.21,
+          33.21,
+          33.44,
+          34.65,
+          32.95,
+          31.56,
+          31.0,
+          31.18,
+          31.67,
+          35.01,
           34.72,
           36.14
         ]
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-13T04:11:53.697298+00:00",
+  "ta_generated_at": "2026-08-13T05:56:45.947632+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,454.7",
-      "change": "-0.29%",
+      "value": "$4,444.5",
+      "change": "-0.51%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.2865137101287114
+      "pct_raw": -0.5148293228875209
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.5",
-      "change": "-0.58%",
+      "value": "$88.9",
+      "change": "-0.11%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.5844009889863006
+      "pct_raw": -0.11238480557429593
     },
     {
       "name": "ביטקוין",
-      "value": "$63,558",
-      "change": "+0.23%",
+      "value": "$63,831",
+      "change": "+0.66%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.23280096526768346
+      "pct_raw": 0.6635032523849849
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.986",
-      "change": "+0.12%",
+      "value": "2.983",
+      "change": "+0.04%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.12071220199175293
+      "pct_raw": 0.04023740066391268
     }
   ],
   "sectors": [
@@ -875,7 +875,7 @@
       "link": "https://nitter.net/wallstengine/status/2087683356783988887#m",
       "tag": "M&A",
       "published_at": "2026-08-12T23:31:14+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -898,7 +898,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2087654231696183709#m",
       "tag": "FED",
       "published_at": "2026-08-12T21:35:30+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,7 +910,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2087652849542980073#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T21:30:00+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,7 +922,7 @@
       "link": "https://nitter.net/wallstengine/status/2087635500358398070#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:21:04+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
@@ -934,11 +934,11 @@
       "link": "https://nitter.net/wallstengine/status/2087634816271630339#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:18:21+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "דגשים ברווחים של CEREBRAS $CBRS Q2'26 🔹 הכנסות: 180.1 מיליון דולר (הערכה של 194 מיליון דולר) 🔴; +74% בשנה 🔹 הכנסות ליבה: 209.9 מיליון דולר; +103% YoY 🔹 רווח גולמי: 14% (הערכה 26.3%) 🔴 🔹 ברוטו ליבה...",
+      "title_he": "דגשים ברווחים של CEREBRAS $CBRS Q2'26 🔹 הכנסות: 180.1 מיליון דולר (הערכה של 194 מיליון דולר) 🔴; +74% משנה לשנה 🔹 הכנסות ליבה: 209.9 מיליון דולר; +103% YoY 🔹 רווח גולמי: 14% (הערכה 26.3%) 🔴 🔹 ברוטו ליבה...",
       "summary_he": "",
       "body_en": "CEREBRAS $CBRS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $180.1M (Est. $194M) 🔴; +74% YoY 🔹 Core Revenue: $209.9M; +103% YoY 🔹 Gross Margin: 14% (Est. 26.3%) 🔴 🔹 Core Gross Margin: 41%; +940 bps YoY Raises",
       "ticker": "$CBRS",
@@ -946,7 +946,7 @@
       "link": "https://nitter.net/wallstengine/status/2087634664815243272#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:17:45+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
@@ -980,7 +980,7 @@
       "link": "https://nitter.net/DeItaone/status/2087590634655777157#m",
       "tag": "NEWS",
       "published_at": "2026-08-12T17:22:47+00:00",
-      "relative_time": "לפני 10ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     },
     {
@@ -992,8 +992,19 @@
       "link": "https://nitter.net/garyblack00/status/2087475967828623410#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T09:47:08+00:00",
-      "relative_time": "לפני 18ש׳",
+      "relative_time": "לפני 20ש׳",
       "sentiment": "neutral"
+    },
+    {
+      "title_he": "וולס פארגו (WFC) מהמר על בלוקצ'יין, אבל האם העצרת יכולה להימשך?",
+      "summary_he": "",
+      "body_en": "Wells Fargo (WFC) Bets On Blockchain, But Can The Rally Continue?",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-wfc-bets-blockchain-180358121.html",
+      "tag": "CRYPTO",
+      "published_at": "2026-08-11T18:03:58+00:00",
+      "sentiment": "bullish"
     }
   ],
   "il_news": [
