@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T09:10:54.496758+00:00",
+  "generated_at": "2026-08-13T10:35:48.907380+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -309,46 +309,46 @@
     {
       "ticker": "TEVA",
       "price": 36.74,
-      "setup_type": "מומנטום",
+      "setup_type": "פריצה",
       "levels": {
         "support": 33.61,
         "resistance": 36.99,
-        "entry": null,
+        "entry": 37.17,
         "stop": 32.94
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($33.49) שמעל SMA50 ($33.44), RSI ב-67.8. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "המחיר $36.74 נמצא 0.7% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +5.8%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (68.2). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
-        "rsi14": 67.8,
-        "sma20": 33.49,
-        "sma50": 33.44,
-        "sma200": 31.36,
+        "rsi14": 68.2,
+        "sma20": 33.4,
+        "sma50": 33.53,
+        "sma200": 31.22,
         "pct_from_52w_high": -1.6,
-        "vol_ratio": 0.99,
+        "vol_ratio": 1.22,
         "change_1d_pct": 0.71,
         "change_1w_pct": 5.8,
-        "change_1m_pct": 15.5,
+        "change_1m_pct": 11.5,
         "spark_3m": [
-          36.25,
-          34.03,
-          34.16,
-          34.56,
+          35.84,
+          35.31,
+          34.07,
+          34.07,
+          34.52,
+          33.08,
+          34.19,
+          33.58,
+          33.69,
+          31.48,
+          34.22,
+          33.31,
           34.64,
-          34.43,
-          34.45,
-          34.63,
-          32.56,
-          33.21,
-          33.21,
-          33.44,
-          34.65,
-          32.95,
-          31.56,
-          31.0,
-          31.18,
-          31.67,
-          35.01,
+          33.24,
+          32.18,
+          32.22,
+          31.35,
+          31.08,
+          35.41,
           34.72,
           36.14
         ]
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-13T09:10:54.496768+00:00",
+  "ta_generated_at": "2026-08-13T10:35:48.907390+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "14.69",
-      "change": "+0.96%",
+      "value": "14.60",
+      "change": "+0.34%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.9621993127147683
+      "pct_raw": 0.34364261168384147
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,432.2",
-      "change": "-0.79%",
+      "value": "$4,442.3",
+      "change": "-0.56%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.7901510912143297
+      "pct_raw": -0.5640738668158886
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.4",
-      "change": "-1.79%",
+      "value": "$87.3",
+      "change": "-1.87%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.786918408631157
+      "pct_raw": -1.8655877725331658
     },
     {
       "name": "ביטקוין",
-      "value": "$63,615",
-      "change": "+0.32%",
+      "value": "$63,538",
+      "change": "+0.20%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.32286506990416425
+      "pct_raw": 0.20190697455101414
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,198",
-      "change": "-0.20%",
+      "value": "4,202",
+      "change": "-0.08%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.19519780123110222
+      "pct_raw": -0.08321465338719304
     },
     {
       "name": "דולר/שקל",
-      "value": "2.986",
-      "change": "+0.12%",
-      "direction": "up",
+      "value": "2.981",
+      "change": "-0.06%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.11735908526975275
+      "pct_raw": -0.057002984273883735
     }
   ],
   "sectors": [
@@ -856,15 +856,39 @@
   },
   "us_news": [
     {
-      "title_he": "וולס פארגו משדרגת SM$ לעודף משקל ממשקל שווה, מעלה את PT ל$47 מ-$32 הערות אנליסטים: \"יעד המחיר החדש של 47$ מבוסס על NAV, עולה מהקודם שלנו...",
+      "title_he": "דגשים ברווחים של YETI Q2'26 🔹 מכירות נטו: 483.9 מיליון דולר (מוערך 484 מיליון דולר) 🟡; +9% YoY 🔹 התאמה EPS: $0.67 (הערכה. $0.55) 🟢; +2% YoY 🔹 רווח גולמי: 66.7%; +890 bps YoY, כולל 780 bps…",
       "summary_he": "",
-      "body_en": "Wells Fargo Upgrades $SM to Overweight from Equal Weight, Raises PT to $47 from $32 Analyst comments: \"Our new $47 price target is based on NAV, rising from our prior $32 valuation due to 1) easing of",
-      "ticker": "$SM",
+      "body_en": "$YETI Q2’26 EARNINGS HIGHLIGHTS 🔹 Net Sales: $483.9M (Est. $484M) 🟡; +9% YoY 🔹 Adj. EPS: $0.67 (Est. $0.55) 🟢; +2% YoY 🔹 Gross Margin: 66.7%; +890 bps YoY, incl. 780 bps net tariff benefit 🔹 Adj. Oper",
+      "ticker": "$YETI",
       "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087827112300577031#m",
-      "tag": "ENERGY",
-      "published_at": "2026-08-13T09:02:28+00:00",
-      "relative_time": "לפני 8ד׳",
+      "link": "https://nitter.net/wallstengine/status/2087842885542764927#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-13T10:05:08+00:00",
+      "relative_time": "לפני 30ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$JD Q2'26 שירי רווחים 🔹 הכנסות: RMB346.4B (אומדן CN¥344.62B) ; -2.9% YoY 🔹 Non-GAAP EPS/ADS: RMB6.29 (אומדן CN¥5.57) 🟢; LY RMB4.97 🔹 Non-GAAP הכנסה נטו: RMB8.9B…",
+      "summary_he": "",
+      "body_en": "$JD Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: RMB346.4B (Est. CN¥344.62B) 🟢; -2.9% YoY 🔹 Non-GAAP EPS/ADS: RMB6.29 (Est. CN¥5.57) 🟢; LY RMB4.97 🔹 Non-GAAP Net Income: RMB8.9B (Est. CN¥7.85B) 🟢 🔹 Oper Incom",
+      "ticker": "$JD",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087842803737096599#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-13T10:04:49+00:00",
+      "relative_time": "לפני 30ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בירקנשטוק $BIRK העלתה את התחזית ל-FY לצמיחה של 15% בהכנסות בסמ\"ק, מה שמרמז על מכירות של עד 2.35 מיליארד אירו, עם EBITDA מותאם של לפחות 710 מיליון אירו. מכירות רבעוניות הגיעו ל-720 מיליון אירו:…",
+      "summary_he": "",
+      "body_en": "Birkenstock $BIRK raised its FY outlook to 15% cc revenue growth, implying sales of up to €2.35B, with adj EBITDA of at least €710M. Quarterly sales reached €720M: Asia-Pacific +23% EMEA +15% Americas",
+      "ticker": "$BIRK",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2087834718658285672#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-13T09:32:41+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -879,18 +903,6 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "ג'פריס משדרגת חמישה דולרים לקנייה מ-Hold, מעלה את ה-PT ל-350 דולר מ-$210 הערות אנליסטים: \"חוזק החברות האחרון של FIVE מיוחס במידה רבה לביקוש המונע על ידי סקוויש, אבל...",
-      "summary_he": "",
-      "body_en": "Jefferies Upgrades $FIVE to Buy from Hold, Raises PT to $350 from $210 Analyst comments: \"FIVE's recent comp strength is largely attributed to squish-driven demand, but this overlooks the structural i",
-      "ticker": "$FIVE",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087826643788390672#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-13T09:00:36+00:00",
-      "relative_time": "לפני 10ד׳",
-      "sentiment": "bullish"
-    },
-    {
       "title_he": "המניות בארה\"ב היו מעורבות לפני השוק לאחר שנתוני אינפלציה רכים של הצרכנים ביולי תמכו בהחזקה של הפד בפגישת הפד בחודש הבא, בקיזוז על ידי ספקות עסקת איראן/הורמוז; 10 שנים…",
       "summary_he": "",
       "body_en": "US stocks were mixed pre-market after soft July consumer inflation data supported a Fed hold at next month’s Fed meeting, offset by Iran/Hormuz deal doubts; 10year treasury yields and oil fell. AI spe",
@@ -899,53 +911,30 @@
       "link": "https://nitter.net/garyblack00/status/2087826468894068772#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-13T08:59:54+00:00",
-      "relative_time": "לפני 10ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bearish"
     },
     {
-      "title_he": "גולדמן על כוח האש של הין של יפן: ליפן יש כ-1T דולר ברזרבות של דולר ארה\"ב, כאשר 200 מיליארד דולר נמצאים במזומן או בשווי מזומן. \"כבר יש להם מספיק...",
+      "title_he": "מחירי הנפט יורדים כאשר המשקיעים שוקלים את הביקוש היורד אל מול המתיחות במזרח התיכון",
       "summary_he": "",
-      "body_en": "Goldman on Japan’s yen firepower: Japan has roughly $1T in U.S. $$ reserves, with $200B sitting in cash or cash equivalents. “They already have at their disposal enough to do another couple rounds of ",
+      "body_en": "Oil prices fall as investors weigh falling demand against Middle East tensions",
       "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087823303075598503#m",
-      "tag": "FED",
-      "published_at": "2026-08-13T08:47:19+00:00",
-      "relative_time": "לפני 23ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הרווחים של לנובו עולים על ציפיות העבר על מחשבים, שרתים ושירותים של AI",
-      "summary_he": "",
-      "body_en": "Lenovo profits soar past expectations on AI computers, servers and services",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/lenovo-profits-soar-past-expectations-on-ai-computers-servers-and-services-162e11e6?mod=mw_rss_topstories",
-      "tag": "TECH",
-      "published_at": "2026-08-13T07:20:00+00:00",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
+      "tag": "ENERGY",
+      "published_at": "2026-08-13T08:43:23+00:00",
       "sentiment": "bullish"
     },
     {
-      "title_he": "גולדמן אומר שהעתודות של 1 טריליון דולר של יפן מותירות \"קיבולת רבה\" להתערבות ין נוספת",
+      "title_he": "תשואות משרד האוצר יורדות בעוד וול סטריט מחכה לנתוני אינפלציה סיטונאיים",
       "summary_he": "",
-      "body_en": "Goldman says Japan's $1 trillion of reserves leaves 'plenty of capacity' for further yen interventions",
+      "body_en": "Treasury yields dip as Wall Street awaits wholesale inflation data",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/13/us-japan-dollar-yen-intervention-goldman.html",
-      "tag": "BANKS",
-      "published_at": "2026-08-13T02:31:32+00:00",
+      "link": "https://www.cnbc.com/2026/08/13/treasury-yields-wall-street-inflation-data.html",
+      "tag": "MACRO",
+      "published_at": "2026-08-13T08:40:17+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית Cerebras צונחת ב-14% לאחר דוח רווח שני לאחר ההנפקה",
-      "summary_he": "",
-      "body_en": "Cerebras stock plunges 14% after second earnings report following IPO",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T23:49:23+00:00",
-      "sentiment": "bearish"
     },
     {
       "title_he": "נשיא הפד של קליבלנד האמאק ונשיא הפד של ריצ'מונד ברקין מדברים מחר בבוקר, ואחריהם מלאי גז טבעי בשעה 10:30 ET. SanDisk $SNDK יגיע גם...",
@@ -956,7 +945,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2087654231696183709#m",
       "tag": "FED",
       "published_at": "2026-08-12T21:35:30+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 12ש׳",
       "sentiment": "neutral"
     },
     {
@@ -968,7 +957,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2087652849542980073#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T21:30:00+00:00",
-      "relative_time": "לפני 11ש׳",
+      "relative_time": "לפני 13ש׳",
       "sentiment": "neutral"
     },
     {
@@ -991,30 +980,18 @@
       "link": "https://nitter.net/DeItaone/status/2087590634655777157#m",
       "tag": "NEWS",
       "published_at": "2026-08-12T17:22:47+00:00",
-      "relative_time": "לפני 15ש׳",
+      "relative_time": "לפני 17ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "המניות בארה\"ב עלו לפני השוק (SPX +0.2%, NDX +0.6%) בעקבות רווחים חזקים מ-$CRWV (+16%), $SMCI (+8%) ו-$CAVA (+10%), בעוד שהתשואות ל-10 שנים התייצבו על 4.68% אפילו עם...",
+      "title_he": "Advanced Micro Devices, Inc. (AMD) לעומת Sandisk Corporation (SNDK): מומנטום רווחי השבבים פוגש תגובת שוק מעורבת",
       "summary_he": "",
-      "body_en": "US stocks rose pre-market (SPX +0.2%, NDX +0.6%) on strong earnings from $CRWV (+16%), $SMCI (+8%), and $CAVA (+10%), while 10-year yields stabilized at 4.68% even with higher oil prices and continued",
-      "ticker": "$CRWV",
-      "source": "@garyblack00",
-      "link": "https://nitter.net/garyblack00/status/2087475967828623410#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T09:47:08+00:00",
-      "relative_time": "לפני 23ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Himalaya Shipping Ltd Q2 2026 סיכום שיחת רווחים",
-      "summary_he": "",
-      "body_en": "Himalaya Shipping Ltd. Q2 2026 Earnings Call Summary",
+      "body_en": "Advanced Micro Devices, Inc. (AMD) vs. Sandisk Corporation (SNDK): Chip Earnings Momentum Meets a Mixed Market Reaction",
       "ticker": "",
       "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/himalaya-shipping-ltd-q2-2026-211223310.html",
+      "link": "https://finance.yahoo.com/technology/articles/advanced-micro-devices-inc-amd-224249942.html",
       "tag": "EARNINGS",
-      "published_at": "2026-08-11T21:12:23+00:00",
+      "published_at": "2026-08-11T22:42:49+00:00",
       "sentiment": "neutral"
     }
   ],
