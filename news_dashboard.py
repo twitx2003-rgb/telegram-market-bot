@@ -1497,10 +1497,24 @@ _TAG_KEYWORDS = [
 ]
 _POS_SIGNALS = ["beat", "beats", "surge", "soar", "rally", "record", "raise", "upgrade", "jumps", "gains", "profit",
                 "breakout", "breaks out", "breaking out", "calls", "squeeze", "momentum", "ripping", "running",
-                "bounce", "accumulate", "bullish", "strong", "higher", "moon", "rocket", "long "]
+                "bounce", "accumulate", "bullish", "strong", "higher", "moon", "rocket", "long ",
+                "rips", "pops", "spikes", "outperform", "tailwind", "soars", "climbs", "green", "buy ",
+                "all-time high", "record high", "rebound", "recovery", "beats estimates"]
 _NEG_SIGNALS = ["miss", "misses", "plunge", "drop", "crash", "layoffs", "cuts", "downgrade", "falls", "loss", "bankrupt",
                 "breakdown", "breaks down", "puts", "dump", "rejected", "bearish", "weak", "selloff", "sell-off",
-                "short ", "collapse", "tumble", "sinks", "warning"]
+                "short ", "collapse", "tumble", "sinks", "warning",
+                "fades", "slides", "cracks", "underperform", "headwind", "slumps", "sell ", "red ",
+                "lawsuit", "probe", "recall", "cut to", "misses estimates", "guidance cut"]
+_BULL_PHRASES = ["price target raised", "price target lifted", "pt raised", "target raised", "target lifted",
+                 "above resistance", "breaks resistance", "breaking above", "new high", "52-week high",
+                 "52 week high", "raised guidance", "raises guidance", "beat and raise", "upgraded to buy",
+                 "raised to overweight", "raised to buy", "double upgrade"]
+_BEAR_PHRASES = ["price target cut", "price target lowered", "pt cut", "target cut", "target lowered",
+                 "below support", "breaks support", "breaking below", "new low", "52-week low",
+                 "52 week low", "cut guidance", "lowered guidance", "profit warning", "downgraded to sell",
+                 "cut to underweight", "cut to sell", "double downgrade"]
+_BULL_EMOJI = ["🚀", "📈", "🟢", "💚", "🔥", "💪", "🤑", "📗"]
+_BEAR_EMOJI = ["📉", "🔴", "💀", "🩸", "⚠️", "😱", "📕", "🐻"]
 _HEBREW_RE   = re.compile('[\\u0590-\\u05FF]')
 
 # Trade-signal vocabulary — language that flags a ticker as actively trade-worthy
@@ -1540,9 +1554,14 @@ def classify_tag(text: str) -> str:
 
 
 def classify_sentiment(text: str) -> str:
-    t = text.lower()
-    pos = sum(1 for w in _POS_SIGNALS if w in t)
-    neg = sum(1 for w in _NEG_SIGNALS if w in t)
+    """Weighted directional read: words (×1) + context phrases (×2) + emoji (×1)."""
+    t = (text or "").lower()
+    pos = (sum(1 for w in _POS_SIGNALS if w in t)
+           + 2 * sum(1 for p in _BULL_PHRASES if p in t)
+           + sum(1 for e in _BULL_EMOJI if e in text))
+    neg = (sum(1 for w in _NEG_SIGNALS if w in t)
+           + 2 * sum(1 for p in _BEAR_PHRASES if p in t)
+           + sum(1 for e in _BEAR_EMOJI if e in text))
     return "bullish" if pos > neg else ("bearish" if neg > pos else "neutral")
 
 
