@@ -2010,67 +2010,86 @@ def _wa_link(title: str, link: str) -> str:
     )
 
 
-def build_us_news_card(n: dict, idx: int) -> str:
-    tag       = n.get("tag", "NEWS")
-    color, bg = TAG_COLORS_US.get(tag, TAG_COLORS_US["NEWS"])
-    link      = n.get("link", "#")
-    ticker    = n.get("ticker", "")
-    body_en   = n.get("body_en", "")
-    sentiment = n.get("sentiment", "neutral")
-    rel_time  = n.get("relative_time", "")
+_TAG_HE = {
+    "EARNINGS": "דוחות", "FED": "פדרל ריזרב", "CRYPTO": "קריפטו", "M&A": "מיזוגים",
+    "ENERGY": "אנרגיה", "BANKS": "בנקים", "MACRO": "מאקרו", "TECH": "טכנולוגיה", "NEWS": "שוק ההון",
+}
 
-    if not rel_time and n.get("published_at"):
-        rel_time = _relative_time(n["published_at"])
-    ticker_badge = f'<span class="ticker-badge">{ticker}</span>' if ticker else ""
-    en_block     = (f'<blockquote class="news-en" dir="ltr">{body_en[:200]}</blockquote>' if body_en else "")
-    read_more    = f'<a href="{link}" target="_blank" class="read-more">מקור ←</a>' if link and link != "#" else ""
-    wa           = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
-    time_chip    = f'<span class="feed-time">{rel_time}</span>' if rel_time else ""
-    time_span    = f'<span class="card-time">{rel_time}</span>' if rel_time else ""
+def _kicker(tag: str) -> str:
+    return _TAG_HE.get(tag, tag)
 
-    title_rendered   = bold_tickers(n.get("title_he", ""))
-    summary_rendered = bold_tickers(n.get("summary_he", "")) if n.get("summary_he") else ""
 
-    ts_epoch = ""
+def _ts_epoch(n: dict) -> str:
     if n.get("published_at"):
         try:
-            dt = datetime.fromisoformat(n["published_at"])
-            ts_epoch = str(int(dt.timestamp()))
+            return str(int(datetime.fromisoformat(n["published_at"]).timestamp()))
         except ValueError:
             pass
+    return ""
 
+
+def _rel(n: dict) -> str:
+    return n.get("relative_time", "") or (_relative_time(n["published_at"]) if n.get("published_at") else "")
+
+
+def build_lead_story(n: dict) -> str:
+    """The dominant 'above-the-fold' story — big serif headline, kicker, byline, dek."""
+    tag       = n.get("tag", "NEWS")
+    link      = n.get("link", "#")
+    sentiment = n.get("sentiment", "neutral")
+    title     = bold_tickers(n.get("title_he", ""))
+    summary   = bold_tickers(n.get("summary_he", "")) if n.get("summary_he") else n.get("body_en", "")[:220]
+    rel_time  = _rel(n)
+    read_more = f'<a href="{link}" target="_blank" class="read-more">המשך קריאה ←</a>' if link and link != "#" else ""
+    wa        = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
+    dek_dir   = "rtl" if _HEBREW_RE.search(summary) else "ltr"
     return (
-        f'<article class="news-card" data-sentiment="{sentiment}" data-tag="{tag}" data-ts="{ts_epoch}">'
-        + f'<div class="card-content">'
-        + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{ticker_badge}{time_chip}<span class="sentiment-dot {sentiment}"></span></div>'
-        + f'<h3 class="news-title" dir="rtl">{title_rendered}</h3>'
-        + (f'<p class="news-summary" dir="rtl">{summary_rendered}</p>' if summary_rendered else "")
-        + en_block
-        + f'<div class="card-meta"><span class="card-source">{n.get("source","")}</span>{time_span}{read_more}{wa}</div>'
-        + f'</div>'
+        f'<article class="lead-story" data-sentiment="{sentiment}" data-tag="{tag}" data-ts="{_ts_epoch(n)}">'
+        f'<div class="lead-kicker"><span class="sentiment-dot {sentiment}"></span>{_kicker(tag)}</div>'
+        f'<h2 class="lead-title" dir="rtl">{title}</h2>'
+        + (f'<p class="lead-dek" dir="{dek_dir}">{summary}</p>' if summary else "")
+        + f'<div class="byline"><span class="byline-src">{n.get("source","")}</span>'
+        + (f'<span class="byline-time">{rel_time}</span>' if rel_time else "")
+        + f'{read_more}{wa}</div>'
+        + f'</article>'
+    )
+
+
+def build_us_news_card(n: dict, idx: int) -> str:
+    """Secondary story as an editorial row (kicker + serif headline + byline)."""
+    tag       = n.get("tag", "NEWS")
+    link      = n.get("link", "#")
+    sentiment = n.get("sentiment", "neutral")
+    title     = bold_tickers(n.get("title_he", ""))
+    rel_time  = _rel(n)
+    read_more = f'<a href="{link}" target="_blank" class="read-more">מקור ←</a>' if link and link != "#" else ""
+    wa        = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
+    return (
+        f'<article class="story-row" data-sentiment="{sentiment}" data-tag="{tag}" data-ts="{_ts_epoch(n)}">'
+        f'<div class="row-kicker"><span class="sentiment-dot {sentiment}"></span>{_kicker(tag)}</div>'
+        f'<h3 class="row-title" dir="rtl">{title}</h3>'
+        f'<div class="byline"><span class="byline-src">{n.get("source","")}</span>'
+        + (f'<span class="byline-time">{rel_time}</span>' if rel_time else "")
+        + f'{read_more}{wa}</div>'
         + f'</article>'
     )
 
 
 def build_il_news_card(n: dict) -> str:
-    tag = n.get("tag", "כללי")
-    color, bg = TAG_COLORS_IL.get(tag, TAG_COLORS_IL["כללי"])
-    link  = n.get("link", "#")
-    rel_time = n.get("relative_time", "")
-    if not rel_time and n.get("published_at"):
-        rel_time = _relative_time(n["published_at"])
-    time_chip = f'<span class="feed-time">{rel_time}</span>' if rel_time else ""
+    tag       = n.get("tag", "כללי")
+    link      = n.get("link", "#")
+    rel_time  = _rel(n)
     read_more = f'<a href="{link}" target="_blank" class="read-more">קרא עוד ←</a>' if link and link != "#" else ""
     wa        = _wa_link(n.get("title_he",""), link) if link and link != "#" else ""
     return (
-        f'<div class="news-card il-card">'
-        + f'<div class="card-content">'
-        + f'<div class="card-top"><span class="news-tag" style="color:{color};background:{bg}">{tag}</span>{time_chip}</div>'
-        + f'<h3 class="news-title">{n["title_he"]}</h3>'
-        + (f'<p class="news-summary">{n["summary_he"]}</p>' if n.get("summary_he") else "")
-        + f'<div class="card-meta"><span class="card-source">{n.get("source","")}</span>{read_more}{wa}</div>'
-        + f'</div>'
-        + f'</div>'
+        f'<article class="story-row il-row">'
+        f'<div class="row-kicker">{tag}</div>'
+        f'<h3 class="row-title">{n["title_he"]}</h3>'
+        + (f'<p class="row-dek">{n["summary_he"]}</p>' if n.get("summary_he") else "")
+        + f'<div class="byline"><span class="byline-src">{n.get("source","")}</span>'
+        + (f'<span class="byline-time">{rel_time}</span>' if rel_time else "")
+        + f'{read_more}{wa}</div>'
+        + f'</article>'
     )
 
 
@@ -2188,7 +2207,8 @@ def build_news_feed_tab(data: dict) -> str:
     movers  = build_movers_strip(data.get("opportunities", []))
 
     feed = sorted(us_news, key=_news_sort_key, reverse=True)
-    feed_cards = "".join(build_us_news_card(n, i + 1) for i, n in enumerate(feed))
+    lead = build_lead_story(feed[0]) if feed else ""
+    rest_cards = "".join(build_us_news_card(n, i + 2) for i, n in enumerate(feed[1:]))
 
     # Tag filter chips from tags actually present
     tags = sorted({n.get("tag", "NEWS") for n in feed if n.get("tag")})
@@ -2205,7 +2225,7 @@ def build_news_feed_tab(data: dict) -> str:
     il_section = (
         f'<section class="section il-section" id="israel">'
         f'<div class="section-label">🇮🇱 חדשות ישראל</div>'
-        f'<div class="news-list">{il_cards}</div>'
+        f'<div class="story-list">{il_cards}</div>'
         f'</section>'
     ) if il_cards else ""
     empty = '<div class="feed-empty">אין חדשות זמינות כרגע — נסה שוב בריצה הבאה</div>'
@@ -2213,9 +2233,10 @@ def build_news_feed_tab(data: dict) -> str:
         brief
         + movers
         + f'<section class="section" id="feed">'
-        + f'<div class="section-label">📰 פיד חדשות — מהחדש לישן</div>'
+        + f'<div class="section-label">📰 פיד חדשות</div>'
+        + lead
         + chips
-        + f'<div class="news-list feed-list" id="feedList">{feed_cards or empty}</div>'
+        + f'<div class="story-list feed-list" id="feedList">{rest_cards or (empty if not lead else "")}</div>'
         + f'</section>'
         + il_section
     )
@@ -2532,43 +2553,43 @@ def build_html(data: dict) -> str:
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>לוח חדשות — {TODAY}</title>
 <link rel="manifest" href="manifest.json"/>
-<meta name="theme-color" content="#212529"/>
+<meta name="theme-color" content="#1c1f22"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&family=Assistant:wght@300;400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Assistant:wght@300;400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
   :root {{
-    --bg:      #212529;
-    --surface: #0b0d0f;
-    --card:    #101316;
-    --border:  rgba(255,255,255,.07);
-    --accent:  #f4f5f7;
+    --bg:      #1c1f22;
+    --surface: #0d0f11;
+    --card:    #14171a;
+    --border:  rgba(255,255,255,.08);
+    --accent:  #e0a35a;
     --green:   #34d399;
     --red:     #f87171;
     --gold:    #fbbf24;
-    --purple:  #9aa3ad;
-    --text:    #9aa3ad;
-    --muted:   #5c6670;
-    --white:   #f4f5f7;
+    --purple:  #a5a29b;
+    --text:    #a8a49c;
+    --muted:   #6c6860;
+    --white:   #f4f1ea;
     --e1: 0 8px 24px rgba(0,0,0,.35);
     --e2: 0 16px 48px rgba(0,0,0,.45);
     --e3: 0 24px 72px rgba(0,0,0,.55);
   }}
   body.light {{
-    --bg:      #eceef0;
-    --surface: #f7f8f9;
-    --card:    #ffffff;
-    --border:  rgba(0,0,0,.08);
-    --accent:  #16181b;
-    --green:   #059669;
-    --red:     #dc2626;
-    --gold:    #b45309;
-    --purple:  #4b545e;
-    --text:    #4b545e;
-    --muted:   #8b949e;
-    --white:   #16181b;
+    --bg:      #fff1e5;
+    --surface: #f6e7d7;
+    --card:    #fffaf3;
+    --border:  rgba(51,48,46,.12);
+    --accent:  #b06a34;
+    --green:   #0a7a4f;
+    --red:     #c0392b;
+    --gold:    #9a6a15;
+    --purple:  #6b6259;
+    --text:    #4a453f;
+    --muted:   #8a8178;
+    --white:   #33302e;
     --e1: 0 8px 24px rgba(0,0,0,.10);
     --e2: 0 16px 48px rgba(0,0,0,.14);
     --e3: 0 24px 72px rgba(0,0,0,.18);
@@ -2618,27 +2639,25 @@ def build_html(data: dict) -> str:
   .tick-val{{color:var(--white);font-weight:700;font-variant-numeric:tabular-nums}}
   .tick-chg{{font-weight:600;font-size:.72rem}}
 
-  /* ── Hero ── */
+  /* ── Masthead (newspaper nameplate) ── */
   .hero{{
-    background:linear-gradient(160deg,#1a1e22 0%,#24282d 50%,#1a1e22 100%);
-    border-bottom:1px solid var(--border);
-    padding:1.9rem 2rem 1.5rem;text-align:center;position:relative;overflow:hidden;
+    background:var(--bg);
+    border-bottom:2px solid var(--white);
+    padding:1.8rem 2rem 1.1rem;text-align:center;position:relative;
   }}
-  .hero-chips{{display:flex;justify-content:center;gap:.6rem;flex-wrap:wrap;margin-top:.9rem}}
-  .mood-chip{{display:inline-flex;align-items:center;gap:.45rem;padding:.35rem 1rem;
-    border-radius:999px;font-size:.78rem;font-weight:700;border:1px solid var(--border);
-    background:var(--card);color:var(--text)}}
-  .mood-chip b{{font-variant-numeric:tabular-nums;font-family:'Inter',sans-serif}}
-  body.light .hero{{background:linear-gradient(160deg,#e6e8ea 0%,#f2f3f5 50%,#e6e8ea 100%)}}
-  .hero::before{{content:'';position:absolute;top:-60px;left:50%;transform:translateX(-50%);
-    width:600px;height:200px;background:radial-gradient(ellipse,rgba(244,245,247,.07) 0%,transparent 70%);pointer-events:none}}
-  .hero-label{{font-size:.65rem;font-weight:700;letter-spacing:.35em;color:var(--accent);text-transform:uppercase;margin-bottom:.6rem}}
-  .hero h1{{font-family:'Rubik',sans-serif;font-size:clamp(1.9rem,5.5vw,3.2rem);font-weight:900;color:var(--white);letter-spacing:.06em;line-height:1.1}}
+  .hero-label{{font-size:.62rem;font-weight:700;letter-spacing:.4em;color:var(--accent);
+    text-transform:uppercase;margin-bottom:.5rem}}
+  .hero h1{{font-family:'Frank Ruhl Libre',Georgia,serif;font-size:clamp(2.1rem,6vw,3.6rem);
+    font-weight:900;color:var(--white);letter-spacing:0;line-height:1.05}}
   .hero h1 span{{color:var(--accent)}}
-  .hero-sub{{color:var(--muted);font-size:.88rem;margin-top:.5rem}}
-  .hero-date{{display:inline-flex;align-items:center;gap:.5rem;
-    background:rgba(244,245,247,.08);border:1px solid rgba(244,245,247,.2);
-    color:var(--accent);padding:.35rem 1.1rem;border-radius:999px;font-size:.8rem;font-weight:600}}
+  .hero-sub{{color:var(--muted);font-size:.8rem;margin-top:.5rem;letter-spacing:.02em}}
+  .hero-chips{{display:flex;justify-content:center;align-items:center;gap:.5rem 1.1rem;
+    flex-wrap:wrap;margin-top:1rem;padding-top:.85rem;border-top:1px solid var(--border)}}
+  .mood-chip{{display:inline-flex;align-items:center;gap:.4rem;font-size:.72rem;font-weight:700;
+    color:var(--text);letter-spacing:.02em}}
+  .mood-chip b{{font-variant-numeric:tabular-nums;font-family:'Inter',sans-serif;color:var(--white)}}
+  .hero-date{{display:inline-flex;align-items:center;gap:.45rem;
+    color:var(--muted);font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}}
   .pulse{{width:6px;height:6px;background:var(--green);border-radius:50%;animation:pulse 2s infinite}}
   @keyframes pulse{{0%,100%{{opacity:1;transform:scale(1)}}50%{{opacity:.4;transform:scale(1.5)}}}}
 
@@ -2649,7 +2668,7 @@ def build_html(data: dict) -> str:
   .section-label::before{{counter-increment:sec;content:"." counter(sec,decimal-leading-zero);
     font-family:'Inter',sans-serif;font-weight:600;color:var(--muted);letter-spacing:.08em;
     margin-left:.6rem;direction:ltr}}
-  .section-label{{font-family:'Rubik',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.32em;text-transform:uppercase;
+  .section-label{{font-family:'Assistant',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.32em;text-transform:uppercase;
     color:var(--accent);margin-bottom:1.1rem;padding-bottom:.55rem;
     border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.5rem}}
 
@@ -2691,60 +2710,35 @@ def build_html(data: dict) -> str:
   .heat-chg{{font-size:.78rem;font-weight:700}}
 
   /* ── News Cards ── */
-  .news-list{{display:flex;flex-direction:column;gap:1rem}}
-  .news-card{{
-    background:var(--card);border:1px solid var(--border);border-radius:8px;
-    overflow:hidden;box-shadow:var(--e1);
-    transition:transform .2s,box-shadow .2s;
-  }}
-  .news-card:hover{{
-    transform:translateY(-3px);
-    box-shadow:var(--e2);
-  }}
-  /* Sentiment left border (RTL = border-right) */
-  .news-card[data-sentiment="bullish"]{{border-right:3px solid var(--green)}}
-  .news-card[data-sentiment="bearish"]{{border-right:3px solid var(--red)}}
-  .news-card[data-sentiment="neutral"]{{border-right:3px solid var(--border)}}
-
-  .il-card{{border-right:3px solid var(--border)}}
-
-  .card-content{{padding:1.1rem 1.4rem}}
-  .card-top{{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-bottom:.45rem}}
-  .news-tag{{display:inline-block;padding:.12rem .55rem;border-radius:4px;
-    font-size:.65rem;font-weight:700;letter-spacing:.05em}}
-  .ticker-badge{{
-    display:inline-block;
-    background:rgba(244,245,247,.1);
-    color:var(--white);
-    border:1px solid rgba(244,245,247,.25);
-    border-radius:5px;
-    padding:.12rem .55rem;
-    font-size:.75rem;
-    font-weight:800;
-    font-family:'Inter',monospace;
-    letter-spacing:.04em;
-  }}
-  /* Sentiment dot */
-  .sentiment-dot{{width:7px;height:7px;border-radius:50%;margin-right:auto;flex-shrink:0}}
-  .sentiment-dot.bullish{{background:var(--green);box-shadow:0 0 6px var(--green)}}
-  .sentiment-dot.bearish{{background:var(--red);box-shadow:0 0 6px var(--red)}}
+  /* ── Newspaper feed: lead story + editorial rows ── */
+  .sentiment-dot{{width:7px;height:7px;border-radius:50%;flex-shrink:0;display:inline-block}}
+  .sentiment-dot.bullish{{background:var(--green)}}
+  .sentiment-dot.bearish{{background:var(--red)}}
   .sentiment-dot.neutral{{background:var(--muted)}}
 
-  .news-title{{font-family:'Rubik',sans-serif;font-size:1.06rem;font-weight:800;
-    color:var(--white);line-height:1.42;margin-bottom:.35rem}}
-  .news-summary{{font-size:.86rem;color:var(--text);margin-bottom:.5rem;line-height:1.65}}
-  .news-en{{
-    font-size:.74rem;color:var(--muted);font-style:italic;
-    border-right:2px solid var(--border);
-    padding:.3rem .65rem;margin:.4rem 0 .55rem;
-    line-height:1.5;font-family:'Inter',sans-serif;
-    text-align:left;
-  }}
-  .card-meta{{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.72rem;color:var(--muted)}}
-  .card-source{{font-weight:600;color:var(--accent)}}
-  .card-time{{font-variant-numeric:tabular-nums;color:var(--muted)}}
-  .news-meta{{font-size:.72rem;color:var(--muted);display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;padding:.9rem 1.3rem}}
-  .read-more{{color:var(--accent);text-decoration:none;font-weight:600;font-size:.72rem}}
+  .lead-kicker,.row-kicker{{display:flex;align-items:center;gap:.45rem;font-family:'Assistant',sans-serif;
+    font-size:.66rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:.5rem}}
+
+  .lead-story{{padding:0 0 1.6rem;margin-bottom:1.4rem;border-bottom:2px solid var(--white)}}
+  .lead-title{{font-family:'Frank Ruhl Libre',Georgia,serif;font-size:clamp(1.5rem,3.6vw,2.2rem);
+    font-weight:900;color:var(--white);line-height:1.22;margin-bottom:.6rem}}
+  .lead-dek{{font-size:.95rem;color:var(--text);line-height:1.7;margin-bottom:.7rem;max-width:60ch}}
+  .lead-story:hover .lead-title{{color:var(--accent)}}
+
+  .story-list{{display:flex;flex-direction:column}}
+  .story-row{{padding:1.1rem 0;border-bottom:1px solid var(--border);transition:padding .15s}}
+  .story-row:last-child{{border-bottom:none}}
+  .row-title{{font-family:'Frank Ruhl Libre',Georgia,serif;font-size:1.2rem;font-weight:700;
+    color:var(--white);line-height:1.4;margin-bottom:.5rem;transition:color .15s}}
+  .story-row:hover .row-title{{color:var(--accent)}}
+  .row-dek{{font-size:.85rem;color:var(--text);line-height:1.6;margin-bottom:.5rem}}
+
+  .byline{{display:flex;align-items:center;gap:.7rem;flex-wrap:wrap;
+    font-family:'Assistant',sans-serif;font-size:.72rem;color:var(--muted)}}
+  .byline-src{{font-weight:700;color:var(--text);letter-spacing:.02em}}
+  .byline-time{{font-variant-numeric:tabular-nums}}
+  .read-more{{color:var(--accent);text-decoration:none;font-weight:700;font-size:.72rem}}
   .read-more:hover{{text-decoration:underline}}
   .wa-btn{{color:#25d366;display:inline-flex;align-items:center;opacity:.8;transition:opacity .2s}}
   .wa-btn:hover{{opacity:1}}
@@ -2777,7 +2771,7 @@ def build_html(data: dict) -> str:
   /* ── Morning brief ── */
   .brief-card{{background:var(--card);border-right:3px solid var(--white);box-shadow:var(--e1);
     border-radius:14px;padding:1rem 1.3rem;margin-bottom:1rem}}
-  .brief-title{{font-family:'Rubik',sans-serif;font-weight:800;font-size:.95rem;
+  .brief-title{{font-family:'Frank Ruhl Libre',Georgia,serif;font-weight:800;font-size:.95rem;
     color:var(--white);margin-bottom:.6rem}}
   .brief-list{{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.45rem}}
   .brief-list li{{font-size:.86rem;color:var(--text);line-height:1.55;padding-right:1rem;position:relative}}
@@ -2797,7 +2791,7 @@ def build_html(data: dict) -> str:
   .filter-chips{{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1rem}}
   .filter-chip{{background:var(--card);border:1px solid var(--border);color:var(--muted);
     font-size:.72rem;font-weight:700;padding:.3rem .85rem;border-radius:999px;cursor:pointer;
-    transition:color .2s,border-color .2s;font-family:'Rubik',sans-serif}}
+    transition:color .2s,border-color .2s;font-family:'Assistant',sans-serif}}
   .filter-chip:hover{{color:var(--white)}}
   .filter-chip.active{{color:var(--card);border-color:var(--white);background:var(--white)}}
 
@@ -2886,7 +2880,7 @@ def build_html(data: dict) -> str:
     font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums;direction:ltr}}
   .pulse-lb{{display:grid;grid-template-columns:1fr 1fr;gap:1rem}}
   .lb-col{{background:var(--card);border-radius:8px;box-shadow:var(--e1);padding:1rem 1.2rem}}
-  .lb-head{{font-family:'Rubik',sans-serif;font-size:.72rem;font-weight:800;letter-spacing:.08em;
+  .lb-head{{font-family:'Frank Ruhl Libre',Georgia,serif;font-size:.72rem;font-weight:800;letter-spacing:.08em;
     margin-bottom:.7rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}}
   .lb-head.up{{color:var(--green)}} .lb-head.down{{color:var(--red)}}
   .lb-row{{display:flex;justify-content:space-between;align-items:center;padding:.28rem 0;font-size:.82rem}}
@@ -2921,7 +2915,7 @@ def build_html(data: dict) -> str:
     width:fit-content;max-width:100%}}
   .tab-btn{{background:none;border:none;padding:.55rem 1.6rem;font-size:.95rem;font-weight:800;
     color:var(--muted);cursor:pointer;border-radius:999px;
-    transition:color .2s,background .2s;font-family:'Rubik',sans-serif}}
+    transition:color .2s,background .2s;font-family:'Assistant',sans-serif}}
   .tab-btn.active{{color:var(--card);background:var(--white);box-shadow:var(--e1)}}
   .tab-btn:hover:not(.active){{color:var(--white)}}
   .tab-pane{{display:none}}
@@ -2966,13 +2960,13 @@ def build_html(data: dict) -> str:
 
 <!-- Hero -->
 <div class="hero">
-  <div class="hero-label">לוח שוק אישי</div>
-  <h1>חדשות <span>&</span> הזדמנויות</h1>
-  <div class="hero-sub">פיד חדשות חי · ניתוח טכני · וול סטריט וישראל</div>
+  <div class="hero-label">מהדורת שוק ההון</div>
+  <h1>הדופק <span>הפיננסי</span></h1>
+  <div class="hero-sub">וול סטריט · תל אביב · ניתוח טכני · פיד חדשות חי</div>
   <div class="hero-chips">
     <div class="hero-date">
       <span class="pulse"></span>
-      {TODAY_HE} &nbsp;|&nbsp; עודכן {TIME}
+      {TODAY_HE} · עודכן {TIME}
     </div>
     {mood_chip}
     <span class="mood-chip" id="mktStatus" style="display:none"></span>
@@ -3097,7 +3091,7 @@ def build_html(data: dict) -> str:
   function filterFeed(tag, btn) {{
     document.querySelectorAll('.filter-chip').forEach(function(c) {{ c.classList.remove('active'); }});
     if (btn) btn.classList.add('active');
-    document.querySelectorAll('#feedList .news-card').forEach(function(card) {{
+    document.querySelectorAll('#feedList .story-row').forEach(function(card) {{
       card.style.display = (tag === '*' || card.getAttribute('data-tag') === tag) ? '' : 'none';
     }});
   }}
@@ -3106,7 +3100,7 @@ def build_html(data: dict) -> str:
   (function() {{
     try {{
       var last = parseInt(localStorage.getItem('lastVisit') || '0', 10);
-      var cards = document.querySelectorAll('#feedList .news-card');
+      var cards = document.querySelectorAll('#feedList .story-row');
       if (last > 0 && cards.length > 1) {{
         var lastNew = null;
         cards.forEach(function(card) {{
