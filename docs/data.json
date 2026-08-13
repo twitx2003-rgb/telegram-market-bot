@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T05:56:45.947621+00:00",
+  "generated_at": "2026-08-13T07:38:01.190905+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -309,46 +309,46 @@
     {
       "ticker": "TEVA",
       "price": 36.74,
-      "setup_type": "מומנטום",
+      "setup_type": "פריצה",
       "levels": {
         "support": 33.61,
         "resistance": 36.99,
-        "entry": null,
+        "entry": 37.17,
         "stop": 32.94
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($33.49) שמעל SMA50 ($33.44), RSI ב-67.8. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "המחיר $36.74 נמצא 0.7% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +5.8%. מחיר מעל SMA20 · מחיר מעל SMA200 · RSI בריא (68.2). פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
-        "rsi14": 67.8,
-        "sma20": 33.49,
-        "sma50": 33.44,
-        "sma200": 31.36,
+        "rsi14": 68.2,
+        "sma20": 33.4,
+        "sma50": 33.53,
+        "sma200": 31.22,
         "pct_from_52w_high": -1.6,
-        "vol_ratio": 0.99,
+        "vol_ratio": 1.22,
         "change_1d_pct": 0.71,
         "change_1w_pct": 5.8,
-        "change_1m_pct": 15.5,
+        "change_1m_pct": 11.5,
         "spark_3m": [
-          36.25,
-          34.03,
-          34.16,
-          34.56,
+          35.84,
+          35.31,
+          34.07,
+          34.07,
+          34.52,
+          33.08,
+          34.19,
+          33.58,
+          33.69,
+          31.48,
+          34.22,
+          33.31,
           34.64,
-          34.43,
-          34.45,
-          34.63,
-          32.56,
-          33.21,
-          33.21,
-          33.44,
-          34.65,
-          32.95,
-          31.56,
-          31.0,
-          31.18,
-          31.67,
-          35.01,
+          33.24,
+          32.18,
+          32.22,
+          31.35,
+          31.08,
+          35.41,
           34.72,
           36.14
         ]
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-13T05:56:45.947632+00:00",
+  "ta_generated_at": "2026-08-13T07:38:01.190916+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "14.55",
-      "change": "-4.78%",
-      "direction": "down",
+      "value": "14.67",
+      "change": "+0.82%",
+      "direction": "up",
       "group": "market_us",
-      "pct_raw": -4.777486910994756
+      "pct_raw": 0.8247422680412317
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,444.5",
-      "change": "-0.51%",
+      "value": "$4,433.1",
+      "change": "-0.77%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.5148293228875209
+      "pct_raw": -0.7700055959708928
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.9",
-      "change": "-0.11%",
+      "value": "$88.5",
+      "change": "-0.55%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.11238480557429593
+      "pct_raw": -0.5506855473140133
     },
     {
       "name": "ביטקוין",
-      "value": "$63,831",
+      "value": "$63,830",
       "change": "+0.66%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.6635032523849849
+      "pct_raw": 0.6610588580199559
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,206",
-      "change": "+1.13%",
-      "direction": "up",
+      "value": "4,199",
+      "change": "-0.18%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 1.128136819048491
+      "pct_raw": -0.17641506518085096
     },
     {
       "name": "דולר/שקל",
-      "value": "2.983",
-      "change": "+0.04%",
+      "value": "2.985",
+      "change": "+0.08%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.04023740066391268
+      "pct_raw": 0.08047480132784025
     }
   ],
   "sectors": [
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "הרווחים של לנובו עולים על ציפיות העבר על מחשבים, שרתים ושירותים של AI",
+      "summary_he": "",
+      "body_en": "Lenovo profits soar past expectations on AI computers, servers and services",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/lenovo-profits-soar-past-expectations-on-ai-computers-servers-and-services-162e11e6?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-08-13T07:20:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
       "title_he": "מניית Cerebras צונחת ב-14% לאחר דוח רווח שני לאחר ההנפקה",
       "summary_he": "",
       "body_en": "Cerebras stock plunges 14% after second earnings report following IPO",
@@ -875,18 +886,7 @@
       "link": "https://nitter.net/wallstengine/status/2087683356783988887#m",
       "tag": "M&A",
       "published_at": "2026-08-12T23:31:14+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מניית לומנטום עולה, מה שנותן דחיפה נוספת לסחר ברשתות האופטיות",
-      "summary_he": "",
-      "body_en": "Lumentum’s stock surges, giving a further boost to the optical-networking trade",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/lumentums-stock-surges-giving-a-further-boost-to-the-optical-networking-trade-0ee46339?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-12T22:31:00+00:00",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "bullish"
     },
     {
@@ -898,7 +898,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2087654231696183709#m",
       "tag": "FED",
       "published_at": "2026-08-12T21:35:30+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -910,7 +910,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2087652849542980073#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T21:30:00+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,7 +922,7 @@
       "link": "https://nitter.net/wallstengine/status/2087635500358398070#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:21:04+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
@@ -934,11 +934,11 @@
       "link": "https://nitter.net/wallstengine/status/2087634816271630339#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:18:21+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "דגשים ברווחים של CEREBRAS $CBRS Q2'26 🔹 הכנסות: 180.1 מיליון דולר (הערכה של 194 מיליון דולר) 🔴; +74% משנה לשנה 🔹 הכנסות ליבה: 209.9 מיליון דולר; +103% YoY 🔹 רווח גולמי: 14% (הערכה 26.3%) 🔴 🔹 ברוטו ליבה...",
+      "title_he": "דגשים ברווחים של CEREBRAS $CBRS Q2'26 🔹 הכנסות: 180.1 מיליון דולר (הערכה של 194 מיליון דולר) 🔴; +74% בשנה 🔹 הכנסות ליבה: 209.9 מיליון דולר; +103% YoY 🔹 רווח גולמי: 14% (הערכה 26.3%) 🔴 🔹 ברוטו ליבה...",
       "summary_he": "",
       "body_en": "CEREBRAS $CBRS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $180.1M (Est. $194M) 🔴; +74% YoY 🔹 Core Revenue: $209.9M; +103% YoY 🔹 Gross Margin: 14% (Est. 26.3%) 🔴 🔹 Core Gross Margin: 41%; +940 bps YoY Raises",
       "ticker": "$CBRS",
@@ -946,8 +946,19 @@
       "link": "https://nitter.net/wallstengine/status/2087634664815243272#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:17:45+00:00",
-      "relative_time": "לפני 9ש׳",
+      "relative_time": "לפני 11ש׳",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "\"אף אחד לא רוצה את זה\": מחירי החסה רואים צניחת שיא בזמן שציקלוספורה מפחידה את הצרכנים",
+      "summary_he": "",
+      "body_en": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-12T19:50:29+00:00",
+      "sentiment": "neutral"
     },
     {
       "title_he": "הגירעון התקציבי של ארה\"ב זינק ביולי לרמה הגבוהה ביותר מאז מרץ 2021",
@@ -972,18 +983,6 @@
       "sentiment": "neutral"
     },
     {
-      "title_he": "אוטאווה שוקלת את ההצעה על תעריפי רכב בזמן שהיא לוחצת על ארה\"ב לדחייה - גלוב ודואר",
-      "summary_he": "",
-      "body_en": "OTTAWA WEIGHS PROPOSAL ON AUTO TARIFFS AS IT PRESSES U.S. FOR REPRIEVE - GLOBE AND MAIL",
-      "ticker": "",
-      "source": "@DeItaone",
-      "link": "https://nitter.net/DeItaone/status/2087590634655777157#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-12T17:22:47+00:00",
-      "relative_time": "לפני 12ש׳",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "המניות בארה\"ב עלו לפני השוק (SPX +0.2%, NDX +0.6%) בעקבות רווחים חזקים מ-$CRWV (+16%), $SMCI (+8%) ו-$CAVA (+10%), בעוד שהתשואות ל-10 שנים התייצבו על 4.68% אפילו עם...",
       "summary_he": "",
       "body_en": "US stocks rose pre-market (SPX +0.2%, NDX +0.6%) on strong earnings from $CRWV (+16%), $SMCI (+8%), and $CAVA (+10%), while 10-year yields stabilized at 4.68% even with higher oil prices and continued",
@@ -992,22 +991,35 @@
       "link": "https://nitter.net/garyblack00/status/2087475967828623410#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T09:47:08+00:00",
-      "relative_time": "לפני 20ש׳",
+      "relative_time": "לפני 21ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "וולס פארגו (WFC) מהמר על בלוקצ'יין, אבל האם העצרת יכולה להימשך?",
-      "summary_he": "",
-      "body_en": "Wells Fargo (WFC) Bets On Blockchain, But Can The Rally Continue?",
-      "ticker": "",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-wfc-bets-blockchain-180358121.html",
-      "tag": "CRYPTO",
-      "published_at": "2026-08-11T18:03:58+00:00",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "\"תחושת הביטחון ירדה\": תושבי עוטף עזה חוששים מהתעצמות החמאס",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860460",
+      "tag": "כללי",
+      "published_at": "2026-08-13T10:11:00+00:00"
+    },
+    {
+      "title_he": "ד\"ר קובי ברדה: \"נתניהו של לפני כמה שנים לא היה נותן למצור בקוסרא להתרחש\"",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860442",
+      "tag": "כללי",
+      "published_at": "2026-08-13T09:24:00+00:00"
+    },
+    {
+      "title_he": "נכנס לחנות אופניים, פתח בירי - ופצע קשה אדם אל מול באי העסק | תיעוד",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860433",
+      "tag": "כללי",
+      "published_at": "2026-08-13T08:53:00+00:00"
+    },
     {
       "title_he": "לא אדם זר: מחצית מהילדים שחוו פגיעה מינית נפגעו בתוך המשפחה",
       "summary_he": "",
@@ -1063,30 +1075,6 @@
       "link": "https://news.walla.co.il/item/3860359",
       "tag": "כללי",
       "published_at": "2026-08-12T20:12:00+00:00"
-    },
-    {
-      "title_he": "סגירת מעגל מרגשת: אביו של גיבור מיגונית המוות יכתוב את כתובתם של שורד השבי ובת זוגו",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860357",
-      "tag": "כללי",
-      "published_at": "2026-08-12T20:02:00+00:00"
-    },
-    {
-      "title_he": "הצתת ג'פניקה בגבעתיים והסכסוך בעולם התחתון: שני צעירים בדרך לכתב אישום | תיעוד",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860355",
-      "tag": "כללי",
-      "published_at": "2026-08-12T20:00:00+00:00"
-    },
-    {
-      "title_he": "התפרצות הכלבת מתפשטת למרכז: אישה ננשכה ברמת גן; בצפון - מצוד אחר תן שתקף ילדה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860353",
-      "tag": "כללי",
-      "published_at": "2026-08-12T19:30:00+00:00"
     }
   ],
   "track_record": {
