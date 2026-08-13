@@ -136,7 +136,9 @@
    "price_at_rec": 333.17,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 3.11
+   "last_pnl": 3.11,
+   "closed_pnl": 3.11,
+   "closed_date": "2026-08-13"
   },
   {
    "ticker": "AMZN",
@@ -144,7 +146,9 @@
    "price_at_rec": 235.5,
    "confidence": 3,
    "engine": "rules",
-   "last_pnl": 13.49
+   "last_pnl": 13.49,
+   "closed_pnl": 13.49,
+   "closed_date": "2026-08-13"
   },
   {
    "ticker": "AMD",

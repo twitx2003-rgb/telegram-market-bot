@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T23:40:06.319787+00:00",
+  "generated_at": "2026-08-13T01:55:06.015680+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-12T23:40:06.319799+00:00",
+  "ta_generated_at": "2026-08-13T01:55:06.015691+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,467.3",
-      "change": "-0.00%",
-      "direction": "down",
+      "value": "$4,477.2",
+      "change": "+0.22%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.004476776720756981
+      "pct_raw": 0.21712367095690696
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.6",
-      "change": "-0.47%",
+      "value": "$88.1",
+      "change": "-1.01%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.47201618341200463
+      "pct_raw": -1.0114632501685836
     },
     {
       "name": "ביטקוין",
-      "value": "$63,399",
-      "change": "-0.23%",
-      "direction": "down",
+      "value": "$63,427",
+      "change": "+0.03%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.2333027371043658
+      "pct_raw": 0.026178675135097803
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.975",
-      "change": "-0.23%",
+      "value": "2.981",
+      "change": "-0.04%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.23471817053952043
+      "pct_raw": -0.043590517385912846
     }
   ],
   "sectors": [
@@ -850,11 +850,22 @@
     }
   ],
   "fear_greed": {
-    "score": 27,
+    "score": 29,
     "rating": "פחד",
     "rating_en": "fear"
   },
   "us_news": [
+    {
+      "title_he": "מניית Cerebras צונחת ב-14% לאחר דוח רווח שני לאחר ההנפקה",
+      "summary_he": "",
+      "body_en": "Cerebras stock plunges 14% after second earnings report following IPO",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T23:49:23+00:00",
+      "sentiment": "bearish"
+    },
     {
       "title_he": "$AAPL EYES 9-FIGURE SIRI עסקאות תוכן אפל מנהלת מגעים עם מפרסמים על הסכמי רישוי רב-שנתיים כדי להביא חדשות ומידע עדכניים לתוך המשודרג שלה...",
       "summary_he": "",
@@ -864,20 +875,8 @@
       "link": "https://nitter.net/wallstengine/status/2087683356783988887#m",
       "tag": "M&A",
       "published_at": "2026-08-12T23:31:14+00:00",
-      "relative_time": "לפני 8ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "R ל-@unusual_whales: וורן מבקשת מהחברות לחשוף כמה הן שילמו בתעריפי IEEPA לא חוקתיים, את סכומי ההחזרים שהם קיבלו...",
-      "summary_he": "",
-      "body_en": "R to @unusual_whales: Warren is asking the companies to disclose how much they have paid in unconstitutional IEEPA tariffs, the amounts of any refunds they have received or expect to receive, and how ",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2087683298218717626#m",
-      "tag": "TECH",
-      "published_at": "2026-08-12T23:31:00+00:00",
-      "relative_time": "לפני 8ד׳",
-      "sentiment": "neutral"
     },
     {
       "title_he": "מניית לומנטום עולה, מה שנותן דחיפה נוספת לסחר ברשתות האופטיות",
@@ -891,28 +890,6 @@
       "sentiment": "bullish"
     },
     {
-      "title_he": "מניית Cerebras צונחת ב-14% לאחר דוח רווח שני לאחר ההנפקה",
-      "summary_he": "",
-      "body_en": "Cerebras stock plunges 14% after second earnings report following IPO",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T22:18:58+00:00",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "מניית אלפבית יורדת כאשר עסקת המימון של Nvidia בסך 500 מיליארד דולר מאיימת על צ'יפים מותאמים אישית",
-      "summary_he": "",
-      "body_en": "Alphabet’s stock slips as Nvidia’s $500 billion financing deal threatens custom chips",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/alphabets-stock-slips-as-nvidias-500-billion-financing-deal-threatens-custom-chips-c4166a59?mod=mw_rss_topstories",
-      "tag": "M&A",
-      "published_at": "2026-08-12T21:55:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
       "title_he": "נשיא הפד של קליבלנד האמאק ונשיא הפד של ריצ'מונד ברקין מדברים מחר בבוקר, ואחריהם מלאי גז טבעי בשעה 10:30 ET. SanDisk $SNDK יגיע גם...",
       "summary_he": "",
       "body_en": "Cleveland Fed President Hammack and Richmond Fed President Barkin speak tomorrow morning, followed by Natural Gas Inventories at 10:30 AM ET. SanDisk $SNDK will also hold its investor day.",
@@ -921,7 +898,7 @@
       "link": "https://nitter.net/bespokeinvest/status/2087654231696183709#m",
       "tag": "FED",
       "published_at": "2026-08-12T21:35:30+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -933,11 +910,11 @@
       "link": "https://nitter.net/bespokeinvest/status/2087652849542980073#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T21:30:00+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "$CBRS רווחים ברבעון השני • הכנסות של $210 מיליון לעומת משוער 194 מיליון דולר • הכנסה תפעולית (34 מיליון דולר) לעומת משוער (62 מיליון דולר) • מרווח גולמי 41% לעומת משוער. 37% • RPO $25.4B הנחיות לרבעון 3 • הכנסה $215M לעומת…",
+      "title_he": "$CBRS רווחים לרבעון השני • הכנסות של $210 מיליון לעומת משוער 194 מיליון דולר • הכנסה תפעולית (34 מיליון דולר) לעומת משוער (62 מיליון דולר) • מרווח גולמי 41% לעומת משוער. 37% • RPO $25.4B הנחיות לרבעון 3 • הכנסה $215M לעומת…",
       "summary_he": "",
       "body_en": "$CBRS Q2 EARNINGS • Revenue $210M vs Est. $194M • Operating Income ($34M) vs. Est. ($62M) • Gross Margin 41% vs. Est. 37% • RPO $25.4B Q3 Guidance • Revenue $215M vs Est. $212M • Gross Margin 39% vs. ",
       "ticker": "$CBRS",
@@ -945,7 +922,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2087642109260251305#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:47:20+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -957,7 +934,7 @@
       "link": "https://nitter.net/wallstengine/status/2087635500358398070#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:21:04+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -969,11 +946,11 @@
       "link": "https://nitter.net/wallstengine/status/2087634816271630339#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:18:21+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "דגשים ברווחים של CEREBRAS $CBRS Q2'26 🔹 הכנסות: 180.1 מיליון דולר (הערכה של 194 מיליון דולר) 🔴; +74% בשנה 🔹 הכנסות ליבה: 209.9 מיליון דולר; +103% YoY 🔹 רווח גולמי: 14% (הערכה 26.3%) 🔴 🔹 ברוטו ליבה...",
+      "title_he": "דגשים ברווחים של CEREBRAS $CBRS Q2'26 🔹 הכנסות: 180.1 מיליון דולר (הערכה של 194 מיליון דולר) 🔴; +74% משנה לשנה 🔹 הכנסות ליבה: 209.9 מיליון דולר; +103% YoY 🔹 רווח גולמי: 14% (הערכה 26.3%) 🔴 🔹 ברוטו ליבה...",
       "summary_he": "",
       "body_en": "CEREBRAS $CBRS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $180.1M (Est. $194M) 🔴; +74% YoY 🔹 Core Revenue: $209.9M; +103% YoY 🔹 Gross Margin: 14% (Est. 26.3%) 🔴 🔹 Core Gross Margin: 41%; +940 bps YoY Raises",
       "ticker": "$CBRS",
@@ -981,23 +958,11 @@
       "link": "https://nitter.net/wallstengine/status/2087634664815243272#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-12T20:17:45+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "נקודות השיא ברווחים של ENOVIX $ENVX Q2'26 🔹 הכנסות: $9.0M (הערכה. $8.4M) ; +21% YoY 🔹 התאמה EPS: -$0.13 (הערכה -$0.15) 🟢 🔹 מרווח גולמי ללא GAAP: 19.9%; -10.9 נק' בשנה 🔹…",
-      "summary_he": "",
-      "body_en": "ENOVIX $ENVX Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $9.0M (Est. $8.4M) 🟢; +21% YoY 🔹 Adj. EPS: -$0.13 (Est. -$0.15) 🟢 🔹 Non-GAAP Gross Margin: 19.9%; -10.9 pts YoY 🔹 Pipeline: ~$183M; +41% QoQ Q3 Guide:",
-      "ticker": "$ENVX",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087633804945199167#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-12T20:14:20+00:00",
-      "relative_time": "לפני 3ש׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "\"אף אחד לא רוצה את זה\": מחירי החסה רואים צניחת שיא בזמן שציקלוספורה מפחידה את הצרכנים",
+      "title_he": "\"אף אחד לא רוצה את זה\": מחירי החסה רואים שיא צולל כשציקלוספורה מפחידה את הצרכנים",
       "summary_he": "",
       "body_en": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
       "ticker": "",
@@ -1017,9 +982,51 @@
       "tag": "NEWS",
       "published_at": "2026-08-12T18:56:15+00:00",
       "sentiment": "bullish"
+    },
+    {
+      "title_he": "המניות בארה\"ב עלו לפני השוק (SPX +0.2%, NDX +0.6%) בעקבות רווחים חזקים מ-$CRWV (+16%), $SMCI (+8%) ו-$CAVA (+10%), בעוד שהתשואות ל-10 שנים התייצבו על 4.68% אפילו עם...",
+      "summary_he": "",
+      "body_en": "US stocks rose pre-market (SPX +0.2%, NDX +0.6%) on strong earnings from $CRWV (+16%), $SMCI (+8%), and $CAVA (+10%), while 10-year yields stabilized at 4.68% even with higher oil prices and continued",
+      "ticker": "$CRWV",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2087475967828623410#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-12T09:47:08+00:00",
+      "relative_time": "לפני 16ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "תאגיד בראון-פורמן (BF-B) אומר שוב לא להצעת הרכש של Sazerac של 15 מיליארד דולר",
+      "summary_he": "",
+      "body_en": "Brown-Forman Corporation (BF-B) Says No to Sazerac’s $15 Billion Takeover Bid, Again",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/brown-forman-corporation-bf-b-141647550.html",
+      "tag": "M&A",
+      "published_at": "2026-08-11T14:16:47+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מניית CalciMedica עלתה ב-6% כאשר התקדמות יתר לחץ דם ריאתי מקזזת את הפסקת הרווחים ברבעון השני",
+      "summary_he": "",
+      "body_en": "CalciMedica stock gains 6% as pulmonary hypertension progress offsets Q2 earnings miss",
+      "ticker": "",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/healthcare/articles/calcimedica-stock-gains-6-pulmonary-141101272.html",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-11T14:11:01+00:00",
+      "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "עקבו אחריה ברחוב וגררו אותה על הרצפה: שני נערים נאשמים בשוד קשישה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860401",
+      "tag": "כללי",
+      "published_at": "2026-08-13T04:32:00+00:00"
+    },
     {
       "title_he": "תיעוד חריג: עימות פיזי בין פקח לצעיר באשקלון - שנמלט מהזירה",
       "summary_he": "",
@@ -1091,22 +1098,14 @@
       "link": "https://news.walla.co.il/item/3860345",
       "tag": "כללי",
       "published_at": "2026-08-12T18:14:00+00:00"
-    },
-    {
-      "title_he": "רוכבים על אופנוע ים באילת? תתכוננו - אתם עומדים לעבור בדיקת ינשוף",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860340",
-      "tag": "כללי",
-      "published_at": "2026-08-12T18:03:00+00:00"
     }
   ],
   "track_record": {
-    "closed": 13,
-    "wins": 6,
-    "hit_rate": 46,
-    "avg_pnl": -0.7,
-    "open": 10
+    "closed": 15,
+    "wins": 8,
+    "hit_rate": 53,
+    "avg_pnl": 0.5,
+    "open": 8
   },
   "alert_config": {
     "price_move_pct": 5,
