@@ -14,6 +14,7 @@ import re
 import sys
 import urllib.request
 import urllib.parse
+from collections import Counter
 from datetime import datetime, date, timezone, timedelta
 from pathlib import Path
 
@@ -1494,9 +1495,40 @@ _TAG_KEYWORDS = [
     ("MACRO",    ["inflation", "cpi", "gdp", "jobs report", "unemployment", "recession", "treasury", "yield"]),
     ("TECH",     ["nvidia", "apple", "microsoft", "google", "meta", "amazon", "tesla", "amd", "intel", "ai ", "chip"]),
 ]
-_POS_SIGNALS = ["beat", "beats", "surge", "soar", "rally", "record", "raise", "upgrade", "jumps", "gains", "profit"]
-_NEG_SIGNALS = ["miss", "misses", "plunge", "drop", "crash", "layoffs", "cuts", "downgrade", "falls", "loss", "bankrupt"]
+_POS_SIGNALS = ["beat", "beats", "surge", "soar", "rally", "record", "raise", "upgrade", "jumps", "gains", "profit",
+                "breakout", "breaks out", "breaking out", "calls", "squeeze", "momentum", "ripping", "running",
+                "bounce", "accumulate", "bullish", "strong", "higher", "moon", "rocket", "long "]
+_NEG_SIGNALS = ["miss", "misses", "plunge", "drop", "crash", "layoffs", "cuts", "downgrade", "falls", "loss", "bankrupt",
+                "breakdown", "breaks down", "puts", "dump", "rejected", "bearish", "weak", "selloff", "sell-off",
+                "short ", "collapse", "tumble", "sinks", "warning"]
 _HEBREW_RE   = re.compile('[\\u0590-\\u05FF]')
+
+# Trade-signal vocabulary — language that flags a ticker as actively trade-worthy
+_TRADE_SIGNAL_KW = [
+    "breakout", "breakdown", "breaks out", "breaking out", "calls", "puts",
+    "unusual", "squeeze", "support", "resistance", "price target", "target",
+    "momentum", "gamma", "sweep", "flow", "catalyst", "upgrade", "downgrade",
+    "bounce", "reversal", "oversold", "overbought", "accumulate", "long ", "short ",
+    "entry", "swing", "runner", "ripping", "running", "volume spike",
+]
+
+# Curated handles carry signal; breaking-news desks carry more
+_HANDLE_AUTHORITY = {
+    "deitaone": 3, "unusual_whales": 3, "wallstengine": 3,
+    "ryandetrick": 2, "bespokeinvest": 2, "garyblack00": 2,
+}
+_DEFAULT_HANDLE_AUTHORITY = 1  # any curated handle we follow
+
+
+_ARTIFACT_RE = re.compile(r'^\s*(?:R to @\w+:|RT @\w+:|@\w+\s+)+', re.IGNORECASE)
+
+def _clean_tweet_text(body: str) -> str:
+    """Strip reply/retweet artifacts ('R to @x:', 'RT @x:', leading @mentions)."""
+    if not body:
+        return ""
+    cleaned = _ARTIFACT_RE.sub("", body).strip()
+    cleaned = re.sub(r'\s+', ' ', cleaned)
+    return cleaned or body.strip()
 
 
 def classify_tag(text: str) -> str:
@@ -1514,9 +1546,17 @@ def classify_sentiment(text: str) -> str:
     return "bullish" if pos > neg else ("bearish" if neg > pos else "neutral")
 
 
+def _handle_authority(handle: str) -> int:
+    return _HANDLE_AUTHORITY.get((handle or "").lower().lstrip("@"), _DEFAULT_HANDLE_AUTHORITY)
+
+
 def _extract_ticker(text: str) -> str:
     m = _TICKER_RE.search(text)
     return m.group(1) if m else ""
+
+
+def _all_tickers(text: str) -> list:
+    return _TICKER_RE.findall(text or "")
 
 
 def fetch_us_news_rss(max_items: int = 20) -> list:
@@ -1532,15 +1572,18 @@ def _norm_title(text: str) -> str:
     return re.sub(r'[^a-z0-9֐-׿ ]', '', (text or "").lower()).strip()[:55]
 
 
-def _importance_score(text: str, is_rss: bool, has_ticker: bool) -> int:
-    """Rank news by market impact. Authoritative RSS gets a base boost."""
+def _importance_score(text: str, is_rss: bool, has_ticker: bool, authority: int = 0) -> int:
+    """Rank news by market impact. RSS gets a source boost; tweets get handle authority."""
     t = (text or "").lower()
     score = 0
     if any(k in t for k in US_HIGH_IMPACT):
         score += 5
     score += min(3, sum(1 for k in US_MEDIUM_IMPACT if k in t))
+    if any(k in t for k in _TRADE_SIGNAL_KW):
+        score += 1
     if is_rss:     score += 1
     if has_ticker: score += 1
+    score += authority
     return score
 
 
@@ -1584,24 +1627,26 @@ def build_free_news(rss_items: list, tweets: list, il_raw: list, cap: int = 14) 
             "sentiment":    classify_sentiment(title),
             "_score":       _importance_score(title, True, bool(ticker)),
         })
-    # 2. Tweets — immediacy and market chatter
+    # 2. Tweets — significance-ranked chatter (cleaned, authority-weighted)
     for t in tweets:
-        body = t.get("body", "")
-        if not is_finance_tweet(body):
+        raw = t.get("body", "")
+        if not is_finance_tweet(raw):
             continue
+        body = _clean_tweet_text(raw)
         ticker = _extract_ticker(body)
+        handle = t.get("handle", "")
         pool.append({
             "title_he":      _translate_he(clean_cut(body)),
             "summary_he":    "",
             "body_en":       body[:200],
             "ticker":        ticker,
-            "source":        f'@{t.get("handle","")}',
+            "source":        f'@{handle}',
             "link":          t.get("url", "#"),
             "tag":           classify_tag(body),
             "published_at":  t.get("published_at", ""),
             "relative_time": t.get("relative_time", ""),
             "sentiment":     classify_sentiment(body),
-            "_score":        _importance_score(body, False, bool(ticker)),
+            "_score":        _importance_score(body, False, bool(ticker), _handle_authority(handle)),
         })
 
     # 3. De-dup by normalized headline — keep the highest-scoring version of each story
@@ -1665,6 +1710,111 @@ def fallback_data(tw_tweets: list, il_raw: list) -> dict:
                          "link": i["link"], "tag": "כללי",
                          "published_at": i.get("published_at", "")} for i in il_raw],
     }
+
+
+# ── Market Pulse — aggregate ALL tweets into infographic data ───────────────────
+
+def build_market_pulse(all_tweets: list) -> dict:
+    """Aggregate every finance-relevant tweet into infographic stats (free, no LLM)."""
+    tweets = [t for t in all_tweets if is_finance_tweet(t.get("body", ""))]
+    total = len(tweets)
+    sent_counts = {"bullish": 0, "bearish": 0, "neutral": 0}
+    ticker_freq = Counter()
+    topic_freq  = Counter()
+    ticker_sent = {}  # ticker -> {bull, bear}
+
+    for t in tweets:
+        body = _clean_tweet_text(t.get("body", ""))
+        s = classify_sentiment(body)
+        sent_counts[s] += 1
+        topic_freq[classify_tag(body)] += 1
+        seen_in_tweet = set()
+        for tk in _all_tickers(body):
+            if tk in seen_in_tweet:
+                continue
+            seen_in_tweet.add(tk)
+            ticker_freq[tk] += 1
+            d = ticker_sent.setdefault(tk, {"bull": 0, "bear": 0})
+            if s == "bullish": d["bull"] += 1
+            elif s == "bearish": d["bear"] += 1
+
+    def pct(n):
+        return round(n / total * 100) if total else 0
+
+    # Net-sentiment leaderboards (require ≥2 mentions to be meaningful)
+    net = [(tk, d["bull"] - d["bear"], d["bull"] + d["bear"])
+           for tk, d in ticker_sent.items() if (d["bull"] + d["bear"]) >= 2]
+    bulls = sorted([x for x in net if x[1] > 0], key=lambda x: (-x[1], -x[2]))[:5]
+    bears = sorted([x for x in net if x[1] < 0], key=lambda x: (x[1], -x[2]))[:5]
+
+    return {
+        "total": total,
+        "sentiment": {k: {"count": v, "pct": pct(v)} for k, v in sent_counts.items()},
+        "top_tickers": ticker_freq.most_common(8),
+        "topics":      topic_freq.most_common(8),
+        "bulls":       [{"ticker": tk, "net": n} for tk, n, _ in bulls],
+        "bears":       [{"ticker": tk, "net": n} for tk, n, _ in bears],
+    }
+
+
+# ── Trade Ideas — tickers flagged trade-worthy from tweet chatter ───────────────
+
+def build_trade_ideas(all_tweets: list, indicators: dict = None, cap: int = 8) -> list:
+    """Surface stocks the street is actively trading, from tweet mentions + signal language."""
+    indicators = indicators or {}
+    agg = {}  # ticker -> aggregate
+    for t in all_tweets:
+        raw = t.get("body", "")
+        if not is_finance_tweet(raw):
+            continue
+        body = _clean_tweet_text(raw)
+        low  = body.lower()
+        tickers = set(_all_tickers(body))
+        if not tickers:
+            continue
+        signals = [kw.strip() for kw in _TRADE_SIGNAL_KW if kw in low]
+        s = classify_sentiment(body)
+        for tk in tickers:
+            a = agg.setdefault(tk, {"ticker": tk, "mentions": 0, "bull": 0, "bear": 0,
+                                     "signals": set(), "sample": "", "handles": set()})
+            a["mentions"] += 1
+            if s == "bullish": a["bull"] += 1
+            elif s == "bearish": a["bear"] += 1
+            a["signals"].update(signals)
+            a["handles"].add(t.get("handle", ""))
+            # Keep the richest sample (most signal words) as the headline snippet
+            if signals and (not a["sample"] or len(body) > len(a["sample"])):
+                a["sample"] = body
+            elif not a["sample"]:
+                a["sample"] = body
+
+    ideas = []
+    for tk, a in agg.items():
+        if a["mentions"] < 2 and not a["signals"]:
+            continue  # not enough conviction
+        bull_bias = a["bull"] - a["bear"]
+        score = a["mentions"] * 2 + max(0, bull_bias) + len(a["signals"]) * 2
+        sentiment = "bullish" if bull_bias > 0 else ("bearish" if bull_bias < 0 else "neutral")
+        ind = indicators.get(tk.lstrip("$").upper(), {})
+        ideas.append({
+            "ticker":    tk,
+            "mentions":  a["mentions"],
+            "sources":   len([h for h in a["handles"] if h]),
+            "sentiment": sentiment,
+            "signals":   sorted(a["signals"])[:5],
+            "sample":    a["sample"][:180],
+            "score":     score,
+            "ta": {
+                "price":      ind.get("price"),
+                "rsi14":      ind.get("rsi14"),
+                "setup":      None,  # filled from opportunities if desired
+                "spark_3m":   ind.get("spark_3m", []),
+                "change_1d":  ind.get("change_1d_pct"),
+            } if ind else None,
+        })
+    ideas.sort(key=lambda x: x["score"], reverse=True)
+    return ideas[:cap]
+
 
 # ── Tag Colors ─────────────────────────────────────────────────────────────────
 
@@ -2167,6 +2317,125 @@ def build_ta_grid(opportunities: list) -> str:
     return f'<div class="ta-grid">{cards}</div>'
 
 
+# ── Market Pulse tab ────────────────────────────────────────────────────────────
+
+_TOPIC_HE = {
+    "EARNINGS": "דוחות", "FED": "פדרל ריזרב", "CRYPTO": "קריפטו", "M&A": "מיזוגים",
+    "ENERGY": "אנרגיה", "BANKS": "בנקים", "MACRO": "מאקרו", "TECH": "טכנולוגיה", "NEWS": "כללי",
+}
+
+
+def build_pulse_tab(pulse: dict) -> str:
+    if not pulse or not pulse.get("total"):
+        return '<div class="feed-empty">אין מספיק ציוצים לניתוח דופק השוק כרגע</div>'
+
+    total = pulse["total"]
+    s = pulse["sentiment"]
+
+    # 1. Sentiment stacked bar
+    seg = lambda k, cls: (f'<div class="pulse-seg {cls}" style="width:{s[k]["pct"]}%" '
+                          f'title="{s[k]["count"]} ציוצים">{s[k]["pct"]}%</div>' if s[k]["pct"] >= 6 else
+                          f'<div class="pulse-seg {cls}" style="width:{s[k]["pct"]}%"></div>')
+    sentiment_bar = (
+        f'<div class="pulse-bar">{seg("bullish","up")}{seg("neutral","flat")}{seg("bearish","down")}</div>'
+        f'<div class="pulse-legend">'
+        f'<span class="up">▲ שורי {s["bullish"]["pct"]}%</span>'
+        f'<span class="flat">● ניטרלי {s["neutral"]["pct"]}%</span>'
+        f'<span class="down">▼ דובי {s["bearish"]["pct"]}%</span>'
+        f'</div>'
+    )
+
+    # 2. Most-mentioned tickers (frequency bars)
+    top = pulse.get("top_tickers", [])
+    maxf = top[0][1] if top else 1
+    ticker_rows = "".join(
+        f'<div class="freq-row"><span class="freq-tk" dir="ltr">{tk}</span>'
+        f'<div class="freq-track"><div class="freq-fill" style="width:{round(f/maxf*100)}%"></div></div>'
+        f'<span class="freq-n">{f}</span></div>'
+        for tk, f in top
+    ) or '<div class="pulse-empty">אין אזכורי מניות</div>'
+
+    # 3. Topic distribution
+    topics = pulse.get("topics", [])
+    maxt = topics[0][1] if topics else 1
+    topic_rows = "".join(
+        f'<div class="freq-row"><span class="freq-tk">{_TOPIC_HE.get(tag, tag)}</span>'
+        f'<div class="freq-track"><div class="freq-fill alt" style="width:{round(c/maxt*100)}%"></div></div>'
+        f'<span class="freq-n">{c}</span></div>'
+        for tag, c in topics
+    )
+
+    # 4. Bull / bear leaderboard
+    def lb(items, cls, arrow):
+        if not items:
+            return '<div class="pulse-empty">—</div>'
+        return "".join(
+            f'<div class="lb-row"><span class="lb-tk {cls}" dir="ltr">{arrow} {i["ticker"]}</span>'
+            f'<span class="lb-net {cls}" dir="ltr">{i["net"]:+d}</span></div>'
+            for i in items
+        )
+
+    return (
+        f'<section class="section"><div class="section-label">😊 סנטימנט כללי · {total} ציוצים</div>'
+        f'<div class="pulse-card">{sentiment_bar}</div></section>'
+        f'<section class="section"><div class="section-label">🔥 המניות המדוברות</div>'
+        f'<div class="pulse-card">{ticker_rows}</div></section>'
+        f'<section class="section"><div class="section-label">🗂 פילוח נושאים</div>'
+        f'<div class="pulse-card">{topic_rows}</div></section>'
+        f'<section class="section"><div class="section-label">⚖️ שוריים מול דוביים</div>'
+        f'<div class="pulse-lb">'
+        f'<div class="lb-col"><div class="lb-head up">הכי שוריות</div>{lb(pulse.get("bulls"), "up", "▲")}</div>'
+        f'<div class="lb-col"><div class="lb-head down">הכי דוביות</div>{lb(pulse.get("bears"), "down", "▼")}</div>'
+        f'</div></section>'
+    )
+
+
+# ── Trade Ideas tab ─────────────────────────────────────────────────────────────
+
+def build_idea_card(idea: dict) -> str:
+    tk        = idea["ticker"]
+    sentiment = idea.get("sentiment", "neutral")
+    signals   = idea.get("signals", [])
+    ta        = idea.get("ta")
+
+    sig_chips = "".join(f'<span class="signal-chip">{s}</span>' for s in signals)
+    sample    = idea.get("sample", "")
+    sample_dir = "rtl" if _HEBREW_RE.search(sample) else "ltr"
+
+    ta_html = ""
+    if ta and ta.get("price"):
+        chg = ta.get("change_1d")
+        chg_html = f'<span class="idea-chg {"up" if (chg or 0) >= 0 else "down"}" dir="ltr">{chg:+.1f}%</span>' if chg is not None else ""
+        rsi = ta.get("rsi14")
+        rsi_html = f'<span class="idea-rsi" dir="ltr">RSI {rsi}</span>' if rsi is not None else ""
+        spark = ta.get("spark_3m", [])
+        spark_html = sparkline_svg(spark, "up" if (chg or 0) >= 0 else "down") if len(spark) >= 5 else ""
+        ta_html = (f'<div class="idea-ta"><span class="idea-price" dir="ltr">${ta["price"]:,.2f}</span>'
+                   f'{chg_html}{rsi_html}<span class="idea-spark">{spark_html}</span></div>')
+
+    return (
+        f'<div class="idea-card">'
+        f'<div class="idea-head">'
+        f'<span class="idea-tk" dir="ltr">{tk}</span>'
+        f'<span class="sentiment-dot {sentiment}"></span>'
+        f'<span class="mention-badge">{idea["mentions"]} אזכורים · {idea.get("sources",1)} מקורות</span>'
+        f'</div>'
+        f'{ta_html}'
+        + (f'<div class="signal-chips">{sig_chips}</div>' if sig_chips else "")
+        + (f'<p class="idea-sample" dir="{sample_dir}">{sample}</p>' if sample else "")
+        + f'</div>'
+    )
+
+
+def build_ideas_tab(ideas: list) -> str:
+    if not ideas:
+        return ('<div class="feed-empty">אין רעיונות טרייד בולטים כרגע — '
+                'המנוע מחפש מניות שחוזרות בציוצים עם שפת מסחר (פריצה, אופציות, תמיכה…)</div>')
+    intro = ('<div class="section-label">💡 מניות שעולות מהשיחה — לפי אזכורים ושפת מסחר</div>')
+    cards = "".join(build_idea_card(i) for i in ideas)
+    return f'<section class="section">{intro}<div class="ideas-grid">{cards}</div></section>'
+
+
 def build_opportunities_tab(data: dict, ta_cards_html: str = "") -> str:
     """Tab 2: technical opportunities + macro widgets (calendar, markets, F&G, heatmap)."""
     sparks  = data.get("sparklines", {})
@@ -2213,6 +2482,8 @@ def build_html(data: dict) -> str:
     news_tab     = build_news_feed_tab(data)
     ta_grid      = build_ta_grid(data.get("opportunities", []))
     opps_tab     = build_opportunities_tab(data, ta_grid)
+    pulse_tab    = build_pulse_tab(data.get("market_pulse", {}))
+    ideas_tab    = build_ideas_tab(data.get("trade_ideas", []))
 
     # Hero market-mood chip from Fear & Greed
     fg = data.get("fear_greed") or {}
@@ -2572,6 +2843,55 @@ def build_html(data: dict) -> str:
   .ind-chip.bad{{color:var(--red);background:rgba(244,63,94,.12)}}
   .ta-rationale{{font-size:.8rem;color:var(--text);line-height:1.6;margin:0}}
 
+  /* ── Market Pulse ── */
+  .pulse-card{{background:var(--card);border-radius:8px;box-shadow:var(--e1);padding:1.2rem 1.4rem}}
+  .pulse-empty{{color:var(--muted);font-size:.82rem;text-align:center;padding:.6rem}}
+  .pulse-bar{{display:flex;height:30px;border-radius:6px;overflow:hidden;background:var(--surface)}}
+  .pulse-seg{{display:flex;align-items:center;justify-content:center;font-family:'Inter',sans-serif;
+    font-size:.72rem;font-weight:700;color:#0b0d0f;transition:width .4s;white-space:nowrap}}
+  .pulse-seg.up{{background:var(--green)}}
+  .pulse-seg.down{{background:var(--red)}}
+  .pulse-seg.flat{{background:var(--muted)}}
+  .pulse-legend{{display:flex;gap:1.1rem;flex-wrap:wrap;margin-top:.7rem;font-size:.76rem;font-weight:700}}
+  .pulse-legend .up{{color:var(--green)}} .pulse-legend .down{{color:var(--red)}} .pulse-legend .flat{{color:var(--muted)}}
+  .freq-row{{display:flex;align-items:center;gap:.7rem;padding:.32rem 0}}
+  .freq-tk{{min-width:88px;font-family:'Inter',sans-serif;font-weight:700;font-size:.8rem;color:var(--white)}}
+  .freq-track{{flex:1;height:9px;background:var(--surface);border-radius:999px;overflow:hidden}}
+  .freq-fill{{height:100%;border-radius:999px;background:linear-gradient(90deg,rgba(52,211,153,.4),var(--white))}}
+  .freq-fill.alt{{background:linear-gradient(90deg,rgba(154,163,173,.3),var(--dim))}}
+  .freq-n{{min-width:26px;text-align:left;font-family:'Inter',sans-serif;font-size:.74rem;
+    font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums;direction:ltr}}
+  .pulse-lb{{display:grid;grid-template-columns:1fr 1fr;gap:1rem}}
+  .lb-col{{background:var(--card);border-radius:8px;box-shadow:var(--e1);padding:1rem 1.2rem}}
+  .lb-head{{font-family:'Rubik',sans-serif;font-size:.72rem;font-weight:800;letter-spacing:.08em;
+    margin-bottom:.7rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}}
+  .lb-head.up{{color:var(--green)}} .lb-head.down{{color:var(--red)}}
+  .lb-row{{display:flex;justify-content:space-between;align-items:center;padding:.28rem 0;font-size:.82rem}}
+  .lb-tk{{font-family:'Inter',sans-serif;font-weight:700}}
+  .lb-tk.up,.lb-net.up{{color:var(--green)}} .lb-tk.down,.lb-net.down{{color:var(--red)}}
+  .lb-net{{font-family:'Inter',sans-serif;font-weight:700;font-variant-numeric:tabular-nums}}
+
+  /* ── Trade Ideas ── */
+  .ideas-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}}
+  .idea-card{{background:var(--card);border-radius:8px;box-shadow:var(--e1);padding:1.1rem 1.3rem;
+    transition:transform .2s,box-shadow .2s}}
+  .idea-card:hover{{transform:translateY(-3px);box-shadow:var(--e2)}}
+  .idea-head{{display:flex;align-items:center;gap:.55rem;margin-bottom:.6rem}}
+  .idea-tk{{font-family:'Inter',sans-serif;font-weight:800;font-size:1.15rem;letter-spacing:.04em;color:var(--white)}}
+  .mention-badge{{margin-right:auto;font-size:.66rem;font-weight:600;color:var(--muted);
+    background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:.14rem .6rem}}
+  .idea-ta{{display:flex;align-items:center;gap:.6rem;margin-bottom:.6rem;flex-wrap:wrap}}
+  .idea-price{{font-family:'Inter',sans-serif;font-weight:700;font-size:.9rem;color:var(--white);font-variant-numeric:tabular-nums}}
+  .idea-chg{{font-family:'Inter',sans-serif;font-weight:700;font-size:.8rem;font-variant-numeric:tabular-nums}}
+  .idea-chg.up{{color:var(--green)}} .idea-chg.down{{color:var(--red)}}
+  .idea-rsi{{font-family:'Inter',sans-serif;font-size:.72rem;color:var(--muted)}}
+  .idea-spark{{margin-right:auto}}
+  .signal-chips{{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.6rem}}
+  .signal-chip{{font-size:.66rem;font-weight:600;color:var(--white);background:rgba(244,245,247,.08);
+    border:1px solid var(--border);border-radius:999px;padding:.12rem .6rem;font-family:'Inter',sans-serif}}
+  .idea-sample{{font-size:.78rem;color:var(--text);line-height:1.55;margin:0;
+    border-right:2px solid var(--border);padding-right:.7rem}}
+
   /* ── Tab Navigation — pill segmented control ── */
   .tab-nav{{display:flex;gap:.35rem;margin:1.4rem auto 1.6rem;padding:.3rem;
     background:var(--card);border:1px solid var(--border);border-radius:999px;
@@ -2599,6 +2919,8 @@ def build_html(data: dict) -> str:
     .cal-strip{{gap:.5rem}}
     .cal-pill{{min-width:120px}}
     .ta-grid{{grid-template-columns:1fr}}
+    .ideas-grid{{grid-template-columns:1fr}}
+    .pulse-lb{{grid-template-columns:1fr}}
   }}
 </style>
 </head>
@@ -2639,12 +2961,24 @@ def build_html(data: dict) -> str:
   <!-- Tab Navigation -->
   <div class="tab-nav">
     <button class="tab-btn active" id="tab-news-btn" onclick="showTab('news')">📰 חדשות</button>
+    <button class="tab-btn" id="tab-pulse-btn" onclick="showTab('pulse')">📊 דופק השוק</button>
+    <button class="tab-btn" id="tab-ideas-btn" onclick="showTab('ideas')">💡 רעיונות</button>
     <button class="tab-btn" id="tab-opps-btn" onclick="showTab('opps')">🎯 הזדמנויות</button>
   </div>
 
   <!-- ── News Tab ── -->
   <div class="tab-pane active" id="tab-news">
     {news_tab}
+  </div>
+
+  <!-- ── Market Pulse Tab ── -->
+  <div class="tab-pane" id="tab-pulse">
+    {pulse_tab}
+  </div>
+
+  <!-- ── Trade Ideas Tab ── -->
+  <div class="tab-pane" id="tab-ideas">
+    {ideas_tab}
   </div>
 
   <!-- ── Opportunities Tab ── -->
@@ -2678,7 +3012,7 @@ def build_html(data: dict) -> str:
   }}
 
   // ── Tab Navigation ──
-  var TABS = ['news', 'opps'];
+  var TABS = ['news', 'pulse', 'ideas', 'opps'];
   function showTab(name) {{
     if (TABS.indexOf(name) === -1) name = 'news';
     document.querySelectorAll('.tab-pane').forEach(function(p) {{ p.classList.remove('active'); }});
@@ -2873,11 +3207,19 @@ def main():
     prev_data = load_previous_data()
     track_summary = update_track_record(opportunities)
 
+    # 3d. Tweet aggregations — market pulse + trade ideas from ALL tweets
+    print("\n[ 3d ] מחשב דופק שוק ורעיונות טרייד מהציוצים...")
+    market_pulse = build_market_pulse(tw_feed)
+    trade_ideas  = build_trade_ideas(tw_feed, indicators)
+    print(f"✓ דופק: {market_pulse.get('total',0)} ציוצים · {len(trade_ideas)} רעיונות טרייד")
+
     # 4. Assemble full data dict
     data = {
         **news_data,
         "watchlist":       watchlist,
         "opportunities":   opportunities,
+        "market_pulse":    market_pulse,
+        "trade_ideas":     trade_ideas,
         "track_record":    track_summary,
         "prev_fear_greed": prev_data.get("fear_greed"),
         "market_us":       mkt["market_us"],
@@ -2904,6 +3246,8 @@ def main():
         "fear_greed":      fg,
         "us_news":         [{k: v for k, v in n.items() if k != "image"} for n in data.get("us_news", [])],
         "il_news":         [{k: v for k, v in n.items() if k != "image"} for n in data.get("israel_news", [])],
+        "market_pulse":    market_pulse,
+        "trade_ideas":     trade_ideas,
         "track_record":    track_summary,
         "alert_config":    wl_config.get("alerts", {}),
     }

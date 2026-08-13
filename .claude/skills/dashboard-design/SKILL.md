@@ -75,6 +75,13 @@ No fourth family. No italic.
 **Levels bar** — LTR track on `--surface`; fill gradient green→white; markers:
 price=white, entry=white, stop=red.
 
+**Pulse widgets** (`.pulse-*`) — market-pulse tab: sentiment stacked bar (green/muted/red
+segments), horizontal frequency bars (`.freq-*`, white/dim fills), bull/bear leaderboard
+(`.lb-*`, two-column, green/red). Data colors only on sentiment/direction.
+
+**Trade-idea cards** (`.idea-card`, `.signal-chip`, `.mention-badge`) — ticker + mention
+badge, sentiment dot, monochrome signal chips, optional mini-TA line + sparkline.
+
 **Inputs** — sunken `--surface`, bottom hairline, focus → white hairline.
 
 ## 6. RTL Rules

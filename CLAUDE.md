@@ -1,8 +1,10 @@
 # telegram-market-bot — Project Guide
 
 ## What This Is
-A personal stock market dashboard. It runs on GitHub Actions and publishes a Hebrew-language PWA to GitHub Pages every 30 minutes. Two tabs:
-- **📰 חדשות** — live news feed sorted newest-first (market/stock news + Israel section)
+A personal stock market dashboard. It runs on GitHub Actions and publishes a Hebrew-language PWA to GitHub Pages every 30 minutes. Four tabs:
+- **📰 חדשות** — significance-ranked news feed (authoritative RSS + top tweets, cleaned of reply/RT artifacts, newest-first)
+- **📊 דופק השוק** — infographic aggregating ALL fetched tweets: sentiment split, most-mentioned tickers, topic breakdown, bull-vs-bear leaderboard (`build_market_pulse()`)
+- **💡 רעיונות** — stocks flagged trade-worthy from tweet chatter (mentions + trade-signal language), cross-referenced with TA indicators (`build_trade_ideas()`)
 - **🎯 הזדמנויות** — technical analysis: support/resistance levels, indicators, Hebrew recommendations with rationale (watchlist + StockTwits trending, max 15 tickers), plus macro widgets (indices, Fear & Greed, sector heatmap)
 
 **Design system:** `.claude/skills/dashboard-design/SKILL.md` — read it before touching any HTML/CSS in `build_html()` or the builder functions.
