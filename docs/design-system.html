@@ -3,20 +3,21 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>מערכת עיצוב — Graphite</title>
+<title>מערכת עיצוב — Financial Broadsheet</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&family=Assistant:wght@300;400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Assistant:wght@300;400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
   :root {
-    --bg:    #212529;
-    --panel: #101316;
-    --ink:   #0b0d0f;
-    --line:  rgba(255,255,255,.07);
-    --white: #f4f5f7;
-    --dim:   #9aa3ad;
-    --faint: #5c6670;
+    --bg:    #1c1f22;
+    --panel: #14171a;
+    --ink:   #0d0f11;
+    --line:  rgba(255,255,255,.08);
+    --white: #f4f1ea;
+    --dim:   #a8a49c;
+    --faint: #6c6860;
     --up:    #34d399;
+    --accent:#e0a35a;
     --down:  #f87171;
     --warn:  #fbbf24;
     --e1: 0 8px 24px rgba(0,0,0,.35);
@@ -40,13 +41,13 @@
     text-align:center;
   }
   .hero-kicker {
-    font-family:'Rubik',sans-serif;
+    font-family:'Frank Ruhl Libre',Georgia,serif;
     font-size:.62rem; font-weight:700; letter-spacing:.5em;
     color:var(--faint); text-transform:uppercase;
     margin-bottom:1.6rem;
   }
   .hero h1 {
-    font-family:'Rubik',sans-serif;
+    font-family:'Frank Ruhl Libre',Georgia,serif;
     font-size:clamp(2.4rem,7vw,4.2rem);
     font-weight:900; letter-spacing:.06em;
     color:var(--white); line-height:1.1;
@@ -84,7 +85,7 @@
     letter-spacing:.08em;
   }
   .sec-title {
-    font-family:'Rubik',sans-serif;
+    font-family:'Frank Ruhl Libre',Georgia,serif;
     font-size:1.15rem; font-weight:700; color:var(--white);
     letter-spacing:.01em;
   }
@@ -101,14 +102,14 @@
     font-size:.66rem; color:var(--faint); line-height:1.5;
     direction:ltr; text-align:left;
   }
-  .t-display { font-family:'Rubik',sans-serif; font-size:clamp(2rem,5vw,3.2rem); font-weight:900; letter-spacing:.06em; color:var(--white); line-height:1.15 }
-  .t-h1      { font-family:'Rubik',sans-serif; font-size:1.6rem;  font-weight:800; letter-spacing:.02em; color:var(--white) }
-  .t-h2      { font-family:'Rubik',sans-serif; font-size:1.15rem; font-weight:700; letter-spacing:.01em; color:var(--white) }
-  .t-h3      { font-family:'Rubik',sans-serif; font-size:.95rem;  font-weight:700; color:var(--white) }
+  .t-display { font-family:'Frank Ruhl Libre',Georgia,serif; font-size:clamp(2rem,5vw,3.2rem); font-weight:900; letter-spacing:.06em; color:var(--white); line-height:1.15 }
+  .t-h1      { font-family:'Frank Ruhl Libre',Georgia,serif; font-size:1.6rem;  font-weight:800; letter-spacing:.02em; color:var(--white) }
+  .t-h2      { font-family:'Frank Ruhl Libre',Georgia,serif; font-size:1.15rem; font-weight:700; letter-spacing:.01em; color:var(--white) }
+  .t-h3      { font-family:'Frank Ruhl Libre',Georgia,serif; font-size:.95rem;  font-weight:700; color:var(--white) }
   .t-body    { font-family:'Assistant',sans-serif; font-size:.9rem; font-weight:400; color:var(--dim) }
   .t-button  { font-family:'Assistant',sans-serif; font-size:.82rem; font-weight:700; letter-spacing:.02em; color:var(--white) }
   .t-caption { font-family:'Assistant',sans-serif; font-size:.72rem; font-weight:600; letter-spacing:.04em; color:var(--faint) }
-  .t-label   { font-family:'Rubik',sans-serif; font-size:.62rem; font-weight:700; letter-spacing:.32em; color:var(--faint) }
+  .t-label   { font-family:'Frank Ruhl Libre',Georgia,serif; font-size:.62rem; font-weight:700; letter-spacing:.32em; color:var(--faint) }
   .t-num     { font-family:'Inter',sans-serif; font-size:1.5rem; font-weight:800; letter-spacing:-.02em; color:var(--white); font-variant-numeric:tabular-nums; direction:ltr; display:inline-block }
 
   /* ── .02 Color ── */
@@ -133,7 +134,7 @@
   .comp-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.6rem }
   .comp-cell {}
   .comp-name {
-    font-family:'Rubik',sans-serif; font-size:.62rem; font-weight:700;
+    font-family:'Frank Ruhl Libre',Georgia,serif; font-size:.62rem; font-weight:700;
     letter-spacing:.32em; color:var(--faint); margin-bottom:.9rem;
   }
   .btn-primary {
@@ -216,8 +217,8 @@
 
   <header class="hero">
     <div class="hero-kicker">Design System · 2026</div>
-    <h1>גרפיט</h1>
-    <div class="hero-sub">מערכת עיצוב מונוכרומטית · Rubik + Assistant + Inter · RTL</div>
+    <h1>ברודשיט פיננסי</h1>
+    <div class="hero-sub">מערכת עיצוב עיתונאית · Frank Ruhl Libre + Assistant + Inter · RTL</div>
   </header>
 
   <main>
