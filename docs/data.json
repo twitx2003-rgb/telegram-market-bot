@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T22:40:31.762110+00:00",
+  "generated_at": "2026-08-13T23:39:57.307984+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-13T22:40:31.762121+00:00",
+  "ta_generated_at": "2026-08-13T23:39:57.308000+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,412.7",
-      "change": "-0.17%",
+      "value": "$4,417.2",
+      "change": "-0.07%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.1741923807800158
+      "pct_raw": -0.07239163876571844
     },
     {
       "name": "נפט ברנט",
-      "value": "$86.9",
-      "change": "-0.16%",
+      "value": "$87.0",
+      "change": "-0.10%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.16079016882966163
+      "pct_raw": -0.10336510853335157
     },
     {
       "name": "ביטקוין",
-      "value": "$63,510",
-      "change": "+0.16%",
-      "direction": "up",
+      "value": "$63,398",
+      "change": "-0.02%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.15741899710757135
+      "pct_raw": -0.019176668050766153
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.959",
-      "change": "-0.78%",
-      "direction": "down",
+      "value": "2.965",
+      "change": "+0.25%",
+      "direction": "up",
       "group": "market_il",
-      "pct_raw": -0.7812761962243864
+      "pct_raw": 0.253609711561216
     }
   ],
   "sectors": [
@@ -856,6 +856,42 @@
   },
   "us_news": [
     {
+      "title_he": "הלוואי ש-Databricks יהפוך לציבור כדי שנוכל להעלות את הערכת השווי גבוה יותר לעומת השוק הפרטי. זה אחד שהייתי קונה אם הוא יונפק היום.",
+      "summary_he": "",
+      "body_en": "I wish Databricks would go public so we can ride the valuation higher vs the private market. This is one I would buy if it IPO'd today.",
+      "ticker": "",
+      "source": "@cperruna",
+      "link": "https://nitter.net/cperruna/status/2088042400560128262#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T23:17:56+00:00",
+      "relative_time": "לפני 21ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "AOC (Alexandria Ocasio-Cortez) הגישה זה עתה את הגילוי הפיננסי השנתי שלה. היא דיווחה: עד $50,000 בחיסכון עד $15,000 בבדיקת עד $1,000 בתיווך...",
+      "summary_he": "",
+      "body_en": "AOC (Alexandria Ocasio-Cortez) just filed her annual financial disclosure. She reported: Up to $50,000 in savings Up to $15,000 in checking Up to $1,000 in a brokerage account Up to $15,000 in a 401(k",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2088037381261971703#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T22:58:00+00:00",
+      "relative_time": "לפני 41ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מאת @augurinfinity: מדד הפתעת האינפלציה שלנו ירד בהתמדה במהלך החודשים האחרונים.",
+      "summary_he": "",
+      "body_en": "From @augurinfinity: Our inflation surprise index has steadily declined over the past few months.",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2088030588364079376#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-13T22:31:00+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "מניית $RDDT Reddit מזנקת ב-10% לאחר שעות העבודה עם הכללה ב-S&P 500. החזקת מניות",
       "summary_he": "",
       "body_en": "$RDDT Reddit stock jumps 10% after hours on inclusion in S&P 500. Holding shares",
@@ -864,11 +900,11 @@
       "link": "https://nitter.net/cperruna/status/2088026630203609307#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T22:15:16+00:00",
-      "relative_time": "לפני 24ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "ההכנסות השנתיות של OpenAI עלו על 40 מיליארד דולר, בערך כפול מקצב הריצה שלה בסוף 2025. ההכנסות מקצב הריצה ביולי עלו ב-20%+ MoM, מונעת על ידי Codex, מנויים ופרסומות מוקדמות...",
+      "title_he": "ההכנסות השנתיות של OpenAI הגיעו ל-40 מיליארד דולר, בערך כפול מקצב הריצה שלה בסוף 2025. ההכנסות מקצב הריצה ביולי עלו ב-20%+ MoM, מונעת על ידי Codex, מנויים ופרסומות מוקדמות...",
       "summary_he": "",
       "body_en": "OpenAI’s annualized revenue has topped $40B, roughly double its end-2025 run rate. July run-rate revenue rose 20%+ MoM, driven by Codex, subscriptions and early ad sales. - Bloomberg",
       "ticker": "",
@@ -876,7 +912,7 @@
       "link": "https://nitter.net/wallstengine/status/2088024800015139055#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-13T22:08:00+00:00",
-      "relative_time": "לפני 31ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,11 +924,11 @@
       "link": "https://nitter.net/RyanDetrick/status/2088023396047044691#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T22:02:25+00:00",
-      "relative_time": "לפני 37ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "Matic Robots יצאה עם Cues, מערכת קול ומחוות המאפשרת למשתמשים להצביע על בלגן ולומר לרובוט לנקות אותו. ערימת הראייה שלה בעלת 5 מצלמות ממפה בתים בתלת מימד,...",
+      "title_he": "Matic Robots יצאה עם Cues, מערכת קול ומחוות המאפשרת למשתמשים להצביע על בלגן ולומר לרובוט לנקות אותו. מחסנית ה-Vision 5 מצלמות שלה ממפה בתים בתלת מימד,...",
       "summary_he": "",
       "body_en": "Matic Robots is out with Cues, a voice and gesture system that lets users point at a mess and tell the robot to clean it. Its 5-camera vision stack maps homes in 3D, while the assistant handles natura",
       "ticker": "",
@@ -900,7 +936,7 @@
       "link": "https://nitter.net/wallstengine/status/2088023274454405408#m",
       "tag": "TECH",
       "published_at": "2026-08-13T22:01:56+00:00",
-      "relative_time": "לפני 38ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -912,46 +948,11 @@
       "link": "https://nitter.net/RyanDetrick/status/2088022873172496768#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T22:00:21+00:00",
-      "relative_time": "לפני 39ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "BREAKING: Reddit, $RDDT, מתווסף ל-S&P500",
-      "summary_he": "",
-      "body_en": "BREAKING: Reddit, $RDDT, is being added to the S&P500",
-      "ticker": "$RDDT",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2088016693947957751#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T21:35:47+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "המניה של Workday רושמת זינוק שיא. האם רכישה יכולה לעורר תחיית תוכנה?",
-      "summary_he": "",
-      "body_en": "Workday’s stock sees a record surge. Could a buyout spark a software revival?",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/workdays-stock-sees-a-record-surge-could-a-buyout-spark-a-software-revival-f2bd9219?mod=mw_rss_topstories",
-      "tag": "M&A",
-      "published_at": "2026-08-13T21:34:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שבירה: שכר הדירה החציוני על חוזי שכירות חדשים במנהטן שנחתם ביולי הגיע ל-5,000 דולר, לפי בלומברג",
-      "summary_he": "",
-      "body_en": "BREAKING: The median rent on new leases in Manhattan have signed in July hit $5,000, per Bloomberg",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2088015487129026598#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T21:31:00+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "טראמפ מטילה 100% תעריף על מזל\"טים בגודל מסוים",
+      "title_he": "טראמפ מטיל 100% תעריף על מזל\"טים בגודל מסוים",
       "summary_he": "",
       "body_en": "TRUMP IMPOSES 100% TARIFF ON CERTAIN SIZE DRONES",
       "ticker": "",
@@ -959,7 +960,7 @@
       "link": "https://nitter.net/wallstengine/status/2088013820921061838#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:24:22+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -971,7 +972,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2088012138963231069#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:17:41+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -983,7 +984,7 @@
       "link": "https://nitter.net/gurgavin/status/2088011959446712581#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:16:59+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -995,7 +996,7 @@
       "link": "https://nitter.net/wallstengine/status/2088011860633334246#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:16:35+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1007,7 +1008,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2088011714734264748#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T21:16:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -1019,7 +1020,7 @@
       "link": "https://nitter.net/wallstengine/status/2088010476278141281#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-13T21:11:05+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     }
   ],
@@ -1106,25 +1107,25 @@
     }
   ],
   "market_pulse": {
-    "total": 33,
+    "total": 30,
     "sentiment": {
       "bullish": {
         "count": 9,
-        "pct": 27
+        "pct": 30
       },
       "bearish": {
-        "count": 5,
-        "pct": 15
+        "count": 4,
+        "pct": 13
       },
       "neutral": {
-        "count": 19,
-        "pct": 58
+        "count": 17,
+        "pct": 57
       }
     },
     "top_tickers": [
       [
         "$RDDT",
-        5
+        4
       ],
       [
         "$SPCX",
@@ -1151,30 +1152,30 @@
         1
       ],
       [
-        "$GM",
+        "$AAPL",
         1
       ]
     ],
     "topics": [
       [
         "NEWS",
-        20
+        18
       ],
       [
         "EARNINGS",
         5
       ],
       [
-        "TECH",
-        3
-      ],
-      [
         "MACRO",
         3
       ],
       [
+        "TECH",
+        3
+      ],
+      [
         "M&A",
-        2
+        1
       ]
     ],
     "bulls": [],
@@ -1183,12 +1184,12 @@
   "trade_ideas": [
     {
       "ticker": "$RDDT",
-      "mentions": 5,
-      "sources": 5,
+      "mentions": 4,
+      "sources": 4,
       "sentiment": "bullish",
       "signals": [],
       "sample": "$RDDT Reddit stock jumps 10% after hours on inclusion in S&P 500. Holding shares",
-      "score": 11,
+      "score": 9,
       "ta": null
     },
     {
