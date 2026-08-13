@@ -1506,13 +1506,17 @@ _NEG_SIGNALS = ["miss", "misses", "plunge", "drop", "crash", "layoffs", "cuts", 
                 "fades", "slides", "cracks", "underperform", "headwind", "slumps", "sell ", "red ",
                 "lawsuit", "probe", "recall", "cut to", "misses estimates", "guidance cut"]
 _BULL_PHRASES = ["price target raised", "price target lifted", "pt raised", "target raised", "target lifted",
-                 "above resistance", "breaks resistance", "breaking above", "new high", "52-week high",
-                 "52 week high", "raised guidance", "raises guidance", "beat and raise", "upgraded to buy",
-                 "raised to overweight", "raised to buy", "double upgrade"]
+                 "above resistance", "breaks resistance", "breaking above", "broke above", "breaks above",
+                 "new high", "52-week high", "52 week high", "first time ever", "highest ever", "all time high",
+                 "record high", "record close", "raised guidance", "raises guidance", "beat and raise",
+                 "upgraded to buy", "raised to overweight", "raised to buy", "double upgrade",
+                 "softer than expected", "cooler than expected", "better than expected"]
 _BEAR_PHRASES = ["price target cut", "price target lowered", "pt cut", "target cut", "target lowered",
-                 "below support", "breaks support", "breaking below", "new low", "52-week low",
-                 "52 week low", "cut guidance", "lowered guidance", "profit warning", "downgraded to sell",
-                 "cut to underweight", "cut to sell", "double downgrade"]
+                 "below support", "breaks support", "breaking below", "broke below", "breaks below",
+                 "new low", "52-week low", "52 week low", "lowest ever", "record low",
+                 "cut guidance", "lowered guidance", "profit warning", "downgraded to sell",
+                 "cut to underweight", "cut to sell", "double downgrade",
+                 "hotter than expected", "worse than expected", "weaker than expected"]
 _BULL_EMOJI = ["🚀", "📈", "🟢", "💚", "🔥", "💪", "🤑", "📗"]
 _BEAR_EMOJI = ["📉", "🔴", "💀", "🩸", "⚠️", "😱", "📕", "🐻"]
 _HEBREW_RE   = re.compile('[\\u0590-\\u05FF]')
