@@ -213,6 +213,14 @@
    "confidence": 3,
    "engine": "rules",
    "last_pnl": -0.08
+  },
+  {
+   "ticker": "AMZN",
+   "rec_date": "2026-08-13",
+   "price_at_rec": 267.28,
+   "confidence": 4,
+   "engine": "rules",
+   "last_pnl": 0.0
   }
  ]
 }
