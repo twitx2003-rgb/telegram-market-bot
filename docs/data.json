@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T20:41:21.401574+00:00",
+  "generated_at": "2026-08-13T21:43:11.129125+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-13T20:41:21.401585+00:00",
+  "ta_generated_at": "2026-08-13T21:43:11.129135+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,406.7",
-      "change": "-1.36%",
+      "value": "$4,407.1",
+      "change": "-1.35%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.3609401231113638
+      "pct_raw": -1.3519865696698294
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.1",
-      "change": "-2.12%",
+      "value": "$87.0",
+      "change": "-2.27%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -2.1240728253540127
+      "pct_raw": -2.2701730726005955
     },
     {
       "name": "ביטקוין",
-      "value": "$63,372",
-      "change": "-0.06%",
+      "value": "$63,383",
+      "change": "-0.04%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.060337115100541155
+      "pct_raw": -0.04305288139688608
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.962",
-      "change": "-0.67%",
+      "value": "2.957",
+      "change": "-0.84%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.667270227676619
+      "pct_raw": -0.8382791804982702
     }
   ],
   "sectors": [
@@ -856,6 +856,149 @@
   },
   "us_news": [
     {
+      "title_he": "המניה של Workday רושמת זינוק שיא. האם רכישה יכולה לעורר תחיית תוכנה?",
+      "summary_he": "",
+      "body_en": "Workday’s stock sees a record surge. Could a buyout spark a software revival?",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/workdays-stock-sees-a-record-surge-could-a-buyout-spark-a-software-revival-f2bd9219?mod=mw_rss_topstories",
+      "tag": "M&A",
+      "published_at": "2026-08-13T21:34:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "שבירה: שכר הדירה החציוני על חוזי שכירות חדשים במנהטן שנחתם ביולי הגיע ל-5,000 דולר, לפי בלומברג",
+      "summary_he": "",
+      "body_en": "BREAKING: The median rent on new leases in Manhattan have signed in July hit $5,000, per Bloomberg",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2088015487129026598#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T21:31:00+00:00",
+      "relative_time": "לפני 11ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "טראמפ מטילה 100% תעריף על מזל\"טים בגודל מסוים",
+      "summary_he": "",
+      "body_en": "TRUMP IMPOSES 100% TARIFF ON CERTAIN SIZE DRONES",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088013820921061838#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T21:24:22+00:00",
+      "relative_time": "לפני 18ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$RDDT שיתווסף ל-S&P 500",
+      "summary_he": "",
+      "body_en": "$RDDT TO BE ADDED TO S&P 500",
+      "ticker": "$RDDT",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2088012138963231069#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T21:17:41+00:00",
+      "relative_time": "לפני 25ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "רק ב: REDDIT להצטרף ל-S&P 500 $RDDT",
+      "summary_he": "",
+      "body_en": "JUST IN : REDDIT TO JOIN THE S&P 500 $RDDT",
+      "ticker": "$RDDT",
+      "source": "@gurgavin",
+      "link": "https://nitter.net/gurgavin/status/2088011959446712581#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T21:16:59+00:00",
+      "relative_time": "לפני 25ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "REDDIT $RDDT שיתווסף ל-S&P 500",
+      "summary_he": "",
+      "body_en": "REDDIT $RDDT TO BE ADDED TO S&P 500",
+      "ticker": "$RDDT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088011860633334246#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T21:16:35+00:00",
+      "relative_time": "לפני 26ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מגמת עלייה יציבה של אטלנטה ברייבס של $BATRA מאז 2020",
+      "summary_he": "",
+      "body_en": "Atlanta Braves $BATRA steady uptrend since 2020",
+      "ticker": "$BATRA",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2088011714734264748#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T21:16:00+00:00",
+      "relative_time": "לפני 26ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$NU HOLDINGS Q2'26 שירי רווחים 🔹 הכנסות: $5.51B (הערכה. $5.23B) ; +50.3% YoY 🔹 EPS מדולל: $0.216 (הערכה. $0.20) 🟢 🔹 הכנסה נטו: $1.06B (אומדן $998M) 🟢; +66.8% שנה בשנה…",
+      "summary_he": "",
+      "body_en": "$NU HOLDINGS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $5.51B (Est. $5.23B) 🟢; +50.3% YoY 🔹 Diluted EPS: $0.216 (Est. $0.20) 🟢 🔹 Net Income: $1.06B (Est. $998M) 🟢; +66.8% YoY 🔹 Total Assets: $82.75B; +31.9",
+      "ticker": "$NU",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088010476278141281#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-13T21:11:05+00:00",
+      "relative_time": "לפני 31ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$CAPR אומר שה-BLA של Deramiocel נשאר בבדיקה פעילה של ה-FDA והוא ממשיך לראות נתיב לאישור למרות ההצבעה 3-9 AdCom. קפריקור גם סיימה את הרבעון השני עם ~238 מיליון דולר ב...",
+      "summary_he": "",
+      "body_en": "$CAPR says Deramiocel’s BLA remains under active FDA review and it continues to see a path to approval despite the 3-9 AdCom vote. Capricor also ended Q2 with ~$238M in cash and says it has enough liq",
+      "ticker": "$CAPR",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088008805116486063#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-13T21:04:27+00:00",
+      "relative_time": "לפני 38ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מדד הבינה המלאכותית של רמפ של יולי: Anthropic היה בשימוש על ידי 43.5% מהעסקים בארה\"ב, עלייה של 1.1 נקודות ב-MoM. OpenAI: 39.7%, +0.23pp xAI: 4.0%, +0.94pp Fable 5 של Anthropic היווה רק 6%...",
+      "summary_he": "",
+      "body_en": "Ramp’s July AI Index: Anthropic was used by 43.5% of U.S. businesses, up 1.1pp MoM. OpenAI: 39.7%, +0.23pp xAI: 4.0%, +0.94pp Anthropic’s Fable 5 accounted for just 6% of tokens purchased and 11.4% of",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088005170672398633#m",
+      "tag": "TECH",
+      "published_at": "2026-08-13T20:50:00+00:00",
+      "relative_time": "לפני 52ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "שובר: אילון מאסק הגיש בקשה ל-SEC, וחשף בעלות על 6.42 מיליארד מניות SpaceX, $SPCX, המייצגות 48.4% ממניות החברה.",
+      "summary_he": "",
+      "body_en": "BREAKING: Elon Musk has filed with the SEC, disclosing ownership of 6.42 billion SpaceX, $SPCX, shares, representing a 48.4% stake in the company.",
+      "ticker": "$SPCX",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2088003593152721305#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T20:43:44+00:00",
+      "relative_time": "לפני 59ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "אילון מאסק חשף בעלות על 6.4 מיליארד דולר מניות SPCX בהגשה חדשה של SEC, מה שהעניק לו 48% ממניות SpaceX. העמדה שלו שווה ~908 מיליארד דולר במחירים נוכחיים.",
+      "summary_he": "",
+      "body_en": "Elon Musk disclosed ownership of 6.4 billion $SPCX shares in a new SEC filing, giving him a 48% stake in SpaceX. His position is worth ~$908B at current prices.",
+      "ticker": "$SPCX",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2088002280453017812#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-13T20:38:31+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "תרשימים אלה מראים מדוע המניות ממשיכות להתרומם. שולי הרווח הם הגבוהים ביותר שנרשמו",
       "summary_he": "",
       "body_en": "These charts show why stocks keep rallying. Profit margins are the highest on record",
@@ -876,148 +1019,6 @@
       "tag": "NEWS",
       "published_at": "2026-08-13T20:20:00+00:00",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "שירי רווחים של GLOBANT $GLOB Q2'26 שטוח YoY 🔹 Adj. EPS: $1.40 (הערכה. $1.50) 🔴; -8% YoY 🔹 FCF: $12.6M (הערכה. $21.2M) 🔴 🔹 גלוב בינה מלאכותית...",
-      "summary_he": "",
-      "body_en": "GLOBANT $GLOB Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $614.4M (Est. $613M) 🟢; flat YoY 🔹 Adj. EPS: $1.40 (Est. $1.50) 🔴; -8% YoY 🔹 FCF: $12.6M (Est. $21.2M) 🔴 🔹 Glob AI ARR: $52.8M; +61% QoQ FY26 Guide: ",
-      "ticker": "$GLOB",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087997294784430116#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-13T20:18:42+00:00",
-      "relative_time": "לפני 22ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "YORK SPACE SYSTEMS $YSS Q2'26 שירי רווחים 🔹 הכנסות: $92.5M (הערכה. $91.6M) ; +10% YoY 🔹 התאמה EPS: -$0.31 (הערכה -$0.16) 🔴 🔹 EBITDA: -$25.5M (הערכה -$6.5M) 🔴 🔹...",
-      "summary_he": "",
-      "body_en": "YORK SPACE SYSTEMS $YSS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $92.5M (Est. $91.6M) 🟢; +10% YoY 🔹 Adj. EPS: -$0.31 (Est. -$0.16) 🔴 🔹 EBITDA: -$25.5M (Est. -$6.5M) 🔴 🔹 Gross Margin: 24%; +13 pts YoY Cuts",
-      "ticker": "$YSS",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087995528835637669#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-13T20:11:41+00:00",
-      "relative_time": "לפני 29ד׳",
-      "sentiment": "bearish"
-    },
-    {
-      "title_he": "דגשים ברווחים של DLOCAL $DLO Q2'26 🔹 הכנסות: $399.7M (הערכה. $369M) 🟢; +56% YoY 🔹 EPS מדולל: $0.18 (הערכה. $0.19) 🔴 🔹 רווח גולמי: $127.2M; +29% YoY, שיא 🔹 מבצע...",
-      "summary_he": "",
-      "body_en": "DLOCAL $DLO Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $399.7M (Est. $369M) 🟢; +56% YoY 🔹 Diluted EPS: $0.18 (Est. $0.19) 🔴 🔹 Gross Profit: $127.2M; +29% YoY, record 🔹 Oper Profit: $64.2M (Est. $64.3M) 🟡; +",
-      "ticker": "$DLO",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087994665526247777#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-13T20:08:15+00:00",
-      "relative_time": "לפני 32ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מניות Workday מפרסמות את היום הטוב ביותר מזה 10 שנים בדוח ההשתלטות של סילבר לייק",
-      "summary_he": "",
-      "body_en": "Workday shares post best day in 10 years on Silver Lake takeover report",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/13/workday-skyrockets-25percent-before-trading-halted-on-report-of-silver-lake-takeover.html",
-      "tag": "M&A",
-      "published_at": "2026-08-13T20:07:24+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "רווחי $AMAT: - הכנסות: 9.11 מיליארד דולר, משוער: 9 מיליארד דולר - EPS: 3.5, משוער: $3.39 https://unusualwhales.com/earnings",
-      "summary_he": "",
-      "body_en": "$AMAT earnings: - Revenue: $9.11 billion, est: $9 billion - EPS: 3.5, est: $3.39 https://unusualwhales.com/earnings",
-      "ticker": "$AMAT",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2087993816313942154#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-13T20:04:53+00:00",
-      "relative_time": "לפני 35ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "בית לבן לארח קריפטו, מנהלי שוק חיזוי בשבוע הבא: פוליטיקו",
-      "summary_he": "",
-      "body_en": "WHITE HOUSE TO HOST CRYPTO, PREDICTION MARKET EXECUTIVES NEXT WEEK: POLITICO",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087993559232455135#m",
-      "tag": "CRYPTO",
-      "published_at": "2026-08-13T20:03:52+00:00",
-      "relative_time": "לפני 36ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "חומרים יישומיים $AMAT Q3'26 שירי רווחים 🔹 הכנסות: $9.12B (הערכה. $8.99B) ; +25% YoY 🔹 התאמה EPS: $3.50 (הערכה. $3.39) 🟢; +41% משנה לשנה 🔹 הכנסה תפעולית Non-GAAP: $3.10B…",
-      "summary_he": "",
-      "body_en": "APPLIED MATERIALS $AMAT Q3’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $9.12B (Est. $8.99B) 🟢; +25% YoY 🔹 Adj. EPS: $3.50 (Est. $3.39) 🟢; +41% YoY 🔹 Non-GAAP Oper Income: $3.10B (Est. $3.03B) 🟢 🔹 Non-GAAP FCF: ",
-      "ticker": "$AMAT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2087993077806018561#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-13T20:01:57+00:00",
-      "relative_time": "לפני 38ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "שיא S&P 500, לא ממש ל-7800",
-      "summary_he": "",
-      "body_en": "S&P 500 record high, not quite to 7800",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2087992687051846037#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T20:00:24+00:00",
-      "relative_time": "לפני 40ד׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$SMH לא אחר הצהריים הטוב ביותר... אבל השוק מחזיק מעמד מצוין",
-      "summary_he": "",
-      "body_en": "$SMH not the best afternoon... but market holding up fine",
-      "ticker": "$SMH",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2087991708466176171#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T19:56:30+00:00",
-      "relative_time": "לפני 44ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "אמריקאים עשירים מחזקים את כלכלת הנסיעות כשמחירי הטיסה נוסקים ב-25% לעומת שנה שעברה",
-      "summary_he": "",
-      "body_en": "Rich Americans are propping up the travel economy as airfares soar 25% from a year ago",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/rich-americans-are-propping-up-the-travel-economy-as-airfares-soar-25-higher-than-last-year-c76067a5?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T19:51:00+00:00",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "העלאות הריבית של הפד מתמחרות, והחלפי האינפלציה ממשיכים להראות שיעורים מאולפים בטווחים @augurinfinity 1.90% 1שנה 2.40% 5yr",
-      "summary_he": "",
-      "body_en": "Fed rate hikes being priced out, and inflation swaps continue to show tame rates across terms @augurinfinity 1.90% 1yr 2.40% 5yr",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2087988548351770881#m",
-      "tag": "FED",
-      "published_at": "2026-08-13T19:43:57+00:00",
-      "relative_time": "לפני 56ד׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "תראה את המחזה הזה. הסוחר הזה הרוויח 15 מיליון דולר בן לילה. הכל במעקב באמצעות לווייתנים יוצאי דופן.",
-      "summary_he": "",
-      "body_en": "Look at this play. This trader made $15 million OVERNIGHT. All tracked with Unusual Whales.",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2087988359985844344#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T19:43:12+00:00",
-      "relative_time": "לפני 57ד׳",
-      "sentiment": "neutral"
     }
   ],
   "il_news": [
@@ -1106,45 +1107,45 @@
     "total": 31,
     "sentiment": {
       "bullish": {
-        "count": 9,
-        "pct": 29
+        "count": 7,
+        "pct": 23
       },
       "bearish": {
-        "count": 6,
-        "pct": 19
+        "count": 5,
+        "pct": 16
       },
       "neutral": {
-        "count": 16,
-        "pct": 52
+        "count": 19,
+        "pct": 61
       }
     },
     "top_tickers": [
       [
-        "$AMAT",
-        2
+        "$RDDT",
+        3
+      ],
+      [
+        "$SPCX",
+        3
       ],
       [
         "$TSLA",
         2
       ],
       [
-        "$SNDK",
-        2
-      ],
-      [
-        "$GLOB",
+        "$BATRA",
         1
       ],
       [
-        "$YSS",
+        "$NU",
         1
       ],
       [
-        "$DLO",
+        "$CAPR",
         1
       ],
       [
-        "$SMH",
+        "$AMAT",
         1
       ],
       [
@@ -1155,15 +1156,15 @@
     "topics": [
       [
         "NEWS",
-        12
+        17
       ],
       [
         "EARNINGS",
-        9
+        7
       ],
       [
         "TECH",
-        4
+        3
       ],
       [
         "MACRO",
@@ -1172,14 +1173,6 @@
       [
         "M&A",
         2
-      ],
-      [
-        "CRYPTO",
-        1
-      ],
-      [
-        "FED",
-        1
       ]
     ],
     "bulls": [],
@@ -1187,15 +1180,35 @@
   },
   "trade_ideas": [
     {
+      "ticker": "$RDDT",
+      "mentions": 3,
+      "sources": 3,
+      "sentiment": "neutral",
+      "signals": [],
+      "sample": "$RDDT TO BE ADDED TO S&P 500",
+      "score": 6,
+      "ta": null
+    },
+    {
+      "ticker": "$SPCX",
+      "mentions": 3,
+      "sources": 3,
+      "sentiment": "neutral",
+      "signals": [],
+      "sample": "BREAKING: Elon Musk has filed with the SEC, disclosing ownership of 6.42 billion SpaceX, $SPCX, shares, representing a 48.4% stake in the company.",
+      "score": 6,
+      "ta": null
+    },
+    {
       "ticker": "$AMAT",
-      "mentions": 2,
-      "sources": 2,
-      "sentiment": "bullish",
+      "mentions": 1,
+      "sources": 1,
+      "sentiment": "neutral",
       "signals": [
         "unusual"
       ],
       "sample": "$AMAT earnings: - Revenue: $9.11 billion, est: $9 billion - EPS: 3.5, est: $3.39 https://unusualwhales.com/earnings",
-      "score": 7,
+      "score": 4,
       "ta": null
     },
     {
@@ -1235,16 +1248,6 @@
         ],
         "change_1d": 3.8
       }
-    },
-    {
-      "ticker": "$SNDK",
-      "mentions": 2,
-      "sources": 1,
-      "sentiment": "neutral",
-      "signals": [],
-      "sample": "$META has joined the HBF consortium alongside $SNDK and $SKHY as the first High Bandwidth Flash spec is released. Meta’s involvement gives SanDisk another hyperscaler partner with ",
-      "score": 4,
-      "ta": null
     }
   ],
   "track_record": {
