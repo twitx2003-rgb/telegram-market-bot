@@ -19,13 +19,23 @@ A personal **Market Learning Agent** (לומד מהשוק). It runs on GitHub Ac
 | `docs/learn.json` | Auto-generated data layer (video summaries + tweet synthesis + consensus) |
 | `docs/manifest.json` / `docs/sw.js` | PWA manifest + service worker (network-first) |
 
-## Free vs Premium
+## Video Summaries — engine ladder
 
-Runs **100% free by default**. `ANTHROPIC_API_KEY` is optional:
-- **Free:** extractive Hebrew video summaries (key sentences + tickers + Hebrew-aware sentiment via `sentiment_he()`); rule-based tweet synthesis.
-- **Premium (ANTHROPIC_API_KEY):** Claude analyst-voice Hebrew summaries of each transcript (`summarize_video_claude()`).
+YouTube blocks transcript fetches from GitHub Actions' cloud IPs (documented in the
+live logs). The agent handles this with a graded ladder (all optional secrets):
 
-No secrets are required for the free mode. Set `ANTHROPIC_API_KEY` at **Settings → Secrets and variables → Actions** to enable premium summaries.
+| Secret | Engine | Quality |
+|---|---|---|
+| `GEMINI_API_KEY` | **Gemini watches the video directly** (YouTube URL, free tier — no IP-block) | ⭐ best — true video comprehension |
+| `WEBSHARE_PROXY_USERNAME`/`PASSWORD` or `YT_PROXY_URL` | residential proxy → transcript → Claude/free summary | high (paid proxy) |
+| `ANTHROPIC_API_KEY` | Claude over a transcript (only when a transcript is reachable) | high |
+| *(none)* | extractive summary from the video's **full description** + `sentiment_he()` | basic, free |
+
+**Recommended free path:** get a free key at Google AI Studio → add `GEMINI_API_KEY` at
+**Settings → Secrets and variables → Actions**. Free tier allows 8h of YouTube video/day
+(Micha's ~3 videos are far under). Model override: `GEMINI_MODEL` (default `gemini-2.5-flash`).
+
+Tweet synthesis is always free (rule-based). Set secrets at **Settings → Secrets and variables → Actions**.
 
 ## How It Works (pipeline in `learn_agent.py:main()`)
 
