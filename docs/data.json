@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T10:00:30.579860+00:00",
+  "generated_at": "2026-08-14T11:04:25.435848+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-14T10:00:30.579870+00:00",
+  "ta_generated_at": "2026-08-14T11:04:25.435858+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "14.57",
-      "change": "-0.41%",
+      "value": "14.53",
+      "change": "-0.68%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.4101161995898872
+      "pct_raw": -0.6835269993164828
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,409.8",
-      "change": "-0.24%",
+      "value": "$4,407.2",
+      "change": "-0.30%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.23979730341144365
+      "pct_raw": -0.2986155099086014
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.7",
-      "change": "+0.74%",
-      "direction": "up",
+      "value": "$87.0",
+      "change": "-0.13%",
+      "direction": "down",
       "group": "commodities",
-      "pct_raw": 0.7350407717928111
+      "pct_raw": -0.12633513265188864
     },
     {
       "name": "ביטקוין",
-      "value": "$62,724",
-      "change": "-1.09%",
+      "value": "$62,784",
+      "change": "-1.00%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.0947179798341673
+      "pct_raw": -0.9996190365661859
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,200",
-      "change": "-0.39%",
+      "value": "4,203",
+      "change": "-0.33%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.38682288207948706
+      "pct_raw": -0.32658191822406624
     },
     {
       "name": "דולר/שקל",
-      "value": "2.951",
-      "change": "-0.20%",
+      "value": "2.949",
+      "change": "-0.29%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.19612484360735297
+      "pct_raw": -0.28742433976939014
     }
   ],
   "sectors": [
@@ -856,15 +856,86 @@
   },
   "us_news": [
     {
-      "title_he": "$SPY +0.1% $QQQ +0.1% $SMH +0.2% שמן, זהב, כסף עולה קצת @finviz_com",
+      "title_he": "TOPIX של יפן עולה בשקט 8 ישר לשיא של $EWJ $DXJ @soberlook https://thedailyshot.com/subscribe/",
       "summary_he": "",
-      "body_en": "$SPY +0.1% $QQQ +0.1% $SMH +0.2% Oil, gold, silver up a little @finviz_com",
-      "ticker": "$SPY",
+      "body_en": "Japan's TOPIX quietly up 8 straight to a record high $EWJ $DXJ @soberlook https://thedailyshot.com/subscribe/",
+      "ticker": "$EWJ",
       "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2088203334893101116#m",
-      "tag": "ENERGY",
-      "published_at": "2026-08-14T09:57:26+00:00",
-      "relative_time": "לפני 2ד׳",
+      "link": "https://nitter.net/MikeZaccardi/status/2088219331784053069#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T11:01:00+00:00",
+      "relative_time": "לפני 3ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "התשואה הכוללת של האוצר לטווח ארוך של $TLT, מותאמת לאינפלציה... ירידה של יותר מ-50% מהשיא של 2020",
+      "summary_he": "",
+      "body_en": "$TLT long-term Treasurys total return, adjusted for inflation... down by more than 50% from the 2020 high",
+      "ticker": "$TLT",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2088218073769652416#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-14T10:56:00+00:00",
+      "relative_time": "לפני 8ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "התעריפים נמצאים בשיא רב שנים, אך המניות הגיעו לשיאים חדשים. הנה כמה זמן עשויה ההתרסה להימשך.",
+      "summary_he": "",
+      "body_en": "Rates are at multiyear highs, yet stocks hit fresh records. Here’s how long the defiance may last.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/rates-are-at-multiyear-highs-yet-stocks-hit-fresh-records-heres-how-long-the-defiance-may-last-b29a5d14?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T10:49:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "מייקל הרטנט מ-BofA אומר שזכייה בסנאט של הרפובליקה הדמוקרטית בתוספת גרג אבוט המחזיק בטקסס עשויה לשלוח מניות, במיוחד בינה מלאכותית, \"לקרוע לתוך 2027 מבעבעת\". אם הדמוקרטים יקחו את הסנאט...",
+      "summary_he": "",
+      "body_en": "BofA’s Michael Hartnett says a GOP Senate win plus Greg Abbott holding Texas could send stocks, especially AI, “ripping into bubbly 2027.” If Democrats take the Senate and unseat Abbott, he sees a 10%",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088210096690266353#m",
+      "tag": "MACRO",
+      "published_at": "2026-08-14T10:24:18+00:00",
+      "relative_time": "לפני 39ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "המניות בארה\"ב הושתקו לאחר שבכירי טראמפ נשבעו בידוד כלכלי וחסימה על הנמל של איראן. תשואות האוצר ל-10 שנים עלו +1.6 נקודות ל-4.66% ונפט גולמי מסוג ברנט +0.7% ל...",
+      "summary_he": "",
+      "body_en": "U.S. stocks were muted after Trump officials vowed economic isolation and a port blockade of Iran. 10-year treasury yields rose +1.6bp to 4.66% and Brent crude +0.7% to $88/bbl. Korean chipmakers SK H",
+      "ticker": "",
+      "source": "@garyblack00",
+      "link": "https://nitter.net/garyblack00/status/2088209121237422481#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-14T10:20:26+00:00",
+      "relative_time": "לפני 43ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "JPMorgan חידשה את $SNDK ב-Overweight עם 2,250 $ PT הקוראת לסנדיסק לאחד הנהנים המובהקים מהסקת AI המעצבת מחדש את הביקוש ל-NAND. סנדיסק כבר ננעל...",
+      "summary_he": "",
+      "body_en": "JPMorgan resumed $SNDK at Overweight with a $2,250 PT calling Sandisk one of the clearest beneficiaries of AI inference reshaping NAND demand. Sandisk has already locked in ~$94B of long-term contract",
+      "ticker": "$SNDK",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2088205315477242281#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-14T10:05:18+00:00",
+      "relative_time": "לפני 58ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Quantinuum $QNT ו-Quanta Computer חתמו על עסקת פיתוח לבנייה משותפת של תשתית חומרה, יכולות הנדסת מערכות וייצור לעתיד...",
+      "summary_he": "",
+      "body_en": "Quantinuum $QNT and Quanta Computer signed a development deal to jointly build hardware infrastructure, systems engineering and manufacturing capabilities for future quantum systems.",
+      "ticker": "$QNT",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088204325210464284#m",
+      "tag": "M&A",
+      "published_at": "2026-08-14T10:01:22+00:00",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -876,7 +947,7 @@
       "link": "https://nitter.net/wallstengine/status/2088189994309763526#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-14T09:04:25+00:00",
-      "relative_time": "לפני 55ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
@@ -899,7 +970,7 @@
       "link": "https://nitter.net/wallstengine/status/2088186324184613025#m",
       "tag": "BANKS",
       "published_at": "2026-08-14T08:49:50+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -911,19 +982,7 @@
       "link": "https://nitter.net/wallstengine/status/2088184948209631233#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-14T08:44:22+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "טייוואן 🇹🇼 העלתה את תחזית צמיחת התמ\"ג לשנת 2026 ל-11.05% מ-9.64%. גם צמיחת התמ\"ג ברבעון השני תוקנה מעט גבוה יותר ל-12.93% בשנה שעברה.",
-      "summary_he": "",
-      "body_en": "Taiwan 🇹🇼 raised its 2026 GDP growth forecast to 11.05% from 9.64%. Q2 GDP growth was also revised slightly higher to 12.93% YoY.",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2088184133101220205#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-14T08:41:08+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -935,7 +994,7 @@
       "link": "https://nitter.net/unusual_whales/status/2088151622845419607#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T06:31:57+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -958,68 +1017,8 @@
       "link": "https://nitter.net/unusual_whales/status/2088106084535857480#m",
       "tag": "MACRO",
       "published_at": "2026-08-14T03:31:00+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "$NOW - $127.25, מתחיל ליצור שלב 1 ליד ה-200d ma. תן לזה זמן להיווצר. אין עמדה.",
-      "summary_he": "",
-      "body_en": "$NOW - $127.25, is starting to form a stage 1 near the 200d ma. Give it time to form. No position.",
-      "ticker": "$NOW",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2088104066949800316#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-14T03:22:59+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$MELI - $1,828.25, מתחיל ליצור שלב 1 ליד ה-200d ma. יש סבלנות. אין עמדה.",
-      "summary_he": "",
-      "body_en": "$MELI - $1,828.25, is starting to form a stage 1 near the 200d ma. Have patience. No position.",
-      "ticker": "$MELI",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2088103733187985882#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-14T03:21:39+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "זמן מהנה כל כך להצטרף ל-@KellyCNBC ב-@CNBCTheExchange בשידור חי מניו ג'רזי. כיסינו הרבה קרקע: * השקעות במהלך העשור האבוד * סנטימנט בשוק * דור Z...",
-      "summary_he": "",
-      "body_en": "Such a fun time to join @KellyCNBC on @CNBCTheExchange live from New Jersey. We covered a lot of ground: * Investing during the lost decade * Market sentiment * Gen Z feeling the market is rigged * An",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2088095212136468717#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-14T02:47:48+00:00",
       "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "בדוק את התכונה החדשה הזו... 'למה זה זז' ממש בחלק העליון כשאתה מרחף מעל מניה. אפילו AH @finviz_com $AMAT",
-      "summary_he": "",
-      "body_en": "Check out that new feature.. 'why it moved' right at the top when you hover over a stock.. even AH @finviz_com $AMAT",
-      "ticker": "$AMAT",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2088071891890106800#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-14T01:15:08+00:00",
-      "relative_time": "לפני 8ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "פראי לראות $SNDK עלייה של כמעט 50% מאז שהקרן למודעות למצבים של ליאופולד אשנברנר נפלה 😳",
-      "summary_he": "",
-      "body_en": "Wild to see $SNDK up nearly 50% since Leopold Aschenbrenner’s Situational Awareness fund went under 😳",
-      "ticker": "$SNDK",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2088067489574035697#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-14T00:57:38+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "neutral"
+      "sentiment": "bullish"
     }
   ],
   "il_news": [
@@ -1105,40 +1104,44 @@
     }
   ],
   "market_pulse": {
-    "total": 29,
+    "total": 35,
     "sentiment": {
       "bullish": {
-        "count": 12,
-        "pct": 41
+        "count": 13,
+        "pct": 37
       },
       "bearish": {
-        "count": 3,
-        "pct": 10
+        "count": 4,
+        "pct": 11
       },
       "neutral": {
-        "count": 14,
-        "pct": 48
+        "count": 18,
+        "pct": 51
       }
     },
     "top_tickers": [
+      [
+        "$SNDK",
+        3
+      ],
       [
         "$RDDT",
         3
       ],
       [
-        "$SNDK",
-        2
-      ],
-      [
-        "$SPY",
+        "$EWJ",
         1
       ],
       [
-        "$QQQ",
+        "$DXJ",
         1
       ],
       [
-        "$SMH",
+        "$TLT",
+        1
+      ],
+      [
+        "$QNT",
         1
       ],
       [
@@ -1148,32 +1151,28 @@
       [
         "$AEHR",
         1
-      ],
-      [
-        "$NOW",
-        1
       ]
     ],
     "topics": [
       [
         "NEWS",
-        18
+        20
       ],
       [
         "EARNINGS",
-        4
+        5
       ],
       [
         "MACRO",
-        3
+        4
       ],
       [
         "TECH",
-        2
+        3
       ],
       [
-        "ENERGY",
-        1
+        "M&A",
+        2
       ],
       [
         "BANKS",
@@ -1184,6 +1183,18 @@
     "bears": []
   },
   "trade_ideas": [
+    {
+      "ticker": "$SNDK",
+      "mentions": 3,
+      "sources": 2,
+      "sentiment": "bullish",
+      "signals": [
+        "support"
+      ],
+      "sample": "JPMorgan resumed $SNDK at Overweight with a $2,250 PT calling Sandisk one of the clearest beneficiaries of AI inference reshaping NAND demand. Sandisk has already locked in ~$94B o",
+      "score": 9,
+      "ta": null
+    },
     {
       "ticker": "$RDDT",
       "mentions": 3,
@@ -1203,16 +1214,6 @@
         "upgrade"
       ],
       "sample": "Stifel Upgrades $LUNR to Buy from Hold, PT $26 Analyst comments: “LUNR posted a Q2 revenue/EBITDA miss, but it’s the backlog surge that is important. Q2 revenue of $206m (+310% y/y",
-      "score": 5,
-      "ta": null
-    },
-    {
-      "ticker": "$SNDK",
-      "mentions": 2,
-      "sources": 2,
-      "sentiment": "bullish",
-      "signals": [],
-      "sample": "JPMorgan Resumes Coverage on $SNDK with Overweight Rating, PT $2,250 Analyst comments: “In our view, Sandisk is in many respects uniquely positioned to capture the ongoing structur",
       "score": 5,
       "ta": null
     },
