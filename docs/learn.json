@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T21:31:49.891548+00:00",
+  "generated_at": "2026-08-14T22:21:02.544611+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -60,19 +60,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 32,
+    "total": 30,
     "sentiment": {
       "bullish": {
         "count": 7,
-        "pct": 22
+        "pct": 23
       },
       "bearish": {
         "count": 3,
-        "pct": 9
+        "pct": 10
       },
       "neutral": {
-        "count": 22,
-        "pct": 69
+        "count": 20,
+        "pct": 67
       }
     },
     "top_tickers": [
@@ -82,22 +82,10 @@
       ],
       [
         "$AMD",
-        4
+        3
       ],
       [
         "$CBRS",
-        2
-      ],
-      [
-        "$AMZN",
-        2
-      ],
-      [
-        "$NVDA",
-        2
-      ],
-      [
-        "$GOOGL",
         2
       ],
       [
@@ -106,6 +94,18 @@
       ],
       [
         "$PLTR",
+        1
+      ],
+      [
+        "$ABSI",
+        1
+      ],
+      [
+        "$XNDU",
+        1
+      ],
+      [
+        "$SANM",
         1
       ]
     ],
@@ -116,15 +116,7 @@
         "url": "https://nitter.net/RyanDetrick/status/2088352770533265532#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Another fun and informative @CNBCMorningCall Sheet with @MorganLBrennan ☕ ⏰ 🌅 Our panel today included @Stephanie_Link and @JimPethokoukis. We covered on a lot, including the resilient consumer, strong earnings, rates, i",
-        "handle": "RyanDetrick",
-        "url": "https://nitter.net/RyanDetrick/status/2088352553733910728#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "U.S. stocks were muted after Trump officials vowed economic isolation and a port blockade of Iran. 10-year treasury yields rose +1.6bp to 4.66% and Brent crude +0.7% to $88/bbl. Korean chipmakers SK Hynix and Samsung sur",
@@ -132,7 +124,7 @@
         "url": "https://nitter.net/garyblack00/status/2088209121237422481#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
       },
       {
         "text": "Bonds are up 18.5% since the cycle high in interest rates in Oct 2023 (10yr 4.997%) ...goes to show that fixed income's grueling losses will always be confined to Aug 2020 to Oct 2023, due to duration. $AGG can continue ",
@@ -140,21 +132,21 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088374101517734398#m",
         "sentiment": "bearish",
         "tag": "FED",
-        "time": "לפני 15ד׳"
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "RT by @DivesTech: Great to be on @CNBCOvertime with @MelissaLeeCNBC discussing software, broader tech, and the AI Revolution focus of this market 📺🏆🐂🍿🎯👇 @CNBC @CNBCtech https://www.cnbc.com/video/2026/08/14/dan-ives-work",
+        "handle": "DivesTech",
+        "url": "https://nitter.net/DivesTech/status/2088377047324196918#m",
+        "sentiment": "bearish",
+        "tag": "M&A",
+        "time": "לפני 53ד׳"
       },
       {
         "text": "Anthropic’s preliminary Q2 revenue surged more than 14x YoY to over $11.5B as AI demand continues to accelerate. The company also turned adjusted operating income positive ahead of a potential mega-IPO.",
         "handle": "StockSavvyShay",
         "url": "https://nitter.net/StockSavvyShay/status/2088373437475827823#m",
         "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 18ד׳"
-      },
-      {
-        "text": "BREAKING: Berkshire Hathaway, $BRK.B, just updated its Q2 stock portfolio. New: D.R. Horton, $DHI Exited: Constellation Brands, $STZ Biggest buys: Alphabet, $GOOGL: +48.1M shares Delta, $DAL: +17.5M Macy’s, $M: +4.3M Len",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088360023831544131#m",
-        "sentiment": "bearish",
         "tag": "EARNINGS",
         "time": "לפני 1ש׳"
       },
@@ -164,7 +156,7 @@
         "url": "https://nitter.net/cperruna/status/2088042400560128262#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 22ש׳"
+        "time": "לפני 23ש׳"
       },
       {
         "text": "$AMD DISCLOSES $565M $SPCX STAKE AMD reported 3.31M SpaceX Class A shares at the end of Q2, worth about $565.5M, making it AMD’s largest disclosed equity holding. Other notable positions: $SANM — $291.3M $NTNX — $210.8M ",
@@ -172,7 +164,15 @@
         "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 40ד׳"
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "ANTHROPIC PRELIMINARY 2Q REVENUE EXCEEDS $11.5B",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2088372670832447871#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
       }
     ]
   },
