@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:05:29.926718+00:00",
+  "generated_at": "2026-08-14T19:09:54.885804+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -60,22 +60,42 @@
     ]
   },
   "x_synthesis": {
-    "total": 28,
+    "total": 29,
     "sentiment": {
       "bullish": {
         "count": 6,
         "pct": 21
       },
       "bearish": {
-        "count": 2,
-        "pct": 7
+        "count": 3,
+        "pct": 10
       },
       "neutral": {
         "count": 20,
-        "pct": 71
+        "pct": 69
       }
     },
     "top_tickers": [
+      [
+        "$SPCX",
+        2
+      ],
+      [
+        "$NVDA",
+        2
+      ],
+      [
+        "$AAPL",
+        2
+      ],
+      [
+        "$SNDK",
+        2
+      ],
+      [
+        "$MU",
+        2
+      ],
       [
         "$NBIS",
         2
@@ -85,27 +105,7 @@
         2
       ],
       [
-        "$AMD",
-        1
-      ],
-      [
-        "$NVDA",
-        1
-      ],
-      [
-        "$AAPL",
-        1
-      ],
-      [
-        "$XLF",
-        1
-      ],
-      [
-        "$TGT",
-        1
-      ],
-      [
-        "$NKE",
+        "$VIXEQ",
         1
       ]
     ],
@@ -127,6 +127,14 @@
         "time": "לפני 8ש׳"
       },
       {
+        "text": "One of the more interesting summertime stories... $VIXEQ 'average stock' VIX plunges further... from 50 to 37 Of course, there's natural pressure as the earnings season progresses",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2088341889967669510#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 1ד׳"
+      },
+      {
         "text": "I wish Databricks would go public so we can ride the valuation higher vs the private market. This is one I would buy if it IPO'd today.",
         "handle": "cperruna",
         "url": "https://nitter.net/cperruna/status/2088042400560128262#m",
@@ -135,12 +143,20 @@
         "time": "לפני 19ש׳"
       },
       {
+        "text": "Liverpool FC has sold a roughly 30% stake to a consortium led by Jeff Bezos of Amazon, $AMZN, per Bloomberg.",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088340629780910470#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 6ד׳"
+      },
+      {
         "text": "Apple, $AAPL, proposes to take a 15% cut of purchases made outside the App Store, per TC",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2088336130882314567#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 20ד׳"
+        "time": "לפני 24ד׳"
       },
       {
         "text": "BREAKING: Earnings are growing faster than stock prices, per Bloomberg.",
@@ -148,7 +164,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088331318174318685#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 39ד׳"
+        "time": "לפני 43ד׳"
       },
       {
         "text": "Nebius, $NBIS, is up 45% in a week.",
@@ -156,23 +172,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088326788334362642#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 57ד׳"
-      },
-      {
-        "text": "OPENAI CFO TO HOLD INVESTOR MEETINGS TODAY - CNBC",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088277828500623452#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 4ש׳"
-      },
-      {
-        "text": "This was a very fun moment as my 3-month-old son watched me on live TV for the first time talking about $NVDA and $AMD while at his grandpa’s house. Apparently he recognized me on the screen and smiled. Easily the cooles",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2088337015838568809#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 16ד׳"
+        "time": "לפני 1ש׳"
       }
     ]
   },
