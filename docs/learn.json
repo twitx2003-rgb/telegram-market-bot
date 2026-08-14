@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T20:58:21.402616+00:00",
+  "generated_at": "2026-08-14T21:31:49.891548+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -60,53 +60,53 @@
     ]
   },
   "x_synthesis": {
-    "total": 30,
+    "total": 32,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 20
+        "count": 7,
+        "pct": 22
       },
       "bearish": {
-        "count": 4,
-        "pct": 13
+        "count": 3,
+        "pct": 9
       },
       "neutral": {
-        "count": 20,
-        "pct": 67
+        "count": 22,
+        "pct": 69
       }
     },
     "top_tickers": [
       [
         "$SPCX",
-        5
-      ],
-      [
-        "$GOOGL",
-        5
+        6
       ],
       [
         "$AMD",
         4
       ],
       [
-        "$AMZN",
-        3
+        "$CBRS",
+        2
       ],
       [
-        "$DAL",
-        3
+        "$AMZN",
+        2
       ],
       [
         "$NVDA",
         2
       ],
       [
-        "$KR",
+        "$GOOGL",
         2
       ],
       [
-        "$COF",
-        2
+        "$AGG",
+        1
+      ],
+      [
+        "$PLTR",
+        1
       ]
     ],
     "top_tweets": [
@@ -132,7 +132,23 @@
         "url": "https://nitter.net/garyblack00/status/2088209121237422481#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 10ש׳"
+        "time": "לפני 11ש׳"
+      },
+      {
+        "text": "Bonds are up 18.5% since the cycle high in interest rates in Oct 2023 (10yr 4.997%) ...goes to show that fixed income's grueling losses will always be confined to Aug 2020 to Oct 2023, due to duration. $AGG can continue ",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2088374101517734398#m",
+        "sentiment": "bearish",
+        "tag": "FED",
+        "time": "לפני 15ד׳"
+      },
+      {
+        "text": "Anthropic’s preliminary Q2 revenue surged more than 14x YoY to over $11.5B as AI demand continues to accelerate. The company also turned adjusted operating income positive ahead of a potential mega-IPO.",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2088373437475827823#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 18ד׳"
       },
       {
         "text": "BREAKING: Berkshire Hathaway, $BRK.B, just updated its Q2 stock portfolio. New: D.R. Horton, $DHI Exited: Constellation Brands, $STZ Biggest buys: Alphabet, $GOOGL: +48.1M shares Delta, $DAL: +17.5M Macy’s, $M: +4.3M Len",
@@ -140,15 +156,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088360023831544131#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 38ד׳"
-      },
-      {
-        "text": "Live Cattle futures plunged to nearly the lowest level of the year. Good news for this beef-eater #BrazilianSteakhouse @augurinfinity https://augurdigest.com/p/augur-digest-303",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088356572376314071#m",
-        "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 51ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "I wish Databricks would go public so we can ride the valuation higher vs the private market. This is one I would buy if it IPO'd today.",
@@ -156,23 +164,15 @@
         "url": "https://nitter.net/cperruna/status/2088042400560128262#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 21ש׳"
+        "time": "לפני 22ש׳"
       },
       {
-        "text": "INTEL CEO BUYS $10M OF $INTC Intel CEO Lip-Bu Tan purchased 105,263 shares at $95 each, worth roughly $10M, according to a new SEC filing. The purchase lifts his total beneficial ownership to about 1.33M shares.",
+        "text": "$AMD DISCLOSES $565M $SPCX STAKE AMD reported 3.31M SpaceX Class A shares at the end of Q2, worth about $565.5M, making it AMD’s largest disclosed equity holding. Other notable positions: $SANM — $291.3M $NTNX — $210.8M ",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088364050715705714#m",
+        "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 22ד׳"
-      },
-      {
-        "text": "BERKSHIRE HATHAWAY DISCLOSES Q2 PORTFOLIO Berkshire reported a $299.3B U.S. equity portfolio as of June 30. Notable additions by share count: $GOOGL +45% → $28.2B | 9.4% of portfolio $GOOG +658% → $9.6B | 3.2% $DAL +44% ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088363397377409473#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 24ד׳"
+        "time": "לפני 40ד׳"
       }
     ]
   },
