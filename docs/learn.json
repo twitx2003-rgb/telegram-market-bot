@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:01:10.639739+00:00",
+  "generated_at": "2026-08-14T19:05:29.926718+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -85,11 +85,11 @@
         2
       ],
       [
-        "$NVDA",
+        "$AMD",
         1
       ],
       [
-        "$AMD",
+        "$NVDA",
         1
       ],
       [
@@ -140,7 +140,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088336130882314567#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 16ד׳"
+        "time": "לפני 20ד׳"
       },
       {
         "text": "BREAKING: Earnings are growing faster than stock prices, per Bloomberg.",
@@ -148,7 +148,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088331318174318685#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 35ד׳"
+        "time": "לפני 39ד׳"
       },
       {
         "text": "Nebius, $NBIS, is up 45% in a week.",
@@ -156,7 +156,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088326788334362642#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 53ד׳"
+        "time": "לפני 57ד׳"
       },
       {
         "text": "OPENAI CFO TO HOLD INVESTOR MEETINGS TODAY - CNBC",
@@ -172,7 +172,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088337015838568809#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 12ד׳"
+        "time": "לפני 16ד׳"
       }
     ]
   },
