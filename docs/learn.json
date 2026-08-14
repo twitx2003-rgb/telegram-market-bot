@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T23:20:29.408898+00:00",
+  "generated_at": "2026-08-14T23:46:55.780165+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -60,25 +60,25 @@
     ]
   },
   "x_synthesis": {
-    "total": 28,
+    "total": 33,
     "sentiment": {
       "bullish": {
         "count": 7,
-        "pct": 25
+        "pct": 21
       },
       "bearish": {
-        "count": 3,
-        "pct": 11
+        "count": 5,
+        "pct": 15
       },
       "neutral": {
-        "count": 18,
+        "count": 21,
         "pct": 64
       }
     },
     "top_tickers": [
       [
         "$SPCX",
-        5
+        4
       ],
       [
         "$AMD",
@@ -97,15 +97,15 @@
         1
       ],
       [
+        "$NTNX",
+        1
+      ],
+      [
         "$XNDU",
         1
       ],
       [
         "$SANM",
-        1
-      ],
-      [
-        "$NTNX",
         1
       ]
     ],
@@ -140,7 +140,7 @@
         "url": "https://nitter.net/DivesTech/status/2088377047324196918#m",
         "sentiment": "bearish",
         "tag": "M&A",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "Anthropic’s preliminary Q2 revenue surged more than 14x YoY to over $11.5B as AI demand continues to accelerate. The company also turned adjusted operating income positive ahead of a potential mega-IPO.",
@@ -151,6 +151,14 @@
         "time": "לפני 2ש׳"
       },
       {
+        "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
+      },
+      {
         "text": "$AMD DISCLOSES $565M $SPCX STAKE AMD reported 3.31M SpaceX Class A shares at the end of Q2, worth about $565.5M, making it AMD’s largest disclosed equity holding. Other notable positions: $SANM — $291.3M $NTNX — $210.8M ",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
@@ -159,20 +167,12 @@
         "time": "לפני 2ש׳"
       },
       {
-        "text": "The median rent sits at $5,295, up 6% from last July, though it held flat month over month after climbing 3% in both June and July from May's previous record of $5,125. Read more: https://unusualwhales.com/news/manhattan",
+        "text": "Between February 2025 and February 2026, US employers added a lackluster 156,000 nonfarm payroll jobs, an average of just 13,000 jobs each month. Read more: https://unusualwhales.com/news/women-outpace-men-us-job-growth-",
         "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088399769060479488#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 22ד׳"
-      },
-      {
-        "text": "Just 30% of the 615 workplace retirement plan participants polled think they will reach $1 million in savings before retiring. Read more: https://unusualwhales.com/news/schroders-credit-card-debt-retirement-savings",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088392974560330129#m",
+        "url": "https://nitter.net/unusual_whales/status/2088408073950159351#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 49ד׳"
+        "time": "לפני 15ד׳"
       }
     ]
   },
