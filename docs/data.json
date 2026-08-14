@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T11:04:25.435848+00:00",
+  "generated_at": "2026-08-14T12:08:06.549529+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -258,45 +258,45 @@
     {
       "ticker": "TEVA",
       "price": 36.52,
-      "setup_type": "מומנטום",
+      "setup_type": "פריצה",
       "levels": {
         "support": 33.61,
         "resistance": 36.99,
-        "entry": null,
+        "entry": 37.17,
         "stop": 32.94
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($33.70) שמעל SMA50 ($33.51), RSI ב-65.9. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
+      "rationale_he": "המחיר $36.52 נמצא 1.3% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +4.9%. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
       "indicators": {
-        "rsi14": 65.9,
-        "sma20": 33.7,
-        "sma50": 33.51,
-        "sma200": 31.44,
+        "rsi14": 66.2,
+        "sma20": 33.63,
+        "sma50": 33.56,
+        "sma200": 31.31,
         "pct_from_52w_high": -2.3,
-        "vol_ratio": 0.96,
+        "vol_ratio": 1.04,
         "change_1d_pct": -0.6,
         "change_1w_pct": 4.9,
-        "change_1m_pct": 15.7,
+        "change_1m_pct": 13.5,
         "spark_3m": [
-          35.31,
-          34.07,
-          34.07,
-          34.52,
-          33.08,
-          34.19,
-          33.58,
-          33.69,
-          31.48,
-          34.22,
-          33.31,
-          34.64,
-          33.24,
-          32.18,
-          32.22,
-          31.35,
-          30.81,
-          34.71,
+          35.81,
+          34.29,
+          34.32,
+          34.61,
+          35.32,
+          32.83,
+          33.26,
+          34.56,
+          32.91,
+          32.2,
+          33.62,
+          33.88,
+          35.29,
+          33.1,
+          31.82,
+          32.03,
+          31.18,
+          31.67,
           34.46,
           34.81,
           36.48
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-14T11:04:25.435858+00:00",
+  "ta_generated_at": "2026-08-14T12:08:06.549541+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "14.53",
-      "change": "-0.68%",
+      "value": "14.51",
+      "change": "-0.82%",
       "direction": "down",
       "group": "market_us",
-      "pct_raw": -0.6835269993164828
+      "pct_raw": -0.8202323991797744
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,407.2",
-      "change": "-0.30%",
-      "direction": "down",
+      "value": "$4,422.8",
+      "change": "+0.05%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.2986155099086014
+      "pct_raw": 0.05429372907430426
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.0",
-      "change": "-0.13%",
-      "direction": "down",
+      "value": "$87.2",
+      "change": "+0.10%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.12633513265188864
+      "pct_raw": 0.10336510853336789
     },
     {
       "name": "ביטקוין",
-      "value": "$62,784",
+      "value": "$62,783",
       "change": "-1.00%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.9996190365661859
+      "pct_raw": -1.002047363089694
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -856,42 +856,102 @@
   },
   "us_news": [
     {
-      "title_he": "TOPIX של יפן עולה בשקט 8 ישר לשיא של $EWJ $DXJ @soberlook https://thedailyshot.com/subscribe/",
+      "title_he": "שיא $SPY הבוקר... יחד עם כל כך הרבה תעודות סל רחבות אחרות",
       "summary_he": "",
-      "body_en": "Japan's TOPIX quietly up 8 straight to a record high $EWJ $DXJ @soberlook https://thedailyshot.com/subscribe/",
-      "ticker": "$EWJ",
+      "body_en": "$SPY record high this morning... along with so many other broad ETFs",
+      "ticker": "$SPY",
       "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2088219331784053069#m",
+      "link": "https://nitter.net/MikeZaccardi/status/2088233539590291733#m",
       "tag": "NEWS",
-      "published_at": "2026-08-14T11:01:00+00:00",
-      "relative_time": "לפני 3ד׳",
+      "published_at": "2026-08-14T11:57:27+00:00",
+      "relative_time": "לפני 10ד׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "התשואה הכוללת של האוצר לטווח ארוך של $TLT, מותאמת לאינפלציה... ירידה של יותר מ-50% מהשיא של 2020",
+      "title_he": "תשואות משרד האוצר השתנו מעט מכיוון שארה\"ב מאיימת על איראן בסנקציות כלכליות נוספות",
       "summary_he": "",
-      "body_en": "$TLT long-term Treasurys total return, adjusted for inflation... down by more than 50% from the 2020 high",
-      "ticker": "$TLT",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2088218073769652416#m",
+      "body_en": "Treasury yields are little changed as U.S. threatens Iran with more economic sanctions",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html",
       "tag": "MACRO",
-      "published_at": "2026-08-14T10:56:00+00:00",
-      "relative_time": "לפני 8ד׳",
+      "published_at": "2026-08-14T11:52:36+00:00",
       "sentiment": "neutral"
     },
     {
-      "title_he": "התעריפים נמצאים בשיא רב שנים, אך המניות הגיעו לשיאים חדשים. הנה כמה זמן עשויה ההתרסה להימשך.",
+      "title_he": "Jefferies יוזם $AEHR ב-Buy עם $175 PT, בטענה שהשוק עדיין מעריך את Aehr כמו חברת SiC, גם כשה-AI הפך ליותר מ-90% מההכנסות. ג'פריס מתקשר לאהר...",
       "summary_he": "",
-      "body_en": "Rates are at multiyear highs, yet stocks hit fresh records. Here’s how long the defiance may last.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/rates-are-at-multiyear-highs-yet-stocks-hit-fresh-records-heres-how-long-the-defiance-may-last-b29a5d14?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-14T10:49:00+00:00",
+      "body_en": "Jefferies initiates $AEHR at Buy with a $175 PT, arguing the market is still valuing Aehr like a SiC company even as AI has become >90% of revenue. Jefferies calls Aehr the “only vendor offering both ",
+      "ticker": "$AEHR",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2088230417744953568#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-14T11:45:03+00:00",
+      "relative_time": "לפני 22ד׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "מייקל הרטנט מ-BofA אומר שזכייה בסנאט של הרפובליקה הדמוקרטית בתוספת גרג אבוט המחזיק בטקסס עשויה לשלוח מניות, במיוחד בינה מלאכותית, \"לקרוע לתוך 2027 מבעבעת\". אם הדמוקרטים יקחו את הסנאט...",
+      "title_he": "איך השוק הסתגל לאובדן יצוא הורמוז? מספר גורמים משמעותיים, למעשה. @OxfordEconomics @soberlook https://thedailyshot.com/subscribe/",
+      "summary_he": "",
+      "body_en": "How has the market adjusted to the loss of Hormuz exports? Several significant factors, actually. @OxfordEconomics @soberlook https://thedailyshot.com/subscribe/",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2088229398046519480#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T11:41:00+00:00",
+      "relative_time": "לפני 26ד׳",
+      "sentiment": "bearish"
+    },
+    {
+      "title_he": "JPMES: מניות מומנטום זולות יותר מהשוק בהתבסס על P/E קדימה. @soberlook https://thedailyshot.com/subscribe/",
+      "summary_he": "",
+      "body_en": "JPMES: Momentum stocks are now cheaper than the market based on forward P/E. @soberlook https://thedailyshot.com/subscribe/",
+      "ticker": "",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2088226882168766491#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T11:31:00+00:00",
+      "relative_time": "לפני 36ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "$RSP רוכב על רצף ניצחונות של 5 ימים... שיא כמובן",
+      "summary_he": "",
+      "body_en": "$RSP riding a 5-day winning streak... record high of course",
+      "ticker": "$RSP",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2088224365544349734#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T11:21:00+00:00",
+      "relative_time": "לפני 46ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "זה עתה קיבלתי את זה מ-@_TheStockCube",
+      "summary_he": "",
+      "body_en": "Just got this from @_TheStockCube",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088221925168529732#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T11:11:18+00:00",
+      "relative_time": "לפני 56ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "לפי הדיווחים, אשתו של מנכ\"ל אנתרופיק, דריו אמודיי, קאמי קלארק, הקימה את מה שהיא כינתה \"חברת פורנו מהפכנית\" שבה ביקשה השקעה מג'פרי...",
+      "summary_he": "",
+      "body_en": "BREAKING: Anthropic’s CEO Dario Amodei’s wife, Cami Clark, reportedly started what she called a 'revolutionary porn company' where she sought investment from Jeffrey Epstein, per WSJ",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2088218323578229000#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-14T10:57:00+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מייקל הרטנט מ-BofA אומר שזכייה בסנאט של הרפובליקה הדמוקרטית בתוספת גרג אבוט המחזיק בטקסס עשויה לשלוח מניות, במיוחד בינה מלאכותית, \"לקרוע לתוך 2027 המבעבעת\". אם הדמוקרטים יקחו את הסנאט...",
       "summary_he": "",
       "body_en": "BofA’s Michael Hartnett says a GOP Senate win plus Greg Abbott holding Texas could send stocks, especially AI, “ripping into bubbly 2027.” If Democrats take the Senate and unseat Abbott, he sees a 10%",
       "ticker": "",
@@ -899,7 +959,7 @@
       "link": "https://nitter.net/wallstengine/status/2088210096690266353#m",
       "tag": "MACRO",
       "published_at": "2026-08-14T10:24:18+00:00",
-      "relative_time": "לפני 39ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,11 +971,11 @@
       "link": "https://nitter.net/garyblack00/status/2088209121237422481#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-14T10:20:26+00:00",
-      "relative_time": "לפני 43ד׳",
+      "relative_time": "לפני 1ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "JPMorgan חידשה את $SNDK ב-Overweight עם 2,250 $ PT הקוראת לסנדיסק לאחד הנהנים המובהקים מהסקת AI המעצבת מחדש את הביקוש ל-NAND. סנדיסק כבר ננעל...",
+      "title_he": "JPMorgan חידשה את $SNDK ב-Overweight עם 2,250 $ PT שקרא לסנדיסק אחד המרוויחים המובהקים מהסקת AI המעצבת מחדש את הביקוש ל-NAND. סנדיסק כבר ננעל...",
       "summary_he": "",
       "body_en": "JPMorgan resumed $SNDK at Overweight with a $2,250 PT calling Sandisk one of the clearest beneficiaries of AI inference reshaping NAND demand. Sandisk has already locked in ~$94B of long-term contract",
       "ticker": "$SNDK",
@@ -923,7 +983,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2088205315477242281#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-14T10:05:18+00:00",
-      "relative_time": "לפני 58ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -935,11 +995,11 @@
       "link": "https://nitter.net/wallstengine/status/2088204325210464284#m",
       "tag": "M&A",
       "published_at": "2026-08-14T10:01:22+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "Stifel משדרגת $ LUNR לקנייה מ-Hold, PT $26 הערות אנליסטים: \"LUNR רשמה פספוס של הכנסות/EBITDA ברבעון השני, אבל זה הזינוק בצבר שחשוב. הכנסות ברבעון השני של 206 מיליון דולר...",
+      "title_he": "Stifel משדרגת $ LUNR לקנייה מ-Hold, PT $26 הערות אנליסטים: \"LUNR רשמה החמצה של הכנסות/EBITDA ברבעון השני, אבל זה הזינוק בצבר שחשוב. הכנסות ברבעון השני של 206 מיליון דולר...",
       "summary_he": "",
       "body_en": "Stifel Upgrades $LUNR to Buy from Hold, PT $26 Analyst comments: “LUNR posted a Q2 revenue/EBITDA miss, but it’s the backlog surge that is important. Q2 revenue of $206m (+310% y/y) was driven by a di",
       "ticker": "$LUNR",
@@ -947,19 +1007,8 @@
       "link": "https://nitter.net/wallstengine/status/2088189994309763526#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-14T09:04:25+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
-    },
-    {
-      "title_he": "תשואות משרד האוצר עולות ככל שארה\"ב מאיימת על איראן בסנקציות כלכליות נוספות",
-      "summary_he": "",
-      "body_en": "Treasury yields rise as U.S. threatens Iran with more economic sanctions",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html",
-      "tag": "MACRO",
-      "published_at": "2026-08-14T08:55:17+00:00",
-      "sentiment": "neutral"
     },
     {
       "title_he": "JPMorgan חוזר לסיקור על $SNDK עם דירוג עודף משקל, PT $2,250 הערות אנליסטים: \"לדעתנו, סנדיסק ממוקמת במובנים רבים באופן ייחודי ללכוד את...",
@@ -970,58 +1019,19 @@
       "link": "https://nitter.net/wallstengine/status/2088186324184613025#m",
       "tag": "BANKS",
       "published_at": "2026-08-14T08:49:50+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "Jefferies יוזם סיקור על $AEHR עם Buy, PT $175 הערות אנליסטים: \"אנו רואים בחברה את הספק היחיד שמציע גם צריבה ברמת רקיק וגם ברמת החבילה...",
-      "summary_he": "",
-      "body_en": "Jefferies Initiates Coverage on $AEHR with Buy, PT $175 Analyst comments: “We view the company as the only vendor offering both wafer- and package-level burn-in qualified into AI production. AEHR has ",
-      "ticker": "$AEHR",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2088184948209631233#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-14T08:44:22+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "סיכוי של 53% שההערכה האנתרופית תגיע ל-2 טריליון דולר, לפולימרקט:",
-      "summary_he": "",
-      "body_en": "53% chance Anthropic valuation to hit $2 trillion, per Polymarket:",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2088151622845419607#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-14T06:31:57+00:00",
-      "relative_time": "לפני 4ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "כיצד סחר נישה נישה הפך לאמוד בזמן אמת למהלך המכס הבא של טראמפ",
-      "summary_he": "",
-      "body_en": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
-      "tag": "NEWS",
-      "published_at": "2026-08-14T05:00:01+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "לארי קודלו אמר שהוא שוחח עם טראמפ על הצמדת רווחי הון לאינפלציה, כמו גם ביצוע שינויים במסי רווחי הון על מכירת בתים שיגנו יותר...",
-      "summary_he": "",
-      "body_en": "Larry Kudlow said he had spoken to Trump about indexing capital gains to inflation, as well as making changes to capital gains taxes on home sales that would shield more of homeowners’ profits from ta",
-      "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2088106084535857480#m",
-      "tag": "MACRO",
-      "published_at": "2026-08-14T03:31:00+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "\"תוך שעה הבחורים אצלך\": הותר לפרסום שמו של עורך הדין הפלילי שנאשם בסחיטה באיומים",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860706",
+      "tag": "כללי",
+      "published_at": "2026-08-14T14:39:00+00:00"
+    },
     {
       "title_he": "חיפשו ב-ChatGPT מה העונש על שריפת חנות - ואז יצאו להצית את ג'פניקה",
       "summary_he": "",
@@ -1093,30 +1103,22 @@
       "link": "https://news.walla.co.il/item/3860592",
       "tag": "כללי",
       "published_at": "2026-08-13T19:16:00+00:00"
-    },
-    {
-      "title_he": "יו\"ר קק\"ל נגד הליכוד: \"הם מפחדים - לא אפסיק לדבר\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860589",
-      "tag": "כללי",
-      "published_at": "2026-08-13T19:13:00+00:00"
     }
   ],
   "market_pulse": {
-    "total": 35,
+    "total": 33,
     "sentiment": {
       "bullish": {
-        "count": 13,
-        "pct": 37
+        "count": 14,
+        "pct": 42
       },
       "bearish": {
         "count": 4,
-        "pct": 11
+        "pct": 12
       },
       "neutral": {
-        "count": 18,
-        "pct": 51
+        "count": 15,
+        "pct": 45
       }
     },
     "top_tickers": [
@@ -1126,18 +1128,18 @@
       ],
       [
         "$RDDT",
-        3
+        2
       ],
       [
-        "$EWJ",
+        "$SPY",
         1
       ],
       [
-        "$DXJ",
+        "$AEHR",
         1
       ],
       [
-        "$TLT",
+        "$RSP",
         1
       ],
       [
@@ -1149,22 +1151,22 @@
         1
       ],
       [
-        "$AEHR",
+        "$NOW",
         1
       ]
     ],
     "topics": [
       [
         "NEWS",
-        20
+        18
       ],
       [
         "EARNINGS",
-        5
+        6
       ],
       [
         "MACRO",
-        4
+        3
       ],
       [
         "TECH",
@@ -1196,13 +1198,27 @@
       "ta": null
     },
     {
-      "ticker": "$RDDT",
-      "mentions": 3,
-      "sources": 3,
+      "ticker": "$SPY",
+      "mentions": 1,
+      "sources": 1,
       "sentiment": "bullish",
-      "signals": [],
-      "sample": "$RDDT Reddit stock jumps 10% after hours on inclusion in S&P 500. Holding shares",
-      "score": 7,
+      "signals": [
+        "long"
+      ],
+      "sample": "$SPY record high this morning... along with so many other broad ETFs",
+      "score": 5,
+      "ta": null
+    },
+    {
+      "ticker": "$AEHR",
+      "mentions": 1,
+      "sources": 1,
+      "sentiment": "bullish",
+      "signals": [
+        "calls"
+      ],
+      "sample": "Jefferies initiates $AEHR at Buy with a $175 PT, arguing the market is still valuing Aehr like a SiC company even as AI has become >90% of revenue. Jefferies calls Aehr the “only v",
+      "score": 5,
       "ta": null
     },
     {
@@ -1218,14 +1234,12 @@
       "ta": null
     },
     {
-      "ticker": "$AEHR",
-      "mentions": 1,
-      "sources": 1,
+      "ticker": "$RDDT",
+      "mentions": 2,
+      "sources": 2,
       "sentiment": "bullish",
-      "signals": [
-        "catalyst"
-      ],
-      "sample": "Jefferies Initiates Coverage on $AEHR with Buy, PT $175 Analyst comments: “We view the company as the only vendor offering both wafer- and package-level burn-in qualified into AI p",
+      "signals": [],
+      "sample": "$RDDT Reddit stock jumps 10% after hours on inclusion in S&P 500. Holding shares",
       "score": 5,
       "ta": null
     },
