@@ -1,0 +1,8 @@
+{
+  "youtube": {
+    "handle": "@Micha.Stocks",
+    "fallback_channel_id": "UCQpDtNipLcAr13nU9MtXAIg",
+    "max_videos": 3,
+    "transcript_languages": ["iw", "he", "en"]
+  }
+}
