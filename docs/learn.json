@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T20:29:34.731538+00:00",
+  "generated_at": "2026-08-14T20:58:21.402616+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -60,53 +60,53 @@
     ]
   },
   "x_synthesis": {
-    "total": 27,
+    "total": 30,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 26
+        "count": 6,
+        "pct": 20
       },
       "bearish": {
         "count": 4,
-        "pct": 15
+        "pct": 13
       },
       "neutral": {
-        "count": 16,
-        "pct": 59
+        "count": 20,
+        "pct": 67
       }
     },
     "top_tickers": [
       [
+        "$SPCX",
+        5
+      ],
+      [
         "$GOOGL",
-        3
+        5
       ],
       [
         "$AMD",
+        4
+      ],
+      [
+        "$AMZN",
         3
       ],
       [
         "$DAL",
-        2
+        3
       ],
       [
-        "$AMZN",
-        2
-      ],
-      [
-        "$RDDT",
+        "$NVDA",
         2
       ],
       [
         "$KR",
-        1
+        2
       ],
       [
         "$COF",
-        1
-      ],
-      [
-        "$NUE",
-        1
+        2
       ]
     ],
     "top_tweets": [
@@ -116,7 +116,7 @@
         "url": "https://nitter.net/RyanDetrick/status/2088352770533265532#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 38ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Another fun and informative @CNBCMorningCall Sheet with @MorganLBrennan ☕ ⏰ 🌅 Our panel today included @Stephanie_Link and @JimPethokoukis. We covered on a lot, including the resilient consumer, strong earnings, rates, i",
@@ -124,7 +124,7 @@
         "url": "https://nitter.net/RyanDetrick/status/2088352553733910728#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 39ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "U.S. stocks were muted after Trump officials vowed economic isolation and a port blockade of Iran. 10-year treasury yields rose +1.6bp to 4.66% and Brent crude +0.7% to $88/bbl. Korean chipmakers SK Hynix and Samsung sur",
@@ -140,7 +140,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088360023831544131#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 9ד׳"
+        "time": "לפני 38ד׳"
       },
       {
         "text": "Live Cattle futures plunged to nearly the lowest level of the year. Good news for this beef-eater #BrazilianSteakhouse @augurinfinity https://augurdigest.com/p/augur-digest-303",
@@ -148,7 +148,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088356572376314071#m",
         "sentiment": "bearish",
         "tag": "NEWS",
-        "time": "לפני 23ד׳"
+        "time": "לפני 51ד׳"
       },
       {
         "text": "I wish Databricks would go public so we can ride the valuation higher vs the private market. This is one I would buy if it IPO'd today.",
@@ -159,20 +159,20 @@
         "time": "לפני 21ש׳"
       },
       {
-        "text": "BREAKING: Druckenmiller's Duquesene has updated its 13F. New positions: -$GOOGL: $120.2 million $FOXA: $115.0 million $CDW: $104.6 million $BTDR: $64.7 million $DAL: $56.5 million $AMD: $42.3 million Largest holdings: $T",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088356848282005680#m",
+        "text": "INTEL CEO BUYS $10M OF $INTC Intel CEO Lip-Bu Tan purchased 105,263 shares at $95 each, worth roughly $10M, according to a new SEC filing. The purchase lifts his total beneficial ownership to about 1.33M shares.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2088364050715705714#m",
         "sentiment": "neutral",
         "tag": "TECH",
         "time": "לפני 22ד׳"
       },
       {
-        "text": "PayPal $PYPL is in talks to sell itself to a group including Stripe and Advent International, WSJ reports. Stripe and Advent offered $60.50/share in July, but PayPal viewed the bid as too low. The sides have continued ne",
+        "text": "BERKSHIRE HATHAWAY DISCLOSES Q2 PORTFOLIO Berkshire reported a $299.3B U.S. equity portfolio as of June 30. Notable additions by share count: $GOOGL +45% → $28.2B | 9.4% of portfolio $GOOG +658% → $9.6B | 3.2% $DAL +44% ",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088351657180668257#m",
+        "url": "https://nitter.net/wallstengine/status/2088363397377409473#m",
         "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 42ד׳"
+        "tag": "EARNINGS",
+        "time": "לפני 24ד׳"
       }
     ]
   },
