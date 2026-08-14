@@ -231,6 +231,41 @@ def summarize_video_claude(client, video: dict, transcript: str) -> dict:
         return summarize_video_free(video, transcript)
 
 
+def summarize_video_gemini(video: dict) -> dict:
+    """Gemini watches the YouTube video directly (bypasses transcript IP-block).
+    Free tier supports YouTube URLs. Returns None if unavailable/failed."""
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        return None
+    try:
+        import requests
+        model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
+        prompt = (
+            "צפה בסרטון של מיכה סטוקס (עברית, שוק ההון) וסכם בעברית. "
+            "החזר JSON בלבד: {\"bullets\":[4-6 תובנות/המלצות עיקריות כמחרוזות], "
+            "\"tickers\":[{\"ticker\":\"$XXX\",\"sentiment\":\"bullish|bearish|neutral\"}]}. "
+            "טיקרים בפורמט $XXX. בלי טקסט מחוץ ל-JSON."
+        )
+        body = {"contents": [{"parts": [
+            {"file_data": {"file_uri": video.get("link", "")}},
+            {"text": prompt},
+        ]}]}
+        r = requests.post(url, json=body, timeout=120)
+        r.raise_for_status()
+        raw = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        data = json.loads(re.search(r"\{.*\}", raw, re.DOTALL).group(0))
+        data["has_transcript"] = True          # Gemini watched the actual video
+        data["engine"] = "gemini"
+        data.setdefault("bullets", []); data.setdefault("tickers", [])
+        print(f"    ✓ Gemini סיכם את הסרטון ({len(data['bullets'])} נקודות)")
+        return data
+    except Exception as e:
+        msg = str(e).splitlines()[0] if str(e) else e.__class__.__name__
+        print(f"    ✗ Gemini נכשל: {msg}")
+        return None
+
+
 # ── Tweet synthesis ─────────────────────────────────────────────────────────────
 
 def synthesize_tweets(tweets: list) -> dict:
@@ -490,8 +525,16 @@ def main():
             out_videos.append(prev_vids[vid]); continue
         print(f"  ⇣ מתמלל ומסכם {vid}...")
         transcript = fetch_transcript(vid, langs)
-        summary = (summarize_video_claude(client, v, transcript) if client
-                   else summarize_video_free(v, transcript))
+        summary = None
+        if transcript:
+            # Best when captions are reachable: Claude (or free) over the transcript
+            summary = summarize_video_claude(client, v, transcript) if client \
+                else summarize_video_free(v, transcript)
+        else:
+            # Transcript IP-blocked → Gemini watches the video directly (free, reliable)
+            summary = summarize_video_gemini(v)
+            if summary is None:
+                summary = summarize_video_free(v, "")  # last resort: description-based
         v["summary"] = summary
         out_videos.append(v)
     micha = {"channel_id": ch, "handle": yt.get("handle", ""), "videos": out_videos}
