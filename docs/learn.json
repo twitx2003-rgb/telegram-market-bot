@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:09:54.885804+00:00",
+  "generated_at": "2026-08-14T19:47:07.165148+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -60,24 +60,24 @@
     ]
   },
   "x_synthesis": {
-    "total": 29,
+    "total": 26,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 21
+        "count": 4,
+        "pct": 15
       },
       "bearish": {
         "count": 3,
-        "pct": 10
+        "pct": 12
       },
       "neutral": {
-        "count": 20,
-        "pct": 69
+        "count": 19,
+        "pct": 73
       }
     },
     "top_tickers": [
       [
-        "$SPCX",
+        "$AAPL",
         2
       ],
       [
@@ -85,15 +85,7 @@
         2
       ],
       [
-        "$AAPL",
-        2
-      ],
-      [
-        "$SNDK",
-        2
-      ],
-      [
-        "$MU",
+        "$SPCX",
         2
       ],
       [
@@ -105,7 +97,15 @@
         2
       ],
       [
+        "$AGG",
+        1
+      ],
+      [
         "$VIXEQ",
+        1
+      ],
+      [
+        "$AMZN",
         1
       ]
     ],
@@ -116,7 +116,7 @@
         "url": "https://nitter.net/wallstengine/status/2088288662371127715#m",
         "sentiment": "bearish",
         "tag": "M&A",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
         "text": "U.S. stocks were muted after Trump officials vowed economic isolation and a port blockade of Iran. 10-year treasury yields rose +1.6bp to 4.66% and Brent crude +0.7% to $88/bbl. Korean chipmakers SK Hynix and Samsung sur",
@@ -124,7 +124,7 @@
         "url": "https://nitter.net/garyblack00/status/2088209121237422481#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 8ש׳"
+        "time": "לפני 9ש׳"
       },
       {
         "text": "One of the more interesting summertime stories... $VIXEQ 'average stock' VIX plunges further... from 50 to 37 Of course, there's natural pressure as the earnings season progresses",
@@ -132,7 +132,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088341889967669510#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 1ד׳"
+        "time": "לפני 39ד׳"
       },
       {
         "text": "I wish Databricks would go public so we can ride the valuation higher vs the private market. This is one I would buy if it IPO'd today.",
@@ -140,7 +140,7 @@
         "url": "https://nitter.net/cperruna/status/2088042400560128262#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 19ש׳"
+        "time": "לפני 20ש׳"
       },
       {
         "text": "Liverpool FC has sold a roughly 30% stake to a consortium led by Jeff Bezos of Amazon, $AMZN, per Bloomberg.",
@@ -148,7 +148,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088340629780910470#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 6ד׳"
+        "time": "לפני 44ד׳"
       },
       {
         "text": "Apple, $AAPL, proposes to take a 15% cut of purchases made outside the App Store, per TC",
@@ -156,7 +156,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088336130882314567#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 24ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "BREAKING: Earnings are growing faster than stock prices, per Bloomberg.",
@@ -164,7 +164,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088331318174318685#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 43ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Nebius, $NBIS, is up 45% in a week.",
