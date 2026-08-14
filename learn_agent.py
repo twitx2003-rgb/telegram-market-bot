@@ -87,37 +87,57 @@ def fetch_channel_videos(channel_id: str, n: int = 3) -> list:
     vids = []
     for e in feed.entries[:n]:
         vid = e.get("yt_videoid") or (e.get("id", "").split(":")[-1])
+        # Full description (media:description) — richer than the truncated summary;
+        # this is the best signal when the transcript is IP-blocked.
+        desc = getattr(e, "media_description", "") or getattr(e, "summary", "") or ""
         vids.append({
             "video_id":  vid,
             "title":     e.get("title", ""),
             "link":      e.get("link", f"https://www.youtube.com/watch?v={vid}"),
             "published": e.get("published", ""),
-            "description": (getattr(e, "summary", "") or "")[:600],
+            "description": desc[:2500],
         })
     print(f"  ✓ נמצאו {len(vids)} סרטונים")
     return vids
 
 
+def _proxy_config():
+    """Optional residential proxy so transcripts work from cloud IPs (YouTube blocks
+    datacenter IPs). Configured via secrets — no-op when unset."""
+    try:
+        wu, wp = os.environ.get("WEBSHARE_PROXY_USERNAME"), os.environ.get("WEBSHARE_PROXY_PASSWORD")
+        if wu and wp:
+            from youtube_transcript_api.proxies import WebshareProxyConfig
+            return WebshareProxyConfig(proxy_username=wu, proxy_password=wp)
+        http_url = os.environ.get("YT_PROXY_URL")
+        if http_url:
+            from youtube_transcript_api.proxies import GenericProxyConfig
+            return GenericProxyConfig(http_url=http_url, https_url=http_url)
+    except Exception as e:
+        print(f"    ⚠ proxy config: {e}")
+    return None
+
+
 def fetch_transcript(video_id: str, languages: list) -> str:
-    """Transcript via youtube-transcript-api. Robust to library versions; None on failure."""
+    """Transcript via youtube-transcript-api (proxy-aware). '' on failure/IP-block."""
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
     except Exception:
         return ""
     try:
-        # Newer API (instance .fetch) and older (classmethod .get_transcript)
-        segments = None
-        if hasattr(YouTubeTranscriptApi, "get_transcript"):
-            segments = YouTubeTranscriptApi.get_transcript(video_id, languages=languages)
-        else:
-            api = YouTubeTranscriptApi()
+        proxy = _proxy_config()
+        # Newer API (instance .fetch); fall back to legacy classmethod.
+        try:
+            api = YouTubeTranscriptApi(proxy_config=proxy) if proxy else YouTubeTranscriptApi()
             fetched = api.fetch(video_id, languages=languages)
             segments = [{"text": s.text} for s in fetched]
+        except TypeError:
+            segments = YouTubeTranscriptApi.get_transcript(video_id, languages=languages)
         text = " ".join(seg["text"] for seg in segments if seg.get("text"))
-        text = re.sub(r"\s+", " ", text).strip()
-        return text
+        return re.sub(r"\s+", " ", text).strip()
     except Exception as e:
-        print(f"    ⚠ תמלול {video_id} נכשל: {e}")
+        msg = str(e).splitlines()[0] if str(e) else e.__class__.__name__
+        print(f"    ⚠ תמלול {video_id} נכשל: {msg}")
         return ""
 
 

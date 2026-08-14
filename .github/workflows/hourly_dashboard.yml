@@ -33,6 +33,9 @@ jobs:
       - name: Run learning agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WEBSHARE_PROXY_USERNAME: ${{ secrets.WEBSHARE_PROXY_USERNAME }}
+          WEBSHARE_PROXY_PASSWORD: ${{ secrets.WEBSHARE_PROXY_PASSWORD }}
+          YT_PROXY_URL: ${{ secrets.YT_PROXY_URL }}
         run: python learn_agent.py
 
       - name: Push to GitHub Pages
