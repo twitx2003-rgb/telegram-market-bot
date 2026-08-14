@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T04:08:25.348394+00:00",
+  "generated_at": "2026-08-14T05:55:02.765596+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -258,45 +258,45 @@
     {
       "ticker": "TEVA",
       "price": 36.52,
-      "setup_type": "פריצה",
+      "setup_type": "מומנטום",
       "levels": {
         "support": 33.61,
         "resistance": 36.99,
-        "entry": 37.17,
+        "entry": null,
         "stop": 32.94
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $36.52 נמצא 1.3% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +4.9%. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
+      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($33.70) שמעל SMA50 ($33.51), RSI ב-65.9. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
       "indicators": {
-        "rsi14": 66.2,
-        "sma20": 33.63,
-        "sma50": 33.56,
-        "sma200": 31.31,
+        "rsi14": 65.9,
+        "sma20": 33.7,
+        "sma50": 33.51,
+        "sma200": 31.44,
         "pct_from_52w_high": -2.3,
-        "vol_ratio": 1.04,
+        "vol_ratio": 0.96,
         "change_1d_pct": -0.6,
         "change_1w_pct": 4.9,
-        "change_1m_pct": 13.5,
+        "change_1m_pct": 15.7,
         "spark_3m": [
-          35.81,
-          34.29,
-          34.32,
-          34.61,
-          35.32,
-          32.83,
-          33.26,
-          34.56,
-          32.91,
-          32.2,
-          33.62,
-          33.88,
-          35.29,
-          33.1,
-          31.82,
-          32.03,
-          31.18,
-          31.67,
+          35.31,
+          34.07,
+          34.07,
+          34.52,
+          33.08,
+          34.19,
+          33.58,
+          33.69,
+          31.48,
+          34.22,
+          33.31,
+          34.64,
+          33.24,
+          32.18,
+          32.22,
+          31.35,
+          30.81,
+          34.71,
           34.46,
           34.81,
           36.48
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-14T04:08:25.348406+00:00",
+  "ta_generated_at": "2026-08-14T05:55:02.765606+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,379.7",
-      "change": "-0.92%",
+      "value": "$4,372.7",
+      "change": "-1.08%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.9207311555515298
+      "pct_raw": -1.0790878653515479
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.1",
-      "change": "+0.06%",
+      "value": "$87.4",
+      "change": "+0.40%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 0.05742506029632637
+      "pct_raw": 0.401975422074203
     },
     {
       "name": "ביטקוין",
-      "value": "$63,327",
-      "change": "-0.14%",
+      "value": "$63,306",
+      "change": "-0.18%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.14300320286807805
+      "pct_raw": -0.17658979699191088
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.961",
-      "change": "+0.14%",
+      "value": "2.958",
+      "change": "+0.03%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.13863997565345992
+      "pct_raw": 0.027051702566527305
     }
   ],
   "sectors": [
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "איך סחר נישה נישה הפך לאמוד בזמן אמת למהלך המכס הבא של טראמפ",
+      "summary_he": "",
+      "body_en": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T05:00:01+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "לארי קודלו אמר שהוא שוחח עם טראמפ על הצמדת רווחי הון לאינפלציה, כמו גם ביצוע שינויים במסי רווחי הון על מכירת בתים שיגנו יותר...",
       "summary_he": "",
       "body_en": "Larry Kudlow said he had spoken to Trump about indexing capital gains to inflation, as well as making changes to capital gains taxes on home sales that would shield more of homeowners’ profits from ta",
@@ -864,7 +875,7 @@
       "link": "https://nitter.net/unusual_whales/status/2088106084535857480#m",
       "tag": "MACRO",
       "published_at": "2026-08-14T03:31:00+00:00",
-      "relative_time": "לפני 36ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
@@ -876,7 +887,7 @@
       "link": "https://nitter.net/cperruna/status/2088104066949800316#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T03:22:59+00:00",
-      "relative_time": "לפני 44ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -888,7 +899,7 @@
       "link": "https://nitter.net/cperruna/status/2088103733187985882#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T03:21:39+00:00",
-      "relative_time": "לפני 46ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,7 +911,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2088095212136468717#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T02:47:48+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -912,7 +923,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2088071891890106800#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T01:15:08+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -924,7 +935,7 @@
       "link": "https://nitter.net/wallstengine/status/2088069246723277053#m",
       "tag": "TECH",
       "published_at": "2026-08-14T01:04:37+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -936,7 +947,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2088067489574035697#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T00:57:38+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 4ש׳",
       "sentiment": "neutral"
     },
     {
@@ -948,7 +959,7 @@
       "link": "https://nitter.net/cperruna/status/2088042400560128262#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T23:17:56+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -960,7 +971,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2088030588364079376#m",
       "tag": "MACRO",
       "published_at": "2026-08-13T22:31:00+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -972,7 +983,7 @@
       "link": "https://nitter.net/cperruna/status/2088026630203609307#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T22:15:16+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
     },
     {
@@ -984,7 +995,7 @@
       "link": "https://nitter.net/wallstengine/status/2088024800015139055#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-13T22:08:00+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -996,7 +1007,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2088023396047044691#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T22:02:25+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1008,23 +1019,19 @@
       "link": "https://nitter.net/wallstengine/status/2088023274454405408#m",
       "tag": "TECH",
       "published_at": "2026-08-13T22:01:56+00:00",
-      "relative_time": "לפני 6ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "תמיד תהנה לדבר על שיאים חדשים ושווקים 🐂 עם @jd_durkin! @FINTECHTVglobal",
-      "summary_he": "",
-      "body_en": "Always have fun talking new highs and 🐂 markets with @jd_durkin! @FINTECHTVglobal",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2088022873172496768#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T22:00:21+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "כך פועלת השיטה: התחזתה לאחות בקופת חולים ועקצה קשישים - יחד עם המפקחת שאמורה הייתה לשמור עליה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860600",
+      "tag": "כללי",
+      "published_at": "2026-08-14T08:26:00+00:00"
+    },
     {
       "title_he": "נהג אוטובוס התמוטט במהלך נסיעה, מצבו אנוש",
       "summary_he": "",
@@ -1056,14 +1063,6 @@
       "link": "https://news.walla.co.il/item/3860620",
       "tag": "כללי",
       "published_at": "2026-08-13T20:36:00+00:00"
-    },
-    {
-      "title_he": "כך פועלת השיטה: התחזתה לאחות בקופת חולים ועקצה קשישים - יחד עם המפקחת שאמורה הייתה לשמור עליה",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860600",
-      "tag": "כללי",
-      "published_at": "2026-08-13T19:46:00+00:00"
     },
     {
       "title_he": "נער בן 18 דהר על קטנוע ללא רשיון, פגע בשני ילדים - ונמלט",
@@ -1107,19 +1106,19 @@
     }
   ],
   "market_pulse": {
-    "total": 37,
+    "total": 36,
     "sentiment": {
       "bullish": {
         "count": 11,
-        "pct": 30
+        "pct": 31
       },
       "bearish": {
         "count": 5,
         "pct": 14
       },
       "neutral": {
-        "count": 21,
-        "pct": 57
+        "count": 20,
+        "pct": 56
       }
     },
     "top_tickers": [
@@ -1162,11 +1161,11 @@
         23
       ],
       [
-        "TECH",
-        5
+        "MACRO",
+        4
       ],
       [
-        "MACRO",
+        "TECH",
         4
       ],
       [
