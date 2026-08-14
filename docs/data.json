@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:44:33.290411+00:00",
+  "generated_at": "2026-08-14T10:00:30.579860+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-14T08:44:33.290430+00:00",
+  "ta_generated_at": "2026-08-14T10:00:30.579870+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -700,37 +700,37 @@
     },
     {
       "name": "VIX",
-      "value": "14.63",
-      "change": "+0.00%",
-      "direction": "flat",
+      "value": "14.57",
+      "change": "-0.41%",
+      "direction": "down",
       "group": "market_us",
-      "pct_raw": 0.0
+      "pct_raw": -0.4101161995898872
     }
   ],
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,400.4",
-      "change": "-0.45%",
+      "value": "$4,409.8",
+      "change": "-0.24%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.452447742285766
+      "pct_raw": -0.23979730341144365
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.1",
-      "change": "+1.21%",
+      "value": "$87.7",
+      "change": "+0.74%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.2059262662225927
+      "pct_raw": 0.7350407717928111
     },
     {
       "name": "ביטקוין",
-      "value": "$62,759",
-      "change": "-1.04%",
+      "value": "$62,724",
+      "change": "-1.09%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -1.03874032296112
+      "pct_raw": -1.0947179798341673
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,213",
-      "change": "-0.09%",
+      "value": "4,200",
+      "change": "-0.39%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.08751541599467794
+      "pct_raw": -0.38682288207948706
     },
     {
       "name": "דולר/שקל",
-      "value": "2.949",
-      "change": "-0.27%",
+      "value": "2.951",
+      "change": "-0.20%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.27051702566530306
+      "pct_raw": -0.19612484360735297
     }
   ],
   "sectors": [
@@ -856,15 +856,75 @@
   },
   "us_news": [
     {
-      "title_he": "מהלך היציאה ההלם של יו\"ר Tata מעמיד את ההימורים של בעלי JLR על צ'יפים, אייפונים ואייר אינדיה בסיכון",
+      "title_he": "$SPY +0.1% $QQQ +0.1% $SMH +0.2% שמן, זהב, כסף עולה קצת @finviz_com",
       "summary_he": "",
-      "body_en": "Tata chairman’s shock exit move puts JLR owner's bets on chips, iPhones and Air India at risk",
+      "body_en": "$SPY +0.1% $QQQ +0.1% $SMH +0.2% Oil, gold, silver up a little @finviz_com",
+      "ticker": "$SPY",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2088203334893101116#m",
+      "tag": "ENERGY",
+      "published_at": "2026-08-14T09:57:26+00:00",
+      "relative_time": "לפני 2ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Stifel משדרגת $ LUNR לקנייה מ-Hold, PT $26 הערות אנליסטים: \"LUNR רשמה פספוס של הכנסות/EBITDA ברבעון השני, אבל זה הזינוק בצבר שחשוב. הכנסות ברבעון השני של 206 מיליון דולר...",
+      "summary_he": "",
+      "body_en": "Stifel Upgrades $LUNR to Buy from Hold, PT $26 Analyst comments: “LUNR posted a Q2 revenue/EBITDA miss, but it’s the backlog surge that is important. Q2 revenue of $206m (+310% y/y) was driven by a di",
+      "ticker": "$LUNR",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088189994309763526#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-14T09:04:25+00:00",
+      "relative_time": "לפני 55ד׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "תשואות משרד האוצר עולות ככל שארה\"ב מאיימת על איראן בסנקציות כלכליות נוספות",
+      "summary_he": "",
+      "body_en": "Treasury yields rise as U.S. threatens Iran with more economic sanctions",
       "ticker": "",
       "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/14/tata-chairman-resignation-chandrasekaran-chips-iphone-air-india.html",
-      "tag": "TECH",
-      "published_at": "2026-08-14T07:39:08+00:00",
-      "sentiment": "bearish"
+      "link": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html",
+      "tag": "MACRO",
+      "published_at": "2026-08-14T08:55:17+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "JPMorgan חוזר לסיקור על $SNDK עם דירוג עודף משקל, PT $2,250 הערות אנליסטים: \"לדעתנו, סנדיסק ממוקמת במובנים רבים באופן ייחודי ללכוד את...",
+      "summary_he": "",
+      "body_en": "JPMorgan Resumes Coverage on $SNDK with Overweight Rating, PT $2,250 Analyst comments: “In our view, Sandisk is in many respects uniquely positioned to capture the ongoing structural inflection in NAN",
+      "ticker": "$SNDK",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088186324184613025#m",
+      "tag": "BANKS",
+      "published_at": "2026-08-14T08:49:50+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "Jefferies יוזם סיקור על $AEHR עם Buy, PT $175 הערות אנליסטים: \"אנו רואים בחברה את הספק היחיד שמציע גם צריבה ברמת רקיק וגם ברמת החבילה...",
+      "summary_he": "",
+      "body_en": "Jefferies Initiates Coverage on $AEHR with Buy, PT $175 Analyst comments: “We view the company as the only vendor offering both wafer- and package-level burn-in qualified into AI production. AEHR has ",
+      "ticker": "$AEHR",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088184948209631233#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-14T08:44:22+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "טייוואן 🇹🇼 העלתה את תחזית צמיחת התמ\"ג לשנת 2026 ל-11.05% מ-9.64%. גם צמיחת התמ\"ג ברבעון השני תוקנה מעט גבוה יותר ל-12.93% בשנה שעברה.",
+      "summary_he": "",
+      "body_en": "Taiwan 🇹🇼 raised its 2026 GDP growth forecast to 11.05% from 9.64%. Q2 GDP growth was also revised slightly higher to 12.93% YoY.",
+      "ticker": "",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088184133101220205#m",
+      "tag": "EARNINGS",
+      "published_at": "2026-08-14T08:41:08+00:00",
+      "relative_time": "לפני 1ש׳",
+      "sentiment": "bullish"
     },
     {
       "title_he": "סיכוי של 53% שההערכה האנתרופית תגיע ל-2 טריליון דולר, לפולימרקט:",
@@ -875,7 +935,7 @@
       "link": "https://nitter.net/unusual_whales/status/2088151622845419607#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T06:31:57+00:00",
-      "relative_time": "לפני 2ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -898,7 +958,7 @@
       "link": "https://nitter.net/unusual_whales/status/2088106084535857480#m",
       "tag": "MACRO",
       "published_at": "2026-08-14T03:31:00+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "bullish"
     },
     {
@@ -910,7 +970,7 @@
       "link": "https://nitter.net/cperruna/status/2088104066949800316#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T03:22:59+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -922,7 +982,7 @@
       "link": "https://nitter.net/cperruna/status/2088103733187985882#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T03:21:39+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 6ש׳",
       "sentiment": "neutral"
     },
     {
@@ -934,7 +994,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2088095212136468717#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T02:47:48+00:00",
-      "relative_time": "לפני 5ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -946,19 +1006,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2088071891890106800#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T01:15:08+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$PONY AI מתכננת לפרוס יותר מ-2,000 צירי רובוט ברחבי אירופה עם אובר, להתרחב מעבר לזאגרב לארבע ערים אירופאיות נוספות. השותפות תתרחב גם לתוך…",
-      "summary_he": "",
-      "body_en": "$PONY AI plans to deploy 2,000+ robotaxis across Europe with Uber, expanding beyond Zagreb into four additional European cities. The partnership will also extend into the Middle East.",
-      "ticker": "$PONY",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2088069246723277053#m",
-      "tag": "TECH",
-      "published_at": "2026-08-14T01:04:37+00:00",
-      "relative_time": "לפני 7ש׳",
+      "relative_time": "לפני 8ש׳",
       "sentiment": "neutral"
     },
     {
@@ -970,57 +1018,19 @@
       "link": "https://nitter.net/StockSavvyShay/status/2088067489574035697#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T00:57:38+00:00",
-      "relative_time": "לפני 7ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "Reddit מצטרפת ל-S&P 500 לאחר חודשים של ספקולציות. לאנליסטים יש חששות אלה.",
-      "summary_he": "",
-      "body_en": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
-      "ticker": "",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
-      "tag": "NEWS",
-      "published_at": "2026-08-14T00:19:00+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מאפל לפורד: איך הטכנולוגיה הסינית הופכת קשה יותר לחברות גלובליות להתעלם ממנה",
-      "summary_he": "",
-      "body_en": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
-      "ticker": "",
-      "source": "CNBC Markets",
-      "link": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
-      "tag": "TECH",
-      "published_at": "2026-08-14T00:09:11+00:00",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "הלוואי ש-Databricks יהפוך לציבור כדי שנוכל להעלות את הערכת השווי גבוה יותר לעומת השוק הפרטי. זה אחד שהייתי קונה אם הוא יונפק היום.",
-      "summary_he": "",
-      "body_en": "I wish Databricks would go public so we can ride the valuation higher vs the private market. This is one I would buy if it IPO'd today.",
-      "ticker": "",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2088042400560128262#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T23:17:56+00:00",
       "relative_time": "לפני 9ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "מאת @augurinfinity: מדד הפתעת האינפלציה שלנו ירד בהתמדה במהלך החודשים האחרונים.",
-      "summary_he": "",
-      "body_en": "From @augurinfinity: Our inflation surprise index has steadily declined over the past few months.",
-      "ticker": "",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2088030588364079376#m",
-      "tag": "MACRO",
-      "published_at": "2026-08-13T22:31:00+00:00",
-      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
     }
   ],
   "il_news": [
+    {
+      "title_he": "חיפשו ב-ChatGPT מה העונש על שריפת חנות - ואז יצאו להצית את ג'פניקה",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860684",
+      "tag": "כללי",
+      "published_at": "2026-08-14T11:29:00+00:00"
+    },
     {
       "title_he": "4 חודשים אחרי מותה של רעות כהן והתאומות שנשאה ברחמה: המשפחה עדיין מחכה לתשובות",
       "summary_he": "",
@@ -1092,85 +1102,81 @@
       "link": "https://news.walla.co.il/item/3860589",
       "tag": "כללי",
       "published_at": "2026-08-13T19:13:00+00:00"
-    },
-    {
-      "title_he": "מקולות הימאים עד רכבות האוויר: הקרב הלוהט על הצבעת הישראלים בחו\"ל",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860524",
-      "tag": "כללי",
-      "published_at": "2026-08-13T17:00:00+00:00"
     }
   ],
   "market_pulse": {
-    "total": 37,
+    "total": 29,
     "sentiment": {
       "bullish": {
-        "count": 11,
-        "pct": 30
+        "count": 12,
+        "pct": 41
       },
       "bearish": {
-        "count": 5,
-        "pct": 14
+        "count": 3,
+        "pct": 10
       },
       "neutral": {
-        "count": 21,
-        "pct": 57
+        "count": 14,
+        "pct": 48
       }
     },
     "top_tickers": [
       [
         "$RDDT",
-        4
-      ],
-      [
-        "$TSLA",
-        2
-      ],
-      [
-        "$NOW",
-        1
-      ],
-      [
-        "$MELI",
-        1
-      ],
-      [
-        "$AMAT",
-        1
-      ],
-      [
-        "$PONY",
-        1
+        3
       ],
       [
         "$SNDK",
+        2
+      ],
+      [
+        "$SPY",
         1
       ],
       [
-        "$SPCX",
+        "$QQQ",
+        1
+      ],
+      [
+        "$SMH",
+        1
+      ],
+      [
+        "$LUNR",
+        1
+      ],
+      [
+        "$AEHR",
+        1
+      ],
+      [
+        "$NOW",
         1
       ]
     ],
     "topics": [
       [
         "NEWS",
-        24
-      ],
-      [
-        "MACRO",
-        4
-      ],
-      [
-        "TECH",
-        4
+        18
       ],
       [
         "EARNINGS",
         4
       ],
       [
-        "M&A",
+        "MACRO",
+        3
+      ],
+      [
+        "TECH",
+        2
+      ],
+      [
+        "ENERGY",
+        1
+      ],
+      [
+        "BANKS",
         1
       ]
     ],
@@ -1180,12 +1186,46 @@
   "trade_ideas": [
     {
       "ticker": "$RDDT",
-      "mentions": 4,
-      "sources": 4,
+      "mentions": 3,
+      "sources": 3,
       "sentiment": "bullish",
       "signals": [],
       "sample": "$RDDT Reddit stock jumps 10% after hours on inclusion in S&P 500. Holding shares",
-      "score": 9,
+      "score": 7,
+      "ta": null
+    },
+    {
+      "ticker": "$LUNR",
+      "mentions": 1,
+      "sources": 1,
+      "sentiment": "bullish",
+      "signals": [
+        "upgrade"
+      ],
+      "sample": "Stifel Upgrades $LUNR to Buy from Hold, PT $26 Analyst comments: “LUNR posted a Q2 revenue/EBITDA miss, but it’s the backlog surge that is important. Q2 revenue of $206m (+310% y/y",
+      "score": 5,
+      "ta": null
+    },
+    {
+      "ticker": "$SNDK",
+      "mentions": 2,
+      "sources": 2,
+      "sentiment": "bullish",
+      "signals": [],
+      "sample": "JPMorgan Resumes Coverage on $SNDK with Overweight Rating, PT $2,250 Analyst comments: “In our view, Sandisk is in many respects uniquely positioned to capture the ongoing structur",
+      "score": 5,
+      "ta": null
+    },
+    {
+      "ticker": "$AEHR",
+      "mentions": 1,
+      "sources": 1,
+      "sentiment": "bullish",
+      "signals": [
+        "catalyst"
+      ],
+      "sample": "Jefferies Initiates Coverage on $AEHR with Buy, PT $175 Analyst comments: “We view the company as the only vendor offering both wafer- and package-level burn-in qualified into AI p",
+      "score": 5,
       "ta": null
     },
     {
@@ -1199,44 +1239,6 @@
       "sample": "RT by @StockSavvyShay: At the start of the year I called $P the next AI rerating after memory and bought $75 2028 leaps at $20.50. Once models are running everywhere then the const",
       "score": 5,
       "ta": null
-    },
-    {
-      "ticker": "$TSLA",
-      "mentions": 2,
-      "sources": 2,
-      "sentiment": "bearish",
-      "signals": [],
-      "sample": "Here's a rough estimate of just how big the 100+ million square foot Tesla/SpaceX (w/ Intel) Terafab AI chip fab complex will be. Overlaid on Manhattan, it would dwarf all of Centr",
-      "score": 4,
-      "ta": {
-        "price": 339.96,
-        "rsi14": 47.7,
-        "setup": null,
-        "spark_3m": [
-          443.3,
-          404.11,
-          426.01,
-          442.1,
-          423.74,
-          391.0,
-          381.59,
-          411.15,
-          400.49,
-          375.53,
-          411.84,
-          393.45,
-          394.06,
-          394.76,
-          391.06,
-          378.93,
-          313.03,
-          298.32,
-          322.08,
-          319.53,
-          332.81
-        ],
-        "change_1d": 3.8
-      }
     }
   ],
   "track_record": {
