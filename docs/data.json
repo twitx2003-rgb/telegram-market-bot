@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T07:22:55.908484+00:00",
+  "generated_at": "2026-08-14T08:44:33.290411+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-14T07:22:55.908495+00:00",
+  "ta_generated_at": "2026-08-14T08:44:33.290430+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -688,7 +688,7 @@
       "change": "+0.13%",
       "direction": "up",
       "group": "market_us",
-      "pct_raw": 0.1296254623835037
+      "pct_raw": 0.1296068647561852
     },
     {
       "name": "Russell 2000",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,389.8",
-      "change": "-0.69%",
+      "value": "$4,400.4",
+      "change": "-0.45%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.6922450456972097
+      "pct_raw": -0.452447742285766
     },
     {
       "name": "נפט ברנט",
-      "value": "$88.5",
-      "change": "+1.62%",
+      "value": "$88.1",
+      "change": "+1.21%",
       "direction": "up",
       "group": "commodities",
-      "pct_raw": 1.6193867003560478
+      "pct_raw": 1.2059262662225927
     },
     {
       "name": "ביטקוין",
-      "value": "$63,039",
-      "change": "-0.60%",
+      "value": "$62,759",
+      "change": "-1.04%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.5982198159013201
+      "pct_raw": -1.03874032296112
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -744,19 +744,19 @@
   "market_il": [
     {
       "name": "ת\"א 35",
-      "value": "4,217",
-      "change": "+0.02%",
-      "direction": "up",
+      "value": "4,213",
+      "change": "-0.09%",
+      "direction": "down",
       "group": "market_il",
-      "pct_raw": 0.023954084052751595
+      "pct_raw": -0.08751541599467794
     },
     {
       "name": "דולר/שקל",
-      "value": "2.953",
-      "change": "-0.15%",
+      "value": "2.949",
+      "change": "-0.27%",
       "direction": "down",
       "group": "market_il",
-      "pct_raw": -0.1521658269367386
+      "pct_raw": -0.27051702566530306
     }
   ],
   "sectors": [
@@ -856,6 +856,17 @@
   },
   "us_news": [
     {
+      "title_he": "מהלך היציאה ההלם של יו\"ר Tata מעמיד את ההימורים של בעלי JLR על צ'יפים, אייפונים ואייר אינדיה בסיכון",
+      "summary_he": "",
+      "body_en": "Tata chairman’s shock exit move puts JLR owner's bets on chips, iPhones and Air India at risk",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/14/tata-chairman-resignation-chandrasekaran-chips-iphone-air-india.html",
+      "tag": "TECH",
+      "published_at": "2026-08-14T07:39:08+00:00",
+      "sentiment": "bearish"
+    },
+    {
       "title_he": "סיכוי של 53% שההערכה האנתרופית תגיע ל-2 טריליון דולר, לפולימרקט:",
       "summary_he": "",
       "body_en": "53% chance Anthropic valuation to hit $2 trillion, per Polymarket:",
@@ -864,7 +875,7 @@
       "link": "https://nitter.net/unusual_whales/status/2088151622845419607#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T06:31:57+00:00",
-      "relative_time": "לפני 50ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "neutral"
     },
     {
@@ -887,7 +898,7 @@
       "link": "https://nitter.net/unusual_whales/status/2088106084535857480#m",
       "tag": "MACRO",
       "published_at": "2026-08-14T03:31:00+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "bullish"
     },
     {
@@ -899,7 +910,7 @@
       "link": "https://nitter.net/cperruna/status/2088104066949800316#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T03:22:59+00:00",
-      "relative_time": "לפני 3ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -911,7 +922,7 @@
       "link": "https://nitter.net/cperruna/status/2088103733187985882#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T03:21:39+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -923,7 +934,7 @@
       "link": "https://nitter.net/RyanDetrick/status/2088095212136468717#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T02:47:48+00:00",
-      "relative_time": "לפני 4ש׳",
+      "relative_time": "לפני 5ש׳",
       "sentiment": "neutral"
     },
     {
@@ -935,7 +946,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2088071891890106800#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T01:15:08+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -947,7 +958,7 @@
       "link": "https://nitter.net/wallstengine/status/2088069246723277053#m",
       "tag": "TECH",
       "published_at": "2026-08-14T01:04:37+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -959,7 +970,7 @@
       "link": "https://nitter.net/StockSavvyShay/status/2088067489574035697#m",
       "tag": "NEWS",
       "published_at": "2026-08-14T00:57:38+00:00",
-      "relative_time": "לפני 6ש׳",
+      "relative_time": "לפני 7ש׳",
       "sentiment": "neutral"
     },
     {
@@ -993,7 +1004,7 @@
       "link": "https://nitter.net/cperruna/status/2088042400560128262#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T23:17:56+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 9ש׳",
       "sentiment": "bullish"
     },
     {
@@ -1005,23 +1016,19 @@
       "link": "https://nitter.net/MikeZaccardi/status/2088030588364079376#m",
       "tag": "MACRO",
       "published_at": "2026-08-13T22:31:00+00:00",
-      "relative_time": "לפני 8ש׳",
+      "relative_time": "לפני 10ש׳",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "מניית $RDDT Reddit מזנקת ב-10% לאחר שעות העבודה עם הכללה ב-S&P 500. החזקת מניות",
-      "summary_he": "",
-      "body_en": "$RDDT Reddit stock jumps 10% after hours on inclusion in S&P 500. Holding shares",
-      "ticker": "$RDDT",
-      "source": "@cperruna",
-      "link": "https://nitter.net/cperruna/status/2088026630203609307#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T22:15:16+00:00",
-      "relative_time": "לפני 9ש׳",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
+    {
+      "title_he": "4 חודשים אחרי מותה של רעות כהן והתאומות שנשאה ברחמה: המשפחה עדיין מחכה לתשובות",
+      "summary_he": "",
+      "source": "Walla News",
+      "link": "https://news.walla.co.il/item/3860678",
+      "tag": "כללי",
+      "published_at": "2026-08-14T10:24:00+00:00"
+    },
     {
       "title_he": "כתב אישום נגד אביאור זקן בגין רצח המטפל הסיעודי של סבו בירושלים",
       "summary_he": "",
@@ -1093,14 +1100,6 @@
       "link": "https://news.walla.co.il/item/3860524",
       "tag": "כללי",
       "published_at": "2026-08-13T17:00:00+00:00"
-    },
-    {
-      "title_he": "אפליה של להט\"בים ברשות האוכלוסין? \"המדינה מתייחסת אלינו כאזרחים סוג ב'\"",
-      "summary_he": "",
-      "source": "Walla News",
-      "link": "https://news.walla.co.il/item/3860566",
-      "tag": "כללי",
-      "published_at": "2026-08-13T16:40:00+00:00"
     }
   ],
   "market_pulse": {
