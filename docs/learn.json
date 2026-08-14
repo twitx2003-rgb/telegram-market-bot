@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:49:02.281594+00:00",
+  "generated_at": "2026-08-14T23:20:29.408898+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -60,25 +60,25 @@
     ]
   },
   "x_synthesis": {
-    "total": 36,
+    "total": 28,
     "sentiment": {
       "bullish": {
         "count": 7,
-        "pct": 19
+        "pct": 25
       },
       "bearish": {
-        "count": 5,
-        "pct": 14
+        "count": 3,
+        "pct": 11
       },
       "neutral": {
-        "count": 24,
-        "pct": 67
+        "count": 18,
+        "pct": 64
       }
     },
     "top_tickers": [
       [
         "$SPCX",
-        6
+        5
       ],
       [
         "$AMD",
@@ -93,11 +93,7 @@
         1
       ],
       [
-        "$PLTR",
-        1
-      ],
-      [
-        "$SANM",
+        "$ABSI",
         1
       ],
       [
@@ -105,7 +101,11 @@
         1
       ],
       [
-        "$ABSI",
+        "$SANM",
+        1
+      ],
+      [
+        "$NTNX",
         1
       ]
     ],
@@ -116,7 +116,7 @@
         "url": "https://nitter.net/RyanDetrick/status/2088352770533265532#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "U.S. stocks were muted after Trump officials vowed economic isolation and a port blockade of Iran. 10-year treasury yields rose +1.6bp to 4.66% and Brent crude +0.7% to $88/bbl. Korean chipmakers SK Hynix and Samsung sur",
@@ -124,7 +124,7 @@
         "url": "https://nitter.net/garyblack00/status/2088209121237422481#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 12ש׳"
+        "time": "לפני 13ש׳"
       },
       {
         "text": "Bonds are up 18.5% since the cycle high in interest rates in Oct 2023 (10yr 4.997%) ...goes to show that fixed income's grueling losses will always be confined to Aug 2020 to Oct 2023, due to duration. $AGG can continue ",
@@ -132,7 +132,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088374101517734398#m",
         "sentiment": "bearish",
         "tag": "FED",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "RT by @DivesTech: Great to be on @CNBCOvertime with @MelissaLeeCNBC discussing software, broader tech, and the AI Revolution focus of this market 📺🏆🐂🍿🎯👇 @CNBC @CNBCtech https://www.cnbc.com/video/2026/08/14/dan-ives-work",
@@ -148,23 +148,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088373437475827823#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "I wish Databricks would go public so we can ride the valuation higher vs the private market. This is one I would buy if it IPO'd today.",
-        "handle": "cperruna",
-        "url": "https://nitter.net/cperruna/status/2088042400560128262#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 23ש׳"
-      },
-      {
-        "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 43ד׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "$AMD DISCLOSES $565M $SPCX STAKE AMD reported 3.31M SpaceX Class A shares at the end of Q2, worth about $565.5M, making it AMD’s largest disclosed equity holding. Other notable positions: $SANM — $291.3M $NTNX — $210.8M ",
@@ -172,7 +156,23 @@
         "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "The median rent sits at $5,295, up 6% from last July, though it held flat month over month after climbing 3% in both June and July from May's previous record of $5,125. Read more: https://unusualwhales.com/news/manhattan",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088399769060479488#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 22ד׳"
+      },
+      {
+        "text": "Just 30% of the 615 workplace retirement plan participants polled think they will reach $1 million in savings before retiring. Read more: https://unusualwhales.com/news/schroders-credit-card-debt-retirement-savings",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088392974560330129#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 49ד׳"
       }
     ]
   },
