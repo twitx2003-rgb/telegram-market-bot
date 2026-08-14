@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T23:39:57.307984+00:00",
+  "generated_at": "2026-08-14T01:52:26.738724+00:00",
   "watchlist": [
     {
       "ticker": "AAPL",
@@ -258,45 +258,45 @@
     {
       "ticker": "TEVA",
       "price": 36.52,
-      "setup_type": "פריצה",
+      "setup_type": "מומנטום",
       "levels": {
         "support": 33.61,
         "resistance": 36.99,
-        "entry": 37.17,
+        "entry": null,
         "stop": 32.94
       },
       "recommendation": "קנייה",
       "confidence": 4,
-      "rationale_he": "המחיר $36.52 נמצא 1.3% מתחת להתנגדות ב-$36.99 עם מומנטום שבועי של +4.9%. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. פריצה מעל ההתנגדות תפתח יעד גבוה יותר.",
+      "rationale_he": "מבנה עולה מסודר: מחיר מעל SMA20 ($33.70) שמעל SMA50 ($33.51), RSI ב-65.9. מחיר מעל SMA20 · SMA20 מעל SMA50 · מחיר מעל SMA200. כל עוד המחיר מעל הממוצעים — המגמה בעדך.",
       "indicators": {
-        "rsi14": 66.2,
-        "sma20": 33.63,
-        "sma50": 33.56,
-        "sma200": 31.31,
+        "rsi14": 65.9,
+        "sma20": 33.7,
+        "sma50": 33.51,
+        "sma200": 31.44,
         "pct_from_52w_high": -2.3,
-        "vol_ratio": 1.03,
+        "vol_ratio": 0.96,
         "change_1d_pct": -0.6,
         "change_1w_pct": 4.9,
-        "change_1m_pct": 13.5,
+        "change_1m_pct": 15.7,
         "spark_3m": [
-          35.81,
-          34.29,
-          34.32,
-          34.61,
-          35.32,
-          32.83,
-          33.26,
-          34.56,
-          32.91,
-          32.2,
-          33.62,
-          33.88,
-          35.29,
-          33.1,
-          31.82,
-          32.03,
-          31.18,
-          31.67,
+          35.31,
+          34.07,
+          34.07,
+          34.52,
+          33.08,
+          34.19,
+          33.58,
+          33.69,
+          31.48,
+          34.22,
+          33.31,
+          34.64,
+          33.24,
+          32.18,
+          32.22,
+          31.35,
+          30.81,
+          34.71,
           34.46,
           34.81,
           36.48
@@ -664,7 +664,7 @@
       "engine": "rules"
     }
   ],
-  "ta_generated_at": "2026-08-13T23:39:57.308000+00:00",
+  "ta_generated_at": "2026-08-14T01:52:26.738752+00:00",
   "market_us": [
     {
       "name": "S&P 500",
@@ -710,27 +710,27 @@
   "commodities": [
     {
       "name": "זהב",
-      "value": "$4,417.2",
-      "change": "-0.07%",
+      "value": "$4,376.3",
+      "change": "-1.00%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.07239163876571844
+      "pct_raw": -0.9976472717401017
     },
     {
       "name": "נפט ברנט",
-      "value": "$87.0",
-      "change": "-0.10%",
+      "value": "$86.8",
+      "change": "-0.37%",
       "direction": "down",
       "group": "commodities",
-      "pct_raw": -0.10336510853335157
+      "pct_raw": -0.3675203858963974
     },
     {
       "name": "ביטקוין",
-      "value": "$63,398",
-      "change": "-0.02%",
-      "direction": "down",
+      "value": "$63,470",
+      "change": "+0.08%",
+      "direction": "up",
       "group": "commodities",
-      "pct_raw": -0.019176668050766153
+      "pct_raw": 0.08174314738869198
     },
     {
       "name": "אג\"ח ארה\"ב 10Y",
@@ -752,11 +752,11 @@
     },
     {
       "name": "דולר/שקל",
-      "value": "2.965",
-      "change": "+0.25%",
+      "value": "2.964",
+      "change": "+0.23%",
       "direction": "up",
       "group": "market_il",
-      "pct_raw": 0.253609711561216
+      "pct_raw": 0.23332093463632053
     }
   ],
   "sectors": [
@@ -856,6 +856,88 @@
   },
   "us_news": [
     {
+      "title_he": "שירות המסחר המדומה זמין באתר KRX, שבו משקיעים נסחרים במחירי שוק באותו יום באמצעות קרנות וירטואליות הניתנות במערכת, מה שנותן להם...",
+      "summary_he": "",
+      "body_en": "The mock trading service is available on the KRX website, where investors trade at same-day market prices using virtual funds provided within the system, giving them an experience similar to actual tr",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2088075885123387463#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T01:31:00+00:00",
+      "relative_time": "לפני 20ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בדוק את התכונה החדשה הזו... 'למה זה זז' ממש בחלק העליון כשאתה מרחף מעל מניה. אפילו AH @finviz_com $AMAT",
+      "summary_he": "",
+      "body_en": "Check out that new feature.. 'why it moved' right at the top when you hover over a stock.. even AH @finviz_com $AMAT",
+      "ticker": "$AMAT",
+      "source": "@MikeZaccardi",
+      "link": "https://nitter.net/MikeZaccardi/status/2088071891890106800#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T01:15:08+00:00",
+      "relative_time": "לפני 36ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "$PONY AI מתכננת לפרוס יותר מ-2,000 צירי רובוט ברחבי אירופה עם אובר, להתרחב מעבר לזאגרב לארבע ערים אירופאיות נוספות. השותפות תתרחב גם לתוך…",
+      "summary_he": "",
+      "body_en": "$PONY AI plans to deploy 2,000+ robotaxis across Europe with Uber, expanding beyond Zagreb into four additional European cities. The partnership will also extend into the Middle East.",
+      "ticker": "$PONY",
+      "source": "@wallstengine",
+      "link": "https://nitter.net/wallstengine/status/2088069246723277053#m",
+      "tag": "TECH",
+      "published_at": "2026-08-14T01:04:37+00:00",
+      "relative_time": "לפני 47ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "בארון היה חסיד מוקדם של מטבעות קריפטוגרפיים במשפחת טראמפ. הוא ייסד את World Liberty Financial (WLFI) בסוף 2024 לצד אביו ואחיו.…",
+      "summary_he": "",
+      "body_en": "Barron was an early advocate for cryptocurrency within the Trump family. He co-founded World Liberty Financial (WLFI) in late 2024 alongside his father and brothers. Read more: https://unusualwhales.c",
+      "ticker": "",
+      "source": "@unusual_whales",
+      "link": "https://nitter.net/unusual_whales/status/2088067580288491669#m",
+      "tag": "CRYPTO",
+      "published_at": "2026-08-14T00:58:00+00:00",
+      "relative_time": "לפני 53ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "פראי לראות $SNDK עלייה של כמעט 50% מאז שהקרן למודעות למצבים של ליאופולד אשנברנר נפלה 😳",
+      "summary_he": "",
+      "body_en": "Wild to see $SNDK up nearly 50% since Leopold Aschenbrenner’s Situational Awareness fund went under 😳",
+      "ticker": "$SNDK",
+      "source": "@StockSavvyShay",
+      "link": "https://nitter.net/StockSavvyShay/status/2088067489574035697#m",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T00:57:38+00:00",
+      "relative_time": "לפני 54ד׳",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "Reddit מצטרפת ל-S&P 500 לאחר חודשים של ספקולציות. לאנליסטים יש חששות אלה.",
+      "summary_he": "",
+      "body_en": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
+      "tag": "NEWS",
+      "published_at": "2026-08-14T00:19:00+00:00",
+      "sentiment": "neutral"
+    },
+    {
+      "title_he": "מאפל לפורד: איך הטכנולוגיה הסינית הופכת קשה יותר לחברות גלובליות להתעלם ממנה",
+      "summary_he": "",
+      "body_en": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
+      "ticker": "",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
+      "tag": "TECH",
+      "published_at": "2026-08-14T00:09:11+00:00",
+      "sentiment": "neutral"
+    },
+    {
       "title_he": "הלוואי ש-Databricks יהפוך לציבור כדי שנוכל להעלות את הערכת השווי גבוה יותר לעומת השוק הפרטי. זה אחד שהייתי קונה אם הוא יונפק היום.",
       "summary_he": "",
       "body_en": "I wish Databricks would go public so we can ride the valuation higher vs the private market. This is one I would buy if it IPO'd today.",
@@ -864,20 +946,19 @@
       "link": "https://nitter.net/cperruna/status/2088042400560128262#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T23:17:56+00:00",
-      "relative_time": "לפני 21ד׳",
+      "relative_time": "לפני 2ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "AOC (Alexandria Ocasio-Cortez) הגישה זה עתה את הגילוי הפיננסי השנתי שלה. היא דיווחה: עד $50,000 בחיסכון עד $15,000 בבדיקת עד $1,000 בתיווך...",
+      "title_he": "מניית Reddit זינקה בהכללה ב-S&P 500",
       "summary_he": "",
-      "body_en": "AOC (Alexandria Ocasio-Cortez) just filed her annual financial disclosure. She reported: Up to $50,000 in savings Up to $15,000 in checking Up to $1,000 in a brokerage account Up to $15,000 in a 401(k",
+      "body_en": "Reddit stock jumps on inclusion in S&P 500",
       "ticker": "",
-      "source": "@unusual_whales",
-      "link": "https://nitter.net/unusual_whales/status/2088037381261971703#m",
+      "source": "CNBC Markets",
+      "link": "https://www.cnbc.com/2026/08/13/reddit-shares-jump-11percent-on-inclusion-in-sp-500.html",
       "tag": "NEWS",
-      "published_at": "2026-08-13T22:58:00+00:00",
-      "relative_time": "לפני 41ד׳",
-      "sentiment": "neutral"
+      "published_at": "2026-08-13T23:04:21+00:00",
+      "sentiment": "bullish"
     },
     {
       "title_he": "מאת @augurinfinity: מדד הפתעת האינפלציה שלנו ירד בהתמדה במהלך החודשים האחרונים.",
@@ -888,7 +969,7 @@
       "link": "https://nitter.net/MikeZaccardi/status/2088030588364079376#m",
       "tag": "MACRO",
       "published_at": "2026-08-13T22:31:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
@@ -900,11 +981,22 @@
       "link": "https://nitter.net/cperruna/status/2088026630203609307#m",
       "tag": "NEWS",
       "published_at": "2026-08-13T22:15:16+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "bullish"
     },
     {
-      "title_he": "ההכנסות השנתיות של OpenAI הגיעו ל-40 מיליארד דולר, בערך כפול מקצב הריצה שלה בסוף 2025. ההכנסות מקצב הריצה ביולי עלו ב-20%+ MoM, מונעת על ידי Codex, מנויים ופרסומות מוקדמות...",
+      "title_he": "מניית Dell ניצחה השנה את מיקרון ו-AMD - ועכשיו היא מוסיפה לעליות שלה",
+      "summary_he": "",
+      "body_en": "Dell’s stock has beaten Micron and AMD this year — and now it’s adding to its gains",
+      "ticker": "",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/dells-stock-has-beaten-micron-and-amd-this-year-and-now-its-adding-to-its-gains-11c00117?mod=mw_rss_topstories",
+      "tag": "TECH",
+      "published_at": "2026-08-13T22:09:00+00:00",
+      "sentiment": "bullish"
+    },
+    {
+      "title_he": "OpenAI’s annualized revenue has topped $40B, roughly double its end-2025 run rate. July run-rate revenue rose 20%+ MoM, driven by Codex, subscriptions and early ad…",
       "summary_he": "",
       "body_en": "OpenAI’s annualized revenue has topped $40B, roughly double its end-2025 run rate. July run-rate revenue rose 20%+ MoM, driven by Codex, subscriptions and early ad sales. - Bloomberg",
       "ticker": "",
@@ -912,116 +1004,19 @@
       "link": "https://nitter.net/wallstengine/status/2088024800015139055#m",
       "tag": "EARNINGS",
       "published_at": "2026-08-13T22:08:00+00:00",
-      "relative_time": "לפני 1ש׳",
+      "relative_time": "לפני 3ש׳",
       "sentiment": "neutral"
     },
     {
-      "title_he": "תודה @sam_vadas ו-@SchwabNetwork שחזרתם ל-@NYSE! שיאים חדשים באוויר. 🐂 📈",
+      "title_he": "Salesforce’s stock gets a boost as J.P. Morgan says AI fears are overblown",
       "summary_he": "",
-      "body_en": "Thanks @sam_vadas and @SchwabNetwork for having me back to the @NYSE! New highs are in the air. 🐂 📈",
+      "body_en": "Salesforce’s stock gets a boost as J.P. Morgan says AI fears are overblown",
       "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2088023396047044691#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T22:02:25+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "Matic Robots יצאה עם Cues, מערכת קול ומחוות המאפשרת למשתמשים להצביע על בלגן ולומר לרובוט לנקות אותו. מחסנית ה-Vision 5 מצלמות שלה ממפה בתים בתלת מימד,...",
-      "summary_he": "",
-      "body_en": "Matic Robots is out with Cues, a voice and gesture system that lets users point at a mess and tell the robot to clean it. Its 5-camera vision stack maps homes in 3D, while the assistant handles natura",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2088023274454405408#m",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/salesforces-stock-gets-a-boost-as-j-p-morgan-says-ai-fears-are-overblown-feebb221?mod=mw_rss_topstories",
       "tag": "TECH",
-      "published_at": "2026-08-13T22:01:56+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "תמיד תהנה לדבר על שיאים חדשים ושווקים 🐂 עם @jd_durkin! @FINTECHTVglobal",
-      "summary_he": "",
-      "body_en": "Always have fun talking new highs and 🐂 markets with @jd_durkin! @FINTECHTVglobal",
-      "ticker": "",
-      "source": "@RyanDetrick",
-      "link": "https://nitter.net/RyanDetrick/status/2088022873172496768#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T22:00:21+00:00",
-      "relative_time": "לפני 1ש׳",
-      "sentiment": "bullish"
-    },
-    {
-      "title_he": "טראמפ מטיל 100% תעריף על מזל\"טים בגודל מסוים",
-      "summary_he": "",
-      "body_en": "TRUMP IMPOSES 100% TARIFF ON CERTAIN SIZE DRONES",
-      "ticker": "",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2088013820921061838#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T21:24:22+00:00",
-      "relative_time": "לפני 2ש׳",
+      "published_at": "2026-08-13T22:07:00+00:00",
       "sentiment": "neutral"
-    },
-    {
-      "title_he": "$RDDT שיתווסף ל-S&P 500",
-      "summary_he": "",
-      "body_en": "$RDDT TO BE ADDED TO S&P 500",
-      "ticker": "$RDDT",
-      "source": "@StockSavvyShay",
-      "link": "https://nitter.net/StockSavvyShay/status/2088012138963231069#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T21:17:41+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "רק ב: REDDIT להצטרף ל-S&P 500 $RDDT",
-      "summary_he": "",
-      "body_en": "JUST IN : REDDIT TO JOIN THE S&P 500 $RDDT",
-      "ticker": "$RDDT",
-      "source": "@gurgavin",
-      "link": "https://nitter.net/gurgavin/status/2088011959446712581#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T21:16:59+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "REDDIT $RDDT שיתווסף ל-S&P 500",
-      "summary_he": "",
-      "body_en": "REDDIT $RDDT TO BE ADDED TO S&P 500",
-      "ticker": "$RDDT",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2088011860633334246#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T21:16:35+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "מגמת עלייה יציבה של אטלנטה ברייבס של $BATRA מאז 2020",
-      "summary_he": "",
-      "body_en": "Atlanta Braves $BATRA steady uptrend since 2020",
-      "ticker": "$BATRA",
-      "source": "@MikeZaccardi",
-      "link": "https://nitter.net/MikeZaccardi/status/2088011714734264748#m",
-      "tag": "NEWS",
-      "published_at": "2026-08-13T21:16:00+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "neutral"
-    },
-    {
-      "title_he": "$NU HOLDINGS Q2'26 שירי רווחים 🔹 הכנסות: $5.51B (הערכה. $5.23B) ; +50.3% YoY 🔹 EPS מדולל: $0.216 (הערכה. $0.20) 🟢 🔹 הכנסה נטו: $1.06B (אומדן $998M) 🟢; +66.8% שנה בשנה…",
-      "summary_he": "",
-      "body_en": "$NU HOLDINGS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $5.51B (Est. $5.23B) 🟢; +50.3% YoY 🔹 Diluted EPS: $0.216 (Est. $0.20) 🟢 🔹 Net Income: $1.06B (Est. $998M) 🟢; +66.8% YoY 🔹 Total Assets: $82.75B; +31.9",
-      "ticker": "$NU",
-      "source": "@wallstengine",
-      "link": "https://nitter.net/wallstengine/status/2088010476278141281#m",
-      "tag": "EARNINGS",
-      "published_at": "2026-08-13T21:11:05+00:00",
-      "relative_time": "לפני 2ש׳",
-      "sentiment": "bullish"
     }
   ],
   "il_news": [
@@ -1107,19 +1102,19 @@
     }
   ],
   "market_pulse": {
-    "total": 30,
+    "total": 31,
     "sentiment": {
       "bullish": {
-        "count": 9,
-        "pct": 30
+        "count": 8,
+        "pct": 26
       },
       "bearish": {
-        "count": 4,
-        "pct": 13
+        "count": 3,
+        "pct": 10
       },
       "neutral": {
-        "count": 17,
-        "pct": 57
+        "count": 20,
+        "pct": 65
       }
     },
     "top_tickers": [
@@ -1136,15 +1131,15 @@
         2
       ],
       [
-        "$BATRA",
+        "$AMAT",
         1
       ],
       [
-        "$NU",
+        "$PONY",
         1
       ],
       [
-        "$WDAY",
+        "$SNDK",
         1
       ],
       [
@@ -1159,22 +1154,22 @@
     "topics": [
       [
         "NEWS",
-        18
+        19
+      ],
+      [
+        "TECH",
+        4
       ],
       [
         "EARNINGS",
-        5
+        4
       ],
       [
         "MACRO",
         3
       ],
       [
-        "TECH",
-        3
-      ],
-      [
-        "M&A",
+        "CRYPTO",
         1
       ]
     ],
@@ -1242,11 +1237,11 @@
     }
   ],
   "track_record": {
-    "closed": 15,
-    "wins": 8,
-    "hit_rate": 53,
-    "avg_pnl": 0.5,
-    "open": 10
+    "closed": 16,
+    "wins": 9,
+    "hit_rate": 56,
+    "avg_pnl": 0.56,
+    "open": 9
   },
   "alert_config": {
     "price_move_pct": 5,
