@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:21:02.544611+00:00",
+  "generated_at": "2026-08-14T22:49:02.281594+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -60,18 +60,18 @@
     ]
   },
   "x_synthesis": {
-    "total": 30,
+    "total": 36,
     "sentiment": {
       "bullish": {
         "count": 7,
-        "pct": 23
+        "pct": 19
       },
       "bearish": {
-        "count": 3,
-        "pct": 10
+        "count": 5,
+        "pct": 14
       },
       "neutral": {
-        "count": 20,
+        "count": 24,
         "pct": 67
       }
     },
@@ -97,7 +97,7 @@
         1
       ],
       [
-        "$ABSI",
+        "$SANM",
         1
       ],
       [
@@ -105,7 +105,7 @@
         1
       ],
       [
-        "$SANM",
+        "$ABSI",
         1
       ]
     ],
@@ -140,7 +140,7 @@
         "url": "https://nitter.net/DivesTech/status/2088377047324196918#m",
         "sentiment": "bearish",
         "tag": "M&A",
-        "time": "לפני 53ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Anthropic’s preliminary Q2 revenue surged more than 14x YoY to over $11.5B as AI demand continues to accelerate. The company also turned adjusted operating income positive ahead of a potential mega-IPO.",
@@ -159,19 +159,19 @@
         "time": "לפני 23ש׳"
       },
       {
+        "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 43ד׳"
+      },
+      {
         "text": "$AMD DISCLOSES $565M $SPCX STAKE AMD reported 3.31M SpaceX Class A shares at the end of Q2, worth about $565.5M, making it AMD’s largest disclosed equity holding. Other notable positions: $SANM — $291.3M $NTNX — $210.8M ",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "ANTHROPIC PRELIMINARY 2Q REVENUE EXCEEDS $11.5B",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088372670832447871#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
         "time": "לפני 1ש׳"
       }
     ]
