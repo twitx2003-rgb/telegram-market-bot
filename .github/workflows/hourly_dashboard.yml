@@ -1,4 +1,4 @@
-name: Hourly News Dashboard
+name: Market Learning Agent
 
 on:
   schedule:
@@ -7,8 +7,9 @@ on:
   push:                     # ריצה אוטומטית כשהקוד משתנה
     branches: [master]
     paths:
+      - 'learn_agent.py'
       - 'news_dashboard.py'
-      - 'watchlist.json'
+      - 'learn_config.json'
       - '.github/workflows/hourly_dashboard.yml'
 
 permissions:
@@ -29,16 +30,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate news dashboard
+      - name: Run learning agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-        run: python news_dashboard.py
+        run: python learn_agent.py
 
       - name: Push to GitHub Pages
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "GitHub Actions"
-          git add docs/index.html docs/data.json docs/track_record.json
-          git diff --staged --quiet || git commit -m "Dashboard update $(date +'%Y-%m-%d %H:%M UTC')"
+          git add docs/index.html docs/learn.json
+          git diff --staged --quiet || git commit -m "Learning agent update $(date +'%Y-%m-%d %H:%M UTC')"
           git push

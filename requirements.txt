@@ -2,3 +2,4 @@ feedparser
 requests
 deep-translator
 anthropic>=0.40.0
+youtube-transcript-api
