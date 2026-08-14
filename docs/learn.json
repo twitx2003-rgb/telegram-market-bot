@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:47:07.165148+00:00",
+  "generated_at": "2026-08-14T20:29:34.731538+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -60,36 +60,36 @@
     ]
   },
   "x_synthesis": {
-    "total": 26,
+    "total": 27,
     "sentiment": {
       "bullish": {
+        "count": 7,
+        "pct": 26
+      },
+      "bearish": {
         "count": 4,
         "pct": 15
       },
-      "bearish": {
-        "count": 3,
-        "pct": 12
-      },
       "neutral": {
-        "count": 19,
-        "pct": 73
+        "count": 16,
+        "pct": 59
       }
     },
     "top_tickers": [
       [
-        "$AAPL",
+        "$GOOGL",
+        3
+      ],
+      [
+        "$AMD",
+        3
+      ],
+      [
+        "$DAL",
         2
       ],
       [
-        "$NVDA",
-        2
-      ],
-      [
-        "$SPCX",
-        2
-      ],
-      [
-        "$NBIS",
+        "$AMZN",
         2
       ],
       [
@@ -97,26 +97,34 @@
         2
       ],
       [
-        "$AGG",
+        "$KR",
         1
       ],
       [
-        "$VIXEQ",
+        "$COF",
         1
       ],
       [
-        "$AMZN",
+        "$NUE",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "$PSX, $MPC MERGER TALKS COLLAPSED Phillips 66 and Marathon Petroleum held merger talks earlier this year over a deal that would have created a roughly $180B oil-and-gas giant, Semafor reports. The discussions ultimately ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088288662371127715#m",
-        "sentiment": "bearish",
-        "tag": "M&A",
-        "time": "לפני 4ש׳"
+        "text": "Another fun and informative @CNBCMorningCall Sheet with @MorganLBrennan ☕ ⏰ 🌅 Our panel today included @Stephanie_Link and @JimPethokoukis. We covered on a lot, including the resilient consumer, strong earnings, rates, i",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2088352770533265532#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 38ד׳"
+      },
+      {
+        "text": "Another fun and informative @CNBCMorningCall Sheet with @MorganLBrennan ☕ ⏰ 🌅 Our panel today included @Stephanie_Link and @JimPethokoukis. We covered on a lot, including the resilient consumer, strong earnings, rates, i",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2088352553733910728#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 39ד׳"
       },
       {
         "text": "U.S. stocks were muted after Trump officials vowed economic isolation and a port blockade of Iran. 10-year treasury yields rose +1.6bp to 4.66% and Brent crude +0.7% to $88/bbl. Korean chipmakers SK Hynix and Samsung sur",
@@ -124,15 +132,23 @@
         "url": "https://nitter.net/garyblack00/status/2088209121237422481#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 9ש׳"
+        "time": "לפני 10ש׳"
       },
       {
-        "text": "One of the more interesting summertime stories... $VIXEQ 'average stock' VIX plunges further... from 50 to 37 Of course, there's natural pressure as the earnings season progresses",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088341889967669510#m",
+        "text": "BREAKING: Berkshire Hathaway, $BRK.B, just updated its Q2 stock portfolio. New: D.R. Horton, $DHI Exited: Constellation Brands, $STZ Biggest buys: Alphabet, $GOOGL: +48.1M shares Delta, $DAL: +17.5M Macy’s, $M: +4.3M Len",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088360023831544131#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 39ד׳"
+        "time": "לפני 9ד׳"
+      },
+      {
+        "text": "Live Cattle futures plunged to nearly the lowest level of the year. Good news for this beef-eater #BrazilianSteakhouse @augurinfinity https://augurdigest.com/p/augur-digest-303",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2088356572376314071#m",
+        "sentiment": "bearish",
+        "tag": "NEWS",
+        "time": "לפני 23ד׳"
       },
       {
         "text": "I wish Databricks would go public so we can ride the valuation higher vs the private market. This is one I would buy if it IPO'd today.",
@@ -140,39 +156,23 @@
         "url": "https://nitter.net/cperruna/status/2088042400560128262#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 20ש׳"
+        "time": "לפני 21ש׳"
       },
       {
-        "text": "Liverpool FC has sold a roughly 30% stake to a consortium led by Jeff Bezos of Amazon, $AMZN, per Bloomberg.",
+        "text": "BREAKING: Druckenmiller's Duquesene has updated its 13F. New positions: -$GOOGL: $120.2 million $FOXA: $115.0 million $CDW: $104.6 million $BTDR: $64.7 million $DAL: $56.5 million $AMD: $42.3 million Largest holdings: $T",
         "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088340629780910470#m",
+        "url": "https://nitter.net/unusual_whales/status/2088356848282005680#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 44ד׳"
+        "time": "לפני 22ד׳"
       },
       {
-        "text": "Apple, $AAPL, proposes to take a 15% cut of purchases made outside the App Store, per TC",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088336130882314567#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "BREAKING: Earnings are growing faster than stock prices, per Bloomberg.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088331318174318685#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Nebius, $NBIS, is up 45% in a week.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088326788334362642#m",
-        "sentiment": "neutral",
+        "text": "PayPal $PYPL is in talks to sell itself to a group including Stripe and Advent International, WSJ reports. Stripe and Advent offered $60.50/share in July, but PayPal viewed the bid as too low. The sides have continued ne",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2088351657180668257#m",
+        "sentiment": "bearish",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 42ד׳"
       }
     ]
   },
