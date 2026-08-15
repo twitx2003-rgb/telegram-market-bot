@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:47:16.270208+00:00",
+  "generated_at": "2026-08-15T23:19:11.944305+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,19 +66,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 24,
+    "total": 23,
     "sentiment": {
       "bullish": {
         "count": 5,
-        "pct": 21
+        "pct": 22
       },
       "bearish": {
-        "count": 1,
-        "pct": 4
+        "count": 0,
+        "pct": 0
       },
       "neutral": {
         "count": 18,
-        "pct": 75
+        "pct": 78
       }
     },
     "top_tickers": [
@@ -91,11 +91,11 @@
         4
       ],
       [
-        "$AVGO",
+        "$AMD",
         3
       ],
       [
-        "$AMD",
+        "$AVGO",
         3
       ],
       [
@@ -103,7 +103,7 @@
         2
       ],
       [
-        "$TSM",
+        "$GOOGL",
         2
       ],
       [
@@ -111,7 +111,7 @@
         2
       ],
       [
-        "$TSLA",
+        "$PLTR",
         2
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
         "sentiment": "neutral",
         "tag": "ENERGY",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
@@ -130,7 +130,7 @@
         "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 22ש׳"
+        "time": "לפני 23ש׳"
       },
       {
         "text": "Thousands of customer service jobs have been eliminated due to AI, with Microsoft, $MSFT, cutting its support workforce from 50,000 to 40,000, per Bloomberg.",
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088717613602083302#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -170,7 +170,7 @@
         "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 22ש׳"
+        "time": "לפני 23ש׳"
       },
       {
         "text": "Key earnings next week.",
