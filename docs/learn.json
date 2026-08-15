@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T23:19:11.944305+00:00",
+  "generated_at": "2026-08-15T23:44:24.743657+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,44 +66,44 @@
     ]
   },
   "x_synthesis": {
-    "total": 23,
+    "total": 21,
     "sentiment": {
       "bullish": {
-        "count": 5,
-        "pct": 22
+        "count": 4,
+        "pct": 19
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 18,
-        "pct": 78
+        "count": 17,
+        "pct": 81
       }
     },
     "top_tickers": [
       [
         "$NVDA",
-        7
+        6
       ],
       [
         "$MU",
         4
       ],
       [
-        "$AMD",
-        3
-      ],
-      [
         "$AVGO",
         3
       ],
       [
-        "$MSFT",
+        "$AMD",
+        3
+      ],
+      [
+        "$SPY",
         2
       ],
       [
-        "$GOOGL",
+        "$MSFT",
         2
       ],
       [
@@ -111,19 +111,11 @@
         2
       ],
       [
-        "$PLTR",
+        "$TSM",
         2
       ]
     ],
     "top_tweets": [
-      {
-        "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
-        "sentiment": "neutral",
-        "tag": "ENERGY",
-        "time": "לפני 3ש׳"
-      },
       {
         "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
         "handle": "wallstengine",
@@ -146,7 +138,7 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 4ש׳"
+        "time": "לפני 5ש׳"
       },
       {
         "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
@@ -154,7 +146,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088666522818359533#m",
         "sentiment": "neutral",
         "tag": "MACRO",
-        "time": "לפני 6ש׳"
+        "time": "לפני 7ש׳"
       },
       {
         "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
@@ -162,7 +154,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 7ש׳"
+        "time": "לפני 8ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -178,7 +170,15 @@
         "url": "https://nitter.net/wallstengine/status/2088604040481661054#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 10ש׳"
+        "time": "לפני 11ש׳"
+      },
+      {
+        "text": "Can still remember when, less than a year ago, the Fed cut rates even as core CPI had ticked up above 3%. All 12 Fed members voted in favor of the cut, including a few who have recently gotten religion on inflation and n",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
+        "sentiment": "neutral",
+        "tag": "FED",
+        "time": "לפני 12ש׳"
       }
     ]
   },
