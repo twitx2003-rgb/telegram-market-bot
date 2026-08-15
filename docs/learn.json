@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T21:44:52.562171+00:00",
+  "generated_at": "2026-08-15T22:19:42.588736+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -69,41 +69,37 @@
     "total": 24,
     "sentiment": {
       "bullish": {
-        "count": 4,
-        "pct": 17
+        "count": 5,
+        "pct": 21
       },
       "bearish": {
         "count": 1,
         "pct": 4
       },
       "neutral": {
-        "count": 19,
-        "pct": 79
+        "count": 18,
+        "pct": 75
       }
     },
     "top_tickers": [
       [
         "$NVDA",
-        6
+        7
       ],
       [
         "$MU",
         4
       ],
       [
-        "$AMD",
-        3
-      ],
-      [
         "$AVGO",
         3
       ],
       [
-        "$MSFT",
-        2
+        "$AMD",
+        3
       ],
       [
-        "$PLTR",
+        "$MSFT",
         2
       ],
       [
@@ -113,16 +109,28 @@
       [
         "$HOOD",
         2
+      ],
+      [
+        "$TSM",
+        2
       ]
     ],
     "top_tweets": [
+      {
+        "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
+        "sentiment": "neutral",
+        "tag": "ENERGY",
+        "time": "לפני 2ש׳"
+      },
       {
         "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 21ש׳"
+        "time": "לפני 22ש׳"
       },
       {
         "text": "Thousands of customer service jobs have been eliminated due to AI, with Microsoft, $MSFT, cutting its support workforce from 50,000 to 40,000, per Bloomberg.",
@@ -130,7 +138,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088717613602083302#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -162,15 +170,7 @@
         "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 21ש׳"
-      },
-      {
-        "text": "Look at this. We've made it so you can see where market makers are directly positioned with our Periscope tool. It is a must have toolset for you. See more: https://unusualwhales.com/periscope/market-exposure",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088657217176093154#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 5ש׳"
+        "time": "לפני 22ש׳"
       },
       {
         "text": "Key earnings next week.",
