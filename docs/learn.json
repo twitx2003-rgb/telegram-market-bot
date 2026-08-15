@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T09:26:57.771008+00:00",
+  "generated_at": "2026-08-15T09:50:53.389385+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -103,15 +103,15 @@
         1
       ],
       [
-        "$ABSI",
-        1
-      ],
-      [
-        "$XNDU",
+        "$NTNX",
         1
       ],
       [
         "$CBRS",
+        1
+      ],
+      [
+        "$SANM",
         1
       ]
     ],
@@ -154,7 +154,7 @@
         "url": "https://nitter.net/DivesTech/status/2088377047324196918#m",
         "sentiment": "bearish",
         "tag": "M&A",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
       },
       {
         "text": "Anthropic’s preliminary Q2 revenue surged more than 14x YoY to over $11.5B as AI demand continues to accelerate. The company also turned adjusted operating income positive ahead of a potential mega-IPO.",
