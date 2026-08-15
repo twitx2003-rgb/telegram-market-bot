@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T02:32:30.566189+00:00",
+  "generated_at": "2026-08-15T03:37:25.683776+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -62,19 +62,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 34,
+    "total": 31,
     "sentiment": {
       "bullish": {
         "count": 6,
-        "pct": 18
+        "pct": 19
       },
       "bearish": {
-        "count": 5,
-        "pct": 15
+        "count": 6,
+        "pct": 19
       },
       "neutral": {
-        "count": 23,
-        "pct": 68
+        "count": 19,
+        "pct": 61
       }
     },
     "top_tickers": [
@@ -95,7 +95,7 @@
         1
       ],
       [
-        "$SANM",
+        "$NTNX",
         1
       ],
       [
@@ -103,7 +103,7 @@
         1
       ],
       [
-        "$NTNX",
+        "$ABSI",
         1
       ],
       [
@@ -118,7 +118,7 @@
         "url": "https://nitter.net/RyanDetrick/status/2088352770533265532#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 6ש׳"
+        "time": "לפני 7ש׳"
       },
       {
         "text": "U.S. stocks were muted after Trump officials vowed economic isolation and a port blockade of Iran. 10-year treasury yields rose +1.6bp to 4.66% and Brent crude +0.7% to $88/bbl. Korean chipmakers SK Hynix and Samsung sur",
@@ -126,7 +126,7 @@
         "url": "https://nitter.net/garyblack00/status/2088209121237422481#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 16ש׳"
+        "time": "לפני 17ש׳"
       },
       {
         "text": "Bonds are up 18.5% since the cycle high in interest rates in Oct 2023 (10yr 4.997%) ...goes to show that fixed income's grueling losses will always be confined to Aug 2020 to Oct 2023, due to duration. $AGG can continue ",
@@ -134,7 +134,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088374101517734398#m",
         "sentiment": "bearish",
         "tag": "FED",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
       },
       {
         "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
@@ -142,7 +142,7 @@
         "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "RT by @DivesTech: Great to be on @CNBCOvertime with @MelissaLeeCNBC discussing software, broader tech, and the AI Revolution focus of this market 📺🏆🐂🍿🎯👇 @CNBC @CNBCtech https://www.cnbc.com/video/2026/08/14/dan-ives-work",
@@ -150,7 +150,7 @@
         "url": "https://nitter.net/DivesTech/status/2088377047324196918#m",
         "sentiment": "bearish",
         "tag": "M&A",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
       },
       {
         "text": "Anthropic’s preliminary Q2 revenue surged more than 14x YoY to over $11.5B as AI demand continues to accelerate. The company also turned adjusted operating income positive ahead of a potential mega-IPO.",
@@ -158,15 +158,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088373437475827823#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 5ש׳"
-      },
-      {
-        "text": "On X, Burry wrote that “that $500 billion Nvidia Wall Street stunt involves Nvidia taking 25% stakes and providing residual value guarantees on purchase of its chips.\" Read more: https://unusualwhales.com/news/burry-doub",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088438273194561718#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
-        "time": "לפני 1ש׳"
+        "time": "לפני 6ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -174,7 +166,15 @@
         "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
+      },
+      {
+        "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 5ש׳"
       }
     ]
   },
