@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T14:48:04.026911+00:00",
+  "generated_at": "2026-08-15T15:18:52.780889+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,52 +66,52 @@
     ]
   },
   "x_synthesis": {
-    "total": 33,
+    "total": 35,
     "sentiment": {
       "bullish": {
         "count": 6,
-        "pct": 18
+        "pct": 17
       },
       "bearish": {
         "count": 4,
-        "pct": 12
+        "pct": 11
       },
       "neutral": {
-        "count": 23,
-        "pct": 70
+        "count": 25,
+        "pct": 71
       }
     },
     "top_tickers": [
       [
         "$NVDA",
-        4
+        3
       ],
       [
-        "$SPCX",
-        3
+        "$TSLA",
+        2
+      ],
+      [
+        "$MU",
+        2
       ],
       [
         "$UBER",
         2
       ],
       [
-        "$MU",
+        "$SPCX",
+        2
+      ],
+      [
+        "$NBIS",
         1
       ],
       [
-        "$SPY",
+        "$PLTR",
         1
       ],
       [
-        "$ARKK",
-        1
-      ],
-      [
-        "$QQQ",
-        1
-      ],
-      [
-        "$CRWV",
+        "$AAOI",
         1
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 14ש׳"
+        "time": "לפני 15ש׳"
       },
       {
         "text": "Next week's global data deck... FOMC Minutes is the highlight. Flash PMIs too. StanChart",
@@ -130,7 +130,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088629535713472860#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 37ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 14ש׳"
+        "time": "לפני 15ש׳"
       },
       {
         "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
@@ -146,7 +146,15 @@
         "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 16ש׳"
+        "time": "לפני 17ש׳"
+      },
+      {
+        "text": "t's here. This will change how you engage with the stock market. Get the automations you want, for the tickers you want, with the information you want. All how you want it. Check out AI automations with Unusual Whales. S",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088642117442720003#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 17ד׳"
       },
       {
         "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
@@ -154,7 +162,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088627017264636171#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 47ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Unusual Whales has updated its GEX tool. See where dealers must hedge, as well as market maker positioning visualized. It is a must have tool. See more: https://unusualwhales.com/lp/gamma-exposure-gex-data-tool",
@@ -162,7 +170,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088611917417869693#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "Key earnings next week.",
@@ -171,14 +179,6 @@
         "sentiment": "neutral",
         "tag": "EARNINGS",
         "time": "לפני 2ש׳"
-      },
-      {
-        "text": "Can still remember when, less than a year ago, the Fed cut rates even as core CPI had ticked up above 3%. All 12 Fed members voted in favor of the cut, including a few who have recently gotten religion on inflation and n",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
-        "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 3ש׳"
       }
     ]
   },
