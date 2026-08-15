@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T20:20:20.392706+00:00",
+  "generated_at": "2026-08-15T20:47:40.309062+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -91,11 +91,11 @@
         4
       ],
       [
-        "$AVGO",
+        "$AMD",
         3
       ],
       [
-        "$AMD",
+        "$AVGO",
         3
       ],
       [
@@ -103,15 +103,15 @@
         2
       ],
       [
-        "$HOOD",
+        "$PLTR",
+        2
+      ],
+      [
+        "$TSM",
         2
       ],
       [
         "$GOOGL",
-        2
-      ],
-      [
-        "$PLTR",
         2
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
         "sentiment": "neutral",
         "tag": "ENERGY",
-        "time": "לפני 26ד׳"
+        "time": "לפני 54ד׳"
       },
       {
         "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088717613602083302#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 19ד׳"
+        "time": "לפני 46ד׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -146,7 +146,7 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
@@ -154,7 +154,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088666522818359533#m",
         "sentiment": "neutral",
         "tag": "MACRO",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
         "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
@@ -162,7 +162,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 4ש׳"
+        "time": "לפני 5ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
