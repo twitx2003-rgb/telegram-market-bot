@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:22:13.746390+00:00",
+  "generated_at": "2026-08-15T16:49:41.926695+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,18 +66,18 @@
     ]
   },
   "x_synthesis": {
-    "total": 34,
+    "total": 35,
     "sentiment": {
       "bullish": {
         "count": 6,
-        "pct": 18
+        "pct": 17
       },
       "bearish": {
         "count": 3,
         "pct": 9
       },
       "neutral": {
-        "count": 25,
+        "count": 26,
         "pct": 74
       }
     },
@@ -125,6 +125,14 @@
         "time": "לפני 16ש׳"
       },
       {
+        "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2088666522818359533#m",
+        "sentiment": "neutral",
+        "tag": "MACRO",
+        "time": "לפני 11ד׳"
+      },
+      {
         "text": "Next week's global data deck... FOMC Minutes is the highlight. Flash PMIs too. StanChart",
         "handle": "MikeZaccardi",
         "url": "https://nitter.net/MikeZaccardi/status/2088629535713472860#m",
@@ -138,7 +146,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 54ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -162,7 +170,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088657217176093154#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 21ד׳"
+        "time": "לפני 48ד׳"
       },
       {
         "text": "t's here. This will change how you engage with the stock market. Get the automations you want, for the tickers you want, with the information you want. All how you want it. Check out AI automations with Unusual Whales. S",
@@ -171,14 +179,6 @@
         "sentiment": "neutral",
         "tag": "TECH",
         "time": "לפני 1ש׳"
-      },
-      {
-        "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088627017264636171#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
       }
     ]
   },
