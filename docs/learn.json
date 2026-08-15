@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T21:19:35.100770+00:00",
+  "generated_at": "2026-08-15T21:44:52.562171+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,11 +66,11 @@
     ]
   },
   "x_synthesis": {
-    "total": 25,
+    "total": 24,
     "sentiment": {
       "bullish": {
-        "count": 5,
-        "pct": 20
+        "count": 4,
+        "pct": 17
       },
       "bearish": {
         "count": 1,
@@ -78,7 +78,7 @@
       },
       "neutral": {
         "count": 19,
-        "pct": 76
+        "pct": 79
       }
     },
     "top_tickers": [
@@ -103,15 +103,15 @@
         2
       ],
       [
-        "$GOOGL",
-        2
-      ],
-      [
-        "$TSM",
-        2
-      ],
-      [
         "$PLTR",
+        2
+      ],
+      [
+        "$TSLA",
+        2
+      ],
+      [
+        "$HOOD",
         2
       ]
     ],
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
@@ -146,7 +146,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088666522818359533#m",
         "sentiment": "neutral",
         "tag": "MACRO",
-        "time": "לפני 4ש׳"
+        "time": "לפני 5ש׳"
       },
       {
         "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
@@ -154,7 +154,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -178,7 +178,7 @@
         "url": "https://nitter.net/wallstengine/status/2088604040481661054#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 8ש׳"
+        "time": "לפני 9ש׳"
       }
     ]
   },
