@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T14:20:37.168310+00:00",
+  "generated_at": "2026-08-15T14:48:04.026911+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,7 +66,7 @@
     ]
   },
   "x_synthesis": {
-    "total": 34,
+    "total": 33,
     "sentiment": {
       "bullish": {
         "count": 6,
@@ -77,22 +77,30 @@
         "pct": 12
       },
       "neutral": {
-        "count": 24,
-        "pct": 71
+        "count": 23,
+        "pct": 70
       }
     },
     "top_tickers": [
       [
         "$NVDA",
-        5
+        4
       ],
       [
         "$SPCX",
-        4
+        3
       ],
       [
         "$UBER",
         2
+      ],
+      [
+        "$MU",
+        1
+      ],
+      [
+        "$SPY",
+        1
       ],
       [
         "$ARKK",
@@ -103,15 +111,7 @@
         1
       ],
       [
-        "$SPY",
-        1
-      ],
-      [
         "$CRWV",
-        1
-      ],
-      [
-        "$GOOGL",
         1
       ]
     ],
@@ -130,7 +130,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088629535713472860#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 9ד׳"
+        "time": "לפני 37ד׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -154,7 +154,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088627017264636171#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 19ד׳"
+        "time": "לפני 47ד׳"
       },
       {
         "text": "Unusual Whales has updated its GEX tool. See where dealers must hedge, as well as market maker positioning visualized. It is a must have tool. See more: https://unusualwhales.com/lp/gamma-exposure-gex-data-tool",
@@ -170,7 +170,7 @@
         "url": "https://nitter.net/wallstengine/status/2088604040481661054#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "Can still remember when, less than a year ago, the Fed cut rates even as core CPI had ticked up above 3%. All 12 Fed members voted in favor of the cut, including a few who have recently gotten religion on inflation and n",
