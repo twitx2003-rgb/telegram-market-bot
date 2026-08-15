@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:53:55.868447+00:00",
+  "generated_at": "2026-08-15T14:20:37.168310+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,18 +66,18 @@
     ]
   },
   "x_synthesis": {
-    "total": 31,
+    "total": 34,
     "sentiment": {
       "bullish": {
-        "count": 5,
-        "pct": 16
+        "count": 6,
+        "pct": 18
       },
       "bearish": {
         "count": 4,
-        "pct": 13
+        "pct": 12
       },
       "neutral": {
-        "count": 22,
+        "count": 24,
         "pct": 71
       }
     },
@@ -91,8 +91,8 @@
         4
       ],
       [
-        "$SPY",
-        1
+        "$UBER",
+        2
       ],
       [
         "$ARKK",
@@ -103,42 +103,34 @@
         1
       ],
       [
-        "$VGK",
+        "$SPY",
         1
       ],
       [
-        "$FXI",
+        "$CRWV",
         1
       ],
       [
-        "$SNDK",
+        "$GOOGL",
         1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "$SNDK rallied 34% last week GS Industry peers $SMCO and STX also soared 20%+",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088618210551624011#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 27ד׳"
-      },
       {
         "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 13ש׳"
+        "time": "לפני 14ש׳"
       },
       {
-        "text": "The global IPO leading region? It's not the USA... (from HSBC)",
+        "text": "Next week's global data deck... FOMC Minutes is the highlight. Flash PMIs too. StanChart",
         "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088616197050798528#m",
+        "url": "https://nitter.net/MikeZaccardi/status/2088629535713472860#m",
         "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 35ד׳"
+        "tag": "FED",
+        "time": "לפני 9ד׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -146,7 +138,7 @@
         "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 13ש׳"
+        "time": "לפני 14ש׳"
       },
       {
         "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
@@ -154,7 +146,15 @@
         "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 15ש׳"
+        "time": "לפני 16ש׳"
+      },
+      {
+        "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088627017264636171#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 19ד׳"
       },
       {
         "text": "Unusual Whales has updated its GEX tool. See where dealers must hedge, as well as market maker positioning visualized. It is a must have tool. See more: https://unusualwhales.com/lp/gamma-exposure-gex-data-tool",
@@ -162,7 +162,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088611917417869693#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 52ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Key earnings next week.",
@@ -178,7 +178,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       }
     ]
   },
