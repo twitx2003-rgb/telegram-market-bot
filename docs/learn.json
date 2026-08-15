@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T19:24:22.588020+00:00",
+  "generated_at": "2026-08-15T19:44:48.951060+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -91,23 +91,23 @@
         4
       ],
       [
-        "$AVGO",
-        3
-      ],
-      [
         "$AMD",
         3
       ],
       [
-        "$TSM",
-        2
+        "$AVGO",
+        3
       ],
       [
-        "$GOOGL",
+        "$PLTR",
         2
       ],
       [
         "$TSLA",
+        2
+      ],
+      [
+        "$GOOGL",
         2
       ],
       [
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088666522818359533#m",
         "sentiment": "neutral",
         "tag": "MACRO",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
@@ -146,7 +146,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
