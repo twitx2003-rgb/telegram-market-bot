@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T08:26:56.331929+00:00",
+  "generated_at": "2026-08-15T08:56:22.991472+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -103,7 +103,7 @@
         1
       ],
       [
-        "$XNDU",
+        "$CBRS",
         1
       ],
       [
@@ -111,7 +111,7 @@
         1
       ],
       [
-        "$NTNX",
+        "$XNDU",
         1
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/RyanDetrick/status/2088352770533265532#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 12ש׳"
+        "time": "לפני 13ש׳"
       },
       {
         "text": "U.S. stocks were muted after Trump officials vowed economic isolation and a port blockade of Iran. 10-year treasury yields rose +1.6bp to 4.66% and Brent crude +0.7% to $88/bbl. Korean chipmakers SK Hynix and Samsung sur",
@@ -154,7 +154,7 @@
         "url": "https://nitter.net/DivesTech/status/2088377047324196918#m",
         "sentiment": "bearish",
         "tag": "M&A",
-        "time": "לפני 10ש׳"
+        "time": "לפני 11ש׳"
       },
       {
         "text": "Anthropic’s preliminary Q2 revenue surged more than 14x YoY to over $11.5B as AI demand continues to accelerate. The company also turned adjusted operating income positive ahead of a potential mega-IPO.",
@@ -178,7 +178,7 @@
         "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
       }
     ]
   },
