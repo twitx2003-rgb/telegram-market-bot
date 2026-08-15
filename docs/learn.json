@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T10:47:34.074147+00:00",
+  "generated_at": "2026-08-15T11:18:37.124010+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,19 +66,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 30,
+    "total": 28,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 20
+        "count": 7,
+        "pct": 25
       },
       "bearish": {
-        "count": 5,
-        "pct": 17
+        "count": 2,
+        "pct": 7
       },
       "neutral": {
         "count": 19,
-        "pct": 63
+        "pct": 68
       }
     },
     "top_tickers": [
@@ -99,19 +99,19 @@
         1
       ],
       [
-        "$LITE",
-        1
-      ],
-      [
         "$TSM",
         1
       ],
       [
-        "$AGG",
+        "$LITE",
         1
       ],
       [
-        "$SANM",
+        "$XNDU",
+        1
+      ],
+      [
+        "$NTNX",
         1
       ]
     ],
@@ -122,15 +122,7 @@
         "url": "https://nitter.net/RyanDetrick/status/2088352770533265532#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 14ש׳"
-      },
-      {
-        "text": "Bonds are up 18.5% since the cycle high in interest rates in Oct 2023 (10yr 4.997%) ...goes to show that fixed income's grueling losses will always be confined to Aug 2020 to Oct 2023, due to duration. $AGG can continue ",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088374101517734398#m",
-        "sentiment": "bearish",
-        "tag": "FED",
-        "time": "לפני 13ש׳"
+        "time": "לפני 15ש׳"
       },
       {
         "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
@@ -138,7 +130,7 @@
         "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 10ש׳"
+        "time": "לפני 11ש׳"
       },
       {
         "text": "RT by @DivesTech: Great to be on @CNBCOvertime with @MelissaLeeCNBC discussing software, broader tech, and the AI Revolution focus of this market 📺🏆🐂🍿🎯👇 @CNBC @CNBCtech https://www.cnbc.com/video/2026/08/14/dan-ives-work",
@@ -154,15 +146,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088373437475827823#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 13ש׳"
-      },
-      {
-        "text": "The Atlanta Fed's GDPNow currently points to 4.3% growth this quarter, of which we estimate roughly 0.2 percentage points are attributable to tariff refunds. Torsten at Apollo",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088570751804649667#m",
-        "sentiment": "neutral",
-        "tag": "MACRO",
-        "time": "לפני 30ד׳"
+        "time": "לפני 14ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -170,15 +154,31 @@
         "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 10ש׳"
+        "time": "לפני 11ש׳"
       },
       {
-        "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
-        "sentiment": "bearish",
+        "text": "$AMD DISCLOSES $565M $SPCX STAKE AMD reported 3.31M SpaceX Class A shares at the end of Q2, worth about $565.5M, making it AMD’s largest disclosed equity holding. Other notable positions: $SANM — $291.3M $NTNX — $210.8M ",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 14ש׳"
+      },
+      {
+        "text": "GS: During the Q2 earnings season, 11% of S&P 500 companies quantified the impact of AI productivity on a specific use case, such as coding or customer support.",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2088584236097814544#m",
+        "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 12ש׳"
+        "time": "לפני 7ד׳"
+      },
+      {
+        "text": "Can still remember when, less than a year ago, the Fed cut rates even as core CPI had ticked up above 3%. All 12 Fed members voted in favor of the cut, including a few who have recently gotten religion on inflation and n",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
+        "sentiment": "neutral",
+        "tag": "FED",
+        "time": "לפני 19ד׳"
       }
     ]
   },
