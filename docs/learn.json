@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:29:08.385228+00:00",
+  "generated_at": "2026-08-15T13:53:55.868447+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,19 +66,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 32,
+    "total": 31,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 19
+        "count": 5,
+        "pct": 16
       },
       "bearish": {
         "count": 4,
-        "pct": 12
+        "pct": 13
       },
       "neutral": {
         "count": 22,
-        "pct": 69
+        "pct": 71
       }
     },
     "top_tickers": [
@@ -91,31 +91,39 @@
         4
       ],
       [
-        "$CRWV",
+        "$SPY",
         1
       ],
       [
-        "$XLK",
+        "$ARKK",
         1
       ],
       [
-        "$XLP",
+        "$QQQ",
         1
       ],
       [
-        "$GOOGL",
+        "$VGK",
         1
       ],
       [
-        "$INTC",
+        "$FXI",
         1
       ],
       [
-        "$TSLA",
+        "$SNDK",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "$SNDK rallied 34% last week GS Industry peers $SMCO and STX also soared 20%+",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2088618210551624011#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 27ד׳"
+      },
       {
         "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
         "handle": "wallstengine",
@@ -130,7 +138,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088616197050798528#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 11ד׳"
+        "time": "לפני 35ד׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -154,7 +162,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088611917417869693#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 28ד׳"
+        "time": "לפני 52ד׳"
       },
       {
         "text": "Key earnings next week.",
@@ -162,7 +170,7 @@
         "url": "https://nitter.net/wallstengine/status/2088604040481661054#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 59ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Can still remember when, less than a year ago, the Fed cut rates even as core CPI had ticked up above 3%. All 12 Fed members voted in favor of the cut, including a few who have recently gotten religion on inflation and n",
@@ -170,14 +178,6 @@
         "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "86% of the 432 S&P 500 stocks that have reported Q2 earnings have beaten consensus analyst EPS estimates.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2088580389849669691#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
         "time": "לפני 2ש׳"
       }
     ]
