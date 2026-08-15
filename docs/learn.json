@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T18:27:16.165592+00:00",
+  "generated_at": "2026-08-15T18:57:09.834192+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -84,35 +84,35 @@
     "top_tickers": [
       [
         "$NVDA",
-        5
+        6
       ],
       [
         "$MU",
-        3
-      ],
-      [
-        "$NBIS",
-        2
-      ],
-      [
-        "$CIFR",
-        2
+        4
       ],
       [
         "$AVGO",
-        2
+        3
       ],
       [
         "$AMD",
+        3
+      ],
+      [
+        "$GOOGL",
         2
       ],
       [
-        "$UBER",
+        "$PLTR",
         2
       ],
       [
-        "$CRWV",
-        1
+        "$HOOD",
+        2
+      ],
+      [
+        "$TSM",
+        2
       ]
     ],
     "top_tweets": [
@@ -125,12 +125,20 @@
         "time": "לפני 18ש׳"
       },
       {
+        "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 36ד׳"
+      },
+      {
         "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
         "handle": "MikeZaccardi",
         "url": "https://nitter.net/MikeZaccardi/status/2088666522818359533#m",
         "sentiment": "neutral",
         "tag": "MACRO",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
@@ -138,7 +146,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -171,14 +179,6 @@
         "sentiment": "neutral",
         "tag": "TECH",
         "time": "לפני 3ש׳"
-      },
-      {
-        "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088627017264636171#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 4ש׳"
       }
     ]
   },
