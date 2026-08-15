@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T11:44:51.585314+00:00",
+  "generated_at": "2026-08-15T12:34:40.176039+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -69,12 +69,12 @@
     "total": 30,
     "sentiment": {
       "bullish": {
-        "count": 9,
-        "pct": 30
+        "count": 8,
+        "pct": 27
       },
       "bearish": {
-        "count": 3,
-        "pct": 10
+        "count": 4,
+        "pct": 13
       },
       "neutral": {
         "count": 18,
@@ -88,14 +88,14 @@
       ],
       [
         "$SPCX",
-        3
+        2
       ],
       [
-        "$INTC",
+        "$VIX",
         1
       ],
       [
-        "$LITE",
+        "$INTC",
         1
       ],
       [
@@ -103,15 +103,15 @@
         1
       ],
       [
-        "$NTNX",
+        "$LITE",
         1
       ],
       [
-        "$CBRS",
+        "$TSLA",
         1
       ],
       [
-        "$XNDU",
+        "$RDDT",
         1
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/RyanDetrick/status/2088352770533265532#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 15ש׳"
+        "time": "לפני 16ש׳"
       },
       {
         "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
@@ -130,7 +130,7 @@
         "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
       },
       {
         "text": "Anthropic’s preliminary Q2 revenue surged more than 14x YoY to over $11.5B as AI demand continues to accelerate. The company also turned adjusted operating income positive ahead of a potential mega-IPO.",
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088373437475827823#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 14ש׳"
+        "time": "לפני 15ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -146,7 +146,7 @@
         "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
       },
       {
         "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
@@ -154,23 +154,15 @@
         "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 13ש׳"
-      },
-      {
-        "text": "$AMD DISCLOSES $565M $SPCX STAKE AMD reported 3.31M SpaceX Class A shares at the end of Q2, worth about $565.5M, making it AMD’s largest disclosed equity holding. Other notable positions: $SANM — $291.3M $NTNX — $210.8M ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
         "time": "לפני 14ש׳"
       },
       {
-        "text": "GS: During the Q2 earnings season, 11% of S&P 500 companies quantified the impact of AI productivity on a specific use case, such as coding or customer support.",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088584236097814544#m",
+        "text": "Not a huge earnings slate next week, but a few key names are still on deck.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2088602435040534802#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 33ד׳"
+        "time": "לפני 11ד׳"
       },
       {
         "text": "Can still remember when, less than a year ago, the Fed cut rates even as core CPI had ticked up above 3%. All 12 Fed members voted in favor of the cut, including a few who have recently gotten religion on inflation and n",
@@ -178,7 +170,15 @@
         "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 45ד׳"
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "86% of the 432 S&P 500 stocks that have reported Q2 earnings have beaten consensus analyst EPS estimates.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2088580389849669691#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
       }
     ]
   },
