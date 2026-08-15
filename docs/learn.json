@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T15:18:52.780889+00:00",
+  "generated_at": "2026-08-15T15:44:57.212676+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,32 +66,36 @@
     ]
   },
   "x_synthesis": {
-    "total": 35,
+    "total": 34,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 17
+        "count": 7,
+        "pct": 21
       },
       "bearish": {
-        "count": 4,
-        "pct": 11
+        "count": 3,
+        "pct": 9
       },
       "neutral": {
-        "count": 25,
+        "count": 24,
         "pct": 71
       }
     },
     "top_tickers": [
       [
         "$NVDA",
-        3
-      ],
-      [
-        "$TSLA",
-        2
+        5
       ],
       [
         "$MU",
+        4
+      ],
+      [
+        "$AVGO",
+        2
+      ],
+      [
+        "$AMD",
         2
       ],
       [
@@ -99,19 +103,15 @@
         2
       ],
       [
-        "$SPCX",
-        2
-      ],
-      [
-        "$NBIS",
+        "$COHR",
         1
       ],
       [
-        "$PLTR",
+        "$ON",
         1
       ],
       [
-        "$AAOI",
+        "$ASML",
         1
       ]
     ],
@@ -131,6 +131,14 @@
         "sentiment": "neutral",
         "tag": "FED",
         "time": "לפני 1ש׳"
+      },
+      {
+        "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
+        "sentiment": "bullish",
+        "tag": "TECH",
+        "time": "לפני 17ד׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -154,7 +162,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088642117442720003#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 17ד׳"
+        "time": "לפני 43ד׳"
       },
       {
         "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
@@ -170,14 +178,6 @@
         "url": "https://nitter.net/unusual_whales/status/2088611917417869693#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "Key earnings next week.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088604040481661054#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
         "time": "לפני 2ש׳"
       }
     ]
