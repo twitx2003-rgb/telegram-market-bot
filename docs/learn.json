@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T10:21:03.171139+00:00",
+  "generated_at": "2026-08-15T10:47:34.074147+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -69,16 +69,16 @@
     "total": 30,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 23
+        "count": 6,
+        "pct": 20
       },
       "bearish": {
         "count": 5,
         "pct": 17
       },
       "neutral": {
-        "count": 18,
-        "pct": 60
+        "count": 19,
+        "pct": 63
       }
     },
     "top_tickers": [
@@ -95,7 +95,7 @@
         3
       ],
       [
-        "$TSM",
+        "$VIX",
         1
       ],
       [
@@ -103,15 +103,15 @@
         1
       ],
       [
+        "$TSM",
+        1
+      ],
+      [
         "$AGG",
         1
       ],
       [
-        "$ABSI",
-        1
-      ],
-      [
-        "$XNDU",
+        "$SANM",
         1
       ]
     ],
@@ -146,7 +146,7 @@
         "url": "https://nitter.net/DivesTech/status/2088377047324196918#m",
         "sentiment": "bearish",
         "tag": "M&A",
-        "time": "לפני 12ש׳"
+        "time": "לפני 13ש׳"
       },
       {
         "text": "Anthropic’s preliminary Q2 revenue surged more than 14x YoY to over $11.5B as AI demand continues to accelerate. The company also turned adjusted operating income positive ahead of a potential mega-IPO.",
@@ -155,6 +155,14 @@
         "sentiment": "bullish",
         "tag": "EARNINGS",
         "time": "לפני 13ש׳"
+      },
+      {
+        "text": "The Atlanta Fed's GDPNow currently points to 4.3% growth this quarter, of which we estimate roughly 0.2 percentage points are attributable to tariff refunds. Torsten at Apollo",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2088570751804649667#m",
+        "sentiment": "neutral",
+        "tag": "MACRO",
+        "time": "לפני 30ד׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -171,14 +179,6 @@
         "sentiment": "bearish",
         "tag": "EARNINGS",
         "time": "לפני 12ש׳"
-      },
-      {
-        "text": "$AMD DISCLOSES $565M $SPCX STAKE AMD reported 3.31M SpaceX Class A shares at the end of Q2, worth about $565.5M, making it AMD’s largest disclosed equity holding. Other notable positions: $SANM — $291.3M $NTNX — $210.8M ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 13ש׳"
       }
     ]
   },
