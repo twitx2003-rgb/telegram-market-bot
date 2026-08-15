@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T17:45:15.544469+00:00",
+  "generated_at": "2026-08-15T18:27:16.165592+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,7 +66,7 @@
     ]
   },
   "x_synthesis": {
-    "total": 33,
+    "total": 34,
     "sentiment": {
       "bullish": {
         "count": 6,
@@ -77,8 +77,8 @@
         "pct": 9
       },
       "neutral": {
-        "count": 24,
-        "pct": 73
+        "count": 25,
+        "pct": 74
       }
     },
     "top_tickers": [
@@ -99,11 +99,11 @@
         2
       ],
       [
-        "$AMD",
+        "$AVGO",
         2
       ],
       [
-        "$AVGO",
+        "$AMD",
         2
       ],
       [
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 17ש׳"
+        "time": "לפני 18ש׳"
       },
       {
         "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
@@ -131,14 +131,6 @@
         "sentiment": "neutral",
         "tag": "MACRO",
         "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Next week's global data deck... FOMC Minutes is the highlight. Flash PMIs too. StanChart",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088629535713472860#m",
-        "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 3ש׳"
       },
       {
         "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
@@ -154,7 +146,7 @@
         "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 17ש׳"
+        "time": "לפני 18ש׳"
       },
       {
         "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
@@ -162,7 +154,7 @@
         "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 19ש׳"
+        "time": "לפני 20ש׳"
       },
       {
         "text": "Look at this. We've made it so you can see where market makers are directly positioned with our Periscope tool. It is a must have toolset for you. See more: https://unusualwhales.com/periscope/market-exposure",
@@ -170,7 +162,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088657217176093154#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "t's here. This will change how you engage with the stock market. Get the automations you want, for the tickers you want, with the information you want. All how you want it. Check out AI automations with Unusual Whales. S",
@@ -178,7 +170,15 @@
         "url": "https://nitter.net/unusual_whales/status/2088642117442720003#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
+      },
+      {
+        "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088627017264636171#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 4ש׳"
       }
     ]
   },
