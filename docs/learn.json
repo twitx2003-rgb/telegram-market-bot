@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T08:56:22.991472+00:00",
+  "generated_at": "2026-08-15T09:26:57.771008+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,19 +66,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 26,
+    "total": 31,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 27
+        "count": 8,
+        "pct": 26
       },
       "bearish": {
-        "count": 4,
-        "pct": 15
+        "count": 6,
+        "pct": 19
       },
       "neutral": {
-        "count": 15,
-        "pct": 58
+        "count": 17,
+        "pct": 55
       }
     },
     "top_tickers": [
@@ -103,15 +103,15 @@
         1
       ],
       [
-        "$CBRS",
-        1
-      ],
-      [
-        "$SANM",
+        "$ABSI",
         1
       ],
       [
         "$XNDU",
+        1
+      ],
+      [
+        "$CBRS",
         1
       ]
     ],
@@ -130,7 +130,7 @@
         "url": "https://nitter.net/garyblack00/status/2088209121237422481#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 22ש׳"
+        "time": "לפני 23ש׳"
       },
       {
         "text": "Bonds are up 18.5% since the cycle high in interest rates in Oct 2023 (10yr 4.997%) ...goes to show that fixed income's grueling losses will always be confined to Aug 2020 to Oct 2023, due to duration. $AGG can continue ",
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088374101517734398#m",
         "sentiment": "bearish",
         "tag": "FED",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
       },
       {
         "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
@@ -146,7 +146,7 @@
         "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 8ש׳"
+        "time": "לפני 9ש׳"
       },
       {
         "text": "RT by @DivesTech: Great to be on @CNBCOvertime with @MelissaLeeCNBC discussing software, broader tech, and the AI Revolution focus of this market 📺🏆🐂🍿🎯👇 @CNBC @CNBCtech https://www.cnbc.com/video/2026/08/14/dan-ives-work",
@@ -162,7 +162,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088373437475827823#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -170,15 +170,15 @@
         "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 8ש׳"
+        "time": "לפני 9ש׳"
       },
       {
-        "text": "$AMD DISCLOSES $565M $SPCX STAKE AMD reported 3.31M SpaceX Class A shares at the end of Q2, worth about $565.5M, making it AMD’s largest disclosed equity holding. Other notable positions: $SANM — $291.3M $NTNX — $210.8M ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 12ש׳"
+        "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 11ש׳"
       }
     ]
   },
