@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T11:18:37.124010+00:00",
+  "generated_at": "2026-08-15T11:44:51.585314+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,40 +66,32 @@
     ]
   },
   "x_synthesis": {
-    "total": 28,
+    "total": 30,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 25
+        "count": 9,
+        "pct": 30
       },
       "bearish": {
-        "count": 2,
-        "pct": 7
+        "count": 3,
+        "pct": 10
       },
       "neutral": {
-        "count": 19,
-        "pct": 68
+        "count": 18,
+        "pct": 60
       }
     },
     "top_tickers": [
-      [
-        "$SPCX",
-        4
-      ],
       [
         "$NVDA",
         3
       ],
       [
-        "$AMD",
+        "$SPCX",
         3
       ],
       [
-        "$VIX",
-        1
-      ],
-      [
-        "$TSM",
+        "$INTC",
         1
       ],
       [
@@ -107,11 +99,19 @@
         1
       ],
       [
-        "$XNDU",
+        "$TSM",
         1
       ],
       [
         "$NTNX",
+        1
+      ],
+      [
+        "$CBRS",
+        1
+      ],
+      [
+        "$XNDU",
         1
       ]
     ],
@@ -133,14 +133,6 @@
         "time": "לפני 11ש׳"
       },
       {
-        "text": "RT by @DivesTech: Great to be on @CNBCOvertime with @MelissaLeeCNBC discussing software, broader tech, and the AI Revolution focus of this market 📺🏆🐂🍿🎯👇 @CNBC @CNBCtech https://www.cnbc.com/video/2026/08/14/dan-ives-work",
-        "handle": "DivesTech",
-        "url": "https://nitter.net/DivesTech/status/2088377047324196918#m",
-        "sentiment": "bearish",
-        "tag": "M&A",
-        "time": "לפני 13ש׳"
-      },
-      {
         "text": "Anthropic’s preliminary Q2 revenue surged more than 14x YoY to over $11.5B as AI demand continues to accelerate. The company also turned adjusted operating income positive ahead of a potential mega-IPO.",
         "handle": "StockSavvyShay",
         "url": "https://nitter.net/StockSavvyShay/status/2088373437475827823#m",
@@ -157,6 +149,14 @@
         "time": "לפני 11ש׳"
       },
       {
+        "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 13ש׳"
+      },
+      {
         "text": "$AMD DISCLOSES $565M $SPCX STAKE AMD reported 3.31M SpaceX Class A shares at the end of Q2, worth about $565.5M, making it AMD’s largest disclosed equity holding. Other notable positions: $SANM — $291.3M $NTNX — $210.8M ",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088367783025442928#m",
@@ -170,7 +170,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088584236097814544#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 7ד׳"
+        "time": "לפני 33ד׳"
       },
       {
         "text": "Can still remember when, less than a year ago, the Fed cut rates even as core CPI had ticked up above 3%. All 12 Fed members voted in favor of the cut, including a few who have recently gotten religion on inflation and n",
@@ -178,7 +178,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 19ד׳"
+        "time": "לפני 45ד׳"
       }
     ]
   },
