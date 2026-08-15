@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:49:41.926695+00:00",
+  "generated_at": "2026-08-15T17:25:42.744163+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,121 +66,23 @@
     ]
   },
   "x_synthesis": {
-    "total": 35,
+    "total": 0,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 17
+        "count": 0,
+        "pct": 0
       },
       "bearish": {
-        "count": 3,
-        "pct": 9
+        "count": 0,
+        "pct": 0
       },
       "neutral": {
-        "count": 26,
-        "pct": 74
+        "count": 0,
+        "pct": 0
       }
     },
-    "top_tickers": [
-      [
-        "$NVDA",
-        5
-      ],
-      [
-        "$MU",
-        3
-      ],
-      [
-        "$NBIS",
-        2
-      ],
-      [
-        "$CIFR",
-        2
-      ],
-      [
-        "$AVGO",
-        2
-      ],
-      [
-        "$AMD",
-        2
-      ],
-      [
-        "$UBER",
-        2
-      ],
-      [
-        "$CRWV",
-        1
-      ]
-    ],
-    "top_tweets": [
-      {
-        "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 16ש׳"
-      },
-      {
-        "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088666522818359533#m",
-        "sentiment": "neutral",
-        "tag": "MACRO",
-        "time": "לפני 11ד׳"
-      },
-      {
-        "text": "Next week's global data deck... FOMC Minutes is the highlight. Flash PMIs too. StanChart",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088629535713472860#m",
-        "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 16ש׳"
-      },
-      {
-        "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 18ש׳"
-      },
-      {
-        "text": "Look at this. We've made it so you can see where market makers are directly positioned with our Periscope tool. It is a must have toolset for you. See more: https://unusualwhales.com/periscope/market-exposure",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088657217176093154#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 48ד׳"
-      },
-      {
-        "text": "t's here. This will change how you engage with the stock market. Get the automations you want, for the tickers you want, with the information you want. All how you want it. Check out AI automations with Unusual Whales. S",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088642117442720003#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
-      }
-    ]
+    "top_tickers": [],
+    "top_tweets": []
   },
   "consensus": []
 }
