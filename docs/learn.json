@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T15:44:57.212676+00:00",
+  "generated_at": "2026-08-15T16:22:13.746390+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -69,16 +69,16 @@
     "total": 34,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 21
+        "count": 6,
+        "pct": 18
       },
       "bearish": {
         "count": 3,
         "pct": 9
       },
       "neutral": {
-        "count": 24,
-        "pct": 71
+        "count": 25,
+        "pct": 74
       }
     },
     "top_tickers": [
@@ -88,7 +88,15 @@
       ],
       [
         "$MU",
-        4
+        3
+      ],
+      [
+        "$NBIS",
+        2
+      ],
+      [
+        "$CIFR",
+        2
       ],
       [
         "$AVGO",
@@ -103,15 +111,7 @@
         2
       ],
       [
-        "$COHR",
-        1
-      ],
-      [
-        "$ON",
-        1
-      ],
-      [
-        "$ASML",
+        "$CRWV",
         1
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 15ש׳"
+        "time": "לפני 16ש׳"
       },
       {
         "text": "Next week's global data deck... FOMC Minutes is the highlight. Flash PMIs too. StanChart",
@@ -130,7 +130,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088629535713472860#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 17ד׳"
+        "time": "לפני 54ד׳"
       },
       {
         "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
@@ -146,7 +146,7 @@
         "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 15ש׳"
+        "time": "לפני 16ש׳"
       },
       {
         "text": "JANE STREET TAKES $15 BILLION JULY HIT Jane Street lost about $15 billion in July as the AI selloff hit its exposure to Situational Awareness and other technology positions, Reuters reports. The firm has still generated ",
@@ -154,7 +154,15 @@
         "url": "https://nitter.net/DeItaone/status/2088386491109998652#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 17ש׳"
+        "time": "לפני 18ש׳"
+      },
+      {
+        "text": "Look at this. We've made it so you can see where market makers are directly positioned with our Periscope tool. It is a must have toolset for you. See more: https://unusualwhales.com/periscope/market-exposure",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088657217176093154#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 21ד׳"
       },
       {
         "text": "t's here. This will change how you engage with the stock market. Get the automations you want, for the tickers you want, with the information you want. All how you want it. Check out AI automations with Unusual Whales. S",
@@ -162,7 +170,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088642117442720003#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 43ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
@@ -170,14 +178,6 @@
         "url": "https://nitter.net/unusual_whales/status/2088627017264636171#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Unusual Whales has updated its GEX tool. See where dealers must hedge, as well as market maker positioning visualized. It is a must have tool. See more: https://unusualwhales.com/lp/gamma-exposure-gex-data-tool",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088611917417869693#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
         "time": "לפני 2ש׳"
       }
     ]
