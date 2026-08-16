@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:21:00.563354+00:00",
+  "generated_at": "2026-08-16T14:48:29.529567+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -100,20 +100,20 @@
         2
       ],
       [
-        "$META",
-        2
-      ],
-      [
         "$GOOGL",
         2
       ],
       [
-        "$CIFR",
+        "$META",
         2
       ],
       [
-        "$CRWV",
-        2
+        "$CEG",
+        1
+      ],
+      [
+        "$IREN",
+        1
       ]
     ],
     "top_tweets": [
@@ -123,7 +123,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088989406619140426#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 19ד׳"
+        "time": "לפני 47ד׳"
       },
       {
         "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
@@ -155,7 +155,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088982790645960868#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 46ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "$NVDA is reportedly in talks to invest up to $3B in SB Energy’s massive Ohio data center project for OpenAI. The discussions are part of a broader deal that could include up to $100B of Nvidia credit support to help fina",
@@ -179,7 +179,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088991167497028011#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 12ד׳"
+        "time": "לפני 40ד׳"
       }
     ]
   },
