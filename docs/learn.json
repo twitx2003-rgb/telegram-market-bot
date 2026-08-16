@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:20:02.819248+00:00",
+  "generated_at": "2026-08-16T20:47:13.925748+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -70,25 +70,25 @@
     "total": 18,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 39
+        "count": 5,
+        "pct": 28
       },
       "bearish": {
         "count": 1,
         "pct": 6
       },
       "neutral": {
-        "count": 10,
-        "pct": 56
+        "count": 12,
+        "pct": 67
       }
     },
     "top_tickers": [
       [
-        "$META",
+        "$GOOGL",
         2
       ],
       [
-        "$GOOGL",
+        "$META",
         2
       ],
       [
@@ -104,11 +104,11 @@
         2
       ],
       [
-        "$SPY",
+        "$EUFN",
         1
       ],
       [
-        "$ORCL",
+        "$XLK",
         1
       ],
       [
@@ -123,7 +123,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089012068527808727#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 4ש׳"
+        "time": "לפני 5ש׳"
       },
       {
         "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
@@ -147,15 +147,23 @@
         "url": "https://nitter.net/wallstengine/status/2088784903035097337#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 19ש׳"
+        "time": "לפני 20ש׳"
       },
       {
-        "text": "S&P 500 profit margin has increased by almost half since late 2023 JPMAM Pretty much double the mid-2000s rate",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2089027154830823794#m",
-        "sentiment": "bullish",
+        "text": "There is a 17% chance that the US will invade Iran before 2027, per Polymarket. See more: https://polymarket.com/event/will-the-us-invade-iran-before-2027",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089088499769377224#m",
+        "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 12ד׳"
+      },
+      {
+        "text": "Goldman: They're Not Hiking We feel comfortable with our view that the pace will remain slightly below potential.... Fed Pricing Has Turned Less Hawkish, But There Is Further to Go",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2089085383074062370#m",
+        "sentiment": "neutral",
+        "tag": "FED",
+        "time": "לפני 24ד׳"
       },
       {
         "text": "The AI buildout is becoming far less discretionary than you think with ~$3.2T of commitments already locked in: • $GOOGL $946B (+116% QoQ) • $META $731B (+59% QoQ) • $MSFT $672B (+50% QoQ) • $AMZN $453B (+13% QoQ) • $ORC",
@@ -163,7 +171,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089024823095886286#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
         "text": "The S&P 500’s cumulative advance/decline line has been confirming new highs in price, a healthy sign for bulls. Read our full Bespoke Report newsletter here: https://www.bespokepremium.com/interactive/posts/featured-repo",
@@ -171,15 +179,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2088984699880251405#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 6ש׳"
-      },
-      {
-        "text": "I rarely see $TSLA bulls on X posting on whether TSLA is cheap or expensive. It seems that since they love the products and leadership team they don’t care about the valuation. But at a 2026 P/E of 200x and long-term exp",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2088941452604625007#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 9ש׳"
+        "time": "לפני 7ש׳"
       }
     ]
   },
