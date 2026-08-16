@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T10:48:03.379379+00:00",
+  "generated_at": "2026-08-16T11:18:58.561675+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,19 +67,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 22,
+    "total": 21,
     "sentiment": {
       "bullish": {
-        "count": 5,
-        "pct": 23
+        "count": 3,
+        "pct": 14
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 17,
-        "pct": 77
+        "count": 18,
+        "pct": 86
       }
     },
     "top_tickers": [
@@ -88,7 +88,7 @@
         5
       ],
       [
-        "$NVDA",
+        "$TSLA",
         4
       ],
       [
@@ -108,30 +108,22 @@
         3
       ],
       [
-        "$SPCX",
-        2
+        "$NVDA",
+        3
       ],
       [
-        "$CRWV",
+        "$SPCX",
         2
       ]
     ],
     "top_tweets": [
-      {
-        "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
-        "sentiment": "neutral",
-        "tag": "ENERGY",
-        "time": "לפני 14ש׳"
-      },
       {
         "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 10ש׳"
+        "time": "לפני 11ש׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -142,20 +134,12 @@
         "time": "לפני 16ש׳"
       },
       {
-        "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088666522818359533#m",
-        "sentiment": "neutral",
-        "tag": "MACRO",
-        "time": "לפני 18ש׳"
-      },
-      {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 34ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "RT by @StockSavvyShay: THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LR",
@@ -174,12 +158,28 @@
         "time": "לפני 10ש׳"
       },
       {
-        "text": "Can still remember when, less than a year ago, the Fed cut rates even as core CPI had ticked up above 3%. All 12 Fed members voted in favor of the cut, including a few who have recently gotten religion on inflation and n",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
+        "text": "Retailer earnings this week... YTD returns: $TGT +62% $WMT +4% @stockcharts",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2088948385810157852#m",
         "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 23ש׳"
+        "tag": "EARNINGS",
+        "time": "עכשיו"
+      },
+      {
+        "text": "I rarely see $TSLA bulls on X posting on whether TSLA is cheap or expensive. It seems that since they love the products and leadership team they don’t care about the valuation. But at a 2026 P/E of 200x and long-term exp",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2088941452604625007#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 28ד׳"
+      },
+      {
+        "text": "For $TSLA bulls who complain I never post anything positive on $TSLA: 1/ go back to 2019-2023 when I was a huge TSLA bull; I posted positive thoughts on TSLA several times a week (how do you think I amassed 500K follower",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2088941055001407499#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 30ד׳"
       }
     ]
   },
