@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T23:18:14.085823+00:00",
+  "generated_at": "2026-08-16T23:44:15.746267+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,28 +67,32 @@
     ]
   },
   "x_synthesis": {
-    "total": 23,
+    "total": 12,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 30
+        "count": 3,
+        "pct": 25
       },
       "bearish": {
         "count": 2,
-        "pct": 9
+        "pct": 17
       },
       "neutral": {
-        "count": 14,
-        "pct": 61
+        "count": 7,
+        "pct": 58
       }
     },
     "top_tickers": [
       [
-        "$SPCX",
+        "$TSLA",
         2
       ],
       [
         "$IREN",
+        1
+      ],
+      [
+        "$AAPL",
         1
       ],
       [
@@ -98,88 +102,72 @@
       [
         "$RKLB",
         1
-      ],
-      [
-        "$AAPL",
-        1
-      ],
-      [
-        "$U",
-        1
-      ],
-      [
-        "$TWLO",
-        1
-      ],
-      [
-        "$APH",
-        1
       ]
     ],
     "top_tweets": [
       {
-        "text": "FOMC minutes Weds Flash PMIs Friday",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2089106428116037682#m",
-        "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 23ש׳"
-      },
-      {
-        "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 13ש׳"
-      },
-      {
-        "text": "BREAKING: Unusual Whales has passed 5 million followers on X. Together, we've helped drive the push to ban congressional stock trading, built financial tools used by millions, and created one of the largest investing com",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089112716979966416#m",
+        "text": "$RKLB just put the first 8 satellites it’s building for MDA Space under a $143M contract into orbit with all eight healthy and generating power. The satellites will replenish $AMZN Globalstar's constellation which suppor",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089098612567609652#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
-        "text": "Gavin Baker’s Atreides Management has roughly 42% of its disclosed equity portfolio in SpaceX $SPCX, a $4.67B position as of Q2.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088784903035097337#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 22ש׳"
-      },
-      {
-        "text": "STRIPE TO BUY OPENROUTER FOR $7B+ Stripe has finalized a deal to acquire AI model marketplace OpenRouter for more than $7B, Bloomberg reports, just months after the startup raised funding at a reported $1.3B valuation. O",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089127576136818844#m",
-        "sentiment": "bullish",
-        "tag": "M&A",
-        "time": "לפני 8ד׳"
-      },
-      {
-        "text": "US public debt has hit a record $39.8 trillion, $200 billion away from the $40 trillion.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089125300433236478#m",
+        "text": "The S&P 500’s cumulative advance/decline line has been confirming new highs in price, a healthy sign for bulls. Read our full Bespoke Report newsletter here: https://www.bespokepremium.com/interactive/posts/featured-repo",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2088984699880251405#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 17ד׳"
+        "time": "לפני 10ש׳"
       },
       {
-        "text": "There is a 17% chance that the US will invade Iran before 2027, per Polymarket. See more: https://polymarket.com/event/will-the-us-invade-iran-before-2027",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089103267917865255#m",
+        "text": "I rarely see $TSLA bulls on X posting on whether TSLA is cheap or expensive. It seems that since they love the products and leadership team they don’t care about the valuation. But at a 2026 P/E of 200x and long-term exp",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2088941452604625007#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 12ש׳"
+      },
+      {
+        "text": "For $TSLA bulls who complain I never post anything positive on $TSLA: 1/ go back to 2019-2023 when I was a huge TSLA bull; I posted positive thoughts on TSLA several times a week (how do you think I amassed 500K follower",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2088941055001407499#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 12ש׳"
+      },
+      {
+        "text": "Stanley Druckenmiller initiated a new $IREN position buying 87,100 shares worth ~$4M. Druckenmiller is widely considered one of the greatest investors ever after compounding at ~30% annually for nearly three decades.",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089126306575434105#m",
+        "sentiment": "bearish",
+        "tag": "NEWS",
+        "time": "לפני 39ד׳"
+      },
+      {
+        "text": "Pretty much all the key US index ETFs are back to new highs, yet the semis and transports, two “leading” groups, are still well below highs (after massive rallies in the spring).",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089037628121162223#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 6ש׳"
+      },
+      {
+        "text": "RT by @RyanDetrick: The last five presidents who reached \"year six\" in office saw stocks up almost 20% on average. @RyanDetrick of @CarsonGroupLLC tells @JD_Durkin the usual midterm-year weakness may have already been \"p",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/FINTECHTVglobal/status/2089011804756185558#m",
+        "sentiment": "bearish",
+        "tag": "TECH",
+        "time": "לפני 8ש׳"
+      },
+      {
+        "text": "Here’s the percentage of existing home sales that were sub-$100k versus $1+ million since 2013:",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2088983454310375588#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 10ש׳"
       }
     ]
   },
