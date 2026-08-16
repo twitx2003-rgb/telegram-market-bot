@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T15:46:05.575886+00:00",
+  "generated_at": "2026-08-16T16:23:06.230404+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -70,12 +70,12 @@
     "total": 23,
     "sentiment": {
       "bullish": {
-        "count": 4,
-        "pct": 17
+        "count": 5,
+        "pct": 22
       },
       "bearish": {
-        "count": 1,
-        "pct": 4
+        "count": 0,
+        "pct": 0
       },
       "neutral": {
         "count": 18,
@@ -90,6 +90,10 @@
       [
         "$TSLA",
         3
+      ],
+      [
+        "$SPY",
+        2
       ],
       [
         "$PLTR",
@@ -110,10 +114,6 @@
       [
         "$GOOGL",
         2
-      ],
-      [
-        "$NVDA",
-        2
       ]
     ],
     "top_tweets": [
@@ -123,7 +123,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089012068527808727#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 15ד׳"
+        "time": "לפני 52ד׳"
       },
       {
         "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
@@ -131,7 +131,7 @@
         "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
         "sentiment": "neutral",
         "tag": "ENERGY",
-        "time": "לפני 19ש׳"
+        "time": "לפני 20ש׳"
       },
       {
         "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
@@ -139,7 +139,7 @@
         "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 15ש׳"
+        "time": "לפני 16ש׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -147,7 +147,7 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 21ש׳"
+        "time": "לפני 22ש׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -155,7 +155,15 @@
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
+      },
+      {
+        "text": "Look at this. We've made it so you can see where market makers are directly positioned with our Periscope tool. It is a must have toolset for you. See more: https://unusualwhales.com/periscope/market-exposure",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089019603561467937#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 22ד׳"
       },
       {
         "text": "It's here. This will change how you engage with the stock market. Get the automations you want, for the tickers you want, with the information you want. All how you want it. Check out AI automations with Unusual Whales. ",
@@ -163,7 +171,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089004505132093925#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 45ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
@@ -171,14 +179,6 @@
         "url": "https://nitter.net/unusual_whales/status/2088989404874559976#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Unusual Whales has updated its GEX tool. See where dealers must hedge, as well as market maker positioning visualized. It is a must have tool. See more: https://unusualwhales.com/lp/gamma-exposure-gex-data-tool",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088974305313038688#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
         "time": "לפני 2ש׳"
       }
     ]
