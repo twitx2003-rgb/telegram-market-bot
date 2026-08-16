@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T21:44:07.033529+00:00",
+  "generated_at": "2026-08-16T22:19:27.143083+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,19 +67,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 21,
+    "total": 23,
     "sentiment": {
       "bullish": {
         "count": 6,
-        "pct": 29
+        "pct": 26
       },
       "bearish": {
         "count": 2,
-        "pct": 10
+        "pct": 9
       },
       "neutral": {
-        "count": 13,
-        "pct": 62
+        "count": 15,
+        "pct": 65
       }
     },
     "top_tickers": [
@@ -88,11 +88,11 @@
         2
       ],
       [
-        "$META",
+        "$GOOGL",
         2
       ],
       [
-        "$GOOGL",
+        "$META",
         2
       ],
       [
@@ -126,12 +126,12 @@
         "time": "לפני 6ש׳"
       },
       {
-        "text": "GS: The Impact of Temporary Inflation Drivers Such as Tariffs, Software, and Energy on Year-on-Year Core PCE Inflation Should Improve Sharply Over the Next Year",
+        "text": "FOMC minutes Weds Flash PMIs Friday",
         "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2089093843840893394#m",
+        "url": "https://nitter.net/MikeZaccardi/status/2089106428116037682#m",
         "sentiment": "neutral",
-        "tag": "ENERGY",
-        "time": "לפני 48ד׳"
+        "tag": "FED",
+        "time": "לפני 33ד׳"
       },
       {
         "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
@@ -139,7 +139,7 @@
         "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 21ש׳"
+        "time": "לפני 22ש׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -147,7 +147,15 @@
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
+      },
+      {
+        "text": "BREAKING: Unusual Whales has passed 5 million followers on X. Together, we've helped drive the push to ban congressional stock trading, built financial tools used by millions, and created one of the largest investing com",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089112716979966416#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 8ד׳"
       },
       {
         "text": "Gavin Baker’s Atreides Management has roughly 42% of its disclosed equity portfolio in SpaceX $SPCX, a $4.67B position as of Q2.",
@@ -158,25 +166,17 @@
         "time": "לפני 21ש׳"
       },
       {
+        "text": "There is a 17% chance that the US will invade Iran before 2027, per Polymarket. See more: https://polymarket.com/event/will-the-us-invade-iran-before-2027",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089103267917865255#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 45ד׳"
+      },
+      {
         "text": "TRUMP ORDERS REDUCTION IN SOUTH KOREA DRILLS President Trump says he has instructed Defense Secretary Pete Hegseth to reduce U.S. joint military exercises with South Korea. The move signals a potential shift in Washingto",
         "handle": "DeItaone",
         "url": "https://nitter.net/DeItaone/status/2089099642537443673#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 25ד׳"
-      },
-      {
-        "text": "$RKLB just put the first 8 satellites it’s building for MDA Space under a $143M contract into orbit with all eight healthy and generating power. The satellites will replenish $AMZN Globalstar's constellation which suppor",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089098612567609652#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 29ד׳"
-      },
-      {
-        "text": "There is a 17% chance that the US will invade Iran before 2027, per Polymarket. See more: https://polymarket.com/event/will-the-us-invade-iran-before-2027",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089088499769377224#m",
         "sentiment": "neutral",
         "tag": "NEWS",
         "time": "לפני 1ש׳"
