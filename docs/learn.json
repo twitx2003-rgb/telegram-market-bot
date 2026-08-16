@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T07:55:49.415550+00:00",
+  "generated_at": "2026-08-16T08:29:24.591415+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,19 +67,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 22,
+    "total": 23,
     "sentiment": {
       "bullish": {
         "count": 5,
-        "pct": 23
+        "pct": 22
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 17,
-        "pct": 77
+        "count": 18,
+        "pct": 78
       }
     },
     "top_tickers": [
@@ -100,10 +100,6 @@
         2
       ],
       [
-        "$CRWV",
-        2
-      ],
-      [
         "$CIFR",
         2
       ],
@@ -113,6 +109,10 @@
       ],
       [
         "$META",
+        2
+      ],
+      [
+        "$CRWV",
         2
       ]
     ],
@@ -131,7 +131,7 @@
         "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 7ש׳"
+        "time": "לפני 8ש׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -139,7 +139,7 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 13ש׳"
+        "time": "לפני 14ש׳"
       },
       {
         "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
@@ -155,7 +155,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 16ש׳"
+        "time": "לפני 17ש׳"
       },
       {
         "text": "Gavin Baker’s Atreides Management has roughly 42% of its disclosed equity portfolio in SpaceX $SPCX, a $4.67B position as of Q2.",
@@ -163,7 +163,7 @@
         "url": "https://nitter.net/wallstengine/status/2088784903035097337#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 7ש׳"
+        "time": "לפני 8ש׳"
       },
       {
         "text": "Key earnings next week.",
@@ -179,7 +179,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 20ש׳"
+        "time": "לפני 21ש׳"
       }
     ]
   },
