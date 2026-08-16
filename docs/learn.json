@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:18:10.721780+00:00",
+  "generated_at": "2026-08-16T17:44:39.997048+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,28 +67,28 @@
     ]
   },
   "x_synthesis": {
-    "total": 24,
+    "total": 26,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 25
+        "count": 7,
+        "pct": 27
       },
       "bearish": {
-        "count": 0,
-        "pct": 0
+        "count": 1,
+        "pct": 4
       },
       "neutral": {
         "count": 18,
-        "pct": 75
+        "pct": 69
       }
     },
     "top_tickers": [
       [
-        "$META",
+        "$GOOGL",
         3
       ],
       [
-        "$GOOGL",
+        "$META",
         3
       ],
       [
@@ -100,11 +100,11 @@
         3
       ],
       [
-        "$MSFT",
+        "$AMZN",
         2
       ],
       [
-        "$AMZN",
+        "$MSFT",
         2
       ],
       [
@@ -123,7 +123,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089012068527808727#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
@@ -147,7 +147,7 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 22ש׳"
+        "time": "לפני 23ש׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
