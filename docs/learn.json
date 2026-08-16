@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T19:22:23.718527+00:00",
+  "generated_at": "2026-08-16T19:43:55.855112+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -84,11 +84,11 @@
     },
     "top_tickers": [
       [
-        "$META",
+        "$GOOGL",
         2
       ],
       [
-        "$GOOGL",
+        "$META",
         2
       ],
       [
@@ -108,11 +108,11 @@
         1
       ],
       [
-        "$ORCL",
+        "$MSFT",
         1
       ],
       [
-        "$MSFT",
+        "$AMZN",
         1
       ]
     ],
@@ -123,7 +123,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089012068527808727#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
         "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
@@ -163,7 +163,7 @@
         "url": "https://nitter.net/wallstengine/status/2088784903035097337#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 18ש׳"
+        "time": "לפני 19ש׳"
       },
       {
         "text": "\"THe stock market thinks the economy is accelerating. Don't expect jobs to follow,\" per WSJ",
@@ -179,7 +179,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2089027154830823794#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       }
     ]
   },
