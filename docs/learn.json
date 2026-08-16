@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T12:36:18.091703+00:00",
+  "generated_at": "2026-08-16T13:30:02.881424+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,63 +67,71 @@
     ]
   },
   "x_synthesis": {
-    "total": 22,
+    "total": 24,
     "sentiment": {
       "bullish": {
         "count": 4,
-        "pct": 18
+        "pct": 17
       },
       "bearish": {
         "count": 1,
-        "pct": 5
+        "pct": 4
       },
       "neutral": {
-        "count": 17,
-        "pct": 77
+        "count": 19,
+        "pct": 79
       }
     },
     "top_tickers": [
       [
-        "$MU",
+        "$NVDA",
         5
       ],
       [
-        "$AVGO",
-        4
-      ],
-      [
-        "$GOOGL",
-        4
-      ],
-      [
-        "$NVDA",
+        "$MU",
         4
       ],
       [
         "$TSLA",
-        4
+        3
+      ],
+      [
+        "$SPY",
+        2
       ],
       [
         "$SPCX",
-        3
+        2
+      ],
+      [
+        "$ALAB",
+        2
       ],
       [
         "$CIFR",
-        3
+        2
       ],
       [
-        "$AMD",
-        3
+        "$META",
+        2
       ]
     ],
     "top_tweets": [
+      {
+        "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
+        "sentiment": "neutral",
+        "tag": "ENERGY",
+        "time": "לפני 17ש׳"
+      },
       {
         "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 12ש׳"
+        "time": "לפני 13ש׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -131,7 +139,15 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 18ש׳"
+        "time": "לפני 19ש׳"
+      },
+      {
+        "text": "$NVDA is reportedly in talks to invest up to $3B in SB Energy’s massive Ohio data center project for OpenAI. The discussions are part of a broader deal that could include up to $100B of Nvidia credit support to help fina",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2088978052772667842#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 14ד׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -139,15 +155,23 @@
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
-        "text": "RT by @StockSavvyShay: THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LR",
+        "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
         "handle": "StockSavvyShay",
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 21ש׳"
+        "time": "לפני 22ש׳"
+      },
+      {
+        "text": "Unusual Whales has updated its GEX tool. See where dealers must hedge, as well as market maker positioning visualized. It is a must have tool. See more: https://unusualwhales.com/lp/gamma-exposure-gex-data-tool",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088974305313038688#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 29ד׳"
       },
       {
         "text": "Gavin Baker’s Atreides Management has roughly 42% of its disclosed equity portfolio in SpaceX $SPCX, a $4.67B position as of Q2.",
@@ -155,31 +179,7 @@
         "url": "https://nitter.net/wallstengine/status/2088784903035097337#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 12ש׳"
-      },
-      {
-        "text": "S&P 500 drawdown heat map.. $WMT 14% below its February record high $NVDA just 5% below its all-time high @finviz_com $MSFT $AAPL $GOOGL quietly in correction territory... $AMZN almost there... $AVGO -21% with $SPCX abov",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088963486558625959#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 18ד׳"
-      },
-      {
-        "text": "I rarely see $TSLA bulls on X posting on whether TSLA is cheap or expensive. It seems that since they love the products and leadership team they don’t care about the valuation. But at a 2026 P/E of 200x and long-term exp",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2088941452604625007#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "For $TSLA bulls who complain I never post anything positive on $TSLA: 1/ go back to 2019-2023 when I was a huge TSLA bull; I posted positive thoughts on TSLA several times a week (how do you think I amassed 500K follower",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2088941055001407499#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 13ש׳"
       }
     ]
   },
