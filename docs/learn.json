@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T23:44:24.743657+00:00",
+  "generated_at": "2026-08-16T01:14:22.435251+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,32 +66,40 @@
     ]
   },
   "x_synthesis": {
-    "total": 21,
+    "total": 22,
     "sentiment": {
       "bullish": {
-        "count": 4,
-        "pct": 19
+        "count": 6,
+        "pct": 27
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 17,
-        "pct": 81
+        "count": 16,
+        "pct": 73
       }
     },
     "top_tickers": [
       [
-        "$NVDA",
-        6
-      ],
-      [
         "$MU",
-        4
+        5
       ],
       [
-        "$AVGO",
+        "$NVDA",
+        5
+      ],
+      [
+        "$SPCX",
+        3
+      ],
+      [
+        "$CIFR",
+        3
+      ],
+      [
+        "$GOOGL",
         3
       ],
       [
@@ -99,38 +107,30 @@
         3
       ],
       [
-        "$SPY",
-        2
+        "$AVGO",
+        3
       ],
       [
-        "$MSFT",
-        2
-      ],
-      [
-        "$HOOD",
-        2
-      ],
-      [
-        "$TSM",
+        "$META",
         2
       ]
     ],
     "top_tweets": [
       {
-        "text": "Nvidia is close to providing roughly $100B in credit support for OpenAI’s planned Ohio AI data center campus. The support would help finance the first phase of the buildout and potentially some $NVDA chip purchases. The ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088417053724250605#m",
+        "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
         "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 23ש׳"
+        "tag": "ENERGY",
+        "time": "לפני 5ש׳"
       },
       {
-        "text": "Thousands of customer service jobs have been eliminated due to AI, with Microsoft, $MSFT, cutting its support workforce from 50,000 to 40,000, per Bloomberg.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088717613602083302#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 3ש׳"
+        "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
       },
       {
         "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
@@ -146,7 +146,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2088666522818359533#m",
         "sentiment": "neutral",
         "tag": "MACRO",
-        "time": "לפני 7ש׳"
+        "time": "לפני 8ש׳"
       },
       {
         "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
@@ -154,15 +154,15 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 8ש׳"
+        "time": "לפני 9ש׳"
       },
       {
-        "text": "Worth noting, $NVDA’s revised guarantee is now expected to come in under $120B, down from the roughly $250B initially discussed. The guarantee would now cover just the first ~5GW of OpenAI’s planned 10GW Ohio project.",
+        "text": "Gavin Baker’s Atreides Management has roughly 42% of its disclosed equity portfolio in SpaceX $SPCX, a $4.67B position as of Q2.",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088419011679895745#m",
+        "url": "https://nitter.net/wallstengine/status/2088784903035097337#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 23ש׳"
+        "time": "לפני 45ד׳"
       },
       {
         "text": "Key earnings next week.",
@@ -170,7 +170,7 @@
         "url": "https://nitter.net/wallstengine/status/2088604040481661054#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
       },
       {
         "text": "Can still remember when, less than a year ago, the Fed cut rates even as core CPI had ticked up above 3%. All 12 Fed members voted in favor of the cut, including a few who have recently gotten religion on inflation and n",
@@ -178,7 +178,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 12ש׳"
+        "time": "לפני 14ש׳"
       }
     ]
   },
