@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T05:54:14.585627+00:00",
+  "generated_at": "2026-08-16T06:37:57.417389+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,11 +67,11 @@
     ]
   },
   "x_synthesis": {
-    "total": 23,
+    "total": 22,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 26
+        "count": 5,
+        "pct": 23
       },
       "bearish": {
         "count": 0,
@@ -79,7 +79,7 @@
       },
       "neutral": {
         "count": 17,
-        "pct": 74
+        "pct": 77
       }
     },
     "top_tickers": [
@@ -100,19 +100,19 @@
         2
       ],
       [
-        "$CRWV",
-        2
-      ],
-      [
-        "$CIFR",
-        2
-      ],
-      [
         "$META",
         2
       ],
       [
         "$ALAB",
+        2
+      ],
+      [
+        "$CRWV",
+        2
+      ],
+      [
+        "$CIFR",
         2
       ]
     ],
@@ -131,7 +131,7 @@
         "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -139,7 +139,7 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
       },
       {
         "text": "Timely growth measures suggest 2.5% to 3% US real GDP growth @augurinfinity",
@@ -155,7 +155,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 14ש׳"
+        "time": "לפני 15ש׳"
       },
       {
         "text": "Gavin Baker’s Atreides Management has roughly 42% of its disclosed equity portfolio in SpaceX $SPCX, a $4.67B position as of Q2.",
@@ -163,7 +163,7 @@
         "url": "https://nitter.net/wallstengine/status/2088784903035097337#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
       },
       {
         "text": "Key earnings next week.",
@@ -171,7 +171,7 @@
         "url": "https://nitter.net/wallstengine/status/2088604040481661054#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 17ש׳"
+        "time": "לפני 18ש׳"
       },
       {
         "text": "Can still remember when, less than a year ago, the Fed cut rates even as core CPI had ticked up above 3%. All 12 Fed members voted in favor of the cut, including a few who have recently gotten religion on inflation and n",
@@ -179,7 +179,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2088581187891495055#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 18ש׳"
+        "time": "לפני 19ש׳"
       }
     ]
   },
