@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:55:08.337824+00:00",
+  "generated_at": "2026-08-16T14:21:00.563354+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -70,34 +70,42 @@
     "total": 23,
     "sentiment": {
       "bullish": {
-        "count": 5,
-        "pct": 22
+        "count": 4,
+        "pct": 17
       },
       "bearish": {
-        "count": 1,
-        "pct": 4
+        "count": 0,
+        "pct": 0
       },
       "neutral": {
-        "count": 17,
-        "pct": 74
+        "count": 19,
+        "pct": 83
       }
     },
     "top_tickers": [
       [
-        "$MU",
-        4
-      ],
-      [
         "$NVDA",
-        4
+        5
       ],
       [
-        "$SPCX",
+        "$MU",
         3
       ],
       [
         "$TSLA",
         3
+      ],
+      [
+        "$SPCX",
+        2
+      ],
+      [
+        "$META",
+        2
+      ],
+      [
+        "$GOOGL",
+        2
       ],
       [
         "$CIFR",
@@ -106,17 +114,17 @@
       [
         "$CRWV",
         2
-      ],
-      [
-        "$ALAB",
-        2
-      ],
-      [
-        "$META",
-        2
       ]
     ],
     "top_tweets": [
+      {
+        "text": "Nvidia is becoming the 'Federal Reserve of AI' $NVDA @seekingalpha #ChairHuang",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2088989406619140426#m",
+        "sentiment": "neutral",
+        "tag": "FED",
+        "time": "לפני 19ד׳"
+      },
       {
         "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
         "handle": "DeItaone",
@@ -131,7 +139,7 @@
         "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 13ש׳"
+        "time": "לפני 14ש׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -139,7 +147,7 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 19ש׳"
+        "time": "לפני 20ש׳"
       },
       {
         "text": "BofA thinks AI may have permanently changed the memory cycle for $MU with the firm seeing a path to $236 of EPS by 2030. The note also assumes gross margins can hold ~80% as HBM and advanced DRAM consume more wafer capac",
@@ -147,7 +155,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088982790645960868#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 20ד׳"
+        "time": "לפני 46ד׳"
       },
       {
         "text": "$NVDA is reportedly in talks to invest up to $3B in SB Energy’s massive Ohio data center project for OpenAI. The discussions are part of a broader deal that could include up to $100B of Nvidia credit support to help fina",
@@ -155,7 +163,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088978052772667842#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 39ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -163,23 +171,15 @@
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
-        "text": "THE MOST PROFITABLE AI SEMICONDUCTOR STOCKS Operating margin breakdown: • Best-in-class (50%+) | $MU, $NVDA, $SNDK, $SKHY, $TSM • Elite (40–49%) | $ANET, $AVGO, $KLAC • Strong (20–39%) | $ASML, $LRCX, $WDC, $CRDO, $AMAT,",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2088648842376040887#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 22ש׳"
-      },
-      {
-        "text": "Unusual Whales has updated its GEX tool. See where dealers must hedge, as well as market maker positioning visualized. It is a must have tool. See more: https://unusualwhales.com/lp/gamma-exposure-gex-data-tool",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088974305313038688#m",
+        "text": "WSJ: Nvidia scales back OpenAI data-center guarantee to less than $120B @seekingalpha $NVDA",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2088991167497028011#m",
         "sentiment": "neutral",
-        "tag": "M&A",
-        "time": "לפני 54ד׳"
+        "tag": "TECH",
+        "time": "לפני 12ד׳"
       }
     ]
   },
