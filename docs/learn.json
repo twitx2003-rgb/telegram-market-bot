@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:48:29.529567+00:00",
+  "generated_at": "2026-08-16T15:20:21.186481+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,28 +67,28 @@
     ]
   },
   "x_synthesis": {
-    "total": 23,
+    "total": 24,
     "sentiment": {
       "bullish": {
         "count": 4,
         "pct": 17
       },
       "bearish": {
-        "count": 0,
-        "pct": 0
+        "count": 1,
+        "pct": 4
       },
       "neutral": {
         "count": 19,
-        "pct": 83
+        "pct": 79
       }
     },
     "top_tickers": [
       [
-        "$NVDA",
-        5
+        "$MU",
+        4
       ],
       [
-        "$MU",
+        "$NVDA",
         3
       ],
       [
@@ -96,11 +96,11 @@
         3
       ],
       [
-        "$SPCX",
+        "$INTC",
         2
       ],
       [
-        "$GOOGL",
+        "$SPCX",
         2
       ],
       [
@@ -108,30 +108,22 @@
         2
       ],
       [
-        "$CEG",
-        1
+        "$GOOGL",
+        2
       ],
       [
-        "$IREN",
+        "$SPY",
         1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "Nvidia is becoming the 'Federal Reserve of AI' $NVDA @seekingalpha #ChairHuang",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088989406619140426#m",
-        "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 47ד׳"
-      },
       {
         "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
         "handle": "DeItaone",
         "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
         "sentiment": "neutral",
         "tag": "ENERGY",
-        "time": "לפני 18ש׳"
+        "time": "לפני 19ש׳"
       },
       {
         "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
@@ -139,7 +131,7 @@
         "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 14ש׳"
+        "time": "לפני 15ש׳"
       },
       {
         "text": "PREMARKET OPTIONS TRADING IS COMING Cboe plans to let traders buy and sell options on select major stocks before the regular market opens. Once live: 7:30–9:25 a.m. ET: Pre-market options trading 9:30 a.m.–4:00 p.m. ET: ",
@@ -163,7 +155,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088978052772667842#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -171,15 +163,23 @@
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 4ש׳"
+        "time": "לפני 5ש׳"
       },
       {
-        "text": "WSJ: Nvidia scales back OpenAI data-center guarantee to less than $120B @seekingalpha $NVDA",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2088991167497028011#m",
+        "text": "It's here. This will change how you engage with the stock market. Get the automations you want, for the tickers you want, with the information you want. All how you want it. Check out AI automations with Unusual Whales. ",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089004505132093925#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 40ד׳"
+        "time": "לפני 19ד׳"
+      },
+      {
+        "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088989404874559976#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
       }
     ]
   },
