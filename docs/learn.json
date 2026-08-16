@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T22:19:27.143083+00:00",
+  "generated_at": "2026-08-16T22:46:33.040240+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,19 +67,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 23,
+    "total": 22,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 26
+        "count": 5,
+        "pct": 23
       },
       "bearish": {
-        "count": 2,
-        "pct": 9
+        "count": 1,
+        "pct": 5
       },
       "neutral": {
-        "count": 15,
-        "pct": 65
+        "count": 16,
+        "pct": 73
       }
     },
     "top_tickers": [
@@ -88,11 +88,11 @@
         2
       ],
       [
-        "$GOOGL",
+        "$META",
         2
       ],
       [
-        "$META",
+        "$GOOGL",
         2
       ],
       [
@@ -112,26 +112,18 @@
         1
       ],
       [
-        "$MSFT",
+        "$ORCL",
         1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "UBS sees $PLTR AI adoption curve extending far beyond the current surge with revenue scaling to ~$33B by 2030 as management targets 100%+ US revenue growth for next 18 months and sovereign AI opens another leg of demand.",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089012068527808727#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 6ש׳"
-      },
       {
         "text": "FOMC minutes Weds Flash PMIs Friday",
         "handle": "MikeZaccardi",
         "url": "https://nitter.net/MikeZaccardi/status/2089106428116037682#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 33ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
@@ -155,7 +147,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089112716979966416#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 8ד׳"
+        "time": "לפני 35ד׳"
       },
       {
         "text": "Gavin Baker’s Atreides Management has roughly 42% of its disclosed equity portfolio in SpaceX $SPCX, a $4.67B position as of Q2.",
@@ -163,7 +155,7 @@
         "url": "https://nitter.net/wallstengine/status/2088784903035097337#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 21ש׳"
+        "time": "לפני 22ש׳"
       },
       {
         "text": "There is a 17% chance that the US will invade Iran before 2027, per Polymarket. See more: https://polymarket.com/event/will-the-us-invade-iran-before-2027",
@@ -171,12 +163,20 @@
         "url": "https://nitter.net/unusual_whales/status/2089103267917865255#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 45ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "TRUMP ORDERS REDUCTION IN SOUTH KOREA DRILLS President Trump says he has instructed Defense Secretary Pete Hegseth to reduce U.S. joint military exercises with South Korea. The move signals a potential shift in Washingto",
         "handle": "DeItaone",
         "url": "https://nitter.net/DeItaone/status/2089099642537443673#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "$RKLB just put the first 8 satellites it’s building for MDA Space under a $143M contract into orbit with all eight healthy and generating power. The satellites will replenish $AMZN Globalstar's constellation which suppor",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089098612567609652#m",
         "sentiment": "neutral",
         "tag": "NEWS",
         "time": "לפני 1ש׳"
