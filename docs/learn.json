@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:30:02.881424+00:00",
+  "generated_at": "2026-08-16T13:55:08.337824+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,48 +67,48 @@
     ]
   },
   "x_synthesis": {
-    "total": 24,
+    "total": 23,
     "sentiment": {
       "bullish": {
-        "count": 4,
-        "pct": 17
+        "count": 5,
+        "pct": 22
       },
       "bearish": {
         "count": 1,
         "pct": 4
       },
       "neutral": {
-        "count": 19,
-        "pct": 79
+        "count": 17,
+        "pct": 74
       }
     },
     "top_tickers": [
       [
-        "$NVDA",
-        5
-      ],
-      [
         "$MU",
         4
+      ],
+      [
+        "$NVDA",
+        4
+      ],
+      [
+        "$SPCX",
+        3
       ],
       [
         "$TSLA",
         3
       ],
       [
-        "$SPY",
+        "$CIFR",
         2
       ],
       [
-        "$SPCX",
+        "$CRWV",
         2
       ],
       [
         "$ALAB",
-        2
-      ],
-      [
-        "$CIFR",
         2
       ],
       [
@@ -123,7 +123,7 @@
         "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
         "sentiment": "neutral",
         "tag": "ENERGY",
-        "time": "לפני 17ש׳"
+        "time": "לפני 18ש׳"
       },
       {
         "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
@@ -142,12 +142,20 @@
         "time": "לפני 19ש׳"
       },
       {
+        "text": "BofA thinks AI may have permanently changed the memory cycle for $MU with the firm seeing a path to $236 of EPS by 2030. The note also assumes gross margins can hold ~80% as HBM and advanced DRAM consume more wafer capac",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2088982790645960868#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 20ד׳"
+      },
+      {
         "text": "$NVDA is reportedly in talks to invest up to $3B in SB Energy’s massive Ohio data center project for OpenAI. The discussions are part of a broader deal that could include up to $100B of Nvidia credit support to help fina",
         "handle": "StockSavvyShay",
         "url": "https://nitter.net/StockSavvyShay/status/2088978052772667842#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 14ד׳"
+        "time": "לפני 39ד׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -171,15 +179,7 @@
         "url": "https://nitter.net/unusual_whales/status/2088974305313038688#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 29ד׳"
-      },
-      {
-        "text": "Gavin Baker’s Atreides Management has roughly 42% of its disclosed equity portfolio in SpaceX $SPCX, a $4.67B position as of Q2.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2088784903035097337#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 13ש׳"
+        "time": "לפני 54ד׳"
       }
     ]
   },
