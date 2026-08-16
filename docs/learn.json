@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T18:56:44.702217+00:00",
+  "generated_at": "2026-08-16T19:22:23.718527+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,19 +67,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 20,
+    "total": 21,
     "sentiment": {
       "bullish": {
         "count": 7,
-        "pct": 35
+        "pct": 33
       },
       "bearish": {
         "count": 1,
         "pct": 5
       },
       "neutral": {
-        "count": 12,
-        "pct": 60
+        "count": 13,
+        "pct": 62
       }
     },
     "top_tickers": [
@@ -108,11 +108,11 @@
         1
       ],
       [
-        "$MSFT",
+        "$ORCL",
         1
       ],
       [
-        "$ORCL",
+        "$MSFT",
         1
       ]
     ],
@@ -126,12 +126,20 @@
         "time": "לפני 3ש׳"
       },
       {
+        "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2088715750412333225#m",
+        "sentiment": "neutral",
+        "tag": "ENERGY",
+        "time": "לפני 23ש׳"
+      },
+      {
         "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 18ש׳"
+        "time": "לפני 19ש׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -139,7 +147,7 @@
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 8ש׳"
+        "time": "לפני 9ש׳"
       },
       {
         "text": "Look at this. We've made it so you can see where market makers are directly positioned with our Periscope tool. It is a must have toolset for you. See more: https://unusualwhales.com/periscope/market-exposure",
@@ -147,14 +155,6 @@
         "url": "https://nitter.net/unusual_whales/status/2089019603561467937#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "It's here. This will change how you engage with the stock market. Get the automations you want, for the tickers you want, with the information you want. All how you want it. Check out AI automations with Unusual Whales. ",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089004505132093925#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
         "time": "לפני 3ש׳"
       },
       {
@@ -171,7 +171,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089034703047209271#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "S&P 500 profit margin has increased by almost half since late 2023 JPMAM Pretty much double the mid-2000s rate",
