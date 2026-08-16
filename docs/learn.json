@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T15:20:21.186481+00:00",
+  "generated_at": "2026-08-16T15:46:05.575886+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,7 +67,7 @@
     ]
   },
   "x_synthesis": {
-    "total": 24,
+    "total": 23,
     "sentiment": {
       "bullish": {
         "count": 4,
@@ -78,22 +78,22 @@
         "pct": 4
       },
       "neutral": {
-        "count": 19,
-        "pct": 79
+        "count": 18,
+        "pct": 78
       }
     },
     "top_tickers": [
       [
         "$MU",
-        4
-      ],
-      [
-        "$NVDA",
         3
       ],
       [
         "$TSLA",
         3
+      ],
+      [
+        "$PLTR",
+        2
       ],
       [
         "$INTC",
@@ -112,11 +112,19 @@
         2
       ],
       [
-        "$SPY",
-        1
+        "$NVDA",
+        2
       ]
     ],
     "top_tweets": [
+      {
+        "text": "UBS sees $PLTR AI adoption curve extending far beyond the current surge with revenue scaling to ~$33B by 2030 as management targets 100%+ US revenue growth for next 18 months and sovereign AI opens another leg of demand.",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089012068527808727#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 15ד׳"
+      },
       {
         "text": "$NVDA - NVIDIA EYES $3 BILLION SB ENERGY INVESTMENT Nvidia is reportedly in talks to invest up to $3 billion in SoftBank’s SB Energy, which is developing a major Ohio data center campus for OpenAI. The discussions are ti",
         "handle": "DeItaone",
@@ -139,23 +147,7 @@
         "url": "https://nitter.net/wallstengine/status/2088692368145076621#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 20ש׳"
-      },
-      {
-        "text": "BofA thinks AI may have permanently changed the memory cycle for $MU with the firm seeing a path to $236 of EPS by 2030. The note also assumes gross margins can hold ~80% as HBM and advanced DRAM consume more wafer capac",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2088982790645960868#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$NVDA is reportedly in talks to invest up to $3B in SB Energy’s massive Ohio data center project for OpenAI. The discussions are part of a broader deal that could include up to $100B of Nvidia credit support to help fina",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2088978052772667842#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
-        "time": "לפני 2ש׳"
+        "time": "לפני 21ש׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -171,7 +163,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089004505132093925#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 19ד׳"
+        "time": "לפני 45ד׳"
       },
       {
         "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
@@ -180,6 +172,14 @@
         "sentiment": "neutral",
         "tag": "NEWS",
         "time": "לפני 1ש׳"
+      },
+      {
+        "text": "Unusual Whales has updated its GEX tool. See where dealers must hedge, as well as market maker positioning visualized. It is a must have tool. See more: https://unusualwhales.com/lp/gamma-exposure-gex-data-tool",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2088974305313038688#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 2ש׳"
       }
     ]
   },
