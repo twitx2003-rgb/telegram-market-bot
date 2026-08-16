@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T22:46:33.040240+00:00",
+  "generated_at": "2026-08-16T23:18:14.085823+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,41 +67,33 @@
     ]
   },
   "x_synthesis": {
-    "total": 22,
+    "total": 23,
     "sentiment": {
       "bullish": {
-        "count": 5,
-        "pct": 23
+        "count": 7,
+        "pct": 30
       },
       "bearish": {
-        "count": 1,
-        "pct": 5
+        "count": 2,
+        "pct": 9
       },
       "neutral": {
-        "count": 16,
-        "pct": 73
+        "count": 14,
+        "pct": 61
       }
     },
     "top_tickers": [
       [
-        "$AMZN",
-        2
-      ],
-      [
-        "$META",
-        2
-      ],
-      [
-        "$GOOGL",
-        2
-      ],
-      [
-        "$TSLA",
-        2
-      ],
-      [
         "$SPCX",
         2
+      ],
+      [
+        "$IREN",
+        1
+      ],
+      [
+        "$AMZN",
+        1
       ],
       [
         "$RKLB",
@@ -112,7 +104,15 @@
         1
       ],
       [
-        "$ORCL",
+        "$U",
+        1
+      ],
+      [
+        "$TWLO",
+        1
+      ],
+      [
+        "$APH",
         1
       ]
     ],
@@ -131,7 +131,7 @@
         "url": "https://nitter.net/wallstengine/status/2088781175255072899#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 22ש׳"
+        "time": "לפני 23ש׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -139,7 +139,7 @@
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 12ש׳"
+        "time": "לפני 13ש׳"
       },
       {
         "text": "BREAKING: Unusual Whales has passed 5 million followers on X. Together, we've helped drive the push to ban congressional stock trading, built financial tools used by millions, and created one of the largest investing com",
@@ -147,7 +147,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089112716979966416#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 35ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Gavin Baker’s Atreides Management has roughly 42% of its disclosed equity portfolio in SpaceX $SPCX, a $4.67B position as of Q2.",
@@ -158,25 +158,25 @@
         "time": "לפני 22ש׳"
       },
       {
+        "text": "STRIPE TO BUY OPENROUTER FOR $7B+ Stripe has finalized a deal to acquire AI model marketplace OpenRouter for more than $7B, Bloomberg reports, just months after the startup raised funding at a reported $1.3B valuation. O",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089127576136818844#m",
+        "sentiment": "bullish",
+        "tag": "M&A",
+        "time": "לפני 8ד׳"
+      },
+      {
+        "text": "US public debt has hit a record $39.8 trillion, $200 billion away from the $40 trillion.",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089125300433236478#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 17ד׳"
+      },
+      {
         "text": "There is a 17% chance that the US will invade Iran before 2027, per Polymarket. See more: https://polymarket.com/event/will-the-us-invade-iran-before-2027",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2089103267917865255#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "TRUMP ORDERS REDUCTION IN SOUTH KOREA DRILLS President Trump says he has instructed Defense Secretary Pete Hegseth to reduce U.S. joint military exercises with South Korea. The move signals a potential shift in Washingto",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089099642537443673#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$RKLB just put the first 8 satellites it’s building for MDA Space under a $143M contract into orbit with all eight healthy and generating power. The satellites will replenish $AMZN Globalstar's constellation which suppor",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089098612567609652#m",
         "sentiment": "neutral",
         "tag": "NEWS",
         "time": "לפני 1ש׳"
