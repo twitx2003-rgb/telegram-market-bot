@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T18:26:52.958761+00:00",
+  "generated_at": "2026-08-16T18:56:44.702217+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,28 +67,28 @@
     ]
   },
   "x_synthesis": {
-    "total": 22,
+    "total": 20,
     "sentiment": {
       "bullish": {
-        "count": 8,
-        "pct": 36
+        "count": 7,
+        "pct": 35
       },
       "bearish": {
         "count": 1,
         "pct": 5
       },
       "neutral": {
-        "count": 13,
-        "pct": 59
+        "count": 12,
+        "pct": 60
       }
     },
     "top_tickers": [
       [
-        "$GOOGL",
+        "$META",
         2
       ],
       [
-        "$META",
+        "$GOOGL",
         2
       ],
       [
@@ -112,7 +112,7 @@
         1
       ],
       [
-        "$AMZN",
+        "$ORCL",
         1
       ]
     ],
@@ -123,7 +123,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089012068527808727#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "GAVIN BAKER Q2 PORTFOLIO UPDATE Atreides Management disclosed its portfolio as of June 30. Notable new positions $SPCX — $4.67B $CBRS — $687M stock + $155M calls $META — $227M stock + $676M calls $APH — $113M $GTLB — $10",
@@ -158,20 +158,12 @@
         "time": "לפני 3ש׳"
       },
       {
-        "text": "We have launched the free trial of the Unusual Whales API. The Unusual Whales API gives full access to live options, equities, prediction market data, congress trades and much more. It is a must have for traders. Check i",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2088989404874559976#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 4ש׳"
-      },
-      {
         "text": "Gavin Baker’s Atreides Management has roughly 42% of its disclosed equity portfolio in SpaceX $SPCX, a $4.67B position as of Q2.",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088784903035097337#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 17ש׳"
+        "time": "לפני 18ש׳"
       },
       {
         "text": "\"THe stock market thinks the economy is accelerating. Don't expect jobs to follow,\" per WSJ",
@@ -180,6 +172,14 @@
         "sentiment": "neutral",
         "tag": "NEWS",
         "time": "לפני 1ש׳"
+      },
+      {
+        "text": "S&P 500 profit margin has increased by almost half since late 2023 JPMAM Pretty much double the mid-2000s rate",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2089027154830823794#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 2ש׳"
       }
     ]
   },
