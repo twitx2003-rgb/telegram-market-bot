@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T22:22:34.961323+00:00",
+  "generated_at": "2026-08-17T22:50:06.294228+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,19 +66,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 29,
+    "total": 35,
     "sentiment": {
       "bullish": {
-        "count": 8,
-        "pct": 28
+        "count": 10,
+        "pct": 29
       },
       "bearish": {
-        "count": 5,
-        "pct": 17
+        "count": 7,
+        "pct": 20
       },
       "neutral": {
-        "count": 16,
-        "pct": 55
+        "count": 18,
+        "pct": 51
       }
     },
     "top_tickers": [
@@ -99,19 +99,19 @@
         1
       ],
       [
+        "$AGG",
+        1
+      ],
+      [
+        "$VEU",
+        1
+      ],
+      [
         "$XRT",
         1
       ],
       [
         "$XLE",
-        1
-      ],
-      [
-        "$HD",
-        1
-      ],
-      [
-        "$KEYS",
         1
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/wallstengine/status/2089463313365410156#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 58ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "$GOOGL is turning Spirit Airlines bankruptcy into an AI training opportunity by buying $10M of real-world enterprise data. The dataset spans de-identified emails, Teams messages, spreadsheets, calendars and operational d",
@@ -130,7 +130,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089466489376301385#m",
         "sentiment": "bearish",
         "tag": "TECH",
-        "time": "לפני 45ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Anthropic is quickly closing the gap with $SPCX for the largest IPO of 2026 as its revenue growth accelerates into the listing. Revenue run-rate has exploded from $9B in late 2025 to $47B in May and now more than $65B in",
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089448527701369088#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "FABRINET $FN Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.32B (Est. $1.27B) 🟢; +45% YoY 🔹 Adj. EPS: $4.10 (Est. $3.82) 🟢; +55% YoY 🔹 Oper Income: $134.25M (Est. $137M) 🔴 🔹 Net Income: $139.3M (Est. $139M) 🟡 Q1 Guide: 🔹 Revenu",
@@ -149,20 +149,12 @@
         "time": "לפני 2ש׳"
       },
       {
-        "text": "Update: The Trump Portfolio Tracker is coming for Pelosi In May, we recreated Trump’s top 20 holdings on Autopilot so anyone could invest alongside him 3 months later, it just crossed $2,000,000 of capital invested Here'",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089409934144520665#m",
-        "sentiment": "bullish",
-        "tag": "M&A",
-        "time": "לפני 4ש׳"
-      },
-      {
         "text": "Japan’s largest listed companies now expect net profit to rise 14% in FY26, sharply above the initial 5% forecast, as AI infrastructure and semiconductor demand drive earnings higher.",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2089465828697915720#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 48ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "NASDAQ TO LAUNCH OVERNIGHT TRADING SESSION Starting Dec. 6, 2026, Nasdaq will introduce a new trading session running from 9 PM to 4 AM ET. Nasdaq is also working with regulators on plans to eventually offer nearly conti",
@@ -173,12 +165,20 @@
         "time": "לפני 2ש׳"
       },
       {
-        "text": "RT by @MikeZaccardi: Beyond the earnings numbers, investors should also watch the charts. Walmart is testing key technical levels, while the Retail ETF, $XRT, is pulling back from multi-year highs. See @MikeZaccardi's fu",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/StockCharts/status/2089472317080346754#m",
+        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 22ד׳"
+        "time": "לפני 9ש׳"
+      },
+      {
+        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 14ש׳"
       }
     ]
   },
