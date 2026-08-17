@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:54:53.636764+00:00",
+  "generated_at": "2026-08-17T17:25:11.212582+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,19 +66,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 24,
+    "total": 27,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 29
+        "count": 4,
+        "pct": 15
       },
       "bearish": {
-        "count": 4,
-        "pct": 17
+        "count": 7,
+        "pct": 26
       },
       "neutral": {
-        "count": 13,
-        "pct": 54
+        "count": 16,
+        "pct": 59
       }
     },
     "top_tickers": [
@@ -87,11 +87,19 @@
         2
       ],
       [
-        "$NBIS",
+        "$SPCX",
         1
       ],
       [
-        "$GOP",
+        "$SNDK",
+        1
+      ],
+      [
+        "$IGV",
+        1
+      ],
+      [
+        "$NBIS",
         1
       ],
       [
@@ -99,15 +107,7 @@
         1
       ],
       [
-        "$IREN",
-        1
-      ],
-      [
-        "$GLXY",
-        1
-      ],
-      [
-        "$CRWV",
+        "$GOP",
         1
       ],
       [
@@ -130,15 +130,15 @@
         "url": "https://nitter.net/wallstengine/status/2089369136698949781#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
-        "text": "EVERCORE SEES S&P 500 PATH TO 9,000 Evercore ISI’s Julian Emanuel says the S&P 500 could reach 9,000 over the next 12 months, while keeping a 7,750 base-case target. He says the usual bull-market killers, recession, shar",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089362110916796734#m",
-        "sentiment": "bullish",
-        "tag": "MACRO",
-        "time": "לפני 2ש׳"
+        "text": "US 30-YEAR YIELD HITS 2007 HIGH The 30-year Treasury yield climbed to 5.29%, its highest since 2007, as investors worry about rising U.S. debt, heavy bond issuance and persistent inflation. AI-related corporate borrowing",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089399897304736004#m",
+        "sentiment": "bearish",
+        "tag": "FED",
+        "time": "לפני 13ד׳"
       },
       {
         "text": "IMPORTANT: Unusual Whales and Subversive have mutually agreed to part ways with respect to Unusual Whales Subversive Democratic Trading ETF ($NANC) and the Unusual Whales Subversive Republican Trading ETF (KRUZ, now know",
@@ -146,39 +146,39 @@
         "url": "https://nitter.net/unusual_whales/status/2089385316528607540#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 40ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "TOP 10 MOST EFFICIENT AI NEOCLOUDS This chart is a great way see which neoclouds are monetizing scarce AI power most efficiently and where the remaining upside still sits: 1. $IREN leads the group at ~$40M of contracted ",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089381639021613402#m",
+        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 55ד׳"
-      },
-      {
-        "text": "A month ago, it wasn't if the Fed would hike, it was how many times. Now less than one hike is priced in the rest of 2026 (0.22%). We've said all along they won't be hiking and will run it hot in H2. Looking that way mor",
-        "handle": "RyanDetrick",
-        "url": "https://nitter.net/RyanDetrick/status/2089324294505418823#m",
-        "sentiment": "bullish",
-        "tag": "FED",
         "time": "לפני 4ש׳"
       },
       {
-        "text": "S&P 500 ex-tech is also at all-time highs. Further proof that this is a very broad-based rally and it isn't all about only technology. Nice one from @TheChartReport",
-        "handle": "RyanDetrick",
-        "url": "https://nitter.net/RyanDetrick/status/2089322878055428169#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 4ש׳"
+        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 9ש׳"
       },
       {
-        "text": "XPANDER AI LAUNCHES OMNI A built-in AI agent that builds, runs and governs other agents across a company. > Builds agents from plain-English instructions > Shares them securely with authorized teams https://x.com/dudutwi",
+        "text": "STOCKS OF CRUDE OIL IN THE US STRATEGIC PETROLEUM RESERVE FELL BY ABOUT 5.3 MLN BARRELS TO 293.4 MLN BARRELS LAST WEEK, LOWEST SINCE 1982",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089387954087006279#m",
+        "sentiment": "neutral",
+        "tag": "ENERGY",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "XPANDER AI LAUNCHES OMNI A built-in AI agent that builds, runs and governs other agents across a company. > Builds agents from plain-English instructions > Shares them securely with authorized teams > Applies per-user pe",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089392620078596112#m",
+        "url": "https://nitter.net/wallstengine/status/2089394958214299787#m",
         "sentiment": "bearish",
         "tag": "TECH",
-        "time": "לפני 11ד׳"
+        "time": "לפני 32ד׳"
       }
     ]
   },
