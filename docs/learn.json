@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T17:55:20.802668+00:00",
+  "generated_at": "2026-08-17T18:37:23.393717+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,63 +66,103 @@
     ]
   },
   "x_synthesis": {
-    "total": 22,
+    "total": 31,
     "sentiment": {
       "bullish": {
-        "count": 4,
-        "pct": 18
+        "count": 7,
+        "pct": 23
       },
       "bearish": {
-        "count": 4,
-        "pct": 18
+        "count": 8,
+        "pct": 26
       },
       "neutral": {
-        "count": 14,
-        "pct": 64
+        "count": 16,
+        "pct": 52
       }
     },
     "top_tickers": [
       [
-        "$CBRL",
+        "$BKX",
         1
       ],
       [
-        "$HIMS",
+        "$XLF",
         1
       ],
       [
-        "$SPCX",
+        "$KBE",
         1
       ],
       [
-        "$SNDK",
+        "$GDX",
         1
       ],
       [
-        "$IGV",
+        "$NKE",
         1
       ],
       [
-        "$NBIS",
+        "$NVDA",
         1
       ],
       [
-        "$XLE",
+        "$MSFT",
         1
       ],
       [
-        "$SPY",
+        "$ORCL",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "US 30-YEAR YIELD HITS 2007 HIGH The 30-year Treasury yield climbed to 5.29%, its highest since 2007, as investors worry about rising U.S. debt, heavy bond issuance and persistent inflation. AI-related corporate borrowing",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089399897304736004#m",
+        "text": "$NKE fresh lows back to 2014 A 78% drawdown (crash)",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2089418720380649926#m",
         "sentiment": "bearish",
-        "tag": "FED",
-        "time": "לפני 43ד׳"
+        "tag": "NEWS",
+        "time": "לפני 10ד׳"
+      },
+      {
+        "text": "Nvidia, $NVDA, has pledged $100 billion backing for OpenAI data centre in Ohio, per FT",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089415965058470259#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 21ד׳"
+      },
+      {
+        "text": "Update: The Trump Portfolio Tracker is coming for Pelosi In May, we recreated Trump’s top 20 holdings on Autopilot so anyone could invest alongside him 3 months later, it just crossed $2,000,000 of capital invested Here'",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089409934144520665#m",
+        "sentiment": "bullish",
+        "tag": "M&A",
+        "time": "לפני 45ד׳"
+      },
+      {
+        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 5ש׳"
+      },
+      {
+        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 10ש׳"
+      },
+      {
+        "text": "Treasury rates are surging, and gold stocks are ripping $GDX ... fresh 3-month high",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2089419587708232076#m",
+        "sentiment": "bullish",
+        "tag": "MACRO",
+        "time": "לפני 6ד׳"
       },
       {
         "text": "BREAKING: 75% of active fund managers failed to beat the S&P 500 over the preceding 12-month period, per WSJ",
@@ -130,55 +170,15 @@
         "url": "https://nitter.net/unusual_whales/status/2089406150383149564#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 18ד׳"
-      },
-      {
-        "text": "STOCKS OF CRUDE OIL IN THE US STRATEGIC PETROLEUM RESERVE FELL BY ABOUT 5.3 MLN BARRELS TO 293.4 MLN BARRELS LAST WEEK, LOWEST SINCE 1982",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089387954087006279#m",
-        "sentiment": "neutral",
-        "tag": "ENERGY",
         "time": "לפני 1ש׳"
       },
       {
-        "text": "A year after the failed logo rebrand, Cracker Barrel $CBRL has been the best performing restaurant stock in 2026 across 30 names. Up 128% YTD coming into today.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089404136345280719#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 26ד׳"
-      },
-      {
-        "text": "Ray Dalio says he sees the classic signs of a bubble with AI, says the stock market looks like the run up to 1929 or 2000.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089401117402874351#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 38ד׳"
-      },
-      {
-        "text": "XPANDER AI built a system that creates runs and governs other agents by treating frontier models as interchangeable inputs. That helps explain why $IGV has caught such a strong bid as Xpander used Claude first and GPT to",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089394913687597504#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Cracker Barrel (CBRL) Recovers Entire Logo Losses Within a Year https://www.bespokepremium.com/interactive/posts/think-big-blog/cracker-barrel-cbrl-recovers-entire-logo-losses-within-a-year via @bespokeinvest",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089391689244815639#m",
-        "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$NBIS is showing just how tight AI compute still is as its first Blackwell capacity auction cleared 15% above the company’s previous record price and management says it could already sell out planned 2027 capacity today.",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089388275870146971#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "text": "A month ago, it wasn't if the Fed would hike, it was how many times. Now less than one hike is priced in the rest of 2026 (0.22%). We've said all along they won't be hiking and will run it hot in H2. Looking that way mor",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2089324294505418823#m",
+        "sentiment": "bullish",
+        "tag": "FED",
+        "time": "לפני 6ש׳"
       }
     ]
   },
