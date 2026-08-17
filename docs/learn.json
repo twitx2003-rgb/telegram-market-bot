@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T11:50:07.859977+00:00",
+  "generated_at": "2026-08-17T12:41:12.683243+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -69,16 +69,16 @@
     "total": 25,
     "sentiment": {
       "bullish": {
-        "count": 10,
-        "pct": 40
+        "count": 9,
+        "pct": 36
       },
       "bearish": {
-        "count": 5,
-        "pct": 20
+        "count": 4,
+        "pct": 16
       },
       "neutral": {
-        "count": 10,
-        "pct": 40
+        "count": 12,
+        "pct": 48
       }
     },
     "top_tickers": [
@@ -87,42 +87,50 @@
         2
       ],
       [
-        "$MU",
-        2
+        "$NVDA",
+        1
+      ],
+      [
+        "$VIX",
+        1
+      ],
+      [
+        "$WYFI",
+        1
       ],
       [
         "$META",
-        2
-      ],
-      [
-        "$FANG",
         1
       ],
       [
-        "$COP",
+        "$UBER",
         1
       ],
       [
-        "$AEP",
+        "$IREN",
         1
       ],
       [
-        "$DVN",
-        1
-      ],
-      [
-        "$EOG",
+        "$RKLB",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "BOFA: THE TRADE IS LONG GOLD Bank of America strategist Michael Hartnett says gold remains the best hedge against dollar weakness, bond losses and asset inflation. Gold funds attracted $6.3B last week, the largest inflow",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089314545441321107#m",
+        "text": "Northland Upgrades $ALAB to Outperform, PT $350 Analyst comments: \"We are upgrading ALAB based on our expectations for more positive earnings revisions and a longer-than-expected AI infrastructure spending cycle. We expe",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089320522937229425#m",
         "sentiment": "bullish",
-        "tag": "BANKS",
-        "time": "לפני 17ד׳"
+        "tag": "EARNINGS",
+        "time": "לפני 44ד׳"
+      },
+      {
+        "text": "$EYPT PHASE 3 TRIAL MISSES PRIMARY ENDPOINT EyePoint said its Phase 3 LUGANO trial for DURAVYU in wet AMD failed to meet the primary endpoint of non-inferiority versus aflibercept in the full dataset. The company said th",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089319884408946738#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 46ד׳"
       },
       {
         "text": "Big Short investor Steve Eisman has said that the artificial intelligence boom has become increasingly dependent on the fortunes of just two companies: OpenAI and Anthropic, per CNBC",
@@ -130,55 +138,47 @@
         "url": "https://nitter.net/unusual_whales/status/2089315553521643974#m",
         "sentiment": "bearish",
         "tag": "TECH",
-        "time": "לפני 13ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "Taiwan: strongest GDP growth since 1987 11.05% @markets @soberlook https://thedailyshot.com/subscribe/",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2089314045509734445#m",
-        "sentiment": "bullish",
-        "tag": "MACRO",
-        "time": "לפני 19ד׳"
-      },
-      {
-        "text": "HIGGSFIELD RAISES $400M AT $5.4B VALUATION AI video startup Higgsfield raised a $400M Series B from investors including Goldman Sachs, Intel and DST Global, valuing the 2-year-old company at $5.4B. Annualized revenue hit",
+        "text": "$WYFI EXPANDS NORTH CAROLINA DATA CENTER FOOTPRINT WhiteFiber agreed to acquire two North Carolina sites for $60M, adding at least 60 MW of initial gross utility capacity with potential to scale to ~200 MW. The company i",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089313466935066627#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 21ד׳"
-      },
-      {
-        "text": "MARKET MOVERS 🟢 UPGRADES • $YPF: Upgraded Hold → Buy by HSBC; PT raised to $60 from $52 • $PMT: Upgraded Hold → Buy by Deutsche Bank; PT $12 • $NYAX: Upgraded Market Perform → Outperform by Keefe, Bruyette & Woods; PT $7",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089313000985338015#m",
-        "sentiment": "bullish",
-        "tag": "BANKS",
-        "time": "לפני 23ד׳"
-      },
-      {
-        "text": "In Q2, $META's U.S. 🇺🇸 ARPU rose 31% YoY to $125, far above other major social platforms, while international ARPU increased 17% to $15.10 U.S. revenue per hour also grew 27% YoY to $1.33 Instagram’s U.S. daily time spen",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089298731917295638#m",
+        "url": "https://nitter.net/wallstengine/status/2089328712672313441#m",
         "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 11ד׳"
+      },
+      {
+        "text": "Morgan Stanley sees a path to $500 for $AMZN as AWS enters what could be a decade-long compute capacity supercycle. Its model has AWS scaling to 120 GW by 2035 which drives revenue above $1T as Amazon says AI economics a",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089304704773968127#m",
+        "sentiment": "bullish",
         "tag": "EARNINGS",
         "time": "לפני 1ש׳"
       },
       {
-        "text": "FT reports $META and BlackRock’s $14B, 1GW Sopaipilla data center in Texas carries only partial insurance coverage, reflecting how difficult and expensive it has become to fully insure gigawatt-scale AI infrastructure. T",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089297628098130345#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "📉 PRICE TARGET CUT • $AEP: PT cut to $139 from $146 by Truist Securities • $AMTM: PT cut to $26 from $31 by JP Morgan • $APA: PT cut to $40 from $41 by Barclays • $APP: PT cut to $440 from $500 by Benchmark • $CVX: PT cu",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089313382474088717#m",
+        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
         "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 21ד׳"
+        "tag": "EARNINGS",
+        "time": "לפני 4ש׳"
+      },
+      {
+        "text": "$NVDA is locking in one of the largest AI infrastructure projects yet with OpenAI and SB Energy planning an 8 GW compute campus in Ohio. The first 4.25 GW will run on Nvidia’s DSX platform with capacity beginning in 2028",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089331587532173803#m",
+        "sentiment": "neutral",
+        "tag": "ENERGY",
+        "time": "עכשיו"
+      },
+      {
+        "text": "BofA says $META U.S. monetization continues to strengthen with ARPU up 31% YoY to $125 in Q2 while revenue per hour rising 27% to $1.33 That upside is coming from stronger engagement as Instagram U.S. daily time spent ro",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089328558523257182#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 12ד׳"
       }
     ]
   },
