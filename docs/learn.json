@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T21:24:29.273349+00:00",
+  "generated_at": "2026-08-17T21:49:57.579701+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,61 +66,85 @@
     ]
   },
   "x_synthesis": {
-    "total": 32,
+    "total": 37,
     "sentiment": {
       "bullish": {
-        "count": 9,
-        "pct": 28
+        "count": 12,
+        "pct": 32
       },
       "bearish": {
-        "count": 3,
-        "pct": 9
+        "count": 4,
+        "pct": 11
       },
       "neutral": {
-        "count": 20,
-        "pct": 62
+        "count": 21,
+        "pct": 57
       }
     },
     "top_tickers": [
       [
+        "$GOOGL",
+        2
+      ],
+      [
         "$TSLA",
-        3
+        2
+      ],
+      [
+        "$SPCX",
+        2
       ],
       [
         "$NKE",
         2
       ],
       [
-        "$ACWI",
+        "$XLE",
         1
       ],
       [
-        "$FN",
+        "$HD",
         1
       ],
       [
-        "$TLT",
+        "$BIDU",
         1
       ],
       [
-        "$TTD",
-        1
-      ],
-      [
-        "$DRAM",
-        1
-      ],
-      [
-        "$NVDA",
+        "$LZB",
         1
       ]
     ],
     "top_tweets": [
       {
+        "text": "$GOOGL TO BUY SPIRIT AIRLINES DATA FOR AI TRAINING Google agreed to pay $10M for internal business data from bankrupt Spirit Airlines, including employee emails, Teams messages, spreadsheets, calendars and operational da",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089463313365410156#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 25ד׳"
+      },
+      {
         "text": "ANTHROPIC REVENUE RUN RATE JUMPS 7X AHEAD OF IPO July 2026: $65B+ May 2026: $47B End of 2025: $9B Anthropic also reported more than $11.5B in preliminary revenue for its latest completed quarter, up from $787M a year ear",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2089438774149456217#m",
         "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "$GOOGL is turning Spirit Airlines bankruptcy into an AI training opportunity by buying $10M of real-world enterprise data. The dataset spans de-identified emails, Teams messages, spreadsheets, calendars and operational d",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089466489376301385#m",
+        "sentiment": "bearish",
+        "tag": "TECH",
+        "time": "לפני 13ד׳"
+      },
+      {
+        "text": "Anthropic is quickly closing the gap with $SPCX for the largest IPO of 2026 as its revenue growth accelerates into the listing. Revenue run-rate has exploded from $9B in late 2025 to $47B in May and now more than $65B in",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089448527701369088#m",
+        "sentiment": "neutral",
         "tag": "EARNINGS",
         "time": "לפני 1ש׳"
       },
@@ -133,22 +157,6 @@
         "time": "לפני 1ש׳"
       },
       {
-        "text": "UBS PREVIEWS $NVDA EARNINGS: Expect Nvidia to BEAT FQ2 revenue expectations by roughly $3-4 billion, with revenue reaching ~$94-95B. For FQ3, we see guidance in the ~$107-108 billion range and believe revenue could ultim",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089421909930959321#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "$TSLA TARGETS AUGUST CYBERCAB LAUNCH Tesla is preparing to launch its purpose-built Cybercab in Austin as soon as this month, per The Information. The two-seat robotaxi has no steering wheel or pedals. Tesla plans to beg",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089434290107138267#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
-      {
         "text": "Update: The Trump Portfolio Tracker is coming for Pelosi In May, we recreated Trump’s top 20 holdings on Autopilot so anyone could invest alongside him 3 months later, it just crossed $2,000,000 of capital invested Here'",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2089409934144520665#m",
@@ -157,28 +165,20 @@
         "time": "לפני 3ש׳"
       },
       {
+        "text": "Japan’s largest listed companies now expect net profit to rise 14% in FY26, sharply above the initial 5% forecast, as AI infrastructure and semiconductor demand drive earnings higher.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089465828697915720#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 15ד׳"
+      },
+      {
         "text": "BREAKING: Tesla, $TSLA, to launch Cybercab in Austin this month, per the Information.",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2089452203765268657#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 44ד׳"
-      },
-      {
-        "text": "NASDAQ TO LAUNCH OVERNIGHT TRADING SESSION Starting Dec. 6, 2026, Nasdaq will introduce a new trading session running from 9 PM to 4 AM ET. Nasdaq is also working with regulators on plans to eventually offer nearly conti",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089441941390016845#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
         "time": "לפני 1ש׳"
-      },
-      {
-        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 8ש׳"
       }
     ]
   },
