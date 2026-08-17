@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T23:21:10.934324+00:00",
+  "generated_at": "2026-08-17T23:46:48.576706+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,22 +66,30 @@
     ]
   },
   "x_synthesis": {
-    "total": 18,
+    "total": 25,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 33
+        "count": 10,
+        "pct": 40
       },
       "bearish": {
-        "count": 3,
-        "pct": 17
+        "count": 6,
+        "pct": 24
       },
       "neutral": {
         "count": 9,
-        "pct": 50
+        "pct": 36
       }
     },
     "top_tickers": [
+      [
+        "$GOOGL",
+        2
+      ],
+      [
+        "$MU",
+        1
+      ],
       [
         "$AGG",
         1
@@ -91,19 +99,7 @@
         1
       ],
       [
-        "$XRT",
-        1
-      ],
-      [
         "$XLE",
-        1
-      ],
-      [
-        "$BIDU",
-        1
-      ],
-      [
-        "$LZB",
         1
       ],
       [
@@ -112,6 +108,10 @@
       ],
       [
         "$KEYS",
+        1
+      ],
+      [
+        "$BIDU",
         1
       ]
     ],
@@ -122,7 +122,15 @@
         "url": "https://nitter.net/wallstengine/status/2089463313365410156#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "$GOOGL is turning Spirit Airlines bankruptcy into an AI training opportunity by buying $10M of real-world enterprise data. The dataset spans de-identified emails, Teams messages, spreadsheets, calendars and operational d",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089466489376301385#m",
+        "sentiment": "bearish",
+        "tag": "TECH",
+        "time": "לפני 2ש׳"
       },
       {
         "text": "FABRINET $FN Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.32B (Est. $1.27B) 🟢; +45% YoY 🔹 Adj. EPS: $4.10 (Est. $3.82) 🟢; +55% YoY 🔹 Oper Income: $134.25M (Est. $137M) 🔴 🔹 Net Income: $139.3M (Est. $139M) 🟡 Q1 Guide: 🔹 Revenu",
@@ -138,7 +146,7 @@
         "url": "https://nitter.net/wallstengine/status/2089465828697915720#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "NASDAQ TO LAUNCH OVERNIGHT TRADING SESSION Starting Dec. 6, 2026, Nasdaq will introduce a new trading session running from 9 PM to 4 AM ET. Nasdaq is also working with regulators on plans to eventually offer nearly conti",
@@ -149,12 +157,20 @@
         "time": "לפני 3ש׳"
       },
       {
-        "text": "RT by @MikeZaccardi: Beyond the earnings numbers, investors should also watch the charts. Walmart is testing key technical levels, while the Retail ETF, $XRT, is pulling back from multi-year highs. See @MikeZaccardi's fu",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/StockCharts/status/2089472317080346754#m",
+        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 10ש׳"
+      },
+      {
+        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 15ש׳"
       },
       {
         "text": "The biggest trading losses of all time: Leopold Aschenbrenner’s reported $35B July loss from leveraged AI stock bets now ranks as the biggest trading loss of all time, according to the FT.",
@@ -162,22 +178,6 @@
         "url": "https://nitter.net/wallstengine/status/2089469935454191879#m",
         "sentiment": "bearish",
         "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Energy $XLE was the only sector in the green today and the only sector with positive breadth. Rough breadth day. The S&P 500 Equal Weight index was down nearly twice as much as the cap-weighted S&P.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089466295682998539#m",
-        "sentiment": "bullish",
-        "tag": "ENERGY",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Home Depot $HD, Baidu $BIDU, and Klarna $KLAR report earnings before tomorrow's open. Toll Brothers $TOL, Keysight $KEYS, and La-Z-Boy $LZB report after the close.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089464912707739886#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
         "time": "לפני 1ש׳"
       }
     ]
