@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T10:30:41.338156+00:00",
+  "generated_at": "2026-08-17T11:24:11.358900+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,95 +66,79 @@
     ]
   },
   "x_synthesis": {
-    "total": 25,
+    "total": 23,
     "sentiment": {
       "bullish": {
-        "count": 8,
-        "pct": 32
+        "count": 9,
+        "pct": 39
       },
       "bearish": {
-        "count": 4,
-        "pct": 16
+        "count": 2,
+        "pct": 9
       },
       "neutral": {
-        "count": 13,
+        "count": 12,
         "pct": 52
       }
     },
     "top_tickers": [
       [
-        "$TSLA",
-        3
+        "$AMZN",
+        2
       ],
       [
         "$SPCX",
-        3
+        2
       ],
       [
-        "$OABI",
+        "$MU",
         2
+      ],
+      [
+        "$META",
+        2
+      ],
+      [
+        "$LQD",
+        1
+      ],
+      [
+        "$TT",
+        1
+      ],
+      [
+        "$ETN",
+        1
       ],
       [
         "$TTMI",
         1
-      ],
-      [
-        "$SHA",
-        1
-      ],
-      [
-        "$HSAI",
-        1
-      ],
-      [
-        "$AMZN",
-        1
-      ],
-      [
-        "$CEG",
-        1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "$SPCX - SPACEX KEPT AT SELL — $75 TARGET Phillip Securities reiterated its Sell rating on SpaceX with a $75 price target. Q2 revenue surged 92% YoY to $7.8B, driven by AI (+247%), Connectivity (+66%) and Space (+29%). St",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089279526261895301#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
       {
         "text": "🇯🇵 JAPAN BOND YIELDS HIT 30-YEAR HIGH Japan’s 10-year government bond yield surged to 2.93%, its highest level since 1996. Markets are increasingly betting the Bank of Japan will raise rates in September to contain infla",
         "handle": "DeItaone",
         "url": "https://nitter.net/DeItaone/status/2089292497180667968#m",
         "sentiment": "bullish",
         "tag": "MACRO",
-        "time": "לפני 25ד׳"
-      },
-      {
-        "text": "From BI: \"Nvidia gets paid upfront, the borrowers and their lenders carry the default risk, and because private credit is ultimately funded by ordinary savers through instruments like pension funds, the tail risk lands o",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089167231716651313#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 8ש׳"
-      },
-      {
-        "text": "Morgan Stanley on $AMZN (Bull Case Sees $500 PT) See AWS’s road to $1 trillion of revenue over the next 8-10 years, which paints a path toward $500 billion of company-wide EBIT and a $500 share price by year-end 2027. Ou",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089281333193478513#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
         "time": "לפני 1ש׳"
       },
       {
-        "text": "BOFA LAUNCHES FRONTIER AI TRACKER Bank of America launched a new tracker covering model intelligence, usage, token pricing, GPU rentals and memory costs across the AI stack. Anthropic currently leads the intelligence ran",
+        "text": "In Q2, $META's U.S. 🇺🇸 ARPU rose 31% YoY to $125, far above other major social platforms, while international ARPU increased 17% to $15.10 U.S. revenue per hour also grew 27% YoY to $1.33 Instagram’s U.S. daily time spen",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089290889214763158#m",
+        "url": "https://nitter.net/wallstengine/status/2089298731917295638#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 31ד׳"
+        "time": "לפני 54ד׳"
+      },
+      {
+        "text": "FT reports $META and BlackRock’s $14B, 1GW Sopaipilla data center in Texas carries only partial insurance coverage, reflecting how difficult and expensive it has become to fully insure gigawatt-scale AI infrastructure. T",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089297628098130345#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 58ד׳"
       },
       {
         "text": "US-CHINA ROBOTICS DECOUPLING BEGINS Bernstein says the FCC ban on new foreign-made mobile robots marks the start of U.S.-China robotics decoupling. Restrictions could expand to AI chips and investments, while China could",
@@ -162,15 +146,31 @@
         "url": "https://nitter.net/DeItaone/status/2089285494878163182#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 53ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "CLAUDE TOPS AI RANKINGS AS COSTS FALL Bank of America launched its Frontier AI Tracker, monitoring model intelligence, usage, token prices and hardware costs. Anthropic’s Claude Opus 5 ranks #1 for intelligence, followed",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089285141709418768#m",
-        "sentiment": "bearish",
+        "text": "Morgan Stanley sees a path to $500 for $AMZN as AWS enters what could be a decade-long compute capacity supercycle. Its model has AWS scaling to 120 GW by 2035 which drives revenue above $1T as Amazon says AI economics a",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089304704773968127#m",
+        "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 54ד׳"
+        "time": "לפני 30ד׳"
+      },
+      {
+        "text": "$SPCX - UBS BULLISH ON SPACEX — $210 TARGET UBS reiterated its Buy rating on SpaceX with a $210 price target, expecting AI token demand and Starlink expansion to drive growth. UBS sees Starship and V3 satellites accelera",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089304223141810311#m",
+        "sentiment": "bullish",
+        "tag": "TECH",
+        "time": "לפני 32ד׳"
+      },
+      {
+        "text": "Trane $TT & Eaton $ETN launched a joint power-&-cooling architecture for next-gen AI data centers, aligned with Nvidia’s DSX AI Factory platform. It can deliver up to 15% better energy efficiency, use 80% less copper & c",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089302071942230491#m",
+        "sentiment": "neutral",
+        "tag": "ENERGY",
+        "time": "לפני 40ד׳"
       },
       {
         "text": "$TTMI TO BUY EPIQ FOR $1.1B TTM Technologies agreed to acquire Epiq Design Solutions in an all-cash deal. Epiq provides AI-enabled software-defined radios, RF systems and radiation-tolerant space computing used in signal",
@@ -178,7 +178,7 @@
         "url": "https://nitter.net/wallstengine/status/2089293636349616354#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 20ד׳"
+        "time": "לפני 1ש׳"
       }
     ]
   },
