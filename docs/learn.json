@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T19:52:08.230022+00:00",
+  "generated_at": "2026-08-17T20:25:11.298119+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,119 +66,119 @@
     ]
   },
   "x_synthesis": {
-    "total": 37,
+    "total": 20,
     "sentiment": {
       "bullish": {
-        "count": 8,
-        "pct": 22
+        "count": 2,
+        "pct": 10
       },
       "bearish": {
-        "count": 6,
-        "pct": 16
+        "count": 2,
+        "pct": 10
       },
       "neutral": {
-        "count": 23,
-        "pct": 62
+        "count": 16,
+        "pct": 80
       }
     },
     "top_tickers": [
-      [
-        "$TSLA",
-        3
-      ],
-      [
-        "$DRAM",
-        2
-      ],
-      [
-        "$NKE",
-        2
-      ],
-      [
-        "$NVDA",
-        2
-      ],
       [
         "$APP",
         2
       ],
       [
-        "$UGA",
+        "$TLT",
         1
       ],
       [
-        "$SNDK",
+        "$VIX",
         1
       ],
       [
-        "$MU",
+        "$MTUM",
+        1
+      ],
+      [
+        "$TSLA",
+        1
+      ],
+      [
+        "$NKE",
+        1
+      ],
+      [
+        "$DRAM",
+        1
+      ],
+      [
+        "$JPM",
         1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "ANTHROPIC REVENUE RUN RATE JUMPS 7X AHEAD OF IPO July 2026: $65B+ May 2026: $47B End of 2025: $9B Anthropic also reported more than $11.5B in preliminary revenue for its latest completed quarter, up from $787M a year ear",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089438774149456217#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 5ד׳"
-      },
-      {
-        "text": "UBS PREVIEWS $NVDA EARNINGS: Expect Nvidia to BEAT FQ2 revenue expectations by roughly $3-4 billion, with revenue reaching ~$94-95B. For FQ3, we see guidance in the ~$107-108 billion range and believe revenue could ultim",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089421909930959321#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$TSLA TARGETS AUGUST CYBERCAB LAUNCH Tesla is preparing to launch its purpose-built Cybercab in Austin as soon as this month, per The Information. The two-seat robotaxi has no steering wheel or pedals. Tesla plans to beg",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089434290107138267#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 23ד׳"
-      },
-      {
-        "text": "Nvidia, $NVDA, has pledged $100 billion backing for OpenAI data centre in Ohio, per FT",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089415965058470259#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
       {
         "text": "JPMorgan, $JPM, on the AI financing:",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2089426283163975902#m",
         "sentiment": "neutral",
         "tag": "BANKS",
-        "time": "לפני 55ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 6ש׳"
+        "text": "BREAKING: The U.S. 30-year Treasury yield has hit 5.30% for the first time since 2007",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089436349451653143#m",
+        "sentiment": "neutral",
+        "tag": "MACRO",
+        "time": "לפני 48ד׳"
       },
       {
-        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 11ש׳"
+        "text": "$TSLA is reportedly preparing to put Cybercab in front of the public for the first time as soon as this month. The launch would mark Tesla’s first rollout of a vehicle built from the ground up without a steering wheel or",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089435027918701001#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 53ד׳"
       },
       {
-        "text": "A month ago, it wasn't if the Fed would hike, it was how many times. Now less than one hike is priced in the rest of 2026 (0.22%). We've said all along they won't be hiking and will run it hot in H2. Looking that way mor",
-        "handle": "RyanDetrick",
-        "url": "https://nitter.net/RyanDetrick/status/2089324294505418823#m",
+        "text": "The Roundhill Memory ETF is above its 50-DMA for the first time since 7/14. $DRAM",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089430197632159935#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "$APP expected to generate $10B in annual profit by 2028 😳",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089421865605595331#m",
         "sentiment": "bullish",
-        "tag": "FED",
-        "time": "לפני 7ש׳"
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "Ai is driving up Treasury yields, per Bloomberg.",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089421501573562569#m",
+        "sentiment": "neutral",
+        "tag": "MACRO",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "A year after the failed logo rebrand, Cracker Barrel $CBRL has been the best performing restaurant stock in 2026 across 30 names. Up 128% YTD coming into today.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089404136345280719#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "Cracker Barrel (CBRL) Recovers Entire Logo Losses Within a Year https://www.bespokepremium.com/interactive/posts/think-big-blog/cracker-barrel-cbrl-recovers-entire-logo-losses-within-a-year via @bespokeinvest",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089391689244815639#m",
+        "sentiment": "bearish",
+        "tag": "NEWS",
+        "time": "לפני 3ש׳"
       }
     ]
   },
