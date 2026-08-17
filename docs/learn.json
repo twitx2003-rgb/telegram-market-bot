@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T07:52:09.166527+00:00",
+  "generated_at": "2026-08-17T08:41:30.675630+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,32 +67,36 @@
     ]
   },
   "x_synthesis": {
-    "total": 13,
+    "total": 28,
     "sentiment": {
       "bullish": {
-        "count": 5,
-        "pct": 38
+        "count": 9,
+        "pct": 32
       },
       "bearish": {
-        "count": 1,
-        "pct": 8
+        "count": 2,
+        "pct": 7
       },
       "neutral": {
-        "count": 7,
-        "pct": 54
+        "count": 17,
+        "pct": 61
       }
     },
     "top_tickers": [
+      [
+        "$SPCX",
+        2
+      ],
       [
         "$TSLA",
         2
       ],
       [
-        "$HTHT",
+        "$XP",
         1
       ],
       [
-        "$XP",
+        "$HTHT",
         1
       ],
       [
@@ -102,9 +106,25 @@
       [
         "$FN",
         1
+      ],
+      [
+        "$NEE",
+        1
+      ],
+      [
+        "$TLN",
+        1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "SHEIN TARGETS ~$25B HONG KONG IPO VALUATION Online fast-fashion giant Shein, known for selling low-cost clothing across roughly 160 countries, is aiming to launch its Hong Kong IPO later this week at a $25B-$28B valuatio",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089268610552484314#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 11ד׳"
+      },
       {
         "text": "From BI: \"Nvidia gets paid upfront, the borrowers and their lenders carry the default risk, and because private credit is ultimately funded by ordinary savers through instruments like pension funds, the tail risk lands o",
         "handle": "unusual_whales",
@@ -122,52 +142,44 @@
         "time": "לפני 2ש׳"
       },
       {
+        "text": "GS: European Banks Have Surged Since 2022",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2089140401286291852#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 8ש׳"
+      },
+      {
+        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 24ד׳"
+      },
+      {
+        "text": "RT by @StockSavvyShay: BofA thinks AI may have permanently changed the memory cycle for $MU with the firm seeing a path to $236 of EPS by 2030. The note also assumes gross margins can hold ~80% as HBM and advanced DRAM c",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2088982790645960868#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 19ש׳"
+      },
+      {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 21ש׳"
+        "time": "לפני 22ש׳"
       },
       {
-        "text": "There is a 17% chance that the US will invade Iran before 2027, per Polymarket. See more: https://polymarket.com/event/will-the-us-invade-iran-before-2027",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089226437320753320#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "There is a 17% chance that the US will invade Iran before 2027, per Polymarket. See more: https://polymarket.com/event/will-the-us-invade-iran-before-2027",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089223648083374112#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "STRIPE TO BUY OPENROUTER FOR $7B+ Stripe has finalized a deal to acquire AI model marketplace OpenRouter for more than $7B, Bloomberg reports, just months after the startup raised funding at a reported $1.3B valuation. O",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089127576136818844#m",
-        "sentiment": "bullish",
-        "tag": "M&A",
-        "time": "לפני 8ש׳"
-      },
-      {
-        "text": "The S&P 500’s cumulative advance/decline line has been confirming new highs in price, a healthy sign for bulls. Read our full Bespoke Report newsletter here: https://www.bespokepremium.com/interactive/posts/featured-repo",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2088984699880251405#m",
+        "text": "IRAN'S FOREIGN MINISTRY SPOKESPERSON SAYS TALKS WITH OMAN ARE LONG DUE TO COMPLEXITY OF SUBJECT, MULTIPLE ACTORS INVOLVED, AND COUNTRIES SEEKING TO UNDERMINE PROCESS",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089254848755622178#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 18ש׳"
-      },
-      {
-        "text": "I rarely see $TSLA bulls on X posting on whether TSLA is cheap or expensive. It seems that since they love the products and leadership team they don’t care about the valuation. But at a 2026 P/E of 200x and long-term exp",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2088941452604625007#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 21ש׳"
+        "time": "לפני 1ש׳"
       }
     ]
   },
