@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T14:25:41.296125+00:00",
+  "generated_at": "2026-08-17T14:53:41.688562+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,63 +66,103 @@
     ]
   },
   "x_synthesis": {
-    "total": 20,
+    "total": 36,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 30
+        "count": 9,
+        "pct": 25
       },
       "bearish": {
-        "count": 2,
-        "pct": 10
+        "count": 3,
+        "pct": 8
       },
       "neutral": {
-        "count": 12,
-        "pct": 60
+        "count": 24,
+        "pct": 67
       }
     },
     "top_tickers": [
       [
-        "$APP",
-        3
-      ],
-      [
         "$NVDA",
-        3
+        5
       ],
       [
         "$SPCX",
-        1
+        2
       ],
       [
-        "$CAT",
-        1
+        "$AMZN",
+        2
       ],
       [
-        "$SOFI",
-        1
+        "$SPY",
+        2
       ],
       [
         "$SPX",
+        2
+      ],
+      [
+        "$APP",
+        2
+      ],
+      [
+        "$BABA",
         1
       ],
       [
-        "$WMT",
-        1
-      ],
-      [
-        "$TJX",
+        "$EWG",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "$AMZN - MORGAN STANLEY SEES AMAZON AT $500 Morgan Stanley says Amazon (AMZN) could hit $500 by end-2027 if AWS growth accelerates, nearly doubling from current levels. The bull case depends on AWS eventually reaching $1T",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089351526103896338#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 53ד׳"
+      },
       {
         "text": "$NVDA BACKS OPENAI’S OHIO AI CAMPUS Nvidia will invest $1.5B in SB Energy and support an initial 4.25 GW of AI infrastructure for OpenAI at the PORTS-Pike campus in Ohio, with an option to expand to the full 8 GW. SB Ene",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2089331339522875508#m",
         "sentiment": "neutral",
         "tag": "ENERGY",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "EVERCORE SEES S&P 500 PATH TO 9,000 Evercore ISI’s Julian Emanuel says the S&P 500 could reach 9,000 over the next 12 months, while keeping a 7,750 base-case target. He says the usual bull-market killers, recession, shar",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089362110916796734#m",
+        "sentiment": "bullish",
+        "tag": "MACRO",
+        "time": "לפני 11ד׳"
+      },
+      {
+        "text": "$NVDA - NVIDIA TO INVEST $100BN FOR OPENAI DATA CENTRE IN OHIO - FT",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089351453655642588#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 54ד׳"
+      },
+      {
+        "text": "$NVDA TO PROVIDE UP TO $105 BILLION GUARANTEE FOR OPENAI'S OHIO DATA CENTER: RTRS",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089360770136170825#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 16ד׳"
+      },
+      {
+        "text": "A great morning trading $SPX gamma exposure and futures on WhaleWatch! For one more hour, join in for flow reviews while our hosts carve it up! https://x.com/i/broadcasts/1mxPaZddbeLKN",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089359741269025016#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 21ד׳"
       },
       {
         "text": "JUST IN: Wells Fargo has said the Fed will hike rates by 25 bps in 2026.",
@@ -130,7 +170,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089355567504482535#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 9ד׳"
+        "time": "לפני 37ד׳"
       },
       {
         "text": "JUST IN: Our trading show WhaleWatch is live now, checking options flow and day trading futures! Will $SPX push through all time highs, or is it time for a dip? https://x.com/i/broadcasts/1mxPaZddbeLKN",
@@ -138,47 +178,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089344350815662422#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 54ד׳"
-      },
-      {
-        "text": "$DUOT SIGNS $500M+ AI HOSTING DEAL Duos Technologies signed five-year hosting agreements with Axe Compute $AGPU covering 55 MW of AI data center capacity across multiple U.S. sites. The contracts represent $500M+ in base",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089330606517952584#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
         "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$WYFI EXPANDS NORTH CAROLINA DATA CENTER FOOTPRINT WhiteFiber agreed to acquire two North Carolina sites for $60M, adding at least 60 MW of initial gross utility capacity with potential to scale to ~200 MW. The company i",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089328712672313441#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 6ש׳"
-      },
-      {
-        "text": "$APP earnings showed that the next leg of the story now depends on AXON continuing to improve while consumer scales fast enough to offset a more mature gaming business. That puts more weight on consumer where spend is al",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089350440689504531#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 30ד׳"
-      },
-      {
-        "text": "Piper Sandler initiates $SOFI at Overweight with a $22 price target and calls current levels an “attractive entry point for long-term investors” as SoFi enters its next leg of growth. The firm models a 22% revenue CAGR a",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089347221561188642#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 42ד׳"
       }
     ]
   },
