@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T03:49:21.669123+00:00",
+  "generated_at": "2026-08-17T04:40:11.086103+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -67,19 +67,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 22,
+    "total": 25,
     "sentiment": {
       "bullish": {
-        "count": 8,
+        "count": 9,
         "pct": 36
       },
       "bearish": {
         "count": 1,
-        "pct": 5
+        "pct": 4
       },
       "neutral": {
-        "count": 13,
-        "pct": 59
+        "count": 15,
+        "pct": 60
       }
     },
     "top_tickers": [
@@ -88,8 +88,8 @@
         2
       ],
       [
-        "$CEG",
-        1
+        "$TSLA",
+        2
       ],
       [
         "$NEE",
@@ -97,6 +97,10 @@
       ],
       [
         "$TLN",
+        1
+      ],
+      [
+        "$CEG",
         1
       ],
       [
@@ -119,7 +123,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2089140401286291852#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
         "text": "RT by @StockSavvyShay: BofA thinks AI may have permanently changed the memory cycle for $MU with the firm seeing a path to $236 of EPS by 2030. The note also assumes gross margins can hold ~80% as HBM and advanced DRAM c",
@@ -127,7 +131,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2088982790645960868#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 14ש׳"
+        "time": "לפני 15ש׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -135,7 +139,7 @@
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 17ש׳"
+        "time": "לפני 18ש׳"
       },
       {
         "text": "UBS thinks $SPCX can generate ~$400B of annual revenue and ~$200B of EBIT by 2030 as Starship unlocks the next phase of both connectivity and AI. Flight 14 will be the next major catalyst in a couple of weeks with operat",
@@ -143,7 +147,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089139858984104111#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
         "text": "BREAKING: Unusual Whales has passed 5 million followers on X. Together, we've helped drive the push to ban congressional stock trading, built financial tools used by millions, and created one of the largest investing com",
@@ -151,7 +155,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089112716979966416#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
       },
       {
         "text": "64% of young men day trading stocks feel like failures, per YF",
@@ -159,7 +163,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089155498993955004#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "Trump's deportation program is costing U.S. taxpayers $2,358 per deportation, per Axios.",
@@ -167,7 +171,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089140399570931750#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       }
     ]
   },
