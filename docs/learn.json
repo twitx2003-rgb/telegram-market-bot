@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T14:53:41.688562+00:00",
+  "generated_at": "2026-08-17T15:23:53.213031+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,33 +66,25 @@
     ]
   },
   "x_synthesis": {
-    "total": 36,
+    "total": 24,
     "sentiment": {
       "bullish": {
-        "count": 9,
+        "count": 6,
         "pct": 25
       },
       "bearish": {
-        "count": 3,
+        "count": 2,
         "pct": 8
       },
       "neutral": {
-        "count": 24,
+        "count": 16,
         "pct": 67
       }
     },
     "top_tickers": [
       [
         "$NVDA",
-        5
-      ],
-      [
-        "$SPCX",
-        2
-      ],
-      [
-        "$AMZN",
-        2
+        3
       ],
       [
         "$SPY",
@@ -107,30 +99,30 @@
         2
       ],
       [
-        "$BABA",
+        "$CBRS",
         1
       ],
       [
-        "$EWG",
+        "$SYF",
+        1
+      ],
+      [
+        "$AMZN",
+        1
+      ],
+      [
+        "$BABA",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "$AMZN - MORGAN STANLEY SEES AMAZON AT $500 Morgan Stanley says Amazon (AMZN) could hit $500 by end-2027 if AWS growth accelerates, nearly doubling from current levels. The bull case depends on AWS eventually reaching $1T",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089351526103896338#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 53ד׳"
-      },
-      {
-        "text": "$NVDA BACKS OPENAI’S OHIO AI CAMPUS Nvidia will invest $1.5B in SB Energy and support an initial 4.25 GW of AI infrastructure for OpenAI at the PORTS-Pike campus in Ohio, with an option to expand to the full 8 GW. SB Ene",
+        "text": "SYNCHRONY PARTNERS WITH OPENAI FOR CHATGPT SHOPPING $SYF is working with OpenAI to let users buy products directly inside ChatGPT using store-branded credit cards, including cards issued for Amazon, Walmart and Lowe’s. F",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089331339522875508#m",
-        "sentiment": "neutral",
-        "tag": "ENERGY",
-        "time": "לפני 2ש׳"
+        "url": "https://nitter.net/wallstengine/status/2089369136698949781#m",
+        "sentiment": "bullish",
+        "tag": "TECH",
+        "time": "לפני 13ד׳"
       },
       {
         "text": "EVERCORE SEES S&P 500 PATH TO 9,000 Evercore ISI’s Julian Emanuel says the S&P 500 could reach 9,000 over the next 12 months, while keeping a 7,750 base-case target. He says the usual bull-market killers, recession, shar",
@@ -138,15 +130,7 @@
         "url": "https://nitter.net/wallstengine/status/2089362110916796734#m",
         "sentiment": "bullish",
         "tag": "MACRO",
-        "time": "לפני 11ד׳"
-      },
-      {
-        "text": "$NVDA - NVIDIA TO INVEST $100BN FOR OPENAI DATA CENTRE IN OHIO - FT",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089351453655642588#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 54ד׳"
+        "time": "לפני 41ד׳"
       },
       {
         "text": "$NVDA TO PROVIDE UP TO $105 BILLION GUARANTEE FOR OPENAI'S OHIO DATA CENTER: RTRS",
@@ -154,7 +138,7 @@
         "url": "https://nitter.net/wallstengine/status/2089360770136170825#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 16ד׳"
+        "time": "לפני 47ד׳"
       },
       {
         "text": "A great morning trading $SPX gamma exposure and futures on WhaleWatch! For one more hour, join in for flow reviews while our hosts carve it up! https://x.com/i/broadcasts/1mxPaZddbeLKN",
@@ -162,7 +146,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089359741269025016#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 21ד׳"
+        "time": "לפני 51ד׳"
       },
       {
         "text": "JUST IN: Wells Fargo has said the Fed will hike rates by 25 bps in 2026.",
@@ -170,7 +154,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089355567504482535#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 37ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "JUST IN: Our trading show WhaleWatch is live now, checking options flow and day trading futures! Will $SPX push through all time highs, or is it time for a dip? https://x.com/i/broadcasts/1mxPaZddbeLKN",
@@ -179,6 +163,22 @@
         "sentiment": "bullish",
         "tag": "NEWS",
         "time": "לפני 1ש׳"
+      },
+      {
+        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 7ש׳"
+      },
+      {
+        "text": "$AMZN stake in Anthropic is now estimated to be worth more than $190B but the relationship extends far beyond the equity investment. Anthropic runs on Amazon’s Trainium compute and AWS infrastructure while helping valida",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089360591811145803#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 47ד׳"
       }
     ]
   },
