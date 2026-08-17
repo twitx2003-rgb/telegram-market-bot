@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T02:40:42.870532+00:00",
+  "generated_at": "2026-08-17T03:49:21.669123+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -70,22 +70,38 @@
     "total": 22,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 27
+        "count": 8,
+        "pct": 36
       },
       "bearish": {
         "count": 1,
         "pct": 5
       },
       "neutral": {
-        "count": 15,
-        "pct": 68
+        "count": 13,
+        "pct": 59
       }
     },
     "top_tickers": [
       [
-        "$TSLA",
+        "$SPCX",
         2
+      ],
+      [
+        "$CEG",
+        1
+      ],
+      [
+        "$NEE",
+        1
+      ],
+      [
+        "$TLN",
+        1
+      ],
+      [
+        "$MU",
+        1
       ]
     ],
     "top_tweets": [
@@ -95,7 +111,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089167231716651313#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 53ד׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "GS: European Banks Have Surged Since 2022",
@@ -103,7 +119,15 @@
         "url": "https://nitter.net/MikeZaccardi/status/2089140401286291852#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
+      },
+      {
+        "text": "RT by @StockSavvyShay: BofA thinks AI may have permanently changed the memory cycle for $MU with the firm seeing a path to $236 of EPS by 2030. The note also assumes gross margins can hold ~80% as HBM and advanced DRAM c",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2088982790645960868#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 14ש׳"
       },
       {
         "text": "88% of S&P 500 companies have now reported: 86% have beaten EPS estimates 76% have beaten revenue estimates",
@@ -111,7 +135,15 @@
         "url": "https://nitter.net/wallstengine/status/2088932148258754572#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 16ש׳"
+        "time": "לפני 17ש׳"
+      },
+      {
+        "text": "UBS thinks $SPCX can generate ~$400B of annual revenue and ~$200B of EBIT by 2030 as Starship unlocks the next phase of both connectivity and AI. Flight 14 will be the next major catalyst in a couple of weeks with operat",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089139858984104111#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 3ש׳"
       },
       {
         "text": "BREAKING: Unusual Whales has passed 5 million followers on X. Together, we've helped drive the push to ban congressional stock trading, built financial tools used by millions, and created one of the largest investing com",
@@ -119,7 +151,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089112716979966416#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 4ש׳"
+        "time": "לפני 5ש׳"
       },
       {
         "text": "64% of young men day trading stocks feel like failures, per YF",
@@ -127,29 +159,13 @@
         "url": "https://nitter.net/unusual_whales/status/2089155498993955004#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "Trump's deportation program is costing U.S. taxpayers $2,358 per deportation, per Axios.",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2089140399570931750#m",
         "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "STRIPE TO BUY OPENROUTER FOR $7B+ Stripe has finalized a deal to acquire AI model marketplace OpenRouter for more than $7B, Bloomberg reports, just months after the startup raised funding at a reported $1.3B valuation. O",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089127576136818844#m",
-        "sentiment": "bullish",
-        "tag": "M&A",
-        "time": "לפני 3ש׳"
-      },
-      {
-        "text": "US public debt has hit a record $39.8 trillion, $200 billion away from the $40 trillion.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089125300433236478#m",
-        "sentiment": "bullish",
         "tag": "NEWS",
         "time": "לפני 3ש׳"
       }
