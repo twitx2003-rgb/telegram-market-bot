@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T20:25:11.298119+00:00",
+  "generated_at": "2026-08-17T20:53:39.485283+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,119 +66,119 @@
     ]
   },
   "x_synthesis": {
-    "total": 20,
+    "total": 36,
     "sentiment": {
       "bullish": {
-        "count": 2,
-        "pct": 10
+        "count": 8,
+        "pct": 22
       },
       "bearish": {
-        "count": 2,
-        "pct": 10
+        "count": 5,
+        "pct": 14
       },
       "neutral": {
-        "count": 16,
-        "pct": 80
+        "count": 23,
+        "pct": 64
       }
     },
     "top_tickers": [
       [
-        "$APP",
+        "$TSLA",
+        4
+      ],
+      [
+        "$SPCX",
         2
       ],
       [
-        "$TLT",
-        1
-      ],
-      [
-        "$VIX",
-        1
-      ],
-      [
-        "$MTUM",
-        1
-      ],
-      [
-        "$TSLA",
-        1
-      ],
-      [
         "$NKE",
+        2
+      ],
+      [
+        "$AMZN",
         1
       ],
       [
-        "$DRAM",
+        "$NBIS",
         1
       ],
       [
-        "$JPM",
+        "$CRWV",
+        1
+      ],
+      [
+        "$ACWI",
+        1
+      ],
+      [
+        "$FN",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "JPMorgan, $JPM, on the AI financing:",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089426283163975902#m",
-        "sentiment": "neutral",
-        "tag": "BANKS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "BREAKING: The U.S. 30-year Treasury yield has hit 5.30% for the first time since 2007",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089436349451653143#m",
-        "sentiment": "neutral",
-        "tag": "MACRO",
-        "time": "לפני 48ד׳"
-      },
-      {
-        "text": "$TSLA is reportedly preparing to put Cybercab in front of the public for the first time as soon as this month. The launch would mark Tesla’s first rollout of a vehicle built from the ground up without a steering wheel or",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089435027918701001#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 53ד׳"
-      },
-      {
-        "text": "The Roundhill Memory ETF is above its 50-DMA for the first time since 7/14. $DRAM",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089430197632159935#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$APP expected to generate $10B in annual profit by 2028 😳",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089421865605595331#m",
+        "text": "ANTHROPIC REVENUE RUN RATE JUMPS 7X AHEAD OF IPO July 2026: $65B+ May 2026: $47B End of 2025: $9B Anthropic also reported more than $11.5B in preliminary revenue for its latest completed quarter, up from $787M a year ear",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089438774149456217#m",
         "sentiment": "bullish",
-        "tag": "NEWS",
+        "tag": "EARNINGS",
         "time": "לפני 1ש׳"
       },
       {
-        "text": "Ai is driving up Treasury yields, per Bloomberg.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089421501573562569#m",
+        "text": "Anthropic is quickly closing the gap with $SPCX for the largest IPO of 2026 as its revenue growth accelerates into the listing. Revenue run-rate has exploded from $9B in late 2025 to $47B in May and now more than $65B in",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089448527701369088#m",
         "sentiment": "neutral",
-        "tag": "MACRO",
-        "time": "לפני 1ש׳"
+        "tag": "EARNINGS",
+        "time": "לפני 28ד׳"
       },
       {
-        "text": "A year after the failed logo rebrand, Cracker Barrel $CBRL has been the best performing restaurant stock in 2026 across 30 names. Up 128% YTD coming into today.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089404136345280719#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
+        "text": "FABRINET $FN Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.32B (Est. $1.27B) 🟢; +45% YoY 🔹 Adj. EPS: $4.10 (Est. $3.82) 🟢; +55% YoY 🔹 Oper Income: $134.25M (Est. $137M) 🔴 🔹 Net Income: $139.3M (Est. $139M) 🟡 Q1 Guide: 🔹 Revenu",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089446579388477491#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 35ד׳"
+      },
+      {
+        "text": "UBS PREVIEWS $NVDA EARNINGS: Expect Nvidia to BEAT FQ2 revenue expectations by roughly $3-4 billion, with revenue reaching ~$94-95B. For FQ3, we see guidance in the ~$107-108 billion range and believe revenue could ultim",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089421909930959321#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
         "time": "לפני 2ש׳"
       },
       {
-        "text": "Cracker Barrel (CBRL) Recovers Entire Logo Losses Within a Year https://www.bespokepremium.com/interactive/posts/think-big-blog/cracker-barrel-cbrl-recovers-entire-logo-losses-within-a-year via @bespokeinvest",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089391689244815639#m",
-        "sentiment": "bearish",
+        "text": "$TSLA TARGETS AUGUST CYBERCAB LAUNCH Tesla is preparing to launch its purpose-built Cybercab in Austin as soon as this month, per The Information. The two-seat robotaxi has no steering wheel or pedals. Tesla plans to beg",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089434290107138267#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "BREAKING: Tesla, $TSLA, to launch Cybercab in Austin this month, per the Information.",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089452203765268657#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 13ד׳"
+      },
+      {
+        "text": "NASDAQ TO LAUNCH OVERNIGHT TRADING SESSION Starting Dec. 6, 2026, Nasdaq will introduce a new trading session running from 9 PM to 4 AM ET. Nasdaq is also working with regulators on plans to eventually offer nearly conti",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089441941390016845#m",
+        "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 54ד׳"
+      },
+      {
+        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 7ש׳"
       }
     ]
   },
