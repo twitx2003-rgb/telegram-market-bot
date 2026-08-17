@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T18:37:23.393717+00:00",
+  "generated_at": "2026-08-17T19:26:41.788175+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,63 +66,71 @@
     ]
   },
   "x_synthesis": {
-    "total": 31,
+    "total": 24,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 23
+        "count": 6,
+        "pct": 25
       },
       "bearish": {
-        "count": 8,
-        "pct": 26
+        "count": 5,
+        "pct": 21
       },
       "neutral": {
-        "count": 16,
-        "pct": 52
+        "count": 13,
+        "pct": 54
       }
     },
     "top_tickers": [
       [
-        "$BKX",
-        1
+        "$NVDA",
+        2
       ],
       [
-        "$XLF",
-        1
-      ],
-      [
-        "$KBE",
-        1
-      ],
-      [
-        "$GDX",
-        1
+        "$APP",
+        2
       ],
       [
         "$NKE",
         1
       ],
       [
-        "$NVDA",
+        "$DRAM",
         1
       ],
       [
-        "$MSFT",
+        "$ACWI",
         1
       ],
       [
-        "$ORCL",
+        "$JPM",
+        1
+      ],
+      [
+        "$WMT",
+        1
+      ],
+      [
+        "$XRT",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "$NKE fresh lows back to 2014 A 78% drawdown (crash)",
+        "text": "Global earnings growth continues to soar $ACWI GS",
         "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2089418720380649926#m",
-        "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 10ד׳"
+        "url": "https://nitter.net/MikeZaccardi/status/2089427303138791469#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 25ד׳"
+      },
+      {
+        "text": "UBS PREVIEWS $NVDA EARNINGS: Expect Nvidia to BEAT FQ2 revenue expectations by roughly $3-4 billion, with revenue reaching ~$94-95B. For FQ3, we see guidance in the ~$107-108 billion range and believe revenue could ultim",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089421909930959321#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 47ד׳"
       },
       {
         "text": "Nvidia, $NVDA, has pledged $100 billion backing for OpenAI data centre in Ohio, per FT",
@@ -130,7 +138,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089415965058470259#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 21ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Update: The Trump Portfolio Tracker is coming for Pelosi In May, we recreated Trump’s top 20 holdings on Autopilot so anyone could invest alongside him 3 months later, it just crossed $2,000,000 of capital invested Here'",
@@ -138,7 +146,15 @@
         "url": "https://nitter.net/unusual_whales/status/2089409934144520665#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 45ד׳"
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "JPMorgan, $JPM, on the AI financing:",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089426283163975902#m",
+        "sentiment": "neutral",
+        "tag": "BANKS",
+        "time": "לפני 29ד׳"
       },
       {
         "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
@@ -146,7 +162,7 @@
         "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
       },
       {
         "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
@@ -154,31 +170,15 @@
         "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 10ש׳"
+        "time": "לפני 11ש׳"
       },
       {
-        "text": "Treasury rates are surging, and gold stocks are ripping $GDX ... fresh 3-month high",
+        "text": "Retail Earnings Week: Will Walmart and the Consumer Power the S&P 500 to More Record Highs? $WMT $XRT My technical retail roundup on @stockcharts! https://articles.stockcharts.com/article/retail-earnings-week-will-walmar",
         "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2089419587708232076#m",
+        "url": "https://nitter.net/MikeZaccardi/status/2089425472211788114#m",
         "sentiment": "bullish",
-        "tag": "MACRO",
-        "time": "לפני 6ד׳"
-      },
-      {
-        "text": "BREAKING: 75% of active fund managers failed to beat the S&P 500 over the preceding 12-month period, per WSJ",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089406150383149564#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "A month ago, it wasn't if the Fed would hike, it was how many times. Now less than one hike is priced in the rest of 2026 (0.22%). We've said all along they won't be hiking and will run it hot in H2. Looking that way mor",
-        "handle": "RyanDetrick",
-        "url": "https://nitter.net/RyanDetrick/status/2089324294505418823#m",
-        "sentiment": "bullish",
-        "tag": "FED",
-        "time": "לפני 6ש׳"
+        "tag": "EARNINGS",
+        "time": "לפני 32ד׳"
       }
     ]
   },
