@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:49:33.302734+00:00",
+  "generated_at": "2026-08-17T16:25:44.258457+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,24 +66,24 @@
     ]
   },
   "x_synthesis": {
-    "total": 20,
+    "total": 27,
     "sentiment": {
       "bullish": {
         "count": 8,
-        "pct": 40
+        "pct": 30
       },
       "bearish": {
-        "count": 2,
-        "pct": 10
+        "count": 3,
+        "pct": 11
       },
       "neutral": {
-        "count": 10,
-        "pct": 50
+        "count": 16,
+        "pct": 59
       }
     },
     "top_tickers": [
       [
-        "$NVDA",
+        "$IREN",
         2
       ],
       [
@@ -91,38 +91,46 @@
         2
       ],
       [
-        "$SYF",
+        "$NANC",
         1
       ],
       [
-        "$BABA",
+        "$GOP",
         1
       ],
       [
-        "$EWG",
+        "$CRWV",
         1
       ],
       [
-        "$EPOL",
+        "$GLXY",
         1
       ],
       [
-        "$CWI",
+        "$XLE",
         1
       ],
       [
-        "$SPX",
+        "$CBRS",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "Anthropic-linked pre-IPO perpetual contracts are trading around levels that imply a roughly $1.8T valuation, about 88% above the company’s $965B valuation from its May funding round.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089379292945977671#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 35ד׳"
+      },
       {
         "text": "SYNCHRONY PARTNERS WITH OPENAI FOR CHATGPT SHOPPING $SYF is working with OpenAI to let users buy products directly inside ChatGPT using store-branded credit cards, including cards issued for Amazon, Walmart and Lowe’s. F",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2089369136698949781#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 39ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "EVERCORE SEES S&P 500 PATH TO 9,000 Evercore ISI’s Julian Emanuel says the S&P 500 could reach 9,000 over the next 12 months, while keeping a 7,750 base-case target. He says the usual bull-market killers, recession, shar",
@@ -133,6 +141,14 @@
         "time": "לפני 1ש׳"
       },
       {
+        "text": "IMPORTANT: Unusual Whales and Subversive have mutually agreed to part ways with respect to Unusual Whales Subversive Democratic Trading ETF ($NANC) and the Unusual Whales Subversive Republican Trading ETF (KRUZ, now know",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089385316528607540#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 11ד׳"
+      },
+      {
         "text": "$NVDA TO PROVIDE UP TO $105 BILLION GUARANTEE FOR OPENAI'S OHIO DATA CENTER: RTRS",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2089360770136170825#m",
@@ -141,20 +157,12 @@
         "time": "לפני 1ש׳"
       },
       {
-        "text": "JUST IN: Our trading show WhaleWatch is live now, checking options flow and day trading futures! Will $SPX push through all time highs, or is it time for a dip? https://x.com/i/broadcasts/1mxPaZddbeLKN",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089344350815662422#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
-      },
-      {
         "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
         "handle": "garyblack00",
         "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
@@ -162,23 +170,15 @@
         "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 7ש׳"
+        "time": "לפני 8ש׳"
       },
       {
-        "text": "Alibaba is selling videogame unit Lingxi Games to Trustar Capital in a deal valuing the business at more than $1.5B. The sale is part of $BABA's broader push to shed non-core assets and strengthen its finances as it ramp",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089359959029125137#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Groq has raised $350M at a $3.5B valuation, roughly HALF its $6.9B valuation from last September. $NVDA is also investing in the round after previously licensing Groq’s technology and hiring founder Jonathan Ross and oth",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089334886792581541#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "text": "TOP 10 MOST EFFICIENT AI NEOCLOUDS This chart is a great way see which neoclouds are monetizing scarce AI power most efficiently and where the remaining upside still sits: 1. $IREN leads the group at ~$40M of contracted ",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089381639021613402#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 26ד׳"
       }
     ]
   },
