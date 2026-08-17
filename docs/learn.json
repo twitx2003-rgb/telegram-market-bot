@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T11:24:11.358900+00:00",
+  "generated_at": "2026-08-17T11:50:07.859977+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,28 +66,24 @@
     ]
   },
   "x_synthesis": {
-    "total": 23,
+    "total": 25,
     "sentiment": {
       "bullish": {
-        "count": 9,
-        "pct": 39
+        "count": 10,
+        "pct": 40
       },
       "bearish": {
-        "count": 2,
-        "pct": 9
+        "count": 5,
+        "pct": 20
       },
       "neutral": {
-        "count": 12,
-        "pct": 52
+        "count": 10,
+        "pct": 40
       }
     },
     "top_tickers": [
       [
         "$AMZN",
-        2
-      ],
-      [
-        "$SPCX",
         2
       ],
       [
@@ -99,30 +95,66 @@
         2
       ],
       [
-        "$LQD",
+        "$FANG",
         1
       ],
       [
-        "$TT",
+        "$COP",
         1
       ],
       [
-        "$ETN",
+        "$AEP",
         1
       ],
       [
-        "$TTMI",
+        "$DVN",
+        1
+      ],
+      [
+        "$EOG",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "🇯🇵 JAPAN BOND YIELDS HIT 30-YEAR HIGH Japan’s 10-year government bond yield surged to 2.93%, its highest level since 1996. Markets are increasingly betting the Bank of Japan will raise rates in September to contain infla",
+        "text": "BOFA: THE TRADE IS LONG GOLD Bank of America strategist Michael Hartnett says gold remains the best hedge against dollar weakness, bond losses and asset inflation. Gold funds attracted $6.3B last week, the largest inflow",
         "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089292497180667968#m",
+        "url": "https://nitter.net/DeItaone/status/2089314545441321107#m",
+        "sentiment": "bullish",
+        "tag": "BANKS",
+        "time": "לפני 17ד׳"
+      },
+      {
+        "text": "Big Short investor Steve Eisman has said that the artificial intelligence boom has become increasingly dependent on the fortunes of just two companies: OpenAI and Anthropic, per CNBC",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089315553521643974#m",
+        "sentiment": "bearish",
+        "tag": "TECH",
+        "time": "לפני 13ד׳"
+      },
+      {
+        "text": "Taiwan: strongest GDP growth since 1987 11.05% @markets @soberlook https://thedailyshot.com/subscribe/",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2089314045509734445#m",
         "sentiment": "bullish",
         "tag": "MACRO",
-        "time": "לפני 1ש׳"
+        "time": "לפני 19ד׳"
+      },
+      {
+        "text": "HIGGSFIELD RAISES $400M AT $5.4B VALUATION AI video startup Higgsfield raised a $400M Series B from investors including Goldman Sachs, Intel and DST Global, valuing the 2-year-old company at $5.4B. Annualized revenue hit",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089313466935066627#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 21ד׳"
+      },
+      {
+        "text": "MARKET MOVERS 🟢 UPGRADES • $YPF: Upgraded Hold → Buy by HSBC; PT raised to $60 from $52 • $PMT: Upgraded Hold → Buy by Deutsche Bank; PT $12 • $NYAX: Upgraded Market Perform → Outperform by Keefe, Bruyette & Woods; PT $7",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089313000985338015#m",
+        "sentiment": "bullish",
+        "tag": "BANKS",
+        "time": "לפני 23ד׳"
       },
       {
         "text": "In Q2, $META's U.S. 🇺🇸 ARPU rose 31% YoY to $125, far above other major social platforms, while international ARPU increased 17% to $15.10 U.S. revenue per hour also grew 27% YoY to $1.33 Instagram’s U.S. daily time spen",
@@ -130,7 +162,7 @@
         "url": "https://nitter.net/wallstengine/status/2089298731917295638#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 54ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "FT reports $META and BlackRock’s $14B, 1GW Sopaipilla data center in Texas carries only partial insurance coverage, reflecting how difficult and expensive it has become to fully insure gigawatt-scale AI infrastructure. T",
@@ -138,47 +170,15 @@
         "url": "https://nitter.net/wallstengine/status/2089297628098130345#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 58ד׳"
-      },
-      {
-        "text": "US-CHINA ROBOTICS DECOUPLING BEGINS Bernstein says the FCC ban on new foreign-made mobile robots marks the start of U.S.-China robotics decoupling. Restrictions could expand to AI chips and investments, while China could",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089285494878163182#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
         "time": "לפני 1ש׳"
       },
       {
-        "text": "Morgan Stanley sees a path to $500 for $AMZN as AWS enters what could be a decade-long compute capacity supercycle. Its model has AWS scaling to 120 GW by 2035 which drives revenue above $1T as Amazon says AI economics a",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089304704773968127#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 30ד׳"
-      },
-      {
-        "text": "$SPCX - UBS BULLISH ON SPACEX — $210 TARGET UBS reiterated its Buy rating on SpaceX with a $210 price target, expecting AI token demand and Starlink expansion to drive growth. UBS sees Starship and V3 satellites accelera",
+        "text": "📉 PRICE TARGET CUT • $AEP: PT cut to $139 from $146 by Truist Securities • $AMTM: PT cut to $26 from $31 by JP Morgan • $APA: PT cut to $40 from $41 by Barclays • $APP: PT cut to $440 from $500 by Benchmark • $CVX: PT cu",
         "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089304223141810311#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 32ד׳"
-      },
-      {
-        "text": "Trane $TT & Eaton $ETN launched a joint power-&-cooling architecture for next-gen AI data centers, aligned with Nvidia’s DSX AI Factory platform. It can deliver up to 15% better energy efficiency, use 80% less copper & c",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089302071942230491#m",
-        "sentiment": "neutral",
-        "tag": "ENERGY",
-        "time": "לפני 40ד׳"
-      },
-      {
-        "text": "$TTMI TO BUY EPIQ FOR $1.1B TTM Technologies agreed to acquire Epiq Design Solutions in an all-cash deal. Epiq provides AI-enabled software-defined radios, RF systems and radiation-tolerant space computing used in signal",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089293636349616354#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "url": "https://nitter.net/DeItaone/status/2089313382474088717#m",
+        "sentiment": "bearish",
+        "tag": "NEWS",
+        "time": "לפני 21ד׳"
       }
     ]
   },
