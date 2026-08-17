@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T12:41:12.683243+00:00",
+  "generated_at": "2026-08-17T13:37:53.745809+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,32 +66,44 @@
     ]
   },
   "x_synthesis": {
-    "total": 25,
+    "total": 28,
     "sentiment": {
       "bullish": {
-        "count": 9,
-        "pct": 36
+        "count": 11,
+        "pct": 39
       },
       "bearish": {
-        "count": 4,
-        "pct": 16
+        "count": 2,
+        "pct": 7
       },
       "neutral": {
-        "count": 12,
-        "pct": 48
+        "count": 15,
+        "pct": 54
       }
     },
     "top_tickers": [
       [
-        "$AMZN",
-        2
+        "$NVDA",
+        4
       ],
       [
-        "$NVDA",
+        "$SPX",
         1
       ],
       [
-        "$VIX",
+        "$ACWI",
+        1
+      ],
+      [
+        "$APP",
+        1
+      ],
+      [
+        "$AGPU",
+        1
+      ],
+      [
+        "$DUOT",
         1
       ],
       [
@@ -101,84 +113,72 @@
       [
         "$META",
         1
-      ],
-      [
-        "$UBER",
-        1
-      ],
-      [
-        "$IREN",
-        1
-      ],
-      [
-        "$RKLB",
-        1
       ]
     ],
     "top_tweets": [
       {
-        "text": "Northland Upgrades $ALAB to Outperform, PT $350 Analyst comments: \"We are upgrading ALAB based on our expectations for more positive earnings revisions and a longer-than-expected AI infrastructure spending cycle. We expe",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089320522937229425#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 44ד׳"
-      },
-      {
-        "text": "$EYPT PHASE 3 TRIAL MISSES PRIMARY ENDPOINT EyePoint said its Phase 3 LUGANO trial for DURAVYU in wet AMD failed to meet the primary endpoint of non-inferiority versus aflibercept in the full dataset. The company said th",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089319884408946738#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 46ד׳"
-      },
-      {
-        "text": "Big Short investor Steve Eisman has said that the artificial intelligence boom has become increasingly dependent on the fortunes of just two companies: OpenAI and Anthropic, per CNBC",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089315553521643974#m",
-        "sentiment": "bearish",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$WYFI EXPANDS NORTH CAROLINA DATA CENTER FOOTPRINT WhiteFiber agreed to acquire two North Carolina sites for $60M, adding at least 60 MW of initial gross utility capacity with potential to scale to ~200 MW. The company i",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089328712672313441#m",
+        "text": "S&P 500 REVENUE GROWTH HITS 5-YEAR HIGH Goldman Sachs says S&P 500 revenues grew 6.4% YoY in Q2, excluding energy — the fastest pace in five years. Big Tech led the growth, while median S&P 500 revenue excluding tech ros",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089337449759555813#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 11ד׳"
+        "time": "לפני 33ד׳"
       },
       {
-        "text": "Morgan Stanley sees a path to $500 for $AMZN as AWS enters what could be a decade-long compute capacity supercycle. Its model has AWS scaling to 120 GW by 2035 which drives revenue above $1T as Amazon says AI economics a",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089304704773968127#m",
+        "text": "\"Scott Bessent is sending a clear signal, traders say: He will do whatever he can to prevent bond yields from soaring,\" per Bloomberg.",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089335686922920410#m",
         "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "tag": "MACRO",
+        "time": "לפני 40ד׳"
       },
       {
-        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 4ש׳"
-      },
-      {
-        "text": "$NVDA is locking in one of the largest AI infrastructure projects yet with OpenAI and SB Energy planning an 8 GW compute campus in Ohio. The first 4.25 GW will run on Nvidia’s DSX platform with capacity beginning in 2028",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089331587532173803#m",
+        "text": "$NVDA BACKS OPENAI’S OHIO AI CAMPUS Nvidia will invest $1.5B in SB Energy and support an initial 4.25 GW of AI infrastructure for OpenAI at the PORTS-Pike campus in Ohio, with an option to expand to the full 8 GW. SB Ene",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089331339522875508#m",
         "sentiment": "neutral",
         "tag": "ENERGY",
-        "time": "עכשיו"
+        "time": "לפני 58ד׳"
       },
       {
-        "text": "BofA says $META U.S. monetization continues to strengthen with ARPU up 31% YoY to $125 in Q2 while revenue per hour rising 27% to $1.33 That upside is coming from stronger engagement as Instagram U.S. daily time spent ro",
+        "text": "EVERCORE: S&P 500 COULD HIT 9,000 Evercore ISI strategist Julian Emanuel says the S&P 500 could reach 9,000 within 12 months, implying roughly 16% upside from current levels. He argues traditional bull-market killers — r",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089342549332816382#m",
+        "sentiment": "neutral",
+        "tag": "MACRO",
+        "time": "לפני 13ד׳"
+      },
+      {
+        "text": "Jensen Huang just said the next bottleneck in AI is “land, power and shell” as compute demand grows faster than frontier labs can secure infrastructure. $NVDA is now using its balance sheet to lock in long-lived sites li",
         "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089328558523257182#m",
-        "sentiment": "bullish",
+        "url": "https://nitter.net/StockSavvyShay/status/2089338189119156369#m",
+        "sentiment": "neutral",
         "tag": "EARNINGS",
+        "time": "לפני 30ד׳"
+      },
+      {
+        "text": "JUST IN: Our trading show WhaleWatch is live now, checking options flow and day trading futures! Will $SPX push through all time highs, or is it time for a dip? https://x.com/i/broadcasts/1mxPaZddbeLKN",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089344350815662422#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 6ד׳"
+      },
+      {
+        "text": "WELLS FARGO NOW SEES FED HIKES Wells Fargo Investment Institute now expects the Fed to raise rates by 25 bps in 2026, reversing its previous forecast for no change. It also expects another 25-bp hike in 2027, taking the ",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089342928787329349#m",
+        "sentiment": "bullish",
+        "tag": "FED",
         "time": "לפני 12ד׳"
+      },
+      {
+        "text": "$DUOT SIGNS $500M+ AI HOSTING DEAL Duos Technologies signed five-year hosting agreements with Axe Compute $AGPU covering 55 MW of AI data center capacity across multiple U.S. sites. The contracts represent $500M+ in base",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089330606517952584#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 1ש׳"
       }
     ]
   },
