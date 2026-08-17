@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:23:53.213031+00:00",
+  "generated_at": "2026-08-17T15:49:33.302734+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,52 +66,52 @@
     ]
   },
   "x_synthesis": {
-    "total": 24,
+    "total": 20,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 25
+        "count": 8,
+        "pct": 40
       },
       "bearish": {
         "count": 2,
-        "pct": 8
+        "pct": 10
       },
       "neutral": {
-        "count": 16,
-        "pct": 67
+        "count": 10,
+        "pct": 50
       }
     },
     "top_tickers": [
       [
         "$NVDA",
-        3
+        2
       ],
       [
         "$SPY",
         2
       ],
       [
-        "$SPX",
-        2
-      ],
-      [
-        "$APP",
-        2
-      ],
-      [
-        "$CBRS",
-        1
-      ],
-      [
         "$SYF",
         1
       ],
       [
-        "$AMZN",
+        "$BABA",
         1
       ],
       [
-        "$BABA",
+        "$EWG",
+        1
+      ],
+      [
+        "$EPOL",
+        1
+      ],
+      [
+        "$CWI",
+        1
+      ],
+      [
+        "$SPX",
         1
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/wallstengine/status/2089369136698949781#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 13ד׳"
+        "time": "לפני 39ד׳"
       },
       {
         "text": "EVERCORE SEES S&P 500 PATH TO 9,000 Evercore ISI’s Julian Emanuel says the S&P 500 could reach 9,000 over the next 12 months, while keeping a 7,750 base-case target. He says the usual bull-market killers, recession, shar",
@@ -130,7 +130,7 @@
         "url": "https://nitter.net/wallstengine/status/2089362110916796734#m",
         "sentiment": "bullish",
         "tag": "MACRO",
-        "time": "לפני 41ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "$NVDA TO PROVIDE UP TO $105 BILLION GUARANTEE FOR OPENAI'S OHIO DATA CENTER: RTRS",
@@ -138,22 +138,6 @@
         "url": "https://nitter.net/wallstengine/status/2089360770136170825#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 47ד׳"
-      },
-      {
-        "text": "A great morning trading $SPX gamma exposure and futures on WhaleWatch! For one more hour, join in for flow reviews while our hosts carve it up! https://x.com/i/broadcasts/1mxPaZddbeLKN",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089359741269025016#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 51ד׳"
-      },
-      {
-        "text": "JUST IN: Wells Fargo has said the Fed will hike rates by 25 bps in 2026.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089355567504482535#m",
-        "sentiment": "neutral",
-        "tag": "FED",
         "time": "לפני 1ש׳"
       },
       {
@@ -162,7 +146,15 @@
         "url": "https://nitter.net/unusual_whales/status/2089344350815662422#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 2ש׳"
       },
       {
         "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
@@ -173,12 +165,20 @@
         "time": "לפני 7ש׳"
       },
       {
-        "text": "$AMZN stake in Anthropic is now estimated to be worth more than $190B but the relationship extends far beyond the equity investment. Anthropic runs on Amazon’s Trainium compute and AWS infrastructure while helping valida",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089360591811145803#m",
+        "text": "Alibaba is selling videogame unit Lingxi Games to Trustar Capital in a deal valuing the business at more than $1.5B. The sale is part of $BABA's broader push to shed non-core assets and strengthen its finances as it ramp",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089359959029125137#m",
         "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 47ד׳"
+        "tag": "M&A",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "Groq has raised $350M at a $3.5B valuation, roughly HALF its $6.9B valuation from last September. $NVDA is also investing in the round after previously licensing Groq’s technology and hiring founder Jonathan Ross and oth",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089334886792581541#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 2ש׳"
       }
     ]
   },
