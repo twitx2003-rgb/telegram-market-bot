@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:25:44.258457+00:00",
+  "generated_at": "2026-08-17T16:54:53.636764+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,32 +66,28 @@
     ]
   },
   "x_synthesis": {
-    "total": 27,
+    "total": 24,
     "sentiment": {
       "bullish": {
-        "count": 8,
-        "pct": 30
+        "count": 7,
+        "pct": 29
       },
       "bearish": {
-        "count": 3,
-        "pct": 11
+        "count": 4,
+        "pct": 17
       },
       "neutral": {
-        "count": 16,
-        "pct": 59
+        "count": 13,
+        "pct": 54
       }
     },
     "top_tickers": [
-      [
-        "$IREN",
-        2
-      ],
       [
         "$SPY",
         2
       ],
       [
-        "$NANC",
+        "$NBIS",
         1
       ],
       [
@@ -99,7 +95,11 @@
         1
       ],
       [
-        "$CRWV",
+        "$NANC",
+        1
+      ],
+      [
+        "$IREN",
         1
       ],
       [
@@ -107,11 +107,11 @@
         1
       ],
       [
-        "$XLE",
+        "$CRWV",
         1
       ],
       [
-        "$CBRS",
+        "$XLE",
         1
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/wallstengine/status/2089379292945977671#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 35ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "SYNCHRONY PARTNERS WITH OPENAI FOR CHATGPT SHOPPING $SYF is working with OpenAI to let users buy products directly inside ChatGPT using store-branded credit cards, including cards issued for Amazon, Walmart and Lowe’s. F",
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/wallstengine/status/2089362110916796734#m",
         "sentiment": "bullish",
         "tag": "MACRO",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "IMPORTANT: Unusual Whales and Subversive have mutually agreed to part ways with respect to Unusual Whales Subversive Democratic Trading ETF ($NANC) and the Unusual Whales Subversive Republican Trading ETF (KRUZ, now know",
@@ -146,31 +146,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089385316528607540#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 11ד׳"
-      },
-      {
-        "text": "$NVDA TO PROVIDE UP TO $105 BILLION GUARANTEE FOR OPENAI'S OHIO DATA CENTER: RTRS",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089360770136170825#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 3ש׳"
-      },
-      {
-        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 8ש׳"
+        "time": "לפני 40ד׳"
       },
       {
         "text": "TOP 10 MOST EFFICIENT AI NEOCLOUDS This chart is a great way see which neoclouds are monetizing scarce AI power most efficiently and where the remaining upside still sits: 1. $IREN leads the group at ~$40M of contracted ",
@@ -178,7 +154,31 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089381639021613402#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 26ד׳"
+        "time": "לפני 55ד׳"
+      },
+      {
+        "text": "A month ago, it wasn't if the Fed would hike, it was how many times. Now less than one hike is priced in the rest of 2026 (0.22%). We've said all along they won't be hiking and will run it hot in H2. Looking that way mor",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2089324294505418823#m",
+        "sentiment": "bullish",
+        "tag": "FED",
+        "time": "לפני 4ש׳"
+      },
+      {
+        "text": "S&P 500 ex-tech is also at all-time highs. Further proof that this is a very broad-based rally and it isn't all about only technology. Nice one from @TheChartReport",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2089322878055428169#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 4ש׳"
+      },
+      {
+        "text": "XPANDER AI LAUNCHES OMNI A built-in AI agent that builds, runs and governs other agents across a company. > Builds agents from plain-English instructions > Shares them securely with authorized teams https://x.com/dudutwi",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089392620078596112#m",
+        "sentiment": "bearish",
+        "tag": "TECH",
+        "time": "לפני 11ד׳"
       }
     ]
   },
