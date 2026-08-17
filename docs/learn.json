@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T20:53:39.485283+00:00",
+  "generated_at": "2026-08-17T21:24:29.273349+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,45 +66,29 @@
     ]
   },
   "x_synthesis": {
-    "total": 36,
+    "total": 32,
     "sentiment": {
       "bullish": {
-        "count": 8,
-        "pct": 22
+        "count": 9,
+        "pct": 28
       },
       "bearish": {
-        "count": 5,
-        "pct": 14
+        "count": 3,
+        "pct": 9
       },
       "neutral": {
-        "count": 23,
-        "pct": 64
+        "count": 20,
+        "pct": 62
       }
     },
     "top_tickers": [
       [
         "$TSLA",
-        4
-      ],
-      [
-        "$SPCX",
-        2
+        3
       ],
       [
         "$NKE",
         2
-      ],
-      [
-        "$AMZN",
-        1
-      ],
-      [
-        "$NBIS",
-        1
-      ],
-      [
-        "$CRWV",
-        1
       ],
       [
         "$ACWI",
@@ -112,6 +96,22 @@
       ],
       [
         "$FN",
+        1
+      ],
+      [
+        "$TLT",
+        1
+      ],
+      [
+        "$TTD",
+        1
+      ],
+      [
+        "$DRAM",
+        1
+      ],
+      [
+        "$NVDA",
         1
       ]
     ],
@@ -125,20 +125,12 @@
         "time": "לפני 1ש׳"
       },
       {
-        "text": "Anthropic is quickly closing the gap with $SPCX for the largest IPO of 2026 as its revenue growth accelerates into the listing. Revenue run-rate has exploded from $9B in late 2025 to $47B in May and now more than $65B in",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089448527701369088#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 28ד׳"
-      },
-      {
         "text": "FABRINET $FN Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.32B (Est. $1.27B) 🟢; +45% YoY 🔹 Adj. EPS: $4.10 (Est. $3.82) 🟢; +55% YoY 🔹 Oper Income: $134.25M (Est. $137M) 🔴 🔹 Net Income: $139.3M (Est. $139M) 🟡 Q1 Guide: 🔹 Revenu",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2089446579388477491#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 35ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "UBS PREVIEWS $NVDA EARNINGS: Expect Nvidia to BEAT FQ2 revenue expectations by roughly $3-4 billion, with revenue reaching ~$94-95B. For FQ3, we see guidance in the ~$107-108 billion range and believe revenue could ultim",
@@ -157,12 +149,20 @@
         "time": "לפני 1ש׳"
       },
       {
+        "text": "Update: The Trump Portfolio Tracker is coming for Pelosi In May, we recreated Trump’s top 20 holdings on Autopilot so anyone could invest alongside him 3 months later, it just crossed $2,000,000 of capital invested Here'",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089409934144520665#m",
+        "sentiment": "bullish",
+        "tag": "M&A",
+        "time": "לפני 3ש׳"
+      },
+      {
         "text": "BREAKING: Tesla, $TSLA, to launch Cybercab in Austin this month, per the Information.",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2089452203765268657#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 13ד׳"
+        "time": "לפני 44ד׳"
       },
       {
         "text": "NASDAQ TO LAUNCH OVERNIGHT TRADING SESSION Starting Dec. 6, 2026, Nasdaq will introduce a new trading session running from 9 PM to 4 AM ET. Nasdaq is also working with regulators on plans to eventually offer nearly conti",
@@ -170,7 +170,7 @@
         "url": "https://nitter.net/wallstengine/status/2089441941390016845#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 54ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
@@ -178,7 +178,7 @@
         "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 7ש׳"
+        "time": "לפני 8ש׳"
       }
     ]
   },
