@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:31:51.760155+00:00",
+  "generated_at": "2026-08-18T15:30:28.121218+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,63 +65,87 @@
     ]
   },
   "x_synthesis": {
-    "total": 20,
+    "total": 28,
     "sentiment": {
       "bullish": {
-        "count": 3,
-        "pct": 15
+        "count": 5,
+        "pct": 18
       },
       "bearish": {
-        "count": 5,
-        "pct": 25
+        "count": 6,
+        "pct": 21
       },
       "neutral": {
-        "count": 12,
-        "pct": 60
+        "count": 17,
+        "pct": 61
       }
     },
     "top_tickers": [
+      [
+        "$AMZN",
+        3
+      ],
+      [
+        "$NOK",
+        2
+      ],
+      [
+        "$TSLA",
+        2
+      ],
+      [
+        "$META",
+        2
+      ],
       [
         "$RKLB",
         2
       ],
       [
-        "$TSLA",
+        "$NVDA",
         1
       ],
       [
-        "$RSP",
+        "$SPCX",
         1
       ],
       [
-        "$ASTS",
-        1
-      ],
-      [
-        "$META",
-        1
-      ],
-      [
-        "$SOXX",
-        1
-      ],
-      [
-        "$WEAV",
-        1
-      ],
-      [
-        "$GRMN",
+        "$COHR",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "Anthropic could end up going public at a higher valuation than $SPCX SpaceX’s $1.75T IPO.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089724144640541107#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 49ד׳"
+      },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
         "handle": "garyblack00",
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
+      },
+      {
+        "text": "$NVDA - BOFA: NVIDIA COULD BE UP TO 50% UNDERVALUED Bank of America says Nvidia may trade at a 34%-50% discount, as investors could be overstating AI-related risks. BofA sees Nvidia’s aggressive AI investments as a long-",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089729837866840173#m",
+        "sentiment": "bullish",
+        "tag": "BANKS",
+        "time": "לפני 27ד׳"
+      },
+      {
+        "text": "AMAZON $AMZN: TO GROW LOUISIANA DATA CENTER INVESTMENT FROM $12 BILLION TO $18 BILLION WITH A THIRD DATA CENTER CAMPUS",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089731255244132401#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 21ד׳"
       },
       {
         "text": "$META - $550, is in a long sideways stage 3 pattern. It will have to make a decision at some point 1. Resume back into a Stage 2 2. Drop into a Stage 4 Holding shares",
@@ -129,55 +153,31 @@
         "url": "https://nitter.net/cperruna/status/2089708901205676150#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 51ד׳"
-      },
-      {
-        "text": "U.S. pending home sales fell 2.3% in July, missing expectations for no change and dropping to the weakest level since January. The index fell to 71.2, matching the second-lowest reading on record going back to 2001.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089720093995601934#m",
-        "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 7ד׳"
-      },
-      {
-        "text": "Perplexity’s India 🇮🇳 bet is starting to pay off. Downloads fell more than 90% after Airtel stopped accepting new Pro redemptions, yet India in-app and subscription revenue still rose ~60%. Last year, Perplexity offered ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089714268895912109#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 30ד׳"
-      },
-      {
-        "text": "U.S. PENDING HOME SALES DROP SHARPLY U.S. pending home sales fell 2.3% in July, missing expectations for a 0.6% increase. Higher mortgage rates weighed on demand, while record home prices continued to pressure buyers. Th",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089714197655429561#m",
-        "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 30ד׳"
-      },
-      {
-        "text": "As the semis come under heavy pressure, the rest of the market is catching a bid. S&P 500 Equal Weight $RSP (the average stock) has pushed into the green, up 20 bps on the day.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089712317743129063#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 38ד׳"
-      },
-      {
-        "text": "YARDENI: 5% TREASURY YIELD IS THE KEY LINE Ed Yardeni isn’t alarmed by surging global bond yields—yet. He expects the U.S. 10-year Treasury yield to remain within a 4%-5% range without seriously hurting the economy or co",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089704429066883513#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
         "time": "לפני 1ש׳"
       },
       {
-        "text": "Francisco Partners is acquiring Weave $WEAV for about $650M, or $7.40/share in cash. The deal is expected to close in Q4.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089701201348804610#m",
+        "text": "$AMZN is increasing its Louisiana data center investment by 50% to $18B as it adds a third campus in Shreveport. Amazon will also fund the required grid upgrades and up to $400M of water infrastructure reinforcing how ag",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089733035751268600#m",
         "sentiment": "neutral",
-        "tag": "M&A",
-        "time": "לפני 1ש׳"
+        "tag": "TECH",
+        "time": "לפני 14ד׳"
+      },
+      {
+        "text": "SPOT GOLD FALLS OVER 1% TO $4,362.79/OZ",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089729173522715069#m",
+        "sentiment": "bearish",
+        "tag": "NEWS",
+        "time": "לפני 29ד׳"
+      },
+      {
+        "text": "Investors are bullish on US stocks, per Bank of America.",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089728021343465598#m",
+        "sentiment": "bullish",
+        "tag": "BANKS",
+        "time": "לפני 34ד׳"
       }
     ]
   },
