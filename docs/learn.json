@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-18T05:55:59.710172+00:00",
+  "generated_at": "2026-08-18T06:43:48.040523+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
     "videos": []
   },
   "x_synthesis": {
-    "total": 26,
+    "total": 29,
     "sentiment": {
       "bullish": {
         "count": 7,
-        "pct": 27
+        "pct": 24
       },
       "bearish": {
-        "count": 8,
-        "pct": 31
+        "count": 7,
+        "pct": 24
       },
       "neutral": {
-        "count": 11,
-        "pct": 42
+        "count": 15,
+        "pct": 52
       }
     },
     "top_tickers": [
@@ -27,66 +27,42 @@
         2
       ],
       [
-        "$HD",
+        "$NKE",
+        2
+      ],
+      [
+        "$NVDA",
         1
       ],
       [
-        "$IQ",
+        "$MU",
         1
       ],
       [
-        "$CAAP",
+        "$GRMN",
         1
       ],
       [
-        "$VNET",
+        "$AGG",
         1
       ],
       [
-        "$HSAI",
+        "$VEU",
         1
       ],
       [
-        "$BIDU",
-        1
-      ],
-      [
-        "$KLAR",
+        "$XLE",
         1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "$GOOGL TO BUY SPIRIT AIRLINES DATA FOR AI TRAINING Google agreed to pay $10M for internal business data from bankrupt Spirit Airlines, including employee emails, Teams messages, spreadsheets, calendars and operational da",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089463313365410156#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 8ש׳"
-      },
       {
         "text": "Between January 2020 and June 2024, urban consumer food prices increased by over 26%, outpacing the 19% rise in core goods and services during the same period. Read more: https://unusualwhales.com/news/us-food-prices-sur",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2089570734859563335#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "FABRINET $FN Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.32B (Est. $1.27B) 🟢; +45% YoY 🔹 Adj. EPS: $4.10 (Est. $3.82) 🟢; +55% YoY 🔹 Oper Income: $134.25M (Est. $137M) 🔴 🔹 Net Income: $139.3M (Est. $139M) 🟡 Q1 Guide: 🔹 Revenu",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089446579388477491#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 9ש׳"
-      },
-      {
-        "text": "Japan’s largest listed companies now expect net profit to rise 14% in FY26, sharply above the initial 5% forecast, as AI infrastructure and semiconductor demand drive earnings higher.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089465828697915720#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 8ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
@@ -94,7 +70,7 @@
         "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 16ש׳"
+        "time": "לפני 17ש׳"
       },
       {
         "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
@@ -102,23 +78,47 @@
         "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 21ש׳"
+        "time": "לפני 22ש׳"
       },
       {
-        "text": "Today's Key Events (All EST) — 08/18/2026 08:15: US ADP Wkly Employment Change 08:30: US Import Prices MoM 08:30: US Housing Starts 09:15: US Capacity Utilization 10:00: US Pending Home Sales Before Open 👇 04:30: Hesai G",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089586589517111525#m",
-        "sentiment": "neutral",
-        "tag": "ENERGY",
-        "time": "לפני 21ד׳"
-      },
-      {
-        "text": "The biggest trading losses of all time: Leopold Aschenbrenner’s reported $35B July loss from leveraged AI stock bets now ranks as the biggest trading loss of all time, according to the FT.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089469935454191879#m",
-        "sentiment": "bearish",
+        "text": "Get ready for this. We are hosting @BlueMoonMetals and their CEO @AdventusCEO for a panel on critical metal, particularly tungsten. Join the panel of speakers, including: @Teo_Sinamin @Edark94 Craig Bradshaw Join Wednesd",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089595014058057863#m",
+        "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 8ש׳"
+        "time": "לפני 36ד׳"
+      },
+      {
+        "text": "Energy $XLE was the only sector in the green today and the only sector with positive breadth. Rough breadth day. The S&P 500 Equal Weight index was down nearly twice as much as the cap-weighted S&P.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089466295682998539#m",
+        "sentiment": "bullish",
+        "tag": "ENERGY",
+        "time": "לפני 9ש׳"
+      },
+      {
+        "text": "Home Depot $HD, Baidu $BIDU, and Klarna $KLAR report earnings before tomorrow's open. Toll Brothers $TOL, Keysight $KEYS, and La-Z-Boy $LZB report after the close.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089464912707739886#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 9ש׳"
+      },
+      {
+        "text": "RT by @StockSavvyShay: $APP earnings showed that the next leg of the story now depends on AXON continuing to improve while consumer scales fast enough to offset a more mature gaming business. That puts more weight on con",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089350440689504531#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 16ש׳"
+      },
+      {
+        "text": "A month ago, it wasn't if the Fed would hike, it was how many times. Now less than one hike is priced in the rest of 2026 (0.22%). We've said all along they won't be hiking and will run it hot in H2. Looking that way mor",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2089324294505418823#m",
+        "sentiment": "bullish",
+        "tag": "FED",
+        "time": "לפני 18ש׳"
       }
     ]
   },
