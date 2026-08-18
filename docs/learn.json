@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:49:07.435468+00:00",
+  "generated_at": "2026-08-18T20:21:57.685885+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,44 +65,32 @@
     ]
   },
   "x_synthesis": {
-    "total": 28,
+    "total": 29,
     "sentiment": {
       "bullish": {
-        "count": 2,
-        "pct": 7
-      },
-      "bearish": {
         "count": 4,
         "pct": 14
       },
+      "bearish": {
+        "count": 2,
+        "pct": 7
+      },
       "neutral": {
-        "count": 22,
+        "count": 23,
         "pct": 79
       }
     },
     "top_tickers": [
       [
-        "$META",
-        3
-      ],
-      [
         "$TSLA",
         3
       ],
       [
-        "$MSFT",
+        "$AGG",
         2
       ],
       [
-        "$AMZN",
-        2
-      ],
-      [
-        "$GOOGL",
-        2
-      ],
-      [
-        "$OKLO",
+        "$META",
         2
       ],
       [
@@ -110,11 +98,31 @@
         2
       ],
       [
-        "$IWM",
+        "$MRCY",
+        1
+      ],
+      [
+        "$KEYS",
+        1
+      ],
+      [
+        "$SOXX",
+        1
+      ],
+      [
+        "$CCC",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "Copart is among parties exploring an acquisition of CCC Intelligent Solutions $CCC, Bloomberg reports, with GTCR and Veritas Capital also showing interest.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089803452901896224#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 26ד׳"
+      },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
         "handle": "garyblack00",
@@ -124,28 +132,28 @@
         "time": "לפני 10ש׳"
       },
       {
-        "text": "Will Anthropic delay its IPO until 2027?",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089792307579261256#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 37ד׳"
-      },
-      {
         "text": "BREAKING: The United States has imposed sanctions against International Criminal Court President Tomoko Akane of Japan",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2089788441219453197#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 53ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "U.S. NUCLEAR BUILDOUT STARTS MOVING INTO EXECUTION $OKLO says it has entered physical “build mode” at Idaho National Laboratory, a key step toward its planned 1.2 GW Ohio deployment supporting $META data centers. Meanwhi",
+        "text": "MERCURY SYSTEMS $MRCY Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $290M (Est. $266M) 🟢; +6.1% YoY 🔹 Adj. EPS: $0.37 (Est. $0.38) 🔴; -21% YoY 🔹 Bookings: $660M; +93.1% YoY 🔹 Backlog: over $1.9B; +38.4% YoY Other Q4 Metrics: 🔹 Ad",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089791066094645722#m",
-        "sentiment": "bearish",
-        "tag": "ENERGY",
-        "time": "לפני 42ד׳"
+        "url": "https://nitter.net/wallstengine/status/2089807767603413246#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 9ד׳"
+      },
+      {
+        "text": "KEYSIGHT $KEYS Q3’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.85B (Est. $1.74B) 🟢; +37% YoY 🔹 Adj. EPS: $3.07 (Est. $2.48) 🟢; +78% YoY 🔹 Free Cash Flow: $403M (Est. $193M) 🟢; +38% YoY 🔹 GAAP Net Income: $397M; +108% YoY Q4 Guid",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089807080589033760#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 11ד׳"
       },
       {
         "text": "$META - $550, is in a long sideways stage 3 pattern. It will have to make a decision at some point 1. Resume back into a Stage 2 2. Drop into a Stage 4 Holding shares",
@@ -161,23 +169,15 @@
         "url": "https://nitter.net/wallstengine/status/2089799317922156777#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 9ד׳"
+        "time": "לפני 42ד׳"
       },
       {
-        "text": "As the semis come under heavy pressure, the rest of the market is catching a bid. S&P 500 Equal Weight $RSP (the average stock) has pushed into the green, up 20 bps on the day.",
+        "text": "Semis finishing down right at 5% $SOXX. Failed at the 50-day.",
         "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089712317743129063#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 5ש׳"
-      },
-      {
-        "text": "The race to build America’s first new nuclear reactor in a generation is moving into the physical construction phase with $OKLO entering “build mode” at Idaho National Laboratory. That project is a key step toward Oklo’s",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089792879413915902#m",
+        "url": "https://nitter.net/bespokeinvest/status/2089804794256818494#m",
         "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 35ד׳"
+        "tag": "NEWS",
+        "time": "לפני 20ד׳"
       }
     ]
   },
