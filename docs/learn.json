@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T18:36:12.755604+00:00",
+  "generated_at": "2026-08-18T19:25:55.399068+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,52 +65,52 @@
     ]
   },
   "x_synthesis": {
-    "total": 24,
+    "total": 30,
     "sentiment": {
       "bullish": {
-        "count": 5,
-        "pct": 21
+        "count": 3,
+        "pct": 10
       },
       "bearish": {
-        "count": 2,
-        "pct": 8
+        "count": 4,
+        "pct": 13
       },
       "neutral": {
-        "count": 17,
-        "pct": 71
+        "count": 23,
+        "pct": 77
       }
     },
     "top_tickers": [
+      [
+        "$TSLA",
+        3
+      ],
+      [
+        "$META",
+        2
+      ],
+      [
+        "$GOOGL",
+        2
+      ],
       [
         "$SPY",
         2
       ],
       [
-        "$NVDA",
+        "$RKLB",
         2
       ],
       [
-        "$TSLA",
-        2
-      ],
-      [
-        "$LMT",
+        "$COST",
         1
       ],
       [
-        "$BA",
+        "$OKLO",
         1
       ],
       [
-        "$SPX",
-        1
-      ],
-      [
-        "$AGG",
-        1
-      ],
-      [
-        "$GOOGL",
+        "$MSFT",
         1
       ]
     ],
@@ -124,12 +124,36 @@
         "time": "לפני 9ש׳"
       },
       {
+        "text": "Will Anthropic delay its IPO until 2027?",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089792307579261256#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 14ד׳"
+      },
+      {
+        "text": "CANADA-U.S. TRADE CANADIAN, U.S. NEGOTIATORS EXPECTED TO MEET AGAIN AHEAD OF MIDNIGHT TARIFF DEADLINE - CBC NEWS",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089765995606855937#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
+      },
+      {
         "text": "Cathie Wood says she avoids memory stocks like $MU and $SKHY because she still sees HBM as the most cyclical and commoditized part of the semiconductor stack. Her bigger point is that inference architectures from $CBRS a",
         "handle": "StockSavvyShay",
         "url": "https://nitter.net/StockSavvyShay/status/2089756460419019240#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "U.S. NUCLEAR BUILDOUT STARTS MOVING INTO EXECUTION $OKLO says it has entered physical “build mode” at Idaho National Laboratory, a key step toward its planned 1.2 GW Ohio deployment supporting $META data centers. Meanwhi",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089791066094645722#m",
+        "sentiment": "bearish",
+        "tag": "ENERGY",
+        "time": "לפני 19ד׳"
       },
       {
         "text": "United Launch Alliance, the Boeing $BA and Lockheed Martin $LMT rocket joint venture, is raising $1.5B through private bonds, triple the $500M initially planned. ULA launches missions for the U.S. military and commercial",
@@ -137,47 +161,23 @@
         "url": "https://nitter.net/wallstengine/status/2089780172161745068#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 12ד׳"
-      },
-      {
-        "text": "Mate is an AI growth “teammate” that turns customer data into revenue by finding buyers, building campaigns, and running reports. With 700 major brands already in stealth, its real moat is the data and distribution netwo",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089771511062392905#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 47ד׳"
-      },
-      {
-        "text": "Etched has raised $700M at a $21B valuation, more than doubling its $10.3B valuation from just a few weeks ago. Etched is an AI chip startup building specialized hardware for inference, essentially trying to compete with",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089772427815559413#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 43ד׳"
-      },
-      {
-        "text": "YOUTUBE EYES $1B+ NBA DEAL YouTube is in advanced talks with the NBA to create a single streaming hub for local team broadcasts starting in the 2027-28 season, per SBJ. The NBA is targeting at least 25 teams in Year 1, w",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089765546057412807#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
         "time": "לפני 1ש׳"
       },
       {
-        "text": "BREAKING: Unusual Whales is partnering with Siebert Financial to launch a new series of ETFs. The funds will combine Unusual Whales’ political trading data, options flow, institutional activity, and other “shadow data” w",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089763253618434473#m",
+        "text": "$META - $550, is in a long sideways stage 3 pattern. It will have to make a decision at some point 1. Resume back into a Stage 2 2. Drop into a Stage 4 Holding shares",
+        "handle": "cperruna",
+        "url": "https://nitter.net/cperruna/status/2089708901205676150#m",
         "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 5ש׳"
+      },
+      {
+        "text": "As the semis come under heavy pressure, the rest of the market is catching a bid. S&P 500 Equal Weight $RSP (the average stock) has pushed into the green, up 20 bps on the day.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089712317743129063#m",
+        "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$AMZN is increasing its Louisiana data center investment by 50% to $18B as it adds a third campus in Shreveport. Amazon will also fund the required grid upgrades and up to $400M of water infrastructure reinforcing how ag",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089733035751268600#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 3ש׳"
+        "time": "לפני 5ש׳"
       }
     ]
   },
