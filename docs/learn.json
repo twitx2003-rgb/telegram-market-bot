@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:21:48.437695+00:00",
+  "generated_at": "2026-08-18T22:50:14.884079+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,32 +65,24 @@
     ]
   },
   "x_synthesis": {
-    "total": 28,
+    "total": 22,
     "sentiment": {
       "bullish": {
         "count": 4,
-        "pct": 14
+        "pct": 18
       },
       "bearish": {
-        "count": 3,
-        "pct": 11
+        "count": 2,
+        "pct": 9
       },
       "neutral": {
-        "count": 21,
-        "pct": 75
+        "count": 16,
+        "pct": 73
       }
     },
     "top_tickers": [
       [
         "$TSLA",
-        3
-      ],
-      [
-        "$META",
-        2
-      ],
-      [
-        "$RKLB",
         2
       ],
       [
@@ -98,11 +90,19 @@
         1
       ],
       [
+        "$LOW",
+        1
+      ],
+      [
+        "$ADI",
+        1
+      ],
+      [
         "$VIK",
         1
       ],
       [
-        "$LOW",
+        "$NDSN",
         1
       ],
       [
@@ -110,7 +110,7 @@
         1
       ],
       [
-        "$TJX",
+        "$TGT",
         1
       ]
     ],
@@ -137,7 +137,7 @@
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 12ש׳"
+        "time": "לפני 13ש׳"
       },
       {
         "text": "Anthropic is preparing to give CEO Dario Amodei and other co-founders enhanced voting rights ahead of a potential IPO as soon as late September. The structure is designed to protect leadership from outside shareholder pr",
@@ -153,7 +153,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2089828558835188011#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 46ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Anthropic is preparing to give CEO Dario Amodei and its other founders supervoting shares ahead of a potential September IPO. The move would give founders more control despite relatively small ownership stakes while pres",
@@ -161,7 +161,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089816640053719369#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "MERCURY SYSTEMS $MRCY Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $290M (Est. $266M) 🟢; +6.1% YoY 🔹 Adj. EPS: $0.37 (Est. $0.38) 🔴; -21% YoY 🔹 Bookings: $660M; +93.1% YoY 🔹 Backlog: over $1.9B; +38.4% YoY Other Q4 Metrics: 🔹 Ad",
