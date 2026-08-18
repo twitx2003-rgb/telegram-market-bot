@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T15:30:28.121218+00:00",
+  "generated_at": "2026-08-18T16:29:47.858145+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,19 +65,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 28,
+    "total": 30,
     "sentiment": {
       "bullish": {
-        "count": 5,
-        "pct": 18
+        "count": 9,
+        "pct": 30
       },
       "bearish": {
-        "count": 6,
-        "pct": 21
+        "count": 5,
+        "pct": 17
       },
       "neutral": {
-        "count": 17,
-        "pct": 61
+        "count": 16,
+        "pct": 53
       }
     },
     "top_tickers": [
@@ -86,42 +86,50 @@
         3
       ],
       [
-        "$NOK",
-        2
-      ],
-      [
         "$TSLA",
         2
       ],
       [
-        "$META",
+        "$NOK",
         2
       ],
       [
-        "$RKLB",
-        2
-      ],
-      [
-        "$NVDA",
+        "$AAPL",
         1
       ],
       [
-        "$SPCX",
+        "$VRT",
         1
       ],
       [
-        "$COHR",
+        "$UGI",
+        1
+      ],
+      [
+        "$KKR",
+        1
+      ],
+      [
+        "$WMT",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "$KKR - KKR Makes $9 Billion Takeover Bid for Natural Gas and Electricity Distributor, Sources Say KKR Made Offer to Buy Pennsylvania-Based UGI for $42.50 a Share, Sources Say",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089733797394669845#m",
+        "sentiment": "bullish",
+        "tag": "M&A",
+        "time": "לפני 1ש׳"
+      },
       {
         "text": "Anthropic could end up going public at a higher valuation than $SPCX SpaceX’s $1.75T IPO.",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2089724144640541107#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 49ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
@@ -129,15 +137,23 @@
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 6ש׳"
+        "time": "לפני 7ש׳"
       },
       {
-        "text": "$NVDA - BOFA: NVIDIA COULD BE UP TO 50% UNDERVALUED Bank of America says Nvidia may trade at a 34%-50% discount, as investors could be overstating AI-related risks. BofA sees Nvidia’s aggressive AI investments as a long-",
+        "text": "$WMT has plunged relative to the market since February... what holds for this Thursday? I take a look at retailer technicals on @stockcharts https://articles.stockcharts.com/article/retail-earnings-week-will-walmart-and-",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2089729341982671211#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "$AAPL - APPLE OVERHAULS EU APP STORE FEES Apple is revamping its EU App Store terms from October 1. The Core Technology Fee will be replaced by a 5% commission on digital transactions outside the App Store. EU commission",
         "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089729837866840173#m",
-        "sentiment": "bullish",
-        "tag": "BANKS",
-        "time": "לפני 27ד׳"
+        "url": "https://nitter.net/DeItaone/status/2089744406769209473#m",
+        "sentiment": "bearish",
+        "tag": "TECH",
+        "time": "לפני 28ד׳"
       },
       {
         "text": "AMAZON $AMZN: TO GROW LOUISIANA DATA CENTER INVESTMENT FROM $12 BILLION TO $18 BILLION WITH A THIRD DATA CENTER CAMPUS",
@@ -145,14 +161,14 @@
         "url": "https://nitter.net/wallstengine/status/2089731255244132401#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 21ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "$META - $550, is in a long sideways stage 3 pattern. It will have to make a decision at some point 1. Resume back into a Stage 2 2. Drop into a Stage 4 Holding shares",
-        "handle": "cperruna",
-        "url": "https://nitter.net/cperruna/status/2089708901205676150#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
+        "text": "KKR OFFERED TO ACQUIRE $UGI FOR ABOUT $9B, OR $42.50 PER SHARE: WSJ",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089736491144794562#m",
+        "sentiment": "bearish",
+        "tag": "M&A",
         "time": "לפני 1ש׳"
       },
       {
@@ -161,23 +177,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089733035751268600#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 14ד׳"
-      },
-      {
-        "text": "SPOT GOLD FALLS OVER 1% TO $4,362.79/OZ",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089729173522715069#m",
-        "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 29ד׳"
-      },
-      {
-        "text": "Investors are bullish on US stocks, per Bank of America.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089728021343465598#m",
-        "sentiment": "bullish",
-        "tag": "BANKS",
-        "time": "לפני 34ד׳"
+        "time": "לפני 1ש׳"
       }
     ]
   },
