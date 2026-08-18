@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-18T05:27:47.989253+00:00",
+  "generated_at": "2026-08-18T05:55:59.710172+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
     "videos": []
   },
   "x_synthesis": {
-    "total": 27,
+    "total": 26,
     "sentiment": {
       "bullish": {
-        "count": 8,
-        "pct": 30
+        "count": 7,
+        "pct": 27
       },
       "bearish": {
-        "count": 7,
-        "pct": 26
+        "count": 8,
+        "pct": 31
       },
       "neutral": {
-        "count": 12,
-        "pct": 44
+        "count": 11,
+        "pct": 42
       }
     },
     "top_tickers": [
@@ -27,27 +27,27 @@
         2
       ],
       [
-        "$NVDA",
+        "$HD",
         1
       ],
       [
-        "$MU",
+        "$IQ",
         1
       ],
       [
-        "$GRMN",
+        "$CAAP",
         1
       ],
       [
-        "$XLE",
+        "$VNET",
         1
       ],
       [
-        "$LZB",
+        "$HSAI",
         1
       ],
       [
-        "$TOL",
+        "$BIDU",
         1
       ],
       [
@@ -70,7 +70,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089570734859563335#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 56ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "FABRINET $FN Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.32B (Est. $1.27B) 🟢; +45% YoY 🔹 Adj. EPS: $4.10 (Est. $3.82) 🟢; +55% YoY 🔹 Oper Income: $134.25M (Est. $137M) 🔴 🔹 Net Income: $139.3M (Est. $139M) 🟡 Q1 Guide: 🔹 Revenu",
@@ -86,15 +86,7 @@
         "url": "https://nitter.net/wallstengine/status/2089465828697915720#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 7ש׳"
-      },
-      {
-        "text": "NASDAQ TO LAUNCH OVERNIGHT TRADING SESSION Starting Dec. 6, 2026, Nasdaq will introduce a new trading session running from 9 PM to 4 AM ET. Nasdaq is also working with regulators on plans to eventually offer nearly conti",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089441941390016845#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 9ש׳"
+        "time": "לפני 8ש׳"
       },
       {
         "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
@@ -113,12 +105,20 @@
         "time": "לפני 21ש׳"
       },
       {
+        "text": "Today's Key Events (All EST) — 08/18/2026 08:15: US ADP Wkly Employment Change 08:30: US Import Prices MoM 08:30: US Housing Starts 09:15: US Capacity Utilization 10:00: US Pending Home Sales Before Open 👇 04:30: Hesai G",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089586589517111525#m",
+        "sentiment": "neutral",
+        "tag": "ENERGY",
+        "time": "לפני 21ד׳"
+      },
+      {
         "text": "The biggest trading losses of all time: Leopold Aschenbrenner’s reported $35B July loss from leveraged AI stock bets now ranks as the biggest trading loss of all time, according to the FT.",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2089469935454191879#m",
         "sentiment": "bearish",
         "tag": "TECH",
-        "time": "לפני 7ש׳"
+        "time": "לפני 8ש׳"
       }
     ]
   },
