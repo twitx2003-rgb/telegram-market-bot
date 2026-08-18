@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T23:46:48.576706+00:00",
+  "generated_at": "2026-08-18T01:09:48.323140+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -69,16 +69,16 @@
     "total": 25,
     "sentiment": {
       "bullish": {
-        "count": 10,
-        "pct": 40
+        "count": 8,
+        "pct": 32
       },
       "bearish": {
-        "count": 6,
-        "pct": 24
+        "count": 7,
+        "pct": 28
       },
       "neutral": {
-        "count": 9,
-        "pct": 36
+        "count": 10,
+        "pct": 40
       }
     },
     "top_tickers": [
@@ -87,7 +87,15 @@
         2
       ],
       [
+        "$NVDA",
+        1
+      ],
+      [
         "$MU",
+        1
+      ],
+      [
+        "$GRMN",
         1
       ],
       [
@@ -99,19 +107,11 @@
         1
       ],
       [
-        "$XLE",
+        "$FN",
         1
       ],
       [
-        "$HD",
-        1
-      ],
-      [
-        "$KEYS",
-        1
-      ],
-      [
-        "$BIDU",
+        "$TTD",
         1
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/wallstengine/status/2089463313365410156#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "$GOOGL is turning Spirit Airlines bankruptcy into an AI training opportunity by buying $10M of real-world enterprise data. The dataset spans de-identified emails, Teams messages, spreadsheets, calendars and operational d",
@@ -130,7 +130,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089466489376301385#m",
         "sentiment": "bearish",
         "tag": "TECH",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "FABRINET $FN Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.32B (Est. $1.27B) 🟢; +45% YoY 🔹 Adj. EPS: $4.10 (Est. $3.82) 🟢; +55% YoY 🔹 Oper Income: $134.25M (Est. $137M) 🔴 🔹 Net Income: $139.3M (Est. $139M) 🟡 Q1 Guide: 🔹 Revenu",
@@ -138,7 +138,7 @@
         "url": "https://nitter.net/wallstengine/status/2089446579388477491#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
         "text": "Japan’s largest listed companies now expect net profit to rise 14% in FY26, sharply above the initial 5% forecast, as AI infrastructure and semiconductor demand drive earnings higher.",
@@ -146,7 +146,7 @@
         "url": "https://nitter.net/wallstengine/status/2089465828697915720#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "NASDAQ TO LAUNCH OVERNIGHT TRADING SESSION Starting Dec. 6, 2026, Nasdaq will introduce a new trading session running from 9 PM to 4 AM ET. Nasdaq is also working with regulators on plans to eventually offer nearly conti",
@@ -154,7 +154,7 @@
         "url": "https://nitter.net/wallstengine/status/2089441941390016845#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 5ש׳"
       },
       {
         "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
@@ -162,7 +162,7 @@
         "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 10ש׳"
+        "time": "לפני 12ש׳"
       },
       {
         "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
@@ -170,7 +170,7 @@
         "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 15ש׳"
+        "time": "לפני 16ש׳"
       },
       {
         "text": "The biggest trading losses of all time: Leopold Aschenbrenner’s reported $35B July loss from leveraged AI stock bets now ranks as the biggest trading loss of all time, according to the FT.",
@@ -178,7 +178,7 @@
         "url": "https://nitter.net/wallstengine/status/2089469935454191879#m",
         "sentiment": "bearish",
         "tag": "TECH",
-        "time": "לפני 1ש׳"
+        "time": "לפני 3ש׳"
       }
     ]
   },
