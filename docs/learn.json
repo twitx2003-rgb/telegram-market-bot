@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:59:41.969094+00:00",
+  "generated_at": "2026-08-18T17:35:22.779539+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,63 +65,71 @@
     ]
   },
   "x_synthesis": {
-    "total": 34,
+    "total": 32,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 18
+        "count": 7,
+        "pct": 22
       },
       "bearish": {
         "count": 4,
         "pct": 12
       },
       "neutral": {
-        "count": 24,
-        "pct": 71
+        "count": 21,
+        "pct": 66
       }
     },
     "top_tickers": [
       [
         "$TSLA",
-        4
+        2
       ],
       [
         "$AMZN",
-        3
-      ],
-      [
-        "$NOK",
         2
       ],
       [
-        "$RKLB",
-        2
+        "$NBIS",
+        1
+      ],
+      [
+        "$CRWV",
+        1
+      ],
+      [
+        "$WULF",
+        1
       ],
       [
         "$GOOGL",
         1
       ],
       [
-        "$VRT",
+        "$SKHY",
         1
       ],
       [
-        "$UGI",
-        1
-      ],
-      [
-        "$WMT",
+        "$NVDA",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "ANTHROPIC LINES UP $10B+ CREDIT AHEAD OF IPO Anthropic’s revolving credit facility is set to exceed $10 billion as banks compete for roles in the AI giant’s highly anticipated IPO. The Claude maker is reportedly working ",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089756261399093655#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 47ד׳"
+      },
       {
         "text": "ANTHROPIC PRE-IPO CREDIT FACILITY TO CLIMB PAST $10B TARGET: BBG",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2089757053208371553#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 8ד׳"
+        "time": "לפני 43ד׳"
       },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
@@ -129,15 +137,31 @@
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 7ש׳"
+        "time": "לפני 8ש׳"
       },
       {
-        "text": "$WMT has plunged relative to the market since February... what holds for this Thursday? I take a look at retailer technicals on @stockcharts https://articles.stockcharts.com/article/retail-earnings-week-will-walmart-and-",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2089729341982671211#m",
+        "text": "CANADA-U.S. TRADE CANADIAN, U.S. NEGOTIATORS EXPECTED TO MEET AGAIN AHEAD OF MIDNIGHT TARIFF DEADLINE - CBC NEWS",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089765995606855937#m",
         "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "tag": "NEWS",
+        "time": "לפני 8ד׳"
+      },
+      {
+        "text": "FEDERAL DEFICITS COULD DRIVE UP STUDENT LOAN COSTS A Conference Board study warns that rising U.S. deficits can push up interest rates and make student loans more expensive. For a hypothetical student borrowing $75,000, ",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089756926162952253#m",
+        "sentiment": "neutral",
+        "tag": "FED",
+        "time": "לפני 44ד׳"
+      },
+      {
+        "text": "Cathie Wood says she avoids memory stocks like $MU and $SKHY because she still sees HBM as the most cyclical and commoditized part of the semiconductor stack. Her bigger point is that inference architectures from $CBRS a",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089756460419019240#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 46ד׳"
       },
       {
         "text": "Google, $GOOGL, is reportedly preparing to move its entire Pixel supply chain out of China by 2027, shifting smartphone, watch, and earbud production primarily to Vietnam and India, per YF",
@@ -145,7 +169,7 @@
         "url": "https://nitter.net/unusual_whales/status/2089758472036356399#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 2ד׳"
+        "time": "לפני 38ד׳"
       },
       {
         "text": "AMAZON $AMZN: TO GROW LOUISIANA DATA CENTER INVESTMENT FROM $12 BILLION TO $18 BILLION WITH A THIRD DATA CENTER CAMPUS",
@@ -153,31 +177,7 @@
         "url": "https://nitter.net/wallstengine/status/2089731255244132401#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$META - $550, is in a long sideways stage 3 pattern. It will have to make a decision at some point 1. Resume back into a Stage 2 2. Drop into a Stage 4 Holding shares",
-        "handle": "cperruna",
-        "url": "https://nitter.net/cperruna/status/2089708901205676150#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 3ש׳"
-      },
-      {
-        "text": "KKR OFFERED TO ACQUIRE $UGI FOR ABOUT $9B, OR $42.50 PER SHARE: WSJ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089736491144794562#m",
-        "sentiment": "bearish",
-        "tag": "M&A",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$AMZN is increasing its Louisiana data center investment by 50% to $18B as it adds a third campus in Shreveport. Amazon will also fund the required grid upgrades and up to $400M of water infrastructure reinforcing how ag",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089733035751268600#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       }
     ]
   },
