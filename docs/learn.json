@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T11:52:07.116372+00:00",
+  "generated_at": "2026-08-18T12:42:32.718967+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,19 +65,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 30,
+    "total": 25,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 20
+        "count": 1,
+        "pct": 4
       },
       "bearish": {
-        "count": 5,
-        "pct": 17
+        "count": 4,
+        "pct": 16
       },
       "neutral": {
-        "count": 19,
-        "pct": 63
+        "count": 20,
+        "pct": 80
       }
     },
     "top_tickers": [
@@ -86,74 +86,66 @@
         2
       ],
       [
-        "$TSLA",
-        2
-      ],
-      [
-        "$NBIS",
-        2
-      ],
-      [
         "$NKE",
         2
+      ],
+      [
+        "$LQD",
+        1
+      ],
+      [
+        "$OSS",
+        1
+      ],
+      [
+        "$TLT",
+        1
+      ],
+      [
+        "$MU",
+        1
       ],
       [
         "$SOXX",
         1
       ],
       [
-        "$MRVL",
-        1
-      ],
-      [
-        "$CPB",
-        1
-      ],
-      [
-        "$NTAP",
+        "$GRMN",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "US DATA: PRICES FALL, HOUSING SENDS MIXED SIGNALS Import prices fell 0.4% in July, versus +0.1% expected, while export prices dropped 1.3%, versus +0.2% forecast. Housing was mixed. Building permits rose 5% to 1.443M, be",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089691897325367652#m",
+        "sentiment": "bearish",
+        "tag": "NEWS",
+        "time": "לפני 10ד׳"
+      },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
         "handle": "garyblack00",
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
-        "text": "KLARNA $KLAR Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.04B (Est. $994M) 🟢; +27% YoY 🔹 GMV: $36.6B; +18% YoY 🔹 Transaction Margin Dollars: $446M; +42% YoY FY26 Guide: 🔹 Revenue: $4.08B-$4.16B (Est. $4.42B) 🔴 🔹 Adj. Oper Inc",
+        "text": "$OSS received a $1.3M order from the U.S. Navy for ruggedized Gen5 servers used to capture and store high-speed network data aboard ships. Deliveries are expected to contribute to 2026 revenue, with another ~$2.5M in pot",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089678452366708963#m",
+        "url": "https://nitter.net/wallstengine/status/2089687618586042626#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 13ד׳"
+        "time": "לפני 27ד׳"
       },
       {
-        "text": "📈 PRICE TARGET RAISED • $ANF: PT raised to $126 from $110 by JPMorgan • $CPB: PT raised to $22 from $20 by JPMorgan • $LIFE: PT raised to $37 from $23 by JPMorgan • $P: PT raised to $170 from $100 by TD Cowen • $MRVL: PT",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089676731611259124#m",
-        "sentiment": "bullish",
-        "tag": "BANKS",
-        "time": "לפני 19ד׳"
-      },
-      {
-        "text": "🟢 UPGRADES • $AMX: Upgraded Neutral → Overweight by JPMorgan; PT raised to $32 from $30 • $AKR: Upgraded Sector Weight → Overweight by KeyBanc; PT $25 • $BBWI: Upgraded Neutral → Buy by Citi • $STRW: Upgraded Neutral → B",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089676516913271168#m",
-        "sentiment": "bullish",
-        "tag": "BANKS",
-        "time": "לפני 20ד׳"
-      },
-      {
-        "text": "EINRIDE TO DEPLOY 500 TESLA SEMIS Electric freight technology company Einride plans to deploy 500 Tesla $TSLA Semis for Amazon and other customers across major U.S. freight corridors, starting in September. Einride opera",
+        "text": "UBS on $MU (Buy, PT $1,625): \"Investor positioning skews quite cautious, which presents an opportunity as Micron’s earnings prove more durable than feared. Key investor concerns remain the durability of supply agreements",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089666899256983771#m",
+        "url": "https://nitter.net/wallstengine/status/2089680979988476215#m",
         "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 58ד׳"
+        "tag": "EARNINGS",
+        "time": "לפני 53ד׳"
       },
       {
         "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
@@ -161,15 +153,15 @@
         "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 22ש׳"
+        "time": "לפני 23ש׳"
       },
       {
-        "text": "$AMLX PHASE 3 TRIAL HITS PRIMARY ENDPOINT Amylyx said avexitide reduced Level 2 and Level 3 hypoglycemic events by 55% versus placebo in its Phase 3 LUCIDITY trial for post-bariatric hypoglycemia, with p=0.000003. The tr",
+        "text": "KLARNA $KLAR CFO, CMO TO DEPART IN EARLY 2027",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089669542582894910#m",
+        "url": "https://nitter.net/wallstengine/status/2089680428026544534#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 48ד׳"
+        "time": "לפני 55ד׳"
       },
       {
         "text": "BREAKING: Anthropic is on track to generate annualized revenue of more than $65 billion based on its current performance, up more than sevenfold from its pace at the end of last year, per Bloomberg.",
@@ -177,7 +169,15 @@
         "url": "https://nitter.net/unusual_whales/status/2089667874969248029#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 55ד׳"
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "Energy $XLE was the only sector in the green today and the only sector with positive breadth. Rough breadth day. The S&P 500 Equal Weight index was down nearly twice as much as the cap-weighted S&P.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089466295682998539#m",
+        "sentiment": "bullish",
+        "tag": "ENERGY",
+        "time": "לפני 15ש׳"
       }
     ]
   },
