@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:29:47.858145+00:00",
+  "generated_at": "2026-08-18T16:59:41.969094+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,36 +65,40 @@
     ]
   },
   "x_synthesis": {
-    "total": 30,
+    "total": 34,
     "sentiment": {
       "bullish": {
-        "count": 9,
-        "pct": 30
+        "count": 6,
+        "pct": 18
       },
       "bearish": {
-        "count": 5,
-        "pct": 17
+        "count": 4,
+        "pct": 12
       },
       "neutral": {
-        "count": 16,
-        "pct": 53
+        "count": 24,
+        "pct": 71
       }
     },
     "top_tickers": [
       [
-        "$AMZN",
-        3
+        "$TSLA",
+        4
       ],
       [
-        "$TSLA",
-        2
+        "$AMZN",
+        3
       ],
       [
         "$NOK",
         2
       ],
       [
-        "$AAPL",
+        "$RKLB",
+        2
+      ],
+      [
+        "$GOOGL",
         1
       ],
       [
@@ -106,30 +110,18 @@
         1
       ],
       [
-        "$KKR",
-        1
-      ],
-      [
         "$WMT",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "$KKR - KKR Makes $9 Billion Takeover Bid for Natural Gas and Electricity Distributor, Sources Say KKR Made Offer to Buy Pennsylvania-Based UGI for $42.50 a Share, Sources Say",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089733797394669845#m",
-        "sentiment": "bullish",
-        "tag": "M&A",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Anthropic could end up going public at a higher valuation than $SPCX SpaceX’s $1.75T IPO.",
+        "text": "ANTHROPIC PRE-IPO CREDIT FACILITY TO CLIMB PAST $10B TARGET: BBG",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089724144640541107#m",
-        "sentiment": "bullish",
+        "url": "https://nitter.net/wallstengine/status/2089757053208371553#m",
+        "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 8ד׳"
       },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
@@ -148,12 +140,12 @@
         "time": "לפני 1ש׳"
       },
       {
-        "text": "$AAPL - APPLE OVERHAULS EU APP STORE FEES Apple is revamping its EU App Store terms from October 1. The Core Technology Fee will be replaced by a 5% commission on digital transactions outside the App Store. EU commission",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089744406769209473#m",
-        "sentiment": "bearish",
+        "text": "Google, $GOOGL, is reportedly preparing to move its entire Pixel supply chain out of China by 2027, shifting smartphone, watch, and earbud production primarily to Vietnam and India, per YF",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089758472036356399#m",
+        "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 28ד׳"
+        "time": "לפני 2ד׳"
       },
       {
         "text": "AMAZON $AMZN: TO GROW LOUISIANA DATA CENTER INVESTMENT FROM $12 BILLION TO $18 BILLION WITH A THIRD DATA CENTER CAMPUS",
@@ -162,6 +154,14 @@
         "sentiment": "neutral",
         "tag": "TECH",
         "time": "לפני 1ש׳"
+      },
+      {
+        "text": "$META - $550, is in a long sideways stage 3 pattern. It will have to make a decision at some point 1. Resume back into a Stage 2 2. Drop into a Stage 4 Holding shares",
+        "handle": "cperruna",
+        "url": "https://nitter.net/cperruna/status/2089708901205676150#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 3ש׳"
       },
       {
         "text": "KKR OFFERED TO ACQUIRE $UGI FOR ABOUT $9B, OR $42.50 PER SHARE: WSJ",
