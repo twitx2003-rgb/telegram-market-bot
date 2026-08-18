@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T23:20:21.354438+00:00",
+  "generated_at": "2026-08-18T23:46:44.688992+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,25 +65,33 @@
     ]
   },
   "x_synthesis": {
-    "total": 24,
+    "total": 28,
     "sentiment": {
       "bullish": {
-        "count": 4,
-        "pct": 17
+        "count": 5,
+        "pct": 18
       },
       "bearish": {
-        "count": 3,
-        "pct": 12
+        "count": 2,
+        "pct": 7
       },
       "neutral": {
-        "count": 17,
-        "pct": 71
+        "count": 21,
+        "pct": 75
       }
     },
     "top_tickers": [
       [
+        "$RKLB",
+        3
+      ],
+      [
         "$TSLA",
-        2
+        3
+      ],
+      [
+        "$SPCX",
+        1
       ],
       [
         "$TYX",
@@ -104,40 +112,16 @@
       [
         "$XRT",
         1
-      ],
-      [
-        "$ADI",
-        1
-      ],
-      [
-        "$NDSN",
-        1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "TECH SELLOFF HITS WALL STREET AS YIELDS SURGE Wall Street closed lower as rising oil prices and Middle East tensions pushed Treasury yields sharply higher, pressuring technology stocks. The Nasdaq fell 1.3%, while the S&",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089806066959757422#m",
-        "sentiment": "bullish",
-        "tag": "ENERGY",
-        "time": "לפני 3ש׳"
-      },
-      {
-        "text": "Copart is among parties exploring an acquisition of CCC Intelligent Solutions $CCC, Bloomberg reports, with GTCR and Veritas Capital also showing interest.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089803452901896224#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
-        "time": "לפני 3ש׳"
-      },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
         "handle": "garyblack00",
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 13ש׳"
+        "time": "לפני 14ש׳"
       },
       {
         "text": "Anthropic is preparing to give CEO Dario Amodei and other co-founders enhanced voting rights ahead of a potential IPO as soon as late September. The structure is designed to protect leadership from outside shareholder pr",
@@ -153,7 +137,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2089828558835188011#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "Anthropic is preparing to give CEO Dario Amodei and its other founders supervoting shares ahead of a potential September IPO. The move would give founders more control despite relatively small ownership stakes while pres",
@@ -178,6 +162,22 @@
         "sentiment": "bullish",
         "tag": "EARNINGS",
         "time": "לפני 3ש׳"
+      },
+      {
+        "text": "OPENAI GENERATED $6.7B IN Q2 REVENUE, UP 18% QoQ FROM $5.7B: WSJ",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089857585847607655#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 15ד׳"
+      },
+      {
+        "text": "Holy, look at this. KKR offered to buy $UGI at 42.50 a share But RIGHT BEFORE THE News, someone placed a huge, unsual trade. A trader place a little over 700 of the weekly 35c opened at .60 per. 5 minutes later the contr",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089849320485036307#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 48ד׳"
       }
     ]
   },
