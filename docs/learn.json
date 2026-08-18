@@ -1,33 +1,29 @@
 {
-  "generated_at": "2026-08-18T03:42:41.911193+00:00",
+  "generated_at": "2026-08-18T04:34:06.469216+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
     "videos": []
   },
   "x_synthesis": {
-    "total": 33,
+    "total": 25,
     "sentiment": {
       "bullish": {
         "count": 8,
-        "pct": 24
+        "pct": 32
       },
       "bearish": {
-        "count": 9,
-        "pct": 27
+        "count": 5,
+        "pct": 20
       },
       "neutral": {
-        "count": 16,
+        "count": 12,
         "pct": 48
       }
     },
     "top_tickers": [
       [
-        "$GOOGL",
-        2
-      ],
-      [
-        "$NKE",
+        "$NBIS",
         2
       ],
       [
@@ -36,10 +32,6 @@
       ],
       [
         "$MU",
-        1
-      ],
-      [
-        "$GRMN",
         1
       ],
       [
@@ -53,6 +45,14 @@
       [
         "$XLE",
         1
+      ],
+      [
+        "$BIDU",
+        1
+      ],
+      [
+        "$HD",
+        1
       ]
     ],
     "top_tweets": [
@@ -62,15 +62,7 @@
         "url": "https://nitter.net/wallstengine/status/2089463313365410156#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 6ש׳"
-      },
-      {
-        "text": "$GOOGL is turning Spirit Airlines bankruptcy into an AI training opportunity by buying $10M of real-world enterprise data. The dataset spans de-identified emails, Teams messages, spreadsheets, calendars and operational d",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089466489376301385#m",
-        "sentiment": "bearish",
-        "tag": "TECH",
-        "time": "לפני 6ש׳"
+        "time": "לפני 7ש׳"
       },
       {
         "text": "FABRINET $FN Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.32B (Est. $1.27B) 🟢; +45% YoY 🔹 Adj. EPS: $4.10 (Est. $3.82) 🟢; +55% YoY 🔹 Oper Income: $134.25M (Est. $137M) 🔴 🔹 Net Income: $139.3M (Est. $139M) 🟡 Q1 Guide: 🔹 Revenu",
@@ -78,15 +70,7 @@
         "url": "https://nitter.net/wallstengine/status/2089446579388477491#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 7ש׳"
-      },
-      {
-        "text": "Jane Street, which invests in Situational Awareness and directly invests in AI ventures, suffered a rare and severe downturn amid volatile stock markets. Read more: https://unusualwhales.com/news/jane-street-15-billion-j",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089547330772975755#m",
-        "sentiment": "bearish",
-        "tag": "TECH",
-        "time": "לפני 44ד׳"
+        "time": "לפני 8ש׳"
       },
       {
         "text": "Japan’s largest listed companies now expect net profit to rise 14% in FY26, sharply above the initial 5% forecast, as AI infrastructure and semiconductor demand drive earnings higher.",
@@ -102,23 +86,39 @@
         "url": "https://nitter.net/wallstengine/status/2089441941390016845#m",
         "sentiment": "bullish",
         "tag": "NEWS",
+        "time": "לפני 8ש׳"
+      },
+      {
+        "text": "The biggest trading losses of all time: Leopold Aschenbrenner’s reported $35B July loss from leveraged AI stock bets now ranks as the biggest trading loss of all time, according to the FT.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089469935454191879#m",
+        "sentiment": "bearish",
+        "tag": "TECH",
+        "time": "לפני 6ש׳"
+      },
+      {
+        "text": "Energy $XLE was the only sector in the green today and the only sector with positive breadth. Rough breadth day. The S&P 500 Equal Weight index was down nearly twice as much as the cap-weighted S&P.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089466295682998539#m",
+        "sentiment": "bullish",
+        "tag": "ENERGY",
+        "time": "לפני 6ש׳"
+      },
+      {
+        "text": "Home Depot $HD, Baidu $BIDU, and Klarna $KLAR report earnings before tomorrow's open. Toll Brothers $TOL, Keysight $KEYS, and La-Z-Boy $LZB report after the close.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089464912707739886#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
         "time": "לפני 7ש׳"
       },
       {
-        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
+        "text": "RT by @StockSavvyShay: $APP earnings showed that the next leg of the story now depends on AXON continuing to improve while consumer scales fast enough to offset a more mature gaming business. That puts more weight on con",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089350440689504531#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
         "time": "לפני 14ש׳"
-      },
-      {
-        "text": "U.S. stocks rose (SPX +0.2%, NDX +0.6%) as tech advanced after Anthropic’s 2Q revenue jumped 14-fold from the same period in 2025, reinforcing sustained AI spending. 10yr treasury yields and oil edged lower while Bitcoin",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2089265231050494138#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 19ש׳"
       }
     ]
   },
