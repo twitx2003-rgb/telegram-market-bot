@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:56:23.139402+00:00",
+  "generated_at": "2026-08-18T11:26:46.751785+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,121 +65,23 @@
     ]
   },
   "x_synthesis": {
-    "total": 28,
+    "total": 0,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 25
+        "count": 0,
+        "pct": 0
       },
       "bearish": {
-        "count": 5,
-        "pct": 18
+        "count": 0,
+        "pct": 0
       },
       "neutral": {
-        "count": 16,
-        "pct": 57
+        "count": 0,
+        "pct": 0
       }
     },
-    "top_tickers": [
-      [
-        "$NBIS",
-        2
-      ],
-      [
-        "$NKE",
-        2
-      ],
-      [
-        "$DUOL",
-        1
-      ],
-      [
-        "$NCLH",
-        1
-      ],
-      [
-        "$IWM",
-        1
-      ],
-      [
-        "$EEM",
-        1
-      ],
-      [
-        "$QQQ",
-        1
-      ],
-      [
-        "$SMH",
-        1
-      ]
-    ],
-    "top_tweets": [
-      {
-        "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Between January 2020 and June 2024, urban consumer food prices increased by over 26%, outpacing the 19% rise in core goods and services during the same period. Read more: https://unusualwhales.com/news/us-food-prices-sur",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089570734859563335#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 6ש׳"
-      },
-      {
-        "text": "Mizuho Downgrades $NCLH to Neutral from Outperform, PT $17 Analyst comments: \"Norwegian is in the midst of a turnaround, in part resulting from self-inflicted wounds, including accelerated supply, changes in customer seg",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089664883143086412#m",
-        "sentiment": "neutral",
-        "tag": "ENERGY",
-        "time": "לפני 11ד׳"
-      },
-      {
-        "text": "DA Davidson Upgrades $DUOL to Buy, PT $160 Analyst comments: \"We are upgrading Duolingo to Buy, with the assumption that underlying product work, marketing changes, and continued efforts to refine the core monetization e",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089665906800775554#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 7ד׳"
-      },
-      {
-        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 21ש׳"
-      },
-      {
-        "text": "Bank of America now expects the six largest hyperscalers to spend $3.6T on AI infrastructure through 2028, up 17% from its estimate just a month ago. BofA sees hyperscaler capex on a path to surpass $1T in 2027.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089661689868476479#m",
-        "sentiment": "neutral",
-        "tag": "BANKS",
-        "time": "לפני 23ד׳"
-      },
-      {
-        "text": "COSTCO IS GETTING INTO MEDICARE Costco is partnering with nonprofit insurer SCAN Group to launch Costco-branded Medicare plans, starting with Medicare Advantage in two states and Medicare supplement coverage in a third. ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089660035387600924#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 30ד׳"
-      },
-      {
-        "text": "Chips slapped around this morning $SMH -2.5% $SPY -0.5% $QQQ -1.1% $EEM -1.3% $IWM -0.3% $TLT -0.1% Oil up a little, gold down a little @finviz_com",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2089642441750024380#m",
-        "sentiment": "neutral",
-        "tag": "ENERGY",
-        "time": "לפני 1ש׳"
-      }
-    ]
+    "top_tickers": [],
+    "top_tweets": []
   },
   "consensus": []
 }
