@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T21:22:49.788015+00:00",
+  "generated_at": "2026-08-18T21:47:36.237855+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,56 +65,64 @@
     ]
   },
   "x_synthesis": {
-    "total": 19,
+    "total": 29,
     "sentiment": {
       "bullish": {
-        "count": 2,
-        "pct": 11
+        "count": 3,
+        "pct": 10
       },
       "bearish": {
-        "count": 2,
-        "pct": 11
+        "count": 3,
+        "pct": 10
       },
       "neutral": {
-        "count": 15,
+        "count": 23,
         "pct": 79
       }
     },
     "top_tickers": [
       [
-        "$XLV",
+        "$TSLA",
+        3
+      ],
+      [
+        "$META",
+        2
+      ],
+      [
+        "$RKLB",
+        2
+      ],
+      [
+        "$VIK",
         1
       ],
       [
-        "$XLE",
+        "$COTY",
         1
       ],
       [
-        "$SMH",
+        "$ADI",
         1
       ],
       [
-        "$IONQ",
+        "$EL",
         1
       ],
       [
-        "$MRCY",
-        1
-      ],
-      [
-        "$KEYS",
-        1
-      ],
-      [
-        "$SOXX",
-        1
-      ],
-      [
-        "$CCC",
+        "$LOW",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "TECH SELLOFF HITS WALL STREET AS YIELDS SURGE Wall Street closed lower as rising oil prices and Middle East tensions pushed Treasury yields sharply higher, pressuring technology stocks. The Nasdaq fell 1.3%, while the S&",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089806066959757422#m",
+        "sentiment": "bullish",
+        "tag": "ENERGY",
+        "time": "לפני 1ש׳"
+      },
       {
         "text": "Copart is among parties exploring an acquisition of CCC Intelligent Solutions $CCC, Bloomberg reports, with GTCR and Veritas Capital also showing interest.",
         "handle": "wallstengine",
@@ -124,12 +132,28 @@
         "time": "לפני 1ש׳"
       },
       {
+        "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
+        "handle": "garyblack00",
+        "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 12ש׳"
+      },
+      {
         "text": "Anthropic is preparing to give CEO Dario Amodei and other co-founders enhanced voting rights ahead of a potential IPO as soon as late September. The structure is designed to protect leadership from outside shareholder pr",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2089820012047696368#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 21ד׳"
+        "time": "לפני 46ד׳"
+      },
+      {
+        "text": "The FOMC minutes are Wednesday’s main event at 2:00 PM ET. Energy inventories are due earlier at 10:30 AM.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089828558835188011#m",
+        "sentiment": "neutral",
+        "tag": "FED",
+        "time": "לפני 12ד׳"
       },
       {
         "text": "Anthropic is preparing to give CEO Dario Amodei and its other founders supervoting shares ahead of a potential September IPO. The move would give founders more control despite relatively small ownership stakes while pres",
@@ -137,7 +161,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089816640053719369#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 34ד׳"
+        "time": "לפני 59ד׳"
       },
       {
         "text": "MERCURY SYSTEMS $MRCY Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $290M (Est. $266M) 🟢; +6.1% YoY 🔹 Adj. EPS: $0.37 (Est. $0.38) 🔴; -21% YoY 🔹 Bookings: $660M; +93.1% YoY 🔹 Backlog: over $1.9B; +38.4% YoY Other Q4 Metrics: 🔹 Ad",
@@ -154,30 +178,6 @@
         "sentiment": "bullish",
         "tag": "EARNINGS",
         "time": "לפני 1ש׳"
-      },
-      {
-        "text": "You can read more about the ETFs here. Unusual Whales has partnered with Siebert Financial to launch them. See more: https://www.globenewswire.com/news-release/2026/08/18/3346765/0/en/unusual-whales-and-siebert-financial",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089819121496023068#m",
-        "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 24ד׳"
-      },
-      {
-        "text": "BREAKING: Unusual Whales is partnering with Siebert Financial to launch a new series of ETFs. The funds will combine Unusual Whales’ political trading data, options flow, institutional activity, and other “shadow data” w",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089763253618434473#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 4ש׳"
-      },
-      {
-        "text": "New all-time highs for Energy $XLE and Health Care $XLV today:",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089821886251155809#m",
-        "sentiment": "bullish",
-        "tag": "ENERGY",
-        "time": "לפני 13ד׳"
       }
     ]
   },
