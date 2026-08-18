@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:25:55.399068+00:00",
+  "generated_at": "2026-08-18T19:49:07.435468+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,28 +65,36 @@
     ]
   },
   "x_synthesis": {
-    "total": 30,
+    "total": 28,
     "sentiment": {
       "bullish": {
-        "count": 3,
-        "pct": 10
+        "count": 2,
+        "pct": 7
       },
       "bearish": {
         "count": 4,
-        "pct": 13
+        "pct": 14
       },
       "neutral": {
-        "count": 23,
-        "pct": 77
+        "count": 22,
+        "pct": 79
       }
     },
     "top_tickers": [
+      [
+        "$META",
+        3
+      ],
       [
         "$TSLA",
         3
       ],
       [
-        "$META",
+        "$MSFT",
+        2
+      ],
+      [
+        "$AMZN",
         2
       ],
       [
@@ -94,7 +102,7 @@
         2
       ],
       [
-        "$SPY",
+        "$OKLO",
         2
       ],
       [
@@ -102,15 +110,7 @@
         2
       ],
       [
-        "$COST",
-        1
-      ],
-      [
-        "$OKLO",
-        1
-      ],
-      [
-        "$MSFT",
+        "$IWM",
         1
       ]
     ],
@@ -121,7 +121,7 @@
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 9ש׳"
+        "time": "לפני 10ש׳"
       },
       {
         "text": "Will Anthropic delay its IPO until 2027?",
@@ -129,23 +129,15 @@
         "url": "https://nitter.net/wallstengine/status/2089792307579261256#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 14ד׳"
+        "time": "לפני 37ד׳"
       },
       {
-        "text": "CANADA-U.S. TRADE CANADIAN, U.S. NEGOTIATORS EXPECTED TO MEET AGAIN AHEAD OF MIDNIGHT TARIFF DEADLINE - CBC NEWS",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089765995606855937#m",
-        "sentiment": "neutral",
+        "text": "BREAKING: The United States has imposed sanctions against International Criminal Court President Tomoko Akane of Japan",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089788441219453197#m",
+        "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Cathie Wood says she avoids memory stocks like $MU and $SKHY because she still sees HBM as the most cyclical and commoditized part of the semiconductor stack. Her bigger point is that inference architectures from $CBRS a",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089756460419019240#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 53ד׳"
       },
       {
         "text": "U.S. NUCLEAR BUILDOUT STARTS MOVING INTO EXECUTION $OKLO says it has entered physical “build mode” at Idaho National Laboratory, a key step toward its planned 1.2 GW Ohio deployment supporting $META data centers. Meanwhi",
@@ -153,15 +145,7 @@
         "url": "https://nitter.net/wallstengine/status/2089791066094645722#m",
         "sentiment": "bearish",
         "tag": "ENERGY",
-        "time": "לפני 19ד׳"
-      },
-      {
-        "text": "United Launch Alliance, the Boeing $BA and Lockheed Martin $LMT rocket joint venture, is raising $1.5B through private bonds, triple the $500M initially planned. ULA launches missions for the U.S. military and commercial",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089780172161745068#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
+        "time": "לפני 42ד׳"
       },
       {
         "text": "$META - $550, is in a long sideways stage 3 pattern. It will have to make a decision at some point 1. Resume back into a Stage 2 2. Drop into a Stage 4 Holding shares",
@@ -169,7 +153,15 @@
         "url": "https://nitter.net/cperruna/status/2089708901205676150#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
+      },
+      {
+        "text": "15 S&P 500 names are up 100%+ YTD",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089799317922156777#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 9ד׳"
       },
       {
         "text": "As the semis come under heavy pressure, the rest of the market is catching a bid. S&P 500 Equal Weight $RSP (the average stock) has pushed into the green, up 20 bps on the day.",
@@ -178,6 +170,14 @@
         "sentiment": "bullish",
         "tag": "NEWS",
         "time": "לפני 5ש׳"
+      },
+      {
+        "text": "The race to build America’s first new nuclear reactor in a generation is moving into the physical construction phase with $OKLO entering “build mode” at Idaho National Laboratory. That project is a key step toward Oklo’s",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089792879413915902#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 35ד׳"
       }
     ]
   },
