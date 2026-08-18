@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T12:42:32.718967+00:00",
+  "generated_at": "2026-08-18T13:40:54.421780+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,24 +65,24 @@
     ]
   },
   "x_synthesis": {
-    "total": 25,
+    "total": 26,
     "sentiment": {
       "bullish": {
-        "count": 1,
-        "pct": 4
+        "count": 5,
+        "pct": 19
       },
       "bearish": {
         "count": 4,
-        "pct": 16
+        "pct": 15
       },
       "neutral": {
-        "count": 20,
-        "pct": 80
+        "count": 17,
+        "pct": 65
       }
     },
     "top_tickers": [
       [
-        "$KLAR",
+        "$NVDA",
         2
       ],
       [
@@ -90,11 +90,7 @@
         2
       ],
       [
-        "$LQD",
-        1
-      ],
-      [
-        "$OSS",
+        "$META",
         1
       ],
       [
@@ -102,34 +98,54 @@
         1
       ],
       [
-        "$MU",
+        "$QQQ",
         1
       ],
       [
-        "$SOXX",
+        "$XLK",
         1
       ],
       [
-        "$GRMN",
+        "$SMH",
+        1
+      ],
+      [
+        "$RSP",
         1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "US DATA: PRICES FALL, HOUSING SENDS MIXED SIGNALS Import prices fell 0.4% in July, versus +0.1% expected, while export prices dropped 1.3%, versus +0.2% forecast. Housing was mixed. Building permits rose 5% to 1.443M, be",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089691897325367652#m",
-        "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 10ד׳"
-      },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
         "handle": "garyblack00",
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
+      },
+      {
+        "text": "$ONDS is expanding deeper into Israeli defense manufacturing with a ~$34M all stock acquisition of Aran Defense. Aran adds ~$18M of 2025 revenue plus engineering and production capabilities to take defense products throu",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089687139864956994#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "$META - $550, is in a long sideways stage 3 pattern. It will have to make a decision at some point 1. Resume back into a Stage 2 2. Drop into a Stage 4 Holding shares",
+        "handle": "cperruna",
+        "url": "https://nitter.net/cperruna/status/2089708901205676150#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "עכשיו"
+      },
+      {
+        "text": "Jamie Dimon of JPMorgan, $JPM, has said that the US dollar could lose its reserve currency status within 25 years.",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089693040923517160#m",
+        "sentiment": "neutral",
+        "tag": "BANKS",
+        "time": "לפני 1ש׳"
       },
       {
         "text": "$OSS received a $1.3M order from the U.S. Navy for ruggedized Gen5 servers used to capture and store high-speed network data aboard ships. Deliveries are expected to contribute to 2026 revenue, with another ~$2.5M in pot",
@@ -137,47 +153,31 @@
         "url": "https://nitter.net/wallstengine/status/2089687618586042626#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 27ד׳"
-      },
-      {
-        "text": "UBS on $MU (Buy, PT $1,625): \"Investor positioning skews quite cautious, which presents an opportunity as Micron’s earnings prove more durable than feared. Key investor concerns remain the durability of supply agreements",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089680979988476215#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 53ד׳"
-      },
-      {
-        "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 23ש׳"
-      },
-      {
-        "text": "KLARNA $KLAR CFO, CMO TO DEPART IN EARLY 2027",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089680428026544534#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 55ד׳"
-      },
-      {
-        "text": "BREAKING: Anthropic is on track to generate annualized revenue of more than $65 billion based on its current performance, up more than sevenfold from its pace at the end of last year, per Bloomberg.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089667874969248029#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
         "time": "לפני 1ש׳"
       },
       {
-        "text": "Energy $XLE was the only sector in the green today and the only sector with positive breadth. Rough breadth day. The S&P 500 Equal Weight index was down nearly twice as much as the cap-weighted S&P.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089466295682998539#m",
+        "text": "Bank of America sees $NVDA as one of the cheapest ways to own the AI buildout with a $350 price target. Nvidia using its massive FCF to secure “every input” across chips, land, power and data center capacity while GPU re",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089685323139908042#m",
         "sentiment": "bullish",
-        "tag": "ENERGY",
-        "time": "לפני 15ש׳"
+        "tag": "BANKS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "YARDENI: 5% TREASURY YIELD IS THE KEY LINE Ed Yardeni isn’t alarmed by surging global bond yields—yet. He expects the U.S. 10-year Treasury yield to remain within a 4%-5% range without seriously hurting the economy or co",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089704429066883513#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 18ד׳"
+      },
+      {
+        "text": "Francisco Partners is acquiring Weave $WEAV for about $650M, or $7.40/share in cash. The deal is expected to close in Q4.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089701201348804610#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 31ד׳"
       }
     ]
   },
