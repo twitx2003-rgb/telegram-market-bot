@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T17:35:22.779539+00:00",
+  "generated_at": "2026-08-18T18:36:12.755604+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,95 +65,63 @@
     ]
   },
   "x_synthesis": {
-    "total": 32,
+    "total": 24,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 22
+        "count": 5,
+        "pct": 21
       },
       "bearish": {
-        "count": 4,
-        "pct": 12
+        "count": 2,
+        "pct": 8
       },
       "neutral": {
-        "count": 21,
-        "pct": 66
+        "count": 17,
+        "pct": 71
       }
     },
     "top_tickers": [
+      [
+        "$SPY",
+        2
+      ],
+      [
+        "$NVDA",
+        2
+      ],
       [
         "$TSLA",
         2
       ],
       [
-        "$AMZN",
-        2
-      ],
-      [
-        "$NBIS",
+        "$LMT",
         1
       ],
       [
-        "$CRWV",
+        "$BA",
         1
       ],
       [
-        "$WULF",
+        "$SPX",
+        1
+      ],
+      [
+        "$AGG",
         1
       ],
       [
         "$GOOGL",
         1
-      ],
-      [
-        "$SKHY",
-        1
-      ],
-      [
-        "$NVDA",
-        1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "ANTHROPIC LINES UP $10B+ CREDIT AHEAD OF IPO Anthropic’s revolving credit facility is set to exceed $10 billion as banks compete for roles in the AI giant’s highly anticipated IPO. The Claude maker is reportedly working ",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089756261399093655#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 47ד׳"
-      },
-      {
-        "text": "ANTHROPIC PRE-IPO CREDIT FACILITY TO CLIMB PAST $10B TARGET: BBG",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089757053208371553#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 43ד׳"
-      },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
         "handle": "garyblack00",
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 8ש׳"
-      },
-      {
-        "text": "CANADA-U.S. TRADE CANADIAN, U.S. NEGOTIATORS EXPECTED TO MEET AGAIN AHEAD OF MIDNIGHT TARIFF DEADLINE - CBC NEWS",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089765995606855937#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 8ד׳"
-      },
-      {
-        "text": "FEDERAL DEFICITS COULD DRIVE UP STUDENT LOAN COSTS A Conference Board study warns that rising U.S. deficits can push up interest rates and make student loans more expensive. For a hypothetical student borrowing $75,000, ",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089756926162952253#m",
-        "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 44ד׳"
+        "time": "לפני 9ש׳"
       },
       {
         "text": "Cathie Wood says she avoids memory stocks like $MU and $SKHY because she still sees HBM as the most cyclical and commoditized part of the semiconductor stack. Her bigger point is that inference architectures from $CBRS a",
@@ -161,23 +129,55 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089756460419019240#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 46ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "Google, $GOOGL, is reportedly preparing to move its entire Pixel supply chain out of China by 2027, shifting smartphone, watch, and earbud production primarily to Vietnam and India, per YF",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089758472036356399#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 38ד׳"
-      },
-      {
-        "text": "AMAZON $AMZN: TO GROW LOUISIANA DATA CENTER INVESTMENT FROM $12 BILLION TO $18 BILLION WITH A THIRD DATA CENTER CAMPUS",
+        "text": "United Launch Alliance, the Boeing $BA and Lockheed Martin $LMT rocket joint venture, is raising $1.5B through private bonds, triple the $500M initially planned. ULA launches missions for the U.S. military and commercial",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089731255244132401#m",
+        "url": "https://nitter.net/wallstengine/status/2089780172161745068#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 2ש׳"
+        "time": "לפני 12ד׳"
+      },
+      {
+        "text": "Mate is an AI growth “teammate” that turns customer data into revenue by finding buyers, building campaigns, and running reports. With 700 major brands already in stealth, its real moat is the data and distribution netwo",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089771511062392905#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 47ד׳"
+      },
+      {
+        "text": "Etched has raised $700M at a $21B valuation, more than doubling its $10.3B valuation from just a few weeks ago. Etched is an AI chip startup building specialized hardware for inference, essentially trying to compete with",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089772427815559413#m",
+        "sentiment": "bullish",
+        "tag": "TECH",
+        "time": "לפני 43ד׳"
+      },
+      {
+        "text": "YOUTUBE EYES $1B+ NBA DEAL YouTube is in advanced talks with the NBA to create a single streaming hub for local team broadcasts starting in the 2027-28 season, per SBJ. The NBA is targeting at least 25 teams in Year 1, w",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089765546057412807#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "BREAKING: Unusual Whales is partnering with Siebert Financial to launch a new series of ETFs. The funds will combine Unusual Whales’ political trading data, options flow, institutional activity, and other “shadow data” w",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089763253618434473#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "$AMZN is increasing its Louisiana data center investment by 50% to $18B as it adds a third campus in Shreveport. Amazon will also fund the required grid upgrades and up to $400M of water infrastructure reinforcing how ag",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2089733035751268600#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 3ש׳"
       }
     ]
   },
