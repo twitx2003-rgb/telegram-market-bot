@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:31:53.801038+00:00",
+  "generated_at": "2026-08-18T10:26:33.218892+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,32 +66,28 @@
     ]
   },
   "x_synthesis": {
-    "total": 31,
+    "total": 33,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 23
+        "count": 8,
+        "pct": 24
       },
       "bearish": {
-        "count": 6,
-        "pct": 19
+        "count": 5,
+        "pct": 15
       },
       "neutral": {
-        "count": 18,
-        "pct": 58
+        "count": 20,
+        "pct": 61
       }
     },
     "top_tickers": [
       [
-        "$BIDU",
+        "$HD",
         3
       ],
       [
-        "$HD",
-        2
-      ],
-      [
-        "$KLAR",
+        "$NVDA",
         2
       ],
       [
@@ -99,19 +95,23 @@
         2
       ],
       [
-        "$IWM",
+        "$NKE",
+        2
+      ],
+      [
+        "$AS",
         1
       ],
       [
-        "$EEM",
+        "$AXP",
         1
       ],
       [
-        "$TLT",
+        "$SYF",
         1
       ],
       [
-        "$SPY",
+        "$COF",
         1
       ]
     ],
@@ -122,7 +122,7 @@
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 3ד׳"
+        "time": "לפני 58ד׳"
       },
       {
         "text": "Between January 2020 and June 2024, urban consumer food prices increased by over 26%, outpacing the 19% rise in core goods and services during the same period. Read more: https://unusualwhales.com/news/us-food-prices-sur",
@@ -133,20 +133,28 @@
         "time": "לפני 5ש׳"
       },
       {
-        "text": "BAIDU $BIDU Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: RMB31.3B (Est. CN¥31.96B) 🔴; -2% QoQ 🔹 Non-GAAP EPS/ADS: RMB7.22 (Est. CN¥9.92) 🔴 🔹 Adj. EBITDA: RMB6.2B (Est. CN¥5.79B) 🟢 🔹 Net Income: RMB2.3B (Est. CN¥3.42B) 🔴 Segment ",
+        "text": "AMER SPORTS $AS Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.63B (Est. $1.54B) 🟢; +32% YoY 🔹 Adj. EPS: $0.22 (Est. $0.11) 🟢 🔹 Adjusted EBITDA: $311.9M (Est. $198M) 🟢 🔹 Adjusted Operating Margin: 12.8%; +730 bps YoY Raises FY2",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089640826821591196#m",
-        "sentiment": "neutral",
+        "url": "https://nitter.net/wallstengine/status/2089654185579225550#m",
+        "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 22ד׳"
+        "time": "לפני 23ד׳"
       },
       {
-        "text": "$GOOGL PLANS TO MOVE ALL PIXEL PRODUCTION OUT OF CHINA Google has told suppliers it plans to manufacture all Pixel smartphones, watches and earbuds outside China starting in 2027, Nikkei reports. Production is shifting p",
+        "text": "BofA on $NVDA (Buy, PT $350): NVIDIA is committed to the transformational nature of AI and to securing every input: chip supply, land, power, and shell, especially for frontier labs and neoclouds. Today’s conditions make",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089639453551943728#m",
+        "url": "https://nitter.net/wallstengine/status/2089643607859101783#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 27ד׳"
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "HOME DEPOT $HD Q2’26 EARNINGS HIGHLIGHTS 🔹 Sales: $47.9B (Est. $47.27B) 🟢; +5.7% YoY 🔹 Adj. EPS: $4.92 (Est. $4.73) 🟢; +5.1% YoY 🔹 Comparable Sales: +1.7% (Est. +0.7%) 🟢 🔹 Net Income: $4.8B (Est. $4.72B) 🟢; +4% YoY Affir",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089656216771613014#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 15ד׳"
       },
       {
         "text": "RT by @garyblack00: # Gary Black Says Tesla Bulls Are Ignoring Valuation: ‘Loving the Product Doesn’t Mean You Should Love the Stock’ Tesla investor Gary Black (@garyblack00) is warning shareholders not to confuse enthus",
@@ -154,31 +162,23 @@
         "url": "https://nitter.net/Benzinga/status/2089337425872982513#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 20ש׳"
+        "time": "לפני 21ש׳"
       },
       {
-        "text": "Chips slapped around this morning $SMH -2.5% $SPY -0.5% $QQQ -1.1% $EEM -1.3% $IWM -0.3% $TLT -0.1% Oil up a little, gold down a little @finviz_com",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2089642441750024380#m",
-        "sentiment": "neutral",
-        "tag": "ENERGY",
-        "time": "לפני 15ד׳"
-      },
-      {
-        "text": "Get ready for this. We are hosting @BlueMoonMetals and their CEO @AdventusCEO for a panel on critical metal, particularly tungsten. Join the panel of speakers, including: @Teo_Sinamin @Edark94 Craig Bradshaw Join Wednesd",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089595014058057863#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 3ש׳"
-      },
-      {
-        "text": "Today's Key Events (All EST) — 08/18/2026 08:15: US ADP Wkly Employment Change 08:30: US Import Prices MoM 08:30: US Housing Starts 09:15: US Capacity Utilization 10:00: US Pending Home Sales Before Open 👇 04:30: Hesai G",
+        "text": "Home Depot $HD CFO: \"We continue to operate in what I call ‘frozen housing market’ conditions, but we also know that we’re taking share and that we’re serving our customers better every day... the company has still not s",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089586589517111525#m",
+        "url": "https://nitter.net/wallstengine/status/2089658005499560412#m",
         "sentiment": "neutral",
-        "tag": "ENERGY",
-        "time": "לפני 3ש׳"
+        "tag": "NEWS",
+        "time": "לפני 8ד׳"
+      },
+      {
+        "text": "BTIG says credit performance improved across most major U.S. card issuers. Average net charge-offs fell to 4.4%, down 46 bps YoY and 16 bps MoM, while 30+ day delinquencies were down 22 bps YoY. Loan growth: $AXP +5.9% Y",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089653596686295412#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 26ד׳"
       }
     ]
   },
