@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:50:14.884079+00:00",
+  "generated_at": "2026-08-18T23:20:21.354438+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,19 +65,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 22,
+    "total": 24,
     "sentiment": {
       "bullish": {
         "count": 4,
-        "pct": 18
+        "pct": 17
       },
       "bearish": {
-        "count": 2,
-        "pct": 9
+        "count": 3,
+        "pct": 12
       },
       "neutral": {
-        "count": 16,
-        "pct": 73
+        "count": 17,
+        "pct": 71
       }
     },
     "top_tickers": [
@@ -86,11 +86,23 @@
         2
       ],
       [
-        "$XRT",
+        "$TYX",
         1
       ],
       [
-        "$LOW",
+        "$STUDY",
+        1
+      ],
+      [
+        "$TLT",
+        1
+      ],
+      [
+        "$UGI",
+        1
+      ],
+      [
+        "$XRT",
         1
       ],
       [
@@ -98,19 +110,7 @@
         1
       ],
       [
-        "$VIK",
-        1
-      ],
-      [
         "$NDSN",
-        1
-      ],
-      [
-        "$COTY",
-        1
-      ],
-      [
-        "$TGT",
         1
       ]
     ],
@@ -121,7 +121,7 @@
         "url": "https://nitter.net/DeItaone/status/2089806066959757422#m",
         "sentiment": "bullish",
         "tag": "ENERGY",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "Copart is among parties exploring an acquisition of CCC Intelligent Solutions $CCC, Bloomberg reports, with GTCR and Veritas Capital also showing interest.",
@@ -129,7 +129,7 @@
         "url": "https://nitter.net/wallstengine/status/2089803452901896224#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
@@ -145,7 +145,7 @@
         "url": "https://nitter.net/wallstengine/status/2089820012047696368#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "The FOMC minutes are Wednesday’s main event at 2:00 PM ET. Energy inventories are due earlier at 10:30 AM.",
@@ -169,7 +169,7 @@
         "url": "https://nitter.net/wallstengine/status/2089807767603413246#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "KEYSIGHT $KEYS Q3’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.85B (Est. $1.74B) 🟢; +37% YoY 🔹 Adj. EPS: $3.07 (Est. $2.48) 🟢; +78% YoY 🔹 Free Cash Flow: $403M (Est. $193M) 🟢; +38% YoY 🔹 GAAP Net Income: $397M; +108% YoY Q4 Guid",
@@ -177,7 +177,7 @@
         "url": "https://nitter.net/wallstengine/status/2089807080589033760#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       }
     ]
   },
