@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:33:31.934658+00:00",
+  "generated_at": "2026-08-19T19:23:30.562127+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,44 +65,36 @@
     ]
   },
   "x_synthesis": {
-    "total": 28,
+    "total": 30,
     "sentiment": {
       "bullish": {
-        "count": 12,
-        "pct": 43
+        "count": 11,
+        "pct": 37
       },
       "bearish": {
         "count": 2,
         "pct": 7
       },
       "neutral": {
-        "count": 14,
-        "pct": 50
+        "count": 17,
+        "pct": 57
       }
     },
     "top_tickers": [
+      [
+        "$RSP",
+        2
+      ],
+      [
+        "$NVDA",
+        2
+      ],
       [
         "$CRWV",
         2
       ],
       [
-        "$NVDA",
-        1
-      ],
-      [
-        "$MRVL",
-        1
-      ],
-      [
-        "$AMZN",
-        1
-      ],
-      [
-        "$GOOGL",
-        1
-      ],
-      [
-        "$MRA",
+        "$MRK",
         1
       ],
       [
@@ -110,7 +102,15 @@
         1
       ],
       [
-        "$PYPL",
+        "$AGG",
+        1
+      ],
+      [
+        "$MRNA",
+        1
+      ],
+      [
+        "$XLV",
         1
       ]
     ],
@@ -121,7 +121,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2090141575259283631#m",
         "sentiment": "bearish",
         "tag": "FED",
-        "time": "לפני 14ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Global M&A activity has reached $3.5 trillion this year, but private equity has accounted for just $286 billion, or 8.2% of the total. Goldman Sachs says that could start changing, with buyout firms sitting on roughly $1",
@@ -132,12 +132,28 @@
         "time": "לפני 2ש׳"
       },
       {
+        "text": "BREAKING: US to reportedly halve tariffs on Canadian steel and aluminum in trade deal, per Bloomberg.",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090145773908291770#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 47ד׳"
+      },
+      {
         "text": "US TO HALVE TARIFFS ON CANADA 🇨🇦 STEEL, ALUMINUM IN TRADE DEAL",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2090133764215341060#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 45ד׳"
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "BREAKING: Look at this. This is a wild, unlikely play, but this option contract is up 711,500% and was nowhere near priced in by the market. Moderna, $MRNA, announced MRNA vaccine working on melanoma. If you had invested",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090151310498656710#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 25ד׳"
       },
       {
         "text": "Goldman Sachs is preparing a roughly $1.15 billion junk bond to finance a Virginia data center leased to CoreWeave. The deal is expected in September, with Goldman moving ahead even as investors demand higher yields for ",
@@ -145,7 +161,7 @@
         "url": "https://nitter.net/wallstengine/status/2090130964941009214#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 56ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -153,7 +169,7 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 16ש׳"
+        "time": "לפני 17ש׳"
       },
       {
         "text": "NVIDIA EYES MERCOR INVESTMENT $NVDA has discussed investing in AI data supplier Mercor as part of a funding round that would value the startup at $20 billion, The Information reports. Mercor hires specialists across fiel",
@@ -161,23 +177,7 @@
         "url": "https://nitter.net/wallstengine/status/2090141561585868946#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 14ד׳"
-      },
-      {
-        "text": "US PayPal, $PYPL, users can now use the PayPal app to make in-store QR code payments at Weixin Pay merchants across China through PayPal World",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090121111581364567#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
         "time": "לפני 1ש׳"
-      },
-      {
-        "text": "US interest expense on the national debt reached a record $1.4 trillion over the trailing 12-month period, driven by higher borrowing costs and a rapidly expanding federal deficit, per Bank of America",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090136211209719984#m",
-        "sentiment": "bullish",
-        "tag": "BANKS",
-        "time": "לפני 35ד׳"
       }
     ]
   },
