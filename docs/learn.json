@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T03:44:40.519787+00:00",
+  "generated_at": "2026-08-19T04:35:11.037813+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -9,12 +9,12 @@
     "total": 25,
     "sentiment": {
       "bullish": {
-        "count": 8,
-        "pct": 32
+        "count": 9,
+        "pct": 36
       },
       "bearish": {
-        "count": 3,
-        "pct": 12
+        "count": 2,
+        "pct": 8
       },
       "neutral": {
         "count": 14,
@@ -43,15 +43,15 @@
         1
       ],
       [
-        "$LOW",
+        "$TLT",
         1
       ],
       [
-        "$TJX",
+        "$STUDY",
         1
       ],
       [
-        "$ADI",
+        "$TYX",
         1
       ]
     ],
@@ -62,7 +62,7 @@
         "url": "https://nitter.net/DeItaone/status/2089806066959757422#m",
         "sentiment": "bullish",
         "tag": "ENERGY",
-        "time": "לפני 7ש׳"
+        "time": "לפני 8ש׳"
       },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
@@ -70,7 +70,15 @@
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 18ש׳"
+        "time": "לפני 19ש׳"
+      },
+      {
+        "text": "BREAKING: Trump says he has paused the 50% tariff against Canada",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089920523698651370#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 54ד׳"
       },
       {
         "text": "UNITREE SOARS 629% IN SHANGHAI DEBUT TO A ~$66B MARKET CAP",
@@ -78,7 +86,7 @@
         "url": "https://nitter.net/wallstengine/status/2089887999819743476#m",
         "sentiment": "bullish",
         "tag": "TECH",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
         "text": "UNITREE SET TO OPEN AT ~7.3X ITS IPO PRICE",
@@ -86,23 +94,15 @@
         "url": "https://nitter.net/wallstengine/status/2089885975384392017#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       },
       {
-        "text": "The FOMC minutes are Wednesday’s main event at 2:00 PM ET. Energy inventories are due earlier at 10:30 AM.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089828558835188011#m",
-        "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 6ש׳"
-      },
-      {
-        "text": "Data from S&P Dow Jones Indices indicates that in 2020, 60% of U.S. large-cap stock-picking funds lagged behind the S&P 500. Read more: https://unusualwhales.com/news/active-managers-underperform-sp500",
+        "text": "A prospective deal under discussion with OpenAI would help the ChatGPT creator lease a $500 billion Read more: https://unusualwhales.com/news/circular-ai-financing-nvidia-openai-concerns",
         "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089918023541166536#m",
-        "sentiment": "bearish",
-        "tag": "NEWS",
-        "time": "לפני 13ד׳"
+        "url": "https://nitter.net/unusual_whales/status/2089924817994817930#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 37ד׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -110,7 +110,7 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "Reddit’s share of ChatGPT Search citations fell from an average 3.8% between July 18 and Aug. 7 to just 0.5% from Aug. 14-17, an ~86% drop. Back in April, $RDDT was the single most-cited domain in ChatGPT Search, account",
@@ -118,7 +118,7 @@
         "url": "https://nitter.net/wallstengine/status/2089885085625708627#m",
         "sentiment": "bearish",
         "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
       }
     ]
   },
