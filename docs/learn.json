@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T11:50:23.160354+00:00",
+  "generated_at": "2026-08-19T12:43:10.322672+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,44 +65,36 @@
     ]
   },
   "x_synthesis": {
-    "total": 29,
+    "total": 28,
     "sentiment": {
       "bullish": {
-        "count": 10,
-        "pct": 34
+        "count": 11,
+        "pct": 39
       },
       "bearish": {
-        "count": 2,
-        "pct": 7
+        "count": 0,
+        "pct": 0
       },
       "neutral": {
         "count": 17,
-        "pct": 59
+        "pct": 61
       }
     },
     "top_tickers": [
       [
-        "$TSLA",
-        3
+        "$MRNA",
+        2
       ],
       [
         "$VIK",
         2
       ],
       [
-        "$TJX",
-        2
+        "$GOOGL",
+        1
       ],
       [
-        "$ADI",
-        2
-      ],
-      [
-        "$SPY",
-        2
-      ],
-      [
-        "$ZIM",
+        "$MRVL",
         1
       ],
       [
@@ -110,7 +102,15 @@
         1
       ],
       [
-        "$RSP",
+        "$TLT",
+        1
+      ],
+      [
+        "$DUOL",
+        1
+      ],
+      [
+        "$ZIM",
         1
       ]
     ],
@@ -121,7 +121,7 @@
         "url": "https://nitter.net/wallstengine/status/2090041033979748416#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 10ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "The FOMC minutes are Wednesday’s main event at 2:00 PM ET. Energy inventories are due earlier at 10:30 AM.",
@@ -129,7 +129,15 @@
         "url": "https://nitter.net/bespokeinvest/status/2089828558835188011#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 14ש׳"
+        "time": "לפני 15ש׳"
+      },
+      {
+        "text": "Marvell $MRVL issued $GOOGL a warrant to buy up to 58.97M shares at $206.58, equal to ~6.7% of shares outstanding. Most of the warrant vests as Google generates custom-chip revenue for Marvell through FY2033, including A",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090053486117589002#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 13ד׳"
       },
       {
         "text": "VIKING HOLDINGS $VIK Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $2.2B (Est. $2.14B) 🟢; +16.5% YoY 🔹 Adj. EPS: $1.31 (Est. $1.26) 🟢; +32% YoY 🔹 Adj. EBITDA: $748.4M (Est. $723M) 🟢; +18.2% YoY 🔹 Net Income: $587.7M (Est. $562M) ",
@@ -137,23 +145,7 @@
         "url": "https://nitter.net/wallstengine/status/2090041007740195101#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 10ד׳"
-      },
-      {
-        "text": "$TJX Q2’27 EARNINGS HIGHLIGHTS 🔹 Revenue: $15.2B (Est. $15.16B) 🟢; +5% YoY 🔹 Adj. EPS: $1.22 (Est. $1.19) 🟢; +11% YoY 🔹 Comparable Sales: 4% 🔹 Adjusted Pretax Margin: 11.9%; +0.5 pts YoY FY27 Guide: 🔹 Adj. EPS: $5.15-$5.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090040880858280412#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 11ד׳"
-      },
-      {
-        "text": "ANALOG DEVICES $ADI Q3’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $4.02B (Est. $3.92B) 🟢; +40% YoY 🔹 Adj. EPS: $3.45 (Est. $3.33) 🟢; +68% YoY 🔹 Adjusted Operating Margin: 50.0%; +780 bps YoY Q4 Guide: 🔹 Revenue: $4.3B +/- $100M (",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090040815754371513#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 11ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -161,23 +153,31 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 9ש׳"
+        "time": "לפני 10ש׳"
       },
       {
-        "text": "BREAKING: OpenAI's revenue grew much slower than Anthropic's last quarter, per WSJ",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090025229888463011#m",
+        "text": "DUOLINGO DISCLOSES 27.4% DAU GROWTH $DUOL filed an 8-K after an internal screen was accidentally shown during an investor meeting, revealing that daily active users on Aug. 17 were estimated to be up 27.4% YoY, with simi",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090045813217169724#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 44ד׳"
       },
       {
-        "text": "$SKHY ANNOUNCES RECORD ~$29B BUYBACK SK hynix is launching a massive share buyback and cancellation while changing its shareholder return policy from “up to 50%” of FCF to “at least 50%.” That’s a huge vote of confidence",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2090022553352036497#m",
-        "sentiment": "bullish",
+        "text": "Retailers lead tomorrow morning’s earnings calendar, with Lowe’s $LOW, Target $TGT, and TJX $TJX, reporting before the open. Analog Devices $ADI, Estée Lauder $EL, and Viking $VIK are also due in the morning, followed by",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089827300695040505#m",
+        "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 15ש׳"
+      },
+      {
+        "text": "$MRNA +100%",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090044290043195607#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 50ד׳"
       }
     ]
   },
