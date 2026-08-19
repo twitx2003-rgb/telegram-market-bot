@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:50:09.800312+00:00",
+  "generated_at": "2026-08-19T18:33:31.934658+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,32 +65,32 @@
     ]
   },
   "x_synthesis": {
-    "total": 27,
+    "total": 28,
     "sentiment": {
       "bullish": {
-        "count": 10,
-        "pct": 37
+        "count": 12,
+        "pct": 43
       },
       "bearish": {
         "count": 2,
         "pct": 7
       },
       "neutral": {
-        "count": 15,
-        "pct": 56
+        "count": 14,
+        "pct": 50
       }
     },
     "top_tickers": [
       [
-        "$SNOW",
-        2
-      ],
-      [
-        "$MRNA",
-        2
-      ],
-      [
         "$CRWV",
+        2
+      ],
+      [
+        "$NVDA",
+        1
+      ],
+      [
+        "$MRVL",
         1
       ],
       [
@@ -102,26 +102,42 @@
         1
       ],
       [
-        "$MRVL",
-        1
-      ],
-      [
         "$MRA",
         1
       ],
       [
         "$MDY",
         1
+      ],
+      [
+        "$PYPL",
+        1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "The latest FOMC minutes just revealed the Fed is still willing to hike again if inflation refuses to cool despite most officials favoring unchanged rates for now. Cuts remain on the table if conditions improve making cru",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2090141575259283631#m",
+        "sentiment": "bearish",
+        "tag": "FED",
+        "time": "לפני 14ד׳"
+      },
       {
         "text": "Global M&A activity has reached $3.5 trillion this year, but private equity has accounted for just $286 billion, or 8.2% of the total. Goldman Sachs says that could start changing, with buyout firms sitting on roughly $1",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2090114634401648805#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "US TO HALVE TARIFFS ON CANADA 🇨🇦 STEEL, ALUMINUM IN TRADE DEAL",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090133764215341060#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 45ד׳"
       },
       {
         "text": "Goldman Sachs is preparing a roughly $1.15 billion junk bond to finance a Virginia data center leased to CoreWeave. The deal is expected in September, with Goldman moving ahead even as investors demand higher yields for ",
@@ -129,7 +145,7 @@
         "url": "https://nitter.net/wallstengine/status/2090130964941009214#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 12ד׳"
+        "time": "לפני 56ד׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -137,7 +153,15 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 15ש׳"
+        "time": "לפני 16ש׳"
+      },
+      {
+        "text": "NVIDIA EYES MERCOR INVESTMENT $NVDA has discussed investing in AI data supplier Mercor as part of a funding round that would value the startup at $20 billion, The Information reports. Mercor hires specialists across fiel",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090141561585868946#m",
+        "sentiment": "bullish",
+        "tag": "TECH",
+        "time": "לפני 14ד׳"
       },
       {
         "text": "US PayPal, $PYPL, users can now use the PayPal app to make in-store QR code payments at Weixin Pay merchants across China through PayPal World",
@@ -145,39 +169,15 @@
         "url": "https://nitter.net/unusual_whales/status/2090121111581364567#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 52ד׳"
-      },
-      {
-        "text": "Holy look at this. Moderna, $MRNA, is up 130% today. An experimental mRNA-based vaccine succeeded in preventing cancer from coming back or spreading in a study of high-risk melanoma patients, Moderna and its partner Merc",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090110043366866977#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
         "time": "לפני 1ש׳"
       },
       {
-        "text": "BITCOIN > $69.5K -- BEST DAY SINCE FEB 2026",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090099185538478238#m",
-        "sentiment": "neutral",
-        "tag": "CRYPTO",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "Bitcoin is seeing a rare rally today, now up about $2,300 since the early morning and at its highest levels since early June. A dead asset showing signs of life.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090096343070978394#m",
+        "text": "US interest expense on the national debt reached a record $1.4 trillion over the trailing 12-month period, driven by higher borrowing costs and a rapidly expanding federal deficit, per Bank of America",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090136211209719984#m",
         "sentiment": "bullish",
-        "tag": "CRYPTO",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "The semis keep trading lower while the rest of the market keeps trading higher this morning. S&P 500 Equal Weight $RSP is up 1.5% on the day.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090081555116880335#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 3ש׳"
+        "tag": "BANKS",
+        "time": "לפני 35ד׳"
       }
     ]
   },
