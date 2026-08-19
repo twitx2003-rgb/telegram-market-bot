@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-19T05:58:00.021172+00:00",
+  "generated_at": "2026-08-19T06:54:38.813700+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
     "videos": []
   },
   "x_synthesis": {
-    "total": 20,
+    "total": 26,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 35
+        "count": 8,
+        "pct": 31
       },
       "bearish": {
         "count": 1,
-        "pct": 5
+        "pct": 4
       },
       "neutral": {
-        "count": 12,
-        "pct": 60
+        "count": 17,
+        "pct": 65
       }
     },
     "top_tickers": [
       [
-        "$TSLA",
-        2
+        "$RKLB",
+        3
       ],
       [
-        "$CBRS",
+        "$RDDT",
         1
       ],
       [
-        "$RKLB",
+        "$CBRS",
         1
       ],
       [
@@ -43,11 +43,11 @@
         1
       ],
       [
-        "$TYX",
+        "$TLT",
         1
       ],
       [
-        "$TLT",
+        "$TYX",
         1
       ],
       [
@@ -57,20 +57,20 @@
     ],
     "top_tweets": [
       {
-        "text": "TECH SELLOFF HITS WALL STREET AS YIELDS SURGE Wall Street closed lower as rising oil prices and Middle East tensions pushed Treasury yields sharply higher, pressuring technology stocks. The Nasdaq fell 1.3%, while the S&",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2089806066959757422#m",
+        "text": "UNITREE SOARS 629% IN SHANGHAI DEBUT TO A ~$66B MARKET CAP",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089887999819743476#m",
         "sentiment": "bullish",
-        "tag": "ENERGY",
-        "time": "לפני 9ש׳"
+        "tag": "TECH",
+        "time": "לפני 5ש׳"
       },
       {
-        "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
-        "handle": "garyblack00",
-        "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
+        "text": "UNITREE SET TO OPEN AT ~7.3X ITS IPO PRICE",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089885975384392017#m",
         "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 20ש׳"
+        "tag": "NEWS",
+        "time": "לפני 5ש׳"
       },
       {
         "text": "The FOMC minutes are Wednesday’s main event at 2:00 PM ET. Energy inventories are due earlier at 10:30 AM.",
@@ -78,7 +78,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2089828558835188011#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 8ש׳"
+        "time": "לפני 9ש׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -86,7 +86,23 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
+      },
+      {
+        "text": "Going forward, Nasdaq will conduct trading 23 hours per day, five days per week in two trading sessions Read more: https://unusualwhales.com/news/nasdaq-overnight-trading-session-9pm-4am",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089935891049451693#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "Reddit’s share of ChatGPT Search citations fell from an average 3.8% between July 18 and Aug. 7 to just 0.5% from Aug. 14-17, an ~86% drop. Back in April, $RDDT was the single most-cited domain in ChatGPT Search, account",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2089885085625708627#m",
+        "sentiment": "bearish",
+        "tag": "NEWS",
+        "time": "לפני 5ש׳"
       },
       {
         "text": "Retailers lead tomorrow morning’s earnings calendar, with Lowe’s $LOW, Target $TGT, and TJX $TJX, reporting before the open. Analog Devices $ADI, Estée Lauder $EL, and Viking $VIK are also due in the morning, followed by",
@@ -94,7 +110,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2089827300695040505#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 8ש׳"
+        "time": "לפני 9ש׳"
       },
       {
         "text": "RT by @StockSavvyShay: Bank of America sees $NVDA as one of the cheapest ways to own the AI buildout with a $350 price target. Nvidia using its massive FCF to secure “every input” across chips, land, power and data cente",
@@ -102,23 +118,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2089685323139908042#m",
         "sentiment": "bullish",
         "tag": "BANKS",
-        "time": "לפני 17ש׳"
-      },
-      {
-        "text": "Anthropic just passed OpenAI in quarterly revenue for the first time more than doubling to $11.6B while OpenAI grew 18% to $6.7B. Anthropic also reached a small operating profit making the gap even more notable as the tw",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2089859712217121242#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 6ש׳"
-      },
-      {
-        "text": "$XRT Did the retailer ETF just false-breakout? More from me on @stockcharts: https://articles.stockcharts.com/article/retail-earnings-week-will-walmart-and-consumer-power-sp-500-to-more-record-highs/",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2089834978653696254#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 7ש׳"
+        "time": "לפני 18ש׳"
       }
     ]
   },
