@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T20:54:06.094662+00:00",
+  "generated_at": "2026-08-19T21:23:40.143283+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,25 +65,29 @@
     ]
   },
   "x_synthesis": {
-    "total": 23,
+    "total": 27,
     "sentiment": {
       "bullish": {
-        "count": 8,
-        "pct": 35
+        "count": 10,
+        "pct": 37
       },
       "bearish": {
-        "count": 3,
-        "pct": 13
+        "count": 2,
+        "pct": 7
       },
       "neutral": {
-        "count": 12,
-        "pct": 52
+        "count": 15,
+        "pct": 56
       }
     },
     "top_tickers": [
       [
         "$IBB",
         3
+      ],
+      [
+        "$MRNA",
+        1
       ],
       [
         "$WOLF",
@@ -98,38 +102,26 @@
         1
       ],
       [
-        "$IEF",
-        1
-      ],
-      [
-        "$TIP",
-        1
-      ],
-      [
         "$BULL",
         1
       ],
       [
-        "$TYX",
+        "$INFQ",
+        1
+      ],
+      [
+        "$ELF",
         1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "The latest FOMC minutes just revealed the Fed is still willing to hike again if inflation refuses to cool despite most officials favoring unchanged rates for now. Cuts remain on the table if conditions improve making cru",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2090141575259283631#m",
-        "sentiment": "bearish",
-        "tag": "FED",
-        "time": "לפני 2ש׳"
-      },
       {
         "text": "WOLFSPEED $WOLF Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $149.6M (Est. $224M) 🔴 🔹 Adj. EPS: -$2.26 (Est. -$2.45) 🟢 🔹 Gross Margin: -25% 🔹 Free Cash Flow: -$60.9M (Est. -$108M) 🟢 Q1 Guide: 🔹 Revenue: $140M-$160M (Est. $150M) ",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2090177257931481136#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 12ד׳"
+        "time": "לפני 42ד׳"
       },
       {
         "text": "$COTY Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.27B (Est. $1.19B) 🟢; +1% YoY 🔹 Adj. EPS: -$0.02 (Est. -$0.01) 🔴; +60% YoY 🔹 EBITDA: $93.6M (Est. $96.2M) 🔴; -26% YoY 🔹 Free Cash Flow: $72.6M Q1 Guide: 🔹 Adj. EPS: $0.11-$0.1",
@@ -137,7 +129,7 @@
         "url": "https://nitter.net/wallstengine/status/2090177198422729086#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 13ד׳"
+        "time": "לפני 42ד׳"
       },
       {
         "text": "WEBULL $BULL Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $198.8M (Est. $181M) 🟢; +51% YoY 🔹 Adj. EPS: $0.12 (Est. $0.03) 🟢; +140% YoY 🔹 Net Income: $24.4M (Est. $16.9M) 🟢 🔹 Adjusted Operating Profit: $62.6M; 31.5% margin Segmen",
@@ -145,7 +137,15 @@
         "url": "https://nitter.net/wallstengine/status/2090172539507212405#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 31ד׳"
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "Consumer foreclosures were down last quarter and are 21% below 2019 levels. Bankruptcies ticked higher, but are still 33% below 2019 levels.",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2090161607934460057#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
       },
       {
         "text": "NORDSON $NDSN Q3’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $818M (Est. $780M) 🟢; +10% YoY 🔹 Adj. EPS: $3.25 (Est. $3.10) 🟢; +19% YoY 🔹 EBITDA: $262M (Est. $254M) 🟢; +10% YoY Raises FY26 Guide: 🔹 Revenue: $3.04B-$3.08B (Est. $2.9",
@@ -153,15 +153,7 @@
         "url": "https://nitter.net/wallstengine/status/2090177095838413134#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 13ד׳"
-      },
-      {
-        "text": "Yields inched up leading into the afternoon... then FOMC minutes seemed to give the Treasury party some legs",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2090173461205332355#m",
-        "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 28ד׳"
+        "time": "לפני 43ד׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -169,7 +161,7 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 18ש׳"
+        "time": "לפני 19ש׳"
       },
       {
         "text": "Trump has said that the U.S. government is considering plans to purchase and accumulate \"sizable\" amounts of Bitcoin and other cryptocurrencies.",
@@ -177,7 +169,15 @@
         "url": "https://nitter.net/unusual_whales/status/2090174714664644861#m",
         "sentiment": "bullish",
         "tag": "CRYPTO",
-        "time": "לפני 23ד׳"
+        "time": "לפני 52ד׳"
+      },
+      {
+        "text": "$MRNA is now the S&P 500’s second-best-performing stock this year after surging nearly 180% today. The move came after Moderna announced the first-ever positive Phase 3 results for a personalized cancer vaccine.",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2090184387359043690#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 14ד׳"
       }
     ]
   },
