@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-19T04:35:11.037813+00:00",
+  "generated_at": "2026-08-19T05:28:50.229206+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
     "videos": []
   },
   "x_synthesis": {
-    "total": 25,
+    "total": 30,
     "sentiment": {
       "bullish": {
         "count": 9,
-        "pct": 36
+        "pct": 30
       },
       "bearish": {
         "count": 2,
-        "pct": 8
+        "pct": 7
       },
       "neutral": {
-        "count": 14,
-        "pct": 56
+        "count": 19,
+        "pct": 63
       }
     },
     "top_tickers": [
@@ -43,7 +43,7 @@
         1
       ],
       [
-        "$TLT",
+        "$TYX",
         1
       ],
       [
@@ -51,7 +51,7 @@
         1
       ],
       [
-        "$TYX",
+        "$TLT",
         1
       ]
     ],
@@ -62,7 +62,7 @@
         "url": "https://nitter.net/DeItaone/status/2089806066959757422#m",
         "sentiment": "bullish",
         "tag": "ENERGY",
-        "time": "לפני 8ש׳"
+        "time": "לפני 9ש׳"
       },
       {
         "text": "U.S. stocks fell pre-market (SPX -0.6%, NDX -1.1%) amid Trump’s refusal to revive an Iran truce, keeping Middle East tensions elevated, while global long-term yields surged to multi-year highs. Continued weak economic da",
@@ -70,15 +70,7 @@
         "url": "https://nitter.net/garyblack00/status/2089645591730987121#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 19ש׳"
-      },
-      {
-        "text": "BREAKING: Trump says he has paused the 50% tariff against Canada",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089920523698651370#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 54ד׳"
+        "time": "לפני 20ש׳"
       },
       {
         "text": "UNITREE SOARS 629% IN SHANGHAI DEBUT TO A ~$66B MARKET CAP",
@@ -94,15 +86,15 @@
         "url": "https://nitter.net/wallstengine/status/2089885975384392017#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
-        "text": "A prospective deal under discussion with OpenAI would help the ChatGPT creator lease a $500 billion Read more: https://unusualwhales.com/news/circular-ai-financing-nvidia-openai-concerns",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089924817994817930#m",
+        "text": "The FOMC minutes are Wednesday’s main event at 2:00 PM ET. Energy inventories are due earlier at 10:30 AM.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2089828558835188011#m",
         "sentiment": "neutral",
-        "tag": "M&A",
-        "time": "לפני 37ד׳"
+        "tag": "FED",
+        "time": "לפני 7ש׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -110,7 +102,15 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 2ש׳"
+        "time": "לפני 3ש׳"
+      },
+      {
+        "text": "Going forward, Nasdaq will conduct trading 23 hours per day, five days per week in two trading sessions Read more: https://unusualwhales.com/news/nasdaq-overnight-trading-session-9pm-4am",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2089935891049451693#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 46ד׳"
       },
       {
         "text": "Reddit’s share of ChatGPT Search citations fell from an average 3.8% between July 18 and Aug. 7 to just 0.5% from Aug. 14-17, an ~86% drop. Back in April, $RDDT was the single most-cited domain in ChatGPT Search, account",
@@ -118,7 +118,7 @@
         "url": "https://nitter.net/wallstengine/status/2089885085625708627#m",
         "sentiment": "bearish",
         "tag": "NEWS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       }
     ]
   },
