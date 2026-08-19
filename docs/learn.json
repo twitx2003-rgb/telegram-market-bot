@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T22:22:58.406735+00:00",
+  "generated_at": "2026-08-19T22:50:33.781784+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,19 +65,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 25,
+    "total": 29,
     "sentiment": {
       "bullish": {
-        "count": 8,
-        "pct": 32
+        "count": 11,
+        "pct": 38
       },
       "bearish": {
         "count": 1,
-        "pct": 4
+        "pct": 3
       },
       "neutral": {
-        "count": 16,
-        "pct": 64
+        "count": 17,
+        "pct": 59
       }
     },
     "top_tickers": [
@@ -86,19 +86,19 @@
         2
       ],
       [
-        "$NFLX",
-        1
-      ],
-      [
         "$GOOGL",
         1
       ],
       [
-        "$ROST",
+        "$NFLX",
         1
       ],
       [
         "$NTES",
+        1
+      ],
+      [
+        "$WMT",
         1
       ],
       [
@@ -110,18 +110,26 @@
         1
       ],
       [
-        "$WMT",
+        "$ROST",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "Goldman's study shows that FOMC minutes and pressers, along with forward guidance, help dampen rate volatility",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2090204915339534381#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 19ד׳"
+      },
       {
         "text": "WOLFSPEED $WOLF Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $149.6M (Est. $224M) 🔴 🔹 Adj. EPS: -$2.26 (Est. -$2.45) 🟢 🔹 Gross Margin: -25% 🔹 Free Cash Flow: -$60.9M (Est. -$108M) 🟢 Q1 Guide: 🔹 Revenue: $140M-$160M (Est. $150M) ",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2090177257931481136#m",
         "sentiment": "bearish",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "$COTY Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.27B (Est. $1.19B) 🟢; +1% YoY 🔹 Adj. EPS: -$0.02 (Est. -$0.01) 🔴; +60% YoY 🔹 EBITDA: $93.6M (Est. $96.2M) 🔴; -26% YoY 🔹 Free Cash Flow: $72.6M Q1 Guide: 🔹 Adj. EPS: $0.11-$0.1",
@@ -129,7 +137,7 @@
         "url": "https://nitter.net/wallstengine/status/2090177198422729086#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "WEBULL $BULL Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $198.8M (Est. $181M) 🟢; +51% YoY 🔹 Adj. EPS: $0.12 (Est. $0.03) 🟢; +140% YoY 🔹 Net Income: $24.4M (Est. $16.9M) 🟢 🔹 Adjusted Operating Profit: $62.6M; 31.5% margin Segmen",
@@ -140,12 +148,20 @@
         "time": "לפני 2ש׳"
       },
       {
+        "text": "GS: The Fed’s move toward greater transparency over the last 30 years has led to a decline in FOMC meeting day surprises…",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2090208693170102689#m",
+        "sentiment": "neutral",
+        "tag": "FED",
+        "time": "לפני 4ד׳"
+      },
+      {
         "text": "NORDSON $NDSN Q3’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $818M (Est. $780M) 🟢; +10% YoY 🔹 Adj. EPS: $3.25 (Est. $3.10) 🟢; +19% YoY 🔹 EBITDA: $262M (Est. $254M) 🟢; +10% YoY Raises FY26 Guide: 🔹 Revenue: $3.04B-$3.08B (Est. $2.9",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2090177095838413134#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -156,28 +172,12 @@
         "time": "לפני 20ש׳"
       },
       {
-        "text": "Walmart $WMT headlines tomorrow morning’s earnings slate. Alibaba $BABA, Advance Auto $AAP, and NetEase $NTES also report before the open, with Ross Stores $ROST due after the close.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090189688543834541#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 52ד׳"
-      },
-      {
-        "text": "$MRNA is now the S&P 500’s second-best-performing stock this year after surging nearly 180% today. The move came after Moderna announced the first-ever positive Phase 3 results for a personalized cancer vaccine.",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2090184387359043690#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Here's a look at today's big push higher for the biotech ETF $IBB after breaking out earlier in the week:",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090169539874959550#m",
+        "text": "Studios now average $4,088 per month, up 8% year over year, while one-bedrooms average $5,486, a 7% increase Read more: https://unusualwhales.com/news/manhattan-average-rent-record-6655",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090204913997668665#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 19ד׳"
       }
     ]
   },
