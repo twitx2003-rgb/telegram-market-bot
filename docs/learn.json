@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T19:49:12.722745+00:00",
+  "generated_at": "2026-08-19T20:25:39.355953+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,52 +65,52 @@
     ]
   },
   "x_synthesis": {
-    "total": 30,
+    "total": 25,
     "sentiment": {
       "bullish": {
-        "count": 9,
-        "pct": 30
+        "count": 7,
+        "pct": 28
       },
       "bearish": {
         "count": 2,
-        "pct": 7
+        "pct": 8
       },
       "neutral": {
-        "count": 19,
-        "pct": 63
+        "count": 16,
+        "pct": 64
       }
     },
     "top_tickers": [
       [
-        "$NVDA",
-        3
-      ],
-      [
-        "$RSP",
+        "$INFQ",
         2
       ],
       [
-        "$INFQ",
-        1
+        "$IBB",
+        2
       ],
       [
-        "$SMH",
-        1
-      ],
-      [
-        "$NVDL",
-        1
-      ],
-      [
-        "$VIX",
-        1
-      ],
-      [
-        "$MRK",
+        "$BILL",
         1
       ],
       [
         "$PURR",
+        1
+      ],
+      [
+        "$MRNA",
+        1
+      ],
+      [
+        "$ELF",
+        1
+      ],
+      [
+        "$NVDA",
+        1
+      ],
+      [
+        "$CRWV",
         1
       ]
     ],
@@ -121,7 +121,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2090141575259283631#m",
         "sentiment": "bearish",
         "tag": "FED",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "BREAKING: US to reportedly halve tariffs on Canadian steel and aluminum in trade deal, per Bloomberg.",
@@ -132,20 +132,20 @@
         "time": "לפני 1ש׳"
       },
       {
-        "text": "US TO HALVE TARIFFS ON CANADA 🇨🇦 STEEL, ALUMINUM IN TRADE DEAL",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090133764215341060#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
-        "time": "לפני 2ש׳"
-      },
-      {
         "text": "Consumer foreclosures were down last quarter and are 21% below 2019 levels. Bankruptcies ticked higher, but are still 33% below 2019 levels.",
         "handle": "RyanDetrick",
         "url": "https://nitter.net/RyanDetrick/status/2090161607934460057#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 10ד׳"
+        "time": "לפני 46ד׳"
+      },
+      {
+        "text": "$BILL Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $436.2M (Est. $431M) 🟢; +14% YoY 🔹 Adj. EPS: $0.84 (Est. $0.70) 🟢; +58% YoY 🔹 Non-GAAP Op. Inc.: $101.6M; +80% YoY 🔹 FCF: $96.5M (Est. $93.1M) 🟢 FY27 Guide: 🔹 Revenue: $1.8B-$1.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090169292390346910#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 16ד׳"
       },
       {
         "text": "BREAKING: Look at this. This is a wild, unlikely play, but this option contract is up 711,500% and was nowhere near priced in by the market. Moderna, $MRNA, announced MRNA vaccine working on melanoma. If you had invested",
@@ -153,7 +153,7 @@
         "url": "https://nitter.net/unusual_whales/status/2090151310498656710#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 51ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -161,7 +161,7 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 17ש׳"
+        "time": "לפני 18ש׳"
       },
       {
         "text": "$INFQ OPENS QUANTUM HQ IN COLORADO Infleqtion has officially opened its new Colorado Quantum Innovation Center in Louisville, which will also serve as the company’s global headquarters. The facility is designed to suppor",
@@ -169,14 +169,14 @@
         "url": "https://nitter.net/wallstengine/status/2090162035590099287#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 8ד׳"
+        "time": "לפני 45ד׳"
       },
       {
-        "text": "NVIDIA EYES MERCOR INVESTMENT $NVDA has discussed investing in AI data supplier Mercor as part of a funding round that would value the startup at $20 billion, The Information reports. Mercor hires specialists across fiel",
+        "text": "TRUMP SAYS THE SEC AND CFTC ARE WORKING TO CREATE A LEGAL PATH FOR HYPERLIQUID $PURR TO OPERATE IN THE U.S.",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090141561585868946#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
+        "url": "https://nitter.net/wallstengine/status/2090156187719508067#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
         "time": "לפני 1ש׳"
       }
     ]
