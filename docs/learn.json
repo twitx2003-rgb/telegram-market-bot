@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:25:19.605007+00:00",
+  "generated_at": "2026-08-19T17:50:09.800312+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,19 +65,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 30,
+    "total": 27,
     "sentiment": {
       "bullish": {
         "count": 10,
-        "pct": 33
+        "pct": 37
       },
       "bearish": {
-        "count": 3,
-        "pct": 10
+        "count": 2,
+        "pct": 7
       },
       "neutral": {
-        "count": 17,
-        "pct": 57
+        "count": 15,
+        "pct": 56
       }
     },
     "top_tickers": [
@@ -90,27 +90,27 @@
         2
       ],
       [
-        "$PYPL",
+        "$CRWV",
         1
       ],
       [
-        "$MDB",
+        "$AMZN",
         1
       ],
       [
-        "$RBRK",
+        "$GOOGL",
         1
       ],
       [
-        "$CAT",
+        "$MRVL",
         1
       ],
       [
-        "$GS",
+        "$MRA",
         1
       ],
       [
-        "$MRK",
+        "$MDY",
         1
       ]
     ],
@@ -121,15 +121,15 @@
         "url": "https://nitter.net/wallstengine/status/2090114634401648805#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 53ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "Defense contractor Lyntris $LYNX, which builds military sensors, long-range radar and battlefield software, opens at $15.50, below its $17.50 IPO price.",
+        "text": "Goldman Sachs is preparing a roughly $1.15 billion junk bond to finance a Virginia data center leased to CoreWeave. The deal is expected in September, with Goldman moving ahead even as investors demand higher yields for ",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090097758984359956#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "url": "https://nitter.net/wallstengine/status/2090130964941009214#m",
+        "sentiment": "bullish",
+        "tag": "M&A",
+        "time": "לפני 12ד׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -145,7 +145,7 @@
         "url": "https://nitter.net/unusual_whales/status/2090121111581364567#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 27ד׳"
+        "time": "לפני 52ד׳"
       },
       {
         "text": "Holy look at this. Moderna, $MRNA, is up 130% today. An experimental mRNA-based vaccine succeeded in preventing cancer from coming back or spreading in a study of high-risk melanoma patients, Moderna and its partner Merc",
@@ -156,20 +156,12 @@
         "time": "לפני 1ש׳"
       },
       {
-        "text": "BREAKING: US Treasury increasing size of liquidity support buyback operations for longer-dated nominal coupon securities",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090105760495841393#m",
-        "sentiment": "neutral",
-        "tag": "MACRO",
-        "time": "לפני 1ש׳"
-      },
-      {
         "text": "BITCOIN > $69.5K -- BEST DAY SINCE FEB 2026",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2090099185538478238#m",
         "sentiment": "neutral",
         "tag": "CRYPTO",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "Bitcoin is seeing a rare rally today, now up about $2,300 since the early morning and at its highest levels since early June. A dead asset showing signs of life.",
@@ -178,6 +170,14 @@
         "sentiment": "bullish",
         "tag": "CRYPTO",
         "time": "לפני 2ש׳"
+      },
+      {
+        "text": "The semis keep trading lower while the rest of the market keeps trading higher this morning. S&P 500 Equal Weight $RSP is up 1.5% on the day.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2090081555116880335#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 3ש׳"
       }
     ]
   },
