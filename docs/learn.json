@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T19:23:30.562127+00:00",
+  "generated_at": "2026-08-19T19:49:12.722745+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -68,49 +68,49 @@
     "total": 30,
     "sentiment": {
       "bullish": {
-        "count": 11,
-        "pct": 37
+        "count": 9,
+        "pct": 30
       },
       "bearish": {
         "count": 2,
         "pct": 7
       },
       "neutral": {
-        "count": 17,
-        "pct": 57
+        "count": 19,
+        "pct": 63
       }
     },
     "top_tickers": [
+      [
+        "$NVDA",
+        3
+      ],
       [
         "$RSP",
         2
       ],
       [
-        "$NVDA",
-        2
+        "$INFQ",
+        1
       ],
       [
-        "$CRWV",
-        2
+        "$SMH",
+        1
+      ],
+      [
+        "$NVDL",
+        1
+      ],
+      [
+        "$VIX",
+        1
       ],
       [
         "$MRK",
         1
       ],
       [
-        "$MDY",
-        1
-      ],
-      [
-        "$AGG",
-        1
-      ],
-      [
-        "$MRNA",
-        1
-      ],
-      [
-        "$XLV",
+        "$PURR",
         1
       ]
     ],
@@ -124,20 +124,12 @@
         "time": "לפני 1ש׳"
       },
       {
-        "text": "Global M&A activity has reached $3.5 trillion this year, but private equity has accounted for just $286 billion, or 8.2% of the total. Goldman Sachs says that could start changing, with buyout firms sitting on roughly $1",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090114634401648805#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
-        "time": "לפני 2ש׳"
-      },
-      {
         "text": "BREAKING: US to reportedly halve tariffs on Canadian steel and aluminum in trade deal, per Bloomberg.",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2090145773908291770#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 47ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "US TO HALVE TARIFFS ON CANADA 🇨🇦 STEEL, ALUMINUM IN TRADE DEAL",
@@ -145,7 +137,15 @@
         "url": "https://nitter.net/wallstengine/status/2090133764215341060#m",
         "sentiment": "neutral",
         "tag": "M&A",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "Consumer foreclosures were down last quarter and are 21% below 2019 levels. Bankruptcies ticked higher, but are still 33% below 2019 levels.",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2090161607934460057#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 10ד׳"
       },
       {
         "text": "BREAKING: Look at this. This is a wild, unlikely play, but this option contract is up 711,500% and was nowhere near priced in by the market. Moderna, $MRNA, announced MRNA vaccine working on melanoma. If you had invested",
@@ -153,15 +153,7 @@
         "url": "https://nitter.net/unusual_whales/status/2090151310498656710#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 25ד׳"
-      },
-      {
-        "text": "Goldman Sachs is preparing a roughly $1.15 billion junk bond to finance a Virginia data center leased to CoreWeave. The deal is expected in September, with Goldman moving ahead even as investors demand higher yields for ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090130964941009214#m",
-        "sentiment": "bullish",
-        "tag": "M&A",
-        "time": "לפני 1ש׳"
+        "time": "לפני 51ד׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -170,6 +162,14 @@
         "sentiment": "bullish",
         "tag": "M&A",
         "time": "לפני 17ש׳"
+      },
+      {
+        "text": "$INFQ OPENS QUANTUM HQ IN COLORADO Infleqtion has officially opened its new Colorado Quantum Innovation Center in Louisville, which will also serve as the company’s global headquarters. The facility is designed to suppor",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090162035590099287#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 8ד׳"
       },
       {
         "text": "NVIDIA EYES MERCOR INVESTMENT $NVDA has discussed investing in AI data supplier Mercor as part of a funding round that would value the startup at $20 billion, The Information reports. Mercor hires specialists across fiel",
