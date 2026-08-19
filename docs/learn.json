@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:42:30.804935+00:00",
+  "generated_at": "2026-08-19T14:31:58.312372+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,52 +65,52 @@
     ]
   },
   "x_synthesis": {
-    "total": 29,
+    "total": 23,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 21
+        "count": 4,
+        "pct": 17
       },
       "bearish": {
         "count": 3,
-        "pct": 10
+        "pct": 13
       },
       "neutral": {
-        "count": 20,
-        "pct": 69
+        "count": 16,
+        "pct": 70
       }
     },
     "top_tickers": [
       [
-        "$TLT",
-        3
+        "$MRNA",
+        4
       ],
       [
-        "$TSLA",
-        3
+        "$AVGO",
+        2
       ],
       [
         "$MRK",
         2
       ],
       [
-        "$MRNA",
+        "$TLT",
         2
       ],
       [
-        "$GOOGL",
+        "$TSLA",
         2
       ],
       [
         "$MRVL",
-        2
-      ],
-      [
-        "$TEM",
         1
       ],
       [
-        "$TYX",
+        "$GOOGL",
+        1
+      ],
+      [
+        "$TEM",
         1
       ]
     ],
@@ -121,23 +121,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2090062617121304634#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 36ד׳"
-      },
-      {
-        "text": "Marvell $MRVL issued $GOOGL a warrant to buy up to 58.97M shares at $206.58, equal to ~6.7% of shares outstanding. Most of the warrant vests as Google generates custom-chip revenue for Marvell through FY2033, including A",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090053486117589002#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
         "time": "לפני 1ש׳"
-      },
-      {
-        "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
-        "handle": "gurgavin",
-        "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
-        "sentiment": "bullish",
-        "tag": "M&A",
-        "time": "לפני 11ש׳"
       },
       {
         "text": "Michael Burry says Palantir, $PLTR, will be at under $1 over the long run.",
@@ -145,7 +129,7 @@
         "url": "https://nitter.net/unusual_whales/status/2090065495366214130#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 25ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "Broadcom $AVGO is under pressure after Marvell disclosed an expanded Google custom-chip partnership covering TPU-related AI accelerators, networking, storage and memory.",
@@ -153,15 +137,15 @@
         "url": "https://nitter.net/wallstengine/status/2090057740626665476#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 56ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "DUOLINGO DISCLOSES 27.4% DAU GROWTH $DUOL filed an 8-K after an internal screen was accidentally shown during an investor meeting, revealing that daily active users on Aug. 17 were estimated to be up 27.4% YoY, with simi",
+        "text": "$MRNA +150% Hope some of you were able to capitalize on this when it was only up 7-10%. Also alerted the news in our Discord early.",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090045813217169724#m",
+        "url": "https://nitter.net/wallstengine/status/2090081993933603011#m",
         "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "tag": "NEWS",
+        "time": "לפני 9ד׳"
       },
       {
         "text": "WHAT $MRNA AND $MRK JUST ACHIEVED",
@@ -169,7 +153,15 @@
         "url": "https://nitter.net/wallstengine/status/2090064885384348020#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 27ד׳"
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "RT by @MikeZaccardi: Don't mail it in before Labor Day! Key events ahead: big retail earnings, $NVDA reporting on Aug 26, and Fed Chair Warsh speaking at Jackson Hole on Aug 28. Plus, dovish CPI/PPI data shapes September",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/WallStHorizon/status/2090064087501750319#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
       },
       {
         "text": "TREASURY DOUBLES LONG-END BUYBACK SIZE Starting Sept. 9, the U.S. Treasury will increase liquidity-support buybacks for 10–20Y and 20–30Y bonds from a $2B maximum to at least $4B per operation.",
@@ -177,7 +169,15 @@
         "url": "https://nitter.net/wallstengine/status/2090056987199545766#m",
         "sentiment": "neutral",
         "tag": "MACRO",
-        "time": "לפני 59ד׳"
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "POLL SHOWS 69% SEE TRUMP BUSINESS INFLUENCE A Reuters/Ipsos poll found 69% of Americans believe President Trump’s private business interests influence his decisions in office. Separately, 63% said it was inappropriate fo",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2090032203266654456#m",
+        "sentiment": "bullish",
+        "tag": "CRYPTO",
+        "time": "לפני 3ש׳"
       }
     ]
   },
