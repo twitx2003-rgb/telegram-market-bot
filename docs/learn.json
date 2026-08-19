@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:32:40.823658+00:00",
+  "generated_at": "2026-08-19T10:27:09.716603+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,19 +66,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 29,
+    "total": 31,
     "sentiment": {
       "bullish": {
         "count": 10,
-        "pct": 34
+        "pct": 32
       },
       "bearish": {
-        "count": 1,
-        "pct": 3
+        "count": 2,
+        "pct": 6
       },
       "neutral": {
-        "count": 18,
-        "pct": 62
+        "count": 19,
+        "pct": 61
       }
     },
     "top_tickers": [
@@ -91,11 +91,7 @@
         3
       ],
       [
-        "$SPY",
-        2
-      ],
-      [
-        "$KC",
+        "$LOW",
         2
       ],
       [
@@ -103,50 +99,38 @@
         2
       ],
       [
-        "$LOW",
+        "$SPY",
         2
       ],
       [
-        "$TGT",
-        2
+        "$SKHY",
+        1
       ],
       [
-        "$VIK",
-        2
+        "$AMZN",
+        1
+      ],
+      [
+        "$IBM",
+        1
       ]
     ],
     "top_tweets": [
       {
-        "text": "Today's Key Events (All EST) — 08/19/2026 07:00: US MBA Mortgage Applications 13:00: US 20-Year Bond Auction 14:00: FOMC Meeting Minutes Before Open 👇 04:30: Full Truck Alliance $YMM 05:00: Weibo $WB 06:00: Lowe's $LOW 0",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089988190098886787#m",
-        "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "UNITREE SOARS 629% IN SHANGHAI DEBUT TO A ~$66B MARKET CAP",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089887999819743476#m",
+        "text": "TECH SELLOFF HITS WALL STREET AS YIELDS SURGE Wall Street closed lower as rising oil prices and Middle East tensions pushed Treasury yields sharply higher, pressuring technology stocks. The Nasdaq fell 1.3%, while the S&",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2089806066959757422#m",
         "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 8ש׳"
+        "tag": "ENERGY",
+        "time": "לפני 14ש׳"
       },
       {
-        "text": "UNITREE SET TO OPEN AT ~7.3X ITS IPO PRICE",
+        "text": "ESTÉE LAUDER $EL Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $3.6B (Est. $3.54B) 🟢; +6% YoY 🔹 Adj. EPS: $0.39; +100% YoY 🔹 Adjusted Operating Income: $267M; +95% YoY FY27 Guide: 🔹 Adj. EPS: $3.10-$3.35 (Est. $3.18) 🟢 🔹 Organic ",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089885975384392017#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 8ש׳"
-      },
-      {
-        "text": "KINGSOFT CLOUD $KC Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: RMB3,072.0M (Est. CN¥3.03B) 🟢; +30.8% YoY 🔹 EPS: RMB0.02; LY RMB0.11 loss 🔹 Operating Profit: RMB23.0M; LY -RMB327.0M 🔹 AI Cloud Gross Billings: RMB1,327M; +82% YoY",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2089999191363944563#m",
+        "url": "https://nitter.net/wallstengine/status/2090016952970539498#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 39ד׳"
+        "time": "לפני 23ד׳"
       },
       {
         "text": "The FOMC minutes are Wednesday’s main event at 2:00 PM ET. Energy inventories are due earlier at 10:30 AM.",
@@ -154,7 +138,23 @@
         "url": "https://nitter.net/bespokeinvest/status/2089828558835188011#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 11ש׳"
+        "time": "לפני 12ש׳"
+      },
+      {
+        "text": "LOWE'S $LOW Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $26.0B (Est. $26.16B) 🔴; +8% YoY 🔹 Adj. EPS: $4.40 (Est. $4.22) 🟢; +1.6% YoY 🔹 Comparable Sales: +0.2% 🔹 Net Earnings: $2.4B Cuts FY26 Guide: 🔹 Revenue: $92.0B; from $92.0",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090017079407915136#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 22ד׳"
+      },
+      {
+        "text": "SAMSUNG HIKES CHIPMAKING PRICES BY UP TO 15% Samsung has raised prices for some advanced foundry services as AI demand tightens capacity and TSMC remains heavily booked, Reuters reports. SF4 prices up 10% to 15% for U.S.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090009438786863274#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 52ד׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -162,23 +162,23 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 7ש׳"
+        "time": "לפני 8ש׳"
       },
       {
-        "text": "Going forward, Nasdaq will conduct trading 23 hours per day, five days per week in two trading sessions Read more: https://unusualwhales.com/news/nasdaq-overnight-trading-session-9pm-4am",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2089935891049451693#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 4ש׳"
-      },
-      {
-        "text": "Retailers lead tomorrow morning’s earnings calendar, with Lowe’s $LOW, Target $TGT, and TJX $TJX, reporting before the open. Analog Devices $ADI, Estée Lauder $EL, and Viking $VIK are also due in the morning, followed by",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089827300695040505#m",
-        "sentiment": "neutral",
+        "text": "$SKHY ANNOUNCES RECORD ~$29B BUYBACK SK hynix is launching a massive share buyback and cancellation while changing its shareholder return policy from “up to 50%” of FCF to “at least 50%.” That’s a huge vote of confidence",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2090022553352036497#m",
+        "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 12ש׳"
+        "time": "עכשיו"
+      },
+      {
+        "text": "$AMZN EXPANDS DRONE DELIVERY Amazon will bring Prime Air to suburban Chicago and Atlanta, plus metro Cleveland and Syracuse, by year-end. This would grow Amazon’s drone delivery footprint roughly 6x from today & put the ",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090020794663670153#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 7ד׳"
       }
     ]
   },
