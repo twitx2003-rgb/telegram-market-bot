@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T11:25:16.264449+00:00",
+  "generated_at": "2026-08-19T11:50:23.160354+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,19 +65,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 22,
+    "total": 29,
     "sentiment": {
       "bullish": {
-        "count": 5,
-        "pct": 23
+        "count": 10,
+        "pct": 34
       },
       "bearish": {
-        "count": 1,
-        "pct": 5
+        "count": 2,
+        "pct": 7
       },
       "neutral": {
-        "count": 16,
-        "pct": 73
+        "count": 17,
+        "pct": 59
       }
     },
     "top_tickers": [
@@ -86,42 +86,42 @@
         3
       ],
       [
-        "$TGT",
+        "$VIK",
         2
       ],
       [
-        "$SKHY",
+        "$TJX",
         2
       ],
       [
-        "$RKLB",
+        "$ADI",
         2
       ],
       [
-        "$EWC",
+        "$SPY",
+        2
+      ],
+      [
+        "$ZIM",
         1
       ],
       [
-        "$MRNA",
+        "$NBIS",
         1
       ],
       [
-        "$TSM",
-        1
-      ],
-      [
-        "$AMZN",
+        "$RSP",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "Trump agrees to pause 50% Canada tariffs, says Keystone XL \"may be awoken\" $EWC +0.6% @seekingalpha",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2090035549276967141#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 7ד׳"
+        "text": "$ZIM INTEGRATED SHIPPING SERVICES Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.78B (Est. $1.71B) 🟢; +9% YoY 🔹 EPS: $0.53 (Est. $0.20) 🟢; +179% YoY 🔹 Adjusted EBITDA: $491M (Est. $462M) 🟢; +4% YoY 🔹 Free Cash Flow: $386M (Est.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090041033979748416#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 10ד׳"
       },
       {
         "text": "The FOMC minutes are Wednesday’s main event at 2:00 PM ET. Energy inventories are due earlier at 10:30 AM.",
@@ -129,7 +129,47 @@
         "url": "https://nitter.net/bespokeinvest/status/2089828558835188011#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 13ש׳"
+        "time": "לפני 14ש׳"
+      },
+      {
+        "text": "VIKING HOLDINGS $VIK Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $2.2B (Est. $2.14B) 🟢; +16.5% YoY 🔹 Adj. EPS: $1.31 (Est. $1.26) 🟢; +32% YoY 🔹 Adj. EBITDA: $748.4M (Est. $723M) 🟢; +18.2% YoY 🔹 Net Income: $587.7M (Est. $562M) ",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090041007740195101#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 10ד׳"
+      },
+      {
+        "text": "$TJX Q2’27 EARNINGS HIGHLIGHTS 🔹 Revenue: $15.2B (Est. $15.16B) 🟢; +5% YoY 🔹 Adj. EPS: $1.22 (Est. $1.19) 🟢; +11% YoY 🔹 Comparable Sales: 4% 🔹 Adjusted Pretax Margin: 11.9%; +0.5 pts YoY FY27 Guide: 🔹 Adj. EPS: $5.15-$5.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090040880858280412#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 11ד׳"
+      },
+      {
+        "text": "ANALOG DEVICES $ADI Q3’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $4.02B (Est. $3.92B) 🟢; +40% YoY 🔹 Adj. EPS: $3.45 (Est. $3.33) 🟢; +68% YoY 🔹 Adjusted Operating Margin: 50.0%; +780 bps YoY Q4 Guide: 🔹 Revenue: $4.3B +/- $100M (",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090040815754371513#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 11ד׳"
+      },
+      {
+        "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
+        "handle": "gurgavin",
+        "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
+        "sentiment": "bullish",
+        "tag": "M&A",
+        "time": "לפני 9ש׳"
+      },
+      {
+        "text": "BREAKING: OpenAI's revenue grew much slower than Anthropic's last quarter, per WSJ",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090025229888463011#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
       },
       {
         "text": "$SKHY ANNOUNCES RECORD ~$29B BUYBACK SK hynix is launching a massive share buyback and cancellation while changing its shareholder return policy from “up to 50%” of FCF to “at least 50%.” That’s a huge vote of confidence",
@@ -137,47 +177,7 @@
         "url": "https://nitter.net/StockSavvyShay/status/2090022553352036497#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 58ד׳"
-      },
-      {
-        "text": "Retailers lead tomorrow morning’s earnings calendar, with Lowe’s $LOW, Target $TGT, and TJX $TJX, reporting before the open. Analog Devices $ADI, Estée Lauder $EL, and Viking $VIK are also due in the morning, followed by",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089827300695040505#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 13ש׳"
-      },
-      {
-        "text": "$TGT Target Q2 comparable sales rise 3.8% as digital momentum holds strong tops Q2 expectations and raises FY2026 guidance @seekingalpha",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2090033788592042398#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 14ד׳"
-      },
-      {
-        "text": "Samsung is hiking advanced foundry prices ~15% as AI demand tightens capacity and $TSM remains heavily booked. Samsung is gaining pricing power despite just ~7% of global foundry share with SF4 reportedly full and AI/HPC",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2090029217249689828#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 32ד׳"
-      },
-      {
-        "text": "Investing isn't difficult if you keep it simple. The biggest stock market winners (long term) usually have the same traits. They typically share these four characteristics: - Rapid earnings growth - Innovative or unique ",
-        "handle": "cperruna",
-        "url": "https://nitter.net/cperruna/status/2089845923887124877#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 12ש׳"
-      },
-      {
-        "text": "New all-time highs for Energy $XLE and Health Care $XLV today:",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089821886251155809#m",
-        "sentiment": "bullish",
-        "tag": "ENERGY",
-        "time": "לפני 14ש׳"
+        "time": "לפני 1ש׳"
       }
     ]
   },
