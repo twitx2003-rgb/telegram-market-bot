@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:29:23.858933+00:00",
+  "generated_at": "2026-08-19T15:59:11.603153+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,63 +65,63 @@
     ]
   },
   "x_synthesis": {
-    "total": 28,
+    "total": 27,
     "sentiment": {
       "bullish": {
-        "count": 10,
-        "pct": 36
+        "count": 9,
+        "pct": 33
       },
       "bearish": {
-        "count": 2,
-        "pct": 7
+        "count": 3,
+        "pct": 11
       },
       "neutral": {
-        "count": 16,
-        "pct": 57
+        "count": 15,
+        "pct": 56
       }
     },
     "top_tickers": [
-      [
-        "$MRNA",
-        3
-      ],
-      [
-        "$NVDA",
-        2
-      ],
-      [
-        "$AVGO",
-        2
-      ],
       [
         "$TLT",
         2
       ],
       [
-        "$SMG",
-        1
-      ],
-      [
-        "$RSP",
-        1
-      ],
-      [
-        "$SOXX",
-        1
+        "$GLD",
+        2
       ],
       [
         "$QQQ",
+        2
+      ],
+      [
+        "$MRNA",
+        2
+      ],
+      [
+        "$TSLA",
+        2
+      ],
+      [
+        "$GDX",
+        1
+      ],
+      [
+        "$TYX",
+        1
+      ],
+      [
+        "$IBB",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "FOMC minutes on tap",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2090062617121304634#m",
+        "text": "Defense contractor Lyntris $LYNX, which builds military sensors, long-range radar and battlefield software, opens at $15.50, below its $17.50 IPO price.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090097758984359956#m",
         "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 2ש׳"
+        "tag": "NEWS",
+        "time": "לפני 33ד׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -132,28 +132,12 @@
         "time": "לפני 13ש׳"
       },
       {
-        "text": "Michael Burry says Palantir, $PLTR, will be at under $1 over the long run.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090065495366214130#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "Broadcom $AVGO is under pressure after Marvell disclosed an expanded Google custom-chip partnership covering TPU-related AI accelerators, networking, storage and memory.",
+        "text": "BITCOIN > $69.5K -- BEST DAY SINCE FEB 2026",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090057740626665476#m",
+        "url": "https://nitter.net/wallstengine/status/2090099185538478238#m",
         "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "Live now! Discussing Tungsten applications, export controls, supply shortage, and long term investment concepts: https://x.com/i/spaces/1PKqrNQDjReGb",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090097112662807038#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 6ד׳"
+        "tag": "CRYPTO",
+        "time": "לפני 28ד׳"
       },
       {
         "text": "Bitcoin is seeing a rare rally today, now up about $2,300 since the early morning and at its highest levels since early June. A dead asset showing signs of life.",
@@ -161,7 +145,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2090096343070978394#m",
         "sentiment": "bullish",
         "tag": "CRYPTO",
-        "time": "לפני 9ד׳"
+        "time": "לפני 39ד׳"
       },
       {
         "text": "Trump said Scotts Miracle-Gro $SMG supplied the grass being used to redo parts of the White House grounds at no cost.",
@@ -169,15 +153,31 @@
         "url": "https://nitter.net/wallstengine/status/2090096165408919656#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 10ד׳"
+        "time": "לפני 40ד׳"
       },
       {
-        "text": "Get ready for this. Starting now! We are hosting @BlueMoonMetals and their CEO @AdventusCEO for a panel on critical metal, particularly tungsten. Join the panel of speakers, including: @Teo_Sinamin @eqresourcesasx https:",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090092307517235529#m",
+        "text": "$MRNA +150% Hope some of you were able to capitalize on this when it was only up 7-10%. Also alerted the news in our Discord early.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090081993933603011#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "The semis keep trading lower while the rest of the market keeps trading higher this morning. S&P 500 Equal Weight $RSP is up 1.5% on the day.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2090081555116880335#m",
         "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 25ד׳"
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "The semis $SOXX are now down 7.7% over the last two days after rallying more than 20% from 7/29 through Monday's close.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2090079504718836203#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
       }
     ]
   },
