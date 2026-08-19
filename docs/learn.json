@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T12:43:10.322672+00:00",
+  "generated_at": "2026-08-19T13:42:30.804935+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,84 +65,68 @@
     ]
   },
   "x_synthesis": {
-    "total": 28,
+    "total": 29,
     "sentiment": {
       "bullish": {
-        "count": 11,
-        "pct": 39
+        "count": 6,
+        "pct": 21
       },
       "bearish": {
-        "count": 0,
-        "pct": 0
+        "count": 3,
+        "pct": 10
       },
       "neutral": {
-        "count": 17,
-        "pct": 61
+        "count": 20,
+        "pct": 69
       }
     },
     "top_tickers": [
+      [
+        "$TLT",
+        3
+      ],
+      [
+        "$TSLA",
+        3
+      ],
+      [
+        "$MRK",
+        2
+      ],
       [
         "$MRNA",
         2
       ],
       [
-        "$VIK",
+        "$GOOGL",
         2
       ],
       [
-        "$GOOGL",
-        1
-      ],
-      [
         "$MRVL",
+        2
+      ],
+      [
+        "$TEM",
         1
       ],
       [
-        "$NBIS",
-        1
-      ],
-      [
-        "$TLT",
-        1
-      ],
-      [
-        "$DUOL",
-        1
-      ],
-      [
-        "$ZIM",
+        "$TYX",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "$ZIM INTEGRATED SHIPPING SERVICES Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $1.78B (Est. $1.71B) 🟢; +9% YoY 🔹 EPS: $0.53 (Est. $0.20) 🟢; +179% YoY 🔹 Adjusted EBITDA: $491M (Est. $462M) 🟢; +4% YoY 🔹 Free Cash Flow: $386M (Est.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090041033979748416#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "The FOMC minutes are Wednesday’s main event at 2:00 PM ET. Energy inventories are due earlier at 10:30 AM.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089828558835188011#m",
+        "text": "FOMC minutes on tap",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2090062617121304634#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 15ש׳"
+        "time": "לפני 36ד׳"
       },
       {
         "text": "Marvell $MRVL issued $GOOGL a warrant to buy up to 58.97M shares at $206.58, equal to ~6.7% of shares outstanding. Most of the warrant vests as Google generates custom-chip revenue for Marvell through FY2033, including A",
         "handle": "wallstengine",
         "url": "https://nitter.net/wallstengine/status/2090053486117589002#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 13ד׳"
-      },
-      {
-        "text": "VIKING HOLDINGS $VIK Q2’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $2.2B (Est. $2.14B) 🟢; +16.5% YoY 🔹 Adj. EPS: $1.31 (Est. $1.26) 🟢; +32% YoY 🔹 Adj. EBITDA: $748.4M (Est. $723M) 🟢; +18.2% YoY 🔹 Net Income: $587.7M (Est. $562M) ",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090041007740195101#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
         "time": "לפני 1ש׳"
@@ -153,7 +137,23 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 10ש׳"
+        "time": "לפני 11ש׳"
+      },
+      {
+        "text": "Michael Burry says Palantir, $PLTR, will be at under $1 over the long run.",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090065495366214130#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 25ד׳"
+      },
+      {
+        "text": "Broadcom $AVGO is under pressure after Marvell disclosed an expanded Google custom-chip partnership covering TPU-related AI accelerators, networking, storage and memory.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090057740626665476#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 56ד׳"
       },
       {
         "text": "DUOLINGO DISCLOSES 27.4% DAU GROWTH $DUOL filed an 8-K after an internal screen was accidentally shown during an investor meeting, revealing that daily active users on Aug. 17 were estimated to be up 27.4% YoY, with simi",
@@ -161,23 +161,23 @@
         "url": "https://nitter.net/wallstengine/status/2090045813217169724#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 44ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "Retailers lead tomorrow morning’s earnings calendar, with Lowe’s $LOW, Target $TGT, and TJX $TJX, reporting before the open. Analog Devices $ADI, Estée Lauder $EL, and Viking $VIK are also due in the morning, followed by",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2089827300695040505#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 15ש׳"
-      },
-      {
-        "text": "$MRNA +100%",
+        "text": "WHAT $MRNA AND $MRK JUST ACHIEVED",
         "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090044290043195607#m",
+        "url": "https://nitter.net/wallstengine/status/2090064885384348020#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 50ד׳"
+        "time": "לפני 27ד׳"
+      },
+      {
+        "text": "TREASURY DOUBLES LONG-END BUYBACK SIZE Starting Sept. 9, the U.S. Treasury will increase liquidity-support buybacks for 10–20Y and 20–30Y bonds from a $2B maximum to at least $4B per operation.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090056987199545766#m",
+        "sentiment": "neutral",
+        "tag": "MACRO",
+        "time": "לפני 59ד׳"
       }
     ]
   },
