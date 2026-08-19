@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T16:39:10.295071+00:00",
+  "generated_at": "2026-08-19T17:25:19.605007+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,28 +65,40 @@
     ]
   },
   "x_synthesis": {
-    "total": 26,
+    "total": 30,
     "sentiment": {
       "bullish": {
-        "count": 12,
-        "pct": 46
+        "count": 10,
+        "pct": 33
       },
       "bearish": {
         "count": 3,
-        "pct": 12
+        "pct": 10
       },
       "neutral": {
-        "count": 11,
-        "pct": 42
+        "count": 17,
+        "pct": 57
       }
     },
     "top_tickers": [
+      [
+        "$SNOW",
+        2
+      ],
       [
         "$MRNA",
         2
       ],
       [
-        "$GS",
+        "$PYPL",
+        1
+      ],
+      [
+        "$MDB",
+        1
+      ],
+      [
+        "$RBRK",
         1
       ],
       [
@@ -94,34 +106,46 @@
         1
       ],
       [
+        "$GS",
+        1
+      ],
+      [
         "$MRK",
-        1
-      ],
-      [
-        "$LLY",
-        1
-      ],
-      [
-        "$XLV",
-        1
-      ],
-      [
-        "$TLT",
-        1
-      ],
-      [
-        "$GDX",
         1
       ]
     ],
     "top_tweets": [
+      {
+        "text": "Global M&A activity has reached $3.5 trillion this year, but private equity has accounted for just $286 billion, or 8.2% of the total. Goldman Sachs says that could start changing, with buyout firms sitting on roughly $1",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090114634401648805#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 53ד׳"
+      },
+      {
+        "text": "Defense contractor Lyntris $LYNX, which builds military sensors, long-range radar and battlefield software, opens at $15.50, below its $17.50 IPO price.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090097758984359956#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 2ש׳"
+      },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
         "handle": "gurgavin",
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 14ש׳"
+        "time": "לפני 15ש׳"
+      },
+      {
+        "text": "US PayPal, $PYPL, users can now use the PayPal app to make in-store QR code payments at Weixin Pay merchants across China through PayPal World",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090121111581364567#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 27ד׳"
       },
       {
         "text": "Holy look at this. Moderna, $MRNA, is up 130% today. An experimental mRNA-based vaccine succeeded in preventing cancer from coming back or spreading in a study of high-risk melanoma patients, Moderna and its partner Merc",
@@ -129,7 +153,7 @@
         "url": "https://nitter.net/unusual_whales/status/2090110043366866977#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 25ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "BREAKING: US Treasury increasing size of liquidity support buyback operations for longer-dated nominal coupon securities",
@@ -137,14 +161,14 @@
         "url": "https://nitter.net/unusual_whales/status/2090105760495841393#m",
         "sentiment": "neutral",
         "tag": "MACRO",
-        "time": "לפני 42ד׳"
+        "time": "לפני 1ש׳"
       },
       {
-        "text": "Live now! Discussing Tungsten applications, export controls, supply shortage, and long term investment concepts: https://x.com/i/spaces/1PKqrNQDjReGb",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090097112662807038#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
+        "text": "BITCOIN > $69.5K -- BEST DAY SINCE FEB 2026",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090099185538478238#m",
+        "sentiment": "neutral",
+        "tag": "CRYPTO",
         "time": "לפני 1ש׳"
       },
       {
@@ -153,30 +177,6 @@
         "url": "https://nitter.net/bespokeinvest/status/2090096343070978394#m",
         "sentiment": "bullish",
         "tag": "CRYPTO",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Get ready for this. Starting now! We are hosting @BlueMoonMetals and their CEO @AdventusCEO for a panel on critical metal, particularly tungsten. Join the panel of speakers, including: @Teo_Sinamin @eqresourcesasx https:",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090092307517235529#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "The semis keep trading lower while the rest of the market keeps trading higher this morning. S&P 500 Equal Weight $RSP is up 1.5% on the day.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090081555116880335#m",
-        "sentiment": "bullish",
-        "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "The semis $SOXX are now down 7.7% over the last two days after rallying more than 20% from 7/29 through Monday's close.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090079504718836203#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
         "time": "לפני 2ש׳"
       }
     ]
