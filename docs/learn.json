@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T23:21:04.383064+00:00",
+  "generated_at": "2026-08-19T23:46:24.000595+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,48 +65,40 @@
     ]
   },
   "x_synthesis": {
-    "total": 19,
+    "total": 17,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 37
+        "count": 6,
+        "pct": 35
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 12,
-        "pct": 63
+        "count": 11,
+        "pct": 65
       }
     },
     "top_tickers": [
       [
-        "$IBB",
-        2
-      ],
-      [
-        "$WMT",
+        "$GOOGL",
         1
       ],
       [
-        "$NTES",
+        "$NFLX",
         1
       ],
       [
-        "$BABA",
+        "$MRNA",
         1
       ],
       [
-        "$ROST",
+        "$INFQ",
         1
       ],
       [
-        "$AAP",
-        1
-      ],
-      [
-        "$ELF",
+        "$AMZN",
         1
       ]
     ],
@@ -117,7 +109,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2090204915339534381#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 50ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "GS: The Fed’s move toward greater transparency over the last 30 years has led to a decline in FOMC meeting day surprises…",
@@ -125,7 +117,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2090208693170102689#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 35ד׳"
+        "time": "לפני 1ש׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -136,28 +128,28 @@
         "time": "לפני 21ש׳"
       },
       {
+        "text": "SpaceX is building AI data centers and a $16.8 billion chip-manufacturing facility in Texas Read more: https://unusualwhales.com/news/musk-natural-gas-turbines-spacex-ai-data-centers",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090220013248553261#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 15ד׳"
+      },
+      {
         "text": "Studios now average $4,088 per month, up 8% year over year, while one-bedrooms average $5,486, a 7% increase Read more: https://unusualwhales.com/news/manhattan-average-rent-record-6655",
         "handle": "unusual_whales",
         "url": "https://nitter.net/unusual_whales/status/2090204913997668665#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 50ד׳"
-      },
-      {
-        "text": "Walmart $WMT headlines tomorrow morning’s earnings slate. Alibaba $BABA, Advance Auto $AAP, and NetEase $NTES also report before the open, with Ross Stores $ROST due after the close.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090189688543834541#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
         "time": "לפני 1ש׳"
       },
       {
-        "text": "Here's a look at today's big push higher for the biotech ETF $IBB after breaking out earlier in the week:",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090169539874959550#m",
-        "sentiment": "bullish",
+        "text": "$MRNA is now the S&P 500’s second-best-performing stock this year after surging nearly 180% today. The move came after Moderna announced the first-ever positive Phase 3 results for a personalized cancer vaccine.",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2090184387359043690#m",
+        "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 3ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "No one wanted to own energy, gold, and crypto. Nice one from @Todd_Sohn via @TheChartReport",
@@ -165,7 +157,7 @@
         "url": "https://nitter.net/RyanDetrick/status/2090213899404513397#m",
         "sentiment": "neutral",
         "tag": "CRYPTO",
-        "time": "לפני 14ד׳"
+        "time": "לפני 39ד׳"
       },
       {
         "text": "GS: Increased information from the Fed has generally lowered policy volatility…",
