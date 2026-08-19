@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T21:50:15.991250+00:00",
+  "generated_at": "2026-08-19T22:22:58.406735+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,19 +65,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 29,
+    "total": 25,
     "sentiment": {
       "bullish": {
-        "count": 10,
-        "pct": 34
+        "count": 8,
+        "pct": 32
       },
       "bearish": {
         "count": 1,
-        "pct": 3
+        "pct": 4
       },
       "neutral": {
-        "count": 18,
-        "pct": 62
+        "count": 16,
+        "pct": 64
       }
     },
     "top_tickers": [
@@ -86,15 +86,23 @@
         2
       ],
       [
+        "$NFLX",
+        1
+      ],
+      [
+        "$GOOGL",
+        1
+      ],
+      [
         "$ROST",
         1
       ],
       [
-        "$AAP",
+        "$NTES",
         1
       ],
       [
-        "$NTES",
+        "$AAP",
         1
       ],
       [
@@ -103,14 +111,6 @@
       ],
       [
         "$WMT",
-        1
-      ],
-      [
-        "$MRNA",
-        1
-      ],
-      [
-        "$WOLF",
         1
       ]
     ],
@@ -137,14 +137,6 @@
         "url": "https://nitter.net/wallstengine/status/2090172539507212405#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Consumer foreclosures were down last quarter and are 21% below 2019 levels. Bankruptcies ticked higher, but are still 33% below 2019 levels.",
-        "handle": "RyanDetrick",
-        "url": "https://nitter.net/RyanDetrick/status/2090161607934460057#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
         "time": "לפני 2ש׳"
       },
       {
@@ -161,15 +153,7 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 19ש׳"
-      },
-      {
-        "text": "Trump has said that the U.S. government is considering plans to purchase and accumulate \"sizable\" amounts of Bitcoin and other cryptocurrencies.",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090174714664644861#m",
-        "sentiment": "bullish",
-        "tag": "CRYPTO",
-        "time": "לפני 1ש׳"
+        "time": "לפני 20ש׳"
       },
       {
         "text": "Walmart $WMT headlines tomorrow morning’s earnings slate. Alibaba $BABA, Advance Auto $AAP, and NetEase $NTES also report before the open, with Ross Stores $ROST due after the close.",
@@ -177,7 +161,23 @@
         "url": "https://nitter.net/bespokeinvest/status/2090189688543834541#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 19ד׳"
+        "time": "לפני 52ד׳"
+      },
+      {
+        "text": "$MRNA is now the S&P 500’s second-best-performing stock this year after surging nearly 180% today. The move came after Moderna announced the first-ever positive Phase 3 results for a personalized cancer vaccine.",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2090184387359043690#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "Here's a look at today's big push higher for the biotech ETF $IBB after breaking out earlier in the week:",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2090169539874959550#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 2ש׳"
       }
     ]
   },
