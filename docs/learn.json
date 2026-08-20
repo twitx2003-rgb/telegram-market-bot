@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T22:55:05.910426+00:00",
+  "generated_at": "2026-08-20T23:24:42.712187+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,79 +66,51 @@
     ]
   },
   "x_synthesis": {
-    "total": 6,
+    "total": 3,
     "sentiment": {
       "bullish": {
         "count": 1,
-        "pct": 17
+        "pct": 33
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 5,
-        "pct": 83
+        "count": 2,
+        "pct": 67
       }
     },
     "top_tickers": [
       [
-        "$KBE",
-        1
-      ],
-      [
-        "$QQQ",
+        "$NVDA",
         1
       ]
     ],
     "top_tweets": [
       {
-        "text": "TRUMP ANNOUNCES MAJOR ECONOMIC CAMPAIGN AGAINST IRAN President Trump announced sweeping new economic measures aimed at further isolating Iran after saying Tehran failed to reach a deal. Trump warned that countries provid",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2090213913598337351#m",
+        "text": "Talking the Fed and inflation with @ArthurHoganIII on Ep. 200 of Facts vs Feelings",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2090550638253945287#m",
+        "sentiment": "neutral",
+        "tag": "FED",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "Facts vs Feelings Ep. 201: Is The Consumer Tapped Out? This week, @sonusvarghese and I take a closer look at the state of the consumer. We also discuss: 📈 The strength of the bull market 💪 Why the consumer is still healt",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2090541861069074745#m",
         "sentiment": "bullish",
-        "tag": "M&A",
-        "time": "לפני 23ש׳"
-      },
-      {
-        "text": "*TRUMP: I AM ANNOUNCING MOST CRUSHING IRAN ECONOMIC OPERATION",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2090213563059036648#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 23ש׳"
-      },
-      {
-        "text": "and just like that, the KBW Bank ETF $KBE is back down to its 50dma @augurinfinity https://augurdigest.com/p/augur-digest-307",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2090537104392495476#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
+        "tag": "TECH",
         "time": "לפני 2ש׳"
       },
       {
-        "text": "$QQQ 5-day losing streak @augurinfinity https://augurdigest.com/p/augur-digest-307",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2090534587927498956#m",
+        "text": "Total government debt was $20 trillion nine years ago and is $40 trillion now. Household net worth was $101 trillion nine years ago and is $183 trillion now. No one likes all the debt we have, but you have to consider th",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2090553076893507596#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "Bitcoin working on its best week since Election 2024 +15%",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2090530218872013027#m",
-        "sentiment": "neutral",
-        "tag": "CRYPTO",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "Lazard: The negative correlation between high-risk and low-risk stocks is... extreme. @soberlook https://thedailyshot.com/subscribe/",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2090541072782930207#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
+        "time": "לפני 1ש׳"
       }
     ]
   },
