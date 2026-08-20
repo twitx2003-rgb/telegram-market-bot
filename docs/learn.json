@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T22:25:52.502065+00:00",
+  "generated_at": "2026-08-20T22:55:05.910426+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,19 +66,19 @@
     ]
   },
   "x_synthesis": {
-    "total": 4,
+    "total": 6,
     "sentiment": {
       "bullish": {
-        "count": 0,
-        "pct": 0
+        "count": 1,
+        "pct": 17
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 4,
-        "pct": 100
+        "count": 5,
+        "pct": 83
       }
     },
     "top_tickers": [
@@ -93,12 +93,28 @@
     ],
     "top_tweets": [
       {
+        "text": "TRUMP ANNOUNCES MAJOR ECONOMIC CAMPAIGN AGAINST IRAN President Trump announced sweeping new economic measures aimed at further isolating Iran after saying Tehran failed to reach a deal. Trump warned that countries provid",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2090213913598337351#m",
+        "sentiment": "bullish",
+        "tag": "M&A",
+        "time": "לפני 23ש׳"
+      },
+      {
+        "text": "*TRUMP: I AM ANNOUNCING MOST CRUSHING IRAN ECONOMIC OPERATION",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2090213563059036648#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 23ש׳"
+      },
+      {
         "text": "and just like that, the KBW Bank ETF $KBE is back down to its 50dma @augurinfinity https://augurdigest.com/p/augur-digest-307",
         "handle": "MikeZaccardi",
         "url": "https://nitter.net/MikeZaccardi/status/2090537104392495476#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "$QQQ 5-day losing streak @augurinfinity https://augurdigest.com/p/augur-digest-307",
@@ -122,7 +138,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2090541072782930207#m",
         "sentiment": "neutral",
         "tag": "NEWS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       }
     ]
   },
