@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:34:31.904906+00:00",
+  "generated_at": "2026-08-20T15:32:02.296228+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,7 +66,7 @@
     ]
   },
   "x_synthesis": {
-    "total": 5,
+    "total": 0,
     "sentiment": {
       "bullish": {
         "count": 0,
@@ -77,86 +77,12 @@
         "pct": 0
       },
       "neutral": {
-        "count": 5,
-        "pct": 100
+        "count": 0,
+        "pct": 0
       }
     },
-    "top_tickers": [
-      [
-        "$TSM",
-        1
-      ],
-      [
-        "$GOOGL",
-        1
-      ],
-      [
-        "$AMD",
-        1
-      ],
-      [
-        "$MU",
-        1
-      ],
-      [
-        "$SNDK",
-        1
-      ],
-      [
-        "$NVDA",
-        1
-      ],
-      [
-        "$RKLB",
-        1
-      ],
-      [
-        "$TEM",
-        1
-      ]
-    ],
-    "top_tweets": [
-      {
-        "text": "$GOOGL Waymo has built a custom chip for its robotaxis and is now working with some of the biggest names in semiconductors to scale the broader autonomous driving compute stack. Partners include $AMD, $MU, $NVDA, $SNDK a",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2090441320049647822#m",
-        "sentiment": "neutral",
-        "tag": "TECH",
-        "time": "לפני 24ד׳"
-      },
-      {
-        "text": "$RKLB successfully completed its 93rd Electron launch.",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2090435221221208209#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 48ד׳"
-      },
-      {
-        "text": "$TEM rerating continues as the $MRNA breakthrough lifts the broader personalized medicine ecosystem. Tempus sits across sequencing, data and diagnostics giving it multiple ways to benefit if personalized cancer vaccines ",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2090433685753679930#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 54ד׳"
-      },
-      {
-        "text": "$SMCI says an independent investigation found no evidence current senior management knew about the alleged export-diversion scheme. It also found no direct sales to known restricted parties or impact to prior financials ",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2090431618133721165#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "I currently own a 3% position in my family portfolio: https://savvytrader.com/StockSavvyShay/shays-family-portfolio?s=MTY5OTM6MzgxNw==",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2090434143930970465#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 52ד׳"
-      }
-    ]
+    "top_tickers": [],
+    "top_tweets": []
   },
   "consensus": []
 }
