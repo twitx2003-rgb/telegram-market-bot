@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T23:46:24.000595+00:00",
+  "generated_at": "2026-08-20T01:10:12.836892+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -65,24 +65,36 @@
     ]
   },
   "x_synthesis": {
-    "total": 17,
+    "total": 30,
     "sentiment": {
       "bullish": {
-        "count": 6,
-        "pct": 35
+        "count": 10,
+        "pct": 33
       },
       "bearish": {
-        "count": 0,
-        "pct": 0
+        "count": 1,
+        "pct": 3
       },
       "neutral": {
-        "count": 11,
-        "pct": 65
+        "count": 19,
+        "pct": 63
       }
     },
     "top_tickers": [
       [
-        "$GOOGL",
+        "$AMZN",
+        2
+      ],
+      [
+        "$IBB",
+        2
+      ],
+      [
+        "$SPCX",
+        1
+      ],
+      [
+        "$AAPL",
         1
       ],
       [
@@ -90,15 +102,15 @@
         1
       ],
       [
-        "$MRNA",
+        "$GOOGL",
         1
       ],
       [
-        "$INFQ",
+        "$AAP",
         1
       ],
       [
-        "$AMZN",
+        "$ROST",
         1
       ]
     ],
@@ -109,7 +121,15 @@
         "url": "https://nitter.net/MikeZaccardi/status/2090204915339534381#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "WOLFSPEED $WOLF Q4’26 EARNINGS HIGHLIGHTS 🔹 Revenue: $149.6M (Est. $224M) 🔴 🔹 Adj. EPS: -$2.26 (Est. -$2.45) 🟢 🔹 Gross Margin: -25% 🔹 Free Cash Flow: -$60.9M (Est. -$108M) 🟢 Q1 Guide: 🔹 Revenue: $140M-$160M (Est. $150M) ",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090177257931481136#m",
+        "sentiment": "bearish",
+        "tag": "EARNINGS",
+        "time": "לפני 4ש׳"
       },
       {
         "text": "GS: The Fed’s move toward greater transparency over the last 30 years has led to a decline in FOMC meeting day surprises…",
@@ -117,7 +137,7 @@
         "url": "https://nitter.net/MikeZaccardi/status/2090208693170102689#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 1ש׳"
+        "time": "לפני 2ש׳"
       },
       {
         "text": "JUST IN : TRUMP HAS DELAYED 50 PERCENT TARIFFS AGAINST CANADA THAT WERE SCHEDULED TO GO LIVE TOMORROW BY 3 DAYS TRUMP SAYS CANADA AND USA HAVE A DEAL SUBJECT TO FINALIZATION OF DOCUMENTS 🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦🇨🇦",
@@ -125,47 +145,39 @@
         "url": "https://nitter.net/gurgavin/status/2089899701109743807#m",
         "sentiment": "bullish",
         "tag": "M&A",
-        "time": "לפני 21ש׳"
+        "time": "לפני 22ש׳"
       },
       {
-        "text": "SpaceX is building AI data centers and a $16.8 billion chip-manufacturing facility in Texas Read more: https://unusualwhales.com/news/musk-natural-gas-turbines-spacex-ai-data-centers",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090220013248553261#m",
+        "text": "Despite a leaked Apple video showing camera-equipped AirPods in action, with the cameras mainly designed to scan surroundings for AI context, the earbuds \"remain off\" $AAPL's 2026 roadmap.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090232464119898457#m",
         "sentiment": "neutral",
         "tag": "TECH",
-        "time": "לפני 15ד׳"
+        "time": "לפני 49ד׳"
       },
       {
-        "text": "Studios now average $4,088 per month, up 8% year over year, while one-bedrooms average $5,486, a 7% increase Read more: https://unusualwhales.com/news/manhattan-average-rent-record-6655",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090204913997668665#m",
+        "text": "TRUMP ANNOUNCES MAJOR ECONOMIC CAMPAIGN AGAINST IRAN President Trump announced sweeping new economic measures aimed at further isolating Iran after saying Tehran failed to reach a deal. Trump warned that countries provid",
+        "handle": "DeItaone",
+        "url": "https://nitter.net/DeItaone/status/2090213913598337351#m",
         "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "$MRNA is now the S&P 500’s second-best-performing stock this year after surging nearly 180% today. The move came after Moderna announced the first-ever positive Phase 3 results for a personalized cancer vaccine.",
-        "handle": "StockSavvyShay",
-        "url": "https://nitter.net/StockSavvyShay/status/2090184387359043690#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
+        "tag": "M&A",
         "time": "לפני 2ש׳"
       },
       {
-        "text": "No one wanted to own energy, gold, and crypto. Nice one from @Todd_Sohn via @TheChartReport",
-        "handle": "RyanDetrick",
-        "url": "https://nitter.net/RyanDetrick/status/2090213899404513397#m",
+        "text": "STARLINK REAPPLIES FOR INDIA 🇮🇳 GEN 2 APPROVAL Starlink is seeking authorization for nearly 30,000 Gen 2 LEO satellites operating at 340-615 km, including direct-to-device connectivity. India previously approved only Sta",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090235494932291839#m",
         "sentiment": "neutral",
-        "tag": "CRYPTO",
-        "time": "לפני 39ד׳"
+        "tag": "TECH",
+        "time": "לפני 37ד׳"
       },
       {
-        "text": "GS: Increased information from the Fed has generally lowered policy volatility…",
-        "handle": "MikeZaccardi",
-        "url": "https://nitter.net/MikeZaccardi/status/2090201141522948527#m",
+        "text": "Walmart $WMT headlines tomorrow morning’s earnings slate. Alibaba $BABA, Advance Auto $AAP, and NetEase $NTES also report before the open, with Ross Stores $ROST due after the close.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2090189688543834541#m",
         "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 1ש׳"
+        "tag": "EARNINGS",
+        "time": "לפני 3ש׳"
       }
     ]
   },
