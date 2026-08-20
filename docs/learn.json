@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T21:53:59.794943+00:00",
+  "generated_at": "2026-08-20T22:25:52.502065+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,7 +66,7 @@
     ]
   },
   "x_synthesis": {
-    "total": 0,
+    "total": 4,
     "sentiment": {
       "bullish": {
         "count": 0,
@@ -77,12 +77,54 @@
         "pct": 0
       },
       "neutral": {
-        "count": 0,
-        "pct": 0
+        "count": 4,
+        "pct": 100
       }
     },
-    "top_tickers": [],
-    "top_tweets": []
+    "top_tickers": [
+      [
+        "$KBE",
+        1
+      ],
+      [
+        "$QQQ",
+        1
+      ]
+    ],
+    "top_tweets": [
+      {
+        "text": "and just like that, the KBW Bank ETF $KBE is back down to its 50dma @augurinfinity https://augurdigest.com/p/augur-digest-307",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2090537104392495476#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "$QQQ 5-day losing streak @augurinfinity https://augurdigest.com/p/augur-digest-307",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2090534587927498956#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "Bitcoin working on its best week since Election 2024 +15%",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2090530218872013027#m",
+        "sentiment": "neutral",
+        "tag": "CRYPTO",
+        "time": "לפני 2ש׳"
+      },
+      {
+        "text": "Lazard: The negative correlation between high-risk and low-risk stocks is... extreme. @soberlook https://thedailyshot.com/subscribe/",
+        "handle": "MikeZaccardi",
+        "url": "https://nitter.net/MikeZaccardi/status/2090541072782930207#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 1ש׳"
+      }
+    ]
   },
   "consensus": []
 }
