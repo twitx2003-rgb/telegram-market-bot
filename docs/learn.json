@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T18:46:53.667593+00:00",
+  "generated_at": "2026-08-20T19:29:54.143926+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,69 +66,23 @@
     ]
   },
   "x_synthesis": {
-    "total": 4,
+    "total": 0,
     "sentiment": {
       "bullish": {
         "count": 0,
         "pct": 0
       },
       "bearish": {
-        "count": 1,
-        "pct": 25
+        "count": 0,
+        "pct": 0
       },
       "neutral": {
-        "count": 3,
-        "pct": 75
+        "count": 0,
+        "pct": 0
       }
     },
-    "top_tickers": [
-      [
-        "$WMT",
-        2
-      ],
-      [
-        "$BLDR",
-        1
-      ],
-      [
-        "$IBIT",
-        1
-      ]
-    ],
-    "top_tweets": [
-      {
-        "text": "This will be Walmart's $WMT sixth decline on its last seven earnings reaction days dating back to its first report of last year. If its 9% drop today holds, it will be its worst one-day drop on earnings since it fell 11.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090477769037640009#m",
-        "sentiment": "bearish",
-        "tag": "EARNINGS",
-        "time": "לפני 2ש׳"
-      },
-      {
-        "text": "iShares Bitcoin ETF $IBIT, now up 7% over the last six months.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090483610759344202#m",
-        "sentiment": "neutral",
-        "tag": "CRYPTO",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Builders FirstSource $BLDR is now down 66.66% from its 2024 highs. Tells you all you need to know about housing.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090487490775757136#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "Walmart $WMT was up 20% YTD at its high on 5/19. It's down 22.6% since and now down 6% YTD.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090475337897394636#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 2ש׳"
-      }
-    ]
+    "top_tickers": [],
+    "top_tweets": []
   },
   "consensus": []
 }
