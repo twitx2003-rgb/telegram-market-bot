@@ -1,28 +1,86 @@
 {
-  "generated_at": "2026-08-20T05:58:44.152406+00:00",
+  "generated_at": "2026-08-20T06:57:35.338531+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
     "videos": []
   },
   "x_synthesis": {
-    "total": 0,
+    "total": 4,
     "sentiment": {
       "bullish": {
-        "count": 0,
-        "pct": 0
+        "count": 1,
+        "pct": 25
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 0,
-        "pct": 0
+        "count": 3,
+        "pct": 75
       }
     },
-    "top_tickers": [],
-    "top_tweets": []
+    "top_tickers": [
+      [
+        "$IBB",
+        2
+      ],
+      [
+        "$BABA",
+        1
+      ],
+      [
+        "$ROST",
+        1
+      ],
+      [
+        "$AAP",
+        1
+      ],
+      [
+        "$NTES",
+        1
+      ],
+      [
+        "$WMT",
+        1
+      ]
+    ],
+    "top_tweets": [
+      {
+        "text": "Walmart $WMT headlines tomorrow morning’s earnings slate. Alibaba $BABA, Advance Auto $AAP, and NetEase $NTES also report before the open, with Ross Stores $ROST due after the close.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2090189688543834541#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 9ש׳"
+      },
+      {
+        "text": "Here's a look at today's big push higher for the biotech ETF $IBB after breaking out earlier in the week:",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2090169539874959550#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 10ש׳"
+      },
+      {
+        "text": "Here's the 20 largest biotech stocks in the $IBB ETF and how they've done this year. Up 43.7% on average YTD.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2090169027704320367#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 10ש׳"
+      },
+      {
+        "text": "Semis Down, Biotech Up https://bespokeinvest.substack.com/p/semis-down-biotech-up?r=826dn&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2090137240403890340#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 12ש׳"
+      }
+    ]
   },
   "consensus": []
 }
