@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:59:18.831948+00:00",
+  "generated_at": "2026-08-20T11:34:43.052258+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,23 +66,81 @@
     ]
   },
   "x_synthesis": {
-    "total": 0,
+    "total": 5,
     "sentiment": {
       "bullish": {
-        "count": 0,
-        "pct": 0
+        "count": 2,
+        "pct": 40
       },
       "bearish": {
-        "count": 0,
-        "pct": 0
+        "count": 1,
+        "pct": 20
       },
       "neutral": {
-        "count": 0,
-        "pct": 0
+        "count": 2,
+        "pct": 40
       }
     },
-    "top_tickers": [],
-    "top_tweets": []
+    "top_tickers": [
+      [
+        "$WMT",
+        2
+      ],
+      [
+        "$META",
+        1
+      ],
+      [
+        "$CRWD",
+        1
+      ],
+      [
+        "$ETSY",
+        1
+      ]
+    ],
+    "top_tweets": [
+      {
+        "text": "$META is spending hundreds of millions of dollars a year on Microsoft Azure AI services, making it one of Microsoft’s largest AI customers. Meta is reportedly consuming trillions of tokens weekly through Azure Foundry, i",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090398753924804688#m",
+        "sentiment": "bearish",
+        "tag": "TECH",
+        "time": "לפני 13ד׳"
+      },
+      {
+        "text": "WALMART $WMT Q2’27 EARNINGS HIGHLIGHTS 🔹 Revenue: $187.9B (Est. $186.7B) 🟢; +5.9% YoY 🔹 Adj. EPS: $0.81 (Est. $0.74) 🟢; +19% YoY 🔹 Net Income: $6.5B (Est. $5.91B) 🟢 🔹 eCommerce Sales: +23% globally Raises FY27 Guide: 🔹 A",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090394704471101707#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 29ד׳"
+      },
+      {
+        "text": "BofA Upgrades $ETSY to Buy, Raises PT to $105 from $88 Analyst comments: \"We are upgrading Etsy as execution under CEO Kruti Patel Goyal's four growth pillars appears more durable than expected, and recent 3P data contin",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090383315509657969#m",
+        "sentiment": "bullish",
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
+      },
+      {
+        "text": "Walmart $WMT posted its SLOWEST U.S. comparable-sales growth in more than six years, grew just 2.6%, missing the 3.7% estimate. They also guided Q3 adj EPS to $0.62-$0.64, below the $0.68 expected. Mgmt. said consumers r",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090396156325220632#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 23ד׳"
+      },
+      {
+        "text": "CrowdStrike $CRWD global CTO Elia Zaitsev is leaving after 13 years. He’ll team up with two former CrowdStrike execs at Cognition, a new cyber-focused venture firm raising a $170M fund to back early-stage AI security com",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090389660661088448#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 49ד׳"
+      }
+    ]
   },
   "consensus": []
 }
