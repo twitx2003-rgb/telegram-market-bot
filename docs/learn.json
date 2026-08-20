@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T20:34:14.187441+00:00",
+  "generated_at": "2026-08-20T21:26:28.131294+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,11 +66,11 @@
     ]
   },
   "x_synthesis": {
-    "total": 0,
+    "total": 1,
     "sentiment": {
       "bullish": {
-        "count": 0,
-        "pct": 0
+        "count": 1,
+        "pct": 100
       },
       "bearish": {
         "count": 0,
@@ -82,7 +82,16 @@
       }
     },
     "top_tickers": [],
-    "top_tweets": []
+    "top_tweets": [
+      {
+        "text": "RT by @DivesTech: Look forward to discussing the tech sector and AI Revolution on @CNBCClosingBell at 3 pm with @TheJudgeCNBC @CNBC 🔥🏆📺🍿🐂",
+        "handle": "DivesTech",
+        "url": "https://nitter.net/DivesTech/status/2090435506278449411#m",
+        "sentiment": "bullish",
+        "tag": "TECH",
+        "time": "לפני 7ש׳"
+      }
+    ]
   },
   "consensus": []
 }
