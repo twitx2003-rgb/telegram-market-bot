@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-20T02:36:54.198912+00:00",
+  "generated_at": "2026-08-20T03:45:28.519518+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
     "videos": []
   },
   "x_synthesis": {
-    "total": 19,
+    "total": 14,
     "sentiment": {
       "bullish": {
-        "count": 7,
-        "pct": 37
+        "count": 4,
+        "pct": 29
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 12,
-        "pct": 63
+        "count": 10,
+        "pct": 71
       }
     },
     "top_tickers": [
@@ -27,19 +27,19 @@
         2
       ],
       [
-        "$WMT",
+        "$AMZN",
         1
       ],
       [
-        "$ROST",
+        "$SPCX",
         1
       ],
       [
-        "$AAP",
+        "$GOOGL",
         1
       ],
       [
-        "$NTES",
+        "$NFLX",
         1
       ],
       [
@@ -47,34 +47,22 @@
         1
       ],
       [
-        "$ELF",
+        "$AAP",
+        1
+      ],
+      [
+        "$WMT",
         1
       ]
     ],
     "top_tweets": [
-      {
-        "text": "Divorce rates for individuals aged 65 and older increased from 5.2% in 1990 to 15.2% in 2022. Read more: https://unusualwhales.com/news/gray-divorce-rates-surge-among-americans-over-65",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090257006968135951#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 38ד׳"
-      },
-      {
-        "text": "The measures bar them from entering the United States and from carrying out transactions in the US financial system. Read more: https://unusualwhales.com/news/us-sanctions-icc-president-tomoko-akane",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090250212388573411#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
       {
         "text": "Goldman's study shows that FOMC minutes and pressers, along with forward guidance, help dampen rate volatility",
         "handle": "MikeZaccardi",
         "url": "https://nitter.net/MikeZaccardi/status/2090204915339534381#m",
         "sentiment": "bullish",
         "tag": "EARNINGS",
-        "time": "לפני 4ש׳"
+        "time": "לפני 5ש׳"
       },
       {
         "text": "GS: The Fed’s move toward greater transparency over the last 30 years has led to a decline in FOMC meeting day surprises…",
@@ -82,23 +70,15 @@
         "url": "https://nitter.net/MikeZaccardi/status/2090208693170102689#m",
         "sentiment": "neutral",
         "tag": "FED",
-        "time": "לפני 3ש׳"
+        "time": "לפני 4ש׳"
       },
       {
-        "text": "TRUMP ANNOUNCES MAJOR ECONOMIC CAMPAIGN AGAINST IRAN President Trump announced sweeping new economic measures aimed at further isolating Iran after saying Tehran failed to reach a deal. Trump warned that countries provid",
-        "handle": "DeItaone",
-        "url": "https://nitter.net/DeItaone/status/2090213913598337351#m",
+        "text": "RT by @StockSavvyShay: $SKHY ANNOUNCES RECORD ~$29B BUYBACK SK hynix is launching a massive share buyback and cancellation while changing its shareholder return policy from “up to 50%” of FCF to “at least 50%.” That’s a ",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2090022553352036497#m",
         "sentiment": "bullish",
-        "tag": "M&A",
-        "time": "לפני 3ש׳"
-      },
-      {
-        "text": "Weak demand at the long end means dealers are absorbing more paper, and that typically keeps upward pressure on yields until real money buyers step back in. Read more: https://unusualwhales.com/news/30-year-treasury-yiel",
-        "handle": "unusual_whales",
-        "url": "https://nitter.net/unusual_whales/status/2090250212371800072#m",
-        "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 1ש׳"
+        "time": "לפני 17ש׳"
       },
       {
         "text": "Walmart $WMT headlines tomorrow morning’s earnings slate. Alibaba $BABA, Advance Auto $AAP, and NetEase $NTES also report before the open, with Ross Stores $ROST due after the close.",
@@ -106,7 +86,7 @@
         "url": "https://nitter.net/bespokeinvest/status/2090189688543834541#m",
         "sentiment": "neutral",
         "tag": "EARNINGS",
-        "time": "לפני 5ש׳"
+        "time": "לפני 6ש׳"
       },
       {
         "text": "Here's a look at today's big push higher for the biotech ETF $IBB after breaking out earlier in the week:",
@@ -114,7 +94,31 @@
         "url": "https://nitter.net/bespokeinvest/status/2090169539874959550#m",
         "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 6ש׳"
+        "time": "לפני 7ש׳"
+      },
+      {
+        "text": "Here's the 20 largest biotech stocks in the $IBB ETF and how they've done this year. Up 43.7% on average YTD.",
+        "handle": "bespokeinvest",
+        "url": "https://nitter.net/bespokeinvest/status/2090169027704320367#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 7ש׳"
+      },
+      {
+        "text": "$SPCX Starlink is taking another shot at India with a new application for nearly 30,000 Gen 2 satellites including D2D service. India previously approved only its Gen 1 network as spectrum pricing and D2D rules are still",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2090236404324565317#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 3ש׳"
+      },
+      {
+        "text": "Trump just announced what he called the “most crushing economic operation ever taken against any country” targeting Iran with unprecedented economic isolation. He warned that any country providing Iran a financial “lifel",
+        "handle": "StockSavvyShay",
+        "url": "https://nitter.net/StockSavvyShay/status/2090215410801250507#m",
+        "sentiment": "bullish",
+        "tag": "NEWS",
+        "time": "לפני 4ש׳"
       }
     ]
   },
