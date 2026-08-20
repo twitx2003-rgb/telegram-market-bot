@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T16:33:36.835110+00:00",
+  "generated_at": "2026-08-20T17:27:46.562514+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,65 +66,23 @@
     ]
   },
   "x_synthesis": {
-    "total": 4,
+    "total": 0,
     "sentiment": {
       "bullish": {
-        "count": 1,
-        "pct": 25
+        "count": 0,
+        "pct": 0
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 3,
-        "pct": 75
+        "count": 0,
+        "pct": 0
       }
     },
-    "top_tickers": [
-      [
-        "$BX",
-        1
-      ],
-      [
-        "$GS",
-        1
-      ]
-    ],
-    "top_tweets": [
-      {
-        "text": "RT by @wallstengine: ANTHROPIC’S ODE TO ACQUIRE AI CONSULTANCY Anthropic-backed AI services venture Ode is reportedly acquiring AI consultancy Casper Studios, as it expands efforts to drive Claude adoption inside large b",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/IPONewsroom_/status/2090469109914079498#m",
-        "sentiment": "neutral",
-        "tag": "M&A",
-        "time": "לפני 32ד׳"
-      },
-      {
-        "text": "China’s 🇨🇳 semiconductor equipment imports rose 9% YoY in July, accelerating from 4% growth in June after declines earlier this year. The rebound is being driven mainly by logic-chip spending, with lithography imports up",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090476190851268685#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 4ד׳"
-      },
-      {
-        "text": "U.S. Treasury Sec. Bessent says companies issuing debt should favor 5-year maturities over longer-term debt.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090459828443558188#m",
-        "sentiment": "neutral",
-        "tag": "MACRO",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "U.S. TSY SEC BESSENT ON BONDS: Says Treasury will assess market conditions and take further action if needed, while focusing on fundamentals and keeping the market in equilibrium.",
-        "handle": "wallstengine",
-        "url": "https://nitter.net/wallstengine/status/2090459584347684987#m",
-        "sentiment": "neutral",
-        "tag": "MACRO",
-        "time": "לפני 1ש׳"
-      }
-    ]
+    "top_tickers": [],
+    "top_tweets": []
   },
   "consensus": []
 }
