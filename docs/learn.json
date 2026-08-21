@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:40:52.566257+00:00",
+  "generated_at": "2026-08-21T08:38:46.824571+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,7 +66,7 @@
     ]
   },
   "x_synthesis": {
-    "total": 2,
+    "total": 0,
     "sentiment": {
       "bullish": {
         "count": 0,
@@ -77,38 +77,12 @@
         "pct": 0
       },
       "neutral": {
-        "count": 2,
-        "pct": 100
+        "count": 0,
+        "pct": 0
       }
     },
-    "top_tickers": [
-      [
-        "$BJ",
-        1
-      ],
-      [
-        "$WMT",
-        1
-      ]
-    ],
-    "top_tweets": [
-      {
-        "text": "BJ's Wholesale $BJ is the only key earnings report on the calendar tomorrow.",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090551950378975721#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 10ש׳"
-      },
-      {
-        "text": "Check out our Conference Call Recap for Walmart $WMT at https://www.bespokepremium.com/interactive/posts/featured-reports/q2-2026-earnings-conference-call-recaps-walmart-wmt",
-        "handle": "bespokeinvest",
-        "url": "https://nitter.net/bespokeinvest/status/2090544238178000897#m",
-        "sentiment": "neutral",
-        "tag": "EARNINGS",
-        "time": "לפני 10ש׳"
-      }
-    ]
+    "top_tickers": [],
+    "top_tweets": []
   },
   "consensus": []
 }
