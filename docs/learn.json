@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T23:50:34.315478+00:00",
+  "generated_at": "2026-08-21T01:14:04.690443+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
@@ -66,62 +66,46 @@
     ]
   },
   "x_synthesis": {
-    "total": 5,
+    "total": 3,
     "sentiment": {
       "bullish": {
-        "count": 4,
-        "pct": 80
-      },
-      "bearish": {
         "count": 0,
         "pct": 0
       },
-      "neutral": {
+      "bearish": {
         "count": 1,
-        "pct": 20
+        "pct": 33
+      },
+      "neutral": {
+        "count": 2,
+        "pct": 67
       }
     },
     "top_tickers": [],
     "top_tweets": [
       {
-        "text": "The big money in the market isn't made by trading. It's made by sitting! - The market rewards patience, not activity - Expect normal pullbacks in winning stocks - Small profits are often the enemy of big ones - The bigge",
-        "handle": "cperruna",
-        "url": "https://nitter.net/cperruna/status/2090558997028090136#m",
-        "sentiment": "bullish",
-        "tag": "NEWS",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "RT by @cperruna: Has Bitcoin formed a bottom? A look back at the last two drawdowns (approx. 4 years apart). - 2018: -84% - 2022: -76% - 2026: -54% Then - 2018: $3,100 to $68,000, +2,000% - 2022: $15,000 to $126,000, +74",
-        "handle": "cperruna",
-        "url": "https://nitter.net/cperruna/status/2090246681677668807#m",
+        "text": "That is a noticeable increase from the end of 2025, when the industry’s portco count sat at 32,451 Read more: https://unusualwhales.com/news/private-equity-33575-unsold-businesses-nyt",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090604295460639139#m",
         "sentiment": "neutral",
-        "tag": "CRYPTO",
-        "time": "לפני 22ש׳"
-      },
-      {
-        "text": "Memory stocks are the hearts and lungs of the AI Revolution @CNBCClosingBell 🏆🇰🇷🔥",
-        "handle": "DivesTech",
-        "url": "https://nitter.net/DivesTech/status/2090570907253137865#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 1ש׳"
-      },
-      {
-        "text": "RT by @DivesTech: Look forward to discussing the tech sector and AI Revolution on @CNBCClosingBell at 3 pm with @TheJudgeCNBC @CNBC 🔥🏆📺🍿🐂",
-        "handle": "DivesTech",
-        "url": "https://nitter.net/DivesTech/status/2090435506278449411#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 10ש׳"
-      },
-      {
-        "text": "RT by @cperruna: Investing for Success - Buy strength, not weakness - Pyramid into winning positions - Buy with the trend - The big money is made by sitting - Cut losing positions - Focus on market leaders - Keep records",
-        "handle": "cperruna",
-        "url": "https://nitter.net/cperruna/status/2090243787054571821#m",
-        "sentiment": "bullish",
         "tag": "NEWS",
-        "time": "לפני 22ש׳"
+        "time": "לפני 15ד׳"
+      },
+      {
+        "text": "Burry has re-entered out-of-the-money put trades on Palantir, purchasing March 2027 puts with strike prices in the low-to-mid $100 as option volatility cooled Read more: https://unusualwhales.com/news/michael-burry-palan",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090597500713681256#m",
+        "sentiment": "bearish",
+        "tag": "NEWS",
+        "time": "לפני 42ד׳"
+      },
+      {
+        "text": "The change is effective September 9, 2026 and runs through November 4, 2026, with more detail on future buyback sizes due at the next Quarterly Refunding on November 4. Read more: https://unusualwhales.com/news/treasury-",
+        "handle": "unusual_whales",
+        "url": "https://nitter.net/unusual_whales/status/2090589195974918179#m",
+        "sentiment": "neutral",
+        "tag": "EARNINGS",
+        "time": "לפני 1ש׳"
       }
     ]
   },
