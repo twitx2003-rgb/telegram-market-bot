@@ -1,66 +1,28 @@
 {
-  "generated_at": "2026-08-21T02:43:50.633017+00:00",
+  "generated_at": "2026-08-21T03:49:23.064321+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
     "videos": []
   },
   "x_synthesis": {
-    "total": 4,
+    "total": 0,
     "sentiment": {
       "bullish": {
-        "count": 1,
-        "pct": 25
+        "count": 0,
+        "pct": 0
       },
       "bearish": {
         "count": 0,
         "pct": 0
       },
       "neutral": {
-        "count": 3,
-        "pct": 75
+        "count": 0,
+        "pct": 0
       }
     },
-    "top_tickers": [
-      [
-        "$NVDA",
-        1
-      ]
-    ],
-    "top_tweets": [
-      {
-        "text": "Talking the Fed and inflation with @ArthurHoganIII on Ep. 200 of Facts vs Feelings",
-        "handle": "RyanDetrick",
-        "url": "https://nitter.net/RyanDetrick/status/2090550638253945287#m",
-        "sentiment": "neutral",
-        "tag": "FED",
-        "time": "לפני 5ש׳"
-      },
-      {
-        "text": "Facts vs Feelings Ep. 201: Is The Consumer Tapped Out? This week, @sonusvarghese and I take a closer look at the state of the consumer. We also discuss: 📈 The strength of the bull market 💪 Why the consumer is still healt",
-        "handle": "RyanDetrick",
-        "url": "https://nitter.net/RyanDetrick/status/2090541861069074745#m",
-        "sentiment": "bullish",
-        "tag": "TECH",
-        "time": "לפני 5ש׳"
-      },
-      {
-        "text": "Total government debt was $20 trillion nine years ago and is $40 trillion now. Household net worth was $101 trillion nine years ago and is $183 trillion now. No one likes all the debt we have, but you have to consider th",
-        "handle": "RyanDetrick",
-        "url": "https://nitter.net/RyanDetrick/status/2090553076893507596#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 5ש׳"
-      },
-      {
-        "text": "KALSHI JUST ANALYZED EVERY MARKET IT HAS EVER RAN WHEN THE CROWD SAYS SOMETHING HAS A 70% CHANCE, IT ACTUALLY HAPPENS ABOUT 70% OF THE TIME THE PEOPLE ARE BETTER THAN THE NEWS AND POLLS AT FORECASTING THE FUTURE",
-        "handle": "gurgavin",
-        "url": "https://nitter.net/gurgavin/status/2090515948709028305#m",
-        "sentiment": "neutral",
-        "tag": "NEWS",
-        "time": "לפני 7ש׳"
-      }
-    ]
+    "top_tickers": [],
+    "top_tweets": []
   },
   "consensus": []
 }
