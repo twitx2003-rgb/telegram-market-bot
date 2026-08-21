@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21T03:49:23.064321+00:00",
+  "generated_at": "2026-08-21T04:36:34.862247+00:00",
   "micha": {
     "channel_id": "UCSxjNbPriyBh9RNl_QNSAtw",
     "handle": "@Micha.Stocks",
     "videos": []
   },
   "x_synthesis": {
-    "total": 0,
+    "total": 6,
     "sentiment": {
       "bullish": {
         "count": 0,
@@ -17,12 +17,70 @@
         "pct": 0
       },
       "neutral": {
-        "count": 0,
-        "pct": 0
+        "count": 6,
+        "pct": 100
       }
     },
-    "top_tickers": [],
-    "top_tweets": []
+    "top_tickers": [
+      [
+        "$ASTS",
+        1
+      ],
+      [
+        "$SPCX",
+        1
+      ]
+    ],
+    "top_tweets": [
+      {
+        "text": "ANTHROPIC ADDS CITI TO IPO BANK LINEUP Citigroup is set to join Morgan Stanley, Goldman Sachs and JPMorgan among the lead banks working on Anthropic’s upcoming IPO. Anthropic is considering filing for the listing as soon",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090553987472957551#m",
+        "sentiment": "neutral",
+        "tag": "M&A",
+        "time": "לפני 6ש׳"
+      },
+      {
+        "text": "SpaceX $SPCX and AST SpaceMobile $ASTS are reportedly interested in acquiring 800 MHz spectrum licenses valued around $6B. The licenses cover nearly the entire U.S. population and could support direct-to-device satellite",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090580070322905410#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 5ש׳"
+      },
+      {
+        "text": "OpenAI is starting to close the gap with Anthropic among Ramp’s 70,000+ U.S. business customers. Anthropic: ~44% share OpenAI: ~40% Nearly 56% of Ramp businesses now pay for AI, up from just over 50% in March.",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090578087696351431#m",
+        "sentiment": "neutral",
+        "tag": "TECH",
+        "time": "לפני 5ש׳"
+      },
+      {
+        "text": "Talking the Fed and inflation with @ArthurHoganIII on Ep. 200 of Facts vs Feelings",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2090550638253945287#m",
+        "sentiment": "neutral",
+        "tag": "FED",
+        "time": "לפני 7ש׳"
+      },
+      {
+        "text": "SAMSUNG EYES UP TO $79 BILLION IN SHAREHOLDER RETURNS",
+        "handle": "wallstengine",
+        "url": "https://nitter.net/wallstengine/status/2090585720272634089#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 4ש׳"
+      },
+      {
+        "text": "Total government debt was $20 trillion nine years ago and is $40 trillion now. Household net worth was $101 trillion nine years ago and is $183 trillion now. No one likes all the debt we have, but you have to consider th",
+        "handle": "RyanDetrick",
+        "url": "https://nitter.net/RyanDetrick/status/2090553076893507596#m",
+        "sentiment": "neutral",
+        "tag": "NEWS",
+        "time": "לפני 7ש׳"
+      }
+    ]
   },
   "consensus": []
 }
